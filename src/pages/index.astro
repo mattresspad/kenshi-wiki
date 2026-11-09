@@ -64,8 +64,6 @@ const resolved = sections.map((section) => ({
   cards: section.cards.map((card) => ({ ...card, href: resolve(card.page)?.href, links: card.links.map(resolve).filter(Boolean) })),
 }));
 
-// Cards list their links in two columns once there are more than five.
-const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.length / 2)), links.slice(Math.ceil(links.length / 2))] : [links]);
 ---
 
 <WikiLayout
@@ -75,83 +73,51 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
   categories={['Kenshi Wiki']}
   mainPage
 >
-  <div class="mainpage-intro">
-    <center>
-      <a href="/"><img class="mainpage-wordmark" src="/kenshi-wordmark.png" alt="Kenshi" width="400" height="187" /></a>
-    </center>
-    <center>
-      <big>
-        <b><a href="https://store.steampowered.com/app/233860/Kenshi/">Kenshi</a></b> is an open-world, squad-based RPG developed by{' '}
-        <b><a href={developmentUrl}>Lo-Fi&nbsp;Games</a></b>, an independent studio founded by{' '}
-        <b><a href={developmentUrl}>Chris&nbsp;Hunt</a></b>.
-        <br />
-        Read more about the game at <a href={wiki('About Kenshi')}>About Kenshi</a>.
-      </big>
-    </center>
-
-    <div class="mainpage-about">
-      <div class="mainpage-about-text">
-        <p>
-          <br />
-          Patch notes for every release are on <a class="external" href="https://store.steampowered.com/news/app/233860">Kenshi's Steam news page</a>.
-        </p>
-        <p>
-          <br />
-          This wiki is written by the community. Every page is a file in our <a href={repoUrl}>GitHub repository</a>, and
-          changes are made as pull requests. It is recommended to read the <a href={`${repoUrl}#contributing`}>contribution guide</a>.
-        </p>
-      </div>
-      <div class="mainpage-about-links">
-        <dl>
-          <dd>&#9642;&nbsp;<a class="external" href="https://store.steampowered.com/app/233860/Kenshi/">Steam Page</a></dd>
-          <dd>&#9642;&nbsp;<a class="external" href="https://lofigames.com/">Lo-Fi Games</a></dd>
-        </dl>
-        <dl>
-          <dd>&#9642;&nbsp;<a class="external" href="https://www.reddit.com/r/Kenshi/">Kenshi on Reddit</a></dd>
-          <dd>&#9642;&nbsp;<a class="external" href="https://steamcommunity.com/app/233860/workshop/">Steam Workshop</a></dd>
-        </dl>
-      </div>
+  <div class="home-intro">
+    <a href="/" aria-label="Kenshi Wiki main page">
+      <img class="home-wordmark" src="/kenshi-wordmark.png" alt="Kenshi" width="400" height="187" />
+    </a>
+    <div>
+      <p>
+        <strong><a href="https://store.steampowered.com/app/233860/Kenshi/">Kenshi</a></strong> is an open-world, squad-based RPG by{' '}
+        <a href={developmentUrl}>Lo-Fi Games</a>, the studio founded by <a href={developmentUrl}>Chris Hunt</a>.
+      </p>
+      <nav aria-label="About the game and wiki">
+        <ul class="home-quick-links">
+          <li><a href={wiki('About Kenshi')}>About Kenshi</a></li>
+          <li><a href={wiki('Category:Guides')}>Guides</a></li>
+          <li><a href="https://store.steampowered.com/news/app/233860">Patch notes</a></li>
+          <li><a href={`${repoUrl}#contributing`}>Contribute</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
 
-  <center>
-    <h3><b>Need some help? Check out the <a href={wiki('Category:Guides')}>guides</a> for information!</b></h3>
-  </center>
-
-  <div class="mainpage-sections">
-    {resolved.map((section) => (
-      <div class="mainpage-section">
-        <h2><span class="mw-headline" id={section.title}>{section.title}</span></h2>
-        <div class="mainpage-boxes">
-          {section.cards.map((card) => (
-            <div class="mainpage-box-wrap">
-            <div class="mainpage-box">
-              <div class="mainpage-box-side">
-                <div class="mainpage-box-title">
-                  <center><b>{card.href ? <a href={card.href}>{card.title}</a> : card.title}</b></center>
-                </div>
-                <div class="mainpage-box-icon">
-                  {card.image ? (
-                    <img class={card.cutout ? 'cutout' : undefined} src={`/images/kenshi/main-page/${card.image}`} alt="" width="96" height="96" loading="lazy" />
-                  ) : (
-                    <center><span aria-hidden="true">{card.icon}</span></center>
-                  )}
+  <nav class="home-directory" aria-label="Browse wiki topics">
+    <div class="home-sections">
+      {resolved.map((section) => (
+        <section aria-labelledby={section.title}>
+          <h2 id={section.title}>{section.title}</h2>
+          <div class="directory-groups">
+            {section.cards.map((card) => (
+              <div class="directory-group">
+                {card.image ? (
+                  <img class:list={['directory-thumb', { cutout: card.cutout }]} src={`/images/kenshi/main-page/${card.image}`}
+                    width="64" height="64" alt="" loading="lazy" />
+                ) : (
+                  <span class="directory-thumb" aria-hidden="true">{card.icon}</span>
+                )}
+                <div>
+                  <h3>{card.href ? <a href={card.href}>{card.title}</a> : card.title}</h3>
+                  <ul>
+                    {card.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+                  </ul>
                 </div>
               </div>
-              {columns(card.links).map((column) => (
-                <div class="mainpage-box-links">
-                  <p>
-                    {column.map((link) => (
-                      <Fragment>&#9642; <a href={link.href}>{link.label}</a><br /></Fragment>
-                    ))}
-                  </p>
-                </div>
-              ))}
-            </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    ))}
-  </div>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </nav>
 </WikiLayout>

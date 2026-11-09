@@ -66,6 +66,7 @@ const resources = [...platforms, ...morePlatforms];
   </div>
 
   <div class="wiki-page-bar">
+    <button id="navigation-toggle" class="wiki-page-tab navigation-toggle" type="button" aria-controls="mw-panel" aria-expanded="true" hidden>Navigation</button>
     <a class="wiki-page-tab" aria-current="page" href={mainPage ? '/' : wiki(title)}>{mainPage ? 'Main page' : 'Page'}</a>
     <nav class="page-history" aria-label="Revision history">
       {history.map(({ label, href }) => <a class="wiki-page-tab" href={href}>{label}</a>)}

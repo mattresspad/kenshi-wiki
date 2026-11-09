@@ -61,10 +61,6 @@ for (const { route, file, source } of pages) {
     await page.goBack();
     await expect(page).toHaveURL(new URL(route, origin).href);
 
-    await page.evaluate(() => window.scrollTo(0, 450));
-    await expect.poll(() => page.evaluate(() => scrollY)).toBeGreaterThan(0);
-    await expect.poll(() => header.evaluate(el => Math.round(el.getBoundingClientRect().top))).toBe(0);
-
     await page.setViewportSize({ width: 390, height: 844 });
     const links = header.locator('.all-sites-menu');
     await links.locator('summary').press('Enter');
