@@ -56,6 +56,8 @@
 }
 
 @media screen and (width < 64rem), screen and (height < 40rem) {
+  .mw-parser-output p a[href^="http"] { overflow-wrap: anywhere; }
+
   /* Give wide data tables a local horizontal scrollbar in the single-column reader. */
   .mw-parser-output table.wikitable {
     display: block;
@@ -304,6 +306,57 @@
   border-inline-end: 1px solid var(--color-border-chrome);
   box-shadow: inset 0 -2px var(--accent-300);
 }
+
+/* The page title and category prefix use the space left by navigation, history and search. */
+.page-context {
+  position: relative;
+  display: flex;
+  align-self: stretch;
+  flex: 1 1 0;
+  min-width: 0;
+}
+.context-viewport { flex: none; width: 0; overflow: clip; }
+.context-viewport[inert], .context-track > [inert] { visibility: hidden; }
+.context-track { display: flex; align-items: center; width: max-content; height: 100%; white-space: nowrap; }
+.context-tab { gap: .3em; }
+.context-tab span, .context-category-label { color: var(--paper-10); }
+.context-category-label { padding-inline: .65rem .2rem; }
+.context-category { display: inline-flex; align-items: center; align-self: stretch; padding-inline: .3rem; }
+.context-category + .context-category::before { content: '·' / ''; margin-inline-end: .6rem; color: var(--paper-09); }
+.context-menu { flex: none; max-width: 100%; }
+.page-context [hidden] { display: none; }
+.context-menu > summary {
+  box-sizing: border-box;
+  height: 100%;
+  max-width: 100%;
+  padding-inline: .7rem;
+  border-radius: 0;
+  box-shadow: inset 1px 0 var(--color-border-chrome), inset -1px 0 var(--color-border-chrome), inset 0 -2px var(--accent-300);
+}
+.context-menu > summary span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.context-menu > summary::after { flex: none; }
+.page-context[data-split] .context-menu > summary { box-shadow: none; }
+.context-menu .ribbon-panel {
+  width: max-content;
+  min-width: min(11rem, calc(100cqi - 7.5rem));
+  max-width: min(21rem, calc(100cqi - 7.5rem));
+}
+.context-menu .ribbon-link { white-space: normal; overflow-wrap: anywhere; }
+.context-menu-categories { display: grid; }
+.context-current:not([hidden]) + .context-menu-categories { margin-block-start: .25rem; border-top: 1px solid var(--color-border-chrome); }
+@container wiki-ribbon (32rem < width <= 40rem) {
+  .wiki-header:has(.page-context) .tools-direct,
+  .wiki-page-bar:has(.page-context) .page-history { display: none; }
+  .wiki-header:has(.page-context) .tools-menu { display: block; }
+}
+@container wiki-ribbon (max-width: 32rem) {
+  .page-context { --compact-context: 1; }
+  .wiki-page-bar:has(.page-context) #p-search { flex: 1 1 1.25rem; }
+}
+@media screen {
+  #catlinks { display: none; }
+}
+
 .page-history {
   display: flex;
   align-self: stretch;
@@ -354,6 +407,7 @@
 
 @media print {
   .wiki-header, #mw-panel, .reader-skip { display: none; }
+  #catlinks { display: block; }
   #content { height: auto; overflow: visible; }
   #footer.reader-footer { break-inside: avoid; }
 }

@@ -12,7 +12,8 @@ test('the full homepage directory fits a 1440 × 900 reader with the rail open',
   expect(Math.max(...tops) - Math.min(...tops)).toBeLessThan(1);
   expect(await main.evaluate(el => el.scrollHeight - el.clientHeight)).toBeLessThanOrEqual(1);
   await expect(directory.getByRole('link').last()).toBeInViewport({ ratio: 1 });
-  await expect(page.locator('#catlinks')).toBeInViewport({ ratio: 1 });
+  await expect(page.locator('#catlinks')).toHaveCount(0);
+  await expect(page.locator('.wiki-header a[aria-current="page"]')).toHaveText('Main page');
   const footer = await page.locator('footer').boundingBox();
   expect(Math.round(footer.y + footer.height)).toBe(900);
 

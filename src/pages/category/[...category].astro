@@ -18,7 +18,8 @@ const count = articles.length === 1 ? '1 page' : `${articles.length} pages`;
 ---
 
 <WikiLayout
-  title={`Category:${name}`}
+  kind="category"
+  title={name}
   description={`Kenshi Wiki pages in the ${name} category.`}
   source="src/pages/category/[...category].astro"
   searchable={false}

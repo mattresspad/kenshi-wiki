@@ -172,7 +172,7 @@ test('Random page opens an article, and category links lead to their category', 
   await expect(page.locator('.fandom-notice')).toBeVisible();
 
   await page.goto('/nodachi');
-  await page.locator('#catlinks').getByRole('link', { name: 'Weapons', exact: true }).click();
+  await page.locator('.wiki-header').getByRole('link', { name: 'Weapons', exact: true }).click();
   await expect(page).toHaveURL(new URL('/category/weapons', baseURL).href);
   await expect(page.locator('.category-columns').getByRole('link', { name: 'Nodachi', exact: true })).toHaveAttribute('href', '/nodachi');
 });
