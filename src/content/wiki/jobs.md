@@ -24,7 +24,7 @@ These are the categories which jobs fall under:
 -   The Jobs list will be cleared upon becoming a [slave](/slavery) and you will be given the Obedient Slave job instead.
 -   Some jobs, like Medic and [Turret](/turrets) jobs, will be given priority whenever a viable target is found, regardless of their position on the list. These jobs will only stop after being removed from the character's list entirely.
 -   Jobs for outpost-related things like mining and machinery will be ignored once the character gets too far from the outpost the job was issued for. Eventually the description of the job in the window will become simplified and it might not be restored when the character returns.
--   A [skeleton](/skeletons) with the Medic job but not the Robotics job does not repair itself, even when carrying [Skeleton Repair Kits](/skeleton-repair-kit); once given the Robotics job, it does.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>
+-   A [skeleton](/skeleton) with the Medic job but not the Robotics job does not repair itself, even when carrying [Skeleton Repair Kits](/skeleton-repair-kit); once given the Robotics job, it does.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>
 
 ## References
 
