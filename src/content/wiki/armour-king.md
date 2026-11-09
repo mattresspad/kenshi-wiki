@@ -17,7 +17,7 @@ infobox:
         - ["String ID","50250-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Now maybe you are thinking, "I should kill Armour King so I can take all his great armour."<p>I don't recommend this action however.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>– Armour King</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Now maybe you are thinking, "I should kill Armour King so I can take all his great armour."<p>I don't recommend this action however.</p></blockquote><figcaption>Armour King</figcaption></figure>
 
 The **Armour King** is a [Skeleton](/skeleton) merchant who sells [Armour](/armour) gear in [Armour King's Shop](/armour-kings-shop). He is a masterful armoursmith who produces high-end armor to give travelers superior protection.
 
@@ -67,7 +67,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 We know far more about Armour King's shop than we know about Armour King himself. According to Armour King, he started his shop in a thriving Second Empire town called Catch nine-hundred thirty seven years ago. This coincides very nearly with the [fall of the Second Empire](/history-of-kenshi), yet Catch (a Second Empire town) was still thriving, meaning that the fall of the Second Empire likely didn't occur at a set date; it probably occurred over a very long period of time, with select towns falling into rebellion or disrepair, until eventually all that was left of the Second Empire was [Cat-Lon's Exile](/cat-lons-exile). This is further supported by what Armour King says about the collapse of the Second Empire.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It just sort of rotted and fell apart. A mental disease. Very strange. Not at all like the First Empire.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–- Armour King</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It just sort of rotted and fell apart. A mental disease. Very strange. Not at all like the First Empire.</blockquote><figcaption>- Armour King</figcaption></figure>
 
 We do know that Armour King has travelled around the world (he uses it in his sales pitch) and that he took Thralls from the Ashlands and modified them to work in his shop. Whether he took already broken skeletons or did [something more sinister](/skeleton-no-head-mkii) is not elaborated on.
 

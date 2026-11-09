@@ -22,7 +22,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Smaller lighter generators would work better in environments with low wind, or provide more consistent power where weather is erratic.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Smaller lighter generators would work better in environments with low wind, or provide more consistent power where weather is erratic.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Light Wind Generator Theory** is [Electrics Tech](/electrics-tech) which allows the player to construct [Small Wind Generators](/small-wind-generator).
 

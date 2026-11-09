@@ -26,7 +26,7 @@ infobox:
         - ["String ID","1310-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Attack.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–a Jounin's declaration</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Attack.</blockquote><figcaption>a Jounin's declaration</figcaption></figure>
 
 **Sand Ninja Jounin** are elite units of the [Sand Ninjas](/sand-ninjas). These mysterious ninja travel by themselves in the desert, attacking anybody who gets near.
 

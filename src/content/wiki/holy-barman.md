@@ -19,7 +19,7 @@ infobox:
         - ["Legwear","<a href=\"/halfpants-ragged\">Halfpants (ragged)</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Love and devotion, brother. Need supplies?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Holy Barman greeting</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Love and devotion, brother. Need supplies?</blockquote><figcaption>Holy Barman greeting</figcaption></figure>
 
 **Holy Barmen** are shopkeepers of [The Holy Nation](/the-holy-nation). They reside and sell items from [Holy Nation Bars](/holy-nation-bar).
 

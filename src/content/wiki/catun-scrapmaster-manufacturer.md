@@ -7,7 +7,7 @@ source:
 categories: ["Manufacturers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Catun Scrapmasters are probably the only major smithing group producing weapons in the modern age. Their blades are good quality and used all over the continent.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Catun Scrapmasters are probably the only major smithing group producing weapons in the modern age. Their blades are good quality and used all over the continent.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Catun Scrapmaster** is a weapon manufacturer company based in the city [Catun](/catun). They are a mid-grade manufacturer of [weapons](/weapons). Their quality is above average, as is their price and weight. The weapons manufactured by them deal 20% increased blunt damage. The downsides are that they are heavier, potentially taking considerable strength to master them and weapons that deal mostly cutting damage do not benefit as much or at all in some cases.
 

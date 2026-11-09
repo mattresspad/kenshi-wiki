@@ -19,7 +19,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Rrrrrgggghhhh!<p>Canhead mighty!</p><p>Meat for Canhead!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–- Mighty Canhead</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Rrrrrgggghhhh!<p>Canhead mighty!</p><p>Meat for Canhead!</p></blockquote><figcaption>- Mighty Canhead</figcaption></figure>
 
 **Mighty Canhead** is a unique character and a 'Magi' of the [Cannibals](/cannibals) faction. He will head a [Raid Event](/mighty-canhead-event) with 60+ other [Cannibals](/cannibal) if the player has an [outpost](/guide-to-building-an-outpost) in or near Cannibal lands. Mighty Canhead can also attack if the player has been causing a lot of trouble in the Cannibal plains, such as attacking the [Grand Cannibal Wizard](/cannibal-grand-wizard). If Mighty Canhead loses the assault, he will try again within 4 days. If he succeeds, there is a 10% chance that he will not return.
 

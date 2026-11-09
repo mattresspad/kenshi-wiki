@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/royal-valley\">Royal Valley</a>, <a href=\"/flats-lagoon-zone\">Flats Lagoon</a>, <a href=\"/stobes-gamble\">Stobe's Gamble</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Stand guard for grievewraiths. They surely exist in the Forbidden Zone...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/shek">Shek</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Stand guard for grievewraiths. They surely exist in the Forbidden Zone...</blockquote><figcaption><a href="/shek">Shek</a> Player Characters</figcaption></figure>
 
 **Greyshelf** is a zone in the southeast. It comprises the entirety of the highlands above [Stobe's Gamble](/stobes-gamble) and is separated from [Royal Valley](/royal-valley) by a mountain range. It is primarily inhabited by the [Southern Hive](/southern-hive), with their heartlands to the south of this area.
 

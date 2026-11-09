@@ -21,8 +21,6 @@ infobox:
         - ["String ID","19612-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td></td><td>”</td></tr></tbody></table>
-
 **Shek Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a shek retainer.
 
 They have a Fearful [Personality](/personality) and after recruited have the "Player SHEK Warrior" Dialogue Package. They wear no armour and have weapons manufactured by [Unknown](/unknown).

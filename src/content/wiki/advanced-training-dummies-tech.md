@@ -21,6 +21,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A specially made training dummy, its pretty clever. It will let rookies train their attack skills up to level 15. There's no way a rookie can take his training any further than this without facing real combat.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A specially made training dummy, its pretty clever. It will let rookies train their attack skills up to level 15. There's no way a rookie can take his training any further than this without facing real combat.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Advanced Training Dummies** is [Training Tech](/training-tech).

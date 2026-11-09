@@ -24,7 +24,7 @@ infobox:
         - ["String ID","43484-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I have to go... before the paladins come for me...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I have to go... before the paladins come for me...</blockquote></figure>
 
 **Holy Nation Robots** are randomly named possible recruits found patrolling [Northern Coast](/northern-coast), [Okran's Valley](/okrans-valley), and [Wend](/wend) in squads of 1-4. They are members of the [Skeletons](/skeletons) faction
 

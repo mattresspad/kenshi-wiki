@@ -14,7 +14,7 @@ infobox:
         - ["Trade Culture","<a href=\"/swamper-trade-culture\">Swamper Trade Culture</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Between you and me... the Stone Rats are nothing more than a bunch of thugs. I goddamn hate them myself, saunterin' around town like they own the place. They run a protection racket so they like to beat Cats out of the honest business owners like me...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Swamper Barman</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Between you and me... the Stone Rats are nothing more than a bunch of thugs. I goddamn hate them myself, saunterin' around town like they own the place. They run a protection racket so they like to beat Cats out of the honest business owners like me...</blockquote><figcaption>Swamper Barman</figcaption></figure>
 
 The **Stone Rats** are one of the many gangs that reside in [the Swamp](/the-swamp). They can be found in the city [Shark](/shark) or their village called [Stone Rat Village](/stone-rat-village) where their leader [Big Al](/big-al) lives.
 

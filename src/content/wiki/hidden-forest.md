@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/arm-of-okran\">Arm of Okran</a>, <a href=\"/northern-coast\">Northern Coast</a>, <a href=\"/cannibal-plains\">Cannibal Plains</a> <a href=\"/floodlands\">Floodlands</a>, <a href=\"/wend\">Wend</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This is it. We've finally travelled beyond the holy lands.<p>I've heard stories that the mouth of the abyss lies ahead past these hills, the lands ravaged with demons and unholy monsters from the underworld...</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/griffin">Griffin</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This is it. We've finally travelled beyond the holy lands.<p>I've heard stories that the mouth of the abyss lies ahead past these hills, the lands ravaged with demons and unholy monsters from the underworld...</p></blockquote><figcaption><a href="/griffin">Griffin</a></figcaption></figure>
 
 **Hidden Forest** is a zone dominated by sparse, rocky forests. [Prospecting](/prospecting) reveals little to no natural resources besides some water with no fertility to the South, but high water and fertility near the North coast, as well as in the southwestern transition to Floodlands. The Northern Coast has large [river raptor](/river-raptor) packs.
 

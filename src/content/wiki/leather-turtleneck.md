@@ -5,9 +5,32 @@ source:
   title: "Leather Turtleneck"
   revision: 90051
 categories: ["Armour","Shirts","Light Armour"]
+infobox:
+  title: "Leather Turtleneck"
+  image: "/icons/items/2213-gamedata.base.png"
+  caption: "Undershirts provide a reliable second layer of defence."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 4,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Chest","100% covered"]
+        - ["Left Arm","90% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","90% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2213-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Undershirts provide a reliable second layer of defence.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Leather Turtleneck** is a Light Armour that is equipped in the Shirt slot. It can be bought from Mongrel, UC, HN, and Swamp armour and clothing vendors.
 
@@ -23,20 +46,10 @@ The Leather Turtleneck covers the entire torso of the character. It is made of a
 
 ## Grades
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Turtleneck</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>1.12%</td></tr><tr><td>-Cut resistance</td><td>1.76%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>0.875pts</td></tr><tr><td>-Weight</td><td>2.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.246</td></tr><tr><td>-Sell value</td><td>c.61</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>90%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Turtleneck</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>4.48%</td></tr><tr><td>-Cut resistance</td><td>7.04%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>3.5pts</td></tr><tr><td>-Weight</td><td>2.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,251</td></tr><tr><td>-Sell value</td><td>c.312</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>90%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Turtleneck</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>8.98%</td></tr><tr><td>-Cut resistance</td><td>14.08%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>7pts</td></tr><tr><td>-Weight</td><td>2.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.4,470</td></tr><tr><td>-Sell value</td><td>c.1,117</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>90%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Turtleneck</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>13.44%</td></tr><tr><td>-Cut resistance</td><td>21.12%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>10.5pts</td></tr><tr><td>-Weight</td><td>2.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.9,834</td></tr><tr><td>-Sell value</td><td>c.2,458</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>90%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Turtleneck</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>17.92%</td></tr><tr><td>-Cut resistance</td><td>28.16%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>14pts</td></tr><tr><td>-Weight</td><td>2.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.17,343</td></tr><tr><td>-Sell value</td><td>c.4,335</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>90%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Turtleneck</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>21.28%</td></tr><tr><td>-Cut resistance</td><td>33.44%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>16.625pts</td></tr><tr><td>-Weight</td><td>2.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.24,384</td></tr><tr><td>-Sell value</td><td>c.6,096</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>90%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1.12%</td><td>4.48%</td><td>8.98%</td><td>13.44%</td><td>17.92%</td><td>21.28%</td></tr><tr><th scope="row">Cut resistance</th><td>1.76%</td><td>7.04%</td><td>14.08%</td><td>21.12%</td><td>28.16%</td><td>33.44%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">50%</td></tr><tr><th scope="row">Harpoon resistance</th><td>0.875pts</td><td>3.5pts</td><td>7pts</td><td>10.5pts</td><td>14pts</td><td>16.625pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">2.6875 kg</td></tr><tr><th scope="row">Value</th><td>c.246</td><td>c.1,251</td><td>c.4,470</td><td>c.9,834</td><td>c.17,343</td><td>c.24,384</td></tr><tr><th scope="row">Sell value</th><td>c.61</td><td>c.312</td><td>c.1,117</td><td>c.2,458</td><td>c.4,335</td><td>c.6,096</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">100%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">100%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">90%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">90%</td></tr></tbody></table>
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Leather Turtleneck<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Leather Turtleneck</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.86</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>4.3</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Leather Turtleneck blueprint: 12 hours at tech level 1; the blueprint is worth c. 11,175.</li></ul></div>
 
 It can be crafted using the [Leather Armour Crafting Bench](/leather-armour-crafting-bench) after researching the blueprint.

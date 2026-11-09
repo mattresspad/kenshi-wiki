@@ -22,7 +22,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Useful things for any traveller.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Useful things for any traveller.</blockquote><figcaption>In-game Description</figcaption></figure>
 
 **Sleeping Bags** is [Crafting Tech](/crafting-tech) which allows the player to craft a [Sleeping Bag](/sleeping-bag) on a [Medical Workbench](/medical-workbench).
 

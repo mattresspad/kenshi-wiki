@@ -25,7 +25,7 @@ infobox:
         - ["String ID","55935-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>If you're not here for the drink then I'm guessing you're here to hire, am I right?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>If you're not here for the drink then I'm guessing you're here to hire, am I right?</blockquote></figure>
 
 **Hiveless Gunner** is a randomly named [Generic Recruit](/generic-recruits). They are a ranged combat specialist. They can be hired for c.4,000.
 
@@ -65,4 +65,4 @@ Stats randomize by 1
 _The Statistics here are taken from [FCS](/forgotten-construction-set).  
 Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Taking lives from the barrel of a turret is easy. You're clean of bloodied hands and guilt, you become numb to death...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Smart Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Taking lives from the barrel of a turret is easy. You're clean of bloodied hands and guilt, you become numb to death...</blockquote><figcaption>Smart Personality</figcaption></figure>

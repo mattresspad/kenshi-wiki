@@ -21,4 +21,4 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Things will go a lot smoother if we organise an efficient method to store and distribute our raw materials. &nbsp;Otherwise things are going to get jammed up.&nbsp;</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Things will go a lot smoother if we organise an efficient method to store and distribute our raw materials. &nbsp;Otherwise things are going to get jammed up.&nbsp;</blockquote><figcaption>In-game description</figcaption></figure>

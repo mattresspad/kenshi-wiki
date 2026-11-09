@@ -20,7 +20,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/squin/krals-chosen)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Peace is dull. Bring me blood.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/hundred-guardian">Hundred Guardian</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Peace is dull. Bring me blood.</blockquote><figcaption><a href="/hundred-guardian">Hundred Guardian</a></figcaption></figure>
 
 If [Esata](/esata-the-stone-golem) and [Mukai](/mukai-the-mountain) are both [killed or imprisoned](/world-states) while [Flying Bull](/flying-bull) is alive and free, [Squin](/squin) will be taken over by the [Kral's Chosen](/krals-chosen), presumably with some warriors from the previous override switching allegiance combined with Flying Bull's forces moving in.
 

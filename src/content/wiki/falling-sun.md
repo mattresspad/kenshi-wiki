@@ -7,17 +7,35 @@ source:
 categories: ["Weapons","Heavy Weapon"]
 infobox:
   title: "Falling Sun"
+  image: "/icons/items/52306-rebirth.mod.png"
+  caption: "A ridiculously unwieldy weapon sometimes used by Skeletons.  Requiring both dexterity and strength to use properly, they are widely known as \"Suicide Blades\", because they often get their users killed."
   groups:
     - heading: null
       rows:
-        - ["Class","[Heavy weapons class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/heavy-weapons\">Heavy weapon</a>"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 600"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.20x"]
+        - ["Blunt damage","1.00x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","-6"]
-        - ["Damage vs Beak Thing","+50%"]
-        - ["Damage vs Gorillo","+50%"]
-        - ["Damage vs Leviathan","+50%"]
         - ["Reach","25"]
-        - ["Description","A ridiculously unwieldy weapon sometimes used by Skeletons.  Requiring both dexterity and strength to use properly, they are widely known as \"Suicide Blades\", because they often get their users killed."]
+    - heading: "Damage against"
+      rows:
+        - ["Beak Thing","+50%"]
+        - ["Gorillo","+50%"]
+        - ["Leviathan","+50%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52306-rebirth.mod</span>"]
 ---
 
@@ -37,15 +55,7 @@ The [Meitou](/meitou)\-version of this weapon can be found on [Mad Cat-Lon](/mad
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(14 required)</span></p></td><td><strong><span>Falling Sun</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(14 required)</span></p></td><td><strong><span>Falling Sun</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(14 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(14 required)</span></p></td><td><strong><span>Falling Sun</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(14 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>14</td><td>14</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>14</td><td>14</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>14</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Exotic Weapons blueprint: 12 hours at tech level 2; the blueprint is worth c. 20,000.</li></ul></div>
 
 ## Blueprints
 

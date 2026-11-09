@@ -19,7 +19,7 @@ infobox:
 
 50357-rebirth.mod
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Need any supplies? I got some skeleton repair beds upstairs too if you need 'em.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Need any supplies? I got some skeleton repair beds upstairs too if you need 'em.</blockquote></figure>
 
 **Travel and Repairs Shop** is a [Tech Hunters](/tech-hunters) shop which sells travel items and [Robot Limbs](/robot-limbs). This location also sells many [Maps](/maps). The second floor of this building will contain [Skeleton Repair Beds](/skeleton-repair-bed). The shop inventory is similar to the [Travel Gear](/travel-gear) vendor, additionally selling [Robot Limbs](/robot-limbs), but no [Bolts](/crossbows#crossbow-ammunition-types).
 

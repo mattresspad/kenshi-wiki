@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/the-hook\">The Hook</a>, <a href=\"/south-wetlands\">South Wetlands</a>, <a href=\"/high-bonefields\">High Bonefields</a>, <a href=\"/burning-forest\">Burning Forest</a>, <a href=\"/shem\">Shem</a>, <a href=\"/flats-lagoon\">Flats Lagoon</a>, <a href=\"/greyshelf\">Greyshelf</a>, <a href=\"/royal-valley\">Royal Valley</a>, <a href=\"/fishman-island\">Fishman Island</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This is animal territory, a different world. Even the empire is starting to fade away from here</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> player characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This is animal territory, a different world. Even the empire is starting to fade away from here</blockquote><figcaption><a href="/skeleton">Skeleton</a> player characters</figcaption></figure>
 
 The **Bonefields** are a large dry plain easily distinguished by the many bones that litter the area.
 

@@ -20,7 +20,7 @@ infobox:
         - ["Victory Triggers","<strong>Stone Rat Visit</strong> 90-150 Hours, 100% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Hmm, nice place ya got here. Should be careful it don't get smashed up... Ain't gonna make any friends ignoring people, know what I mean? An' if you ain't my friend, I can't help you against the gut suckin' spiders...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Stone Rat</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Hmm, nice place ya got here. Should be careful it don't get smashed up... Ain't gonna make any friends ignoring people, know what I mean? An' if you ain't my friend, I can't help you against the gut suckin' spiders...</blockquote><figcaption>Stone Rat</figcaption></figure>
 
 **Stone Rat Visit** is an [Event](/events) that can trigger if the player builds a base within 3,800 meters of the [Stone Rat Village](/stone-rat-village), or if the player cannot pay the hounds in the [Hound Check In](/hound-check-in) event. The initial campaign cannot trigger if [Big Al](/big-al) is dead or captured, and none of the variants can trigger if the player is an ally of the [Hounds](/hounds).
 

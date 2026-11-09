@@ -25,7 +25,7 @@ infobox:
         - ["String ID","1199-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Don't try any funny business</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Don't try any funny business</blockquote></figure>
 
 **Outpost Guards** are high skilled protectors of the [Free Traders](/free-traders) and the [Traders Guild](/traders-guild).
 

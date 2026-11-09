@@ -20,7 +20,7 @@ infobox:
         - ["Legwear","<a href=\"/stout-hessian-uniform\">Stout Hessian Uniform</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The holy servants of Okran will fight his last crusade, to prevent the Second Extinction. The Agents Of Darkness will be burned away from these lands with the Lord's light. Praise the lord Okran's sacrifices for mankind!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-priest">Holy Priest</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The holy servants of Okran will fight his last crusade, to prevent the Second Extinction. The Agents Of Darkness will be burned away from these lands with the Lord's light. Praise the lord Okran's sacrifices for mankind!</blockquote><figcaption><a href="/holy-priest">Holy Priest</a></figcaption></figure>
 
 **Holy Chosen** are fighters for the [Holy Nation](/the-holy-nation) that can be found on the front lines of [Bast](/bast-zone) and [Skimsands](/skimsands) against the [United Cities](/united-cities).
 

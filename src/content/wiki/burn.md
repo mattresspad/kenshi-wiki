@@ -17,7 +17,7 @@ infobox:
         - ["String ID","50570-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Well, you see, if you're a raider or a bandit, I'll have to kill you before you destroy me first and take my tower. The spider bots keep most trespassers away, but now and then a couple of unwelcome ones seep through, understand?... So which is it?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Burn</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Well, you see, if you're a raider or a bandit, I'll have to kill you before you destroy me first and take my tower. The spider bots keep most trespassers away, but now and then a couple of unwelcome ones seep through, understand?... So which is it?</blockquote><figcaption>Burn</figcaption></figure>
 
 **Burn** is a [Skeleton](/skeleton) [Unique Recruit](/unique-recruits) who can be found just outside his [Tower](/burns-tower) in the [Floodlands](/floodlands). He is an ex-adventurer who abandoned that life due to his advancing age, but the player can convince him to come out for one last adventure before his inevitable shutdown.
 

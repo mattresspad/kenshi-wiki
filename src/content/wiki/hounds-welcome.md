@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Big Grim ain't told us about any newcomers settin' up 'round 'ere... But it's a nice 'lil outpost you got, could come in useful to us. Would be a shame to see it set on fire by the Grayflayers. You know, the only way to survive in these swamps is to join forces with another clan.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hound</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Big Grim ain't told us about any newcomers settin' up 'round 'ere... But it's a nice 'lil outpost you got, could come in useful to us. Would be a shame to see it set on fire by the Grayflayers. You know, the only way to survive in these swamps is to join forces with another clan.</blockquote><figcaption>Hound</figcaption></figure>
 
 **Hound's Welcome** is an [Event](/events) that can trigger if the player builds an outpost within 2,500 meters of the town of [Rot](/rot). This campaign cannot trigger if [Big Grim](/big-grim) is dead or captured, the player is an enemy of the [Hounds](/hounds), or an ally of the [Hounds](/hounds), [United Cities](/united-cities), [Holy Nation](/the-holy-nation), [Traders Guild](/traders-guild), or [Slaver Traders](/slave-traders).
 

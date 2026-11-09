@@ -22,4 +22,4 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Heavy weapons. Ridiculed by many and often hailed as "cock extensions", nothing is more amusing than watching some idiot try to fight with a weapon he can barely lift. But, if you work very, very hard, if you master it and build the necessary strength... maybe, just maybe you could become something very dangerous...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Heavy weapons. Ridiculed by many and often hailed as "cock extensions", nothing is more amusing than watching some idiot try to fight with a weapon he can barely lift. But, if you work very, very hard, if you master it and build the necessary strength... maybe, just maybe you could become something very dangerous...</blockquote><figcaption>In-game Description</figcaption></figure>

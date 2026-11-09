@@ -27,7 +27,7 @@ infobox:
         - ["String ID","55929-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Always nice to see a lovely lady all the way out here no man's land! What can I do for you, sister?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Harmothoe greeting a female character</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Always nice to see a lovely lady all the way out here no man's land! What can I do for you, sister?</blockquote><figcaption>Harmothoe greeting a female character</figcaption></figure>
 
 **Harmothoe** is a unique member of the [Free Traders](/free-traders). She can be found leading a caravan, which can trade goods with the player. She can be found in either [Heng](/heng) or [Trader's Edge](/traders-edge). Her caravan includes 2 [Pack Beasts](/pack-beast) and 8 to 10 [Caravan Guards](/caravan-guard).
 

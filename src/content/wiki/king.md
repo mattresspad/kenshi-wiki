@@ -14,7 +14,7 @@ infobox:
         - ["Regions","<a href=\"/royal-valley\">Royal Valley</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>King will protect us, King will be happy with us...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Droneguard</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>King will protect us, King will be happy with us...</blockquote><figcaption>Droneguard</figcaption></figure>
 
 **King** is the only [Crimper](/crimper) in the game and a member of the [Southern Hive](/southern-hive). He can be found wandering the [Royal Valley](/royal-valley) alongside his [Droneguards](/droneguard). If imprisoned by the Southern Hive, King will appear and begin to eat the character.
 

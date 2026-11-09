@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Bloodrum"
+  image: "/icons/items/43316-rebirth.mod.png"
+  caption: "A fine rare spirit that rich people put on their shelves to impress their friends."
   groups:
     - heading: null
       rows:
+        - ["Type","Drug or drink"]
         - ["Weight","1 kg"]
-        - ["Size","3x3 wide/tall"]
-        - ["Avg. Price","c.1,328"]
-        - ["Description","A fine rare spirit that rich people put on their shelves to impress their friends."]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>43316-rebirth.mod</span>"]
 ---
 
 **Bloodrum** is a commodity which is made from combining [Cactus Rum](/cactus-rum) with [Hashish](/hashish). It cannot be crafted by the player.

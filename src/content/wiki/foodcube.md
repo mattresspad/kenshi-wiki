@@ -7,17 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Foodcube"
+  image: "/icons/items/43959-rebirth.mod.png"
+  caption: "Disappointing but nutritious, squished into an efficient cube."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","75 nu"]
-        - ["Ingredients","Bread, Greenfruit"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Value","<span>c.</span>c.874"]
-        - ["Sell Value","<span>c.</span>c.437"]
-        - ["Avg. Price","c.874"]
-        - ["Description","Disappointing but nutritious."]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x3"]
+        - ["Nutrition","75 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>43959-rebirth.mod</span>"]
 ---
 
 A **Foodcube** is a [food](/food) item, purchased from relevant [traders](/traders) or created in a [Cooking Stove](/cooking-stove). They make good travelling rations and can be very easy to mass produce. Making Foodcubes for profit is not recommended however as food sells for half of their value unless sold in a [counter](/shop-counter). Foodcubes have the same nutritional value as [Gohan](/gohan) but are much more expensive.
@@ -35,3 +37,7 @@ Foodcubes are the second most water-efficient cultivated foods in the game, cost
   
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/bread">Bread</a></th><td>1</td></tr><tr><th scope="row"><a href="/greenfruit">Greenfruit</a></th><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/advanced-cooking-tech">Advanced Cooking</a> research: 4 hours at tech level 2; costs <a href="/book">2 Books</a>.</li></ul></div>

@@ -22,7 +22,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Batteries can store excess power and keep things running during emergencies. &nbsp;They are especially important if you rely on wind power.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game quote</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Batteries can store excess power and keep things running during emergencies. &nbsp;They are especially important if you rely on wind power.</blockquote><figcaption>In-game quote</figcaption></figure>
 
 **Batteries** is [Electrics Tech](/electrics-tech) which unlocks the ability to construct [Battery Banks](/battery-bank). There are many research paths to upgrade these buildings after.
 

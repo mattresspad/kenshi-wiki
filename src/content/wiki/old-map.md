@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Old Map"
+  image: "/icons/items/45549-changes_otto.mod.png"
+  caption: "An old map of some other, probably fictional, continent.  Pretty useless, but maybe you can get some money for it."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","0 kg"]
-        - ["Size","2x2"]
-        - ["Avg. Price","c.180"]
-        - ["Description","An old map of some other, probably fictional, continent.  Pretty useless, but maybe you can get some money for it."]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>45549-changes_otto.mod</span>"]
 ---
 
 **Old Map** is a [junk](/junk) item: no purpose other than trading and only worth a small amount. This item can be found in [Lost Libraries](/lost-library) along with [Damaged Books](/damaged-book) and [Parchment](/parchment).

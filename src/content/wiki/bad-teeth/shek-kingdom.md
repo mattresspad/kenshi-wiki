@@ -19,7 +19,7 @@ infobox:
         - ["String ID","1532983-__world reactions W.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Heard about Seta? Holy Nation's going to shit now he's gone... Okranites are freakin' out, Shek are gettin' stabby...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Bar Patron</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Heard about Seta? Holy Nation's going to shit now he's gone... Okranites are freakin' out, Shek are gettin' stabby...</blockquote><figcaption>Bar Patron</figcaption></figure>
 
 **Bad teeth, Shek Kingdom** is a city controlled by [Shek Kingdom](/shek-kingdom). It belonged to [The Holy Nation](/the-holy-nation) until [Seta](/high-inquisitor-seta) was kidnapped or killed, while [Esata](/esata-the-stone-golem) remained alive and free. The town itself is guarding a mountain pass between the fertile valley of [Okran's Pride](/okrans-pride) and hostile wilderness of the [Skinner's Roam](/skinners-roam).
 

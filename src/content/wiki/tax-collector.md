@@ -14,7 +14,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/tax-evasion-enforcement\">Tax Evasion Enforcement</a> 12-48 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It's that time of the week again, my favourite day... tax day. Don't keep me waiting now...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Samurai Sergeant</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It's that time of the week again, my favourite day... tax day. Don't keep me waiting now...</blockquote><figcaption>Samurai Sergeant</figcaption></figure>
 
 The **Tax Collector** is an [Event](/events) sent by [United Cities](/united-cities) to collect taxes from players that have agreed to pay taxes in the [Tax Man Visit](/tax-man-visit) or **Tax Collector** events, or as a result of losing the [Tax Evasion Enforcement](/tax-evasion-enforcement) event. It cannot trigger if the player is an ally of the [Anti-Slavers](/anti-slavers) or [United Cities](/united-cities), an enemy of the [United Cities](/united-cities), or if [Emperor Tengu](/emperor-tengu) is killed or captured.
 

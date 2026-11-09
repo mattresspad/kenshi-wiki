@@ -7,13 +7,18 @@ source:
 categories: ["Items","Farming"]
 infobox:
   title: "Hemp"
+  image: "/icons/items/1965-gamedata.base.png"
+  caption: "Hemp is commonly used to make fabrics and clothing."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","2 kg"]
-        - ["Size","4x4 wide/tall"]
-        - ["Avg. Price","c.19"]
-        - ["Description","Hemp is commonly used to make fabrics and clothing."]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: null
+      rows:
+        - ["String id","<span>1965-gamedata.base</span>"]
 ---
 
 **Hemp** is a raw material harvested from [Hemp Farms](/hemp-farm) or [Hydroponic Hemp](/hydroponic-hemp) stations and processed at a Fabric Loom (Hemp) to create [Fabrics](/fabrics). It can be stored in the [Storage: Hemp](/storage-hemp) container. It can be also processed into [fuel](/fuel) at a [Biofuel Distillery](/biofuel-distillery-hemp) or into a number of Medical Items.

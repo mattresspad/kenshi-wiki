@@ -4,26 +4,29 @@ import { developmentUrl, repoUrl, wiki } from '../lib/wiki.js';
 import { existingPaths } from '../lib/categories.js';
 
 // Each card heads with a hub page and lists links as 'Title' or ['Label', 'Title']; a title may be a 'Category:'.
+// image names a picture in public/images/kenshi/main-page/, a screenshot or a cutout game icon; a card without one
+// shows its emoji icon.
 const sections = [
   {
     title: 'Concepts',
     cards: [
-      { title: 'Basics', icon: '📖', page: 'Controls', links: ['Controls', 'Game Starts', ['Skills', 'Statistics'], ['Lore', 'Category:Lore'], ['Guides', 'Category:Guides'], ['Events', 'Category:Events']] },
-      { title: 'Gameplay', icon: '🎒', page: 'Statistics', links: ['Stealth', 'Thievery', 'Assassination', 'Bounty', 'Slavery', ['Money', 'Cats']] },
-      { title: 'Extras', icon: '🛠️', page: 'Mods', links: ['Mods', 'Forgotten Construction Set', ['Modding', 'Category:Modding'], ['Modding guides', 'Category:Modding Guide'], ['Removed content', 'Category:Removed Content']] },
-      { title: 'Skills', icon: '⚔️', page: 'Statistics', links: ['Martial Arts', 'Strength', 'Dexterity', 'Toughness', 'Athletics', 'Swimming'] },
-      { title: 'World', icon: '🌍', page: 'World of Kenshi', links: [['Map', 'World of Kenshi'], 'Major Towns', ['Zones', 'Category:Zones'], ['Locations', 'Category:Locations'], 'Ancient Ruins', 'World States'] },
+      { title: 'Basics', image: 'basics.webp', icon: '📖', page: 'Controls', links: ['Controls', 'Game Starts', ['Skills', 'Statistics'], ['Lore', 'Category:Lore'], ['Guides', 'Category:Guides'], ['Events', 'Category:Events']] },
+      { title: 'Gameplay', image: 'gameplay.webp', icon: '🎒', page: 'Statistics', links: ['Stealth', 'Thievery', 'Assassination', 'Bounty', 'Slavery', ['Money', 'Cats']] },
+      { title: 'Extras', image: 'extras.webp', icon: '🛠️', page: 'Mods', links: ['Mods', 'Forgotten Construction Set', ['Modding', 'Category:Modding'], ['Modding guides', 'Category:Modding Guide'], ['Removed content', 'Category:Removed Content']] },
+      { title: 'Skills', image: 'skills.webp', icon: '⚔️', page: 'Statistics', links: ['Martial Arts', 'Strength', 'Dexterity', 'Toughness', 'Athletics', 'Swimming'] },
+      { title: 'World', image: 'world.webp', icon: '🌍', page: 'World of Kenshi', links: [['Map', 'World of Kenshi'], 'Major Towns', ['Zones', 'Category:Zones'], ['Locations', 'Category:Locations'], 'Ancient Ruins', 'World States'] },
     ],
   },
   {
     title: 'Items',
     cards: [
-      { title: 'Gear', icon: '🗡️', page: 'Equipment', links: ['Weapons', 'Armour', 'Clothing', 'Backpacks', 'Robot Limbs', ['Crossbows', 'Category:Crossbows']] },
-      { title: 'Armour', icon: '🛡️', page: 'Armour', links: ['Light Armour', 'Medium Armour', 'Heavy Armour', 'Headgear', 'Body Armour', 'Shirts', 'Legwear', 'Footwear'] },
-      { title: 'Resources', icon: '📦', page: 'Items', links: ['Items', 'Food', ['Nutrition', 'Category:Nutrition'], ['Books', 'Book'], 'Artifacts', 'AI Core'] },
-      { title: 'Technology', icon: '⚙️', page: 'Technology', links: ['Technology', 'Blueprints', 'Robotics', 'Crafting', 'Cooking'] },
+      { title: 'Gear', image: 'gear.png', cutout: true, icon: '🗡️', page: 'Equipment', links: ['Weapons', 'Armour', 'Clothing', 'Backpacks', 'Robot Limbs', ['Crossbows', 'Category:Crossbows']] },
+      { title: 'Armour', image: 'armour.png', cutout: true, icon: '🛡️', page: 'Armour', links: ['Light Armour', 'Medium Armour', 'Heavy Armour', 'Headgear', 'Body Armour', 'Shirts', 'Legwear', 'Footwear'] },
+      { title: 'Resources', image: 'resources.webp', icon: '📦', page: 'Items', links: ['Items', 'Food', ['Nutrition', 'Category:Nutrition'], ['Books', 'Book'], 'Artifacts', 'AI Core'] },
+      { title: 'Technology', image: 'technology.webp', icon: '⚙️', page: 'Technology', links: ['Technology', 'Blueprints', 'Robotics', 'Crafting', 'Cooking'] },
       {
         title: 'Building',
+        image: 'building.webp',
         icon: '🏚️',
         page: 'Construction',
         links: [['Construction', 'Construction'], ['Buildings', 'Category:Buildings'], 'Farming', 'Power', 'Storage', 'Turrets', 'Water', 'Copper'],
@@ -35,13 +38,14 @@ const sections = [
     cards: [
       {
         title: 'Characters',
+        image: 'characters.webp',
         icon: '🧍',
         page: 'Category:Characters',
         links: [['All characters', 'Category:Characters'], ['Unique NPCs', 'Category:Unique'], ['Bosses', 'Category:Bosses'], 'Traders', ['Vendors', 'Category:Vendors'], ['Nobles', 'Category:Nobles']],
       },
-      { title: 'Races', icon: '🧬', page: 'Races', links: ['Greenlander', 'Scorchlander', 'Shek', 'Hive', 'Skeleton'] },
-      { title: 'Factions', icon: '🏳️', page: 'Factions', links: ['The Holy Nation', 'United Cities', 'Shek Kingdom', 'Tech Hunters', 'Shinobi Thieves', 'Slave Traders'] },
-      { title: 'Fauna', icon: '🦎', page: 'Fauna', links: ['Fauna', ['Animals', 'Category:Animals'], 'Wildlife'] },
+      { title: 'Races', image: 'races.webp', icon: '🧬', page: 'Races', links: ['Greenlander', 'Scorchlander', 'Shek', 'Hive', 'Skeleton'] },
+      { title: 'Factions', image: 'factions.webp', icon: '🏳️', page: 'Factions', links: ['The Holy Nation', 'United Cities', 'Shek Kingdom', 'Tech Hunters', 'Shinobi Thieves', 'Slave Traders'] },
+      { title: 'Fauna', image: 'fauna.webp', icon: '🦎', page: 'Fauna', links: ['Fauna', ['Animals', 'Category:Animals'], 'Wildlife'] },
     ],
   },
 ];
@@ -127,7 +131,11 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
                   <center><b>{card.href ? <a href={card.href}>{card.title}</a> : card.title}</b></center>
                 </div>
                 <div class="mainpage-box-icon">
-                  <center><span aria-hidden="true">{card.icon}</span></center>
+                  {card.image ? (
+                    <img class={card.cutout ? 'cutout' : undefined} src={`/images/kenshi/main-page/${card.image}`} alt="" width="96" height="96" loading="lazy" />
+                  ) : (
+                    <center><span aria-hidden="true">{card.icon}</span></center>
+                  )}
                 </div>
               </div>
               {columns(card.links).map((column) => (

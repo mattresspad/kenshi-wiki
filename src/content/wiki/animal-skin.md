@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Animal Skin"
+  image: "/icons/items/42241-rebirth.mod.png"
+  caption: "Skin taken from an animal, can be cured to make leather."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","4x2 wide/tall"]
-        - ["Avg. Price","c.240"]
-        - ["Description","Skin taken from an animal, can be cured to make leather."]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","2x4"]
+    - heading: null
+      rows:
+        - ["String id","<span>42241-rebirth.mod</span>"]
 ---
 
 **Animal Skin** is an [item](/items) found on most [fauna](/fauna), it can also be 'produced' by using [Peeler Machine](/peeler-machine). It is used primarily in the crafting of [Leather](/leather) at a [Leather Tanning Bench](/leather-tanning-bench) for use in the creation of [armour](/armour). It also can be used to build a [Scrap Tent](/scrap-tent) for cheap protection against acid rain.

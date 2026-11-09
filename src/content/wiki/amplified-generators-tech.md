@@ -48,7 +48,7 @@ infobox:
 
 +15 Power to [Generator II](/generator-ii)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A further 15kw upgrade to all generators.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A further 15kw upgrade to all generators.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Amplified Generators** are [Electrics Tech](/electrics-tech) which instantly upgrades [Power](/power) generators for all of the player's outposts.
 

@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>... A new face. Fancy a drink?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>... A new face. Fancy a drink?</blockquote></figure>
 
 **Riddly** is a [Unique Recruit](/unique-recruits) found in bars in [United Cities](/united-cities) towns and villages. She is a friendly, lone adventurer who strikes the player up on conversation.
 

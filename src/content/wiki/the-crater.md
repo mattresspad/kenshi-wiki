@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/the-hook\">The Hook</a>, <a href=\"/shun\">Shun</a>, <a href=\"/the-grid\">The Grid</a>, <a href=\"/south-wetlands\">South Wetlands</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Well....<p>This place has changed.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Well....<p>This place has changed.</p></blockquote><figcaption><a href="/skeleton">Skeleton</a> Player Characters</figcaption></figure>
 
 **The Crater** is a Zone in the southwestern corner of the map. The place is filled with [Beak Things](/beak-thing) feasting upon packs of [Swamp Raptors](/swamp-raptor). It is a very hostile environment and most of the ruins are empty.
 

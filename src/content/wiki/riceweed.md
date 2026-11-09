@@ -7,13 +7,18 @@ source:
 categories: ["Items","Farming"]
 infobox:
   title: "Riceweed"
+  image: "/icons/items/42307-changes_otto.mod.png"
+  caption: "A nutritious weed that grows in wet environments like swamps."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","0.5 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Avg. Price","c.13"]
-        - ["Description","A nutritious weed that grows in wet environments like swamps."]
+        - ["Base value","c. 25"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>42307-changes_otto.mod</span>"]
 ---
 
 **Riceweed** is an inedible raw ingredient that must be cooked using a [Cooking Stove](/cooking-stove). It can be purchased from [Western Hive](/western-hive) traders in [Hive Villages](/hive-village). After researching [Riceweed Farming](/riceweed-farming-tech), players can start [Riceweed Farms](/riceweed-farm) and store their crops in [Storage: Riceweed](/storage-riceweed).

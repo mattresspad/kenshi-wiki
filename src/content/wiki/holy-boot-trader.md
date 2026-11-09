@@ -26,7 +26,7 @@ infobox:
         - ["String ID","43354-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Blessings upon you, brother. Looking to trade?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Holy Boot Trader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Blessings upon you, brother. Looking to trade?</blockquote><figcaption>Holy Boot Trader</figcaption></figure>
 
 Holy **Boot Traders** are unnamed shopkeepers of [The Holy Nation](/the-holy-nation). They can be found manning [Holy Boot Shops](/holy-boot-shop).
 

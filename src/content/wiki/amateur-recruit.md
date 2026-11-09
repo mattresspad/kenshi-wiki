@@ -19,7 +19,7 @@ infobox:
         - ["String ID","41297-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'll...I'll take your toes. Off, yeah, clean off. Then. Uh, then I'll- I'll eat your heart! Liver too. Finally I'll puke it all out into your chest! Haha, yeah and use your toes to sew it back up! Yeah, what are you gunna do 'bout that!?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I'll...I'll take your toes. Off, yeah, clean off. Then. Uh, then I'll- I'll eat your heart! Liver too. Finally I'll puke it all out into your chest! Haha, yeah and use your toes to sew it back up! Yeah, what are you gunna do 'bout that!?</blockquote></figure>
 
 **Amateur Recruit** is a randomly named [Unique Recruit](/unique-recruits). They are an inexperienced person who anxiously threatens the player for looking at them. They can be hired for c.3,000.
 

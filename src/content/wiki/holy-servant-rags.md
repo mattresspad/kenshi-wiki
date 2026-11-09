@@ -5,9 +5,33 @@ source:
   title: "Holy Servant Rags"
   revision: 86637
 categories: ["Armour","Body Armour","Clothing"]
+infobox:
+  title: "Holy Servant Rags"
+  image: "/icons/items/42021-rebirth.mod.png"
+  caption: "This used to be a Holy Servant's robe, now reduced to rags."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Head","25% covered"]
+        - ["Right Arm","95% covered"]
+        - ["Chest","10% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Stealth","1.10x"]
+    - heading: null
+      rows:
+        - ["String id","<span>42021-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">This used to be a Holy Servant's robe, now reduced to rags.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 **Holy Servant Rags** are a piece of Clothing that is equipped in the Body Armour slot. It is one of the multiple variations of a [Rag Shirt](/rag-shirt). Despite not being black or camouflaged, it shares the same statistics as a [Black Rag Shirt](/black-rag-shirt) - including the stealth effect.
 
@@ -21,17 +45,7 @@ The **Holy Servant Rags** are made up of several ragged strips of reddish cloth 
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Holy Servant Rags</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>0.15%</td></tr><tr><td>-Cut resistance</td><td>0.2%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.17</td></tr><tr><td>-Sell value</td><td>c.4</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Holy Servant Rags</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>0.6%</td></tr><tr><td>-Cut resistance</td><td>0.8%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.107</td></tr><tr><td>-Sell value</td><td>c.26</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Holy Servant Rags</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>1.2%</td></tr><tr><td>-Cut resistance</td><td>1.6%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.393</td></tr><tr><td>-Sell value</td><td>c.98</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Holy Servant Rags</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>1.8%</td></tr><tr><td>-Cut resistance</td><td>2.4%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.871</td></tr><tr><td>-Sell value</td><td>c.217</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Holy Servant Rags</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>2.4%</td></tr><tr><td>-Cut resistance</td><td>3.2%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,540</td></tr><tr><td>-Sell value</td><td>c.385</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Holy Servant Rags</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>2.85%</td></tr><tr><td>-Cut resistance</td><td>3.8%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,166</td></tr><tr><td>-Sell value</td><td>c.541</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Cloth</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>0.15%</td><td>0.6%</td><td>1.2%</td><td>1.8%</td><td>2.4%</td><td>2.85%</td></tr><tr><th scope="row">Cut resistance</th><td>0.2%</td><td>0.8%</td><td>1.6%</td><td>2.4%</td><td>3.2%</td><td>3.8%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">80%</td></tr><tr><th scope="row">Weight</th><td colspan="6">1 kg</td></tr><tr><th scope="row">Value</th><td>c.17</td><td>c.107</td><td>c.393</td><td>c.871</td><td>c.1,540</td><td>c.2,166</td></tr><tr><th scope="row">Sell value</th><td>c.4</td><td>c.26</td><td>c.98</td><td>c.217</td><td>c.385</td><td>c.541</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">25%</td></tr><tr><th scope="row">Chest</th><td colspan="6">10%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">95%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td colspan="6">1.10x</td></tr></tbody></table>
 
 ## Source
 

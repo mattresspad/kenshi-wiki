@@ -20,7 +20,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/holy-nation-assault-major\">Holy Nation Assault (Major)</a> 100-250 hours, 80% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>All darkened beings must be purged in flame. It is the only way to rid them of these hallowed lands.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Holy Assault Arrival Dialogue</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>All darkened beings must be purged in flame. It is the only way to rid them of these hallowed lands.</blockquote><figcaption>Holy Assault Arrival Dialogue</figcaption></figure>
 
 **Holy Assault** is an [Event](/events) which occurs when the player outpost is within 9,000 meters of a [Holy Nation](/the-holy-nation) location, and the player has hostile relations with the [Holy Nation](/the-holy-nation) faction, and as long as the [Phoenix](/holy-lord-phoenix), [Seta](/high-inquisitor-seta), and [Valtena](/high-inquisitor-valtena) are still alive and free. It will have up to a 15% chance to trigger each day if you are within 5,000 meters of a [Holy Nation](/the-holy-nation) owned location and scales down with distance until it reaches a 0% chance at 9,000 meters away.
 

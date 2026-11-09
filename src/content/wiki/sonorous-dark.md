@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/sniper-valley\">Sniper Valley</a>, <a href=\"/cheaters-run\">Cheaters Run</a>, <a href=\"/ashlands\">Ashlands</a>, <a href=\"/sonorous-junk-reef\">Sonorous Junk Reef</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Well, we can't ignore the leviathan in the room now, can we?<p>If the acid rain don't melt our skin off it'll be the dragons that finish us off.</p><p>I don't even know who's idea it was to come here. I guess I'm the idiot for coming along...</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Well, we can't ignore the leviathan in the room now, can we?<p>If the acid rain don't melt our skin off it'll be the dragons that finish us off.</p><p>I don't even know who's idea it was to come here. I guess I'm the idiot for coming along...</p></blockquote><figcaption>Player Characters</figcaption></figure>
 
 **Sonorous Dark** is the home of the [Skin Bandits](/skin-bandits). It is the start of the peninsula which makes up the [Ashlands](/ashlands). Organic characters from [The Pits](/the-pits) and [Sniper Valley](/sniper-valley) are sometimes kidnapped and [peeled](/peeler-machine) alive by Skin Bandits, due to the occasional skirmishes that occur near the zone's border.
 

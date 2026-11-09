@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/fog-islands\">Fog Islands</a>, <a href=\"/floodlands\">Floodlands</a>, <a href=\"/okrans-gulf\">Okran's Gulf</a>, <a href=\"/the-shrieking-forest\">The Shrieking Forest</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>After the war the behemoths lost their purpose<p>Man became afraid of the destructive capabilities of its own creations</p><p>The irony is that it was their blind obedience and unquestioning loyalty that walked them down into that pit, entirely unresisting</p><p>The price of obedience.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>After the war the behemoths lost their purpose<p>Man became afraid of the destructive capabilities of its own creations</p><p>The irony is that it was their blind obedience and unquestioning loyalty that walked them down into that pit, entirely unresisting</p><p>The price of obedience.</p></blockquote><figcaption><a href="/skeleton">Skeleton</a> Player Characters</figcaption></figure>
 
 **Obedience** is a location in the northern section of the [Fog Islands](/fog-islands). As you approach Obedience, the area becomes much darker.
 

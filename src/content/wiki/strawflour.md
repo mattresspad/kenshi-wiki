@@ -7,13 +7,18 @@ source:
 categories: ["Items","Farming"]
 infobox:
   title: "Strawflour"
+  image: "/icons/items/1932-gamedata.base.png"
+  caption: "Strawflour can be used to make bread.  Horrible, dry dry bread."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","4 kg"]
-        - ["Size","5x4 wide/tall"]
-        - ["Avg. Price","c.400"]
-        - ["Description","Strawflour can be used to make bread.  Horrible, dry dry bread."]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x5"]
+    - heading: null
+      rows:
+        - ["String id","<span>1932-gamedata.base</span>"]
 ---
 
 **Strawflour** is an inedible raw ingredient created by milling [Wheatstraw](/wheatstraw) in a [Grain Silo](/grain-silo). It is combined with [Water](/water) to produce [Bread](/bread) utilizing a [Bread Oven](/bread-oven). This item can be stored in [Flour Storage](/flour-storage).
@@ -29,3 +34,7 @@ It can be purchased from [Trade Goods Traders](/trade-goods-trader) at various s
 -   [Bread](/bread)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable">Automatic Grain Silo<br><a href="/grain-silo">Grain Silo</a></th></tr><tr><th scope="row"><a href="/wheatstraw">Wheatstraw</a></th><td>1</td></tr></tbody></table></div>

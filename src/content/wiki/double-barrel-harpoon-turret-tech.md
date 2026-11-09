@@ -21,6 +21,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Two shots instead of one, how great would that be?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Two shots instead of one, how great would that be?</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Double-Barrel Harpoon Turret** is [Defense Tech](/defense-tech) which unlocks the [Double-Barrel Harpoon Turret](/double-barrel-harpoon-turret). Players intending on using this turret in the dark should consider researching [Double-Barrel Turret Spotlight Fitting](/double-barrel-turret-spotlight-fitting-tech). DBHTs can be upgraded to the lighted version.

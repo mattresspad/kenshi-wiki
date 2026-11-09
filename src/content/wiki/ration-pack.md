@@ -7,18 +7,21 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Ration Pack"
+  image: "/icons/items/42337-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
-        - ["Nutrition","125 nu"]
-        - ["Ingredients","Foodcube, Dried Meat"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","2x2 wide/tall"]
-        - ["Sell Value","<span>c.</span>c.571"]
-        - ["Avg. Price","c.1,143"]
+        - ["Base value","c. 2,000"]
+        - ["Size in inventory","2x2"]
+        - ["Nutrition","125 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>42337-changes_otto.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Anyway, I have some spare rations, please, take this food and be safe. It's easy to run low on supplies out here.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/high-paladin">High Paladin</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Anyway, I have some spare rations, please, take this food and be safe. It's easy to run low on supplies out here.</blockquote><figcaption><a href="/high-paladin">High Paladin</a></figcaption></figure>
 
 **Ration Pack** is a uncraftable [Food](/food) item which can be purchased from certain traders and caravans or received as a gift. Ration Packs and [Ancient Nutri-Rations](/ancient-nutri-rations) have the highest nutritional value of any food.
 
@@ -34,6 +37,10 @@ There is a possibility that the following characters will give the player a Rati
 -   [Protector of the Flame](/protector-of-the-flame)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/foodcube">Foodcube</a></th><td>1</td></tr><tr><th scope="row"><a href="/dried-meat">Dried Meat</a></th><td>1</td></tr></tbody></table></div>
 
 ## Trivia
 

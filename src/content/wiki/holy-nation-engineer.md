@@ -26,7 +26,7 @@ infobox:
         - ["String ID","42239-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Interested in hiring an engineer? I'm looking for work if you've got any...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Interested in hiring an engineer? I'm looking for work if you've got any...</blockquote></figure>
 
 **Holy Nation Engineer** is a randomly named [Generic Recruit](/generic-recruits) available in [The Holy Nation](/the-holy-nation). This guy is just an engineer looking for work. He can be hired for c.6,000.
 

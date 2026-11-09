@@ -18,7 +18,7 @@ infobox:
         - ["String ID","65970-November.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You know what would look good on you? A crab helmet, take a look, try it on for size...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You know what would look good on you? A crab helmet, take a look, try it on for size...</blockquote></figure>
 
 The **Crabsmith** is a vendor of the [Crab Raiders](/crab-raiders). He can be found in [Crab Town](/crab-town) in the [Crab Armour Shop](/crab-smithy).
 

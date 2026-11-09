@@ -9,7 +9,7 @@ categories: ["Races"]
 
 _This article is about the character race. For the faction, see [Shek Kingdom](/shek-kingdom)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A warrior society that values strength and hardiness above more intellectual pursuits. They are sometimes a little humourless and have a reputation as dumb brutes, but this is not always the case. Their external skeletal plates provide a natural armour but hinders more dexterous pursuits like sneaking around.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A warrior society that values strength and hardiness above more intellectual pursuits. They are sometimes a little humourless and have a reputation as dumb brutes, but this is not always the case. Their external skeletal plates provide a natural armour but hinders more dexterous pursuits like sneaking around.</blockquote><figcaption>Game Description</figcaption></figure>
 
 **Shek** are a [Race](/races) of bony, horned humanoids. It is the only race which does not have a related subrace. They have a very low population relative to [Humans](/human) and are noted to be prone to violence and aggression<sup id="cite_ref-:0_1-0" class="reference"><a href="#cite_note-:0-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-:1_2-0" class="reference"><a href="#cite_note-:1-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup>. They are generally only found in professions that require combat and strength.
 
@@ -27,9 +27,9 @@ Nonetheless, despite their extraordinarily low population, their natural combat 
 
 ## History
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Horned devil was created human, as brother of the Okranite. But the Horned Devil possessed a sinful mind, it rejected Okran's light in it's heart in favor of Narko's temptations.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–The Guiding Light IV</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Horned devil was created human, as brother of the Okranite. But the Horned Devil possessed a sinful mind, it rejected Okran's light in it's heart in favor of Narko's temptations.</blockquote><figcaption>The Guiding Light IV</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>What is that? An Enforcer? The Enforcers were always spiky in character... How humourous they now sport real spikes to match</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Black Desert City Skeletons directed towards a Shek player</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>What is that? An Enforcer? The Enforcers were always spiky in character... How humourous they now sport real spikes to match</blockquote><figcaption>Black Desert City Skeletons directed towards a Shek player</figcaption></figure>
 
 The origins of the Shek are shrouded, but there are hints as to their origin story. One theory is that the Shek were descendants of a class of augmented Humans who were called the "Enforcers". This theory is supported by the comments made by Black Desert City skeletons whenever they meet a Shek within their walls. This could further explain why the Holy Nation have such a hatred towards the Shek race, seeing as the Enforcers (may have) aided the Skeletons of the Second Empire in cracking down on the progenitor cult of the Holy Nation. Alternatively, it could just simply be the case of Shek's culture of raiding, killing and tributizing their neighbors have caused a lasting grudge.
 

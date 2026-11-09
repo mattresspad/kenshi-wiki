@@ -5,9 +5,33 @@ source:
   title: "Small Thieves Backpack"
   revision: 86391
 categories: ["Backpacks"]
+infobox:
+  title: "Small Thieves Backpack"
+  image: "/icons/items/1288-gamedata.base.png"
+  caption: "A bag used by professional thieves and ninjas.  Well made and designed not to hinder your stealth while you fill it with other people's posessions."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/backpacks\">Backpack</a>"]
+        - ["Weight reduction","60%"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 3,000"]
+    - heading: "Storage"
+      rows:
+        - ["Backpack grid","8x8"]
+        - ["Stack minimum","1x"]
+        - ["Stack multiplier","1x"]
+        - ["Size in inventory","4x4"]
+    - heading: "Combat"
+      rows:
+        - ["Combat skills","0"]
+        - ["Combat speed","1.00x"]
+        - ["Athletics","1.00x"]
+        - ["Stealth and dodge","1.00x"]
+    - heading: null
+      rows:
+        - ["String id","<span>1288-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Small Thieves Backpack</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td>-Price</td><td>c.3,000</td></tr><tr><td>-Sell Value</td><td>c.1,500</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Encumbrance reduction</td><td>60%</td></tr><tr><td>-Combat skills bonus</td><td>0</td></tr><tr><td>-Athletics effect</td><td>1.00x</td></tr><tr><td>-Combat speed effect</td><td>1.00x</td></tr><tr><td>-Stealth skill effect</td><td>1.00x</td></tr><tr><td>-Dodge skill effect</td><td>1.00x</td></tr><tr><td colspan="2">A bag used by professional thieves and ninjas. Well made and designed not to hinder your stealth while you fill it with other people's possessions.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/backpacks">BACKPACK</a></td></tr></tbody></table>
 
 The **Small Thieves' Backpack** is a small [backpack](/backpacks) that reduces encumbrance by 60% and does not hinder your stealth or combat abilities. It is a smaller version of the [Thieves Backpack](/thieves-backpack).
 

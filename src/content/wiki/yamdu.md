@@ -23,7 +23,7 @@ infobox:
         - ["String ID","59137-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Can I help you, sir?<p>At your service for all membership enquiries!</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Can I help you, sir?<p>At your service for all membership enquiries!</p></blockquote></figure>
 
 **Yamdu** is Noble Squire Supreme under his master [Longen](/longen). He has a Fearful [Personality](/personality).
 

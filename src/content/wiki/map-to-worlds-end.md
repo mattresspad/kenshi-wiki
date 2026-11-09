@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Map to World's End"
+  image: "/icons/items/51406-rebirth.mod.png"
+  caption: "World's End is an outland stronghold of the Machinist's University.  Tech Hunters use it as the main homebase when exploring the north."
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.750"]
-        - ["Sell value","c.375"]
-        - ["Description","World's End is an outland stronghold of the Machinist's University.  Tech Hunters use it as the main homebase when exploring the north."]
+        - ["Base value","c. 750"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>51406-rebirth.mod</span>"]
 ---
 

@@ -5,9 +5,33 @@ source:
   title: "Bull Backpack"
   revision: 95161
 categories: ["Backpacks"]
+infobox:
+  title: "Bull Backpack"
+  image: "/icons/items/43948-rebirth.mod.png"
+  caption: "Backpack designed to fit Bulls"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/backpacks\">Backpack</a>"]
+        - ["Weight reduction","90%"]
+        - ["Weight","6 kg"]
+        - ["Base value","c. 2,000"]
+    - heading: "Storage"
+      rows:
+        - ["Backpack grid","20x20"]
+        - ["Stack minimum","1x"]
+        - ["Stack multiplier","5x"]
+        - ["Size in inventory","4x5"]
+    - heading: "Combat"
+      rows:
+        - ["Combat skills","-4"]
+        - ["Combat speed","0.80x"]
+        - ["Athletics","1.00x"]
+        - ["Stealth and dodge","1.00x"]
+    - heading: null
+      rows:
+        - ["String id","<span>43948-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Bull Backpack</td></tr><tr><td>-Weight</td><td>6 kg</td></tr><tr><td>-Price</td><td>c.2,000</td></tr><tr><td>-Sell Value</td><td>c.1,000</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Encumbrance reduction</td><td>90%</td></tr><tr><td>-Combat skills bonus</td><td>-4</td></tr><tr><td>-Athletics effect</td><td>1.00x</td></tr><tr><td>-Combat speed effect</td><td>0.80x</td></tr><tr><td>-Stealth skill effect</td><td>1.00x</td></tr><tr><td>-Dodge skill effect</td><td>1.00x</td></tr><tr><td colspan="2">Backpack designed to fit Bulls</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/backpacks">BACKPACK</a></td></tr></tbody></table>
 
 **Bull Backpack** is a large [backpack](/backpacks) that can only be equipped by [Wild Bull](/wild-bull), [Pack Bull](/pack-bull), or [Domesticated Bull](/domesticated-bull) characters. It can stack [trade goods](/trade-goods) up to 5.
 

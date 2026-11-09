@@ -16,7 +16,7 @@ infobox:
         - ["Hostile towards","<a href=\"/the-holy-nation\">The Holy Nation</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A story of bravery and grit. The ruins are mere war scars. With the Stone Golem as our leader, the Shek Kingdom will rise as the most powerful nation once again and we'll retake our fallen cities. The fat Empire gluttons, the Okranite dogs, we'll crush them all and take the lands, mark my words...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shek Barman Admag</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A story of bravery and grit. The ruins are mere war scars. With the Stone Golem as our leader, the Shek Kingdom will rise as the most powerful nation once again and we'll retake our fallen cities. The fat Empire gluttons, the Okranite dogs, we'll crush them all and take the lands, mark my words...</blockquote><figcaption>Shek Barman Admag</figcaption></figure>
 
 Homeland of the [Shek](/shek)<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup> and headed by queen [Esata "the Stone Golem"](/stone-golem), the Shek Kingdom is a very sparsely populated and tribalistic [faction](/factions) that resides almost entirely<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup> within the ranges of [Stenn Desert](/stenn-desert), centered in their capital, [Admag](/admag).
 
@@ -54,7 +54,7 @@ For these reasons, the present-day Shek Kingdom finds itself in a state of insta
 
 ## Society
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Around here, a Shek's standing is measured in bravery and battle skill, as in the same footsteps of Kral. Foreigners are only tolerated in this town for their trade, under the Stone Golem's orders. Every Shek in this city is itching for a fight since she came to power, especially against an honourless foreigner like you. I suggest you keep your head down if you want to leave the city in one piece.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/shek-warrior">Shek Warrior</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Around here, a Shek's standing is measured in bravery and battle skill, as in the same footsteps of Kral. Foreigners are only tolerated in this town for their trade, under the Stone Golem's orders. Every Shek in this city is itching for a fight since she came to power, especially against an honourless foreigner like you. I suggest you keep your head down if you want to leave the city in one piece.</blockquote><figcaption><a href="/shek-warrior">Shek Warrior</a></figcaption></figure>
 
 Intellect and advanced technology have no place in Shek society. The Shek earn their respect amongst each other through strength and bravery alone<sup id="cite_ref-46" class="reference"><a href="#cite_note-46"><span class="cite-bracket">[</span>46<span class="cite-bracket">]</span></a></sup>. The outsiders are only tolerated for the trade they bring by Esata's orders, and only for now<sup id="cite_ref-47" class="reference"><a href="#cite_note-47"><span class="cite-bracket">[</span>47<span class="cite-bracket">]</span></a></sup>.
 

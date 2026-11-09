@@ -26,8 +26,6 @@ infobox:
         - ["String ID","50565-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td></td><td>”</td></tr></tbody></table>
-
 **Adventurer Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a person looking for work. They can be hired for c.6,000.
 
 They have a random [Personality](/personality) and after recruited have the "Player TOUGH Merc" Dialogue Package. They wear \[Shoddy\] armour (5% chance of \[Standard\]) and have weapons manufactured by [Unknown](/unknown).

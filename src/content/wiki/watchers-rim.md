@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/arach\">Arach</a>, <a href=\"/shun\">Shun</a>, <a href=\"/spider-plains\">Spider Plains</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Here for the bugmaster's head too, are we? Guess you're either a person with nothing to lose or a person with everything to gain...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/bounty-hunter">Bounty Hunter</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Here for the bugmaster's head too, are we? Guess you're either a person with nothing to lose or a person with everything to gain...</blockquote><figcaption><a href="/bounty-hunter">Bounty Hunter</a></figcaption></figure>
 
 **Watcher's Rim** is the mountain range surrounding [Arach](/arach), home of the [Bugmaster](/bugmaster). Watcher's Rim is filled with adventurers such as [Bounty Hunters](/bounty-hunters) and [Mercenaries](/mercenary) alike.
 

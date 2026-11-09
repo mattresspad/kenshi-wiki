@@ -9,7 +9,7 @@ categories: ["Removed Content","Manufacturers"]
 
 **As of 0.93.24, this manufacturer no longer exists in the game. The page will be kept for archival purposes.**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>One of the oldest smithing companies, weapons mass produced by slave labour and commonly found everywhere.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>One of the oldest smithing companies, weapons mass produced by slave labour and commonly found everywhere.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Old-Eye Blades** is a weapon manufacturer company.
 

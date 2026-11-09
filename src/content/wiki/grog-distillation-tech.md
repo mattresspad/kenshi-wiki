@@ -21,4 +21,4 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 0.98.36.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A very common alchoholic drink, it would be a good source of income if we could produce it.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A very common alchoholic drink, it would be a good source of income if we could produce it.</blockquote><figcaption>In-game Description</figcaption></figure>

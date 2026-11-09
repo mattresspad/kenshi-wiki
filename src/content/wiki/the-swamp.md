@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/border-zone\">Border Zone</a>, <a href=\"/shem\">Shem</a>, <a href=\"/burning-forest\">Burning Forest</a>, <a href=\"/south-wetlands\">South Wetlands</a>, <a href=\"/the-grid\">The Grid</a>, <a href=\"/spider-plains\">Spider Plains</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Used to be a great port city around here somewhere...<p>Not anymore though, obviously.</p><p>Old Empire, as it's called now.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Used to be a great port city around here somewhere...<p>Not anymore though, obviously.</p><p>Old Empire, as it's called now.</p></blockquote><figcaption><a href="/skeleton">Skeleton</a> Player Characters</figcaption></figure>
 
 **The Swamp** is a large region centered between the [Border Zone](/border-zone) and the [South Wetlands](/south-wetlands) to the north and south, and the [Spider Plains](/spider-plains) and the [Burning Forest](/burning-forest) to its west and east. There is low visibility compared to most other regions due to the areas fog and foliage density. The region is fertile for hemp and riceweed farming. It also has an abundance of copper and iron resources.
 

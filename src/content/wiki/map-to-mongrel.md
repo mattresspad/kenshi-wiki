@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Map to Mongrel"
+  image: "/icons/items/44917-rebirth.mod.png"
+  caption: "For those desperate enough to face a fate worse than death, a promise of isolated safety and a future without slavery."
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.500"]
-        - ["Sell value","c.250"]
-        - ["Description","For those desperate enough to face a fate worse than death, a promise of isolated safety and a future without slavery."]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>44917-rebirth.mod</span>"]
 ---
 

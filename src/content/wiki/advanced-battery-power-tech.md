@@ -168,6 +168,6 @@ Advanced Battery Power 6
 
 +10 Power to [Battery Bank](/battery-bank)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A potential 10kw increase to battery output power</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A potential 10kw increase to battery output power</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Advanced Battery Power** is [Electrics Tech](/electrics-tech) which upgrades the [Battery Bank](/battery-bank) building. This research is instantly applied to the player's outposts and does not require building upgrades to be in effect.

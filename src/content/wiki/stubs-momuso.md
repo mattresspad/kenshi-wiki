@@ -26,7 +26,7 @@ infobox:
         - ["String ID","15253-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You eyeballin' me?!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You eyeballin' me?!</blockquote></figure>
 
 **Stubs Momuso** is a [Unique Recruit](/unique-recruits). He can be found in [Shark](/shark) or [Mud Town](/mud-town). He is a rare [Scorchlander](/scorchlander) that comes with a Greenlander skin.
 

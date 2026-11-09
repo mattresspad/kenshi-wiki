@@ -1,6 +1,6 @@
 ---
 title: "Samurai"
-description: "–A Samurai, upon arresting a wanted criminal."
+description: "Samurai are warriors for the United Cities, coming from a variety of different races. The Traders Guild has also hired private Samurai to protect their headq…"
 source:
   title: "Samurai"
   revision: 89373
@@ -23,7 +23,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Then, I'll help you out. Just pay me the fine, peasant, and I'll let you off the hook...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–A Samurai, upon arresting a wanted criminal.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Then, I'll help you out. Just pay me the fine, peasant, and I'll let you off the hook...</blockquote><figcaption>A Samurai, upon arresting a wanted criminal.</figcaption></figure>
 
 **Samurai** are warriors for the [United Cities](/united-cities), coming from a variety of different [races](/races). The [Traders Guild](/traders-guild) has also hired private Samurai to protect their headquarters in [Trader's Edge](/traders-edge). Their usual patrol leaders are [Samurai Sergeants](/samurai-sergeant).
 
@@ -251,10 +251,10 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Look a little short on bodyguards there, outlander. Place is crawling with bandits, make sure to be careful.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–A patrolling Samurai.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Look a little short on bodyguards there, outlander. Place is crawling with bandits, make sure to be careful.</blockquote><figcaption>A patrolling Samurai.</figcaption></figure>
 
 Patrols of Samurai have a chance of talking to the player, where they will remark on the player being short on bodyguards. They will then offer to escort the player, and if accepted will bodyguard the player for 2 hours.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>... You look half starved, outlander... You know poverty is illegal in United City land, correct?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–A Samurai prepares to either feed or arrest a starving wanderer.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>... You look half starved, outlander... You know poverty is illegal in United City land, correct?</blockquote><figcaption>A Samurai prepares to either feed or arrest a starving wanderer.</figcaption></figure>
 
 Patrols of Samurai may talk to the player while they are starving. If they have the Honorable [Personality](/personality) they will take pity on the character by giving them 1 [Bread](/bread), 1 [Meatwrap](/meatwrap), and 1 [Greenfruit](/greenfruit). They may also instead attempt to arrest the player unless manages to bribe them with 2000 cats. Once convinced, they may offer the player a piece of [Bread](/bread) to last them until the nearest town.

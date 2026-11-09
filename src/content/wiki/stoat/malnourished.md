@@ -18,7 +18,7 @@ infobox:
         - ["FCS Name","Stoat (override) malnourished"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>So hungry... I can't take it anymore...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/samurai-gate-guard">Samurai Gate Guard</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>So hungry... I can't take it anymore...</blockquote><figcaption><a href="/samurai-gate-guard">Samurai Gate Guard</a></figcaption></figure>
 
 If **Slave Master Haga** and **Slave Mistress Ren** are both dead/imprisoned, Stoat residents become malnourished.
 

@@ -18,7 +18,7 @@ infobox:
         - ["String ID","45493-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Oh, hey a new guy! ...Wanna chat? I get so excited when I get visitors to talk to. Not much to do in here see. Sometimes I like to count flies. I call this one Chubbs, because she’s a bit overweight. She's the only friend I have in here.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Oh, hey a new guy! ...Wanna chat? I get so excited when I get visitors to talk to. Not much to do in here see. Sometimes I like to count flies. I call this one Chubbs, because she’s a bit overweight. She's the only friend I have in here.</blockquote></figure>
 
 **Cat** is a [Unique Recruit](/unique-recruits) who is a little unhinged. He's a decent medic, but currently a prisoner of the [Dust King](/dust-king) in his [Tower](/dust-king-tower). He has a Dumb [Personality](/personality).
 

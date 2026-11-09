@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/port-south/destroyed)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Trade's dried right up this last year, I'm losing money. Big time... And it's all on the Trader's Guild. They're doing a piss poor job of securing the roads... What merchant in their right mind is gonna risk attacks from those rabid slave escapees?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–UC bar patron</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Trade's dried right up this last year, I'm losing money. Big time... And it's all on the Trader's Guild. They're doing a piss poor job of securing the roads... What merchant in their right mind is gonna risk attacks from those rabid slave escapees?</blockquote><figcaption>UC bar patron</figcaption></figure>
 
 If [Slave Master Wada](/slave-master-wada) is [killed or imprisoned](/world-states), [Port South](/port-south) falls to [ruins](/town-overrides).
 

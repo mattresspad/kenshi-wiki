@@ -16,7 +16,7 @@ infobox:
         - ["Level Data","zone.49.42.zone, zone.50.39.zone"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Oh... Damn....<p>This place is way too sad...</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Oh... Damn....<p>This place is way too sad...</p></blockquote><figcaption><a href="/skeleton">Skeleton</a> Player Characters</figcaption></figure>
 
 **Stobe's Garden** is the home of the [Reavers](/reavers) with [Skeleton Bandits](/skeleton-bandits) and [Crab Raiders](/crab-raiders) often times having skirmishes with one another. It is also the final resting place of [Stobe](/stobe).
 

@@ -22,6 +22,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 0.99.00 (Experimental).</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>An electricity generator that runs on fuel.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>An electricity generator that runs on fuel.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Fuel Generator Theory** is [Electrics Tech](/electrics-tech) which unlocks the ability to construct [Small Generators](/small-generator). Generators consume [Fuel](/fuel) to create [Power](/power).

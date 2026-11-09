@@ -23,7 +23,7 @@ infobox:
         - ["String ID","42020-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I just want to live... I... need... food!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–desperate Servant attacks</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I just want to live... I... need... food!</blockquote><figcaption>desperate Servant attacks</figcaption></figure>
 
 **Escaped Servants** are members of the [Holy Nation Outlaws](/holy-nation-outlaws). As their name and faction implies, they are escaped criminals such as [Lower Servants](/lower-servant) and [Rebirth Slaves](/rebirth-slaves) who originated from the [Holy Nation](/the-holy-nation).
 
@@ -67,7 +67,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Help! Help me, please!<p>I'm hurt, I need aid...</p><p>I can barely walk... The dogs will eat me alive if you leave me out here!</p><p>Take me with you, please... don't leave me like this...</p><p>I've been through too much to die alone like this...</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Help! Help me, please!<p>I'm hurt, I need aid...</p><p>I can barely walk... The dogs will eat me alive if you leave me out here!</p><p>Take me with you, please... don't leave me like this...</p><p>I've been through too much to die alone like this...</p></blockquote></figure>
 
 An **Escaped Servant**, if alone in the squad and is wounded, can initiate dialogue with the player nearby. Selecting the right choices will allow the player to recruit them.
 

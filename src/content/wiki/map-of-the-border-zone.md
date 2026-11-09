@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Map of the Border Zone"
+  image: "/icons/items/44919-rebirth.mod.png"
+  caption: "A no-man's land between the three great nations, conflict prevents civilised settlement."
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.500"]
-        - ["Sell value","c.250"]
-        - ["Description","A no-man's land between the three great nations, conflict prevents civilised settlement."]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>44919-rebirth.mod</span>"]
 ---
 

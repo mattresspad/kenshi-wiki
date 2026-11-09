@@ -25,7 +25,7 @@ infobox:
         - ["String ID","44420-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm a cook, not a fighter, man! I know better than to needlessly seek out death. You call it the act of a coward, I call it the rationality of a realist.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm a cook, not a fighter, man! I know better than to needlessly seek out death. You call it the act of a coward, I call it the rationality of a realist.</blockquote></figure>
 
 **Jewel** is a [Unique Recruit](/unique-recruits). She is a cook who used to own a bar, but Shek barbarians took it over.
 

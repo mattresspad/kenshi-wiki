@@ -19,7 +19,7 @@ infobox:
         - ["String ID","1737-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>All you need to know is you say fight, and I say who.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>All you need to know is you say fight, and I say who.</blockquote></figure>
 
 **Adventurer Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a person looking for adventure and work, with basic combat stats. They can be hired for c.6,000.
 

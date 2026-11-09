@@ -81,5 +81,11 @@ const pageClass = `page-${title.replaceAll(' ', '_')}`;
         <div style="clear: both;"></div>
       </footer>
     </div>
+
+    <script>
+      import { setUpSortableTables } from '../lib/sortable-tables';
+
+      setUpSortableTables();
+    </script>
   </body>
 </html>

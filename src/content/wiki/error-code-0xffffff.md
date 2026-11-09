@@ -22,7 +22,7 @@ infobox:
         - ["String ID","64922-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Master!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Master!</blockquote></figure>
 
 **Error Code 0xFFFFFF** are skeletons found exclusively in the [Reprogramming Workshop](/reprogramming-workshop). They are members of the [Broken Ones](/broken-ones) faction. They will become allies with the player upon discovery.
 
@@ -64,11 +64,11 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Master!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Master!</blockquote></figure>
 
 Once the Error Code bots see the player, they will immediately follow the character around as bodyguards almost permanently. They will indiscriminately attack most targets they see, be they enemies or neutral factions. (Excluding many neutral wildlife)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Error.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Error.</blockquote></figure>
 
 Talking to any Error Code bot will be given a single line of dialogue, along with the bot turning towards the character.
 

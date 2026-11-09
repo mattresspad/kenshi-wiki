@@ -168,6 +168,6 @@ Advanced Battery Capacity 6
 
 +60 Power capacity to [Battery Bank](/battery-bank)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Each advancement in this study can increase battery capacity by 60</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Each advancement in this study can increase battery capacity by 60</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Advanced Battery Capacity** are [Electrics Tech](/electrics-tech) upgrades to player outposts. This technology does not require any building upgrades, instead instantly changing the values already in place.

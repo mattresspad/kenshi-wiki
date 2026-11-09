@@ -1,6 +1,6 @@
 ---
 title: "Garret"
-description: "–Garret upon being accused of \"slave loving\""
+description: "Garret is a member of the Slave Traders that can be found in the Bars of Eyesocket or Slave Markets along with his slave."
 source:
   title: "Garret"
   revision: 91470
@@ -25,7 +25,7 @@ infobox:
         - ["String ID","55057-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I ain't no slave lover. This un's just havin' a drink while he carries my baggage, that's all...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Garret upon being accused of "slave loving"</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I ain't no slave lover. This un's just havin' a drink while he carries my baggage, that's all...</blockquote><figcaption>Garret upon being accused of "slave loving"</figcaption></figure>
 
 **Garret** is a member of the [Slave Traders](/slave-traders) that can be found in the [Bars](/bars) of [Eyesocket](/eyesocket) or [Slave Markets](/slave-markets) along with his [slave](/garrets-slave).
 

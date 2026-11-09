@@ -7,14 +7,30 @@ source:
 categories: ["Weapons","Heavy Weapon"]
 infobox:
   title: "Plank"
+  image: "/icons/items/902-gamedata.base.png"
+  caption: "A hefty hacking weapon, with a good reach.  A nice balance for those who find fragment axes too clumsy and blunt, the plank retains some of the extra deadly traits of a regular sword, while still remaining ridiculously crude."
   groups:
     - heading: null
       rows:
-        - ["Class","[Heavy weapons class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/heavy-weapons\">Heavy weapon</a>"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.80x"]
+        - ["Blunt damage","1.20x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","-6"]
         - ["Reach","30"]
-        - ["Description","A hefty hacking weapon, with a good reach.  A nice balance for those who find fragment axes too clumsy and blunt, the plank retains some of the extra deadly traits of a regular sword, while still remaining ridiculously crude."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>902-gamedata.base</span>"]
 ---
 
@@ -25,6 +41,10 @@ A **Plank** is a [Heavy Weapons](/heavy-weapons) class weapon. It is one of the 
 This weapon has inventory dimensions of 2x10, meaning it can only be used as a primary weapon. Like other heavy weapons, this item will not fit into standard inventories. It must either be equipped or carried inside a backpack.
 
 This weapon is primarily found in [shops](/shek-weapon-shop) in the [Shek Kingdom](/shek-kingdom).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>12</td><td>12</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>12</td><td>12</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>12</td></tr></tbody></table><p>Unlocked by:</p><ul><li>The Plank blueprint: 4 hours at tech level 2; needs <a href="/heavy-weapons-tech">Heavy Weapons</a>; the blueprint is worth c. 4,000.</li></ul></div>
 
 ## Blueprint Locations
 

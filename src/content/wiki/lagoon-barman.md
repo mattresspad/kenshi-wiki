@@ -25,7 +25,7 @@ infobox:
         - ["String ID","95582-__Mourn.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>On route to the <a href="/ashlands">Ashlands</a>? Guess you'll be looking to stock up.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Lagoon Barman greeting</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>On route to the <a href="/ashlands">Ashlands</a>? Guess you'll be looking to stock up.</blockquote><figcaption>Lagoon Barman greeting</figcaption></figure>
 
 **Lagoon Barman** is a named shopkeeper of the [Tech Hunters](/tech-hunters). They man the [Bar](/flats-lagoon-bar) in [Flats Lagoon](/flats-lagoon). They always spawn with the Smart [Personality](/personality).
 

@@ -6,23 +6,38 @@ source:
   revision: 86598
 categories: ["Armour","Body Armour","Medium Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Armoured Rags"
+  image: "/icons/items/2307-clothes_v1.mod.png"
+  caption: "Salvaged rags, straps and plates pulled together by a decent craftsman has made this monstrosity.  This armour has plenty of gaps and vulnerabilities, but allows good freedom of movement for its class.  Commonly found on wanderers and bandits, but is also favoured by duelists."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","15 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","3"]
-        - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
+        - ["Right Arm","80% covered"]
+        - ["Chest","90% covered"]
+        - ["Stomach","20% covered"]
+        - ["Left Arm","80% covered"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
-        - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><b>Armoured Rags</b></p>"]
+        - ["Defence","-5"]
+        - ["Combat skills","+2"]
+        - ["Combat speed","0.98x"]
+        - ["Cut into stun","10%"]
+        - ["Dexterity","0.90x"]
+        - ["Ranged skill","0.80x"]
+        - ["Stealth","-1.00x"]
+        - ["Martial arts","+4"]
+    - heading: null
+      rows:
+        - ["String id","<span>2307-clothes_v1.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Salvaged rags, straps and plates pulled together by a decent craftsman has made this monstrosity. This armour has plenty of gaps and vulnerabilities, but allows good freedom of movement for its class. Commonly found on wanderers and bandits, but is also favoured by duelists.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 **Armoured Rags** is a Medium Armour equipped in the Body Armour slot. By default, the rags are beige in color. However, a separate armor of the same name but with an added '(colored)' exists. Together with [Armoured Rag Skirt](/armoured-rag-skirt) it forms a set that can also be [dyed](/colour-scheme) different colours depending on the character it is equipped on first.
 
@@ -36,17 +51,7 @@ The **Armoured Rags** appears like a thick shawl with a wide, turtleneck collar.
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rags</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>2%</td></tr><tr><td>-Cut resistance</td><td>12%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>4.5pts</td></tr><tr><td>-Weight</td><td>15.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.517</td></tr><tr><td>-Sell value</td><td>c.129</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>90%</td></tr><tr><td>-Stomach</td><td>20%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.80x</td></tr><tr><td>-Precision shooting effect</td><td>0.80x</td></tr><tr><td>-Combat speed effect</td><td>0.98x</td></tr><tr><td>-Dexterity effect</td><td>0.90x</td></tr><tr><td>-Melee defence bonus</td><td>-5</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rags</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>10%</td></tr><tr><td>-Cut resistance</td><td>22%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>18pts</td></tr><tr><td>-Weight</td><td>15.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,267</td></tr><tr><td>-Sell value</td><td>c.316</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>90%</td></tr><tr><td>-Stomach</td><td>20%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.80x</td></tr><tr><td>-Precision shooting effect</td><td>0.80x</td></tr><tr><td>-Combat speed effect</td><td>0.98x</td></tr><tr><td>-Dexterity effect</td><td>0.90x</td></tr><tr><td>-Melee defence bonus</td><td>-5</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rags</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>21%</td></tr><tr><td>-Cut resistance</td><td>35%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>36pts</td></tr><tr><td>-Weight</td><td>15.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.3,668</td></tr><tr><td>-Sell value</td><td>c.917</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>90%</td></tr><tr><td>-Stomach</td><td>20%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.80x</td></tr><tr><td>-Precision shooting effect</td><td>0.80x</td></tr><tr><td>-Combat speed effect</td><td>0.98x</td></tr><tr><td>-Dexterity effect</td><td>0.90x</td></tr><tr><td>-Melee defence bonus</td><td>-5</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rags</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>32%</td></tr><tr><td>-Cut resistance</td><td>49%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>54pts</td></tr><tr><td>-Weight</td><td>15.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.7,669</td></tr><tr><td>-Sell value</td><td>c.1,917</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>90%</td></tr><tr><td>-Stomach</td><td>20%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.80x</td></tr><tr><td>-Precision shooting effect</td><td>0.80x</td></tr><tr><td>-Combat speed effect</td><td>0.98x</td></tr><tr><td>-Dexterity effect</td><td>0.90x</td></tr><tr><td>-Melee defence bonus</td><td>-5</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rags (1.0.9)</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>43%</td></tr><tr><td>-Cut resistance</td><td>63%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>72pts</td></tr><tr><td>-Weight</td><td>15.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.13,271</td></tr><tr><td>-Sell value</td><td>c.3,317</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>90%</td></tr><tr><td>-Stomach</td><td>20%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.80x</td></tr><tr><td>-Precision shooting effect</td><td>0.80x</td></tr><tr><td>-Combat speed effect</td><td>0.98x</td></tr><tr><td>-Dexterity effect</td><td>0.90x</td></tr><tr><td>-Melee defence bonus</td><td>-5</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rags</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>51%</td></tr><tr><td>-Cut resistance</td><td>73%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>85.5pts</td></tr><tr><td>-Weight</td><td>15.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.18,523</td></tr><tr><td>-Sell value</td><td>c.4,630</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>90%</td></tr><tr><td>-Stomach</td><td>20%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.80x</td></tr><tr><td>-Precision shooting effect</td><td>0.80x</td></tr><tr><td>-Combat speed effect</td><td>0.98x</td></tr><tr><td>-Dexterity effect</td><td>0.90x</td></tr><tr><td>-Melee defence bonus</td><td>-5</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Metal Plate</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>2%</td><td>10%</td><td>21%</td><td>32%</td><td>43%</td><td>51%</td></tr><tr><th scope="row">Cut resistance</th><td>12%</td><td>22%</td><td>35%</td><td>49%</td><td>63%</td><td>73%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">90%</td></tr><tr><th scope="row">Harpoon resistance</th><td>4.5pts</td><td>18pts</td><td>36pts</td><td>54pts</td><td>72pts</td><td>85.5pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">15.75 kg</td></tr><tr><th scope="row">Value</th><td>c.517</td><td>c.1,267</td><td>c.3,668</td><td>c.7,669</td><td>c.13,271</td><td>c.18,523</td></tr><tr><th scope="row">Sell value</th><td>c.129</td><td>c.316</td><td>c.917</td><td>c.1,917</td><td>c.3,317</td><td>c.4,630</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">90%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">20%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">80%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">80%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Crossbows effect</th><td colspan="6">0.80x</td></tr><tr><th scope="row">Precision shooting effect</th><td colspan="6">0.80x</td></tr><tr><th scope="row">Combat speed effect</th><td colspan="6">0.98x</td></tr><tr><th scope="row">Dexterity effect</th><td colspan="6">0.90x</td></tr><tr><th scope="row">Melee defence bonus</th><td colspan="6">-5</td></tr><tr><th scope="row">Martial arts bonus</th><td colspan="6">+4</td></tr></tbody></table>
 
 ## Source
 
@@ -58,10 +63,6 @@ The **Armoured Rags** appears like a thick shawl with a wide, turtleneck collar.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.63 required)</span></p></td><td><strong><span>Armoured Rags</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(3.15 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Armoured Rags<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>11,287</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>2,821</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Armoured Rags</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.63</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>3.15</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Armoured Rags blueprint: 12 hours at tech level 1; the blueprint is worth c. 9,171.</li><li><a href="/plate-armour-crafting-tech">Plate Armour Crafting</a> research: 8 hours at tech level 3; costs <a href="/engineering-research">1 Engineering Research</a>.</li></ul></div>
 
 Note that although the blueprint exists, it is unneeded as the research to unlock the Smithy also unlocks the Rags.

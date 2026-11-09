@@ -26,7 +26,7 @@ infobox:
         - ["String ID","17086-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>To ignore the request of a holy priest is looked upon as sacrilege, my brothers...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–a priest's <a href="/high-paladin">High Paladin</a> escort</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>To ignore the request of a holy priest is looked upon as sacrilege, my brothers...</blockquote><figcaption>a priest's <a href="/high-paladin">High Paladin</a> escort</figcaption></figure>
 
 **Holy Priests** are high-ranking figures of [The Holy Nation](/the-holy-nation). They are zealots devoted to their god [Okran](/okran) and tend to stay within or near temples.
 

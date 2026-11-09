@@ -18,7 +18,7 @@ infobox:
         - ["String ID","51798-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Argh, that's it! Just you wait 'til I've finished this grog, I'll beat your face blue, slave!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Argh, that's it! Just you wait 'til I've finished this grog, I'll beat your face blue, slave!</blockquote></figure>
 
 **Bar fly** is a character who can be found in [Eyesocket](/eyesocket) and the [Slave Markets](/slave-markets). She is the owner of [Unique Recruit](/unique-recruits) [Ray](/ray). She is a member of the [Empire Peasants](/empire-peasants) faction.
 

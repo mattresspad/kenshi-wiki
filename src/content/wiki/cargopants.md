@@ -6,23 +6,24 @@ source:
   revision: 79821
 categories: ["Armour","Legwear","Clothing"]
 infobox:
-  title: "Simple Clothing Types"
+  title: "Cargopants"
+  image: "/icons/items/550-gamedata.base.png"
   groups:
     - heading: null
       rows:
-        - ["Description","More types of clothing available to craft."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","0.4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: "Modifiers"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","1 <a href=\"/book\">Book</a>"]
-        - ["Requirements","<a href=\"/clothing-manufacture-tech\">Clothing Manufacture</a>"]
-    - heading: "Results"
+        - ["Cut into stun","70%"]
+    - heading: null
       rows:
-        - ["New Item(s)","<a href=\"/black-cloth-shirt\">Black Cloth Shirt</a><br><p><b>Cargopants</b><br><a href=\"/cloth-shirt\">Cloth Shirt</a><br><a href=\"/gi\">Gi</a><br><a href=\"/gi-pants\">Gi Pants</a><br><a href=\"/turtleneck\">Turtleneck</a><br><a href=\"/white-vest\">White Vest</a><br><a href=\"/wooden-sandals\">Wooden Sandals</a><br><a href=\"/worn-out-shorts\">Worn-out Shorts</a><br></p>"]
+        - ["String id","<span>550-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Cargopants</td></tr><tr><td>-Weight</td><td>0 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.50</td></tr><tr><td>-Sell value</td><td>c.12</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td></tr></tbody></table>
 
 **Cargopants** is Clothing [item](/items) that is equipped in the Legwear slot. There are four variations of **Cargopants** - a dyeable (colored) [version](/cargopants-colored), and the three armoured versions: [padded](/cargopants-padded), [reinforced](/cargopants-reinforced), and [chain](/cargopants-sneaky-chain).
 
@@ -42,14 +43,6 @@ Cargopants are simple full-leg length khaki colored pants. They are held up on t
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Cargopants</span></strong><div></div></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Cargopants blueprint: 12 hours at tech level 1; the blueprint is worth c. 75.</li><li><a href="/simple-clothing-types-tech">Simple Clothing Types</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li></ul></div>
 
-  
-  
-  
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Cargopants<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>300</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>75</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Cargopants</td></tr></tbody></table>
-
-  
 A blueprint for this item exists, but is unneeded unless the player lacks the Book for the research of "Simple Clothing Types". The (coloured) version however, can only be obtained via the blueprint.

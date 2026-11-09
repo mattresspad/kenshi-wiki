@@ -7,12 +7,24 @@ source:
 categories: ["Crossbows"]
 infobox:
   title: "Spring Bat"
+  image: "/icons/items/95764-rebirth.mod.png"
+  caption: "The Spring Bat is a modern invention. Designed by rebels in the formative years of the United Cities, it's easy to build and designed to have the power to punch through the heavy armour of dominating military forces.  It pays for this with short range and poor accuracy."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Class","Crossbow"]
-        - ["Ammunition Type:","Bolts [Heavies]"]
+        - ["Class","<a href=\"/crossbows\">Crossbow</a>"]
         - ["Weight","6 kg"]
+        - ["Base value","c. 1,000 → c. 15,000"]
+        - ["Ammunition","Bolts [Heavies]"]
+        - ["Size in inventory","2x7"]
+    - heading: "Combat (range across grades)"
+      rows:
+        - ["Reload time","4.5–6 s → 3.5–8 s"]
+        - ["Spread at skill 0","8 → 4"]
+        - ["Perfect aim at skill","70"]
+    - heading: null
+      rows:
+        - ["String id","<span>95764-rebirth.mod</span>"]
 ---
 
 **Spring Bat** is a [crossbow](/crossbows) which uses heavy bolts. It inflicts heavy damage and is very effective even at low levels, but comes with the risk of a deadly misfire against a teammate due to its low accuracy and high damage.
@@ -32,3 +44,7 @@ It is a common weapon of choice by [Escaped Servants](/escaped-servant) and [Sca
 <table class="wikitable"><tbody><tr><td colspan="2" align="left">Spring Bat</td></tr><tr><td colspan="2"><span>[Specialist]</span></td></tr><tr><td colspan="2">[Crossbow Class]</td></tr><tr><td>-Damage:</td><td>58.6-92</td></tr><tr><td>-Accuracy deviation:</td><td>4.80 degrees</td></tr><tr><td>-Reload time:</td><td>3.70-7.60s</td></tr><tr><td>-Range:</td><td>52m</td></tr><tr><td>-Velocity:</td><td>133.4m/s</td></tr><tr><td>-Blood loss:</td><td>1.00x</td></tr><tr><td>-Required skill:</td><td>70</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Ammunition type:</td><td>Bolts [Heavies]</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>6 kg</td></tr><tr><td>-Value</td><td>c.9,959</td></tr><tr><td>-Trade Value</td><td>c.2,489</td></tr></tbody></table>
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="left">Spring Bat</td></tr><tr><td colspan="2"><span>[Masterwork]</span></td></tr><tr><td colspan="2">[Crossbow Class]</td></tr><tr><td>-Damage:</td><td>63.4-101</td></tr><tr><td>-Accuracy deviation:</td><td>4.20 degrees</td></tr><tr><td>-Reload time:</td><td>3.55-7.90s</td></tr><tr><td>-Range:</td><td>54.25m</td></tr><tr><td>-Velocity:</td><td>136.85m/s</td></tr><tr><td>-Blood loss:</td><td>1.00x</td></tr><tr><td>-Required skill:</td><td>70</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Ammunition type:</td><td>Bolts [Heavies]</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>6 kg</td></tr><tr><td>-Value</td><td>c.13,635</td></tr><tr><td>-Trade Value</td><td>c.3,408</td></tr></tbody></table>
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/crossbow-crafting-bench">Crossbow Crafting Bench</a></th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>6</td></tr><tr><th scope="row"><a href="/spring-steel">Spring Steel</a></th><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Spring Bat blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,858.</li></ul></div>

@@ -20,7 +20,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I need to be freed, 3500 Cats to free me from my lord. Let me fight for you, outsider, as a mighty warrior once again. Peasant life is killing my soul, I need battle.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I need to be freed, 3500 Cats to free me from my lord. Let me fight for you, outsider, as a mighty warrior once again. Peasant life is killing my soul, I need battle.</blockquote></figure>
 
 **Oron** is a Shek Retainer and [Unique Recruit](/unique-recruits) spawning in either [Admag](/admag), [Squin](/squin), or [Last Stand](/last-stand). Oron promises loyalty to your character in exchange for the chance to fight. They have an Honorable [Personality](/personality).
 

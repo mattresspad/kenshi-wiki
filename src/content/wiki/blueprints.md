@@ -5,6 +5,19 @@ source:
   title: "Blueprints"
   revision: 90175
 categories: ["Items"]
+infobox:
+  title: "Blueprints"
+  image: "/icons/items/BLUEPRINT_ITEM.png"
+  groups:
+    - heading: null
+      rows:
+        - ["Type","Blueprint"]
+        - ["Weight","0 kg"]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","1x1"]
+    - heading: null
+      rows:
+        - ["String id","<span>BLUEPRINT_ITEM</span>"]
 ---
 
 **Blueprints** are used to unlock various [technologies](/technology) as opposed to learning them at a [Research Bench](/research-bench). Many technologies, specifically different types of weapons and armour, cannot be researched normally and need to be learned through blueprints. The trade-off to the new system is that while research times for these technologies are instantaneous the blueprints need to be hunted down, as they are spread out across the world among the various [factions](/factions).

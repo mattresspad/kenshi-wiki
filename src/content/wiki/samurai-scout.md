@@ -253,10 +253,10 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ##  Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Look a little short on bodyguards there, outlander. Place is crawling with bandits, make sure to be careful.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Look a little short on bodyguards there, outlander. Place is crawling with bandits, make sure to be careful.</blockquote></figure>
 
 Patrols of Samurai have a chance of talking to the player, where they will remark on the player being short on bodyguards. They will then offer to escort the player, and if accepted will bodyguard the player for 2 hours.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>... You look half starved, outlander... You know poverty is illegal in United City land, correct?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>... You look half starved, outlander... You know poverty is illegal in United City land, correct?</blockquote></figure>
 
 Patrols of Samurai may talk to the player while they are starving. If they do they have a chance of taking pity on the character and giving them 1 [Bread](/bread), 1 [Meatwrap](/meatwrap), and 1 [Greenfruit](/greenfruit). They may also instead attempt to arrest the player unless manages to bribe them with 2000 cats. Once convinced, they may offer the player a piece of [Bread](/bread) to last them until the nearest town.

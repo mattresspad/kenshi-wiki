@@ -14,7 +14,7 @@ infobox:
         - ["Territorial Trigger","False"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Why are you here?! This is King's land! Get out! Greeee!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Prince</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Why are you here?! This is King's land! Get out! Greeee!</blockquote><figcaption>Prince</figcaption></figure>
 
 **Hive Eviction** is an [Event](/events) that can trigger if the [Player](/nameless) has defeated the [Southern Hive Visit](/southern-hive-visit) event. It cannot trigger if the [Queen of the South](/queen-of-the-south) has been killed or captured.
 

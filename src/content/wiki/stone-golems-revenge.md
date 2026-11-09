@@ -20,7 +20,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/shek-revenge\">Shek Revenge</a> 72-150 hours, 30% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>YOUR HEADS ARE MINE! You take my kin, you feel the wrath of Kral! Vengeance for Seto!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Esata the Stone Golem</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>YOUR HEADS ARE MINE! You take my kin, you feel the wrath of Kral! Vengeance for Seto!</blockquote><figcaption>Esata the Stone Golem</figcaption></figure>
 
 **Stone Golem's Revenge** is an [Event](/events) that occurs [Seto](/seto) or [Bayan](/bayan) has been killed or captured, as long as the player is not an ally of the [Shek Kingdom](/shek-kingdom) and [Esata](/esata-the-stone-golem) herself not been killed or captured.
 

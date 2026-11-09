@@ -19,7 +19,7 @@ infobox:
         - ["String ID","12702-Dialogue (11) (2).mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It proves you're worth something to me, but it also ensures I have enough value not to get hawked to slavers in the outlands</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>It proves you're worth something to me, but it also ensures I have enough value not to get hawked to slavers in the outlands</blockquote></figure>
 
 **Empire Adventurer** is a randomly named [Generic Recruit](/generic-recruits). They are a person looking for work. They can be hired for c.6,000.
 
@@ -292,7 +292,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Shirt
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/white-vest">White Vest</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/leather-turtleneck">Leather Turtleneck</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/leather-vest">Leather Vest</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/1167-gamedata.base.png" alt="" width="40" height="40"> <a href="/white-vest">White Vest</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2213-gamedata.base.png" alt="" width="40" height="40"> <a href="/leather-turtleneck">Leather Turtleneck</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2212-gamedata.base.png" alt="" width="40" height="40"> <a href="/leather-vest">Leather Vest</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Legwear
 

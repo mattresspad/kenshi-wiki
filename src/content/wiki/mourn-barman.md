@@ -22,7 +22,7 @@ infobox:
         - ["String ID","95555-Mourn.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Old mining town. Weren't so great with their slave control, turns out. But it makes a good shelter for travellers, so long as the wildlife keeps at bay...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Barman describing Mourn</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Old mining town. Weren't so great with their slave control, turns out. But it makes a good shelter for travellers, so long as the wildlife keeps at bay...</blockquote><figcaption>Barman describing Mourn</figcaption></figure>
 
 The **Mourn Barman** is an unnamed member of the [Trade Ninjas](/trade-ninjas). He resides in the [Bar](/bar-of-mourn) in [Mourn](/mourn).
 

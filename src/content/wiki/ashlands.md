@@ -16,7 +16,7 @@ infobox:
         - ["Level Data","zone.52.52.zone, zone.52.55.zone, zone.52.57.zone, zone.54.57.zone, zone.54.58.zone, zone.54.59.zone, zone.55.54.zone, zone.55.56.zone, zone.55.58.zone, zone.55.59.zone"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Ashlands are officially un-survivable, all previous expeditions there have resulted in the total loss of the teams. It's recommended that excursions keep to the surrounding areas, which should have some good finds.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/iyo">Iyo</a>, <a href="/tech-hunters-notes-series">Tech Hunter's Notes: The Ashlands</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Ashlands are officially un-survivable, all previous expeditions there have resulted in the total loss of the teams. It's recommended that excursions keep to the surrounding areas, which should have some good finds.</blockquote><figcaption><a href="/iyo">Iyo</a>, <a href="/tech-hunters-notes-series">Tech Hunter's Notes: The Ashlands</a></figcaption></figure>
 
 The **Ashlands** is an ashen landscape which was the domain of the [Second Empire](/second-empire). Groups of Skeletons and Iron Spiders of the [Skeleton Legion](/skeleton-legion) patrol this area, alongside the occasional [Cleanser Unit](/cleanser-unit). There are also large clouds of [Poison Gas](/weather-effects#gas) which periodically appear in this area. As such, players are advised to bring [Fog Masks](/fog-mask) (Or one of the other two 100% gas protection helmets) if their characters are vulnerable to this danger.
 

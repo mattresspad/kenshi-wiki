@@ -18,7 +18,7 @@ infobox:
         - ["String ID","65004-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Who the fuck are you? Be wantin' me bounty I 'spect, eh? That's all that ye traders, mercenaries and townies are intested in after all, ain't it? Don't matter who's pocket the Cats are in, as long as you can line yer own with 'em...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Who the fuck are you? Be wantin' me bounty I 'spect, eh? That's all that ye traders, mercenaries and townies are intested in after all, ain't it? Don't matter who's pocket the Cats are in, as long as you can line yer own with 'em...</blockquote></figure>
 
 **Boss Simion** is the leader of the [Rebel Farmers](/rebel-farmers).
 

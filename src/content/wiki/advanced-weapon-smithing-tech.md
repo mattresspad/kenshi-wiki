@@ -48,6 +48,6 @@ Advanced Weapon Smithing
 
 [Weapon Smith III](/weapon-smithing-bench)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A better bench is needed to make the higher level stuff.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A better bench is needed to make the higher level stuff.</blockquote><figcaption>In-game description</figcaption></figure>
 
 For a list of all the weapons that can be smithed click here: [List of Player Made Weapons](/homemade).

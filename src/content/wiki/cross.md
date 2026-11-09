@@ -7,7 +7,7 @@ source:
 categories: ["Manufacturers","Lore"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>There was at some point in history a legendary master smith, of whom nothing is known except his (...her?) name from the blade inscriptions: "Cross". The blades never rust or need sharpening, and are said to be unbreakable. There are only a handful in existence.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>There was at some point in history a legendary master smith, of whom nothing is known except his (...her?) name from the blade inscriptions: "Cross". The blades never rust or need sharpening, and are said to be unbreakable. There are only a handful in existence.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Cross** was once a legendary smith from history.
 

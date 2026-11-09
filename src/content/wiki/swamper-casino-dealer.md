@@ -22,7 +22,7 @@ infobox:
         - ["String ID","49317-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Up for a game o' catcrawlers, outlander? Full six rollback gets the girl!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Dealer</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Up for a game o' catcrawlers, outlander? Full six rollback gets the girl!</blockquote><figcaption>Dealer</figcaption></figure>
 
 **Swamper Casino Dealers** are unnamed members of the [Blackshifters](/blackshifters). They can be found manning the [Blackshifter Casino Bars](/blackshifter-casino-bar).
 

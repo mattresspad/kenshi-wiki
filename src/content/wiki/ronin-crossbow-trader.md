@@ -21,7 +21,7 @@ infobox:
         - ["Footwear","<a href=\"/wooden-sandals\">Wooden Sandals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>See anything you like?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shopkeeper greeting</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>See anything you like?</blockquote><figcaption>Shopkeeper greeting</figcaption></figure>
 
 **Ronin Crossbow Traders** are unnamed shopkeepers of the [Tech Hunters](/tech-hunters). They are found along with [Tech Hunter Shopkeepers](/tech-hunter-shopkeeper) in [Empire Ranger Shops](/empire-ranger-shop).
 

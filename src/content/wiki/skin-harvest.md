@@ -19,7 +19,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/the-big-skin-harvest\">The Big Skin Harvest</a> 100-160 Hours, 25% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A human village... Perhaps we will find new skins among the inhabitants... And lots of human food for our hungry digestive systems... Come out, flesh brothers! Come share with your fellow human brothers!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Skin Bandit</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A human village... Perhaps we will find new skins among the inhabitants... And lots of human food for our hungry digestive systems... Come out, flesh brothers! Come share with your fellow human brothers!</blockquote><figcaption>Skin Bandit</figcaption></figure>
 
 **Skin Harvest** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 7,000 meters of a [Skin Bandits](/skin-bandits) owned location. It has a 10% chance to trigger if within 3,000 meters, this chance scales down with distance until it reaches 0% at 7,000 meters. It cannot trigger if the player has killed or captured [Savant](/savant), or if the player has allied with the [Skin Bandits](/skin-bandits).
 

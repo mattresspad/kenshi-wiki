@@ -7,12 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Animal Teeth"
+  image: "/icons/items/42315-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","1x1"]
-        - ["Avg. Price","c.30"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","1x1"]
+    - heading: null
+      rows:
+        - ["String id","<span>42315-changes_otto.mod</span>"]
 ---
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>

@@ -14,7 +14,7 @@ infobox:
         - ["Territorial Trigger","False"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Got yourself in a special kinda trouble, aint'cha? Us outcasts got to stick together... We'll fight the Empire together, or we'll die together.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Outlaw Swordsman Captain</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Got yourself in a special kinda trouble, aint'cha? Us outcasts got to stick together... We'll fight the Empire together, or we'll die together.</blockquote><figcaption>Outlaw Swordsman Captain</figcaption></figure>
 
 **Rebel Farmers Reinforcements** is an [Event](/events) that will trigger in response to the [Eyegore's Assault](/eyegores-assault), [Noble's Wrath](/nobles-wrath), or [Noble's Wrath Assault](/nobles-wrath-assault) events as long as the [Player](/nameless) is allied to the [Rebel Farmers](/rebel-farmers) faction, the player has not killed or captured [Boss Simion](/boss-simion), and [Yabuta of the Sands](/yabuta-of-the-sands) is either killed or still imprisoned.
 

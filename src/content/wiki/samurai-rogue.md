@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Surrender your food!<p>For the Empire!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–-Samurai Rogue attacking</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Surrender your food!<p>For the Empire!</p></blockquote><figcaption>-Samurai Rogue attacking</figcaption></figure>
 
 **Samurai Rogues** are members of the [United Cities](/united-cities). They appear to be ex-[Samurai Sergeants](/samurai-sergeant) turned to banditry after the [Noble Circle](/noble-circle) that employed them was incapacitated.
 

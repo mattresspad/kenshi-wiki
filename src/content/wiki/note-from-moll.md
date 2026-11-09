@@ -5,9 +5,21 @@ source:
   title: "Note From Moll"
   revision: 89743
 categories: ["Items"]
+infobox:
+  title: "Note From Moll"
+  image: "/icons/items/1533014-Dialogue.mod.png"
+  caption: "Special item. \n\nA sealed note given to you from Moll to give to Flotsam Ninja patrols. Whoever you give it to will become a useful temporary ally against the Holy Nation."
+  groups:
+    - heading: null
+      rows:
+        - ["Type","Book or letter"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 0"]
+        - ["Size in inventory","1x1"]
+    - heading: null
+      rows:
+        - ["String id","<span>1533014-Dialogue.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td></td></tr><tr><td><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Note From Moll</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td>Avg. Price</td><td>c.0</td></tr><tr><td colspan="2">A sealed note given to you from Moll to give to Flotsam Ninja patrols. Whoever you give it to will become a useful temporary ally against the Holy Nation.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr></tbody></table>
 
 **Note From Moll** is a [unique item](/unique-items) which is given to the player through dialogue from [Moll](/moll). The player must be allied with the [Flotsam Ninjas](/flotsam-ninjas) to receive this item.
 

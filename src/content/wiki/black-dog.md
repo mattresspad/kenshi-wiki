@@ -9,7 +9,7 @@ categories: ["WIP","Factions"]
 
 _**This article is a Work in Progress. It may contain out of date or incomplete information.**_
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Now that you're benefitting from our presence, we kindly ask that you chip in like everyone else. For a small fee we'll guard your base and take care of all your vermin problems.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/black-dog-bodyguard">Black Dog Bodyguard</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Now that you're benefitting from our presence, we kindly ask that you chip in like everyone else. For a small fee we'll guard your base and take care of all your vermin problems.</blockquote><figcaption><a href="/black-dog-bodyguard">Black Dog Bodyguard</a></figcaption></figure>
 
 **Black Dog** is a minor faction found in the eastern regions. Homeless Squads of this faction have a chance to attempt to extort the player for protection, and refusing to pay will result in the Squad attacking the player. Black Dog characters can also [visit player bases](/events) and bully them into paying for protection.
 

@@ -24,7 +24,7 @@ infobox:
         - ["Backpack","<a href=\"/thieves-backpack\">Thieves Backpack</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>New member, eh?... Well, unless you actually enjoy the inside of a jail cell knock that shifty look off your face, I can spot you a mile off. Anyway, down to business, whadd'ya got for me?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Trader advice</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>New member, eh?... Well, unless you actually enjoy the inside of a jail cell knock that shifty look off your face, I can spot you a mile off. Anyway, down to business, whadd'ya got for me?</blockquote><figcaption>Trader advice</figcaption></figure>
 
 **Shinobi Traders** are traders of the [Shinobi Thieves](/shinobi-thieves). They can typically be found in the [Thieves Guild](/thieves-guild) Watchtower. They only sell to the player when they ally to the Thieves by talking to the [Thief Boss](/thief-boss).
 

@@ -7,15 +7,29 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Holed Sabre"
+  image: "/icons/items/52287-rebirth.mod.png"
+  caption: "A portion of metal cut out of the far end of the blade makes it slightly faster and more manoeuvrable.  Most swordsmen can't notice the difference, others swear by it."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","0.90x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 250"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.00x"]
+        - ["Blunt damage","0.25x"]
+        - ["Bleed","0.90x"]
+        - ["Armour penetration","0%"]
         - ["Attack","-4"]
         - ["Defence","+6"]
         - ["Reach","18"]
-        - ["Description","A portion of metal cut out of the far end of the blade makes it slightly faster and more manoeuvrable.  Most swordsmen can't notice the difference, others swear by it."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52287-rebirth.mod</span>"]
 ---
 
@@ -27,15 +41,7 @@ The [Meitou](/meitou) version of this weapon can be found on [Ponk](/ponk) in th
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Holed Sabre</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Holed Sabre</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(4 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Holed Sabre</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(4 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>4</td><td>4</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>4</td><td>4</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Holed Sabres blueprint: 4 hours at tech level 2; the blueprint is worth c. 3,500.</li></ul></div>
 
 ## Blueprints
 

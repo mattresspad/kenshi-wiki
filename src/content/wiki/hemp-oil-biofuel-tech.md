@@ -21,7 +21,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Refining of hemp oil for an alternative method of biofuel production.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Refining of hemp oil for an alternative method of biofuel production.</blockquote><figcaption>In-game Description</figcaption></figure>
 
 **Hemp Oil Biofuel** is [Electrics Tech](/electrics-tech) which allows players to construct a [Biofuel Distillery](/biofuel-distillery) which can convert [Hemp](/hemp) into [Fuel](/fuel).
 

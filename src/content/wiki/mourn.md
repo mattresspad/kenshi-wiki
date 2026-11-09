@@ -18,7 +18,7 @@ infobox:
         - ["String ID","963-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Old mining town. Weren't so great with their slave control, turns out. But it makes a good shelter for travellers, so long as the wildlife keeps at bay...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Mourn Barman</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Old mining town. Weren't so great with their slave control, turns out. But it makes a good shelter for travellers, so long as the wildlife keeps at bay...</blockquote><figcaption>Mourn Barman</figcaption></figure>
 
 **Mourn** is a [Major Town](/major-towns) located in the [Bonefields](/bonefields) between [Catun](/catun) and [Flats Lagoon](/flats-lagoon). Mourn is built inside of an ancient metal structure, looming over the north and south sides of the town. A slave rebellion left this once thriving mining town in shambles. There are no guards at the gates, and most buildings are ruined. There are several [Harpoon Turrets](/harpoon-turret) on the walls but due to the fact that Mourn has no energy-producing structures, they are unable to be used unless the player faction builds their own power. Although owned by the Tech Hunters, it is still marked by the **[Map of the United Cities (Extended Territories)](/maps)** as part of the [Empire](/united-cities) and characters with UC bounties can be placed into cages for their rewards.
 

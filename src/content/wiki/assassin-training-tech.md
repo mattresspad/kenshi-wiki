@@ -80,4 +80,4 @@ Assassin Training II
 
   
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Train like a ninja and learn to knock people out from behind.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Train like a ninja and learn to knock people out from behind.</blockquote><figcaption>In-game description</figcaption></figure>

@@ -1,6 +1,6 @@
 ---
 title: "Cannibal (Race)"
-description: "–Skeleton Player Characters, Cannibal Plains"
+description: "Cannibal is a Race in Kenshi. This race is only used for characters in the Cannibals faction."
 source:
   title: "Cannibal (Race)"
   revision: 79251
@@ -9,7 +9,7 @@ categories: ["Races"]
 
 _This article is about the character race. For the faction, see [Cannibals](/cannibals)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It wasn't always like this. We don't know why the northwesterners suddenly developed a taste for humanoid meat...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> Player Characters, <a href="/cannibal-plains">Cannibal Plains</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It wasn't always like this. We don't know why the northwesterners suddenly developed a taste for humanoid meat...</blockquote><figcaption><a href="/skeleton">Skeleton</a> Player Characters, <a href="/cannibal-plains">Cannibal Plains</a></figcaption></figure>
 
 **Cannibal** is a [Race](/races) in Kenshi. This race is only used for characters in the [Cannibals](/cannibals) faction.
 

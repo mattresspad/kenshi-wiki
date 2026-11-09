@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/bonefields\">Bonefields</a>, <a href=\"/shem\">Shem</a>, <a href=\"/venge\">Venge</a>, <a href=\"/stobes-gamble\">Stobe's Gamble</a>, <a href=\"/greyshelf\">Greyshelf</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Well, the Ashlands lie to the south east... the ultimate expedition for any tech hunting pro. You could say it's exactly because nobody ever makes it there that we crazy ones just find it all the more enticing. Apart from the Ashland Drifters of course, but they're long gone.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Barman in Flats Lagoon</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Well, the Ashlands lie to the south east... the ultimate expedition for any tech hunting pro. You could say it's exactly because nobody ever makes it there that we crazy ones just find it all the more enticing. Apart from the Ashland Drifters of course, but they're long gone.</blockquote><figcaption>Barman in Flats Lagoon</figcaption></figure>
 
 **Flats Lagoon** is a relatively safe Zone compared to most of the Southeastern quarter of the map. There are often Trade Caravans spawning here.
 

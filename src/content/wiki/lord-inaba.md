@@ -21,7 +21,7 @@ infobox:
         - ["Inventory","<a href=\"/advanced-first-aid-kit\">Advanced First Aid Kit</a>, <a href=\"/bloodrum\">Bloodrum</a>, <a href=\"/cooked-vegetables\">Cooked Vegetables</a>, <a href=\"/luxury-goods\">Luxury Goods</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Your putrid rags offend my nose, commoner girl!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Your putrid rags offend my nose, commoner girl!</blockquote></figure>
 
 **Lord Inaba** is a nobleman, writer, and military commander of the [United Cities](/united-cities). He can be found in [Stoat](/stoat) at his [Noble House](/noble-house) or patrolling with his 5 [Hooded Empire Noble Guards](/hooded-empire-noble-guard). Lord Inaba is the author of [The Blessing of Slavery](/the-blessing-of-slavery).
 

@@ -68,11 +68,11 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interaction
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Mm mm. The finest bloodrum... And it looks like I have a guest? Lucky I'm feeling charitable. Have a drop.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Mm mm. The finest bloodrum... And it looks like I have a guest? Lucky I'm feeling charitable. Have a drop.</blockquote></figure>
 
 Characters can speak with Longen and hear him complain that not one of his "so-called guards" has put an end to [Tinfist's](/tinfist) operations, provided that the player hasn't already gotten rid of Tinfist or [Tengu](/emperor-tengu), and is not allied to [Anti-Slavers](/anti-slavers) or enemies of [Slave Traders](/slave-traders).
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Tinfist... Tinfist and his ninjas. He plagues our guild, sabotages our order, sets our slaves loose. Industry and harvest aside, do you know what happens to these escaped slaves, countryman? See the corpses that litter their paths. They terrorize drifters, nomads, merchants. They become yet another threat to stave off in the outlands. A feral will always be a feral... For themselves and for others, the best solution for taming a wild animal is to leash it... But Tinfist, ever the madman, unleashes these ferals on the innocent...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Tinfist... Tinfist and his ninjas. He plagues our guild, sabotages our order, sets our slaves loose. Industry and harvest aside, do you know what happens to these escaped slaves, countryman? See the corpses that litter their paths. They terrorize drifters, nomads, merchants. They become yet another threat to stave off in the outlands. A feral will always be a feral... For themselves and for others, the best solution for taming a wild animal is to leash it... But Tinfist, ever the madman, unleashes these ferals on the innocent...</blockquote></figure>
 
 ## [World States](/world-states)
 

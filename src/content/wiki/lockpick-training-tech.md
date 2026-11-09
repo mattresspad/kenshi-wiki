@@ -78,4 +78,4 @@ Lockpick Training II
 
 [Locksmith Training Box III](/locksmith-training-box)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Learning to picklocks is hard to get started in. It's too late to learn once you're locked in a cage, training is needed to get your foot on the ladder.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Learning to picklocks is hard to get started in. It's too late to learn once you're locked in a cage, training is needed to get your foot on the ladder.</blockquote><figcaption>In-game Description</figcaption></figure>

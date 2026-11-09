@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Tech Hunters Map"
+  image: "/icons/items/1532844-rebirth.mod.png"
+  caption: "A map from a Tech Hunter scout, detailing a possible location to find Ancient Science Books."
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.1000"]
-        - ["Sell value","c.500"]
-        - ["Description","A map from a Tech Hunter scout, detailing a possible location to find Ancient Science Books."]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>1532844-rebirth.mod</span>"]
 ---
 

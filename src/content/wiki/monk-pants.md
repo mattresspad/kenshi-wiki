@@ -5,9 +5,25 @@ source:
   title: "Monk Pants"
   revision: 82036
 categories: ["Armour","Legwear","Clothing"]
+infobox:
+  title: "Monk Pants"
+  image: "/icons/items/2188-gamedata.base.png"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","5x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","70%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2188-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Monk Pants</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.50</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td></tr></tbody></table>
 
 **Monk Pants** are clothing that are wearable as pants. They are also widely available at Clothing Traders throughout the game. They neither improve or decrease protection or stats for the character wearing them.
 
@@ -21,6 +37,6 @@ Monk Pants are orange in color and fit loose on the characters legs.
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Monk Pants<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">?</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Monk Pants</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Monk Pants blueprint: 12 hours at tech level 1; the blueprint is worth c. 75.</li></ul></div>
 
 They are craft-able on a [Clothing Bench](/clothing-bench) after purchasing blueprints from a [Clothing Trader](/clothing-trader).

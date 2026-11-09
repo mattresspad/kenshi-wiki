@@ -17,7 +17,7 @@ infobox:
 
 64665-rebirth.mod
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This is where skeletons can get their permanent injuries fixed up, probably not much use to you Humans...<p>...unless of course the fog men eat your legs off or something. Then I could fit you up with some nice new ones. Haha!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton-doctor">Skeleton Doctor</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This is where skeletons can get their permanent injuries fixed up, probably not much use to you Humans...<p>...unless of course the fog men eat your legs off or something. Then I could fit you up with some nice new ones. Haha!</p></blockquote><figcaption><a href="/skeleton-doctor">Skeleton Doctor</a></figcaption></figure>
 
 A **Robotics Workshop** is a store dealing in [Robot Limbs](/robot-limbs) and other necessities for [Skeletons](/skeleton).
 

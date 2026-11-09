@@ -21,4 +21,4 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 0.98.36.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A fancier crossbow string technology that could increase the power of all mounted crossbows by 10%.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A fancier crossbow string technology that could increase the power of all mounted crossbows by 10%.</blockquote><figcaption>In-game description</figcaption></figure>

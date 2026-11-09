@@ -14,7 +14,7 @@ infobox:
         - ["Territorial Trigger","False"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Meat! Meat! MEAT!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Cannibal War Leader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Meat! Meat! MEAT!</blockquote><figcaption>Cannibal War Leader</figcaption></figure>
 
 **Cannibal Swarm** is an [Event](/events) that can trigger if the [Player](/nameless) defeats the [Cannibal Raid](/cannibal-raid) or [Scrawny Raid](/scrawny-raid) events.
 

@@ -6,23 +6,32 @@ source:
   revision: 86662
 categories: ["Armour","Body Armour","Clothing"]
 infobox:
-  title: "Clothing Manufacture"
+  title: "Black Rag Shirt"
+  image: "/icons/items/42060-rebirth.mod.png"
+  caption: "Black rags typical of down-and-out hobo ninjas"
   groups:
     - heading: null
       rows:
-        - ["Description","With this we could craft clothes and stuff.  For wearing."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","1 <a href=\"/book\">Book</a>"]
-    - heading: "Results"
+        - ["Head","25% covered"]
+        - ["Right Arm","95% covered"]
+        - ["Chest","10% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
-        - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
+        - ["Cut into stun","20%"]
+        - ["Stealth","1.10x"]
+    - heading: null
+      rows:
+        - ["String id","<span>42060-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Black rags typical of down-and-out hobo ninjas</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 The **Black Rag Shirt** is a piece of Clothing that is equipped in the Body Armour slot. Because of its color, it has a stealth bonus unlike its [plain](/rag-shirt), [dyed](/dyed-rag-shirt), and [holy](/holy-servant-rags) variants.
 
@@ -34,17 +43,7 @@ The **Black Rag Shirt** is made up of several ragged strips of black cloth that 
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Rag Shirt</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>0.15%</td></tr><tr><td>-Cut resistance</td><td>0.2%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.17</td></tr><tr><td>-Sell value</td><td>c.4</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Rag Shirt</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>0.6%</td></tr><tr><td>-Cut resistance</td><td>0.8%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.107</td></tr><tr><td>-Sell value</td><td>c.26</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Rag Shirt</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>1.2%</td></tr><tr><td>-Cut resistance</td><td>1.6%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.393</td></tr><tr><td>-Sell value</td><td>c.98</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Rag Shirt</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>1.8%</td></tr><tr><td>-Cut resistance</td><td>2.4%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.871</td></tr><tr><td>-Sell value</td><td>c.217</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Rag Shirt</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>2.4%</td></tr><tr><td>-Cut resistance</td><td>3.2%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,540</td></tr><tr><td>-Sell value</td><td>c.385</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Rag Shirt</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>2.85%</td></tr><tr><td>-Cut resistance</td><td>3.8%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,166</td></tr><tr><td>-Sell value</td><td>c.541</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Cloth</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>0.15%</td><td>0.6%</td><td>1.2%</td><td>1.8%</td><td>2.4%</td><td>2.85%</td></tr><tr><th scope="row">Cut resistance</th><td>0.2%</td><td>0.8%</td><td>1.6%</td><td>2.4%</td><td>3.2%</td><td>3.8%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">80%</td></tr><tr><th scope="row">Weight</th><td colspan="6">1 kg</td></tr><tr><th scope="row">Value</th><td>c.17</td><td>c.107</td><td>c.393</td><td>c.871</td><td>c.1,540</td><td>c.2,166</td></tr><tr><th scope="row">Sell value</th><td>c.4</td><td>c.26</td><td>c.98</td><td>c.217</td><td>c.385</td><td>c.541</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">25%</td></tr><tr><th scope="row">Chest</th><td colspan="6">10%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">95%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td colspan="6">1.10x</td></tr></tbody></table>
 
 ## Source
 
@@ -54,8 +53,4 @@ The **Black Rag Shirt** is made up of several ragged strips of black cloth that 
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1.35 required)</span></p></td><td><strong><span>Black Rag Shirt</span></strong><div></div></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Black Rag Shirt<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>984</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>246</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Black Rag Shirt</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1.35</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Black Rag Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 984.</li></ul></div>

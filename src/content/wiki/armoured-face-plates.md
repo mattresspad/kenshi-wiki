@@ -6,23 +6,29 @@ source:
   revision: 86882
 categories: ["Armour","Headgear","Medium Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Armoured Face Plates"
+  image: "/icons/items/18962-gamedata.base.png"
+  caption: "Heavy armour plates for protecting the neck and face."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","3"]
-        - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
+        - ["Head","75% covered"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
-        - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
+        - ["Cut into stun","10%"]
+        - ["Stealth","1.05x"]
+    - heading: null
+      rows:
+        - ["String id","<span>18962-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Heavy armour plates for protecting the neck and face.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Armoured Face Plates** is a Medium Armour that is equipped in the Headgear slot. There is a [hooded variant](/armoured-hood) with higher coverage and resistance to [acid](/weather-effects#acid-rain) and [burning](/weather-effects#burning) damage, but with penalties on combat stats and less protection from cutting damage (due to lower cut resistance efficiency).
 
@@ -34,17 +40,7 @@ The Armoured Face Plates look like metal plates moulded on top of each other in 
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Face Plates</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>2%</td></tr><tr><td>-Cut resistance</td><td>12%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>4.5pts</td></tr><tr><td>-Weight</td><td>4.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.238</td></tr><tr><td>-Sell value</td><td>c.59</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>75%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Face Plates</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>10%</td></tr><tr><td>-Cut resistance</td><td>22%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>18pts</td></tr><tr><td>-Weight</td><td>4.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.585</td></tr><tr><td>-Sell value</td><td>c.146</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>75%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Face Plates</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>21%</td></tr><tr><td>-Cut resistance</td><td>35%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>36pts</td></tr><tr><td>-Weight</td><td>4.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,693</td></tr><tr><td>-Sell value</td><td>c.423</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>75%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Face Plates</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>32%</td></tr><tr><td>-Cut resistance</td><td>49%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>54pts</td></tr><tr><td>-Weight</td><td>4.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.3,540</td></tr><tr><td>-Sell value</td><td>c.885</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>75%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Face Plates</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>43%</td></tr><tr><td>-Cut resistance</td><td>63%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>72pts</td></tr><tr><td>-Weight</td><td>4.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.6,125</td></tr><tr><td>-Sell value</td><td>c.1,531</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>75%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Face Plates</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>51.3%</td></tr><tr><td>-Cut resistance</td><td>73.625%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>85.5pts</td></tr><tr><td>-Weight</td><td>4.6875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.8,549</td></tr><tr><td>-Sell value</td><td>c.2,137</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>75%</td></tr><tr><td></td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Metal Plate</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>2%</td><td>10%</td><td>21%</td><td>32%</td><td>43%</td><td>51.3%</td></tr><tr><th scope="row">Cut resistance</th><td>12%</td><td>22%</td><td>35%</td><td>49%</td><td>63%</td><td>73.625%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">90%</td></tr><tr><th scope="row">Harpoon resistance</th><td>4.5pts</td><td>18pts</td><td>36pts</td><td>54pts</td><td>72pts</td><td>85.5pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">4.6875 kg</td></tr><tr><th scope="row">Value</th><td>c.238</td><td>c.585</td><td>c.1,693</td><td>c.3,540</td><td>c.6,125</td><td>c.8,549</td></tr><tr><th scope="row">Sell value</th><td>c.59</td><td>c.146</td><td>c.423</td><td>c.885</td><td>c.1,531</td><td>c.2,137</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">75%</td></tr></tbody></table>
 
 ## Source
 
@@ -54,12 +50,6 @@ The Armoured Face Plates look like metal plates moulded on top of each other in 
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.075 required)</span></p></td><td><strong><span>Armoured Face Plates</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(0.75 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Armoured Face Plates<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>4,233</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,058</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Armoured Face Plates</td></tr></tbody></table>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.075</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>0.75</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Armoured Face Plates blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,233.</li></ul></div>
 
 ## History

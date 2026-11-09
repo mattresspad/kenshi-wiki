@@ -14,7 +14,7 @@ infobox:
         - ["Territorial Trigger","False"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Red Sabres are on their way over... But not on our watch, eh, Hounds? We're ready for 'em.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hound</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Red Sabres are on their way over... But not on our watch, eh, Hounds? We're ready for 'em.</blockquote><figcaption>Hound</figcaption></figure>
 
 **Hound Reinforcements** is an [Event](/events) that will trigger in response to the [Bandit Raid](/bandit-raid) or [Red Sabre Raid](/red-sabre-raid) events, as long as the [Player](/nameless) is allied to the [Hounds](/hounds), and [Big Grim](/big-grim) is alive and free.
 

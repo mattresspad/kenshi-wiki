@@ -14,7 +14,7 @@ infobox:
         - ["Hostile towards","<a href=\"/shek-kingdom\">Shek Kingdom</a>, <a href=\"/the-holy-nation\">The Holy Nation</a>, <a href=\"/united-cities\">United Cities</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You! You stare at my horns! You have the gall to gawk at a Shek Warrior's horns, you must have the fight to back it up!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You! You stare at my horns! You have the gall to gawk at a Shek Warrior's horns, you must have the fight to back it up!</blockquote></figure>
 
 The **Band of Bones** is a violent [Shek](/shek) bandit group led by [Tora](/tora-the-fearless) composed of denizens from the [Shek Kingdom](/shek-kingdom).
 

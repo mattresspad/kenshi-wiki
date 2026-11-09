@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/the-great-desert\">The Great Desert</a>, <a href=\"/bast-zone\">Bast</a>, <a href=\"/northern-coast\">Northern Coast</a>, <a href=\"/darkfinger\">Darkfinger</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A lot of hungry people get pushed out of the Empire... And they end up in Sinkuun.<p>Last thing we need right now is a desperate mob of starvers raiding our pockets....</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A lot of hungry people get pushed out of the Empire... And they end up in Sinkuun.<p>Last thing we need right now is a desperate mob of starvers raiding our pockets....</p></blockquote><figcaption>Player Characters</figcaption></figure>
 
 **Sinkuun** is a large peninsula located north-west of the [The Great Desert](/the-great-desert). The peninsula is infamous for being where the outcasts and bandits of the [United Cities](/united-cities) live.
 

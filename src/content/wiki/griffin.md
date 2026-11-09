@@ -25,7 +25,7 @@ infobox:
         - ["String ID","19643-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I had a dream last night... The Lord of Light Okran himself came to me, and he told me that I would meet a weatlhy wanderer from the outside...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I had a dream last night... The Lord of Light Okran himself came to me, and he told me that I would meet a weatlhy wanderer from the outside...</blockquote></figure>
 
 **Griffin** is a [Unique Recruit](/unique-recruits) found in any [Holy Nation](/the-holy-nation) bar. He believes he had a vision from [Okran](/okran), who showed him that he would meet a wealthy wanderer, and that wanderer would lead him to the truth of the First Extinction. Whether or not you believe him, he believes this wanderer is you and asks for c.9,000 as proof of your wealth.
 

@@ -22,6 +22,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Advanced high-tech legs like what the skeletons have.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Research menu</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Advanced high-tech legs like what the skeletons have.</blockquote><figcaption>Research menu</figcaption></figure>
 
 **Skeleton Legs** is [Crafting Tech](/crafting-tech) which unlocks the ability to craft the [Robot Limbs](/robot-limbs) named "Skeleton Leg". This research is needed to unlock the rest of the craftable legs, except for Economy Legs which are unlocked in the prerequisite.

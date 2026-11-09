@@ -14,7 +14,7 @@ infobox:
         - ["Gender","female"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>EEEEEEEEEH!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>EEEEEEEEEH!</blockquote></figure>
 
 **The Queen** is leader of the [Western Hive](/western-hive) and has [Diplomatic Status](/diplomatic-status). She rules her domain from the "Hill Hut" in the [Western Hive](/western-hive-location), located on an island west of [Vain](/vain).
 

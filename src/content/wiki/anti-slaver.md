@@ -1,6 +1,6 @@
 ---
 title: "Anti-Slaver"
-description: "–Anti-Slaver accompanying an allied player"
+description: "Anti-Slavers are the lowest skilled member of the Anti-Slavers. They do not have randomly generated names, unlike all other generic members of the Anti-Slave…"
 source:
   title: "Anti-Slaver"
   revision: 95357
@@ -18,7 +18,7 @@ infobox:
         - ["String ID","62180-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You ain't leaving me out of all the action.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Anti-Slaver accompanying an allied player</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You ain't leaving me out of all the action.</blockquote><figcaption>Anti-Slaver accompanying an allied player</figcaption></figure>
 
 **Anti-Slavers** are the lowest skilled member of the [Anti-Slavers](/anti-slavers). They do not have randomly generated names, unlike all other generic members of the Anti-Slavers. These characters can be found raiding player outposts or found in residential areas in Anti-Slaver cities.
 
@@ -254,7 +254,7 @@ _This character spawns with no weapons._
 
 #### Headgear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/straw-hat">Straw Hat</a></td><td>25%</td></tr><tr><td></td><td><a href="/bandana">Bandana</a></td><td>25%</td></tr><tr><td></td><td><a href="/side-angle-hachigane">Side-Angle Hachigane</a></td><td>25%</td></tr><tr><td></td><td><a href="/hachigane">Hachigane</a></td><td>25%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/575-gamedata.base.png" alt="" width="40" height="40"> <a href="/straw-hat">Straw Hat</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2222-chris_r.mod.png" alt="" width="40" height="40"> <a href="/bandana">Bandana</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2223-chris_r.mod.png" alt="" width="40" height="40"> <a href="/side-angle-hachigane">Side-Angle Hachigane</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2224-chris_r.mod.png" alt="" width="40" height="40"> <a href="/hachigane">Hachigane</a></td><td>25%</td></tr></tbody></table>
 
 #### Body
 
@@ -262,11 +262,11 @@ _This character spawns with no weapons._
 
 #### Shirt
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/white-vest">White Vest</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/cloth-shirt">Cloth Shirt</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/martial-artist-bindings">Martial Artist Bindings</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/1167-gamedata.base.png" alt="" width="40" height="40"> <a href="/white-vest">White Vest</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/1168-gamedata.base.png" alt="" width="40" height="40"> <a href="/cloth-shirt">Cloth Shirt</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2326-gamedata.base.png" alt="" width="40" height="40"> <a href="/martial-artist-bindings">Martial Artist Bindings</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Legwear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/halfpants-ragged">Halfpants (ragged)</a></td><td>25%</td></tr><tr><td></td><td><a href="/cargopants">Cargopants</a></td><td>25%</td></tr><tr><td></td><td><a href="/samurai-clothpants">Samurai Clothpants</a></td><td>25%</td></tr><tr><td></td><td><a href="/drifters-leather-pants">Drifter's Leather Pants</a></td><td>25%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/551-gamedata.base.png" alt="" width="40" height="40"> <a href="/halfpants-ragged">Halfpants (ragged)</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/550-gamedata.base.png" alt="" width="40" height="40"> <a href="/cargopants">Cargopants</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2159-gamedata.base.png" alt="" width="40" height="40"> <a href="/samurai-clothpants">Samurai Clothpants</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2305-clothes_v1.mod.png" alt="" width="40" height="40"> <a href="/drifters-leather-pants">Drifter's Leather Pants</a></td><td>25%</td></tr></tbody></table>
 
 #### Footwear
 

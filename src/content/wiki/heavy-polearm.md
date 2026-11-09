@@ -7,17 +7,33 @@ source:
 categories: ["Weapons","Polearms"]
 infobox:
   title: "Heavy Polearm"
+  image: "/icons/items/52307-rebirth.mod.png"
+  caption: "An unusual sabre-polearm hybrid that mitigates the disadvantages of using a polearm."
   groups:
     - heading: null
       rows:
-        - ["Class","[Polearm class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/polearms\">Polearm</a>"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","1x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.70x"]
+        - ["Blunt damage","0.40x"]
+        - ["Bleed","1.00x"]
         - ["Armour penetration","+30%"]
         - ["Attack","+4"]
+        - ["Defence","0"]
         - ["Indoors","-4"]
-        - ["Damage vs animals","+25%"]
         - ["Reach","26"]
-        - ["Description","An unusual sabre-polearm hybrid that mitigates the disadvantages of using a polearm."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","+25%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52307-rebirth.mod</span>"]
 ---
 
@@ -31,15 +47,7 @@ Curiously, the Heavy Polearm is not wielded by any NPC besides Screamer. Non-Mei
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Heavy Polearm</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Heavy Polearm</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(8 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Heavy Polearm</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(8 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>8</td><td>8</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>8</td><td>8</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Polearms blueprint: 4 hours at tech level 2; the blueprint is worth c. 3,000.</li></ul></div>
 
 ## Blueprints
 

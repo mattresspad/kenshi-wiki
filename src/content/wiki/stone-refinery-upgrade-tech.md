@@ -78,7 +78,7 @@ Stone Refinery Upgrade 3
 
 [Stone Processor V](/stone-processor)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Stone Processor requires too much manpower, we need to improve the design so we can get more output with less workers.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Stone Processor requires too much manpower, we need to improve the design so we can get more output with less workers.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Stone Refinery Upgrade** is [Industry Tech](/industry-tech) which unlocks some improved versions of the [Stone Processor](/stone-processor).
 

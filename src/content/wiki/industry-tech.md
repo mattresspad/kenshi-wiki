@@ -1,13 +1,13 @@
 ---
 title: "Industry Tech"
-description: "–Skeleton character, talking about Floodlands"
+description: "Industry Tech is a Technology branch which includes research into mining and refineries."
 source:
   title: "Industry Tech"
   revision: 84347
 categories: ["Technology"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Machines building more machines to build more machines with...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> character, talking about <a href="/floodlands">Floodlands</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Machines building more machines to build more machines with...</blockquote><figcaption><a href="/skeleton">Skeleton</a> character, talking about <a href="/floodlands">Floodlands</a></figcaption></figure>
 
 **Industry Tech** is a [Technology](/technology) branch which includes research into mining and refineries.
 

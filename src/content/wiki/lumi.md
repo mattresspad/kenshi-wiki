@@ -22,7 +22,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>[Her eyes widen excitedly]... Do you know what I love more than anything in all the land?<p>Crabs!</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>[Her eyes widen excitedly]... Do you know what I love more than anything in all the land?<p>Crabs!</p></blockquote></figure>
 
 **Lumi** is a female [Unique Recruit](/unique-recruits) who can be found in [Crab Town](/crab-town). She loves crabs! She can be hired for c.6,000.
 

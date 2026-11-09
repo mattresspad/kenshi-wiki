@@ -18,7 +18,7 @@ infobox:
         - ["String ID","50466-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You ain't from here, eh... Well unless you're here to talk fish, I ain't interested.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You ain't from here, eh... Well unless you're here to talk fish, I ain't interested.</blockquote></figure>
 
 **Bar Fisherman** is a character who can be found hanging out in the [Bar](/bar) in [Fishing Village](/fishing-village-northern-coast).
 
@@ -128,7 +128,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Headgear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/turban">Turban</a></td><td>20%</td></tr><tr><td></td><td><a href="/straw-hat">Straw Hat</a></td><td>20%</td></tr><tr><td></td><td><a href="/wool-hat">Wool Hat</a></td><td>20%</td></tr><tr><td></td><td><a href="/bandana">Bandana</a></td><td>20%</td></tr><tr><td></td><td><a href="/cap">Cap</a></td><td>20%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2219-chris_r.mod.png" alt="" width="40" height="40"> <a href="/turban">Turban</a></td><td>20%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/575-gamedata.base.png" alt="" width="40" height="40"> <a href="/straw-hat">Straw Hat</a></td><td>20%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2164-gamedata.base.png" alt="" width="40" height="40"> <a href="/wool-hat">Wool Hat</a></td><td>20%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2222-chris_r.mod.png" alt="" width="40" height="40"> <a href="/bandana">Bandana</a></td><td>20%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2167-gamedata.base.png" alt="" width="40" height="40"> <a href="/cap">Cap</a></td><td>20%</td></tr></tbody></table>
 
 #### Body
 
@@ -136,11 +136,11 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Shirt
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/turtleneck">Turtleneck</a></td><td>25%</td></tr><tr><td></td><td><a href="/black-cloth-shirt">Black Cloth Shirt</a></td><td>25%</td></tr><tr><td></td><td><a href="/dark-leather-shirt">Dark Leather Shirt</a></td><td>25%</td></tr><tr><td></td><td><a href="/leather-vest">Leather Vest</a></td><td>25%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/543-gamedata.base.png" alt="" width="40" height="40"> <a href="/turtleneck">Turtleneck</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/18917-gamedata.base.png" alt="" width="40" height="40"> <a href="/black-cloth-shirt">Black Cloth Shirt</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2214-gamedata.base.png" alt="" width="40" height="40"> <a href="/dark-leather-shirt">Dark Leather Shirt</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2212-gamedata.base.png" alt="" width="40" height="40"> <a href="/leather-vest">Leather Vest</a></td><td>25%</td></tr></tbody></table>
 
 #### Legwear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/cargopants-padded">Cargopants (padded)</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/halfpants-padded">Halfpants (padded)</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/stout-hessian">Stout Hessian</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/1394-gamedata.base.png" alt="" width="40" height="40"> <a href="/cargopants-padded">Cargopants (padded)</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/554-gamedata.base.png" alt="" width="40" height="40"> <a href="/halfpants-padded">Halfpants (padded)</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/18911-gamedata.base.png" alt="" width="40" height="40"> <a href="/stout-hessian">Stout Hessian</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Footwear
 

@@ -7,12 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Robotics Components"
+  image: "/icons/items/583-gamedata.base.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","2 kg"]
-        - ["Size","4x2 wide/tall"]
-        - ["Avg. Price","c.2,838"]
+        - ["Base value","c. 600"]
+        - ["Size in inventory","2x4"]
+    - heading: null
+      rows:
+        - ["String id","<span>583-gamedata.base</span>"]
 ---
 
 **Robotics Components** is a [trade good](/trade-goods) which can be bought at traders such as [Hive Village](/hive-village) or crafted at a [Robotics Bench](/robotics-bench). It is also used in crafting artificial limbs and [Skeleton Repair Kits](/skeleton-repair-kit).
@@ -32,3 +37,7 @@ infobox:
   
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/robotics-bench">Robotics Bench</a></th></tr><tr><th scope="row"><a href="/skeleton-muscle">Skeleton Muscle</a></th><td>1</td></tr><tr><th scope="row"><a href="/motor">Motor</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/robotics-tech">Robotics</a> research: 8 hours at tech level 3; costs <a href="/ancient-science-book">1 Ancient Science Book</a>; needs <a href="/steel-bars-tech">Steel Bars</a>, <a href="/electrical-crafting-tech">Electrical Crafting</a>.</li></ul></div>

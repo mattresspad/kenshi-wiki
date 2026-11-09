@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/cult-village/slave-traders)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>With Tinfist gone there be no more famine, no more chaos, no more suffering... I like to think I reward my allies well, (player name). You're the saviour of our nation, and no harm will come to a single hair on the head of our nation's saviour...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/longen">Longen</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>With Tinfist gone there be no more famine, no more chaos, no more suffering... I like to think I reward my allies well, (player name). You're the saviour of our nation, and no harm will come to a single hair on the head of our nation's saviour...</blockquote><figcaption><a href="/longen">Longen</a></figcaption></figure>
 
 **Cult Village, Slave Traders** is a slave farm controlled by [Slave Traders](/slave-traders). It belonged to [Preacher Cult](/preacher-cult) until [Tinfist](/tinfist) was captured or killed while both [Longen](/longen) and [Slave Master Grande](/slave-master-grande) remained alive.
 

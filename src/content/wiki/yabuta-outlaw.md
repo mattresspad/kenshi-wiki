@@ -26,7 +26,7 @@ infobox:
         - ["String ID","1532485-__May 18 2.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This is our desert now...<p>The weak aren't welcome.</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>This is our desert now...<p>The weak aren't welcome.</p></blockquote></figure>
 
 **Yabuta Outlaws** are members of the [Yabuta Outlaws](/yabuta-outlaws). They can be found patrolling the northeastern territories of the [United Cities](/united-cities), [The Hook](/the-hook), and their hideout in [Fort Yabuta](/fort-yabuta) (previously [Fort Simion](/fort-simion)) after [Yabuta of the Sands](/yabuta-of-the-sands) has been freed from [Tengu's Vault](/tengus-vault).
 

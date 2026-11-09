@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/admag/weakened)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It's begun. With the devil child purged, the nest has been riled and the Golem's forces have already started warring in the holy plains. I pray for the southern cities... but the capital's defences are down at least. Our forces are on their way to Stenn. We can destroy the horned barbarians once and for all. The devil war will finally come to an end and we'll see peace again after hundreds of years...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-lord-phoenix">Holy Lord Phoenix</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It's begun. With the devil child purged, the nest has been riled and the Golem's forces have already started warring in the holy plains. I pray for the southern cities... but the capital's defences are down at least. Our forces are on their way to Stenn. We can destroy the horned barbarians once and for all. The devil war will finally come to an end and we'll see peace again after hundreds of years...</blockquote><figcaption><a href="/holy-lord-phoenix">Holy Lord Phoenix</a></figcaption></figure>
 
 If [Seto](/seto) is killed, [Admag](/admag) will have a notable lack of military population to reflect the increased [Shek Kingdom](/shek-kingdom)'s patrols around [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride). Indicating that they've weakened themselves after throwing out most of their warriors against HN forces.
 

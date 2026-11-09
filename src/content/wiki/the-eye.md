@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/heng-zone\">Heng</a>, <a href=\"/gut\">Gut</a>, <a href=\"/stormgap-coast\">Stormgap Coast</a>, <a href=\"/venge\">Venge</a>, <a href=\"/grey-desert\">Grey Desert</a>, <a href=\"/the-black-desert\">The Black Desert</a>, <a href=\"/skimsands\">Skimsands</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Oh man, I forgot that thing is still here.<p>You can see it in the distance there</p><p>It's still chugging away even now.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Oh man, I forgot that thing is still here.<p>You can see it in the distance there</p><p>It's still chugging away even now.</p></blockquote><figcaption><a href="/skeleton">Skeleton</a> Player Characters</figcaption></figure>
 
 **The Eye** is a region surrounding a central structure. When the player gets close enough to the structure, an ally will begin to talk about it. The central structure appears to be a fallen satellite in the shape of a ring whose visibility is heavily obstructed by the sandstorm/duststorm around the structure.
 

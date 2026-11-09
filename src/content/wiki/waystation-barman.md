@@ -25,7 +25,7 @@ infobox:
         - ["String ID","44860-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Welcome, customer, what can I do for you?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Barman greeting</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Welcome, customer, what can I do for you?</blockquote><figcaption>Barman greeting</figcaption></figure>
 
 **Waystation Barmen** are named shopkeepers of the [Tech Hunters](/tech-hunters) and [Anti-Slavers](/anti-slavers) found manning [Adventurer Bars](/adventurer-bar).
 

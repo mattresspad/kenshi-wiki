@@ -6,23 +6,31 @@ source:
   revision: 92331
 categories: ["Armour","Body Armour","Clothing"]
 infobox:
-  title: "Clothing Manufacture"
+  title: "Dyed Rag Shirt"
+  image: "/icons/items/51642-rebirth.mod.png"
+  caption: "Dirty rags, worn by slaves and good-for-nothings"
   groups:
     - heading: null
       rows:
-        - ["Description","With this we could craft clothes and stuff.  For wearing."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","1 <a href=\"/book\">Book</a>"]
-    - heading: "Results"
+        - ["Head","25% covered"]
+        - ["Right Arm","95% covered"]
+        - ["Chest","10% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
-        - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
+        - ["Cut into stun","20%"]
+    - heading: null
+      rows:
+        - ["String id","<span>51642-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Dirty rags, worn by slaves and good-for-nothings</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 **Dyed Rag Shirt** is a piece of Clothing that is equipped in the Body Armour slot. Statistically-wise it is identical to the [Rag Shirt](/rag-shirt), the only difference being its [colouring](/colour-scheme) properties. There are matching trousers for this "rag set" called the [Rag Loincloth (Dyed)](/rag-loincloth-dyed).
 
@@ -34,17 +42,7 @@ A Rag Shirt is made up of several ragged strips of cloth that wrap around the ch
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dyed Rag Shirt</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>0.15%</td></tr><tr><td>-Cut resistance</td><td>0.2%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.17</td></tr><tr><td>-Sell value</td><td>c.4</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dyed Rag Shirt</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>0.6%</td></tr><tr><td>-Cut resistance</td><td>0.8%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.107</td></tr><tr><td>-Sell value</td><td>c.26</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dyed Rag Shirt</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>1.2%</td></tr><tr><td>-Cut resistance</td><td>1.6%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.393</td></tr><tr><td>-Sell value</td><td>c.98</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dyed Rag Shirt</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>1.8%</td></tr><tr><td>-Cut resistance</td><td>2.4%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.871</td></tr><tr><td>-Sell value</td><td>c.217</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dyed Rag Shirt</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>2.4%</td></tr><tr><td>-Cut resistance</td><td>3.2%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,540</td></tr><tr><td>-Sell value</td><td>c.385</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dyed Rag Shirt</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>2.85%</td></tr><tr><td>-Cut resistance</td><td>3.8%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,166</td></tr><tr><td>-Sell value</td><td>c.541</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td>-Chest</td><td>10%</td></tr><tr><td>-Right Arm</td><td>95%</td></tr><tr><td></td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Cloth</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>0.15%</td><td>0.6%</td><td>1.2%</td><td>1.8%</td><td>2.4%</td><td>2.85%</td></tr><tr><th scope="row">Cut resistance</th><td>0.2%</td><td>0.8%</td><td>1.6%</td><td>2.4%</td><td>3.2%</td><td>3.8%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">80%</td></tr><tr><th scope="row">Weight</th><td colspan="6">1 kg</td></tr><tr><th scope="row">Value</th><td>c.17</td><td>c.107</td><td>c.393</td><td>c.871</td><td>c.1,540</td><td>c.2,166</td></tr><tr><th scope="row">Sell value</th><td>c.4</td><td>c.26</td><td>c.98</td><td>c.217</td><td>c.385</td><td>c.541</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">40%</td></tr><tr><th scope="row">Chest</th><td colspan="6">10%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">95%</td></tr></tbody></table>
 
 ## Source
 
@@ -54,6 +52,6 @@ A Rag Shirt is made up of several ragged strips of cloth that wrap around the ch
 
 ## Crafting
 
-A blueprint can be found at the [Great Library](/the-great-library).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1.35</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Dyed Rag Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 984.</li></ul></div>
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1.35 required)</span></p></td><td><strong><span>Dyed Rag Shirt</span></strong><div></div></td></tr></tbody></table></details>
+A blueprint can be found at the [Great Library](/the-great-library).

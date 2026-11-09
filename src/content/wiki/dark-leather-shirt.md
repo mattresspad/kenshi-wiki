@@ -6,23 +6,32 @@ source:
   revision: 95154
 categories: ["Armour","Shirts","Light Armour"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Dark Leather Shirt"
+  image: "/icons/items/2214-gamedata.base.png"
+  caption: "Undershirts provide a reliable second layer of defence."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 3,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","2"]
-        - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
+        - ["Chest","100% covered"]
+        - ["Left Arm","30% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","30% covered"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
-        - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+        - ["Cut into stun","50%"]
+        - ["Stealth","1.10x"]
+    - heading: null
+      rows:
+        - ["String id","<span>2214-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Undershirts provide a reliable second layer of defence.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Dark Leather Shirt** is Light Armour that are equipped in the Body Armour slot. It is a dark-green version of [Leather Shirt](/leather-shirt) with slightly better protective stats with the downside of being much more expensive.
 
@@ -34,17 +43,7 @@ The Dark Leather Shirt is similar in appearance to the [Leather Shirt](/leather-
 
 ## Grades
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dark Leather Shirt</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>2.688%</td></tr><tr><td>-Cut resistance</td><td>4.224%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>2.1pts</td></tr><tr><td>-Weight</td><td>1.9375 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.343</td></tr><tr><td>-Sell value</td><td>c.85</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>30%</td></tr><tr><td>-Left Arm</td><td>30%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dark Leather Shirt</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>6.048%</td></tr><tr><td>-Cut resistance</td><td>9.504%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>4.725pts</td></tr><tr><td>-Weight</td><td>1.9375 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,750</td></tr><tr><td>-Sell value</td><td>c.437</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>30%</td></tr><tr><td>-Left Arm</td><td>30%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dark Leather Shirt</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>10.528%</td></tr><tr><td>-Cut resistance</td><td>16.544%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>8.225pts</td></tr><tr><td>-Weight</td><td>1.9375 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.6,258</td></tr><tr><td>-Sell value</td><td>c.1,564</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>30%</td></tr><tr><td>-Left Arm</td><td>30%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dark Leather Shirt</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>15.008%</td></tr><tr><td>-Cut resistance</td><td>23.584%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>11.725pts</td></tr><tr><td>-Weight</td><td>1.9375 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.13,767</td></tr><tr><td>-Sell value</td><td>c.3,441</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>30%</td></tr><tr><td>-Left Arm</td><td>30%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dark Leather Shirt</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>19.488%</td></tr><tr><td>-Cut resistance</td><td>30.624%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>15.225pts</td></tr><tr><td>-Weight</td><td>1.9375 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.24,279</td></tr><tr><td>-Sell value</td><td>c.6,069</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>30%</td></tr><tr><td>-Left Arm</td><td>30%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dark Leather Shirt</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>22.848%</td></tr><tr><td>-Cut resistance</td><td>35.904%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>17.85pts</td></tr><tr><td>-Weight</td><td>1.9375 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.34,137</td></tr><tr><td>-Sell value</td><td>c.8,534</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>30%</td></tr><tr><td>-Left Arm</td><td>30%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>2.688%</td><td>6.048%</td><td>10.528%</td><td>15.008%</td><td>19.488%</td><td>22.848%</td></tr><tr><th scope="row">Cut resistance</th><td>4.224%</td><td>9.504%</td><td>16.544%</td><td>23.584%</td><td>30.624%</td><td>35.904%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">50%</td></tr><tr><th scope="row">Harpoon resistance</th><td>2.1pts</td><td>4.725pts</td><td>8.225pts</td><td>11.725pts</td><td>15.225pts</td><td>17.85pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">1.9375 kg</td></tr><tr><th scope="row">Value</th><td>c.343</td><td>c.1,750</td><td>c.6,258</td><td>c.13,767</td><td>c.24,279</td><td>c.34,137</td></tr><tr><th scope="row">Sell value</th><td>c.85</td><td>c.437</td><td>c.1,564</td><td>c.3,441</td><td>c.6,069</td><td>c.8,534</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">100%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">100%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">30%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">30%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td colspan="6">1.10x</td></tr></tbody></table>
 
 ## Source
 
@@ -58,9 +57,7 @@ Masterwork - Black Dog HQ inside the Metal chest on the bottom floor.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Leather Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.62 required)</span></p></td><td><strong><span>Dark Leather Shirt</span></strong><div></div></td></tr><tr><td><a href="/leather"><span>Leather</span></a><div></div><p><span>(3.1 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.62</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>3.1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Dark Leather Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 15,643.</li></ul></div>
 
 ## Trivia
 

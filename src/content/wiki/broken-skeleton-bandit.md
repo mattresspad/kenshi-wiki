@@ -1,6 +1,6 @@
 ---
 title: "Broken Skeleton Bandit"
-description: "–Skeleton Bandit after defeating enemy squad"
+description: "Broken Skeleton Bandits are members of the Skeleton Bandits. They wander the zones of Stobe's Gamble, Stobe's Garden, The Crags and The Pits in groups of 1-5…"
 source:
   title: "Broken Skeleton Bandit"
   revision: 90182
@@ -18,7 +18,7 @@ infobox:
         - ["String ID","62813-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Phew!...<p>I mean, uh. Target exterminated.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Skeleton Bandit after defeating enemy squad</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Phew!...<p>I mean, uh. Target exterminated.</p></blockquote><figcaption>Skeleton Bandit after defeating enemy squad</figcaption></figure>
 
 **Broken Skeleton Bandits** are members of the [Skeleton Bandits](/skeleton-bandits). They wander the zones of [Stobe's Gamble](/stobes-gamble), [Stobe's Garden](/stobes-garden), [The Crags](/the-crags) and [The Pits](/the-pits) in groups of 1-5 after [Elder](/elder) has been killed or kidnapped.
 

@@ -16,7 +16,7 @@ infobox:
         - ["Victory Triggers","<strong>Thug Attack</strong> 0-150 Hours, 80% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Alright, boys! You know the drill... The little guys piss on the big guys... The big guys pay us to mop up the piss.<p><br>Er... what?</p><p>MOP UP THE PISS AND BREAK SOME BONES. GO!</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Alright, boys! You know the drill... The little guys piss on the big guys... The big guys pay us to mop up the piss.<p><br>Er... what?</p><p>MOP UP THE PISS AND BREAK SOME BONES. GO!</p></blockquote></figure>
 
 **Thug Attack** is an [Event](/events) that can trigger as a result of failing or refusing to pay the fees in the [Traders Guild Visit](/traders-guild-visit) event. It cannot trigger if the player is allied to the [Traders Guild](/traders-guild).
 

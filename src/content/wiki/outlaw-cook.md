@@ -27,7 +27,7 @@ infobox:
         - ["String ID","52667-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>*Sigh* Everyone underrates the cook. But you know what, without a good cook you'll be shitting sideways for the rest of your days. Part of a swordsman's training, a scientists research... part of it all is good food! How can you improve without the fuel to nourish the mind and body?!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>*Sigh* Everyone underrates the cook. But you know what, without a good cook you'll be shitting sideways for the rest of your days. Part of a swordsman's training, a scientists research... part of it all is good food! How can you improve without the fuel to nourish the mind and body?!</blockquote></figure>
 
 **Outlaw Cook** is a randomly named [Generic Recruit](/generic-recruits). They are a cook looking for work. They can be hired for c.6,000.
 

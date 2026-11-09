@@ -1,6 +1,6 @@
 ---
 title: "Paladin Guardian"
-description: "–Paladin Guardian upon spotting an intruder in Narko's Trap"
+description: "Paladin Guardians are rare soldiers of the Holy Nation. They are found exclusively in Narko's Trap, guarding it from would-be tech hunters and thieves seekin…"
 source:
   title: "Paladin Guardian"
   revision: 95317
@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Thieves! Working for Narko!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Paladin Guardian upon spotting an intruder in <a href="/narkos-trap">Narko's Trap</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Thieves! Working for Narko!</blockquote><figcaption>Paladin Guardian upon spotting an intruder in <a href="/narkos-trap">Narko's Trap</a></figcaption></figure>
 
 **Paladin Guardians** are rare soldiers of the [Holy Nation](/holy-nation). They are found exclusively in [Narko's Trap](/narkos-trap), guarding it from would-be tech hunters and thieves seeking access to the unique [Ancient Tech Lab](/narkos-evil-tower). They intend on keeping Narko's Trap a secret and will attack anyone on sight.
 

@@ -15,7 +15,7 @@ infobox:
         - ["Factions","<a href=\"/united-cities\">United Cities</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>On behalf of Lord Tengu, welcome to your new home!<p><br>It's a bit on the small side, but a lick of piss on the walls should make it sparkle.</p><p>You'll find the toilet in the corner next to your foot.</p><p>Food is served at whenever-I-give-a-fuck o'clock.</p><p>We have a great choice of meals...</p><p>Shit scraped fresh from the floor...</p><p>... Rotten gutter entrails... or the tongue scalpel special.</p><p>Nobody cares about you. It's my job to make you suffer.</p><p>Enjoy your stay!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/the-vault-warden">The Vault Warden</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>On behalf of Lord Tengu, welcome to your new home!<p><br>It's a bit on the small side, but a lick of piss on the walls should make it sparkle.</p><p>You'll find the toilet in the corner next to your foot.</p><p>Food is served at whenever-I-give-a-fuck o'clock.</p><p>We have a great choice of meals...</p><p>Shit scraped fresh from the floor...</p><p>... Rotten gutter entrails... or the tongue scalpel special.</p><p>Nobody cares about you. It's my job to make you suffer.</p><p>Enjoy your stay!</p></blockquote><figcaption><a href="/the-vault-warden">The Vault Warden</a></figcaption></figure>
 
 **Tengu's Vault** is located at the south end of rocky [Skimsands](/skimsands) and is guarded by the [Samurai](/samurai) of the [United Cities](/united-cities). The Vault seems to be a military prison presumably for the worst criminals of the empire. [The Vault Warden](/the-vault-warden) oversees the prison.
 

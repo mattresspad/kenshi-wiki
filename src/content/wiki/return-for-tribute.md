@@ -16,7 +16,7 @@ infobox:
         - ["Victory Triggers","<strong>Return For Tribute</strong> 96-120 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You are defeated. You will serve us, lowly <a href="/flatskins">Flatskins</a>. I will be your overlord now. My people will be your masters. You will provide us with food and supplies when we need it. In return, we will spare your paltry life.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You are defeated. You will serve us, lowly <a href="/flatskins">Flatskins</a>. I will be your overlord now. My people will be your masters. You will provide us with food and supplies when we need it. In return, we will spare your paltry life.</blockquote></figure>
 
 **Return for Tribute** is an event that triggers if you paid tribute in the [Tribute Round](/tribute-round) or was defeated in [Return For Blood](/return-for-blood) or [Shek Challengers](/shek-challengers-shek-kingdom) events.
 

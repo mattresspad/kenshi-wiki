@@ -22,7 +22,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>If we can make our own fabric it makes clothing and armour crafting more cost-effective.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>If we can make our own fabric it makes clothing and armour crafting more cost-effective.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Fabric Manufacture** is [Crafting Tech](/crafting-tech) which unlocks a [Fabric Loom](/fabric-looms) that converts [Cotton](/cotton) into [Fabrics](/fabrics). This technology is not required for [Hemp-Based Fabric](/hemp-based-fabric-tech), which unlocks the [Hemp](/hemp) version of this building.
 

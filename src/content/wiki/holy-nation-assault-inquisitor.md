@@ -15,7 +15,7 @@ infobox:
         - ["Repeat Limit","4 Days"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Okran, I am your sword. Okran, I am your executor. And with this holy sword, retribution will be served. For the murder of Okran's apostles...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–High Inquisitor Seta</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Okran, I am your sword. Okran, I am your executor. And with this holy sword, retribution will be served. For the murder of Okran's apostles...</blockquote><figcaption>High Inquisitor Seta</figcaption></figure>
 
 **Holy Nation Assault (Inquisitor)**, simply referred to as 'Holy Nation Assault' in-game, is an [event](/events) that can occur if the player has defeated the [Holy Nation Assault (Major)](/holy-nation-assault-major) event. It is closely related to, but not to be confused with, two other events of the same name, [Holy Nation Assault (Minor)](/holy-nation-assault-minor), and [Holy Nation Assault (Major)](/holy-nation-assault-major).
 

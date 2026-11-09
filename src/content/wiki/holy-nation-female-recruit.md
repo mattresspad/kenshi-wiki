@@ -1,6 +1,6 @@
 ---
 title: "Holy Nation Female Recruit"
-description: "–Talking to a Male character, not Maniacal, Dumb or Traitorous"
+description: "Holy Nation Female Recruit is a Generic Recruit found in The Holy Nation. She can spawn in all Major Towns (Blister Hill, Stack, Bad Teeth). She is a woman l…"
 source:
   title: "Holy Nation Female Recruit"
   revision: 94510
@@ -23,7 +23,7 @@ infobox:
         - ["String ID","19640-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I hope I'm not too forward speaking to you, brother. But you're from the outside, right? I'm looking for work outside of the city.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Talking to a Male character, not Maniacal, Dumb or Traitorous</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I hope I'm not too forward speaking to you, brother. But you're from the outside, right? I'm looking for work outside of the city.</blockquote><figcaption>Talking to a Male character, not Maniacal, Dumb or Traitorous</figcaption></figure>
 
 **Holy Nation Female Recruit** is a [Generic Recruit](/generic-recruits) found in [The Holy Nation](/the-holy-nation). She can spawn in all Major Towns ([Blister Hill](/blister-hill), [Stack](/stack), [Bad Teeth](/bad-teeth)). She is a woman looking for work outside of The Holy Nation. She can be hired for c.3,000.
 
@@ -63,12 +63,12 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>... Well... It- it's more appropriate of me if I keep my distance from you, holy brother. I wouldn't want to offend you... I guess you're from outside, huh?... I'm looking for work outside...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–not Brave, Dumb, or Maniacal Personality, to male Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>... Well... It- it's more appropriate of me if I keep my distance from you, holy brother. I wouldn't want to offend you... I guess you're from outside, huh?... I'm looking for work outside...</blockquote><figcaption>not Brave, Dumb, or Maniacal Personality, to male Player Characters</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I hope I'm not too forward speaking to you, brother. But you're from the outside, right? I'm looking for work outside of the city.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–not Maniacal, Dumb, or Traitorous, to male Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I hope I'm not too forward speaking to you, brother. But you're from the outside, right? I'm looking for work outside of the city.</blockquote><figcaption>not Maniacal, Dumb, or Traitorous, to male Player Characters</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Can I be of assistance, holy brother?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–not Fearful, Traitorous, or Maniacal Personality, to male Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Can I be of assistance, holy brother?</blockquote><figcaption>not Fearful, Traitorous, or Maniacal Personality, to male Player Characters</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Sister, I'm looking for work, need a hireling?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–not Brave, Maniacal, or Traitorous Personality, to female Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Sister, I'm looking for work, need a hireling?</blockquote><figcaption>not Brave, Maniacal, or Traitorous Personality, to female Player Characters</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It's not easy being a woman in this town, huh outlander?<p>Sister, need a merc? We women need to stick together, stick it to those self-righteous bucket brains.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–not Dumb, Smart, or Fearful Personality, to female Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It's not easy being a woman in this town, huh outlander?<p>Sister, need a merc? We women need to stick together, stick it to those self-righteous bucket brains.</p></blockquote><figcaption>not Dumb, Smart, or Fearful Personality, to female Player Characters</figcaption></figure>

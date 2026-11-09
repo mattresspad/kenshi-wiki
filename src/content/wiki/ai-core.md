@@ -7,13 +7,19 @@ source:
 categories: ["Items"]
 infobox:
   title: "AI Core"
+  image: "/icons/items/43392-changes_otto.mod.png"
+  caption: "A rare piece of ancient technology, anyone capable of researching it could unlock the most advanced technology of the modern age."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","4x4"]
-        - ["Avg. Price","c.25,000"]
-        - ["Description","A rare piece of ancient technology, anyone capable of researching it could unlock the most advanced technology of the modern age."]
+        - ["Base value","c. 25,000"]
+        - ["Size in inventory","4x4"]
+        - ["Artifact","Yes"]
+    - heading: null
+      rows:
+        - ["String id","<span>43392-changes_otto.mod</span>"]
 ---
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>

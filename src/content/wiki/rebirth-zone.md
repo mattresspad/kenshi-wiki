@@ -15,7 +15,7 @@ infobox:
 
 _**This article is a Work in Progress. It may contain out of date or incomplete information.**_
 
-<table class="wikitable"><tbody><tr><td>“</td><td>So this is the land of the Holy Nation, birthplace of the Phoenix...<p>Isn’t this where hundreds of Shek and Hivers ‘disappear’?</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/shek">Shek</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>So this is the land of the Holy Nation, birthplace of the Phoenix...<p>Isn’t this where hundreds of Shek and Hivers ‘disappear’?</p></blockquote><figcaption><a href="/shek">Shek</a> Player Characters</figcaption></figure>
 
 Deep in the mountains, north-west of [Blister Hill](/blister-hill), there is a giant [Holy Nation](/the-holy-nation) mine bigger than any other slave labor mines. The zone named **Rebirth** extends slightly beyond the boundaries of the mine named [Rebirth](/rebirth).
 

@@ -1,6 +1,6 @@
 ---
 title: "Okran's Shield/Shek Kingdom"
-description: "–Emperor Tengu after Holy Lord Phoenix, High Inquisitor Seta, High Inquisitor Valtena all dead"
+description: "If High Inquisitor Valtena is killed or imprisoned while Esata the Stone Golem is alive, Okran's Shield will fall under the control of Shek Kingdom – but onl…"
 source:
   title: "Okran's Shield/Shek Kingdom"
   revision: 94759
@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/okrans-shield/shek-kingdom)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Well done to you, (player name)! We now have a bunch of rabid bone warriors to keep out of our desert after your little cleanup in the grass plains... Genius...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/emperor-tengu">Emperor Tengu</a> after <a href="/holy-lord-phoenix">Holy Lord Phoenix</a>, <a href="/high-inquisitor-seta">High Inquisitor Seta</a>, <a href="/high-inquisitor-valtena">High Inquisitor Valtena</a> all dead</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Well done to you, (player name)! We now have a bunch of rabid bone warriors to keep out of our desert after your little cleanup in the grass plains... Genius...</blockquote><figcaption><a href="/emperor-tengu">Emperor Tengu</a> after <a href="/holy-lord-phoenix">Holy Lord Phoenix</a>, <a href="/high-inquisitor-seta">High Inquisitor Seta</a>, <a href="/high-inquisitor-valtena">High Inquisitor Valtena</a> all dead</figcaption></figure>
 
 If [High Inquisitor Valtena](/high-inquisitor-valtena) is [killed or imprisoned](/world-states) while [Esata the Stone Golem](/esata-the-stone-golem) is alive, [Okran's Shield](/okrans-shield) will [fall under the control](/town-overrides) of [Shek Kingdom](/shek-kingdom) – but only if the player is allied with that faction.
 

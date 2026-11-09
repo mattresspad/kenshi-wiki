@@ -1,6 +1,6 @@
 ---
 title: "Ronin Construction Trader"
-description: "–Trader answering an engineering question"
+description: "Ronin Construction Traders are unnamed shopkeepers of the Tech Hunters, Shek Kingdom, or Anti-Slavers, depending on which city the Adventurer Mechanical Shop…"
 source:
   title: "Ronin Construction Trader"
   revision: 89319
@@ -20,7 +20,7 @@ infobox:
         - ["Footwear","<a href=\"/wooden-sandals\">Wooden Sandals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You just need the raw Building Materials, or sometimes Iron Plates. You can't just plonk down anywhere though, you'll have to find a nice spot out in the wilds where you won't bother anyone, or maybe buy a building here in town.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Trader answering an engineering question</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You just need the raw Building Materials, or sometimes Iron Plates. You can't just plonk down anywhere though, you'll have to find a nice spot out in the wilds where you won't bother anyone, or maybe buy a building here in town.</blockquote><figcaption>Trader answering an engineering question</figcaption></figure>
 
 **Ronin Construction Traders** are unnamed shopkeepers of the [Tech Hunters](/tech-hunters), [Shek Kingdom](/shek-kingdom), or [Anti-Slavers](/anti-slavers), depending on which city the [Adventurer Mechanical Shop](/adventurer-mechanical-shop) the man is located.
 

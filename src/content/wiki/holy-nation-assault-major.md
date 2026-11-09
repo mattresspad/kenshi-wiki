@@ -15,7 +15,7 @@ infobox:
         - ["Loss Triggers","<strong>Holy Nation Assault (Major)</strong> 72-200 hours, 30% chance<p><a href=\"/holy-nation-assault-inquisitor\">Holy Nation Assault (Inquisitor)</a> 72-200 hours, 20-40% chance</p>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Leave this land, unholy ones! The Lord of Light repels you!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Inquisitor War Leader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Leave this land, unholy ones! The Lord of Light repels you!</blockquote><figcaption>Inquisitor War Leader</figcaption></figure>
 
 **Holy Nation Assault (Major)**, simply referred to as 'Holy Nation Assault' in-game, is an [event](/events) that can occur if the player has defeated the [Holy Assault](/holy-assault), [Holy Nation Assault (Minor)](/holy-nation-assault-minor), or **Holy Nation Assault (Major)** events. It is closely related to, but not to be confused with, two other events of the same name, [Holy Nation Assault (Minor)](/holy-nation-assault-minor), and [Holy Nation Assault (Inquisitor)](/holy-nation-assault-inquisitor).
 

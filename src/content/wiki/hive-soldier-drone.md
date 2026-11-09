@@ -7,7 +7,7 @@ source:
 categories: ["Races","Hivers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Soldier drones created to protect their Hive and enforce control over the workers. Stronger and less intelligent than a worker, freedom-seekers are rarer and usually end up finding mercenary work.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Soldier drones created to protect their Hive and enforce control over the workers. Stronger and less intelligent than a worker, freedom-seekers are rarer and usually end up finding mercenary work.</blockquote><figcaption>Game Description</figcaption></figure>
 
 **Western Hive Soldier Drones** are a [Race](/races) in Kenshi. They are a subrace of the Western [Hive](/hive).
 

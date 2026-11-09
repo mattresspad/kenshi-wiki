@@ -7,7 +7,7 @@ source:
 categories: ["Factions","Swampers","Swamp Gangs"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Those guys, they're about as crazy as them come, they gimme the goddamn creeps. They traffic organs, do kidnappin's and ransoms too. Okran knows where they get their...stock...from. You know what, I don't want to know. I ain't pissin' em off any time soon though, that's for sure.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Swamper Barman</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Those guys, they're about as crazy as them come, they gimme the goddamn creeps. They traffic organs, do kidnappin's and ransoms too. Okran knows where they get their...stock...from. You know what, I don't want to know. I ain't pissin' em off any time soon though, that's for sure.</blockquote><figcaption>Swamper Barman</figcaption></figure>
 
 A gang of [Scorchlanders](/human) from [the Swamp](/the-swamp), the **Twinblades** deal in kidnapping and ransoms, often killing and harvesting the organs of those who can't pay. They are the smallest of all 5 gangs, as they don't control any settlements.
 

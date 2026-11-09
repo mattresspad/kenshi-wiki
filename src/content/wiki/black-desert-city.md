@@ -18,7 +18,7 @@ infobox:
         - ["String ID","52210-Newwworld.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Time flows slowly when you live in a bubble of lost time.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–- Skeleton</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Time flows slowly when you live in a bubble of lost time.</blockquote><figcaption>- Skeleton</figcaption></figure>
 
 **Black Desert City** is a town run by [Skeletons](/skeleton) in the middle of the [Deadlands](/deadlands) region. The town is populated by [Skeleton Civilians](/skeleton-civilian) and [Skeleton Residents](/skeleton-resident). As there are no human residents, the town lacks a food supply as is noted by the town’s bartender, however edible food can be found in containers within the other buildings. There are both regular beds and skeleton repair beds on the second floor of the town's bar. Black Desert City was created after the fall of the [Second Empire](/second-empire)_\[citation needed\]_. [Sadneil](/sadneil) can be recruited in this location.
 

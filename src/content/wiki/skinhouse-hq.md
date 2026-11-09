@@ -15,7 +15,7 @@ infobox:
         - ["Factions","<a href=\"/skin-bandits\">Skin Bandits</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>And most importantly, stay away from the big crater with the torches all around it. You can see it from miles away, just give it a wide berth, okay?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/tinfist">Tinfist</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>And most importantly, stay away from the big crater with the torches all around it. You can see it from miles away, just give it a wide berth, okay?</blockquote><figcaption><a href="/tinfist">Tinfist</a></figcaption></figure>
 
 **Skinhouse HQ** is the headquarters of the [Skin Bandits](/skin-bandits) faction. [Savant](/savant), leader of the Skin Bandits, can be found here.
 

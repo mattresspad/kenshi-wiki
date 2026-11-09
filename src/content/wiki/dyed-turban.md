@@ -5,11 +5,32 @@ source:
   title: "Dyed Turban"
   revision: 83791
 categories: ["Armour","Headgear","Light Armour","Needs grade info"]
+infobox:
+  title: "Dyed Turban"
+  image: "/icons/items/54582-rebirth.mod.png"
+  caption: "Keeps the heat off your head and pads your brains."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","75% covered"]
+        - ["Extra blunt resistance","up to +20%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Weather protection","70%"]
+    - heading: null
+      rows:
+        - ["String id","<span>54582-rebirth.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Keeps the heat off your head and pads your brains.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 The **Dyed Turban** is a [Light Armour Class](/light-armour) [Headgear](/headgear) item.
 
 This armour has inventory dimensions of **3x3**.
@@ -20,4 +41,8 @@ Made from a single piece of cloth and wrapped around the player's head so that s
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Dyed Turban</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>2%%</td></tr><tr><td>-Cut resistance</td><td>0% (-20% stun)%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>70%</td></tr><tr><td>-Value</td><td>c.24</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>75%</td></tr><tr><td></td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Armour Class · Cloth</th><th class="unsortable grade grade-prototype">Prototype</th></tr><tr><th scope="row">Blunt resistance</th><td colspan="1">2%%</td></tr><tr><th scope="row">Cut resistance</th><td colspan="1">0% (-20% stun)%</td></tr><tr><th scope="row">Weight</th><td colspan="1">1 kg</td></tr><tr><th scope="row">Value</th><td colspan="1">c.24</td></tr><tr><th colspan="2">Weather Protections</th></tr><tr><th scope="row">Duststorms</th><td colspan="1">70%</td></tr><tr><th colspan="2">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="1">75%</td></tr></tbody></table>
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.75</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Dyed Turban blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,758.</li></ul></div>

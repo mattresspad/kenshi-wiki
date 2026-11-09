@@ -14,7 +14,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/united-cities-assault\">United Cities Assault</a> 72-100 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Drug production is illegal in United Cities territory! You are hereby arrested for illegal activity within Empire land.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Samurai War Leader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Drug production is illegal in United Cities territory! You are hereby arrested for illegal activity within Empire land.</blockquote><figcaption>Samurai War Leader</figcaption></figure>
 
 **Drug Bust** is an [event](/events) that can trigger if a member of the [United Cities](/united-cities) military or police sees an illegal building owned by the player. These buildings include [Biofuel Distillery (Hemp)](/biofuel-distillery-hemp), [Hemp Farm](/hemp-farm), [Hemp Processor](/hemp-processor), and [Hydroponic Hemp](/hydroponic-hemp). [Emperor Tengu](/emperor-tengu) must also not be killed or captured for the event to trigger.
 

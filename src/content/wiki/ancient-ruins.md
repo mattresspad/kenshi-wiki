@@ -14,7 +14,7 @@ infobox:
         - ["Type","Bandit"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Took me three weeks to travel to these ruins. Get here and nothin'. Nada. Place's been completely ransacked already. Hoy, the lady's gonna wring my neck when I go back empty handed...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/tech-hunter-ruins">Tech Hunter Ruins</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Took me three weeks to travel to these ruins. Get here and nothin'. Nada. Place's been completely ransacked already. Hoy, the lady's gonna wring my neck when I go back empty handed...</blockquote><figcaption><a href="/tech-hunter-ruins">Tech Hunter Ruins</a></figcaption></figure>
 
 The **Ancient Ruins** is a "not real" faction (meaning they do not show up on the faction tab) used to represent some of the various ruins across the world. Generally, they have several spiders (organic and robotic alike) as well as many security robots, and a fair amount of [Research Artifacts](/research-artifacts) and various tech loot.
 

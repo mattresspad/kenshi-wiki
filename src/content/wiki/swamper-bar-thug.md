@@ -26,7 +26,7 @@ infobox:
         - ["String ID","49275-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>What's that yer drinkin'? Grog?... Grog's for girls. What're you, a girl now?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>What's that yer drinkin'? Grog?... Grog's for girls. What're you, a girl now?</blockquote></figure>
 
 An unnamed member of the [Bar Thugs](/bar-thugs) faction. They can be found in [Shark](/shark) bar.
 

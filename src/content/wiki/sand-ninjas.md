@@ -1,6 +1,6 @@
 ---
 title: "Sand Ninjas"
-description: "–Sand Ninja's reaction to a character trespassing in the Cactus Den"
+description: "The Sand Ninjas are a Faction of bandits led by Sand Ninja Oni."
 source:
   title: "Sand Ninjas"
   revision: 94837
@@ -14,7 +14,7 @@ infobox:
         - ["Type","Bandit"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Wandered far from home, ain'tcha?!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/sand-ninja">Sand Ninja</a>'s reaction to a character trespassing in the <a href="/cactus-den">Cactus Den</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Wandered far from home, ain'tcha?!</blockquote><figcaption><a href="/sand-ninja">Sand Ninja</a>'s reaction to a character trespassing in the <a href="/cactus-den">Cactus Den</a></figcaption></figure>
 
 The **Sand Ninjas** are a [Faction](/factions) of bandits led by [Sand Ninja Oni](/sand-ninja-oni).
 

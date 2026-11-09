@@ -7,18 +7,34 @@ source:
 categories: ["Weapons","Hacker"]
 infobox:
   title: "Long Cleaver"
+  image: "/icons/items/478-gamedata.base.png"
+  caption: "Close to being classed as a heavy weapon, it's the heaviest cleaver you will find."
   groups:
     - heading: null
       rows:
-        - ["Class","[Hacker class]"]
-        - ["Blood loss","0.75x"]
+        - ["Class","<a href=\"/hackers\">Hacker</a>"]
+        - ["Base weight","13 kg"]
+        - ["Base value","c. 350"]
+        - ["Size in inventory","2x9"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.80x"]
+        - ["Blunt damage","0.80x"]
+        - ["Bleed","0.75x"]
         - ["Armour penetration","+30%"]
+        - ["Attack","0"]
         - ["Defence","-2"]
         - ["Indoors","-4"]
-        - ["Damage vs robots","+20%"]
-        - ["Damage vs animals","-10%"]
         - ["Reach","25"]
-        - ["Description","Close to being classed as a heavy weapon, it's the heaviest cleaver you will find."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+        - ["Robots","+20%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>478-gamedata.base</span>"]
 ---
 
@@ -32,15 +48,7 @@ This weapon has inventory dimensions of 2x9, meaning it can only be equipped as 
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(10 required)</span></p></td><td><strong><span>Long Cleaver</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(10 required)</span></p></td><td><strong><span>Long Cleaver</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(10 required)</span></p></td><td><strong><span>Long Cleaver</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>10</td><td>10</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>10</td><td>10</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Long Cleavers blueprint: 4 hours at tech level 2; the blueprint is worth c. 5,000.</li></ul></div>
 
 ## Blueprints
 

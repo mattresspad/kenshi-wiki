@@ -22,11 +22,7 @@ Chain Headwrap and [Blackened Chain Headwrap](/blackened-chain-headwrap) are i
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Chain Headwrap</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>0.03%</td></tr><tr><td>-Cut resistance</td><td>0%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.5</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>60%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Chain Headwrap</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>0.075%</td></tr><tr><td>-Cut resistance</td><td>0%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.9</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>60%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Chain Headwrap</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td></td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>0.12%</td></tr><tr><td>-Cut resistance</td><td>0%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.19</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>60%</td></tr><tr><td></td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Cloth</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th></tr><tr><th scope="row">Blunt resistance</th><td>0.03%</td><td>0.075%</td><td>0.12%</td></tr><tr><th scope="row">Cut resistance</th><td colspan="3">0%</td></tr><tr><th scope="row">Weight</th><td colspan="3">1 kg</td></tr><tr><th scope="row">Value</th><td>c.5</td><td>c.9</td><td>c.19</td></tr><tr><th colspan="4">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="3">60%</td></tr></tbody></table>
 
   
 

@@ -6,25 +6,27 @@ source:
   revision: 86321
 categories: ["Robot Limbs"]
 infobox:
-  title: "Extra Durable Legs"
+  title: "KLR Series Leg (right)"
+  image: "/icons/items/96189-Newwworld.mod.png"
+  caption: "Not the fastest legs around, but a heavy duty KLR leg like this one will keep on running when any normal person would be limping, so the cannibals won't be able to catch up to you and get any more of your limbs."
   groups:
     - heading: null
       rows:
-        - ["Description","Advanced high-tech legs like what the skeletons have."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/robot-limbs\">Right leg</a>"]
+        - ["Weight","25 kg"]
+        - ["Base value","c. 3,000 → c. 30,000"]
+        - ["Size in inventory","7x2"]
+    - heading: "Stats (range across grades)"
       rows:
-        - ["Estimated Time","12 hours"]
-        - ["Tech Level","6"]
-        - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
-        - ["Requirements","<a href=\"/skeleton-legs-tech\"> Skeleton Legs</a>"]
-    - heading: "Results"
+        - ["HP","100 → 300"]
+        - ["Athletics","0.40x → 1.00x"]
+        - ["Swimming","0.50x"]
+        - ["Stealth","0.10x → 0.50x"]
+    - heading: null
       rows:
-        - ["New Item(s)","<a href=\"/klr-series-leg-left\">KLR Series Leg (left)</a><p>KLR Series Leg (right)</p>"]
+        - ["String id","<span>96189-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Not the fastest legs around, but a heavy duty KLR leg like this one will keep on running when any normal person would be limping, so the cannibals won't be able to catch up to you and get any more of your limbs.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 KLR Series Leg (right) is a [Robot Limb](/robot-limbs), and a replacement for a lost right leg.
 
 ## Stats 
@@ -47,4 +49,4 @@ KLR Series Leg (right) is a [Robot Limb](/robot-limbs), and a replacement for a 
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>KLR Series Leg (right)</span></strong><div></div></td></tr><tr><td><a href="/electrical-components"><span>Electrical Components</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/extra-durable-legs-tech">Extra Durable Legs</a> research: 12 hours at tech level 6; costs <a href="/ai-core">2 AI Cores</a>; needs <a href="/skeleton-legs-tech">Skeleton Legs</a>.</li></ul></div>

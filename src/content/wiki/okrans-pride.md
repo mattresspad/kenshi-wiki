@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/okrans-gulf\">Okran's Gulf</a>, <a href=\"/rebirth-zone\">Rebirth</a>, <a href=\"/wend\">Wend</a>, <a href=\"/okrans-valley\">Okran's Valley</a>, <a href=\"/arm-of-okran\">Arm of Okran</a>, <a href=\"/skinners-roam\">Skinner's Roam</a>, <a href=\"/border-zone\">Border Zone</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Home of the sacred flame of Okran...<p>Word has it, the flame’s been burning for five thousand years…</p><p>I mean, that’s gotta be the work of a god, right?</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/human">Human</a> Male Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Home of the sacred flame of Okran...<p>Word has it, the flame’s been burning for five thousand years…</p><p>I mean, that’s gotta be the work of a god, right?</p></blockquote><figcaption><a href="/human">Human</a> Male Player Characters</figcaption></figure>
 
 **Okran's Pride** is the symbolic region and home to the Capital ([Blister Hill](/blister-hill)) of [The Holy Nation](/the-holy-nation), it is the most populated region in the whole of Kenshi. Like many other territories which HN control, it is named after their God [Okran](/okran).
 

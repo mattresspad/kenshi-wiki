@@ -21,6 +21,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Why bother with 2 machines that could be combined into one? &nbsp;A stone mine that immediately produces building materials</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Why bother with 2 machines that could be combined into one? &nbsp;A stone mine that immediately produces building materials</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Hybrid Stone Mine** is [Industry Tech](/industry-tech) research which players can complete to combine [Stone Mine](/stone-mine) buildings with [Stone Processors](/stone-processor). This technology isn't available until Tech Level 5, and typically by that level construction of most [Buildings](/buildings-list) is more reliant on [Iron Plates](/iron-plates) than it is on [Building Materials](/building-materials).

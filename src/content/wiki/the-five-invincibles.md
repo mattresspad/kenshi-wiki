@@ -23,7 +23,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Bring me your war!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Bring me your war!</blockquote></figure>
 
 **The Five Invincibles** are the greatest warriors of the [Shek Kingdom](/shek-kingdom). They can all be found in the Faction HQ in [Admag](/admag).
 

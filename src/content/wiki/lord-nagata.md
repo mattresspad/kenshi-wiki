@@ -23,7 +23,7 @@ infobox:
         - ["Inventory","<a href=\"/advanced-first-aid-kit\">Advanced First Aid Kit</a>, <a href=\"/bloodrum\">Bloodrum</a>, <a href=\"/cooked-vegetables\">Cooked Vegetables</a>,<a href=\"/luxury-goods\">Luxury Goods</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Your stench of poverty sickens me, peasant!<p>Grovel for my forgiveness!</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Your stench of poverty sickens me, peasant!<p>Grovel for my forgiveness!</p></blockquote></figure>
 
 **Lord Nagata** is a noble of the [United Cities](/united-cities). He can be found in [Sho-Battai](/sho-battai) inside the [Noble House](/noble-house), accompanied by 4 [Hooded Empire Noble Guards](/hooded-empire-noble-guard). Nagata is probably the noble lord responsible for the player's ruination in the backstory for the [Empire Citizen](/game-starts) start, where he deprived them of employment and sequestered their property.
 

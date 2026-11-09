@@ -18,7 +18,7 @@ infobox:
         - ["String ID","45491-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I can get kidneys, spleens, limbs... whatever you want. All workin' and tested, best quality only...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I can get kidneys, spleens, limbs... whatever you want. All workin' and tested, best quality only...</blockquote></figure>
 
 An unnamed member of the [Vagrants](/vagrants) faction. They are a variant of [Bar Thugs](/bar-thug) which can be found in bars in [The Hub](/the-hub), [Waystation](/waystation), or in [Shark](/shark).
 
@@ -74,11 +74,11 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Headgear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/bandana">Bandana</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/iron-hat">Iron Hat</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/straw-hat">Straw Hat</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2222-chris_r.mod.png" alt="" width="40" height="40"> <a href="/bandana">Bandana</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2227-chris_r.mod.png" alt="" width="40" height="40"> <a href="/iron-hat">Iron Hat</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/575-gamedata.base.png" alt="" width="40" height="40"> <a href="/straw-hat">Straw Hat</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Body
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/black-rag-shirt">Black Rag Shirt</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/drifters-leather-jacket">Drifter's Leather Jacket</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/dustcoat">Dustcoat</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/42060-rebirth.mod.png" alt="" width="40" height="40"> <a href="/black-rag-shirt">Black Rag Shirt</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2304-clothes_v1.mod.png" alt="" width="40" height="40"> <a href="/drifters-leather-jacket">Drifter's Leather Jacket</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/3061-gamedata.base.png" alt="" width="40" height="40"> <a href="/dustcoat">Dustcoat</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Shirt
 
@@ -86,7 +86,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Legwear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/halfpants-ragged">Halfpants (ragged)</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/worn-out-shorts">Worn-out Shorts</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/drifters-leather-pants">Drifter's Leather Pants</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/551-gamedata.base.png" alt="" width="40" height="40"> <a href="/halfpants-ragged">Halfpants (ragged)</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2158-gamedata.base.png" alt="" width="40" height="40"> <a href="/worn-out-shorts">Worn-out Shorts</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2305-clothes_v1.mod.png" alt="" width="40" height="40"> <a href="/drifters-leather-pants">Drifter's Leather Pants</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Footwear
 

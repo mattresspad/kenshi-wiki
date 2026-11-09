@@ -26,7 +26,7 @@ infobox:
         - ["String ID","51708-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>So you interrupted me, you invaded my nostrils with your odour for nothing? Dim. Do you know who else is dim? Slaves. Stick 'em in a cage and they'll live in their own droppings like brainless cattle...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Lady Kana</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>So you interrupted me, you invaded my nostrils with your odour for nothing? Dim. Do you know who else is dim? Slaves. Stick 'em in a cage and they'll live in their own droppings like brainless cattle...</blockquote><figcaption>Lady Kana</figcaption></figure>
 
 **Lady Kana** is a noble member of the [Traders Guild](/traders-guild), as well as an important associate of the [Slave Traders](/slave-traders). She can be found at [Port North](/port-north) in [The Great Desert](/the-great-desert).
 

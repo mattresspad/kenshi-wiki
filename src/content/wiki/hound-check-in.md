@@ -20,7 +20,7 @@ infobox:
         - ["Victory Triggers","<a href=\"/stone-rat-visit\">Stone Rat Visit</a> 95-110 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Don't know what back stabbing desert you crawled out of but we work together in the swamp, it's how gangs work. We protect your back, you share your profits.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hound</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Don't know what back stabbing desert you crawled out of but we work together in the swamp, it's how gangs work. We protect your back, you share your profits.</blockquote><figcaption>Hound</figcaption></figure>
 
 **Hound Check In** is an [Event](/events) that can occur if the player has an outpost within 4,500 meters of [Rot](/rot), [Big Grim](/big-grim) is still alive and free, and the player is allied to the [Hounds](/hounds) faction.
 

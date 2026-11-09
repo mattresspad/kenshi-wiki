@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>WRRRRREEEEEEEEEE!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Fogman</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>WRRRRREEEEEEEEEE!</blockquote><figcaption>Fogman</figcaption></figure>
 
 **The Fog** is an [Event](/events) that is supposed to trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 1,600 meters of a [Fogmen](/fogmen) owned location. It has a 20% chance to trigger if within 1,200 meters, this chance scales down with distance until it hits a 0% chance at 1,600 meters.
 

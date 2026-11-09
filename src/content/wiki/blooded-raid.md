@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Today is the day of new beginnings. Today is the day you join the revolution. Today is the day you become.. A Reaver. For freedom! For Valamon!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Reaver Ironclad</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Today is the day of new beginnings. Today is the day you join the revolution. Today is the day you become.. A Reaver. For freedom! For Valamon!</blockquote><figcaption>Reaver Ironclad</figcaption></figure>
 
 **Blooded Raid** is an [Event](/events) that can trigger if the [Player](/nameless) has a base within 8,000 meters of a location owned by the [Reavers](/reavers). It has a 15% chance to trigger each day if within 2,500 meters, this chance scales down with distance until it reaches 0% chance at 8,000 meters. It cannot trigger if [Valamon](/valamon) is killed or captured, or if the player is allied with the [Reavers](/reavers) (which is not possible in vanilla without exploits).
 

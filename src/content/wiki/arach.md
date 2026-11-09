@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/watchers-rim\">Watcher's Rim</a>, <a href=\"/spider-plains\">Spider Plains</a>, <a href=\"/shun\">Shun</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This is where the Bugmaster has lived for hundreds of years...<p>Nobody knows what he is or where he came from...</p><p>But what we do know is.. those that do find him never come back.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Skeleton Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This is where the Bugmaster has lived for hundreds of years...<p>Nobody knows what he is or where he came from...</p><p>But what we do know is.. those that do find him never come back.</p></blockquote><figcaption>Skeleton Player Characters</figcaption></figure>
 
 **Arach** is the home of the [Bugmaster](/bugmaster). This is one of the most dangerous zones in Kenshi because of how frequently groups of [Skin Spiders](/skin-spider) spawn.
 

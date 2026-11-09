@@ -52,7 +52,7 @@ Tech Level 2
 
 Tech Level 4
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A bigger, better research desk would allow us to research bigger, better things.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A bigger, better research desk would allow us to research bigger, better things.</blockquote><figcaption>In-game description</figcaption></figure>
 
 ## Tech Level 4
 

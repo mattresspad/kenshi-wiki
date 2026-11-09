@@ -22,7 +22,7 @@ infobox:
         - ["Legwear","<a href=\"/samurai-clothpants\">Samurai Clothpants</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Flotsam's second in command, Defence Captain Mani. I'm an ex-cannibal hunter, made it my life mission to track cannibals ever since I escaped their prisons 10 years ago. My comrades though, they weren't so lucky...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Mani</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Flotsam's second in command, Defence Captain Mani. I'm an ex-cannibal hunter, made it my life mission to track cannibals ever since I escaped their prisons 10 years ago. My comrades though, they weren't so lucky...</blockquote><figcaption>Mani</figcaption></figure>
 
 **Mani** is the [Flotsam Ninjas](/flotsam-ninjas)' second in command. He can be found in the Northern [Scout Post](/scout-post) and will sell characters any items inside of the Scout Post. He joined the Flotsam Ninjas after his patrol of [Cannibal Hunters](/cannibal-hunters) died to [Cannibals](/cannibals).
 

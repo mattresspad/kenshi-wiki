@@ -24,7 +24,7 @@ infobox:
         - ["String ID","15258-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Need a merc? I'm pretty good with a sword...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Need a merc? I'm pretty good with a sword...</blockquote></figure>
 
 **Outlaw Adventurer** is a randomly named [Generic Recruit](/generic-recruits). They can potentially have a couple different backstories depending on their personality. They can be hired for either c.5,000 or c.6,000.
 

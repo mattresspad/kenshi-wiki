@@ -65,7 +65,7 @@ This will affect your faction relationships with:
 
 -   \-30 [Anti-Slavers](/anti-slavers)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Free trade, protection, slave exemption, and 'class', of course. It is the desert man's dream to one day become a member of the fine Traders Guild!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Yamdu, about the benefits of an alliance with Traders Guild.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Free trade, protection, slave exemption, and 'class', of course. It is the desert man's dream to one day become a member of the fine Traders Guild!</blockquote><figcaption>Yamdu, about the benefits of an alliance with Traders Guild.</figcaption></figure>
 
 Specifically, Yamdu's benefits refer to [not being taxed by settling in their vicinity](/traders-guild-visit), not being targeted by [Manhunters](/manhunters), [Slave Hunters](/slave-hunters) and [Slave Traders](/slave-traders) (in cases of [Slave Raids](/slave-raid)), and having a privilege that others don't have.
 

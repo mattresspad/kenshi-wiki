@@ -7,12 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Steel Bars"
+  image: "/icons/items/579-gamedata.base.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","4 kg"]
-        - ["Size","6x1 wide/tall"]
-        - ["Avg. Price","c.648"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","1x6"]
+    - heading: null
+      rows:
+        - ["String id","<span>579-gamedata.base</span>"]
 ---
 
 **Steel Bars** are a [trade good](/trade-goods) used in the production process of [crossbows](/crossbows), high-tier melee weapons as well as in the creation of [Chain Armour](/chain-armour-crafting-bench), [Chainmail Sheets](/chainmail-sheet) and [Skeleton Repair Kits](/skeleton-repair-kit). They can be bought at [Trade Goods Shops](/trade-goods-trader) and occasionally found in some ancient locations.
@@ -34,3 +39,7 @@ Steel bars can be made by a [Steel Refinery](/steel-refinery) with [Iron Plates]
 -   [Skeleton Repair Kit](/skeleton-repair-kit)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable">Ore Processor</th><th class="unsortable"><a href="/steel-refinery">Steel Refinery</a><br>Steel Refinery II<br>Steel Refinery III</th></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>1</td><td>2</td></tr></tbody></table></div>

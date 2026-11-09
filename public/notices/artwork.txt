@@ -23,6 +23,36 @@ redistribution terms for these files and the store images, remain to be
 confirmed. Availability through the press kit or Steam does not itself grant
 a general license to redistribute the files. Kenshi is a Lo-Fi Games mark.
 
+Main page screenshots — Lo-Fi Games' press kit
+
+public/images/kenshi/main-page/*.webp are square crops, resized to 200 px, of
+screenshots in Lo-Fi Games' press gallery (https://lofigames.com/press/), under
+https://lofigames.com/wp-content/uploads/photo-gallery/:
+  basics       Gameplay/1.jpg           resources    Gameplay/14.jpg
+  gameplay     Gameplay/captured.jpg    technology   Gameplay/3.jpg
+  extras       Gameplay/4.jpg           building     Gameplay/13.jpg
+  skills       Gameplay/2.jpg           characters   Gameplay/Capture5.png
+  world        Gameplay/capture6.jpg    races        Gameplay/screenshot_2896.jpg
+  factions     Gameplay/8.jpg           fauna        Gameplay/gorillos (1).jpg
+As with the Steam images above, availability in a press kit does not itself
+grant a general license to redistribute them.
+
+gear.png and armour.png in the same folder are the game's own icons for the
+Katana (476-gamedata.base) and the Samurai Helmet (2145-gamedata.base), from its
+data/icons folder, fitted to 200 px squares. The katana is turned to lie
+diagonally; the helmet's render is clipped at its edges, which are faded out.
+
+Kenshi item icons — Lo-Fi Games' artwork
+
+public/icons/items/<string id>.png are item inventory icons. Items the game
+draws from their mesh are drawn the same way by MeitouClient's
+`meitou-tools icons` (GPL-3.0-or-later, https://github.com/VlcekM/MeitouClient)
+from the game's own meshes and textures, matching the renders Kenshi caches in
+its data/icons folder; the others are the game's own icon files. Each is named
+after the item's string id in the game data, and the article showing it carries
+that id in its infobox. scripts/game-items.mjs copies them. The meshes, textures
+and icon files are Lo-Fi Games' artwork; Kenshi is a Lo-Fi Games mark.
+
 public/icons/talk.png, the loading screen tip marker, is the 48x32 pic_PointerTalk
 frame of Kenshi's UI atlas (data/gui/gfx/Kenshi_UI.png, region defined in
 data/gui/images/kenshi_images.xml), cut out unchanged by

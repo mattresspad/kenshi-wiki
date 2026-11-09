@@ -7,11 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Parchment"
+  image: "/icons/items/16856-nodes_otto1.mod.png"
   groups:
     - heading: null
       rows:
-        - ["Size","3x1"]
-        - ["Avg. Price","c.180"]
+        - ["Type","Other"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","1x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>16856-nodes_otto1.mod</span>"]
 ---
 
 **Parchment** is some useless [junk](/junk) found in [Lost Libraries](/lost-library) along with [Damaged Books](/damaged-book) and [Old Maps](/old-map).

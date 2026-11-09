@@ -6,23 +6,30 @@ source:
   revision: 79536
 categories: ["Armour","Headgear","Light Armour"]
 infobox:
-  title: "Clothing Manufacture"
+  title: "Black Bandana"
+  image: "/icons/items/98563-rebirth.mod.png"
+  caption: "Keeps sweat and hair out of your eyes."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we could craft clothes and stuff.  For wearing."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","0 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","1 <a href=\"/book\">Book</a>"]
-    - heading: "Results"
+        - ["Head","40% covered"]
+        - ["Extra blunt resistance","up to +10%"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
-        - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
+        - ["Combat skills","+1"]
+        - ["Cut into stun","20%"]
+    - heading: null
+      rows:
+        - ["String id","<span>98563-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Keeps sweat and hair out of your eyes.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 The **Black Bandana** is a Light Armour that is equipped in the Headgear slot. The Black Bandana has two other variants: the [Bandana](/bandana) and the [Red Bandana](/red-bandana).
 
@@ -36,17 +43,7 @@ The Black Bandana is a black cloth tied around the character's face like a headb
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Bandana</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>1%</td></tr><tr><td>-Cut resistance</td><td>0%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.24</td></tr><tr><td>-Sell value</td><td>c.6</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Bandana</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>6%</td></tr><tr><td>-Cut resistance</td><td>1%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.186</td></tr><tr><td>-Sell value</td><td>c.46</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Bandana</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>12%</td></tr><tr><td>-Cut resistance</td><td>3%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.703</td></tr><tr><td>-Sell value</td><td>c.175</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Bandana</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>18%</td></tr><tr><td>-Cut resistance</td><td>4%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,564</td></tr><tr><td>-Sell value</td><td>c.391</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Bandana</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>24%</td></tr><tr><td>-Cut resistance</td><td>6%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,769</td></tr><tr><td>-Sell value</td><td>c.692</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Black Bandana</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>29%</td></tr><tr><td>-Cut resistance</td><td>7%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.3,900</td></tr><tr><td>-Sell value</td><td>c.975</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>40%</td></tr><tr><td></td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Cloth</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1%</td><td>6%</td><td>12%</td><td>18%</td><td>24%</td><td>29%</td></tr><tr><th scope="row">Cut resistance</th><td>0%</td><td>1%</td><td>3%</td><td>4%</td><td>6%</td><td>7%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">80%</td></tr><tr><th scope="row">Weight</th><td colspan="6">1 kg</td></tr><tr><th scope="row">Value</th><td>c.24</td><td>c.186</td><td>c.703</td><td>c.1,564</td><td>c.2,769</td><td>c.3,900</td></tr><tr><th scope="row">Sell value</th><td>c.6</td><td>c.46</td><td>c.175</td><td>c.391</td><td>c.692</td><td>c.975</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">40%</td></tr></tbody></table>
 
 ## Source
 
@@ -56,8 +53,4 @@ The Black Bandana is a black cloth tied around the character's face like a headb
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.4 required)</span></p></td><td><strong><span>Black Bandana</span></strong><div></div></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Black Bandana<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,757</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>439</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Black Bandana</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Black Bandana blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,758.</li></ul></div>

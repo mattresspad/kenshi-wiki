@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/dreg\">Dreg</a>, <a href=\"/okrans-gulf\">Okran's Gulf</a>, <a href=\"/border-zone\">Border Zone</a>, <a href=\"/stenn-desert\">Stenn Desert</a>, <a href=\"/spider-plains\">Spider Plains</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>... Great. Vain.<p>I wouldn't buy a loaf of bread from a bug merchant if I was starving to death.</p><p>Scamming bastards.</p><p>... Scamming adorable bastards.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/shryke">Shryke</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>... Great. Vain.<p>I wouldn't buy a loaf of bread from a bug merchant if I was starving to death.</p><p>Scamming bastards.</p><p>... Scamming adorable bastards.</p></blockquote><figcaption><a href="/shryke">Shryke</a></figcaption></figure>
 
 **Vain** is the heartland and inhabited primarily by the [Western Hive](/western-hive), it is a zone that occupies the west coast and red acidic river of the middle section of Kenshi. The Hivers also inhabit the adjacent region of [Dreg](/dreg). This place neighbors [The Holy Nation](/the-holy-nation) to the east in [Okran's Gulf](/okrans-gulf) and [Shek Kingdom](/shek-kingdom) to the south in [Stenn Desert](/stenn-desert)
 

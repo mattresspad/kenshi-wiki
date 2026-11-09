@@ -1,6 +1,6 @@
 ---
 title: "Holy Farm/Slave Traders"
-description: "–Yamdu, High Inquisitor Seta, High Inquisitor Valtena and Esata the Stone Golem dead"
+description: "Holy Farms will only be overridden and captured by the Slave Traders, functionally turning it into a slave farm, if High Inquisitor Valtena, Esata, and eithe…"
 source:
   title: "Holy Farm/Slave Traders"
   revision: 94762
@@ -19,7 +19,7 @@ infobox:
         - ["String ID","1534429-__Fixes.mod, 1534433-__Fixes.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Both of the Phoenix' inquisitors are out of the way and we've captured their richest resources. As far as the Traders Guild is concerned, we have all we need from Okran's Pride.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/yamdu">Yamdu</a>, <a href="/high-inquisitor-seta">High Inquisitor Seta</a>, <a href="/high-inquisitor-valtena">High Inquisitor Valtena</a> and <a href="/esata-the-stone-golem">Esata the Stone Golem</a> dead</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Both of the Phoenix' inquisitors are out of the way and we've captured their richest resources. As far as the Traders Guild is concerned, we have all we need from Okran's Pride.</blockquote><figcaption><a href="/yamdu">Yamdu</a>, <a href="/high-inquisitor-seta">High Inquisitor Seta</a>, <a href="/high-inquisitor-valtena">High Inquisitor Valtena</a> and <a href="/esata-the-stone-golem">Esata the Stone Golem</a> dead</figcaption></figure>
 
 Holy Farms will only be [overridden](/town-overrides) and captured by the [Slave Traders](/slave-traders), functionally turning it into a slave farm, if [High Inquisitor Valtena](/high-inquisitor-valtena), [Esata](/esata-the-stone-golem), and either [Holy Lord Phoenix](/holy-lord-phoenix) or [High Inquisitor Seta](/high-inquisitor-seta) have been killed/kidnapped, as long as [Emperor Tengu](/emperor-tengu) and [Longen](/longen) are still alive and free.
 

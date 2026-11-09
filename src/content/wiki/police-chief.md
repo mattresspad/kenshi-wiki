@@ -1,6 +1,6 @@
 ---
 title: "Police Chief"
-description: "–Police Chief, seeing the player carry a dead bounty"
+description: "Police Chiefs are the security chiefs of the United Cities, Empire Peasants, and the Free Traders. They can be easily found inside of Police Stations, and ca…"
 source:
   title: "Police Chief"
   revision: 91642
@@ -23,7 +23,7 @@ infobox:
         - ["Inventory","<a href=\"/standard-first-aid-kit\">Standard First Aid Kit</a>, <a href=\"/skeleton-repair-kit\">Skeleton Repair Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Looks like you've caught a bounty. Is he dead? You only get paid half for that.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Police Chief, seeing the player carry a dead bounty</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Looks like you've caught a bounty. Is he dead? You only get paid half for that.</blockquote><figcaption>Police Chief, seeing the player carry a dead bounty</figcaption></figure>
 
 **Police Chiefs** are the security chiefs of the [United Cities](/united-cities), [Empire Peasants](/empire-peasants), and the [Free Traders](/free-traders). They can be easily found inside of [Police Stations](/police-station), and can be asked about bounty notices, offering bails, and reselling confiscated items.
 

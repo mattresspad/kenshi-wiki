@@ -7,15 +7,29 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Ringed Sabre"
+  image: "/icons/items/903-gamedata.base.png"
+  caption: "A classic hard-hitting blade used by many legendary swordsmen, including Arc himself.  The rings are pretty noisy and mainly designed to distract and annoy the hell out of your opponent.  Beak Things hate it, but it tends to just make them more vicious."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","0.90x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.20x"]
+        - ["Blunt damage","0.25x"]
+        - ["Bleed","0.90x"]
+        - ["Armour penetration","0%"]
         - ["Attack","-2"]
         - ["Defence","+4"]
         - ["Reach","20"]
-        - ["Description","A classic hard-hitting blade used by many legendary swordsmen, including Arc himself.  The rings are pretty noisy and mainly designed to distract and annoy the hell out of your opponent.  Beak Things hate it, but it tends to just make them more vicious."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>903-gamedata.base</span>"]
 ---
 
@@ -24,6 +38,10 @@ The **Ringed Sabre** is another common weapon, often used by bandit leaders and 
 This weapon has inventory dimensions of **2x8**, meaning it can only be used as a primary weapon.
 
 The [Meitou](/meitou)\-version of this weapon can be found on [Elder](/elder), the leader of the [Skeleton Bandits](/skeleton-bandits).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>6</td><td>6</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>6</td><td>6</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Ringed Sabres blueprint: 4 hours at tech level 2; the blueprint is worth c. 6,000.</li></ul></div>
 
 ## Blueprint Locations
 

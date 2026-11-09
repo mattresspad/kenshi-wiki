@@ -22,4 +22,4 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Wind generators can generate power out of nothing! Free energy! At this stage we will have to buy the components needed to build it with.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Wind generators can generate power out of nothing! Free energy! At this stage we will have to buy the components needed to build it with.</blockquote><figcaption>In-game description</figcaption></figure>

@@ -5,9 +5,33 @@ source:
   title: "Small Backpack"
   revision: 74870
 categories: ["Backpacks"]
+infobox:
+  title: "Small Backpack"
+  image: "/icons/items/576-gamedata.base.png"
+  caption: "A small and light backpack that will help you carry extra supplies, and can be ditched in an emergency.  The comfortable weight distribution allows you to carry a lot more weight, and will only slow you down very slightly in a fight."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/backpacks\">Backpack</a>"]
+        - ["Weight reduction","50%"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 1,000"]
+    - heading: "Storage"
+      rows:
+        - ["Backpack grid","8x8"]
+        - ["Stack minimum","1x"]
+        - ["Stack multiplier","1x"]
+        - ["Size in inventory","3x3"]
+    - heading: "Combat"
+      rows:
+        - ["Combat skills","-2"]
+        - ["Combat speed","0.95x"]
+        - ["Athletics","1.00x"]
+        - ["Stealth and dodge","0.85x"]
+    - heading: null
+      rows:
+        - ["String id","<span>576-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Small Backpack</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td>-Price</td><td>c.1,000</td></tr><tr><td>-Sell Value</td><td>c.500</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Encumbrance reduction</td><td>50%</td></tr><tr><td>-Combat skills bonus</td><td>-2</td></tr><tr><td>-Athletics effect</td><td>1.00x</td></tr><tr><td>-Combat speed effect</td><td>0.95x</td></tr><tr><td>-Stealth skill effect</td><td>0.85x</td></tr><tr><td>-Dodge skill effect</td><td>0.85x</td></tr><tr><td colspan="2">A small and light backpack that will help you carry extra supplies, and can be ditched in an emergency. The comfortable weight distribution allows you to carry a lot more weight, and will only slow you down very slightly in a fight.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/backpacks">BACKPACK</a></td></tr></tbody></table>
 
 **Small Backpack** is a lightweight [backpack](/backpacks) that is unable to stack [trade goods](/trade-goods) and has comparatively little space, but hinders combatants only slightly.
 

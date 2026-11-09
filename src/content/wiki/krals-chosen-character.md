@@ -25,7 +25,7 @@ infobox:
         - ["String ID","51356-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Oh, did I hurt your fragile emotions, insignificant <a href="/flatskins">flatskin</a>? Your weakness offends the spirit of Kral! Leave.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Oh, did I hurt your fragile emotions, insignificant <a href="/flatskins">flatskin</a>? Your weakness offends the spirit of Kral! Leave.</blockquote></figure>
 
 **Kral's Chosen** are members of the faction [Kral's Chosen](/krals-chosen). They can be found in [New Kralia](/new-kralia) and in squads patrolling the [Spider Plains](/spider-plains) and [Stenn Desert](/stenn-desert).
 

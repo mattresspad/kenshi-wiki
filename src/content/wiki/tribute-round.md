@@ -19,7 +19,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/shek-challengers-shek-kingdom\">Shek Challengers (Shek Kingdom)</a> 6-12 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Shek Kingdom don't share, <a href="/flatskins">flatskin</a>, and you're on our land. Either you can pay us tribute from your stores, or we run this outpost to the ground. Your choice, flatskin.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shek Warrior War Leader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Shek Kingdom don't share, <a href="/flatskins">flatskin</a>, and you're on our land. Either you can pay us tribute from your stores, or we run this outpost to the ground. Your choice, flatskin.</blockquote><figcaption>Shek Warrior War Leader</figcaption></figure>
 
 **Food Tribute** is the first [outpost visit](/events) sent by [Shek Kingdom](/shek-kingdom) to challenge the player to a fight or alternatively rob the food supplies of people that settled up in their territory by force.
 

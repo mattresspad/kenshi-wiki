@@ -24,7 +24,7 @@ infobox:
         - ["String ID","14862-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Hrm. Think yourself a warrior, flatskin?<p>Or is that sword just for decoration?</p><p>Humorous.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Warrior mocking a <a href="/flatskins">flatskin</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Hrm. Think yourself a warrior, flatskin?<p>Or is that sword just for decoration?</p><p>Humorous.</p></blockquote><figcaption>Warrior mocking a <a href="/flatskins">flatskin</a></figcaption></figure>
 
 **Shek Warriors** are warriors of the [Shek Kingdom](/shek-kingdom). They are the most numerous members of the Kingdom, being found as guards and residents of shops and towns, as well as being led by their stronger brethren - the [Hundred Guardians](/hundred-guardian) - into battle.
 
@@ -70,7 +70,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>An outsider. How... exotic. I'm curious, outsider, do you know much of the Shek custom?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>An outsider. How... exotic. I'm curious, outsider, do you know much of the Shek custom?</blockquote></figure>
 
 Upon first time talking to a **Shek Warrior**, one may initiate dialogue to learn more about Shek customs and traditions.
 

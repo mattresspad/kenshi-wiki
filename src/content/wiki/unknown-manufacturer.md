@@ -7,7 +7,7 @@ source:
 categories: ["Manufacturers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This weapon is probably a few hundred years old, any indentifiable[sic] markings have long since rusted away.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This weapon is probably a few hundred years old, any indentifiable[sic] markings have long since rusted away.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Unknown** weapons are weapons which have no identifiable manufacturers.
 

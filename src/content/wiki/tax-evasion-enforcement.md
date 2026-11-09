@@ -15,7 +15,7 @@ infobox:
         - ["Victory Triggers","<a href=\"/tax-collector\">Tax Collector</a> 12-48 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>By order of the elite Empire, the owners of this property are under arrest. For crimes of tax evasion, treason and public disorder. Fall silently and all the more painless this will be for you!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Samurai</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>By order of the elite Empire, the owners of this property are under arrest. For crimes of tax evasion, treason and public disorder. Fall silently and all the more painless this will be for you!</blockquote><figcaption>Samurai</figcaption></figure>
 
 **Tax Evasion Enforcement** is an [Event](/events) that can occur when you refuse or fail to pay taxes as part of the [Tax Collector](/tax-collector) or [Tax Man Visit](/tax-man-visit) events. It cannot trigger if [Emperor Tengu](/emperor-tengu) is killed or captured.
 

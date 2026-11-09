@@ -6,26 +6,31 @@ source:
   revision: 85386
 categories: ["Robot Limbs"]
 infobox:
-  title: "Hiver Skeleton Arms"
+  title: "Economy Arm (left)"
+  image: "/icons/items/96134-Newwworld.mod.png"
+  caption: "The Hivers are extremely proud of the skeleton limbs that they supposedly manufacture themselves.  This arm is obviously made mostly out of salvaged parts from other skeleton arms, though they did make a functioning claw hand for it, quite an impressive feat of engineering in this age.  The limb cap is half a grog can with some padding inside.\nThey are good and cheap, but not very durable, and obviously your dexterity is going to suffer from having a claw for a hand."
   groups:
     - heading: null
       rows:
-        - ["Description","A copy of the Hiver's \"Economy Arms\""]
-    - heading: "Details"
+        - ["Slot","<a href=\"/robot-limbs\">Left arm</a>"]
+        - ["Weight","4 kg"]
+        - ["Base value","c. 500 → c. 3,500"]
+        - ["Size in inventory","6x2"]
+    - heading: "Stats (range across grades)"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","4"]
-        - ["Costs","4 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-        - ["Requirements","<a href=\"/hiver-skeleton-legs-tech\">Hiver Skeleton Legs</a>"]
-    - heading: "Results"
+        - ["HP","35 → 100"]
+        - ["Strength","0.66x → 1.00x"]
+        - ["Dexterity","0.66x → 0.80x"]
+        - ["Athletics","1.00x → 1.40x"]
+        - ["Swimming","0.75x"]
+        - ["Stealth","0.25x → 1.00x"]
+        - ["Thievery","0.00x → 0.50x"]
+        - ["Ranged","0.60x → 0.90x"]
+    - heading: null
       rows:
-        - ["New Item(s)","Economy Arm (left)<p><a href=\"/economy-arm-right\">Economy Arm (right)</a></p>"]
-        - ["Required For","<a href=\"/skeleton-arms-tech\">Skeleton Arms</a><p><a href=\"/skeleton-legs-tech\">Skeleton Legs</a></p>"]
+        - ["String id","<span>96134-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">The Hivers are extremely proud of the skeleton limbs that they supposedly manufacture themselves. This arm is obviously made mostly out of salvaged parts from other skeleton arms, though they did make a functioning claw hand for it, quite an impressive feat of engineering in this age. The limb cap is half a grog can with some padding inside.<p>They are good and cheap, but not very durable, and obviously your dexterity is going to suffer from having a claw for a hand.</p></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 Economy Arm (left) is a [Robot Limb](/robot-limbs), and a replacement for a lost left arm. This is the cheapest, and worst, model of robotic limbs.
 
 ## Stats 
@@ -48,4 +53,4 @@ Economy Arm (left) is a [Robot Limb](/robot-limbs), and a replacement for a lost
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/motor"><span>Motor</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Economy Arm (left)</span></strong><div></div></td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/motor">Motor</a></th><td>2</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/hiver-skeleton-arms-tech">Hiver Skeleton Arms</a> research: 6 hours at tech level 4; costs <a href="/ancient-science-book">4 Ancient Science Books</a>; needs <a href="/hiver-skeleton-legs-tech">Hiver Skeleton Legs</a>.</li></ul></div>

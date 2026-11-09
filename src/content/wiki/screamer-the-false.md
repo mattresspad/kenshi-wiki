@@ -20,7 +20,7 @@ infobox:
         - ["Inventory","<a href=\"/skeleton-repair-kit\">Skeleton Repair Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Make it past a few lasers and a human thinks it's invincible...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Make it past a few lasers and a human thinks it's invincible...</blockquote></figure>
 
 **Screamer The False** is one of the two leaders of the [Thrall Masters](/thrall-masters) faction (the other is [Ponk](/ponk)). Both are found in the [Tower of Abuse](/tower-of-abuse). He carries the [Meitou](/meitou) grade [Heavy Polearm](/heavy-polearm).
 

@@ -18,6 +18,6 @@ infobox:
         - ["FCS Name","Trader's Edge (override) destroyed"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We done good, guys. We done good. Longen's dead... And now the world is our playground, muhaha!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>We done good, guys. We done good. Longen's dead... And now the world is our playground, muhaha!</blockquote></figure>
 
 Killing or imprisoning **Longen** while [Emperor Tengu](/emperor-tengu) is alive and free will result in the settlement to fall to ruins under the control of **Traders Guild**.

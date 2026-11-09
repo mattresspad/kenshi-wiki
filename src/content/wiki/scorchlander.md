@@ -7,7 +7,7 @@ source:
 categories: ["Races"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Scorchlanders tend to value personal freedoms above all else. They don't tend to get along well with rules, regulations and religions, and as a result have a reputation as social misfits and are often found in more adventurous professions. Despite this however, they are highly creative, making them natural-born traders and skilled weaponsmiths. Honest to a fault, laughing in the face of manners, moderation and anything sensible, they make loyal friends, passionate enemies, and are great fun to drink with.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Scorchlanders tend to value personal freedoms above all else. They don't tend to get along well with rules, regulations and religions, and as a result have a reputation as social misfits and are often found in more adventurous professions. Despite this however, they are highly creative, making them natural-born traders and skilled weaponsmiths. Honest to a fault, laughing in the face of manners, moderation and anything sensible, they make loyal friends, passionate enemies, and are great fun to drink with.</blockquote><figcaption>Game Description</figcaption></figure>
 
 **Scorchlanders** are a [Human](/human) subrace, and a common [Race](/races) in the [world of Kenshi](/world-of-kenshi). Scorchlanders are anatomically similar to [Greenlanders](/greenlander), but are differentiated by their much darker skin color, glowing eyes, and commonly have silvery coloured hair.
 

@@ -14,7 +14,7 @@ infobox:
         - ["Territorial Trigger","False"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Let the enemies come! Today will run a river of Okranite blood... Or we find our glory in death on the battlefield! For you I gladly fight, Battle Born.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–The Five Invincibles</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Let the enemies come! Today will run a river of Okranite blood... Or we find our glory in death on the battlefield! For you I gladly fight, Battle Born.</blockquote><figcaption>The Five Invincibles</figcaption></figure>
 
 **Shek Kingdom Reinforcements** is an Event that will trigger in response to the [Eyegore's Assault](/eyegores-assault), [Holy Assault](/holy-assault), [Holy Nation Assault (Inquisitor)](/holy-nation-assault-inquisitor), [Noble's Wrath](/nobles-wrath), [Noble's Wrath Assault](/nobles-wrath-assault), [Retribution Of God](/retribution-of-god), and [Wrath Of God](/wrath-of-god) events, as long as the player is allied to the [Shek Kingdom](/shek-kingdom) and [Esata the Stone Golem](/esata-the-stone-golem) has not been killed by the [Player](/nameless).
 

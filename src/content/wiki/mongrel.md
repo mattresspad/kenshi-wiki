@@ -17,7 +17,7 @@ infobox:
         - ["String ID","18022-Newwworld.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>People don't make a habit of visiting here. If you're lucky enough to make it to Mongrel, you're stuck in Mongrel.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/shinobi-guard">Shinobi Guard</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>People don't make a habit of visiting here. If you're lucky enough to make it to Mongrel, you're stuck in Mongrel.</blockquote><figcaption><a href="/shinobi-guard">Shinobi Guard</a></figcaption></figure>
 
 **Mongrel**, the sole settlement of [eponymous faction](/mongrel-faction), is an outlaw [town](/major-towns) located in the middle of the [Fog Islands](/fog-islands). It is an isolated town located in the middle of nowhere made up of various shady individuals lucky enough to safely reach there.
 

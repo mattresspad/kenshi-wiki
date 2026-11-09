@@ -23,7 +23,7 @@ infobox:
         - ["String ID","53482-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Hell, you're lookin' at one of the best shooters in the swamps! Honed my skills workin' on a smuggler base 'til my crew got wiped out by Skull Collectors, Okran have mercy on their souls... Well damn, now you got me spoutin' religious crap, look.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Hell, you're lookin' at one of the best shooters in the swamps! Honed my skills workin' on a smuggler base 'til my crew got wiped out by Skull Collectors, Okran have mercy on their souls... Well damn, now you got me spoutin' religious crap, look.</blockquote></figure>
 
 **Green** is a [Unique Recruit](/unique-recruits) found in [The Swamp](/the-swamp). Specifically, he can be found in a Bar or [The Dancing Skeleton](/the-dancing-skeleton) in [Shark](/shark) or [Mud Town](/mud-town). Players will need to pay off his bar tab in order to recruit him, meaning he costs c.2,300.
 

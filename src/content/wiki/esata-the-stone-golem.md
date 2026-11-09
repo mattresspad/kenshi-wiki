@@ -23,7 +23,7 @@ infobox:
         - ["String ID","43159-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I am the undefeated. Nobody can win against me.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Esata victorious over an enemy.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I am the undefeated. Nobody can win against me.</blockquote><figcaption>Esata victorious over an enemy.</figcaption></figure>
 
 **Esata the Stone Golem** is the leader of the [Shek Kingdom](/shek-kingdom) (or potentially [Kral's Chosen](/krals-chosen)) and has [Diplomatic Status](/diplomatic-status).
 
@@ -73,11 +73,11 @@ Esata is the first of the Shek leaders to want to address their kingdom’s prob
 
 Fiery and fueled by her anger for her enemies, Esata is a little less conventional than other past leaders in that she places bigger victory on long-term crushing of enemies over short-term glory. She tries to balance prosperity with glory without fighting themselves extinct, while keeping the religious and warmongering aspirations of her people happy. She temporarily tolerates outsiders for the need to recover a bit from the losses of their war.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Flatskins. I despise them, and if it were up to me they'll be chased away at our gates... but Bayan tells me their trade is neccessary to the growth of the Shek... so I'll tolerate them. For now.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Flatskins. I despise them, and if it were up to me they'll be chased away at our gates... but Bayan tells me their trade is neccessary to the growth of the Shek... so I'll tolerate them. For now.</blockquote></figure>
 
 The [Shek Kingdom](/shek-kingdom) puts little importance on academic education, meaning that most Shek can’t read – Esata is no exception to this and is not particularly intelligent. She does, however, have formidable battle skills and an open mind to rational thought. Her aide on the other hand, [Bayan](/bayan), is an impressive intellect. Although the talent of intellects is normally wasted in the traditional Shek Kingdom, Esata relies on Bayan for his advice, for the good of the nation.
 
-<table class="wikitable"><tbody><tr><td>“</td><td><a href="/bayan">Bayan</a> is my sheath. without him, I’d have gotten lost in my own ego, a corpse on Holy Nation land long ago. Those Okran scum don’t deserve to be my defeaters. With Bayan at my side, the Shek will crush them once and for all. There will be no better glory than this.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote><a href="/bayan">Bayan</a> is my sheath. without him, I’d have gotten lost in my own ego, a corpse on Holy Nation land long ago. Those Okran scum don’t deserve to be my defeaters. With Bayan at my side, the Shek will crush them once and for all. There will be no better glory than this.</blockquote></figure>
 
 Only the best of the Shek warrior can earn battle names, and Esata earned hers ‘the Stone Golem’ when she joined [The Five Invincibles](/the-five-invincibles), the Kingdom’s highest-ranking fighters. It was during this time that Esata served under the previous king, [Shager](/shagers-overthrow), whom she challenged on his plans for a potential last ditch suicide attack against [The Holy Nation](/the-holy-nation). After a hard-hitting battle one day, [Bayan](/bayan) protested against Shager’s plans for a suicide attack against The Holy Nation to regain their honor. In response to Shager’s angry threats against his ‘cowardice’, Esata stepped in and boomed, "the man speaks the truth. You want Bayan silenced, you’ll have to cut me down first”. She fought and defeated Shager, becoming the new leader in his place. _This may be why there are only four of "The Five Invincibles" as Esata was the 5th_.
 

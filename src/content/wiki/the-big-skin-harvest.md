@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Come out, flesh brothers! Please come talk to your fellow humans! We mean no harm... ... We just want your skin. Your fresh.. clean... skin... Skin!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Skin Bandit</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Come out, flesh brothers! Please come talk to your fellow humans! We mean no harm... ... We just want your skin. Your fresh.. clean... skin... Skin!</blockquote><figcaption>Skin Bandit</figcaption></figure>
 
 **The Big Skin Harvest** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 7,000 meters of a [Skin Bandits](/skin-bandits) owned location, or as a result of defeating the [Skin Harvest](/skin-harvest) event. It has a 5% chance to trigger if within 3,000 meters, this chance scales down with distance until it reaches 0% at 7,000 meters. It cannot trigger if the player has killed or captured [Savant](/savant), or if the player has allied with the [Skin Bandits](/skin-bandits).
 

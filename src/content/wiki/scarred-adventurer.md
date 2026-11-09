@@ -23,7 +23,7 @@ infobox:
         - ["String ID","41237-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You looking at my scar? It's rude to stare, you know... But since I'm in a cheery mood, buy me a drink and I'll tell you how I got it...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You looking at my scar? It's rude to stare, you know... But since I'm in a cheery mood, buy me a drink and I'll tell you how I got it...</blockquote></figure>
 
 **Scarred Adventurer** is a randomly named [Unique Recruit](/unique-recruits). They are a freelance hitman who almost lost an eye while attempting to open a can with a knife. They can be hired for c.6,000.
 

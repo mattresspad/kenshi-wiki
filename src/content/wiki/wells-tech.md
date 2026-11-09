@@ -48,7 +48,7 @@ Wells II
 
 [Well III](/well)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Upgrading our wells to reach deeper and access more water.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Upgrading our wells to reach deeper and access more water.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Wells** is [Industry Tech](/industry-tech) which allows the player to construct [Well](/well) buildings. This technology leads to [Rain Collector](/rain-collector-tech), technology which unlocks another building that generates [Water](/water) items.
 

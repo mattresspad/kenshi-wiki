@@ -17,7 +17,7 @@ infobox:
         - ["String ID","57390-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Beep.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Beep.</blockquote></figure>
 
 **Beep** is a Hiveless [Western Worker Drone](/hive-worker-drone) who can be found in [Mongrel](/mongrel). He is a [Unique Recruit](/unique-recruits) and can be recruited at no cost as he seems to have no understanding of money. He will follow around the player faction when he sees them until the dialogue is initiated.
 

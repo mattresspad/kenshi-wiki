@@ -22,7 +22,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>An alternative source of fabric manufacture, much more efficient but may be illegal in some parts.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>An alternative source of fabric manufacture, much more efficient but may be illegal in some parts.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Hemp-Based Fabric** is [Crafting Tech](/crafting-tech) which unlocks a [Fabric Loom](/fabric-looms) that converts [Hemp](/hemp) into [Fabrics](/fabrics). This technology is not required for [Fabric Manufacture](/fabric-manufacture-tech), which unlocks the Cotton version of this building.
 

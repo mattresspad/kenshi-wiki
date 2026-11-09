@@ -26,7 +26,7 @@ infobox:
         - ["String ID","53600-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Need yourself a sharp shooter? I've got the experience if you've got the Cats.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Need yourself a sharp shooter? I've got the experience if you've got the Cats.</blockquote></figure>
 
 **Gunner Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a ranged combat specialist. They can be hired for c.6,000, unless they are [Hive](/hive), then they can be hired for c.4,000.
 
@@ -285,10 +285,10 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Sitting behind the barrel of a turret, clean of blood, free from noise... It's the best job you can have on the battlefield...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Honorable Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Sitting behind the barrel of a turret, clean of blood, free from noise... It's the best job you can have on the battlefield...</blockquote><figcaption>Honorable Personality</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Gramps always said I got eyes for shooting but arms for tooting... whatever that means. Basically he was too polite to tell me straight out that a child could beat me in an arm wrestle.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Dumb Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Gramps always said I got eyes for shooting but arms for tooting... whatever that means. Basically he was too polite to tell me straight out that a child could beat me in an arm wrestle.</blockquote><figcaption>Dumb Personality</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Taking lives from the barrel of a turret is easy. You're clean of bloodied hands and guilt, you become numb to death...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Smart Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Taking lives from the barrel of a turret is easy. You're clean of bloodied hands and guilt, you become numb to death...</blockquote><figcaption>Smart Personality</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Need yourself a gunner? I promise you I've got good eyes, eyes of a hawk. Been manning turrets since before I sprouted a beard on my face.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Male Human</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Need yourself a gunner? I promise you I've got good eyes, eyes of a hawk. Been manning turrets since before I sprouted a beard on my face.</blockquote><figcaption>Male Human</figcaption></figure>

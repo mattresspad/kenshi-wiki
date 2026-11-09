@@ -6,22 +6,37 @@ source:
   revision: 95894
 categories: ["Armour","Shirts","Medium Armour"]
 infobox:
-  title: "Chain Armour Crafting"
+  title: "Chainmail"
+  image: "/icons/items/2210-gamedata.base.png"
+  caption: "A chain undershirt provides a reliable second layer of defence."
   groups:
     - heading: null
       rows:
-        - ["Description","Chainmail eh? That's going to be bloody fiddly isn't it?"]
-    - heading: "Details"
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","13 kg"]
+        - ["Base value","c. 12,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","4"]
-        - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-    - heading: "Results"
+        - ["Left Arm","100% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
+        - ["Combat skills","-1"]
+        - ["Combat speed","0.97x"]
+        - ["Cut into stun","30%"]
+        - ["Dexterity","0.85x"]
+        - ["Dodge","0.90x"]
+        - ["Ranged skill","0.70x"]
+        - ["Stealth","0.80x"]
+    - heading: null
+      rows:
+        - ["String id","<span>2210-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A chain undershirt provides a reliable second layer of defence.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Chainmail** is a Medium Armour that is equipped in the Shirt slot. It could be considered the long-sleeved variant of the [Chain Shirt](/chain-shirt) with a higher cut efficiency.
 
@@ -33,17 +48,7 @@ Similar in appearance to the [Chain Shirt](/chain-shirt), Chainmail is made up o
 
 ## Grades
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Chainmail</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>1.08%</td></tr><tr><td>-Cut resistance</td><td>5.76%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>1.5pts</td></tr><tr><td>-Weight</td><td>10.125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.835</td></tr><tr><td>-Sell value</td><td>c.208</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.23x</td></tr><tr><td>-Crossbows effect</td><td>0.70x</td></tr><tr><td>-Precision shooting effect</td><td>0.70x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Combat speed effect</td><td>0.97x</td></tr><tr><td>-Dexterity effect</td><td>0.85x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Chainmail</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>4.32%</td></tr><tr><td>-Cut resistance</td><td>12.24%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>6pts</td></tr><tr><td>-Weight</td><td>10.125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,580</td></tr><tr><td>-Sell value</td><td>c.645</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.27x</td></tr><tr><td>-Crossbows effect</td><td>0.70x</td></tr><tr><td>-Precision shooting effect</td><td>0.70x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Combat speed effect</td><td>0.97x</td></tr><tr><td>-Dexterity effect</td><td>0.85x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Chainmail</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>8.64%</td></tr><tr><td>-Cut resistance</td><td>20.88%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>12pts</td></tr><tr><td>-Weight</td><td>10.125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.8,163</td></tr><tr><td>-Sell value</td><td>c.2,040</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.33x</td></tr><tr><td>-Crossbows effect</td><td>0.70x</td></tr><tr><td>-Precision shooting effect</td><td>0.70x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Combat speed effect</td><td>0.97x</td></tr><tr><td>-Dexterity effect</td><td>0.85x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Chainmail</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>12.96%</td></tr><tr><td>-Cut resistance</td><td>29.52%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>18pts</td></tr><tr><td>-Weight</td><td>10.125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.17,469</td></tr><tr><td>-Sell value</td><td>c.4,367</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.39x</td></tr><tr><td>-Crossbows effect</td><td>0.70x</td></tr><tr><td>-Precision shooting effect</td><td>0.70x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Combat speed effect</td><td>0.97x</td></tr><tr><td>-Dexterity effect</td><td>0.85x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Chainmail</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>17.28%</td></tr><tr><td>-Cut resistance</td><td>38.16%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>24pts</td></tr><tr><td>-Weight</td><td>10.125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.30,498</td></tr><tr><td>-Sell value</td><td>c.7,624</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.45x</td></tr><tr><td>-Crossbows effect</td><td>0.70x</td></tr><tr><td>-Precision shooting effect</td><td>0.70x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Combat speed effect</td><td>0.97x</td></tr><tr><td>-Dexterity effect</td><td>0.85x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Chainmail</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>20.52%</td></tr><tr><td>-Cut resistance</td><td>44.64%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>28.5pts</td></tr><tr><td>-Weight</td><td>10.125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.42,712</td></tr><tr><td>-Sell value</td><td>c.10,678</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.49x</td></tr><tr><td>-Crossbows effect</td><td>0.70x</td></tr><tr><td>-Precision shooting effect</td><td>0.70x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Combat speed effect</td><td>0.97x</td></tr><tr><td>-Dexterity effect</td><td>0.85x</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Chain</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1.08%</td><td>4.32%</td><td>8.64%</td><td>12.96%</td><td>17.28%</td><td>20.52%</td></tr><tr><th scope="row">Cut resistance</th><td>5.76%</td><td>12.24%</td><td>20.88%</td><td>29.52%</td><td>38.16%</td><td>44.64%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">70%</td></tr><tr><th scope="row">Harpoon resistance</th><td>1.5pts</td><td>6pts</td><td>12pts</td><td>18pts</td><td>24pts</td><td>28.5pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">10.125 kg</td></tr><tr><th scope="row">Value</th><td>c.835</td><td>c.2,580</td><td>c.8,163</td><td>c.17,469</td><td>c.30,498</td><td>c.42,712</td></tr><tr><th scope="row">Sell value</th><td>c.208</td><td>c.645</td><td>c.2,040</td><td>c.4,367</td><td>c.7,624</td><td>c.10,678</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">100%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">100%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">100%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">100%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td>0.23x</td><td>0.27x</td><td>0.33x</td><td>0.39x</td><td>0.45x</td><td>0.49x</td></tr><tr><th scope="row">Crossbows effect</th><td colspan="6">0.70x</td></tr><tr><th scope="row">Precision shooting effect</th><td colspan="6">0.70x</td></tr><tr><th scope="row">Dodge skill effect</th><td colspan="6">0.90x</td></tr><tr><th scope="row">Combat speed effect</th><td colspan="6">0.97x</td></tr><tr><th scope="row">Dexterity effect</th><td colspan="6">0.85x</td></tr></tbody></table>
 
 ## Source
 
@@ -53,9 +58,7 @@ Similar in appearance to the [Chain Shirt](/chain-shirt), Chainmail is made up o
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Chain Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.9 required)</span></p></td><td><strong><span>Chainmail</span></strong><div></div></td></tr><tr><td><a href="/chainmail-sheets"><span>Chainmail Sheets</span></a><div></div><p><span>(4.5 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.9</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>4.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Chainmail blueprint: 12 hours at tech level 1; the blueprint is worth c. 20,409.</li></ul></div>
 
 ## Trivia
 

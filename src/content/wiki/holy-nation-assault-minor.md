@@ -15,7 +15,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/holy-nation-assault-major\">Holy Nation Assault (Major)</a> 72 to 110 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Inquisitorium has received reports of wild women running loose in this place...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–War Leader Paladin</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Inquisitorium has received reports of wild women running loose in this place...</blockquote><figcaption>War Leader Paladin</figcaption></figure>
 
 **Holy Nation Assault (Minor)**, simply referred to as 'Holy Nation Assault' in-game, is an [event](/events) that can occur if the player failed to fulfil [Prayer Day](/prayer-day) requirements (Refusing to pray, not having the [Holy Flame](/the-holy-flame), having no men, or speaking to them with a non-human), or was seen by patrols that the outpost built in their territory goes against [The Holy Nation](/the-holy-nation) interests (i.e Having only women in the outpost, or having non-humans in the outpost) and failed to pacify the patrol commander. It is closely related to, but not to be confused with, two other events of the same name, [Holy Nation Assault (Major)](/holy-nation-assault-major), and [Holy Nation Assault (Inquisitor)](/holy-nation-assault-inquisitor).
 

@@ -19,7 +19,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/cannibal-swarm\">Cannibal Swarm</a> 24-96 Hours, 50% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Meat! Meat! MEAT!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Cannibal War Leader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Meat! Meat! MEAT!</blockquote><figcaption>Cannibal War Leader</figcaption></figure>
 
 **Cannibal Raid** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 4,000 meters of a [Cannibals](/cannibals) owned location or camp. It has a 15% chance to trigger if within 2,200 meters, this chance scales down with distance until it hits 0% at 4,000 meters.
 

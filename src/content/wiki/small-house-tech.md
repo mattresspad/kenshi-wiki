@@ -22,7 +22,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We need something bigger than a shack if we are going to get any work done.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>We need something bigger than a shack if we are going to get any work done.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Small House** is [Core Tech](/core-tech) which unlocks the ability for players to construct a [Storm House](/storm-house). This research is required to research and unlock Tech Level 2.
 

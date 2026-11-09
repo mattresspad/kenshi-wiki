@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Uncle Simion, he got a mouth of dirt... but he got a heart of gold deep down...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Captain on Simion</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Uncle Simion, he got a mouth of dirt... but he got a heart of gold deep down...</blockquote><figcaption>Captain on Simion</figcaption></figure>
 
 **Outlaw Swordsman Captains** are skilled fighters and field leaders in the [Rebel Farmers](/rebel-farmers) faction.
 

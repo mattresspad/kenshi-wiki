@@ -18,7 +18,7 @@ infobox:
         - ["String ID","62827-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We crabbed are open minded people. Prove yourself. We have enemies in The Pits. Prove your loyalty to the crabs, and they will do so in return.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>We crabbed are open minded people. Prove yourself. We have enemies in The Pits. Prove your loyalty to the crabs, and they will do so in return.</blockquote></figure>
 
 The **Crab Queen** is the leader of the [Crab Raiders](/crab-raiders). She can be found in the [Palace of the Crab Queen](/palace-of-the-crab-queen) in [Crab Town](/crab-town). She has a bounty of c.40,000 from the [United Cities](/united-cities), despite not having a bounty poster for her unlike the other pit gang leaders.
 

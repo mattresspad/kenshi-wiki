@@ -18,7 +18,7 @@ infobox:
         - ["String ID","95710-__Mourn.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You want me on team, eh? Well, these fists don't come cheap, rookie. You want raw power, you're gonna have to pay for it. 9000 Cats.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You want me on team, eh? Well, these fists don't come cheap, rookie. You want raw power, you're gonna have to pay for it. 9000 Cats.</blockquote></figure>
 
 **Chad** is a [Unique Recruit](/unique-recruits) that can be found in the Bar of [Flats Lagoon](/flats-lagoon). He spawns with no weapon and claims to have traveled into the south-eastern part of the map, encountering [Beak Things](/beak-thing) and escaping after punching one in the nose. You can recruit him for c.9,000.
 

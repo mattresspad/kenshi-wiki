@@ -26,7 +26,7 @@ infobox:
         - ["String ID","62981-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Of course. Is it about your... the skeletons?... Yes, I thought it might be. What else is there to ask, you've only just met me! I studied skeleton psychology for three years when I was just ten years old, you know...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Of course. Is it about your... the skeletons?... Yes, I thought it might be. What else is there to ask, you've only just met me! I studied skeleton psychology for three years when I was just ten years old, you know...</blockquote></figure>
 
 **Savant** is the crazed Leader of the [Skin Bandits](/skin-bandits) with a [bounty](/bounty) of c.80,000 by the [United Cities](/united-cities), despite the listing of a c.50,000 on his [wanted poster](/wanted-posters). Savant can be found on his throne or sleeping in his bed in the [Skinhouse HQ](/skinhouse-hq). Players can join his faction but only as a [Skeleton](/skeleton).
 

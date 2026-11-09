@@ -18,7 +18,7 @@ infobox:
         - ["FCS Name","Sho-Battai (override) prosperous"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We got Tengu by the balls, (player), ye champ... To the Great Desert, I'll be coming home!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/boss-simion">Boss Simion</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>We got Tengu by the balls, (player), ye champ... To the Great Desert, I'll be coming home!</blockquote><figcaption><a href="/boss-simion">Boss Simion</a></figcaption></figure>
 
 If **Lord Nagata** AND **Emperor Tengu** are both dead or kidnapped, while [Boss Simion](/boss-simion) is alive and free, [Empire Peasants](/empire-peasants) will establish control of the city and many [Rebel Swordsmen](/rebel-swordsmen) and peasants are malnourished. There are no further possible overrides for this settlement after achieving this version.
 

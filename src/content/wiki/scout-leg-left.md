@@ -6,25 +6,27 @@ source:
   revision: 86338
 categories: ["Robot Limbs"]
 infobox:
-  title: "High-speed Legs"
+  title: "Scout Leg (left)"
+  image: "/icons/items/96020-Newwworld.mod.png"
+  caption: "The leg of a rebel scout unit.\nThe design has been kept lightweight at the cost of durability, but is capable of impressive speed."
   groups:
     - heading: null
       rows:
-        - ["Description","Advanced high-tech legs like what the skeletons have."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/robot-limbs\">Left leg</a>"]
+        - ["Weight","10 kg"]
+        - ["Base value","c. 4,000 → c. 20,000"]
+        - ["Size in inventory","7x2"]
+    - heading: "Stats (range across grades)"
       rows:
-        - ["Estimated Time","12 hours"]
-        - ["Tech Level","6"]
-        - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
-        - ["Requirements","<a href=\"/skeleton-legs-tech\"> Skeleton Legs</a>"]
-    - heading: "Results"
+        - ["HP","50 → 150"]
+        - ["Athletics","1.00x → 1.40x"]
+        - ["Swimming","0.75x → 1.00x"]
+        - ["Stealth","0.25x → 0.95x"]
+    - heading: null
       rows:
-        - ["New Item(s)","Scout Leg (left)<p><a href=\"/scout-leg-right\">Scout Leg (right)</a></p>"]
+        - ["String id","<span>96020-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">The leg of a rebel scout unit.<p>The design has been kept lightweight at the cost of durability, but is capable of impressive speed.</p></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 Scout Leg (left) is a [Robot Limb](/robot-limbs), and a replacement for a lost left leg.
 
 It's noteworthy that out of all Robotic Limbs, the Scout Legs have the least penalty for [Swimming](/swimming) skill, along with the largest Athletics bonus.
@@ -49,4 +51,4 @@ It's noteworthy that out of all Robotic Limbs, the Scout Legs have the least pen
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Scout Leg (left)</span></strong><div></div></td></tr><tr><td><a href="/electrical-components"><span>Electrical Components</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/high-speed-legs-tech">High-Speed Legs</a> research: 12 hours at tech level 6; costs <a href="/ai-core">2 AI Cores</a>; needs <a href="/skeleton-legs-tech">Skeleton Legs</a>.</li></ul></div>

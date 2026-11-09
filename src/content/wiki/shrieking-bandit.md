@@ -18,7 +18,7 @@ infobox:
         - ["Weapons","<a href=\"/flesh-cleaver\">Flesh Cleaver</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>GYAAAAAAH</td><td>”</td></tr><tr><td colspan="3"><p><cite>–A Shrieking Bandit</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>GYAAAAAAH</blockquote><figcaption>A Shrieking Bandit</figcaption></figure>
 
 **Shrieking Bandits** are members of the [Shrieking Bandits](/shrieking-bandits) faction. They can be found in groups of 9-26 in [Cannibal Plains](/cannibal-plains), [Purple Sands](/purple-sands), and [The Shrieking Forest](/the-shrieking-forest) where they make their home.
 
@@ -60,6 +60,6 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>... The hell's wrong with you?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–A character's reaction to getting shrieked at.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>... The hell's wrong with you?</blockquote><figcaption>A character's reaction to getting shrieked at.</figcaption></figure>
 
 Shrieking Bandits may randomly strike what passes for a conversation with a character. If the character shrieks back or picks the right dialogue options, the shrieking squad will go home. The wrong choice will lead to an attack.

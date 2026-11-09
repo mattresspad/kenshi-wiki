@@ -26,7 +26,7 @@ infobox:
         - ["String ID","19642-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>So according to those sanctimonious tin cans out there, I'm nothing but a wicked blackened woman... Screw 'em all.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>So according to those sanctimonious tin cans out there, I'm nothing but a wicked blackened woman... Screw 'em all.</blockquote></figure>
 
 **Female Adventurer** is a randomly named [Generic Recruit](/generic-recruits) available in [The Holy Nation](/the-holy-nation). She is a disgruntled citizen of [The Holy Nation](/the-holy-nation) who wants to put her skill with a sword to use. She can be hired for 3,000 Cats.
 

@@ -20,7 +20,7 @@ infobox:
         - ["String ID","40558-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Okran blesses us with clear skies</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Okran blesses us with clear skies</blockquote></figure>
 
 This **Holy Citizen** is more likely to spawn as a female character than the other Holy Citizen. This version also has slightly lower stats, but not by much.
 

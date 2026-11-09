@@ -30,7 +30,7 @@ infobox:
 
   
 
-<table class="wikitable"><tbody><tr><td>“</td><td>INVADER!<p>THIS IS MY KINGDOM!</p><p>LEAVE!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Immortal King</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>INVADER!<p>THIS IS MY KINGDOM!</p><p>LEAVE!</p></blockquote><figcaption>Immortal King</figcaption></figure>
 
 **The Immortal King** is a character that does not exist in the game but can be found in the [Forgotten Construction Set](/forgotten-construction-set).
 

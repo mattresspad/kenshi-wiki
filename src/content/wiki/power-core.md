@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Power Core"
+  image: "/icons/items/43398-changes_otto.mod.png"
+  caption: "Some kind of ancient tech, possibly a Skeleton's heart or liver or something."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","6x2"]
-        - ["Avg. Price","c.3,000"]
-        - ["Description","Some kind of ancient tech, possibly a Skeleton's heart or liver or something."]
+        - ["Base value","c. 5,000"]
+        - ["Size in inventory","2x6"]
+    - heading: null
+      rows:
+        - ["String id","<span>43398-changes_otto.mod</span>"]
 ---
 
 A **Power Core** is an [item](/items) which can be found in ancient locations. It serves no function outside of being worth a decent amount of money.

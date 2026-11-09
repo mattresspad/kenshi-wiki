@@ -16,7 +16,7 @@ infobox:
         - ["Hostile towards","<a href=\"/anti-slavers\">Anti-Slavers</a>, <a href=\"/the-holy-nation\">The Holy Nation</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The United Cities are a haven for the worthy select, the cream of society, united in power and pleasure.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/the-united-cities-a-united-power">The United Cities, A United Power</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The United Cities are a haven for the worthy select, the cream of society, united in power and pleasure.</blockquote><figcaption><a href="/the-united-cities-a-united-power">The United Cities, A United Power</a></figcaption></figure>
 
 The **United Cities** (A.K.A. the "**Empire**" or the "**Desert Empire**<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>") is an expansionist, feudal slaver society. It is the largest faction by land area and has towns of drastically varying population sizes dispersed throughout the [continent](/world-of-kenshi), including [The Great Desert](/the-great-desert), [Heng](/heng-zone), [The Hook](/the-hook), [Bonefields](/bonefields), and the [Stormgap Coast](/stormgap-coast).
 

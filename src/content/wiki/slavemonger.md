@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You are now a slave.<p>I am taking your possessions</p><p>I am taking your name.</p><p>You are property. Follow the orders of your master and you will be treated well.</p><p>Forget your place and you will be punished.</p><p>Try to escape and you will be disposed of.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Slavemonger reciting slaver mantra.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You are now a slave.<p>I am taking your possessions</p><p>I am taking your name.</p><p>You are property. Follow the orders of your master and you will be treated well.</p><p>Forget your place and you will be punished.</p><p>Try to escape and you will be disposed of.</p></blockquote><figcaption>Slavemonger reciting slaver mantra.</figcaption></figure>
 
 **Slavemongers** are foot-soldiers of the [Slave Traders](/slave-traders), tasked with finding new slaves. They can be found roaming the [Border Zone](/border-zone) and many other places. If Slavemongers encounter unconscious characters, they will enslave them. If they find an escaped slave, they will attempt to capture them as well.
 

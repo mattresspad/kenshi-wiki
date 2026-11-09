@@ -21,7 +21,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It would save us a lot of running around to sell goods if we could get the customers to come to us.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It would save us a lot of running around to sell goods if we could get the customers to come to us.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Public Sales** is [Core Tech](/core-tech) which allows players to construct [Shop Counters](/shop-counter).
 

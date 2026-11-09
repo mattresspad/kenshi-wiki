@@ -18,7 +18,7 @@ infobox:
         - ["Headgear","<a href=\"/karuta-zukin\">Karuta Zukin</a>, <a href=\"/kusari-zukin\">Kusari Zukin</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Purify them! Return their blood to the sands!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–- The Preacher</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Purify them! Return their blood to the sands!</blockquote><figcaption>- The Preacher</figcaption></figure>
 
 **The Preacher** is the leader of the [Preacher Cult](/preacher-cult). They can be found in the [Cult Village](/cult-village) alongside [Moon Guardians](/moon-guardian) and [Farmers](/farmer-preacher-cult).
 

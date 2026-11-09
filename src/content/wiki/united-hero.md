@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>KNOCK KNOCK! It's your local patriots!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–-United Hero raid</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>KNOCK KNOCK! It's your local patriots!</blockquote><figcaption>-United Hero raid</figcaption></figure>
 
 **United Heroes** are members of the [United Heroes League](/united-heroes-league). They can be found [raiding](/events) the player's outpost if the [Traders Guild](/traders-guild) taxman has been declined or ignored.
 

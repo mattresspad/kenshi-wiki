@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>So, here stands the palace of the mighty bugmaster slayer... I like the sound of that challenge. Fight us, slayer!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Kral's Chosen</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>So, here stands the palace of the mighty bugmaster slayer... I like the sound of that challenge. Fight us, slayer!</blockquote><figcaption>Kral's Chosen</figcaption></figure>
 
 **Shek Challenge** is an [Event](/events) that can trigger if the [Player](/nameless) has killed or captured the [Bugmaster](/bugmaster), [Esata the Stone Golem](/esata-the-stone-golem), or the [Holy Lord Phoenix](/holy-lord-phoenix), and has a [Base](/guide-to-building-an-outpost) within 7,000 meters of [New Kralia](/new-kralia). It has a 10% chance to trigger each day if within 3,000 meters, this chance scales down with distance until it hits 0% at 7,000 meters.
 

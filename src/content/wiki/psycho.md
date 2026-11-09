@@ -1,6 +1,6 @@
 ---
 title: "Psycho"
-description: "–Psycho, when asked what he is in for by a human player character"
+description: "Psycho is an Outlaw being held prisoner in Tengu's Vault."
 source:
   title: "Psycho"
   revision: 91446
@@ -21,7 +21,7 @@ infobox:
         - ["Footwear","<a href=\"/drifters-boots\">Drifter's Boots</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Disembowling Humans.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Psycho, when asked what he is in for by a human player character</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Disembowling Humans.</blockquote><figcaption>Psycho, when asked what he is in for by a human player character</figcaption></figure>
 
 **Psycho** is an [Outlaw](/outlaw) being held prisoner in [Tengu's Vault](/tengus-vault).
 

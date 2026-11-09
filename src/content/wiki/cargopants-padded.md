@@ -6,23 +6,30 @@ source:
   revision: 93416
 categories: ["Armour","Legwear","Light Armour"]
 infobox:
-  title: "Clothing Manufacture"
+  title: "Cargopants (padded)"
+  image: "/icons/items/1394-gamedata.base.png"
+  caption: "Pads your legs, turns a potential slice into a nasty bruise."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we could craft clothes and stuff.  For wearing."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","1 <a href=\"/book\">Book</a>"]
-    - heading: "Results"
+        - ["Right Leg","100% covered"]
+        - ["Left Leg","100% covered"]
+        - ["Extra blunt resistance","up to +20%"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
-        - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
+        - ["Cut into stun","20%"]
+    - heading: null
+      rows:
+        - ["String id","<span>1394-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Pads your legs, turns a potential slice into a nasty bruise.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Cargopants \[Padded\]** are Light Armour that is equipped in the Legwear slot. There is an [unarmored](/cargopants) variant (in plain and [colorable](/cargopants-colored) versions) as well as armoured [reinforced](/cargopants-reinforced) and [chain](/cargopants-sneaky-chain) variants of this armour.
 
@@ -34,17 +41,7 @@ Cargopants \[Padded\] are simple full-leg length khaki pants. They are held up o
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Cargopants [padded]</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>2%</td></tr><tr><td>-Cut resistance</td><td>0%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.29</td></tr><tr><td>-Sell value</td><td>c.7</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Cargopants [padded]</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>8%</td></tr><tr><td>-Cut resistance</td><td>1%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.217</td></tr><tr><td>-Sell value</td><td>c.54</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Cargopants [padded]</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>16%</td></tr><tr><td>-Cut resistance</td><td>3%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.820</td></tr><tr><td>-Sell value</td><td>c.205</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Cargopants [padded]</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>24%</td></tr><tr><td>-Cut resistance</td><td>4%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,824</td></tr><tr><td>-Sell value</td><td>c.456</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Cargopants [padded]</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>32%</td></tr><tr><td>-Cut resistance</td><td>6%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.3,231</td></tr><tr><td>-Sell value</td><td>c.807</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Cargopants [padded]</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Cloth]</td></tr><tr><td>-Blunt resistance</td><td>38%</td></tr><tr><td>-Cut resistance</td><td>7%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.4,550</td></tr><tr><td>-Sell value</td><td>c.1,137</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td></td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Cloth</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>2%</td><td>8%</td><td>16%</td><td>24%</td><td>32%</td><td>38%</td></tr><tr><th scope="row">Cut resistance</th><td>0%</td><td>1%</td><td>3%</td><td>4%</td><td>6%</td><td>7%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">80%</td></tr><tr><th scope="row">Weight</th><td colspan="6">1 kg</td></tr><tr><th scope="row">Value</th><td>c.29</td><td>c.217</td><td>c.820</td><td>c.1,824</td><td>c.3,231</td><td>c.4,550</td></tr><tr><th scope="row">Sell value</th><td>c.7</td><td>c.54</td><td>c.205</td><td>c.456</td><td>c.807</td><td>c.1,137</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Right Leg</th><td colspan="6">100%</td></tr><tr><th scope="row">Left Leg</th><td colspan="6">100%</td></tr></tbody></table>
 
 ## Source
 
@@ -54,8 +51,4 @@ Cargopants \[Padded\] are simple full-leg length khaki pants. They are held up o
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Cargopants (padded)</span></strong><div></div></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Cargopants (padded)<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>2,050</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>512</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Cargopants (padded)</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Cargopants [padded] blueprint: 12 hours at tech level 1; the blueprint is worth c. 2,050.</li></ul></div>

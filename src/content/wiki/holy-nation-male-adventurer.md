@@ -24,7 +24,7 @@ infobox:
         - ["String ID","41180-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I am looking for work if you're looking for a merc...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I am looking for work if you're looking for a merc...</blockquote></figure>
 
 **Holy Nation Male Adventurer** is a randomly named [Generic Recruit](/generic-recruits). They are a man. They can be hired for c.2,500.
 

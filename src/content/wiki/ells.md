@@ -17,7 +17,7 @@ infobox:
         - ["String ID","8233-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Ells isn't a thief! Ells just get's thirsty sometimes... But the bar guards beat Ells for drinking the rum. So Ells gotta go drink rum from the distillery when no one's looking... No-one else shares with Ells like you do.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Ells isn't a thief! Ells just get's thirsty sometimes... But the bar guards beat Ells for drinking the rum. So Ells gotta go drink rum from the distillery when no one's looking... No-one else shares with Ells like you do.</blockquote></figure>
 
 **Ells** is a [Unique Recruit](/unique-recruits). He is a fat, alcoholic, simple-minded [Empire](/united-cities) citizen with a small [bounty](/bounty) on his head for stealing alcohol from distilleries, which can expire like all small bounties. He wanders around town, begging for food. When recruited, he has 3 bottles of [cactus rum](/cactus-rum) in his inventory.
 

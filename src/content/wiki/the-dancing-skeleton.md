@@ -19,7 +19,7 @@ infobox:
 
 50637-rebirth.mod
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Welcome to the Dancing Skeleton, the best bar in the swamp! Throw a Cat to our loveable dancing mascot, Nelly, for a month of good luck and a full belly to boot!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Swamper Barman</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Welcome to the Dancing Skeleton, the best bar in the swamp! Throw a Cat to our loveable dancing mascot, Nelly, for a month of good luck and a full belly to boot!</blockquote><figcaption>Swamper Barman</figcaption></figure>
 
 **The Dancing Skeleton** is a unique [bar](/bar) in a [swamp dome](/swamp-dome) only found in the city [Shark](/shark). [Swampers](/swampers) run the [bar](/bar) and have [Empire Mercenaries](/empire-mercenary) stationed to maintain peace among the local gangs and other unsavory characters. Players can speak to the Swamper Barman to gather information about the local gangs or trade goods. Many patrons and eager followers can be found here from [Bar Thugs](/bar-thugs) to [Mercenary](/mercenary-guild) and even [Skeletons](/skeleton) (dancing not included).
 

@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Map of Vain"
+  image: "/icons/items/44918-rebirth.mod.png"
+  caption: "The mysterious homelands of the Western Hive.  Humans don't tend to venture there."
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.500"]
-        - ["Sell value","c.250"]
-        - ["Description","The mysterious homelands of the Western Hive.  Humans don't tend to venture there."]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>44918-rebirth.mod</span>"]
 ---
 

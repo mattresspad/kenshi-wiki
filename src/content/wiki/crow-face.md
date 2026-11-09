@@ -22,7 +22,7 @@ infobox:
 
   
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I am the dust that dances on the sand.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I am the dust that dances on the sand.</blockquote></figure>
 
 A recruit that was available for a brief period around update 0.93.14, before being removed in one of the patches immediately following as it was causing bugs in [Crumblejon's](/crumblejon) dialog.
 

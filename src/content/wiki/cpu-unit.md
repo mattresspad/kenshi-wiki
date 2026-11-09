@@ -7,12 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "CPU Unit"
+  image: "/icons/items/43394-changes_otto.mod.png"
+  caption: "Supposedly a piece of brain from a Skeleton or maybe an Iron Spider.  Must be worth something to a collector."
   groups:
     - heading: null
       rows:
-        - ["Size","3x3"]
-        - ["Avg. Price","c.6,000"]
-        - ["Description","Supposedly a piece of brain from a Skeleton or maybe an Iron Spider.  Must be worth something to a collector."]
+        - ["Type","Other"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 10,000"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>43394-changes_otto.mod</span>"]
 ---
 
 A **CPU Unit** is an [item](/items) which can primarily be found in ancient locations. It serves no function outside of being worth a decent amount of money.

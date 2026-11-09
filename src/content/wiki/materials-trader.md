@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We invite you to come browse! Best in the world! We promise you, you won't find better quality anywhere else... Definitely not from the traders guild. Junk! You deserve better, no-hives! And only the hive can provide your needs... Queen's seal of approval!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hive Caravan Boss</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>We invite you to come browse! Best in the world! We promise you, you won't find better quality anywhere else... Definitely not from the traders guild. Junk! You deserve better, no-hives! And only the hive can provide your needs... Queen's seal of approval!</blockquote><figcaption>Hive Caravan Boss</figcaption></figure>
 
 **Materials Trader** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 11,000 meters of a [Western Hive](/western-hive) owned location. It cannot trigger if the player is an enemy of the [Western Hive](/western-hive), or if [The Queen](/the-queen) has been killed or captured. Not to be confused with the [Farm trader](/farm-trader) event, the other caravan from the [Western Hive](/western-hive).
 

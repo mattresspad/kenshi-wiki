@@ -7,12 +7,18 @@ source:
 categories: ["Pages with non-numeric formatnum arguments","Books","Items"]
 infobox:
   title: "Birth Of The Phoenix"
+  image: "/icons/items/49050-Dialogue.mod.png"
+  caption: "A new edition of the Holy Lord Phoenix IV's verses on he himself: \n\n\"When the darkness befell mankind, our Benefactor sent us a guide; \nHe created the Phoenix from his own essence. \nThe Phoenix is not merely a man with a common soul;\nThe Phoenix is an extension of the Lord. \nHis soul is divinely pure, it cannot be corrupt; \nThe Phoenix must always be the one guiding the wavering flames.\nNo other can receive our Creator's instructions.\""
   groups:
     - heading: null
       rows:
-        - ["Size","3x3"]
-        - ["Avg. Price","c.Missing data"]
-        - ["Description","A new edition of the Holy Lord Phoenix IV's verses on he himself: <p>\"When the darkness befell mankind, our Benefactor sent us a guide; He created the Phoenix from his own essence. The Phoenix is not merely a man with a common soul;The Phoenix is an extension of the Lord. His soul is divinely pure, it cannot be corrupt; The Phoenix must always be the one guiding the wavering flames.No other can receive our Creator's instructions.\"</p>"]
+        - ["Type","Book or letter"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>49050-Dialogue.mod</span>"]
 ---
 
 **Birth Of The Phoenix** is a [book](/lore-books) [item](/items) found in [The Holy Nation](/the-holy-nation). This item can be found at many Holy Nation vendors. This book contains religious propaganda about [Holy Lord Phoenix](/holy-lord-phoenix).

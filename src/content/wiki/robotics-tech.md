@@ -24,7 +24,7 @@ infobox:
 
 _This article is about Robotics technology research. For the Robotics skill, see [Robotics](/robotics)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Regular first aid kits are no help for Skeletons, we would need to craft special machinery kits to repair any damage.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Regular first aid kits are no help for Skeletons, we would need to craft special machinery kits to repair any damage.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Robotics** is [Crafting Tech](/crafting-tech) which unlocks the ability for the player to construct and use a [Robotics Bench](/robotics-bench).
 

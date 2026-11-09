@@ -7,7 +7,7 @@ source:
 categories: ["Guides"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Money finds it's way to the worthy, a tool for the powerful. But it will find it's escape from the fool, taking command of the helm and parting ways. Money is power, but destitution is weak, and it is the weak masses that will drag the ship down into the sea. [...] The beggar's place is in the mines, a destiny fit for the lowly and the weak links that would sully our perfect nation.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/the-united-cities-a-united-power">The United Cities, A United Power</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Money finds it's way to the worthy, a tool for the powerful. But it will find it's escape from the fool, taking command of the helm and parting ways. Money is power, but destitution is weak, and it is the weak masses that will drag the ship down into the sea. [...] The beggar's place is in the mines, a destiny fit for the lowly and the weak links that would sully our perfect nation.</blockquote><figcaption><a href="/the-united-cities-a-united-power">The United Cities, A United Power</a></figcaption></figure>
 
 Kenshi is a harsh and unforgiving world, where desperation festers and banditry clings to every shadow, in these lawless frontiers, trust is scarce, and survival is law. In these places, money, food and even individuals are free-for-all to grab.
 

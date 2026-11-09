@@ -15,7 +15,7 @@ infobox:
         - ["Hostile towards","<a href=\"/reavers\">Reavers</a>, <a href=\"/skeleton-bandits\">Skeleton Bandits</a>, <a href=\"/united-cities\">United Cities</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A traveller? Don't get many victims here in the pits...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/crab-raider">Crab Raider</a> before attacking</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A traveller? Don't get many victims here in the pits...</blockquote><figcaption><a href="/crab-raider">Crab Raider</a> before attacking</figcaption></figure>
 
 **Crab Raiders** are a [bandit](/bandits) faction of [Scorchlanders](/scorchlander) who worship [Crabs](/crab). They are primarily located in [The Pits East](/the-pits-east), the location of their capital [Crab Town](/crab-town), but also have [villages](/crab-village) in [Greenbeach](/greenbeach) and [Stobe's Garden](/stobes-garden). They are led by the [Crab Queen](/crab-queen) and like other "pit gang" factions, they often engage in border raids and skirmishes with their rivals and share hostility towards [United Cities](/united-cities). They will also [raid](/crabbed-ones) the [player outpost](/guide-to-building-an-outpost), and attack neutral players unless allied.
 

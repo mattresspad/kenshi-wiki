@@ -19,7 +19,7 @@ infobox:
         - ["Loss Triggers","<strong>Hive Attack</strong>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Queen! Save the Queen!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Prince</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Queen! Save the Queen!</blockquote><figcaption>Prince</figcaption></figure>
 
 **Hive Attack**, not to be confused with the [Western Hive Variant](/hive-attack-western-hive), is an [Event](/events) that can trigger if the [Player](/nameless) has kidnapped (_**not** killed_) the [Queen of the South](/queen-of-the-south). It has a 100% chance to trigger if the player has a [Base](/guide-to-building-an-outpost) within 50,000 meters of a [Southern Hive](/southern-hive) location but given that distance is larger than the map of Kenshi and the event ignores No-Go zones, it will trigger anywhere in the map with the same frequency.
 

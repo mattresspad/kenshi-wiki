@@ -21,7 +21,7 @@ infobox:
         - ["String ID","59030-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Tinfist and <a href="/mad-cat-lon">Cat-Lon</a> made a great team... And now Tinfist fights for a losing cause for the humans... While <a href="/mad-cat-lon">Cat-Lon</a> disappears into thin air...... What happened?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Skeleton Patron, <a href="/black-desert-city">Black Desert City</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Tinfist and <a href="/mad-cat-lon">Cat-Lon</a> made a great team... And now Tinfist fights for a losing cause for the humans... While <a href="/mad-cat-lon">Cat-Lon</a> disappears into thin air...... What happened?</blockquote><figcaption>Skeleton Patron, <a href="/black-desert-city">Black Desert City</a></figcaption></figure>
 
 **Tinfist** is the infamous leader of the [Anti-Slavers](/anti-slavers) and resides at their city [Spring](/spring) located southwest in [Stobe's Gamble](/stobes-gamble).
 

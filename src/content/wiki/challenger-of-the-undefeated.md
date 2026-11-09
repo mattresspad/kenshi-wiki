@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We've travelled far to find you. Now that the Bugmaster is gone, it is you who will lead us to gateway. Today I will kill the undefeated. Or I will join my kin in Gateway. Raise your swords, warriors! Today will be a day of history!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Berserker</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>We've travelled far to find you. Now that the Bugmaster is gone, it is you who will lead us to gateway. Today I will kill the undefeated. Or I will join my kin in Gateway. Raise your swords, warriors! Today will be a day of history!</blockquote><figcaption>Berserker</figcaption></figure>
 
 **Challenger of The Undefeated** is an [Event](/events) that can trigger if the [Player](/nameless) has both killed/captured the [Bugmaster](/bugmaster) and has a [Base](/guide-to-building-an-outpost) within 26,000 meters of the [Berserker Village](/berserker-village). It has a 10% chance to trigger each day if within 3,000 meters, this chance scales down with distance until it reaches a 0% chance at 26,000 meters. This has one of the highest ranges of any territorial event, encompassing almost the entire map with only the ocean in the northeastern corner being out of range.
 

@@ -7,12 +7,18 @@ source:
 categories: ["Pages with non-numeric formatnum arguments","Books"]
 infobox:
   title: "The Holy Crusade"
+  image: "/icons/items/49051-Dialogue.mod.png"
+  caption: "A recent text from the Holy Lord Phoenix LXII Himself: \r\r\n\r\r\n\"We must obey our Creator who gives us purpose, who protects us from the night. To bring forth the day of Enlightenment and enjoy the everlasting Golden Plains; To fight the second extinction and bring peace to all believers. \r\r\n\r\r\nAn impure race must be taken in as one's own brother, taught in the ways of Okran and given a chance of purpose, to serve in the crusade. \r\r\n\r\r\nTimes will come when the corrupted will resist, when the corrupted must be destroyed. When we execute a horned devil, it is not cruelty, it is mercy. We are putting at rest their twisted existence and sending back their souls to the Okran, so that on the day of Enlightenment, he will allow them to be reborn as human. \r\r\n\r\r\nThis is the will of our Creator. To dishonor our Father is to bring our civilization on the verge of destruction.\""
   groups:
     - heading: null
       rows:
-        - ["Size","3x3"]
-        - ["Avg. Price","c.Missing data"]
-        - ["Description","A recent text from the Holy Lord Phoenix LXII Himself: <p><br></p><p>\"We must obey our Creator who gives us purpose, who protects us from the night. To bring forth the day of Enlightenment and enjoy the everlasting Golden Plains; To fight the second extinction and bring peace to all believers. </p><p><br></p><p>An impure race must be taken in as one's own brother, taught in the ways of Okran and given a chance of purpose, to serve in the crusade. </p><p><br></p><p>Times will come when the corrupted will resist, when the corrupted must be destroyed. When we execute a horned devil, it is not cruelty, it is mercy. We are putting at rest their twisted existence and sending back their souls to the Okran, so that on the day of Enlightenment, he will allow them to be reborn as human. </p><p><br></p><p>This is the will of our Creator. To dishonor our Father is to bring our civilization on the verge of destruction.\"</p>"]
+        - ["Type","Book or letter"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>49051-Dialogue.mod</span>"]
 ---
 
 **The Holy Crusade** is a [book](/lore-books) [item](/items) found in [The Holy Nation](/the-holy-nation). This item is 'unique' to [Temples](/temple) in The Holy Nation. However, it can also be found without the 'unique' label in other Holy Nation vendors.

@@ -25,7 +25,7 @@ infobox:
         - ["String ID","41198-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I got cut...In a fight. What more do you want me to say? I fight. I get cut. They get cut. Everyone gets cut! IT'S A BIG CUT PARTY AND I DO IT AS A MEANS OF EMPLOYMENT. YES I AM AWARE WHAT MY PARENTS MIGHT THINK...You adventure types really get on my nerves.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I got cut...In a fight. What more do you want me to say? I fight. I get cut. They get cut. Everyone gets cut! IT'S A BIG CUT PARTY AND I DO IT AS A MEANS OF EMPLOYMENT. YES I AM AWARE WHAT MY PARENTS MIGHT THINK...You adventure types really get on my nerves.</blockquote></figure>
 
 **Swamper Adventurer** is a randomly named [Unique Recruit](/unique-recruits). They have a scar from getting cut in a fight. They can be hired for c.6,000.
 

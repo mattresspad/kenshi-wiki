@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We're rebuilding the pieces of our nation... Slowly.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Rebel Captain</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>We're rebuilding the pieces of our nation... Slowly.</blockquote><figcaption>Rebel Captain</figcaption></figure>
 
 **Rebel Captains** are the strongest members of the [Rebel Swordsmen](/rebel-swordsmen). They act as patrol leaders and gate guards of towns controlled by the [Empire Peasants](/empire-peasants) in the northeastern territories.
 
@@ -151,6 +151,6 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Always got your back, brother...<p>Where we goin'?</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Always got your back, brother...<p>Where we goin'?</p></blockquote></figure>
 
 **Rebel Captains** on patrol can be asked to bodyguard the player for one day, if they are allied to the [Rebel Farmers](/rebel-farmers).

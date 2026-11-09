@@ -22,7 +22,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Glory doesn't come to us. We rip it from our enemies with our own hands.<p>Courage.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hundred Guardian</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Glory doesn't come to us. We rip it from our enemies with our own hands.<p>Courage.</p></blockquote><figcaption>Hundred Guardian</figcaption></figure>
 
 **Hundred Guardians** are the elite soldiers of the [Shek Kingdom](/shek-kingdom) and highly skilled fighters. As their name implies, they are one of the top 100 fighters of the Shek Kingdom, possibly with the top 5 of them being part of [The Five Invincibles](/the-five-invincibles) instead. They are neutral but distasteful of [human](/human) characters, often calling them "[flatskins](/flatskins)" like most other members of the Shek Kingdom. Their heavy armor makes them easy to outrun even for new characters.
 
@@ -70,17 +70,17 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Honor. I live to fight for my allies. Just show me who I need to fight...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Honor. I live to fight for my allies. Just show me who I need to fight...</blockquote></figure>
 
 Once allied with the Shek Kingdom, a player can talk to wandering patrols of **Hundred Guardians** to ask them to bodyguard the player or guard their outpost. They will then follow the player for 72 hours or guard their outpost for 48 hours.
 
 Note that the Hundred Guardians guarding towns can be talked to but will refuse to follow, redirecting the player to look for patrolling Hundred Guardians outside Shek cities.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>My kingdom needs me, Battle Born. I must return to the Stone Golem...<p>Hm. Out cold?</p><p>Hm hm hm.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hundred Guardian guarding downed ally</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>My kingdom needs me, Battle Born. I must return to the Stone Golem...<p>Hm. Out cold?</p><p>Hm hm hm.</p></blockquote><figcaption>Hundred Guardian guarding downed ally</figcaption></figure>
 
 **Hundred Guardians** will bodyguard the player for an additional 6 hours if the player's squad is downed when the bodyguard contract ends.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Skin and bones, kin...<p>Catch.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–seeing a starving ally</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Skin and bones, kin...<p>Catch.</p></blockquote><figcaption>seeing a starving ally</figcaption></figure>
 
 **Hundred Guardians** will toss the player a single piece of [Dried Meat](/dried-meat) if they see them starving.
 

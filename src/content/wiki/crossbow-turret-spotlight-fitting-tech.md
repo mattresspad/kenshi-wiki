@@ -21,7 +21,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A spotlight that can be fitted to the mounted crossbow to help against night attacks.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A spotlight that can be fitted to the mounted crossbow to help against night attacks.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Crossbow Turret Spotlight Fitting** is [Defense Tech](/defense-tech) which allows the player to construct [Turrets](/turrets) with [Lighting](/lighting).
 

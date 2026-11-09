@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>[...] I'll hum some tunes, squat some hunter grandads and punch some monster bones. I'll be trained up ready come next week, just watch me.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/chad">Chad</a>, before being hired</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>[...] I'll hum some tunes, squat some hunter grandads and punch some monster bones. I'll be trained up ready come next week, just watch me.</blockquote><figcaption><a href="/chad">Chad</a>, before being hired</figcaption></figure>
 
 < Back to [Technology](/technology).
 

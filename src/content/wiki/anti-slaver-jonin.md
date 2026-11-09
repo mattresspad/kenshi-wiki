@@ -18,7 +18,7 @@ infobox:
         - ["String ID","62176-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Know what I hate more than the stinking gutters?... Slavers.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Jonin.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Know what I hate more than the stinking gutters?... Slavers.</blockquote><figcaption>Jonin.</figcaption></figure>
 
 **Anti-Slaver Jonin** are elite members of the [Anti-Slavers](/anti-slavers). They can be found in small numbers patrolling [Spring](/spring) or other Anti-Slaver controlled territories. They also lead attacks on the player's base should the player earn their ire, although they do so in small numbers.
 
@@ -246,7 +246,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I could use some action with the legend himself.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I could use some action with the legend himself.</blockquote></figure>
 
 **Anti-Slaver Jonin** can accompany or bodyguard the player that require a few conditions, but most require the player to be allied with the Anti-Slavers.
 
@@ -256,11 +256,11 @@ If [Lady Kana](/lady-kana), [Slave Mistress Ren](/slave-mistress-ren) or [Slave 
 
 If [Big Bo](/bo) is in the squad, she will hail a squad of Anti-Slavers who will then bodyguard the squad for 72 hours.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Looks like you could use some help, comrade...<br>We'll stick together a while 'til you're feeling better, eh...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Looks like you could use some help, comrade...<br>We'll stick together a while 'til you're feeling better, eh...</blockquote></figure>
 
 If the Anti-Slavers come across a KO'd squad, they will stick around and guard them for 6 hours. Likewise, if the player is nearly KO'd, have a damaged head, or broken arms or legs, they will guard the player for 6 hours and will additionally give them a Basic First Aid Kit or a Skeleton Repair Kit, depending on the race of who they target first.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You look terrible, comrade...<br>Eat.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You look terrible, comrade...<br>Eat.</blockquote></figure>
 
 They will also toss a ration pack to a starving player if they see them.
 
@@ -280,11 +280,11 @@ They will also toss a ration pack to a starving player if they see them.
 
 #### Headgear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/straw-hat">Straw Hat</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/rattan-hat">Rattan Hat</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/armoured-hood">Armoured Hood</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/turban">Turban</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/tagelmust">Tagelmust</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/ninja-mask">Ninja Mask</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/bandana">Bandana</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/side-angle-hachigane">Side-Angle Hachigane</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/hachigane">Hachigane</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/iron-hat">Iron Hat</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/ashland-hat">Ashland Hat</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/ashlander-stormgoggles">Ashlander Stormgoggles</a></td><td>8.2%</td></tr><tr><td></td><td><a href="/tricorn-hat">Tricorn Hat</a></td><td>1.64%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/575-gamedata.base.png" alt="" width="40" height="40"> <a href="/straw-hat">Straw Hat</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2185-gamedata.base.png" alt="" width="40" height="40"> <a href="/rattan-hat">Rattan Hat</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2200-gamedata.base.png" alt="" width="40" height="40"> <a href="/armoured-hood">Armoured Hood</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2219-chris_r.mod.png" alt="" width="40" height="40"> <a href="/turban">Turban</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2220-chris_r.mod.png" alt="" width="40" height="40"> <a href="/tagelmust">Tagelmust</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2221-chris_r.mod.png" alt="" width="40" height="40"> <a href="/ninja-mask">Ninja Mask</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2222-chris_r.mod.png" alt="" width="40" height="40"> <a href="/bandana">Bandana</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2223-chris_r.mod.png" alt="" width="40" height="40"> <a href="/side-angle-hachigane">Side-Angle Hachigane</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2224-chris_r.mod.png" alt="" width="40" height="40"> <a href="/hachigane">Hachigane</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2227-chris_r.mod.png" alt="" width="40" height="40"> <a href="/iron-hat">Iron Hat</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/55393-rebirth.mod.png" alt="" width="40" height="40"> <a href="/ashland-hat">Ashland Hat</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/55395-rebirth.mod.png" alt="" width="40" height="40"> <a href="/ashlander-stormgoggles">Ashlander Stormgoggles</a></td><td>8.2%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/1415-gamedata.base.png" alt="" width="40" height="40"> <a href="/tricorn-hat">Tricorn Hat</a></td><td>1.64%</td></tr></tbody></table>
 
 #### Body
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/dustcoat">Dustcoat</a></td><td>36.04%</td></tr><tr><td></td><td><a href="/mercenary-plate">Mercenary Plate</a></td><td>9.01%</td></tr><tr><td></td><td><a href="/assassins-rags">Assassin's Rags</a></td><td>9.01%</td></tr><tr><td></td><td><a href="/mercenary-leather-armour">Mercenary Leather Armour</a></td><td>9.01%</td></tr><tr><td></td><td><a href="/armoured-rags">Armoured Rags</a></td><td>9.01%</td></tr><tr><td></td><td><a href="/black-rag-shirt">Black Rag Shirt</a></td><td>9.01%</td></tr><tr><td></td><td><a href="/drifters-leather-jacket">Drifter's Leather Jacket</a></td><td>9.01%</td></tr><tr><td></td><td><a href="/sleeveless-longcoat">Sleeveless Longcoat</a></td><td>5.41%</td></tr><tr><td></td><td><a href="/longcoat">Longcoat</a></td><td>4.5%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/3061-gamedata.base.png" alt="" width="40" height="40"> <a href="/dustcoat">Dustcoat</a></td><td>36.04%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2148-gamedata.base.png" alt="" width="40" height="40"> <a href="/mercenary-plate">Mercenary Plate</a></td><td>9.01%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2154-gamedata.base.png" alt="" width="40" height="40"> <a href="/assassins-rags">Assassin's Rags</a></td><td>9.01%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2283-gamedata.base.png" alt="" width="40" height="40"> <a href="/mercenary-leather-armour">Mercenary Leather Armour</a></td><td>9.01%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2307-clothes_v1.mod.png" alt="" width="40" height="40"> <a href="/armoured-rags">Armoured Rags</a></td><td>9.01%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/42060-rebirth.mod.png" alt="" width="40" height="40"> <a href="/black-rag-shirt">Black Rag Shirt</a></td><td>9.01%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2304-clothes_v1.mod.png" alt="" width="40" height="40"> <a href="/drifters-leather-jacket">Drifter's Leather Jacket</a></td><td>9.01%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/684-gamedata.base.png" alt="" width="40" height="40"> <a href="/sleeveless-longcoat">Sleeveless Longcoat</a></td><td>5.41%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2165-gamedata.base.png" alt="" width="40" height="40"> <a href="/longcoat">Longcoat</a></td><td>4.5%</td></tr></tbody></table>
 
 #### Shirt
 
@@ -292,11 +292,11 @@ They will also toss a ration pack to a starving player if they see them.
 
 #### Legwear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/cargopants">Cargopants</a></td><td>25%</td></tr><tr><td></td><td><a href="/halfpants-ragged">Halfpants (ragged)</a></td><td>25%</td></tr><tr><td></td><td><a href="/samurai-clothpants">Samurai Clothpants</a></td><td>25%</td></tr><tr><td></td><td><a href="/drifters-leather-pants">Drifter's Leather Pants</a></td><td>25%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/550-gamedata.base.png" alt="" width="40" height="40"> <a href="/cargopants">Cargopants</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/551-gamedata.base.png" alt="" width="40" height="40"> <a href="/halfpants-ragged">Halfpants (ragged)</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2159-gamedata.base.png" alt="" width="40" height="40"> <a href="/samurai-clothpants">Samurai Clothpants</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2305-clothes_v1.mod.png" alt="" width="40" height="40"> <a href="/drifters-leather-pants">Drifter's Leather Pants</a></td><td>25%</td></tr></tbody></table>
 
 #### Footwear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/wooden-sandals">Wooden Sandals</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/plated-longboots">Plated Longboots</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/drifters-boots">Drifter's Boots</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/557-gamedata.base.png" alt="" width="40" height="40"> <a href="/wooden-sandals">Wooden Sandals</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/556-gamedata.base.png" alt="" width="40" height="40"> <a href="/plated-longboots">Plated Longboots</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2306-clothes_v1.mod.png" alt="" width="40" height="40"> <a href="/drifters-boots">Drifter's Boots</a></td><td>33.33%</td></tr></tbody></table>
 
 ### Inventory
 

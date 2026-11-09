@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Ancient Military Documents"
+  image: "/icons/items/49358-rebirth.mod.png"
+  caption: "This looks like it could be a valuable find, it details the location of an Old Empire military cache.  It might have some valuable equipment"
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.1000"]
-        - ["Sell value","c.500"]
-        - ["Description","This looks like it could be a valuable find, it details the location of an Old Empire military cache.  It might have some valuable equipment"]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>49358-rebirth.mod</span>"]
 ---
 

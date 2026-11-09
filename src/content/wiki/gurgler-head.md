@@ -7,13 +7,18 @@ source:
 categories: ["Items","Unique"]
 infobox:
   title: "Gurgler Head"
+  image: "/icons/items/96409-Dialogue.mod.png"
+  caption: "The decapitated head of a King Gurgler.  This trophy is worth a heavy bounty."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","10 kg"]
-        - ["Size","4x4"]
-        - ["Avg. Price","c.60,000"]
-        - ["Description","The decapitated head of a King Gurgler. This trophy is worth a heavy bounty."]
+        - ["Base value","c. 100,000"]
+        - ["Size in inventory","4x4"]
+    - heading: null
+      rows:
+        - ["String id","<span>96409-Dialogue.mod</span>"]
 ---
 
 The **Gurgler Head** is an item only obtainable from the unique [King Gurgler](/king-gurgler) in the [Island Lab](/island-lab). Taking it kills him instantly. Upon bringing the head to police stations and attempting to collect the bounty, the guards will not take it but rather congratulate you and tell you to look for a collector that would take it as a trophy.

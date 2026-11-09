@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","Standard First Aid Kit"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Pummeling bandits is actually kind of therapeutic</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Random Tech Hunter Gate Guard</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Pummeling bandits is actually kind of therapeutic</blockquote><figcaption>Random Tech Hunter Gate Guard</figcaption></figure>
 
 **Tech Hunter Gate Guards** are randomly-named members of the [Tech Hunters](/tech-hunters) faction. They can be found guarding Tech Hunter-controlled towns such as [Black Scratch](/black-scratch), [Flats Lagoon](/flats-lagoon), and [World's End](/worlds-end) as well as working as mercenaries for the [Free Traders](/free-traders), [Empire Peasants](/empire-peasants), and [Anti-Slavers](/anti-slavers), guarding [Drifter's Last](/drifters-last), [Clownsteady](/clownsteady) and [Free Settlement](/free-settlement) when certain [town overrides](/town-overrides) are achieved.
 

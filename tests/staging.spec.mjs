@@ -181,6 +181,33 @@ test('Random page opens an article, and category links lead to their category', 
   await expect(page.locator('.category-columns').getByRole('link', { name: 'Nodachi', exact: true })).toHaveAttribute('href', '/nodachi');
 });
 
+test('a sortable table sorts by the clicked column, numbers as numbers', async ({ page }) => {
+  await page.goto('/backpacks');
+  const table = page.locator('table.sortable').first();
+  const firstItem = () => table.locator('tr').nth(1).locator('td').first();
+  const value = table.getByRole('columnheader', { name: 'Base value' });
+
+  await value.click();
+  await expect(value).toHaveAttribute('aria-sort', 'ascending');
+  await expect(firstItem()).toHaveText("Scavenger's Basket");
+
+  await value.click();
+  await expect(value).toHaveAttribute('aria-sort', 'descending');
+  await expect(firstItem()).toHaveText('Thieves Backpack');
+
+  await table.getByRole('columnheader', { name: 'Weight' }).press('Enter');
+  await expect(value).not.toHaveAttribute('aria-sort');
+  await expect(firstItem()).toHaveText('Small Thieves Backpack');
+});
+
+test('any data table with a header row sorts, a wide header by its first column with values', async ({ page }) => {
+  await page.goto('/adventurer-recruit');
+  const table = page.locator('table.wikitable', { hasText: 'Attributes' }).first();
+  await table.getByRole('columnheader', { name: 'Attributes' }).click();
+  await expect(table.locator('td:nth-child(2)')).toHaveText(['Dexterity', 'Perception', 'Strength', 'Toughness']);
+  await expect(page.locator('table.wikitable', { hasText: 'All you need to know' }).locator('th.headerSort')).toHaveCount(0);
+});
+
 // Git, not the working tree: on Windows and macOS a file renamed only in case keeps its old name in the index, and
 // CI builds from the index.
 test('every article file is named for its canonical path', () => {

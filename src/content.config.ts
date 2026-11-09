@@ -22,6 +22,8 @@ const wiki = defineCollection({
     categories: z.array(z.string()).default([]),
     infobox: z.object({
       title: z.string(),
+      image: z.string().optional(),
+      caption: z.string().optional(),
       groups: z.array(z.object({ heading: z.string().nullable(), rows: z.array(row) })),
     }).optional(),
   }),

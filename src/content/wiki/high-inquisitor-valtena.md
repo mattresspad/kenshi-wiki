@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Seta controls Stack in the south west of the plains. Valtena you'll find in a military outpost, Okran's Shield, on the eastern border. Do not underestimate their hold on the Holy Nation, the two of them are probably smarter than the Phoenix himself - he was born into his role, remember, but those guys earned it with pure Okranite crazy and cunning.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Moll</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Seta controls Stack in the south west of the plains. Valtena you'll find in a military outpost, Okran's Shield, on the eastern border. Do not underestimate their hold on the Holy Nation, the two of them are probably smarter than the Phoenix himself - he was born into his role, remember, but those guys earned it with pure Okranite crazy and cunning.</blockquote><figcaption>Moll</figcaption></figure>
 
 **High Inquisitor Valtena** is a member of [The Holy Nation](/the-holy-nation) and its [Inquisition](/inquisitor), who occupies as a high command for the [Holy Lord Phoenix](/holy-lord-phoenix). He is located in [Okran's Shield](/okrans-shield) but can also lead an attack against the player in an event called the [Wrath of God](/wrath-of-god). He can be captured and turned over to the [Shek Kingdom](/shek-kingdom), [United Cities](/united-cities) or [Flotsam Ninjas](/flotsam-ninjas) for a sizable Bounty of c.40,000.
 

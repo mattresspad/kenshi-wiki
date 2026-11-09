@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Map of the United Cities (Central Territories)"
+  image: "/icons/items/96157-rebirth.mod.png"
+  caption: "A map of all the main towns of the United Cities around the Great Desert area"
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.400"]
-        - ["Sell value","c.200"]
-        - ["Description","A map of all the main towns of the United Cities around the Great Desert area"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>96157-rebirth.mod</span>"]
 ---
 

@@ -24,7 +24,7 @@ infobox:
         - ["String ID","57412-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I am Seto, heir to Kral's Kingdom. I will be the devil you fear.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Seto</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I am Seto, heir to Kral's Kingdom. I will be the devil you fear.</blockquote><figcaption>Seto</figcaption></figure>
 
 **Seto** is a [Unique Recruit](/unique-recruits) and the daughter of the [Shek Kingdom's](/shek-kingdom) ruler, Queen [Esata the Stone Golem](/esata-the-stone-golem).
 

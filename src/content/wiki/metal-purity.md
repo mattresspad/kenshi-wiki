@@ -11,7 +11,7 @@ categories: ["Removed Content","Manufacturers"]
 
   
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A company from the Holy Empire that makes knock-off Eye Blade weapons and passes them off as their own.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A company from the Holy Empire that makes knock-off Eye Blade weapons and passes them off as their own.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Metal Purity** was a weapon manufacturer company in the Alpha version of the game.
 

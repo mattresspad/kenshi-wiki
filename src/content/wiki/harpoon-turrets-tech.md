@@ -52,7 +52,7 @@ Prototype Harpoon Turrets
 
 [Advanced Harpoonery](/advanced-harpoonery-tech), [Harpoon Turret Spotlight Fitting](/harpoon-turret-spotlight-fitting-tech)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A new weapon technology that should be more powerful and accurate than crossbow technology can achieve.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A new weapon technology that should be more powerful and accurate than crossbow technology can achieve.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Harpoon Turrets** is [Defense Tech](/defense-tech) which allows players to construct basic [turrets](/turrets). There are many related research options which improve accuracy and speed.
 

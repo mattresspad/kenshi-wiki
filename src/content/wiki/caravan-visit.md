@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>What are you after, drifter? I've got food, meds, all the supplies you need.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>What are you after, drifter? I've got food, meds, all the supplies you need.</blockquote></figure>
 
 **Caravan Visit** is an [Event](/events) that can trigger if the player has an outpost within 11,000 meters of [Trader's Edge](/traders-edge). It cannot trigger if the player is an enemy of the [Traders Guild](/traders-guild).
 

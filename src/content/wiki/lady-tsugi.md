@@ -23,7 +23,7 @@ infobox:
         - ["Footwear","<a href=\"/wooden-sandals\">Wooden Sandals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Then you got Tsugi holding the border south at Stormgap.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/boss-simion">Boss Simion</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Then you got Tsugi holding the border south at Stormgap.</blockquote><figcaption><a href="/boss-simion">Boss Simion</a></figcaption></figure>
 
 **Lady Tsugi** is one of the diplomatic leaders of the [United Cities](/united-cities). She can be found in the city of [Brink](/brink) with 5 [Hooded Empire Noble Guards](/hooded-empire-noble-guard). She lives in a [Noble House](/noble-house).
 

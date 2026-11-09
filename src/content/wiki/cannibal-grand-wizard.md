@@ -17,7 +17,7 @@ infobox:
         - ["String ID","50519-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>So much meat.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>So much meat.</blockquote></figure>
 
 **Cannibal Grand Wizard** is leader of the [Cannibals](/cannibals) faction and located in [Cannibal Capital](/cannibal-capital). Despite being a leader, he does not have [Diplomatic Status](/diplomatic-status) nor [World States](/world-states) associated with him.
 

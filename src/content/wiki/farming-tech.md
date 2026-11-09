@@ -1,13 +1,13 @@
 ---
 title: "Farming Tech"
-description: "–Holy Citizen, after spotting a Raptor eating crops"
+description: ""
 source:
   title: "Farming Tech"
   revision: 62847
 categories: ["Technology"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Lord <a href="/okran">Okran</a>, grant my crops protection!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-citizen">Holy Citizen</a>, after spotting a <a href="/raptors">Raptor</a> eating crops</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Lord <a href="/okran">Okran</a>, grant my crops protection!</blockquote><figcaption><a href="/holy-citizen">Holy Citizen</a>, after spotting a <a href="/raptors">Raptor</a> eating crops</figcaption></figure>
 
 < Back to [Technology](/technology).
 

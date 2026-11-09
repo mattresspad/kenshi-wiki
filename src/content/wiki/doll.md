@@ -7,15 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Doll"
+  image: "/icons/items/65078-Dialogue.mod.png"
+  caption: "An old child's toy, battered and worn beyond its prime."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","2x2"]
-        - ["Value","<span>c.</span>c.6"]
-        - ["Sell Value","<span>c.</span>c.3"]
-        - ["Avg. Price","c.6"]
-        - ["Description","An old child's toy, battered and worn beyond its prime."]
+        - ["Base value","c. 10"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>65078-Dialogue.mod</span>"]
 ---
 
 A **Doll** is an [item](/items) that serves no practical purpose in the game other than adding flavour to the world. It can be found in a multitude of places, including Sand Ninja Oni's Tower at Spine Canyon and ruined houses in places like [Bast](/bast).

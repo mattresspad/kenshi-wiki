@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/the-great-desert\">The Great Desert</a>, <a href=\"/sinkuun\">Sinkuun</a>, <a href=\"/northern-coast\">Northern Coast</a>, <a href=\"/okrans-valley\">Okran's Valley</a>, <a href=\"/skimsands\">Skimsands</a>, <a href=\"/arm-of-okran\">Arm of Okran</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I've heard of this place, a whole city wiped out in a single day by the <a href="/the-holy-nation">Holy Nation</a>.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Player characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I've heard of this place, a whole city wiped out in a single day by the <a href="/the-holy-nation">Holy Nation</a>.</blockquote><figcaption>Player characters</figcaption></figure>
 
 **Bast** is a zone named after a now mostly abandoned town of the United Cities in the northeast region of the map. It is one of the two border regions between The Holy Nation and United Cities, with the other one being [Skimsands](/skimsands). The region is under jurisdiction as part of [United Cities](/united-cities) core<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup> but is in practice a weakly held conflict zone along the frontiers of [The Holy Nation](/the-holy-nation).
 

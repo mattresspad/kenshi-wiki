@@ -7,7 +7,7 @@ source:
 categories: ["Lore"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Man was created in the human image of Okran, Lord Of Light;<p>Woman was created in the image of Narko, Demoness of Darkness. Seek caution, children of Okran! An impure race is an unholy one, they must be rebirthed to serve the cause of Okran, lest they join the cause of darkness. An unrestrained woman is an idle one, she must be subdued, lest she seduce and tempt the purity of man into the darkness with her.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Volume I, Scripture of Radiance, Holy Lord Phoenix I</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Man was created in the human image of Okran, Lord Of Light;<p>Woman was created in the image of Narko, Demoness of Darkness. Seek caution, children of Okran! An impure race is an unholy one, they must be rebirthed to serve the cause of Okran, lest they join the cause of darkness. An unrestrained woman is an idle one, she must be subdued, lest she seduce and tempt the purity of man into the darkness with her.</p></blockquote><figcaption>Volume I, Scripture of Radiance, Holy Lord Phoenix I</figcaption></figure>
 
 ## History of Okran
 

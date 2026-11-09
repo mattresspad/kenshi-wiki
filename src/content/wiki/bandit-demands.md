@@ -20,7 +20,7 @@ infobox:
         - ["Victory Triggers","<strong>Bandit Demands</strong> 40-50 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Right then pansies, here's your options... Pay us 2,000 of your coins every 2 days. Then we become best friends, and no Dust Bandits will attack you. Like best friends do. Or, don't pay us anything, I go tell the boss that you don't want to be friends, and then we loot the shit out of your little outpost here.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Dust Boss</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Right then pansies, here's your options... Pay us 2,000 of your coins every 2 days. Then we become best friends, and no Dust Bandits will attack you. Like best friends do. Or, don't pay us anything, I go tell the boss that you don't want to be friends, and then we loot the shit out of your little outpost here.</blockquote><figcaption>Dust Boss</figcaption></figure>
 
 **Bandit Demands** is an [event](/events) sent by the [Dust Bandits](/dust-bandits) to extort money from players who settle near their territory. It can trigger as long as the player has a [base](/guide-to-building-an-outpost) within 4,500 meters of one of their locations or camps, and the [Dust King](/dust-king) is not dead (unlike many [World States](/world-states) this means actually dead, not just imprisoned).
 

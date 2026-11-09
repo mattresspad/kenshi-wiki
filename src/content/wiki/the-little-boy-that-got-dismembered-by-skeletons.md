@@ -7,13 +7,18 @@ source:
 categories: ["Pages with non-numeric formatnum arguments","Books","Items"]
 infobox:
   title: "The Little Boy That Got Dismembered By Skeletons"
+  image: "/icons/items/48298-Dialogue.mod.png"
+  caption: "\"The number one, best selling children's book of today! \r\n\r\nLittle Timmy liked climbing trees and playing hide and seek with his friends, but he always skipped on his prayers. Then Timmy met his first Skeleton..\""
   groups:
     - heading: null
       rows:
-        - ["Size","2x2"]
-        - ["Value","<span>c.</span>200"]
-        - ["Avg. Price","c.Missing data"]
-        - ["Description","\"The number one, best selling children's book of today! <p>Little Timmy liked climbing trees and playing hide and seek with his friends, but he always skipped on his prayers. Then Timmy met his first Skeleton..\"</p>"]
+        - ["Type","Book or letter"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>48298-Dialogue.mod</span>"]
 ---
 
 **The Little Boy That Got Dismembered By Skeletons** is a [book](/lore-books) [item](/items) found in [The Holy Nation](/the-holy-nation). This item can be found in many Holy Nation vendors.

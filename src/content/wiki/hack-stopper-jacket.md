@@ -5,11 +5,40 @@ source:
   title: "Hack Stopper Jacket"
   revision: 86600
 categories: ["Armour","Body Armour","Medium Armour"]
+infobox:
+  title: "Hack Stopper Jacket"
+  image: "/icons/items/64906-Newwworld.mod.png"
+  caption: "A metal cage-armoured jacket."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","9 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","100% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Dexterity","0.80x"]
+        - ["Dodge","0.80x"]
+        - ["Ranged skill","0.60x"]
+        - ["Stealth","0.60x"]
+        - ["Martial arts","-10"]
+        - ["Weather protection","40%"]
+    - heading: null
+      rows:
+        - ["String id","<span>64906-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A metal cage-armoured jacket.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 The **Hack Stopper Jacket** is a Medium Armour that is equipped in the Body Armour slot. It cannot be found in any shops.
 
 It is worn by [Reaver Bloodeds](/reaver-blooded), [Reaver Ironclads](/reaver-ironclad) and [Valamon](/valamon). It is worn together with matching [Hack Stopper Pants](/hack-stopper-pants).
@@ -22,18 +51,10 @@ The Hack Stopper Jacket appears to be a brown, full-body leather armour with the
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Jacket</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>0%</td></tr><tr><td>-Cut resistance</td><td>0%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.203</td></tr><tr><td>-Sell value</td><td>c.50</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.54x</td></tr><tr><td>-Crossbows effect</td><td>0.60x</td></tr><tr><td>-Precision shooting effect</td><td>0.60x</td></tr><tr><td>-Dodge skill effect</td><td>0.80x</td></tr><tr><td>-Dexterity effect</td><td>0.80x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Jacket</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>5%</td></tr><tr><td>-Cut resistance</td><td>7%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.748</td></tr><tr><td>-Sell value</td><td>c.187</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.54x</td></tr><tr><td>-Crossbows effect</td><td>0.60x</td></tr><tr><td>-Precision shooting effect</td><td>0.60x</td></tr><tr><td>-Dodge skill effect</td><td>0.80x</td></tr><tr><td>-Dexterity effect</td><td>0.80x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Jacket</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>12%</td></tr><tr><td>-Cut resistance</td><td>17%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,492</td></tr><tr><td>-Sell value</td><td>c.623</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.54x</td></tr><tr><td>-Crossbows effect</td><td>0.60x</td></tr><tr><td>-Precision shooting effect</td><td>0.60x</td></tr><tr><td>-Dodge skill effect</td><td>0.80x</td></tr><tr><td>-Dexterity effect</td><td>0.80x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Jacket</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>19%</td></tr><tr><td>-Cut resistance</td><td>27%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.5,399</td></tr><tr><td>-Sell value</td><td>c.1,349</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.54x</td></tr><tr><td>-Crossbows effect</td><td>0.60x</td></tr><tr><td>-Precision shooting effect</td><td>0.60x</td></tr><tr><td>-Dodge skill effect</td><td>0.80x</td></tr><tr><td>-Dexterity effect</td><td>0.80x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Jacket</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>26%</td></tr><tr><td>-Cut resistance</td><td>37%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.9,467</td></tr><tr><td>-Sell value</td><td>c.2,366</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.54x</td></tr><tr><td>-Crossbows effect</td><td>0.60x</td></tr><tr><td>-Precision shooting effect</td><td>0.60x</td></tr><tr><td>-Dodge skill effect</td><td>0.80x</td></tr><tr><td>-Dexterity effect</td><td>0.80x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Jacket</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>32%</td></tr><tr><td>-Cut resistance</td><td>44%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.13,282</td></tr><tr><td>-Sell value</td><td>c.3,320</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td>-Left Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.54x</td></tr><tr><td>-Crossbows effect</td><td>0.60x</td></tr><tr><td>-Precision shooting effect</td><td>0.60x</td></tr><tr><td>-Dodge skill effect</td><td>0.80x</td></tr><tr><td>-Dexterity effect</td><td>0.80x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>0%</td><td>5%</td><td>12%</td><td>19%</td><td>26%</td><td>32%</td></tr><tr><th scope="row">Cut resistance</th><td>0%</td><td>7%</td><td>17%</td><td>27%</td><td>37%</td><td>44%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">80%</td></tr><tr><th scope="row">Weight</th><td colspan="6">5.625 kg</td></tr><tr><th scope="row">Value</th><td>c.203</td><td>c.748</td><td>c.2,492</td><td>c.5,399</td><td>c.9,467</td><td>c.13,282</td></tr><tr><th scope="row">Sell value</th><td>c.50</td><td>c.187</td><td>c.623</td><td>c.1,349</td><td>c.2,366</td><td>c.3,320</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">100%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">100%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">100%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">100%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td colspan="6">0.54x</td></tr><tr><th scope="row">Crossbows effect</th><td colspan="6">0.60x</td></tr><tr><th scope="row">Precision shooting effect</th><td colspan="6">0.60x</td></tr><tr><th scope="row">Dodge skill effect</th><td colspan="6">0.80x</td></tr><tr><th scope="row">Dexterity effect</th><td colspan="6">0.80x</td></tr><tr><th scope="row">Martial arts bonus</th><td colspan="6">-10</td></tr></tbody></table>
 
 ## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.9</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>4.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Hack Stopper Jacket blueprint: 12 hours at tech level 1; the blueprint is worth c. 6,231.</li></ul></div>
 
 It can be crafted in the [Leather Armour Crafting Bench](/leather-armour-crafting-bench) if a blueprint is available through modding.

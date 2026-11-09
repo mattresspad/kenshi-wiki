@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/port-north/destroyed)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Kana is dead. She was a strong influencer in the Slave Traders. The north shores are in disarray with her gone, not to mention the loss of the port's supplies have left some of the cities in chaos</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/tinfist">Tinfist</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Kana is dead. She was a strong influencer in the Slave Traders. The north shores are in disarray with her gone, not to mention the loss of the port's supplies have left some of the cities in chaos</blockquote><figcaption><a href="/tinfist">Tinfist</a></figcaption></figure>
 
 If [Lady Kana](/lady-kana) is [killed or imprisoned](/world-states), [Port North](/port-north) falls to [ruins](/town-overrides). All inhabitants are dead or missing in this override.
 

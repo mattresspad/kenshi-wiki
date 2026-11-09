@@ -126,7 +126,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Headgear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/wool-hat">Wool Hat</a></td><td>66.67%</td></tr><tr><td></td><td><a href="/hachigane">Hachigane</a></td><td>16.67%</td></tr><tr><td></td><td><a href="/side-angle-hachigane">Side-Angle Hachigane</a></td><td>16.67%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2164-gamedata.base.png" alt="" width="40" height="40"> <a href="/wool-hat">Wool Hat</a></td><td>66.67%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2224-chris_r.mod.png" alt="" width="40" height="40"> <a href="/hachigane">Hachigane</a></td><td>16.67%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2223-chris_r.mod.png" alt="" width="40" height="40"> <a href="/side-angle-hachigane">Side-Angle Hachigane</a></td><td>16.67%</td></tr></tbody></table>
 
 #### Body
 

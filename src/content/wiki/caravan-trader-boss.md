@@ -19,7 +19,7 @@ infobox:
         - ["String ID","2313-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Hassle-free trading outside of city walls. What're you looking to buy, outlander?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Trader Boss greeting</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Hassle-free trading outside of city walls. What're you looking to buy, outlander?</blockquote><figcaption>Trader Boss greeting</figcaption></figure>
 
 **Caravan Trader Bosses** are named traders of the [Traders Guild](/traders-guild) and [The Holy Nation](/the-holy-nation). As their name implies, they lead caravans in areas controlled by these factions, trading supplies outside of city walls.
 

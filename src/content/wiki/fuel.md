@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Fuel"
+  image: "/icons/items/1514-gamedata.base.png"
+  caption: "Fuel is what keeps everything running. You need it for your generators."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","3x3 wide/tall"]
-        - ["Avg. Price","c.192"]
-        - ["Description","Fuel is what keeps everything running. You need it for your generators."]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>1514-gamedata.base</span>"]
 ---
 
 **Fuel** is essential to keep generators running in areas where [wind power](/power) is not reliable.
@@ -38,3 +43,7 @@ The above means of acquiring fuel can be substituted by researching [Biofuel](/b
 ### History
 
 Fuel and [Water](/water) both previously had similar icons.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/biofuel-distillery-wheatstraw">Biofuel Distillery (Wheatstraw)</a></th><th class="unsortable"><a href="/biofuel-distillery-greenfruit">Biofuel Distillery (Greenfruit)</a></th><th class="unsortable"><a href="/biofuel-distillery-hemp">Biofuel Distillery (Hemp)</a></th></tr><tr><th scope="row"><a href="/wheatstraw">Wheatstraw</a></th><td>4</td><td>–</td><td>–</td></tr><tr><th scope="row"><a href="/greenfruit">Greenfruit</a></th><td>–</td><td>4</td><td>–</td></tr><tr><th scope="row"><a href="/hemp">Hemp</a></th><td>–</td><td>–</td><td>4</td></tr></tbody></table></div>

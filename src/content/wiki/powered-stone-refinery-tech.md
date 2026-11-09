@@ -22,7 +22,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Stone Processor requires too much manpower, we need to improve the design so we can get more output with less workers, but it's going to need to be powered by a generator.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Stone Processor requires too much manpower, we need to improve the design so we can get more output with less workers, but it's going to need to be powered by a generator.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Powered Stone Refinery** is [Industry Tech](/industry-tech) which allows players to construct [Stone Processor II](/stone-processor).
 

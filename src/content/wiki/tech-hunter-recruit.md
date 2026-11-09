@@ -22,7 +22,7 @@ infobox:
         - ["String ID","50564-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Let me guess! Come to gloat about your tech hunting adventures over a refreshing rum?... Save your heroics for someone who cares, I've heard it all already in this bar...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Traitorous Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Let me guess! Come to gloat about your tech hunting adventures over a refreshing rum?... Save your heroics for someone who cares, I've heard it all already in this bar...</blockquote><figcaption>Traitorous Personality</figcaption></figure>
 
 **Tech Hunter Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a tech hunter looking to join other treasure seekers. They can be hired for c.3,000.
 

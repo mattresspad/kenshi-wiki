@@ -1,13 +1,13 @@
 ---
 title: "Noble Circle"
-description: "–Lord Inaba of the Noble Circle, excerpt from The Blessing Of Slavery"
+description: "The Noble Circle (previously known as the Imperial Lords) are the handpicked cabal of ruthless nobles chosen by Emperor Tengu. Each one is equally regarded a…"
 source:
   title: "Noble Circle"
   revision: 94915
 categories: ["Lore","United Cities","Traders Guild","Nobles"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Slavery is attacked and branded immoral by outside criticizers, by rebel ninjas. We're accused of cruelty, accused of stealing people's freedom. Yet the accusers continue to buy the products and labours of slavery: Iron, cotton, chainmail... ninja rags. The accusers reek of hypocrisy. But, even if slavery is immoral, it is ours alone to shoulder, not the business of others to interfere.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Lord Inaba of the Noble Circle, excerpt from <a href="/the-blessing-of-slavery">The Blessing Of Slavery</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Slavery is attacked and branded immoral by outside criticizers, by rebel ninjas. We're accused of cruelty, accused of stealing people's freedom. Yet the accusers continue to buy the products and labours of slavery: Iron, cotton, chainmail... ninja rags. The accusers reek of hypocrisy. But, even if slavery is immoral, it is ours alone to shoulder, not the business of others to interfere.</blockquote><figcaption>Lord Inaba of the Noble Circle, excerpt from <a href="/the-blessing-of-slavery">The Blessing Of Slavery</a></figcaption></figure>
 
 The **Noble Circle** (previously known as the [Imperial Lords](/imperial-lords)) are the handpicked cabal of ruthless nobles chosen by Emperor Tengu. Each one is equally regarded as cruel, narcissistic, and incompetent. Each noble is followed by an [elite samurai](/empire-noble-guard-hooded) bodyguard. They can be seen harassing peasants in cities and hinterland if one is unlucky enough to mistakenly block their path.
 

@@ -7,16 +7,33 @@ source:
 categories: ["Weapons","Polearms"]
 infobox:
   title: "Naginata"
+  image: "/icons/items/52308-rebirth.mod.png"
+  caption: "A samurai hunter's weapon that can be deceptively fast and hard to defend against.  Too long to use effectively in cramped environments, but good against animals."
   groups:
     - heading: null
       rows:
-        - ["Class","[Polearm class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/polearms\">Polearm</a>"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 350"]
+        - ["Size in inventory","1x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.80x"]
+        - ["Blunt damage","0.20x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
         - ["Attack","+6"]
+        - ["Defence","0"]
         - ["Indoors","-8"]
-        - ["Damage vs animals","+50%"]
         - ["Reach","28"]
-        - ["Description","A samurai hunter's weapon that can be deceptively fast and hard to defend against.  Too long to use effectively in cramped environments, but good against animals."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","+50%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52308-rebirth.mod</span>"]
 ---
 
@@ -28,15 +45,7 @@ The [Meitou](/meitou)\-version of this weapon can be found on [Crab Queen](/crab
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(6 required)</span></p></td><td><strong><span>Naginata</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(6 required)</span></p></td><td><strong><span>Naginata</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(6 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(6 required)</span></p></td><td><strong><span>Naginata</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(6 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>6</td><td>6</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>6</td><td>6</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Naginatas blueprint: 6 hours at tech level 2; the blueprint is worth c. 8,000.</li></ul></div>
 
 ## Blueprints
 

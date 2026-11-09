@@ -19,7 +19,7 @@ infobox:
 
 50639-rebirth.mod
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Put your money where your mouth is and come play Crawlin' for Cats!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Put your money where your mouth is and come play Crawlin' for Cats!</blockquote></figure>
 
 **Blackshifter Casino Bar** is a unique [bar](/bar) only found in [The Swamp](/the-swamp). [Blackshifters](/blackshifters) run the bar. Players can speak to the Casino Dealer to gamble, 100 Cats at a time. Players cannot trade with this location.
 

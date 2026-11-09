@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/heng-zone\">Heng</a>, <a href=\"/gut\">Gut</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It's almost completely gone now...<p>The city that used to be here, I wonder what's left</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It's almost completely gone now...<p>The city that used to be here, I wonder what's left</p></blockquote><figcaption><a href="/skeleton">Skeleton</a> Player Characters</figcaption></figure>
 
 The **Howler Maze** is an island connected to the mainland with water covered land bridges to the north. The neighboring regions are [Heng](/heng-zone) and [Gut](/gut).
 

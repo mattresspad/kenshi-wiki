@@ -18,7 +18,7 @@ infobox:
         - ["Armour","<a href=\"/dustcoat\">Dustcoat</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Welcome, dear human, and please excuse the mess. Anything shiny, Dack hoards. A simpleton really. I'm sure his mind was fried when he got hit on the head back in the cha- uh... back some time ago...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Quin, talking to a human customer</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Welcome, dear human, and please excuse the mess. Anything shiny, Dack hoards. A simpleton really. I'm sure his mind was fried when he got hit on the head back in the cha- uh... back some time ago...</blockquote><figcaption>Quin, talking to a human customer</figcaption></figure>
 
 **Quin** is a member of the [Skeletons](/skeletons) faction. He is located in the [Scraphouse](/scraphouse): the big ancient factory next to [Black Desert City](/black-desert-city). He has a lot of highly valuable goods for sale such as hard to get [blueprints](/blueprints), high quality [weapons](/weapons), high quality [crossbows](/crossbow-class), [Ancient Science Books](/ancient-science-book) and the rare [AI Cores](/ai-core) (which do not respawn).
 

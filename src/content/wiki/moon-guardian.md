@@ -22,7 +22,7 @@ infobox:
         - ["Footwear","<a href=\"/drifters-boots\">Drifter's Boots</a>, <a href=\"/plated-longboots\">Plated Longboots</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Moons almighty, make it rain...<p>Flesh for the birds and blood for the sands...</p><p>Take what is dirt and purify the lands...</p><p>Rain for the harvest, blood for the sands!</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Moons almighty, make it rain...<p>Flesh for the birds and blood for the sands...</p><p>Take what is dirt and purify the lands...</p><p>Rain for the harvest, blood for the sands!</p></blockquote></figure>
 
 **Moon Guardians** are members of the [Preacher Cult](/preacher-cult). They can be found in [Cult Village](/cult-village) in the [Stormgap Coast](/stormgap-coast).
 

@@ -7,7 +7,7 @@ source:
 categories: ["Factions"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Now the crabs, see, they like fish, that's their favourite food. Otherwise they'll eat funghi, algae... you know, standard stuff. But you gotta make sure they eat five meals a day. And be warned, never feed them after sundown! NEVER!...<p>It gives them indigestion. You've also gotta give them a ninety minute salt bath once a month so that they can molt no trouble. Now, they don't sleep well and they need affection, so make sure you sing 'em a song every night before bed, you gotta gurgle from the back of your throat, stroke his back legs too, he'll like that...</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/crab-man">Crab Man</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Now the crabs, see, they like fish, that's their favourite food. Otherwise they'll eat funghi, algae... you know, standard stuff. But you gotta make sure they eat five meals a day. And be warned, never feed them after sundown! NEVER!...<p>It gives them indigestion. You've also gotta give them a ninety minute salt bath once a month so that they can molt no trouble. Now, they don't sleep well and they need affection, so make sure you sing 'em a song every night before bed, you gotta gurgle from the back of your throat, stroke his back legs too, he'll like that...</p></blockquote><figcaption><a href="/crab-man">Crab Man</a></figcaption></figure>
 
 **Crabs** is an animal faction. This faction will not appear on the factions list as it is "not real".
 

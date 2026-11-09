@@ -21,7 +21,7 @@ infobox:
         - ["String ID","41298-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>My family taught me everything, lessons those bastards could never take away. But they left me alive, and that was their mistake. You fight bandits, yeah? Kill 'em dead? They tried to ruin me with fear, but I'll show them what fear really is.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>My family taught me everything, lessons those bastards could never take away. But they left me alive, and that was their mistake. You fight bandits, yeah? Kill 'em dead? They tried to ruin me with fear, but I'll show them what fear really is.</blockquote></figure>
 
 **Recruit Seeking Revenge** is a randomly named [Unique Recruit](/unique-recruits). She wants revenge for her family's deaths. She will join the player after they give her c.3,000 to pay her [Flophouse](/flophouse) bill.
 

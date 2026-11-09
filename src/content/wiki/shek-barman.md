@@ -20,7 +20,7 @@ infobox:
         - ["Legwear","<a href=\"/cargopants\">Cargopants</a>, <a href=\"/cargopants-padded\">Cargopants (padded)</a>, <a href=\"/samurai-clothpants\">Samurai Clothpants</a>, <a href=\"/halfpants-ragged\">Halfpants (ragged)</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This is the great shek capital, home to the courageous Stone Golem. Remember it well, one day it will be the capital of all the lands.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Admag Barman when asked about the city</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This is the great shek capital, home to the courageous Stone Golem. Remember it well, one day it will be the capital of all the lands.</blockquote><figcaption>Admag Barman when asked about the city</figcaption></figure>
 
 **Shek Barmen** are named shopkeepers of the [Shek Kingdom](/shek-kingdom). They can be found manning most of the [Shek Bars](/shek-bar) in Shek-controlled cities. They spawn with the Fearful [Personality](/personality). They wear \[Shoddy\] armour (5% chance of \[Standard\]) and have weapons manufactured by [Skeleton Smiths](/skeleton-smiths).
 

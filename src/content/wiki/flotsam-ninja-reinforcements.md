@@ -14,7 +14,7 @@ infobox:
         - ["Territorial Trigger","False"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Didn't think we'd let you face the Holy Nation without us, did you? We fight together, or we die together... Stay in one piece, my friends.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Yayoi</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Didn't think we'd let you face the Holy Nation without us, did you? We fight together, or we die together... Stay in one piece, my friends.</blockquote><figcaption>Yayoi</figcaption></figure>
 
 **Flotsam Ninja Reinforcements** is a bugged [Event](/events) that is supposed to trigger in response to the [Holy Assault](/holy-assault), [Holy Nation Assault (Major)](/holy-nation-assault-major), [Retribution of God](/retribution-of-god), and [Wrath of God](/wrath-of-god) events, as long as the [Player](/nameless) is allied to the [Flotsam Ninjas](/flotsam-ninjas) and not the [Shek Kingdom](/shek-kingdom), while [Moll](/moll) and [Yayoi](/yayoi) are both alive and free.
 

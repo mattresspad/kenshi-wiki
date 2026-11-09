@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/sniper-valley\">Sniper Valley</a>, <a href=\"/greyshelf\">Greyshelf</a>, <a href=\"/flats-lagoon-zone\">Flats Lagoon</a>, <a href=\"/venge\">Venge</a>, <a href=\"/the-unwanted-zone\">The Unwanted Zone</a>, <a href=\"/stobes-garden\">Stobe's Garden</a>, <a href=\"/the-crags\">The Crags</a>, <a href=\"/sonorous-dark\">Sonorous Dark</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Another adventurer, eh? I'd say don't do it at all, yer not gonna come back, but I know you won't listen to that.<p>So here's my advice: Come prepared, build an outpost somewhere in the south but not too far south. Preferably off to the east, in The Pits.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/tinfist">Tinfist</a> about survival</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Another adventurer, eh? I'd say don't do it at all, yer not gonna come back, but I know you won't listen to that.<p>So here's my advice: Come prepared, build an outpost somewhere in the south but not too far south. Preferably off to the east, in The Pits.</p></blockquote><figcaption><a href="/tinfist">Tinfist</a> about survival</figcaption></figure>
 
 **Stobe's Gamble** is the home of the [Anti-Slavers](/anti-slavers), and their capital, [Spring](/spring). This Zone also includes numerous Ancient Locations, such as the home of [King Gorillo](/king-gorillo). [Landbat](/landbat) swarms (18-30 adults) roam this zone, as do the [Karate Drifters](/karate-drifter), skilled martial artists. This is also one of the few zones where [Leviathans](/leviathan) can spawn.
 

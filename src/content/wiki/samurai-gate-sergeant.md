@@ -22,7 +22,7 @@ infobox:
         - ["Footwear","<a href=\"/samurai-boots\">Samurai Boots</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>All visitors need to be checked for contraband before entry into town, outlander. I need to check your inventory.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Sergeant performing a check.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>All visitors need to be checked for contraband before entry into town, outlander. I need to check your inventory.</blockquote><figcaption>Sergeant performing a check.</figcaption></figure>
 
 **Samurai Gate Sergeants** are well-equipped static sentries for the [United Cities](/united-cities) that protect the entrances to their towns and lead the [Samurai Gate Guards](/samurai-gate-guard) stationed there. They sometimes stop travelers to check for contraband.
 

@@ -6,23 +6,22 @@ source:
   revision: 79530
 categories: ["Armour","Headgear","Clothing"]
 infobox:
-  title: "Hats and Headgear"
+  title: "Cap"
+  image: "/icons/items/2167-gamedata.base.png"
+  caption: "A hat with a shade for the eyes, favoured by traders."
   groups:
     - heading: null
       rows:
-        - ["Description","A whole load of hats that could be crafted."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","3x3"]
+    - heading: null
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","2 <a href=\"/book\">Books</a>"]
-        - ["Requirements","<a href=\"/clothing-manufacture-tech\">Clothing Manufacture</a>"]
-    - heading: "Results"
-      rows:
-        - ["New Item(s)","<a href=\"/bandana\">Bandana</a><br><p><a href=\"/basket-hat\">Basket Hat</a><br><b>Cap</b><br><a href=\"/rattan-hat\">Rattan Hat</a><br><a href=\"/tagelmust\">Tagelmust</a><br><a href=\"/turban\">Turban</a><br><a href=\"/wool-hat\">Wool Hat</a><br></p>"]
+        - ["String id","<span>2167-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Cap</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.90</td></tr><tr><td>-Sell value</td><td>c.22</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2">A hat with a shade for the eyes, favoured by traders.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td></tr></tbody></table>
 
 The **Cap** is Clothing that is equipped in the Headgear slot.
 
@@ -40,11 +39,6 @@ The Cap is a basic brown baseball hat but made with several leather pieces crude
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Cap</span></strong><div></div></td></tr></tbody></table></details>
-
-  
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Cap<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>25</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>8</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Cap</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Cap blueprint: 12 hours at tech level 1; the blueprint is worth c. 135.</li><li><a href="/hats-and-headgear-tech">Hats and Headgear</a> research: 6 hours at tech level 1; costs <a href="/book">2 Books</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li></ul></div>
 
 The blueprint is obtainable but unneeded, as players can unlock this item through technology research.

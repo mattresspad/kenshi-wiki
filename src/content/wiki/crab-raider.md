@@ -18,7 +18,7 @@ infobox:
         - ["String ID","62826-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You won't survive long without a crab.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Raider to a crabless</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You won't survive long without a crab.</blockquote><figcaption>Raider to a crabless</figcaption></figure>
 
 **Crab Raiders** are soldiers of the [Crab Raiders](/crab-raiders) faction. They can be found patrolling [Crab Town](/crab-town), [Crab Village](/crab-village), and other territories controlled by the Crab Raiders, such as [Greenbeach](/greenbeach), [Stobe's Garden](/stobes-garden), [The Crags](/the-crags), [The Pits](/the-pits), and [The Pits East](/the-pits-east).
 
@@ -60,7 +60,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Crabbed, wait up!<p>Share some action.</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Crabbed, wait up!<p>Share some action.</p></blockquote></figure>
 
 Random patrols of **Crab Raiders** can bodyguard the player for 6 hours if they are allied.
 

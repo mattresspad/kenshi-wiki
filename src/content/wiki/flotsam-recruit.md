@@ -1,6 +1,6 @@
 ---
 title: "Flotsam Recruit"
-description: "–Smart Personality, HLP is alive and free"
+description: "Flotsam Recruit is a randomly named Generic Recruit and member of the Flotsam Ninjas. She can be hired for c.3,000."
 source:
   title: "Flotsam Recruit"
   revision: 94044
@@ -24,7 +24,7 @@ infobox:
         - ["String ID","50314-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It's overcrowded here, there's not enough food or shelter to go round to all the refugees... I need out. Are you looking to band together, traveller?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Smart Personality, <a href="/holy-lord-phoenix">HLP</a> is alive and free</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It's overcrowded here, there's not enough food or shelter to go round to all the refugees... I need out. Are you looking to band together, traveller?</blockquote><figcaption>Smart Personality, <a href="/holy-lord-phoenix">HLP</a> is alive and free</figcaption></figure>
 
 **Flotsam Recruit** is a randomly named [Generic Recruit](/generic-recruits) and member of the [Flotsam Ninjas](/flotsam-ninjas). She can be hired for c.3,000.
 
@@ -91,10 +91,10 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Welcome to our village, outsider, may light and dark both bless you. Are you here for recruits?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Honorable Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Welcome to our village, outsider, may light and dark both bless you. Are you here for recruits?</blockquote><figcaption>Honorable Personality</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Now that I finally have my freedom, I want to fight, to prove my worth. But the Flotsam Ninjas won't take me, so here I am in search of a new clan. Are you looking for recruits, outsider?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Brave Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Now that I finally have my freedom, I want to fight, to prove my worth. But the Flotsam Ninjas won't take me, so here I am in search of a new clan. Are you looking for recruits, outsider?</blockquote><figcaption>Brave Personality</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm free of the Phoenix' shackles and all I want to do is hit the road and roam free. If you're looking to team up my fee is 3000 Cats, sister.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Dumb Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm free of the Phoenix' shackles and all I want to do is hit the road and roam free. If you're looking to team up my fee is 3000 Cats, sister.</blockquote><figcaption>Dumb Personality</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm fed up of moody ninjas and gloomy, sour faced refugees. And I'm fed up of Okran too, Okran can suck it. I'm out of here, 3000 Cats if you're looking to team up, stranger.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Traitorous Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm fed up of moody ninjas and gloomy, sour faced refugees. And I'm fed up of Okran too, Okran can suck it. I'm out of here, 3000 Cats if you're looking to team up, stranger.</blockquote><figcaption>Traitorous Personality</figcaption></figure>

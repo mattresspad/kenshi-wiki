@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/drin/the-holy-nation)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Now that Tengu is gone, the Empire will finally see that good triumphs over evil... Soon Okran's light will spread to the east, thanks to you, (player name).</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/paladin">Paladin</a>, <a href="/emperor-tengu">Tengu</a> dead, <a href="/holy-lord-phoenix">Phoenix</a> alive</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Now that Tengu is gone, the Empire will finally see that good triumphs over evil... Soon Okran's light will spread to the east, thanks to you, (player name).</blockquote><figcaption><a href="/paladin">Paladin</a>, <a href="/emperor-tengu">Tengu</a> dead, <a href="/holy-lord-phoenix">Phoenix</a> alive</figcaption></figure>
 
 If [Tengu](/emperor-tengu) and [Inaba](/lord-inaba) are killed/imprisoned while [Valtena](/high-inquisitor-valtena) is alive and free, [Drin](/drin) will become controlled by [The Holy Nation](/the-holy-nation).
 

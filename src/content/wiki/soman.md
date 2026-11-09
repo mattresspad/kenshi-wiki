@@ -22,7 +22,7 @@ infobox:
         - ["Footwear","<a href=\"/wooden-sandals\">Wooden Sandals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Always been pretty good with my hands, never much of a fisherman though... Was practically piecing together blueprints before I even learnt to walk. All I need is 3500 Cats to tie up some loose ends and I'm ready to go. What do you say?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Always been pretty good with my hands, never much of a fisherman though... Was practically piecing together blueprints before I even learnt to walk. All I need is 3500 Cats to tie up some loose ends and I'm ready to go. What do you say?</blockquote></figure>
 
 **Soman** is a [Unique Recruit](/unique-recruits). She is part of a failing family business fishing with her brother.
 

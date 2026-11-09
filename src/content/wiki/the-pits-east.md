@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/the-pits\">The Pits</a>, <a href=\"/stobes-garden\">Stobe's Garden</a>, <a href=\"/greenbeach\">Greenbeach</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Adventurer, eh? Guess you'll be on your way down to the Ashlands then. Ain't ever seen anyone go to the Ashlands and come back out. It's a one way journey an' whatever's down there ain't worth dying for...<p>I certainly wouldn't go without a crab.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Barman, <a href="/crab-town">Crab Town</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Adventurer, eh? Guess you'll be on your way down to the Ashlands then. Ain't ever seen anyone go to the Ashlands and come back out. It's a one way journey an' whatever's down there ain't worth dying for...<p>I certainly wouldn't go without a crab.</p></blockquote><figcaption>Barman, <a href="/crab-town">Crab Town</a></figcaption></figure>
 
 **The Pits East** is the home of the [Crab Raiders](/crab-raiders). In [Crab Town](/crab-town), the home of the Queen of the Crab Raiders, players can become "crabbed" and a Unique Recruit named [Lumi](/lumi) can be found.
 

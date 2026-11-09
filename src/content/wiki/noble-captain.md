@@ -23,7 +23,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>COME NO CLOSER!<p>APPROACH NOT THE NOBLE LORD!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Noble Captain leading procession</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>COME NO CLOSER!<p>APPROACH NOT THE NOBLE LORD!</p></blockquote><figcaption>Noble Captain leading procession</figcaption></figure>
 
 **Noble Captains** are elite members of the [United Cities](/united-cities). Due to their title, it is unknown if they are in fact low-ranking nobles themselves, or simply veteran [Noble Guards](/hooded-empire-noble-guard).
 

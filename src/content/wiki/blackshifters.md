@@ -15,7 +15,7 @@ infobox:
         - ["Type","Civilian (Gang)"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Made up of hive ronins. Though, they may be ronins, but they sure haven't lost that greedy goddamn hiver mindset. They handle the town's money... loansharking, gambling, that sorta thing... they run the casinos 'round here. As long as you don't owe 'em money, they got no reason to hurt you.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Swamper Barman</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Made up of hive ronins. Though, they may be ronins, but they sure haven't lost that greedy goddamn hiver mindset. They handle the town's money... loansharking, gambling, that sorta thing... they run the casinos 'round here. As long as you don't owe 'em money, they got no reason to hurt you.</blockquote><figcaption>Swamper Barman</figcaption></figure>
 
 A group of ronin [Hivers](/hive), the **Blackshifters** are one of the 5 gangs from [The Swamp](/the-swamp).
 

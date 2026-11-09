@@ -22,7 +22,7 @@ infobox:
         - ["Legwear","<a href=\"/cargopants-colored\">Cargopants (colored)</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Attacking like a pack of bloody beasts!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Attacking like a pack of bloody beasts!</blockquote></figure>
 
 **Shade** is the leader of the [Swamp Ninjas](/swamp-ninjas) and resides at the [Swamp Ninja Base](/swamp-ninja-base).
 

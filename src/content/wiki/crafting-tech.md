@@ -7,7 +7,7 @@ source:
 categories: ["Technology"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Well, I guess we'll be crafting our own gear from now on then... Since it's gonna cost a POOBILLION Cats to buy a stinkin' loaf of bread now!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/hobbs">Hobbs</a>, if <a href="/longen">Longen</a> is not alive</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Well, I guess we'll be crafting our own gear from now on then... Since it's gonna cost a POOBILLION Cats to buy a stinkin' loaf of bread now!</blockquote><figcaption><a href="/hobbs">Hobbs</a>, if <a href="/longen">Longen</a> is not alive</figcaption></figure>
 
 **Crafting Tech** is one of the [Technology](/technology) branches. This tech category primarily involves the creation of [Fabrics](/fabrics) and [Robot Limbs](/robot-limbs).
 

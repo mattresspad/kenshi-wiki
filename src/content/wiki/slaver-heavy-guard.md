@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We've got a runner!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Slaver Heavy Guard spotting an escapee</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>We've got a runner!</blockquote><figcaption>Slaver Heavy Guard spotting an escapee</figcaption></figure>
 
 **Slaver Heavy Guards** are members of the [Traders Guild](/traders-guild). They are a melee-only variant of the [Slaver Guard](/slaver-guard), and despite being called a 'heavy', wear the same armour of their non-heavy counterparts.
 

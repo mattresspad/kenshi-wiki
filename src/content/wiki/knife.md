@@ -25,7 +25,7 @@ infobox:
         - ["String ID","50265-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I've travelled enough since leaving Stack to know that no man or woman is trustworthy. But I'm looking to travel again. I guess you always appreciate that which gets taken away from you and, for me, that was my freedom.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I've travelled enough since leaving Stack to know that no man or woman is trustworthy. But I'm looking to travel again. I guess you always appreciate that which gets taken away from you and, for me, that was my freedom.</blockquote></figure>
 
 **Knife** is a [Unique Recruit](/unique-recruits). She is a [Flotsam Ninja](/flotsam-ninjas) looking to travel. She'll join the player after a c.6,000 payment which she intends to send home to her mother in [Stack](/stack).
 

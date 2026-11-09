@@ -20,7 +20,7 @@ infobox:
 
 _This article is about the Deadland Workshop. For the Dead Workshop in The Pits, see [Dead Workshop](/dead-workshop)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Old ruins. You gotta look at a map, go way out into the furthest reaches of the ass end of nowhere, the more dangerous the better, and then look around for old ruins and stuff.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Ronin Construction Trader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Old ruins. You gotta look at a map, go way out into the furthest reaches of the ass end of nowhere, the more dangerous the better, and then look around for old ruins and stuff.</blockquote><figcaption>Ronin Construction Trader</figcaption></figure>
 
 **Deadlands Workshops** are large, hangar-like structures located in the [Deadlands](/deadlands). The structures themselves are composed of two "walkway" areas along either edge of the Workshop with one or two switchback ramps leading up, overlooked by [Mounted Crossbows](/mounted-crossbow) with spotlights. Along the walkways are various machines, tool stations and containers ranging from basic crates through to high-level locked chests.
 

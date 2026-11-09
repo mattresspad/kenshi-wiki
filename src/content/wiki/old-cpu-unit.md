@@ -7,12 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Old CPU Unit"
+  image: "/icons/items/1533855-rebirth.mod.png"
+  caption: "Looks like it has been damaged from overheating.  It's a miracle this skeleton was still alive."
   groups:
     - heading: null
       rows:
-        - ["Size","3x3"]
-        - ["Avg. Price","c.600"]
-        - ["Description","Looks like it has been damaged from overheating.  It's a miracle this skeleton was still alive."]
+        - ["Type","Other"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>1533855-rebirth.mod</span>"]
 ---
 
 **Old** **CPU Unit** is an [item](/items) which can only be found in a few locations. It serves no function outside of being worth a small amount of money.

@@ -22,7 +22,7 @@ infobox:
         - ["Footwear","<a href=\"/wooden-sandals\">Wooden Sandals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Get out of my house dammit!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Get out of my house dammit!</blockquote></figure>
 
 The **UC Citizens** are civilian residents of the [United Cities](/united-cities).
 

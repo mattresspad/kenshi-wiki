@@ -18,7 +18,7 @@ infobox:
         - ["Footwear","<a href=\"/wooden-sandals\">Wooden Sandals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Even if you have to die, I'm taking your food!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Even if you have to die, I'm taking your food!</blockquote></figure>
 
 **Hungry Bandit Leaders** lead squads of [Hungry Bandits](/hungry-bandit) and are the most skilled members of the [Starving Bandits](/starving-bandits). Their squads can be found patrolling in [Border Zone](/border-zone), [Dreg](/dreg), [Northern Coast](/northern-coast), [Okran's Gulf](/okrans-gulf), [Okran's Pride](/okrans-pride), [Okran's Valley](/okrans-valley), [Shem](/shem), and [Skinner's Roam](/skinners-roam).
 

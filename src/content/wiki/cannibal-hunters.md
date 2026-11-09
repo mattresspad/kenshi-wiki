@@ -14,7 +14,7 @@ infobox:
         - ["Hostile towards","<a href=\"/cannibals\">Cannibals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The nightmares never go away. We keep killing but they never go away.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>The nightmares never go away. We keep killing but they never go away.</blockquote></figure>
 
 **Cannibal Hunters** are a group of people who have dedicated themselves to culling the [Cannibal](/cannibals) threat, attempting to keep them contained in their own territory. It is presumed they do this for their own reasons, such as personal grudges and the like. Unlike many factions in the world, these people may heal any wounded strangers they see.
 

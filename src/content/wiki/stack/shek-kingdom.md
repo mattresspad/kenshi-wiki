@@ -20,7 +20,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/stack/shek-kingdom)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>With Seta gone, we're left open to the devils of the border zone...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-citizen">Holy Citizen</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>With Seta gone, we're left open to the devils of the border zone...</blockquote><figcaption><a href="/holy-citizen">Holy Citizen</a></figcaption></figure>
 
 **Stack, Shek Kingdom** is a town controlled by [Shek Kingdom](/shek-kingdom). It belonged to [The Holy Nation](/the-holy-nation) until [Seta](/high-inquisitor-seta) is killed while [Esata](/esata-the-stone-golem) is alive.
 

@@ -24,7 +24,7 @@ infobox:
         - ["String ID","43349-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Okran hates liars. And skeletons. And loose women.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Okran hates liars. And skeletons. And loose women.</blockquote></figure>
 
 This **Holy Citizen** is more likely to spawn as a male character than the other Holy Citizen. This version also has slightly higher stats, but not by much.
 

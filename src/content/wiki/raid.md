@@ -20,7 +20,7 @@ infobox:
         - ["Victory Triggers","<strong>Raid</strong> 200-300 hours, 100% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You've strayed far from the big cities, far from your god, settlers... Only demons reside here... And they hunger for war. Raise your blades.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Band of Bones</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You've strayed far from the big cities, far from your god, settlers... Only demons reside here... And they hunger for war. Raise your blades.</blockquote><figcaption>Band of Bones</figcaption></figure>
 
 **Raid** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 5,000 meters of the [Exile Camp](/exile-camp). It has a 20% chance to trigger if within 2,500 meters, this chance scales down with distance until it hits 0% at 5,000 meters. The event cannot trigger if [Tora the Fearless](/tora-the-fearless) is killed or captured, or if the player has killed or captured [Esata the Stone Golem](/esata-the-stone-golem), the [Holy Lord Phoenix](/holy-lord-phoenix), or the [Bugmaster](/bugmaster).
 

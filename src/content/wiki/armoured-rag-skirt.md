@@ -6,23 +6,33 @@ source:
   revision: 85842
 categories: ["Armour","Legwear","Medium Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Armoured Rag Skirt"
+  image: "/icons/items/5346-armor_otto.mod.png"
+  caption: "Salvaged rags, straps and plates pulled together by a decent craftsman has made this monstrosity. Commonly found on wanderers and bandits, it shouldn't be underestimated."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","7 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","3"]
-        - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
+        - ["Left Leg","60% covered"]
+        - ["Right Leg","60% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
-        - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><strong>Armoured Rag Skirt</strong><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
+        - ["Combat skills","+2"]
+        - ["Cut into stun","10%"]
+        - ["Stealth","-1.00x"]
+        - ["Martial arts","+4"]
+    - heading: null
+      rows:
+        - ["String id","<span>5346-armor_otto.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Salvaged rags, straps and plates pulled together by a decent craftsman has made this monstrosity. Commonly found on wanderers and bandits, it shouldn't be underestimated.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Armoured Rag Skirt** is a Medium Armour equipped in the Legwear slot. By default, the rags are biege in color. However, a separate armor of the same name but with an added '(colored)' exists. Together with the [Armoured Rags](/armoured-rags) it forms a set that can also be [dyed](/colour-scheme) different colors depending on the character it is equipped on first.
 
@@ -34,17 +44,7 @@ The **Armoured Rag Skirt** appears like shredded rags fashioned into a knee-leng
 
 ## Grades
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rag Skirt</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>5%</td></tr><tr><td>-Cut resistance</td><td>15%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Weight</td><td>6 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.398</td></tr><tr><td>-Sell value</td><td>c.99</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Athletics effect</td><td>0.87x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rag Skirt</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>13%</td></tr><tr><td>-Cut resistance</td><td>25%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Weight</td><td>6 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.975</td></tr><tr><td>-Sell value</td><td>c.243</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Athletics effect</td><td>0.89x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rag Skirt</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>24%</td></tr><tr><td>-Cut resistance</td><td>39%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Weight</td><td>6 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,822</td></tr><tr><td>-Sell value</td><td>c.705</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Athletics effect</td><td>0.92x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rag Skirt</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>35%</td></tr><tr><td>-Cut resistance</td><td>52%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Weight</td><td>6 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.5,900</td></tr><tr><td>-Sell value</td><td>c.1,475</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Athletics effect</td><td>0.95x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rag Skirt</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>45%</td></tr><tr><td>-Cut resistance</td><td>66%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Weight</td><td>6 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.10,209</td></tr><tr><td>-Sell value</td><td>c.2,552</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Athletics effect</td><td>0.98x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Rag Skirt</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>54%</td></tr><tr><td>-Cut resistance</td><td>76%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Weight</td><td>6 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.14,249</td></tr><tr><td>-Sell value</td><td>c.3,562</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Metal Plate</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>5%</td><td>13%</td><td>24%</td><td>35%</td><td>45%</td><td>54%</td></tr><tr><th scope="row">Cut resistance</th><td>15%</td><td>25%</td><td>39%</td><td>52%</td><td>66%</td><td>76%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">90%</td></tr><tr><th scope="row">Weight</th><td colspan="6">6 kg</td></tr><tr><th scope="row">Value</th><td>c.398</td><td>c.975</td><td>c.2,822</td><td>c.5,900</td><td>c.10,209</td><td>c.14,249</td></tr><tr><th scope="row">Sell value</th><td>c.99</td><td>c.243</td><td>c.705</td><td>c.1,475</td><td>c.2,552</td><td>c.3,562</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Right Leg</th><td colspan="6">60%</td></tr><tr><th scope="row">Left Leg</th><td colspan="6">60%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Athletics effect</th><td>0.87x</td><td>0.89x</td><td>0.92x</td><td>0.95x</td><td>0.98x</td><td>–</td></tr><tr><th scope="row">Martial arts bonus</th><td colspan="6">+4</td></tr></tbody></table>
 
 ## Source
 
@@ -56,8 +56,6 @@ The **Armoured Rag Skirt** appears like shredded rags fashioned into a knee-leng
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.24</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>1.2</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Armoured Rag Skirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,054.</li><li><a href="/plate-armour-crafting-tech">Plate Armour Crafting</a> research: 8 hours at tech level 3; costs <a href="/engineering-research">1 Engineering Research</a>.</li></ul></div>
+
 _**Note:** Although the blueprint exists, it is unneeded as the research to unlock the Smithy also unlocks this item._
-
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.24 required)</span></p></td><td><strong><span>Armoured Rag Skirt</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(1.2 required)</span></p></td></tr></tbody></table></details>
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Armoured Rag Skirt<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>7,055</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,763</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Armoured Rag Skirt</td></tr></tbody></table>

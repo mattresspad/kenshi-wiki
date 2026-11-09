@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/admag/berserkers)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Bless you, holy (player name). How you managed to take down the golem I'll never know... Soon we'll purge the last of her beasts... Before the barbarians reach our gates for blood like the psychopaths they are.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Paladin, <a href="/holy-lord-phoenix">Phoenix</a> alive, <a href="/esata-the-stone-golem">Esata</a> dead</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Bless you, holy (player name). How you managed to take down the golem I'll never know... Soon we'll purge the last of her beasts... Before the barbarians reach our gates for blood like the psychopaths they are.</blockquote><figcaption>Paladin, <a href="/holy-lord-phoenix">Phoenix</a> alive, <a href="/esata-the-stone-golem">Esata</a> dead</figcaption></figure>
 
 If Esata dies, [Admag](/admag) is [overtaken](/town-overrides) by [Berserkers](/berserkers). Every building is destroyed in this override.
 

@@ -22,7 +22,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>An ancient way of turning crops into generator fuel. &nbsp;Choose between electricity or starvation!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>An ancient way of turning crops into generator fuel. &nbsp;Choose between electricity or starvation!</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Biofuel** is [Electrics Tech](/electrics-tech) which unlocks the ability to construct two types of [Biofuel Distilleries](/biofuel-distillery). Research into the third type of distillery is available after completion of this research.
 

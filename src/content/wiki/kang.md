@@ -23,7 +23,7 @@ infobox:
         - ["String ID","19498-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I change for no-one. You either hire me, or you walk away. And in the latter case you'll die a fool...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I change for no-one. You either hire me, or you walk away. And in the latter case you'll die a fool...</blockquote></figure>
 
 **Kang** is a [Unique Recruit](/unique-recruits) found in the [Shek Kingdom](/shek-kingdom). He spawns in [Admag](/admag), [Squin](/squin) or [Last Stand](/last-stand). He has a Maniacal [Personality](/personality).
 

@@ -7,7 +7,7 @@ source:
 categories: ["Races"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Primarily from farmer cultures, they still tend to be an aggressive race and are easily led astray. The worst of them live in ignorance, knowing only greed and fear, reacting to anything different with hatred and violence, but the best of them are some of the greatest civilised scientists, engineers and warriors in the land.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Primarily from farmer cultures, they still tend to be an aggressive race and are easily led astray. The worst of them live in ignorance, knowing only greed and fear, reacting to anything different with hatred and violence, but the best of them are some of the greatest civilised scientists, engineers and warriors in the land.</blockquote><figcaption>Game Description</figcaption></figure>
 
 **Greenlander** is a very common [Race](/races) in Kenshi. It is a subrace of [Human](/human). Greenlanders can be found all across the game but are most abundant in [The Holy Nation](/the-holy-nation). [Rebel Farmers](/rebel-farmers) in particular have large proportion of Greenlanders.
 

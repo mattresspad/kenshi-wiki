@@ -43,6 +43,6 @@ Since version 1.0 it seems the Ore Drill 2 has been removed from the FCS. There 
 
 Ore Drill
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This would speed up mining a great deal</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This would speed up mining a great deal</blockquote><figcaption>In-game Description</figcaption></figure>
 
 Level 2 of this tech is pointless since it does not unlock or upgrade anything.

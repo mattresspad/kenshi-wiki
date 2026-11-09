@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Don't much like you crabless puttin' up your walls here... You've upset the balance of the crab lands. And that upsets my crabs. Sic' em, crabs!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Crab Raider</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Don't much like you crabless puttin' up your walls here... You've upset the balance of the crab lands. And that upsets my crabs. Sic' em, crabs!</blockquote><figcaption>Crab Raider</figcaption></figure>
 
 **Crabbed Ones** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 7,000 meters of a [Crab Raiders](/crab-raiders) owned location. It has a 10% chance to trigger each day if within 2,000 meters, this chance scales down with distance until it reaches 0% chance at 7,000 meters. It cannot trigger if the [Crab Queen](/crab-queen) is killed or captured, or if the player is allied to the [Crab Raiders](/crab-raiders).
 

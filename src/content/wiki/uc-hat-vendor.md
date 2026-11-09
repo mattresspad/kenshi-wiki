@@ -26,7 +26,7 @@ infobox:
         - ["String ID","1021-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Ah, a new buyer. Welcome.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hat Trader greeting</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Ah, a new buyer. Welcome.</blockquote><figcaption>Hat Trader greeting</figcaption></figure>
 
 The **UC Hat Vendor** is an unnamed shopkeeper of the [United Cities](/united-cities). They can be found manning the [Headgear Shop](/sho-battai-headgear-shop) in [Sho-Battai](/sho-battai).
 

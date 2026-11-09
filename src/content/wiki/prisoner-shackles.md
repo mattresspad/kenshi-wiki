@@ -5,9 +5,28 @@ source:
   title: "Prisoner Shackles"
   revision: 90407
 categories: ["Armour","Footwear","Clothing"]
+infobox:
+  title: "Prisoner Shackles"
+  image: "/icons/items/SHACKLES.png"
+  caption: "Heavy prisoner shackles. They stop you from running and doing a lot of things. They will trip you up in combat. They are locked on, you need to pick the lock somehow."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/footwear\">Feet</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","20 kg"]
+        - ["Base value","c. 0"]
+        - ["Size in inventory","2x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Athletics","0.80x"]
+        - ["Combat skills","-15"]
+        - ["Stealth","0.60x"]
+    - heading: null
+      rows:
+        - ["String id","<span>SHACKLES</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Prisoner Shackles</td></tr><tr><td>-Weight</td><td>20 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.0</td></tr><tr><td>-Sell value</td><td>c.0</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2">Heavy prisoner shackles. They stop you from running and doing a lot of things. They will trip you up in combat. They are locked on, you need to pick the lock somehow.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/footwear">BOOTS</a></td></tr></tbody></table>
 
 **Prisoner Shackles** are automatically equipped on a character when they are [enslaved](/slavery). Any gear in the "[Boots](/footwear)" slot will be placed on the floor. Shackles weigh 20kg so that slaves are weighed down and run slower. Characters wearing prisoner's shackles will have their Stealth and movement speed severely reduced.
 

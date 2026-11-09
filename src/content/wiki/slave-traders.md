@@ -15,7 +15,7 @@ infobox:
         - ["Hostile towards","<a href=\"/anti-slavers\">Anti-Slavers</a>, <a href=\"/mongrel\">Mongrel</a>, <a href=\"/rebel-farmers\">Rebel Farmers</a>, Escaped Slaves, EX-Slaves"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Slavery blesses us with wealth, with luxury, with food on our plates. If it weren't for our slaves, who would toil in the fields? Our resources would be wasted on us. With slavery we can appreciate and utilize our arable soils, our abundant minerals and our fair climate. We are what we are because of slavery.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/lord-inaba">Lord Inaba</a>, <a href="/the-blessing-of-slavery">The Blessing Of Slavery</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Slavery blesses us with wealth, with luxury, with food on our plates. If it weren't for our slaves, who would toil in the fields? Our resources would be wasted on us. With slavery we can appreciate and utilize our arable soils, our abundant minerals and our fair climate. We are what we are because of slavery.</blockquote><figcaption><a href="/lord-inaba">Lord Inaba</a>, <a href="/the-blessing-of-slavery">The Blessing Of Slavery</a></figcaption></figure>
 
 The **Slave Traders** are a faction composed of the practitioners of [Slavery](/slavery), they typically engage in trading and capture of slaves as well as in working the slaves on farms and mines. They also have close ties to most factions that engage in its practice, including [The Holy Nation](/the-holy-nation) and the [United Cities](/united-cities).
 

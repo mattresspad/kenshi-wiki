@@ -1,13 +1,13 @@
 ---
 title: "Equipment"
-description: "–removed dialogue with Traders Guild gate captain"
+description: "Equipment is a set of items equipped to your character. It includes Armour, Clothing, Weapons, Backpacks, and Lanterns."
 source:
   title: "Equipment"
   revision: 93569
 categories: ["Equipment"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Please forgive me, good sir! ... um.. and your armour looks so gorgeous on you.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–removed dialogue with <a href="/traders-guild">Traders Guild</a> gate captain</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Please forgive me, good sir! ... um.. and your armour looks so gorgeous on you.</blockquote><figcaption>removed dialogue with <a href="/traders-guild">Traders Guild</a> gate captain</figcaption></figure>
 
 Equipment is a set of [items](/items) equipped to your character. It includes [Armour](/armour), [Clothing](/clothing), [Weapons](/weapons), [Backpacks](/backpacks), and [Lanterns](/lanterns).
 

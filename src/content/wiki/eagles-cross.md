@@ -7,11 +7,24 @@ source:
 categories: ["Crossbows"]
 infobox:
   title: "Eagle's Cross"
+  image: "/icons/items/66290-Newwworld.mod.png"
+  caption: "A rare, extreme long-range weapon for snipers.  It's possible to do a lot of damage with one of these before an enemy even realises what is happening to them.  Takes skill to use effectively, and not much use at short range."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Class","Crossbow"]
-        - ["Ammunition type","Bolts [Longs]"]
+        - ["Class","<a href=\"/crossbows\">Crossbow</a>"]
+        - ["Weight","9 kg"]
+        - ["Base value","c. 2,500 → c. 34,000"]
+        - ["Ammunition","Bolts [Longs]"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat (range across grades)"
+      rows:
+        - ["Reload time","5–10 s → 4–8 s"]
+        - ["Spread at skill 0","2.5 → 1.5"]
+        - ["Perfect aim at skill","80"]
+    - heading: null
+      rows:
+        - ["String id","<span>66290-Newwworld.mod</span>"]
 ---
 
 **Eagle's Cross** is a [Crossbow](/crossbow-class) with farthest range and highest damage of any ranged weapon. It can be dangerous in the hands of an unskilled shooter; a single friendly-fire shot could kill any low-toughness allies.
@@ -88,3 +101,7 @@ The Eagle's Cross itself also weighs 2kg more than the Oldworld Bow MkII. All th
 5\. Friendly Fire
 
 While the Eagle's Cross's higher damage is generally an advantage, it is a detriment in friendly-fire situations. While fighters in heavy armour can generally shrug off many accidental hits from the Oldworld Bow MkII, friendly fire from the Eagle's Cross can sometimes prove catastrophic — knocking out, maiming or even outright killing allies in a single shot. If one wants to provide supporting fire to melee fighters, with the Eagle's Cross, it is recommended to only use high-toughness melee fighters with good quality — and in particular, high coverage — armours, such as [Crab Armour](/crab-armour) with underlying [Chainmail](/chainmail) armour. Players should also consider the effect that height advantage may have on any friendly-fire damage.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/crossbow-crafting-bench">Crossbow Crafting Bench</a></th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>8</td></tr><tr><th scope="row"><a href="/crossbow-parts">Crossbow Parts</a></th><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Eagle's Cross blueprint: 12 hours at tech level 1; the blueprint is worth c. 11,308.</li></ul></div>

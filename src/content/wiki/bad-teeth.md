@@ -18,7 +18,7 @@ infobox:
         - ["String ID","18021-Newwworld.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>All heretics will burn in the flame of the Lord Okran!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Holy Sentinel</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>All heretics will burn in the flame of the Lord Okran!</blockquote><figcaption>Holy Sentinel</figcaption></figure>
 
 **Bad Teeth** is a [Major Town](/major-towns) guarding a mountain pass between the fertile valley of [Okran's Pride](/okrans-pride) and hostile wilderness of the [Skinner's Roam](/skinners-roam). Unlike [Stack](/stack) and [Blister Hill](/blister-hill), there are no buildings which are unique to this location.
 

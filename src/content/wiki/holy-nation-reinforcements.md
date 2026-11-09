@@ -14,7 +14,7 @@ infobox:
         - ["Territorial Trigger","False"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A man with any ounce of good in him will not abandon his brothers in time of need. Be at rest now. Okran watches over you.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Inquisitor</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A man with any ounce of good in him will not abandon his brothers in time of need. Be at rest now. Okran watches over you.</blockquote><figcaption>Inquisitor</figcaption></figure>
 
 **Holy Nation Reinforcements** is an [Event](/events) that will trigger in response to the [Enemy Hunt](/enemy-hunt), [Invincible Vengeance](/invincible-vengeance), and [Stone Golem's Revenge](/stone-golems-revenge) events, as long as the [Player](/nameless) is allied to the [Holy Nation](/the-holy-nation) and the [Holy Lord Phoenix](/holy-lord-phoenix) is alive and free.
 

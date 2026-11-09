@@ -7,13 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Beak Thing Egg"
+  image: "/icons/items/4029-gamedata.base.png"
+  caption: "Nobles pay a lot of money for this rare delicacy.  Many people die trying to steal them."
   groups:
     - heading: null
       rows:
         - ["Weight","6 kg"]
-        - ["Size","4x5"]
-        - ["Avg. Price","c.4,200"]
-        - ["Description","Nobles pay a lot of money for this rare delicacy. Many people die trying to steal them."]
+        - ["Base value","c. 7,000"]
+        - ["Size in inventory","5x4"]
+    - heading: null
+      rows:
+        - ["String id","<span>4029-gamedata.base</span>"]
 ---
 
 The **Beak Thing Egg** is an obscure Animal Product [item](/items). Eggs can only be found in the [nests](/nest) of [Beak Things](/beak-thing). They are decently valuable and can be sold to any [trader](/traders). Due to the eggs' weight and space, it is difficult to carry many of them by one character.

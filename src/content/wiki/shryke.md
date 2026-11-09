@@ -27,7 +27,7 @@ infobox:
         - ["String ID","56925-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Oh, I want to, believe me. But every single time I pluck up the courage, my dear old brother's tortured screams echo in my mind. And that's when I remember that perhaps a lack of sunlight and the odd back-pain grumble from Crumblejon isn't such a bad thing after all. Not compared to my fate that lurks in the fogs... I mean sure, its easy to throw out suggestions, captain obvious, but talking about it is much easier than doing it..</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shryke, on asking why she doesn't leave</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Oh, I want to, believe me. But every single time I pluck up the courage, my dear old brother's tortured screams echo in my mind. And that's when I remember that perhaps a lack of sunlight and the odd back-pain grumble from Crumblejon isn't such a bad thing after all. Not compared to my fate that lurks in the fogs... I mean sure, its easy to throw out suggestions, captain obvious, but talking about it is much easier than doing it..</blockquote><figcaption>Shryke, on asking why she doesn't leave</figcaption></figure>
 
 **Shryke** is a [Unique Recruit](/unique-recruits). She is a treasure hunter stranded in [Mongrel](/mongrel). She seems to have had a brother who didn't make it into Mongrel, most likely captured and eaten alive by the innumerous hordes of Fogmen surrounding the town. She has a scar on her hand that she may have gotten getting into the fog town, or from an older expedition.
 
@@ -37,9 +37,9 @@ They wear \[Shoddy\] armour (5% chance of \[Standard\]).
 
 She has a Smart [Personality](/personality) and after recruited has the "Player TOUGH Merc" dialogue package. She also has 5 unique dialogue lines, 3 of which are exclusive to her.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Wouldn't mind getting my hands on that small fortune...<p>Pretty sure the Tech Hunters cleared the island out long ago though, last I heard.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/fishman-island">Fishman Island</a> entry dialogue</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Wouldn't mind getting my hands on that small fortune...<p>Pretty sure the Tech Hunters cleared the island out long ago though, last I heard.</p></blockquote><figcaption><a href="/fishman-island">Fishman Island</a> entry dialogue</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>... Great. Vain.<p>I wouldn't buy a loaf of bread from a bug merchant if I was starving to death. Scamming bastards. ... Scamming adorable bastards.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/vain">Vain</a> entry dialogue</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>... Great. Vain.<p>I wouldn't buy a loaf of bread from a bug merchant if I was starving to death. Scamming bastards. ... Scamming adorable bastards.</p></blockquote><figcaption><a href="/vain">Vain</a> entry dialogue</figcaption></figure>
 
 ## Statistics
 

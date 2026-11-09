@@ -25,7 +25,7 @@ infobox:
         - ["String ID","1775-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Need to hire a good medic? I've got plenty of experience.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Need to hire a good medic? I've got plenty of experience.</blockquote></figure>
 
 **Medic Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a medic looking for work. They can be hired for c.6,000.
 
@@ -282,6 +282,6 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>*Grumbling*... Unfit for medicine, how stupid can they be... Not a one of 'em has seen what goes on in the field.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Maniacal Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>*Grumbling*... Unfit for medicine, how stupid can they be... Not a one of 'em has seen what goes on in the field.</blockquote><figcaption>Maniacal Personality</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The secret to fighting infection?... rub sand in the wound. That's our little secret okay, traveller? Need to hire a doctor?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Dumb Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The secret to fighting infection?... rub sand in the wound. That's our little secret okay, traveller? Need to hire a doctor?</blockquote><figcaption>Dumb Personality</figcaption></figure>

@@ -7,14 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Chewsticks"
+  image: "/icons/items/43956-rebirth.mod.png"
+  caption: "Best you can do with nothing but cactuses"
   groups:
     - heading: null
       rows:
+        - ["Type","Food"]
+        - ["Weight","0.5 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x3"]
         - ["Nutrition","20 nu"]
-        - ["Weight",".5 kg"]
-        - ["Size","3x2"]
-        - ["Avg. Price","c.152"]
-        - ["Description","Best you can do with nothing but cactuses."]
+    - heading: null
+      rows:
+        - ["String id","<span>43956-rebirth.mod</span>"]
 ---
 
 **Chewsticks** are a [food](/food) item purchased from relevant [traders](/traders). Players can cook Chewsticks in a [Cooking Stove](/cooking-stove) after researching [Desert Cooking](/desert-cooking-tech).
@@ -30,3 +35,7 @@ The lowest of all cultivated food is the [Dustwich](/dustwich), costing 1 water 
   
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/water">Water</a></th><td>0.25</td></tr><tr><th scope="row"><a href="/cactus">Cactus</a></th><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/desert-cooking-tech">Desert Cooking</a> research: 4 hours at tech level 2; costs <a href="/book">3 Books</a>.</li></ul></div>

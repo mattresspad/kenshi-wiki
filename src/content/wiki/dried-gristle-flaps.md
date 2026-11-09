@@ -7,13 +7,19 @@ source:
 categories: ["Pages with non-numeric formatnum arguments","Retired Items","Removed Content"]
 infobox:
   title: "Dried Gristle Flaps"
+  image: "/icons/items/50568-rebirth.mod.png"
+  caption: "Not the best quality meat, but better than nothing"
   groups:
     - heading: null
       rows:
+        - ["Type","Food"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 40"]
+        - ["Size in inventory","2x2"]
         - ["Nutrition","7.5 nu"]
-        - ["Size","2x2"]
-        - ["Avg. Price","c.Missing data"]
-        - ["Description","Not the best quality meat, but better than nothing."]
+    - heading: null
+      rows:
+        - ["String id","<span>50568-rebirth.mod</span>"]
 ---
 
 <table class="wikitable"><tbody><tr><td></td><td>The content discussed on this page has either been removed from the game or has never been implemented. This content may still be accessible through previous versions of the game or through the <a href="/forgotten-construction-set">Forgotten Construction Set</a>.</td></tr></tbody></table>

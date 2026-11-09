@@ -24,7 +24,7 @@ infobox:
         - ["String ID","19576-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Looking at my horns, flatskin? [...] Because I can still prove my worth in battle without them... I have a question for you, flatskin. What do you do if you are outnumbered on the battle field?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Ruka</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Looking at my horns, flatskin? [...] Because I can still prove my worth in battle without them... I have a question for you, flatskin. What do you do if you are outnumbered on the battle field?</blockquote><figcaption>Ruka</figcaption></figure>
 
 **Ruka** is a free [Unique Recruit](/unique-recruits). She is a [Shek](/shek) with no horns and can be found in a bar in any [Shek Kingdom](/shek-kingdom) town. She has a Brave personality.
 

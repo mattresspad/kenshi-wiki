@@ -6,26 +6,27 @@ source:
   revision: 86323
 categories: ["Robot Limbs"]
 infobox:
-  title: "Skeleton Legs"
+  title: "Skeleton Leg (left)"
+  image: "/icons/items/95872-rebirth.mod.png"
+  caption: "Common skeleton leg from one of the General Purpose Labour series."
   groups:
     - heading: null
       rows:
-        - ["Description","Advanced high-tech legs like what the skeletons have."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/robot-limbs\">Left leg</a>"]
+        - ["Weight","15 kg"]
+        - ["Base value","c. 2,500 → c. 20,000"]
+        - ["Size in inventory","7x2"]
+    - heading: "Stats (range across grades)"
       rows:
-        - ["Estimated Time","12 hours"]
-        - ["Tech Level","5"]
-        - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
-        - ["Requirements","<a href=\"/hiver-skeleton-arms-tech\">Hiver Skeleton Arms</a>"]
-    - heading: "Results"
+        - ["HP","50 → 175"]
+        - ["Athletics","0.40x → 1.10x"]
+        - ["Swimming","0.75x"]
+        - ["Stealth","0.10x → 0.60x"]
+    - heading: null
       rows:
-        - ["New Item(s)","Skeleton Leg (left)<p><a href=\"/skeleton-leg-right\">Skeleton Leg (right)</a></p>"]
-        - ["Required For","<a href=\"/extra-durable-legs-tech\">Extra Durable Legs</a><p><a href=\"/high-speed-legs-tech\">High-Speed Legs</a><br><a href=\"/stealth-legs-tech\">Stealth Legs</a></p>"]
+        - ["String id","<span>95872-rebirth.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Common skeleton leg from one of the General Purpose Labour series.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 Skeleton Leg (left) is a [Robot Limb](/robot-limbs), and a replacement for a lost left leg.
 
 ## Stats
@@ -48,4 +49,4 @@ Skeleton Leg (left) is a [Robot Limb](/robot-limbs), and a replacement for a los
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Skeleton Leg (left)</span></strong><div></div></td></tr><tr><td><a href="/electrical-components"><span>Electrical Components</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/skeleton-legs-tech">Skeleton Legs</a> research: 12 hours at tech level 5; costs <a href="/ai-core">2 AI Cores</a>; needs <a href="/hiver-skeleton-arms-tech">Hiver Skeleton Arms</a>.</li></ul></div>

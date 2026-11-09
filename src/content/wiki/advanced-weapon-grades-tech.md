@@ -55,7 +55,7 @@ Allow Crafting Weapon Model:
 
 Advanced Weapon Grades 3
 
-<table class="wikitable"><tbody><tr><td>“</td><td>One day we will have the greatest swordsmiths in the world and blades that can cut a man clean in half with a single cut. Today though, we will have generic rubbish.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>One day we will have the greatest swordsmiths in the world and blades that can cut a man clean in half with a single cut. Today though, we will have generic rubbish.</blockquote><figcaption>In-game Description</figcaption></figure>
 
 ## Advanced Weapon Grades 3
 

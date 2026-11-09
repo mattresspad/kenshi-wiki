@@ -7,7 +7,7 @@ source:
 categories: ["Equipment","Armour"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Armour king! Armour king! Saving lives! With armouring!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/armour-king">Armour King</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Armour king! Armour king! Saving lives! With armouring!</blockquote><figcaption><a href="/armour-king">Armour King</a></figcaption></figure>
 
 **Armour** is a selection of equipment worn on various parts of the body to mitigate damage. It can be worn on five different parts of the body. Armour can be made by the player through the skill [Armour Smith](/armour-smith), purchased from [Traders](/armour-clothing-shops), or looted from characters. All types of armour are most efficiently stored in [Armour Storage](/armour-storage) (but can also be stored in general storage).
 

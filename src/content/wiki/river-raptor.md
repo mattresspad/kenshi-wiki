@@ -15,7 +15,7 @@ infobox:
         - ["Type","Roaming &amp; nesting"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Gluttonous demon creatures!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Gluttonous demon creatures!</blockquote></figure>
 
 **River Raptors** are passive, bipedal reptilian creatures with round bodies and large jaws. Though they do not hunt, they are ravenous omnivorous scavengers and will attempt to eat crops growing in any farms that they come across, as well as any corpses. This means they can be both a blessing and a curse to any settlements they encounter. Although peaceful by nature, they will fight back if attacked and will not be dissuaded from eating your crops except through violence. Their nests and roaming squads can mostly be found in the crop-heavy area of [Okran's Pride](/okrans-pride), though they can also be found waddling through northern coastal zones, looking to make free meals of dead [cannibals](/cannibals) or the fields of [Flotsam Ninjas](/flotsam-ninjas).
 

@@ -23,7 +23,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Ah, to hell with it, I've got nothing left to lose apart from the rags on my back! And there's something about you, you seem like my kinda guy. Let's go, you and me, we stick together!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Ah, to hell with it, I've got nothing left to lose apart from the rags on my back! And there's something about you, you seem like my kinda guy. Let's go, you and me, we stick together!</blockquote></figure>
 
 **Red** is a [Unique Recruit](/unique-recruits). She can be found in [Bark](/bark), wandering around the city. She has a Brave personality. Beneath her face-obscuring hat and rags, she has bright red hair, quite possibly the source of her nickname.
 

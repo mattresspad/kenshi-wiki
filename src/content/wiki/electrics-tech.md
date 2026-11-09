@@ -7,7 +7,7 @@ source:
 categories: ["Technology"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Wind generators can generate power out of nothing! Free energy!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/wind-generator-theory-tech">Wind Generator Theory</a> description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Wind generators can generate power out of nothing! Free energy!</blockquote><figcaption><a href="/wind-generator-theory-tech">Wind Generator Theory</a> description</figcaption></figure>
 
 < Back to [Technology](/technology).
 

@@ -7,7 +7,7 @@ source:
 categories: ["Races","Hivers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>In the Hive, nothing matters, nothing exists, nothing is desired...<p>Nothing but loyalty for the Queen...</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hive Player Characters, Vain</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>In the Hive, nothing matters, nothing exists, nothing is desired...<p>Nothing but loyalty for the Queen...</p></blockquote><figcaption>Hive Player Characters, Vain</figcaption></figure>
 
 The **Hive Queens** are a [subrace](/races) of the [Hives](/hive). There are only two characters which belong to this race: [The Queen of the West](/the-queen) and the [Queen of the South](/queen-of-the-south).
 

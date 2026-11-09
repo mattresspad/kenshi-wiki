@@ -22,7 +22,7 @@ infobox:
 
 _This article is about Southern Hive Prince characters. For the generic prince race, see [Hive Prince](/hive-prince)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Sacrifice!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Prince</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Sacrifice!</blockquote><figcaption>Prince</figcaption></figure>
 
 **Princes** of the [Southern Hive](/southern-hive) can be found in locations controlled by the Southern Hive and leading patrol squads.
 

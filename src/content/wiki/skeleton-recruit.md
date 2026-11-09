@@ -21,7 +21,7 @@ infobox:
         - ["String ID","47630-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Here for recruits? I'm available for hire. 3000 Cats.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Here for recruits? I'm available for hire. 3000 Cats.</blockquote></figure>
 
 **Skeleton Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a Skeleton with no backstory. They can be hired for c.3,000.
 

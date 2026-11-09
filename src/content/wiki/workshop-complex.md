@@ -15,7 +15,7 @@ infobox:
         - ["Factions","<a href=\"/ancient-ruins\">Ancient Ruins</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Old ruins. You gotta look at a map, go way out into the furthest reaches of the ass end of nowhere, the more dangerous the better, and then look around for old ruins and stuff.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Ronin Construction Trader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Old ruins. You gotta look at a map, go way out into the furthest reaches of the ass end of nowhere, the more dangerous the better, and then look around for old ruins and stuff.</blockquote><figcaption>Ronin Construction Trader</figcaption></figure>
 
 **Workshop Complex** is an [Ancient Location](/ancient-locations) in The Grid. This complex is comprised of three completed workshop buildings and two uncompleted/submerged. Workshop buildings are large, hangar-like structures. This location is one of the few reliable places to obtain [Engineering Research](/engineering-research). Similar locations are the [Dead Workshop](/dead-workshop), [Deadland Workshops](/deadland-workshop), and [Post-Ancient Workshop](/post-ancient-workshop). All of them can be marked by reading the **Engineers [Map](/maps)**.
 

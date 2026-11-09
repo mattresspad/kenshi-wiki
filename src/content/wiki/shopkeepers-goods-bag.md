@@ -5,9 +5,33 @@ source:
   title: "Shopkeepers goods bag"
   revision: 87983
 categories: ["Backpacks"]
+infobox:
+  title: "Shopkeepers goods bag"
+  image: "/icons/items/1389-gamedata.base.png"
+  caption: "A bag designed for shopkeepers.  Not for travelling around with."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/backpacks\">Backpack</a>"]
+        - ["Weight reduction","0%"]
+        - ["Weight","100 kg"]
+        - ["Base value","c. 5,000"]
+    - heading: "Storage"
+      rows:
+        - ["Backpack grid","20x20"]
+        - ["Stack minimum","1x"]
+        - ["Stack multiplier","1x"]
+        - ["Size in inventory","4x5"]
+    - heading: "Combat"
+      rows:
+        - ["Combat skills","-10"]
+        - ["Combat speed","0.50x"]
+        - ["Athletics","1.00x"]
+        - ["Stealth and dodge","0.00x"]
+    - heading: null
+      rows:
+        - ["String id","<span>1389-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Shopkeepers goods bag</td></tr><tr><td>-Weight</td><td>100 kg</td></tr><tr><td>-Price</td><td>c.5,000</td></tr><tr><td>-Sell Value</td><td>c.2,500</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Encumbrance reduction</td><td>0%</td></tr><tr><td>-Combat skills bonus</td><td>-10</td></tr><tr><td>-Athletics effect</td><td>1.00x</td></tr><tr><td>-Combat speed effect</td><td>0.50x</td></tr><tr><td>-Stealth skill effect</td><td>0.00x</td></tr><tr><td>-Dodge skill effect</td><td>0.00x</td></tr><tr><td colspan="2">A bag designed for shopkeepers. Not really ideal for travelling around with.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/backpacks">BACKPACK</a></td></tr></tbody></table>
 
 The **Shopkeeper Goods Bag** is a very large [Backpack](/backpacks) with a weight of 100 kg. As it weighs a lot, it can be used to help encumber your character to [Strength](/strength) train but any fights will be made very difficult. Although it reduces your Dodge skill effect to 0.00x it is not ideal for training it as encumbrance reduces the dodge XP you gain. (50% Encumbrance would mean half dodge XP)
 

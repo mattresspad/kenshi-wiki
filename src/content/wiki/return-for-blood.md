@@ -16,7 +16,7 @@ infobox:
         - ["Victory Triggers","<a href=\"/return-for-tribute\">Return For Tribute</a> 72-150 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm back for battle! So let's see if you've got the skills to match your bark, mutt!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shek Warrior War Leader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm back for battle! So let's see if you've got the skills to match your bark, mutt!</blockquote><figcaption>Shek Warrior War Leader</figcaption></figure>
 
 **Return for Blood** is an event that can trigger if you refuse to pay tribute during the [Tribute Round](/tribute-round) or [Return for Tribute](/return-for-tribute) events.
 

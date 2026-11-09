@@ -26,7 +26,7 @@ infobox:
         - ["String ID","43357-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Thief! Sinners be burned!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shop Guard catching a thief</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Thief! Sinners be burned!</blockquote><figcaption>Shop Guard catching a thief</figcaption></figure>
 
 **Holy Shop Guards** are guards of [The Holy Nation](/the-holy-nation). They can normally be found inside shops in Holy Nation towns.
 

@@ -13,7 +13,7 @@ infobox:
         - ["Race","<a href=\"/goat\">Goat</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Aye, seems to have taken a liking to ya. He's a clever fella, deserves to go out into the world, spread his wings, not stay couped up in an old town like this. Wanna buy him? I'll sell him to ya for a special price.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Goat Man</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Aye, seems to have taken a liking to ya. He's a clever fella, deserves to go out into the world, spread his wings, not stay couped up in an old town like this. Wanna buy him? I'll sell him to ya for a special price.</blockquote><figcaption>Goat Man</figcaption></figure>
 
 **Cornelius** is a [Goat](/goat) [Unique Recruit](/unique-recruits). He can be found in [Settled Nomad Village](/settled-nomad-village) in [Dreg](/dreg). Nomad Animal Trader sells Cornelius for 15,000, but if you talk to his owner, [Goat Man](/goat-man), in a nearby Hideout building he will offer you a half off discount!
 

@@ -16,7 +16,7 @@ infobox:
         - ["String ID","97659-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>GLURGLE GLURGH</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Alpha Gurgler</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>GLURGLE GLURGH</blockquote><figcaption>Alpha Gurgler</figcaption></figure>
 
 **Alpha Gurglers** are the stronger and more skilled kin of [Gurglers](/gurgler). They can be found patrolling alongside their fellow [Fishmen](/fishmen) on [Fishman Island](/fishman-island) south of [Catun](/catun).
 

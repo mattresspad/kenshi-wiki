@@ -17,7 +17,7 @@ infobox:
         - ["String ID","56594-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Welcome to the outlands, settlers, the land of the godless.<p>Only demons reside here...</p><p>And they hunger for war.</p><p>Raise your blades.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–-Band of Bones assaulting an outpost</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Welcome to the outlands, settlers, the land of the godless.<p>Only demons reside here...</p><p>And they hunger for war.</p><p>Raise your blades.</p></blockquote><figcaption>-Band of Bones assaulting an outpost</figcaption></figure>
 
 **Band of Bones** are the generic members of the [Band of Bones](/band-of-bones) faction. They can be found roaming the regions of [Bonefields](/bonefields), [High Bonefields](/high-bonefields), [Shem](/shem), [Shun](/shun), [Spider Plains](/spider-plains), [The Hook](/the-hook), and [The Swamp](/the-swamp) in groups of 4 to 8. If [Tora the Fearless](/tora-the-fearless) is not alive however, these groups are reduced to 2 to 4 members.
 
@@ -85,7 +85,7 @@ If a **Band of Bones** warrior is found in a non-shek biome, they may challenge 
 
 #### Legwear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/samurai-legplates">Samurai Legplates</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/drifters-leather-pants">Drifter's Leather Pants</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/armoured-rag-skirt">Armoured Rag Skirt</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2150-gamedata.base.png" alt="" width="40" height="40"> <a href="/samurai-legplates">Samurai Legplates</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2305-clothes_v1.mod.png" alt="" width="40" height="40"> <a href="/drifters-leather-pants">Drifter's Leather Pants</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/5346-armor_otto.mod.png" alt="" width="40" height="40"> <a href="/armoured-rag-skirt">Armoured Rag Skirt</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Footwear
 

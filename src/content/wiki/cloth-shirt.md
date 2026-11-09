@@ -6,23 +6,21 @@ source:
   revision: 93352
 categories: ["Armour","Shirts","Clothing"]
 infobox:
-  title: "Simple Clothing Types"
+  title: "Cloth Shirt"
+  image: "/icons/items/1168-gamedata.base.png"
   groups:
     - heading: null
       rows:
-        - ["Description","More types of clothing available to craft."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","2x4"]
+    - heading: null
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","1 <a href=\"/book\">Book</a>"]
-        - ["Requirements","<a href=\"/clothing-manufacture-tech\">Clothing Manufacture</a>"]
-    - heading: "Results"
-      rows:
-        - ["New Item(s)","<a href=\"/black-cloth-shirt\">Black Cloth Shirt</a><br><p><a href=\"/cargopants\">Cargopants</a><br><b>Cloth Shirt</b><br><a href=\"/gi\">Gi</a><br><a href=\"/gi-pants\">Gi Pants</a><br><a href=\"/turtleneck\">Turtleneck</a><br><a href=\"/white-vest\">White Vest</a><br><a href=\"/wooden-sandals\">Wooden Sandals</a><br><a href=\"/worn-out-shorts\">Worn-out Shorts</a><br></p>"]
+        - ["String id","<span>1168-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Cloth Shirt</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.225</td></tr><tr><td>-Sell value</td><td>c.56</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td></tr></tbody></table>
 
 The **Cloth Shirt** is Clothing that is equipped in the Shirt slot. There is a separate [Black Cloth Shirt](/black-cloth-shirt) which is exactly the same. Unlike the latter, this item can be [dyed](/colour-scheme).
 
@@ -42,14 +40,6 @@ A plain, white cloth shirt.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Cloth Shirt</span></strong><div></div></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Cloth Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 337.</li><li><a href="/simple-clothing-types-tech">Simple Clothing Types</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li></ul></div>
 
-  
-  
-  
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Cloth Shirt<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>300</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>75</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Cloth Shirt</td></tr></tbody></table>
-
-  
 A blueprint for this item exists but is unneeded unless the player lacks the Book for the research.

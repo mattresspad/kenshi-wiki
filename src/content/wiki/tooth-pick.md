@@ -7,12 +7,24 @@ source:
 categories: ["Crossbows"]
 infobox:
   title: "Tooth Pick"
+  image: "/icons/items/66534-Newwworld.mod.png"
+  caption: "A cheap and lightweight weapon from the swamps.  It's not very powerful, but it can be used to spray an opponent with bolts at close range before switching to a sword."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Class","Crossbow"]
-        - ["Ammunition type","Bolts [Toothpicks]"]
+        - ["Class","<a href=\"/crossbows\">Crossbow</a>"]
         - ["Weight","2 kg"]
+        - ["Base value","c. 1,000 → c. 15,000"]
+        - ["Ammunition","Bolts [Toothpicks]"]
+        - ["Size in inventory","2x6"]
+    - heading: "Combat (range across grades)"
+      rows:
+        - ["Reload time","2–3 s → 1.25–3 s"]
+        - ["Spread at skill 0","11 → 6"]
+        - ["Perfect aim at skill","90"]
+    - heading: null
+      rows:
+        - ["String id","<span>66534-Newwworld.mod</span>"]
 ---
 
 **Tooth Pick** is a [Crossbow](/crossbows). The standard of cheap and lightweight crossbows. A less well made version of the design is called [Junkbow](/junkbow).
@@ -32,6 +44,8 @@ infobox:
 <table class="wikitable"><tbody><tr><td colspan="2" align="left">Tooth Pick</td></tr><tr><td colspan="2"><span>[Masterwork]</span></td></tr><tr><td colspan="2">[Crossbow Class]</td></tr><tr><td>-Damage:</td><td>19.075-31.975</td></tr><tr><td>-Accuracy deviation:</td><td>6.25 degrees</td></tr><tr><td>-Reload time:</td><td>1.2875-3.00s</td></tr><tr><td>-Range:</td><td>49.375m</td></tr><tr><td>-Velocity:</td><td>102.35m/s</td></tr><tr><td>-Blood loss:</td><td>0.50x</td></tr><tr><td>-Required skill:</td><td>90</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Ammunition type:</td><td>Bolts [Toothpicks]</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>2 kg</td></tr><tr><td>-Value</td><td>c.13,635</td></tr><tr><td>-Trade Value</td><td>c.3,408</td></tr></tbody></table>
 
 ## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/crossbow-crafting-bench">Crossbow Crafting Bench</a></th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>4</td></tr><tr><th scope="row"><a href="/crossbow-parts">Crossbow Parts</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Tooth Pick blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,858.</li></ul></div>
 
 The blueprint for this weapon can be found at the [The Great Library](/the-great-library).
 

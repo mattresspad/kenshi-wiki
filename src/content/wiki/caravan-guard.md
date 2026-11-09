@@ -223,7 +223,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Headgear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/masked-helmet">Masked Helmet</a></td><td>29.85%</td></tr><tr><td></td><td><a href="/rattan-hat">Rattan Hat</a></td><td>14.93%</td></tr><tr><td></td><td><a href="/cap">Cap</a></td><td>7.46%</td></tr><tr><td></td><td><a href="/square-goggles">Square Goggles</a></td><td>2.99%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2201-gamedata.base.png" alt="" width="40" height="40"> <a href="/masked-helmet">Masked Helmet</a></td><td>29.85%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2185-gamedata.base.png" alt="" width="40" height="40"> <a href="/rattan-hat">Rattan Hat</a></td><td>14.93%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2167-gamedata.base.png" alt="" width="40" height="40"> <a href="/cap">Cap</a></td><td>7.46%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2168-gamedata.base.png" alt="" width="40" height="40"> <a href="/square-goggles">Square Goggles</a></td><td>2.99%</td></tr></tbody></table>
 
 #### Body
 
@@ -231,7 +231,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Legwear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/worn-out-shorts">Worn-out Shorts</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/samurai-clothpants">Samurai Clothpants</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/stout-hessian-uniform">Stout Hessian Uniform</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2158-gamedata.base.png" alt="" width="40" height="40"> <a href="/worn-out-shorts">Worn-out Shorts</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2159-gamedata.base.png" alt="" width="40" height="40"> <a href="/samurai-clothpants">Samurai Clothpants</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2169-gamedata.base.png" alt="" width="40" height="40"> <a href="/stout-hessian-uniform">Stout Hessian Uniform</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Footwear
 

@@ -23,7 +23,7 @@ infobox:
         - ["String ID","56823-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Blood in dirt, give us grain...<p>Moons almighty, make it rain!</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Blood in dirt, give us grain...<p>Moons almighty, make it rain!</p></blockquote></figure>
 
 **Farmers** from the [Preacher Cult](/preacher-cult) can be found in [Cult Village](/cult-village) in the [Stormgap Coast](/stormgap-coast).
 

@@ -7,18 +7,35 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Desert Sabre"
+  image: "/icons/items/52305-rebirth.mod.png"
+  caption: "An unusual weapon design that supposedly came from the deserts.  Usually hard to find, but they have a distinct ability to gut spiders really well, making them popular with certain specialists."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.10x"]
+        - ["Blunt damage","0.25x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
         - ["Defence","+2"]
-        - ["Damage vs Spider","+100%"]
-        - ["Damage vs Small Spider","+50%"]
-        - ["Damage vs Bonedog","+25%"]
-        - ["Damage vs Skimmer","+100%"]
         - ["Reach","22"]
-        - ["Description","An unusual weapon design that supposedly came from the deserts.  Usually hard to find, but they have a distinct ability to gut spiders really well, making them popular with certain specialists."]
+    - heading: "Damage against"
+      rows:
+        - ["Spider","+100%"]
+        - ["Small Spider","+50%"]
+        - ["Bonedog","+25%"]
+        - ["Skimmer","+100%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52305-rebirth.mod</span>"]
 ---
 
@@ -32,15 +49,7 @@ The [Meitou](/meitou)\-version of this weapon can be found on [Eyegore](/eyegore
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(5 required)</span></p></td><td><strong><span>Desert Sabre</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(5 required)</span></p></td><td><strong><span>Desert Sabre</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(5 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(5 required)</span></p></td><td><strong><span>Desert Sabre</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(5 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>5</td><td>5</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>5</td><td>5</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Desert Sabres blueprint: 4 hours at tech level 2; the blueprint is worth c. 12,000.</li></ul></div>
 
 ## Blueprints
 

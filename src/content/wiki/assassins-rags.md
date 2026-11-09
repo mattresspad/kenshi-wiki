@@ -6,25 +6,44 @@ source:
   revision: 95713
 categories: ["Armour","Body Armour","Light Armour"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Assassin's Rags"
+  image: "/icons/items/2154-gamedata.base.png"
+  caption: "Ragged cloth with plates to protect the sword arm.  It's pretty dire protection, but the wide open mid-section creates an opening that leads to more predictable enemy attacks.  It's lightweight and the arm plates on your forward side allow you to adopt some extra skillful combat tactics."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","2"]
-        - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
+        - ["Head","25% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","25% covered"]
+        - ["Stomach","50% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
-        - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+        - ["Assassination","1.30x"]
+        - ["Attack","+8"]
+        - ["Defence","-4"]
+        - ["Combat skills","+5"]
+        - ["Combat speed","1.10x"]
+        - ["Cut into stun","25%"]
+        - ["Dexterity","1.20x"]
+        - ["Dodge","1.20x"]
+        - ["Fist injury","0.00x"]
+        - ["Ranged skill","1.10x"]
+        - ["Stealth","1.10x"]
+        - ["Martial arts","+6"]
+    - heading: null
+      rows:
+        - ["String id","<span>2154-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Ragged cloth with plates to protect the sword arm. It's pretty dire protection, but the wide open mid-section creates an opening that leads to more predictable enemy attacks. It's lightweight and the arm plates on your forward side allow you to adopt some extra skillful combat tactics.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 **Assassin's Rags** are Light Armour that are equipped in the Body Armour slot. It is notable for having 100% coverage for the striking (right) arm only, leaving other parts of the body much less defended. This armor is also notable in that it provides 100% fist protection, making it useful for [Martial Arts](/martial-arts) specialists who have not replaced their limbs with superior Robotic ones.
 
 This armour has inventory dimensions of **6x4**.
@@ -35,17 +54,7 @@ This armour has inventory dimensions of **6x4**.
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Assassin's Rags</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>1.4%</td></tr><tr><td>-Cut resistance</td><td>2.2%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.65 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.164</td></tr><tr><td>-Sell value</td><td>c.41</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>25%</td></tr><tr><td>-Stomach</td><td>50%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Dodge skill effect</td><td>1.20x</td></tr><tr><td>-Combat speed effect</td><td>1.10x</td></tr><tr><td>-Dexterity effect</td><td>1.20x</td></tr><tr><td>-Assassination skill</td><td>1.30x</td></tr><tr><td>-Fist protection</td><td>100%</td></tr><tr><td>-Melee attack bonus</td><td>+8</td></tr><tr><td>-Melee defence bonus</td><td>-4</td></tr><tr><td>-Martial arts bonus</td><td>+6</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Assassin's Rags</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>5.6%</td></tr><tr><td>-Cut resistance</td><td>8.8%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.65 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.834</td></tr><tr><td>-Sell value</td><td>c.208</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>25%</td></tr><tr><td>-Stomach</td><td>50%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Dodge skill effect</td><td>1.20x</td></tr><tr><td>-Combat speed effect</td><td>1.10x</td></tr><tr><td>-Dexterity effect</td><td>1.20x</td></tr><tr><td>-Assassination skill</td><td>1.30x</td></tr><tr><td>-Fist protection</td><td>100%</td></tr><tr><td>-Melee attack bonus</td><td>+8</td></tr><tr><td>-Melee defence bonus</td><td>-4</td></tr><tr><td>-Martial arts bonus</td><td>+6</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Assassin's Rags</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>11.2%</td></tr><tr><td>-Cut resistance</td><td>17.6%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.65 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,980</td></tr><tr><td>-Sell value</td><td>c.745</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>25%</td></tr><tr><td>-Stomach</td><td>50%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Dodge skill effect</td><td>1.20x</td></tr><tr><td>-Combat speed effect</td><td>1.10x</td></tr><tr><td>-Dexterity effect</td><td>1.20x</td></tr><tr><td>-Assassination skill</td><td>1.30x</td></tr><tr><td>-Fist protection</td><td>100%</td></tr><tr><td>-Melee attack bonus</td><td>+8</td></tr><tr><td>-Melee defence bonus</td><td>-4</td></tr><tr><td>-Martial arts bonus</td><td>+6</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Assassin's Rags</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>16.8%</td></tr><tr><td>-Cut resistance</td><td>26.4%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.65 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.6,556</td></tr><tr><td>-Sell value</td><td>c.1,639</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>25%</td></tr><tr><td>-Stomach</td><td>50%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Dodge skill effect</td><td>1.20x</td></tr><tr><td>-Combat speed effect</td><td>1.10x</td></tr><tr><td>-Dexterity effect</td><td>1.20x</td></tr><tr><td>-Assassination skill</td><td>1.30x</td></tr><tr><td>-Fist protection</td><td>100%</td></tr><tr><td>-Melee attack bonus</td><td>+8</td></tr><tr><td>-Melee defence bonus</td><td>-4</td></tr><tr><td>-Martial arts bonus</td><td>+6</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Assassin's Rags</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>22.4%</td></tr><tr><td>-Cut resistance</td><td>35.2%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.65 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.11,562</td></tr><tr><td>-Sell value</td><td>c.2,890</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>25%</td></tr><tr><td>-Stomach</td><td>50%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Dodge skill effect</td><td>1.20x</td></tr><tr><td>-Combat speed effect</td><td>1.10x</td></tr><tr><td>-Dexterity effect</td><td>1.20x</td></tr><tr><td>-Assassination skill</td><td>1.30x</td></tr><tr><td>-Fist protection</td><td>100%</td></tr><tr><td>-Melee attack bonus</td><td>+8</td></tr><tr><td>-Melee defence bonus</td><td>-4</td></tr><tr><td>-Martial arts bonus</td><td>+6</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Assassin's Rags</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>26.6%</td></tr><tr><td>-Cut resistance</td><td>41.8%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.65 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.16,256</td></tr><tr><td>-Sell value</td><td>c.4,064</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>25%</td></tr><tr><td>-Chest</td><td>25%</td></tr><tr><td>-Stomach</td><td>50%</td></tr><tr><td>-Right Arm</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Dodge skill effect</td><td>1.20x</td></tr><tr><td>-Combat speed effect</td><td>1.10x</td></tr><tr><td>-Dexterity effect</td><td>1.20x</td></tr><tr><td>-Assassination skill</td><td>1.30x</td></tr><tr><td>-Fist protection</td><td>100%</td></tr><tr><td>-Melee attack bonus</td><td>+8</td></tr><tr><td>-Melee defence bonus</td><td>-4</td></tr><tr><td>-Martial arts bonus</td><td>+6</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1.4%</td><td>5.6%</td><td>11.2%</td><td>16.8%</td><td>22.4%</td><td>26.6%</td></tr><tr><th scope="row">Cut resistance</th><td>2.2%</td><td>8.8%</td><td>17.6%</td><td>26.4%</td><td>35.2%</td><td>41.8%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">75%</td></tr><tr><th scope="row">Weight</th><td colspan="6">2.65 kg</td></tr><tr><th scope="row">Value</th><td>c.164</td><td>c.834</td><td>c.2,980</td><td>c.6,556</td><td>c.11,562</td><td>c.16,256</td></tr><tr><th scope="row">Sell value</th><td>c.41</td><td>c.208</td><td>c.745</td><td>c.1,639</td><td>c.2,890</td><td>c.4,064</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">25%</td></tr><tr><th scope="row">Chest</th><td colspan="6">25%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">50%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">100%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Crossbows effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Precision shooting effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Dodge skill effect</th><td colspan="6">1.20x</td></tr><tr><th scope="row">Combat speed effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Dexterity effect</th><td colspan="6">1.20x</td></tr><tr><th scope="row">Assassination skill</th><td colspan="6">1.30x</td></tr><tr><th scope="row">Fist protection</th><td colspan="6">100%</td></tr><tr><th scope="row">Melee attack bonus</th><td colspan="6">+8</td></tr><tr><th scope="row">Melee defence bonus</th><td colspan="6">-4</td></tr><tr><th scope="row">Martial arts bonus</th><td colspan="6">+6</td></tr></tbody></table>
 
 ## Source
 
@@ -53,13 +62,7 @@ This armour has inventory dimensions of **6x4**.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Leather Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.42 required)</span></p></td><td><strong><span>Assassin's Rags</span></strong><div></div></td></tr><tr><td><a href="/leather"><span>Leather</span></a><div></div><p><span>(2.12 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Assassin's Rags<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>7,450</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,862</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Assassin's Rags</td></tr></tbody></table>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.424</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>2.12</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Assassin's Rags blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,450.</li></ul></div>
 
 ## Trivia/Notes
 

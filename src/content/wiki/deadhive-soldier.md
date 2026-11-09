@@ -7,7 +7,7 @@ source:
 categories: ["Races","Fogmen","Hivers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Cousins of other Hives. Lost their minds to parasite<p>Controls them from the inside. Nothing can be done for them now.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/hive">Hive</a> Player Characters, <a href="/fog-islands">Fog Islands</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Cousins of other Hives. Lost their minds to parasite<p>Controls them from the inside. Nothing can be done for them now.</p></blockquote><figcaption><a href="/hive">Hive</a> Player Characters, <a href="/fog-islands">Fog Islands</a></figcaption></figure>
 
 **Deadhive Soldier** is a [Race](/races) in Kenshi. Deadhive Soldier is a subrace of [Hive](/hive). This race is used exclusively for [Fog Heavy](/fog-heavy) characters.
 

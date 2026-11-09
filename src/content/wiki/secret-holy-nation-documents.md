@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Secret Holy Nation Documents"
+  image: "/icons/items/51410-rebirth.mod.png"
+  caption: "This seems to be a top secret military document from the Holy Nation.  It contains orders for a secret special unit of sentinels that guard some kind of secret that they refer to as \"Narko's Trap\".\r\nThe location of the base is included with a map."
   groups:
     - heading: null
       rows:
         - ["Weight","1 kg"]
-        - ["Value","c.3000"]
-        - ["Sell value","c.1500"]
-        - ["Description","This seems to be a top secret military document from the Holy Nation.  It contains orders for a secret special unit of sentinels that guard some kind of secret that they refer to as \"Narko's Trap\".<br>The location of the base is included with a map."]
+        - ["Base value","c. 3,000"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>51410-rebirth.mod</span>"]
 ---
 

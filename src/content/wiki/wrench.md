@@ -7,12 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Wrench"
+  image: "/icons/items/43862-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","3x2"]
-        - ["Avg. Price","c.90"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>43862-changes_otto.mod</span>"]
 ---
 
 **Wrench** is a useless [junk](/junk) Item which can be sold for c.90.

@@ -7,12 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Medical Supplies"
+  image: "/icons/items/582-gamedata.base.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","4x3 wide/tall"]
-        - ["Avg. Price","c.120"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","3x4"]
+    - heading: null
+      rows:
+        - ["String id","<span>582-gamedata.base</span>"]
 ---
 
 **Medical Supplies** are a [trade good](/trade-goods) that can be bought and sold to make a profit. They aren't needed in the crafting of any [medical items](/medical-items) and cannot be used for healing.

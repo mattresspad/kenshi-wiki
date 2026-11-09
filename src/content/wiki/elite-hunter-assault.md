@@ -19,7 +19,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/eyegores-assault\">Eyegore's Assault</a> 72-144 hours, 20-40% chance<p><strong>Elite Hunter Assault</strong> 72-144 hours, 20-60% chance</p>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Tut, tut... Apparently you've been pissing off some important people lately... Allow me to introduce myself. I am one of the Empire's Elite Hunters... And I've been sent for your head. Charmed!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Elite Hunter War Leader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Tut, tut... Apparently you've been pissing off some important people lately... Allow me to introduce myself. I am one of the Empire's Elite Hunters... And I've been sent for your head. Charmed!</blockquote><figcaption>Elite Hunter War Leader</figcaption></figure>
 
 **Elite Hunter Assault** is an [event](/events) that can trigger from being an enemy of the [United Cities](/united-cities) and living within 9,000 meters of a [United Cities](/united-cities) location, or as a response to defeating the **Elite Hunter Assault**, [Eyegore's Assault](/eyegores-assault), or [Noble's Wrath Assault](/nobles-wrath-assault). At least one noble from the following list must be alive and free to trigger the event: [Emperor Tengu](/emperor-tengu), [Lord Inaba](/lord-inaba), [Lord Nagata](/lord-nagata), [Lord Yoshinaga](/lord-yoshinaga), [Lady Sanda](/lady-sanda), [Lady Tsugi](/lady-tsugi). If all the nobles listed are killed or captured, the event will be unable to trigger except as a response to defeating **Elite Hunter Assault**.
 

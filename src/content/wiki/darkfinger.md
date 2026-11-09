@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/sinkuun\">Sinkuun</a>, <a href=\"/northern-coast\">Northern Coast</a>, <a href=\"/bast-zone\">Bast</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Keep your eyes peeled, we're in cannibal country now.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Keep your eyes peeled, we're in cannibal country now.</blockquote><figcaption>Player Characters</figcaption></figure>
 
 **Darkfinger** is a peninsula west of [Sinkuun](/sinkuun). It is inhabited primarily by [Cannibals](/cannibals).
 

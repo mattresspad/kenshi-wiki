@@ -18,6 +18,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Placing these on the roofs of buildings can collect the rainwater in areas where wells can't be used.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Placing these on the roofs of buildings can collect the rainwater in areas where wells can't be used.</blockquote><figcaption>In-game Description</figcaption></figure>
 
 **Rain Collectors** create [Water](/water) items based on the current weather. This research is a must-have for players who have [Hydroponics](/hydroponics) in rainy Zones.

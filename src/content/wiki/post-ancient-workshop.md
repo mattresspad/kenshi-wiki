@@ -18,7 +18,7 @@ infobox:
         - ["String ID","48446-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Old ruins. You gotta look at a map, go way out into the furthest reaches of the ass end of nowhere, the more dangerous the better, and then look around for old ruins and stuff.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Ronin Construction Trader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Old ruins. You gotta look at a map, go way out into the furthest reaches of the ass end of nowhere, the more dangerous the better, and then look around for old ruins and stuff.</blockquote><figcaption>Ronin Construction Trader</figcaption></figure>
 
 **Post-Ancient Workshops** are [Ancient Locations](/ancient-locations) in [Purple Sands](/purple-sands) and western [Vain](/vain). These workshops are large, hangar-like structures. They belong to the few reliable places to obtain [Engineering Research](/engineering-research). Similar locations are the [Dead Workshop](/dead-workshop), [Deadland Workshops](/deadland-workshop), and [Workshop Complex](/workshop-complex). All of them can be marked by reading the **Engineers [Map](/maps)**.
 

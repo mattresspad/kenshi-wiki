@@ -14,7 +14,7 @@ infobox:
         - ["Territorial Trigger","False"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>WHAT IS THIS!?!? An invasion! A rival colony come to do battle, crab against crab! So be it! We shall test each others crab training skills! It's a crab toouuurrrrnameeeennntttt!!!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Crab Raider</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>WHAT IS THIS!?!? An invasion! A rival colony come to do battle, crab against crab! So be it! We shall test each others crab training skills! It's a crab toouuurrrrnameeeennntttt!!!</blockquote><figcaption>Crab Raider</figcaption></figure>
 
 ## Overview
 

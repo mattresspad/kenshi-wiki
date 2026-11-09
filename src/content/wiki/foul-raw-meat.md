@@ -7,14 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Foul Raw Meat"
+  image: "/icons/items/50567-rebirth.mod.png"
+  caption: "Uncooked meat from a poor quality source.  No good for eating."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","10 nu"]
+        - ["Type","Special food"]
         - ["Weight","1 kg"]
-        - ["Size","2x2 wide/tall"]
-        - ["Avg. Price","c.1"]
-        - ["Description","Uncooked meat from a poor quality source.  No good for eating."]
+        - ["Base value","c. 1"]
+        - ["Size in inventory","2x2"]
+        - ["Nutrition","10 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>50567-rebirth.mod</span>"]
 ---
 
 **Foul Raw Meat** is a [food](/food) item which can be gathered from many [Animals](/fauna) and the humanoid Fishmen. It is edible for [Hive](/hive) characters (except for Hive [Princes](/hive-prince)) and [Domesticated Animals](/fauna#domesticated). It can also be added to the [Animal Feeder](/animal-feeder). While the nutritional value of 10 is considered low, high amounts can be harvested from many creatures.

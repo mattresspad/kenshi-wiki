@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Pearl Urn"
+  image: "/icons/items/42331-changes_otto.mod.png"
+  caption: "A fancy decorative thing used by extremely rich people to clutter up their houses."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","2x2 wide/tall"]
-        - ["Avg. Price","c.600"]
-        - ["Description","A fancy decorative thing used by extremely rich people to clutter up their houses."]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>42331-changes_otto.mod</span>"]
 ---
 
 **Pearl Urn** is a useless [junk](/junk) Item: no purpose other than trading and only worth a small amount. This item can be found in Residential Buildings. When starting out, stealing this item along with other junk can help players increase their [Thievery](/thievery) stat with little risk (if the building is empty) and reward.

@@ -7,7 +7,7 @@ source:
 categories: ["Equipment","Weapons","Combat"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Oh if I had a penny for every rusty piece of crap sword I see sheathed on the back of a clueless wanderer...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/catun-scrapmaster">Catun Scrapmaster</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Oh if I had a penny for every rusty piece of crap sword I see sheathed on the back of a clueless wanderer...</blockquote><figcaption><a href="/catun-scrapmaster">Catun Scrapmaster</a></figcaption></figure>
 
 Combat is a primary part of Kenshi, and all combat except for martial arts is done with weapons. Weapons are [items](/items) that are split into multiple categories, each dealing different types and amounts of damage. [Armour](/armour) is designed to reduce damage and can be slightly penetrated by using certain weapons. Weapons can be looted, purchased from a [Weapons Trader](/weapons-trader), or crafted by the player.
 

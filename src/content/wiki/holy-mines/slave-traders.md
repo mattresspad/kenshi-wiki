@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/holy-mines/slave-traders)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>With Seta out of the way and their southern defenses open, the Shek are overrunning Okran's Plains like an infestation. Dispose of Valtena and we can very easily nudge Tengu into sending United Cities forces in to Okran's Shield. Then we finally have our foot in the door to harvest those green plains see, sir.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/yamdu">Yamdu</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>With Seta out of the way and their southern defenses open, the Shek are overrunning Okran's Plains like an infestation. Dispose of Valtena and we can very easily nudge Tengu into sending United Cities forces in to Okran's Shield. Then we finally have our foot in the door to harvest those green plains see, sir.</blockquote><figcaption><a href="/yamdu">Yamdu</a></figcaption></figure>
 
 If [Phoenix](/holy-lord-phoenix), [Seta](/high-inquisitor-seta), [Esata](/esata-the-stone-golem) and [Flying Bull](/flying-bull) are all [dead or imprisoned](/world-states) while [Tengu](/emperor-tengu) and [Longen](/longen) are alive and free, [Holy Mines](/holy-mines) will be [taken over](/town-overrides) by [Slave Traders](/slave-traders).
 

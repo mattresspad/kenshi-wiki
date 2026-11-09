@@ -5,9 +5,33 @@ source:
   title: "Scavenger's Basket"
   revision: 95855
 categories: ["Backpacks"]
+infobox:
+  title: "Scavenger's Basket"
+  image: "/icons/items/45554-changes_otto.mod.png"
+  caption: "A cheap and useful backpack, commonly associated with peasants and scavengers."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/backpacks\">Backpack</a>"]
+        - ["Weight reduction","30%"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 250"]
+    - heading: "Storage"
+      rows:
+        - ["Backpack grid","10x14"]
+        - ["Stack minimum","1x"]
+        - ["Stack multiplier","1x"]
+        - ["Size in inventory","4x5"]
+    - heading: "Combat"
+      rows:
+        - ["Combat skills","-5"]
+        - ["Combat speed","0.90x"]
+        - ["Athletics","1.00x"]
+        - ["Stealth and dodge","0.50x"]
+    - heading: null
+      rows:
+        - ["String id","<span>45554-changes_otto.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Scavenger's Basket</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td>-Price</td><td>c.250</td></tr><tr><td>-Sell Value</td><td>c.125</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Encumbrance reduction</td><td>30%</td></tr><tr><td>-Combat skills bonus</td><td>-5</td></tr><tr><td>-Athletics effect</td><td>1.00x</td></tr><tr><td>-Combat speed effect</td><td>0.90x</td></tr><tr><td>-Stealth skill effect</td><td>0.50x</td></tr><tr><td>-Dodge skill effect</td><td>0.50x</td></tr><tr><td colspan="2">A cheap and useful backpack, commonly associated with peasants and scavengers.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/backpacks">BACKPACK</a></td></tr></tbody></table>
 
 The **Scavenger's Basket** is a lightweight [backpack](/backpacks) that is unable to stack [trade goods](/trade-goods) and has a storage space of 10x14 grid tiles and an inventory size of 5x4. This is the same amount of space as a [Medium Backpack](/medium-backpack) and a [Thieves Backpack](/thieves-backpack). From all backpacks available, this is the most affordable bag.
 

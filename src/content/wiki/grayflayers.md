@@ -14,7 +14,7 @@ infobox:
         - ["Trade Culture","<a href=\"/swamper-trade-culture\">Swamper Trade Culture</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Grayflayers tend to keep to themselves. They mainly do raids, heists, and covert missions for big payin' customers. Apparently they only steal from the 'bad', so I hear, but no one knows too much about their activities.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Swamper Barman</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Grayflayers tend to keep to themselves. They mainly do raids, heists, and covert missions for big payin' customers. Apparently they only steal from the 'bad', so I hear, but no one knows too much about their activities.</blockquote><figcaption>Swamper Barman</figcaption></figure>
 
 The **Grayflayers** (also referred to as the Grayflayer Clan as seen in [Letters From A Swamper V](/letters-from-a-swamper)) are one of the five gangs within [The Swamp](/the-swamp).
 

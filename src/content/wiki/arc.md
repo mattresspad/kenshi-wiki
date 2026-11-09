@@ -20,7 +20,7 @@ infobox:
 
 _This article is about the leader of Mongrel. For the Reaver HQ, see [Ark](/ark)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Slander! All this talk of the sabre wielding Arc... Hmph.<p>The <a href="/esata-the-stone-golem">Stone Golem</a> would squash Arc like the bug he is...</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/shek-warrior">Shek Warriors</a> on Arc</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Slander! All this talk of the sabre wielding Arc... Hmph.<p>The <a href="/esata-the-stone-golem">Stone Golem</a> would squash Arc like the bug he is...</p></blockquote><figcaption><a href="/shek-warrior">Shek Warriors</a> on Arc</figcaption></figure>
 
 **Arc** is a legendary swordsman, and the leader of the [Mongrel](/mongrel-faction) faction. He is located in the [HQ](/mongrel-hq) in [Mongrel](/mongrel) and has [Diplomatic Status](/diplomatic-status).
 

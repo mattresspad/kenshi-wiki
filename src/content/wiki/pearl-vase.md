@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Pearl Vase"
+  image: "/icons/items/42332-changes_otto.mod.png"
+  caption: "A fancy decorative thing used by extremely rich people to clutter up their houses."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","2x3"]
-        - ["Avg. Price","c.450"]
-        - ["Description","A fancy decorative thing used by extremely rich people to clutter up their houses."]
+        - ["Base value","c. 750"]
+        - ["Size in inventory","3x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>42332-changes_otto.mod</span>"]
 ---
 
 **Pearl Vases** can be found in Residential Buildings. When starting out, stealing this item along with other junk can help players increase their [Thievery](/thievery) stat with little risk (if the building is empty) and reward.

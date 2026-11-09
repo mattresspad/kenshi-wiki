@@ -17,7 +17,7 @@ infobox:
         - ["Legwear","<a href=\"/halfpants-ragged\">Halfpants (ragged)</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Attention Peasants! I demand to speak with your pathetic leader!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Harbinger</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Attention Peasants! I demand to speak with your pathetic leader!</blockquote><figcaption>Harbinger</figcaption></figure>
 
 **Harbinger** is an unused character in Kenshi found in the [FCS](/forgotten-construction-set). It is unknown what faction they were meant to belong to, though it appears they were supposed to be used for a [Base](/base-assault) or [Outpost Assault](/events).
 

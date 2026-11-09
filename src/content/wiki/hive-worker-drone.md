@@ -7,7 +7,7 @@ source:
 categories: ["Races","Hivers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Expendible workers born to labour for the good of their Hive, they know only obedience and value service to the Hive above any personal benefits, saftey or comfort. If separated from the controlling influence of the Hive they usually die, but in rare cases become free individuals. Bewildered by their newfound freedom and loss of a predetermined purpose they wander lost and seek meaning, but usually just find death or exploitation.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Expendible workers born to labour for the good of their Hive, they know only obedience and value service to the Hive above any personal benefits, saftey or comfort. If separated from the controlling influence of the Hive they usually die, but in rare cases become free individuals. Bewildered by their newfound freedom and loss of a predetermined purpose they wander lost and seek meaning, but usually just find death or exploitation.</blockquote><figcaption>Game Description</figcaption></figure>
 
 **Western Hive Worker Drones** are a [Race](/races) in Kenshi. They are a subrace of the Western [Hive](/hive).
 

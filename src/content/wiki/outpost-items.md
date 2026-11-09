@@ -7,7 +7,7 @@ source:
 categories: ["Items"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The desire to create is one of the deepest yearnings of the human soul.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–E.U.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The desire to create is one of the deepest yearnings of the human soul.</blockquote><figcaption>E.U.</figcaption></figure>
 
 **Outpost Items** are all the building blocks used in the creation of items and buildings. They are the materials you must buy, gather, and produce to expand your empire. Raw materials will need to be processed through [Crafting](/crafting).
 

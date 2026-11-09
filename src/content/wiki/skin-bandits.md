@@ -15,7 +15,7 @@ infobox:
         - ["Hostile towards","<a href=\"/human\">Humans</a>, <a href=\"/crab-raiders\">Crab Raiders</a>, <a href=\"/reavers\">Reavers</a>, <a href=\"/united-cities\">United Cities</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>They're Skeletons in disguise!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/the-holy-nation">The Holy Nation</a>'s common accusation</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>They're Skeletons in disguise!</blockquote><figcaption><a href="/the-holy-nation">The Holy Nation</a>'s common accusation</figcaption></figure>
 
 **Skin Bandits** (AKA the "Skinned Ones") are a faction of [Skeletons](/skeleton) who hunt [humans](/human) for their skin in order to turn them into [clothing](/clothing). They can be found in [Sonorous Dark](/sonorous-dark) and are led by [Savant](/savant).
 

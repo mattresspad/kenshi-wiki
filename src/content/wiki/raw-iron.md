@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Raw Iron"
+  image: "/icons/items/1866-gamedata.base.png"
+  caption: "Raw metal is used to make Steel Bars"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","9 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Avg. Price","c.90"]
-        - ["Description","Raw metal is used to make Steel Bars"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>1866-gamedata.base</span>"]
 ---
 
 **Raw Iron** is the base ingredient for many of the production chains in Kenshi. It's mainly used in the production of iron plates, however it can also be used in its raw state in order to produce [Armour Plating](/armour-plating) at a [Plate Beating Station](/plate-beating-station) and at the [Arrow Making Bench](/arrow-making-bench) for producing [Spring Steel](/spring-steel).

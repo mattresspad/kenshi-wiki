@@ -13,7 +13,7 @@ infobox:
         - ["Trade Culture","<a href=\"/swamper-trade-culture\">Swamper Trade Culture</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Well I can’t believe it. This place is real after all. Here, one gets what one worked for. No nobles who were born lucky breathing down the necks of workers and asking for taxes. No priests claiming they’re the ones who got everything figured out and using people’s ignorance to steal from them. The only law here is that of nature: strongest gets it all…</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Letter from a Swamp resident</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Well I can’t believe it. This place is real after all. Here, one gets what one worked for. No nobles who were born lucky breathing down the necks of workers and asking for taxes. No priests claiming they’re the ones who got everything figured out and using people’s ignorance to steal from them. The only law here is that of nature: strongest gets it all…</blockquote><figcaption>Letter from a Swamp resident</figcaption></figure>
 
   
 The **Swampers** faction comprises the denizens of [The Swamp](/the-swamp), often not aligned to any one gang in particular. A collection of outcasts, outlaws, exiles, and criminals, their society has a very violent dog-eat-dog nature. Street fights are not uncommon, breaking out over even trivial slights or offences.

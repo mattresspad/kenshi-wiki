@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/cannibal-plains\">Cannibal Plains</a>, <a href=\"/hidden-forest\">Hidden Forest</a>, <a href=\"/wend\">Wend</a>, <a href=\"/rebirth-zone\">Rebirth</a>, <a href=\"/okrans-gulf\">Okran's Gulf</a>, <a href=\"/the-shrieking-forest\">The Shrieking Forest</a>, <a href=\"/purple-sands\">Purple Sands</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This place is a relic of the old world<p>Wonders of technology were produced here, in staggering quantities</p><p>Machines building more machines to build more machines with</p><p>In the end, they couldn't keep up with its hunger</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This place is a relic of the old world<p>Wonders of technology were produced here, in staggering quantities</p><p>Machines building more machines to build more machines with</p><p>In the end, they couldn't keep up with its hunger</p></blockquote><figcaption><a href="/skeleton">Skeleton</a> Player Characters</figcaption></figure>
 
 Located between [Cannibal Plains](/cannibal-plains) and [Okran's Gulf](/okrans-gulf). As the name implies, the **Floodlands** is a flooded swamp with a never-ending downpour making this a gloomy area to travel. The region is also known for the ancient structures that remain suggesting the area was industrialized and might explain why the environment is now dead. The only thing roaming these lands are [Iron Spiders](/iron-spider) and Skeletons.
 

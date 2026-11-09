@@ -7,12 +7,17 @@ source:
 categories: ["Items","Farming"]
 infobox:
   title: "Cactus"
+  image: "/icons/items/42304-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","3x1 wide/tall"]
-        - ["Avg. Price","c.15"]
+        - ["Base value","c. 30"]
+        - ["Size in inventory","1x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>42304-changes_otto.mod</span>"]
 ---
 
 **Cactus** is an inedible raw ingredient used in the crafting of [Food](/food) & [Cactus Rum](/cactus-rum). It can be bought from [Trade Goods Traders](/trade-goods-trader) or [Holy Farm Leaders](/holy-farm-leader) at various locations.

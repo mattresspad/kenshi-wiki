@@ -22,7 +22,7 @@ infobox:
         - ["String ID","54418-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>... Guess you're gonna be wanting to report me to the slavers, huh? I'm just a pitiful slave after all, ain't I?... Well, you're not sending me back there, roamer. I won't let you live to report me!... [They grab their weapon]...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>... Guess you're gonna be wanting to report me to the slavers, huh? I'm just a pitiful slave after all, ain't I?... Well, you're not sending me back there, roamer. I won't let you live to report me!... [They grab their weapon]...</blockquote></figure>
 
 **Slave Escapee** is a randomly named [Generic Recruit](/generic-recruits). They are a member of the [Slaves](/slaves) faction. If found alone, they can be spoken to for a chance to join the player faction.
 

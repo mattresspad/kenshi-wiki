@@ -18,7 +18,7 @@ infobox:
         - ["String ID","62832-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Whadda we got here? A crabless, eh?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Whadda we got here? A crabless, eh?</blockquote></figure>
 
 **Crab Raider Civilians** are randomly-named members of the [Crab Raiders](/crab-raiders). They can be found in [Crab Town](/crab-town) and [Crab Village](/crab-village).
 

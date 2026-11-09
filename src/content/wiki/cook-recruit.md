@@ -19,7 +19,7 @@ infobox:
         - ["String ID","52681-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Was always told I'd never make it if I couldn't handle myself with a sword. Well, I'm still alive, aren't I? Melting the hearts of my enemies with my cooking, one ricebowl at a time!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Was always told I'd never make it if I couldn't handle myself with a sword. Well, I'm still alive, aren't I? Melting the hearts of my enemies with my cooking, one ricebowl at a time!</blockquote></figure>
 
 **Cook Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a cook looking for work. They can be hired for c.6,000.
 
@@ -288,7 +288,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Headgear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/tagelmust">Tagelmust</a></td><td>25%</td></tr><tr><td></td><td><a href="/straw-hat">Straw Hat</a></td><td>25%</td></tr><tr><td></td><td><a href="/wool-hat">Wool Hat</a></td><td>25%</td></tr><tr><td></td><td><a href="/bandana">Bandana</a></td><td>25%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2220-chris_r.mod.png" alt="" width="40" height="40"> <a href="/tagelmust">Tagelmust</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/575-gamedata.base.png" alt="" width="40" height="40"> <a href="/straw-hat">Straw Hat</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2164-gamedata.base.png" alt="" width="40" height="40"> <a href="/wool-hat">Wool Hat</a></td><td>25%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2222-chris_r.mod.png" alt="" width="40" height="40"> <a href="/bandana">Bandana</a></td><td>25%</td></tr></tbody></table>
 
 #### Shirt
 

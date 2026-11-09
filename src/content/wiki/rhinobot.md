@@ -20,7 +20,7 @@ infobox:
         - ["Inventory","<a href=\"/ai-core\">AI Core</a>, <a href=\"/cpu-of-rhinobot\">CPU of Rhinobot</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Rhinobot just wanted to help, but he had no moral processing, and so would help with anything, even the most diabolical evil. He didn't see anything wrong with his child prisons.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–CPU of Rhinobot</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Rhinobot just wanted to help, but he had no moral processing, and so would help with anything, even the most diabolical evil. He didn't see anything wrong with his child prisons.</blockquote><figcaption>CPU of Rhinobot</figcaption></figure>
 
 **Rhinobot** is a [Skeleton](/skeleton) who was a notable member of the (now defunct) [Second Empire](/second-empire). He can be found in [Ashland Dome II](/ashland-dome-ii) alongside 7 or 8 [Screamer Units](/screamer-unit). He carries a [Meitou](/meitou) Topper.
 

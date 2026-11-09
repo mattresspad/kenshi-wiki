@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/grey-desert\">Grey Desert</a>, <a href=\"/skinners-roam\">Skinner's Roam</a>, <a href=\"/iron-valleys\">Iron Valleys</a>, <a href=\"/shem\">Shem</a>, <a href=\"/venge\">Venge</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Narko's sweet arse! This is the freakin' Deadlands, we can't come here!<p>It's not a place for humans...</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shek or Greenlander Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Narko's sweet arse! This is the freakin' Deadlands, we can't come here!<p>It's not a place for humans...</p></blockquote><figcaption>Shek or Greenlander Player Characters</figcaption></figure>
 
 The **Deadlands,** one of the most polluted zones in the game, is home to the [Skeletons](/skeletons) faction in their town of Black Desert City as well as the Scraphouse next to it. Constant acid rain, [acidic ground](/acid-ground), dark weather, and a dead environment defines this gloomy area, with multiple iron spiders scattered around, both active and not. It can be a hard zone to settle in or traverse for an unprepared group, but it is a perfect place for a large and technologically advanced community to hide from the [Holy Nation](/the-holy-nation), and to isolate themselves from others.
 

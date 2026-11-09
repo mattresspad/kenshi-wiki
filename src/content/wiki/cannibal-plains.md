@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/leviathan-coast\">Leviathan Coast</a>, <a href=\"/the-iron-trail\">The Iron Trail</a>, <a href=\"/purple-sands\">Purple Sands</a>, <a href=\"/floodlands\">Floodlands</a>, <a href=\"/hidden-forest\">Hidden Forest</a>, <a href=\"/northern-coast\">Northern Coast</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Endless cannibals as far as the bloody horizon!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Human and Shek Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Endless cannibals as far as the bloody horizon!</blockquote><figcaption>Human and Shek Player Characters</figcaption></figure>
 
 Located in the North West of the map, the **Cannibal Plains** are characterized by the large presence of [Cannibals](/cannibals), as well as some [Shrieking Bandits](/shrieking-bandits) and [Berserkers](/berserkers) mixed in the fight. [Cannibal Hunters](/cannibal-hunters) sometimes come here to hunt the Cannibals, and sometimes get hunted by them instead.
 

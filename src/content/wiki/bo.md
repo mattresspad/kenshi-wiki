@@ -18,7 +18,7 @@ infobox:
         - ["String ID","7994-D-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>So you're the new girl, eh... Well, how about we have some fun together?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Bo</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>So you're the new girl, eh... Well, how about we have some fun together?</blockquote><figcaption>Bo</figcaption></figure>
 
 **Bo** is a [Unique Recruit](/unique-recruits) who is part of the [Anti-Slavers](/anti-slavers). She can be found in [Black Scratch](/black-scratch), accompanied by an [Anti-Slaver Jonin](/anti-slaver-jonin).
 

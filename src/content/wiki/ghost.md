@@ -22,7 +22,7 @@ infobox:
         - ["String ID","56730-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Suchon died long ago...<p>An exile is lost, forever a ghost searching for the other side...</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shek Warriors seeing player carrying Ghost</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Suchon died long ago...<p>An exile is lost, forever a ghost searching for the other side...</p></blockquote><figcaption>Shek Warriors seeing player carrying Ghost</figcaption></figure>
 
 **Suchon**, or **'Ghost**' as he is more commonly known, is the leader of the [Berserkers](/berserkers). He can be found in the [Berserker village](/berserker-village) east of [Last Stand](/last-stand) camping with many other [Berserkers](/berserkers).
 

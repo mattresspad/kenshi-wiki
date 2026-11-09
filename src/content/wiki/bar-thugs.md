@@ -7,7 +7,7 @@ source:
 categories: ["Factions"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>'ey, hairbrusher. Yer in my spot.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>'ey, hairbrusher. Yer in my spot.</blockquote></figure>
 
 **Bar Thugs** is a [faction](/factions) which can only be found in [The Swamp](/the-swamp). Despite there being many different type of bar thug characters in Kenshi, this Bar Thugs "faction" only contains one of them.
 

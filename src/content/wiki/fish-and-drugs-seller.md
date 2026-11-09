@@ -24,7 +24,7 @@ infobox:
         - ["String ID","51764-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You there! Greenlander! You guys love drugs! Come and buy!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You there! Greenlander! You guys love drugs! Come and buy!</blockquote></figure>
 
 A **Fish and Drugs Seller** can be found in every [Swamp Village](/swamp-village), as well as [Mud Town](/mud-town) and [Shark](/shark). These characters have randomly generated names and live in their own houses. They sell Crops, Fish and large quantities of [Hashish](/hashish). Unlike most other shopkeepers, they can be seen advertising their commodities regularly.
 

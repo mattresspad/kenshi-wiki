@@ -7,12 +7,17 @@ source:
 categories: ["Items","Farming"]
 infobox:
   title: "Water"
+  image: "/icons/items/1914-gamedata.base.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","10 kg"]
-        - ["Size","5x5 wide/tall"]
-        - ["Avg. Price","c.25"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","5x5"]
+    - heading: null
+      rows:
+        - ["String id","<span>1914-gamedata.base</span>"]
 ---
 
 **Water** is necessary for the production of several items and vital for the production of crops. It can be acquired from a [Well](/well) or a [Rain Collector](/rain-collector) and stored in a [Water Tower](/water-tower) or [Water Tank](/water-tank). It cannot be consumed as [food](/food), nor is needed for any sort of cooling or dehydration prevention in the deserts of [Kenshi](/world-of-kenshi).

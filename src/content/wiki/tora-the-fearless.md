@@ -21,7 +21,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You! You stare at my horns! You have the gall to gawk at a Shek Warrior's horns, you must have the fight to back it up!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You! You stare at my horns! You have the gall to gawk at a Shek Warrior's horns, you must have the fight to back it up!</blockquote></figure>
 
 **Tora the Fearless** is the leader of the [Band of Bones](/band-of-bones) who refused to give up her [weapon](/weapons) after being disgraced as a [Shek Kingdom](/shek-kingdom) warrior and having her horns removed. Instead, Tora underwent self-exile and fled to a life of banditry, preferring to die by the sword as a warrior even if it meant losing her honor to do so. She is located in the [Exile Camp](/exile-camp) southwest of [Squin](/squin). Like other Band of Bones members, she will attack when player characters approach the camp.
 

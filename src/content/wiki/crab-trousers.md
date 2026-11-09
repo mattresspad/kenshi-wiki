@@ -6,25 +6,33 @@ source:
   revision: 93105
 categories: ["Armour","Legwear","Heavy Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Crab Trousers"
+  image: "/icons/items/64891-Newwworld.mod.png"
+  caption: "An exotic suit of heavy armour plates that gives the wearer the toughness and mobility of a big rock.  The Crab Raiders designed this armour with the aim of being more like crabs, but little consideration of other factors."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","25 kg"]
+        - ["Base value","c. 75"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","3"]
-        - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
+        - ["Right Leg","95% covered"]
+        - ["Left Leg","95% covered"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
-        - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
+        - ["Combat speed","0.96x"]
+        - ["Cut into stun","10%"]
+        - ["Dodge","0.70x"]
+        - ["Stealth","0.25x"]
+        - ["Martial arts","-10"]
+    - heading: null
+      rows:
+        - ["String id","<span>64891-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">An exotic suit of heavy armour plates that gives the wearer the toughness and mobility of a big rock. The Crab Raiders designed this armour with the aim of being more like crabs, with little consideration of other factors.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 
 **Crab Trousers** are Heavy Armour that are equipped in the Legwear slot. It can be crafted once a blueprint is purchased from the [Crab Raiders](/crab-raiders) and is part of a Crab Armour "set" together with [Crab Helmet](/crab-helmet), [Crab Armour](/crab-armour) (body) and [Crab Shoes](/crab-shoes).
 
@@ -36,17 +44,7 @@ The **Crab Trousers** appear to be pieces of brown scrap metal strapped over cha
 
 ## Grades
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Trousers</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>0%</td></tr><tr><td>-Cut resistance</td><td>10%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Weight</td><td>9.5 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.179</td></tr><tr><td>-Sell value</td><td>c.44</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>95%</td></tr><tr><td>-Left Leg</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.00x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.80x</td></tr><tr><td>-Combat speed effect</td><td>0.86x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Trousers</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>9%</td></tr><tr><td>-Cut resistance</td><td>21%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>13.5pts</td></tr><tr><td>-Weight</td><td>9.5 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.714</td></tr><tr><td>-Sell value</td><td>c.178</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>95%</td></tr><tr><td>-Left Leg</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.00x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.82x</td></tr><tr><td>-Combat speed effect</td><td>0.88x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Trousers</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>21%</td></tr><tr><td>-Cut resistance</td><td>36%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>31.5pts</td></tr><tr><td>-Weight</td><td>9.5 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,424</td></tr><tr><td>-Sell value</td><td>c.606</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>95%</td></tr><tr><td>-Left Leg</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.01x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.85x</td></tr><tr><td>-Combat speed effect</td><td>0.90x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Trousers</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>33%</td></tr><tr><td>-Cut resistance</td><td>51%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>49.5pts</td></tr><tr><td>-Weight</td><td>9.5 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.5,275</td></tr><tr><td>-Sell value</td><td>c.1,318</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>95%</td></tr><tr><td>-Left Leg</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.03x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.88x</td></tr><tr><td>-Combat speed effect</td><td>0.92x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Trousers</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>45%</td></tr><tr><td>-Cut resistance</td><td>66%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>67.5pts</td></tr><tr><td>-Weight</td><td>9.5 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.9,267</td></tr><tr><td>-Sell value</td><td>c.2,316</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>95%</td></tr><tr><td>-Left Leg</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.05x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.91x</td></tr><tr><td>-Combat speed effect</td><td>0.94x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Trousers</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>54%</td></tr><tr><td>-Cut resistance</td><td>77%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>81pts</td></tr><tr><td>-Weight</td><td>9.5 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.13,009</td></tr><tr><td>-Sell value</td><td>c.3,252</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>95%</td></tr><tr><td>-Left Leg</td><td>95%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.07x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.94x</td></tr><tr><td>-Combat speed effect</td><td>0.95x</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Heavy Armour Class · Metal Plates</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>0%</td><td>9%</td><td>21%</td><td>33%</td><td>45%</td><td>54%</td></tr><tr><th scope="row">Cut resistance</th><td>10%</td><td>21%</td><td>36%</td><td>51%</td><td>66%</td><td>77%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">90%</td></tr><tr><th scope="row">Harpoon resistance</th><td>–</td><td>13.5pts</td><td>31.5pts</td><td>49.5pts</td><td>67.5pts</td><td>81pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">9.5 kg</td></tr><tr><th scope="row">Value</th><td>c.179</td><td>c.714</td><td>c.2,424</td><td>c.5,275</td><td>c.9,267</td><td>c.13,009</td></tr><tr><th scope="row">Sell value</th><td>c.44</td><td>c.178</td><td>c.606</td><td>c.1,318</td><td>c.2,316</td><td>c.3,252</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Right Leg</th><td colspan="6">95%</td></tr><tr><th scope="row">Left Leg</th><td colspan="6">95%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td>0.00x</td><td>0.00x</td><td>0.01x</td><td>0.03x</td><td>0.05x</td><td>0.07x</td></tr><tr><th scope="row">Dodge skill effect</th><td colspan="6">0.70x</td></tr><tr><th scope="row">Athletics effect</th><td>0.80x</td><td>0.82x</td><td>0.85x</td><td>0.88x</td><td>0.91x</td><td>0.94x</td></tr><tr><th scope="row">Combat speed effect</th><td>0.86x</td><td>0.88x</td><td>0.90x</td><td>0.92x</td><td>0.94x</td><td>0.95x</td></tr><tr><th scope="row">Martial arts bonus</th><td colspan="6">-10</td></tr></tbody></table>
 
 ## Source
 
@@ -56,9 +54,6 @@ The **Crab Trousers** appear to be pieces of brown scrap metal strapped over cha
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.36 required)</span></p></td><td><strong><span>Crab Trousers</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(1.9 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.38</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>1.9</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Crab Trousers blueprint: 12 hours at tech level 1; the blueprint is worth c. 6,061.</li></ul></div>
 
-  
 The blueprint can be bought from a [Crabsmith](/crabsmith).
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Crab Trousers<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>c.6,060</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,515</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Crab Trousers</td></tr></tbody></table>

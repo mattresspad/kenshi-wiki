@@ -24,7 +24,7 @@ infobox:
         - ["String ID","19939-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Hey, you there! I need employment. I can fix you up, but really I need someone to sponsor my research.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Hey, you there! I need employment. I can fix you up, but really I need someone to sponsor my research.</blockquote></figure>
 
 **Izumi** is a [Unique Recruit](/unique-recruits) from the Empire. She is a young scientist and medic. She can be hired for c.2,500.
 
@@ -66,4 +66,4 @@ Stats randomize by 1
 _The Statistics here are taken from [FCS](/forgotten-construction-set).  
 Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Don't be so naive... The nobles are as fickle as fish.<p>You'll be forgotten in a month, on with the next new fad...</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–After <a href="/tinfist">Tinfist</a> is killed or imprisoned</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Don't be so naive... The nobles are as fickle as fish.<p>You'll be forgotten in a month, on with the next new fad...</p></blockquote><figcaption>After <a href="/tinfist">Tinfist</a> is killed or imprisoned</figcaption></figure>

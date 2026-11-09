@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/standard-first-aid-kit\">Standard First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>All the way out in these ruins and I found company, eh?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Tech Hunter greeting</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>All the way out in these ruins and I found company, eh?</blockquote><figcaption>Tech Hunter greeting</figcaption></figure>
 
 **Tech Hunter Ruins** are randomly named members of the [Tech Hunters](/tech-hunters) faction. They can be found patrolling [Forbidden Isle](/forbidden-isle), [Leviathan Coast](/leviathan-coast), and [Shun](/shun) in groups of 1-5 characters.
 
@@ -223,6 +223,6 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I... just wanted some company...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I... just wanted some company...</blockquote></figure>
 
 Tech Hunter Ruins that are found near ruins can be talked to. Listening to them and claiming the player has had luck with scavenging can prompt them to ask to join you. Accepting results in them bodyguarding the player for 24 hours.

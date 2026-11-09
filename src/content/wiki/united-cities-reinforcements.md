@@ -14,7 +14,7 @@ infobox:
         - ["Territorial Trigger","False"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Lord Longen sends his respects today! My squadron is at your disposal, sirs...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Samurai Sergeant</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Lord Longen sends his respects today! My squadron is at your disposal, sirs...</blockquote><figcaption>Samurai Sergeant</figcaption></figure>
 
 **United Cities Reinforcements** is an [Event](/events) that will trigger in response to the [Holy Assault](/holy-assault), [Holy Nation Assault (Inquisitor)](/holy-nation-assault-inquisitor), [Jonin Assault](/jonin-assault), [Retribution Of God](/retribution-of-god), and [Wrath Of God](/wrath-of-god) events, as long as the [Player](/nameless) is an ally of the [United Cities](/united-cities) and [Emperor Tengu](/emperor-tengu) is alive and free, and the player is NOT an ally of the [Anti-Slavers](/anti-slavers), [Holy Nation](/the-holy-nation), or [Shek Kingdom](/shek-kingdom).
 

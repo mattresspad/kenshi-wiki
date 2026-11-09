@@ -20,7 +20,7 @@ infobox:
         - ["Loss Triggers","<strong>Jonin Assault</strong> 24-100 Hours, 20-40% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>For what you did to our comrade, you don't get the privilege of mercy...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Anti-Slaver</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>For what you did to our comrade, you don't get the privilege of mercy...</blockquote><figcaption>Anti-Slaver</figcaption></figure>
 
 **Jonin Assault** is a series of [Events](/events) that can trigger as a result of the [Player](/nameless) killing or capturing certain [Anti-Slavers](/anti-slavers) characters. There are technically three variants to this event, though one cannot trigger naturally thanks to a bug.
 

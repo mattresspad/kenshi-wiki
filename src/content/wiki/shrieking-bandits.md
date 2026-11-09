@@ -13,7 +13,7 @@ infobox:
         - ["Type","Bandit"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>AIYAAAAAAAAH! AIEEEEEE! FLOOOOOOOOOOP!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–- in game dialogue</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>AIYAAAAAAAAH! AIEEEEEE! FLOOOOOOOOOOP!</blockquote><figcaption>- in game dialogue</figcaption></figure>
 
 **Shrieking Bandits** are a hostile faction found in [The Shrieking Forest](/the-shrieking-forest), [Purple Sands](/purple-sands) and in the NW region of [The Cannibal Plains](/the-cannibal-plains). As their name implies, they are unintelligible, possibly due to chronic malnutrition and reduced mental capacity. However, the player can vocalize with some leaders in a series of grunts and gestures, possibly avoiding conflict (or instigating one if choosing the wrong one).
 

@@ -22,7 +22,7 @@ infobox:
         - ["Inventory","<a href=\"/advanced-first-aid-kit\">Advanced First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Didn't think we'd let you face the Holy Nation without us, did you?<p>We fight together, or we die together...</p><p>Good luck, my friends.</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Didn't think we'd let you face the Holy Nation without us, did you?<p>We fight together, or we die together...</p><p>Good luck, my friends.</p></blockquote></figure>
 
 **Yayoi** is a member of the [Flotsam Ninjas](/flotsam-ninjas).
 

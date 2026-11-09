@@ -1,6 +1,6 @@
 ---
 title: "Farmer Recruit"
-description: "–Shek, Greenlander, or Scorchlander, in town of United Cities"
+description: "Farmer Recruit is a randomly named Generic Recruit. They're looking for a farm to work, and they can be hired for c.6,000."
 source:
   title: "Farmer Recruit"
   revision: 94061
@@ -27,7 +27,7 @@ infobox:
         - ["String ID","53389-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Here to recruit?... Well, if you need a farmer look no further. I can turn a barren wasteland into a blooming oasis. Even managed twenty farms before they went to hell back in the Red Rebellion. I charge 6000 Cats if you're interested.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/shek">Shek</a>, <a href="/greenlander">Greenlander</a>, or <a href="/scorchlander">Scorchlander</a>, in town of <a href="/united-cities">United Cities</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Here to recruit?... Well, if you need a farmer look no further. I can turn a barren wasteland into a blooming oasis. Even managed twenty farms before they went to hell back in the Red Rebellion. I charge 6000 Cats if you're interested.</blockquote><figcaption><a href="/shek">Shek</a>, <a href="/greenlander">Greenlander</a>, or <a href="/scorchlander">Scorchlander</a>, in town of <a href="/united-cities">United Cities</a></figcaption></figure>
 
 **Farmer Recruit** is a randomly named [Generic Recruit](/generic-recruits). They're looking for a farm to work, and they can be hired for c.6,000.
 

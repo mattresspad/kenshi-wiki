@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Map of the United Cities (Extended Territories)"
+  image: "/icons/items/96158-rebirth.mod.png"
+  caption: "Shows the outland UC towns of the far south"
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.400"]
-        - ["Sell value","c.200"]
-        - ["Description","Shows the outland UC towns of the far south"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>96158-rebirth.mod</span>"]
 ---
 

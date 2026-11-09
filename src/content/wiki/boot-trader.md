@@ -19,7 +19,7 @@ infobox:
         - ["String ID","1034-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Looking to trade?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Boot Trader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Looking to trade?</blockquote><figcaption>Boot Trader</figcaption></figure>
 
 **Boot Traders** are unnamed shopkeepers of several factions: [Flotsam Ninjas](/flotsam-ninjas), [Mongrel](/mongrel-faction), [Tech Hunters](/tech-hunters), [United Cities](/united-cities) depending on which city their [Boot Shop](/boot-shop) is located.
 

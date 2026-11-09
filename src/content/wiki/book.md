@@ -7,13 +7,19 @@ source:
 categories: ["Items"]
 infobox:
   title: "Book"
+  image: "/icons/items/16855-nodes_otto1.mod.png"
+  caption: "A book from the University of Machinists. Everything they learn is compiled into books like this one in an attempt to teach others and improve the world."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","2x2 wide/tall"]
-        - ["Avg. Price","c.300"]
-        - ["Description","A book from the University of Machinists. Everything they learn is compiled into books like this one in an attempt to teach others and improve the world."]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x2"]
+        - ["Artifact","Yes"]
+    - heading: null
+      rows:
+        - ["String id","<span>16855-nodes_otto1.mod</span>"]
 ---
 
 **Book** is an [item](/items) and the most common of the [Research Artifacts](/research-artifacts) in Kenshi. It is used at a [Research Bench](/research-bench) for researching various [Technologies](/technology).

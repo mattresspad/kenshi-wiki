@@ -18,7 +18,7 @@ infobox:
         - ["String ID","48718-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I tell ya hounds, Big Gray, he's gettin' outta hand...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hound</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I tell ya hounds, Big Gray, he's gettin' outta hand...</blockquote><figcaption>Hound</figcaption></figure>
 
 **Big Gray** is the leader of one of the criminal gangs of [the Swamp](/the-swamp), the [Grayflayers](/grayflayers). Despite being a leader, he does not have [Diplomatic Status](/diplomatic-status). He can be found in [Grayflayer Village](/grayflayer-village).
 

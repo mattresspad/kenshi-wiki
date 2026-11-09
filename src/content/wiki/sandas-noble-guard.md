@@ -27,7 +27,7 @@ infobox:
         - ["String ID","43620-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Noble guardsmen, outta the way!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Noble procession</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Noble guardsmen, outta the way!</blockquote><figcaption>Noble procession</figcaption></figure>
 
 **Sanda's Noble Guards** are elite bodyguards of the [United Cities](/united-cities). They are found exclusively in [Lady Sanda's](/lady-sanda) retinue, in a group of 5 to 8.
 

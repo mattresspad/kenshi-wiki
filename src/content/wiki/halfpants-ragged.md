@@ -5,9 +5,25 @@ source:
   title: "Halfpants (ragged)"
   revision: 79826
 categories: ["Armour","Legwear","Clothing"]
+infobox:
+  title: "Halfpants (ragged)"
+  image: "/icons/items/551-gamedata.base.png"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","100%"]
+    - heading: null
+      rows:
+        - ["String id","<span>551-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Halfpants (ragged)</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.50</td></tr><tr><td>-Sell value</td><td>c.12</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td></tr></tbody></table>
 
 **Halfpants (Ragged)** are the base version for every other variant of Halfpants. Other variants of Halfpants include: [colored](/halfpants-colored), [padded](/halfpants-padded), [reinforced](/halfpants-reinforced), and [sneaky chain](/halfpants-sneaky-chain).
 
@@ -19,4 +35,4 @@ Halfpants are khaki colored trousers that have endured a lot of wear and tear. T
 
 ## Crafting
 
-Halfpants (ragged) can be crafted on a [Clothing Bench](/clothing-bench).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Halfpants (ragged) blueprint: 12 hours at tech level 1; the blueprint is worth c. 75.</li></ul></div>

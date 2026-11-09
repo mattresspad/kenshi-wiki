@@ -18,7 +18,7 @@ infobox:
         - ["FCS Name","Sho-Battai (override) malnourished"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I can't go on like this... I need food...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/samurai-gate-guard">Samurai Gate Guard</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I can't go on like this... I need food...</blockquote><figcaption><a href="/samurai-gate-guard">Samurai Gate Guard</a></figcaption></figure>
 
 **Sho-Battai** will become malnourished if [Lady Kana](/lady-kana) is killed or imprisoned while still under United Cities rule.
 

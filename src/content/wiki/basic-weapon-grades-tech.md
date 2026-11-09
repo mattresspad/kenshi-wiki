@@ -22,7 +22,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>One day we will have the greatest swordsmiths in the world and blades that can cut a man clean in half with a single cut. Today though, we will have rusted junk.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>One day we will have the greatest swordsmiths in the world and blades that can cut a man clean in half with a single cut. Today though, we will have rusted junk.</blockquote><figcaption>In-game Description</figcaption></figure>
 
 **Basic Weapon Grades** is [Smithing Tech](/smithing-tech) which unlocks better craftable grades. After researching this, these weapon models are automatically craftable to any characters with the required levels.
 

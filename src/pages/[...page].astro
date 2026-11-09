@@ -16,7 +16,7 @@ const { Content } = await render(article);
 ---
 
 <WikiLayout {title} {description} source={`src/content/wiki/${article.id}.md`} categories={shownCategories(categories)} showTitle>
-  {infobox && <Infobox title={infobox.title} groups={infobox.groups} />}
+  {infobox && <Infobox title={infobox.title} image={infobox.image} caption={infobox.caption} groups={infobox.groups} />}
   <Content />
   <FandomNotice title={source.title} revision={source.revision} />
 </WikiLayout>

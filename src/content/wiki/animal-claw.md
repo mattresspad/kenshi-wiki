@@ -7,12 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Animal Claw"
+  image: "/icons/items/42313-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","1x2"]
-        - ["Avg. Price","c.90"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","2x1"]
+    - heading: null
+      rows:
+        - ["String id","<span>42313-changes_otto.mod</span>"]
 ---
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>

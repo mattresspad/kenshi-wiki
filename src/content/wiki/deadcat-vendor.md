@@ -18,7 +18,7 @@ infobox:
         - ["String ID","50341-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Careful of the painted tribe, they roam outside the village and pick off any unfortunate travellers that stray too far from town... The goddamn monsters feed on their own kind, eat away at their victims piece by piece while keeping them prisoner in their lair. Be careful, if you see one, there'll be a hundred others following behind...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Deadcat Vendor warning</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Careful of the painted tribe, they roam outside the village and pick off any unfortunate travellers that stray too far from town... The goddamn monsters feed on their own kind, eat away at their victims piece by piece while keeping them prisoner in their lair. Be careful, if you see one, there'll be a hundred others following behind...</blockquote><figcaption>Deadcat Vendor warning</figcaption></figure>
 
 The **Deadcat Vendor** is a named member of the [Deadcat](/deadcat). They can be found in the [Deadcat Bar](/deadcat-bar) in the [Fishing Village](/fishing-village).
 
@@ -230,7 +230,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Shirt
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/white-vest">White Vest</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/cloth-shirt">Cloth Shirt</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/leather-vest">Leather Vest</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/1167-gamedata.base.png" alt="" width="40" height="40"> <a href="/white-vest">White Vest</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/1168-gamedata.base.png" alt="" width="40" height="40"> <a href="/cloth-shirt">Cloth Shirt</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2212-gamedata.base.png" alt="" width="40" height="40"> <a href="/leather-vest">Leather Vest</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Legwear
 

@@ -15,7 +15,7 @@ infobox:
         - ["Hostile towards","<a href=\"/swamp-ninjas\">Swamp Ninjas</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>These ones better have more loot on 'em than the last lot o' schmucks... Cut 'em down!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Red Sabre</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>These ones better have more loot on 'em than the last lot o' schmucks... Cut 'em down!</blockquote><figcaption>Red Sabre</figcaption></figure>
 
   
 The **Red Sabres** are a bandit group from [The Swamp](/the-swamp) led by their leader, [Red Sabre Boss](/red-sabre-boss). The **Red Sabres** can be found roaming in [The Swamp](/the-swamp) and the [South Wetlands](/south-wetlands). They also reside at their base, [Red Sabre Hideout](/red-sabre-hideout), located southwest in [the Swamp](/the-swamp) with their leader.

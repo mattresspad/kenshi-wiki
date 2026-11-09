@@ -7,15 +7,33 @@ source:
 categories: ["Weapons","Blunt"]
 infobox:
   title: "Iron Club"
+  image: "/icons/items/52295-rebirth.mod.png"
+  caption: "A basic iron stick with a wrapped handle."
   groups:
     - heading: null
       rows:
-        - ["Class","[Blunt weapon class]"]
-        - ["Blood loss","0.30x"]
+        - ["Class","<a href=\"/blunt-weapons\">Blunt</a>"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 80"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.10x"]
+        - ["Blunt damage","0.85x"]
+        - ["Bleed","0.30x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","+2"]
-        - ["Damage vs animals","-10%"]
         - ["Reach","18"]
-        - ["Description","A basic iron stick with a wrapped handle."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52295-rebirth.mod</span>"]
 ---
 
@@ -29,17 +47,9 @@ The ability to make these weapons is unlocked by researching [Basic Weapon Smith
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>2</td><td>2</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>2</td><td>2</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/basic-weapon-smithing-tech">Basic Weapon Smithing</a> research: 4 hours at tech level 1; costs <a href="/book">2 Books</a>.</li></ul></div>
+
 <table class="wikitable"><tbody><tr><td colspan="2" align="center" bgcolor="#322d2a"><a href="/basic-weapon-smithing-tech">Basic Weapon Smithing</a><b></b></td></tr><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">The starting point of crafting our own weapons.</td></tr><tr><td colspan="2" align="center"><hr></td></tr><tr><td><b>Research Level</b></td><td>1</td></tr><tr><td><b>Estimated Time</b></td><td>4 hours</td></tr><tr><td><b>Costs</b></td><td>2 <a href="/book">Books</a></td></tr><tr><td colspan="2" align="center" bgcolor="#322d2a"><b>Unlocks</b></td></tr><tr><td><b>New Buildings</b></td><td><a href="/weapon-smithing-bench">Weapon Smithing Bench</a></td></tr><tr><td><b>Ability to Make</b></td><td><strong>Iron Club</strong>, <a href="/staff">Staff</a></td></tr><tr><td><b>Ability to Research</b></td><td><a href="/basic-weapon-grades-tech">Basic Weapon Grades (Tech)</a></td></tr></tbody></table>
-
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Iron Club</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Iron Club</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Iron Club</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>
-
-  
 
 ## Blueprints
 

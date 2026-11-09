@@ -7,7 +7,7 @@ source:
 categories: ["Races"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Nonsense, let me handle those fish men...<p>I'm fluent in crustacean, you know.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/lumi">Lumi</a>, <a href="/fishman-island">Fishman Island</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Nonsense, let me handle those fish men...<p>I'm fluent in crustacean, you know.</p></blockquote><figcaption><a href="/lumi">Lumi</a>, <a href="/fishman-island">Fishman Island</a></figcaption></figure>
 
 **Fishman** is a [Race](/races) in Kenshi. This race is exclusively used for [Gurgler](/gurgler) characters. You can easily outrun them even if your athletics is low. They have the highest (5) swim speed multiplier in the game, however they are set to be unable to swim so they simply walk underwater at a speed of 6.711mph.
 

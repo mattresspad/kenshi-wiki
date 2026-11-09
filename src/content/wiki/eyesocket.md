@@ -70,7 +70,7 @@ Eyesocket (override) destroyed
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/eyesocket)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>With Eyesocket destroyed, the Grey desert is looking all clear. Now we have an easy path for attack.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/tinfist">Tinfist</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>With Eyesocket destroyed, the Grey desert is looking all clear. Now we have an easy path for attack.</blockquote><figcaption><a href="/tinfist">Tinfist</a></figcaption></figure>
 
 [Killing or kidnapping](/world-states) [Slave Master Grande](/slave-master-grande) causes Eyesocket to become ruined. All inhabitants are dead or missing in this override.
 

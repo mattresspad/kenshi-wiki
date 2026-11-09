@@ -1,6 +1,6 @@
 ---
 title: "Invincible Vengeance"
-description: "– The Five Invincibles War Leader (Esata captured but not killed)"
+description: "Invincible Vengeance Event occurs when Esata the Stone Golem is killed/imprisoned, and the player's outpost is in vicinity of a Shek Kingdom settlement."
 source:
   title: "Invincible Vengeance"
   revision: 94637
@@ -20,7 +20,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/enemy-hunt\">Enemy Hunt</a> 72-150 hours, 80% chance<p><a href=\"/shek-revenge\">Shek Revenge</a> 72-150 hours, 20-60% chance</p>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You defeated our leader, and denied her death in battle. You dishonor Sheks, you Dishonor all Sheks!</td><td>”</td></tr><tr><td colspan="3"><p><cite>– <a href="/the-five-invincibles">The Five Invincibles</a> War Leader (Esata captured but not killed)</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You defeated our leader, and denied her death in battle. You dishonor Sheks, you Dishonor all Sheks!</blockquote><figcaption><a href="/the-five-invincibles">The Five Invincibles</a> War Leader (Esata captured but not killed)</figcaption></figure>
 
 **Invincible Vengeance** [Event](/events) occurs when [Esata the Stone Golem](/esata-the-stone-golem) is killed/imprisoned, and the player's outpost is in vicinity of a [Shek Kingdom](/shek-kingdom) settlement.
 

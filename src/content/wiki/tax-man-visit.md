@@ -20,7 +20,7 @@ infobox:
         - ["Victory Triggers","<a href=\"/tax-collector\">Tax Collector</a> 96-120 Hours, 100% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You benefit from the trade routes and the protection of Empire guards. Benefitting from Empire services, farming from the earth of Empire land is, in essence, my boy, stealing from the Empire. So if you do not want to be treated as a thieving criminal I suggest you pay your contributions to the Empire. A weekly payment of 3000 Cats, a meager amount for anybody worth more than a farm dog...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Samurai Sergeant</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You benefit from the trade routes and the protection of Empire guards. Benefitting from Empire services, farming from the earth of Empire land is, in essence, my boy, stealing from the Empire. So if you do not want to be treated as a thieving criminal I suggest you pay your contributions to the Empire. A weekly payment of 3000 Cats, a meager amount for anybody worth more than a farm dog...</blockquote><figcaption>Samurai Sergeant</figcaption></figure>
 
 **Tax Man Visit** is an [Event](/events) sent by the [United Cities](/united-cities) that triggers if the player creates an outpost within 3,500 meters of their towns. It cannot trigger if the player is an ally of the [Anti-Slavers](/anti-slavers) or [United Cities](/united-cities), an enemy of the [United Cities](/united-cities), or if [Emperor Tengu](/emperor-tengu) is killed or captured.
 

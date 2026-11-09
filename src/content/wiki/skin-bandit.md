@@ -19,7 +19,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I spit mouth fluid for the skinless...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I spit mouth fluid for the skinless...</blockquote></figure>
 
 **Skin Bandits** are members of the [Skin Bandits](/skin-bandits) faction. They can be found in [Skinhouses](/skinhouse), [Skinhouse HQ](/skinhouse-hq), and in squads patrolling [Sonorous Dark](/sonorous-dark).
 

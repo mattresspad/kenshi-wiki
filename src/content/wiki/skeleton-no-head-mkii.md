@@ -7,7 +7,7 @@ source:
 categories: ["Races"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I had to thrall them all! Traitors siding with the humans! Treason!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/mad-cat-lon">Mad Cat-Lon</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I had to thrall them all! Traitors siding with the humans! Treason!</blockquote><figcaption><a href="/mad-cat-lon">Mad Cat-Lon</a></figcaption></figure>
 
 **Skeleton No-Head MkII,** or Thralls, are a [Race](/races) in Kenshi. They are a subrace of [Skeleton](/skeleton). There are no [Playable Characters](/playable-characters) which are of this race. Most Thralls are not able to speak intelligibly.
 

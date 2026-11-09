@@ -18,7 +18,7 @@ infobox:
         - ["String ID","56870-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Yeah, I smuggled in half the hash o' the Empire. Ain't no one can catch me!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Blue Eyes</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Yeah, I smuggled in half the hash o' the Empire. Ain't no one can catch me!</blockquote><figcaption>Blue Eyes</figcaption></figure>
 
 **Blue Eyes** is a wanted criminal in the UC who can be found in [Mourn](/mourn), likely in a bar. She frequently brags about her exploits, making it easy to notice her. In [The Swamp](/the-swamp), players can find [Note From Blue Eyes](/note-from-blue-eyes) in which she writes about making it to the swamps.
 

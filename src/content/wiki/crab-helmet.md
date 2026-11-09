@@ -6,25 +6,32 @@ source:
   revision: 93103
 categories: ["Armour","Headgear","Heavy Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Crab Helmet"
+  image: "/icons/items/64888-Newwworld.mod.png"
+  caption: "A very heavy iron hat. As with other eye-slit based helmets, it offers fantastic protection but you can't see a damn thing."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","12 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","3"]
-        - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
+        - ["Head","100% covered"]
+        - ["Extra blunt resistance","up to +10%"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
-        - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
+        - ["Combat skills","-5"]
+        - ["Cut into stun","15%"]
+        - ["Perception","-20"]
+        - ["Weather protection","60%"]
+    - heading: null
+      rows:
+        - ["String id","<span>64888-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A very heavy iron hat. As with other eye-slit based helmets, it offers fantastic protection but you can't see a damn thing.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 
 **Crab Helmet** is a Heavy Armour that is equipped in the Headgear slot. It is the headgear with the highest blunt resistance. Aside from the races that cannot wear helmets, it additionally cannot be worn by [Hive Worker Drones](/hive-worker-drone) and their [southern](/southern-hive-worker-drone) and [deadhive](/deadhive-worker) cousins. It can be crafted once a blueprint is purchased from the [Crab Raiders](/crab-raiders) and is part of a Crab Armour "set", together with [Crab Armour](/crab-armour) (body), [Crab Trousers](/crab-trousers) and [Crab Shoes](/crab-shoes).
 
@@ -36,17 +43,7 @@ The **Crab Helmet** appears to be a thick, metal Jingasa attached to a metal cyl
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Helmet</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>7.00%</td></tr><tr><td>-Cut resistance</td><td>17.50%</td></tr><tr><td>-Cut resistance efficiency</td><td>85%</td></tr><tr><td>-Harpoon resistance</td><td>9pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>60%</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Burning</td><td>60%</td></tr><tr><td>-Value</td><td>c.134</td></tr><tr><td>-Sell value</td><td>c.33</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Helmet</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>17.50%</td></tr><tr><td>-Cut resistance</td><td>28.75%</td></tr><tr><td>-Cut resistance efficiency</td><td>85%</td></tr><tr><td>-Harpoon resistance</td><td>22.5pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>60%</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Burning</td><td>60%</td></tr><tr><td>-Value</td><td>c.535</td></tr><tr><td>-Sell value</td><td>c.133</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Helmet</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>31.50%</td></tr><tr><td>-Cut resistance</td><td>43.75%</td></tr><tr><td>-Cut resistance efficiency</td><td>85%</td></tr><tr><td>-Harpoon resistance</td><td>40.5pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>60%</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Burning</td><td>60%</td></tr><tr><td>-Value</td><td>c.1,818</td></tr><tr><td>-Sell value</td><td>c.454</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Helmet</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>45.5%</td></tr><tr><td>-Cut resistance</td><td>58.75%</td></tr><tr><td>-Cut resistance efficiency</td><td>85%</td></tr><tr><td>-Harpoon resistance</td><td>58.5pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>60%</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Burning</td><td>60%</td></tr><tr><td>-Value</td><td>c.3,956</td></tr><tr><td>-Sell value</td><td>c.989</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Helmet</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>59.50%</td></tr><tr><td>-Cut resistance</td><td>73.75%</td></tr><tr><td>-Cut resistance efficiency</td><td>85%</td></tr><tr><td>-Harpoon resistance</td><td>76.5pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>60%</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Burning</td><td>60%</td></tr><tr><td>-Value</td><td>c.6,950</td></tr><tr><td>-Sell value</td><td>c.1,737</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Crab Helmet</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plates]</td></tr><tr><td>-Blunt resistance</td><td>70.00%</td></tr><tr><td>-Cut resistance</td><td>85.00%</td></tr><tr><td>-Cut resistance efficiency</td><td>85%</td></tr><tr><td>-Harpoon resistance</td><td>90pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>60%</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Burning</td><td>60%</td></tr><tr><td>-Value</td><td>c.9,757</td></tr><tr><td>-Sell value</td><td>c.2,439</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Heavy Armour Class · Metal Plates</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>7.00%</td><td>17.50%</td><td>31.50%</td><td>45.5%</td><td>59.50%</td><td>70.00%</td></tr><tr><th scope="row">Cut resistance</th><td>17.50%</td><td>28.75%</td><td>43.75%</td><td>58.75%</td><td>73.75%</td><td>85.00%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">85%</td></tr><tr><th scope="row">Harpoon resistance</th><td>9pts</td><td>22.5pts</td><td>40.5pts</td><td>58.5pts</td><td>76.5pts</td><td>90pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">6.25 kg</td></tr><tr><th scope="row">Value</th><td>c.134</td><td>c.535</td><td>c.1,818</td><td>c.3,956</td><td>c.6,950</td><td>c.9,757</td></tr><tr><th scope="row">Sell value</th><td>c.33</td><td>c.133</td><td>c.454</td><td>c.989</td><td>c.1,737</td><td>c.2,439</td></tr><tr><th colspan="7">Weather Protections</th></tr><tr><th scope="row">Duststorms</th><td colspan="6">60%</td></tr><tr><th scope="row">Acid</th><td colspan="6">60%</td></tr><tr><th scope="row">Burning</th><td colspan="6">60%</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">100%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Perception bonus</th><td colspan="6">-20</td></tr></tbody></table>
 
 ## Source
 
@@ -56,7 +53,7 @@ The **Crab Helmet** appears to be a thick, metal Jingasa attached to a metal cyl
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.2 required)</span></p></td><td><strong><span>Crab Helmet</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.2</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Crab Helmet blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,545.</li></ul></div>
 
 The blueprint can only be bought/stolen from a [Crabsmith](/crabsmith).
 

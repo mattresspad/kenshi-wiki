@@ -7,7 +7,7 @@ source:
 categories: ["Factions","Ninja"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>So, you want in on the Shinobi, eh? The guards try to lay the crackdown but they ain't fooling nobody, they're nothing. Nothing a few Cats can't handle.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/thief-boss">Thief Boss</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>So, you want in on the Shinobi, eh? The guards try to lay the crackdown but they ain't fooling nobody, they're nothing. Nothing a few Cats can't handle.</blockquote><figcaption><a href="/thief-boss">Thief Boss</a></figcaption></figure>
 
 The **Shinobi Thieves** are career criminals who act as thieves, fences and smugglers in the world of Kenshi. They are usually found in [bars](/bars) or residing inside [Thief watchtowers](/thieves-guild) within various factions (most notably [United Cities](/united-cities)<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>). They can also be occasionally found roaming the wilderness. Their characters are composed mostly of [Scorchlanders](/scorchlander), with a significant proportion of [Hivers](/hive).
 

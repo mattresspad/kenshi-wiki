@@ -17,7 +17,7 @@ infobox:
         - ["String ID","56888-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Ohhoho! Like a fly caught in a web! What we got here?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Ohhoho! Like a fly caught in a web! What we got here?</blockquote></figure>
 
 **Dimak** is one of the leaders of the [Black Dragon Ninjas](/black-dragon-ninjas), wielding a [Meitou](/meitou) Ninja Blade. She can be found in the [Tower Of Ninjas](/tower-of-ninjas) alongside [Buzan](/buzan) and many [Black Dragon Genin](/black-dragon-genin). She is the only Shek in her faction.
 

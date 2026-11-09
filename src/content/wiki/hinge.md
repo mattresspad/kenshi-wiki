@@ -7,12 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Hinge"
+  image: "/icons/items/43396-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","3x2"]
-        - ["Avg. Price","c.81"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>43396-changes_otto.mod</span>"]
 ---
 
 A **Hinge** is an [item](/items) used in the construction of [Junkbows](/junkbow) and [Crossbow Parts](/crossbow-parts). The item is also used in constructing [Locksmith Training Boxes](/locksmith-training-box).
@@ -34,3 +39,7 @@ They are made at the [Arrow Making Bench](/arrow-making-bench) and the [Robotics
   
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/robotics-bench">Robotics Bench</a><br><a href="/arrow-making-bench">Arrow Making Bench </a><br>Engineering Bench</th></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>0.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/crossbow-bolts-tech">Crossbow Bolts</a> research: 6 hours at tech level 2; costs <a href="/book">6 Books</a>.</li></ul></div>

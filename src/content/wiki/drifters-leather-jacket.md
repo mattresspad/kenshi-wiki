@@ -6,23 +6,33 @@ source:
   revision: 86642
 categories: ["Armour","Body Armour","Light Armour"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Drifters Leather Jacket"
+  image: "/icons/items/2304-clothes_v1.mod.png"
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","2"]
-        - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
+        - ["Left Arm","90% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","25% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra blunt resistance","up to +5%"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
-        - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+        - ["Defence","+5"]
+        - ["Cut into stun","30%"]
+        - ["Ranged skill","1.10x"]
+    - heading: null
+      rows:
+        - ["String id","<span>2304-clothes_v1.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4"><i>This item has no description.</i></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Drifter's Leather Jacket** is a Light Armour that is equipped in the Body Armour slot.
 
@@ -34,17 +44,7 @@ Drifter's Leather Jacket is a black leather jacket with the right sleeve cut off
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Leather Jacket</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>3.3%</td></tr><tr><td>-Cut resistance</td><td>4.4%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>3.5pts</td></tr><tr><td>-Weight</td><td>4.5625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.98</td></tr><tr><td>-Sell value</td><td>c.24</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>25%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Melee defence bonus</td><td>+5</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Leather Jacket</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>8.25%</td></tr><tr><td>-Cut resistance</td><td>11%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>8.75pts</td></tr><tr><td>-Weight</td><td>4.5625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.500</td></tr><tr><td>-Sell value</td><td>c.125</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>25%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Melee defence bonus</td><td>+5</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Leather Jacket</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>14.85%</td></tr><tr><td>-Cut resistance</td><td>19.8%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>15.75pts</td></tr><tr><td>-Weight</td><td>4.5625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,788</td></tr><tr><td>-Sell value</td><td>c.447</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>25%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Melee defence bonus</td><td>+5</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Leather Jacket</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>21.45%</td></tr><tr><td>-Cut resistance</td><td>28.6%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>22.75pts</td></tr><tr><td>-Weight</td><td>4.5625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.3,933</td></tr><tr><td>-Sell value</td><td>c.983</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>25%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Melee defence bonus</td><td>+5</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Leather Jacket</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>28.05%</td></tr><tr><td>-Cut resistance</td><td>37.4%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>29.75pts</td></tr><tr><td>-Weight</td><td>4.5625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.6,937</td></tr><tr><td>-Sell value</td><td>c.1,734</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>25%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Melee defence bonus</td><td>+5</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Leather Jacket</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>33%</td></tr><tr><td>-Cut resistance</td><td>44%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>35pts</td></tr><tr><td>-Weight</td><td>4.5625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.9,753</td></tr><tr><td>-Sell value</td><td>c.2,438</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>25%</td></tr><tr><td>-Left Arm</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>1.10x</td></tr><tr><td>-Precision shooting effect</td><td>1.10x</td></tr><tr><td>-Melee defence bonus</td><td>+5</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>3.3%</td><td>8.25%</td><td>14.85%</td><td>21.45%</td><td>28.05%</td><td>33%</td></tr><tr><th scope="row">Cut resistance</th><td>4.4%</td><td>11%</td><td>19.8%</td><td>28.6%</td><td>37.4%</td><td>44%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">70%</td></tr><tr><th scope="row">Harpoon resistance</th><td>3.5pts</td><td>8.75pts</td><td>15.75pts</td><td>22.75pts</td><td>29.75pts</td><td>35pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">4.5625 kg</td></tr><tr><th scope="row">Value</th><td>c.98</td><td>c.500</td><td>c.1,788</td><td>c.3,933</td><td>c.6,937</td><td>c.9,753</td></tr><tr><th scope="row">Sell value</th><td>c.24</td><td>c.125</td><td>c.447</td><td>c.983</td><td>c.1,734</td><td>c.2,438</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">100%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">100%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">25%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">90%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Crossbows effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Precision shooting effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Melee defence bonus</th><td colspan="6">+5</td></tr></tbody></table>
 
 ## Source
 
@@ -54,13 +54,7 @@ Drifter's Leather Jacket is a black leather jacket with the right sleeve cut off
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Leather Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.73 required)</span></p></td><td><strong><span>Drifters Leather Jacket</span></strong><div></div></td></tr><tr><td><a href="/leather"><span>Leather</span></a><div></div><p><span>(3.65 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Drifter's Leather Jacket<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>4,470</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,117</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Drifter's Leather Jacket</td></tr></tbody></table>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.73</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>3.65</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Drifter's Leather Jacket blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,470.</li></ul></div>
 
 ## Trivia
 

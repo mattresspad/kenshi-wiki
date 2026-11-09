@@ -22,7 +22,7 @@ infobox:
         - ["String ID","95514-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>POLICE!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>POLICE!</blockquote></figure>
 
 **ErrorCode 0x000000** are defective Skeletons. They can be found in [Dead Fishing Village](/dead-fishing-village) and [Police Barracks](/police-barracks). Upon seeing the player, they will attack the player whilst simultaneously shouting "police!". They are members of the [Old Machines](/old-machines) faction.
 

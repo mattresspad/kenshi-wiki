@@ -20,7 +20,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/elite-hunter-assault\">Elite Hunter Assault</a> 24-72 hours,  0-40% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Rrrrh... Kill... Eyegore... Kill! Rrrrrrh!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Eyegore</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Rrrrh... Kill... Eyegore... Kill! Rrrrrrh!</blockquote><figcaption>Eyegore</figcaption></figure>
 
 **Eyegore's Assault** (also shown in-game as "Eyegore Assault" instead) is an [Event](/events) that can trigger if the player has killed or kidnapped [Emperor Tengu](/emperor-tengu), [Longen](/longen), or as a retaliation for defeating the [Elite Hunter Assault](/elite-hunter-assault) event.
 

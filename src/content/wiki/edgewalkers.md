@@ -7,7 +7,7 @@ source:
 categories: ["Manufacturers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Edgewalkers were a group of smiths from the old fallen empire hundreds of years ago. Little is known about them except that their weapons have survived these hundreds of years in near-perfect condition and their quality is unrivalled by anything crafted in the modern age.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Edgewalkers were a group of smiths from the old fallen empire hundreds of years ago. Little is known about them except that their weapons have survived these hundreds of years in near-perfect condition and their quality is unrivalled by anything crafted in the modern age.</blockquote><figcaption>In-game description</figcaption></figure>
 
 The **Edgewalkers** were an ancient weapon manufacturer.
 

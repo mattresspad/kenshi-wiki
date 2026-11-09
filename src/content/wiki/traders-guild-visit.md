@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You are building a potential trade hub within Traders Guild jurisdiction, as such you are classed as a rival merchant and are subject to rates and protection. Refusal to engage in diplomatic relations will be considered an act of hostility!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–TG Diplomat</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You are building a potential trade hub within Traders Guild jurisdiction, as such you are classed as a rival merchant and are subject to rates and protection. Refusal to engage in diplomatic relations will be considered an act of hostility!</blockquote><figcaption>TG Diplomat</figcaption></figure>
 
 **Traders Guild Visit** is an [Event](/events) that can trigger if the player lives within 5,000 meters of [Trader's Edge](/traders-edge). It cannot trigger if the player is an ally of the [Anti-Slavers](/anti-slavers) or [Traders Guild](/traders-guild), an enemy of the [Hounds](/hounds), or if [Longen](/longen) or [Lady Kana](/lady-kana) have been killed or captured.
 

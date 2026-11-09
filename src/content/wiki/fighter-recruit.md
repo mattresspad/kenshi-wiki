@@ -1,6 +1,6 @@
 ---
 title: "Fighter Recruit"
-description: "–Honorable Personality, Greenlander, Shek, or Skeleton"
+description: "Fighter Recruit is a randomly named Generic Recruit. They are a person looking for work. They can be hired for c.7,500."
 source:
   title: "Fighter Recruit"
   revision: 93682
@@ -27,7 +27,7 @@ infobox:
         - ["String ID","1776-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>In life, choice defines. I had a choice once, it weighed as much as a kingdom, balanced at the tip of my sword. A Holy Prince, just one small life. I sat with the sleeping boy for an hour, maybe more. Still, I couldn't do it.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Honorable Personality, Greenlander, Shek, or Skeleton</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>In life, choice defines. I had a choice once, it weighed as much as a kingdom, balanced at the tip of my sword. A Holy Prince, just one small life. I sat with the sleeping boy for an hour, maybe more. Still, I couldn't do it.</blockquote><figcaption>Honorable Personality, Greenlander, Shek, or Skeleton</figcaption></figure>
 
 **Fighter Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a person looking for work. They can be hired for c.7,500.
 

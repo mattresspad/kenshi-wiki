@@ -21,7 +21,7 @@ infobox:
         - ["Footwear","<a href=\"/wooden-sandals\">Wooden Sandals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Stickin' it... to the Empire... Fuck... Tengu...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hex, when asked what she's in for</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Stickin' it... to the Empire... Fuck... Tengu...</blockquote><figcaption>Hex, when asked what she's in for</figcaption></figure>
 
 **Hex** is an [Outlaw](/outlaw) being held prisoner in [Tengu's Vault](/tengus-vault). She has a c.25,000 [Bounty](/bounty). She has the Brave [Personality](/personality).
 

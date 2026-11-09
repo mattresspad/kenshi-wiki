@@ -7,7 +7,7 @@ source:
 categories: ["Technology"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Because knowledge is a valuable thing in this world. Someone has to try and protect it and spread it around.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/bookshop-trader">Bookshop Trader</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Because knowledge is a valuable thing in this world. Someone has to try and protect it and spread it around.</blockquote><figcaption><a href="/bookshop-trader">Bookshop Trader</a></figcaption></figure>
 
 ## Tech Level 1
 

@@ -23,7 +23,7 @@ infobox:
         - ["String ID","41370-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You look like someone who can appreciate a good wall.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You look like someone who can appreciate a good wall.</blockquote></figure>
 
 **Wall Man** is a randomly named [Unique Recruit](/unique-recruits). This guy absolutely loves walls and wants to build 'em for you. They can be hired for 5,000 Cats.
 

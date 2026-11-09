@@ -22,6 +22,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Serious armour needs solid buggerin' plates of steel stuck on to it.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Serious armour needs solid buggerin' plates of steel stuck on to it.</blockquote><figcaption>In-game Description</figcaption></figure>
 
 **Plate Armour Crafting** is [Smithing Tech](/smithing-tech) which allows the player to construct a [Heavy Armour Smithy](/heavy-armour-smithy) and a [Plate Beating Station](/plate-beating-station).

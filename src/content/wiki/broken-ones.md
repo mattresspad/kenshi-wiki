@@ -7,7 +7,7 @@ source:
 categories: ["Factions"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Defend the Master</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/error-code-0xffffff">Error Code 0xFFFFFF</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Defend the Master</blockquote><figcaption><a href="/error-code-0xffffff">Error Code 0xFFFFFF</a></figcaption></figure>
 
 The **Broken Ones** are a [Faction](/factions) of broken [Soldierbots](/soldierbot). They can be found in the [Reprogramming Workshop](/reprogramming-workshop) located in the north-east section of the [Deadlands](/deadlands). Currently, this faction can only be found in this workshop.
 

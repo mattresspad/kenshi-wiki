@@ -24,7 +24,7 @@ infobox:
         - ["String ID","43976-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Dare you engage the might of Infinite Wingwang? Dare you?!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Dare you engage the might of Infinite Wingwang? Dare you?!</blockquote></figure>
 
 **Infinite Wingwang** is a [Greenlander](/human) male that can be found in a [bar](/bars) at the town of [Mongrel](/mongrel). He was the very first [Unique Recruit](/unique-recruits) and has been around since the very [early builds of the game](/sword-for-hire). If talked to, he will offer himself up for hire for c.100,000. There are multiple paths you can take down through his dialog, and you can bargain his cost down to c.5,000.
 

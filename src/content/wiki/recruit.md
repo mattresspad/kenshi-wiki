@@ -21,7 +21,7 @@ infobox:
         - ["String ID","1370-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Need a sword? I can be your sword... or whatever else you want me to be...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/greenlander">Greenlander</a> or <a href="/shek">Shek</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Need a sword? I can be your sword... or whatever else you want me to be...</blockquote><figcaption><a href="/greenlander">Greenlander</a> or <a href="/shek">Shek</a></figcaption></figure>
 
 **Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a person looking for work. They can be hired for c.3,000.
 

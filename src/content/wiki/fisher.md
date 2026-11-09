@@ -1,13 +1,13 @@
 ---
 title: "Fisher"
-description: "–dialogue said in a location controlled by Fisher after Tinfist's death"
+description: "Fisher is a faction. There are no characters which belong to this faction. At Dead Fishing Village, the only location controlled by this faction, all residen…"
 source:
   title: "Fisher"
   revision: 77103
 categories: ["Factions"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>That rain storm we had...<br>I swear it was the skies mourning Tinfist...<br>Ancient old hero of the world, gone forever...<br>Time's are dark. Dark, dark, dark...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–dialogue said in a location controlled by Fisher after <a href="/tinfist">Tinfist</a>'s death</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>That rain storm we had...<br>I swear it was the skies mourning Tinfist...<br>Ancient old hero of the world, gone forever...<br>Time's are dark. Dark, dark, dark...</blockquote><figcaption>dialogue said in a location controlled by Fisher after <a href="/tinfist">Tinfist</a>'s death</figcaption></figure>
 
 **Fisher** is a faction. There are no characters which belong to this faction. At Dead Fishing Village, the only location controlled by this faction, all residents belong to the faction [Old Machines](/old-machines).
 

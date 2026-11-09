@@ -18,7 +18,7 @@ infobox:
         - ["String ID","1362-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Nice shitpost you got here...<p>Bet the loot's even nicer though...</p><p>Gut the place!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Black Dragon Genins raiding</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Nice shitpost you got here...<p>Bet the loot's even nicer though...</p><p>Gut the place!</p></blockquote><figcaption>Black Dragon Genins raiding</figcaption></figure>
 
 **Black Dragon Genin** are the standard members of the [Black Dragon Ninjas](/black-dragon-ninjas) faction. Their title of "Genin" translates to "low ninja' or "junior ninja".
 

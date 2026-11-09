@@ -19,7 +19,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/hive-eviction\">Hive Eviction</a> 24-48 Hours, 70% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Neigh... bour? Not neighbours... Intruders! We don't like stone walls! Not in King's valley! Get out! Greeee!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Prince</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Neigh... bour? Not neighbours... Intruders! We don't like stone walls! Not in King's valley! Get out! Greeee!</blockquote><figcaption>Prince</figcaption></figure>
 
 **Southern Hive Visit** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 1,500 meters of a [Southern Hive](/southern-hive) owned location. It has a 40% chance to trigger each day if within 1,300 meters, this chance scales down with distance until it reaches 0% chance at 1,500 meters. It cannot trigger if the [Queen of the South](/queen-of-the-south) has been killed or captured.
 

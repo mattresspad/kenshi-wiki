@@ -7,7 +7,7 @@ source:
 categories: ["Races","Southern Hive","Hivers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Y'know they got [<a href="/eyegore">Eyegore</a>] from the southern hives. Whole new breed of stick man, those southerners...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Bar Patron, <a href="/united-cities">United Cities</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Y'know they got [<a href="/eyegore">Eyegore</a>] from the southern hives. Whole new breed of stick man, those southerners...</blockquote><figcaption>Bar Patron, <a href="/united-cities">United Cities</a></figcaption></figure>
 
 **Southern Hive Soldier Drones** are a [Race](/races) in Kenshi. They are a subrace of the Southern [Hive](/hive).
 

@@ -21,6 +21,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This crazy design could fire 6 shots in rapid succession, although it would probably sacrifice some power and accuracy.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This crazy design could fire 6 shots in rapid succession, although it would probably sacrifice some power and accuracy.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Revolving-Barrel Harpoon Turret** is [Defense Tech](/defense-tech) which unlocks the ability to construct a new type of [Turret](/turrets).

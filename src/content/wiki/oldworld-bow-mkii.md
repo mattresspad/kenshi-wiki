@@ -7,11 +7,24 @@ source:
 categories: ["Crossbows"]
 infobox:
   title: "Oldworld Bow MkII"
+  image: "/icons/items/53643-rebirth.mod.png"
+  caption: "A more advanced version than the MkI, it's more complicated to use and unskilled users have a hard time reloading smoothly.  For the experienced archer however it's one of the best long-range weapons available."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Class","Crossbow"]
-        - ["Ammunition type","Bolts [Regulars]"]
+        - ["Class","<a href=\"/crossbows\">Crossbow</a>"]
+        - ["Weight","7.5 kg"]
+        - ["Base value","c. 2,500 → c. 28,000"]
+        - ["Ammunition","Bolts [Regulars]"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat (range across grades)"
+      rows:
+        - ["Reload time","4–8 s → 2.2–6.5 s"]
+        - ["Spread at skill 0","4 → 2.2"]
+        - ["Perfect aim at skill","80"]
+    - heading: null
+      rows:
+        - ["String id","<span>53643-rebirth.mod</span>"]
 ---
 
 **Oldworld Bow MkII** is a [Crossbow](/crossbows) that uses [Bolts \[Regulars\]](/bolts-regulars). A less-advanced version of this design is the [Oldworld Bow MkI](/oldworld-bow-mki), which is faster to load for lower level characters.
@@ -31,6 +44,8 @@ infobox:
 <table class="wikitable"><tbody><tr><td colspan="2" align="left">Oldworld Bow MkII</td></tr><tr><td colspan="2"><span>[Masterwork]</span></td></tr><tr><td colspan="2">[Crossbow Class]</td></tr><tr><td>-Damage:</td><td>57.5-76.575</td></tr><tr><td>-Accuracy deviation:</td><td>2.29 degrees</td></tr><tr><td>-Reload time:</td><td>2.29-6.57s</td></tr><tr><td>-Range:</td><td>118m</td></tr><tr><td>-Velocity:</td><td>136.85m/s</td></tr><tr><td>-Blood loss:</td><td>1.00x</td></tr><tr><td>-Required skill:</td><td>80</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Ammunition type:</td><td>Bolts [Regulars]</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>7.5 kg</td></tr><tr><td>-Value</td><td>c.25,513</td></tr><tr><td>-Trade Value</td><td>c.6,378</td></tr></tbody></table>
 
 ## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/crossbow-crafting-bench">Crossbow Crafting Bench</a></th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>6</td></tr><tr><th scope="row"><a href="/crossbow-parts">Crossbow Parts</a></th><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Oldworld Bow MkII blueprint: 12 hours at tech level 1; the blueprint is worth c. 9,868.</li></ul></div>
 
 The blueprint for this weapon can be found at the [Scraphouse](/scraphouse).
 

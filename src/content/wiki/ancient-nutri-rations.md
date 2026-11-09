@@ -7,14 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Ancient Nutri-Rations"
+  image: "/icons/items/62173-rebirth.mod.png"
+  caption: "An ancient food ration that must be thousands of years old.  It's a sealed container that contains a dense cake that's surprisingly filling.  It's covered in printed writing and symbols that you don't recognise."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","125 nu"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","2x2"]
-        - ["Avg. Price","c.1,143"]
-        - ["Description","An ancient food ration that must be thousands of years old.  It's a sealed container that contains a dense cake that's surprisingly filling.  It's covered in printed writing and symbols that you don't recognise."]
+        - ["Base value","c. 3,000"]
+        - ["Size in inventory","2x2"]
+        - ["Nutrition","125 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>62173-rebirth.mod</span>"]
 ---
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>

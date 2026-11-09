@@ -21,4 +21,4 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Sake is a traditional Swamper's drink, but also very popular in the United Cities. Alcohol production is often a good source of income.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-Game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Sake is a traditional Swamper's drink, but also very popular in the United Cities. Alcohol production is often a good source of income.</blockquote><figcaption>In-Game Description</figcaption></figure>

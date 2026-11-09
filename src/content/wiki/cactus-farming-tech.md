@@ -21,7 +21,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A crop suitable for dry environments.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A crop suitable for dry environments.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Cactus Farming** is [Farming Tech](/farming-tech) which allows you to build a [cactus farm](/cactus-farm).
 

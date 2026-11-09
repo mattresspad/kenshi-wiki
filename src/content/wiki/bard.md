@@ -18,7 +18,7 @@ infobox:
         - ["String ID","41325-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Tell ya what, I'll sing ya a song. AHEM. MMMmmm- chmmmm...On second thought, pay my 3000 cat tab and I'll sing you tales till the sun stops setting. Know all the good ones and got a voice worth writing songs about! Ha!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Tell ya what, I'll sing ya a song. AHEM. MMMmmm- chmmmm...On second thought, pay my 3000 cat tab and I'll sing you tales till the sun stops setting. Know all the good ones and got a voice worth writing songs about! Ha!</blockquote></figure>
 
 **Bard** is a [Unique Recruit](/unique-recruits) belonging to the [Drifters](/drifters) that can be potentially found in the [Bars](/bar) of multiple areas, including all [Holy Nation](/the-holy-nation) towns ([Stack](/stack), [Bad Teeth](/bad-teeth), [Blister Hill](/blister-hill)) and many [Tech Hunters](/tech-hunters) settlements ([Waystations](/waystation), [World's End](/worlds-end), [Flats Lagoon](/flats-lagoon), [Black Scratch](/black-scratch)).
 

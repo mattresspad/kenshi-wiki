@@ -18,7 +18,7 @@ infobox:
         - ["String ID","2608-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Hrmph. Whatever your business here, make it quick, <a href="/flatskins">flatskin</a>.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hundred Guardian</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Hrmph. Whatever your business here, make it quick, <a href="/flatskins">flatskin</a>.</blockquote><figcaption>Hundred Guardian</figcaption></figure>
 
 **Admag** is the capital of the [Shek Kingdom](/shek-kingdom), this is a place where the overwhelming vast majority of [Shek](/shek) inside their nation reside<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup>.
 

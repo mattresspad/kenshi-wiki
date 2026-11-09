@@ -22,7 +22,7 @@ infobox:
         - ["String ID","41348-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>All that work, the training, the toil, and master says to lay down my sword. These hands were made for killing. He means to waste my time!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>All that work, the training, the toil, and master says to lay down my sword. These hands were made for killing. He means to waste my time!</blockquote></figure>
 
 **Soldier Drone Swordslinger** is a randomly named [Unique Recruit](/unique-recruits). They were expelled by their "master" for taking food back from thieves. They can be hired for c.7,500.
 

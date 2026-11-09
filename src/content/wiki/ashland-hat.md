@@ -6,23 +6,31 @@ source:
   revision: 93935
 categories: ["Armour","Headgear","Clothing"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Ashland Hat"
+  image: "/icons/items/55393-rebirth.mod.png"
+  caption: "The strange hat and stormgoggles of the Ashland drifters, strange individuals who have allegedly ventured into the Ashlands and returned, for reasons unknown."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 800"]
+        - ["Size in inventory","3x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","2"]
-        - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
+        - ["Head","80% covered"]
+        - ["Pierce resistance","0.20x"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
-        - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+        - ["Cut into stun","50%"]
+        - ["Perception","+4"]
+        - ["Weather protection","50%"]
+    - heading: null
+      rows:
+        - ["String id","<span>55393-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">The strange hat and stormgoogles of the Ashland drifters, strange individuals who have allegedly ventured into the Ashlands and returned, for reason unknown.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 The **Ashland Hat** is Clothing that is equipped in the Headgear slot. It is a slightly armored version of the [Ashlander Stormgoggles](/ashlander-stormgoggles), but with much less protection for Duststorms but a gain of protection for Acid weather.
 
@@ -34,17 +42,7 @@ This armour has inventory dimensions of **3x4**.
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Ashland Hat</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td></td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>0%</td></tr><tr><td>-Cut resistance</td><td>1%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Weight</td><td>1.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>50%</td></tr><tr><td>-Acid</td><td>50%</td></tr><tr><td>-Value</td><td>c.11</td></tr><tr><td>-Sell value</td><td>c.2</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Ashland Hat</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td></td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>0%</td></tr><tr><td>-Cut resistance</td><td>4%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>1pts</td></tr><tr><td>-Weight</td><td>1.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>50%</td></tr><tr><td>-Acid</td><td>50%</td></tr><tr><td>-Value</td><td>c.44</td></tr><tr><td>-Sell value</td><td>c.11</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Ashland Hat</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td></td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>1%</td></tr><tr><td>-Cut resistance</td><td>8%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>2pts</td></tr><tr><td>-Weight</td><td>1.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>50%</td></tr><tr><td>-Acid</td><td>50%</td></tr><tr><td>-Value</td><td>c.151</td></tr><tr><td>-Sell value</td><td>c.37</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Ashland Hat</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td></td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>2%</td></tr><tr><td>-Cut resistance</td><td>13%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>4pts</td></tr><tr><td>-Weight</td><td>1.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>50%</td></tr><tr><td>-Acid</td><td>50%</td></tr><tr><td>-Value</td><td>c.329</td></tr><tr><td>-Sell value</td><td>c.82</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Ashland Hat</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td></td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>3%</td></tr><tr><td>-Cut resistance</td><td>17%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>5pts</td></tr><tr><td>-Weight</td><td>1.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>50%</td></tr><tr><td>-Acid</td><td>50%</td></tr><tr><td>-Value</td><td>c.579</td></tr><tr><td>-Sell value</td><td>c.144</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Ashland Hat</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td></td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>3%</td></tr><tr><td>-Cut resistance</td><td>20%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>6pts</td></tr><tr><td>-Weight</td><td>1.25 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>50%</td></tr><tr><td>-Acid</td><td>50%</td></tr><tr><td>-Value</td><td>c.813</td></tr><tr><td>-Sell value</td><td>c.203</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Perception bonus</td><td>+4</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>0%</td><td>0%</td><td>1%</td><td>2%</td><td>3%</td><td>3%</td></tr><tr><th scope="row">Cut resistance</th><td>1%</td><td>4%</td><td>8%</td><td>13%</td><td>17%</td><td>20%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">50%</td></tr><tr><th scope="row">Harpoon resistance</th><td>–</td><td>1pts</td><td>2pts</td><td>4pts</td><td>5pts</td><td>6pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">1.25 kg</td></tr><tr><th scope="row">Value</th><td>c.11</td><td>c.44</td><td>c.151</td><td>c.329</td><td>c.579</td><td>c.813</td></tr><tr><th scope="row">Sell value</th><td>c.2</td><td>c.11</td><td>c.37</td><td>c.82</td><td>c.144</td><td>c.203</td></tr><tr><th colspan="7">Weather Protections</th></tr><tr><th scope="row">Duststorms</th><td colspan="6">50%</td></tr><tr><th scope="row">Acid</th><td colspan="6">50%</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">80%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Perception bonus</th><td colspan="6">+4</td></tr></tbody></table>
 
 ## Source
 
@@ -54,13 +52,7 @@ This armour has inventory dimensions of **3x4**.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Leather Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.16 required)</span></p></td><td><strong><span>Ashland Hat</span></strong><div></div></td></tr><tr><td><a href="/leather"><span>Leather</span></a><div></div><p><span>(0.8 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Ashland Hat<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>377</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>94</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Ashland Hat</td></tr></tbody></table>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.16</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>0.8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Ashland Hat blueprint: 12 hours at tech level 1; the blueprint is worth c. 378.</li></ul></div>
 
 ## Trivia
 

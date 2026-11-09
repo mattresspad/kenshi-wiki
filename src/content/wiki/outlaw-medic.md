@@ -27,7 +27,7 @@ infobox:
         - ["String ID","15255-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Nothing personal, pal, but my skills are valuable and I ain't joining some penniless chump. So, are you worth something or are you just a nobody?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Nothing personal, pal, but my skills are valuable and I ain't joining some penniless chump. So, are you worth something or are you just a nobody?</blockquote></figure>
 
 **Outlaw Medic** is a randomly named [Generic Recruit](/generic-recruits). They are a medic looking for work. They can be hired for c.6,000.
 

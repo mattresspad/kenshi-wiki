@@ -5,11 +5,30 @@ source:
   title: "Steady Arm (left)"
   revision: 86329
 categories: ["Robot Limbs"]
+infobox:
+  title: "Steady Arm (left)"
+  image: "/icons/items/95871-rebirth.mod.png"
+  caption: "A well maintained piece of machinery, this arm has been carefully customised and upgraded by its previous owner.  The motor seems like a completely different unit and there's some kind of AI thralled into a feedback unit that provides adaptive stabilisation."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/robot-limbs\">Left arm</a>"]
+        - ["Weight","10 kg"]
+        - ["Base value","c. 4,000 → c. 28,000"]
+        - ["Size in inventory","6x2"]
+    - heading: "Stats (range across grades)"
+      rows:
+        - ["HP","50 → 150"]
+        - ["Strength","0.75x → 1.00x"]
+        - ["Dexterity","0.75x → 1.20x"]
+        - ["Swimming","0.60x → 0.75x"]
+        - ["Thievery","0.75x → 1.00x"]
+        - ["Ranged","0.75x → 1.25x"]
+    - heading: null
+      rows:
+        - ["String id","<span>95871-rebirth.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A well maintained piece of machinery, this arm has been carefully customised and upgraded by its previous owner. The motor seems like a completely different unit and there's some kind of AI thralled into a feedback unit that provides adaptive stabilisation.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 Steady Arm (left) is a [Robot Limb](/robot-limbs), and a replacement for a lost left arm. This is the only robot limb that boosts [Crossbows](/crossbows), so it is ideal for rangers.
 
 Since there are only left-handed Steady Arms, and only right-handed [Thief's Arms](/thiefs-arm-right), these two arms synergize well together. They both increase [Dexterity](/dexterity), and do not lower any [Statistics](/statistics) that the other arm raises.
@@ -34,4 +53,4 @@ Since there are only left-handed Steady Arms, and only right-handed [Thief's Arm
 
 ## Crafting
 
-Cannot be crafted.
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table></div>

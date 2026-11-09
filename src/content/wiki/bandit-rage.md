@@ -15,7 +15,7 @@ infobox:
         - ["Victory Triggers","<a href=\"/bandit-demands\">Bandit Demands</a> 40-50 Hours, 100% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I AM SERIOUSLY PISSED! You bastards are gonna be sorry you stabbed me in the face!! Ain't nobody does that to the Dust Bandits and gets away! GET 'EM!!!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Dust Boss</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I AM SERIOUSLY PISSED! You bastards are gonna be sorry you stabbed me in the face!! Ain't nobody does that to the Dust Bandits and gets away! GET 'EM!!!</blockquote><figcaption>Dust Boss</figcaption></figure>
 
 **Bandit Rage** is an [Event](/events) that can trigger in response to stabbing the [Dust Boss](/dust-boss) War Leader during dialog in the [Bandit Demands](/bandit-demands) event.
 

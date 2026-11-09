@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>GLURRRGH!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Gurgler</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>GLURRRGH!</blockquote><figcaption>Gurgler</figcaption></figure>
 
 **Coast Raid** is an [Event](/events) that is supposed to trigger if the [Player](/nameless) has a base within 5,000 meters of a [Fishmen](/fishmen) owned location. It has a 15% chance to trigger each day if within 3,500 meters, this chance scales down with distance until it reaches 0% at 5,000 meters. The event cannot trigger if the [King Gurgler](/king-gurgler) is killed or captured.
 

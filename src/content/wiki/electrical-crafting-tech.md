@@ -23,6 +23,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 0.98.36.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Here we could craft fundamental electrical components and parts.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Here we could craft fundamental electrical components and parts.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Electrical Crafting** is [Electrics Tech](/electrics-tech) which allows players to craft and store [Electrical Components](/electrical-components) at the [Electrical Workbench](/electrical-workbench).

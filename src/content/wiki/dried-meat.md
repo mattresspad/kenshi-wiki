@@ -7,17 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Dried Meat"
+  image: "/icons/items/42334-changes_otto.mod.png"
+  caption: "Good survival food"
   groups:
     - heading: null
       rows:
-        - ["Nutrition","15 nu"]
-        - ["Ingredients","Raw Meat"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","2x2 wide/tall"]
-        - ["Value","<span>c.</span>c.78"]
-        - ["Sell Value","<span>c.</span>c.39"]
-        - ["Avg. Price","c.78"]
-        - ["Description","Good survival food"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","2x2"]
+        - ["Nutrition","15 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>42334-changes_otto.mod</span>"]
 ---
 
 **Dried Meat** is a [food](/food) item purchased from relevant [traders](/traders), typically Bars. Often, players can find dried meat through looting campfires found in the world.
@@ -29,3 +31,7 @@ It is the most affordable vendor-bought food that grants the highest Nu-per-Cats
 <details class="collapsible" open=""><summary>Campfire</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-meat"><span>Raw Meat</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Dried Meat</span></strong><div></div></td></tr></tbody></table></details>
 
 <details class="collapsible"><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-meat"><span>Raw Meat</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Dried Meat</span></strong><div></div></td></tr></tbody></table></details>
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/campfire">Campfire</a><br><a href="/cooking-stove">Cooking Stove</a><br>Invisible Campfire</th></tr><tr><th scope="row"><a href="/raw-meat">Raw Meat</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>_Default Start blueprint: 12 hours at tech level 0.</li><li>_Low Start blueprint: 12 hours at tech level 0.</li></ul></div>

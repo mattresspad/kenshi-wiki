@@ -1,6 +1,6 @@
 ---
 title: "Skeleton Civilian"
-description: "–Robotics Shopkeeper greeting a fellow Skeleton"
+description: "Skeleton Civilians are members of the Skeletons faction. 5-6 can be found in the Robotics Shop in Black Desert City."
 source:
   title: "Skeleton Civilian"
   revision: 89490
@@ -18,7 +18,7 @@ infobox:
         - ["Inventory","<a href=\"/skeleton-repair-kit\">Skeleton Repair Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>New guy in town, I see... Well, got plenty of parts for sale, no shortage in the Black Desert City...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Robotics Shopkeeper greeting a fellow Skeleton</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>New guy in town, I see... Well, got plenty of parts for sale, no shortage in the Black Desert City...</blockquote><figcaption>Robotics Shopkeeper greeting a fellow Skeleton</figcaption></figure>
 
 **Skeleton Civilians** are members of the [Skeletons](/skeletons) faction. 5-6 can be found in the [Robotics Shop](/robotics-shop) in [Black Desert City](/black-desert-city).
 

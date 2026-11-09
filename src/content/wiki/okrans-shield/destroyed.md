@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/okrans-shield/destroyed)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>One o' those high inquisitors got murdered, can you believe it? Yeah, heard it from the goat trader. Okran's Shield has gone to shit... Yeah, they say all the Okranites are freaking the fuck out... Wouldn't wanna be that side of the world right now...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Bar Patron</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>One o' those high inquisitors got murdered, can you believe it? Yeah, heard it from the goat trader. Okran's Shield has gone to shit... Yeah, they say all the Okranites are freaking the fuck out... Wouldn't wanna be that side of the world right now...</blockquote><figcaption>Bar Patron</figcaption></figure>
 
 If [Valtena](/high-inquisitor-valtena) and [Tengu](/emperor-tengu) are all [killed or imprisoned](/world-states), **Okran's Shield** will [fall to ruins](/town-overrides) under [The Holy Nation](/the-holy-nation) rule.
 

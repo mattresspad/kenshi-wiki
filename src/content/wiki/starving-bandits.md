@@ -14,7 +14,7 @@ infobox:
         - ["Hostile towards","Everyone"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Today we eat! Gut him, take every last scrap of food from him!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Starvers attacking</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Today we eat! Gut him, take every last scrap of food from him!</blockquote><figcaption>Starvers attacking</figcaption></figure>
 
 The **Starving Bandits** are a frequently seen hostile [faction](/factions) found roaming primarily in and around the wilds and peripheries of [Holy Nation](/holy-nation) lands, they are similar to the [Starving Vagrants](/starving-vagrant) that are found in [United Cities](/united-cities) lands but are somewhat more organized since they are always found in groups (sometimes gigantic ones) and have leaders.
 

@@ -1,13 +1,13 @@
 ---
 title: "Traders"
-description: "–Hive Caravan Boss, after being declined trade"
+description: "Traders in Kenshi are NPCs who focus on the buying and selling of goods for profit. Traders can be found in Major Towns and most Minor Outposts."
 source:
   title: "Traders"
   revision: 93923
 categories: ["Traders"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Madness! Everybody needs supplies, no-hive...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/hive-caravan-boss">Hive Caravan Boss</a>, after being declined trade</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Madness! Everybody needs supplies, no-hive...</blockquote><figcaption><a href="/hive-caravan-boss">Hive Caravan Boss</a>, after being declined trade</figcaption></figure>
 
 Traders in Kenshi are NPCs who focus on the buying and selling of goods for profit. Traders can be found in [Major Towns](/major-towns) and most [Minor Outposts](/minor-outposts).
 

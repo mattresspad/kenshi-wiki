@@ -7,14 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Dustwich"
+  image: "/icons/items/43961-rebirth.mod.png"
+  caption: "Possibly the food with the highest unpleasantness to nutrition ratio in the world. So dry. Probably a big contributor to desert suicide."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","70 nu"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Avg. Price","c.730"]
-        - ["Description","Possibly the food with the highest unpleasantness to nutrition ratio in the world. So dry. Probably a big contributor to desert suicide."]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x3"]
+        - ["Nutrition","70 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>43961-rebirth.mod</span>"]
 ---
 
 A **Dustwich** is a [food](/food) item purchased from relevant [traders](/traders) or created in a [Cooking Stove](/cooking-stove). The ability to cook this item is learned through researching [Desert Cooking](/desert-cooking-tech).
@@ -30,3 +35,7 @@ The dustwich is obviously Kenshi's parallel to the real-world [sandwich](https:/
 ### History
 
 Dustwich first looked like a weird blob before having the icon changed to one which resembles a sandwich cut diagonally in half. Finally, the icon was changed to the current icon which more clearly displays its cactus origins.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/bread">Bread</a></th><td>1</td></tr><tr><th scope="row"><a href="/cactus">Cactus</a></th><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/desert-cooking-tech">Desert Cooking</a> research: 4 hours at tech level 2; costs <a href="/book">3 Books</a>.</li></ul></div>

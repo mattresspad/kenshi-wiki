@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/standard-first-aid-kit\">Standard First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Come in. Have a browse.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shopkeeper greeting customer</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Come in. Have a browse.</blockquote><figcaption>Shopkeeper greeting customer</figcaption></figure>
 
 **Tech Hunter Shopkeepers** are named members of the [Tech Hunters](/tech-hunters). They man Tech Hunter shops in various locations. These shops include [Adventurer Ranger Shops](/adventurer-ranger-shop), [Empire Ranger Shops](/empire-ranger-shop), [Tech Hunter Shops](/tech-hunter-shop), [Travel and Repairs Shop](/travel-and-repairs-shop), and [Travel Gear](/travel-gear).
 

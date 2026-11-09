@@ -5,9 +5,29 @@ source:
   title: "Martial Artist Bindings"
   revision: 95719
 categories: ["Armour","Shirts","Clothing"]
+infobox:
+  title: "Martial Artist Bindings"
+  image: "/icons/items/2326-gamedata.base.png"
+  caption: "Simple bindings to protect the bones of the fist.  Commonly worn by martial artists, those who shun the use of the sword."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+        - ["Damage output","1.05x"]
+        - ["Fist injury","0.30x"]
+        - ["Martial arts","+4"]
+    - heading: null
+      rows:
+        - ["String id","<span>2326-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Martial Artist Bindings</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.150</td></tr><tr><td>-Sell value</td><td>c.37</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td colspan="2">[Skills]</td></tr><tr><td>-Attack damage effect</td><td>1.05x</td></tr><tr><td>-Fist protection</td><td>70%</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr><tr><td colspan="2">Simple bindings to protect the bones of the fist. Commonly worn by martial artists, those who shun the use of the sword.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td></tr></tbody></table>
 
 **Martial Artist Bindings** is a [shirt](/shirts) which provides no armour protection and is therefore considered [clothing](/clothing).
 
@@ -22,6 +42,8 @@ Female characters will have the bindings wrapped around their breasts instead of
 If the character that is wearing this clothing has prosthetics or is limbless, the MA bindings will not cover the limbless/prosthetic part (oddly, the effects of MA bindings will still apply nonetheless).
 
 ## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/clothing-manufacture-tech">Clothing Manufacture</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>.</li><li>Martial Artist Bindings blueprint: 12 hours at tech level 1; the blueprint is worth c. 225.</li></ul></div>
 
 It can be crafted at a [Clothing Bench](/clothing-bench) after researching [Clothing Manufacture](/clothing-manufacture-tech).
 

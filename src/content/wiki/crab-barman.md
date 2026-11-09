@@ -18,7 +18,7 @@ infobox:
         - ["String ID","65827-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Don't forget to crab up.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Don't forget to crab up.</blockquote></figure>
 
 The **Crab Barman** is a randomly-named trader of the [Crab Raiders](/crab-raiders). They will sell fish and bar-related foodstuffs and items in the Crab Bar in [Crab Town](/crab-town).
 

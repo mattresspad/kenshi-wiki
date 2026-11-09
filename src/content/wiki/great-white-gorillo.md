@@ -15,7 +15,7 @@ infobox:
         - ["Type","Unique"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>With all due respect, no, don't touch those gates. I don't care if you think you're the next <a href="/tinfist">Tinfist</a>, we lost two men trapping that thing in there. Only takes one wannabe hero to let it back out again...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Mourn Barman</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>With all due respect, no, don't touch those gates. I don't care if you think you're the next <a href="/tinfist">Tinfist</a>, we lost two men trapping that thing in there. Only takes one wannabe hero to let it back out again...</blockquote><figcaption>Mourn Barman</figcaption></figure>
 
 **Great White Gorillo** is an XL size unique version of the normal [Gorillo](/gorillo).  It has substantially increased Stats which means faster attack speed as well.  It can be found in the locked lab building located in the center of [Mourn](/mourn) (It is considered a crime to unlock this gate but is easily done without detection). It can spawn on any level and will generally attack only when you enter the level it is on.
 

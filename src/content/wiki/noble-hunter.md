@@ -26,7 +26,7 @@ infobox:
         - ["String ID","96172-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Time to try out my new bow!<p>This bad boy cost more than you could ever earn in a lifetime, you know.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Noble Manhunter</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Time to try out my new bow!<p>This bad boy cost more than you could ever earn in a lifetime, you know.</p></blockquote><figcaption>Noble Manhunter</figcaption></figure>
 
 **Noble Hunters** are unnamed [United Cities](/united-cities) nobles with [Diplomatic Status](/diplomatic-status). They can be found patrolling with a [Noble Captain](/noble-captain) and six [Hooded Empire Noble Guards](/empire-noble-guard-hooded), along with a number of slaves.
 

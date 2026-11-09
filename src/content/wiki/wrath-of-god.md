@@ -20,7 +20,7 @@ infobox:
         - ["Loss Triggers","<strong>Wrath of God</strong> 30-672 hours, 95-100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You've commited the gravest of crimes against Okran... Spawn of Narko herself, I will vanquish you and restore peace in our blessed nation! Burn him, him sent from the dark demoness herself! He must be purged to ash for bringing harm to our beloved Holy Lord Phoenix! Blessed be his name!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–High Inquisitor Seta</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You've commited the gravest of crimes against Okran... Spawn of Narko herself, I will vanquish you and restore peace in our blessed nation! Burn him, him sent from the dark demoness herself! He must be purged to ash for bringing harm to our beloved Holy Lord Phoenix! Blessed be his name!</blockquote><figcaption>High Inquisitor Seta</figcaption></figure>
 
 The **Wrath of God** is a recurring [Holy Nation](/holy-nation) base assault event that is launched once a player takes down [Holy Lord Phoenix](/holy-lord-phoenix) or defeated [Retribution of God](/retribution-of-god).
 

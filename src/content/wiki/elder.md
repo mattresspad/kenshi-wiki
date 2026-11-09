@@ -18,7 +18,7 @@ infobox:
         - ["String ID","62807-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We are superior!<p>We are free from flesh pleasures!</p><p>We are free from bodily filth!</p><p>We are free from the grasping mind!</p><p>We. Are. Skeletons.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Elder's propaganda</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>We are superior!<p>We are free from flesh pleasures!</p><p>We are free from bodily filth!</p><p>We are free from the grasping mind!</p><p>We. Are. Skeletons.</p></blockquote><figcaption>Elder's propaganda</figcaption></figure>
 
 **The Elder** is the leader of the [Skeleton Bandits](/skeleton-bandits) faction. Talking to him at [Iron HQ](/iron-hq) allows you to join his faction regardless of race with the right dialogue choices.
 

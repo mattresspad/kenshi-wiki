@@ -6,23 +6,37 @@ source:
   revision: 86601
 categories: ["Armour","Body Armour","Medium Armour"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Mercenary Leather Armour"
+  image: "/icons/items/2283-gamedata.base.png"
+  caption: "A good all-round medium class armour, favoured by any warrior that has to travel across the wilds."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","2"]
-        - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
+        - ["Left Arm","80% covered"]
+        - ["Stomach","70% covered"]
+        - ["Right Arm","80% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra cut resistance","up to +12%"]
+        - ["Extra blunt resistance","up to +4%"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
-        - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+        - ["Cut into stun","30%"]
+        - ["Dodge","0.90x"]
+        - ["Ranged skill","0.90x"]
+        - ["Stealth","0.90x"]
+        - ["Martial arts","-4"]
+    - heading: null
+      rows:
+        - ["String id","<span>2283-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A good all-round medium class armour, favoured by any warrior that has to travel across the wilds.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Mercenary Leather Armour** is a Medium Armour that is equipped in the Body Armour slot. It can be bought from [Shek Kingdom](/shek-kingdom), [Tech Hunters](/tech-hunters), [Mongrel](/mongrel), and [United Cities](/united-cities) armour shops.
 
@@ -48,24 +62,10 @@ As conclusion, Mercenary is better at low qualities, near equal at standard and 
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Leather Armour</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>2%</td></tr><tr><td>-Cut resistance</td><td>3%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>1pts</td></tr><tr><td>-Weight</td><td>4.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.232</td></tr><tr><td>-Sell value</td><td>c.58</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>70%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.81x</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Martial arts bonus</td><td>-4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Leather Armour</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>8%</td></tr><tr><td>-Cut resistance</td><td>12%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>6pts</td></tr><tr><td>-Weight</td><td>4.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.855</td></tr><tr><td>-Sell value</td><td>c.213</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>70%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.81x</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Martial arts bonus</td><td>-4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Leather Armour</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>16%</td></tr><tr><td>-Cut resistance</td><td>24%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>13pts</td></tr><tr><td>-Weight</td><td>4.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,848</td></tr><tr><td>-Sell value</td><td>c.712</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>70%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.81x</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Martial arts bonus</td><td>-4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Leather Armour (0.98.44)</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>24%</td></tr><tr><td>-Cut resistance</td><td>36%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>20pts</td></tr><tr><td>-Weight</td><td>4.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.6,170</td></tr><tr><td>-Sell value</td><td>c.1,542</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>70%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.81x</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Martial arts bonus</td><td>-4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Leather Armour</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>32%</td></tr><tr><td>-Cut resistance</td><td>49%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>27pts</td></tr><tr><td>-Weight</td><td>4.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.10,820</td></tr><tr><td>-Sell value</td><td>c.2,705</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>70%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.81x</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Martial arts bonus</td><td>-4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Leather Armour</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>37%</td></tr><tr><td>-Cut resistance</td><td>58%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>33pts</td></tr><tr><td>-Weight</td><td>4.75 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.15,180</td></tr><tr><td>-Sell value</td><td>c.3,795</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>70%</td></tr><tr><td>-Right Arm</td><td>80%</td></tr><tr><td>-Left Arm</td><td>80%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.81x</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Dodge skill effect</td><td>0.90x</td></tr><tr><td>-Martial arts bonus</td><td>-4</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>2%</td><td>8%</td><td>16%</td><td>24%</td><td>32%</td><td>37%</td></tr><tr><th scope="row">Cut resistance</th><td>3%</td><td>12%</td><td>24%</td><td>36%</td><td>49%</td><td>58%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">70%</td></tr><tr><th scope="row">Harpoon resistance</th><td>1pts</td><td>6pts</td><td>13pts</td><td>20pts</td><td>27pts</td><td>33pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">4.75 kg</td></tr><tr><th scope="row">Value</th><td>c.232</td><td>c.855</td><td>c.2,848</td><td>c.6,170</td><td>c.10,820</td><td>c.15,180</td></tr><tr><th scope="row">Sell value</th><td>c.58</td><td>c.213</td><td>c.712</td><td>c.1,542</td><td>c.2,705</td><td>c.3,795</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">100%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">70%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">80%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">80%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td colspan="6">0.81x</td></tr><tr><th scope="row">Crossbows effect</th><td colspan="6">0.90x</td></tr><tr><th scope="row">Precision shooting effect</th><td colspan="6">0.90x</td></tr><tr><th scope="row">Dodge skill effect</th><td colspan="6">0.90x</td></tr><tr><th scope="row">Martial arts bonus</th><td colspan="6">-4</td></tr></tbody></table>
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Leather Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.76 required)</span></p></td><td><strong><span>Mercenary Leather Armour</span></strong><div></div></td></tr><tr><td><a href="/leather"><span>Leather</span></a><div></div><p><span>(3.8 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Mercenary Leather Armour<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">2</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Mercenary Leather Armour</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.76</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>3.8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Mercenary Leather Armour blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,122.</li></ul></div>
 
 The blueprint can be found at [Deadcat](/deadcat), regular [Armour Traders](/armour-trader) and is sold in [The Great Library](/the-great-library) in [Black Scratch](/black-scratch). It can be crafted at a [Leather Armour Crafting Bench](/leather-armour-crafting-bench) after researching the appropriate blueprint.

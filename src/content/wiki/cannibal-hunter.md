@@ -64,7 +64,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Back slot
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/desert-sabre">Desert Sabre</a></td><td>30%</td></tr><tr><td></td><td><a href="/oldworld-bow-mkii">Oldworld Bow MkII</a></td><td>30%</td></tr><tr><td></td><td><a href="/oldworld-bow-mki">Oldworld Bow MkI</a></td><td>20%</td></tr><tr><td></td><td><a href="/ranger">Ranger</a></td><td>20%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon item-icon-wide" src="/icons/items/52305-rebirth.mod.png" alt="" width="96" height="24"> <a href="/desert-sabre">Desert Sabre</a></td><td>30%</td></tr><tr><td></td><td><img class="item-icon item-icon-wide" src="/icons/items/53643-rebirth.mod.png" alt="" width="96" height="24"> <a href="/oldworld-bow-mkii">Oldworld Bow MkII</a></td><td>30%</td></tr><tr><td></td><td><img class="item-icon item-icon-wide" src="/icons/items/65870-rebirth.mod.png" alt="" width="96" height="24"> <a href="/oldworld-bow-mki">Oldworld Bow MkI</a></td><td>20%</td></tr><tr><td></td><td><img class="item-icon item-icon-wide" src="/icons/items/66169-Newwworld.mod.png" alt="" width="96" height="24"> <a href="/ranger">Ranger</a></td><td>20%</td></tr></tbody></table>
 
 ### Apparel
 

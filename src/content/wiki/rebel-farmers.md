@@ -14,7 +14,7 @@ infobox:
         - ["Type","Bandit"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Empire took my farm, I'm outta food and I'm homeless... And YOU'RE gonna feed me, outlander!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/outlaw-farmer">Outlaw Farmer</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Empire took my farm, I'm outta food and I'm homeless... And YOU'RE gonna feed me, outlander!</blockquote><figcaption><a href="/outlaw-farmer">Outlaw Farmer</a></figcaption></figure>
 
 **Rebel Farmers** are composed of the poorest of rebelling peasants and farmers from the [United Cities](/united-cities). They are spread out across several empire lands, attacking various travelers on the roads and then retreating back to their camps. The rebel movement of this faction is led by [Boss Simion](/boss-simion).
 

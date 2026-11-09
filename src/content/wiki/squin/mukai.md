@@ -20,7 +20,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/squin/mukai)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Golem is destroyed only for another barbarian to take her place. The horned devils are fickle and easily won over with new leaders. I should have fores- I mean - I foresaw this in the Holy Flame, it is most unfortunate... The Mountain must be killed.</td><td>”</td></tr><tr><td colspan="3"><p><cite>– <a href="/holy-lord-phoenix">Holy Lord Phoenix</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Golem is destroyed only for another barbarian to take her place. The horned devils are fickle and easily won over with new leaders. I should have fores- I mean - I foresaw this in the Holy Flame, it is most unfortunate... The Mountain must be killed.</blockquote><figcaption><a href="/holy-lord-phoenix">Holy Lord Phoenix</a></figcaption></figure>
 
 If [Esata the Stone Golem](/esata-the-stone-golem) is [killed or imprisoned](/world-states), [Mukai the Mountain](/mukai-the-mountain) replaces her in [Shek Kingdom](/shek-kingdom) headquarters in [Squin](/squin) as the new faction leader.
 

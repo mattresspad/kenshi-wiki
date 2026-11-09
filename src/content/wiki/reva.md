@@ -24,7 +24,7 @@ infobox:
         - ["String ID","50279-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I learnt the hard way that there is no god. But a lot of the refugees here, they just can't let go of their belief in Okran, even after Okran betrayed us all, abandoned us to be left at the mercy of man... I just can't live amongst this nonsense any longer. I despise it.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I learnt the hard way that there is no god. But a lot of the refugees here, they just can't let go of their belief in Okran, even after Okran betrayed us all, abandoned us to be left at the mercy of man... I just can't live amongst this nonsense any longer. I despise it.</blockquote></figure>
 
 **Reva** is a [Unique Recruit](/unique-recruits). She is a former [Holy Nation](/the-holy-nation) citizen who was trained by the [Flotsam Ninjas](/flotsam-ninjas) as an apprentice but never made it to become a 'full-fledged Paladin basher' because of her anger issues. She refuses to be recruited by a male human but will join females and any other race not of "Pure Blood". She can be hired for c.6,000.
 

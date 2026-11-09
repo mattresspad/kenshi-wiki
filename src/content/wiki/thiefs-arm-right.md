@@ -5,11 +5,29 @@ source:
   title: "Thief's Arm (right)"
   revision: 92991
 categories: ["Robot Limbs"]
+infobox:
+  title: "Thief's Arm (right)"
+  image: "/icons/items/95870-rebirth.mod.png"
+  caption: "A heavily customised arm.  Somehow the components have almost no rust, and the mechanism is extremely smooth."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/robot-limbs\">Right arm</a>"]
+        - ["Weight","10 kg"]
+        - ["Base value","c. 4,000 → c. 28,000"]
+        - ["Size in inventory","6x2"]
+    - heading: "Stats (range across grades)"
+      rows:
+        - ["HP","50 → 150"]
+        - ["Strength","0.75x → 1.00x"]
+        - ["Dexterity","0.75x → 1.20x"]
+        - ["Swimming","0.60x → 0.85x"]
+        - ["Thievery","0.90x → 1.25x"]
+        - ["Ranged","0.75x → 1.00x"]
+    - heading: null
+      rows:
+        - ["String id","<span>95870-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A heavily customised arm. Somehow the components have almost no rust, and the mechanism is extremely smooth.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 
 Thief's Arm (right) is a [Robot Limb](/robot-limbs), and a replacement for a lost right arm. As the name suggests, it is ideal for use by thieves, as it raises [Lockpicking](/lockpicking), [Thievery](/thievery), and [Dexterity](/dexterity). There are only right-handed Thief's Arms, which makes them synergize well with the exclusively left-handed [Steady Arm](/steady-arm-left).
 
@@ -33,4 +51,4 @@ Thief's Arm (right) is a [Robot Limb](/robot-limbs), and a replacement for a los
 
 ## Crafting
 
-Cannot be crafted.
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table></div>

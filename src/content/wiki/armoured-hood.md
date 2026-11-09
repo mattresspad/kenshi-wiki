@@ -6,22 +6,33 @@ source:
   revision: 86888
 categories: ["Armour","Headgear","Medium Armour"]
 infobox:
-  title: "Chain Armour Crafting"
+  title: "Armoured Hood"
+  image: "/icons/items/2200-gamedata.base.png"
+  caption: "An armoured hood, for some kind of heavy-ninja dude."
   groups:
     - heading: null
       rows:
-        - ["Description","Chainmail eh? That's going to be bloody fiddly isn't it?"]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","4"]
-        - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-    - heading: "Results"
+        - ["Head","90% covered"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
+        - ["Attack","-2"]
+        - ["Defence","-2"]
+        - ["Combat skills","-1"]
+        - ["Cut into stun","30%"]
+        - ["Ranged skill","0.90x"]
+        - ["Weather protection","25%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2200-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">An armoured hood, for some kind of heavy-ninja dude.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Armoured Hood** is a Medium Armour equipped in the headgear slot. It is the only Head armour which reduces defence. There is an [unhooded variant](/armoured-face-plates) with no penalties on stats, better cut efficiency, but lower coverage, along with lacking the resistance to [acid](/weather-effects#acid-rain) and [burning](/weather-effects#burning) damage.
 
@@ -33,17 +44,7 @@ This armour has inventory dimensions of **3x3**.
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Hood</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>2%</td></tr><tr><td>-Cut resistance</td><td>12%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>4.5pts</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>25%</td></tr><tr><td>-Acid</td><td>25%</td></tr><tr><td>-Burning</td><td>25%</td></tr><tr><td>-Value</td><td>c.238</td></tr><tr><td>-Sell value</td><td>c.59</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Melee attack bonus</td><td>-2</td></tr><tr><td>-Melee defence bonus</td><td>-2</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Hood</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>10%</td></tr><tr><td>-Cut resistance</td><td>22%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>18pts</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>25%</td></tr><tr><td>-Acid</td><td>25%</td></tr><tr><td>-Burning</td><td>25%</td></tr><tr><td>-Value</td><td>c.585</td></tr><tr><td>-Sell value</td><td>c.146</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Melee attack bonus</td><td>-2</td></tr><tr><td>-Melee defence bonus</td><td>-2</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Hood</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>21%</td></tr><tr><td>-Cut resistance</td><td>35%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>36pts</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>25%</td></tr><tr><td>-Acid</td><td>25%</td></tr><tr><td>-Burning</td><td>25%</td></tr><tr><td>-Value</td><td>c.1,693</td></tr><tr><td>-Sell value</td><td>c.423</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Melee attack bonus</td><td>-2</td></tr><tr><td>-Melee defence bonus</td><td>-2</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Hood</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>32%</td></tr><tr><td>-Cut resistance</td><td>49%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>54pts</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>25%</td></tr><tr><td>-Acid</td><td>25%</td></tr><tr><td>-Burning</td><td>25%</td></tr><tr><td>-Value</td><td>c.3,540</td></tr><tr><td>-Sell value</td><td>c.885</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Melee attack bonus</td><td>-2</td></tr><tr><td>-Melee defence bonus</td><td>-2</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Hood</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>43%</td></tr><tr><td>-Cut resistance</td><td>63%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>72pts</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>25%</td></tr><tr><td>-Acid</td><td>25%</td></tr><tr><td>-Burning</td><td>25%</td></tr><tr><td>-Value</td><td>c.6,125</td></tr><tr><td>-Sell value</td><td>c.1,531</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Melee attack bonus</td><td>-2</td></tr><tr><td>-Melee defence bonus</td><td>-2</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Armoured Hood</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>51.3%</td></tr><tr><td>-Cut resistance</td><td>73.125%</td></tr><tr><td>-Cut resistance efficiency</td><td>70%</td></tr><tr><td>-Harpoon resistance</td><td>85.5pts</td></tr><tr><td>-Weight</td><td>5.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>25%</td></tr><tr><td>-Acid</td><td>25%</td></tr><tr><td>-Burning</td><td>25%</td></tr><tr><td>-Value</td><td>c.8,549</td></tr><tr><td>-Sell value</td><td>c.2,137</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Crossbows effect</td><td>0.90x</td></tr><tr><td>-Precision shooting effect</td><td>0.90x</td></tr><tr><td>-Melee attack bonus</td><td>-2</td></tr><tr><td>-Melee defence bonus</td><td>-2</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Metal Plate</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>2%</td><td>10%</td><td>21%</td><td>32%</td><td>43%</td><td>51.3%</td></tr><tr><th scope="row">Cut resistance</th><td>12%</td><td>22%</td><td>35%</td><td>49%</td><td>63%</td><td>73.125%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">70%</td></tr><tr><th scope="row">Harpoon resistance</th><td>4.5pts</td><td>18pts</td><td>36pts</td><td>54pts</td><td>72pts</td><td>85.5pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">5.625 kg</td></tr><tr><th scope="row">Value</th><td>c.238</td><td>c.585</td><td>c.1,693</td><td>c.3,540</td><td>c.6,125</td><td>c.8,549</td></tr><tr><th scope="row">Sell value</th><td>c.59</td><td>c.146</td><td>c.423</td><td>c.885</td><td>c.1,531</td><td>c.2,137</td></tr><tr><th colspan="7">Weather Protections</th></tr><tr><th scope="row">Duststorms</th><td colspan="6">25%</td></tr><tr><th scope="row">Acid</th><td colspan="6">25%</td></tr><tr><th scope="row">Burning</th><td colspan="6">25%</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">90%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Crossbows effect</th><td colspan="6">0.90x</td></tr><tr><th scope="row">Precision shooting effect</th><td colspan="6">0.90x</td></tr><tr><th scope="row">Melee attack bonus</th><td colspan="6">-2</td></tr><tr><th scope="row">Melee defence bonus</th><td colspan="6">-2</td></tr></tbody></table>
 
 ## Source
 
@@ -53,8 +54,4 @@ This armour has inventory dimensions of **3x3**.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Chain Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.18 required)</span></p></td><td><strong><span>Armoured Hood</span></strong><div></div></td></tr><tr><td><a href="/chainmail-sheets"><span>Chainmail Sheets</span></a><div></div><p><span>(0.90 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Armoured Hood<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,058</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Armoured Hood</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.18</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>0.9</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Armoured Hood blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,233.</li></ul></div>

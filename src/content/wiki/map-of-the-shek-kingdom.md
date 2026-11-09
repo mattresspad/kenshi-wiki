@@ -7,12 +7,15 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Map of the Shek Kingdom"
+  image: "/icons/items/51403-rebirth.mod.png"
   groups:
     - heading: null
       rows:
         - ["Weight","1 kg"]
-        - ["Value","c.500"]
-        - ["Sell value","c.250"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>51403-rebirth.mod</span>"]
 ---
 

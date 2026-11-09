@@ -7,18 +7,33 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Katana"
+  image: "/icons/items/476-gamedata.base.png"
+  caption: "A standard katana, one of the fastest, lightest weapons around.  They rely on skill and dexterity rather than brute strength.  Quality is more important than it is with other types of blade, so they tend to be more expensive."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.20x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.00x"]
+        - ["Blunt damage","0.00x"]
+        - ["Bleed","1.20x"]
         - ["Armour penetration","-30%"]
         - ["Attack","+4"]
         - ["Defence","-4"]
-        - ["Damage vs robots","-40%"]
-        - ["Damage vs humans","+10%"]
         - ["Reach","21"]
-        - ["Description","A standard katana, one of the fastest, lightest weapons around.  They rely on skill and dexterity rather than brute strength.  Quality is more important than it is with other types of blade, so they tend to be more expensive."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+10%"]
+        - ["Robots","-40%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>476-gamedata.base</span>"]
 ---
 
@@ -32,15 +47,7 @@ Katana crafting (71.43val/material) is decent for earning [Money](/money-making-
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(7 required)</span></p></td><td><strong><span>Katana</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(7 required)</span></p></td><td><strong><span>Katana</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(7 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(7 required)</span></p></td><td><strong><span>Katana</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(7 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>7</td><td>7</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>7</td><td>7</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>7</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Katanas blueprint: 6 hours at tech level 2; the blueprint is worth c. 10,000.</li></ul></div>
 
 ## Blueprints
 

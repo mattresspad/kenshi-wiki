@@ -17,7 +17,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **Wanderer**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You are just a lone wanderer with nothing but a few coins, a pair of pants and a rusty sword, ready to venture out into the world. This is the way the game is intended to be played.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You are just a lone wanderer with nothing but a few coins, a pair of pants and a rusty sword, ready to venture out into the world. This is the way the game is intended to be played.</blockquote></figure>
 
 -   **Location:** [The Hub](/the-hub)
 -   **Money:** c.1000
@@ -30,7 +30,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **The Wandering Trader**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Seeking to make your fortune, you spent the last of your savings on a backpack full of trade goods and a pack animal, and are about to start a new life as a trader.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Seeking to make your fortune, you spent the last of your savings on a backpack full of trade goods and a pack animal, and are about to start a new life as a trader.</blockquote></figure>
 
 -   **Location:** [Trader's Edge](/traders-edge)
 -   **Money:** c.0
@@ -44,7 +44,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **The Holy Sword**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A down and out and wanted criminal, scavenging a battlefield you find something interesting. A legendary sword said to be the work of the gods themselves. Someone's going to be missing this, that's for sure. But who cares? It's YOUR legendary sword now.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>A down and out and wanted criminal, scavenging a battlefield you find something interesting. A legendary sword said to be the work of the gods themselves. Someone's going to be missing this, that's for sure. But who cares? It's YOUR legendary sword now.</blockquote></figure>
 
 -   **Location:** [The Hub](/the-hub)
 -   **Money:** c.100
@@ -58,7 +58,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **The Cannibal Hunters**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>"I seriously regret coming into cannibal territory. This was a stupid idea."<p>WARNING: You will be attacked immediately upon game start. Not recommended for a first time play.</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>"I seriously regret coming into cannibal territory. This was a stupid idea."<p>WARNING: You will be attacked immediately upon game start. Not recommended for a first time play.</p></blockquote></figure>
 
 -   **Location:** [Cannibal Village](/cannibal-village)
 -   **Money:** c.9
@@ -72,7 +72,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **The Hive Exile\***
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You have been exiled from your hive for not loving the queen enough, sent out into the wilds with no food or equipment. If you don't die from pheremone withdrawl or beak things, you'll be faced with finding your place among the insane human civilisations.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You have been exiled from your hive for not loving the queen enough, sent out into the wilds with no food or equipment. If you don't die from pheremone withdrawl or beak things, you'll be faced with finding your place among the insane human civilisations.</blockquote></figure>
 
 -   **Location:** [Hive Village](/hive-village)
 -   **Money:** c.0
@@ -86,7 +86,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **Son of a Captain**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Your father was a respected Captain in the United Cities army. He was killed in action, and after burning through your meagre savings looking for work, you find yourself penniless and hungry, with nothing left but your father's trusty katana and the shirt on your back. The United Cities are still your allies, but you will need them if you run into any troops from the Holy Empire. Those guys really hate you.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Your father was a respected Captain in the United Cities army. He was killed in action, and after burning through your meagre savings looking for work, you find yourself penniless and hungry, with nothing left but your father's trusty katana and the shirt on your back. The United Cities are still your allies, but you will need them if you run into any troops from the Holy Empire. Those guys really hate you.</blockquote></figure>
 
 -   **Location:** [The Hub](/the-hub)
 -   **Money:** c.0
@@ -100,7 +100,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **The Slaves\***
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You are just another slave, working in the Holy Rebirth pits to build a pointless statue. You dream of the rumored free lands to the south, and hear tales of rebels to the north.<p>HINT: Get into a cage straight away to avoid a beating</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You are just another slave, working in the Holy Rebirth pits to build a pointless statue. You dream of the rumored free lands to the south, and hear tales of rebels to the north.<p>HINT: Get into a cage straight away to avoid a beating</p></blockquote></figure>
 
 -   **Location:** [Rebirth](/rebirth)
 -   **Money:** c.0
@@ -115,7 +115,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **Rock Bottom**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You've hit absolute rock bottom. You are alone, unarmed, naked and hungry, lost in the middle of a harsh desert teeming with slavers, and you just lost an arm. Good luck.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You've hit absolute rock bottom. You are alone, unarmed, naked and hungry, lost in the middle of a harsh desert teeming with slavers, and you just lost an arm. Good luck.</blockquote></figure>
 
 -   **Location:** [The Great Desert](/the-great-desert) east of [Sho-Battai](/sho-battai)
 -   **Money:** c.0
@@ -129,7 +129,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **Empire Citizen**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A simple citizen of the United Cities, you lost your job and your house at the whim of a noble lord. Faced with poverty and starvation, which is a crime in this place, you decide to head out of town and find some form of self-employment before you starve to death.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>A simple citizen of the United Cities, you lost your job and your house at the whim of a noble lord. Faced with poverty and starvation, which is a crime in this place, you decide to head out of town and find some form of self-employment before you starve to death.</blockquote></figure>
 
 -   **Location:** Sho-Battai
 -   **Money:** c.750
@@ -143,7 +143,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **Holy Nation Citizen\***
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A simple citizen of the Holy Nation, you live in relative safety as long as you show obeisance to Okran and his priests. The world outside is said to be barbaric and violent and full of monstrosities, but you decide to venture out and decide for yourself.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>A simple citizen of the Holy Nation, you live in relative safety as long as you show obeisance to Okran and his priests. The world outside is said to be barbaric and violent and full of monstrosities, but you decide to venture out and decide for yourself.</blockquote></figure>
 
 -   **Location:** [Bad Teeth](/bad-teeth) or [Stack](/stack)
 -   **Money:** c.200
@@ -157,7 +157,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **Guy with a Dog**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A homeless and hungry drifter rescues an abandoned puppy. It seems pretty useless. Maybe he will just eat it.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>A homeless and hungry drifter rescues an abandoned puppy. It seems pretty useless. Maybe he will just eat it.</blockquote></figure>
 
 -   **Location:** [Bast](/bast)
 -   **Money:** c.13
@@ -171,7 +171,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **The Freedom Seekers**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Fed up with stifled city life and taxes, you gather a band to head out and found your own home base. You have assembled a group of 5 other like-minded people, and you've gathered a good supply of building materials to get started with.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Fed up with stifled city life and taxes, you gather a band to head out and found your own home base. You have assembled a group of 5 other like-minded people, and you've gathered a good supply of building materials to get started with.</blockquote></figure>
 
 -   **Location:** Random [Waystation](/waystation)
 -   **Money:** c.4,000
@@ -185,7 +185,7 @@ Full details on the characters, including both their stats and their equipment c
 
 ### **Nobodies**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A group of five nobodies, with nothing to their name, ready to go out and do something about it.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>A group of five nobodies, with nothing to their name, ready to go out and do something about it.</blockquote></figure>
 
 -   **Location:** [The Hub](/the-hub) or one the two [Waystation Ruins](/waystation-ruins)
 -   **Money:** c.0
@@ -203,7 +203,7 @@ These starts were likely cut or either removed from the game. They are found in 
 
 ### **Hungover Ninja**
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A low-ranking ninja wannabe wakes up with no pants in a slave camp after a night of heavy drinking.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>A low-ranking ninja wannabe wakes up with no pants in a slave camp after a night of heavy drinking.</blockquote></figure>
 
 -   Starts with only 1 character in the stone camp southwest of [Sho-Battai](/sho-battai) with no [Cats](/cats). The character has 5 in basic combat [Stats](/statistics), 10 Assassin and Thievery, and 20 stealth. Wearing a [Ninja Gi](/ninja-gi), [Martial Artist Bindings](/martial-artist-bindings), and a [Basket Hat](/basket-hat), and wielding an [Ancient](/ancient) quality [Ninja Blade](/ninja-blade).
 -   (_Playstyle: RPG_) (_Difficulty: Hard_)

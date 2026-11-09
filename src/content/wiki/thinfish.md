@@ -7,21 +7,28 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Thinfish"
+  image: "/icons/items/50517-Newwworld.mod.png"
+  caption: "Found in the larger lakes of the swamps and wetlands, the blandly-named Thinfish. So called because it's thinner than the other type of fish."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","10 nu"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","1x3 wide/tall"]
-        - ["Value","<span>c.</span>c.360"]
-        - ["Sell Value","<span>c.</span>c.180"]
-        - ["Avg. Price","c.360"]
-        - ["Description","Found in the larger lakes of the swamps and wetlands, the blandly-named Thinfish. So called because it's thinner than the other type of fish."]
+        - ["Base value","c. 600"]
+        - ["Size in inventory","3x1"]
+        - ["Nutrition","10 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>50517-Newwworld.mod</span>"]
 ---
 
 **Thinfish** is a [food](/food) item which can only be obtained through trading or thieving. [Fish and Drugs Sellers](/fish-and-drugs-seller) sell Thinfish. Although [Dried Fish](/dried-fish) is described to be made from Thinfish, players cannot cook this item.
 
 The name originates from the fact that it's simply thinner than the other type of fish, the [Grand Fish](/grand-fish).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable">Camp Fish Pile</th></tr><tr><th scope="row"><a href="/thinfish">Thinfish</a></th><td>1</td></tr></tbody></table></div>
 
 ## Trivia
 

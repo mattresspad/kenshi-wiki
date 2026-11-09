@@ -25,7 +25,7 @@ infobox:
         - ["String ID","50350-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Nowhere in this world is safe. People are either trying to burn us at the stake or they're trying to eat us alive... But at least the cannibals are good for one thing: Target practice.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Moll's opening line</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Nowhere in this world is safe. People are either trying to burn us at the stake or they're trying to eat us alive... But at least the cannibals are good for one thing: Target practice.</blockquote><figcaption>Moll's opening line</figcaption></figure>
 
 **Moll** is the leader of the [Flotsam Ninjas](/flotsam-ninjas) who resides in [Flotsam Village](/flotsam-village) in the [Hidden Forest](/hidden-forest) region. She is surrounded by 3 [Flotsam Jonins](/flotsam-jonin) and 12 [Flotsam Ninjas](/flotsam-ninjas) acting as her bodyguards. She is the author of [Memo From Moll](/memo-from-moll) and [Moll's Speech](/molls-speech).
 

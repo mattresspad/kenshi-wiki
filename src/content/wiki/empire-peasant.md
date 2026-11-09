@@ -18,7 +18,7 @@ infobox:
         - ["String ID","51648-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We're in this together. So we stick together.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>We're in this together. So we stick together.</blockquote></figure>
 
 **Empire Peasants** are characters that belong to the faction of the [same name](/empire-peasants), and can be found in [United Cities](/united-cities) territory. They either reside in UC towns, or in small encampments in the desert. They are the underclass of the Empire, a notable number of them being [Hivers](/hive).
 

@@ -5,11 +5,32 @@ source:
   title: "Plated Longboots"
   revision: 92335
 categories: ["Armour","Footwear","Medium Armour"]
+infobox:
+  title: "Plated Longboots"
+  image: "/icons/items/556-gamedata.base.png"
+  caption: "The standard armoured boots, found everywhere.  Commonly left out of an armour set, as drifters don't usually see much likelyhood in getting hit in the shins and prefer the reduced encumbrance of a pair of wooden sandals or even going barefoot altogether."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/footwear\">Feet</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","40% covered"]
+        - ["Left Leg","40% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Stealth","1.10x"]
+    - heading: null
+      rows:
+        - ["String id","<span>556-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4"><i>This item has no description.</i></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/footwear">BOOTS</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 **Plated Longboots** are armoured [Boots](/boots). They belong to the Medium Armour Class and can be crafted using the [Heavy Armour Smithy](/heavy-armour-smithy).
 
 Compared to [Samurai Boots](/samurai-boots), they provide less damage resistance but no penalties on martial arts and dodge, and a smaller penalty on running speed.
@@ -22,19 +43,13 @@ Plated Longboots are knee-high leather boots with lobstered metal plates down it
 
 ## Grades
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Plated Longboots</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>0%</td></tr><tr><td>-Cut resistance</td><td>5%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.159</td></tr><tr><td>-Sell value</td><td>c.39</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.06x</td></tr><tr><td>-Athletics effect</td><td>0.84x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Plated Longboots</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>5%</td></tr><tr><td>-Cut resistance</td><td>15%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Harpoon resistance</td><td>8pts</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.390</td></tr><tr><td>-Sell value</td><td>c.97</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.17x</td></tr><tr><td>-Athletics effect</td><td>0.87x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Plated Longboots</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>16%</td></tr><tr><td>-Cut resistance</td><td>29%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Harpoon resistance</td><td>26pts</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,128</td></tr><tr><td>-Sell value</td><td>c.282</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.31x</td></tr><tr><td>-Athletics effect</td><td>0.90x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Plated Longboots</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>26%</td></tr><tr><td>-Cut resistance</td><td>42%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Harpoon resistance</td><td>44pts</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,360</td></tr><tr><td>-Sell value</td><td>c.590</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.45x</td></tr><tr><td>-Athletics effect</td><td>0.93x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Plated Longboots</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>37%</td></tr><tr><td>-Cut resistance</td><td>56%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Harpoon resistance</td><td>62pts</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.4,083</td></tr><tr><td>-Sell value</td><td>c.1,020</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.58x</td></tr><tr><td>-Athletics effect</td><td>0.95x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Plated Longboots</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>45%</td></tr><tr><td>-Cut resistance</td><td>66%</td></tr><tr><td>-Cut resistance efficiency</td><td>80%</td></tr><tr><td>-Harpoon resistance</td><td>76pts</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.5,699</td></tr><tr><td>-Sell value</td><td>c.1,424</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.69x</td></tr><tr><td>-Athletics effect</td><td>0.98x</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Metal Plate</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>0%</td><td>5%</td><td>16%</td><td>26%</td><td>37%</td><td>45%</td></tr><tr><th scope="row">Cut resistance</th><td>5%</td><td>15%</td><td>29%</td><td>42%</td><td>56%</td><td>66%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">80%</td></tr><tr><th scope="row">Harpoon resistance</th><td>–</td><td>8pts</td><td>26pts</td><td>44pts</td><td>62pts</td><td>76pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">4 kg</td></tr><tr><th scope="row">Value</th><td>c.159</td><td>c.390</td><td>c.1,128</td><td>c.2,360</td><td>c.4,083</td><td>c.5,699</td></tr><tr><th scope="row">Sell value</th><td>c.39</td><td>c.97</td><td>c.282</td><td>c.590</td><td>c.1,020</td><td>c.1,424</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Right Leg</th><td colspan="6">40%</td></tr><tr><th scope="row">Left Leg</th><td colspan="6">40%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td>0.06x</td><td>0.17x</td><td>0.31x</td><td>0.45x</td><td>0.58x</td><td>0.69x</td></tr><tr><th scope="row">Athletics effect</th><td>0.84x</td><td>0.87x</td><td>0.90x</td><td>0.93x</td><td>0.95x</td><td>0.98x</td></tr></tbody></table>
 
   
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.16</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>0.8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Plated Longboots blueprint: 12 hours at tech level 1; the blueprint is worth c. 2,821.</li></ul></div>
 
 ## Blueprints
 

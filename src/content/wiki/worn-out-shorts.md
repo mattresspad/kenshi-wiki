@@ -5,9 +5,25 @@ source:
   title: "Worn-out Shorts"
   revision: 94114
 categories: ["Armour","Legwear","Clothing"]
+infobox:
+  title: "Worn-out Shorts"
+  image: "/icons/items/2158-gamedata.base.png"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 40"]
+        - ["Size in inventory","4x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2158-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Worn-out Shorts</td></tr><tr><td>-Weight</td><td>2 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.20</td></tr><tr><td>-Sell value</td><td>c.5</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td></tr></tbody></table>
 
 **Worn-out Shorts** are a clothing item that is wearable as pants. They can be looted, purchased from a [Clothing Trader](/clothing-trader). Worn-out Shorts are the only shorts in game.
 
@@ -22,3 +38,7 @@ Worn-out Shorts are a brown pair of leather shorts. The length of the leg on the
 ## Clothing
 
 Worn-out Shorts can be crafted on a [Clothing Bench](/clothing-bench) after researching [Simple Clothing Types](/simple-clothing-types-tech).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/simple-clothing-types-tech">Simple Clothing Types</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li><li>Worn-out Shorts blueprint: 12 hours at tech level 1; the blueprint is worth c. 30.</li></ul></div>

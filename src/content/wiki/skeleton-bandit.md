@@ -23,7 +23,7 @@ infobox:
         - ["Footwear","<a href=\"/samurai-boots\">Samurai Boots</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Kneel before your skele-ton lords!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Skeleton Bandit victorious</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Kneel before your skele-ton lords!</blockquote><figcaption>Skeleton Bandit victorious</figcaption></figure>
 
 **Skeleton Bandits** are common soldiers of the [Skeleton Bandits](/skeleton-bandits) faction. They can typically be found in patrols of 10-15 led by an [Upgraded Skeleton Bandit](/upgraded-skeleton-bandit) in [Stobe's Gamble](/stobes-gamble), [Stobe's Garden](/stobes-garden), [The Crags](/the-crags) and [The Pits](/the-pits). These patrols persist so long as [Elder](/elder) is alive.
 

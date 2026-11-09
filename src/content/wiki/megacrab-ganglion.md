@@ -7,13 +7,18 @@ source:
 categories: ["Items","Unique"]
 infobox:
   title: "Megacrab Ganglion"
+  image: "/icons/items/56122-rebirth.mod.png"
+  caption: "Some kind of organ or something that was inside the Megacrab.  Whatever it is, it's probably worth a bit of money"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","5 kg"]
-        - ["Size","3x3"]
-        - ["Avg. Price","c.3,000"]
-        - ["Description","Some kind of organ or something that was inside the Megacrab. Whatever it is it's probably worth a bit of money"]
+        - ["Base value","c. 5,000"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>56122-rebirth.mod</span>"]
 ---
 
 A **Megacrab Ganglion** is a unique item for which the only use is to sell. 5 can be found on the bodies of [Megacrab](/megacrab), [Barnabus](/barnabus), [Mr Gigantus](/mr-gigantus), and [The Crabinator](/the-crabinator)

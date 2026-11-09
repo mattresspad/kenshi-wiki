@@ -7,11 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Press"
+  image: "/icons/items/43399-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
-        - ["Size","3x2"]
-        - ["Avg. Price","c.324"]
+        - ["Type","Other"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>43399-changes_otto.mod</span>"]
 ---
 
 **Press** is a [trade good](/trade-goods) which can be crafted at [Robotics Bench](/robotics-bench). Presses are typically found in various ruins including [Ancient Labs](/ancient-labs). 
@@ -25,3 +31,7 @@ infobox:
 -   [Skeleton Muscle](/skeleton-muscle)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/robotics-bench">Robotics Bench</a></th></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/robotics-tech">Robotics</a> research: 8 hours at tech level 3; costs <a href="/ancient-science-book">1 Ancient Science Book</a>; needs <a href="/steel-bars-tech">Steel Bars</a>, <a href="/electrical-crafting-tech">Electrical Crafting</a>.</li></ul></div>

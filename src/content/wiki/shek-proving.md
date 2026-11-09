@@ -19,7 +19,7 @@ infobox:
         - ["Victory Triggers","<strong>Shek Proving</strong> 60-130 Hours, 100% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Foreigners! We are Kral's Chosen, mighty guardians of the sacred homeland... And you insult my people with your trespass, invader! Come to me! Fight and earn your privilege to dwell on warrior soil!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Kral's Chosen</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Foreigners! We are Kral's Chosen, mighty guardians of the sacred homeland... And you insult my people with your trespass, invader! Come to me! Fight and earn your privilege to dwell on warrior soil!</blockquote><figcaption>Kral's Chosen</figcaption></figure>
 
 **Shek Proving** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 4,000 meters of [New Kralia](/new-kralia). It has a 20% chance to trigger each day if within 1,800 meters, this chance scales down with distance until it reaches 0% at 4,000 meters. It cannot trigger if the player has killed or captured the [Holy Lord Phoenix](/holy-lord-phoenix), the [Bugmaster](/bugmaster), [Esata the Stone Golem](/esata-the-stone-golem), or [Flying Bull](/flying-bull). Unlike most territorial raids, it has a very long cooldown so that normally it can only trigger once outside of victory triggers. If the player defeats the raid, they will never get it again unless they [Import](/main-menu#import) their save or play for over 10,000 days.
 

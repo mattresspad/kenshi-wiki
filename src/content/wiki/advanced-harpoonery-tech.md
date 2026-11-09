@@ -21,6 +21,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Contains theories for ridiculous looking, advanced harpoon turret designs that can supposedly fire multiple shots.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Contains theories for ridiculous looking, advanced harpoon turret designs that can supposedly fire multiple shots.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Advanced Harpoonery** is [Defense Tech](/defense-tech) which unlocks the ability to research new types of [Turrets](/turrets).

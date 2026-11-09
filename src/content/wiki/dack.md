@@ -17,7 +17,7 @@ infobox:
         - ["String ID","55818-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Exiles make me nervous, <a href="/quin">Quin</a>. Why is he in the Black Desert?<p>Is he a spy for the humans? Did they hack his CPU?</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Dack, upon seeing a Skeleton Player Character</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Exiles make me nervous, <a href="/quin">Quin</a>. Why is he in the Black Desert?<p>Is he a spy for the humans? Did they hack his CPU?</p></blockquote><figcaption>Dack, upon seeing a Skeleton Player Character</figcaption></figure>
 
 **Dack** is a member of the [Skeletons](/skeletons) faction. They can be found in [Scraphouse](/scraphouse).
 

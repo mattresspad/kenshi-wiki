@@ -1,6 +1,6 @@
 ---
 title: "Retribution of God"
-description: "–High Inquisitor Seta or a standard Inquisitor"
+description: "Retribution of God is an event that can occur if the player's outpost is within 7,000 meters of a Holy Nation owned location, and Valtena, or both him and Se…"
 source:
   title: "Retribution of God"
   revision: 94495
@@ -20,7 +20,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/wrath-of-god\">Wrath of God</a> 36-80 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Under the divine law of the Holy Lord Phoenix, blessed be his name... I hereby arrest those responsible for the brutalisation of one of Okran's purest of children... For the attack on a High Inquisitor of the holy order... Light of Okran, guide my sword!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/high-inquisitor-seta">High Inquisitor Seta</a> or a standard <a href="/inquisitor">Inquisitor</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Under the divine law of the Holy Lord Phoenix, blessed be his name... I hereby arrest those responsible for the brutalisation of one of Okran's purest of children... For the attack on a High Inquisitor of the holy order... Light of Okran, guide my sword!</blockquote><figcaption><a href="/high-inquisitor-seta">High Inquisitor Seta</a> or a standard <a href="/inquisitor">Inquisitor</a></figcaption></figure>
 
 **Retribution of God** is an event that can occur if the player's outpost is within 7,000 meters of a [Holy Nation](/the-holy-nation) owned location, and [Valtena](/high-inquisitor-valtena), or both him and [Seta](/high-inquisitor-seta), are killed or captured.
 

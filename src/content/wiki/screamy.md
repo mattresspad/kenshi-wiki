@@ -15,7 +15,7 @@ infobox:
         - ["Gender","Male"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Ehhh? Meena... is that you?... Meeeeena. Me... Nah.... Nah me? Nahmean? Ah, nahmean, ah.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Ehhh? Meena... is that you?... Meeeeena. Me... Nah.... Nah me? Nahmean? Ah, nahmean, ah.</blockquote></figure>
 
 **Screamy** is an [Outlaw](/outlaw) being held a prisoner in [Tengu's Vault](/tengus-vault). He has a c.20,000 [Bounty](/bounty).
 

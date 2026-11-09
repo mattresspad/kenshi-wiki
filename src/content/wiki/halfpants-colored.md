@@ -6,23 +6,21 @@ source:
   revision: 79825
 categories: ["Armour","Legwear","Clothing"]
 infobox:
-  title: "Clothing Manufacture"
+  title: "Halfpants (colored)"
+  image: "/icons/items/1273-gamedata.base.png"
   groups:
     - heading: null
       rows:
-        - ["Description","With this we could craft clothes and stuff.  For wearing."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: null
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","1 <a href=\"/book\">Book</a>"]
-    - heading: "Results"
-      rows:
-        - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
-        - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
+        - ["String id","<span>1273-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4"><i>This item has no description.</i></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 The **Halfpants (colored)** are a piece of [Clothing](/clothing) equipped in the [Legwear](/legwear) slot. This is a [colourable](/colour-scheme) variation of [Halfpants (ragged)](/halfpants-ragged). Other variants of Halfpants include: [padded](/halfpants-padded), [reinforced](/halfpants-reinforced), and [sneaky chain](/halfpants-sneaky-chain).
 
@@ -40,6 +38,6 @@ Halfpants trousers that have endured a lot of wear and tear. The pant legs are r
 
 ## Crafting
 
-A blueprint can be bought at the [Great Library](/the-great-library).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Halfpants (colored) blueprint: 12 hours at tech level 1; the blueprint is worth c. 75.</li></ul></div>
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1.35 required)</span></p></td><td><strong><span>Halfpants (colored)</span></strong><div></div></td></tr></tbody></table></details>
+A blueprint can be bought at the [Great Library](/the-great-library).

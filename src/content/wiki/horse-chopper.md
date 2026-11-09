@@ -7,15 +7,29 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Horse Chopper"
+  image: "/icons/items/475-gamedata.base.png"
+  caption: "The classic sabre.  Does more damage than a regular katana, at the cost of extra weight.  The heavier blade is better for defending, but still curved for cutting damage.  They're very common, so can usually be found cheaper than other weapons of similar quality."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","0.90x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.00x"]
+        - ["Blunt damage","0.25x"]
+        - ["Bleed","0.90x"]
+        - ["Armour penetration","0%"]
         - ["Attack","-4"]
         - ["Defence","+4"]
         - ["Reach","18"]
-        - ["Description","The classic sabre.  Does more damage than a regular katana, at the cost of extra weight.  The heavier blade is better for defending, but still curved for cutting damage.  They're very common, so can usually be found cheaper than other weapons of similar quality."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>475-gamedata.base</span>"]
 ---
 
@@ -27,15 +41,7 @@ This weapon has inventory dimensions of **2x8,** meaning it can only be used as 
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Horse Chopper</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Horse Chopper</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(4 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Horse Chopper</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(4 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>4</td><td>4</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>4</td><td>4</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Sabres blueprint: 8 hours at tech level 2; the blueprint is worth c. 1,500.</li></ul></div>
 
 ## Blueprints
 

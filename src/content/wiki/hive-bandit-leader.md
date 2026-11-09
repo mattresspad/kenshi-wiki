@@ -19,7 +19,7 @@ infobox:
         - ["Legwear","<a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Erase them!<p>Erase!</p><p>Erase!</p><p>Erase!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–-a Hive Bandit attacking</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Erase them!<p>Erase!</p><p>Erase!</p><p>Erase!</p></blockquote><figcaption>-a Hive Bandit attacking</figcaption></figure>
 
 **Hive Bandit Leaders** are members of the [Western Hive](/western-hive). They start spawning after the [Hive Queen](/hive-queen) is killed or kidnapped. They spawn accompanied by a squad of 4 to 8 [Hive Bandits](/hive-bandit).
 

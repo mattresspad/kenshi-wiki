@@ -70,7 +70,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Headgear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/tin-can">Tin Can</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/ninja-mask">Ninja Mask</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/masked-helmet">Masked Helmet</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2149-gamedata.base.png" alt="" width="40" height="40"> <a href="/tin-can">Tin Can</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2221-chris_r.mod.png" alt="" width="40" height="40"> <a href="/ninja-mask">Ninja Mask</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2201-gamedata.base.png" alt="" width="40" height="40"> <a href="/masked-helmet">Masked Helmet</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Body
 

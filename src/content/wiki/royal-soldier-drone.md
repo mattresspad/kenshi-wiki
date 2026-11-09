@@ -19,7 +19,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Ngaaah!<p>Protect the queen!</p><p>This can't be happening!</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Ngaaah!<p>Protect the queen!</p><p>This can't be happening!</p></blockquote></figure>
 
 **Royal Soldier Drones** can be found protecting [The Queen](/the-queen) in the village [Western Hive](/western-hive-location) and are part of the [Western Hive](/western-hive) faction.
 

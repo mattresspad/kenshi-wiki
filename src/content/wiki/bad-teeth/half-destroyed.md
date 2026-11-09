@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/bad-teeth/half-destroyed)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Our lord is dead, but my faith still lives...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Holy Barman</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Our lord is dead, but my faith still lives...</blockquote><figcaption>Holy Barman</figcaption></figure>
 
 If the [Holy Lord Phoenix](/holy-lord-phoenix) has been killed or kidnapped but [High Inquisitor Seta](/high-inquisitor-seta) has not, [Bad Teeth](/bad-teeth) will become half-destroyed.
 

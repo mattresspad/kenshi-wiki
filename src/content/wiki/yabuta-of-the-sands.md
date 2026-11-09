@@ -23,7 +23,7 @@ infobox:
         - ["Footwear","None"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Psh. You know... stole a few greenfruits, picked a few pockets. Tell me, do I deserve Tengu's hell Vault, brother? Lady luck doesn't sink any lower than this....</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Psh. You know... stole a few greenfruits, picked a few pockets. Tell me, do I deserve Tengu's hell Vault, brother? Lady luck doesn't sink any lower than this....</blockquote></figure>
 
 **Yabuta of the Sands** is a prisoner in [Tengu's Vault](/tengus-vault). Releasing him and letting him escape alive will cause the creation of the [Yabuta Outlaws](/yabuta-outlaws).
 

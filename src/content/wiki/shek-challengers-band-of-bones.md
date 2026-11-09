@@ -15,7 +15,7 @@ infobox:
         - ["Victory Triggers","<a href=\"/raid\">Raid</a> 200-300 Hours, 100% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Hmph. A Shek does not surrender to defeat so easily. Today, we will be the ones who stand. There will be blood!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Band of Bones</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Hmph. A Shek does not surrender to defeat so easily. Today, we will be the ones who stand. There will be blood!</blockquote><figcaption>Band of Bones</figcaption></figure>
 
 **Shek Challengers** is an [Event](/events) that can trigger if the [Player](/nameless) has defeated the [Raid](/raid) or **Shek Challengers** events. It cannot trigger if [Tora the Fearless](/tora-the-fearless), [Esata the Stone Golem](/esata-the-stone-golem), the [Bugmaster](/bugmaster), or the [Holy Lord Phoenix](/holy-lord-phoenix) have been killed or captured.
 

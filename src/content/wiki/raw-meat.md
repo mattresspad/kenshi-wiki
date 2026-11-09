@@ -7,15 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Raw Meat"
+  image: "/icons/items/42243-rebirth.mod.png"
+  caption: "Uncooked meat from some dead animal.  Probably."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","15 nu"]
+        - ["Type","Special food"]
         - ["Weight","1 kg"]
-        - ["Size","2x2 wide/tall"]
-        - ["Avg. Price","c.60"]
-        - ["Charges","30/30"]
-        - ["Description","Uncooked meat from some dead animal.  Probably."]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x2"]
+        - ["Nutrition","15 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>42243-rebirth.mod</span>"]
 ---
 
 **Raw Meat** is an ingredient used primarily in the crafting of [food](/food) at a [Cooking Stove](/cooking-stove). It can be bought from relevant [Traders](/traders) including those in [Hive Villages](/hive-village) or gathered from most [Fauna](/fauna).

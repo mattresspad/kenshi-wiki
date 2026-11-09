@@ -17,7 +17,7 @@ infobox:
         - ["String ID","62190-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>What are YOU?!<p>No-hive for King!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Droneguard</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>What are YOU?!<p>No-hive for King!</p></blockquote><figcaption>Droneguard</figcaption></figure>
 
 **Droneguards** are the bulk of the [Southern Hive](/southern-hive) and are usually found in squads lead by a [Prince](/prince).
 

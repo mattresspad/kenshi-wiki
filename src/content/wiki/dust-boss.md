@@ -18,7 +18,7 @@ infobox:
         - ["String ID","1301-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Come out and talk to your friendly neighborhood bandits!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Come out and talk to your friendly neighborhood bandits!</blockquote></figure>
 
 **Dust Bosses** are squad leaders of the [Dust Bandits](/dust-bandits), who can be found leading groups of their fellow outlaws in their territory. They are stronger than their comrades, and may approach player characters with their group in tow to mug them. The player may either pay a fair sum of [Cats](/cats) and be left alone, or refuse the offer, which initiates a fight.
 

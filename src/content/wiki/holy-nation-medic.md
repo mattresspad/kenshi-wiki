@@ -27,7 +27,7 @@ infobox:
         - ["String ID","42238-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm not much of a fighter, I'm a medic. But I can heal you up real nice.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm not much of a fighter, I'm a medic. But I can heal you up real nice.</blockquote></figure>
 
 **Holy Nation Medic** is a randomly named [Generic Recruit](/generic-recruits) found in [The Holy Nation](/the-holy-nation). They are a medic looking for work. They can be hired for c.6,000.
 

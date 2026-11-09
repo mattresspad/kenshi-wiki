@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>An outsider, eh? I give you three days, max</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hound</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>An outsider, eh? I give you three days, max</blockquote><figcaption>Hound</figcaption></figure>
 
 **Hounds** are the regular members of the [Hounds](/hounds) faction. They can be found in [Shark](/shark) and patrolling inside and around their village [Rot](/rot).
 

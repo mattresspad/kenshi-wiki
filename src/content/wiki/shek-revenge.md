@@ -15,7 +15,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/shek-challengers-shek-kingdom\">Shek Challengers (Shek Kingdom)</a> 72-200 hours, 60% chance<p><strong>Shek Revenge</strong> 72-200 hours, 40-60% chance</p>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Respect, enemy. Your reputation precedes you... And every Shek warrior wants their turn battling you. But now the turn is mine!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hundred Guardian War Leader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Respect, enemy. Your reputation precedes you... And every Shek warrior wants their turn battling you. But now the turn is mine!</blockquote><figcaption>Hundred Guardian War Leader</figcaption></figure>
 
 The **Shek Revenge** is a recurring base assault [event](/events) that can occur if you defeat any of the following and is _not_ an ally of the [Shek Kingdom](/shek-kingdom):
 

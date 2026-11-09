@@ -1,6 +1,6 @@
 ---
 title: "Holy Construction Trader"
-description: "–Trader answering an engineering question"
+description: "Holy Construction Traders are unnamed shopkeepers of The Holy Nation. They can be found in Holy Mechanical Shops."
 source:
   title: "Holy Construction Trader"
   revision: 88537
@@ -20,7 +20,7 @@ infobox:
         - ["Footwear","<a href=\"/wooden-sandals\">Wooden Sandals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You just need the raw Building Materials, or sometimes Iron Plates. You can't just plonk down anywhere though, you'll have to find a nice spot out in the wilds where you won't bother anyone, or maybe buy a building here in town.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Trader answering an engineering question</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You just need the raw Building Materials, or sometimes Iron Plates. You can't just plonk down anywhere though, you'll have to find a nice spot out in the wilds where you won't bother anyone, or maybe buy a building here in town.</blockquote><figcaption>Trader answering an engineering question</figcaption></figure>
 
 **Holy Construction Traders** are unnamed shopkeepers of [The Holy Nation](/the-holy-nation). They can be found in [Holy Mechanical Shops](/holy-mechanical-shop).
 

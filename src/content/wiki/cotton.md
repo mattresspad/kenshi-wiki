@@ -7,13 +7,18 @@ source:
 categories: ["Items","Farming"]
 infobox:
   title: "Cotton"
+  image: "/icons/items/42178-rebirth.mod.png"
+  caption: "Cotton is used to make fabrics and clothing."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","2 kg"]
-        - ["Size","3x3 wide/tall"]
-        - ["Avg. Price","c.75"]
-        - ["Description","Cotton is used to make fabrics and clothing."]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>42178-rebirth.mod</span>"]
 ---
 
 **Cotton** is a crop harvested from [Cotton Farms](/cotton-farm) and processed at a [Fabric Loom (Cotton)](/fabric-loom-cotton). It can be stored in the [Storage:Cotton](/storage-cotton) container.

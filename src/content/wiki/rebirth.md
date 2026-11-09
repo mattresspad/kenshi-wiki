@@ -1,6 +1,6 @@
 ---
 title: "Rebirth"
-description: "–Paladin, introducing the player to Rebirth"
+description: "Rebirth is a labor camp in the pit of a large mountain where The Holy Nation sends criminals for punishment and repentance. All races can be present here, ex…"
 source:
   title: "Rebirth"
   revision: 95892
@@ -17,7 +17,7 @@ infobox:
         - ["String ID","18921-Newwworld.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It is a place of penance and education for the less fortunate, for those who have lost their way from the path. We help them find Okran in their heart so that they can live a life of higher purpose and redemption. It is a place where they can be reborn once again, as children of Okran.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Paladin, introducing the player to Rebirth</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It is a place of penance and education for the less fortunate, for those who have lost their way from the path. We help them find Okran in their heart so that they can live a life of higher purpose and redemption. It is a place where they can be reborn once again, as children of Okran.</blockquote><figcaption>Paladin, introducing the player to Rebirth</figcaption></figure>
 
 **Rebirth** is a labor camp in the pit of a large mountain where [The Holy Nation](/the-holy-nation) sends criminals for punishment and repentance. All races can be present here, except for [Skeletons](/skeleton)<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>, as The Holy Nation does not consider them to have a soul. It is located in an [eponymous region](/rebirth-zone) north of main Holy Nation territory.
 

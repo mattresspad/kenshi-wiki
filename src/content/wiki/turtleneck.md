@@ -5,9 +5,26 @@ source:
   title: "Turtleneck"
   revision: 94072
 categories: ["Armour","Shirts","Clothing"]
+infobox:
+  title: "Turtleneck"
+  image: "/icons/items/543-gamedata.base.png"
+  caption: "Good shirt for sneaking about, doing spy stuff."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","2x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","10%"]
+    - heading: null
+      rows:
+        - ["String id","<span>543-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Turtleneck</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.300</td></tr><tr><td>-Sell value</td><td>c.75</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2">Good shirt for sneaking about, doing spy stuff.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td></tr></tbody></table>
 
 The **Turtleneck** is worn in the [shirt](/shirts) armour slot. It does not provide any armour or stat buffs/debuffs.
 
@@ -20,6 +37,8 @@ This armour has inventory dimensions of **2x4**.
 A plain, fully sleeved white shirt.
 
 ## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/simple-clothing-types-tech">Simple Clothing Types</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li><li>Turtleneck blueprint: 12 hours at tech level 1; the blueprint is worth c. 450.</li></ul></div>
 
 Turtlenecks can be crafted on the [Clothing Bench](/clothing-bench). A Blueprint is not needed.
 

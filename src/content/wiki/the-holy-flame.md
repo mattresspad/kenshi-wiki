@@ -7,12 +7,18 @@ source:
 categories: ["Items","Books","Holy Nation"]
 infobox:
   title: "The Holy Flame"
+  image: "/icons/items/42322-changes_otto.mod.png"
+  caption: "The religious book of the Holy Nation, every citizen has to have one by law."
   groups:
     - heading: null
       rows:
-        - ["Size","3x3"]
-        - ["Avg. Price","c.90"]
-        - ["Description","The religious book of the Holy Nation, every citizen has to have one by law."]
+        - ["Type","Other"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>42322-changes_otto.mod</span>"]
 ---
 
 **The Holy Flame** is an [item](/items) that can be found everywhere in [The Holy Nation](/the-holy-nation).

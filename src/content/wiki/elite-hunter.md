@@ -18,7 +18,7 @@ infobox:
         - ["String ID","61005-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Allow me to introduce myself. I am one of the Empire's Elite Hunters... And I've been sent for your head.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–The Elite Hunters of the United Cities.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Allow me to introduce myself. I am one of the Empire's Elite Hunters... And I've been sent for your head.</blockquote><figcaption>The Elite Hunters of the United Cities.</figcaption></figure>
 
 **Elite Hunters** are the [United Cities](/united-cities) special forces. They are usually sent out to take down high value targets - these include anyone with sufficiently poor enough relations with the Empire or the Trader's Guild.
 

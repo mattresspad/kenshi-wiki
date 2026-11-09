@@ -7,15 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Simple Rug"
+  image: "/icons/items/1534063-Newwworld.mod.png"
+  caption: "Something basic for the floor of your building."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","5 kg"]
-        - ["Size","8x2 wide/tall"]
-        - ["Value","<span>c.</span>c.180"]
-        - ["Sell Value","<span>c.</span>c.180"]
-        - ["Avg. Price","c.180"]
-        - ["Description","Something basic for the floor of your building."]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x8"]
+    - heading: null
+      rows:
+        - ["String id","<span>1534063-Newwworld.mod</span>"]
 ---
 
 **Simple Rug** is a [trade good](/trade-goods) that can be found in some residences as well as in Shark Mechanical Shop, [Mongrel General Shop](/general-shop) and in Shek General stores for sale. It can be picked up from the floor with an "Alt+left click". **Simple Rug** can be placed back on the floor by simply dragging it out of the inventory of a character.

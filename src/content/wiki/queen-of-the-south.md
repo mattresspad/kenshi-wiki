@@ -17,7 +17,7 @@ infobox:
         - ["Weapons","<a href=\"/polearm\">Polearm</a> (<a href=\"/meitou\">Meitou</a>)"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>EEEEEEEEEH!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>EEEEEEEEEH!</blockquote></figure>
 
 **Queen of the South** is leader of the [Southern Hive](/southern-hive) and has [Diplomatic Status](/diplomatic-status). She sits upon her throne located in [Southern Hive](/southern-hive-location) protected by her [Elite Droneguards](/elite-droneguard) who will attack any intruders. She rules over her subjects with the help of her consort, the [King](/king).
 

@@ -17,7 +17,7 @@ infobox:
         - ["String ID","43176-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Stone Golem saves her energies for the art of combat. Not the art of gum flapping, as my lady describes it. And that's why I'm here. What do you want, outsider? And make it quick, I'm a busy man.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Bayan's greeting</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Stone Golem saves her energies for the art of combat. Not the art of gum flapping, as my lady describes it. And that's why I'm here. What do you want, outsider? And make it quick, I'm a busy man.</blockquote><figcaption>Bayan's greeting</figcaption></figure>
 
 **Bayan** is an advisor to the [Stone Golem](/stone-golem) of [Shek Kingdom](/shek-kingdom). He can be found in the Faction HQ in [Admag](/admag), unless World States have moved the Shek HQ.
 

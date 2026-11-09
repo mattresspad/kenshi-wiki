@@ -7,7 +7,7 @@ source:
 categories: ["Guides"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You are not the chosen one. You're not great and powerful. You don't have more 'hitpoints' than everyone else. You are not the center of the universe, and you are not special. Unless you work for it.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You are not the chosen one. You're not great and powerful. You don't have more 'hitpoints' than everyone else. You are not the center of the universe, and you are not special. Unless you work for it.</blockquote></figure>
 
 Kenshi is an unforgiving game about a brutal world which does not care about you. Many people will attack you in order to loot you, [enslave you](/slavery), or [eat you](/cannibals). You heal very slowly and, if you are not careful, you can easily lose a limb. Gaining the edge over your opponent is difficult since you gain experience at the same rate as the AI. This guide's goal is to help new players who are **Getting Started** in the world of Kenshi.
 

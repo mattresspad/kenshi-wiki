@@ -18,7 +18,7 @@ infobox:
         - ["String ID","56887-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'll paint a heart with their blood, just for you, <a href="/dimak">Makky</a>.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I'll paint a heart with their blood, just for you, <a href="/dimak">Makky</a>.</blockquote></figure>
 
 **Buzan** is one of the leaders of the [Black Dragon Ninjas](/black-dragon-ninjas). He can be found in the [Tower of Ninjas](/tower-of-ninjas) alongside [Dimak](/dimak) and many [Black Dragon Genin](/black-dragon-genin).
 

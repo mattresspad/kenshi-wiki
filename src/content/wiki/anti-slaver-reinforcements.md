@@ -13,7 +13,7 @@ infobox:
         - ["Ignores No-Go Zones","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Heard you might need a little help... The samurai will be here soon... Time to break some faces. Don't go dying on me now, comrades.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Jaegar</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Heard you might need a little help... The samurai will be here soon... Time to break some faces. Don't go dying on me now, comrades.</blockquote><figcaption>Jaegar</figcaption></figure>
 
 **Anti-Slaver Reinforcements** is an [Event](/events) that will trigger in response to the [Eyegore's Assault](/eyegores-assault), [Noble's Wrath](/nobles-wrath), and [Noble's Wrath Assault](/nobles-wrath-assault) events triggering, as long as the [Player](/nameless) is allied to the [Anti-Slavers](/anti-slavers) faction, and as long as [Tinfist](/tinfist) and [Jaegar](/jaegar) are still alive and free.
 

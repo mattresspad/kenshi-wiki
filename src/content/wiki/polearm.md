@@ -7,17 +7,33 @@ source:
 categories: ["Weapons","Polearms"]
 infobox:
   title: "Polearm"
+  image: "/icons/items/52301-rebirth.mod.png"
+  caption: "Unusual weapons that are sometimes used by hunters as their reach makes them good for taking down animals.  Due to their cumbersome length however they are at a serious disadvantage when used indoors."
   groups:
     - heading: null
       rows:
-        - ["Class","[Polearm class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/polearms\">Polearm</a>"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","1x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.50x"]
+        - ["Blunt damage","0.50x"]
+        - ["Bleed","1.00x"]
         - ["Armour penetration","+30%"]
         - ["Attack","+6"]
+        - ["Defence","0"]
         - ["Indoors","-8"]
-        - ["Damage vs animals","+50%"]
         - ["Reach","28"]
-        - ["Description","Unusual weapons that are sometimes used by hunters as their reach makes them good for taking down animals.  Due to their cumbersome length however they are at a serious disadvantage when used indoors."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","+50%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52301-rebirth.mod</span>"]
 ---
 
@@ -26,6 +42,10 @@ The **Polearm** is an excellent weapon for killing animals. Its long reach allow
 This weapon has inventory dimensions of **1x10**, meaning it can only be equipped as a primary weapon.
 
 A [Meitou](/meitou) version of this weapon can be found on [Queen of the South](/queen-of-the-south) in [Southern Hive](/southern-hive).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>8</td><td>8</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>8</td><td>8</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Polearms blueprint: 4 hours at tech level 2; the blueprint is worth c. 3,000.</li></ul></div>
 
 ## Blueprint Locations
 

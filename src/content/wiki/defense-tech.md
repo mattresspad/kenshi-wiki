@@ -7,7 +7,7 @@ source:
 categories: ["Technology"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Oh the sound of a harpoon slicing through skull, right on target. It's been too long...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/headshot">Headshot</a>, after being hired</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Oh the sound of a harpoon slicing through skull, right on target. It's been too long...</blockquote><figcaption><a href="/headshot">Headshot</a>, after being hired</figcaption></figure>
 
 < Back to [Technology](/technology).
 

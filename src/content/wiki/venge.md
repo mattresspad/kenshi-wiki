@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/grey-desert\">Grey Desert</a>, <a href=\"/the-eye\">The Eye</a>, <a href=\"/shem\">Shem</a>, <a href=\"/stormgap-coast\">Stormgap Coast</a>, <a href=\"/flats-lagoon-zone\">Flats Lagoon</a>, <a href=\"/the-unwanted-zone\">The Unwanted Zone</a>, <a href=\"/stobes-gamble\">Stobe's Gamble</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The other one is still running here. Watch out for the sky.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The other one is still running here. Watch out for the sky.</blockquote><figcaption><a href="/skeleton">Skeleton</a> Player Characters</figcaption></figure>
 
 **Venge** consists of heated valleys and mountains. The most distinctive feature of Venge are the laser beams that damage anyone who is not wearing 100% [Burn resistance](/weather-effects#burning) armor (except the [Skeletons](/skeletons)) with cut damage.
 

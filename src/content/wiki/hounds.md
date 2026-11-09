@@ -14,7 +14,7 @@ infobox:
         - ["Trade Culture","<a href=\"/swamper-trade-culture\">Swamper Trade Culture</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Hounds are the top dogs, they run the show around here. They done a good job of getting' hemp to grow in the swamps... whether they've been makin' sacrifices to Narko or they just got green goddamn fingers, who the hell knows. Either way it's got em' a pretty big standing in the smuggling trade, they're the most powerful of the clans. Their leader, Grim, she's about as smart as she is crazy...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Swamper Barman</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Hounds are the top dogs, they run the show around here. They done a good job of getting' hemp to grow in the swamps... whether they've been makin' sacrifices to Narko or they just got green goddamn fingers, who the hell knows. Either way it's got em' a pretty big standing in the smuggling trade, they're the most powerful of the clans. Their leader, Grim, she's about as smart as she is crazy...</blockquote><figcaption>Swamper Barman</figcaption></figure>
 
 The **Hounds** are the most powerful gang in [The Swamp](/the-swamp). They are the continent's primary growers of [Hemp](/hemp), which is the main ingredient of [Hashish](/hashish), a narcotic substance illegal in all three major nations. Their leader [Big Grim](/big-grim) is purportedly "crazy," but also clever enough to maneuver her gang to the top of the swamp hierarchy. The Hounds have a [Faction HQ](/faction-hq) building located within [Shark](/shark) and a village within [The Swamp](/the-swamp) named [Rot](/rot).
 

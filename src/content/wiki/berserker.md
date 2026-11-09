@@ -17,7 +17,7 @@ infobox:
         - ["String ID","42259-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Today is a good day to die, warrior!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Berserker's challenge</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Today is a good day to die, warrior!</blockquote><figcaption>Berserker's challenge</figcaption></figure>
 
 **Berserkers** are members of the [Berserkers](/berserkers) faction. They can be found in [Berserker Village](/berserker-village) and patrolling [Stenn Desert](/stenn-desert), [Spider Plains](/spider-plains), [Berserker Country](/berserker-country), and [Cannibal Plains](/cannibal-plains). Taking down [Seta](/high-inquisitor-seta) can make them travel up to even [Okran's Gulf](/okrans-gulf), assuming [Ghost](/ghost) is alive and free.
 

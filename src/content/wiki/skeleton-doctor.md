@@ -20,7 +20,7 @@ infobox:
         - ["Inventory","<a href=\"/skeleton-repair-kit\">Skeleton Repair Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Need the help of Skeleton Doc?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Need the help of Skeleton Doc?</blockquote></figure>
 
 **Skeleton Doctors** are members of the [Skeletons](/skeletons) faction. They can be found in [Robotics Workshops](/robotics-workshop) in [Mongrel](/mongrel), [Black Scratch](/black-scratch), [Heft](/heft), [Heng](/heng), [Spring](/spring), and the Border Zone Waystation.
 

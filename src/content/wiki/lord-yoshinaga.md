@@ -22,7 +22,7 @@ infobox:
         - ["Inventory","<a href=\"/advanced-first-aid-kit\">Advanced First Aid Kit</a>, <a href=\"/bloodrum\">Bloodrum</a>, <a href=\"/cooked-vegetables\">Cooked Vegetables</a>, <a href=\"/luxury-goods\">Luxury Goods</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You're dirtying my soil, peasant boy! Bow for my forgiveness!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Lord Yoshinaga</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You're dirtying my soil, peasant boy! Bow for my forgiveness!</blockquote><figcaption>Lord Yoshinaga</figcaption></figure>
 
 **Lord Yoshinaga** is one of the diplomatic leaders of the [United Cities](/united-cities). He has [Diplomatic Status](/diplomatic-status) and can be found in [Heng](/heng). Entering his home is considered trespassing and his 5 [Hooded Empire Noble Guard](/hooded-empire-noble-guard) will attack.
 

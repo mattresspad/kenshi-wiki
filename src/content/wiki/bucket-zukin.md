@@ -6,24 +6,30 @@ source:
   revision: 91767
 categories: ["Armour","Headgear","Heavy Armour"]
 infobox:
-  title: "Chain Armour Crafting"
+  title: "Bucket Zukin"
+  image: "/icons/items/2225-chris_r.mod.png"
+  caption: "Standard Holy Army issue."
   groups:
     - heading: null
       rows:
-        - ["Description","Chainmail eh? That's going to be bloody fiddly isn't it?"]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","4"]
-        - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-    - heading: "Results"
+        - ["Head","85% covered"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
+        - ["Combat skills","-1"]
+        - ["Cut into stun","35%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2225-chris_r.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Standard Holy Army issue.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 The **Bucket Zukin** is Heavy Armour that is equipped in the Headgear slot. It is the standard headgear for regular soldiers of [The Holy Nation](/the-holy-nation). The helmet can be [dyed](/colour-scheme).
 
 This armour has inventory dimensions of **3x3**.
@@ -34,17 +40,7 @@ The **Bucket Zukin** appears to be a pot helmet with a flat chainmail sheet atta
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Bucket Zukin</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>1%</td></tr><tr><td>-Cut resistance</td><td>8%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>2pts</td></tr><tr><td>-Weight</td><td>4.78125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.98</td></tr><tr><td>-Sell value</td><td>c.24</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>85%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Bucket Zukin</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>6%</td></tr><tr><td>-Cut resistance</td><td>16%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>11pts</td></tr><tr><td>-Weight</td><td>4.78125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.500</td></tr><tr><td>-Sell value</td><td>c.125</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>85%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Bucket Zukin</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>12%</td></tr><tr><td>-Cut resistance</td><td>28%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>23pts</td></tr><tr><td>-Weight</td><td>4.78125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,788</td></tr><tr><td>-Sell value</td><td>c.447</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>85%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Bucket Zukin</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>18%</td></tr><tr><td>-Cut resistance</td><td>40%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>35pts</td></tr><tr><td>-Weight</td><td>4.78125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.3,933</td></tr><tr><td>-Sell value</td><td>c.983</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>85%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Bucket Zukin</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>24%</td></tr><tr><td>-Cut resistance</td><td>52%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>47pts</td></tr><tr><td>-Weight</td><td>4.78125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.6,937</td></tr><tr><td>-Sell value</td><td>c.1,734</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>85%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Bucket Zukin</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>28%</td></tr><tr><td>-Cut resistance</td><td>61%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>57pts</td></tr><tr><td>-Weight</td><td>4.78125 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.9,753</td></tr><tr><td>-Sell value</td><td>c.2,438</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>85%</td></tr><tr><td></td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Heavy Armour Class · Chain</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1%</td><td>6%</td><td>12%</td><td>18%</td><td>24%</td><td>28%</td></tr><tr><th scope="row">Cut resistance</th><td>8%</td><td>16%</td><td>28%</td><td>40%</td><td>52%</td><td>61%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">65%</td></tr><tr><th scope="row">Harpoon resistance</th><td>2pts</td><td>11pts</td><td>23pts</td><td>35pts</td><td>47pts</td><td>57pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">4.78125 kg</td></tr><tr><th scope="row">Value</th><td>c.98</td><td>c.500</td><td>c.1,788</td><td>c.3,933</td><td>c.6,937</td><td>c.9,753</td></tr><tr><th scope="row">Sell value</th><td>c.24</td><td>c.125</td><td>c.447</td><td>c.983</td><td>c.1,734</td><td>c.2,438</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">85%</td></tr></tbody></table>
 
 ## Source
 
@@ -54,13 +50,7 @@ The **Bucket Zukin** appears to be a pot helmet with a flat chainmail sheet atta
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Chain Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.17 required)</span></p></td><td><strong><span>Bucket Zukin</span></strong><div></div></td></tr><tr><td><a href="/chainmail-sheets"><span>Chainmail Sheets</span></a><div></div><p><span>(0.85 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Bucket Zukin<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>4,470</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,117</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Bucket Zukin</td></tr></tbody></table>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.17</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>0.85</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Bucket Zukin blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,470.</li></ul></div>
 
 ## Trivia
 

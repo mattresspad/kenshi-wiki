@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/blister-hill/destroyed)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Oh, 62nd Phoenix... Of all the Phoenix' you were my favourite...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-citizen">Holy Citizen</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Oh, 62nd Phoenix... Of all the Phoenix' you were my favourite...</blockquote><figcaption><a href="/holy-citizen">Holy Citizen</a></figcaption></figure>
 
 [Blister Hill](/blister-hill) falls to ruins if [Holy Lord Phoenix](/holy-lord-phoenix) is killed or imprisoned. It's possible for this override to switch to [outlaw](/blister-hill/holy-nation-outlaws) or [flotsam](/blister-hill/flotsam-ninjas) overrides.
 

@@ -20,7 +20,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/shek-challengers-shek-kingdom\">Shek Challengers</a> 72-150 hours, 30% chance. <p><a href=\"/shek-revenge\">Shek Revenge</a> 72-150 hours, 50% chance. <strong>Enemy Hunt</strong> 72-150 hours, 20% chance.</p>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You think walls alone will keep me from hunting your hide, dog? I expected more of you, enemy! I expect a good battle from you. Let me show you the might of a TRUE warrior!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hundred Guardian War Leader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You think walls alone will keep me from hunting your hide, dog? I expected more of you, enemy! I expect a good battle from you. Let me show you the might of a TRUE warrior!</blockquote><figcaption>Hundred Guardian War Leader</figcaption></figure>
 
 **Enemy Hunt** is an [event](/events) that occurs when the player is enemy of [Shek Kingdom](/shek-kingdom), and lives in vicinity of their settlements. Alternatively, it could be launched as a result of defeating [Invincible Vengeance](/invincible-vengeance).
 

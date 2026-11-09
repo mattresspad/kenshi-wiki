@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Electrical Components"
+  image: "/icons/items/42164-gamedata.base.png"
+  caption: "Complicated electricals and stuff, you wouldn't understand it."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Avg. Price","c.216"]
-        - ["Description","Complicated electricals and stuff, you wouldn't understand it"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>42164-gamedata.base</span>"]
 ---
 
 **Electrical Components** is an [item](/items) which can be used in crafting and construction. They can be produced at an [Electrical Workbench](/electrical-workbench) out of [Copper](/copper) after the player has researched [Electrical Crafting](/electrical-crafting-tech).
@@ -44,3 +49,7 @@ They can be bought at relevant [traders](/traders) including those in [Hive Vill
 -   20 x [Cleanser Unit](/cleanser-unit)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/electrical-workbench">Electrical Workbench</a></th></tr><tr><th scope="row"><a href="/copper">Copper</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/electrical-crafting-tech">Electrical Crafting</a> research: 8 hours at tech level 3; costs <a href="/book">4 Books</a>.</li></ul></div>

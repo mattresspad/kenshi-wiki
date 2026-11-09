@@ -7,7 +7,7 @@ source:
 categories: ["Guides"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This is a special person with diplomatic importance. Anyone who attacks this guy will be in serious trouble with his faction.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This is a special person with diplomatic importance. Anyone who attacks this guy will be in serious trouble with his faction.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Diplomatic Status** is given to a person with high importance in a [faction](/faction). Attacking or disturbing such a person can lead to a considerable amount of trouble. In practice, generally, harming them or imprisoning them in any way will severely damage their faction's relationship with your own, but healing them if they're injured is a quick way to get back to being neutral with them. This also applies to other factions and can lead to conflict if both are present in the same place after such an incident.
 

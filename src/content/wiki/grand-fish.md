@@ -7,14 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Grand Fish"
+  image: "/icons/items/50514-Newwworld.mod.png"
+  caption: "The Grand Fish, king of all the two known fish species in the world."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","15 nu"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","2x3 wide/tall"]
-        - ["Avg. Price","c.360"]
-        - ["Description","The Grand Fish, king of all the two known fish species in the world.."]
+        - ["Base value","c. 600"]
+        - ["Size in inventory","3x2"]
+        - ["Nutrition","15 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>50514-Newwworld.mod</span>"]
 ---
 
 **Grand Fish** is a [food](/food) item in Kenshi. It can be purchased from vendors in [The Swamp](/the-swamp) and [Fishing Village](/fishing-village). It can also be found in [Fish Isle](/fish-isle).

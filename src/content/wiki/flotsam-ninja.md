@@ -282,11 +282,11 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Stop right there, 'brother'... My comrades have you surrounded and they're ready to kill, you're heavily outnumbered, so I suggest you co-operate. Tell me who you are.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Stop right there, 'brother'... My comrades have you surrounded and they're ready to kill, you're heavily outnumbered, so I suggest you co-operate. Tell me who you are.</blockquote></figure>
 
 The first time a player enters the Flotsam Village they will be interrogated by a Flotsam Ninja, usually the leader of the gate guard. Being aggressive, uncooperative or claiming you are an Okranite pilgrim will cause them to attack.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>... Straight into the wolf den, huh? Alright, lead the way. Today we take down the Holy Nation.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>... Straight into the wolf den, huh? Alright, lead the way. Today we take down the Holy Nation.</blockquote></figure>
 
 Patrols of **Flotsam Ninjas** can be talked to if one has a [Note From Moll](/note-from-moll) in their inventory. If they have a squad size greater than 4, they will then bodyguard the player for 72 hours.
 

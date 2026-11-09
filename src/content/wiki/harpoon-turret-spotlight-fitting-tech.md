@@ -19,4 +19,4 @@ infobox:
         - ["New Building(s)","<a href=\"/harpoon-turret\">Harpoon Turret MkII [light]</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>An option to fit a spotlight to turrets for aiding against night attacks.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>An option to fit a spotlight to turrets for aiding against night attacks.</blockquote><figcaption>In-game description</figcaption></figure>

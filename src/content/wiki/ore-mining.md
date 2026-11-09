@@ -22,7 +22,7 @@ infobox:
 
   
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Can't make much without metal can we?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Can't make much without metal can we?</blockquote><figcaption>In-game description</figcaption></figure>
 
 In Early builds of the game this tech was required to build Ore Mines, which were resource production buildings that generated the raw material [Raw Iron](/raw-iron). Ore nodes are now found on the map and can be mined manually, or ore can be extracted via use of an [Ore Drill](/ore-drill).
 

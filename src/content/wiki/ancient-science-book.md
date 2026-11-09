@@ -7,12 +7,19 @@ source:
 categories: ["Items"]
 infobox:
   title: "Ancient Science Book"
+  image: "/icons/items/43953-rebirth.mod.png"
+  caption: "A valuable artifact from ancient times, detailing long-lost advanced technologies."
   groups:
     - heading: null
       rows:
-        - ["Size","2x2"]
-        - ["Avg. Price","c.5,000"]
-        - ["Description","A valuable artifact from ancient times, detailing long-lost advanced technologies."]
+        - ["Type","Other"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 5,000"]
+        - ["Size in inventory","2x2"]
+        - ["Artifact","Yes"]
+    - heading: null
+      rows:
+        - ["String id","<span>43953-rebirth.mod</span>"]
 ---
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>

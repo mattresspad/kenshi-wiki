@@ -7,18 +7,33 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Guardless Katana"
+  image: "/icons/items/923-gamedata.base.png"
+  caption: "An uncommon katana modification sacrificing defence by removing the guard.  It's more a psychological advantage than a physical one, knowing subconsciously that attack is your best defence promotes a more aggressive combat style.  Gang bosses and Jonin tend to use them to equip their underlings because it makes trouble-makers on both sides more reluctant."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.30x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.00x"]
+        - ["Blunt damage","0.00x"]
+        - ["Bleed","1.30x"]
         - ["Armour penetration","-30%"]
         - ["Attack","+6"]
         - ["Defence","-6"]
-        - ["Damage vs robots","-40%"]
-        - ["Damage vs humans","+10%"]
         - ["Reach","21"]
-        - ["Description","An uncommon katana modification sacrificing defence by removing the guard.  It's more a psychological advantage than a physical one, knowing subconsciously that attack is your best defence promotes a more aggressive combat style.  Gang bosses and Jonin tend to use them to equip their underlings because it makes trouble-makers on both sides more reluctant."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+10%"]
+        - ["Robots","-40%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>923-gamedata.base</span>"]
 ---
 
@@ -32,15 +47,7 @@ This weapon has inventory dimensions of **1x7**. It can be equipped in both the 
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(7 required)</span></p></td><td><strong><span>Guardless Katana</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(7 required)</span></p></td><td><strong><span>Guardless Katana</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(7 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(7 required)</span></p></td><td><strong><span>Guardless Katana</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(7 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>7</td><td>7</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>7</td><td>7</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>7</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Katanas blueprint: 6 hours at tech level 2; the blueprint is worth c. 10,000.</li></ul></div>
 
 ## Blueprints
 

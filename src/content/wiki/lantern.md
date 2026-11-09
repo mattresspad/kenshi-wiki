@@ -7,12 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Lantern"
+  image: "/icons/items/5348-gamedata.base.png"
   groups:
     - heading: null
       rows:
-        - ["Size","1x2"]
-        - ["Avg. Price","c.76"]
-        - ["Quality","25/100"]
+        - ["Type","Other"]
+        - ["Weight","4 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","2x1"]
+    - heading: null
+      rows:
+        - ["String id","<span>5348-gamedata.base</span>"]
 ---
 
 **Lantern** is an item which can be equipped in the Belt slot. Unlike [Lanterns of Radiance](/lantern-of-radiance), regular Lantern items are not found in stores and must be looted from locations.

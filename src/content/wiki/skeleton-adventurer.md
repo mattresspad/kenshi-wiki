@@ -22,7 +22,7 @@ infobox:
         - ["String ID","47629-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Are you recruiting? If so, I'm available for 6000 Cats.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Are you recruiting? If so, I'm available for 6000 Cats.</blockquote></figure>
 
 **Skeleton Adventurer** is a randomly named [Generic Recruit](/generic-recruits). They are a Skeleton recruit with no backstory. They can be hired for c.6,000.
 

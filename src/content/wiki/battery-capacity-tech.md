@@ -108,4 +108,4 @@ Battery Capacity 3
 
 +60 Power Capacity to [Battery Bank](/battery-bank)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Each advancement in this study can increase battery capacity by 60</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game quote</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Each advancement in this study can increase battery capacity by 60</blockquote><figcaption>In-game quote</figcaption></figure>

@@ -7,12 +7,18 @@ source:
 categories: ["Pages with non-numeric formatnum arguments","Books"]
 infobox:
   title: "Memo From Big Grim"
+  image: "/icons/items/49478-Dialogue.mod.png"
+  caption: "An old memo addressed to the Big Bosses from Grim of the Hounds:\n\n\"hash is dead, the stalker clan is dead. that arragant peace of shit aint gonna bother no body no more. no more ruls. big grim runs the swamps now an things are gonna change round here. cross me an Ill feed you to my hounds like I did hash.\""
   groups:
     - heading: null
       rows:
-        - ["Size","1x1"]
-        - ["Avg. Price","c.Missing data"]
-        - ["Description","An old memo addressed to the Big Bosses from Grim of the Hounds:<p>\"hash is dead, the stalker clan is dead. that arragant peace of shit aint gonna bother no body no more. no more ruls. big grim runs the swamps now an things are gonna change round here. cross me an Ill feed you to my hounds like I did hash.\"</p>"]
+        - ["Type","Book or letter"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 0"]
+        - ["Size in inventory","1x1"]
+    - heading: null
+      rows:
+        - ["String id","<span>49478-Dialogue.mod</span>"]
 ---
 
 **Memo From Big Grim** is a [book](/lore-books) [item](/items) found in [The Swamp](/the-swamp).

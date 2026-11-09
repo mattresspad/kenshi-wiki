@@ -23,7 +23,7 @@ infobox:
         - ["Backpack","<a href=\"/traders-backpack-large\">Traders Backpack Large</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Okran bless you. How may I serve you holy brother?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Holy Armour Trader greeting</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Okran bless you. How may I serve you holy brother?</blockquote><figcaption>Holy Armour Trader greeting</figcaption></figure>
 
 **Holy Armour Traders** are unnamed shopkeepers of [The Holy Nation](/the-holy-nation). They can be found selling their wares in [Holy Armor Shops](/holy-armor-shop).
 

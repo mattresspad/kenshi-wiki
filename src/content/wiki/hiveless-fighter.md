@@ -23,8 +23,6 @@ infobox:
         - ["String ID","55932-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td></td><td>”</td></tr></tbody></table>
-
 **Hiveless Fighter** is a randomly named [Generic Recruit](/generic-recruits). They are an exile of the [Western Hive](/western-hive). They can be hired for c.7,500.
 
 They have a random [Personality](/personality) and after recruited have the "Player TOUGH Merc" Dialogue Package. They wear no armour and have weapons manufactured by [Ancient](/ancient).

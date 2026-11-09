@@ -7,11 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Cup"
+  image: "/icons/items/42319-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
-        - ["Size","2x2"]
-        - ["Avg. Price","c.6"]
+        - ["Type","Other"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 10"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>42319-changes_otto.mod</span>"]
 ---
 
 **Cup** is an [item](/items) used in construction of [Thief Training Boxes](/thief-training-boxes). Other than that, it is only for trading and only worth a small amount. This item can be found in Residential Buildings.

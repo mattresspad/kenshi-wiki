@@ -5,9 +5,27 @@ source:
   title: "Wooden Sandals"
   revision: 84757
 categories: ["Armour","Footwear","Clothing"]
+infobox:
+  title: "Wooden Sandals"
+  image: "/icons/items/557-gamedata.base.png"
+  caption: "Classical wooden sandals.  They take a bit of getting used to, but they're actually really good for running in sand."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/footwear\">Feet</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","0.5 kg"]
+        - ["Base value","c. 250"]
+        - ["Size in inventory","2x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Athletics","1.10x"]
+        - ["Combat speed","1.05x"]
+    - heading: null
+      rows:
+        - ["String id","<span>557-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Wooden Sandals</td></tr><tr><td>-Weight</td><td>0.5 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.50</td></tr><tr><td>-Sell value</td><td>c.12</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td colspan="2">[Skills]</td></tr><tr><td>-Athletics effect</td><td>1.10x</td></tr><tr><td>-Combat speed effect</td><td>1.05x</td></tr><tr><td colspan="2">Classical wooden sandals. They take a bit of getting used to, but they're actually really good for running in sand.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/footwear">BOOTS</a></td></tr></tbody></table>
 
 **Wooden Sandals** are armour that is equipped in the Boots slot. They can be bought from a Boot Trader or looted off of Bandits.
 
@@ -21,7 +39,7 @@ Wooden Sandals are simple footwear made from wood. They are similar in appearanc
 
 ## Crafting
 
-Wooden Sandals can be crafted at a [Clothing Bench](/clothing-bench).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/simple-clothing-types-tech">Simple Clothing Types</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li><li>Wooden Sandals blueprint: 12 hours at tech level 1; the blueprint is worth c. 75.</li></ul></div>
 
 ## Trivia
 

@@ -26,7 +26,7 @@ infobox:
 
   
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Surrender yourselves, you can't win against us.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–A Samurai Lord prepares for battle.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Surrender yourselves, you can't win against us.</blockquote><figcaption>A Samurai Lord prepares for battle.</figcaption></figure>
 
 **Samurai Lords** were the elite leaders of 6-10 man [Samurai](/samurai) patrols. They were members of the [Imperial Lords](/imperial-lords) (now the [United Cities](/united-cities) and [Noble Circle](/noble-circle)) and seemed to fulfil a similar role to that of current [Samurai Captains](/samurai-captain), albeit with a higher level of importance.
 

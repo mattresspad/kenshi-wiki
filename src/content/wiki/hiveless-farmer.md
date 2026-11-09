@@ -24,7 +24,7 @@ infobox:
         - ["String ID","55933-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>My place isn't in a drunken bar, I belong as part of a colony, outside on the farms. Are you looking to band together, traveller? Only 4000 Cats.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>My place isn't in a drunken bar, I belong as part of a colony, outside on the farms. Are you looking to band together, traveller? Only 4000 Cats.</blockquote></figure>
 
 **Hive Farmer** is a randomly named [Generic Recruit](/generic-recruits). They're just a hiveless Worker Drone looking for a community to farm for. They can be hired for c.4,000.
 

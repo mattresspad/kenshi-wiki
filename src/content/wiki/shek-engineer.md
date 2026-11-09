@@ -25,7 +25,7 @@ infobox:
         - ["String ID","19724-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm an engineer... a good one. But within these walls, you're nothing if you can't fight.. dirt. Outside, I know I'll be respected for what I can do... so, that brings me here, looking for outside work.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm an engineer... a good one. But within these walls, you're nothing if you can't fight.. dirt. Outside, I know I'll be respected for what I can do... so, that brings me here, looking for outside work.</blockquote></figure>
 
 **Shek Engineer** is a randomly named [Generic Recruit](/generic-recruits) available in [Shek Kingdom](/shek-kingdom). They are a Shek Retainer looking for a way out of the Kingdom so they can work without stigma. They can be hired for c.6,000.
 

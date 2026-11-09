@@ -16,7 +16,7 @@ infobox:
         - ["Hostile towards","<a href=\"/skeleton-bandits\">Skeleton Bandits</a>, <a href=\"/skin-bandits\">Skin Bandits</a>, <a href=\"/crab-raiders\">Crab Raiders</a>, <a href=\"/united-cities\">United Cities</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We'll plunder the fat nobles and the ignorant cowards...<p>So that our brothers never go hungry again.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/valamon">Valamon</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>We'll plunder the fat nobles and the ignorant cowards...<p>So that our brothers never go hungry again.</p></blockquote><figcaption><a href="/valamon">Valamon</a></figcaption></figure>
 
 **Reavers** are a faction of bandits led by [Valamon](/valamon) who believe that they deserve to be in charge instead of the [United Cities](/united-cities). They have the same trade culture as the [Swampers](/swampers).
 

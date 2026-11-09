@@ -7,15 +7,30 @@ source:
 categories: ["Weapons","Blunt"]
 infobox:
   title: "Jitte"
+  image: "/icons/items/52303-rebirth.mod.png"
+  caption: "A professional law-enforcement weapon.  Designed for non-lethal takedowns, it has a sword-catcher guard that gives an advantage when defending.  The smaller 1-handed version makes a good sidearm and has an advantage in tight indoor situations."
   groups:
     - heading: null
       rows:
-        - ["Class","[Blunt weapon class]"]
-        - ["Blood loss","0.10x"]
+        - ["Class","<a href=\"/blunt-weapons\">Blunt</a>"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.00x"]
+        - ["Blunt damage","0.90x"]
+        - ["Bleed","0.10x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
         - ["Defence","+8"]
         - ["Indoors","+4"]
         - ["Reach","18"]
-        - ["Description","A professional law-enforcement weapon.  Designed for non-lethal takedowns, it has a sword-catcher guard that gives an advantage when defending.  The smaller 1-handed version makes a good sidearm and has an advantage in tight indoor situations."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52303-rebirth.mod</span>"]
 ---
 
@@ -29,15 +44,7 @@ The [Cross](/cross)\-version of this weapon can be found on [The Vault Warden](/
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Jitte</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Jitte</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(4 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Jitte</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(4 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>4</td><td>4</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>4</td><td>4</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Jittes blueprint: 4 hours at tech level 2; the blueprint is worth c. 6,000.</li></ul></div>
 
 ## Blueprints
 

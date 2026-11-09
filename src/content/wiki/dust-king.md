@@ -18,7 +18,7 @@ infobox:
         - ["String ID","2849-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Still alive, eh? Looks like I didn't kill you enough last time!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Still alive, eh? Looks like I didn't kill you enough last time!</blockquote></figure>
 
 The **Dust King** is the leader of the [Dust Bandits](/dust-bandits) faction. He lives in the [Dust King Tower](/dust-king-tower).
 

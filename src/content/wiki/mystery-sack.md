@@ -7,15 +7,18 @@ source:
 categories: ["Items","Unique"]
 infobox:
   title: "Mystery Sack"
+  image: "/icons/items/59012-Dialogue.mod.png"
+  caption: "It contains the half chewed stone of a greenfruit. It has Tengu's saliva on it, maybe that's worth something, right?... Right?"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","0.5 kg"]
-        - ["Size","3x3"]
-        - ["Value","<span>c.</span>c.1"]
-        - ["Sell Value","<span>c.</span>c.0"]
-        - ["Avg. Price","c.1"]
-        - ["Description","It contains the half chewed stone of a greenfruit. It has Tengu's saliva on it, maybe that's worth something, right?... Right?"]
+        - ["Base value","c. 1"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>59012-Dialogue.mod</span>"]
 ---
 
 **Mystery Sack** is a [unique item](/unique-items) which [Emperor Tengu](/emperor-tengu) will give the player when he sends them on a journey to kill the notorious Grievewrath. The sack contains Tengu's royal seal so that the character can retrieve the "Elixer of Godly Powers" from [Clunknad Spanner](/clunknad-spanner), the skeleton wizard.

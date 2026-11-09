@@ -7,12 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Pearl Cup"
+  image: "/icons/items/42330-changes_otto.mod.png"
+  caption: "A fancy decorative thing used by extremely rich people to clutter up their houses."
   groups:
     - heading: null
       rows:
-        - ["Size","2x2"]
-        - ["Avg. Price","c.240"]
-        - ["Description","A fancy decorative thing used by extremely rich people to clutter up their houses."]
+        - ["Type","Other"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>42330-changes_otto.mod</span>"]
 ---
 
 **Pearl Cups** can be found in Residential Buildings or in Hive village shops. When starting out, stealing this item along with other junk can help players increase their [Thievery](/thievery) stat with little risk (if the building is empty) and reward.

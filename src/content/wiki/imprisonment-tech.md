@@ -21,7 +21,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We could build cages. This would allow us to capture and interrogate certain people, temporarily store bounties, or even keep hostages for ransom. &nbsp;Actually this is starting to sound pretty wrong, be careful we don't end up going down the wrong path.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>We could build cages. This would allow us to capture and interrogate certain people, temporarily store bounties, or even keep hostages for ransom. &nbsp;Actually this is starting to sound pretty wrong, be careful we don't end up going down the wrong path.</blockquote></figure>
 
 **Imprisonment** is a [Defense Tech](/defense-tech) which allows the player to construct their own [Prisoner Cages](/prisoner-cage).
 

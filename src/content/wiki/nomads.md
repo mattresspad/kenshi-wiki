@@ -7,7 +7,7 @@ source:
 categories: ["Factions"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Need an animal, Townie? Y'need a good pack animal if you wanna survive the travelling life.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Nomad Animal Trader Town</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Need an animal, Townie? Y'need a good pack animal if you wanna survive the travelling life.</blockquote><figcaption>Nomad Animal Trader Town</figcaption></figure>
 
 **Nomads** are a faction of [Human](/human) wanderers and animal herders. Neutral and generally content to just tend to their animals.
 

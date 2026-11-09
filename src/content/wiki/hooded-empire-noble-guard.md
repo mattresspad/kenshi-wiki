@@ -28,7 +28,7 @@ infobox:
         - ["String ID","51743-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Noble guardsmen, outta the way!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Noble guardsmen, outta the way!</blockquote></figure>
 
 **Hooded Empire Noble Guards** are elite guards of the [United Cities](/united-cities) and [Traders Guild](/traders-guild). They are most commonly found guarding the nobles of these factions. They accompany their lords and ladies inside their [Noble House](/noble-house) and outside in the streets, shouting down any peasant who dares cross the noble's path, and attacking any that doesn't obey.
 

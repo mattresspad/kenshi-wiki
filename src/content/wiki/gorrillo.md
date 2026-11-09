@@ -25,7 +25,7 @@ infobox:
         - ["String ID","96263-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>ME BORED OF TINY PEOPLE<p>BREAKING INTO HOME</p><p>WHY ALWAYS TRY TO HUNT GORRILLO</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>ME BORED OF TINY PEOPLE<p>BREAKING INTO HOME</p><p>WHY ALWAYS TRY TO HUNT GORRILLO</p></blockquote></figure>
 
 **Gorrillo** is the leader of [The Gorrillo Bandits](/the-gorrillo-bandits). He can be found in [The Old Prison](/the-old-prison). Upon seeing a player character, he will exclaim his dislike of "tiny people" breaking into his home trying to hunt him down.
 

@@ -23,7 +23,7 @@ infobox:
         - ["String ID","41299-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It's nothing like the air in that mine. Tasted like metal, but not the kind we were looking for. Same smell in the cages. Sweaty, burning....I'd rather not think about it too much. Dwelling on the life of a slave is a shackling in itself. Sometimes I need to remember I'm free now.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>It's nothing like the air in that mine. Tasted like metal, but not the kind we were looking for. Same smell in the cages. Sweaty, burning....I'd rather not think about it too much. Dwelling on the life of a slave is a shackling in itself. Sometimes I need to remember I'm free now.</blockquote></figure>
 
 **Ex-Slave Recruit** is a randomly named [Unique Recruit](/unique-recruits). They are someone who was bought out of slavery. They can be hired for c.3,000.
 

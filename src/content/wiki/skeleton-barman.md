@@ -21,7 +21,7 @@ infobox:
         - ["String ID","55816-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Sorry, we don't sell human food, I hope you brought your own... Need anything else?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Barman to fleshy characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Sorry, we don't sell human food, I hope you brought your own... Need anything else?</blockquote><figcaption>Barman to fleshy characters</figcaption></figure>
 
 **Skeleton Barman** is a shopkeeper of the [Skeletons](/skeletons). He can be found in the [Skeleton Bar](/skeleton-bar) in [Black Desert City](/black-desert-city).
 

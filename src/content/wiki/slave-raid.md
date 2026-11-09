@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This outpost isn't on the list, right? Let's see here... Nope. Not a member. Perfect. I want 'em healthy for the mines. No broken legs this time. Get 'em!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Slaver Caravan Boss</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This outpost isn't on the list, right? Let's see here... Nope. Not a member. Perfect. I want 'em healthy for the mines. No broken legs this time. Get 'em!</blockquote><figcaption>Slaver Caravan Boss</figcaption></figure>
 
 **Slave Raid** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 4,000 meters of a [Slave Traders](/slave-traders) owned location. It has a 15% chance to trigger each day if within 2,500 meters, this chance scales down with distance until it reaches 0% at 4,000 meters. It cannot trigger if the player is allied with the [United Cities](/united-cities), [Traders Guild](/traders-guild), or [Slave Traders](/slave-traders).
 

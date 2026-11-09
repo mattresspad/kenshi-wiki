@@ -21,7 +21,7 @@ infobox:
 
   
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A human?... It's not everyday I get a human customer... but, sure, I've got plenty of parts that should fit you fine indeed... Did you travel all the way here just for my expertise?... Gosh... I'm flattered... I don't blame you though, human, flesh is good for nothing but rotting... Where was I going with this?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>A human?... It's not everyday I get a human customer... but, sure, I've got plenty of parts that should fit you fine indeed... Did you travel all the way here just for my expertise?... Gosh... I'm flattered... I don't blame you though, human, flesh is good for nothing but rotting... Where was I going with this?</blockquote></figure>
 
 **Robotics Shop** is a store dealing with [Robot Limbs](/robot-limbs) and other necessities for Skeletons. This specific shop can only be found in [Black Desert City](/black-desert-city), however players can find the similar [Robotics Workshop](/robotics-workshop) in many other locations.
 

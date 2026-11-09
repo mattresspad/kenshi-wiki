@@ -7,19 +7,34 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Wakizashi"
+  image: "/icons/items/1020-gamedata.base.png"
+  caption: "Smaller and lighter, usually used as a sidearm for backup.  It's worth noting that although short, it has a major advantage when fighting indoors against longer weapons."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.20x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 250"]
+        - ["Size in inventory","1x6"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.90x"]
+        - ["Blunt damage","0.00x"]
+        - ["Bleed","1.20x"]
         - ["Armour penetration","-30%"]
         - ["Attack","+2"]
         - ["Defence","-2"]
         - ["Indoors","+4"]
-        - ["Damage vs robots","-40%"]
-        - ["Damage vs humans","+10%"]
         - ["Reach","16"]
-        - ["Description","Smaller and lighter, usually used as a sidearm for backup.  It's worth noting that although short, it has a major advantage when fighting indoors against longer weapons."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+10%"]
+        - ["Robots","-40%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, animal, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>1020-gamedata.base</span>"]
 ---
 
@@ -28,6 +43,10 @@ A **Wakizashi** is a [Katana Class](/katanas) weapon. This is the smallest katan
 This weapon has inventory dimensions of **1x6**. It can be equipped in both the primary and secondary weapon slots.
 
 The [Cross](/cross)\-version of this weapon can be found on [Lady Kana](/lady-kana), [Slave Mistress Ren](/slave-mistress-ren) and [Slave Mistress Grace](/slave-mistress-grace).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>4</td><td>4</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>4</td><td>4</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Wakizashis blueprint: 6 hours at tech level 2; the blueprint is worth c. 5,000.</li></ul></div>
 
 ## Blueprints
 

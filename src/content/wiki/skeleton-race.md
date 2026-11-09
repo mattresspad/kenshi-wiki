@@ -7,7 +7,7 @@ source:
 categories: ["Races"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Skeletons are a complete mystery, nobody knows where they came from and how they were made but they are suspected to be thousands of years old. Fully sentient and capable of feeling sadness, anger, excitement, compassion, thrill and enjoyment, although they don't posess the ability to express anything visually. This combined with their dry sense of humour often confuses the other races, whom the Skeletons see as somewhat volatile and unpredictable. They have no prejudice or fear of death, and make for brutally effective warriors.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Skeletons are a complete mystery, nobody knows where they came from and how they were made but they are suspected to be thousands of years old. Fully sentient and capable of feeling sadness, anger, excitement, compassion, thrill and enjoyment, although they don't posess the ability to express anything visually. This combined with their dry sense of humour often confuses the other races, whom the Skeletons see as somewhat volatile and unpredictable. They have no prejudice or fear of death, and make for brutally effective warriors.</blockquote><figcaption>Game Description</figcaption></figure>
 
 **Skeleton** is a [Race](/races) in Kenshi. It is a subrace of [Skeleton](/skeleton) and the primary race for [Skeleton](/skeleton) [Playable Characters](/playable-characters).
 

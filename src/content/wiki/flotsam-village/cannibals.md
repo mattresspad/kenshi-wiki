@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/flotsam-village/cannibals)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Thank you, Lord of Light, for bringing an end to the rebellion...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-citizen">Holy Citizen</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Thank you, Lord of Light, for bringing an end to the rebellion...</blockquote><figcaption><a href="/holy-citizen">Holy Citizen</a></figcaption></figure>
 
 If [Moll](/moll) is dead or imprisoned **Flotsam Village** will be overrun by [Cannibals](/cannibals). [Flotsam Ninjas](/flotsam-ninjas) will still appear as part of the "Residence" list despite no longer present. Most of the buildings will be destroyed.
 

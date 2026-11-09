@@ -21,7 +21,7 @@ infobox:
         - ["Footwear","<a href=\"/wooden-sandals\">Wooden Sandals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Empire took my farm, I'm outta food and I'm homeless... And YOU'RE gonna feed me, outlander!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–desperation talking</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Empire took my farm, I'm outta food and I'm homeless... And YOU'RE gonna feed me, outlander!</blockquote><figcaption>desperation talking</figcaption></figure>
 
 **Outlaw Farmers** are members of the [Rebel Farmers](/rebel-farmers). If UC towns get half-destroyed, they have a chance to spawn inside towns fighting with [Samurai](/samurai) forces as part of the [Rebel Swordsmen](/rebel-swordsmen) faction instead.
 

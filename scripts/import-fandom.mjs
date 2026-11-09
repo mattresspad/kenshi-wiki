@@ -194,6 +194,36 @@ function dropQuotedFootnotes($) {
   });
 }
 
+// Fandom's Quote template is a table: the quote between two cells holding the quotation marks, then an optional row
+// naming the speaker. It becomes a quotation with a caption, which the wiki draws as a speech bubble.
+function isQuoteTable($, table) {
+  const cells = $(table).find('tr').first().children('td');
+  return cells.length === 3 && cells.first().text().trim() === '“' && cells.last().text().trim() === '”';
+}
+
+function convertQuotes($) {
+  $('table').filter((_, table) => isQuoteTable($, table)).each((_, table) => {
+    const quote = $(table).find('tr').first().children().eq(1).html().trim();
+    if (!quote) return $(table).remove();
+
+    const source = $(table).find('tr').eq(1);
+    const speaker = (source.find('cite').html() ?? source.text()).trim().replace(/^[–—-]\s*/, '');
+    const caption = speaker ? `<figcaption>${speaker}</figcaption>` : '';
+    $(table).replaceWith(`<figure class="quote"><blockquote>${quote}</blockquote>${caption}</figure>`);
+  });
+}
+
+// Item and book tables show each entry as a picture captioned with its name: the caption stays when the picture goes.
+function keepCellCaptions($) {
+  $('td figure, th figure').each((_, figure) => {
+    const caption = $(figure).find('figcaption');
+    if (!caption.text().trim()) return;
+
+    caption.find('p, div').each((_, block) => $(block).replaceWith($(block).contents()));
+    $(figure).replaceWith(caption.html().trim());
+  });
+}
+
 // Fandom's "Loading Screen Tips" box is a table: a heading row, then one row per tip. Each tip becomes the wiki's
 // notice box, labelled like the Example page's notice.
 function isTipTable($, table) {
@@ -212,6 +242,7 @@ function convertTips($) {
 
 function cleanHtml(html) {
   const $ = cheerio.load(html, null, false);
+  keepCellCaptions($);
   $(removed).remove();
   dropQuotedFootnotes($);
   $('a').each((_, link) => rewriteLink($, link));
@@ -220,6 +251,7 @@ function cleanHtml(html) {
   $('.mw-selflink').each((_, self) => $(self).replaceWith($('<strong>').append($(self).contents())));
 
   const infobox = extractInfobox($);
+  convertQuotes($);
   convertTips($);
   $('table.mw-collapsible').each((_, table) => wrapCollapsible($, table));
   $('table').each((_, table) => styleTable($, table));
@@ -228,13 +260,14 @@ function cleanHtml(html) {
 
 function markdownConverter() {
   const turndown = new TurndownService({ headingStyle: 'atx', bulletListMarker: '-', codeBlockStyle: 'fenced' });
-  // Tables, collapsed sections, tip boxes and reference lists keep their HTML: spans, nesting, classes and footnote
-  // anchors do not fit Markdown. Blank lines inside would end the HTML block early.
+  // Tables, collapsed sections, quotes, tip boxes and reference lists keep their HTML: spans, nesting, classes and footnote anchors
+  // do not fit Markdown. Blank lines inside would end the HTML block early.
   const hasClass = (node, name) => new RegExp(`\\b${name}\\b`).test(node.getAttribute('class') ?? '');
   const isReferenceList = (node) => node.nodeName === 'OL' && hasClass(node, 'references');
+  const isQuote = (node) => node.nodeName === 'FIGURE' && hasClass(node, 'quote');
   const isTip = (node) => node.nodeName === 'DIV' && hasClass(node, 'loading-tip');
   turndown.addRule('html-blocks', {
-    filter: (node) => ['TABLE', 'DETAILS'].includes(node.nodeName) || isReferenceList(node) || isTip(node),
+    filter: (node) => ['TABLE', 'DETAILS'].includes(node.nodeName) || isReferenceList(node) || isQuote(node) || isTip(node),
     replacement: (_, node) => `\n\n${node.outerHTML.replace(/\n\s*\n+/g, '\n')}\n\n`,
   });
   turndown.addRule('footnote-marks', {
@@ -332,7 +365,7 @@ async function importPage(title, { turndown, slugs, reserved }) {
 async function writeRedirects(lines, partial) {
   const current = existsSync(redirectsFile) ? await readFile(redirectsFile, 'utf8') : '';
   const [manual, generated = ''] = current.split(redirectsStart);
-  const kept = partial ? generated.split('\n').filter((line) => line.startsWith('/')) : [];
+  const kept = partial ? generated.split(/\r?\n/).filter((line) => line.startsWith('/')) : [];
   const rules = [...new Set([...kept, ...lines])].sort();
   await writeFile(redirectsFile, `${manual.trimEnd()}\n\n${redirectsStart}\n${rules.join('\n')}\n`);
 }

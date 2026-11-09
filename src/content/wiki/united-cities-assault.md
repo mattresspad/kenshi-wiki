@@ -15,7 +15,7 @@ infobox:
         - ["Victory Triggers","(Tax Evasion only) <a href=\"/tax-collector\">Tax Collector</a> 12-48 hours, 100%"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Under order of the Empire you have been sentenced for multiple crimes of treason. By punishment of death.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Samurai</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Under order of the Empire you have been sentenced for multiple crimes of treason. By punishment of death.</blockquote><figcaption>Samurai</figcaption></figure>
 
 **United Cities Assault** is an [Event](/events) sent by the [United Cities](/united-cities) as a response to losing the [Drug Bust](/drug-bust), [Tax Evasion Enforcement](/tax-evasion-enforcement), or **United Cities Assault** events. Except as a response to tax evasion, it cannot trigger if [Emperor Tengu](/emperor-tengu), [Lord Inaba](/lord-inaba), [Lord Nagata](/lord-nagata), [Lord Yoshinaga](/lord-yoshinaga), [Lady Sanda](/lady-sanda), and [Lady Tsugi](/lady-tsugi) are all killed or captured.
 

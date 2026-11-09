@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/the-iron-trail\">The Iron Trail</a>, <a href=\"/cannibal-plains\">Cannibal Plains</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I guess we're past the cannibal plains now...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/horse">Horse</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I guess we're past the cannibal plains now...</blockquote><figcaption><a href="/horse">Horse</a></figcaption></figure>
 
 **Leviathan Coast** is found in the northwestern reaches of the map situated north of the [Cannibal Plains](/cannibal-plains), [The Iron Trail](/the-iron-trail) and everything else on the eastern half of the continent.
 

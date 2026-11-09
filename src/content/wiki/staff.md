@@ -7,15 +7,30 @@ source:
 categories: ["Weapons","Polearms"]
 infobox:
   title: "Staff"
+  image: "/icons/items/52302-rebirth.mod.png"
+  caption: "Popular with poor farmers, pacifists and drifters.  It's usually seen as a weapon for those who can't afford a blade, but sometimes can make a fool of a good swordsman."
   groups:
     - heading: null
       rows:
-        - ["Class","[Polearm class]"]
-        - ["Blood loss","0.10x"]
+        - ["Class","<a href=\"/polearms\">Polearm</a>"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","1x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.05x"]
+        - ["Blunt damage","0.80x"]
+        - ["Bleed","0.10x"]
+        - ["Armour penetration","0%"]
         - ["Attack","+8"]
+        - ["Defence","0"]
         - ["Indoors","-6"]
         - ["Reach","23"]
-        - ["Description","Popular with poor farmers, pacifists and drifters.  It's usually seen as a weapon for those who can't afford a blade, but sometimes can make a fool of a good swordsman."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52302-rebirth.mod</span>"]
 ---
 
@@ -28,6 +43,10 @@ The staff is unique among the [Polearms](/polearms) for not having a damage bonu
 The ability to make this weapon can be learned by researching [Basic Weapon Smithing](/basic-weapon-smithing-tech).
 
 This weapon has inventory dimensions of **1x10**, meaning it can only be equipped as a primary weapon.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>2</td><td>2</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>2</td><td>2</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/basic-weapon-smithing-tech">Basic Weapon Smithing</a> research: 4 hours at tech level 1; costs <a href="/book">2 Books</a>.</li></ul></div>
 
 ## Blueprints
 

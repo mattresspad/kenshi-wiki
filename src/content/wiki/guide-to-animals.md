@@ -105,7 +105,7 @@ The [Crab Raiders](/crab-raiders) sell [Crabs](/crab) in their towns. Players do
 
 Animal player characters cannot lose limbs. However, due to what is most likely an oversight, the limbs description will read that it is destroyed and useless like it would when a limb is lost for humanoids. In due time the limb will heal normally, despite the text. There aren't animal specific beds, however a humanoid player character can pick up an animal and place it in a bed manually. While animals are unconscious their heal speed is doubled. (Maybe due to a bug) If placed in a bed when unconscious an animal will only have their heal speed doubled until they regain consciousness. Many [Hostile Factions](/hostile-factions) (Bandit factions) will attempt to chop up your animals for food.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The young ones ain't so bad. They'll eat more as they grow up, but if they're carryin' a bag on their backs you can carry more food around can't ya'? Can't live without 'em on a long journey.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Nomad Animal Trader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The young ones ain't so bad. They'll eat more as they grow up, but if they're carryin' a bag on their backs you can carry more food around can't ya'? Can't live without 'em on a long journey.</blockquote><figcaption>Nomad Animal Trader</figcaption></figure>
 
 Animal player characters will automatically eat any available food out of a [Backpack](/backpacks) or an [Animal Feeder](/animal-feeder). Animals will eat food which is not stolen, dropped on the ground near them. Bonedogs will also grab severed limbs to eat.
 

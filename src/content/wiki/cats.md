@@ -7,13 +7,18 @@ source:
 categories: ["Guides","Items"]
 infobox:
   title: "Cats"
+  image: "/icons/items/54546-Newwworld.mod.png"
+  caption: "Trading material based on one of the old civilization's monetary systems, named after an old dictator."
   groups:
     - heading: null
       rows:
+        - ["Type","Money"]
         - ["Weight","0.01 kg"]
-        - ["Size","1x1"]
-        - ["Avg. Price","c.1"]
-        - ["Description","Trading material based on one of the old civilization's monetary systems, named after an old dictator."]
+        - ["Base value","c. 1"]
+        - ["Size in inventory","1x1"]
+    - heading: null
+      rows:
+        - ["String id","<span>54546-Newwworld.mod</span>"]
 ---
 
 The monetary unit used in Kenshi is known as **Cats**. These can be acquired by the player from selling looted junk to merchants. They are found in their item form by looting enemies such as nobles or in containers within ancient ruins such as barrels.

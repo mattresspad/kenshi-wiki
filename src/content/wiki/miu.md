@@ -23,7 +23,7 @@ infobox:
         - ["String ID","49182-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Hell, its a place in this world. And it has giant fucking SPIDERS in it.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Hell, its a place in this world. And it has giant fucking SPIDERS in it.</blockquote></figure>
 
 **Miu** is a [Unique Recruit](/unique-recruits). She is found in the town of [Shark](/shark-swamp-town) in [The Swamp](/the-swamp). She has a Brave [Personality](/personality).
 

@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/dreg\">Dreg</a>, <a href=\"/okrans-gulf\">Okran's Gulf</a>, <a href=\"/obedience\">Obedience</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The fog islands of Mongrel. Only the desperate ever come here. <a href="/holy-nation-outlaws">Refugees</a> from <a href="/the-holy-nation">The Holy Nation</a>, hoping to lose their pursuers to the Fogmen..."<br>"<a href="/fogmen">Fog men</a>!?!"<br>"Scared, eh? Turning yellow?"<br>"Shut up, I ain't afraid!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The fog islands of Mongrel. Only the desperate ever come here. <a href="/holy-nation-outlaws">Refugees</a> from <a href="/the-holy-nation">The Holy Nation</a>, hoping to lose their pursuers to the Fogmen..."<br>"<a href="/fogmen">Fog men</a>!?!"<br>"Scared, eh? Turning yellow?"<br>"Shut up, I ain't afraid!</blockquote><figcaption>Player Characters</figcaption></figure>
 
 The **Fog Islands** are a collection of valleys where a perpetual low fog looms over the ground. Scraps of massive metal of a forgotten civilization litter the terrain, a theme that looks similar to the neighboring [Obedience](/obedience), adding to the mystery of the lands. A savage and cannibalistic strain of Hivers called [Fogmen](/fogmen) rule the land. They take advantage of the fog to capture unsuspecting people and ritualistically devour them.
 

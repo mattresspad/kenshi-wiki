@@ -1,6 +1,6 @@
 ---
 title: "Catun Scrapmaster (Character)"
-description: "–response to question regarding what makes their weapons special"
+description: "The Catun Scrapmaster is a shopkeeper of the United Cities. She can be found manning the Catun Scrapmasters Weapon Shop in Catun. She is relatively old and l…"
 source:
   title: "Catun Scrapmaster (Character)"
   revision: 91753
@@ -18,7 +18,7 @@ infobox:
         - ["String ID","53242-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Why, the noble bodyguards themselves use only our swords! You settle for a cheap sword, prepare to fight like a cheap warrior. The Catun Scrapmasters have been around for generations, the oldest and highest quality smiths in all the land.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–response to question regarding what makes their weapons special</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Why, the noble bodyguards themselves use only our swords! You settle for a cheap sword, prepare to fight like a cheap warrior. The Catun Scrapmasters have been around for generations, the oldest and highest quality smiths in all the land.</blockquote><figcaption>response to question regarding what makes their weapons special</figcaption></figure>
 
 The **Catun Scrapmaster** is a shopkeeper of the [United Cities](/united-cities). She can be found manning the [Catun Scrapmasters](/catun-scrapmasters) Weapon Shop in [Catun](/catun). She is relatively old and likes to boss her smiths around. The Scrapmaster is, however, hard of hearing; she is often insulted by her smiths behind her back, calling her things like "hag" and "old dustbag".
 

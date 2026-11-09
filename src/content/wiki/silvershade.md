@@ -22,7 +22,7 @@ infobox:
         - ["String ID","20018-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The crowd... Can barely hear myself think in this bar... A lot of people hate crowds, but me? I love' em. Can't seem to shake the feeling of loneliness ever since I left the Hive... So it comforts me.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>The crowd... Can barely hear myself think in this bar... A lot of people hate crowds, but me? I love' em. Can't seem to shake the feeling of loneliness ever since I left the Hive... So it comforts me.</blockquote></figure>
 
 **Silvershade** is a [Unique Recruit](/unique-recruits). He's a hiveless prince hanging out in a noisy bar to quell the sense of loneliness he has from being away from his hive. He's currently worked up a debt with the owner of a casino, who has threatened to break his legs if he doesn't pay up. He'll join you if you pay his debt of c.3,000.
 

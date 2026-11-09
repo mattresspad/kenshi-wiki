@@ -22,6 +22,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>To make our walls any bigger we would need to rebuild them with stronger foundations.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>To make our walls any bigger we would need to rebuild them with stronger foundations.</blockquote><figcaption>In-game description</figcaption></figure>
 
 Note that you will not be able to **Upgrade** existing [Defensive Walls](/defensive-walls-tech) to subsequent higher levels; you will have to dismantle your existing walls and replace them.

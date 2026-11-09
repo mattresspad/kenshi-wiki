@@ -21,7 +21,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Things will go a lot smoother if we organize an efficient method to store and distribute our raw materials. Otherwise things are going to get jammed up. If a dude wants to haul a load of raw stone to the stone processor, and his inventory is full of iron ore, what's he gonna do? Exactly. He needs some kind of storage box. Geez!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Things will go a lot smoother if we organize an efficient method to store and distribute our raw materials. Otherwise things are going to get jammed up. If a dude wants to haul a load of raw stone to the stone processor, and his inventory is full of iron ore, what's he gonna do? Exactly. He needs some kind of storage box. Geez!</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Storage Boxes** is [Industry Tech](/industry-tech) which allows the player to build two new item-specific [Storage](/storage) buildings.
 

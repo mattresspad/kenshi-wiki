@@ -182,8 +182,12 @@ div.infobox .image_wrapper {
 
 div.infobox .image_wrapper img {
   display: block;
+  width: auto;
   max-width: 100%;
   height: auto;
+  min-height: 96px;
+  max-height: 240px;
+  object-fit: contain;
   margin: 0 auto;
 }
 
@@ -193,7 +197,13 @@ div.infobox .image_wrapper img {
   font-size: 89%;
 }
 
+/* An item's description from the game, under its icon */
+div.infobox .infobox-caption {
+  font-style: italic;
+}
+
 .notice {
+  display: flow-root;
   margin: 0 0 1em;
   padding: 0.5em 0.75em;
   border: 1px solid var(--paper-06);
@@ -228,7 +238,142 @@ div.infobox .image_wrapper img {
   white-space: nowrap;
 }
 
+/* A quotation from the game, drawn as a speech bubble whose tail points at the speaker below it. */
+figure.quote {
+  width: fit-content;
+  max-width: 44em;
+  margin: 0 0 1.25em;
+}
+
+figure.quote blockquote {
+  position: relative;
+  margin: 0;
+  padding: 0.6em 1em 0.6em 2.75em;
+  border: 1px solid var(--paper-06);
+  border-radius: 8px;
+  background: var(--paper-01);
+  font-style: italic;
+}
+
+figure.quote blockquote::before {
+  content: '“';
+  position: absolute;
+  top: 0.05em;
+  left: 0.3em;
+  color: var(--accent-300);
+  font: bold 2.75em/1 Georgia, 'Times New Roman', serif;
+}
+
+figure.quote:has(figcaption) blockquote::after {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  left: 1.6em;
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid var(--paper-06);
+  border-bottom: 1px solid var(--paper-06);
+  background: var(--paper-01);
+  transform: rotate(45deg);
+}
+
+figure.quote figcaption {
+  margin: 0.55em 0 0 2.75em;
+  color: var(--paper-10);
+  font-size: 90%;
+}
+
+figure.quote figcaption::before {
+  content: '— ';
+}
+
+/* The Fandom attribution: a small line at the end of the article, below the infobox */
+.notice.fandom-notice {
+  clear: both;
+  margin: 2em 0 0;
+  padding: 0.5em 0 0;
+  border: 0;
+  border-top: 1px solid var(--paper-06);
+  background: none;
+  font-size: 80%;
+  color: var(--color-text-muted);
+}
+
+/* An item's game icon beside its name in a table */
+img.item-icon {
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+/* An armour's stats per grade (scripts/grade-tables.mjs): grades in the game's colors, values centred under them. */
+table.grade-table td,
+table.crafting-table td {
+  text-align: center;
+}
+
+table.grade-table th[scope="row"],
+table.crafting-table th[scope="row"] {
+  font-weight: normal;
+  text-align: left;
+}
+
+/* A Crafting section's inputs per bench (scripts/crafting-sections.mjs). */
+table.crafting-table td {
+  min-width: 5em;
+}
+
+table.grade-table th.grade {
+  min-width: 5em;
+}
+
+table.grade-table .grade-prototype {
+  color: light-dark(#6b6b6b, rgb(from #9a9a9a calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+table.grade-table .grade-shoddy {
+  color: light-dark(#5c4a2e, rgb(from #e0d6c3 calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+table.grade-table .grade-standard {
+  color: light-dark(#1d6c9e, rgb(from #4fb0e0 calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+table.grade-table .grade-high {
+  color: light-dark(#1d8a2c, rgb(from #4ee35e calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+table.grade-table .grade-specialist {
+  color: light-dark(#8a7800, rgb(from #f2e33a calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+table.grade-table .grade-masterwork {
+  color: light-dark(#a35f00, rgb(from #ffc23a calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+/* A weapon's icon stays on its name's line. */
+td:has(> img.item-icon-wide:first-child) {
+  white-space: nowrap;
+}
+
+/* Sortable table headers (src/lib/sortable-tables.ts). The arrows are drawn dark and turn light with the dark theme's inversion. */
+table.jquery-tablesorter th.headerSort {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='12'%3E%3Cpath d='M4.5 0 9 5H0zM4.5 12 0 7h9z' fill='%2372777d'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center right 6px;
+}
+
+table.jquery-tablesorter th.headerSort[aria-sort="ascending"] {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='12'%3E%3Cpath d='M4.5 2 9 7H0z' fill='%23202122'/%3E%3C/svg%3E");
+}
+
+table.jquery-tablesorter th.headerSort[aria-sort="descending"] {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='12'%3E%3Cpath d='M4.5 10 0 5h9z' fill='%23202122'/%3E%3C/svg%3E");
+}
+
+/* Its own block formatting context, so the box ends at a floated infobox instead of running under it. */
 details.collapsible {
+  display: flow-root;
   margin: 0.5em 0 1em;
   border: 1px solid var(--paper-06);
   background: var(--paper-01);
@@ -331,6 +476,20 @@ details.collapsible > :not(summary) {
   background: var(--color-box-bg);
   font-size: 56px;
   line-height: 72px;
+}
+
+.mainpage-box-icon img {
+  display: block;
+  width: 96px;
+  height: 96px;
+  margin: 4px auto;
+  object-fit: cover;
+  border: 1px solid var(--color-box-border);
+}
+
+.mainpage-box-icon img.cutout {
+  object-fit: contain;
+  border: 0;
 }
 
 .mainpage-box-links {

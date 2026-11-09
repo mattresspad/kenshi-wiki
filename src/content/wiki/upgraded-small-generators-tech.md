@@ -48,4 +48,4 @@ Upgraded Small Generators
 
 15w upgrade to [Small Generator](/small-generator)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A further 15w upgrade to all small generators.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A further 15w upgrade to all small generators.</blockquote><figcaption>In-game description</figcaption></figure>

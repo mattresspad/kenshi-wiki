@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>There you are. I've been looking for you. Looks like you've been causing a bit of a stir lately, eh. WELL YOU AIN'T GONNA GET AWAY WITH IT! Time to pay for what you've done, bastard!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hound</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>There you are. I've been looking for you. Looks like you've been causing a bit of a stir lately, eh. WELL YOU AIN'T GONNA GET AWAY WITH IT! Time to pay for what you've done, bastard!</blockquote><figcaption>Hound</figcaption></figure>
 
 **Revenge of the Hounds** is an [Event](/events) can trigger as a result of killing or capturing [Big Grim](/big-grim), or by defeating the [Hound Check In](/hound-check-in) event. It has a 100% chance of triggering each day if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 1,000 meters of [Rot](/rot), this chance scales down with distance until it reaches 0% at 6,000 meters.
 

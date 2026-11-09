@@ -21,7 +21,7 @@ infobox:
         - ["Inventory","<a href=\"/lantern-of-radiance\">Lantern of Radiance</a>, <a href=\"/standard-first-aid-kit\">Standard First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Stock up, human, you need all the supplies you can get...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hive Boss</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Stock up, human, you need all the supplies you can get...</blockquote><figcaption>Hive Boss</figcaption></figure>
 
 **Hive Caravan Bosses** lead caravans for the [Western Hive](/western-hive) throughout the world, looking to trade goods. Their inventory typically consist of cheap [skeleton limbs](/skeleton), materials, and food.
 

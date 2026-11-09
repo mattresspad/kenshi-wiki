@@ -1,6 +1,6 @@
 ---
 title: "Anti-Slavers"
-description: "–Tinfist, likely forgot that people can still be literally \"disarmed\""
+description: "The Anti-Slavers are a faction led by the legendary Tinfist in a fight against slavery. As a result, they gained many powerful enemies such as The Holy Natio…"
 source:
   title: "Anti-Slavers"
   revision: 95355
@@ -16,7 +16,7 @@ infobox:
         - ["Hostile towards","<a href=\"/slavery\">Slavery</a>, <a href=\"/united-cities\">United Cities</a>, <a href=\"/the-holy-nation\">The Holy Nation</a>, <a href=\"/traders-guild\">Traders Guild</a>, <a href=\"/slave-traders\">Slave Traders</a>, <a href=\"/slave-hunters\">Slave Hunters</a>, <a href=\"/manhunters\">Manhunters</a>, <a href=\"/united-heroes-league\">United Heroes League</a>, <a href=\"/dust-bandits\">Dust Bandits</a>, <a href=\"/cannibals\">Cannibals</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>When you can fight unarmed, nobody can ever disarm you, even when you are naked and in chains. It's the perfect weapon for a slave.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Tinfist, likely forgot that people can still be literally <a href="/severed-limbs">"disarmed"</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>When you can fight unarmed, nobody can ever disarm you, even when you are naked and in chains. It's the perfect weapon for a slave.</blockquote><figcaption>Tinfist, likely forgot that people can still be literally <a href="/severed-limbs">"disarmed"</a></figcaption></figure>
 
 The **Anti-Slavers** are a faction led by the legendary [Tinfist](/tinfist) in a fight against [slavery](/slavery). As a result, they gained many powerful enemies such as [The Holy Nation](/the-holy-nation), [United Cities](/united-cities) and [Traders Guild](/traders-guild) who engage in these practices. They are considered to be terrorists by slaver factions for launching raids, causing famine<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup>, unleashing criminals<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup> and generally causing chaos, death and destruction. Despite all this, they are favorably viewed by [Drifters](/drifters)<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span class="cite-bracket">[</span>5<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite-bracket">[</span>6<span class="cite-bracket">]</span></a></sup> from around the [world](/world-of-kenshi).
 

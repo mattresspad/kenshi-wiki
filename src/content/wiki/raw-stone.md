@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Raw Stone"
+  image: "/icons/items/1515-gamedata.base.png"
+  caption: "Raw stone is used to make building materials."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","4 kg"]
-        - ["Size","6x4 wide/tall"]
-        - ["Avg. Price","c.36"]
-        - ["Description","Raw stone is used to make building materials."]
+        - ["Base value","c. 60"]
+        - ["Size in inventory","4x6"]
+    - heading: null
+      rows:
+        - ["String id","<span>1515-gamedata.base</span>"]
 ---
 
 **Raw Stone** is the base ingredient used to create [Building Materials](/building-materials), the building blocks of construction.

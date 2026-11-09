@@ -1,6 +1,6 @@
 ---
 title: "Sniperbot"
-description: "–Player characters upon entering Sniper Valley"
+description: "Sniperbots are members of the Old Machines which can be found patrolling in the southeast. Specifically, they can spawn in the zones Sniper Valley, Sonorous…"
 source:
   title: "Sniperbot"
   revision: 89553
@@ -19,7 +19,7 @@ infobox:
         - ["Inventory","<a href=\"/skeleton-repair-kit\">Skeleton Repair Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I don't like this place, feels like I'm being watched.<p>We should move fast.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Player characters upon entering Sniper Valley</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I don't like this place, feels like I'm being watched.<p>We should move fast.</p></blockquote><figcaption>Player characters upon entering Sniper Valley</figcaption></figure>
 
 **Sniperbots** are members of the [Old Machines](/old-machines) which can be found patrolling in the southeast. Specifically, they can spawn in the zones [Sniper Valley](/sniper-valley), [Sonorous Dark](/sonorous-dark), [Stobe's Gamble](/stobes-gamble), [The Crags](/the-crags), and [The Pits](/the-pits).
 

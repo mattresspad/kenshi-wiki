@@ -18,7 +18,7 @@ infobox:
         - ["String ID","48447-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The Floodlands mostly attract the adventuring type, it's full of lost treasures of course, so why wouldnt it? Anybody else of sane mind wouldn't risk the spider bots, they keep most of the more hostile trespassers at bay at least...<p>But life holed up in this tower can get dull, so it's always good to share shelter and exchange stories with fellow adventurers.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/burn">Burn</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The Floodlands mostly attract the adventuring type, it's full of lost treasures of course, so why wouldnt it? Anybody else of sane mind wouldn't risk the spider bots, they keep most of the more hostile trespassers at bay at least...<p>But life holed up in this tower can get dull, so it's always good to share shelter and exchange stories with fellow adventurers.</p></blockquote><figcaption><a href="/burn">Burn</a></figcaption></figure>
 
 **Burn's Tower**, located in the north [Floodlands](/floodlands), is where [Burn](/burn) stays until he is recruited. Burn is found waiting outside of the tower.
 

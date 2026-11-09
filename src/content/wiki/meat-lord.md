@@ -18,7 +18,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Meat?<p>Bery, bery ungry now.</p><p>Take meat.</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Meat?<p>Bery, bery ungry now.</p><p>Take meat.</p></blockquote></figure>
 
 **Meat Lord** is one of the [Cannibals](/cannibals)' leaders found in the [First Village](/first-village) in [Darkfinger](/darkfinger). He is accompanied by an entourage of 2-3 [Cannibal Chiefs](/cannibal-chief). Despite having only average combat skills, he has a high level of Strength.
 

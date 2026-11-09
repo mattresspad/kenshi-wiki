@@ -6,23 +6,29 @@ source:
   revision: 79529
 categories: ["Armour","Headgear","Clothing"]
 infobox:
-  title: "Hats and Headgear"
+  title: "Basket Hat"
+  image: "/icons/items/45556-changes_otto.mod.png"
+  caption: "A hat usually worn by weirdo assassins.  Hides the face and makes you look creepy."
   groups:
     - heading: null
       rows:
-        - ["Description","A whole load of hats that could be crafted."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","3x3"]
+    - heading: "Modifiers"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","2 <a href=\"/book\">Books</a>"]
-        - ["Requirements","<a href=\"/clothing-manufacture-tech\">Clothing Manufacture</a>"]
-    - heading: "Results"
+        - ["Combat skills","+1"]
+        - ["Cut into stun","70%"]
+        - ["Perception","-10"]
+        - ["Stealth","1.10x"]
+        - ["Weather protection","75%"]
+    - heading: null
       rows:
-        - ["New Item(s)","<a href=\"/bandana\">Bandana</a><br><p><b>Basket Hat</b><br><a href=\"/cap\">Cap</a><br><a href=\"/rattan-hat\">Rattan Hat</a><br><a href=\"/tagelmust\">Tagelmust</a><br><a href=\"/turban\">Turban</a><br><a href=\"/wool-hat\">Wool Hat</a><br></p>"]
+        - ["String id","<span>45556-changes_otto.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Basket Hat</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>75%</td></tr><tr><td>-Value</td><td>c.10</td></tr><tr><td>-Sell value</td><td>c.2</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td colspan="2">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr><tr><td>-Perception bonus</td><td>-10</td></tr><tr><td colspan="2">A hat usually worn by weirdo assassins. Hides the face and makes you look creepy.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td></tr></tbody></table>
 
 A **Basket Hat** is Clothing that is equipped in the Headgear slot.
 
@@ -36,12 +42,7 @@ This armour has inventory dimensions of **3x3**.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Basket Hat</span></strong><div></div></td></tr></tbody></table></details>
-
-  
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Basket Hat<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>25</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>8</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Basket Hat</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Basket Hat blueprint: 12 hours at tech level 1; the blueprint is worth c. 15.</li><li><a href="/hats-and-headgear-tech">Hats and Headgear</a> research: 6 hours at tech level 1; costs <a href="/book">2 Books</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li></ul></div>
 
 The blueprint is obtainable but unneeded, as players can unlock this item through technology research.
 

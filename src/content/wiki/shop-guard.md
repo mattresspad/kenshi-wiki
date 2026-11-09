@@ -24,7 +24,7 @@ infobox:
         - ["String ID","1189-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Shoplifters get broken fingers!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shop Guard catching a thief</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Shoplifters get broken fingers!</blockquote><figcaption>Shop Guard catching a thief</figcaption></figure>
 
 **Shop Guards** are guards of the faction the shop they reside in belongs to. The possible factions include the [Empire Peasants](/empire-peasants), [Flotsam Ninjas](/flotsam-ninjas), [Free Traders](/free-traders), [Mongrel](/mongrel-faction), [Shek Kingdom](/shek-kingdom), [Tech Hunters](/tech-hunters), [The Holy Nation](/the-holy-nation), and [United Cities](/united-cities). They are normally found residing in bars and shops in the city.
 

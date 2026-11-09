@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>No problem. Welcome to Mongrel, island of the outcast.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Guard greeting Mongrel first-timer</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>No problem. Welcome to Mongrel, island of the outcast.</blockquote><figcaption>Guard greeting Mongrel first-timer</figcaption></figure>
 
 **Shinobi Guards** are guards of [Mongrel](/mongrel-faction) and the [Tech Hunters](/tech-hunters). Guards belonging to Mongrel can often be found around the [city](/mongrel), defending it from the onslaught of [Fogmen](/fogmen). Tech Hunter Shinobi Guards can be found guarding [Adventurer Ranger Shops](/adventurer-ranger-shop) and [Empire Ranger Shops](/empire-ranger-shop), as well as [Tech Hunter Bars](/tech-hunter-bar).
 

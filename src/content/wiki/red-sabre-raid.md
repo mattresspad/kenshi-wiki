@@ -19,7 +19,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Know where you built your walls, scumsuckers? You built 'em on swamper land. Got the stones to set up on swamper land? Let's put you to the test, shall we?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Red Sabre</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Know where you built your walls, scumsuckers? You built 'em on swamper land. Got the stones to set up on swamper land? Let's put you to the test, shall we?</blockquote><figcaption>Red Sabre</figcaption></figure>
 
 **Red Sabre Raid** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 4,200 meters of the [Red Sabre Hideout](/red-sabre-hideout). It has a 40% to trigger each day if within 3,700 meters, this chance scales down with distance until it hits 0% at 4,200 meters. It cannot trigger if the [Red Sabre Boss](/red-sabre-boss) has been killed or captured.
 

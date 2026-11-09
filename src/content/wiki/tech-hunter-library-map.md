@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Tech Hunter Library Map"
+  image: "/icons/items/51405-rebirth.mod.png"
+  caption: "A hand-drawn map marking a location of interest to the Tech Hunters.  It's likely to be an oldworld information source that could reveal the locations of Labs."
   groups:
     - heading: null
       rows:
         - ["Weight","1 kg"]
-        - ["Value","c.100"]
-        - ["Sell value","c.50"]
-        - ["Description","A hand-drawn map marking a location of interest to the Tech Hunters.  It's likely to be an oldworld information source that could reveal the locations of Labs."]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>51405-rebirth.mod</span>"]
 ---
 

@@ -22,7 +22,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Those that enter the swamp, don't leave the swamp...<p>Get 'em! And strip every last bit o' loot from their carcasses!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–-Red Sabre Boss attacking</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Those that enter the swamp, don't leave the swamp...<p>Get 'em! And strip every last bit o' loot from their carcasses!</p></blockquote><figcaption>-Red Sabre Boss attacking</figcaption></figure>
 
 **Red Sabre Boss**, or "The Red Bandit" is the boss of the [Red Sabres](/red-sabres). He resides in [Red Sabre Hideout](/red-sabre-hideout) surrounded by 22 [Red Sabres](/red-sabre). Though he is named in his bounty letter, he is not given the name 'The Red Bandit' in-game.
 

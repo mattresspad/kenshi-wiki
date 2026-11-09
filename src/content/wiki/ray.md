@@ -20,7 +20,7 @@ infobox:
         - ["String ID","51800-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Aye, got no tongue, past owner cut it out. He can be a pretty feisty one so can't say I blame 'em for it. I can just picture the bastard givin' lip, probably woulda done the same myself... I tell ya, I need to make my money back somehow, don't care if I gotta make bonemeal outta the good-for-nothing meat sack.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/bar-fly">Bar fly</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Aye, got no tongue, past owner cut it out. He can be a pretty feisty one so can't say I blame 'em for it. I can just picture the bastard givin' lip, probably woulda done the same myself... I tell ya, I need to make my money back somehow, don't care if I gotta make bonemeal outta the good-for-nothing meat sack.</blockquote><figcaption><a href="/bar-fly">Bar fly</a></figcaption></figure>
 
 **Ray** is a [Unique Recruit](/unique-recruits). He is a mute slave who can be bought for c.1,000 from [Bar fly](/bar-fly) at either [Eyesocket](/eyesocket) in the [Stormgap Coast](/stormgap-coast), or the [Slave Markets](/slave-markets) in the [South Wetlands](/south-wetlands). Until recruited he is a member of the [Outlaw](/outlaw) faction. If you kill Bar fly before buying Ray, you won't be able to recruit him.
 

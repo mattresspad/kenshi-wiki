@@ -16,7 +16,7 @@ infobox:
         - ["Victory Triggers","<a href=\"/return-for-tribute\">Return For Tribute</a> Instant, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Well fought, enemy... Well fought. Rumour has it the last warriors to fight you are still licking their wounds... But I'll believe your strength only when I bleed from it with my own blood! So show me what you've got!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shek Warrior War Leader</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Well fought, enemy... Well fought. Rumour has it the last warriors to fight you are still licking their wounds... But I'll believe your strength only when I bleed from it with my own blood! So show me what you've got!</blockquote><figcaption>Shek Warrior War Leader</figcaption></figure>
 
 **Shek Challengers** is an event that can trigger if you defeat any of the following events:
 

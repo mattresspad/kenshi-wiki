@@ -18,7 +18,7 @@ infobox:
         - ["Territorial Trigger","True"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>We have special goods for you, no-hives! Don't be shy, come look! Finest in the land! We can't be beated on quality, you won't find better... How about rations? We have.. er.. special ones, handmade... *heave* *retch* 'Specially for no-hives like you!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hive Caravan Boss</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>We have special goods for you, no-hives! Don't be shy, come look! Finest in the land! We can't be beated on quality, you won't find better... How about rations? We have.. er.. special ones, handmade... *heave* *retch* 'Specially for no-hives like you!</blockquote><figcaption>Hive Caravan Boss</figcaption></figure>
 
 **Farm Trader** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 11,000 meters of a [Western Hive](/western-hive) owned location. It cannot trigger if the player is an enemy of the [Western Hive](/western-hive), or if [The Queen](/the-queen) has been killed or captured. Not to be confused with the [Materials Trader](/materials-trader), the other caravan from the [Western Hive](/western-hive).
 

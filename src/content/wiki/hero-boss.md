@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Got some foreigners setting up shop in our desert, eh?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hero Boss picking a fight</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Got some foreigners setting up shop in our desert, eh?</blockquote><figcaption>Hero Boss picking a fight</figcaption></figure>
 
 **Hero Bosses** are squad leaders of the [United Heroes League](/united-heroes-league). They are usually found leading packs of 5-7 [City Heroes](/city-hero) as they roam around [United Cities](/united-cities) territories in the northeast. They also patrol with groups of 3-7 City Heroes around the areas of [Heng](/heng-zone) and [The Great Desert](/the-great-desert).
 

@@ -20,7 +20,7 @@ infobox:
         - ["Legwear","<a href=\"/hack-stopper-pants\">Hack Stopper Pants</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm surrounded by psychopaths... Oh god I'm surrounded by psychopaths...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Meatshield</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm surrounded by psychopaths... Oh god I'm surrounded by psychopaths...</blockquote><figcaption>Meatshield</figcaption></figure>
 
 **Reaver Slaves** are the unreliable [whelps](/reaver-whelp) of the [Reavers](/reavers). Reaver Slaves are members of the [Vagrants](/vagrants) faction. They can be found in small groups accompanying squads of [Blooded](/reaver-blooded) and [Ironclads](/reaver-ironclad), serving as their meat shields during fights, or locked in cages within [Reaver Camps](/reaver-camp) or [Ark](/ark).
 

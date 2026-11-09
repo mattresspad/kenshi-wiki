@@ -1,6 +1,6 @@
 ---
 title: "Crumblejon"
-description: "–Crumblejon reminiscing on his days as a Samurai."
+description: "Crumblejon is a Unique Recruit found in Mongrel. His dialogue consists mostly of you pestering him, with him getting annoyed and refusing to join your squad…"
 source:
   title: "Crumblejon"
   revision: 93839
@@ -18,7 +18,7 @@ infobox:
         - ["String ID","2733-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This wouldn't have happened back in my youth... They wouldn't have landed a single hit on me. Ah, to be back in my prime again...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Crumblejon reminiscing on his days as a Samurai.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This wouldn't have happened back in my youth... They wouldn't have landed a single hit on me. Ah, to be back in my prime again...</blockquote><figcaption>Crumblejon reminiscing on his days as a Samurai.</figcaption></figure>
 
 **Crumblejon** is a [Unique Recruit](/unique-recruits) found in [Mongrel](/mongrel). His dialogue consists mostly of you pestering him, with him getting annoyed and refusing to join your squad (unless you pester him enough in which case he will join out of frustration).
 

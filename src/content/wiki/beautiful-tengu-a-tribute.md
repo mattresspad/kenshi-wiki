@@ -7,14 +7,18 @@ source:
 categories: ["Pages with non-numeric formatnum arguments","Books"]
 infobox:
   title: "Beautiful Tengu: A Tribute"
+  image: "/icons/items/53652-Dialogue.mod.png"
+  caption: "\"One of the sharpest minds I've ever had the pleasure to meet, Emperor Tengu's wit never ceases to amaze me during his visits...\" \n\nA rather dull text written by famous rebel, Luquin, who was forced to write praise about the emperor during his time in Tengu's Vault. Whether Luquin is still alive or not is unknown."
   groups:
     - heading: null
       rows:
+        - ["Type","Book or letter"]
         - ["Weight","0 kg"]
-        - ["Size","2x2"]
-        - ["Value","<span>c.</span>100"]
-        - ["Avg. Price","c.Missing data"]
-        - ["Description","\"One of the sharpest minds I've ever had the pleasure to meet, Emperor Tengu's wit never ceases to amaze me during his visits...\" <p>A rather dull text written by famous rebel, Luquin, who was forced to write praise about the emperor during his time in Tengu's Vault. Whether Luquin is still alive or not is unknown.</p>"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>53652-Dialogue.mod</span>"]
 ---
 
 **Beautiful Tengu: A Tribute** is a [book](/lore-books) [item](/items) found in [United Cities](/united-cities). This item can be found in many empire vendors.

@@ -21,7 +21,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Setting up in the desert without samurai guard?<p>Dumb move.</p><p>Attack!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Sand Ninja raid</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Setting up in the desert without samurai guard?<p>Dumb move.</p><p>Attack!</p></blockquote><figcaption>Sand Ninja raid</figcaption></figure>
 
 **Sand Ninjas** are members of the [Sand Ninjas](/sand-ninjas) faction. They can be found in [Cactus Den](/cactus-den) and in small squads of 3-5 patrolling [Spine Canyon](/spine-canyon), [The Eye](/the-eye), and [The Great Desert](/the-great-desert).
 

@@ -1,6 +1,6 @@
 ---
 title: "Emperor Tengu"
-description: "–Luquin's forced message during his stay in Tengu's Vault"
+description: "Emperor Tengu is the current leader of the United Cities. He is carrying the strongest Katana (Meitou grade) in the game."
 source:
   title: "Emperor Tengu"
   revision: 95413
@@ -18,7 +18,7 @@ infobox:
         - ["String ID","51751-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>One of the sharpest minds I've ever had the pleasure to meet, Emperor Tengu's wit never ceases to amaze me during his visits...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/luquin">Luquin</a>'s forced message during his stay in <a href="/tengus-vault">Tengu's Vault</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>One of the sharpest minds I've ever had the pleasure to meet, Emperor Tengu's wit never ceases to amaze me during his visits...</blockquote><figcaption><a href="/luquin">Luquin</a>'s forced message during his stay in <a href="/tengus-vault">Tengu's Vault</a></figcaption></figure>
 
 **Emperor Tengu** is the current leader of the [United Cities](/united-cities). He is carrying the strongest [Katana](/katana) ([Meitou](/meitou) grade) in the game.
 
@@ -76,7 +76,7 @@ After the Red Rebellion, a new leader was chosen: Emperor Tengu, a starkly more 
 
 But despite his feared position, Tengu is only an average fighter, having merely above average stats and wearing almost no armour. The noble culture is one of imported luxuries, exotic novelties, and flamboyant fashion. Although most of the high nobles rely on their famed bodyguards for protection and can only swing a sword well enough to buy their guards time against a truly skilled assailant, they nonetheless tend to carry elaborate and expensive swords on them as a symbol of status.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Don’t EVER mess with the nobles, don’t look at them, don’t breathe near them… Unless you want to wind up in Tengu’s torture Vault with all the other rebels.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Farmer Zu</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Don’t EVER mess with the nobles, don’t look at them, don’t breathe near them… Unless you want to wind up in Tengu’s torture Vault with all the other rebels.</blockquote><figcaption>Farmer Zu</figcaption></figure>
 
 ## [World States](/world-states)
 

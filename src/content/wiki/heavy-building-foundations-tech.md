@@ -21,7 +21,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This would solve a fundamental engineering problem and enable us to build larger, sturdier structures.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This would solve a fundamental engineering problem and enable us to build larger, sturdier structures.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Heavy Building Foundations** is [Core Tech](/core-tech) which can be researched at Tech Level 3 on a [Research Bench](/research-bench). This technology doesn't unlock anything but does pave the way to more research into [Buildings](/buildings-list).
 

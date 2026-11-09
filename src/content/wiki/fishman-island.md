@@ -1,6 +1,6 @@
 ---
 title: "Fishman Island"
-description: "–Player Characters (including Crumblejon and Doctor Chung)"
+description: "Fishman Island is a small zone south of the Bonefields."
 source:
   title: "Fishman Island"
   revision: 91715
@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/bonefields\">Bonefields</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Fishman Island... There's supposed to be a famous sword here...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Player Characters (including <a href="/crumblejon">Crumblejon</a> and <a href="/doctor-chung">Doctor Chung</a>)</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Fishman Island... There's supposed to be a famous sword here...</blockquote><figcaption>Player Characters (including <a href="/crumblejon">Crumblejon</a> and <a href="/doctor-chung">Doctor Chung</a>)</figcaption></figure>
 
 **Fishman Island** is a small zone south of the [Bonefields](/bonefields).
 

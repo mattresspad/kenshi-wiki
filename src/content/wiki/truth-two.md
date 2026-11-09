@@ -13,9 +13,9 @@ categories: ["Removed Content","Manufacturers"]
 
   
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Some of the finest blades in the world.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Some of the finest blades in the world.</blockquote><figcaption>In-game description</figcaption></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Don't even get me started on those Truth Two clowns. Overheat their blades like tough jerky on a bonfire...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/catun-scrapmaster">Catun Scrapmaster</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Don't even get me started on those Truth Two clowns. Overheat their blades like tough jerky on a bonfire...</blockquote><figcaption><a href="/catun-scrapmaster">Catun Scrapmaster</a></figcaption></figure>
 
 **Truth Two** is a high-grade manufacturer of [weapons](/weapons). Their quality is relatively high, as is their price and damage. They perform better than all other manufacturers except [Edgewalkers](/edgewalkers). Truth Two does not produce the [Flesh Cleaver](/flesh-cleaver), [Heavy Iron Club](/heavy-iron-club), [Iron Club](/iron-club), [Ninja Blade](/ninja-blade), or Slim Katana type weapons.
 

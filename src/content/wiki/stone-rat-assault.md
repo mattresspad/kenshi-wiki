@@ -15,7 +15,7 @@ infobox:
         - ["Victory Triggers","<a href=\"/stone-rat-visit\">Stone Rat Visit</a> 90-110 Hours, 100% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Know what happens when you don't pay the Stone Rats their dues? You get your legs broken! The Stone Rats run this swamp!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Stone Rat</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Know what happens when you don't pay the Stone Rats their dues? You get your legs broken! The Stone Rats run this swamp!</blockquote><figcaption>Stone Rat</figcaption></figure>
 
 **Stone Rat Assault** is an [Event](/events) that can trigger if the [Player](/nameless) has defeated either the [Stone Rat Visit](/stone-rat-visit) or **Stone Rat Assault** events. It cannot trigger if the player is allied to the [Hounds](/hounds) faction, or if [Big Al](/big-al) has been killed or captured.
 

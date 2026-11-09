@@ -7,13 +7,19 @@ source:
 categories: ["Items"]
 infobox:
   title: "Engineering Research"
+  image: "/icons/items/43951-rebirth.mod.png"
+  caption: "A rare artifact that can be used to unlock advanced building research."
   groups:
     - heading: null
       rows:
+        - ["Type","Blueprint"]
         - ["Weight","0 kg"]
-        - ["Size","2x2"]
-        - ["Avg. Price","c.8,000"]
-        - ["Description","A rare artifact that can be used to unlock advanced building research."]
+        - ["Base value","c. 8,000"]
+        - ["Size in inventory","2x2"]
+        - ["Artifact","Yes"]
+    - heading: null
+      rows:
+        - ["String id","<span>43951-rebirth.mod</span>"]
 ---
 
 **Engineering Research** is a [Research Artifact](/research-artifacts) needed for researching various [Technologies](/technology).

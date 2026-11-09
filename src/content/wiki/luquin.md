@@ -18,7 +18,7 @@ infobox:
         - ["Legwear","<a href=\"/rag-loincloth\">Rag Loincloth</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Psst, break me out...<p>Promise you I'll come in useful...</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Psst, break me out...<p>Promise you I'll come in useful...</p></blockquote></figure>
 
 **Luquin** is a [Unique Recruit](/unique-recruits) imprisoned within [Tengu's Vault](/tengus-vault). He has a c.30,000 [Bounty](/bounty). He has a Brave personality.
 
@@ -64,29 +64,29 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ### Cage is unlocked
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Good work, brother...Name's Lu.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Good work, brother...Name's Lu.</blockquote></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Not much good without a weapon.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Not much good without a weapon.</blockquote></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>First things first, let's find some swords.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>First things first, let's find some swords.</blockquote></figure>
 
 ### After running out of the vault with your character
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Ah, fresh air never tasted so good.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Ah, fresh air never tasted so good.</blockquote></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Fifteen years I've been locked up in that place.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Fifteen years I've been locked up in that place.</blockquote></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Say, Tengu still running the Empire these days?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Say, Tengu still running the Empire these days?</blockquote></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>...It's been a while. I owe him a visit.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>...It's been a while. I owe him a visit.</blockquote></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You just unleashed his worst nightmare, &lt;your name here&gt;.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You just unleashed his worst nightmare, &lt;your name here&gt;.</blockquote></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>But a lot can change in fifteen years. I'm gonna need you.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>But a lot can change in fifteen years. I'm gonna need you.</blockquote></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A skilled boy like you, with a vendetta against the Empire at that.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>A skilled boy like you, with a vendetta against the Empire at that.</blockquote></figure>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This time we won't fail.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>This time we won't fail.</blockquote></figure>
 
 ### Joins party
 

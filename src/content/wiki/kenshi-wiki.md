@@ -41,7 +41,7 @@ Set in an unrelenting world of bloodthirsty cannibals, starving bandits, brutal 
 
   
 
-<table class="wikitable"><tbody><tr><th colspan="3">REVIEWS</th></tr><tr><td colspan="3"></td></tr><tr><td><table class="wikitable"><tbody><tr><td>“</td><td>... But after around 30 hours, I still feel like I’ve so much to uncover.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.pcgamer.com/kenshi-review/">PC Gamer</a></cite></p></td></tr></tbody></table></td><td><table class="wikitable"><tbody><tr><td>“</td><td>Es un videojuego muy desafiante que no perdona los errores</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.3djuegos.com/juegos/analisis/33620/0/kenshi/">3D Juegos</a></cite></p></td></tr></tbody></table></td><td><table class="wikitable"><tbody><tr><td>“</td><td>Kenshi is everything. Kenshi is nothing. Kenshi just <i>is</i>.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.rockpapershotgun.com/2018/12/11/kenshi-review/">Rock Paper Scissors</a></cite></p></td></tr></tbody></table></td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><th colspan="3">REVIEWS</th></tr><tr><td colspan="3"></td></tr><tr><td><figure class="quote"><blockquote>... But after around 30 hours, I still feel like I’ve so much to uncover.</blockquote><figcaption><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.pcgamer.com/kenshi-review/">PC Gamer</a></figcaption></figure></td><td><figure class="quote"><blockquote>Es un videojuego muy desafiante que no perdona los errores</blockquote><figcaption><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.3djuegos.com/juegos/analisis/33620/0/kenshi/">3D Juegos</a></figcaption></figure></td><td><figure class="quote"><blockquote>Kenshi is everything. Kenshi is nothing. Kenshi just <i>is</i>.</blockquote><figcaption><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.rockpapershotgun.com/2018/12/11/kenshi-review/">Rock Paper Scissors</a></figcaption></figure></td></tr></tbody></table>
 
   
 
@@ -119,7 +119,7 @@ March 26, 2024
 
 Featured comment
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This was a good home to me. After being captured in the Desert by Manhunters, I fought my captors every day and every night. They'd break every bone in my body, but ...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–A FANDOM user, <a href="/stone-camp">Stone Camp</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This was a good home to me. After being captured in the Desert by Manhunters, I fought my captors every day and every night. They'd break every bone in my body, but ...</blockquote><figcaption>A FANDOM user, <a href="/stone-camp">Stone Camp</a></figcaption></figure>
 
   
 If you see this, your JavaScript might be disabled or DiscordIntegrator plugin isn't working. If the latter, please contact a wiki administrator.  

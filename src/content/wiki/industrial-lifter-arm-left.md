@@ -6,22 +6,30 @@ source:
   revision: 86326
 categories: ["Robot Limbs"]
 infobox:
-  title: "Extra Strong Arms"
+  title: "Industrial Lifter Arm (left)"
+  image: "/icons/items/96022-Newwworld.mod.png"
+  caption: "An arm from an ancient logistics unit, it has exceptional strength.  \nThese units were used in the corporate factories and warehouses of the distant past.  Due to their inherent slowness they weren't adapted into combat units like their cousins, and remained behind in production roles before they were buried in the ash."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Estimated Time","12 hours"]
-        - ["Tech Level","6"]
-        - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
-        - ["Requirements","<a href=\"/skeleton-arms-tech\"> Skeleton Arms</a>"]
-    - heading: "Results"
+        - ["Slot","<a href=\"/robot-limbs\">Left arm</a>"]
+        - ["Weight","14 kg"]
+        - ["Base value","c. 4,000 → c. 28,000"]
+        - ["Size in inventory","6x2"]
+    - heading: "Stats (range across grades)"
       rows:
-        - ["New Item(s)","Industrial Lifter Arm (left)<p><a href=\"/industrial-lifter-arm-right\">Industrial Lifter Arm (right)</a></p>"]
+        - ["HP","70 → 200"]
+        - ["Strength","1.00x → 1.25x"]
+        - ["Dexterity","0.60x → 1.00x"]
+        - ["Swimming","0.60x → 0.75x"]
+        - ["Thievery","0.50x → 0.90x"]
+        - ["Ranged","0.75x → 1.00x"]
+        - ["Unarmed damage","0 → +4"]
+    - heading: null
+      rows:
+        - ["String id","<span>96022-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">An arm from an ancient logistics unit, it has exceptional strength.<p>These units were used in the corporate factories and warehouses of the distant past. Due to their inherent slowness they weren't adapted into combat units like their cousins, and remained behind production roles before they were buried in the ash.</p></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 Industrial Lifter Arm (left) is a [Robot Limb](/robot-limbs), and a replacement for a lost left arm.
 
 ## Stats 
@@ -44,4 +52,4 @@ Industrial Lifter Arm (left) is a [Robot Limb](/robot-limbs), and a replacement 
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Industrial Lifter Arm (left)</span></strong><div></div></td></tr><tr><td><a href="/electrical-components"><span>Electrical Components</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/extra-strong-arms-tech">Extra Strong Arms</a> research: 12 hours at tech level 6; costs <a href="/ai-core">2 AI Cores</a>; needs <a href="/skeleton-arms-tech">Skeleton Arms</a>.</li></ul></div>

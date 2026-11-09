@@ -7,13 +7,18 @@ source:
 categories: ["Items","Head","Bounty"]
 infobox:
   title: "Fog Prince Head"
+  image: "/icons/items/42083-rebirth.mod.png"
+  caption: "The decapitated head of a Fogman Prince.  This trophy is worth a heavy bounty."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","4 kg"]
-        - ["Size","4x4"]
-        - ["Avg. Price","c.6,000"]
-        - ["Description","The decapitated Head of a Fogman Prince. This trophy is worth a heavy bounty."]
+        - ["Base value","c. 10,000"]
+        - ["Size in inventory","4x4"]
+    - heading: null
+      rows:
+        - ["String id","<span>42083-rebirth.mod</span>"]
 ---
 
 **Fog Prince Head** is an [item](/items) in Kenshi. This item is only found on [Fog Princes](/fog-prince) and removing it instantly kills its owner.

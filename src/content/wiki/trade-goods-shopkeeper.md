@@ -24,7 +24,7 @@ infobox:
         - ["String ID","1038-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Looking to trade?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Shopkeeper greeting</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Looking to trade?</blockquote><figcaption>Shopkeeper greeting</figcaption></figure>
 
 **Trade Goods Shopkeepers** are unnamed shopkeepers of the [Traders Guild](/traders-guild). They can be found manning [Empire General Shops](/empire-general-shop), [General Shops](/general-shop), and [Holy General Shops](/holy-general-shop).
 

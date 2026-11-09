@@ -22,6 +22,6 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Wheatstraw isn't edible until you bake it into bread.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Wheatstraw isn't edible until you bake it into bread.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Baking** is [Farming Tech](/farming-tech) which allows the player to construct buildings related to [Strawflour](/strawflour) and [Bread](/bread).

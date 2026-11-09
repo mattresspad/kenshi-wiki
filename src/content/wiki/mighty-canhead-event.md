@@ -20,7 +20,7 @@ infobox:
         - ["Victory Triggers","Mighty Canhead (Event) 24-96 Hours, 90% Chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Rrrrrgggghhhh! Canhead mighty! Meat for Canhead! Mighty Canhead!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Mighty Canhead.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Rrrrrgggghhhh! Canhead mighty! Meat for Canhead! Mighty Canhead!</blockquote><figcaption>Mighty Canhead.</figcaption></figure>
 
 **Mighty Canhead** is an [Event](/events) that can trigger if the [Player](/nameless) has a [Base](/guide-to-building-an-outpost) within 4,500 meters of a [Cannibals](/cannibals) owned location. It has a 20% chance to trigger each day if within 2,500 meters, this chance scales down with distance until it hits 0% at 4,500 meters. It cannot trigger if [Mighty Canhead](/mighty-canhead) is killed or captured.
 

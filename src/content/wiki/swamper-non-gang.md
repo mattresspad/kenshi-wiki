@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>, <a href=\"/bolts-regulars\">Bolts Regulars</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Say goodbye to all morals and say hello to the swamps!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Swampers</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Say goodbye to all morals and say hello to the swamps!</blockquote><figcaption>Swampers</figcaption></figure>
 
 **Swampers (Non-Gang)** are named residents of the [Swampers](/swampers). These variants are usually found in residential areas, as well as serving as the shopkeepers in Swamp shops.
 

@@ -18,7 +18,7 @@ infobox:
         - ["String ID","65952-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>So you wanna buy a crab, eh. Well, first up you gotta have a solid crab care routine, let me tell you all about it...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>So you wanna buy a crab, eh. Well, first up you gotta have a solid crab care routine, let me tell you all about it...</blockquote></figure>
 
 **Crab Men** are randomly named members of the [Crab Raiders](/crab-raiders). They sell [Crabs](/crab) to the player even if they are not allied with the Crab Raiders.
 

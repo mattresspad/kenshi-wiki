@@ -7,17 +7,33 @@ source:
 categories: ["Weapons","Blunt"]
 infobox:
   title: "Mercenary Club"
+  image: "/icons/items/2110-gamedata.base.png"
+  caption: "A hefty club used by wealthier bandit types."
   groups:
     - heading: null
       rows:
-        - ["Class","[Blunt weapon class]"]
-        - ["Blood loss","0.30x"]
+        - ["Class","<a href=\"/blunt-weapons\">Blunt</a>"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.20x"]
+        - ["Blunt damage","1.00x"]
+        - ["Bleed","0.30x"]
         - ["Armour penetration","+30%"]
         - ["Attack","-2"]
-        - ["Damage vs robots","+20%"]
-        - ["Damage vs animals","-10%"]
+        - ["Defence","0"]
         - ["Reach","18"]
-        - ["Description","A hefty club used by wealthier bandit types."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+        - ["Robots","+20%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>2110-gamedata.base</span>"]
 ---
 
@@ -31,17 +47,9 @@ The ability to make this weapon is learned through researching [Heavy Weapons](/
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>6</td><td>6</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>6</td><td>6</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/heavy-weapons-tech">Heavy Weapons</a> research: 4 hours at tech level 2; costs <a href="/book">6 Books</a>.</li></ul></div>
+
 <table class="wikitable"><tbody><tr><td colspan="2" align="center" bgcolor="#322d2a"><a href="/heavy-weapons-tech">Heavy Weapons</a><b></b></td></tr><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">Heavy weapons. Ridiculed by many and often hailed as "cock extensions", nothing is more amusing than watching some idiot try to fight with a weapon he can barely lift. But, if you work very, very hard, if you master it and build the necessary strength... maybe, just maybe you could become something very dangerous...</td></tr><tr><td colspan="2" align="center"><hr></td></tr><tr><td><b>Research Level</b></td><td>2</td></tr><tr><td><b>Estimated Time</b></td><td>4 hours</td></tr><tr><td><b>Costs</b></td><td>6 <a href="/book">Books</a></td></tr><tr><td colspan="2" align="center" bgcolor="#322d2a"><b>Unlocks</b></td></tr><tr><td><b>Ability to Make</b></td><td><strong>Mercenary Club</strong>, <a href="/spiked-club">Spiked Club</a></td></tr><tr><td><b>Ability to Research</b></td><td><span class="new" title="The Plank (Tech) (page does not exist)" data-uncrawlable-url="L3dpa2kvVGhlX1BsYW5rXyhUZWNoKT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">The Plank (Tech)</span>, <span class="new" title="Fragment Axe (Tech) (page does not exist)" data-uncrawlable-url="L3dpa2kvRnJhZ21lbnRfQXhlXyhUZWNoKT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Fragment Axe (Tech)</span></td></tr></tbody></table>
-
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(6 required)</span></p></td><td><strong><span>Mercenary Club</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(6 required)</span></p></td><td><strong><span>Mercenary Club</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(6 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(6 required)</span></p></td><td><strong><span>Mercenary Club</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(6 required)</span></p></td></tr></tbody></table></details>
-
-  
 
 ## Blueprints
 

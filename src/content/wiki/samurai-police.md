@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/standard-first-aid-kit\">Standard First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>How about welcoming your local Empire guards into your gates, eh?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>How about welcoming your local Empire guards into your gates, eh?</blockquote></figure>
 
 **Samurai** **Police** are law enforcers for the [United Cities](/united-cities), [Empire Peasants](/empire-peasants), and the [Free Traders](/free-traders). This branch of Samurai operates out of [Police Stations](/police-station) and are mainly responsible for protecting urban centers, while standard [Samurai](/samurai) perform military duties such as patrolling.
 

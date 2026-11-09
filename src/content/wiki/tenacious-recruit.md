@@ -23,7 +23,7 @@ infobox:
         - ["String ID","15256-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I have the tenacity of a bemused Shek. So am I hired?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Smart <a href="/personality">Personality</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I have the tenacity of a bemused Shek. So am I hired?</blockquote><figcaption>Smart <a href="/personality">Personality</a></figcaption></figure>
 
 The **Tenacious Recruit** is a randomly named [Generic Recruit](/generic-recruits) available in bars in [Shark](/shark), [Black Scratch](/black-scratch), [Flats Lagoon](/flats-lagoon), [Smugglers Bar](/smugglers-bar), [Waystations](/waystation), [World's End](/worlds-end), [The Hub](/the-hub). [Mourn](/mourn), [Empire Peasants](/empire-peasants) bars, [Crab Town](/crab-town), and, depending on [World States](/world-states), also in [Blister Hill](/blister-hill), [Heft](/heft), [Heng](/heng) and [Stoat](/stoat). They have the "Not honorable" [Personality](/personality) and after recruited will have the 'Player THUG' Dialogue Package.
 

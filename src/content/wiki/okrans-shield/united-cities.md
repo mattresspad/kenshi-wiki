@@ -21,7 +21,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/okrans-shield/united-cities)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The east will fall to the evils of the desert now that Valtena is gone...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-citizen">Holy Citizen</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The east will fall to the evils of the desert now that Valtena is gone...</blockquote><figcaption><a href="/holy-citizen">Holy Citizen</a></figcaption></figure>
 
 If [High Inquisitor Valtena](/high-inquisitor-valtena) is [killed or imprisoned](/world-states) while [Emperor Tengu](/emperor-tengu) is alive and free, **Okran's Shield** will [fall under the control](/town-overrides) of the [United Cities](/united-cities).
 

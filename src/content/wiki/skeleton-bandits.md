@@ -14,7 +14,7 @@ infobox:
         - ["Hostile towards","Hive Prince <p><br>Hive Soldier Drone</p><p>Hive Worker Drone</p><p>Shek</p><p>Greenlander</p><p>Scorchlander</p>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It is not surprising to me that you will join us. Because you are the same as us. Your purpose is the same. Otherwise you are not a proper skele-ton, clearly. A proper skele-ton would converse with his fellow skele-tons about histories and such...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Upgraded Skeleton Guard</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It is not surprising to me that you will join us. Because you are the same as us. Your purpose is the same. Otherwise you are not a proper skele-ton, clearly. A proper skele-ton would converse with his fellow skele-tons about histories and such...</blockquote><figcaption>Upgraded Skeleton Guard</figcaption></figure>
 
 **Skeleton Bandits** is a faction native to the southeast corner of the continent. They primarily consist of [Greenlanders](/greenlander) wearing [Skeleton Masks](/skeleton-mask). They are led by [Elder](/elder), a [P4 Unit](/p4-unit) who enjoys watching humans massacre each other. Elder has brainwashed his human followers into believing that they are [Skeletons](/skeleton).
 

@@ -5,9 +5,32 @@ source:
   title: "Leather Vest"
   revision: 86546
 categories: ["Armour","Shirts","Light Armour"]
+infobox:
+  title: "Leather Vest"
+  image: "/icons/items/2212-gamedata.base.png"
+  caption: "Undershirts provide a reliable second layer of defence."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 2,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Chest","85% covered"]
+        - ["Left Arm","0% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","0% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2212-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Undershirts provide a reliable second layer of defence.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Leather Vest** is a Light Armour that is equipped in the Shirt slot. It is sold by United Cities clothing shops, Holy Nation armour and clothing shops, and Shek Kingdom and Tech Hunter Ronin armour shops.
 
@@ -25,17 +48,11 @@ The Leather Vest is similar in appearance to a Tank Top/Sleeveless Shirt. It is 
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Vest (1.0.12)</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>1%</td></tr><tr><td>-Cut resistance</td><td>1%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Weight</td><td>1.41875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.147</td></tr><tr><td>-Sell value</td><td>c.36</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>85%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>0%</td></tr><tr><td>-Left Arm</td><td>0%</td></tr><tr><td></td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1%</td><td>4%</td><td>8%</td><td>13%</td><td>17%</td><td>21%</td></tr><tr><th scope="row">Cut resistance</th><td>1%</td><td>7%</td><td>14%</td><td>21%</td><td>28%</td><td>33%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">50%</td></tr><tr><th scope="row">Harpoon resistance</th><td>–</td><td>3pts</td><td>6pts</td><td>10pts</td><td>13pts</td><td>16pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">1.41875 kg</td></tr><tr><th scope="row">Value</th><td>c.147</td><td>c.750</td><td>c.2,682</td><td>c.5,899</td><td>c.10,405</td><td>c.14,629</td></tr><tr><th scope="row">Sell value</th><td>c.36</td><td>c.187</td><td>c.670</td><td>c.1474</td><td>c.2,601</td><td>c.3,657</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">85%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">100%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">0%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">0%</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Vest (1.0.12)</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>4%</td></tr><tr><td>-Cut resistance</td><td>7%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>3pts</td></tr><tr><td>-Weight</td><td>1.41875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.750</td></tr><tr><td>-Sell value</td><td>c.187</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>85%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>0%</td></tr><tr><td>-Left Arm</td><td>0%</td></tr><tr><td></td></tr></tbody></table>
+## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Vest (1.0.12)</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>8%</td></tr><tr><td>-Cut resistance</td><td>14%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>6pts</td></tr><tr><td>-Weight</td><td>1.41875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,682</td></tr><tr><td>-Sell value</td><td>c.670</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>85%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>0%</td></tr><tr><td>-Left Arm</td><td>0%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Vest (1.0.12)</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>13%</td></tr><tr><td>-Cut resistance</td><td>21%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>10pts</td></tr><tr><td>-Weight</td><td>1.41875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.5,899</td></tr><tr><td>-Sell value</td><td>c.1474</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>85%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>0%</td></tr><tr><td>-Left Arm</td><td>0%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Vest (1.0.12)</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>17%</td></tr><tr><td>-Cut resistance</td><td>28%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>13pts</td></tr><tr><td>-Weight</td><td>1.41875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.10,405</td></tr><tr><td>-Sell value</td><td>c.2,601</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>85%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>0%</td></tr><tr><td>-Left Arm</td><td>0%</td></tr><tr><td></td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Leather Vest (1.0.12)</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>21%</td></tr><tr><td>-Cut resistance</td><td>33%</td></tr><tr><td>-Cut resistance efficiency</td><td>50%</td></tr><tr><td>-Harpoon resistance</td><td>16pts</td></tr><tr><td>-Weight</td><td>1.41875 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.14,629</td></tr><tr><td>-Sell value</td><td>c.3,657</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>85%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Arm</td><td>0%</td></tr><tr><td>-Left Arm</td><td>0%</td></tr><tr><td></td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.454</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>2.27</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Leather Vest blueprint: 12 hours at tech level 1; the blueprint is worth c. 6,705.</li></ul></div>
 
 ## Blueprints
 

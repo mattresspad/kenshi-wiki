@@ -7,13 +7,18 @@ source:
 categories: ["Pages with non-numeric formatnum arguments","Books"]
 infobox:
   title: "Money is Freedom"
+  image: "/icons/items/53654-Dialogue.mod.png"
+  caption: "\"It was the nomad chief, Arnuk Geran, who once said, 'Money is forgotten when you have love and good health'. Perhaps the words either of one very fortunate ascetic or of one hopeless fool. \r\r\n\r\r\nLove, health... all freedoms in life depend on money. Want love? Lovers crave money. Want health? Doctors crave money. Wealth makes life easier. Wealth is power, wealth is choice. \r\r\n\r\r\nBut what about master swordsmen, you say? 'They have a power money can't buy!'\r\r\nWrong again, naysayer. I can buy and set forty master swordsmen on my most dangerous enemies. Money is a weapon, money is a trigger.\r\r\n\r\r\nI pity the buffoon who clings to such defeatist notions in acceptance of poverty.\""
   groups:
     - heading: null
       rows:
+        - ["Type","Book or letter"]
         - ["Weight","0 kg"]
-        - ["Size","2x2"]
-        - ["Avg. Price","c.Missing data"]
-        - ["Description","\"It was the nomad chief, Arnuk Geran, who once said, 'Money is forgotten when you have love and good health'. Perhaps the words either of one very fortunate ascetic or of one hopeless fool. <p><br></p><p>Love, health... all freedoms in life depend on money. Want love? Lovers crave money. Want health? Doctors crave money. Wealth makes life easier. Wealth is power, wealth is choice. </p><p><br></p><p>But what about master swordsmen, you say? 'They have a power money can't buy!'</p><p>Wrong again, naysayer. I can buy and set forty master swordsmen on my most dangerous enemies. Money is a weapon, money is a trigger.</p><p><br></p><p>I pity the buffoon who clings to such defeatist notions in acceptance of poverty.\"</p>"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>53654-Dialogue.mod</span>"]
 ---
 
 **Money is Freedom** is a [book](/lore-books) [item](/items) found in the [United Cities](/united-cities). This item is 'unique' to the [Bank](/bank) in [Trader's Edge](/traders-edge). However, it can also be found without the 'unique' label in other empire vendors.

@@ -24,7 +24,7 @@ infobox:
         - ["String ID","50280-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Paladins... we need to keep our distance. Trust me, the Holy Nation are bad news...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Pia on Paladins</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Paladins... we need to keep our distance. Trust me, the Holy Nation are bad news...</blockquote><figcaption>Pia on Paladins</figcaption></figure>
 
 **Pia** is a [Unique Recruit](/unique-recruits). She is a fast runner. Her sister Naevia was also a member of the [Flotsam Ninjas](/flotsam-ninjas), but recently "Died doing what she loved doing, fighting the Paladins".
 

@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/vain\">Vain</a>, <a href=\"/border-zone\">Border Zone</a>, <a href=\"/spider-plains\">Spider Plains</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Raise your sword. Prove your worth if you are to set foot in my kingdom, <a href="/flatskins">Flatskin</a>!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/shek-warrior">Shek Warrior</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Raise your sword. Prove your worth if you are to set foot in my kingdom, <a href="/flatskins">Flatskin</a>!</blockquote><figcaption><a href="/shek-warrior">Shek Warrior</a></figcaption></figure>
 
 The **Stenn Desert**: the barren, sparsely-populated, inhospitable home of the [Shek](/shek). Surrounded to the West, North, and North-East by [Vain](/vain); and to the East by the [Border Zone](/border-zone). This place is rife with banditry of the notorious [Kral's Chosen](/krals-chosen) and [Berserkers](/berserkers), as well as the [Skin Spiders](/skin-spider) roaming through the area, likely migrated from the neighboring [Spider Plains](/spider-plains) (which then likely originated from [Arach](/arach)).
 

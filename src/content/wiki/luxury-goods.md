@@ -7,12 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Luxury Goods"
+  image: "/icons/items/585-gamedata.base.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Avg. Price","c.240"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>585-gamedata.base</span>"]
 ---
 
 **Luxury Goods** are a Trade Good that can be bought and sold to make a profit. They are sold by [Trade Goods Traders](/trade-goods-trader) at the 'Trade' building in towns.

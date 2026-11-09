@@ -23,7 +23,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>These ones kinda look like escaped slaves, don't you think?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Manhunter considering an attack</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>These ones kinda look like escaped slaves, don't you think?</blockquote><figcaption>Manhunter considering an attack</figcaption></figure>
 
 **Manhunters** are the sole members of the [Manhunters](/manhunters) faction. They roam and patrol around [United Cities](/united-cities) territories in groups of 5-14, hoping to capture any slave they find.
 

@@ -13,7 +13,7 @@ infobox:
         - ["Hostile towards","everyone"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Careful of the painted tribe, they roam outside the village and pick off any unfortunate travelers that stray too far from town..."</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/deadcat-vendor">Deadcat Vendor</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Careful of the painted tribe, they roam outside the village and pick off any unfortunate travelers that stray too far from town..."</blockquote><figcaption><a href="/deadcat-vendor">Deadcat Vendor</a></figcaption></figure>
 
 The **Cannibals** (AKA the "Painted Tribe") are a group of tribal humanoids native to the [Cannibal Plains](/cannibal-plains), [Darkfinger](/darkfinger) and other surrounding zones. While most densely present in the northern areas of Kenshi, these groups are known to migrate and can expand as far away as [The Great Desert](/the-great-desert), [Bast](/bast-zone), [Okran's Valley](/okrans-valley) and [Dreg](/dreg).
 

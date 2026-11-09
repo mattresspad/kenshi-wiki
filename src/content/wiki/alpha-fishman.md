@@ -7,7 +7,7 @@ source:
 categories: ["Races"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Neither man nor animal, the Giant <a href="/king-gurgler">King Gurgler</a> is an enormous beast with more similarity to a hiveman-crossed-crab, ten-fold in size.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/wanted-posters">Wanted Poster</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Neither man nor animal, the Giant <a href="/king-gurgler">King Gurgler</a> is an enormous beast with more similarity to a hiveman-crossed-crab, ten-fold in size.</blockquote><figcaption><a href="/wanted-posters">Wanted Poster</a></figcaption></figure>
 
 **Alpha Fishman** is a [Race](/races) in Kenshi. This race is exclusively used for characters in the [Fishmen](/fishmen) faction. You can easily outrun them even if your athletics is low. They also cannot swim.
 

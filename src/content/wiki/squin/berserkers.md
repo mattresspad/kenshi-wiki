@@ -20,7 +20,7 @@ infobox:
 
 _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/squin/berserkers)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The horned devils plague the Holy Lands but they are small in number, they won't last with their wreckless suicide mission. Eventually their kind will be extinct and we'll finally see peace.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-lord-phoenix">Holy Lord Phoenix</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The horned devils plague the Holy Lands but they are small in number, they won't last with their wreckless suicide mission. Eventually their kind will be extinct and we'll finally see peace.</blockquote><figcaption><a href="/holy-lord-phoenix">Holy Lord Phoenix</a></figcaption></figure>
 
 If [Esata the Stone Golem](/esata-the-stone-golem), [Mukai the Mountain](/mukai-the-mountain) and [Flying Bull](/flying-bull) are all [killed or imprisoned](/world-states), [Squin](/squin) will be taken over by the [Berserkers](/berserkers).
 

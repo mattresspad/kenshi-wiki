@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It takes at least four smiths and at least twenty nights to forge a fine blade worthy of a warrior...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/catun-scrapmaster">Catun Scrapmaster</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It takes at least four smiths and at least twenty nights to forge a fine blade worthy of a warrior...</blockquote><figcaption><a href="/catun-scrapmaster">Catun Scrapmaster</a></figcaption></figure>
 
 < Back to [Technology](/technology).
 

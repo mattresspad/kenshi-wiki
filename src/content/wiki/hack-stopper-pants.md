@@ -5,9 +5,35 @@ source:
   title: "Hack Stopper Pants"
   revision: 86605
 categories: ["Armour","Legwear","Medium Armour"]
+infobox:
+  title: "Hack Stopper Pants"
+  image: "/icons/items/64907-Newwworld.mod.png"
+  caption: "Metal cage-armoured pants."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","100% covered"]
+        - ["Left Leg","100% covered"]
+        - ["Stomach","10% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","25%"]
+        - ["Dodge","0.70x"]
+        - ["Stealth","0.70x"]
+        - ["Martial arts","-5"]
+    - heading: null
+      rows:
+        - ["String id","<span>64907-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Metal cage-armoured pants.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 **Hack Stopper Pants** are Medium Armour that are equipped on the Legwear slot. They can not be bought from shops.
 
@@ -19,18 +45,10 @@ They are worn by the [Reavers](/reavers). This includes [Reaver Bloodeds](/reave
 
 ## Grades
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Pants</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>1%</td></tr><tr><td>-Cut resistance</td><td>2%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.101</td></tr><tr><td>-Sell value</td><td>c.25</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Stomach</td><td>10%</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.63x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.91x</td></tr><tr><td>-Martial arts bonus</td><td>-5</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Pants</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>7%</td></tr><tr><td>-Cut resistance</td><td>9%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.374</td></tr><tr><td>-Sell value</td><td>c.93</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Stomach</td><td>10%</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.63x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.91x</td></tr><tr><td>-Martial arts bonus</td><td>-5</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Pants</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>14%</td></tr><tr><td>-Cut resistance</td><td>19%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,246</td></tr><tr><td>-Sell value</td><td>c.311</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Stomach</td><td>10%</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.63x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.91x</td></tr><tr><td>-Martial arts bonus</td><td>-5</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Pants</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>21%</td></tr><tr><td>-Cut resistance</td><td>29%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,699</td></tr><tr><td>-Sell value</td><td>c.674</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Stomach</td><td>10%</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.63x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.91x</td></tr><tr><td>-Martial arts bonus</td><td>-5</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Pants</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>28%</td></tr><tr><td>-Cut resistance</td><td>39%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.4,733</td></tr><tr><td>-Sell value</td><td>c.1,183</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Stomach</td><td>10%</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.63x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.91x</td></tr><tr><td>-Martial arts bonus</td><td>-5</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Hack Stopper Pants</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>34%</td></tr><tr><td>-Cut resistance</td><td>47%</td></tr><tr><td>-Cut resistance efficiency</td><td>75%</td></tr><tr><td>-Weight</td><td>2.625 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.6,641</td></tr><tr><td>-Sell value</td><td>c.1,660</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Stomach</td><td>10%</td></tr><tr><td>-Right Leg</td><td>100%</td></tr><tr><td>-Left Leg</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.63x</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Athletics effect</td><td>0.91x</td></tr><tr><td>-Martial arts bonus</td><td>-5</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1%</td><td>7%</td><td>14%</td><td>21%</td><td>28%</td><td>34%</td></tr><tr><th scope="row">Cut resistance</th><td>2%</td><td>9%</td><td>19%</td><td>29%</td><td>39%</td><td>47%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">75%</td></tr><tr><th scope="row">Weight</th><td colspan="6">2.625 kg</td></tr><tr><th scope="row">Value</th><td>c.101</td><td>c.374</td><td>c.1,246</td><td>c.2,699</td><td>c.4,733</td><td>c.6,641</td></tr><tr><th scope="row">Sell value</th><td>c.25</td><td>c.93</td><td>c.311</td><td>c.674</td><td>c.1,183</td><td>c.1,660</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Stomach</th><td colspan="6">10%</td></tr><tr><th scope="row">Right Leg</th><td colspan="6">100%</td></tr><tr><th scope="row">Left Leg</th><td colspan="6">100%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td colspan="6">0.63x</td></tr><tr><th scope="row">Dodge skill effect</th><td colspan="6">0.70x</td></tr><tr><th scope="row">Athletics effect</th><td colspan="6">0.91x</td></tr><tr><th scope="row">Martial arts bonus</th><td colspan="6">-5</td></tr></tbody></table>
 
 ## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.42</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>2.1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Hack Stopper Pants blueprint: 12 hours at tech level 1; the blueprint is worth c. 3,115.</li></ul></div>
 
 It can be crafted in the [Leather Armour Crafting Bench](/leather-armour-crafting-bench) if a blueprint is available through modding.

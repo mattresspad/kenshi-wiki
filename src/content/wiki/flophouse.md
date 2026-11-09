@@ -17,4 +17,4 @@ The establishment is always run by an NPC named [Mr. Floppy](/mr-floppy). If you
 
 Flophouses are not removed from the game entirely, however. Despite not being set to spawn anywhere, the unique recruit [Horse](/horse) requests that the player pay his bill at a flophouse. 
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Now, you look like the adventuring type, correct me if I'm wrong... So how about you pay off my bill at the Flophouse, we band together and we finish what me and my squad started? We'll be rich, roamer, you and me!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/horse">Horse</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Now, you look like the adventuring type, correct me if I'm wrong... So how about you pay off my bill at the Flophouse, we band together and we finish what me and my squad started? We'll be rich, roamer, you and me!</blockquote><figcaption><a href="/horse">Horse</a></figcaption></figure>

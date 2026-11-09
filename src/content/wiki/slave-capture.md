@@ -14,7 +14,7 @@ infobox:
         - ["Territorial Trigger","False"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You have something that belongs to the Slave Traders... And we're here to reclaim it!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Slaver Caravan Boss</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You have something that belongs to the Slave Traders... And we're here to reclaim it!</blockquote><figcaption>Slaver Caravan Boss</figcaption></figure>
 
 **Slave Capture** is an [Event](/events) that can trigger when recruiting an [Escaped Slave](/escaped-slave) or [Slave Escapee](/slave-escapee) via dialog, or if a visiting soldier from the [United Cities](/united-cities) spots an [ex-slave or escaped slave status](/slavery) character.
 

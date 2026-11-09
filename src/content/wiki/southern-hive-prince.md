@@ -7,7 +7,7 @@ source:
 categories: ["Races","Southern Hive","Hivers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The highest ranking in a Hive and right-hands to the Queen. Nobody has ever seen an actual Queen, it is the Princes that run everything. Free Princes are usually the result of losing command to a rival Prince, or exiles sent away as punishment for some kind of failure. They are much more intelligent and free-willed than normal Hive types.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The highest ranking in a Hive and right-hands to the Queen. Nobody has ever seen an actual Queen, it is the Princes that run everything. Free Princes are usually the result of losing command to a rival Prince, or exiles sent away as punishment for some kind of failure. They are much more intelligent and free-willed than normal Hive types.</blockquote><figcaption>Game Description</figcaption></figure>
 
 **Southern Hive Princes** are a [Race](/races) in Kenshi. They are a subrace of the Southern [Hive](/hive).
 

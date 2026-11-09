@@ -6,26 +6,27 @@ source:
   revision: 95729
 categories: ["Robot Limbs"]
 infobox:
-  title: "Hiver Skeleton Legs"
+  title: "Economy Leg (right)"
+  image: "/icons/items/96135-Newwworld.mod.png"
+  caption: "The Hivers are extremely proud of the skeleton limbs that they supposedly manufacture themselves.  This \"leg\" obviously used to be a skeleton's arm, with the hand removed and half a grog can to act as a stump fitting.  They haven't added any foot, because Hivers don't understand the necessity for feet.\nStill, they are the only modern day manufacturers of artificial limbs.  The natural go-to when you are low on funds and somethings eats off your leg."
   groups:
     - heading: null
       rows:
-        - ["Description","A copy of the Hiver's \"Economy Legs\" technology, this will be the stepping stone to replacement limb production."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/robot-limbs\">Right leg</a>"]
+        - ["Weight","5 kg"]
+        - ["Base value","c. 500 → c. 5,000"]
+        - ["Size in inventory","7x2"]
+    - heading: "Stats (range across grades)"
       rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","4"]
-        - ["Costs","6 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-        - ["Requirements","<a href=\"/robotics-tech\">Robotics</a>"]
-    - heading: "Results"
+        - ["HP","35 → 100"]
+        - ["Athletics","0.10x → 0.90x"]
+        - ["Swimming","0.50x"]
+        - ["Stealth","0.10x → 0.90x"]
+    - heading: null
       rows:
-        - ["New Item(s)","<a href=\"/economy-leg-left\">Economy Leg (left)</a><p>Economy Leg (right)</p>"]
-        - ["Required For","<a href=\"/hiver-skeleton-arms-tech\">Hiver Skeleton Arms</a>"]
+        - ["String id","<span>96135-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">The Hivers are extremely proud of the skeleton limbs that they supposedly manufacture themselves. This "leg" obviously used to be a skeleton's arm, with the hand removed and half a grog can act as a stump fitting. They haven't added any foot, because Hivers don't understand the necessity for feet. Still they are the only modern day manufacturers of artificial limbs. The natural go-to when you are low on fund and somethings eats off your leg.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 **Economy Leg (right)** is a [Robot Limb](/robot-limbs), and a replacement for a lost right leg. This is the cheapest, and worst, model of robotic legs.
 
 ## Stats 
@@ -48,4 +49,4 @@ infobox:
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/motor"><span>Motor</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Economy Leg (right)</span></strong><div></div></td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/motor">Motor</a></th><td>2</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/hiver-skeleton-legs-tech">Hiver Skeleton Legs</a> research: 6 hours at tech level 4; costs <a href="/ancient-science-book">6 Ancient Science Books</a>; needs <a href="/robotics-tech">Robotics</a>.</li></ul></div>

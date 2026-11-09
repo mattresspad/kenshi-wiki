@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Map of the Swamps"
+  image: "/icons/items/51404-rebirth.mod.png"
+  caption: "An easy place to get lost, well worth buying a map for."
   groups:
     - heading: null
       rows:
         - ["Weight","1 kg"]
-        - ["Value","c.500"]
-        - ["Sell value","c.250"]
-        - ["Description","An easy place to get lost, well worth buying a map for."]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>51404-rebirth.mod</span>"]
 ---
 

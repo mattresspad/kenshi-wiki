@@ -1,13 +1,13 @@
 ---
 title: "Cannibal Skav"
-description: "–Skeleton Player Characters, Cannibal Plains"
+description: "Cannibal Skav is a Race in Kenshi. This race is exclusively used for Scrawny Cannibal characters."
 source:
   title: "Cannibal Skav"
   revision: 80487
 categories: ["Races"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It wasn't always like this. We don't know why the northwesterners suddenly developed a taste for humanoid meat...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton">Skeleton</a> Player Characters, <a href="/cannibal-plains">Cannibal Plains</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It wasn't always like this. We don't know why the northwesterners suddenly developed a taste for humanoid meat...</blockquote><figcaption><a href="/skeleton">Skeleton</a> Player Characters, <a href="/cannibal-plains">Cannibal Plains</a></figcaption></figure>
 
 **Cannibal Skav** is a [Race](/races) in Kenshi. This race is exclusively used for [Scrawny Cannibal](/scrawny-cannibal) characters.
 

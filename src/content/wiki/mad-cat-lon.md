@@ -24,7 +24,7 @@ infobox:
 
 **Mad Cat-Lon** is the [exiled](/second-empire-exile) last ruler of the [Second Empire](/second-empire), and one of the most powerful characters in the game. He can be found sitting on his throne in one of the domes at [Cat-Lon's Exile](/cat-lons-exile). Upon seeing a player character, he will say the following and attack:
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Has my judgement come so soon?<p>I had to thrall them all! Traitors siding with the humans! Treason!</p><p>Now we are nothing! What was the point of it all?</p><p>Have you tried looking after humans? They're monsters!</p><p>As they grow in number, so does their capacity for evil, and they won't even notice as they do it.</p><p>I was not the monster.</p><p>WREEEEEEEEEEE!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Cat-Lon, shortly before the <a href="/stormthrall">waves of thralls</a> rush in to battle</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Has my judgement come so soon?<p>I had to thrall them all! Traitors siding with the humans! Treason!</p><p>Now we are nothing! What was the point of it all?</p><p>Have you tried looking after humans? They're monsters!</p><p>As they grow in number, so does their capacity for evil, and they won't even notice as they do it.</p><p>I was not the monster.</p><p>WREEEEEEEEEEE!</p></blockquote><figcaption>Cat-Lon, shortly before the <a href="/stormthrall">waves of thralls</a> rush in to battle</figcaption></figure>
 
   
 When in battle, the 120 [Stormthralls](/stormthrall) from the other dome will rush to his aid. If they are taken out before engaging Cat-Lon he will be fighting alone.

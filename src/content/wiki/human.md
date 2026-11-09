@@ -7,7 +7,7 @@ source:
 categories: ["Races"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Nothing ever truly changes. Trends, cultures, languages, rulers... they come and go. But behaviour bred from greed and fear hold human evolution at a standstill. Any kind of progress made is usually destroyed... reset in one way or another. Like a wave, it evolves and it falls again...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/burn">Burn</a>, about human evolution</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Nothing ever truly changes. Trends, cultures, languages, rulers... they come and go. But behaviour bred from greed and fear hold human evolution at a standstill. Any kind of progress made is usually destroyed... reset in one way or another. Like a wave, it evolves and it falls again...</blockquote><figcaption><a href="/burn">Burn</a>, about human evolution</figcaption></figure>
 
 **Humans** are the most populous race in the world of [Kenshi](/kenshi). Human is also a [race](/races) category which includes [Greenlanders](/greenlander) and [Scorchlanders](/scorchlander).
 

@@ -7,13 +7,18 @@ source:
 categories: ["Items","Farming"]
 infobox:
   title: "Wheatstraw"
+  image: "/icons/items/1913-gamedata.base.png"
+  caption: "Wheatstraw is one of the few crops that can be grown in arid environments.  Its a sturdy crop, and can be used to make horrible flat bread or rum that makes you go blind."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","5x5 wide/tall"]
-        - ["Avg. Price","c.40"]
-        - ["Description","Wheatstraw is one of the few crops that can be grown in arid environments.  Its a sturdy crop, and can be used to make horrible flat bread or rum that makes you go blind."]
+        - ["Base value","c. 40"]
+        - ["Size in inventory","5x5"]
+    - heading: null
+      rows:
+        - ["String id","<span>1913-gamedata.base</span>"]
 ---
 
 **Wheatstraw** is an inedible raw ingredient used to produce [Strawflour](/strawflour) in a [Grain Silo](/grain-silo) or [Grog](/grog) with a [Grog Distillery](/grog-machine). Players can grow wheat at a [Wheat Farm](/wheat-farm) and store it in [Storage: Wheatstraw](/storage-wheatstraw) after researching [Wheatstraw Farming](/wheatstraw-farming-tech). It can be turned into fuel at a [Biofuel Distillery](/biofuel-distillery-wheatstraw) and into [flour](/strawflour) at a [Grain Silo](/grain-silo).

@@ -125,7 +125,7 @@ Hydroponics
 
 [Hydroponic Wheatstraw](/hydroponic-wheatstraw)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A way to reliably grow crops indoors would be the ultimate advantage for survival outposts deep in inhospitable zones where food can not normally be grown.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A way to reliably grow crops indoors would be the ultimate advantage for survival outposts deep in inhospitable zones where food can not normally be grown.</blockquote><figcaption>In-game description</figcaption></figure>
 
   
 

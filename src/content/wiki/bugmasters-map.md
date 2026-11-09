@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Bugmaster's Map"
+  image: "/icons/items/1533877-rebirth.mod.png"
+  caption: "It's a map pointing to a certain location in the Ashlands.  It's covered in gibberish writing and pictograms.\nThough the Bugmaster was obviously insane, he seemed to have lived long and knew a lot of the world's secrets. \nYou can piece together enough scraps of information to understand that the Bugmaster was training himself in preparation to go here and kill someone.  It seems to have been his obsession.\n\nWhoever is there waiting in the Ashlands, it must be someone insanely dangerous."
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.10,000"]
-        - ["Sell value","c.5,000"]
-        - ["Description","It's a map pointing to a certain location in the Ashlands.  It's covered in gibberish writing and pictograms.<br>Though the Bugmaster was obviously insane, he seemed to have lived long and knew a lot of the world's secrets.<br>You can piece together enough scraps of information to understand that the Bugmaster was training himself in preparation to go here and kill someone.  It seems to have been his obsession.<br><br>Whoever is there waiting in the Ashlands, it must be someone insanely dangerous."]
+        - ["Base value","c. 10,000"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>1533877-rebirth.mod</span>"]
 ---
 

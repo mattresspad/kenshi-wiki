@@ -19,7 +19,7 @@ infobox:
         - ["String ID","13243-Escapes.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm in trouble. The nobles will be coming for me soon, they'll probably send me off to the Vault and torture me... cut out my tongue...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm in trouble. The nobles will be coming for me soon, they'll probably send me off to the Vault and torture me... cut out my tongue...</blockquote></figure>
 
 **Empire Recruit is** a randomly named [Generic Recruit](/generic-recruits) available in the [United Cities](/united-cities). They are citizens who seem to be in trouble with the nobles and will be indebted to you if you give them bribe money of c.3,000 to escape the guards.
 

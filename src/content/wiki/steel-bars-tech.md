@@ -78,6 +78,6 @@ Steel Bars 2
 
 [Steel Refinery III](/steel-refinery)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Steel bars are used to craft advanced weapons and gear, we can refine them from raw iron ore.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Steel bars are used to craft advanced weapons and gear, we can refine them from raw iron ore.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Steel Bars** is [Industry Tech](/industry-tech) which unlocks the ability for the player to construct and use a Steel Refinery.

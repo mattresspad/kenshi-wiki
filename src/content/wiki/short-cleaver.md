@@ -7,16 +7,33 @@ source:
 categories: ["Weapons","Hacker"]
 infobox:
   title: "Short-Cleaver"
+  image: "/icons/items/65260-rebirth.mod.png"
+  caption: "A lightweight version of the combat cleaver that can be worn on the hip."
   groups:
     - heading: null
       rows:
-        - ["Class","[Hacker class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/hackers\">Hacker</a>"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 250"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.70x"]
+        - ["Blunt damage","0.70x"]
+        - ["Bleed","1.00x"]
         - ["Armour penetration","+10%"]
-        - ["Damage vs robots","+20%"]
-        - ["Damage vs animals","-10%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Reach","17"]
-        - ["Description","A lightweight version of the combat cleaver that can be worn on the hip."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+        - ["Robots","+20%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>65260-rebirth.mod</span>"]
 ---
 
@@ -27,6 +44,10 @@ infobox:
 This weapon has inventory dimensions of **1x7**. It can be equipped in both the primary and secondary weapon slots.
 
 [Meitou](/meitou)\-quality weapon can be found on [Head of Agriculture](/head-of-agriculture) in [Ashland Dome I](/ashland-dome-i).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>6</td><td>6</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>6</td><td>6</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Short-Cleaver blueprint: 12 hours at tech level 3; the blueprint is worth c. 5,000.</li></ul></div>
 
 ## Blueprint Locations
 

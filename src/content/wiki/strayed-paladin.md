@@ -27,7 +27,7 @@ infobox:
         - ["String ID","1532973-__world reactions.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You! Enemy of the Light! Darkness be purged!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–A Strayed Paladin attacking.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You! Enemy of the Light! Darkness be purged!</blockquote><figcaption>A Strayed Paladin attacking.</figcaption></figure>
 
 **Strayed Paladins** are members of [The Holy Nation](/the-holy-nation). They only exist if [Phoenix](/holy-lord-phoenix), [Seta](/high-inquisitor-seta), and [Valtena](/high-inquisitor-valtena) are all either [killed or imprisoned](/world-states).
 

@@ -23,7 +23,7 @@ infobox:
         - ["Footwear","<a href=\"/plated-longboots\">Plated Longboots</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This, is The Lord incarnate. You will not approach without summon, my brother.<p>Step away from the Holy Lord Phoenix Himself, blessed be his name.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–The Protector, upon approach of a human male.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This, is The Lord incarnate. You will not approach without summon, my brother.<p>Step away from the Holy Lord Phoenix Himself, blessed be his name.</p></blockquote><figcaption>The Protector, upon approach of a human male.</figcaption></figure>
 
 The **Protector of the Flame** is an elite Paladin of [The Holy Nation](/the-holy-nation) tasked with protecting the [Holy Lord Phoenix](/holy-lord-phoenix) in his throne room at [Blister Hill](/blister-hill). He can be differentiated from the Phoenix's [High Paladin](/high-paladin) entourage by his buffer look caused by his high stats.
 

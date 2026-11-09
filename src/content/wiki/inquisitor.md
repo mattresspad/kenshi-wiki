@@ -24,7 +24,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>What need is there for payment, when one has the wholesome duty of carrying out Okran's Will?... This greed is to be expected of outsiders though, you have served Okran well today so I will compensate you for your expenses nonetheless. I suggest you reflect on the Scripture of Radiance Volume V, brother. Money, material goods, rewards... these earthly desires are nothing more than destructive, they will deceive you of your holy path. Do not lose your way.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–-Inquisitor lecture.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>What need is there for payment, when one has the wholesome duty of carrying out Okran's Will?... This greed is to be expected of outsiders though, you have served Okran well today so I will compensate you for your expenses nonetheless. I suggest you reflect on the Scripture of Radiance Volume V, brother. Money, material goods, rewards... these earthly desires are nothing more than destructive, they will deceive you of your holy path. Do not lose your way.</blockquote><figcaption>-Inquisitor lecture.</figcaption></figure>
 
 **Inquisitors** are elite law enforcers and commanding generals of the [Holy Nation](/holy-nation). They run the Holy Nation's [Inquisitoriums](/police-station).
 

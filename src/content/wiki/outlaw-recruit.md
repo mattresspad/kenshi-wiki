@@ -23,7 +23,7 @@ infobox:
         - ["String ID","15257-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm a trader... Wife left me 3 months ago. Left me for the bloody hat merchant across the road. Fed up of seein' their ugly faces everyday to be honest, I just wanna get out of here and do something badass, have an adventure and say 'screw you, wife! I'm livin' the high life now!'....</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Male, Honorable <a href="/personality">Personality</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm a trader... Wife left me 3 months ago. Left me for the bloody hat merchant across the road. Fed up of seein' their ugly faces everyday to be honest, I just wanna get out of here and do something badass, have an adventure and say 'screw you, wife! I'm livin' the high life now!'....</blockquote><figcaption>Male, Honorable <a href="/personality">Personality</a></figcaption></figure>
 
 The **Outlaw Recruit** is a randomly named [Generic Recruit](/generic-recruits) available in bars in [Shark](/shark), [Black Scratch](/black-scratch), [Flats Lagoon](/flats-lagoon), [Smugglers Bar](/smugglers-bar), [Waystations](/waystation), [World's End](/worlds-end), [The Hub](/the-hub). [Mourn](/mourn), [Deadcat Bars](/deadcat-bar), [Empire Peasants](/empire-peasants) bars, [Crab Town](/crab-town), and, depending on [World States](/world-states), also in [Blister Hill](/blister-hill), [Heft](/heft), [Heng](/heng) and [Stoat](/stoat). They have a random [Personality](/personality) and after recruited will have the 'Player THUG' Dialogue Package.
 

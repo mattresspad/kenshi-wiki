@@ -18,7 +18,7 @@ infobox:
         - ["String ID","56640-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You'll never make it alone, I tell ya, I've seen some ugly sights around here. We can handle anything though, you're safe with us. Do the right thing and hire yourself some mercs...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Black Dog Bodyguard</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You'll never make it alone, I tell ya, I've seen some ugly sights around here. We can handle anything though, you're safe with us. Do the right thing and hire yourself some mercs...</blockquote><figcaption>Black Dog Bodyguard</figcaption></figure>
 
 **Black Dog Bodyguards** are members of the [Black Dog](/black-dog) faction. They spawn with randomized names and can have either Traitorous, Brave, or Crazy [Personalities](/personality).
 

@@ -20,7 +20,7 @@ infobox:
         - ["String ID","55590-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'll join you. But only because I'm weak and give in easily to peer pressure... *Sigh*</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Sadneil</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I'll join you. But only because I'm weak and give in easily to peer pressure... *Sigh*</blockquote><figcaption>Sadneil</figcaption></figure>
 
 **Sadneil** is a [Skeleton](/skeleton) [Unique Recruit](/unique-recruits). They are an exceptionally depressed skeleton who will join you for free after you annoy them a bit. Sadneil can be found in the [Skeleton Bar](/skeleton-bar) in [Black Desert City](/black-desert-city). If you can't find them, be sure to check upstairs as well.
 

@@ -15,7 +15,7 @@ infobox:
         - ["Factions","<a href=\"/spiders\">Spiders</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It's where the notorious Bugmaster dwells... Some say he's an insect god, other's say he's the sole living survivor from the ancient race...<p>Some say he holds the most prized treasure in all the lands, protected by his personal insect horde...</p><p>Only one thing's for certain though... He ain't welcoming to guests.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/human">Human</a> and <a href="/hive-prince">Hive Prince</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>It's where the notorious Bugmaster dwells... Some say he's an insect god, other's say he's the sole living survivor from the ancient race...<p>Some say he holds the most prized treasure in all the lands, protected by his personal insect horde...</p><p>Only one thing's for certain though... He ain't welcoming to guests.</p></blockquote><figcaption><a href="/human">Human</a> and <a href="/hive-prince">Hive Prince</a> Player Characters</figcaption></figure>
 
 The **Throne of the Bugmaster** is the base of the notorious [Bugmaster](/bugmaster). His base is located in the middle of the crater of [Arach](/arach).
 

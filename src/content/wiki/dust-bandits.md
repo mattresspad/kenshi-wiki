@@ -1,6 +1,6 @@
 ---
 title: "Dust Bandits"
-description: "–Dust Boss, announcing the first base invasion"
+description: "Dust Bandits are a hostile faction found around the Border Zone. Dust Bandits are better trained and equipped than some other bandit groups, like Starving Ba…"
 source:
   title: "Dust Bandits"
   revision: 93082
@@ -15,7 +15,7 @@ infobox:
         - ["Hostile towards","Everyone"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Chumps! Come out and talk to your friendly neighbourhood bandits! We just want to be friends! BEST of friends! Yay!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/dust-boss">Dust Boss</a>, announcing the first <a href="/base-assault">base invasion</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Chumps! Come out and talk to your friendly neighbourhood bandits! We just want to be friends! BEST of friends! Yay!</blockquote><figcaption><a href="/dust-boss">Dust Boss</a>, announcing the first <a href="/base-assault">base invasion</a></figcaption></figure>
 
 **Dust Bandits** are a hostile faction found around the [Border Zone](/border-zone). Dust Bandits are better trained and equipped than some other bandit groups, like [Starving Bandits](/starving-bandits). Members of this faction wear a distinctive uniform of a makeshift style. [Spiked Helmets](/spiked-helmet), [Heart Protectors](/heart-protector), [Armoured Rag Skirts](/armoured-rag-skirt) and [Samurai Boots](/samurai-boots) appear to be common for all of them. They often engage in extortionist tactics, attempting to get their victims to pay tribute to them to prevent attacks from their raiding parties.
 

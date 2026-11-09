@@ -15,7 +15,7 @@ infobox:
         - ["Type","Roaming"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>They leave you alone if you just stand still for a while.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–in-game dialogue</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>They leave you alone if you just stand still for a while.</blockquote><figcaption>in-game dialogue</figcaption></figure>
 
 **Garru** are extremely common wild [herbivorous](/herbivore) [animals](/fauna). They are somewhat comically shaped, with floppy ears, a hollow tail, a camel-like hump, wrinkly skin, and a prominent underbite. Garru often travel in herds with their young, and can be seen roaming over deserts, mountains, and wastes all over the continent. Garru are often tamed as [Pack Beasts](/pack-beast) by the [Traders Guild](/traders-guild) and [Western Hive](/western-hive).
 

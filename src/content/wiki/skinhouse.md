@@ -1,6 +1,6 @@
 ---
 title: "Skinhouse"
-description: "–Skin Bandit, if a Skeleton Player Character triggers dialogue"
+description: "Skinhouse is a location controlled by the Skin Bandits. These locations include Peeler Machines."
 source:
   title: "Skinhouse"
   revision: 93750
@@ -15,7 +15,7 @@ infobox:
         - ["Factions","<a href=\"/skin-bandits\">Skin Bandits</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A skeleton, I see... If you want to join us, the doctor can cure you of your skinless ways. You'll need to speak to Savant. Savant is the greatest master of science in all the land, he has shown us the way, the truth of the evil skeleton and how we can undergo the skinning transformation in human's purest form.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Skin Bandit, if a <a href="/skeleton">Skeleton</a> Player Character triggers dialogue</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A skeleton, I see... If you want to join us, the doctor can cure you of your skinless ways. You'll need to speak to Savant. Savant is the greatest master of science in all the land, he has shown us the way, the truth of the evil skeleton and how we can undergo the skinning transformation in human's purest form.</blockquote><figcaption>Skin Bandit, if a <a href="/skeleton">Skeleton</a> Player Character triggers dialogue</figcaption></figure>
 
 **Skinhouse** is a location controlled by the [Skin Bandits](/skin-bandits). These locations include [Peeler Machines](/peeler-machine).
 

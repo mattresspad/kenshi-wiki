@@ -21,7 +21,7 @@ infobox:
         - ["Inventory","<a href=\"/advanced-first-aid-kit\">Advanced First Aid Kit</a>, <a href=\"/luxury-goods\">Luxury Goods</a>, <a href=\"/hashish\">Hashish</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Ugh! Rotten peasant! Shoo!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Ugh! Rotten peasant! Shoo!</blockquote></figure>
 
 **Slave Market Master** is a noble member of the [Traders Guild](/traders-guild). He can be found at [Slave Markets](/slave-markets) in [South Wetlands](/south-wetlands).
 

@@ -7,12 +7,18 @@ source:
 categories: ["Pages with non-numeric formatnum arguments","Books"]
 infobox:
   title: "King Shager's Reign"
+  image: "/icons/items/48293-Dialogue.mod.png"
+  caption: "An anonymous account of the battle against the Okranites during King Shager's reign: \r\r\n\r\r\n\"The Holy Nation dogs prodded a sleeping leviathyn when they attacked the first Shek. So the Shek bit back and the body count rose. \r\r\n\r\r\nYou can be held down by your enemy, or you can stand and fight until your last breath, bring blood and doom to their very door, even when impossible odds are faced. Under Shager's rule, the vengeful Shek fought fiercely to the death, but they were far outnumbered and their armies withered with no victory in sight.\""
   groups:
     - heading: null
       rows:
-        - ["Size","2x2"]
-        - ["Avg. Price","c.Missing data"]
-        - ["Description","An anonymous account of the battle against the Okranites during King Shager's reign: <p><br></p><p>\"The Holy Nation dogs prodded a sleeping leviathyn when they attacked the first Shek. So the Shek bit back and the body count rose. </p><p><br></p><p>You can be held down by your enemy, or you can stand and fight until your last breath, bring blood and doom to their very door, even when impossible odds are faced. Under Shager's rule, the vengeful Shek fought fiercely to the death, but they were far outnumbered and their armies withered with no victory in sight.\"</p>"]
+        - ["Type","Book or letter"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>48293-Dialogue.mod</span>"]
 ---
 
 **King Shager's Reign** is a [book](/lore-books) [item](/items) related to the [Shek Kingdom](/shek-kingdom). This item is 'unique' to Shek HQ in [Admag](/admag), as well as a few Shek HQ overrides. However, it can also be found without the 'unique' label in a couple locations.

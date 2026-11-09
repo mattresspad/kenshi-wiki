@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Map of the Ashlands"
+  image: "/icons/items/1533730-rebirth.mod.png"
+  caption: "An actual map of a known location in the fabled Ashlands.  This could be worth a fortune."
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.10,000"]
-        - ["Sell value","c.5,000"]
-        - ["Description","An actual map of a known location in the fabled Ashlands.  This could be worth a fortune."]
+        - ["Base value","c. 10,000"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>1533730-rebirth.mod</span>"]
 ---
 

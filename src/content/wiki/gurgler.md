@@ -16,7 +16,7 @@ infobox:
         - ["String ID","55636-Newwworld.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>GURGLEGURGLE</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Gurgler</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>GURGLEGURGLE</blockquote><figcaption>Gurgler</figcaption></figure>
 
 **Gurglers** are the most common of the [Fishmen](/fishmen). They can be found roaming in large packs on [Fishman Island](/fishman-island) which is located south of the [Bonefields](/bonefields).
 

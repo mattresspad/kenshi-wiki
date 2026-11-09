@@ -18,7 +18,7 @@ infobox:
         - ["String ID","48667-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Most of the settlers in this city are refugees of cruelty in one form or another. Enslavement or exile, mostly... Yet the majority of them use their freedom to victimise other victims. And so cruelty breeds cruelty, an infinite cycle. A disquieting glimpse into human behaviour.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Most of the settlers in this city are refugees of cruelty in one form or another. Enslavement or exile, mostly... Yet the majority of them use their freedom to victimise other victims. And so cruelty breeds cruelty, an infinite cycle. A disquieting glimpse into human behaviour.</blockquote></figure>
 
 **Disheartened Skeleton** is a randomly named [Unique Recruit](/unique-recruits). They are a mercenary. They can be hired for c.6,000.
 

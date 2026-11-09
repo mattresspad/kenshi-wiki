@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Engineers Map"
+  image: "/icons/items/1532843-rebirth.mod.png"
+  caption: "This is an ancient document by an engineer of the old empire, it details potential sites where you could find Engineering Research."
   groups:
     - heading: null
       rows:
         - ["Weight","0.2 kg"]
-        - ["Value","c.1000"]
-        - ["Sell value","c.500"]
-        - ["Description","This is an ancient document by an engineer of the old empire, it details potential sites where you could find Engineering Research."]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>1532843-rebirth.mod</span>"]
 ---
 

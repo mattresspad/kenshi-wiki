@@ -23,7 +23,7 @@ infobox:
         - ["String ID","98554-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm fed up with politics! Had enough, see?!<p>Just a bunch of idiots lyin' to each other! No more of it fer me!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–No-Face</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm fed up with politics! Had enough, see?!<p>Just a bunch of idiots lyin' to each other! No more of it fer me!</p></blockquote><figcaption>No-Face</figcaption></figure>
 
 **No-Face** is the only human character of the [Gutters](/gutters) faction. He can be found at [Strange Camp](/strange-camp) located on an island in [Gut](/gut).
 

@@ -19,7 +19,7 @@ infobox:
 
 56158-rebirth.mod
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Finally gave up on life outside, did you? I don't blame you. Days are dull here but it beats trying to reason with the humans... and our disgruntled ones. Let them fix their own mess.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/skeleton-barman">Skeleton Barman</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Finally gave up on life outside, did you? I don't blame you. Days are dull here but it beats trying to reason with the humans... and our disgruntled ones. Let them fix their own mess.</blockquote><figcaption><a href="/skeleton-barman">Skeleton Barman</a></figcaption></figure>
 
 **Skeleton Bar** is the [bar](/bar) specifically found in [Black Desert City](/black-desert-city). Unlike most bars this vendor doesn't sell foodstuffs. [Sadneil](/sadneil) can be found loitering here. This bar is also the sneaky hideout of the outlaw [Razor](/razor).
 

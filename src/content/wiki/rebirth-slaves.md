@@ -7,7 +7,7 @@ source:
 categories: ["Factions"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Toil hard for Okran's mercy, serve Okran's cause, repent for your wicked ways</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-sentinel">Holy Sentinel</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Toil hard for Okran's mercy, serve Okran's cause, repent for your wicked ways</blockquote><figcaption><a href="/holy-sentinel">Holy Sentinel</a></figcaption></figure>
 
 **Rebirth Slaves** is a faction label for slaves from [Rebirth](/rebirth), which is distinct from the similar [Lower Servants](/lower-servant) in [Holy Mines](/holy-mines). These Slaves are comprised of members from every race except [Skeletons](/skeleton), which are deemed without a soul and therefore incapable of rebirth in the eyes of [The Holy Nation](/the-holy-nation).
 

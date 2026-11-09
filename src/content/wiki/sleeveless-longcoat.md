@@ -5,11 +5,37 @@ source:
   title: "Sleeveless Longcoat"
   revision: 95089
 categories: ["Armour","Body Armour","Light Armour"]
+infobox:
+  title: "Sleeveless Longcoat"
+  image: "/icons/items/684-gamedata.base.png"
+  caption: "A regular longcoat with the sleeves removed to provide better cooling for the wearer.  Commonly worn amongst the gangs of the swamps."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 700"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","60% covered"]
+        - ["Left Leg","60% covered"]
+        - ["Stomach","100% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","40%"]
+        - ["Damage output","1.05x"]
+        - ["Dodge","1.10x"]
+        - ["Martial arts","+4"]
+        - ["Weather protection","60%"]
+    - heading: null
+      rows:
+        - ["String id","<span>684-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Awesome leather coat, offers a light protection from attacks.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 **Sleeveless Longcoat** is Light Armour that is equipped in the body armour slot. It is sold in Mongrel, Shek, Tech Hunter and Swamp armour shops. A [version](/longcoat) of this armour with sleeves also exists.
 
 It is the armour of choice of [Hounds](/hound), [Anti-Slaver](/anti-slaver) and [Human Mercenaries](/human-mercenary). It is also randomly worn by [Anti-Slaver Jonins](/anti-slaver-jonin), [Drifters](/drifter), [Holy Nation Robots](/holy-nation-robot), [Skeleton Drifters](/skeleton-drifter), [Tech Hunters](/tech-hunter), [Tech Hunter Gate Guards](/tech-hunter-gate-guard), [Tech Hunter Guards](/tech-hunter-guard), and [Tech Hunter Ruins](/tech-hunter-ruins).
@@ -22,19 +48,13 @@ Sleeveless Longcoat is a leather trench coat made from a light brown material si
 
 ## Stats
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Sleeveless Longcoat</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>1%</td></tr><tr><td>-Cut resistance</td><td>2%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>1.75pts</td></tr><tr><td>-Weight</td><td>4.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Value</td><td>c.164</td></tr><tr><td>-Sell value</td><td>c.41</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>1.10x</td></tr><tr><td>-Attack damage effect</td><td>1.05x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Sleeveless Longcoat</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>5%</td></tr><tr><td>-Cut resistance</td><td>8%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>6pts</td></tr><tr><td>-Weight</td><td>4.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Value</td><td>c.834</td></tr><tr><td>-Sell value</td><td>c.208</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>1.10x</td></tr><tr><td>-Attack damage effect</td><td>1.05x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Sleeveless Longcoat</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>11%</td></tr><tr><td>-Cut resistance</td><td>17%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>13pts</td></tr><tr><td>-Weight</td><td>4.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Value</td><td>c.2,980</td></tr><tr><td>-Sell value</td><td>c.745</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>1.10x</td></tr><tr><td>-Attack damage effect</td><td>1.05x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Sleeveless Longcoat</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>16%</td></tr><tr><td>-Cut resistance</td><td>26%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>20pts</td></tr><tr><td>-Weight</td><td>4.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Value</td><td>c.6,556</td></tr><tr><td>-Sell value</td><td>c.1,639</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>1.10x</td></tr><tr><td>-Attack damage effect</td><td>1.05x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Sleeveless Longcoat</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>22%</td></tr><tr><td>-Cut resistance</td><td>35%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>27pts</td></tr><tr><td>-Weight</td><td>4.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Value</td><td>c.11,562</td></tr><tr><td>-Sell value</td><td>c.2,890</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>1.10x</td></tr><tr><td>-Attack damage effect</td><td>1.05x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Sleeveless Longcoat</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>26%</td></tr><tr><td>-Cut resistance</td><td>41%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>33.25pts</td></tr><tr><td>-Weight</td><td>4.625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Acid</td><td>60%</td></tr><tr><td>-Value</td><td>c.16,256</td></tr><tr><td>-Sell value</td><td>c.4,064</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>100%</td></tr><tr><td>-Right Leg</td><td>60%</td></tr><tr><td>-Left Leg</td><td>60%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>1.10x</td></tr><tr><td>-Attack damage effect</td><td>1.05x</td></tr><tr><td>-Martial arts bonus</td><td>+4</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1%</td><td>5%</td><td>11%</td><td>16%</td><td>22%</td><td>26%</td></tr><tr><th scope="row">Cut resistance</th><td>2%</td><td>8%</td><td>17%</td><td>26%</td><td>35%</td><td>41%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">60%</td></tr><tr><th scope="row">Harpoon resistance</th><td>1.75pts</td><td>6pts</td><td>13pts</td><td>20pts</td><td>27pts</td><td>33.25pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">4.625 kg</td></tr><tr><th scope="row">Value</th><td>c.164</td><td>c.834</td><td>c.2,980</td><td>c.6,556</td><td>c.11,562</td><td>c.16,256</td></tr><tr><th scope="row">Sell value</th><td>c.41</td><td>c.208</td><td>c.745</td><td>c.1,639</td><td>c.2,890</td><td>c.4,064</td></tr><tr><th colspan="7">Weather Protections</th></tr><tr><th scope="row">Acid</th><td colspan="6">60%</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">100%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">100%</td></tr><tr><th scope="row">Right Leg</th><td colspan="6">60%</td></tr><tr><th scope="row">Left Leg</th><td colspan="6">60%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Dodge skill effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Attack damage effect</th><td colspan="6">1.05x</td></tr><tr><th scope="row">Martial arts bonus</th><td colspan="6">+4</td></tr></tbody></table>
 
   
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.74</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>3.7</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Sleeveless Longcoat blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,450.</li></ul></div>
 
 ## Blueprints
 

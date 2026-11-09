@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/fog-islands\">Fog Islands</a>, <a href=\"/dreg\">Dreg</a>, <a href=\"/vain\">Vain</a>, <a href=\"/border-zone\">Border Zone</a>, <a href=\"/okrans-pride\">Okran's Pride</a>, <a href=\"/rebirth-zone\">Rebirth</a>, <a href=\"/floodlands\">Floodlands</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Venturing on a pilgrimage, brother? Well, it's best to stick to holy territory, the outer lands are infested with Narko's heretics that will try to decieve and tempt you into the darkness with them...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/high-paladin">High Paladin</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Venturing on a pilgrimage, brother? Well, it's best to stick to holy territory, the outer lands are infested with Narko's heretics that will try to decieve and tempt you into the darkness with them...</blockquote><figcaption><a href="/high-paladin">High Paladin</a></figcaption></figure>
 
 **Okran's Gulf** is a zone which comprises the western edge of [The Holy Nation](/the-holy-nation)'s Territory. It is likely given its name "Gulf" for bordering the alien-like [Fog Islands](/fog-islands), and like many other territories which the HN controls, it is named after their deity [Okran](/okran).
 

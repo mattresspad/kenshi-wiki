@@ -7,15 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Meatwrap"
+  image: "/icons/items/43960-rebirth.mod.png"
+  caption: "Meat in some bread. It's great."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","50 nu"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Sell Value","<span>c.</span>c.329"]
-        - ["Avg. Price","c.658"]
-        - ["Description","Meat in some bread. It's Great."]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x3"]
+        - ["Nutrition","50 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>43960-rebirth.mod</span>"]
 ---
 
 **Meatwrap** is a [food](/food) item. It can be purchased from relevant [traders](/traders), typically in [Bars](/bars). Players can cook Meatwraps on a [Cooking Stove](/cooking-stove) after researching [Advanced Cooking](/advanced-cooking-tech).
@@ -29,3 +33,7 @@ It is absolutely outshined by almost any other type of food but can be made if n
   
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/bread">Bread</a></th><td>1</td></tr><tr><th scope="row"><a href="/raw-meat">Raw Meat</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/advanced-cooking-tech">Advanced Cooking</a> research: 4 hours at tech level 2; costs <a href="/book">2 Books</a>.</li></ul></div>

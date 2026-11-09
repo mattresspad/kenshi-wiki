@@ -7,15 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Hashish"
+  image: "/icons/items/1230-gamedata.base.png"
+  caption: "A narcotic product that can ruin your life by getting you arrested.  Effects include foolish giggling, increased sense of humor, and enjoyment of food. Narcotics are illegal in most towns and will get you busted if you are caught smuggling, however the potential profits are huge.  The traders guild won't touch them.  Despite all of this however, the drug remains popular, especially in borderland towns where the laws are less aggressively enforced."
   groups:
     - heading: null
       rows:
+        - ["Type","Drug or drink"]
         - ["Weight","1 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Value","<span>c.</span>150"]
-        - ["Avg. Price","c.144"]
-        - ["Price Mark-up","104%"]
-        - ["Description","A narcotic product that can ruin your life by getting you arrested.  Effects include foolish giggling, increased sense of humor, and enjoyment of food. Narcotics are illegal in most towns and will get you busted if you are caught smuggling, however the potential profits are huge.  The traders guild won't touch them.  Despite all of this however, the drug remains popular, especially in borderland towns where the laws are less aggressively enforced."]
+        - ["Base value","c. 800"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>1230-gamedata.base</span>"]
 ---
 
 **Hashish** (also known as **Hash**) is a [trade good](/trade-goods) and a generally illegal drug made from [Hemp](/hemp). Hashish is illegal in most places throughout the world, leading to a hugely profitable markup outside of where its produced, but comparatively very few buyers available.
@@ -44,6 +47,10 @@ Hashish can be purchased in [Hive Villages](/hive-village) and in [The Swamp](/t
 -   Flats Lagoon is near The Swamp and will buy Hashish for a sizable markup. Stocking Skeleton Repair Kit is a easy way to increase the merchants money, and can be resold without much loss, if any.
 -   Hashish can NOT be sold to a Thief fence in bars, only the Shinobi Trader in Shinobi towers will purchase it.
 -   Hashish can be sold in Shop Counters however they will only sell for the Avg. Price instead of the Mark-up price.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/hemp-processor">Hemp Processor</a></th></tr><tr><th scope="row"><a href="/water">Water</a></th><td>1</td></tr><tr><th scope="row"><a href="/hemp">Hemp</a></th><td>5</td></tr></tbody></table></div>
 
 ## Trivia
 

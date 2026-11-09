@@ -108,7 +108,7 @@ Battery Power 4
 
 +10 Power to [Battery Bank](/battery-bank)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>A potential 10kw increase to battery output power</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>A potential 10kw increase to battery output power</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Battery Power** is [Electrics Tech](/electrics-tech) which allows the player to upgrade their [Battery Bank](/battery-bank) buildings. This research does not require the buildings to be rebuilt and will be implemented instantaneously.
 

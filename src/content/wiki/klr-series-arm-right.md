@@ -6,22 +6,30 @@ source:
   revision: 77232
 categories: ["Robot Limbs"]
 infobox:
-  title: "Durable Arms"
+  title: "KLR Series Arm (right)"
+  image: "/icons/items/96187-Newwworld.mod.png"
+  caption: "The KLR series was legendary for it's simple durability. Designed for the original service bots working alone in remote hostile environments, fancy features and luxuries were ditched in favor of simplicity."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Estimated Time","12 hours"]
-        - ["Tech Level","6"]
-        - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
-        - ["Requirements","<a href=\"/skeleton-arms-tech\"> Skeleton Arms</a>"]
-    - heading: "Results"
+        - ["Slot","<a href=\"/robot-limbs\">Right arm</a>"]
+        - ["Weight","12 kg"]
+        - ["Base value","c. 5,000 → c. 35,000"]
+        - ["Size in inventory","6x2"]
+    - heading: "Stats (range across grades)"
       rows:
-        - ["New Item(s)","<a href=\"/klr-series-arm-left\">KLR Series Arm (left)</a><p>KLR Series Arm (right)</p>"]
+        - ["HP","100 → 250"]
+        - ["Strength","0.75x → 1.10x"]
+        - ["Dexterity","0.75x → 1.10x"]
+        - ["Swimming","0.75x"]
+        - ["Thievery","0.20x → 0.95x"]
+        - ["Ranged","0.75x → 1.00x"]
+        - ["Unarmed damage","0 → +5"]
+    - heading: null
+      rows:
+        - ["String id","<span>96187-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">The KLR series was legendary for it's simple durability. Designed for the original service bots working alone in remote hostile environments, fancy features and luxuries were ditched in favor of simplicity. Many were used on the frontlines of the war, so few can be found today.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 **KLR Series Arm (right)** is a [Robot Limb](/robot-limbs), and a replacement for a lost right arm.
 
 ## Stats 
@@ -44,4 +52,4 @@ infobox:
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>KLR Series Arm (right)</span></strong><div></div></td></tr><tr><td><a href="/electrical-components"><span>Electrical Components</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/durable-arms-tech">Durable Arms</a> research: 12 hours at tech level 6; costs <a href="/ai-core">2 AI Cores</a>; needs <a href="/skeleton-arms-tech">Skeleton Arms</a>.</li></ul></div>

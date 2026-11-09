@@ -7,15 +7,30 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Topper"
+  image: "/icons/items/474-gamedata.base.png"
+  caption: "A hybrid between katana and sabre, it has a top-heavy balance that feels odd to a katana user, hence the name.  It's fast and has a similar reach to a Nodachi.\n\nA mostly forgotten weapon in modern times, it was once popular among mercenaries of the old empire."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","1x9"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.10x"]
+        - ["Blunt damage","0.10x"]
+        - ["Bleed","1.00x"]
         - ["Armour penetration","-15%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","-4"]
         - ["Reach","25"]
-        - ["Description","A hybrid between katana and sabre, it has a top-heavy balance that feels odd to a katana user, hence the name.  It's fast and has a similar reach to a Nodachi.<br><br>A mostly forgotten weapon in modern times, it was once popular among mercenaries of the old empire."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>474-gamedata.base</span>"]
 ---
 
@@ -24,6 +39,10 @@ A **Topper** is a [Katana Class](/katanas) weapon that is aimed to inflict more 
 You can find the [Meitou](/meitou) model of this weapon on [Rhinobot](/rhinobot) in [Ashland Dome II](/ashland-dome-ii).
 
 This weapon has inventory dimensions of **1x9**, meaning it can only be equipped as a primary weapon.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>8</td><td>8</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>8</td><td>8</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Toppers blueprint: 6 hours at tech level 2; the blueprint is worth c. 6,000.</li></ul></div>
 
 ## Blueprints
 

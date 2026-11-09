@@ -7,15 +7,29 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Foreign Sabre"
+  image: "/icons/items/52304-rebirth.mod.png"
+  caption: "A pretty exotic weapon, thought to have originated from the Black Desert.  Not very popular for some reason and people will probably laugh at you in bars, but is actually a defensive masterpiece and shouldn't be underestimated."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.20x"]
+        - ["Blunt damage","0.15x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
         - ["Attack","-4"]
         - ["Defence","+8"]
         - ["Reach","20"]
-        - ["Description","A pretty exotic weapon, thought to have originated from the Black Desert.  Not very popular for some reason and people will probably laugh at you in bars, but is actually a defensive masterpiece and shouldn't be underestimated."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52304-rebirth.mod</span>"]
 ---
 
@@ -29,15 +43,7 @@ Foreign Sabre is one of the best options for [Money Making](/money-making-strate
 
 ## Crafting
 
-This item can be crafted in various qualities using different levels of [Weapon Smithing Bench](/weapon-smithing-bench) after learning the appropriate [blueprint](/blueprints).
-
-<details class="collapsible"><summary>Weapon Smith I</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(6 required)</span></p></td><td><strong><span>Foreign Sabre</span></strong><div></div></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith II</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(6 required)</span></p></td><td><strong><span>Foreign Sabre</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(6 required)</span></p></td></tr></tbody></table></details>
-
-<details class="collapsible"><summary>Weapon Smith III</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(6 required)</span></p></td><td><strong><span>Foreign Sabre</span></strong><div></div></td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(6 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>6</td><td>6</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>6</td><td>6</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Foreign Sabres blueprint: 4 hours at tech level 2; the blueprint is worth c. 14,000.</li></ul></div>
 
 ## Blueprints
 

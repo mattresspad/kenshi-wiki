@@ -15,7 +15,7 @@ infobox:
         - ["Hostile towards","<a href=\"/red-sabres\">Red Sabres</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>And take only what you need. No more junky trinkets clogging our chest!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Swamp Ninja Genin</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>And take only what you need. No more junky trinkets clogging our chest!</blockquote><figcaption>Swamp Ninja Genin</figcaption></figure>
 
 The **Swamp Ninjas** are a bandit faction from [The Swamp](/the-swamp). They are the rivals of the [Red Sabres](/red-sabres) and can often be found fighting them. Nothing much is known about their history.
 

@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Generator Core"
+  image: "/icons/items/42189-rebirth.mod.png"
+  caption: "The vital core of any electricity-generating machine.  Weighs a ton."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","20 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Avg. Price","c.2,755"]
-        - ["Description","The vital core of any electricity-generating machine.  Weighs a ton."]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>42189-rebirth.mod</span>"]
 ---
 
 **Generator Core** is an [item](/items) which has no designated function. It is the heaviest stackable (In a backpack) object, making it useful for [strength](/strength) training. Aside from that, its only use is trading.

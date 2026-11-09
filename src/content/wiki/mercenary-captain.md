@@ -23,7 +23,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a> x2"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Need a merc?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Merc shop</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Need a merc?</blockquote><figcaption>Merc shop</figcaption></figure>
 
 **Mercenary Captains** are commanders within the [Mercenary Guild](/mercenary-guild). They can be found inside the bars in towns and waystations or wandering from town to town.
 
@@ -92,10 +92,10 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Need a merc?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Merc shop</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Need a merc?</blockquote><figcaption>Merc shop</figcaption></figure>
 
 **Mercenary Captains** are the representatives of their mercenary squad. Speaking to them allows you to hire them and whoever is following them as bodyguards (c.2,000 per day, max 2 days) or outpost protectors (c.1,000 per day, max 8 days).
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Job's finished, time to go.<p>Uhhh... guess you're not conscious... heh.</p><p>...can't just leave you in the dirt...</p><p>Fine, I'll guard you a little longer...</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Mercenary Captain guarding downed client</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Job's finished, time to go.<p>Uhhh... guess you're not conscious... heh.</p><p>...can't just leave you in the dirt...</p><p>Fine, I'll guard you a little longer...</p></blockquote><figcaption>Mercenary Captain guarding downed client</figcaption></figure>
 
 **Mercenary Captains**, depending on [Personality](/personality), may continue bodyguarding the lone (one person in squad) player for an additional 6 hours if the player is down when the contract expires. Honorable and Dumb personalities will always do this regardless of squad size, but Traitorous personalities never will.

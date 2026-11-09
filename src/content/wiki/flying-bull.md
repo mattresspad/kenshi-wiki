@@ -21,7 +21,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You tread on Shek soil, <a href="/flatskins">flatskin</a>! Is it war that you're after?! Come to me!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You tread on Shek soil, <a href="/flatskins">flatskin</a>! Is it war that you're after?! Come to me!</blockquote></figure>
 
 **Flying Bull** (also named Ida) is a huge [Shek](/shek) warrior and the leader of [Kral's Chosen](/krals-chosen). He resides in [New Kralia](/new-kralia), carrying around a unique [Fragment Axe](/fragment-axe) named [Bull Horn Axe](/bull-horn-axe) gifted by [King Shager](/king-shagers-reign).
 

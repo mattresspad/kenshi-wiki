@@ -21,7 +21,7 @@ infobox:
         - ["String ID","55934-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Hungry hiveless looking for a new master. My fee is only 2000 Cats.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Not Brave Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Hungry hiveless looking for a new master. My fee is only 2000 Cats.</blockquote><figcaption>Not Brave Personality</figcaption></figure>
 
 **Hiveless Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a hiver. They can be hired for c.2,000 or c.3,000 if they're Brave.
 

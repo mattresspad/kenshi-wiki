@@ -7,12 +7,18 @@ source:
 categories: ["Pages with non-numeric formatnum arguments","Books"]
 infobox:
   title: "Way Of The Warrior: The Book Of Kral"
+  image: "/icons/items/48292-Dialogue.mod.png"
+  caption: "A threadbare old doctrine on the philosophy of warrior culture, dictated by Kral himself: \n\n\"The lifespan of this ancient world is so vast that our small lives are similar to a drop in an ocean. \nShortening a life so small is nothing to be feared... death is nothing, but glory is everlasting.\n\nFight for your kin and never back down, for a warrior is useless, a life wasted, if one does not rise up and stand with teeth gritted during trying times. \n\nOur beliefs are meaningless if we do not have the spine to fight for them.\""
   groups:
     - heading: null
       rows:
-        - ["Size","2x2"]
-        - ["Avg. Price","c.Missing data"]
-        - ["Description","A threadbare old doctrine on the philosophy of warrior culture, dictated by Kral himself: <p>\"The lifespan of this ancient world is so vast that our small lives are similar to a drop in an ocean. Shortening a life so small is nothing to be feared... death is nothing, but glory is everlasting.</p><p>Fight for your kin and never back down, for a warrior is useless, a life wasted, if one does not rise up and stand with teeth gritted during trying times. </p><p>Our beliefs are meaningless if we do not have the spine to fight for them.\"</p>"]
+        - ["Type","Book or letter"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>48292-Dialogue.mod</span>"]
 ---
 
 **Way Of The Warrior: The Book Of Kral** is a [book](/lore-books) [item](/items) related to the [Shek Kingdom](/shek-kingdom). This item is 'unique' to Shek HQ in [Admag](/admag), as well as a few Shek HQ overrides. However, it can also be found without the 'unique' label in a couple locations.

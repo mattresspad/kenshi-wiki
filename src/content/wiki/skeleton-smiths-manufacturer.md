@@ -7,7 +7,7 @@ source:
 categories: ["Manufacturers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Skeletons from the Black Desert City produce blades solely for personal use, however it's inevitable that some eventually end up in circulation.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Skeletons from the Black Desert City produce blades solely for personal use, however it's inevitable that some eventually end up in circulation.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Skeleton Smiths** weapons are weapons from the [Black Desert City](/black-desert-city) that have found their way across the world.
 

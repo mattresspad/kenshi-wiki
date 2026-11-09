@@ -26,7 +26,7 @@ infobox:
         - ["String ID","19638-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Scouting for recruits, <a href="/flatskins">flatskin</a>?<p>I'm no warrior, but I am a field medic.</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Scouting for recruits, <a href="/flatskins">flatskin</a>?<p>I'm no warrior, but I am a field medic.</p></blockquote></figure>
 
 **Shek Medic** is a randomly named [Generic Recruit](/generic-recruits). They are a medic looking for work. They can be hired for c.6,000.
 

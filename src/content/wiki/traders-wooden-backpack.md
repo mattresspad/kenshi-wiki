@@ -5,9 +5,33 @@ source:
   title: "Trader's Wooden Backpack"
   revision: 95849
 categories: ["Backpacks"]
+infobox:
+  title: "Trader's Wooden Backpack"
+  image: "/icons/items/45555-changes_otto.mod.png"
+  caption: "A wooden backpack with a built in sun shade. It's the height of luxury for the travelling trader."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/backpacks\">Backpack</a>"]
+        - ["Weight reduction","50%"]
+        - ["Weight","4 kg"]
+        - ["Base value","c. 800"]
+    - heading: "Storage"
+      rows:
+        - ["Backpack grid","8x8"]
+        - ["Stack minimum","3x"]
+        - ["Stack multiplier","3x"]
+        - ["Size in inventory","4x5"]
+    - heading: "Combat"
+      rows:
+        - ["Combat skills","-5"]
+        - ["Combat speed","0.90x"]
+        - ["Athletics","1.00x"]
+        - ["Stealth and dodge","0.40x"]
+    - heading: null
+      rows:
+        - ["String id","<span>45555-changes_otto.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Trader's Wooden Backpack</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td>-Price</td><td>c.800</td></tr><tr><td>-Sell Value</td><td>c.400</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Encumbrance reduction</td><td>50%</td></tr><tr><td>-Combat skills bonus</td><td>-5</td></tr><tr><td>-Athletics effect</td><td>1.00x</td></tr><tr><td>-Combat speed effect</td><td>0.90x</td></tr><tr><td>-Stealth skill effect</td><td>0.40x</td></tr><tr><td>-Dodge skill effect</td><td>0.40x</td></tr><tr><td colspan="2">A wooden backpack with a built in sun shade. It's the height of luxury for the travelling trader.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/backpacks">BACKPACK</a></td></tr></tbody></table>
 
 **Trader's Backpack** is a [backpack](/backpacks) that allows for carrying of large quantities of trade goods and building materials due to its allowance of stacking items. Can be purchased from any General [Item Trader](/item-trader). Stackable bonus minimum and mult are both 3 resulting in the ability to stack items up to 9x their normal amount.
 

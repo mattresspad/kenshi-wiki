@@ -7,7 +7,7 @@ source:
 categories: ["Weapons","Unique"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The blades never rust or need sharpening, and are said to be unbreakable. There are only a handful in existence.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The blades never rust or need sharpening, and are said to be unbreakable. There are only a handful in existence.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Meitou** (**名刀**, "Famous/Excellent Sword" in Japanese) is the highest weapon grade in the game. Only the legendary smith [Cross](/cross) has been able to craft weapons of this quality. Their weapons are spread around the land of Kenshi, often owned by important dignitaries, rich nobles, or powerful warriors.
 

@@ -1,6 +1,6 @@
 ---
 title: "Manhunters"
-description: "–Manhunter considering to enslave passerbys"
+description: "Manhunters are a Faction of people who hunt people who escaped Slavery for a living, similar to the Slave Hunters, albeit stronger, better-equipped, more fre…"
 source:
   title: "Manhunters"
   revision: 93122
@@ -16,7 +16,7 @@ infobox:
         - ["Hostile towards","Escaped slaves, ex-slaves, lone groups"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This one kinda looks like an escaped slave, don't you think?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/manhunter">Manhunter</a> considering to enslave passerbys</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This one kinda looks like an escaped slave, don't you think?</blockquote><figcaption><a href="/manhunter">Manhunter</a> considering to enslave passerbys</figcaption></figure>
 
 **Manhunters** are a [Faction](/factions) of people who hunt people who escaped [Slavery](/slavery) for a living, similar to the [Slave Hunters](/slave-hunters), albeit stronger, better-equipped, more frequent, and more numerous.
 

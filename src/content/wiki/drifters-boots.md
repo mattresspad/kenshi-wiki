@@ -6,23 +6,30 @@ source:
   revision: 85833
 categories: ["Armour","Footwear","Light Armour"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Drifter's Boots"
+  image: "/icons/items/2306-clothes_v1.mod.png"
+  caption: "Good solid long-range boots, common amongst travellers."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/footwear\">Feet</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
       rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","2"]
-        - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
+        - ["Right Leg","40% covered"]
+        - ["Left Leg","40% covered"]
+    - heading: "Modifiers"
       rows:
-        - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
-        - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+        - ["Cut into stun","40%"]
+        - ["Stealth","0.90x"]
+    - heading: null
+      rows:
+        - ["String id","<span>2306-clothes_v1.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Good solid long-range boots, common amongst travellers.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/footwear">BOOTS</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Drifter's Boots** are Light Armour that are equipped in the Footwear slot. It is the unplated version of the [Plated Longboots](/plated-longboots).
 
@@ -34,17 +41,7 @@ This armour has inventory dimensions of **2x4**.
 
 ## Grades
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Boots</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>1%</td></tr><tr><td>-Cut resistance</td><td>2%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>1pts</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.32</td></tr><tr><td>-Sell value</td><td>c.8</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.90x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Boots</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>5%</td></tr><tr><td>-Cut resistance</td><td>8%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>6pts</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.166</td></tr><tr><td>-Sell value</td><td>c.41</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.90x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Boots</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>11%</td></tr><tr><td>-Cut resistance</td><td>17%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>13pts</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.596</td></tr><tr><td>-Sell value</td><td>c.149</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.90x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Boots</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>16%</td></tr><tr><td>-Cut resistance</td><td>26%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>20pts</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,311</td></tr><tr><td>-Sell value</td><td>c.327</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.90x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Boots</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>22%</td></tr><tr><td>-Cut resistance</td><td>35%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>27pts</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.2,312</td></tr><tr><td>-Sell value</td><td>c.578</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.90x</td></tr></tbody></table>
-
-<table class="wikitable"><tbody><tr><td colspan="2" align="left">Drifter's Boots</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Light Armour Class]</td><td>[Leather]</td></tr><tr><td>-Blunt resistance</td><td>26%</td></tr><tr><td>-Cut resistance</td><td>41%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>33pts</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.3,251</td></tr><tr><td>-Sell value</td><td>c.812</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Right Leg</td><td>40%</td></tr><tr><td>-Left Leg</td><td>40%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.90x</td></tr></tbody></table>
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1%</td><td>5%</td><td>11%</td><td>16%</td><td>22%</td><td>26%</td></tr><tr><th scope="row">Cut resistance</th><td>2%</td><td>8%</td><td>17%</td><td>26%</td><td>35%</td><td>41%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">60%</td></tr><tr><th scope="row">Harpoon resistance</th><td>1pts</td><td>6pts</td><td>13pts</td><td>20pts</td><td>27pts</td><td>33pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">1 kg</td></tr><tr><th scope="row">Value</th><td>c.32</td><td>c.166</td><td>c.596</td><td>c.1,311</td><td>c.2,312</td><td>c.3,251</td></tr><tr><th scope="row">Sell value</th><td>c.8</td><td>c.41</td><td>c.149</td><td>c.327</td><td>c.578</td><td>c.812</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Right Leg</th><td colspan="6">40%</td></tr><tr><th scope="row">Left Leg</th><td colspan="6">40%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td colspan="6">0.90x</td></tr></tbody></table>
 
 ## Source
 
@@ -54,8 +51,4 @@ This armour has inventory dimensions of **2x4**.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Leather Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.16 required)</span></p></td><td><strong><span>Drifter's Boots</span></strong><div></div></td></tr><tr><td><a href="/leather"><span>Leather</span></a><div></div><p><span>(0.8 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Drifter's Boots<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,490</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>745</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Drifter's Boots</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.16</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>0.8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Drifter's Boots blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,489.</li></ul></div>

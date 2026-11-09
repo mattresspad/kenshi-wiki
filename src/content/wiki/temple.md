@@ -17,7 +17,7 @@ infobox:
 
 17087-Dialogue.mod
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Let the Divine Flame’s light protect our holy people! Bless the Lord Okran.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-priest">Holy Priest</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Let the Divine Flame’s light protect our holy people! Bless the Lord Okran.</blockquote><figcaption><a href="/holy-priest">Holy Priest</a></figcaption></figure>
 
 **Temple** is a vendor found in [The Holy Nation](/the-holy-nation). This building is primarily a source of [lore](/lore-books), alongside certain valuables that can be stolen and sold for profit. Temples are one of the few places where [Human Teeth](/human-teeth) can be found. Oddly enough, [Book of Grace](/book-of-grace) and [Book of Sacrifice](/book-of-sacrifice) can be found in the temple, despite them being mentioned to be illegal inside The Holy Nation.
 

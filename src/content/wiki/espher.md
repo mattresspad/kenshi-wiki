@@ -22,7 +22,7 @@ infobox:
         - ["String ID","63388-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Nobody gets out of Tengu's Vault...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Espher</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Nobody gets out of Tengu's Vault...</blockquote><figcaption>Espher</figcaption></figure>
 
 **Espher** is a [Unique Recruit](/unique-recruits) from the [Southern Hive](/southern-hive). Espher is imprisoned within [Tengu's Vault](/tengus-vault) with a [Bounty](/bounty) of c.25,000. Espher can join the player faction after being freed from imprisonment and safely escorted away from the prison.
 

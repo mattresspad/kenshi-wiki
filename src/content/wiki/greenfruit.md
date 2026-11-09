@@ -7,13 +7,18 @@ source:
 categories: ["Items","Farming"]
 infobox:
   title: "Greenfruit"
+  image: "/icons/items/42309-changes_otto.mod.png"
+  caption: "It's not actually green or even a fruit, it's a vegetable.  Nobody knows why it's called this, but the habit continues."
   groups:
     - heading: null
       rows:
-        - ["Weight",".5 kg"]
-        - ["Size","3x3 wide/tall"]
-        - ["Avg. Price","c.30"]
-        - ["Description","It's not actually green or even a fruit, it's a vegetable. Nobody knows why it's called this, but the habit continues."]
+        - ["Type","Other"]
+        - ["Weight","0.5 kg"]
+        - ["Base value","c. 60"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>42309-changes_otto.mod</span>"]
 ---
 
 **Greenfruit** is an inedible raw ingredient used in the crafting of [food](/food) at a [Cooking Stove](/cooking-stove). It can also be turned into [fuel](/fuel) at [Biofuel Distillery](/biofuel-distillery-greenfruit).

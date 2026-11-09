@@ -7,11 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Wooden Bowl"
+  image: "/icons/items/42317-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
-        - ["Size","2x2"]
-        - ["Avg. Price","c.12"]
+        - ["Type","Other"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 20"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>42317-changes_otto.mod</span>"]
 ---
 
 **Wooden Bowl** is a [junk](/junk) [item](/items) with no purpose other than trading. It is only worth a small amount. This item can be found in Residential Buildings.

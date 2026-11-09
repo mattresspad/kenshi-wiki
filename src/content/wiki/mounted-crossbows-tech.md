@@ -52,4 +52,4 @@ Mounted Crossbows
 
 [Crossbow Turret Spotlight Fitting](/crossbow-turret-spotlight-fitting-tech)
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Heavy ranged weapons could defend the walls and keep bandits off our gates. &nbsp;Mounting on the walls would be best, because once an enemy gets too close you would be vulnerable to attack.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Heavy ranged weapons could defend the walls and keep bandits off our gates. &nbsp;Mounting on the walls would be best, because once an enemy gets too close you would be vulnerable to attack.</blockquote><figcaption>In-game description</figcaption></figure>

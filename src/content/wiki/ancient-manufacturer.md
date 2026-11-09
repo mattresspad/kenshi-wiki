@@ -7,7 +7,7 @@ source:
 categories: ["Manufacturers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This weapon dates back to the old empire. It's not great, but it says something that it has lasted this long. It's been re-fitted and sharpened in recent times, and still holds a good edge.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This weapon dates back to the old empire. It's not great, but it says something that it has lasted this long. It's been re-fitted and sharpened in recent times, and still holds a good edge.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Ancient** weapons are older weapons from the [Old Empire](/old-empire), salvaged and refitted for combat. This manufacturer is the second-lowest tier in the game.
 

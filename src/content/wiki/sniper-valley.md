@@ -15,7 +15,7 @@ infobox:
 
 _**This article is a Work in Progress. It may contain out of date or incomplete information.**_
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I don't like this place, feels like I'm being watched.<p>We should run.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I don't like this place, feels like I'm being watched.<p>We should run.</p></blockquote><figcaption>Player Characters</figcaption></figure>
 
 **Sniper Valley** is a zone in the southeastern corner of the continent, near the [Ashlands](/ashlands).
 

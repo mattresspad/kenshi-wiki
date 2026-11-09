@@ -24,7 +24,7 @@ infobox:
 
 _Not to be confused with [Slave Escapee](/slave-escapee)._
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It took too much blood and sweat to escape the masters...<p>I won't go back to the slave camp that easy!</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>It took too much blood and sweat to escape the masters...<p>I won't go back to the slave camp that easy!</p></blockquote></figure>
 
 **Escaped Slave** is a randomly named [Generic Recruit](/generic-recruits). They escaped slavery and have a c.2,000 [bounty](/bounty) from the [United Cities](/united-cities). If they are found in a squad alone, they can be talked to and potentially convinced to join the player faction.
 

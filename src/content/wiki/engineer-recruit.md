@@ -19,7 +19,7 @@ infobox:
         - ["String ID","1777-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I can handle all your engineering needs. Interested?</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I can handle all your engineering needs. Interested?</blockquote></figure>
 
 **Engineer Recruit** is a randomly named [Generic Recruit](/generic-recruits). They're just an engineer looking for work. They can be hired for c.6,000.
 

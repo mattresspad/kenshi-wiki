@@ -7,7 +7,7 @@ source:
 categories: ["Manufacturers"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>This weapon was made by your faction.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>This weapon was made by your faction.</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Homemade** weapons are weapons crafted by players using the [Weapon Smithing Bench](/weapon-smithing-bench). The model made is determined by several factors:
 

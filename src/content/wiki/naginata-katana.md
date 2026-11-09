@@ -7,19 +7,35 @@ source:
 categories: ["Weapons","Polearms"]
 infobox:
   title: "Naginata Katana"
+  image: "/icons/items/52309-rebirth.mod.png"
+  caption: "A katana-polearm hybrid that mitigates the disadvantages of using a naginata, but still too long to be comfortable indoors."
   groups:
     - heading: null
       rows:
-        - ["Class","[Polearm class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/polearms\">Polearm</a>"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","1x9"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.85x"]
+        - ["Blunt damage","0.20x"]
+        - ["Bleed","1.00x"]
         - ["Armour penetration","-15%"]
         - ["Attack","+4"]
+        - ["Defence","0"]
         - ["Indoors","-4"]
-        - ["Damage vs robots","-20%"]
-        - ["Damage vs humans","+25%"]
-        - ["Damage vs animals","+25%"]
         - ["Reach","26"]
-        - ["Description","A katana-polearm hybrid that mitigates the disadvantages of using a naginata, but still too long to be comfortable indoors."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+25%"]
+        - ["Animals","+25%"]
+        - ["Robots","-20%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52309-rebirth.mod</span>"]
 ---
 
@@ -28,6 +44,10 @@ The **Naginata Katana** is a variation on the [Naginata](/naginata), with a slig
 While the Naginata Katana's bonus against animals is not as large as the Naginata, its bonus against humanoids and sweeping attacks make it effective in regions where poorly armoured humanoids are found in large numbers, such as the [Cannibal Plains](/cannibal-plains), [Fog Islands](/fog-islands) and the [Fishman Island](/fishman-island).
 
 This weapon has inventory dimensions of **1x9**, meaning it can only be equipped as a primary weapon.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>8</td><td>8</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>8</td><td>8</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Naginatas blueprint: 6 hours at tech level 2; the blueprint is worth c. 8,000.</li></ul></div>
 
 ## Blueprint Locations
 

@@ -7,19 +7,34 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Nodachi"
+  image: "/icons/items/922-gamedata.base.png"
+  caption: "An extended katana variant with increased reach and damage."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.20x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 600"]
+        - ["Size in inventory","1x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.20x"]
+        - ["Blunt damage","0.00x"]
+        - ["Bleed","1.20x"]
         - ["Armour penetration","-20%"]
         - ["Attack","+4"]
         - ["Defence","-4"]
         - ["Indoors","-4"]
-        - ["Damage vs robots","-40%"]
-        - ["Damage vs humans","+10%"]
         - ["Reach","25"]
-        - ["Description","An extended katana variant with increased reach and damage."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+10%"]
+        - ["Robots","-40%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>922-gamedata.base</span>"]
 ---
 
@@ -28,6 +43,10 @@ A **Nodachi** is a [Katana Class](/katanas) weapon. Heavier, with increased rang
 The [Meitou](/meitou) version of this weapon can be found on the leader of Skin Bandits, [Savant](/savant).
 
 This weapon has inventory dimensions of **1x10**, meaning it cannot be stored in the inventory and must be equipped as a primary or stored in a backpack.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>10</td><td>10</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>10</td><td>10</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Nodachi blueprint: 6 hours at tech level 2; needs <a href="/katanas">Katanas</a>; the blueprint is worth c. 15,000.</li></ul></div>
 
 ## Blueprint Locations
 

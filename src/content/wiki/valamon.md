@@ -24,7 +24,7 @@ infobox:
         - ["String ID","95756-__december17.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>What's this?!.. A new conscript? Well, my sister, today is your lucky day!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>What's this?!.. A new conscript? Well, my sister, today is your lucky day!</blockquote></figure>
 
 **Valamon** is the leader of the [Reavers](/reavers). He can be found in the capital of Reavers, [Ark](/ark).
 

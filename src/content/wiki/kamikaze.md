@@ -22,7 +22,7 @@ infobox:
         - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>The horned devils plague the Holy Lands but they are small in number, they won't last with their wreckless suicide mission. Eventually their kind will be extinct and we'll finally see peace.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/holy-lord-phoenix">Holy Lord Phoenix</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>The horned devils plague the Holy Lands but they are small in number, they won't last with their wreckless suicide mission. Eventually their kind will be extinct and we'll finally see peace.</blockquote><figcaption><a href="/holy-lord-phoenix">Holy Lord Phoenix</a></figcaption></figure>
 
 **Kamikazes** are members of the [Shek Kingdom](/shek-kingdom) faction. They can only be found if [Esata](/esata-the-stone-golem) has been [killed or kidnapped](/world-states).
 

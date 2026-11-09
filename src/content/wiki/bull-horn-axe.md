@@ -7,20 +7,35 @@ source:
 categories: ["Weapons","Unique","Heavy Weapon"]
 infobox:
   title: "Bull Horn Axe"
+  image: "/icons/items/56729-Dialogue.mod.png"
+  caption: "Gifted to Shager's most loyal Invincible Warrior, Ida the Flying Bull.\n\nFor him, I fight a thousand men. For him, I die a thousand deaths."
   groups:
     - heading: null
       rows:
-        - ["Class","[Heavy weapons class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/heavy-weapons\">Heavy weapon</a>"]
+        - ["Base weight","18 kg"]
+        - ["Base value","c. 550"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.30x"]
+        - ["Blunt damage","1.80x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","-4"]
         - ["Reach","32"]
-        - ["Description","Gifted to Shager's most loyal Invincible Warrior, Ida the Flying Bull.<br><br>For him, I fight a thousand men. For him, I die a thousand deaths."]
+    - heading: null
+      rows:
         - ["String id","<span>56729-Dialogue.mod</span>"]
 ---
 
 **Bull Horn Axe** is a unique [Fragment Axe](/fragment-axe) used by [Flying Bull](/flying-bull), the Leader of the [Kral's Chosen](/krals-chosen). [King Shager](/king-shagers-reign) gave him this Axe for being a loyal warrior. Aside from a slightly reduced indoor combat penalty and the description, there is nothing unique about this Fragment Axe. It can come in 3 different grades, all of them being Ancient quality.
 
 ## Crafting
+
+<div class="crafting"><p>It can't be crafted.</p></div>
 
 As a [unique](/unique-items) item, it cannot be crafted.
 

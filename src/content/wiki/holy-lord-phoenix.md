@@ -26,7 +26,7 @@ infobox:
         - ["String ID","17225-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Okran's Will shall be done</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Phoenix victorious over an enemy</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Okran's Will shall be done</blockquote><figcaption>Phoenix victorious over an enemy</figcaption></figure>
 
 **Holy Lord Phoenix** resides in [Blister Hill](/blister-hill) in his throne room.
 

@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/arm-of-okran\">Arm of Okran</a>, <a href=\"/northern-coast\">Northern Coast</a>, <a href=\"/bast-zone\">Bast</a>, <a href=\"/okrans-pride\">Okran's Pride</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Is it really wise for us to travel Holy Nation territory?<p>The locals here aren't too friendly with non-humans. And that's an understatement.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/hive">Hive</a> Player Characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Is it really wise for us to travel Holy Nation territory?<p>The locals here aren't too friendly with non-humans. And that's an understatement.</p></blockquote><figcaption><a href="/hive">Hive</a> Player Characters</figcaption></figure>
 
 **Okran's Valley** is a zone located in the northern part of [The Holy Nation](/the-holy-nation)'s territory. It is aptly named as 'Valley' for being between 2 mountains both called [Arm of Okran](/arm-of-okran), and like many other territories which HN control, it is named after their God [Okran](/okran).
 

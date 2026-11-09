@@ -7,14 +7,27 @@ source:
 categories: ["Weapons","Heavy Weapon"]
 infobox:
   title: "Exile Plank"
+  image: "/icons/items/56728-Dialogue.mod.png"
+  caption: "A hefty sword once taken from a defeated Shek Guardian. \n\nWithout their name, their status, or their prized weapons, the shamed ones walk the land forever as lost ghosts."
   groups:
     - heading: null
       rows:
-        - ["Class","[Heavy weapons class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/heavy-weapons\">Heavy weapon</a>"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.80x"]
+        - ["Blunt damage","1.20x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","-6"]
         - ["Reach","30"]
-        - ["Description","A hefty sword once taken from a defeated Shek Guardian. <br><br>Without their name, their status, or their prized weapons, the shamed ones walk the land forever as lost ghosts."]
+    - heading: null
+      rows:
         - ["String id","<span>56728-Dialogue.mod</span>"]
 ---
 
@@ -30,7 +43,7 @@ The [Meitou](/meitou)\-level quality of this weapon can be found on the leader o
 
 ## Crafting
 
-This item cannot be crafted.
+<div class="crafting"><p>It can't be crafted.</p></div>
 
 ## Blueprints
 

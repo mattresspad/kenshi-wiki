@@ -21,7 +21,7 @@ infobox:
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Chainmail eh? That's going to be bloody fiddly isn't it?</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Chainmail eh? That's going to be bloody fiddly isn't it?</blockquote><figcaption>In-game description</figcaption></figure>
 
 **Chain Armour Crafting** is [Smithing Tech](/smithing-tech) which unlocks the ability to create [Chainmail Sheets](/chainmail-sheet) and construct a [Chain Armour Crafting Bench](/chain-armour-crafting-bench). All [Armour](/armour) made from chainmail requires additional [Blueprints](/blueprints) to craft.
 

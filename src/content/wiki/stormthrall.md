@@ -19,7 +19,7 @@ infobox:
         - ["Legwear","<a href=\"/rag-loincloth\">Rag Loincloth</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>SKRRRRRRREE!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>SKRRRRRRREE!</blockquote></figure>
 
 **Stormthralls** are the guards of [Cat-Lon's Exile](/cat-lons-exile). They live in a separate Dome than [Mad Cat-Lon](/mad-cat-lon), but after Cat-Lon is finished talking, he calls for them to swarm his Dome.
 

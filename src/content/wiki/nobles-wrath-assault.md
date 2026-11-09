@@ -20,7 +20,7 @@ infobox:
         - ["Loss Triggers","<a href=\"/elite-hunter-assault\">Elite Hunter Assault</a> 24-72 hours, 100% chance"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Those who harm nobility of the United Cities will pay for their crimes in blood... Nobody escapes the wrath of the nobles!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Samurai</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Those who harm nobility of the United Cities will pay for their crimes in blood... Nobody escapes the wrath of the nobles!</blockquote><figcaption>Samurai</figcaption></figure>
 
 **Noble's Wrath Assault** is an [Event](/events) that can occur if the player lives within 9,000 meters of a [United Cities](/united-cities) or [Traders Guild](/traders-guild) owned location, and has killed or captured one or more of the following [Nobles](/noble-circle), [Inaba](/lord-inaba), [Kana](/lady-kana), [Nagata](/lord-nagata), [Ohta](/lord-ohta), [Sanda](/lady-sanda), [Tsugi](/lady-tsugi), or [Yoshinaga](/lord-yoshinaga). It however cannot trigger if all of the following nobles have been killed or captured, [Tengu](/emperor-tengu), [Inaba](/lord-inaba), [Nagata](/lord-nagata), [Sanda](/lady-sanda), [Tsugi](/lady-tsugi), and [Yoshinaga](/lord-yoshinaga).
 

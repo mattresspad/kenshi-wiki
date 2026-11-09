@@ -25,7 +25,7 @@ infobox:
         - ["String ID","58879-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>As you can see, Lord Tengu is rather... tied up right now... *Sigh*... If you have business here, you can speak with myself, Diplomat Koin.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>As you can see, Lord Tengu is rather... tied up right now... *Sigh*... If you have business here, you can speak with myself, Diplomat Koin.</blockquote></figure>
 
 **Koin** is a high-ranking member of [United Cities](/united-cities) found in [Heft](/heft) and has [Diplomatic Status](/diplomatic-status). He appears and acts like the secretary and spokesperson for [Emperor Tengu](/emperor-tengu). He can be spoken with to form an alliance with the United Cities. This takes the form of buying one's way in via high sums of cats, establishing a large outpost in United Cities territory for trade, or waging war against the Anti-Slavers. The latter of which will require subduing and turning in [Tinfist](/tinfist).
 

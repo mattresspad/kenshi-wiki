@@ -7,13 +7,16 @@ source:
 categories: ["Map items"]
 infobox:
   title: "Old Treasure Map"
+  image: "/icons/items/48693-rebirth.mod.png"
+  caption: "A treasure map for some ancient ruin.  Likely full of treasure or lost technology or horrible death.  The map is insanely old and hard to understand, but from what you can gather it appears to be something science or technology related.  It could have Ancient Science Books, or possibly even AI Cores."
   groups:
     - heading: null
       rows:
         - ["Weight","0 kg"]
-        - ["Value","c.2000"]
-        - ["Sell value","c.1000"]
-        - ["Description","A treasure map for some ancient ruin.  Likely full of treasure or lost technology or horrible death.  The map is insanely old and hard to understand, but from what you can gather it appears to be something science or technology related.  It could have Ancient Science Books, or possibly even AI Cores."]
+        - ["Base value","c. 2,000"]
+        - ["Size in inventory","2x2"]
+    - heading: null
+      rows:
         - ["String id","<span>48693-rebirth.mod</span>"]
 ---
 

@@ -24,7 +24,7 @@ infobox:
         - ["String ID","19507-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You think I would follow a <a href="/flatskins">flatskin</a>? Do not make me laugh.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You think I would follow a <a href="/flatskins">flatskin</a>? Do not make me laugh.</blockquote></figure>
 
 **Shek Adventurer** is a randomly named [Generic Recruit](/generic-recruits) available in [Shek Kingdom](/shek-kingdom). They can be hired for c.6,000. They will only accept offers from [Skeletons](/skeleton) or other Sheks.
 

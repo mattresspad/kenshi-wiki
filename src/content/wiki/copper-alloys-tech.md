@@ -20,6 +20,6 @@ infobox:
         - ["New Item(s)","<a href=\"/copper-alloy-plates\">Copper Alloy Plates</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Copper Alloy Plates are required for more high-tech engineering projects.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Copper Alloy Plates are required for more high-tech engineering projects.</blockquote><figcaption>In-game description</figcaption></figure>
 
 This research, available with a [level 4](/tech-level-tech) research bench, allows the player to craft [Copper Alloy Plates](/copper-alloy-plates) and storage for them, that are used in a variety of high end-game buildings and defenses.

@@ -17,7 +17,7 @@ infobox:
         - ["String ID","48711-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Cross the Blackshifters and you'll pay for it in blood</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Blackshifter warning</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Cross the Blackshifters and you'll pay for it in blood</blockquote><figcaption>Blackshifter warning</figcaption></figure>
 
 **Blackshifters** are generic members of the [Blackshifters](/blackshifters) faction within [the Swamp](/the-swamp). They can be found within their [Casino Bar](/blackshifter-casino-bar) located in the city [Shark](/shark) and the village [Mud Town](/mud-town). All Blackshifters have the Traitorous [Personality](/personality).
 

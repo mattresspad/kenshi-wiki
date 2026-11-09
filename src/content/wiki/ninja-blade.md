@@ -7,18 +7,33 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Ninja Blade"
+  image: "/icons/items/924-gamedata.base.png"
+  caption: "A smaller, lighter katana with a straight blade that is easier to produce.  Popular with ninjas because they're better for stabbing people in the back with, but not the best for toe-to-toe combat."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.10x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.80x"]
+        - ["Blunt damage","0.00x"]
+        - ["Bleed","1.10x"]
         - ["Armour penetration","-20%"]
         - ["Attack","+2"]
         - ["Defence","-4"]
-        - ["Damage vs robots","-40%"]
-        - ["Damage vs humans","+10%"]
         - ["Reach","21"]
-        - ["Description","A smaller, lighter katana with a straight blade that is easier to produce.  Popular with ninjas because they're better for stabbing people in the back with, but not the best for toe-to-toe combat."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+10%"]
+        - ["Robots","-40%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>924-gamedata.base</span>"]
 ---
 
@@ -27,6 +42,10 @@ The **Ninja Blade** is a sleek and lightweight weapon. This weapon is often used
 If you are too poor to afford a normal Katana, or still want to use a Ninja Blade... For whatever reason, you will find the [Meitou](/meitou) version of this weapon in the hands of [Dimak](/dimak) in the [Tower of Ninjas](/tower-of-ninjas).
 
 This weapon has inventory dimensions of **1x7**. It can be equipped in both the primary and secondary weapon slots.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>4</td><td>4</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>4</td><td>4</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Ninja Blades blueprint: 4 hours at tech level 2; the blueprint is worth c. 2,500.</li></ul></div>
 
 ## Blueprint Locations
 

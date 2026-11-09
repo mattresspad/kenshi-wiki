@@ -21,7 +21,7 @@ infobox:
         - ["Footwear","<a href=\"/drifters-boots\">Drifter's Boots</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Here's the deal, drifter, I'm a treasure hunter and I got a real juicy tip on a valuable looting spot. Thing is, my squad got killed off by those blasted cannibals, so here I am recuperating in this dusty old snore fest of a village...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Here's the deal, drifter, I'm a treasure hunter and I got a real juicy tip on a valuable looting spot. Thing is, my squad got killed off by those blasted cannibals, so here I am recuperating in this dusty old snore fest of a village...</blockquote></figure>
 
 **Horse** is a [Unique Recruit](/unique-recruits) treasure hunter. He can be found in the Bar in [Fishing Village](/fishing-village-northern-coast) in the [Northern Coast](/northern-coast). He needs 4,500 Cats to pay off his bill at the [Deadcat Bar](/deadcat-bar). He can be easily recognized with his facial red "war paint", unseen on other Shek warriors and a legacy of the [region](/cannibal-plains) he presumably travelled.
 

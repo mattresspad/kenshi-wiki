@@ -13,7 +13,7 @@ infobox:
         - ["Neighboring Zones","<a href=\"/howler-maze\">Howler Maze</a>, <a href=\"/gut\">Gut</a>, <a href=\"/the-eye\">The Eye</a>, <a href=\"/skimsands\">Skimsands</a>, <a href=\"/the-great-desert\">The Great Desert</a>"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Better make sure we've got some expendable Cats for bribes before we get too cozy here in the canyons...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Player Characters who aren't <a href="/personality">Maniacal</a></cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Better make sure we've got some expendable Cats for bribes before we get too cozy here in the canyons...</blockquote><figcaption>Player Characters who aren't <a href="/personality">Maniacal</a></figcaption></figure>
 
 **Heng** is the home of the [Traders Guild](/traders-guild), eponymously named after a major city in this region.
 
