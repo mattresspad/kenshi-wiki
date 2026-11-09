@@ -1,4 +1,4 @@
-/* Keep the Vector rail and put the document and its sticky chrome in one column. */
+/* Reader layout. Keep the chrome outside the desktop article scrollport. */
 @media screen {
   html {
     height: auto;
@@ -11,14 +11,119 @@
     overflow-y: visible;
   }
 
-  .wiki-column { margin-inline-start: 10em; }
-  .wiki-column > .mw-body,
-  .wiki-column > .mw-footer { margin-inline-start: 0; }
-  .wiki-column > .mw-body { margin-top: 0; }
-
-  @media (min-width: 982px) {
-    .wiki-column { margin-inline-start: 11em; }
+  .skin-vector-legacy > .mw-body,
+  .skin-vector-legacy > .mw-footer {
+    min-width: 0;
+    margin: 0;
   }
+
+  #mw-panel {
+    box-sizing: border-box;
+    position: static;
+    width: auto;
+    background: var(--color-bg-page);
+  }
+}
+
+@media screen and (min-width: 64rem) and (min-height: 40rem) {
+  html { scroll-padding-block-start: 0; }
+  body.skin-vector-legacy {
+    --rail-width: 11rem;
+    display: grid;
+    grid-template:
+      "rail header" auto
+      "rail article" minmax(0, 1fr)
+      "rail footer" auto / var(--rail-width) minmax(0, 1fr);
+    height: 100dvh;
+    min-height: 0;
+    overflow: hidden;
+  }
+  :root[data-navigation="closed"] body { --rail-width: 0rem; }
+  :root[data-navigation="closed"] #mw-panel { display: none; }
+  #mw-panel {
+    grid-area: rail;
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+  .wiki-header { grid-area: header; }
+  #content {
+    grid-area: article;
+    min-height: 0;
+    overflow: auto;
+    scroll-padding-block: .65rem;
+  }
+  #footer { grid-area: footer; }
+}
+
+@media screen and (width < 64rem), screen and (height < 40rem) {
+  /* Give wide data tables a local horizontal scrollbar in the single-column reader. */
+  .mw-parser-output table.wikitable {
+    display: block;
+    box-sizing: border-box;
+    width: fit-content;
+    max-width: 100%;
+    margin-inline: 0;
+    overflow-x: auto;
+  }
+  /* Without scripting, these links remain in document flow. */
+  :root[data-navigation] #mw-panel { display: none; }
+  :root[data-navigation] #mw-panel[data-open] {
+    display: block;
+    position: fixed;
+    z-index: 9;
+    inset: 5rem auto auto 0;
+    max-height: calc(100dvh - 5rem);
+    padding-bottom: 1rem;
+    border-block-end: 1px solid var(--color-border-chrome);
+    width: min(15rem, 90vw);
+    overflow: auto;
+    overscroll-behavior: contain;
+    border-inline-end: 1px solid var(--color-border-chrome);
+    box-shadow: 3px 2px 12px rgb(0 0 0 / .16);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    #mw-panel[data-open] { animation: enter-navigation .14s ease-out; }
+  }
+}
+@keyframes enter-navigation {
+  from { transform: translateX(-1rem); opacity: .6; }
+}
+
+.reader-skip {
+  position: fixed;
+  inset: .25rem auto auto .25rem;
+  transform: translateY(-180%);
+  z-index: 20;
+  padding: .45rem .75rem;
+  background: var(--color-bg-content);
+}
+.reader-skip:focus { transform: none; }
+#content:focus-visible, #mw-panel a:focus-visible, .reader-footer a:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: -2px;
+}
+
+#footer.reader-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .25rem 1.2rem;
+  padding: .5rem 1rem;
+  background: var(--paper-01);
+  border-top: 1px solid var(--color-border-chrome);
+  color: var(--paper-10);
+  font-size: .75rem;
+  line-height: 1.5;
+}
+.footer-licenses, .reader-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem .85rem;
+}
+.reader-footer nav { margin-inline-start: auto; }
+@media screen and (max-width: 44rem) {
+  #footer.reader-footer { display: grid; gap: .4rem; padding-block: .85rem; }
+  .reader-footer nav { margin: 0; }
 }
 
 .wiki-header {
@@ -173,6 +278,26 @@
   color: var(--color-link);
   white-space: nowrap;
 }
+.wiki-header .navigation-toggle {
+  align-items: center;
+  gap: .4rem;
+  padding-inline: .7rem;
+  border: 0;
+  background: transparent;
+  color: var(--color-link);
+  font: inherit;
+  cursor: pointer;
+}
+.navigation-toggle[hidden] { display: none; }
+.navigation-toggle::before {
+  content: '';
+  width: .85rem;
+  height: .68rem;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  background: linear-gradient(to right, currentColor 28%, transparent 28%);
+}
+.navigation-toggle:hover { background-color: var(--paper-03); text-decoration: underline; }
 .wiki-page-tab:visited { color: var(--color-link); }
 .wiki-page-tab[aria-current] {
   background: var(--color-bg-content);
@@ -222,31 +347,15 @@
 }
 
 @media screen and (max-width: 40rem) {
-  /* Keep the same internal navigation above the article on a phone. It scrolls away. */
-  .wiki-column { margin-inline-start: 0; }
-  #mw-panel {
-    position: static;
-    display: flex;
-    align-items: center;
-    gap: .75rem;
-    width: auto;
-    padding: .3rem .75rem;
-    border-bottom: 1px solid var(--color-border-chrome);
-  }
-  #p-logo, #p-logo a { width: 2.6rem; height: 2.6rem; margin: 0; }
-  #p-logo a { background-size: contain; }
-  #mw-panel #p-navigation, #mw-panel #p-navigation .body { margin: 0; padding: 0; background: none; }
-  #mw-panel #p-navigation h3 { display: none; }
-  #mw-panel #p-navigation ul { display: flex; gap: .9rem; }
-  #mw-panel #p-navigation li { margin: 0; padding: 0; }
   .mw-parser-output div.infobox { float: none; max-width: 100%; margin: .75rem auto; }
-  .mainpage-section { min-width: min(305px, 100%); }
   .mw-parser-output div.nav dl { display: grid; grid-template-columns: 30% minmax(0, 1fr); }
   .mw-parser-output div.nav :is(dt, dd) { width: auto; margin: 0; overflow-wrap: anywhere; }
 }
 
 @media print {
-  .wiki-header, #mw-panel { display: none; }
+  .wiki-header, #mw-panel, .reader-skip { display: none; }
+  #content { height: auto; overflow: visible; }
+  #footer.reader-footer { break-inside: avoid; }
 }
 
 /* Search suggestions under the header search box. */

@@ -1,0 +1,70 @@
+<aside id="mw-panel" aria-label="Wiki sidebar">
+  <div id="p-logo">
+    <a class="mw-wiki-logo" href="/" aria-label="Kenshi Wiki main page"></a>
+  </div>
+  <nav id="p-navigation" class="vector-menu vector-menu-portal portal" aria-labelledby="wiki-nav-heading">
+    <h3 id="wiki-nav-heading">Navigation</h3>
+    <div class="body vector-menu-content">
+      <ul class="vector-menu-content-list">
+        <li><a href="/">Main page</a></li>
+        <li><a href="/random">Random page</a></li>
+      </ul>
+    </div>
+  </nav>
+</aside>
+
+<script>
+  const rail = document.querySelector<HTMLElement>('#mw-panel')!;
+  const toggle = document.querySelector<HTMLButtonElement>('#navigation-toggle')!;
+  const root = document.documentElement;
+  const desktop = matchMedia('(min-width: 64rem) and (min-height: 40rem)');
+
+  function syncNavigation() {
+    const open = desktop.matches ? root.dataset.navigation !== 'closed' : rail.hasAttribute('data-open');
+    toggle.setAttribute('aria-expanded', String(open));
+    if (!open && rail.contains(document.activeElement)) toggle.focus({ preventScroll: true });
+  }
+
+  function closeDrawer() {
+    if (rail.hasAttribute('data-open')) {
+      rail.removeAttribute('data-open');
+      syncNavigation();
+    }
+  }
+
+  toggle.hidden = false;
+  syncNavigation();
+  toggle.addEventListener('click', () => {
+    if (desktop.matches) {
+      root.dataset.navigation = root.dataset.navigation === 'closed' ? 'open' : 'closed';
+      try { localStorage.setItem('wiki-navigation', root.dataset.navigation); } catch { /* This visit only. */ }
+    } else {
+      rail.toggleAttribute('data-open');
+    }
+    syncNavigation();
+    if (rail.hasAttribute('data-open')) rail.querySelector<HTMLElement>('nav a')?.focus({ preventScroll: true });
+  });
+
+  function dismissOutside(event: Event) {
+    if (event.target instanceof Node && !rail.contains(event.target) && !toggle.contains(event.target)) closeDrawer();
+  }
+  document.addEventListener('pointerdown', dismissOutside);
+  document.addEventListener('focusin', dismissOutside);
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && rail.hasAttribute('data-open')) {
+      closeDrawer();
+      toggle.focus({ preventScroll: true });
+      event.preventDefault();
+    }
+  });
+
+  desktop.addEventListener('change', () => {
+    rail.removeAttribute('data-open');
+    syncNavigation();
+  });
+  window.addEventListener('pageshow', () => {
+    try { root.dataset.navigation = localStorage.getItem('wiki-navigation') === 'closed' ? 'closed' : 'open'; } catch { /* Keep the in-memory choice. */ }
+    rail.removeAttribute('data-open');
+    syncNavigation();
+  });
+</script>

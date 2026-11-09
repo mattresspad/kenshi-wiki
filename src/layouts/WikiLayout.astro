@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import '../styles/wiki-header.css';
 import WikiHeader from '../components/WikiHeader.astro';
+import WikiNavigation from '../components/WikiNavigation.astro';
 import { wiki } from '../lib/wiki.js';
 
 const { title, description, source, categories = [], mainPage = false, searchable = true, showTitle = false } = Astro.props;
@@ -17,7 +18,9 @@ const pageClass = `page-${title.replaceAll(' ', '_')}`;
     <title>{mainPage ? 'Kenshi Wiki' : `${title} - Kenshi Wiki`}</title>
     <meta name="description" content={description} />
     <script is:inline>
+      document.documentElement.dataset.navigation = 'open';
       try {
+        if (localStorage.getItem('wiki-navigation') === 'closed') document.documentElement.dataset.navigation = 'closed';
         const saved = localStorage.getItem('theme');
         document.documentElement.dataset.theme = saved === 'light' || saved === 'dark' ? saved : 'auto';
       } catch {
@@ -26,66 +29,70 @@ const pageClass = `page-${title.replaceAll(' ', '_')}`;
     </script>
   </head>
   <body class={`mediawiki ltr sitedir-ltr ns-0 ns-subject ${pageClass} skin-vector action-view skin-vector-legacy`}>
-    <aside id="mw-panel" aria-label="Wiki sidebar">
-      <div id="p-logo">
-        <a class="mw-wiki-logo" href="/" aria-label="Kenshi Wiki main page"></a>
-      </div>
-      <nav id="p-navigation" class="vector-menu vector-menu-portal portal" aria-labelledby="wiki-nav-heading">
-        <h3 id="wiki-nav-heading">Navigation</h3>
-        <div class="body vector-menu-content">
-          <ul class="vector-menu-content-list">
-            <li><a href="/">Main page</a></li>
-            <li><a href="/random">Random page</a></li>
-          </ul>
+    <a class="reader-skip" href="#content">Skip to content</a>
+    <WikiHeader {title} {source} {mainPage} />
+    <WikiNavigation />
+    <main id="content" class="mw-body" tabindex="0" aria-label="Wiki content" data-pagefind-body={searchable ? '' : undefined}>
+      <h1 id="firstHeading" class="firstHeading" style={showTitle ? 'display: block' : undefined}>{title}</h1>
+      <div id="bodyContent" class="mw-body-content">
+        <div id="mw-content-text" class="mw-content-ltr">
+          <div class="mw-parser-output">
+            <slot />
+          </div>
         </div>
-      </nav>
-    </aside>
 
-    <div class="wiki-column">
-      <WikiHeader {title} {source} {mainPage} />
-      <main id="content" class="mw-body" data-pagefind-body={searchable ? '' : undefined}>
-        <h1 id="firstHeading" class="firstHeading" style={showTitle ? 'display: block' : undefined}>{title}</h1>
-        <div id="bodyContent" class="mw-body-content">
-          <div id="mw-content-text" class="mw-content-ltr">
-            <div class="mw-parser-output">
-              <slot />
+        {categories.length > 0 && (
+          <div id="catlinks" class="catlinks">
+            <div id="mw-normal-catlinks" class="mw-normal-catlinks">
+              {categories.length === 1 ? 'Category' : 'Categories'}:{' '}
+              <ul>
+                {categories.map((category) => (
+                  <li><a href={wiki(`Category:${category}`)}>{category}</a></li>
+                ))}
+              </ul>
             </div>
           </div>
+        )}
+      </div>
+    </main>
 
-          {categories.length > 0 && (
-            <div id="catlinks" class="catlinks">
-              <div id="mw-normal-catlinks" class="mw-normal-catlinks">
-                {categories.length === 1 ? 'Category' : 'Categories'}:{' '}
-                <ul>
-                  {categories.map((category) => (
-                    <li><a href={wiki(`Category:${category}`)}>{category}</a></li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          )}
-        </div>
-      </main>
-
-      <footer id="footer" class="mw-footer" role="contentinfo">
-        <ul id="footer-info">
-          <li id="footer-info-copyright">
-            Original wiki article text is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; articles adapted from the Kenshi Fandom wiki are under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, as each one notes. <a href="/contributors#licensing">Software, artwork, and other licenses</a>.
-          </li>
-          <li>Kenshi is a trademark of Lo-Fi Games. This is a fan-made community wiki.</li>
-        </ul>
-        <ul id="footer-places">
-          <li><a href="/contributors">About Kenshi Wiki</a></li>
-          <li><a href="/contributors#artwork">Disclaimers</a></li>
-        </ul>
-        <div style="clear: both;"></div>
-      </footer>
-    </div>
+    <footer id="footer" class="mw-footer reader-footer">
+      <div class="footer-licenses">
+        <span>Original text — <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span>
+        <span>Fandom adaptations — <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></span>
+      </div>
+      <span>Fan-made wiki. Kenshi is a trademark of Lo-Fi Games.</span>
+      <nav aria-label="Licensing and artwork">
+        <a href="/contributors#licensing">Licensing</a>
+        <a href="/contributors#artwork">Artwork notices</a>
+      </nav>
+    </footer>
 
     <script>
       import { setUpSortableTables } from '../lib/sortable-tables';
 
       setUpSortableTables();
+
+      // Browsers restore the document scroll on Back. The desktop article has its own scrollport.
+      const article = document.querySelector<HTMLElement>('main#content')!;
+      function rememberPosition() {
+        if (getComputedStyle(article).overflowY === 'auto' && history.state?.articleTop !== article.scrollTop) {
+          history.replaceState({ ...history.state, articleTop: article.scrollTop }, '');
+        }
+      }
+      function restorePosition() {
+        const top = history.state?.articleTop;
+        if (typeof top === 'number' && getComputedStyle(article).overflowY === 'auto') {
+          requestAnimationFrame(() => { article.scrollTop = top; });
+        }
+      }
+      article.addEventListener('click', (event) => {
+        if (event.target instanceof Element && event.target.closest('a[href^="#"]')) rememberPosition();
+      });
+      article.addEventListener('scrollend', rememberPosition);
+      window.addEventListener('pagehide', rememberPosition);
+      window.addEventListener('pageshow', restorePosition);
+      window.addEventListener('popstate', restorePosition);
     </script>
   </body>
 </html>
