@@ -1,0 +1,111 @@
+---
+interface Props {
+  kind: 'home' | 'article' | 'category' | 'utility';
+  title: string;
+  href: string;
+  categories: { name: string; href: string }[];
+}
+const { kind, title, href, categories } = Astro.props;
+const subject = kind === 'article' || kind === 'category';
+const prefix = kind === 'article' ? 'Article' : 'Category';
+const label = `${prefix}: ${title}`;
+---
+
+{subject ? (
+  <nav class="page-context" aria-label="Page and categories" data-title={title}>
+    <div class="context-viewport" inert>
+      <div class="context-track">
+        <a class="wiki-page-tab context-tab" href={href} aria-current="page">
+          <span>{prefix}: </span>{title}
+        </a>
+        {categories.length > 0 && <span class="context-category-label">{categories.length === 1 ? 'Category:' : 'Categories:'}</span>}
+        {categories.map(category => <a class="context-category" href={category.href}>{category.name}</a>)}
+      </div>
+    </div>
+
+    <details name="wiki-ribbon" class="ribbon-menu context-menu">
+      <summary aria-label={label}><span>{title}</span></summary>
+      <div class="ribbon-panel">
+        <a class="ribbon-link context-current" href={href} aria-current="page">{label}</a>
+        {categories.length > 0 && (
+          <div class="context-menu-categories">
+            <h2>{categories.length === 1 ? 'Category' : 'Categories'}</h2>
+            {categories.map(category => <a class="ribbon-link" href={category.href}>{category.name}</a>)}
+          </div>
+        )}
+      </div>
+    </details>
+  </nav>
+) : (
+  <a class="wiki-page-tab" aria-current="page" href={href}>{kind === 'home' ? 'Main page' : title}</a>
+)}
+
+<script>
+  function fitPageContext(context: HTMLElement) {
+    const viewport = context.querySelector<HTMLElement>('.context-viewport')!;
+    const track = context.querySelector<HTMLElement>('.context-track')!;
+    const tab = track.querySelector<HTMLAnchorElement>('a')!;
+    const categoryLabel = track.querySelector<HTMLElement>('.context-category-label');
+    const links = Array.from(track.querySelectorAll<HTMLAnchorElement>('.context-category'));
+    const menu = context.querySelector<HTMLDetailsElement>('details')!;
+    const summary = menu.querySelector('summary')!;
+    const caption = summary.querySelector('span')!;
+    const current = menu.querySelector<HTMLAnchorElement>('.context-current')!;
+    const choices = menu.querySelectorAll<HTMLAnchorElement>('.context-menu-categories a');
+
+    // The clipped track retains its natural width. Measure the actual labels, including
+    // separators, while keeping any links beyond the visible prefix out of the tab order.
+    function arrange() {
+      const active = document.activeElement;
+      const room = context.getBoundingClientRect().width;
+      const left = track.getBoundingClientRect().left;
+      const widths = [tab, ...links].map(el => Math.ceil(el.getBoundingClientRect().right - left));
+      let count = links.length;
+      let combined = getComputedStyle(context).getPropertyValue('--compact-context').trim() === '1' || widths[0] > room;
+      const overflow = widths[count] > room;
+      menu.hidden = !combined && !overflow;
+
+      if (!combined && overflow) {
+        // The button itself needs space, and its label changes with the remaining count.
+        for (count = links.length - 1; count >= 0; count--) {
+          caption.textContent = count ? `+${links.length - count} more` : `Categories (${links.length})`;
+          if (widths[count] + Math.ceil(summary.getBoundingClientRect().width) <= room) break;
+        }
+        combined = count < 0;
+      }
+
+      if (combined) {
+        count = 0;
+        caption.textContent = context.dataset.title!;
+        summary.setAttribute('aria-label', current.textContent.trim());
+      } else if (overflow && count > 0) {
+        summary.setAttribute('aria-label', `${caption.textContent} categories`);
+      } else {
+        summary.removeAttribute('aria-label');
+      }
+      context.toggleAttribute('data-split', !combined);
+      viewport.style.width = combined ? '0px' : widths[count] + 'px';
+      viewport.inert = combined;
+      if (categoryLabel) categoryLabel.inert = count === 0;
+      current.hidden = !combined;
+      links.forEach((link, index) => {
+        link.inert = index >= count;
+        choices[index].hidden = index < count;
+      });
+      if (menu.hidden) menu.open = false;
+
+      // When a resize moves a focused link, keep keyboard navigation in this control.
+      if (active instanceof HTMLElement && context.contains(active) &&
+          (active.closest('[inert], [hidden]') || (menu.contains(active) && !menu.open && active !== summary))) {
+        (menu.hidden ? tab : summary).focus({ preventScroll: true });
+      }
+    }
+
+    const observer = new ResizeObserver(arrange);
+    observer.observe(context);
+    observer.observe(track);
+    arrange();
+  }
+  const context = document.querySelector<HTMLElement>('.page-context');
+  if (context) fitPageContext(context);
+</script>

@@ -1,12 +1,28 @@
 ---
 import '../styles/global.css';
 import '../styles/wiki-header.css';
+import type { ComponentProps } from 'astro/types';
 import WikiHeader from '../components/WikiHeader.astro';
 import WikiNavigation from '../components/WikiNavigation.astro';
 import { wiki } from '../lib/wiki.js';
 
-const { title, description, source, categories = [], mainPage = false, searchable = true, showTitle = false } = Astro.props;
-const pageClass = `page-${title.replaceAll(' ', '_')}`;
+interface Props {
+  title: string;
+  description: string;
+  source: string;
+  kind?: ComponentProps<typeof WikiHeader>['page']['kind'];
+  categories?: string[];
+  searchable?: boolean;
+  showTitle?: boolean;
+}
+const { title, description, source, categories = [], kind = 'utility', searchable = true, showTitle = false } = Astro.props;
+const heading = kind === 'category' ? `Category:${title}` : title;
+const pageClass = `page-${heading.replaceAll(' ', '_')}`;
+const page = {
+  kind, title,
+  href: kind === 'home' ? '/' : Astro.url.pathname.replace(/(?:\.html|\/)$/, '') || '/',
+  categories: categories.map(name => ({ name, href: wiki(`Category:${name}`) })),
+};
 ---
 
 <!doctype html>
@@ -15,7 +31,7 @@ const pageClass = `page-${title.replaceAll(' ', '_')}`;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.ico" />
-    <title>{mainPage ? 'Kenshi Wiki' : `${title} - Kenshi Wiki`}</title>
+    <title>{kind === 'home' ? 'Kenshi Wiki' : `${heading} - Kenshi Wiki`}</title>
     <meta name="description" content={description} />
     <script is:inline>
       document.documentElement.dataset.navigation = 'open';
@@ -30,10 +46,10 @@ const pageClass = `page-${title.replaceAll(' ', '_')}`;
   </head>
   <body class={`mediawiki ltr sitedir-ltr ns-0 ns-subject ${pageClass} skin-vector action-view skin-vector-legacy`}>
     <a class="reader-skip" href="#content">Skip to content</a>
-    <WikiHeader {title} {source} {mainPage} />
+    <WikiHeader {page} {source} />
     <WikiNavigation />
     <main id="content" class="mw-body" tabindex="0" aria-label="Wiki content" data-pagefind-body={searchable ? '' : undefined}>
-      <h1 id="firstHeading" class="firstHeading" style={showTitle ? 'display: block' : undefined}>{title}</h1>
+      <h1 id="firstHeading" class="firstHeading" style={showTitle ? 'display: block' : undefined}>{heading}</h1>
       <div id="bodyContent" class="mw-body-content">
         <div id="mw-content-text" class="mw-content-ltr">
           <div class="mw-parser-output">
@@ -41,13 +57,13 @@ const pageClass = `page-${title.replaceAll(' ', '_')}`;
           </div>
         </div>
 
-        {categories.length > 0 && (
+        {kind === 'article' && page.categories.length > 0 && (
           <div id="catlinks" class="catlinks">
             <div id="mw-normal-catlinks" class="mw-normal-catlinks">
               {categories.length === 1 ? 'Category' : 'Categories'}:{' '}
               <ul>
-                {categories.map((category) => (
-                  <li><a href={wiki(`Category:${category}`)}>{category}</a></li>
+                {page.categories.map(({ name, href }) => (
+                  <li><a href={href}>{name}</a></li>
                 ))}
               </ul>
             </div>

@@ -2,15 +2,16 @@
 import RibbonLinks from './RibbonLinks.astro';
 import RibbonMenu from './RibbonMenu.astro';
 import { ecosystem, platforms, morePlatforms } from '../lib/header-links.js';
-import { repoUrl, wiki } from '../lib/wiki.js';
+import { repoUrl } from '../lib/wiki.js';
+import type { ComponentProps } from 'astro/types';
+import PageContext from './PageContext.astro';
 
 interface Props {
-  title: string;
+  page: ComponentProps<typeof PageContext>;
   source: string;
-  mainPage: boolean;
 }
 
-const { title, source, mainPage } = Astro.props;
+const { page, source } = Astro.props;
 const tools = [
   { label: 'Contributors', href: '/contributors' },
   { label: 'Edit on GitHub', href: `${repoUrl}/edit/main/${source}`, glyph: 'github' },
@@ -67,7 +68,7 @@ const resources = [...platforms, ...morePlatforms];
 
   <div class="wiki-page-bar">
     <button id="navigation-toggle" class="wiki-page-tab navigation-toggle" type="button" aria-controls="mw-panel" aria-expanded="true" hidden>Navigation</button>
-    <a class="wiki-page-tab" aria-current="page" href={mainPage ? '/' : wiki(title)}>{mainPage ? 'Main page' : 'Page'}</a>
+    <PageContext {...page} />
     <nav class="page-history" aria-label="Revision history">
       {history.map(({ label, href }) => <a class="wiki-page-tab" href={href}>{label}</a>)}
     </nav>

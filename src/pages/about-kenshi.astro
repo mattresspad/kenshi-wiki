@@ -5,6 +5,9 @@ import Toc from '../components/Toc.astro';
 import Gallery from '../components/Gallery.astro';
 import Navbox from '../components/Navbox.astro';
 import { developmentUrl, wiki } from '../lib/wiki.js';
+import { categoryIndex } from '../lib/categories.js';
+
+const categoryPages = await categoryIndex();
 
 const link = (title, href = wiki(title)) => `<a href="${href}">${title}</a>`;
 
@@ -81,7 +84,8 @@ const navbox = [
   title="About Kenshi"
   description="Kenshi is an open-world, squad-based RPG by Lo-Fi Games."
   source="src/pages/about-kenshi.astro"
-  categories={['Games', 'Example pages']}
+  kind="article"
+  categories={['Games', 'Example pages'].filter(name => categoryPages.has(name))}
 >
   <div class="notice">
     <b>Example page.</b> This article shows the parts a wiki page can use: infobox, table of contents, tables, a collapsed section, a
