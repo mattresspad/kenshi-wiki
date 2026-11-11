@@ -14,6 +14,12 @@ For game mechanics, tell us what you observed. The game version, whether mods we
 
 GitHub runs the site checks. A maintainer reviews the wording and can help with formatting or build errors.
 
+## Reuse a wiki article
+
+Building something for Kenshi players? We welcome independent projects that link to the wiki or reuse its articles under the license shown on each page.
+
+When you reuse article text, link back to the article and its license, keep its contributor and source credits, and tell readers what you changed. On pages adapted from the Kenshi Fandom wiki, those credits lead back to the original revision and its authors. See [Licenses and reuse](https://kenshi.wiki/contributors#licensing) for the terms that apply to your version.
+
 ## Work on the website
 
 For a problem with layout, navigation, search, or other site behavior, [open a website issue](https://github.com/mattresspad/kenshi-wiki/issues/new?template=website.yml). Include the page and what you expected to happen. A screenshot can help with visual changes.
