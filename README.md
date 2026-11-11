@@ -4,6 +4,15 @@ Community wiki for [Kenshi](https://lofigames.com/), built with [Astro](https://
 
 ## Contributors and licenses
 
+<!-- Add up to four contributors per table row, then start another row. -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/mattresspad"><img src="https://avatars.githubusercontent.com/u/138346001?s=72" width="36" height="36" alt=""><br><strong>Prd</strong></a><br><sub>Layout design · Deployment</sub></td>
+    <td align="center"><a href="https://github.com/teppuM"><img src="https://avatars.githubusercontent.com/u/74569890?s=72" width="36" height="36" alt=""><br><strong>teppuM</strong></a><br><sub>Editing · Game testing</sub></td>
+    <td align="center"><a href="https://github.com/VlcekM"><img src="https://avatars.githubusercontent.com/u/84700611?s=72" width="36" height="36" alt=""><br><strong>VlcekM</strong></a><br><sub>Site architecture · Editing</sub></td>
+  </tr>
+</table>
+
 [VlcekM](https://github.com/VlcekM) built the original Astro prototype and proposed RimWorld Wiki as the model for its presentation. Prd ([mattresspad](https://github.com/mattresspad)) founded and maintains Kenshi Wiki, added the ecosystem navigation, and set up the site’s Cloudflare deployment. The wiki’s theme, Outland, adapts the legacy Vector skin and styling from RimWorld Wiki.
 
 [teppuM](https://github.com/teppuM) documented Skeleton Repair Bed and Robotics job behavior with repeatable in-game tests. [Meet the wiki's contributors](https://github.com/mattresspad/kenshi-wiki/graphs/contributors).
