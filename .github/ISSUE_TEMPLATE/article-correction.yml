@@ -1,0 +1,22 @@
+name: Article correction
+description: Tell the editors about a typo, missing detail, or game mechanic.
+body:
+  - type: input
+    id: article
+    attributes:
+      label: Which article?
+      description: Paste its address or give the page title.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should change?
+      description: Your own words are fine. Suggested wording is welcome too.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: How can we check it? (optional)
+      description: For a game mechanic, a source or a short description of what you saw in-game helps.
