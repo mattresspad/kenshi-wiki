@@ -6,9 +6,15 @@ Community wiki for [Kenshi](https://lofigames.com/), built with [Astro](https://
 
 [VlcekM](https://github.com/VlcekM) built the original Astro prototype and proposed RimWorld Wiki as the model for its presentation. Prd ([mattresspad](https://github.com/mattresspad)) founded and maintains Kenshi Wiki, added the ecosystem navigation, and set up the site’s Cloudflare deployment. The wiki’s theme, Outland, adapts the legacy Vector skin and styling from RimWorld Wiki.
 
-The [Contributors page on staging](https://kenshi-wiki-staging.prds.workers.dev/contributors) gives the upstream credits, license texts, and editable skin sources. The [repository history](https://github.com/mattresspad/kenshi-wiki/commits/main/) records individual changes.
+[teppuM](https://github.com/teppuM) documented Skeleton Repair Bed and Robotics job behavior with repeatable in-game tests. [Meet the wiki's contributors](https://github.com/mattresspad/kenshi-wiki/graphs/contributors).
+
+The [Contributors page](https://kenshi.wiki/contributors) gives the upstream credits, license texts, and editable skin sources. The [repository history](https://github.com/mattresspad/kenshi-wiki/commits/main/) records individual changes.
 
 Original wiki article text is licensed under [CC BY-SA 4.0](public/notices/CC-BY-SA-4.0.txt); articles adapted from the Kenshi Fandom wiki stay under [CC BY-SA 3.0](public/notices/CC-BY-SA-3.0.txt) and credit their source. A general license for original project software is deferred. The [Vector license](public/notices/Vector-COPYING.txt), [MediaWiki notices](public/notices/MediaWiki-COPYING.txt), and [RimWorld Wiki policy](https://rimworldwiki.com/wiki/RimWorld_Wiki:Copyrights) apply to their respective materials. See the [artwork inventory](public/notices/artwork.txt) for per-file terms and outstanding questions before publishing Git history.
+
+## Acknowledgements
+
+Thanks to Yurii at [PinDrop](https://pindrop.gg/kenshi) for crediting Prd’s Kenshi Interactive Map and linking players from places on the map to their articles here.
 
 ## Develop
 
@@ -25,7 +31,9 @@ It indexes each page's `<main>`; pass `searchable={false}` to `WikiLayout` to le
 
 ## Contributing
 
-Contributions are made as pull requests on GitHub.
+Spotted something wrong on a page? [Suggest an article correction](https://github.com/mattresspad/kenshi-wiki/issues/new?template=article-correction.yml) or use **Edit on GitHub** on the article itself. For a problem with search, navigation, or layout, [report a website issue](https://github.com/mattresspad/kenshi-wiki/issues/new?template=website.yml).
+
+The [contribution guide](CONTRIBUTING.md) walks through a first edit in the browser. The notes below cover development and the tools that generate parts of the site.
 
 - Articles imported from the Kenshi Fandom wiki live in `src/content/wiki/` as Markdown, one file per page (CC BY-SA 3.0,
   credited on each page). `node scripts/import-fandom.mjs [title ...]` re-imports them; images are not imported.
