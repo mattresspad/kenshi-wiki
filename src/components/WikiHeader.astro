@@ -12,13 +12,15 @@ interface Props {
 }
 
 const { page, source } = Astro.props;
+const sourcePath = source.split('/').map(encodeURIComponent).join('/');
+const isCategory = page.kind === 'category';
 const tools = [
   { label: 'Contributors', href: '/contributors' },
-  { label: 'Edit on GitHub', href: `${repoUrl}/edit/main/${source}`, glyph: 'github' },
+  { label: isCategory ? 'Edit layout on GitHub' : 'Edit on GitHub', href: `${repoUrl}/edit/main/${sourcePath}`, glyph: 'github' },
 ];
 const history = [
   { label: 'Recent changes', href: `${repoUrl}/commits/main/` },
-  { label: 'View history', href: `${repoUrl}/commits/main/${source}` },
+  { label: isCategory ? 'Layout history' : 'View history', href: `${repoUrl}/commits/main/${sourcePath}` },
 ];
 const resources = [...platforms, ...morePlatforms];
 ---

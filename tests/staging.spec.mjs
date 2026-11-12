@@ -88,6 +88,27 @@ for (const { route, file, source } of pages) {
   });
 }
 
+test('Locations distinguishes layout edits from article membership edits', async ({ page }) => {
+  await page.goto('/category/locations');
+  const header = page.locator('.wiki-header');
+  const categorySource = 'src/pages/category/%5B...category%5D.astro';
+  const layoutEdit = header.getByRole('link', { name: 'Edit layout on GitHub' });
+  await expect(layoutEdit).toHaveAttribute('href', `${repoUrl}/edit/main/${categorySource}`);
+  await expect(header.getByRole('link', { name: 'Layout history' })).toHaveAttribute('href', `${repoUrl}/commits/main/${categorySource}`);
+  const main = page.getByRole('main');
+  await expect(main).toContainText('open that article, choose Edit on GitHub, and update its categories list');
+
+  await page.setViewportSize({ width: 390, height: 844 });
+  const tools = header.locator('.tools-menu');
+  await tools.locator('summary').click();
+  await expect(layoutEdit).toHaveAttribute('href', `${repoUrl}/edit/main/${categorySource}`);
+  await page.keyboard.press('Escape');
+  await main.getByRole('link', { name: 'Port North', exact: true }).click();
+  await tools.locator('summary').click();
+  await expect(tools.getByRole('link', { name: 'Edit on GitHub', exact: true }))
+    .toHaveAttribute('href', `${repoUrl}/edit/main/src/content/wiki/port-north.md`);
+});
+
 test('the header search suggests pages as you type', async ({ page, baseURL }) => {
   await page.goto('/');
   const search = page.locator('#searchInput');
