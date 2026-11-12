@@ -24,7 +24,15 @@ infobox:
 
 He is also notable for his [Meitou](/meitou)\-grade [Ringed Sabre](/ringed-sabre) as well as a valuable [AI Core](/ai-core), however, removing this core causes him to die.
 
-<table class="wikitable"><tbody><tr><td colspan="4"><b>Death Items</b></td></tr><tr><td colspan="4"><i>Removing these items from the creature will kill it instantly.</i></td></tr><tr><td colspan="4"><hr></td></tr><tr><th colspan="2">Item</th><th scope="col">Quantity</th><th scope="col">Average Price</th></tr><tr><td></td><td align="left"><a href="/ai-core">AI Core</a></td><td>1</td><td>25,000</td></tr></tbody></table>
+<div class="creature-drops">
+<table class="wikitable creature-table">
+<caption>Death Items</caption>
+<thead><tr><th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">Average price</th></tr></thead>
+<tbody>
+<tr><td><a href="/ai-core">AI Core</a></td><td>1</td><td>25,000</td></tr>
+</tbody></table>
+<p class="creature-table-note"><i>Removing these items from the creature will kill it instantly.</i></p>
+</div>
 
   
 

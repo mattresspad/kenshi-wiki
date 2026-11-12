@@ -32,7 +32,32 @@ As Beak Things are very difficult to outrun, low-level characters who cannot def
 
 The Beak Thing's penchant for eating prey alive is alluded to in a bar conversation that can be heard in the [United Cities](/united-cities), in which two residents discuss an [Anti-Slaver](/anti-slavers) raiding party leaving a victim tied up "for the Gutters." If a unit is knocked into recovery coma and a Beak Thing begins to eat it, their best hope for survival is to have another party member fight it or lure it away, as they rarely stop eating before every body part has been consumed from the bottom up. If not knocked into a recovery coma the character will instantly get back up upon being eaten causing the Beak Thing to flee.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"><b>Statistics</b></td></tr><tr><th scope="col">Attributes</th><th align="center" scope="col">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">35</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">35</td></tr><tr><td><a href="/strength">Strength</a></td><td align="center">35</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">35</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">35</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">3.5</td></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">35</td></tr><tr><td colspan="2" align="center">Stats randomize by 2</td></tr><tr><td colspan="2"></td></tr><tr><td>Teen (0.40x)</td><td align="center">16 days</td></tr><tr><td>Adult (0.60x)</td><td align="center">24 days</td></tr><tr><td>Elder (1.10x)</td><td align="center">44 days</td></tr><tr><td colspan="3" align="center"><br><i>The Statistics here are taken from <a href="/forgotten-construction-set">FCS</a>. Players should be aware that animal characters level up as they grow, and may be stronger or weaker depending on their current age.</i></td></tr></tbody></table>
+<div class="creature-stats">
+<div>
+<table class="wikitable creature-table">
+<caption>Attributes</caption>
+<thead><tr><th scope="col">Attribute</th><th scope="col">Level</th></tr></thead>
+<tbody>
+<tr><td><a href="/melee-attack">Melee Attack</a></td><td>35</td></tr>
+<tr><td><a href="/melee-defence">Melee Defence</a></td><td>35</td></tr>
+<tr><td><a href="/strength">Strength</a></td><td>35</td></tr>
+<tr><td><a href="/dexterity">Dexterity</a></td><td>35</td></tr>
+<tr><td><a href="/toughness">Toughness</a></td><td>35</td></tr>
+<tr><td><a href="/martial-arts">Martial Arts</a></td><td>3.5</td></tr>
+<tr><td><a href="/athletics">Athletics</a></td><td>35</td></tr>
+</tbody></table>
+<p class="creature-table-note">Stats randomize by 2</p>
+</div>
+<table class="wikitable creature-table">
+<caption>Growth stages</caption>
+<thead><tr><th scope="col">Stage</th><th scope="col">Age</th></tr></thead>
+<tbody>
+<tr><td>Teen (0.40x)</td><td>16 days</td></tr>
+<tr><td>Adult (0.60x)</td><td>24 days</td></tr>
+<tr><td>Elder (1.10x)</td><td>44 days</td></tr>
+</tbody></table>
+</div>
+<p class="creature-table-note"><i>The Statistics here are taken from <a href="/forgotten-construction-set">FCS</a>. Players should be aware that animal characters level up as they grow, and may be stronger or weaker depending on their current age.</i></p>
 
 ## Dealing with Beak Things
 
@@ -44,7 +69,17 @@ Like most animals in Kenshi, Beak Thing attacks mostly deal cutting damage, whic
 
 [Polearms](/polearms) and Naginatas are fantastic at dealing with Beak Things due to their +50% bonus damage to animals on top of their very fast attack animations. A [Falling Sun](/falling-sun) will also make short work of Beak Things capable of clearing through waves of them provided you are able to wield it correctly.
 
-<table class="wikitable"><tbody><tr><td colspan="4"><b>Death Items</b></td></tr><tr><td colspan="4"><i>Removing these items from the creature will kill it instantly.</i></td></tr><tr><td colspan="4"><hr></td></tr><tr><th colspan="2">Item</th><th scope="col">Quantity</th><th scope="col">Average Price</th></tr><tr><td></td><td align="left"><a href="/animal-skin">Animal Skin</a></td><td>6</td><td>240</td></tr><tr><td></td><td align="left"><a href="/foul-raw-meat">Foul Raw Meat</a></td><td>12</td><td>1</td></tr><tr><td></td><td align="left"><a href="/raw-meat">Raw Meat</a></td><td>5</td><td>60</td></tr></tbody></table>
+<div class="creature-drops">
+<table class="wikitable creature-table">
+<caption>Death Items</caption>
+<thead><tr><th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">Average price</th></tr></thead>
+<tbody>
+<tr><td><a href="/animal-skin">Animal Skin</a></td><td>6</td><td>240</td></tr>
+<tr><td><a href="/foul-raw-meat">Foul Raw Meat</a></td><td>12</td><td>1</td></tr>
+<tr><td><a href="/raw-meat">Raw Meat</a></td><td>5</td><td>60</td></tr>
+</tbody></table>
+<p class="creature-table-note"><i>Removing these items from the creature will kill it instantly.</i></p>
+</div>
 
   
 

@@ -25,7 +25,16 @@ He wields a [Meitou](/meitou) grade [Combat Cleaver](/combat-cleaver) and is a d
   
 His [Gurgler Head](/gurgler-head) can be looted from his body and sold to collect on his bounty. Looting the head from his unconscious body will result in his immediate death.
 
-<table class="wikitable"><tbody><tr><td colspan="4"><b>Death Items</b></td></tr><tr><td colspan="4"><i>Removing these items from the creature will kill it instantly.</i></td></tr><tr><td colspan="4"><hr></td></tr><tr><th colspan="2">Item</th><th scope="col">Quantity</th><th scope="col">Average Price</th></tr><tr><td></td><td align="left"><a href="/foul-raw-meat">Foul Raw Meat</a></td><td>4</td><td>1</td></tr><tr><td></td><td align="left"><a href="/gurgler-head">Gurgler Head</a></td><td>1</td><td>60,000</td></tr></tbody></table>
+<div class="creature-drops">
+<table class="wikitable creature-table">
+<caption>Death Items</caption>
+<thead><tr><th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">Average price</th></tr></thead>
+<tbody>
+<tr><td><a href="/foul-raw-meat">Foul Raw Meat</a></td><td>4</td><td>1</td></tr>
+<tr><td><a href="/gurgler-head">Gurgler Head</a></td><td>1</td><td>60,000</td></tr>
+</tbody></table>
+<p class="creature-table-note"><i>Removing these items from the creature will kill it instantly.</i></p>
+</div>
 
   
 

@@ -18,62 +18,75 @@ const shortcuts = [
 ---
 
 <aside id="mw-panel" aria-label="Wiki sidebar">
-  <div id="p-logo">
-    <a class="mw-wiki-logo" href="/" aria-label="Kenshi Wiki main page"></a>
-  </div>
-  <div class="rail-nav">
-    <nav id="p-navigation" aria-labelledby="wiki-nav-heading">
-      <h2 class="rail-heading" id="wiki-nav-heading">Navigation</h2>
-      <ul class="rail-list">
-        {shortcuts.map(([label, path]) => (
-          <li><a href={path} aria-current={path === href ? 'page' : undefined}>{label}</a></li>
-        ))}
-      </ul>
-    </nav>
-
-    {showOutline && (
-      <nav class="rail-outline" aria-label="Article sections">
-        <details>
-          <summary>On this page</summary>
-          <ul class="rail-list rail-branch">
-            {outline.map(section => (
-              <li class:list={['outline-section', { 'has-children': section.children?.length }]}>
-                <a href={`#${encodeURIComponent(section.id)}`}>{section.title}</a>
-                {!!section.children?.length && (
-                  <details class="outline-children">
-                    <summary aria-label={`Subsections of ${section.title}`} title={`Subsections of ${section.title}`}></summary>
-                    <ul class="rail-list rail-branch">
-                      {section.children.map(child => <li><a href={`#${encodeURIComponent(child.id)}`}>{child.title}</a></li>)}
-                    </ul>
-                  </details>
-                )}
-              </li>
-            ))}
-          </ul>
-        </details>
+  <div class="rail-scroll">
+    <div id="p-logo">
+      <a class="mw-wiki-logo" href="/" aria-label="Kenshi Wiki main page"></a>
+    </div>
+    <div class="rail-nav">
+      <nav id="p-navigation" aria-labelledby="wiki-nav-heading">
+        <h2 class="rail-heading" id="wiki-nav-heading">Navigation</h2>
+        <ul class="rail-list">
+          {shortcuts.map(([label, path]) => (
+            <li><a href={path} aria-current={path === href ? 'page' : undefined}>{label}</a></li>
+          ))}
+        </ul>
       </nav>
-    )}
 
-    <nav class="rail-topics" aria-labelledby="browse-topics-heading">
-      <h2 class="rail-heading" id="browse-topics-heading">Browse topics</h2>
-      {directory.map(section => (
-        <details data-topic={section.title}>
-          <summary>{section.title}</summary>
-          <div class="rail-branch">
-            {section.cards.map(card => (
-              <details data-topic={`${section.title}/${card.title}`}>
-                <summary>{card.title}</summary>
-                <ul class="rail-list rail-branch">
-                  {card.browseLinks.map(link => (
-                    <li><a href={link.href} aria-current={link.href === href ? 'page' : undefined}>{link.label}</a></li>
-                  ))}
-                </ul>
-              </details>
-            ))}
-          </div>
-        </details>
-      ))}
-    </nav>
+      {showOutline && (
+        <nav class="rail-outline" aria-label="Article sections">
+          <details open>
+            <summary>On this page</summary>
+            <ul class="rail-list rail-branch">
+              {outline.map(section => (
+                <li class:list={['outline-section', { 'has-children': section.children?.length }]}>
+                  <a href={`#${encodeURIComponent(section.id)}`}>{section.title}</a>
+                  {!!section.children?.length && (
+                    <details class="outline-children">
+                      <summary aria-label={`Subsections of ${section.title}`} title={`Subsections of ${section.title}`}></summary>
+                      <ul class="rail-list rail-branch">
+                        {section.children.map(child => <li><a href={`#${encodeURIComponent(child.id)}`}>{child.title}</a></li>)}
+                      </ul>
+                    </details>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </details>
+        </nav>
+      )}
+
+      <nav class="rail-topics" aria-labelledby="browse-topics-heading">
+        <h2 class="rail-heading" id="browse-topics-heading">Browse topics</h2>
+        {directory.map(section => (
+          <details data-topic={section.title}>
+            <summary>{section.title}</summary>
+            <div class="rail-branch">
+              {section.cards.map(card => (
+                <details data-topic={`${section.title}/${card.title}`}>
+                  <summary>{card.title}</summary>
+                  <ul class="rail-list rail-branch">
+                    {card.browseLinks.map(link => (
+                      <li><a href={link.href} aria-current={link.href === href ? 'page' : undefined}>{link.label}</a></li>
+                    ))}
+                  </ul>
+                </details>
+              ))}
+            </div>
+          </details>
+        ))}
+      </nav>
+    </div>
+  </div>
+  <div class="rail-settings" hidden>
+    <button type="button" id="sidebar-settings-toggle" aria-expanded="false" aria-controls="sidebar-settings-panel">Sidebar settings</button>
+    <div id="sidebar-settings-panel" hidden>
+      <fieldset>
+        <legend>Open article contents</legend>
+        <label><input type="radio" name="outline-mode" value="folded" /> Folded</label>
+        <label><input type="radio" name="outline-mode" value="headings" checked /> Headings</label>
+        <label><input type="radio" name="outline-mode" value="all" /> Headings and subsections</label>
+      </fieldset>
+    </div>
   </div>
 </aside>
 
@@ -83,9 +96,51 @@ const shortcuts = [
   const root = document.documentElement;
   const desktop = matchMedia('(min-width: 64rem) and (min-height: 40rem)');
 
+  const settings = rail.querySelector<HTMLElement>('.rail-settings')!;
+  const settingsButton = settings.querySelector<HTMLButtonElement>('button')!;
+  const panel = settings.querySelector<HTMLElement>('#sidebar-settings-panel')!;
+  const radios = Array.from(panel.querySelectorAll<HTMLInputElement>('input'));
+  const outline = rail.querySelector<HTMLDetailsElement>('.rail-outline > details');
+  const outlineKey = 'wiki-article-contents';
+  let mode = 'headings';
+
+  function applyMode(value: string | null) {
+    mode = value === 'folded' || value === 'all' ? value : 'headings';
+    for (const radio of radios) radio.checked = radio.value === mode;
+    if (outline) {
+      outline.open = mode !== 'folded';
+      for (const section of outline.querySelectorAll('details')) section.open = mode === 'all';
+    }
+  }
+  function restoreMode() {
+    try {
+      const saved = localStorage.getItem(outlineKey) ?? 'headings';
+      if (saved !== mode) applyMode(saved);
+    } catch { /* The native outline and this page's controls still work. */ }
+  }
+  function showSettings(open: boolean) {
+    panel.hidden = !open;
+    settingsButton.setAttribute('aria-expanded', String(open));
+  }
+  restoreMode();
+  settings.hidden = false;
+  settingsButton.addEventListener('click', () => {
+    showSettings(panel.hidden);
+    if (!panel.hidden) panel.querySelector<HTMLInputElement>(':checked')?.focus({ preventScroll: true });
+  });
+  panel.addEventListener('change', event => {
+    if (!(event.target instanceof HTMLInputElement)) return;
+    applyMode(event.target.value);
+    try { localStorage.setItem(outlineKey, mode); } catch { /* Keep the choice for this page. */ }
+  });
+  window.addEventListener('storage', event => {
+    if (event.key === outlineKey || event.key === null) restoreMode();
+  });
+
   function syncNavigation() {
     const open = desktop.matches ? root.dataset.navigation !== 'closed' : rail.hasAttribute('data-open');
     toggle.setAttribute('aria-expanded', String(open));
+    if (!open) showSettings(false);
     if (!open && rail.contains(document.activeElement)) toggle.focus({ preventScroll: true });
   }
 
@@ -135,12 +190,20 @@ const shortcuts = [
   });
 
   function dismissOutside(event: Event) {
-    if (event.target instanceof Node && !rail.contains(event.target) && !toggle.contains(event.target)) closeDrawer();
+    const target = event.target;
+    if (!(target instanceof Node)) return;
+    if (!panel.hidden && !settings.contains(target)) showSettings(false);
+    if (!rail.contains(target) && !toggle.contains(target)) closeDrawer();
   }
   document.addEventListener('pointerdown', dismissOutside);
   document.addEventListener('focusin', dismissOutside);
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && rail.hasAttribute('data-open')) {
+    if (event.key !== 'Escape') return;
+    if (!panel.hidden) {
+      showSettings(false);
+      settingsButton.focus({ preventScroll: true });
+      event.preventDefault();
+    } else if (rail.hasAttribute('data-open')) {
       closeDrawer();
       toggle.focus({ preventScroll: true });
       event.preventDefault();
@@ -154,6 +217,7 @@ const shortcuts = [
   window.addEventListener('pageshow', event => {
     if (!event.persisted) return; // Reconcile a restored document without closing a freshly opened drawer.
     restoreTopics();
+    restoreMode();
     try { root.dataset.navigation = localStorage.getItem('wiki-navigation') === 'closed' ? 'closed' : 'open'; } catch { /* Keep the in-memory choice. */ }
     rail.removeAttribute('data-open');
     syncNavigation();

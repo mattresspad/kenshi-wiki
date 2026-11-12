@@ -25,7 +25,15 @@ infobox:
 
 They wear \[Shoddy\] armour (22% chance of \[Standard\]) and have weapons manufactured by [Ancient](/ancient), [Catun Scrapmaster](/catun-scrapmaster), or [Skeleton Smiths](/skeleton-smiths).
 
-<table class="wikitable"><tbody><tr><td colspan="4"><b>Death Items</b></td></tr><tr><td colspan="4"><i>Removing these items from the creature will kill it instantly.</i></td></tr><tr><td colspan="4"><hr></td></tr><tr><th colspan="2">Item</th><th scope="col">Quantity</th><th scope="col">Average Price</th></tr><tr><td></td><td align="left"><a href="/old-cpu-unit">Old CPU Unit</a></td><td>1</td><td>600</td></tr></tbody></table>
+<div class="creature-drops">
+<table class="wikitable creature-table">
+<caption>Death Items</caption>
+<thead><tr><th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">Average price</th></tr></thead>
+<tbody>
+<tr><td><a href="/old-cpu-unit">Old CPU Unit</a></td><td>1</td><td>600</td></tr>
+</tbody></table>
+<p class="creature-table-note"><i>Removing these items from the creature will kill it instantly.</i></p>
+</div>
 
   
 
