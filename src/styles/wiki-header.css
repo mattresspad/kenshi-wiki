@@ -105,6 +105,86 @@
   outline-offset: -2px;
 }
 
+/* The rail uses the same directory as the homepage, with compact disclosures for browsing in place. */
+.rail-nav {
+  margin: 0 .85rem 1.25rem;
+  font-size: .8125rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.rail-nav nav + nav { margin-top: 1rem; }
+.rail-nav .rail-heading {
+  margin: 0 0 .25rem;
+  padding: 0 0 .3rem;
+  border: 0;
+  border-bottom: 1px solid var(--color-border-chrome);
+  color: var(--paper-10);
+  font: 600 .6875rem/1.4 sans-serif;
+  letter-spacing: .065em;
+  text-transform: uppercase;
+}
+.rail-nav .rail-list { list-style: none; margin: 0; padding: 0; }
+.rail-nav li { margin: 0; }
+.rail-nav a, .rail-nav summary {
+  box-sizing: border-box;
+  display: block;
+  padding: .24rem .25rem;
+  border-radius: 2px;
+}
+.rail-nav a:hover, .rail-nav summary:hover { background: var(--paper-03); }
+.rail-nav a[aria-current="page"] {
+  box-shadow: inset 2px 0 var(--accent-300);
+  background: var(--accent-100);
+  color: var(--color-text);
+  font-weight: 600;
+  padding-inline-start: .5rem;
+}
+.rail-nav summary {
+  display: flex;
+  align-items: baseline;
+  gap: .45rem;
+  color: var(--color-text);
+  cursor: pointer;
+  list-style: none;
+}
+.rail-nav summary::-webkit-details-marker { display: none; }
+.rail-nav summary::before {
+  content: '';
+  flex: none;
+  align-self: flex-start;
+  width: .35rem;
+  height: .35rem;
+  margin: .32rem .1rem 0;
+  border: solid var(--paper-09);
+  border-width: 0 1.5px 1.5px 0;
+  transform: rotate(-45deg);
+}
+.rail-nav details[open] > summary::before { transform: rotate(45deg); }
+#mw-panel summary:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: -2px;
+}
+.rail-topics > details > summary, .rail-outline > details > summary { font-weight: 600; }
+.rail-nav .rail-branch {
+  margin-inline-start: .37rem;
+  padding-inline-start: .5rem;
+  border-inline-start: 1px solid var(--color-border-chrome);
+}
+.outline-section { position: relative; }
+.outline-section.has-children > a { margin-inline-end: 1.6rem; }
+.outline-children > summary {
+  position: absolute;
+  inset: 0 0 auto auto;
+  width: 1.6rem;
+  height: 1.6rem;
+  justify-content: center;
+}
+@media screen and (width < 64rem), screen and (height < 40rem) {
+  .rail-nav a, .rail-nav summary { padding-block: .38rem; }
+  .outline-children > summary { width: 2rem; height: 1.95rem; }
+  .outline-section.has-children > a { margin-inline-end: 2rem; }
+}
+
 #footer.reader-footer {
   display: flex;
   flex-wrap: wrap;
