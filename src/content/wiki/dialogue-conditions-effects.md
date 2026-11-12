@@ -386,6 +386,7 @@ DA = Dialogue Action
     -   _“Adds a condition: Target squad has a member who is any of the given races. Multiple races is treated as an OR condition.”_
     -   Subraces are treated as equals. If the greenlander is triggered, so is scorchlander. If you want to trigger them separately, use subrace. \[Cattrina\]
     -   If I have seen this race in the Target squad within the last hour, this returns true. \[Soar\]
+    -   In a word swap such as /RACENAME/ (the race word in traders' lines), a line also passes when a nearby member of the target's squad is one of its races, but this never hands the conversation to that member: the character who started the talk keeps it.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>
 -   **Trigger Campaign**
     -   _“Triggers the given campaign, which will start after a random number of hours between val0-val1, val2 is %chance (is absolute chance, so if you list 2 things which total to less than 100, then there is a chance of nothing)”_
 -   **Unlock But Keep Me**
@@ -399,3 +400,5 @@ DA = Dialogue Action
     -   This will only lock the dialogue for the NPC that triggered it. So if you have multiple NPCs with the same dialogue tree, this will not lock it for all of them. This is the case even if it's the same type of NPC. This "limitation" actually has some very good applications when it comes to making "randomized" encounters from the same dialogue tree. _To unlock dialogues for other NPCs than the one that the player is speaking to, use dummy Relations/Faction and a Worldstate and make the worldstate a condition. This type of work around is used in Vanilla to make Tinfist have a specific dialogue if you have joined the Rebel Farmers._ \[LeCheech/Kodi Sky\]
 -   **World State**
     -   _“Adds this world state as an AND condition. 1=true, 0=false”_
+
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">A Shek talking to the Hive Trader was called "Shek" 4 times and "Human" 4 times in 8 tries with a Greenlander squad mate beside her, and "Shek" all 8 times with him kilometers away; the conversation was hers every time (Kenshi 1.0.68). Save and test mod: <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/teppuM/kenshi-test-data/tree/main/trader-race-word">kenshi-test-data</a>. Found while fixing <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/VlcekM/MeitouClient/pull/572">MeitouClient pull request 572</a>. Retrieved November 12, 2026.</span></li></ol>
