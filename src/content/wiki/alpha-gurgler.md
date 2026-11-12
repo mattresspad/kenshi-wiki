@@ -22,7 +22,15 @@ infobox:
 
 Unlike their weaker [brethren](/gurgler), Alpha Gurglers can stand toe to toe with most enemies due to their far tougher limbs. Their limb health and blood pool is double that of a normal [Gurgler](/gurgler). Like the other [Fishmen](/fishmen) they use [Martial Arts](/martial-arts).
 
-<table class="wikitable"><tbody><tr><td colspan="4"><b>Death Items</b></td></tr><tr><td colspan="4"><i>Removing these items from the creature will kill it instantly.</i></td></tr><tr><td colspan="4"><hr></td></tr><tr><th colspan="2">Item</th><th scope="col">Quantity</th><th scope="col">Average Price</th></tr><tr><td></td><td align="left"><a href="/foul-raw-meat">Foul Raw Meat</a></td><td>4</td><td>1</td></tr></tbody></table>
+<div class="creature-drops">
+<table class="wikitable creature-table">
+<caption>Death Items</caption>
+<thead><tr><th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">Average price</th></tr></thead>
+<tbody>
+<tr><td><a href="/foul-raw-meat">Foul Raw Meat</a></td><td>4</td><td>1</td></tr>
+</tbody></table>
+<p class="creature-table-note"><i>Removing these items from the creature will kill it instantly.</i></p>
+</div>
 
   
 

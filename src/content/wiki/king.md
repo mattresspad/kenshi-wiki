@@ -28,11 +28,47 @@ Prison poles are located northeast of the Southern Hive. If player is unable to 
 
 When spawned at the [Southern Hive](/southern-hive-location), King will spawn with an age multiplier of 2.40x to 2.50x, bringing his effective skills well over 100. Important to note however that when hitting an animal, you gain XP through stronger opponent logic based off their stats when they are age 1.0 leading to very minimal XP. He is very tanky and is impossible to defeat solo without using Crossbows, microing or using [exploited recruited characters](/anti-slaver-jonin). However, when spawned as part of the raid that attempts to rescue the [Queen of the South](/queen-of-the-south), he will only spawn with a multiplier of 0.90x to 1.00x, making him pathetically easy.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"><b>Statistics</b></td></tr><tr><th scope="col">Attributes</th><th align="center" scope="col">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">60</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">60</td></tr><tr><td><a href="/strength">Strength</a></td><td align="center">120</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">60</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">60</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">6</td></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">60</td></tr><tr><td colspan="2" align="center">Stats randomize by 3</td></tr><tr><td colspan="2"></td></tr><tr><td>Teen (0.40x)</td><td align="center">160 days</td></tr><tr><td>Adult (0.60x)</td><td align="center">240 days</td></tr><tr><td>Elder (1.10x)</td><td align="center">440 days</td></tr><tr><td colspan="3" align="center"><br><i>The Statistics here are taken from <a href="/forgotten-construction-set">FCS</a>. Players should be aware that animal characters level up as they grow, and may be stronger or weaker depending on their current age.</i></td></tr></tbody></table>
+<div class="creature-stats">
+<div>
+<table class="wikitable creature-table">
+<caption>Attributes</caption>
+<thead><tr><th scope="col">Attribute</th><th scope="col">Level</th></tr></thead>
+<tbody>
+<tr><td><a href="/melee-attack">Melee Attack</a></td><td>60</td></tr>
+<tr><td><a href="/melee-defence">Melee Defence</a></td><td>60</td></tr>
+<tr><td><a href="/strength">Strength</a></td><td>120</td></tr>
+<tr><td><a href="/dexterity">Dexterity</a></td><td>60</td></tr>
+<tr><td><a href="/toughness">Toughness</a></td><td>60</td></tr>
+<tr><td><a href="/martial-arts">Martial Arts</a></td><td>6</td></tr>
+<tr><td><a href="/athletics">Athletics</a></td><td>60</td></tr>
+</tbody></table>
+<p class="creature-table-note">Stats randomize by 3</p>
+</div>
+<table class="wikitable creature-table">
+<caption>Growth stages</caption>
+<thead><tr><th scope="col">Stage</th><th scope="col">Age</th></tr></thead>
+<tbody>
+<tr><td>Teen (0.40x)</td><td>160 days</td></tr>
+<tr><td>Adult (0.60x)</td><td>240 days</td></tr>
+<tr><td>Elder (1.10x)</td><td>440 days</td></tr>
+</tbody></table>
+</div>
+<p class="creature-table-note"><i>The Statistics here are taken from <a href="/forgotten-construction-set">FCS</a>. Players should be aware that animal characters level up as they grow, and may be stronger or weaker depending on their current age.</i></p>
 
 Although he is supposed to have an [AI Core](/ai-core), it does not spawn due to his small inventory size.
 
-<table class="wikitable"><tbody><tr><td colspan="4"><b>Death Items</b></td></tr><tr><td colspan="4"><i>Removing these items from the creature will kill it instantly.</i></td></tr><tr><td colspan="4"><hr></td></tr><tr><th colspan="2">Item</th><th scope="col">Quantity</th><th scope="col">Average Price</th></tr><tr><td></td><td align="left"><a href="/ai-core">AI Core</a></td><td>1 (Does not actually spawn)</td><td>25,000</td></tr><tr><td></td><td align="left"><a href="/armour-plating">Armour Plating</a></td><td>4</td><td>504</td></tr><tr><td></td><td align="left"><a href="/cpu-unit">CPU Unit</a></td><td>4</td><td>6,000</td></tr><tr><td></td><td align="left"><a href="/robotics-components">Robotics Components</a></td><td>4</td><td>2,838</td></tr></tbody></table>
+<div class="creature-drops">
+<table class="wikitable creature-table">
+<caption>Death Items</caption>
+<thead><tr><th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">Average price</th></tr></thead>
+<tbody>
+<tr><td><a href="/ai-core">AI Core</a></td><td>1 (Does not actually spawn)</td><td>25,000</td></tr>
+<tr><td><a href="/armour-plating">Armour Plating</a></td><td>4</td><td>504</td></tr>
+<tr><td><a href="/cpu-unit">CPU Unit</a></td><td>4</td><td>6,000</td></tr>
+<tr><td><a href="/robotics-components">Robotics Components</a></td><td>4</td><td>2,838</td></tr>
+</tbody></table>
+<p class="creature-table-note"><i>Removing these items from the creature will kill it instantly.</i></p>
+</div>
 
 ## Health Statistics
 

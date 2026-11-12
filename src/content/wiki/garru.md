@@ -23,9 +23,43 @@ Although generally not aggressive, wild Garru can be skittish and may attack if 
 
 An enraged Garru is a formidable and sturdy fighter and should not be underestimated. They can frequently be found destroying whole squads of hungry bandits tempted by their plentiful meat and occasionally triumph even over small groups of [Beak Things](/beak-thing). They have a large health pool and, like all animals, cannot be staggered, making them anything but a soft target.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"><b>Statistics</b></td></tr><tr><th scope="col">Attributes</th><th align="center" scope="col">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">30</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">30</td></tr><tr><td><a href="/strength">Strength</a></td><td align="center">30</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">30</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">30</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">3</td></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">30</td></tr><tr><td colspan="2" align="center">Stats randomize by 3</td></tr><tr><td colspan="2"></td></tr><tr><td>Teen (0.40x)</td><td align="center">16 days</td></tr><tr><td>Adult (0.60x)</td><td align="center">24 days</td></tr><tr><td>Elder (1.10x)</td><td align="center">44 days</td></tr><tr><td colspan="3" align="center"><br><i>The Statistics here are taken from <a href="/forgotten-construction-set">FCS</a>. Players should be aware that animal characters level up as they grow, and may be stronger or weaker depending on their current age.</i></td></tr></tbody></table>
+<div class="creature-stats">
+<div>
+<table class="wikitable creature-table">
+<caption>Attributes</caption>
+<thead><tr><th scope="col">Attribute</th><th scope="col">Level</th></tr></thead>
+<tbody>
+<tr><td><a href="/melee-attack">Melee Attack</a></td><td>30</td></tr>
+<tr><td><a href="/melee-defence">Melee Defence</a></td><td>30</td></tr>
+<tr><td><a href="/strength">Strength</a></td><td>30</td></tr>
+<tr><td><a href="/dexterity">Dexterity</a></td><td>30</td></tr>
+<tr><td><a href="/toughness">Toughness</a></td><td>30</td></tr>
+<tr><td><a href="/martial-arts">Martial Arts</a></td><td>3</td></tr>
+<tr><td><a href="/athletics">Athletics</a></td><td>30</td></tr>
+</tbody></table>
+<p class="creature-table-note">Stats randomize by 3</p>
+</div>
+<table class="wikitable creature-table">
+<caption>Growth stages</caption>
+<thead><tr><th scope="col">Stage</th><th scope="col">Age</th></tr></thead>
+<tbody>
+<tr><td>Teen (0.40x)</td><td>16 days</td></tr>
+<tr><td>Adult (0.60x)</td><td>24 days</td></tr>
+<tr><td>Elder (1.10x)</td><td>44 days</td></tr>
+</tbody></table>
+</div>
+<p class="creature-table-note"><i>The Statistics here are taken from <a href="/forgotten-construction-set">FCS</a>. Players should be aware that animal characters level up as they grow, and may be stronger or weaker depending on their current age.</i></p>
 
-<table class="wikitable"><tbody><tr><td colspan="4"><b>Death Items</b></td></tr><tr><td colspan="4"><i>Removing these items from the creature will kill it instantly.</i></td></tr><tr><td colspan="4"><hr></td></tr><tr><th colspan="2">Item</th><th scope="col">Quantity</th><th scope="col">Average Price</th></tr><tr><td></td><td align="left"><a href="/animal-skin">Animal Skin</a></td><td>3</td><td>240</td></tr><tr><td></td><td align="left"><a href="/raw-meat">Raw Meat</a></td><td>10</td><td>60</td></tr></tbody></table>
+<div class="creature-drops">
+<table class="wikitable creature-table">
+<caption>Death Items</caption>
+<thead><tr><th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">Average price</th></tr></thead>
+<tbody>
+<tr><td><a href="/animal-skin">Animal Skin</a></td><td>3</td><td>240</td></tr>
+<tr><td><a href="/raw-meat">Raw Meat</a></td><td>10</td><td>60</td></tr>
+</tbody></table>
+<p class="creature-table-note"><i>Removing these items from the creature will kill it instantly.</i></p>
+</div>
 
 ## Health Statistics
 

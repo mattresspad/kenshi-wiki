@@ -391,6 +391,13 @@ details.collapsible > :not(summary) {
   margin-right: 0.6em;
 }
 
+/* Imported two-row disclosures sometimes begin with a single empty spacer cell. */
+details.collapsible > table.wikitable > tbody:only-child > tr:first-child:has(
+  > td:only-child:empty:not([rowspan], [colspan])
+):has(+ tr:last-child > td:only-child:not(:empty)) {
+  display: none;
+}
+
 /* Outland main page. The same directory reflows when the reader opens the rail. */
 .home-intro {
   display: flex;
@@ -490,4 +497,35 @@ details.collapsible > :not(summary) {
 }
 @media (max-width: 36rem) {
   .home-intro { flex-direction: column; align-items: start; gap: .5rem; }
+}
+
+/* Compact reference tables from the Fandom animal templates. */
+.creature-stats {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: .6rem 1.25rem;
+  margin-block: .65rem .35rem;
+}
+.creature-drops { margin-block: 1rem; }
+.mw-parser-output .creature-table { width: fit-content; max-width: 100%; margin: 0; }
+.mw-parser-output .creature-table caption {
+  padding: 0 0 .25rem;
+  color: var(--color-text);
+  font-weight: 650;
+  text-align: start;
+}
+.mw-parser-output .creature-table :is(th, td) { text-align: start; }
+.mw-parser-output .creature-table td:not(:first-child) {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+.mw-parser-output p.creature-table-note {
+  max-width: 70ch;
+  margin: .35rem 0 .6rem;
+  color: var(--paper-10);
+  font-size: .9em;
+}
+@media screen and (max-width: 40rem) {
+  .creature-stats { flex-direction: column; }
 }

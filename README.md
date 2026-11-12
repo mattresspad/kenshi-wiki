@@ -67,6 +67,7 @@ The [contribution guide](CONTRIBUTING.md) walks through a first edit in the brow
   differ from the game's. Re-run it after `import-fandom.mjs`.
 - `node scripts/grade-tables.mjs` merges the stat cards Fandom lists once per armour grade into one table with a column per
   grade. Re-run it after `import-fandom.mjs` too.
+- The Fandom importer converts creature Statistics and Death Items tables. Run `node scripts/creature-tables.mjs` to apply the same conversion to existing articles offline.
 - Pages live in `src/pages/`; `about-kenshi.astro` is an example article using every building block.
 - Every page wraps its content in `src/layouts/WikiLayout.astro` (sidebar, header, footer, categories).
 - Article building blocks live in `src/components/`: `Infobox`, `Toc`, `Gallery` and `Navbox`.
