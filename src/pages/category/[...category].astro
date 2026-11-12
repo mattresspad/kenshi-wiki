@@ -26,7 +26,7 @@ const count = articles.length === 1 ? '1 page' : `${articles.length} pages`;
   showTitle
 >
   <h2>Pages in category “{name}”</h2>
-  <p>This category contains {count}.</p>
+  <p>This category contains {count}. To add or remove an article, open that article, choose <strong>Edit on GitHub</strong>, and update its <code>categories</code> list.</p>
   <div class="category-columns">
     {groups.map(([letter, group]) => (
       <div class="category-group">
