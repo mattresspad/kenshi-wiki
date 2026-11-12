@@ -8,9 +8,9 @@ const sections = [
   {
     title: 'Concepts',
     cards: [
-      { title: 'Basics', image: 'basics.webp', icon: '📖', page: 'Controls', links: ['Controls', 'Game Starts', ['Skills', 'Statistics'], ['Lore', 'Category:Lore'], ['Guides', 'Category:Guides'], ['Events', 'Category:Events']] },
-      { title: 'Gameplay', image: 'gameplay.webp', icon: '🎒', page: 'Statistics', links: ['Stealth', 'Thievery', 'Assassination', 'Bounty', 'Slavery', ['Money', 'Cats']] },
-      { title: 'Extras', image: 'extras.webp', icon: '🛠️', page: 'Mods', links: ['Mods', 'Forgotten Construction Set', ['Modding', 'Category:Modding'], ['Modding guides', 'Category:Modding Guide'], ['Removed content', 'Category:Removed Content']] },
+      { title: 'Basics', image: 'basics.webp', icon: '📖', page: 'Controls', links: ['Controls', 'Game Starts', ['Skills', 'Statistics'], ['Lore', 'Category:Lore'], 'Guides', ['Events', 'Category:Events']] },
+      { title: 'Gameplay', image: 'gameplay.webp', icon: '🎒', page: ['Gameplay overview', 'Gameplay'], links: ['Stealth', 'Thievery', 'Assassination', 'Bounty', 'Slavery', ['Money', 'Cats']] },
+      { title: 'Extras', image: 'extras.webp', icon: '🛠️', page: 'Mods', links: ['Mods', 'Forgotten Construction Set', 'Modding', ['Modding guides', 'Category:Modding Guide'], ['Removed content', 'Category:Removed Content']] },
       { title: 'Skills', image: 'skills.webp', icon: '⚔️', page: 'Statistics', links: ['Martial Arts', 'Strength', 'Dexterity', 'Toughness', 'Athletics', 'Swimming'] },
       { title: 'World', image: 'world.webp', icon: '🌍', page: 'World of Kenshi', links: [['Map', 'World of Kenshi'], 'Major Towns', ['Zones', 'Category:Zones'], ['Locations', 'Category:Locations'], 'Ancient Ruins', 'World States'] },
     ],

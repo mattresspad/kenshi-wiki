@@ -23,7 +23,8 @@ export async function categoryIndex() {
 // Paths of every page the site builds: articles, category pages and the hand-written pages.
 export async function existingPaths() {
   const articles = (await getCollection('wiki')).map((article) => `/${article.id}`);
+  const portals = (await getCollection('portals')).map(portal => '/' + portal.id);
   const categories = [...(await categoryIndex()).keys()].map((category) => `/category/${pageSlug(category)}`);
   const pages = Object.keys(import.meta.glob('../pages/*.astro')).map((file) => `/${file.match(/([^/]+)\.astro$/)[1]}`);
-  return new Set([...articles, ...categories, ...pages.filter((path) => !path.includes('['))]);
+  return new Set([...articles, ...categories, ...portals, ...pages.filter((path) => !path.includes('['))]);
 }

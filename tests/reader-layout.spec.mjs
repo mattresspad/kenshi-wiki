@@ -153,10 +153,10 @@ for (const phone of [false, true]) {
       await openDrawer();
       await expect(rail.getByRole('link', { name: 'Backpacks', exact: true })).toHaveAttribute('aria-current', 'page');
       await rail.locator('#p-navigation').getByRole('link', { name: 'Guides', exact: true }).click();
-      await expect(page).toHaveURL(/\/category\/guides$/);
+      await expect(page).toHaveURL(/\/guides$/);
       await openDrawer();
       await rail.locator('#p-navigation').getByRole('link', { name: 'Modding', exact: true }).click();
-      await expect(page).toHaveURL(/\/category\/modding$/);
+      await expect(page).toHaveURL(/\/modding$/);
       await openDrawer();
       await expect(topic(rail, 'Items/Gear').locator('..')).toHaveAttribute('open', '');
     });

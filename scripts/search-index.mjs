@@ -1,9 +1,12 @@
 import * as pagefind from 'pagefind';
 import { readdir, readFile } from 'node:fs/promises';
-import { extname } from 'node:path';
+import { extname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
 
+import { resolvePortalSections } from '../src/lib/portals.js';
+
+const portalDir = fileURLToPath(new URL('../src/data/portals/', import.meta.url));
 const wikiDir = fileURLToPath(new URL('../src/content/wiki/', import.meta.url));
 const contentTypes = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json' };
 
@@ -38,14 +41,28 @@ export function articleRecord(id, source) {
 async function indexArticles() {
   const files = (await readdir(wikiDir, { recursive: true })).filter((file) => file.endsWith('.md'));
   const index = await newIndex();
+  const titles = new Map();
   await Promise.all(files.map(async (file) => {
     const id = file.replaceAll('\\', '/').replace(/\.md$/, '');
-    await index.addCustomRecord(articleRecord(id, await readFile(`${wikiDir}${file}`, 'utf8')));
+    const record = articleRecord(id, await readFile(`${wikiDir}${file}`, 'utf8'));
+    titles.set(id, record.meta.title);
+    await index.addCustomRecord(record);
   }));
 
+  const portals = (await readdir(portalDir)).filter(file => file.endsWith('.yaml'));
+  for (const file of portals) {
+    const portal = parseYaml(await readFile(`${portalDir}${file}`, 'utf8'));
+    const sections = resolvePortalSections(portal, titles);
+    const text = [portal.title, portal.intro, ...portal.indexes.map(item => item.label)];
+    for (const section of sections) {
+      text.push(section.title);
+      for (const row of section.articles) text.push(row.title, row.description, row.credit?.label ?? '');
+    }
+    await index.addCustomRecord({ url: '/' + file.slice(0, -5), language: 'en', meta: { title: portal.title }, content: text.join(' ') });
+  }
   const { files: bundle } = await index.getFiles();
   await index.deleteIndex();
-  return { count: files.length, files: new Map(bundle.map((file) => [`/pagefind/${file.path.replaceAll('\\', '/')}`, file.content])) };
+  return { count: files.length + portals.length, files: new Map(bundle.map((file) => [`/pagefind/${file.path.replaceAll('\\', '/')}`, file.content])) };
 }
 
 function serveIndex(getIndex) {
@@ -67,12 +84,15 @@ function serveIndex(getIndex) {
 // Search in `astro dev`: the index is built when the server starts and again a second after an article changes.
 function setUpDevSearch({ server, logger }) {
   let current = indexArticles();
-  const report = () => current.then(({ count }) => logger.info(`Indexed ${count} articles for search.`), (error) => logger.error(error.message));
+  const report = () => current.then(({ count }) => logger.info(`Indexed ${count} pages for search.`), (error) => logger.error(error.message));
   report();
 
   let timer;
   const rebuild = (path) => {
-    if (!path.startsWith(wikiDir.replace(/[\\/]$/, '')) || !path.endsWith('.md')) return;
+    const fullPath = resolve(path);
+    const article = fullPath.startsWith(wikiDir) && fullPath.endsWith('.md');
+    const portal = fullPath.startsWith(portalDir) && fullPath.endsWith('.yaml');
+    if (!article && !portal) return;
     clearTimeout(timer);
     timer = setTimeout(() => { current = indexArticles(); report(); }, 1000);
   };

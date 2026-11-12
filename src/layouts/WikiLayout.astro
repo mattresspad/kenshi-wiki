@@ -23,7 +23,7 @@ const pageClass = `page-${heading.replaceAll(' ', '_')}`;
 const page = {
   kind, title,
   href: kind === 'home' ? '/' : Astro.url.pathname.replace(/(?:\.html|\/)$/, '') || '/',
-  categories: categories.map(name => ({ name, href: wiki(`Category:${name}`) })),
+  categories: categories.toSorted((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' })).map(name => ({ name, href: wiki(`Category:${name}`) })),
 };
 ---
 

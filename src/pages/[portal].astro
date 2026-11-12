@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+import WikiLayout from '../layouts/WikiLayout.astro';
+import { categoryIndex } from '../lib/categories.js';
+import { resolvePortalSections } from '../lib/portals.js';
+import { pageSlug, wiki } from '../lib/wiki.js';
+
+export async function getStaticPaths() {
+  const [portals, articles, categories] = await Promise.all([
+    getCollection('portals'), getCollection('wiki'), categoryIndex(),
+  ]);
+  const titles = new Map(articles.map(article => [article.id, article.data.title] as const));
+  return portals.map(({ id, data }) => {
+    if (titles.has(id)) throw new Error(`Portal /${id} shares a path with a wiki article.`);
+    const sections = resolvePortalSections(data, titles);
+    const indexes = data.indexes.map(({ category, label }) => {
+      if (!categories.has(category)) throw new Error(`${data.title} portal: unknown category "${category}".`);
+      return { label, href: wiki(`Category:${category}`) };
+    });
+    return { params: { portal: id }, props: { id, title: data.title, intro: data.intro, sections, indexes } };
+  });
+}
+
+const { id, title, intro, sections, indexes } = Astro.props;
+const outline = sections.map(section => ({ id: pageSlug(section.title), title: section.title }));
+---
+
+<WikiLayout {title} description={intro} source={`src/data/portals/${id}.yaml`} {outline} showTitle>
+  <div class="reader-portal">
+    <div class="portal-intro">
+      <p>{intro}</p>
+      <nav aria-label="Category indexes">
+        {indexes.map(index => <a href={index.href}>{index.label}</a>)}
+      </nav>
+    </div>
+    <div class="portal-sections">
+      {sections.map(section => (
+        <section>
+          <h2 id={pageSlug(section.title)}>{section.title}</h2>
+          <table class="portal-table" aria-labelledby={pageSlug(section.title)}>
+            <colgroup><col class="portal-title-column" /><col /></colgroup>
+            <tbody>
+              {section.articles.map(article => (
+                <tr>
+                  <th scope="row">
+                    <a href={article.href}>{article.title}</a>
+                    {article.credit && <small><a href={article.credit.evidence}>{article.credit.label}</a></small>}
+                  </th>
+                  <td>{article.description}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
+      ))}
+    </div>
+  </div>
+</WikiLayout>
+
+<style>
+  .reader-portal { container-type: inline-size; max-inline-size: 80rem; }
+  .portal-intro { display: flex; align-items: baseline; flex-wrap: wrap; gap: .25rem 1rem; margin-block: .5rem 1.15rem; }
+  .portal-intro p { margin: 0; }
+  .portal-intro nav { display: flex; flex-wrap: wrap; gap: .2rem .9rem; margin-inline-start: auto; }
+  .portal-sections { display: grid; gap: 1rem 2rem; align-items: start; }
+  .portal-sections section { min-inline-size: 0; }
+  .portal-sections h2 { margin: 0 0 .2rem; }
+  .portal-table { inline-size: 100%; border-collapse: collapse; table-layout: fixed; }
+  .portal-title-column { width: 40%; }
+  .portal-table :is(th, td) {
+    padding: .43rem .6rem .43rem 0;
+    border-block-end: 1px solid var(--color-border-chrome);
+    text-align: start;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    line-height: 1.4;
+  }
+  .portal-table td { padding-inline-end: 0; }
+  .portal-table th { font-weight: 600; }
+  .portal-table small { display: block; margin-block-start: .12rem; font-size: .85em; font-weight: 400; }
+  .portal-table small a { color: var(--paper-10); text-decoration: underline; }
+  @container (min-width: 60rem) { .portal-sections { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @container (max-width: 40rem) {
+    .portal-intro nav { margin-inline-start: 0; }
+    .portal-title-column { width: 42%; }
+  }
+</style>
