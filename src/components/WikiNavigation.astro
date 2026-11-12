@@ -1,16 +1,80 @@
+---
+import { topicDirectory } from '../lib/topic-directory.js';
+import type { OutlineSection } from '../lib/article-outline';
+
+interface Props {
+  href: string;
+  outline?: OutlineSection[];
+}
+const { href, outline = [] } = Astro.props;
+const directory = await topicDirectory();
+const showOutline = outline.reduce((count, section) => count + 1 + (section.children?.length ?? 0), 0) >= 3;
+const shortcuts = [
+  ['Main page', '/'],
+  ['Random page', '/random'],
+  ['Guides', '/category/guides'],
+  ['Modding', '/category/modding'],
+];
+---
+
 <aside id="mw-panel" aria-label="Wiki sidebar">
   <div id="p-logo">
     <a class="mw-wiki-logo" href="/" aria-label="Kenshi Wiki main page"></a>
   </div>
-  <nav id="p-navigation" class="vector-menu vector-menu-portal portal" aria-labelledby="wiki-nav-heading">
-    <h3 id="wiki-nav-heading">Navigation</h3>
-    <div class="body vector-menu-content">
-      <ul class="vector-menu-content-list">
-        <li><a href="/">Main page</a></li>
-        <li><a href="/random">Random page</a></li>
+  <div class="rail-nav">
+    <nav id="p-navigation" aria-labelledby="wiki-nav-heading">
+      <h2 class="rail-heading" id="wiki-nav-heading">Navigation</h2>
+      <ul class="rail-list">
+        {shortcuts.map(([label, path]) => (
+          <li><a href={path} aria-current={path === href ? 'page' : undefined}>{label}</a></li>
+        ))}
       </ul>
-    </div>
-  </nav>
+    </nav>
+
+    {showOutline && (
+      <nav class="rail-outline" aria-label="Article sections">
+        <details>
+          <summary>On this page</summary>
+          <ul class="rail-list rail-branch">
+            {outline.map(section => (
+              <li class:list={['outline-section', { 'has-children': section.children?.length }]}>
+                <a href={`#${encodeURIComponent(section.id)}`}>{section.title}</a>
+                {!!section.children?.length && (
+                  <details class="outline-children">
+                    <summary aria-label={`Subsections of ${section.title}`} title={`Subsections of ${section.title}`}></summary>
+                    <ul class="rail-list rail-branch">
+                      {section.children.map(child => <li><a href={`#${encodeURIComponent(child.id)}`}>{child.title}</a></li>)}
+                    </ul>
+                  </details>
+                )}
+              </li>
+            ))}
+          </ul>
+        </details>
+      </nav>
+    )}
+
+    <nav class="rail-topics" aria-labelledby="browse-topics-heading">
+      <h2 class="rail-heading" id="browse-topics-heading">Browse topics</h2>
+      {directory.map(section => (
+        <details data-topic={section.title}>
+          <summary>{section.title}</summary>
+          <div class="rail-branch">
+            {section.cards.map(card => (
+              <details data-topic={`${section.title}/${card.title}`}>
+                <summary>{card.title}</summary>
+                <ul class="rail-list rail-branch">
+                  {card.browseLinks.map(link => (
+                    <li><a href={link.href} aria-current={link.href === href ? 'page' : undefined}>{link.label}</a></li>
+                  ))}
+                </ul>
+              </details>
+            ))}
+          </div>
+        </details>
+      ))}
+    </nav>
+  </div>
 </aside>
 
 <script>
@@ -31,6 +95,31 @@
       syncNavigation();
     }
   }
+
+  const topics = Array.from(rail.querySelectorAll<HTMLDetailsElement>('[data-topic]'));
+  function restoreTopics() {
+    try {
+      const open = new Set(JSON.parse(sessionStorage.getItem('wiki-open-topics') ?? '[]'));
+      topics.forEach(topic => { topic.open = open.has(topic.dataset.topic); });
+    } catch { /* Native disclosures still work without storage. */ }
+  }
+  restoreTopics();
+  for (const topic of topics) {
+    topic.addEventListener('toggle', () => {
+      const open = topics.filter(node => node.open).map(node => node.dataset.topic);
+      try { sessionStorage.setItem('wiki-open-topics', JSON.stringify(open)); } catch { /* This page only. */ }
+    });
+  }
+  rail.addEventListener('click', event => {
+    if (event.button || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+    const jump = event.target instanceof Element && event.target.closest<HTMLAnchorElement>('.rail-outline a[href^="#"]');
+    if (!jump) return;
+    const target = document.getElementById(decodeURIComponent(jump.hash.slice(1)));
+    if (!target) return;
+    closeDrawer();
+    target.tabIndex = -1;
+    target.focus({ preventScroll: true }); // The link handles the hash and scroll normally.
+  });
 
   toggle.hidden = false;
   syncNavigation();
@@ -62,7 +151,9 @@
     rail.removeAttribute('data-open');
     syncNavigation();
   });
-  window.addEventListener('pageshow', () => {
+  window.addEventListener('pageshow', event => {
+    if (!event.persisted) return; // Reconcile a restored document without closing a freshly opened drawer.
+    restoreTopics();
     try { root.dataset.navigation = localStorage.getItem('wiki-navigation') === 'closed' ? 'closed' : 'open'; } catch { /* Keep the in-memory choice. */ }
     rail.removeAttribute('data-open');
     syncNavigation();

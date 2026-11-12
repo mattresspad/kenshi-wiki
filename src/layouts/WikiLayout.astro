@@ -12,10 +12,11 @@ interface Props {
   source: string;
   kind?: ComponentProps<typeof WikiHeader>['page']['kind'];
   categories?: string[];
+  outline?: ComponentProps<typeof WikiNavigation>['outline'];
   searchable?: boolean;
   showTitle?: boolean;
 }
-const { title, description, source, categories = [], kind = 'utility', searchable = true, showTitle = false } = Astro.props;
+const { title, description, source, outline, categories = [], kind = 'utility', searchable = true, showTitle = false } = Astro.props;
 const heading = kind === 'category' ? `Category:${title}` : title;
 const pageClass = `page-${heading.replaceAll(' ', '_')}`;
 const page = {
@@ -47,7 +48,7 @@ const page = {
   <body class={`mediawiki ltr sitedir-ltr ns-0 ns-subject ${pageClass} skin-vector action-view skin-vector-legacy`}>
     <a class="reader-skip" href="#content">Skip to content</a>
     <WikiHeader {page} {source} />
-    <WikiNavigation />
+    <WikiNavigation href={page.href} {outline} />
     <main id="content" class="mw-body" tabindex="0" aria-label="Wiki content" data-pagefind-body={searchable ? '' : undefined}>
       <h1 id="firstHeading" class="firstHeading" style={showTitle ? 'display: block' : undefined}>{heading}</h1>
       <div id="bodyContent" class="mw-body-content">
@@ -102,7 +103,8 @@ const page = {
           requestAnimationFrame(() => { article.scrollTop = top; });
         }
       }
-      article.addEventListener('click', (event) => {
+      // Sidebar jumps also leave a history entry in this scrollport.
+      document.addEventListener('click', (event) => {
         if (event.target instanceof Element && event.target.closest('a[href^="#"]')) rememberPosition();
       });
       article.addEventListener('scrollend', rememberPosition);
