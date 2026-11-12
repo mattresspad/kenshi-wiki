@@ -1,0 +1,38 @@
+title: Modding
+intro: Kenshi mods can change game records, dialogue, towns, meshes, and animations through the Forgotten Construction Set and external art tools.
+indexes:
+  - category: Modding
+    label: Browse all modding articles
+sections:
+  - title: Using mods
+    articles:
+      - id: mods
+        description: Find mods on Steam Workshop or Nexus Mods and enable them in the launcher.
+      - id: why-load-order-matters-and-other-faq-about-using-mods
+        description: See which edit wins when two mods change the same value, and where a patch fits.
+  - title: Working with the FCS
+    articles:
+      - id: introduction-to-modding
+        description: Get to know the Forgotten Construction Set’s start screen, record editor, and toolbar.
+      - id: using-the-fcs
+        description: Look up data management, error messages, and mod files in the game’s FCS manual.
+  - title: Dialogue and world editing
+    articles:
+      - id: dialogue-structure-overlook
+        description: Follow the branches of a conversation and see what a dialogue script can express.
+        credit:
+          label: Guide by Cattrina
+          evidence: https://kenshi.fandom.com/wiki/Dialogue_Structure_Overlook?oldid=95840
+      - id: using-faction-reputation-as-variable
+        description: Use faction reputation to store a value that another dialogue line can check.
+        credit:
+          label: Technique by Soar
+          evidence: https://kenshi.fandom.com/wiki/Using_Faction_Reputation_As_Variable?oldid=94622
+      - id: creating-new-towns
+        description: Build a town in the game editor, then assign its residents and squads.
+  - title: Art and animation
+    articles:
+      - id: how-to-make-custom-armour-mesh
+        description: Rig an armour mesh in Blender and connect the exported mesh to an item.
+      - id: making-animations-basics
+        description: Prepare an animation for export and assign it to the races that use it.

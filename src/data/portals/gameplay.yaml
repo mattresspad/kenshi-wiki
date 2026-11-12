@@ -1,0 +1,34 @@
+title: Gameplay
+intro: Look up the rules that govern your squad, from who does a job first to who controls a town.
+indexes:
+  - category: Combat
+    label: Combat index
+  - category: Statistics
+    label: Statistics index
+sections:
+  - title: Managing a squad
+    articles:
+      - id: statistics
+        description: Find the attributes and skills behind a character’s performance.
+      - id: jobs
+        description: See how squad members work through an ordered list of tasks.
+  - title: Combat and survival
+    articles:
+      - id: damage
+        description: Trace what happens when a hit injures a body part, draws blood, or knocks someone out.
+      - id: resistances
+        description: Compare armour coverage, cut resistance, and protection against harpoons.
+  - title: Crime and money
+    articles:
+      - id: thievery
+        description: Check how the Thievery skill affects the chance of stealing an item undetected.
+      - id: bounty
+        description: Find out who issues bounties and where to turn in a wanted character.
+      - id: cats
+        description: Identify Kenshi’s currency and the strings of Cats you can find as loot.
+  - title: Factions and the world
+    articles:
+      - id: diplomatic-status
+        description: Find the faction figures whose diplomatic status makes attacking them risky.
+      - id: world-states
+        description: See how the fate of a faction leader can change a town or its patrols.

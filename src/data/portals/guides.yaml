@@ -1,0 +1,26 @@
+title: Guides
+intro: Choose a walkthrough for your first day, an injured squad, or the outpost you’re ready to build.
+indexes:
+  - category: Guides
+    label: Browse all guides
+sections:
+  - title: First steps
+    articles:
+      - id: getting-started
+        description: Choose a starting scenario and learn how to find allies, earn Cats, and survive early fights.
+      - id: guide-to-ui-and-controls
+        description: Find the controls for selecting characters, issuing orders, and using the interface.
+  - title: Looking after a squad
+    articles:
+      - id: guide-to-health
+        description: Treat wounds, use splints, and decide when a character needs bed rest.
+      - id: guide-to-equipment
+        description: Compare weapons, armour, backpacks, and crossbows before outfitting your squad.
+      - id: guide-to-training-statistics
+        description: Choose training activities and learn which conditions affect experience gains.
+  - title: Outposts and factions
+    articles:
+      - id: guide-to-building-an-outpost
+        description: Start an outpost, organize the work, and prepare for visitors.
+      - id: guide-to-faction-relations
+        description: Learn which actions help or harm relations with nearby factions.

@@ -336,7 +336,8 @@ async function reservedSlugs() {
   const pages = readdirSync('src/pages').filter((file) => /^[^[].*\.astro$/.test(file)).map((file) => file.replace(/\.astro$/, ''));
   const manual = (await readFile(redirectsFile, 'utf8')).split(redirectsStart)[0];
   const redirected = [...manual.matchAll(/^\/(\S+?)(?:\.html)? /gm)].map((match) => match[1]);
-  return new Set([...pages, ...redirected]);
+  const portals = readdirSync('src/data/portals').filter(file => file.endsWith('.yaml')).map(file => file.slice(0, -5));
+  return new Set([...pages, ...portals, ...redirected]);
 }
 
 async function writePage(page, slug, turndown) {

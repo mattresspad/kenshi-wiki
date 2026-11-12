@@ -7,7 +7,7 @@ test('the sticky tab identifies an article and links to its category indexes', a
   const header = page.locator('.wiki-header');
   for (const [route, title, categories] of [
     ['/port-north', 'Port North', ['Locations']],
-    ['/options-menu', 'Options Menu', ['WIP', 'User Interfaces']],
+    ['/options-menu', 'Options Menu', ['User Interfaces', 'WIP']],
   ]) {
     await page.goto(route);
     const context = header.getByRole('navigation', { name: 'Page and categories' });
@@ -17,7 +17,7 @@ test('the sticky tab identifies an article and links to its category indexes', a
     await expect(page.locator('main #catlinks')).toBeHidden();
     await expect(page.locator('main .fandom-notice')).toBeAttached();
 
-    const name = categories.at(-1);
+    const name = categories[0];
     const category = context.getByRole('link', { name, exact: true });
     const href = '/category/' + name.toLowerCase().replaceAll(' ', '-');
     await expect(category).toHaveAttribute('href', href);
@@ -42,6 +42,7 @@ test('category lists share the available width and expose every remaining link i
   const toggle = menu.locator('summary');
   const expected = await page.locator('main #catlinks a').allTextContents();
   expect(expected).toHaveLength(10);
+  expect(expected).toEqual(expected.toSorted((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' })));
   await expect(context).toHaveAttribute('data-split', '');
   const count = await direct.count();
   expect(count).toBeGreaterThan(0);
@@ -111,7 +112,7 @@ test.describe('with scripting disabled', () => {
     await context.locator('summary').press('Enter');
     await expect(context.getByRole('link')).toHaveCount(11);
     await expect(context.getByRole('link').first()).toHaveAttribute('href', crowded);
-    await expect(context.getByRole('link').last()).toHaveAttribute('href', '/category/icons');
+    await expect(context.getByRole('link').last()).toHaveAttribute('href', '/category/wip');
     await page.goto('/random');
     await expect(page.locator('.wiki-page-bar a[aria-current="page"]')).toHaveAttribute('href', '/random');
   });

@@ -29,4 +29,22 @@ const wiki = defineCollection({
   }),
 });
 
-export const collections = { wiki };
+// Curated landing pages are edited independently of the Fandom article import.
+const portals = defineCollection({
+  loader: glob({ pattern: '*.yaml', base: './src/data/portals' }),
+  schema: z.object({
+    title: z.string(),
+    intro: z.string(),
+    indexes: z.array(z.object({ category: z.string(), label: z.string() })),
+    sections: z.array(z.object({
+      title: z.string(),
+      articles: z.array(z.object({
+        id: z.string(),
+        description: z.string(),
+        credit: z.object({ label: z.string(), evidence: z.url() }).optional(),
+      })),
+    })),
+  }),
+});
+
+export const collections = { wiki, portals };
