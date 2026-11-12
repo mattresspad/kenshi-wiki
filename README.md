@@ -23,7 +23,7 @@ Original wiki article text is licensed under [CC BY-SA 4.0](public/notices/CC-BY
 
 ## Acknowledgements
 
-Thanks to Yurii at [PinDrop](https://pindrop.gg/kenshi) for crediting Prd’s Kenshi Interactive Map and linking players from places on the map to their articles here.
+[<img src=".github/assets/pindrop.png" alt="" width="20" height="20" align="middle"> PinDrop's Kenshi map](https://pindrop.gg/kenshi/map), built by [Yurii](https://pindrop.gg/about), lets players explore the world and follow locations directly to their Kenshi Wiki articles. Thanks, Yurii, for crediting the Kenshi Interactive Map and inviting players to help write the wiki.
 
 ## Develop
 
