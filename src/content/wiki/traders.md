@@ -42,3 +42,9 @@ Trade Cultures dictate whether some items spawn in locations as well as whether 
 
 -   [Slavers Trade Culture](/slavers-trade-culture)
 -   [Swamper Trade Culture](/swamper-trade-culture)
+
+## Trading with an unconscious squad member
+
+An unconscious squad member can still trade while another member carries them. During a trade, click their portrait: their inventory takes the carrier's place beside the trader's, and items can be sold from it and bought back into it.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>
+
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">A squad member carried the unconscious Beep into a bar and opened a trade with the barman; clicking Beep's portrait showed his inventory beside the barman's, and a Basic First Aid Kit sold from it for its listed sell value of 29 cats and was bought back into it for the same 29 (Kenshi 1.0.68). Saves: <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/teppuM/kenshi-test-data/tree/main/carried-member-trades">kenshi-test-data</a>. Found while working on <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/VlcekM/MeitouClient/pull/627">MeitouClient pull request 627</a>. Retrieved November 13, 2026.</span></li></ol>
