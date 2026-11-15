@@ -1,8 +1,17 @@
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/exo-2-latin-wght.woff2') format('woff2');
+}
+
 /* Theme tokens. Every color below switches with the color scheme via light-dark().
    Dark mode draws the page dark-on-light and inverts it (see below), the way RimWorld's wiki does, because Windows renders
    light-on-dark text heavier. So each dark value is written as the color you see, wrapped in an inversion that the page filter undoes. */
 :root {
   color-scheme: light dark;
+  --font-display: 'Exo 2', system-ui, sans-serif;
 
   /* Paper scale: white and warm grays in light mode, near-black warm grays in dark mode (00 = page surface, 12 = strongest text) */
   --paper-00: light-dark(#ffffff, rgb(from #121110 calc(255 - r) calc(255 - g) calc(255 - b)));
@@ -410,24 +419,32 @@ details.collapsible > table.wikitable > tbody:only-child > tr:first-child:has(
   width: clamp(8rem, 11vw, 11rem);
   height: auto;
 }
-.home-intro p { margin: 0 0 .35rem; font-size: 1.0625rem; line-height: 1.45; }
+.home-intro-copy { flex: 1; min-width: 0; text-align: center; }
+.home-intro p {
+  margin: 0 0 .25rem;
+  padding-block-end: .35rem;
+  border-block-end: 1px solid var(--accent-200);
+  font: 500 1.0625rem/1.35 var(--font-display);
+}
 .home-intro p a:any-link,
 .footer-licenses a:any-link {
   text-decoration: underline;
   text-underline-offset: .12em;
 }
 #content .home-quick-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .25rem .4rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .25rem .5rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .home-quick-links li { margin: 0; }
-.home-quick-links li + li::before { content: '·' / ''; color: var(--paper-08); margin-right: .4rem; }
+.home-quick-links a { display: block; padding-block: .15rem; }
+.home-quick-links a:focus-visible { outline: 2px solid var(--color-link); outline-offset: 1px; }
 
 .home-directory { container: directory / inline-size; }
+#content .home-directory :is(h2, h3) { font-family: var(--font-display) !important; font-weight: 600; }
 .home-sections {
   display: grid;
   align-items: start;
@@ -485,11 +502,16 @@ details.collapsible > table.wikitable > tbody:only-child > tr:first-child:has(
   line-height: 1.375;
 }
 .directory-group :is(h3, li) a {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   min-block-size: 24px;
   padding-inline: .25rem;
   border-radius: 2px;
+}
+.directory-group li a {
+  --link-surface: var(--paper-01);
+  border: 1px solid color-mix(in srgb, var(--color-border-chrome) 65%, transparent);
 }
 .home-directory a:focus-visible {
   outline: 2px solid var(--color-link);
@@ -515,7 +537,9 @@ details.collapsible > table.wikitable > tbody:only-child > tr:first-child:has(
   .home-sections { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 36rem) {
-  .home-intro { flex-direction: column; align-items: start; gap: .5rem; }
+  .home-intro { flex-direction: column; align-items: center; gap: .5rem; }
+  .home-intro-copy { width: 100%; }
+  #content .home-quick-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 /* Compact reference tables from the Fandom animal templates. */

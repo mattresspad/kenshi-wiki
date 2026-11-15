@@ -36,6 +36,7 @@ const canonicalUrl = isIndexablePath(page.href) ? new URL(page.href, Astro.site)
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.ico" />
+    <link rel="preload" href="/fonts/exo-2-latin-wght.woff2" as="font" type="font/woff2" crossorigin />
     <title>{kind === 'home' ? 'Kenshi Wiki' : `${heading} - Kenshi Wiki`}</title>
     <meta name="description" content={description} />
     {canonicalUrl

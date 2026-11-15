@@ -76,6 +76,15 @@ linked source archive, allowing for SVG line endings. See Vector-COPYING.txt,
 MediaWiki-COPYING.txt and MediaWiki-CREDITS.txt in this directory. The archive
 keeps the original filenames, editable source, upstream notices and file URLs.
 
+src/components/UiIcon.astro contains original line drawings for the house,
+five-pip die, three-person group, pulse, clock, sun and moon controls.
+
+public/fonts/exo-2-latin-wght.woff2 is the normal variable Latin Exo 2 font
+from Google Fonts, by Natanael Gama and the Exo 2 Project Authors.
+It is distributed under SIL OFL 1.1; see Exo-2-OFL.txt in this directory.
+https://fonts.gstatic.com/s/exo2/v26/7cHmv4okm5zmbtYoK-4.woff2
+https://github.com/google/fonts/tree/main/ofl/exo2
+
 Ribbon files below are in public/ribbon-icons/.
 webfcs.svg is the clipboard and magnifier drawn for the wiki's ribbon.
 github.svg uses the mark-github geometry from GitHub's Octicons. The original

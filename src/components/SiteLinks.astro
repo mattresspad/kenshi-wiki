@@ -1,18 +1,13 @@
 ---
 import RibbonLinks from './RibbonLinks.astro';
 import RibbonMenu from './RibbonMenu.astro';
-import { ecosystem, platforms } from '../lib/header-links.js';
-
-const groups = [
-  { label: 'Ecosystem', links: ecosystem },
-  { label: 'Kenshi links', links: platforms },
-];
+import { siteLinkGroups } from '../lib/header-links.js';
 ---
 
 <nav class="ribbon-sites" aria-label="Related sites">
   <div class="site-links-viewport" inert>
     <div class="site-links-track">
-      {groups.map(group => (
+      {siteLinkGroups.map(group => (
         <div class="ribbon-row" role="group" aria-label={group.label}>
           <RibbonLinks links={group.links} />
         </div>
@@ -20,10 +15,10 @@ const groups = [
     </div>
   </div>
   <RibbonMenu label="Links" class="site-overflow">
-    {groups.map(group => (
+    {siteLinkGroups.map(group => (
       <section aria-label={group.label}>
         <h2>{group.label}</h2>
-        <div class="ribbon-link-grid"><RibbonLinks links={group.links} /></div>
+        <div class="ribbon-link-grid"><RibbonLinks links={group.links} showLabels /></div>
       </section>
     ))}
   </RibbonMenu>

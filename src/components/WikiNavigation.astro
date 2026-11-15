@@ -1,6 +1,7 @@
 ---
 import { topicDirectory } from '../lib/topic-directory.js';
 import type { OutlineSection } from '../lib/article-outline';
+import UiIcon, { type IconName } from './UiIcon.astro';
 
 interface Props {
   href: string;
@@ -9,9 +10,11 @@ interface Props {
 const { href, outline = [] } = Astro.props;
 const directory = await topicDirectory();
 const showOutline = outline.reduce((count, section) => count + 1 + (section.children?.length ?? 0), 0) >= 3;
-const shortcuts = [
-  ['Main page', '/'],
-  ['Random page', '/random'],
+const shortcuts: { label: string; path: string; icon: IconName }[] = [
+  { label: 'Main page', path: '/', icon: 'home' },
+  { label: 'Random page', path: '/random', icon: 'dice' },
+];
+const portals = [
   ['Gameplay', '/gameplay'],
   ['Guides', '/guides'],
   ['Modding', '/modding'],
@@ -26,8 +29,13 @@ const shortcuts = [
     <div class="rail-nav">
       <nav id="p-navigation" aria-labelledby="wiki-nav-heading">
         <h2 class="rail-heading" id="wiki-nav-heading">Navigation</h2>
-        <ul class="rail-list">
-          {shortcuts.map(([label, path]) => (
+        <ul class="rail-list rail-shortcuts">
+          {shortcuts.map(({ label, path, icon }) => (
+            <li><a href={path} aria-label={label} title={label} aria-current={path === href ? 'page' : undefined}><UiIcon name={icon} /></a></li>
+          ))}
+        </ul>
+        <ul class="rail-list rail-portals">
+          {portals.map(([label, path]) => (
             <li><a href={path} aria-current={path === href ? 'page' : undefined}>{label}</a></li>
           ))}
         </ul>
