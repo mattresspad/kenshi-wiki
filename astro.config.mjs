@@ -1,12 +1,17 @@
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 import cloudflareStatic from './scripts/cloudflare-static.mjs';
 import searchIndex from './scripts/search-index.mjs';
 
 export default defineConfig({
   site: 'https://kenshi.wiki',
   output: 'static',
-  // Hooks run in order: the search index must exist before the deploy package copies the build.
-  integrations: [searchIndex(), cloudflareStatic()],
+  // Package the static assets after both indexes have been written.
+  integrations: [
+    sitemap({ filter: (url) => !['/search', '/random'].includes(new URL(url).pathname) }),
+    searchIndex(),
+    cloudflareStatic(),
+  ],
   // Kenshi.html rather than Kenshi/index.html, so pages live at /Kenshi like wiki URLs.
   build: {
     format: 'file',
