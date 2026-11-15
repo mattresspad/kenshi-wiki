@@ -33,7 +33,7 @@ Not to be confused with the animal [Gorillo](/gorillo), where he might get his n
 
 They wear \[Specialist\] armour (35% chance of \[Masterwork\]) and have weapons manufactured by [Cross](/cross).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Gorrillo</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Greenlander<p>Gender: Male</p><p>Description: Inhumanly large. Slow of mind.</p><p>Also known as the Boulder.</p><p>Wanted for robbery, assault and destruction of property, namely within the lost town of Mourn. Thought to be hiding out somewhere in the Forbidden Zone with his followers, the Gorrillo Bandits.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.50.000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Gorrillo</strong></caption><tbody><tr><td colspan="2" align="left">Race: Greenlander<p>Gender: Male</p><p>Description: Inhumanly large. Slow of mind.</p><p>Also known as the Boulder.</p><p>Wanted for robbery, assault and destruction of property, namely within the lost town of Mourn. Thought to be hiding out somewhere in the Forbidden Zone with his followers, the Gorrillo Bandits.</p></td></tr><tr><td>REWARD:</td><td>c.50.000</td></tr></tbody></table>
 
   
 His bounty is c.50,000 and can be claimed in the [Shek Kingdom](/shek-kingdom) and the [United Cities](/united-cities). The closest place to collect his bounty is [Catun](/catun).

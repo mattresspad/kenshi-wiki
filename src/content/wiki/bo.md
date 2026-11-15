@@ -30,7 +30,7 @@ She is also capable of asking a squad of Anti-Slavers you encounter to bodyguard
 
 She appears to always spawn wearing a Masterwork [Dark Leather Shirt](/dark-leather-shirt) if the squad size multiplier is at 1.0 (default game settings).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: 'Big Bo'</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Female</p><p>Age: Estimated at 40</p><p>Wanted for acts of terrorism and anti-workforce propaganda. Target is hostile and extremely dangerous.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: 'Big Bo'</strong></caption><tbody><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Female</p><p>Age: Estimated at 40</p><p>Wanted for acts of terrorism and anti-workforce propaganda. Target is hostile and extremely dangerous.</p></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
 
   
 She is wanted by both the [United Cities](/united-cities) and [The Holy Nation](/the-holy-nation).

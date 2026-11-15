@@ -1,13 +1,13 @@
 ---
 interface Props {
-  links: { label: string; href: string; image?: string; glyph?: string }[];
+  links: { label: string; href: string; image?: string; glyph?: string; iconOnly?: boolean }[];
 }
 const { links } = Astro.props;
 ---
-{links.map(({ label, href, image, glyph }) => (
-  <a class="ribbon-link" href={href}>
-    {image && <img src={`/ribbon-icons/${image}.webp`} alt="" width="16" height="16" />}
+{links.map(({ label, href, image, glyph, iconOnly }) => (
+  <a class="ribbon-link" href={href} title={iconOnly ? label : undefined}>
+    {image && <img src={`/ribbon-icons/${image}.webp`} alt={iconOnly ? label : ''} width="16" height="16" />}
     {glyph && <span class="ribbon-glyph" aria-hidden="true" style={`--glyph: url('/ribbon-icons/${glyph}.svg')`} />}
-    <span>{label}</span>
+    {!iconOnly && <span>{label}</span>}
   </a>
 ))}

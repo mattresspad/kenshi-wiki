@@ -8,6 +8,7 @@ import { slug as headingSlug } from 'github-slugger';
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync, readdirSync } from 'node:fs';
 import { dirname } from 'node:path';
+import { formatWantedPoster } from './wanted-posters.mjs';
 import { normalizeCreatureTables } from './creature-tables.mjs';
 import { pageSlug } from '../src/lib/wiki.js';
 
@@ -256,7 +257,10 @@ function cleanHtml(html) {
   convertQuotes($);
   convertTips($);
   $('table.mw-collapsible').each((_, table) => wrapCollapsible($, table));
-  $('table').each((_, table) => styleTable($, table));
+  $('table').each((_, table) => {
+    styleTable($, table);
+    formatWantedPoster($, table);
+  });
   return { $, infobox };
 }
 

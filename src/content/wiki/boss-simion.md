@@ -26,7 +26,7 @@ He resides in [Fort Simion](/fort-simion), with 8 [Outlaw Swordsman Captains](/o
 
 He has a Dumb [Personality](/personality).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Simion</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Greenlander<p>Gender: Male</p><p>Bandit leader wanted for multiple counts of murder and robbery. Preys upon travellers and merchants, growing stronger and more powerful in numbers.</p><p>Simion has a vicious army under his control: caravans are warned to employ extra bodyguards when travelling the desert until further notice.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.20.000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Simion</strong></caption><tbody><tr><td colspan="2" align="left">Race: Greenlander<p>Gender: Male</p><p>Bandit leader wanted for multiple counts of murder and robbery. Preys upon travellers and merchants, growing stronger and more powerful in numbers.</p><p>Simion has a vicious army under his control: caravans are warned to employ extra bodyguards when travelling the desert until further notice.</p></td></tr><tr><td>REWARD:</td><td>c.20.000</td></tr></tbody></table>
 
   
 

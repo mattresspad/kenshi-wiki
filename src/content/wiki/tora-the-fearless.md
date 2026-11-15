@@ -29,7 +29,7 @@ Her situation and backstory is quite similar to that of [Ghost's](/ghost), anoth
 
 They wear \[Shoddy\] armour (15% chance of \[Standard\]) and have weapons manufactured by [Ancient](/ancient).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Tora the Gutless</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Shek<p>Gender: Female</p><p>Dishonoured shek retainer who has broken warrior law by refusing to give up the blade, instead resorting to lowly crimes of banditry in the Stenn sands.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/shek-kingdom">Shek Kingdom</a></td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Tora the Gutless</strong></caption><tbody><tr><td colspan="2" align="left">Race: Shek<p>Gender: Female</p><p>Dishonoured shek retainer who has broken warrior law by refusing to give up the blade, instead resorting to lowly crimes of banditry in the Stenn sands.</p></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/shek-kingdom">Shek Kingdom</a></td></tr></tbody></table>
 
   
 She has a bounty of c.10,000 on her head from [Shek Kingdom](/shek-kingdom).

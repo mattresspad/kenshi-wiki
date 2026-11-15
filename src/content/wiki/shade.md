@@ -28,7 +28,7 @@ infobox:
 
 They wear \[Standard\] armour (10% chance of \[High\]) and have weapons manufactured by [Edgewalkers](/edgewalkers).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Shade</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Female</p><p>Description: 'Soft and floppy'</p><p>Dagger-wielding ninja trash wanted for acts of theft and general deviousness. Please put her out of her pitiful existence where perhaps she might be reunited with her spine in the rotten, maggot eating depths of a coward's afterlife. Last seen cowering in a raptor hole in the swamps.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.20,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Shade</strong></caption><tbody><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Female</p><p>Description: 'Soft and floppy'</p><p>Dagger-wielding ninja trash wanted for acts of theft and general deviousness. Please put her out of her pitiful existence where perhaps she might be reunited with her spine in the rotten, maggot eating depths of a coward's afterlife. Last seen cowering in a raptor hole in the swamps.</p></td></tr><tr><td>REWARD:</td><td>c.20,000</td></tr></tbody></table>
 
   
 She has a bounty of c.20,000 and is wanted by the [Shek Kingdom](/shek-kingdom).

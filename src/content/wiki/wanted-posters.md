@@ -13,37 +13,37 @@ In many towns, shops will have **Wanted Posters** for certain 'criminals.' Chara
 
 ### [Ells](/ells)
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Ells</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Greenlander<p>Gender: Male</p><p>Eyewitness description: 'Fat as a bughouse'</p><p>Public nuisance wanted on account of multiple bar thefts.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.1,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Ells</strong></caption><tbody><tr><td colspan="2" align="left">Race: Greenlander<p>Gender: Male</p><p>Eyewitness description: 'Fat as a bughouse'</p><p>Public nuisance wanted on account of multiple bar thefts.</p></td></tr><tr><td>REWARD:</td><td>c.1,000</td></tr></tbody></table>
 
   
 
 ### [Big Bo](/bo)
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: 'Big Bo'</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Female</p><p>Age: Estimated at 40</p><p>Wanted for acts of terrorism and anti-workforce propaganda. Target is hostile and extremely dangerous.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: 'Big Bo'</strong></caption><tbody><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Female</p><p>Age: Estimated at 40</p><p>Wanted for acts of terrorism and anti-workforce propaganda. Target is hostile and extremely dangerous.</p></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
 
 ## Minor Outlaws
 
 ### [Blue Eyes](/blue-eyes)
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Blue Eyes</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Greenlander/ Scorchlander<p>Gender: Female</p><p>Fugitive wanted for crimes of fraud, extortion, smuggling, impersonation of an official, trickery and theft. Responsible for scamming countless United Citizens out of millions of Cats. Master of disguise with an everchanging appearance, however also a known braggart and drunkard whose loud mouth will certainly be her downfall; recommend hunters search not with eyes, but with ears peeled.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Blue Eyes</strong></caption><tbody><tr><td colspan="2" align="left">Race: Greenlander/ Scorchlander<p>Gender: Female</p><p>Fugitive wanted for crimes of fraud, extortion, smuggling, impersonation of an official, trickery and theft. Responsible for scamming countless United Citizens out of millions of Cats. Master of disguise with an everchanging appearance, however also a known braggart and drunkard whose loud mouth will certainly be her downfall; recommend hunters search not with eyes, but with ears peeled.</p></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
 
   
 
 ### [Jaegar The Mad](/jaegar)
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: 'Jaegar the Mad'</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Male</p><p>Description: Middle aged, average statue, hook nosed, scar on the left side of face.</p><p>Multiple acts of terrorism, assault, kidnap, indoctrination, conspiracy against the Empire, fraud, theft, ransom, murder, crime against peace and outright lunacy.</p><p>Skilled and dangerous.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: 'Jaegar the Mad'</strong></caption><tbody><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Male</p><p>Description: Middle aged, average statue, hook nosed, scar on the left side of face.</p><p>Multiple acts of terrorism, assault, kidnap, indoctrination, conspiracy against the Empire, fraud, theft, ransom, murder, crime against peace and outright lunacy.</p><p>Skilled and dangerous.</p></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
 
   
 
 ### [Old Grey](/grey)
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Old Grey</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Hive<p>Gender: N/A</p><p>Description: Old</p><p>High standing amongst the anti-workforce cultists. Wanted for acts of terrorism, multiple murder, kidnap and industry interference.</p><p>A very skilled combatant and deceiver, do not be fooled by the age.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Old Grey</strong></caption><tbody><tr><td colspan="2" align="left">Race: Hive<p>Gender: N/A</p><p>Description: Old</p><p>High standing amongst the anti-workforce cultists. Wanted for acts of terrorism, multiple murder, kidnap and industry interference.</p><p>A very skilled combatant and deceiver, do not be fooled by the age.</p></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
 
   
 
 ### [Razor](/razor)
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Razor</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Wanted for victimization of an esteemed member of the United Cities. Let it be known that no enemies of the nobility will escape punishment from Tengu's Vault.</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Razor</strong></caption><tbody><tr><td colspan="2" align="left">Wanted for victimization of an esteemed member of the United Cities. Let it be known that no enemies of the nobility will escape punishment from Tengu's Vault.</td></tr></tbody></table>
 
 ## Faction Leaders
 
@@ -86,8 +86,8 @@ In many towns, shops will have **Wanted Posters** for certain 'criminals.' Chara
 
 These posters refer to bounties that are not found in game.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: The Canyonlands Killer</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Male</p><p>Description: Attractive. Dark skinned. Bulky frame. Long hair.</p><p>Violent and deranged individual guilty of luring and killing travellers on the Eastern trade route.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: The Canyonlands Killer</strong></caption><tbody><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Male</p><p>Description: Attractive. Dark skinned. Bulky frame. Long hair.</p><p>Violent and deranged individual guilty of luring and killing travellers on the Eastern trade route.</p></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Butcher of Black Scratch</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Lock your doors, protect your loved ones! Beware the Butcher!<p>Wanted for the murder and mutilation of multiple citizens also known as the Black Scratch Massacre. Description and whereabouts unknown.</p></td></tr><tr><td colspan="2"></td></tr><tr><td>UPDATE:</td><td>Please bring ALL suspects to the police for interrogation: Any person found of execution by their own judgement will face punishment of murder.</td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Butcher of Black Scratch</strong></caption><tbody><tr><td colspan="2" align="left">Lock your doors, protect your loved ones! Beware the Butcher!<p>Wanted for the murder and mutilation of multiple citizens also known as the Black Scratch Massacre. Description and whereabouts unknown.</p></td></tr><tr><td>UPDATE:</td><td>Please bring ALL suspects to the police for interrogation: Any person found of execution by their own judgement will face punishment of murder.</td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: "Four-Teeth" Milton</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Wanted for multiple charges of theft, murder and sexual assault. Reports suggest settlement in the swamps with protection from local gang members, seek caution.</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: "Four-Teeth" Milton</strong></caption><tbody><tr><td colspan="2" align="left">Wanted for multiple charges of theft, murder and sexual assault. Reports suggest settlement in the swamps with protection from local gang members, seek caution.</td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>

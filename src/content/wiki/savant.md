@@ -36,7 +36,7 @@ They wear \[Specialist\] armour (25% chance of \[Masterwork\]) and have weapons
 
 Savant also holds a special blueprint named the "Skeleton-Human Transformation Bible" which allows the player to craft [Human Skin Suits](/human-skin-suit) and the [Peeler Machine](/peeler-machine).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Savant the Skin Eater</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Responsible for the disappearance of hundreds of humans in the Forbidden Zone, south of the Great Desert. Victims have been found savagely mutilated, most notably, the bodies completely skinned and hacked of all outer flesh.<p>Details of the mutilator are still largely unknown. Target is considered highly dangerous.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.50,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/united-cities">United Cities</a></td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Savant the Skin Eater</strong></caption><tbody><tr><td colspan="2" align="left">Responsible for the disappearance of hundreds of humans in the Forbidden Zone, south of the Great Desert. Victims have been found savagely mutilated, most notably, the bodies completely skinned and hacked of all outer flesh.<p>Details of the mutilator are still largely unknown. Target is considered highly dangerous.</p></td></tr><tr><td>REWARD:</td><td>c.50,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/united-cities">United Cities</a></td></tr></tbody></table>
 
   
 

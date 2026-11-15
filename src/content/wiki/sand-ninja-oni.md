@@ -27,7 +27,7 @@ infobox:
 
 They wear \[Standard\] armour (10% chance of \[High\]) and have weapons manufactured by [Catun Scrapmaster](/catun-scrapmaster).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Sand Ninja Oni</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Female Description: Ninja-y</p><p>Leader of the sand ninja bandits. Aggressive ninja activity frequently reported around the Great Desert area.</p><p>WARNING: VERY sneaky.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/shek-kingdom">Shek Kingdom</a>, <a href="/holy-nation">Holy Nation</a>, <a href="/united-cities">United Cities</a></td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Sand Ninja Oni</strong></caption><tbody><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Female Description: Ninja-y</p><p>Leader of the sand ninja bandits. Aggressive ninja activity frequently reported around the Great Desert area.</p><p>WARNING: VERY sneaky.</p></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/shek-kingdom">Shek Kingdom</a>, <a href="/holy-nation">Holy Nation</a>, <a href="/united-cities">United Cities</a></td></tr></tbody></table>
 
   
 
