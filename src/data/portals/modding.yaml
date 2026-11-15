@@ -10,6 +10,8 @@ sections:
         description: Find mods on Steam Workshop or Nexus Mods and enable them in the launcher.
       - id: why-load-order-matters-and-other-faq-about-using-mods
         description: See which edit wins when two mods change the same value, and where a patch fits.
+      - id: modding/meitou
+        description: Browse community releases for MeitouClient, meet their creators, and learn how to make a code mod.
   - title: Working with the FCS
     articles:
       - id: introduction-to-modding
