@@ -332,8 +332,12 @@
 }
 
 .ribbon-tools { margin-inline-start: auto; }
-.platforms-direct,
-.platforms-menu {
+.ribbon-sites { flex: 1 1 0; min-width: 0; position: relative; }
+.site-links-viewport { width: 0; flex: none; overflow: clip; }
+.site-links-viewport[inert], .site-links-track a[inert] { visibility: hidden; }
+.site-links-track { display: flex; align-items: center; width: max-content; }
+.site-links-track .ribbon-row { gap: .2rem; }
+.site-links-track .ribbon-row + .ribbon-row {
   margin-inline-start: .45rem;
   border-inline-start: 1px solid var(--color-border-chrome);
   padding-inline-start: .45rem;
@@ -364,6 +368,21 @@
   background: var(--paper-03);
   text-decoration: underline;
 }
+
+.site-links-track .ribbon-link,
+.site-overflow > summary {
+  padding-inline: .4rem;
+  border: 1px solid color-mix(in srgb, var(--color-border-chrome) 70%, var(--paper-01));
+  background-color: var(--paper-02);
+}
+.site-links-track .ribbon-link:is(:hover, :focus-visible),
+.site-overflow > summary:is(:hover, :focus-visible),
+.site-overflow[open] > summary {
+  border-color: var(--accent-300);
+  background-color: var(--accent-100);
+}
+/* Override the imported orange hover color on the light brass surface. */
+.ribbon-sites a:hover { color: var(--color-link) !important; }
 
 .wiki-header :is(a, button, summary, input):focus-visible {
   outline: 2px solid var(--color-link);
@@ -415,7 +434,7 @@
   background: var(--color-bg-content);
   font-size: .8125rem;
 }
-.platforms-direct .ribbon-panel,
+.site-overflow .ribbon-panel,
 .tools-menu .ribbon-panel { inset-inline: auto 0; }
 .ribbon-panel .ribbon-link { min-height: 2rem; padding-inline: .55rem; }
 .ribbon-panel h2 {
@@ -425,7 +444,7 @@
   color: var(--color-text-muted);
   font: 600 .75rem/1.3 system-ui, sans-serif;
 }
-.ribbon-panel section + section,
+.ribbon-panel section:not([hidden]) + section,
 .ribbon-panel-divider {
   margin-top: .25rem;
   padding-top: .3rem;
@@ -433,8 +452,11 @@
 }
 .ribbon-panel-divider { display: grid; }
 .ribbon-link-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.platforms-menu .ribbon-panel,
-.all-sites-menu .ribbon-panel { width: min(20rem, calc(100cqi - 1.35rem)); }
+.site-overflow .ribbon-panel {
+  width: min(20rem, calc(100cqi - 1.35rem));
+}
+.site-links-viewport[inert] + .site-overflow .ribbon-panel { inset-inline: 0 auto; }
+.ribbon-sites [hidden] { display: none; }
 
 .wiki-page-bar {
   height: 2.5rem;
@@ -514,11 +536,6 @@
 .context-menu .ribbon-link { white-space: normal; overflow-wrap: anywhere; }
 .context-menu-categories { display: grid; }
 .context-current:not([hidden]) + .context-menu-categories { margin-block-start: .25rem; border-top: 1px solid var(--color-border-chrome); }
-@container wiki-ribbon (32rem < width <= 40rem) {
-  .wiki-header:has(.page-context) .tools-direct,
-  .wiki-page-bar:has(.page-context) .page-history { display: none; }
-  .wiki-header:has(.page-context) .tools-menu { display: block; }
-}
 @container wiki-ribbon (max-width: 32rem) {
   .page-context { --compact-context: 1; }
   .wiki-page-bar:has(.page-context) #p-search { flex: 1 1 1.25rem; }
@@ -537,26 +554,17 @@
 .wiki-page-bar #simpleSearch { width: clamp(10rem, 22cqi, 20rem); min-width: 0; }
 .wiki-page-bar #searchInput { width: 100%; }
 
-.ecosystem-menu,
-.platforms-menu,
-.all-sites-menu,
 .tools-menu { display: none; }
-
-@container wiki-ribbon (max-width: 68rem) {
-  .platforms-direct { display: none; }
-  .platforms-menu { display: block; }
-}
 @container wiki-ribbon (max-width: 46rem) {
-  .ecosystem-direct { display: none; }
-  .ecosystem-menu { display: block; }
+  .site-overflow { position: static; }
+  .site-overflow .ribbon-panel { inset-inline: 0 auto; }
 }
-@container wiki-ribbon (max-width: 32rem) {
-  .ecosystem-menu,
-  .platforms-menu,
+@container wiki-ribbon (max-width: 40rem) {
   .tools-direct,
   .page-history { display: none; }
-  .all-sites-menu,
   .tools-menu { display: block; }
+}
+@container wiki-ribbon (max-width: 32rem) {
   .wiki-page-bar #p-search { flex: 1; min-width: 0; }
   .wiki-page-bar #simpleSearch { width: 100%; }
   .wiki-page-bar #searchInput { font-size: 1rem; height: 2rem; }
