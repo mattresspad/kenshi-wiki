@@ -4,6 +4,7 @@ import '../styles/wiki-header.css';
 import type { ComponentProps } from 'astro/types';
 import WikiHeader from '../components/WikiHeader.astro';
 import WikiNavigation from '../components/WikiNavigation.astro';
+import { isIndexablePath } from '../lib/indexing.js';
 import { wiki } from '../lib/wiki.js';
 
 interface Props {
@@ -25,6 +26,7 @@ const page = {
   href: kind === 'home' ? '/' : Astro.url.pathname.replace(/(?:\.html|\/)$/, '') || '/',
   categories: categories.toSorted((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' })).map(name => ({ name, href: wiki(`Category:${name}`) })),
 };
+const canonicalUrl = isIndexablePath(page.href) ? new URL(page.href, Astro.site).href : undefined;
 ---
 
 <!doctype html>
@@ -35,6 +37,16 @@ const page = {
     <link rel="icon" href="/favicon.ico" />
     <title>{kind === 'home' ? 'Kenshi Wiki' : `${heading} - Kenshi Wiki`}</title>
     <meta name="description" content={description} />
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    {kind === 'home' && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Kenshi Wiki',
+        alternateName: 'kenshi.wiki',
+        url: canonicalUrl,
+      })} />
+    )}
     <script is:inline>
       document.documentElement.dataset.navigation = 'open';
       try {

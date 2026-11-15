@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { isIndexablePath } from './src/lib/indexing.js';
 import cloudflareStatic from './scripts/cloudflare-static.mjs';
 import searchIndex from './scripts/search-index.mjs';
 
@@ -8,7 +9,7 @@ export default defineConfig({
   output: 'static',
   // Package the static assets after both indexes have been written.
   integrations: [
-    sitemap({ filter: (url) => !['/search', '/random'].includes(new URL(url).pathname) }),
+    sitemap({ filter: (url) => isIndexablePath(new URL(url).pathname) }),
     searchIndex(),
     cloudflareStatic(),
   ],
