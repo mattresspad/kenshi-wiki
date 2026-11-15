@@ -488,6 +488,12 @@ details.collapsible > table.wikitable > tbody:only-child > tr:first-child:has(
   display: flex;
   align-items: center;
   min-block-size: 24px;
+  padding-inline: .25rem;
+  border-radius: 2px;
+}
+.home-directory a:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: -2px;
 }
 @media (pointer: coarse) {
   .directory-group :is(h3, li) a { min-block-size: 28px; }

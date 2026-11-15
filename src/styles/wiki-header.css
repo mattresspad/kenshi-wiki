@@ -206,13 +206,28 @@
   padding: .24rem .25rem;
   border-radius: 2px;
 }
-.rail-nav a:hover, .rail-nav summary:hover { background: var(--paper-03); }
 .rail-nav a[aria-current="page"] {
   box-shadow: inset 2px 0 var(--accent-300);
   background: var(--accent-100);
   color: var(--color-text);
   font-weight: 600;
   padding-inline-start: .5rem;
+}
+/* Keep links legible on the brass fill despite the imported skin's orange hover color. */
+:is(.rail-nav, .home-directory) a:hover { color: var(--color-link) !important; }
+/* Each link or disclosure lights immediately. Only leaving it triggers the fade. */
+:is(.rail-nav, .home-directory) :is(a, summary) {
+  --link-highlight: color-mix(in srgb, var(--accent-300) 30%, transparent);
+
+  &:is(:focus-visible, :active) { background-color: var(--link-highlight); }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover { background-color: var(--link-highlight); }
+
+    @media (prefers-reduced-motion: no-preference) {
+      &:not(:hover, :focus-visible, :active) { transition: background-color 220ms ease-out; }
+    }
+  }
 }
 .rail-nav summary {
   display: flex;
