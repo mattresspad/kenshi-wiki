@@ -3,8 +3,9 @@
 // Responses are cached in .fandom-cache/, so re-running only re-converts. Images are not imported.
 import * as cheerio from 'cheerio';
 import TurndownService from 'turndown';
+import { parse as parseYaml } from 'yaml';
 import { slug as headingSlug } from 'github-slugger';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync, readdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { normalizeCreatureTables } from './creature-tables.mjs';
@@ -337,7 +338,16 @@ async function reservedSlugs() {
   const manual = (await readFile(redirectsFile, 'utf8')).split(redirectsStart)[0];
   const redirected = [...manual.matchAll(/^\/(\S+?)(?:\.html)? /gm)].map((match) => match[1]);
   const portals = readdirSync('src/data/portals').filter(file => file.endsWith('.yaml')).map(file => file.slice(0, -5));
-  return new Set([...pages, ...portals, ...redirected]);
+  const reserved = new Set([...pages, ...portals, ...redirected]);
+  for (const file of await readdir(outDir, { recursive: true })) {
+    if (!file.endsWith('.md')) continue;
+    const markdown = await readFile(`${outDir}/${file}`, 'utf8');
+    const front = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+    if (front && parseYaml(front[1])?.source === 'original') {
+      reserved.add(file.replaceAll('\\', '/').slice(0, -3));
+    }
+  }
+  return reserved;
 }
 
 async function writePage(page, slug, turndown) {
