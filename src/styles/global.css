@@ -548,3 +548,23 @@ details.collapsible > table.wikitable > tbody:only-child > tr:first-child:has(
 @media screen and (max-width: 40rem) {
   .creature-stats { flex-direction: column; }
 }
+
+/* Meitou release listings are ordinary Markdown, including their linked headings. */
+.mw-parser-output .community-mod-list > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: .75rem;
+  max-inline-size: 72rem;
+  margin: .75rem 0;
+  padding: 0;
+  list-style: none;
+}
+.community-mod-list > ul > li {
+  margin: 0;
+  padding: .7rem .9rem;
+  border: 1px solid var(--color-border-chrome);
+  background: var(--paper-01);
+}
+.community-mod-list li > h3 { margin: 0; }
+.community-mod-list li > p { margin: .45rem 0 0; }
+.community-mod-list li > h3 + p { margin-top: .1rem; font-size: .9em; }
