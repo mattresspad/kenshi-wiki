@@ -27,6 +27,19 @@ test('the full homepage directory fits a 1440 × 900 reader with the rail open',
   await expect(page.getByRole('contentinfo').getByRole('link', { name: 'CC BY-SA 4.0' })).toHaveCSS('text-decoration-line', 'underline');
   await expect(page.locator('#catlinks')).toHaveCount(0);
   await expect(page.locator('.wiki-header a[aria-current="page"]')).toHaveText('Main page');
+  await expect(page.locator('.wiki-header a[aria-current="page"] [data-icon="home"]')).toBeVisible();
+  const home = page.locator('#p-navigation').getByRole('link', { name: 'Main page', exact: true });
+  const random = page.locator('#p-navigation').getByRole('link', { name: 'Random page', exact: true });
+  await expect(home).toHaveText('');
+  await expect(home).toHaveAttribute('aria-current', 'page');
+  await expect(random).toHaveText('');
+  const homeBox = await home.boundingBox();
+  const randomBox = await random.boundingBox();
+  expect(homeBox.y).toBe(randomBox.y);
+  expect(homeBox.width).toBeCloseTo(randomBox.width, 0);
+  await page.locator('#p-navigation').getByRole('link', { name: 'Guides', exact: true }).click();
+  await expect(page.locator('#p-navigation').getByRole('link', { name: 'Guides', exact: true })).toHaveAttribute('aria-current', 'page');
+  await home.click();
   const footer = await page.locator('footer').boundingBox();
   expect(Math.round(footer.y + footer.height)).toBe(900);
 

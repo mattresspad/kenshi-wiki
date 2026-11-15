@@ -1,4 +1,6 @@
 ---
+import UiIcon from './UiIcon.astro';
+
 interface Props {
   kind: 'home' | 'article' | 'category' | 'utility';
   title: string;
@@ -37,7 +39,7 @@ const label = `${prefix}: ${title}`;
     </details>
   </nav>
 ) : (
-  <a class="wiki-page-tab" aria-current="page" href={href}>{kind === 'home' ? 'Main page' : title}</a>
+  <a class="wiki-page-tab" aria-current="page" href={href}>{kind === 'home' && <UiIcon name="home" />}{kind === 'home' ? 'Main page' : title}</a>
 )}
 
 <script>

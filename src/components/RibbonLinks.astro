@@ -1,13 +1,17 @@
 ---
+import UiIcon, { type IconName } from './UiIcon.astro';
+
 interface Props {
-  links: { label: string; href: string; image?: string; glyph?: string; iconOnly?: boolean }[];
+  links: { label: string; href: string; image?: string; glyph?: string; icon?: IconName; iconOnly?: boolean; publisher?: boolean }[];
+  showLabels?: boolean;
 }
-const { links } = Astro.props;
+const { links, showLabels = false } = Astro.props;
 ---
-{links.map(({ label, href, image, glyph, iconOnly }) => (
-  <a class="ribbon-link" href={href} title={iconOnly ? label : undefined}>
-    {image && <img src={`/ribbon-icons/${image}.webp`} alt={iconOnly ? label : ''} width="16" height="16" />}
+{links.map(({ label, href, image, glyph, icon, iconOnly, publisher }) => (
+  <a class:list={['ribbon-link', { 'ribbon-publisher': publisher }]} href={href} title={iconOnly && !showLabels ? label : undefined}>
+    {image && <img src={`/ribbon-icons/${image}.webp`} alt={iconOnly && !showLabels ? label : ''} width="16" height="16" />}
     {glyph && <span class="ribbon-glyph" aria-hidden="true" style={`--glyph: url('/ribbon-icons/${glyph}.svg')`} />}
-    {!iconOnly && <span>{label}</span>}
+    {icon && <UiIcon name={icon} />}
+    {(!iconOnly || showLabels) && <span>{label}</span>}
   </a>
 ))}

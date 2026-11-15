@@ -5,6 +5,7 @@ import SiteLinks from './SiteLinks.astro';
 import { repoUrl } from '../lib/wiki.js';
 import type { ComponentProps } from 'astro/types';
 import PageContext from './PageContext.astro';
+import UiIcon from './UiIcon.astro';
 
 interface Props {
   page: ComponentProps<typeof PageContext>;
@@ -15,12 +16,12 @@ const { page, source } = Astro.props;
 const sourcePath = source.split('/').map(encodeURIComponent).join('/');
 const isCategory = page.kind === 'category';
 const tools = [
-  { label: 'Contributors', href: '/contributors' },
+  { label: 'Contributors', href: '/contributors', icon: 'people' as const },
   { label: isCategory ? 'Edit layout on GitHub' : 'Edit on GitHub', href: `${repoUrl}/edit/main/${sourcePath}`, glyph: 'github' },
 ];
 const history = [
-  { label: 'Recent changes', href: `${repoUrl}/commits/main/` },
-  { label: isCategory ? 'Layout history' : 'View history', href: `${repoUrl}/commits/main/${sourcePath}` },
+  { label: 'Recent changes', href: `${repoUrl}/commits/main/`, icon: 'pulse' as const },
+  { label: isCategory ? 'Layout history' : 'View history', href: `${repoUrl}/commits/main/${sourcePath}`, icon: 'clock' as const },
 ];
 ---
 
@@ -30,11 +31,17 @@ const history = [
 
     <nav class="ribbon-tools" aria-label="Wiki tools">
       <div class="ribbon-row tools-direct">
-        <button type="button" class="ribbon-link" data-theme-toggle>Theme: Auto</button>
+        <button type="button" class="ribbon-link" data-theme-toggle>
+          <UiIcon name="sun" class="theme-sun" /><UiIcon name="moon" class="theme-moon" />
+          <span data-theme-label>Theme: Auto</span>
+        </button>
         <RibbonLinks links={tools} />
       </div>
       <RibbonMenu label="Wiki tools" class="tools-menu">
-        <button type="button" class="ribbon-link" data-theme-toggle>Theme: Auto</button>
+        <button type="button" class="ribbon-link" data-theme-toggle>
+          <UiIcon name="sun" class="theme-sun" /><UiIcon name="moon" class="theme-moon" />
+          <span data-theme-label>Theme: Auto</span>
+        </button>
         <RibbonLinks links={tools} />
         <div class="ribbon-panel-divider"><RibbonLinks links={history} /></div>
       </RibbonMenu>
@@ -45,7 +52,7 @@ const history = [
     <button id="navigation-toggle" class="wiki-page-tab navigation-toggle" type="button" aria-controls="mw-panel" aria-expanded="true" hidden>Navigation</button>
     <PageContext {...page} />
     <nav class="page-history" aria-label="Revision history">
-      {history.map(({ label, href }) => <a class="wiki-page-tab" href={href}>{label}</a>)}
+      {history.map(({ label, href, icon }) => <a class="wiki-page-tab" href={href}><UiIcon name={icon} />{label}</a>)}
     </nav>
     <div id="p-search" role="search">
       <h3><label for="searchInput">Search Kenshi Wiki</label></h3>
@@ -77,7 +84,7 @@ const history = [
 
   function showTheme() {
     const theme = document.documentElement.dataset.theme || 'auto';
-    for (const button of buttons) button.textContent = 'Theme: ' + theme[0].toUpperCase() + theme.slice(1);
+    for (const button of buttons) button.querySelector('[data-theme-label]')!.textContent = 'Theme: ' + theme[0].toUpperCase() + theme.slice(1);
   }
 
   showTheme();
