@@ -1,6 +1,6 @@
 ---
 title: "Water"
-description: ""
+description: "Collect water from wells or rain collectors to grow crops, bake bread, and brew sake. Water towers and water tanks store it for later use."
 source:
   title: "Water"
   revision: 87263

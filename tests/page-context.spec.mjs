@@ -106,6 +106,17 @@ test('uncategorized articles and utility tabs have their own canonical links', a
 
 test.describe('with scripting disabled', () => {
   test.use({ javaScriptEnabled: false });
+  test('search and random opt out of indexing while category indexes keep their canonical', async ({ page }) => {
+    for (const route of ['/search?q=catun', '/random']) {
+      await page.goto(route);
+      await expect(page.locator('head meta[name="robots"]')).toHaveAttribute('content', 'noindex');
+      await expect(page.locator('head link[rel="canonical"]')).toHaveCount(0);
+    }
+    await page.goto('/category/locations');
+    await expect(page.locator('head meta[name="robots"]')).toHaveCount(0);
+    await expect(page.locator('head link[rel="canonical"]')).toHaveAttribute('href', 'https://kenshi.wiki/category/locations');
+  });
+
   test('the native title disclosure exposes the current page and all categories', async ({ page }) => {
     await page.goto(crowded);
     const context = page.locator('.page-context');

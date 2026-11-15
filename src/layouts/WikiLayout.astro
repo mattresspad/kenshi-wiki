@@ -38,7 +38,9 @@ const canonicalUrl = isIndexablePath(page.href) ? new URL(page.href, Astro.site)
     <link rel="icon" href="/favicon.ico" />
     <title>{kind === 'home' ? 'Kenshi Wiki' : `${heading} - Kenshi Wiki`}</title>
     <meta name="description" content={description} />
-    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    {canonicalUrl
+      ? <link rel="canonical" href={canonicalUrl} />
+      : <meta name="robots" content="noindex" />}
     {kind === 'home' && (
       <script type="application/ld+json" set:html={JSON.stringify({
         '@context': 'https://schema.org',

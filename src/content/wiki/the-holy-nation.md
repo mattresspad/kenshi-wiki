@@ -1,6 +1,6 @@
 ---
 title: "The Holy Nation"
-description: "In the beginning, they kept to themselves. The first of the Phoenixes intentions were noble..."
+description: "The Holy Nation is an Okranite theocracy based in Blister Hill. Learn which towns it controls and how its patrols treat travelers of different races."
 source:
   title: "The Holy Nation"
   revision: 95303

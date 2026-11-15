@@ -1,6 +1,6 @@
 ---
 title: "The Great Library"
-description: ""
+description: "The Great Library in Black Scratch sells blueprints and lore books. The bookshop opens during the day and restocks every 15 hours."
 source:
   title: "The Great Library"
   revision: 79008
