@@ -1,0 +1,80 @@
+---
+import RibbonLinks from './RibbonLinks.astro';
+import RibbonMenu from './RibbonMenu.astro';
+import { ecosystem, platforms } from '../lib/header-links.js';
+
+const groups = [
+  { label: 'Ecosystem', links: ecosystem },
+  { label: 'Kenshi links', links: platforms },
+];
+---
+
+<nav class="ribbon-sites" aria-label="Related sites">
+  <div class="site-links-viewport" inert>
+    <div class="site-links-track">
+      {groups.map(group => (
+        <div class="ribbon-row" role="group" aria-label={group.label}>
+          <RibbonLinks links={group.links} />
+        </div>
+      ))}
+    </div>
+  </div>
+  <RibbonMenu label="Links" class="site-overflow">
+    {groups.map(group => (
+      <section aria-label={group.label}>
+        <h2>{group.label}</h2>
+        <div class="ribbon-link-grid"><RibbonLinks links={group.links} /></div>
+      </section>
+    ))}
+  </RibbonMenu>
+</nav>
+
+<script>
+  const sites = document.querySelector<HTMLElement>('.ribbon-sites')!;
+  const viewport = sites.querySelector<HTMLElement>('.site-links-viewport')!;
+  const track = sites.querySelector<HTMLElement>('.site-links-track')!;
+  const links = Array.from(track.querySelectorAll('a'));
+  const menu = sites.querySelector('details')!;
+  const toggle = menu.querySelector('summary')!;
+  const choices = Array.from(menu.querySelectorAll('a'));
+
+  function fitLinks() {
+    const active = document.activeElement;
+    const oldCount = links.findIndex(link => link.inert);
+    const room = sites.getBoundingClientRect().width;
+    const start = track.getBoundingClientRect().left;
+    const ends = links.map(link => link.getBoundingClientRect().right - start);
+    let count = links.length;
+    menu.hidden = track.getBoundingClientRect().width <= room;
+
+    if (!menu.hidden) {
+      toggle.textContent = 'More';
+      const reserved = toggle.getBoundingClientRect().width + parseFloat(getComputedStyle(sites).columnGap);
+      count = ends.findIndex(end => end + reserved > room);
+      if (count === 0) toggle.textContent = 'Links';
+    } else {
+      menu.open = false;
+    }
+
+    viewport.style.width = (ends[count - 1] ?? 0) + 'px';
+    viewport.inert = count === 0;
+    links.forEach((link, i) => {
+      link.inert = i >= count;
+      choices[i].hidden = i < count;
+    });
+    for (const section of menu.querySelectorAll('section')) {
+      section.hidden = !section.querySelector('a:not([hidden])');
+    }
+
+    // Keep keyboard focus in the ribbon if its destination moved during a resize.
+    const moved = choices.indexOf(active as HTMLAnchorElement);
+    if (moved >= 0 && moved < count) links[moved].focus({ preventScroll: true });
+    else if (active === toggle && menu.hidden) links[Math.max(oldCount, 0)]?.focus({ preventScroll: true });
+    else if (active instanceof HTMLAnchorElement && links.includes(active) && active.inert) toggle.focus({ preventScroll: true });
+  }
+
+  const observer = new ResizeObserver(fitLinks);
+  observer.observe(sites);
+  observer.observe(track);
+  fitLinks();
+</script>

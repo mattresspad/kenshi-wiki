@@ -12,9 +12,6 @@ export const platforms = [
   { label: 'r/Kenshi', href: 'https://www.reddit.com/r/Kenshi/', image: 'reddit' },
   { label: 'Workshop', href: 'https://steamcommunity.com/app/233860/workshop/', image: 'workshop' },
   { label: 'Nexus Mods', href: 'https://www.nexusmods.com/games/kenshi', image: 'nexus' },
-];
-
-export const morePlatforms = [
   { label: 'Discord', href: 'https://discord.gg/EYhrarkbh6', image: 'discord' },
   { label: 'Steam Forums', href: 'https://steamcommunity.com/app/233860/discussions/', image: 'steam-forums' },
   { label: 'GOG', href: 'https://www.gog.com/en/game/kenshi', image: 'gog' },

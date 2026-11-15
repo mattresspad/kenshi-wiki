@@ -2,6 +2,7 @@ import { expect, test } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import { pageSlug, repoUrl } from '../src/lib/wiki.js';
+import { ecosystem, platforms } from '../src/lib/header-links.js';
 import worker from '../worker/index.js';
 import { articleRecord } from '../scripts/search-index.mjs';
 
@@ -62,9 +63,11 @@ for (const { route, file, source } of pages) {
     await expect(page).toHaveURL(new URL(route, origin).href);
 
     await page.setViewportSize({ width: 390, height: 844 });
-    const links = header.locator('.all-sites-menu');
-    await links.locator('summary').press('Enter');
-    await expect(links.locator('a:visible')).toHaveCount(16);
+    const sites = header.getByRole('navigation', { name: 'Related sites' });
+    const overflow = sites.locator('summary');
+    await overflow.press('Enter');
+    const links = sites.getByRole('link');
+    await expect(links).toHaveCount(ecosystem.length + platforms.length);
     const pictures = await links.locator('img').evaluateAll(async images => {
       await Promise.all(images.map(image => image.decode()));
       return images.map(image => new URL(image.currentSrc).origin);
@@ -72,7 +75,7 @@ for (const { route, file, source } of pages) {
     expect(pictures.length).toBeGreaterThan(0);
     expect(new Set(pictures)).toEqual(new Set([origin]));
     await page.keyboard.press('Escape');
-    await expect(links.locator('summary')).toBeFocused();
+    await expect(overflow).toBeFocused();
 
     const tools = header.locator('.tools-menu');
     await tools.locator('summary').click();

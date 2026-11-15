@@ -1,7 +1,7 @@
 ---
 import RibbonLinks from './RibbonLinks.astro';
 import RibbonMenu from './RibbonMenu.astro';
-import { ecosystem, platforms, morePlatforms } from '../lib/header-links.js';
+import SiteLinks from './SiteLinks.astro';
 import { repoUrl } from '../lib/wiki.js';
 import type { ComponentProps } from 'astro/types';
 import PageContext from './PageContext.astro';
@@ -22,38 +22,11 @@ const history = [
   { label: 'Recent changes', href: `${repoUrl}/commits/main/` },
   { label: isCategory ? 'Layout history' : 'View history', href: `${repoUrl}/commits/main/${sourcePath}` },
 ];
-const resources = [...platforms, ...morePlatforms];
 ---
 
 <header class="wiki-header noprint">
   <div class="wiki-ribbon">
-    <nav class="ribbon-sites" aria-label="Related sites">
-      <div class="ribbon-row ecosystem-direct" role="group" aria-label="Ecosystem">
-        <RibbonLinks links={ecosystem} />
-      </div>
-      <RibbonMenu label="Ecosystem" class="ecosystem-menu">
-        <RibbonLinks links={ecosystem} />
-      </RibbonMenu>
-
-      <div class="ribbon-row platforms-direct" role="group" aria-label="Kenshi links">
-        <RibbonLinks links={platforms} />
-        <RibbonMenu label="More"><RibbonLinks links={morePlatforms} /></RibbonMenu>
-      </div>
-      <RibbonMenu label="Kenshi links" class="platforms-menu">
-        <div class="ribbon-link-grid"><RibbonLinks links={resources} /></div>
-      </RibbonMenu>
-
-      <RibbonMenu label="Links" class="all-sites-menu">
-        <section aria-label="Ecosystem">
-          <h2>Ecosystem</h2>
-          <div class="ribbon-link-grid"><RibbonLinks links={ecosystem} /></div>
-        </section>
-        <section aria-label="Kenshi links">
-          <h2>Kenshi links</h2>
-          <div class="ribbon-link-grid"><RibbonLinks links={resources} /></div>
-        </section>
-      </RibbonMenu>
-    </nav>
+    <SiteLinks />
 
     <nav class="ribbon-tools" aria-label="Wiki tools">
       <div class="ribbon-row tools-direct">
