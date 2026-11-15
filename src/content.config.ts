@@ -12,13 +12,13 @@ function articleId({ entry }: { entry: string }) {
   return id;
 }
 
-// Articles imported from the Kenshi Fandom wiki by scripts/import-fandom.mjs.
+// Original wiki articles and credited Fandom adaptations.
 const wiki = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/wiki', generateId: articleId }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    source: z.object({ title: z.string(), revision: z.number() }),
+    source: z.union([z.literal('original'), z.object({ title: z.string(), revision: z.number() })]),
     categories: z.array(z.string()).default([]),
     infobox: z.object({
       title: z.string(),
