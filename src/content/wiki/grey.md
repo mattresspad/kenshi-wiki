@@ -38,7 +38,7 @@ He is also the only NPC that can completely clear off the above status when talk
 
 They wear \[Specialist\] armour (5% chance of \[Masterwork\]) and have weapons manufactured by [Skeleton Smiths](/skeleton-smiths).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Old Grey</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Hive<p>Gender: N/A</p><p>Description: Old</p><p>High standing amongst the anti-workforce cultists. Wanted for acts of terrorism, multiple murder, kidnap and industry interference.</p><p>A very skilled combatant and deceiver, do not be fooled by the age.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Old Grey</strong></caption><tbody><tr><td colspan="2" align="left">Race: Hive<p>Gender: N/A</p><p>Description: Old</p><p>High standing amongst the anti-workforce cultists. Wanted for acts of terrorism, multiple murder, kidnap and industry interference.</p><p>A very skilled combatant and deceiver, do not be fooled by the age.</p></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
 
   
 Like the rest of his allies, Grey is wanted by the [Holy Nation](/the-holy-nation) and the [United Cities](/united-cities).

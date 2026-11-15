@@ -24,7 +24,7 @@ infobox:
 
 He has a Traitorous [personality](/personality).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Buzan</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Male</p><p>Description: Has a limp in his walk and a 'sluggable face'</p><p>Wanted for multiple counts of murder, robbery, assault, arson and kidnap.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.20.000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Buzan</strong></caption><tbody><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Male</p><p>Description: Has a limp in his walk and a 'sluggable face'</p><p>Wanted for multiple counts of murder, robbery, assault, arson and kidnap.</p></td></tr><tr><td>REWARD:</td><td>c.20.000</td></tr></tbody></table>
 
   
 Like Dimak, he has a bounty of c.20,000 in The Holy Nation.

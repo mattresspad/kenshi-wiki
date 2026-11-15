@@ -25,7 +25,7 @@ He can be found in [Sho-Battai](/sho-battai), no matter what [World States](/wor
 
 He has a Dumb [Personality](/personality). He doesn't have any lines of unique dialogue in zone entries, but he does have a unique dialogue package with a large number of exclusive lines.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Ells</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Greenlander<p>Gender: Male</p><p>Eyewitness description: 'Fat as a bughouse'</p><p>Public nuisance wanted on account of multiple bar thefts.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.1,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Ells</strong></caption><tbody><tr><td colspan="2" align="left">Race: Greenlander<p>Gender: Male</p><p>Eyewitness description: 'Fat as a bughouse'</p><p>Public nuisance wanted on account of multiple bar thefts.</p></td></tr><tr><td>REWARD:</td><td>c.1,000</td></tr></tbody></table>
 
   
 He is incorrectly described as a Greenlander on his bounty description.

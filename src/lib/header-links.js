@@ -16,7 +16,7 @@ export const platforms = [
   { label: 'Steam Forums', href: 'https://steamcommunity.com/app/233860/discussions/', image: 'steam-forums' },
   { label: 'GOG', href: 'https://www.gog.com/en/game/kenshi', image: 'gog' },
   { label: 'Humble Bundle', href: 'https://www.humblebundle.com/store/kenshi', image: 'humble-bundle' },
-  { label: 'X', href: 'https://x.com/KenshiOfficial', image: 'x' },
+  { label: 'X', href: 'https://x.com/KenshiOfficial', image: 'x', iconOnly: true },
   { label: 'Facebook', href: 'https://www.facebook.com/OfficialKenshi/', image: 'facebook' },
   { label: 'Instagram', href: 'https://www.instagram.com/lofigames/', image: 'instagram' },
 ];

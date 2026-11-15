@@ -32,7 +32,7 @@ They wear \[Specialist\] armour (25% chance of \[Masterwork\]) and have weapons
 
 He is only wanted by the [United Cities](/united-cities):
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Valamon</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Shek<p>Gender: Male</p><p>Description: Tall, muscular, grey-skinned</p><p>Warlord and leader of the Reaver bandits notorious from the Forbidden Zone. Wanted for robbery, murder, kidnapping and indoctrination of United Cities patrols and travelling citizens.</p><p>WARNING: Organised, armed and dangerous.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.50,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Valamon</strong></caption><tbody><tr><td colspan="2" align="left">Race: Shek<p>Gender: Male</p><p>Description: Tall, muscular, grey-skinned</p><p>Warlord and leader of the Reaver bandits notorious from the Forbidden Zone. Wanted for robbery, murder, kidnapping and indoctrination of United Cities patrols and travelling citizens.</p><p>WARNING: Organised, armed and dangerous.</p></td></tr><tr><td>REWARD:</td><td>c.50,000</td></tr></tbody></table>
 
   
 

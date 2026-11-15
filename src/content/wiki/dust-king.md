@@ -24,7 +24,7 @@ The **Dust King** is the leader of the [Dust Bandits](/dust-bandits) faction. He
 
 Aside from having an army of [Dust Bandits](/dust-bandit) protecting him, there are also quite a few [Dust Bosses](/dust-boss) with standard or better equipment.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Dust King</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">The leader of the notorious Dust Bandits, he is thought to be hiding out somewhere in the Border Zone.</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/the-holy-nation">The Holy Nation</a></td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Dust King</strong></caption><tbody><tr><td colspan="2" align="left">The leader of the notorious Dust Bandits, he is thought to be hiding out somewhere in the Border Zone.</td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/the-holy-nation">The Holy Nation</a></td></tr></tbody></table>
 
   
 He is wanted by [United Cities](/united-cities), [The Holy Nation](/the-holy-nation) and [Shek Kingdom](/shek-kingdom). Although his Wanted Poster claims his bounty is c.30,000, it's actually c.35,000.

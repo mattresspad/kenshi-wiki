@@ -33,7 +33,7 @@ They wear \[Masterwork\] armour and have weapons manufactured by years of train
 
 The [Traders Guild](/traders-guild), [United Cities](/united-cities) and [The Holy Nation](/the-holy-nation) want Tinfist captured or dead due to their stance on [slavery](/slavery) and as a result, he is considered a terrorist by pro-[slavery](/slavery) characters. [Bar](/bar) patrons in towns controlled by the [United Cities](/united-cities) can be overheard mentioning raids led by Tinfist. It is unclear whether or not this is propaganda made by [Slave Traders](/slave-traders) or truly the [Anti-Slavers](/anti-slavers) terrorism.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Tinfist</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">The Metal Brute's terror is soon to end!<p>Will YOU be the hero of the innocent?</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.50,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Tinfist</strong></caption><tbody><tr><td colspan="2" align="left">The Metal Brute's terror is soon to end!<p>Will YOU be the hero of the innocent?</p></td></tr><tr><td>REWARD:</td><td>c.50,000</td></tr></tbody></table>
 
   
 **Tinfist's** Wanted Posters claims his reward to be c.50,000, but his actual bounty is c.100,000.

@@ -25,7 +25,7 @@ infobox:
 
 They wear no armour and have weapons manufactured by [Catun Scrapmaster](/catun-scrapmaster).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Razor</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Wanted for victimization of an esteemed member of the United Cities. Let it be known that no enemies of the nobility will escape punishment from Tengu's Vault.</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Razor</strong></caption><tbody><tr><td colspan="2" align="left">Wanted for victimization of an esteemed member of the United Cities. Let it be known that no enemies of the nobility will escape punishment from Tengu's Vault.</td></tr></tbody></table>
 
   
 

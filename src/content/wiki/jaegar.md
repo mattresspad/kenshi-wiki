@@ -31,7 +31,7 @@ He has a Brave [Personality](/personality).
 
 They wear \[Specialist\] armour (5% chance of \[Masterwork\]) and have weapons manufactured by [Skeleton Smiths](/skeleton-smiths).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: 'Jaegar the Mad'</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Male</p><p>Description: Middle aged, average statue, hook nosed, scar on the left side of face.</p><p>Multiple acts of terrorism, assault, kidnap, indoctrination, conspiracy against the Empire, fraud, theft, ransom, murder, crime against peace and outright lunacy.</p><p>Skilled and dangerous.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: 'Jaegar the Mad'</strong></caption><tbody><tr><td colspan="2" align="left">Race: Scorchlander<p>Gender: Male</p><p>Description: Middle aged, average statue, hook nosed, scar on the left side of face.</p><p>Multiple acts of terrorism, assault, kidnap, indoctrination, conspiracy against the Empire, fraud, theft, ransom, murder, crime against peace and outright lunacy.</p><p>Skilled and dangerous.</p></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
 
   
 Like his fellow [Anti-Slavers](/anti-slavers) Jaegar finds himself wanted by the both the [Holy Nation](/holy-nation) and the [United Cities](/united-cities).

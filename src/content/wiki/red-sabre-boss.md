@@ -30,7 +30,7 @@ They wear \[High\] armour (22% chance of \[Specialist\]) and have weapons manuf
 
 This character can colour armour and clothing due to a [colour scheme](/colour-scheme) attached to their faction. The colour is also separately attached to this character, although it is the same colour as the faction's colour.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: The Red Bandit</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Greenlander<p>Gender: Male Description: 'Ugly as a gutter and friggin' huge'</p><p>Wanted for arson, robbery and extortion. Now thought to be wreaking cruelties on lost travellers of the swamps as leader of the Red Sabres. Skilled and dangerous.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: The Red Bandit</strong></caption><tbody><tr><td colspan="2" align="left">Race: Greenlander<p>Gender: Male Description: 'Ugly as a gutter and friggin' huge'</p><p>Wanted for arson, robbery and extortion. Now thought to be wreaking cruelties on lost travellers of the swamps as leader of the Red Sabres. Skilled and dangerous.</p></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
 
   
 He has a bounty of c.10,000 in the [United Cities](/united-cities) and the [Shek Kingdom](/shek-kingdom).

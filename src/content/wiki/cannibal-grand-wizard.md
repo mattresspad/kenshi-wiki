@@ -21,7 +21,7 @@ infobox:
 
 **Cannibal Grand Wizard** is leader of the [Cannibals](/cannibals) faction and located in [Cannibal Capital](/cannibal-capital). Despite being a leader, he does not have [Diplomatic Status](/diplomatic-status) nor [World States](/world-states) associated with him.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Cannibal Leaders</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">'Cannibal Grand Wizard'<p>Leader of the entire known cannibal population. Actual magical powers unknown. Location unknown.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.40,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Cannibal Leaders</strong></caption><tbody><tr><td colspan="2" align="left">'Cannibal Grand Wizard'<p>Leader of the entire known cannibal population. Actual magical powers unknown. Location unknown.</p></td></tr><tr><td>REWARD:</td><td>c.40,000</td></tr></tbody></table>
 
   
 He is wanted by [The Holy Nation](/the-holy-nation), [Shek Kingdom](/shek-kingdom), and [United Cities](/united-cities) for c.40,000. If you bring him to [The Bastion](/the-bastion), the Cannibal Hunters will have no unique dialogue about him.

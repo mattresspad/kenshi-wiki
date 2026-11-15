@@ -23,7 +23,7 @@ infobox:
 
 Ponk has the [Meitou](/meitou) Grade [Holed Sabre](/holed-sabre). They wear \[High\] armour (30% chance of \[Specialist\]) and have weapons manufactured by [Cross](/cross).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Voodoo Brothers</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Screamer<br><p>Race: Skeleton</p><p>Ponk<br>Race: Skeleton</p><p>A pair of highly intelligent and sadistic con artists wanted for gross malfeasance as medical and 'ancient voodoo' practitioners in various cities across the land.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.20,000 per head</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Voodoo Brothers</strong></caption><tbody><tr><td colspan="2" align="left">Screamer<br><p>Race: Skeleton</p><p>Ponk<br>Race: Skeleton</p><p>A pair of highly intelligent and sadistic con artists wanted for gross malfeasance as medical and 'ancient voodoo' practitioners in various cities across the land.</p></td></tr><tr><td>REWARD:</td><td>c.20,000 per head</td></tr></tbody></table>
 
   
 Both Ponk and [Screamer](/screamer-the-false) have a bounty of c.20,000 and are wanted by the [United Cities](/united-cities) and [The Holy Nation](/the-holy-nation).

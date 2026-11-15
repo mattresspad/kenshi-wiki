@@ -15,7 +15,7 @@ The Black Dragon Ninjas will [attack](/bandit-raid) the player's [outpost](/guid
 
 Members of this faction can colour armour and clothing due to a [colour scheme](/colour-scheme) attached.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: The Black Dragon Duo</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left"><a href="/buzan">Buzan</a><p><a href="/dimak">Dimak</a></p><p>Wanted for multiple counts of murder, robbery, assault, arson and kidnap. A purely blackened couple who have left a trail of corpses along their path. Both of the above are dangerous characters likely to attack on sight. Most recently reported to be raiding caravans in the swamplands.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.20,000 per head</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: The Black Dragon Duo</strong></caption><tbody><tr><td colspan="2" align="left"><a href="/buzan">Buzan</a><p><a href="/dimak">Dimak</a></p><p>Wanted for multiple counts of murder, robbery, assault, arson and kidnap. A purely blackened couple who have left a trail of corpses along their path. Both of the above are dangerous characters likely to attack on sight. Most recently reported to be raiding caravans in the swamplands.</p></td></tr><tr><td>REWARD:</td><td>c.20,000 per head</td></tr></tbody></table>
 
   
 

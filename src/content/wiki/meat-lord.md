@@ -24,7 +24,7 @@ infobox:
 
 They wear no armour and have weapons manufactured by [Ancient](/ancient).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Cannibal Leaders</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">'Unknown'<p>Thought to be some kind of regional sub-leader. Currently controls the cannibal origin territories of Darkfinger. Name not known.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Cannibal Leaders</strong></caption><tbody><tr><td colspan="2" align="left">'Unknown'<p>Thought to be some kind of regional sub-leader. Currently controls the cannibal origin territories of Darkfinger. Name not known.</p></td></tr><tr><td>REWARD:</td><td>c.30,000</td></tr></tbody></table>
 
   
 He has a bounty of c.30,000 from [The Holy Nation](/the-holy-nation), [United Cities](/united-cities), and [Shek Kingdom](/shek-kingdom).

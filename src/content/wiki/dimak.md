@@ -23,7 +23,7 @@ infobox:
 
 She has a Maniacal [personality](/personality).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Dimak</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Shek<p>Gender: Female</p><p>Description: Stub spiked, grey skinned and 'beady eyed'</p><p>Wanted for multiple counts of murder, robbery, assault, arson and kidnap.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.20.000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Dimak</strong></caption><tbody><tr><td colspan="2" align="left">Race: Shek<p>Gender: Female</p><p>Description: Stub spiked, grey skinned and 'beady eyed'</p><p>Wanted for multiple counts of murder, robbery, assault, arson and kidnap.</p></td></tr><tr><td>REWARD:</td><td>c.20.000</td></tr></tbody></table>
 
   
 Like Buzan, she has a bounty of c.20,000 wanted by The Holy Nation.

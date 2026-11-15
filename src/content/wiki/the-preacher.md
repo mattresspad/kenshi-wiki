@@ -24,7 +24,7 @@ infobox:
 
 They wear \[Shoddy\] armour (5% chance of \[Standard\]) and have weapons manufactured by [Cross](/cross). Although this character is always [Hive](/hive), they have a 40% chance of being a female character.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: The Preacher</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Hiver<p>Gender: N/A Eyewitness' description: 'Hell, like a stickman! What more do you want me to say?'</p><p>Leader of growing 'nature' cult thought to be responsible for the disappearance of over hundreds of travellers in the desert region. Must be returned to the police alive for interrogation.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.15,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: The Preacher</strong></caption><tbody><tr><td colspan="2" align="left">Race: Hiver<p>Gender: N/A Eyewitness' description: 'Hell, like a stickman! What more do you want me to say?'</p><p>Leader of growing 'nature' cult thought to be responsible for the disappearance of over hundreds of travellers in the desert region. Must be returned to the police alive for interrogation.</p></td></tr><tr><td>REWARD:</td><td>c.15,000</td></tr></tbody></table>
 
   
 Despite living in a small outpost in [Stormgap Coast](/stormgap-coast) and having no patrols, The Preacher is wanted by not only the [United Cities](/united-cities), but also [The Holy Nation](/the-holy-nation) and the [Shek Kingdom](/shek-kingdom).

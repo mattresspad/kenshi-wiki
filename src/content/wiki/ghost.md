@@ -36,7 +36,7 @@ They wear \[Shoddy\] armour (5% chance of \[Standard\]) and have weapons manufa
 
 The [Berserker Village](/berserker-village) is at times attacked by [Skin Spiders](/skin-spider) which sometimes leads to Ghost being killed and subsequently eaten.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Ghost</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Shek<p>Gender: Male</p><p>Warmongerer known to be camped in the Spider Plains as leader of the Berserkers.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/shek-kingdom">Shek Kingdom</a></td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Ghost</strong></caption><tbody><tr><td colspan="2" align="left">Race: Shek<p>Gender: Male</p><p>Warmongerer known to be camped in the Spider Plains as leader of the Berserkers.</p></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/shek-kingdom">Shek Kingdom</a></td></tr></tbody></table>
 
   
 

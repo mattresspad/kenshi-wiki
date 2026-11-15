@@ -27,7 +27,7 @@ infobox:
 
 They wear \[Shoddy\] armour (40% chance of \[Standard\]) and have weapons manufactured by [Ancient](/ancient) and [Unknown](/unknown).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Gutterhead</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Gender: Male<p>Leader of the Scavengers wanted for numerous attacks and robberies on the roads of Venge. Located south of the desert, beyond the Eye.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Gutterhead</strong></caption><tbody><tr><td colspan="2" align="left">Gender: Male<p>Leader of the Scavengers wanted for numerous attacks and robberies on the roads of Venge. Located south of the desert, beyond the Eye.</p></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
 
   
 His [Wanted Poster](/wanted-posters) is distributed in the [United Cities](/united-cities), but his entry in FCS does not have a "bounty faction" which causes it to be assigned to the United Cities.

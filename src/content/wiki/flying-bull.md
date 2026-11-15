@@ -29,7 +29,7 @@ Soon after Shager's overthrow, Ida, better known as Flying Bull, a devout follow
 
 They wear \[Standard\] armour (15% chance of \[High\]) and have weapons manufactured by [Ancient](/ancient).
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Flying Bull</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Shek<p>Gender: Male</p><p>Extremist and traitor to the Stone Golem. Names himself as Kral's Chosen.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.25,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Flying Bull</strong></caption><tbody><tr><td colspan="2" align="left">Race: Shek<p>Gender: Male</p><p>Extremist and traitor to the Stone Golem. Names himself as Kral's Chosen.</p></td></tr><tr><td>REWARD:</td><td>c.25,000</td></tr></tbody></table>
 
   
 His actual bounty is c.30,000 with the [Shek Kingdom](/shek-kingdom).

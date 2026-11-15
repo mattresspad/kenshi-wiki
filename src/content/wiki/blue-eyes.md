@@ -22,7 +22,7 @@ infobox:
 
 **Blue Eyes** is a wanted criminal in the UC who can be found in [Mourn](/mourn), likely in a bar. She frequently brags about her exploits, making it easy to notice her. In [The Swamp](/the-swamp), players can find [Note From Blue Eyes](/note-from-blue-eyes) in which she writes about making it to the swamps.
 
-<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Blue Eyes</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Race: Greenlander / Scorchlander<p>Gender: Female</p><p>Fugitive wanted for crimes of fraud, extortion, smuggling, impersonation of an official, trickery and theft. Responsible for scamming countless United Citizens out of millions of Cats. Master of disguise with an everchanging appearance, however also a known braggart and drunkard whose loud mouth will certainly be her downfall; recommend hunters search not with eyes, but with ears peeled.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
+<table class="wikitable"><caption><strong>WANTED: Blue Eyes</strong></caption><tbody><tr><td colspan="2" align="left">Race: Greenlander / Scorchlander<p>Gender: Female</p><p>Fugitive wanted for crimes of fraud, extortion, smuggling, impersonation of an official, trickery and theft. Responsible for scamming countless United Citizens out of millions of Cats. Master of disguise with an everchanging appearance, however also a known braggart and drunkard whose loud mouth will certainly be her downfall; recommend hunters search not with eyes, but with ears peeled.</p></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
 
   
 
