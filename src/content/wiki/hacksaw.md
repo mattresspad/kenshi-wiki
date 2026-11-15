@@ -1,6 +1,6 @@
 ---
 title: "Hacksaw"
-description: ""
+description: "A hacksaw cuts prisoner shackles, hive shackles, and other locks. It does the same job as a set of Tools but weighs just 1 kg."
 source:
   title: "Hacksaw"
   revision: 87278

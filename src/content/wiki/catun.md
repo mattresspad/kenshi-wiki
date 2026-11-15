@@ -1,6 +1,6 @@
 ---
 title: "Catun"
-description: "It is a relatively isolated and small town surrounded by frequent hostile wildlife located on top of an elevated plateau in the middle of a valley in the Bon…"
+description: "Catun is a fortified United Cities town in the Bonefields. Find the Catun Scrapmasters, browse buildings for sale, and see how the town can change hands."
 source:
   title: "Catun"
   revision: 93167

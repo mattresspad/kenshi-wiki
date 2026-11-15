@@ -1,6 +1,6 @@
 ---
 title: "Advanced Medicine (Tech)"
-description: ""
+description: "Advanced Medicine unlocks the Advanced First Aid Kit at tech level 4. It requires Medicine and costs one Ancient Science Book to research."
 source:
   title: "Advanced Medicine (Tech)"
   revision: 95181
