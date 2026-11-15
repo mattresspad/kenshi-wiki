@@ -21,8 +21,33 @@ function checkPublishedHeaders(response) {
   const headers = response.headers();
   const directives = (headers['x-robots-tag'] || '').toLowerCase().split(/[\s,]+/);
   expect(directives.includes('noindex')).toBe(target === 'staging');
-  expect(headers['cache-control']).toContain('no-transform');
+  const cacheControl = headers['cache-control'].toLowerCase().split(',').map(value => value.trim());
+  expect(cacheControl).toContain('no-cache');
+  expect(cacheControl).toContain('no-transform');
 }
+
+test('published homepage revalidates against its ETag', async ({ request }) => {
+  test.skip(!target, 'Cloudflare supplies the cache validators.');
+  const homepage = await request.get('/');
+  expect(homepage.status()).toBe(200);
+  checkPublishedHeaders(homepage);
+  const etag = homepage.headers().etag;
+  expect(etag).toBeTruthy();
+
+  const repeat = await request.get('/', { headers: { 'If-None-Match': etag } });
+  expect(repeat.status()).toBe(304);
+  expect(await repeat.body()).toHaveLength(0);
+});
+
+test('published homepage stylesheet supports gzip', async ({ page, request }) => {
+  test.skip(!target, 'Cloudflare negotiates compression.');
+  await page.goto('/');
+  const css = await page.locator('link[rel="stylesheet"][href^="/_astro/WikiLayout."]').getAttribute('href');
+  const response = await request.get(css, { headers: { 'Accept-Encoding': 'gzip' } });
+  expect(response.status()).toBe(200);
+  expect(response.headers()['content-type']).toContain('text/css');
+  expect(response.headers()['content-encoding']).toBe('gzip');
+});
 
 const pages = [
   { route: '/', file: 'index.html', source: 'src/pages/index.astro' },
