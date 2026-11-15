@@ -411,6 +411,11 @@ details.collapsible > table.wikitable > tbody:only-child > tr:first-child:has(
   height: auto;
 }
 .home-intro p { margin: 0 0 .35rem; font-size: 1.0625rem; line-height: 1.45; }
+.home-intro p a:any-link,
+.footer-licenses a:any-link {
+  text-decoration: underline;
+  text-underline-offset: .12em;
+}
 #content .home-quick-links {
   display: flex;
   flex-wrap: wrap;
@@ -439,7 +444,7 @@ details.collapsible > table.wikitable > tbody:only-child > tr:first-child:has(
   grid-template-columns: 4rem minmax(0, 1fr);
   align-items: start;
   gap: .8rem;
-  padding-block: .4375rem;
+  padding-block: .375rem;
 }
 .directory-group + .directory-group { border-top: 1px solid var(--color-border-chrome); }
 .directory-thumb {
@@ -478,6 +483,14 @@ details.collapsible > table.wikitable > tbody:only-child > tr:first-child:has(
   break-inside: avoid;
   overflow-wrap: anywhere;
   line-height: 1.375;
+}
+.directory-group :is(h3, li) a {
+  display: flex;
+  align-items: center;
+  min-block-size: 24px;
+}
+@media (pointer: coarse) {
+  .directory-group :is(h3, li) a { min-block-size: 28px; }
 }
 
 @container directory (min-width: 44rem) {

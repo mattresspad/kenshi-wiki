@@ -18,6 +18,13 @@ test('the full homepage directory fits a 1440 × 900 reader with the rail open',
   expect(Math.max(...tops) - Math.min(...tops)).toBeLessThan(1);
   expect(await main.evaluate(el => el.scrollHeight - el.clientHeight)).toBeLessThanOrEqual(1);
   await expect(directory.getByRole('link').last()).toBeInViewport({ ratio: 1 });
+  const heights = await directory.getByRole('link').evaluateAll(links => links.map(link => link.getBoundingClientRect().height));
+  expect(Math.min(...heights)).toBeGreaterThanOrEqual(24);
+  await expect(directory.getByRole('link', { name: 'World of Kenshi', exact: true })).toHaveAttribute('href', '/world-of-kenshi');
+  const studio = main.getByRole('link', { name: 'Lo-Fi Games', exact: true });
+  await expect(studio).toHaveAttribute('href', 'https://lofigames.com/');
+  await expect(studio).toHaveCSS('text-decoration-line', 'underline');
+  await expect(page.getByRole('contentinfo').getByRole('link', { name: 'CC BY-SA 4.0' })).toHaveCSS('text-decoration-line', 'underline');
   await expect(page.locator('#catlinks')).toHaveCount(0);
   await expect(page.locator('.wiki-header a[aria-current="page"]')).toHaveText('Main page');
   const footer = await page.locator('footer').boundingBox();
