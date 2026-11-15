@@ -6,7 +6,7 @@ test.use({ launchOptions: {
   args: ['--disable-features=OverlayScrollbar,FluentOverlayScrollbar'],
 } });
 
-test('the full homepage directory fits a 1440 × 900 reader with the rail open', async ({ page }) => {
+test('the full homepage directory fits a 1440 × 900 reader with the rail open', async ({ page, baseURL }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('/');
   const main = page.getByRole('main');
@@ -39,7 +39,11 @@ test('the full homepage directory fits a 1440 × 900 reader with the rail open',
   expect(homeBox.width).toBeCloseTo(randomBox.width, 0);
   await page.locator('#p-navigation').getByRole('link', { name: 'Guides', exact: true }).click();
   await expect(page.locator('#p-navigation').getByRole('link', { name: 'Guides', exact: true })).toHaveAttribute('aria-current', 'page');
-  await home.click();
+  // The HTTPS preview can commit navigation before the new page's styles have loaded.
+  await Promise.all([
+    page.waitForURL(new URL('/', baseURL).href, { waitUntil: 'load' }),
+    home.click(),
+  ]);
   const footer = await page.locator('footer').boundingBox();
   expect(Math.round(footer.y + footer.height)).toBe(900);
 
