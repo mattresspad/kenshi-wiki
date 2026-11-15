@@ -1,0 +1,105 @@
+<div class="reader-jumps" hidden data-pagefind-ignore>
+  <div class="jump-buttons" role="group" aria-label="Page scrolling">
+    <button type="button" data-end="top" aria-label="Scroll to top" title="Scroll to top">
+      <span aria-hidden="true">↑</span><span class="jump-label">Top</span>
+    </button>
+    <button type="button" data-end="bottom" aria-label="Scroll to bottom" title="Scroll to bottom">
+      <span aria-hidden="true">↓</span><span class="jump-label">Bottom</span>
+    </button>
+  </div>
+</div>
+
+<script>
+  const dock = document.querySelector<HTMLElement>('.reader-jumps')!;
+  const topButton = dock.querySelector<HTMLButtonElement>('[data-end="top"]')!;
+  const bottomButton = dock.querySelector<HTMLButtonElement>('[data-end="bottom"]')!;
+  const article = document.querySelector<HTMLElement>('main#content')!;
+  let scroller: Element = article;
+
+  function update() {
+    const range = scroller.scrollHeight - scroller.clientHeight;
+    const focused = document.activeElement;
+    // Scroll offsets can be fractional at non-default zoom.
+    topButton.hidden = range <= 1 || scroller.scrollTop <= 0.5;
+    bottomButton.hidden = range <= 1 || scroller.scrollTop >= range - 0.5;
+    dock.hidden = topButton.hidden && bottomButton.hidden;
+    if ((focused === topButton && topButton.hidden) || (focused === bottomButton && bottomButton.hidden)) {
+      const otherButton = focused === topButton ? bottomButton : topButton;
+      const next = dock.hidden ? article : otherButton;
+      next.focus({ preventScroll: true });
+    }
+  }
+
+  function measure() {
+    scroller = getComputedStyle(article).overflowY === 'auto' ? article : document.scrollingElement!;
+    update();
+  }
+
+  function jump(top: number) {
+    scroller.scrollTo({ top, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  }
+  topButton.addEventListener('click', () => jump(0));
+  bottomButton.addEventListener('click', () => jump(scroller.scrollHeight));
+
+  article.addEventListener('scroll', update, { passive: true });
+  document.addEventListener('scroll', update, { passive: true });
+  const sizes = new ResizeObserver(measure);
+  sizes.observe(article);
+  sizes.observe(document.getElementById('bodyContent')!);
+  sizes.observe(document.body);
+  window.addEventListener('resize', measure);
+  window.addEventListener('pageshow', measure);
+  measure();
+</script>
+
+<style>
+  /* A zero-height sibling keeps the buttons above the footer without adding scrollable content. */
+  .reader-jumps {
+    position: sticky;
+    bottom: 0;
+    height: 0;
+    z-index: 3;
+    pointer-events: none;
+  }
+  .jump-buttons {
+    position: absolute;
+    right: max(.65rem, env(safe-area-inset-right));
+    bottom: max(.5rem, env(safe-area-inset-bottom));
+    display: flex;
+    overflow: hidden;
+    pointer-events: auto;
+    border: 1px solid var(--color-border-chrome);
+    border-radius: .45rem;
+    background: var(--paper-01);
+    box-shadow: 0 1px 4px rgb(0 0 0 / .18);
+  }
+  button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0 .6rem;
+    border: 0;
+    background: transparent;
+    color: var(--color-link);
+    cursor: pointer;
+    font: inherit;
+    font-size: .8125rem;
+  }
+  button span[aria-hidden] { font-size: 1.15rem; }
+  button:hover, button:focus-visible { background: var(--color-bg-content); }
+  button:focus-visible { outline: 2px solid var(--color-link); outline-offset: -3px; }
+  .reader-jumps[hidden], button[hidden] { display: none; }
+
+  @media screen and (min-width: 64rem) and (min-height: 40rem) {
+    .reader-jumps { position: relative; grid-area: article; align-self: end; }
+    .jump-buttons { right: 1.5rem; }
+  }
+  @media screen and (width < 64rem), screen and (height < 40rem) {
+    .jump-label { display: none; }
+    :global(#mw-panel[data-open]) ~ .reader-jumps { visibility: hidden; }
+  }
+  @media print { .reader-jumps { display: none; } }
+</style>

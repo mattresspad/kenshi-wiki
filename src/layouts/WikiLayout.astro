@@ -4,6 +4,7 @@ import '../styles/wiki-header.css';
 import type { ComponentProps } from 'astro/types';
 import WikiHeader from '../components/WikiHeader.astro';
 import WikiNavigation from '../components/WikiNavigation.astro';
+import PageJumps from '../components/PageJumps.astro';
 import { isIndexablePath } from '../lib/indexing.js';
 import { wiki } from '../lib/wiki.js';
 
@@ -85,6 +86,8 @@ const canonicalUrl = isIndexablePath(page.href) ? new URL(page.href, Astro.site)
         )}
       </div>
     </main>
+
+    <PageJumps />
 
     <footer id="footer" class="mw-footer reader-footer">
       <div class="footer-licenses">

@@ -398,3 +398,39 @@ test('the heading view and its controls work when browser storage is unavailable
   await page.reload();
   await expect(rail.locator('.rail-outline > details')).toHaveJSProperty('open', true);
 });
+
+test('page jumps follow the active reader and only offer reachable directions', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  const top = page.getByRole('button', { name: 'Scroll to top', exact: true });
+  const bottom = page.getByRole('button', { name: 'Scroll to bottom', exact: true });
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('/');
+  await expect(page.getByRole('group', { name: 'Page scrolling' })).toBeHidden();
+  await page.setViewportSize({ width: 390, height: 844 });
+  await expect(bottom).toBeVisible();
+
+  await page.goto('/the-holy-nation');
+  for (const width of [390, 1440]) {
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 });
+    await expect(top).toBeHidden();
+    await expect(bottom).toBeInViewport();
+    await page.evaluate(() => {
+      const main = document.querySelector('main');
+      (getComputedStyle(main).overflowY === 'auto' ? main : document.scrollingElement).scrollTop = 200;
+    });
+    await expect(top).toBeVisible();
+    await expect(bottom).toBeVisible();
+    await bottom.focus();
+    await page.keyboard.press('Enter');
+    await expect(bottom).toBeHidden();
+    await expect(top).toBeFocused();
+    const remaining = await page.evaluate(() => {
+      const el = innerWidth === 390 ? document.scrollingElement : document.querySelector('main');
+      return el.scrollHeight - el.clientHeight - el.scrollTop;
+    });
+    expect(Math.abs(remaining)).toBeLessThanOrEqual(1);
+    await top.press('Enter');
+    await expect(top).toBeHidden();
+    await expect(bottom).toBeFocused();
+  }
+});
