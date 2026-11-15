@@ -11,6 +11,13 @@ async function expectLinkNames(links, expected) {
   }
 }
 
+async function expectAllDestinations(sites) {
+  const links = sites.getByRole('link');
+  await expectLinkNames(links, names);
+  await expect.poll(() => links.evaluateAll(nodes => nodes.map(node => node.getAttribute('href'))))
+    .toEqual(destinations.map(link => link.href));
+}
+
 test('site links fill the available row and share overflow with the keyboard', async ({ page }) => {
   await page.goto('/');
   const sites = page.getByRole('navigation', { name: 'Related sites' });
@@ -90,31 +97,35 @@ test('theme icons and labels stay synchronized across the ribbon, menu and navig
   await expect(tools.getByRole('link', { name: 'Layout history' }).locator('[data-icon="clock"]')).toBeVisible();
 });
 
-test('the ribbon refits when its local font arrives and remains usable without it', async ({ browser, baseURL }) => {
+test('the ribbon exposes each destination once with the local font loaded or blocked', async ({ browser, baseURL }) => {
   for (const blocked of [false, true]) {
     const context = await browser.newContext({ baseURL, viewport: { width: 1200, height: 900 } });
     const page = await context.newPage();
     let release;
     const held = new Promise(resolve => { release = resolve; });
-    await page.route('**/fonts/*.woff2', async route => {
+    const fontURL = '**/fonts/*.woff2';
+    await page.route(fontURL, async route => {
       if (blocked) return route.abort();
       await held;
       await route.continue();
     });
     try {
-      await page.goto('/', { waitUntil: 'domcontentloaded' });
+      await Promise.all([
+        page.waitForRequest(fontURL),
+        page.goto('/', { waitUntil: 'domcontentloaded' }),
+      ]);
       const sites = page.getByRole('navigation', { name: 'Related sites' });
       const direct = sites.locator('.site-links-track').getByRole('link');
       await expect(direct.first()).toBeVisible();
       release();
       await page.evaluate(() => document.fonts.ready);
       await expect.poll(() => page.evaluate(() => document.fonts.check('500 12px "Exo 2"'))).toBe(!blocked);
-      const count = await direct.count();
-      await expectLinkNames(direct, names.slice(0, count));
+      // A font swap can move a link between the row and More as the menu opens.
       await sites.locator('summary').click();
-      await expectLinkNames(sites.locator('details').getByRole('link'), names.slice(count));
+      await expect(sites.locator('details').getByRole('link').first()).toBeVisible();
+      await expectAllDestinations(sites);
       await page.setViewportSize({ width: 320, height: 844 });
-      await expectLinkNames(sites.getByRole('link'), names);
+      await expectAllDestinations(sites);
       expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
       expect((await page.locator('.wiki-header').boundingBox()).height).toBe(80);
     } finally {
@@ -130,9 +141,6 @@ test.describe('without JavaScript', () => {
     await page.goto('/');
     const sites = page.getByRole('navigation', { name: 'Related sites' });
     await sites.locator('summary').press('Enter');
-    const links = sites.getByRole('link');
-    await expectLinkNames(links, names);
-    expect(await links.evaluateAll(nodes => nodes.map(node => node.getAttribute('href'))))
-      .toEqual(destinations.map(link => link.href));
+    await expectAllDestinations(sites);
   });
 });
