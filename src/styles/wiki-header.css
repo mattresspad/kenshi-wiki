@@ -283,6 +283,17 @@
   padding-inline-start: .5rem;
   border-inline-start: 1px solid var(--color-border-chrome);
 }
+/* Inset edges give every drawer and link a surface without changing the rail's geometry. */
+.rail-nav :is(.rail-topics, .rail-outline) :is(a, summary) {
+  --link-surface: var(--paper-02);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--color-border-chrome) 70%, transparent);
+}
+.rail-nav :is(.rail-topics, .rail-outline) details[open] > summary {
+  --link-surface: color-mix(in srgb, var(--accent-100) 35%, var(--paper-02));
+}
+.rail-nav :is(.rail-topics, .rail-outline) a[aria-current="page"] {
+  box-shadow: inset 2px 0 var(--accent-300), inset 0 0 0 1px var(--color-border-chrome);
+}
 .outline-section { position: relative; }
 .outline-section.has-children > a { margin-inline-end: 1.6rem; }
 .outline-children > summary {
