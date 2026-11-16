@@ -18,8 +18,8 @@ export const siteLinkGroups = [
     { label: 'Nexus Mods', href: 'https://www.nexusmods.com/games/kenshi', image: 'nexus' },
   ] },
   { label: 'Community', links: [
-    { label: 'r/Kenshi', href: 'https://www.reddit.com/r/Kenshi/', image: 'reddit' },
     { label: 'Steam Forums', href: 'https://steamcommunity.com/app/233860/discussions/', image: 'steam-forums' },
+    { label: 'r/Kenshi', href: 'https://www.reddit.com/r/Kenshi/', image: 'reddit' },
     { label: 'Discord', href: 'https://discord.gg/EYhrarkbh6', image: 'discord' },
   ] },
   { label: 'Official', links: [

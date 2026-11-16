@@ -36,7 +36,7 @@ test('site links fill the available row and share overflow with the keyboard', a
   }
   await expect(groups.nth(1).getByRole('link')).toHaveText(['Steam', 'GOG', 'Humble Bundle']);
   await expect(groups.nth(2).getByRole('link')).toHaveText(['Steam Workshop', 'Nexus Mods']);
-  await expect(groups.nth(3).getByRole('link')).toHaveText(['r/Kenshi', 'Steam Forums', 'Discord']);
+  await expect(groups.nth(3).getByRole('link')).toHaveText(['Steam Forums', 'r/Kenshi', 'Discord']);
   for (const name of ['X', 'Facebook', 'Instagram']) {
     const link = track.getByRole('link', { name, exact: true });
     await expect(link).toHaveText('');
