@@ -1,0 +1,201 @@
+---
+import { categoryGroups } from '../lib/category-layout.js';
+interface Props { articles: { id: string; data: { title: string } }[] }
+const groups = categoryGroups(Astro.props.articles);
+---
+
+<div class="category-columns" data-category-directory role="group" aria-label="Category pages by initial">
+  {groups.map(({ letter, articles }) => (
+    <div class:list={['category-group', { 'is-empty': !articles.length }]} data-letter={letter}>
+      <h3 class="category-letter" id={`category-${letter === '#' ? 'other' : letter.toLowerCase()}`}
+        aria-label={!articles.length ? `${letter}, no pages` : letter}
+        title={!articles.length ? `No pages beginning with ${letter}` : undefined}>{letter}</h3>
+      {!!articles.length && (
+        <div class="category-entries">
+          <ul>{articles.map(article => <li><a href={`/${article.id}`}>{article.data.title}</a></li>)}</ul>
+        </div>
+      )}
+    </div>
+  ))}
+</div>
+
+<script>
+  import { categoryLayout } from '../lib/category-layout.js';
+
+  const board = document.querySelector<HTMLElement>('[data-category-directory]')!;
+  const main = document.querySelector<HTMLElement>('main#content')!;
+  const groups = Array.from(board.querySelectorAll<HTMLElement>('.category-group'));
+  const desktop = matchMedia('(min-width: 64rem) and (min-height: 40rem)');
+  const printing = matchMedia('print');
+  let pending = false;
+  let previous = '';
+
+  function preserveReader(update: () => void) {
+    const focus = board.contains(document.activeElement) ? document.activeElement as HTMLElement : null;
+    const offsets = groups.map(group => group.querySelector<HTMLElement>('.category-entries')?.scrollTop ?? 0);
+    update();
+    groups.forEach((group, index) => {
+      const entries = group.querySelector<HTMLElement>('.category-entries');
+      if (entries) entries.scrollTop = offsets[index];
+    });
+    if (focus && focus !== document.activeElement) {
+      if (focus.classList.contains('category-entries') && !focus.hasAttribute('tabindex')) focus.tabIndex = -1;
+      focus.focus({ preventScroll: true });
+    }
+    if (focus?.matches('a')) focus.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'instant' });
+  }
+
+  function flow() {
+    if (!board.hasAttribute('data-bounded')) return;
+    preserveReader(() => {
+      board.removeAttribute('data-bounded');
+      board.style.removeProperty('--category-column-count');
+      board.replaceChildren(...groups);
+      for (const entries of board.querySelectorAll<HTMLElement>('.category-entries')) {
+        entries.style.removeProperty('max-block-size');
+        entries.removeAttribute('data-overflow');
+        entries.removeAttribute('tabindex');
+        entries.removeAttribute('role');
+        entries.removeAttribute('aria-label');
+      }
+    });
+    previous = '';
+  }
+
+  function measure() {
+    pending = false;
+    if (!desktop.matches || printing.matches || getComputedStyle(main).overflowY !== 'auto') return flow();
+    const rootSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
+    const gap = rootSize;
+    const width = board.getBoundingClientRect().width;
+    const count = Math.min(6, Math.max(1, Math.floor((width + gap) / (15 * rootSize + gap))));
+    const columnWidth = (width - (count - 1) * gap) / count;
+    const groupGap = .5 * rootSize;
+    const top = board.getBoundingClientRect().top - main.getBoundingClientRect().top + main.scrollTop - main.clientTop;
+    const available = main.clientHeight - top - parseFloat(getComputedStyle(main).paddingBottom);
+    if (available <= 0) return flow();
+
+    // Measure at the destination column width, including its native scrollbar gutter.
+    // Hidden, inert copies avoid disturbing the reader's focus while trying possible layouts.
+    const ruler = board.cloneNode(false) as HTMLElement;
+    ruler.removeAttribute('data-category-directory');
+    ruler.setAttribute('data-bounded', '');
+    ruler.setAttribute('aria-hidden', 'true');
+    ruler.inert = true;
+    ruler.style.cssText = `position:fixed;inset:0 auto auto -10000px;display:block;width:${columnWidth}px;visibility:hidden;pointer-events:none;`;
+    const copies = groups.map(group => group.cloneNode(true) as HTMLElement);
+    for (const copy of copies) {
+      copy.querySelectorAll('[id]').forEach(node => node.removeAttribute('id'));
+      copy.querySelector<HTMLElement>('.category-entries')?.style.removeProperty('max-block-size');
+      ruler.append(copy);
+    }
+    board.parentElement!.append(ruler);
+    const measurements = copies.map(copy => {
+      const entries = copy.querySelector<HTMLElement>('.category-entries');
+      if (!entries) return { fixed: copy.getBoundingClientRect().height, natural: 0, minimum: 0 };
+      const list = entries.querySelector<HTMLUListElement>('ul')!;
+      const rows = Array.from(list.children);
+      const natural = entries.getBoundingClientRect().height;
+      const minimum = rows[Math.min(1, rows.length - 1)].getBoundingClientRect().bottom
+        - list.getBoundingClientRect().top + parseFloat(getComputedStyle(list).paddingBottom);
+      return { fixed: copy.getBoundingClientRect().height - natural, natural, minimum };
+    });
+    ruler.remove();
+    const layout = categoryLayout(measurements, count, available, groupGap);
+    if (!layout) return flow();
+    const key = JSON.stringify(layout);
+    if (key === previous) return;
+
+    preserveReader(() => {
+      board.setAttribute('data-bounded', '');
+      board.style.setProperty('--category-column-count', String(count));
+      const columns = layout.columns.map(indices => {
+        const column = document.createElement('div');
+        column.className = 'category-column';
+        for (const index of indices) column.append(groups[index]);
+        return column;
+      });
+      board.replaceChildren(...columns);
+      groups.forEach((group, index) => {
+        const entries = group.querySelector<HTMLElement>('.category-entries');
+        if (!entries) return;
+        const overflowing = measurements[index].natural > layout.lists[index] + .5;
+        entries.style.maxBlockSize = `${layout.lists[index]}px`;
+        entries.toggleAttribute('data-overflow', overflowing);
+        if (overflowing) {
+          entries.tabIndex = 0;
+          entries.setAttribute('role', 'region');
+          entries.setAttribute('aria-label', `Pages beginning with ${group.dataset.letter}`);
+        } else {
+          entries.removeAttribute('tabindex');
+          entries.removeAttribute('role');
+          entries.removeAttribute('aria-label');
+        }
+      });
+    });
+    previous = key;
+  }
+
+  function schedule() {
+    if (pending) return;
+    pending = true;
+    requestAnimationFrame(measure);
+  }
+  const sizes = new ResizeObserver(schedule);
+  sizes.observe(main);
+  sizes.observe(document.querySelector('.category-intro')!);
+  sizes.observe(document.getElementById('firstHeading')!);
+  desktop.addEventListener('change', schedule);
+  printing.addEventListener('change', schedule);
+  window.addEventListener('resize', schedule);
+  window.addEventListener('pageshow', schedule);
+  document.fonts.ready.then(schedule);
+  document.fonts.addEventListener('loadingdone', schedule);
+  schedule();
+</script>
+
+<style>
+  .category-columns { columns: 15rem 6; column-gap: 1rem; margin-block-start: .75rem; }
+  .category-group {
+    box-sizing: border-box;
+    break-inside: avoid-column;
+    margin-block-end: .5rem;
+    border: 1px solid var(--color-border-chrome);
+    border-radius: 2px;
+    background: var(--paper-01);
+  }
+  .category-group .category-letter {
+    margin: 0;
+    padding: .2rem .45rem;
+    background: var(--paper-02);
+    font: 600 1rem/1.35 var(--font-display);
+  }
+  .category-group:not(.is-empty) .category-letter { border-bottom: 1px solid var(--color-border-chrome); }
+  .category-group.is-empty .category-letter { color: var(--paper-09); }
+  :global(#content) .category-group ul { list-style: none; margin: 0; padding: 0; }
+  .category-group li { margin: 0; overflow-wrap: anywhere; }
+  .category-group li a { display: block; box-sizing: border-box; min-block-size: 24px; padding-inline: .45rem; }
+  .category-group a:focus-visible, .category-entries:focus-visible { outline: 2px solid var(--color-link); outline-offset: -2px; }
+  .category-columns[data-bounded] { display: grid; grid-template-columns: repeat(var(--category-column-count), minmax(0, 1fr)); align-items: start; }
+  .category-columns[data-bounded] .category-group { margin: 0; }
+  .category-columns[data-bounded] .category-entries {
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    scrollbar-color: var(--paper-08) var(--paper-02);
+  }
+  .category-group:has(.category-entries[data-overflow]) > .category-letter::after {
+    content: '↕' / '';
+    float: inline-end;
+    color: var(--paper-09);
+  }
+  /* Columns are created by the enhancement, so they have no Astro scope attribute. */
+  .category-columns :global(.category-column) { display: flex; flex-direction: column; gap: .5rem; min-width: 0; }
+  @media print {
+    .category-columns[data-bounded] { display: block; columns: 15rem 2; }
+    .category-columns :global(.category-column) { display: contents; }
+    .category-columns .category-group { margin-block-end: .5rem; }
+    .category-columns .category-entries { max-block-size: none !important; overflow: visible !important; scrollbar-gutter: auto !important; }
+  }
+</style>

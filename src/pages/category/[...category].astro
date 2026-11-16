@@ -2,6 +2,7 @@
 import WikiLayout from '../../layouts/WikiLayout.astro';
 import { categoryIndex } from '../../lib/categories.js';
 import { pageSlug } from '../../lib/wiki.js';
+import CategoryDirectory from '../../components/CategoryDirectory.astro';
 
 export async function getStaticPaths() {
   const index = await categoryIndex();
@@ -10,10 +11,6 @@ export async function getStaticPaths() {
 
 const { name, articles } = Astro.props;
 
-// Articles grouped under the first letter of their title, as on MediaWiki category pages.
-const groups = Object.entries(
-  Object.groupBy(articles, (article) => article.data.title[0].toUpperCase()),
-);
 const count = articles.length === 1 ? '1 page' : `${articles.length} pages`;
 ---
 
@@ -25,23 +22,9 @@ const count = articles.length === 1 ? '1 page' : `${articles.length} pages`;
   searchable={false}
   showTitle
 >
-  <h2>Pages in category “{name}”</h2>
-  <p>This category contains {count}. To add or remove an article, open that article, choose <strong>Edit on GitHub</strong>, and update its <code>categories</code> list.</p>
-  <div class="category-columns">
-    {groups.map(([letter, group]) => (
-      <div class="category-group">
-        <h3>{letter}</h3>
-        <ul>
-          {group.map((article) => <li><a href={`/${article.id}`}>{article.data.title}</a></li>)}
-        </ul>
-      </div>
-    ))}
+  <div class="category-intro">
+    <h2>Pages in category “{name}”</h2>
+    <p>This category contains {count}. To add or remove an article, open that article, choose <strong>Edit on GitHub</strong>, and update its <code>categories</code> list.</p>
   </div>
+  <CategoryDirectory {articles} />
 </WikiLayout>
-
-<style>
-  .category-columns { column-width: 16em; column-gap: 2em; }
-  .category-group { break-inside: avoid-column; }
-  .category-group h3 { margin-top: 0; }
-  .category-group ul { margin-top: 0.2em; }
-</style>
