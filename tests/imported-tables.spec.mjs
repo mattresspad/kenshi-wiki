@@ -109,7 +109,8 @@ test('limb and building cards fit reader widths and retain meaningful blank anat
   for (const width of [390, 320]) {
     await page.setViewportSize({ width, height: 844 });
     expect(await grid.evaluate(el => getComputedStyle(el).gridTemplateColumns.split(' ').length)).toBe(1);
-    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+    // The header reallocates its visible links on the next resize frame.
+    await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
   }
   await page.goto('/storage-armour-plate');
   const building = page.getByRole('table', { name: 'Storage: Armour Plate', exact: true });
@@ -117,5 +118,5 @@ test('limb and building cards fit reader widths and retain meaningful blank anat
   await expect(building).toContainText('Exterior/Interior');
   await expect(building).toContainText('1 hrs');
   await expect(building.locator('table')).toHaveCount(0);
-  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
+  await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
 });
