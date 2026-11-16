@@ -11,7 +11,7 @@ categories: ["Buildings","Removed Content"]
 
   
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Oil Drill</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2"><br></td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Oil Drill</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr></tbody></table></td></tr></tbody></table>
 
 As of version 1.0.10 the **Oil Drill** is currently not implemented in the base game (Except for one that appears in [Mongrel](/mongrel)). It is however possible to access and build the **Oil Drill** by using the in-game editor (Shift + F12). This building can be found under the 'Mining' section of buildings.
 

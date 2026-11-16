@@ -30,7 +30,7 @@ A similar water-cost 1-ingredient food that provides similar nutrition would be 
 
 The lowest of all cultivated food is the [Dustwich](/dustwich), costing 1 water per 70nu.
 
-<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/cactus"><span>Cactus</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Chewsticks</span></strong><div></div></td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(.25 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/cactus"><span>Cactus</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Chewsticks</span></strong><div></div></td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(.25 required)</span></p></td></tr></tbody></table></details>
 
   
 

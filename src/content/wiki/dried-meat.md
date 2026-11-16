@@ -28,9 +28,9 @@ Dried Meat is made from [Raw Meat](/raw-meat) at either a [Cooking Stove](/cooki
 
 It is the most affordable vendor-bought food that grants the highest Nu-per-Cats value. This makes it a money-conscious pick-me-up when traveling, if caught out without food or before player farming is established.
 
-<details class="collapsible" open=""><summary>Campfire</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-meat"><span>Raw Meat</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Dried Meat</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Campfire</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-meat"><span>Raw Meat</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Dried Meat</span></strong><div></div></td></tr></tbody></table></details>
 
-<details class="collapsible"><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-meat"><span>Raw Meat</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Dried Meat</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-meat"><span>Raw Meat</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Dried Meat</span></strong><div></div></td></tr></tbody></table></details>
 
 ## Crafting
 

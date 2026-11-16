@@ -14,7 +14,7 @@ infobox:
         - ["place","Exterior"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Makeshift Wall</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2"><br></td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Makeshift Wall</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr></tbody></table></td></tr></tbody></table>
 
   
 **Walls** are [defensive structures](/defensive-structures) used to keep potential threats at bay. There are four tiers available, each requiring its own technology to unlock it and additional resources to build.

@@ -53,9 +53,9 @@ If players can ignore potential lore ramifications, raw meat can be looted in la
 -   [Assassination Dummy](/assassination-dummy)
 -   [Meatwrap](/meatwrap)
 
-<details class="collapsible"><summary>Campfire</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Raw Meat</span></strong><div></div><p><span>(1 required)</span></p></td><td><a href="/dried-meat"><span>Dried Meat</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Campfire</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Raw Meat</span></strong><div></div><p><span>(1 required)</span></p></td><td><a href="/dried-meat"><span>Dried Meat</span></a><div></div></td></tr></tbody></table></details>
 
-<details class="collapsible"><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Raw Meat</span></strong><div></div><p><span>(1 required)</span></p></td><td><a href="/dried-meat"><span>Dried Meat</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Raw Meat</span></strong><div></div><p><span>(1 required)</span></p></td><td><a href="/dried-meat"><span>Dried Meat</span></a><div></div></td></tr></tbody></table></details>
 
 ### History
 

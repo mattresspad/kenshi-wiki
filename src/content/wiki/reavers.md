@@ -62,12 +62,12 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Reaver patrols can spawn in <a href="/greenbeach">Greenbeach</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/the-crags">The Crags</a>, <a href="/the-outlands">The Outlands</a>, and <a href="/the-pits-east">The Pits East</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Reaver patrols can spawn in <a href="/greenbeach">Greenbeach</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/the-crags">The Crags</a>, <a href="/the-outlands">The Outlands</a>, and <a href="/the-pits-east">The Pits East</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/ark">Ark</a></dd><dd><a href="/reaver-camp">Reaver Camp</a> x3</dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/ark">Ark</a></dd><dd><a href="/reaver-camp">Reaver Camp</a> x3</dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/heng-zone">Heng</a>, <a href="/stormgap-coast">Stormgap Coast</a>, and <a href="/the-eye">The Eye</a>.<dl><dt>Town Overrides</dt></dl><p>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.</p><dl><dd><a href="/brink">Brink</a></dd><dd><a href="/crab-village">Crab Village</a></dd><dd><a href="/okrans-shield">Okran's Shield</a></dd><dd><a href="/reaver-camp">Reaver Camp</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/heng-zone">Heng</a>, <a href="/stormgap-coast">Stormgap Coast</a>, and <a href="/the-eye">The Eye</a>.<dl><dt>Town Overrides</dt></dl><p>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.</p><dl><dd><a href="/brink">Brink</a></dd><dd><a href="/crab-village">Crab Village</a></dd><dd><a href="/okrans-shield">Okran's Shield</a></dd><dd><a href="/reaver-camp">Reaver Camp</a></dd></dl></td></tr></tbody></table></details>

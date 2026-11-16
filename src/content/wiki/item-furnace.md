@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Item Furnace</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">The furnace melts down unwanted scrap- weapons, armour etc- back into raw iron. It's also a good way to dispose of any severed limbs you have lying around your base after a battle.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Item Furnace</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">The furnace melts down unwanted scrap- weapons, armour etc- back into raw iron. It's also a good way to dispose of any severed limbs you have lying around your base after a battle.<br></td></tr></tfoot></table>
 
   
 

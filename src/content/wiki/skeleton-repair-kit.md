@@ -29,7 +29,7 @@ They can also be found at some shops. Typically, they are sold in Adventurer sho
 
 Its id in the save editor is 18020-gamedata.base.
 
-<details class="collapsible" open=""><summary>Robotics Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(0.5 required)</span></p></td><td><strong><span>Skeleton Repair Kit</span></strong><div></div></td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Robotics Bench</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(0.5 required)</span></p></td><td><strong><span>Skeleton Repair Kit</span></strong><div></div></td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
 
 ## Crafting
 

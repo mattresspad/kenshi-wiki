@@ -14,7 +14,7 @@ categories: ["Statistics"]
 
 Perception governs the characters accuracy with ranged weapons. It's especially important for hitting far away or moving targets.
 
-<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td><span>Negative Multiplier:</span><br>-<a href="/hive-soldier-drone"><span>Hive Soldier Drone</span></a></td><td><span>Positive Multiplier:</span><br>-<a href="/hive-prince"><span>Hive Prince</span></a><br>-<a href="/skeleton-log-head-mkii"><span>Skeleton Log-Head MKII</span></a><br>-<a href="/soldierbot"><span>Soldierbot</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td><span>Negative Multiplier:</span><br>-<a href="/hive-soldier-drone"><span>Hive Soldier Drone</span></a></td><td><span>Positive Multiplier:</span><br>-<a href="/hive-prince"><span>Hive Prince</span></a><br>-<a href="/skeleton-log-head-mkii"><span>Skeleton Log-Head MKII</span></a><br>-<a href="/soldierbot"><span>Soldierbot</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
 
   
 Perception is reduced by up to -20% during [dust storms](/weather-effects#duststorms), depending on the severity of the storm.

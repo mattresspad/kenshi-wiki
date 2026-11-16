@@ -34,12 +34,12 @@ Town residents
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Crabs can spawn in <a href="/fishman-island">Fishman Island</a>, <a href="/greenbeach">Greenbeach</a>, <a href="/howler-maze">Howler Maze</a>, <a href="/the-pits-east">The Pits East</a>, and <a href="/the-unwanted-zone">The Unwanted Zone</a>.<p>Crab nests can spawn in <a href="/greenbeach">Greenbeach</a>, <a href="/howler-maze">Howler Maze</a>, and <a href="/the-unwanted-zone">The Unwanted Zone</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Crabs can spawn in <a href="/fishman-island">Fishman Island</a>, <a href="/greenbeach">Greenbeach</a>, <a href="/howler-maze">Howler Maze</a>, <a href="/the-pits-east">The Pits East</a>, and <a href="/the-unwanted-zone">The Unwanted Zone</a>.<p>Crab nests can spawn in <a href="/greenbeach">Greenbeach</a>, <a href="/howler-maze">Howler Maze</a>, and <a href="/the-unwanted-zone">The Unwanted Zone</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/crab-nest">Crab Nest</a></dd><dd><a href="/lost-town">Lost Town</a></dd></dl><p>Crab infestations can occur in <a href="/archive-town">Archive Town</a>, <a href="/looted-ruins">Looted Ruins</a>, and <a href="/lost-town">Lost Town</a>.</p><p>The megacrab is found in <a href="/lost-town">Lost Town</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/crab-nest">Crab Nest</a></dd><dd><a href="/lost-town">Lost Town</a></dd></dl><p>Crab infestations can occur in <a href="/archive-town">Archive Town</a>, <a href="/looted-ruins">Looted Ruins</a>, and <a href="/lost-town">Lost Town</a>.</p><p>The megacrab is found in <a href="/lost-town">Lost Town</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>

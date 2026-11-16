@@ -71,4 +71,4 @@ The towns name "Blister Hill" is likely to be a reference to the hill behind the
 
 ## Gallery
 
-<details class="collapsible"><summary>Interier Gallery</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>A gallery for a almost full list of building interiers.<h4><span class="mw-headline" id="Inner_City">Inner City</span></h4><h4><span class="mw-headline" id="Outer_City">Outer City</span></h4></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Interier Gallery</summary><table class="wikitable"><tbody><tr><td>A gallery for a almost full list of building interiers.<h4><span class="mw-headline" id="Inner_City">Inner City</span></h4><h4><span class="mw-headline" id="Outer_City">Outer City</span></h4></td></tr></tbody></table></details>

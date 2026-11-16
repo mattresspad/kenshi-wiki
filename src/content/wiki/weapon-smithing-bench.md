@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Weapon Smith</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>6</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">The core of a good base, this is where you craft your weapons. It can be built outside too, although that will leave it vulnerable to damage in harsh weather.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Weapon Smith</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>6</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">The core of a good base, this is where you craft your weapons. It can be built outside too, although that will leave it vulnerable to damage in harsh weather.<br></td></tr></tfoot></table>
 
 In game this structure is named "Weapon Smith" but for the purposes of this wiki we will refer it to as the "Weapon Smithing Bench" to avoid confusion with the [Weapon Smith](/weapon-smith-skill) skill.
 

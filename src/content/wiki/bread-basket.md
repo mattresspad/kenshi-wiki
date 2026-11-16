@@ -7,7 +7,7 @@ source:
 categories: ["Storage","Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Bread Basket</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">Storage container for bread<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Bread Basket</caption><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">Storage container for bread<br></td></tr></tfoot></table>
 
 The **Bread Basket** is a [Storage](/storage) container for storing up to 50 [Bread](/bread) items. The ability to build this building is unlocked after researching [Baking](/baking-tech). It can be used to automate the [Hunger](/guide-to-health#hunger) management of the units inside a [player-owned outpost](/guide-to-building-an-outpost) or [building in town](/player-owned-buildings-in-town).
 

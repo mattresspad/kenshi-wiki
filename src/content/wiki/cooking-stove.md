@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Cooking Stove</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>2</td></tr><tr><td>Estimated build time:</td><td>4 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/cooking-tech">Cooking</a></td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A station where you can prepare all kinds of food<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Cooking Stove</caption><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>2</td></tr><tr><td>Estimated build time:</td><td>4 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/cooking-tech">Cooking</a></td></tr></tbody><tfoot><tr><td colspan="2">A station where you can prepare all kinds of food<br></td></tr></tfoot></table>
 
   
 The **Cooking Stove** allows you to cook a number of recipes in the game as listed below. Using the stove trains the [Cooking](/cooking) skill.

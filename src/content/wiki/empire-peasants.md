@@ -31,15 +31,15 @@ randomly named
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td><a href="/escaped-slave">Escaped Slave</a> squads can spawn in <a href="/heng-zone">Heng</a>, <a href="/howler-maze">Howler Maze</a>, <a href="/skimsands">Skimsands</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.<p><a href="/vagrant-camp">Vagrant Camps</a> can spawn in <a href="/heng-zone">Heng</a> and <a href="/the-great-desert">The Great Desert</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td><a href="/escaped-slave">Escaped Slave</a> squads can spawn in <a href="/heng-zone">Heng</a>, <a href="/howler-maze">Howler Maze</a>, <a href="/skimsands">Skimsands</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.<p><a href="/vagrant-camp">Vagrant Camps</a> can spawn in <a href="/heng-zone">Heng</a> and <a href="/the-great-desert">The Great Desert</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/old-village">Old Village</a></dd><dd><a href="/vagrant-camp">Vagrant Camp</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/old-village">Old Village</a></dd><dd><a href="/vagrant-camp">Vagrant Camp</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<table class="wikitable"><tbody><tr><td><dl><dd><a href="/bark">Bark</a> x2</dd><dd><a href="/clownsteady">Clownsteady</a></dd><dd><a href="/heft">Heft</a></dd><dd><a href="/heng">Heng</a> x2</dd></dl></td><td valign="top"><dl><dd><a href="/port-north">Port North</a></dd><dd><a href="/port-south">Port South</a></dd><dd><a href="/sho-battai">Sho-Battai</a></dd><dd><a href="/traders-edge">Trader's Edge</a></dd></dl></td></tr></tbody></table></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<table class="wikitable"><tbody><tr><td><dl><dd><a href="/bark">Bark</a> x2</dd><dd><a href="/clownsteady">Clownsteady</a></dd><dd><a href="/heft">Heft</a></dd><dd><a href="/heng">Heng</a> x2</dd></dl></td><td valign="top"><dl><dd><a href="/port-north">Port North</a></dd><dd><a href="/port-south">Port South</a></dd><dd><a href="/sho-battai">Sho-Battai</a></dd><dd><a href="/traders-edge">Trader's Edge</a></dd></dl></td></tr></tbody></table></td></tr></tbody></table></details>
 
   
 

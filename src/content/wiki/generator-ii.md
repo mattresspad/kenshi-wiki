@@ -7,7 +7,7 @@ source:
 categories: ["Buildings","Power"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Generator II</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/electrical-components">Electrical Components</a></td><td>10</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>6</td></tr><tr><td>Estimated build time:</td><td>6 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/heavy-generator-theory-tech">Heavy Generator Theory</a></td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">An electrical generator that runs on biofuel.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Generator II</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/electrical-components">Electrical Components</a></td><td>10</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>6</td></tr><tr><td>Estimated build time:</td><td>6 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/heavy-generator-theory-tech">Heavy Generator Theory</a></td></tr></tbody><tfoot><tr><td colspan="2">An electrical generator that runs on biofuel.<br></td></tr></tfoot></table>
 
 A Generator produces [power](/power) by burning [Fuel](/fuel). Power output can be increased by 15 by researching [Amplified Generators](/amplified-generators-tech). This can be done twice for a full power output of 130.
 

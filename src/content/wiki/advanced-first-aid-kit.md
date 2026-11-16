@@ -26,7 +26,7 @@ infobox:
 
 This item is also equipped by high-level members of the [United Cities](/united-cities) (nearly all of the Nobles) and by [Holy Lord Phoenix](/holy-lord-phoenix) to preserve their precious lives. It can also be found on [Doctors](/doctor) and [Surgeons](/surgeon) of [The Holy Nation](/the-holy-nation). Additionally, [Tinfist](/tinfist) also carries this item in their inventory.
 
-<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1.5 required)</span></p></td><td><strong><span>Advanced First Aid Kit</span></strong><div></div></td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1.5 required)</span></p></td><td><strong><span>Advanced First Aid Kit</span></strong><div></div></td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>
 
 ## Crafting
 

@@ -28,7 +28,7 @@ The Dustwich is the single-most water-efficient farmed food in the game, taking 
 
 The dustwich is obviously Kenshi's parallel to the real-world [sandwich](https://en.wikipedia.org/wiki/Sandwich). It has green, cactus paste kept between two slices of bread.
 
-<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/bread"><span>Bread</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Dustwich</span></strong><div></div></td></tr><tr><td><a href="/cactus"><span>Cactus</span></a><div></div><p><span>(8 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/bread"><span>Bread</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Dustwich</span></strong><div></div></td></tr><tr><td><a href="/cactus"><span>Cactus</span></a><div></div><p><span>(8 required)</span></p></td></tr></tbody></table></details>
 
   
 

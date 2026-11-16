@@ -61,15 +61,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>When certain <a href="/world-states">World States</a> are achieved, the Rebel Swordsmen can patrol many zones, mostly the ones under former United Cities control, they can be easily found fighting and patrolling regions like The Hook, Heng, The Great Desert, the borders of Venge, and sometimes even in other areas where United Cities have a presence.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>When certain <a href="/world-states">World States</a> are achieved, the Rebel Swordsmen can patrol many zones, mostly the ones under former United Cities control, they can be easily found fighting and patrolling regions like The Hook, Heng, The Great Desert, the borders of Venge, and sometimes even in other areas where United Cities have a presence.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which the Rebel Swordsmen control.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>There are no locations which the Rebel Swordsmen control.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/fort-simion">Fort Simion</a></dd><dd><a href="/raider-camp">Raider Camp</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/fort-simion">Fort Simion</a></dd><dd><a href="/raider-camp">Raider Camp</a></dd></dl></td></tr></tbody></table></details>
 
   
 

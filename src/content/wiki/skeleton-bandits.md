@@ -50,11 +50,11 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Skeleton Bandit patrols can spawn in <a href="/stobes-gamble">Stobe's Gamble</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/the-crags">The Crags</a>, and <a href="/the-pits">The Pits</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Skeleton Bandit patrols can spawn in <a href="/stobes-gamble">Stobe's Gamble</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/the-crags">The Crags</a>, and <a href="/the-pits">The Pits</a>.</td></tr></tbody></table></details>
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/iron-hq">Iron HQ</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/iron-hq">Iron HQ</a></dd></dl></td></tr></tbody></table></details>
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>If Elder is killed or imprisoned, the Skeleton Bandits continue to patrol the same zones, except the squads contain only <a href="/broken-skeleton-bandit">Broken Skeleton Bandits</a>.<dl><dt>Town Overrides</dt></dl><p>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.</p><dl><dd><a href="/iron-hq">Iron HQ</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>If Elder is killed or imprisoned, the Skeleton Bandits continue to patrol the same zones, except the squads contain only <a href="/broken-skeleton-bandit">Broken Skeleton Bandits</a>.<dl><dt>Town Overrides</dt></dl><p>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.</p><dl><dd><a href="/iron-hq">Iron HQ</a></dd></dl></td></tr></tbody></table></details>
 
   
 

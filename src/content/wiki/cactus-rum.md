@@ -23,7 +23,7 @@ infobox:
 
 **Cactus Rum** is a [trade good](/trade-goods) produced at the [Rum Still](/rum-still). Although similar, [Empty Rum Bottle](/empty-rum-bottle) items have no interactions with this item. It cannot be used as [food](/food).
 
-<details class="collapsible" open=""><summary>Rum Still</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/cactus"><span>Cactus</span></a><div></div><p><span>(20 required)</span></p></td><td><strong><span>Cactus Rum</span></strong><div></div></td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Rum Still</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/cactus"><span>Cactus</span></a><div></div><p><span>(20 required)</span></p></td><td><strong><span>Cactus Rum</span></strong><div></div></td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
 
   
 

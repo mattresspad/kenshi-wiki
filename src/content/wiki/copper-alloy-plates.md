@@ -25,7 +25,7 @@ infobox:
 
 They can be found in many [ancient ruins](/ancient-ruins) in varying quantities.
 
-<details class="collapsible" open=""><summary>Copper Alloy Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/copper"><span>Copper</span></a><div></div><p><span>(1.5 required)</span></p></td><td><strong><span>Copper Alloy Plates</span></strong><div></div></td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Copper Alloy Bench</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/copper"><span>Copper</span></a><div></div><p><span>(1.5 required)</span></p></td><td><strong><span>Copper Alloy Plates</span></strong><div></div></td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
 
   
 

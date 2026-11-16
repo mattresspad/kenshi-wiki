@@ -53,12 +53,12 @@ There are no special actions which have an impact on this faction.
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Manhunter patrols can spawn in <a href="/heng">Heng</a>, <a href="/skimsands">Skimsands</a>, <a href="/the-eye">The Eye</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Manhunter patrols can spawn in <a href="/heng">Heng</a>, <a href="/skimsands">Skimsands</a>, <a href="/the-eye">The Eye</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/manhunter-base">Manhunter Base</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/manhunter-base">Manhunter Base</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Players can decrease the likelihood of patrolling squads by <a href="/world-states">killing or imprisoning</a> these characters:<ul><li><a href="/lady-kana">Lady Kana</a></li><li><a href="/slave-master-haga">Slave Master Haga</a></li><li><a href="/slave-master-ruben">Slave Master Ruben</a></li><li><a href="/slave-mistress-ren">Slave Mistress Ren</a></li></ul><p>Players can also remove the presence of Manhunters in The Hook (including <a href="/town-overrides">affecting</a> Manhunter Base) if both of these characters have been killed or imprisoned:</p><ul><li><a href="/slave-market-master">Slave Market Master</a></li><li><a href="/slave-mistress-grace">Slave Mistress Grace</a></li></ul></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>Players can decrease the likelihood of patrolling squads by <a href="/world-states">killing or imprisoning</a> these characters:<ul><li><a href="/lady-kana">Lady Kana</a></li><li><a href="/slave-master-haga">Slave Master Haga</a></li><li><a href="/slave-master-ruben">Slave Master Ruben</a></li><li><a href="/slave-mistress-ren">Slave Mistress Ren</a></li></ul><p>Players can also remove the presence of Manhunters in The Hook (including <a href="/town-overrides">affecting</a> Manhunter Base) if both of these characters have been killed or imprisoned:</p><ul><li><a href="/slave-market-master">Slave Market Master</a></li><li><a href="/slave-mistress-grace">Slave Mistress Grace</a></li></ul></td></tr></tbody></table></details>

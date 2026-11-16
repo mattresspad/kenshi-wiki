@@ -50,7 +50,7 @@ This armour has inventory dimensions of **2x4**.
 
 ## Source
 
-<details class="collapsible" open=""><summary>Locations</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><p>There are no characters which have a guaranteed chance of spawning with this item equipped.</p></td><td><p>There are no characters which only have a chance of spawning with this item equipped.</p></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p>This item is not found in shop locations.</p></td><td><p>This item is not found in any non-shop locations.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Locations</summary><table class="wikitable"><tbody><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><p>There are no characters which have a guaranteed chance of spawning with this item equipped.</p></td><td><p>There are no characters which only have a chance of spawning with this item equipped.</p></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p>This item is not found in shop locations.</p></td><td><p>This item is not found in any non-shop locations.</p></td></tr></tbody></table></details>
 
 ## Crafting
 

@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Storm House</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>16</td></tr><tr><td>Estimated build time:</td><td>3 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">Gives you a fair bit more space than that tiny shack you've been living in.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Storm House</caption><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>16</td></tr><tr><td>Estimated build time:</td><td>3 hrs</td></tr></tbody><tfoot><tr><td colspan="2">Gives you a fair bit more space than that tiny shack you've been living in.<br></td></tr></tfoot></table>
 
   
 A **Storm House** a relatively big and cheap early-game building players can [construct](/construction). It is slightly more than 3x expensive compared to the [Small Shack](/small-shack), yet features a very open first and second floor, of which more than doubles the floor-space of the structure.

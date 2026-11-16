@@ -25,7 +25,7 @@ infobox:
 
 Players can also produce hashish themselves by researching [Hashish Production](/hashish-production-tech) and building a [Hemp Processor](/hemp-processor). These structures are illegal and may attract unwanted attention from nearby factions which outlaw it. A hefty flow of [hemp](/hemp) is required to mass produce hashish.
 
-<details class="collapsible" open=""><summary>Hemp Processor</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(5 required)</span></p></td><td><strong><span>Hashish</span></strong><div></div></td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Hemp Processor</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(5 required)</span></p></td><td><strong><span>Hashish</span></strong><div></div></td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
 
   
 

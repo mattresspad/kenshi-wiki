@@ -42,15 +42,15 @@ The first category slaves can be used for lockpicking and/or assassination train
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Rebirth Slaves do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Rebirth Slaves do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Rebirth Slaves exclusively spawn as prisoners in <a href="/rebirth">Rebirth</a>. They do not control any locations.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>Rebirth Slaves exclusively spawn as prisoners in <a href="/rebirth">Rebirth</a>. They do not control any locations.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Rebirth Slaves stop existing if the town of Rebirth is overwritten. This happens if all three of these characters are either killed or imprisoned: <a href="/holy-lord-phoenix">Holy Lord Phoenix</a>, <a href="/high-inquisitor-valtena">High Inquisitor Valtena</a>, and <a href="/high-inquisitor-seta">High Inquisitor Seta</a>.<dl><dt>Town Overrides</dt></dl><p>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>Rebirth Slaves stop existing if the town of Rebirth is overwritten. This happens if all three of these characters are either killed or imprisoned: <a href="/holy-lord-phoenix">Holy Lord Phoenix</a>, <a href="/high-inquisitor-valtena">High Inquisitor Valtena</a>, and <a href="/high-inquisitor-seta">High Inquisitor Seta</a>.<dl><dt>Town Overrides</dt></dl><p>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</p></td></tr></tbody></table></details>
 
   
 

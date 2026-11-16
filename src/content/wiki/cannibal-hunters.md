@@ -47,12 +47,12 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Cannibal Hunter patrols can spawn in <a href="/cannibal-plains">Cannibal Plains</a>, <a href="/hidden-forest">Hidden Forest</a>, <a href="/northern-coast">Northern Coast</a>, and <a href="/sinkuun">Sinkuun</a>.<p>Cannibal Hunter Camps can potentially be found in <a href="/hidden-forest">Hidden Forest</a>, <a href="/northern-coast">Northern Coast</a>, and <a href="/sinkuun">Sinkuun</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Cannibal Hunter patrols can spawn in <a href="/cannibal-plains">Cannibal Plains</a>, <a href="/hidden-forest">Hidden Forest</a>, <a href="/northern-coast">Northern Coast</a>, and <a href="/sinkuun">Sinkuun</a>.<p>Cannibal Hunter Camps can potentially be found in <a href="/hidden-forest">Hidden Forest</a>, <a href="/northern-coast">Northern Coast</a>, and <a href="/sinkuun">Sinkuun</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/the-bastion">The Bastion</a></dd><dd>Camp - Cannibal Hunters</dd></dl><p>Cannibal Hunters might hang around in bars near <a href="/fishing-village">Fishing Village</a>, <a href="/hidden-forest">Hidden Forest</a>, and <a href="/worlds-end">World's End</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/the-bastion">The Bastion</a></dd><dd>Camp - Cannibal Hunters</dd></dl><p>Cannibal Hunters might hang around in bars near <a href="/fishing-village">Fishing Village</a>, <a href="/hidden-forest">Hidden Forest</a>, and <a href="/worlds-end">World's End</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>

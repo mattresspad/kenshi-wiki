@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Watchtower</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>60</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>10</td></tr><tr><td>Estimated build time:</td><td>12 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A multi-story tower ideal for lookout stations.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Watchtower</caption><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>60</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>10</td></tr><tr><td>Estimated build time:</td><td>12 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A multi-story tower ideal for lookout stations.<br></td></tr></tfoot></table>
 
 The Watchtower is a tall building shell that has 4 floors including the roof and can be equipped with both [Turrets](/turrets) and [Harpoon Turrets](/harpoon-turret) on the roof. It is commonly used for base defense due to the large height bonus it provides to turrets.
 

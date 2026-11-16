@@ -22,7 +22,7 @@ Building Materials can be purchased from Construction Traders in towns or produc
 
 They can be stored in [Storage: Building Materials](/storage-building-materials).
 
-<details class="collapsible" open=""><summary>Stone Processor</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-stone"><span>Raw Stone</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Building Materials</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Stone Processor</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-stone"><span>Raw Stone</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Building Materials</span></strong><div></div></td></tr></tbody></table></details>
 
   
 

@@ -135,15 +135,15 @@ _These are the potential NPCs who are members of this faction's trade caravans._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Traders Guild Caravans can spawn in <a href="/grey-desert">Grey Desert</a>, <a href="/heng-zone">Heng</a>, <a href="/stenn-desert">Stenn Desert</a>, <a href="/stormgap-coast">Stormgap Coast</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Traders Guild Caravans can spawn in <a href="/grey-desert">Grey Desert</a>, <a href="/heng-zone">Heng</a>, <a href="/stenn-desert">Stenn Desert</a>, <a href="/stormgap-coast">Stormgap Coast</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/traders-edge">Trader's Edge</a></dd></dl><p>Traders Guild controls these specific town residents: <a href="/bank">Bank</a>, <a href="/empire-general-shop">Empire General Shop</a>, <a href="/empire-weapon-shop">Empire Weapon Shop</a>, <a href="/noble-house">Noble House</a>, <a href="/small-empire-weapon-shop">Small Empire Weapon Shop</a>, and <a href="/traders-guild-hq">Traders Guild HQ</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/traders-edge">Trader's Edge</a></dd></dl><p>Traders Guild controls these specific town residents: <a href="/bank">Bank</a>, <a href="/empire-general-shop">Empire General Shop</a>, <a href="/empire-weapon-shop">Empire Weapon Shop</a>, <a href="/noble-house">Noble House</a>, <a href="/small-empire-weapon-shop">Small Empire Weapon Shop</a>, and <a href="/traders-guild-hq">Traders Guild HQ</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/traders-edge">Trader's Edge</a> x3</dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/traders-edge">Trader's Edge</a> x3</dd></dl></td></tr></tbody></table></details>
 
   
 

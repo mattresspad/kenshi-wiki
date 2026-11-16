@@ -245,11 +245,11 @@ test('a sortable table sorts by the clicked column, numbers as numbers', async (
   await expect(firstItem()).toHaveText('Small Thieves Backpack');
 });
 
-test('any data table with a header row sorts, a wide header by its first column with values', async ({ page }) => {
+test('character tables sort their first real column after import spacers are removed', async ({ page }) => {
   await page.goto('/adventurer-recruit');
   const table = page.locator('table.wikitable', { hasText: 'Attributes' }).first();
   await table.getByRole('columnheader', { name: 'Attributes' }).click();
-  await expect(table.locator('td:nth-child(2)')).toHaveText(['Dexterity', 'Perception', 'Strength', 'Toughness']);
+  await expect(table.locator('td:first-child')).toHaveText(['Dexterity', 'Perception', 'Strength', 'Toughness']);
   await expect(page.locator('table.wikitable', { hasText: 'All you need to know' }).locator('th.headerSort')).toHaveCount(0);
 });
 

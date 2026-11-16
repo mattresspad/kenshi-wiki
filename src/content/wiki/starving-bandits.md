@@ -73,15 +73,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Starving Bandit patrols can spawn in <a href="/border-zone">Border Zone</a>, <a href="/dreg">Dreg</a>, <a href="/northern-coast">Northern Coast</a>, <a href="/okrans-gulf">Okran's Gulf</a>, <a href="/okrans-pride">Okran's Pride</a>, <a href="/okrans-valley">Okran's Valley</a>, <a href="/shem">Shem</a>, and <a href="/skinners-roam">Skinner's Roam</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Starving Bandit patrols can spawn in <a href="/border-zone">Border Zone</a>, <a href="/dreg">Dreg</a>, <a href="/northern-coast">Northern Coast</a>, <a href="/okrans-gulf">Okran's Gulf</a>, <a href="/okrans-pride">Okran's Pride</a>, <a href="/okrans-valley">Okran's Valley</a>, <a href="/shem">Shem</a>, and <a href="/skinners-roam">Skinner's Roam</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which the Starving Bandits control.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>There are no locations which the Starving Bandits control.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
 
   
 

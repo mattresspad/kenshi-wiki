@@ -47,12 +47,12 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Slave Hunter patrols can spawn in <a href="/heng">Heng</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Slave Hunter patrols can spawn in <a href="/heng">Heng</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which the Slave Hunters control.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>There are no locations which the Slave Hunters control.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Players can remove patrolling squads of Slave Hunters in the northeast quarter of the map by <a href="/world-states">killing</a> these characters:<ul><li><a href="/longen">Longen</a></li><li><a href="/lady-kana">Lady Kana</a></li><li><a href="/slave-master-haga">Slave Master Haga</a></li><li><a href="/slave-master-grande">Slave Master Grande</a></li><li><a href="/slave-master-ruben">Slave Master Ruben</a></li><li><a href="/slave-master-wada">Slave Master Wada</a></li><li><a href="/slave-mistress-ren">Slave Mistress Ren</a></li></ul><p>Players can also remove the presence of Slave Hunters in The Hook if both of these characters have been killed:</p><ul><li><a href="/slave-market-master">Slave Market Master</a></li><li><a href="/slave-mistress-grace">Slave Mistress Grace</a></li></ul></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>Players can remove patrolling squads of Slave Hunters in the northeast quarter of the map by <a href="/world-states">killing</a> these characters:<ul><li><a href="/longen">Longen</a></li><li><a href="/lady-kana">Lady Kana</a></li><li><a href="/slave-master-haga">Slave Master Haga</a></li><li><a href="/slave-master-grande">Slave Master Grande</a></li><li><a href="/slave-master-ruben">Slave Master Ruben</a></li><li><a href="/slave-master-wada">Slave Master Wada</a></li><li><a href="/slave-mistress-ren">Slave Mistress Ren</a></li></ul><p>Players can also remove the presence of Slave Hunters in The Hook if both of these characters have been killed:</p><ul><li><a href="/slave-market-master">Slave Market Master</a></li><li><a href="/slave-mistress-grace">Slave Mistress Grace</a></li></ul></td></tr></tbody></table></details>

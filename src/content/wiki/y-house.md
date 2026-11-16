@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Y-House</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>35</td></tr><tr><td>Estimated build time:</td><td>6 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A decently spacious building shell.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Y-House</caption><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>35</td></tr><tr><td>Estimated build time:</td><td>6 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A decently spacious building shell.<br></td></tr></tfoot></table>
 
   
 Requires [Large Building Shells](/large-building-shells-tech) tech to build. At 35 [Building Material](/building-materials) it is a moderately expensive structure that nearly doubles its floor space with its exposed roof. The central dome is impassable and therefore cannot be built upon, but the arms of the structure provide a very decent floor space.

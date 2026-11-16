@@ -7,7 +7,7 @@ source:
 categories: ["Buildings","Farming"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Cactus Farm S</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/cactus">Cactus</a></td><td>10</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">Cactus is the hardest crop to grow, and not very good to eat either. However it's one of the few crops that can grow in arid environments<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Cactus Farm S</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/cactus">Cactus</a></td><td>10</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">Cactus is the hardest crop to grow, and not very good to eat either. However it's one of the few crops that can grow in arid environments<br></td></tr></tfoot></table>
 
 Cactus Farms are [Buildings](/buildings) for growing [Cactus](/cactus). Once built, they require water to grow, but no further manpower is needed until harvest time.
 
@@ -17,7 +17,7 @@ When upgrading a farm, any water that was in the farm will remain upon completio
 
 Research required - [Cactus Farming](/cactus-farming-tech)
 
-<details class="collapsible" open=""><summary>Cactus Farm</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td><td><a href="/cactus"><span>Cactus</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Cactus Farm</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td><td><a href="/cactus"><span>Cactus</span></a><div></div></td></tr></tbody></table></details>
 
   
 

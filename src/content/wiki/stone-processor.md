@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Manual Stone Processor</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>6</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">This machine can process raw stone and turn it into useful building materials. It doesn't need any power, but you need a lot of people to operate it.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Manual Stone Processor</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>6</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">This machine can process raw stone and turn it into useful building materials. It doesn't need any power, but you need a lot of people to operate it.<br></td></tr></tfoot></table>
 
   
 
@@ -15,7 +15,7 @@ categories: ["Buildings"]
 
 [Hybrid Stone Mines](/stone-mine) remove the need for a separate Stone Processor and, eventually, of a manual labour requirement.
 
-<details class="collapsible" open=""><summary>Stone Processor</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-stone"><span>Raw Stone</span></a><div></div><p><span>(2 required)</span></p></td><td><a href="/building-materials"><span>Building Materials</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Stone Processor</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-stone"><span>Raw Stone</span></a><div></div><p><span>(2 required)</span></p></td><td><a href="/building-materials"><span>Building Materials</span></a><div></div></td></tr></tbody></table></details>
 
   
 

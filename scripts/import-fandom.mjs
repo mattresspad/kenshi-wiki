@@ -10,6 +10,7 @@ import { existsSync, readdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { formatWantedPoster } from './wanted-posters.mjs';
 import { normalizeCreatureTables } from './creature-tables.mjs';
+import { normalizeImportedTables } from './normalize-tables.mjs';
 import { pageSlug } from '../src/lib/wiki.js';
 
 const api = 'https://kenshi.fandom.com/api.php';
@@ -356,7 +357,7 @@ async function reservedSlugs() {
 
 async function writePage(page, slug, turndown) {
   const { $, infobox } = cleanHtml(page.text);
-  const markdown = normalizeCreatureTables(turndown.turndown($.html())).replace(/\n{3,}/g, '\n\n').trim();
+  const markdown = normalizeImportedTables(normalizeCreatureTables(turndown.turndown($.html()))).markdown.replace(/\n{3,}/g, '\n\n').trim();
   const file = `${outDir}/${slug}.md`;
   await mkdir(dirname(file), { recursive: true });
   await writeFile(file, `${frontmatter(page, infobox, description($))}\n${markdown}\n`);

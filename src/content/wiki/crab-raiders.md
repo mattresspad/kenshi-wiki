@@ -99,14 +99,14 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Crab Raider patrols can spawn in <a href="/greenbeach">Greenbeach</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/the-crags">The Crags</a>, <a href="/the-pits">The Pits</a>, and <a href="/the-pits-east">The Pits East</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Crab Raider patrols can spawn in <a href="/greenbeach">Greenbeach</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/the-crags">The Crags</a>, <a href="/the-pits">The Pits</a>, and <a href="/the-pits-east">The Pits East</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/crab-town">Crab Town</a></dd><dd><a href="/crab-village">Crab Village</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/crab-town">Crab Town</a></dd><dd><a href="/crab-village">Crab Village</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/ark">Ark</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/ark">Ark</a></dd></dl></td></tr></tbody></table></details>
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/stormgap-coast">Stormgap Coast</a> and <a href="/heng-zone">Heng</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/stormgap-coast">Stormgap Coast</a> and <a href="/heng-zone">Heng</a>.</td></tr></tbody></table></details>

@@ -25,7 +25,7 @@ infobox:
 
 It is grown at a [Vegetable Farm](/vegetable-farm) or [Hydroponic farm](/hydroponic-vegetables) and can be stored in [barrels](/storage-greenfruit) 250 at a time. Both type of farms requires the same amount of water per crop.
 
-<details class="collapsible" open=""><summary>Vegetable Farm</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Greenfruit</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Vegetable Farm</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Greenfruit</span></strong><div></div></td></tr></tbody></table></details>
 
   
 
@@ -37,7 +37,7 @@ Note: All recipes require 8 Greenfruit, in addition to other ingredients
 -   [Foodcube](/foodcube)
 -   [Gohan](/gohan)
 
-<details class="collapsible"><summary>Biofuel Distillery (Greenfruit)</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Greenfruit</span></strong><div></div><p><span>(4 required)</span></p></td><td><a href="/fuel"><span>Fuel</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Biofuel Distillery (Greenfruit)</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Greenfruit</span></strong><div></div><p><span>(4 required)</span></p></td><td><a href="/fuel"><span>Fuel</span></a><div></div></td></tr></tbody></table></details>
 
   
 

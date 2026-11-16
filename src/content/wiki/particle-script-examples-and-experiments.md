@@ -15,7 +15,7 @@ You can edit vanilla .pu scripts to see the code, they are located in the kenshi
 
 Click expand to see code
 
-<table class="wikitable"><caption>Working Examples</caption><tbody><tr><th></th><th></th></tr><tr><td>Ridiculously Large Corpse FireFlies</td><td><details class="collapsible"><summary>Ridiculously Large Corpse FireFlies</summary><table class="wikitable"><caption></caption><tbody><tr><td><code>system Firefly<pre> <code>{
+<table class="wikitable"><caption>Working Examples</caption><tbody><tr><td>Ridiculously Large Corpse FireFlies</td><td><details class="collapsible"><summary>Ridiculously Large Corpse FireFlies</summary><table class="wikitable"><caption></caption><tbody><tr><td><code>system Firefly<pre> <code>{
    <code>&nbsp; &nbsp; scale_velocity&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0.03
    <code>&nbsp; &nbsp; scale&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0.03 0.03 0.03
    <code>&nbsp; &nbsp; technique 
@@ -87,7 +87,7 @@ Click expand to see code
 
 Click expand to see code
 
-<table class="wikitable"><caption>Random Experiments</caption><tbody><tr><th></th><th></th></tr><tr><td>Multiple Flames Per Object</td><td><details class="collapsible"><summary>Multiple Flames Per Object</summary><table class="wikitable"><caption></caption><tbody><tr><td><code>system multi_flame_fire<pre>  <code>{
+<table class="wikitable"><caption>Random Experiments</caption><tbody><tr><td>Multiple Flames Per Object</td><td><details class="collapsible"><summary>Multiple Flames Per Object</summary><table class="wikitable"><caption></caption><tbody><tr><td><code>system multi_flame_fire<pre>  <code>{
    <code>   category                                     kenshi_particles
    <code>   //  Flame Source 1
    <code>   technique
@@ -158,7 +158,7 @@ Click expand to see code
      <code> }
  <code> }
  </code>
-</code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></pre><code><code></code></code></code></td></tr></tbody></table></details></td></tr><tr><td></td><td>Multiple Flames from single source failed, cause apparently Kenshi does not allow resizing particles when they are far from the source. I tried this even with a circle emitter. In this image I have two effects set to the torch; the vanilla original (center) and my multi-particle flame script. Better result comes just adding multiple building parts to the torch, each having one effect. This way we can reduce physics clutter, but keep the multiple flames.</td></tr><tr><td>row2 title</td><td><details class="collapsible"><summary>Code 2 title</summary><table class="wikitable"><caption></caption><tbody><tr><td><code></code></td></tr></tbody></table></details></td></tr><tr><td></td><td></td></tr><tr><td>row3 title</td><td><details class="collapsible"><summary>Code 3 title</summary><table class="wikitable"><caption></caption><tbody><tr><td><code></code></td></tr></tbody></table></details></td></tr><tr><td></td><td></td></tr></tbody></table>
+</code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></code></pre><code><code></code></code></code></td></tr></tbody></table></details></td></tr><tr><td></td><td>Multiple Flames from single source failed, cause apparently Kenshi does not allow resizing particles when they are far from the source. I tried this even with a circle emitter. In this image I have two effects set to the torch; the vanilla original (center) and my multi-particle flame script. Better result comes just adding multiple building parts to the torch, each having one effect. This way we can reduce physics clutter, but keep the multiple flames.</td></tr><tr><td>row2 title</td><td><details class="collapsible"><summary>Code 2 title</summary><table class="wikitable"><caption></caption><tbody><tr><td><code></code></td></tr></tbody></table></details></td></tr><tr><td></td><td></td></tr><tr><td>row3 title</td><td><details class="collapsible"><summary>Code 3 title</summary><table class="wikitable"><caption></caption><tbody><tr><td><code></code></td></tr></tbody></table></details></td></tr></tbody></table>
 
   
 

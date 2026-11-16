@@ -62,15 +62,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Kral's Chosen patrols can spawn in <a href="/spider-plains">Spider Plains</a> and <a href="/stenn-desert">Stenn Desert</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Kral's Chosen patrols can spawn in <a href="/spider-plains">Spider Plains</a> and <a href="/stenn-desert">Stenn Desert</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/new-kralia">New Kralia</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/new-kralia">New Kralia</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/bad-teeth">Bad Teeth</a></dd><dd><a href="/holy-mines">Holy Mines</a></dd><dd><a href="/squin">Squin</a></dd><dd><a href="/stack">Stack</a></dd></dl><p>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/border-zone">Border Zone</a>, <a href="/skinners-roam">Skinner's Roam</a>, <a href="/okrans-gulf">Okran's Gulf</a>, <a href="/okrans-pride">Okran's Pride</a>, <a href="/okrans-valley">Okran's Valley</a> and <a href="/skimsands">Skimsands</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/bad-teeth">Bad Teeth</a></dd><dd><a href="/holy-mines">Holy Mines</a></dd><dd><a href="/squin">Squin</a></dd><dd><a href="/stack">Stack</a></dd></dl><p>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/border-zone">Border Zone</a>, <a href="/skinners-roam">Skinner's Roam</a>, <a href="/okrans-gulf">Okran's Gulf</a>, <a href="/okrans-pride">Okran's Pride</a>, <a href="/okrans-valley">Okran's Valley</a> and <a href="/skimsands">Skimsands</a>.</p></td></tr></tbody></table></details>
 
   
 

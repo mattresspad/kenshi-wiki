@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Training Dummy</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/simple-training-dummies-tech">Simple Training Dummies</a></td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A simple training dummy for beginners to train their melee attack skill. This will take you to a max of level 5.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Training Dummy</caption><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/simple-training-dummies-tech">Simple Training Dummies</a></td></tr></tbody><tfoot><tr><td colspan="2">A simple training dummy for beginners to train their melee attack skill. This will take you to a max of level 5.<br></td></tr></tfoot></table>
 
   
 Training Dummies are [training](/training) buildings which can be used to level up a character's [Melee Attack](/melee-attack) stat. Players can construct this building after researching [Simple Training Dummies](/simple-training-dummies-tech).

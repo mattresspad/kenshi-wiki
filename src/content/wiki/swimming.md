@@ -16,7 +16,7 @@ categories: ["Statistics"]
 
 Animals can attack characters while in shallow water.
 
-<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href="/alpha-fishman"><span>Alpha Fishman</span></a><br>-<a href="/fishman"><span>Fishman</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href="/alpha-fishman"><span>Alpha Fishman</span></a><br>-<a href="/fishman"><span>Fishman</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
 
   
 

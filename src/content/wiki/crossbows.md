@@ -31,7 +31,7 @@ Certain [Light Armour](/light-armour) pieces can be worn to directly increase a 
 
 A [Steady Arm (left)](/steady-arm-left) can be worn as a [Robot Limb](/robot-limbs), but it will only provide a bonus at \[High\] grade or above.
 
-<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href="/skeleton-log-head-mkii"><span>Skeleton Log-Head MKII</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href="/skeleton-log-head-mkii"><span>Skeleton Log-Head MKII</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
 
   
 

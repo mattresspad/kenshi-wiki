@@ -29,7 +29,7 @@ infobox:
 
 **Junkbow** is a [Crossbow](/crossbows). A poor quality attempt at crafting a [Tooth Pick](/tooth-pick). Players can craft this on a [Crossbow Crafting Bench](/crossbow-crafting-bench) after researching [Crossbow Crafting](/crossbow-crafting-tech). This is a weapon of choice for the [Dust Bandit Bowmen](/dust-bandit-bowman).
 
-<details class="collapsible"><summary>Crossbow Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/hinge"><span>Hinge</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Junkbow</span></strong><div></div></td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(4 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Crossbow Crafting Bench</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/hinge"><span>Hinge</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Junkbow</span></strong><div></div></td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(4 required)</span></p></td></tr></tbody></table></details>
 
   
 

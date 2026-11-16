@@ -71,12 +71,12 @@ Other non-unique recruitable characters can be found in bars, especially in Unit
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Holy Nation Robots can spawn in <a href="/northern-coast">Northern Coast</a>, <a href="/okrans-valley">Okran's Valley</a>, and <a href="/wend">Wend</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Holy Nation Robots can spawn in <a href="/northern-coast">Northern Coast</a>, <a href="/okrans-valley">Okran's Valley</a>, and <a href="/wend">Wend</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/black-desert-city">Black Desert City</a></dd><dd><a href="/burns-tower">Burn's Tower</a></dd><dd><a href="/drowned-ruins">Drowned Ruins</a></dd><dd><a href="/scraphouse">Scraphouse</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/black-desert-city">Black Desert City</a></dd><dd><a href="/burns-tower">Burn's Tower</a></dd><dd><a href="/drowned-ruins">Drowned Ruins</a></dd><dd><a href="/scraphouse">Scraphouse</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>

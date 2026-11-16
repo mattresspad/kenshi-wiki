@@ -25,7 +25,7 @@ The Bugmaster is surrounded by a giant army of [Skin Spiders](/skin-spider) and 
 
 This location contains a unique [map](/maps) item named "Bugmaster's Map." When used, this map will reveal the location of [Cat-Lon's Exile](/cat-lons-exile). If it has already been discovered the map cannot be used.
 
-<details class="collapsible" open=""><summary>Possible Stock</summary><table class="wikitable"><tbody><tr><th colspan="4"><hr></th></tr><tr><th colspan="2"></th><th>Average Price</th><th>Chance</th></tr><tr><td></td><td><a href="/human-teeth"><span>Human Teeth</span></a></td><td>c.0</td><td>Common</td></tr><tr><th colspan="4"></th></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Possible Stock</summary><table class="wikitable"><tbody><tr><th colspan="4"><hr></th></tr><tr><th colspan="2"></th><th>Average Price</th><th>Chance</th></tr><tr><td></td><td><a href="/human-teeth"><span>Human Teeth</span></a></td><td>c.0</td><td>Common</td></tr></tbody></table></details>
 
 The total number of Human Teeth that can spawn are between 800 to 1,200.
 

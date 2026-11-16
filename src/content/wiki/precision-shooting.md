@@ -11,7 +11,7 @@ categories: ["Statistics"]
 
 **Precision Shooting** is a [stat](/statistics) which is used during ranged combat. Using [Crossbows](/crossbows) and [Turrets](/turrets) can train this skill.
 
-<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href="/skeleton-log-head-mkii"><span>Skeleton Log-Head MKII</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href="/skeleton-log-head-mkii"><span>Skeleton Log-Head MKII</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
 
   
 

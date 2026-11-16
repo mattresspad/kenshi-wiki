@@ -32,7 +32,7 @@ The ideal ratio of same sized farm beds is 5 Wheat to 4 Greenfruit.
 
 Foodcubes are the second most water-efficient cultivated foods in the game, costing 1.477 water per unit from seed-to-table, narrowly beating the 1.49 of Gohan. The best water-efficient food is the [Dustwich](/dustwich) at 1 water per 70nu.
 
-<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/bread"><span>Bread</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Foodcube</span></strong><div></div></td></tr><tr><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div><p><span>(8 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/bread"><span>Bread</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Foodcube</span></strong><div></div></td></tr><tr><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div><p><span>(8 required)</span></p></td></tr></tbody></table></details>
 
   
 

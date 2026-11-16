@@ -26,7 +26,7 @@ infobox:
 
 They can be found on [Tech Hunters](/tech-hunter), who are knowledgeable about exploring the old ruins and, curiously, on [Sand Ninjas](/sand-ninjas) who might carry them for training reasons. Traveling Gear Shops are also one of the buildings which sells them in the United Cities.
 
-<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(2.5 required)</span></p></td><td><strong><span>Splint Kit</span></strong><div></div></td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(2.5 required)</span></p></td><td><strong><span>Splint Kit</span></strong><div></div></td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
 
   
 

@@ -7,7 +7,7 @@ source:
 categories: ["Buildings","Storage"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Storage: Steel Bars</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>3 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A handy storage point for steel bars<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Storage: Steel Bars</caption><tbody><tr><td>Type:</td><td>Interior/Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>3 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A handy storage point for steel bars<br></td></tr></tfoot></table>
 
 **Storage: Steel Bars** is a [storage](/storage) container which exclusively contains [Steel Bars](/steel-bars). Players can construct this building after researching [Storage Boxes: Ore](/storage-boxes-ore-tech).
 

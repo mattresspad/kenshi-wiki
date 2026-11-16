@@ -139,15 +139,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Flotsam Ninja patrols can spawn in <a href="/hidden-forest">Hidden Forest</a> and <a href="/northern-coast">Northern Coast</a>.<p>Under certain conditions, they can be found patrolling <a href="/okrans-gulf">Okran's Gulf</a> and <a href="/okrans-valley">Okran's Valley</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Flotsam Ninja patrols can spawn in <a href="/hidden-forest">Hidden Forest</a> and <a href="/northern-coast">Northern Coast</a>.<p>Under certain conditions, they can be found patrolling <a href="/okrans-gulf">Okran's Gulf</a> and <a href="/okrans-valley">Okran's Valley</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/flotsam-village">Flotsam Village</a></dd><dd><a href="/flotsam-safehouse">Flotsam Safehouse</a></dd><dd><a href="/scout-post">Scout Post</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/flotsam-village">Flotsam Village</a></dd><dd><a href="/flotsam-safehouse">Flotsam Safehouse</a></dd><dd><a href="/scout-post">Scout Post</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/okrans-gulf">Okran's Gulf</a> and <a href="/okrans-valley">Okran's Valley</a>.<dl><dt>Town Overrides</dt></dl><p>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.</p><dl><dd><a href="/blister-hill">Blister Hill</a></dd><dd><a href="/rebirth">Rebirth</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/okrans-gulf">Okran's Gulf</a> and <a href="/okrans-valley">Okran's Valley</a>.<dl><dt>Town Overrides</dt></dl><p>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.</p><dl><dd><a href="/blister-hill">Blister Hill</a></dd><dd><a href="/rebirth">Rebirth</a></dd></dl></td></tr></tbody></table></details>
 
   
 

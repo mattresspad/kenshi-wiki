@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Skeleton Repair Bed</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/copper">Copper</a></td><td>2</td></tr><tr><td><a href="/electrical-components">Electrical Components</a></td><td>5</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>2 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">As skeletons get constantly damaged and repaired their bodies start to wear down. When this wear becomes too much it can be repaired at a repair bed.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Skeleton Repair Bed</caption><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/copper">Copper</a></td><td>2</td></tr><tr><td><a href="/electrical-components">Electrical Components</a></td><td>5</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>2 hrs</td></tr></tbody><tfoot><tr><td colspan="2">As skeletons get constantly damaged and repaired their bodies start to wear down. When this wear becomes too much it can be repaired at a repair bed.<br></td></tr></tfoot></table>
 
   
 As [Skeletons](/skeletons) get constantly damaged and repaired, their bodies start to wear down. When this wear becomes too much, it can be repaired at a **Skeleton Repair Bed**.

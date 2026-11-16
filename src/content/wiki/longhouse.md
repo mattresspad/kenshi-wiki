@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Longhouse</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>24</td></tr><tr><td>Estimated build time:</td><td>4 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A long, narrow building shell.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Longhouse</caption><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>24</td></tr><tr><td>Estimated build time:</td><td>4 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A long, narrow building shell.<br></td></tr></tfoot></table>
 
   
 The **Longhouse** is one of the medium sized buildings and can be [constructed](/construction) by the player. To be able to build the Longhouse you need first to research the [Medium Building Shells](/medium-building-shells-tech). Besides the interior of the building, the player has access to the roof, which is divided into lower and upper floors.

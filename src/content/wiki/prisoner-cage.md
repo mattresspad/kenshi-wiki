@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Prisoner Cage</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>5</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/imprisonment-tech">Imprisonment</a></td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A basic cage for holding prisoners.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Prisoner Cage</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>5</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/imprisonment-tech">Imprisonment</a></td></tr></tbody><tfoot><tr><td colspan="2">A basic cage for holding prisoners.<br></td></tr></tfoot></table>
 
 **Prisoner Cages** are buildings used to hold a single character.
 

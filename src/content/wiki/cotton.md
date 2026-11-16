@@ -25,7 +25,7 @@ infobox:
 
 Cotton can be bought (or stolen) from relevant [traders](/traders) including [Trade Goods Traders](/trade-goods-trader) and [Holy Farm Leaders](/holy-farm-leader).
 
-<details class="collapsible" open=""><summary>Cotton Farm</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Cotton</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Cotton Farm</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Cotton</span></strong><div></div></td></tr></tbody></table></details>
 
   
 

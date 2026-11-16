@@ -29,12 +29,12 @@ This faction cannot be allied with, nor is there any dialogue which specifically
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>The Bar Thugs do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>The Bar Thugs do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which the Bar Thugs control.<p>Swamper Bar Thug can only be found in <a href="/shark">Shark</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>There are no locations which the Bar Thugs control.<p>Swamper Bar Thug can only be found in <a href="/shark">Shark</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>If Shark is overridden, the Swamper Bar Thug will still spawn.<dl><dt>Town Overrides</dt></dl><p>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>If Shark is overridden, the Swamper Bar Thug will still spawn.<dl><dt>Town Overrides</dt></dl><p>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</p></td></tr></tbody></table></details>

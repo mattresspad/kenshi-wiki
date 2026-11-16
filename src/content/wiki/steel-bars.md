@@ -24,7 +24,7 @@ infobox:
 
 Steel bars can be made by a [Steel Refinery](/steel-refinery) with [Iron Plates](/iron-plate). With the first level of refinery, four iron plates are required to create one steel bar. At subsequent levels, three are needed. This item is specifically stored in [Storage: Steel Bars](/storage-steel-bars).
 
-<details class="collapsible" open=""><summary>Steel Refinery</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Steel Bars</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Steel Refinery</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Steel Bars</span></strong><div></div></td></tr></tbody></table></details>
 
   
 

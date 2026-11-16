@@ -68,8 +68,8 @@ The members of this faction have chance to spawn as this particular race (relati
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Dust Bandit patrols can spawn in <a href="/border-zone">Border Zone</a> and <a href="/shem">Shem</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Dust Bandit patrols can spawn in <a href="/border-zone">Border Zone</a> and <a href="/shem">Shem</a>.</td></tr></tbody></table></details>
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/dust-bandit-camp">Dust Bandit Camp</a></dd><dd><a href="/dust-king-tower">Dust King Tower</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/dust-bandit-camp">Dust Bandit Camp</a></dd><dd><a href="/dust-king-tower">Dust King Tower</a></dd></dl></td></tr></tbody></table></details>
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>

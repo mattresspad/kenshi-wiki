@@ -25,7 +25,7 @@ infobox:
 
 In the description for [Wheatstraw](/wheatstraw), grog is referred to as a "rum that makes you go blind".
 
-<details class="collapsible" open=""><summary>Grog Machine</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Grog</span></strong><div></div></td></tr><tr><td><a href="/wheatstraw"><span>Wheatstraw</span></a><div></div><p><span>(20 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Grog Machine</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Grog</span></strong><div></div></td></tr><tr><td><a href="/wheatstraw"><span>Wheatstraw</span></a><div></div><p><span>(20 required)</span></p></td></tr></tbody></table></details>
 
   
 

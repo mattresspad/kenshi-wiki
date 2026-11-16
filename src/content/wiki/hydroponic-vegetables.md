@@ -7,7 +7,7 @@ source:
 categories: ["Buildings","Farming"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Hydroponic Vegetables</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/electrical-components">Electrical Components</a></td><td>2</td></tr><tr><td><a href="/greenfruit">Greenfruit</a></td><td>10</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2"><br></td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Hydroponic Vegetables</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/electrical-components">Electrical Components</a></td><td>2</td></tr><tr><td><a href="/greenfruit">Greenfruit</a></td><td>10</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody></table></td></tr></tbody></table>
 
   
 
@@ -15,7 +15,7 @@ categories: ["Buildings","Farming"]
 
 Despite being an "interior" building, Hydroponics can be placed on the roofs of buildings.
 
-<details class="collapsible" open=""><summary>Hydroponic Vegetables</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(2 required)</span></p></td><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Hydroponic Vegetables</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(2 required)</span></p></td><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div></td></tr></tbody></table></details>
 
   
 

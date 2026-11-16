@@ -26,7 +26,7 @@ infobox:
 
 This standard of medical coverage is favored by the [United Cities](/united-cities) Police units, [Bounty Hunters](/bounty-hunter) and many [Generic Recruits](/generic-recruits).
 
-<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Standard First Aid Kit</span></strong><div></div></td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Standard First Aid Kit</span></strong><div></div></td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
 
 ## Crafting
 

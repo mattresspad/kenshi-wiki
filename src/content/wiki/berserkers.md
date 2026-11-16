@@ -57,15 +57,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Berserker patrols can spawn in <a href="/berserker-country">Berserker Country</a>, <a href="/cannibal-plains">Cannibal Plains</a>, <a href="/spider-plains">Spider Plains</a>, and <a href="/stenn-desert">Stenn Desert</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Berserker patrols can spawn in <a href="/berserker-country">Berserker Country</a>, <a href="/cannibal-plains">Cannibal Plains</a>, <a href="/spider-plains">Spider Plains</a>, and <a href="/stenn-desert">Stenn Desert</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/berserker-village">Berserker Village</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/berserker-village">Berserker Village</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/admag">Admag</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/admag">Admag</a></dd></dl></td></tr></tbody></table></details>
 
   
 

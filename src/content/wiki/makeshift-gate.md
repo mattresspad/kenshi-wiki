@@ -14,7 +14,7 @@ infobox:
         - ["place","Exterior"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Makeshift Gate</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>5</td></tr><tr><td>Estimated build time:</td><td>12 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A crappy gate that won't keep the enemies at bay for long.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Makeshift Gate</caption><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>5</td></tr><tr><td>Estimated build time:</td><td>12 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A crappy gate that won't keep the enemies at bay for long.<br></td></tr></tfoot></table>
 
 _**This article is a Work in Progress. It may contain out of date or incomplete information.**_
 

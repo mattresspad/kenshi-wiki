@@ -25,7 +25,7 @@ infobox:
 
 Sake is made from [Riceweed](/riceweed) in a [Sake Still](/sake-still) using the [Cooking](/cooking) skill. Players can farm Riceweed after researching [Riceweed Farming](/riceweed-farming-tech) and construct a sake still after [Sake Distillation](/sake-distillation-tech).
 
-<details class="collapsible" open=""><summary>Sake Still</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/riceweed"><span>Riceweed</span></a><div></div><p><span>(20 required)</span></p></td><td><strong><span>Sake</span></strong><div></div></td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Sake Still</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/riceweed"><span>Riceweed</span></a><div></div><p><span>(20 required)</span></p></td><td><strong><span>Sake</span></strong><div></div></td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
 
   
 

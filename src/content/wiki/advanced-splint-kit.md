@@ -32,7 +32,7 @@ The Advanced Splint Kit will rig a limb for health equal to your field medic ski
 
   
 
-<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(3.5 required)</span></p></td><td><strong><span>Advanced Splint Kit</span></strong><div></div></td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(3.5 required)</span></p></td><td><strong><span>Advanced Splint Kit</span></strong><div></div></td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>
 
 ## Crafting
 

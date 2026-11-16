@@ -50,12 +50,12 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td><a href="/mercenary-camp">Mercenary Camps</a> can spawn in <a href="/the-hook">The Hook</a> and <a href="/watchers-rim">Watcher's Rim</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td><a href="/mercenary-camp">Mercenary Camps</a> can spawn in <a href="/the-hook">The Hook</a> and <a href="/watchers-rim">Watcher's Rim</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/mercenary-camp">Mercenary Camp</a></dd></dl><p>Bar squads of Mercenaries for hire can spawn in <a href="/black-scratch">Black Scratch</a>, <a href="/flats-lagoon">Flats Lagoon</a>, <a href="/heng">Heng</a>, <a href="/mongrel">Mongrel</a>, <a href="/shark">Shark</a>, <a href="/smugglers-bar">Smugglers Bar</a>, <a href="/the-hub">The Hub</a>, <a href="/waystation">Waystation</a>, and <a href="/worlds-end">World's End</a>. As well as those listed, this faction's bar squads can also spawn in any <a href="/united-cities">United Cities</a> town as well as many Overwritten towns.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/mercenary-camp">Mercenary Camp</a></dd></dl><p>Bar squads of Mercenaries for hire can spawn in <a href="/black-scratch">Black Scratch</a>, <a href="/flats-lagoon">Flats Lagoon</a>, <a href="/heng">Heng</a>, <a href="/mongrel">Mongrel</a>, <a href="/shark">Shark</a>, <a href="/smugglers-bar">Smugglers Bar</a>, <a href="/the-hub">The Hub</a>, <a href="/waystation">Waystation</a>, and <a href="/worlds-end">World's End</a>. As well as those listed, this faction's bar squads can also spawn in any <a href="/united-cities">United Cities</a> town as well as many Overwritten towns.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/manhunter-base">Manhunter Base</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/manhunter-base">Manhunter Base</a></dd></dl></td></tr></tbody></table></details>

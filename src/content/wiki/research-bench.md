@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Research Bench II</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>10</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A research bench is vital to enabling new weapons and technologies.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Research Bench II</caption><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>10</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A research bench is vital to enabling new weapons and technologies.<br></td></tr></tfoot></table>
 
   
 A **Research Bench** is a work station where a [science](/science) oriented party member can study new [technologies](/technology). At each increase in [Tech Level](/tech-level-tech) players gain access to a new level of research bench capable of researching higher technologies.

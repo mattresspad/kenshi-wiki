@@ -81,7 +81,7 @@ Official Websites
 
   
 
-<table class="wikitable"><tbody><tr><td></td></tr><tr><td><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Kenshi</td></tr><tr><td colspan="2">[ Version 1.0.68 ]</td></tr><tr><td>Genres</td><td>Action, Adventure, Indie, RPG, Simulation, Strategy</td></tr><tr><td>Platform</td><td>Windows</td></tr><tr><td>Languages</td><td>9</td></tr><tr><td colspan="2">[ Experimental v1.0.68 ]</td></tr><tr><td colspan="2">A free-roaming squad based RPG focusing on open-ended sandbox gameplay features rather than a linear story. Be a trader, a thief, a rebel, a warlord, an adventurer, a farmer, a slave, or just food for the cannibals.</td></tr></tbody></table></td></tr><tr><td>Read about recent and past updates in our <a href="/changelog">Changelog</a> page.</td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td><table class="wikitable"><tbody><tr><td colspan="2" align="left">Kenshi</td></tr><tr><td colspan="2">[ Version 1.0.68 ]</td></tr><tr><td>Genres</td><td>Action, Adventure, Indie, RPG, Simulation, Strategy</td></tr><tr><td>Platform</td><td>Windows</td></tr><tr><td>Languages</td><td>9</td></tr><tr><td colspan="2">[ Experimental v1.0.68 ]</td></tr><tr><td colspan="2">A free-roaming squad based RPG focusing on open-ended sandbox gameplay features rather than a linear story. Be a trader, a thief, a rebel, a warlord, an adventurer, a farmer, a slave, or just food for the cannibals.</td></tr></tbody></table></td></tr><tr><td>Read about recent and past updates in our <a href="/changelog">Changelog</a> page.</td></tr></tbody></table>
 
   
 

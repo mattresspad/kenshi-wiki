@@ -24,4 +24,4 @@ Occasionally, while passing a [Hive](/hive) merchant they will chase after you a
 
 Lanterns are very useful in crafting, labouring or operating crossbows for reducing the penalties associated with lack of light during the night.
 
-<table class="wikitable"><caption>Icons not in use</caption><tbody><tr><td></td><td></td></tr><tr><td>Gas Lantern</td><td>Electrical Lantern</td></tr></tbody></table>
+<table class="wikitable"><caption>Icons not in use</caption><tbody><tr><td>Gas Lantern</td><td>Electrical Lantern</td></tr></tbody></table>

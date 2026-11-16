@@ -9,7 +9,7 @@ categories: ["Modding","Skythe"]
 
 This is work in process, currently poses as a notepad. Sept 10th, 2022
 
-<table class="wikitable"><tbody><tr><th colspan="2">Glossary</th></tr><tr><td>Actor</td><td>A physics object, that has been made to its parent prim's likeness, active prim</td></tr><tr><td>Primitive (prim)</td><td>Basic building block that has not been turned into an actor yet, a mesh object without physics</td></tr><tr><td></td><td></td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><th colspan="2">Glossary</th></tr><tr><td>Actor</td><td>A physics object, that has been made to its parent prim's likeness, active prim</td></tr><tr><td>Primitive (prim)</td><td>Basic building block that has not been turned into an actor yet, a mesh object without physics</td></tr></tbody></table>
 
   
 Edit: 10th July 2023 I did manage to make a working ragdoll, but for an end user to be able to use it, they either have to move the rag from the Workshop folder to kenshi/data/ragdoll manually themselves, or both the mod maker and the end user need to use Re\_Kenshi, as the game engine does not load ragdoll files from mod folders, at all.

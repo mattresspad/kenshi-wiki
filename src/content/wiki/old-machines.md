@@ -38,12 +38,12 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Old Machines patrols can spawn in <a href="/forbidden-isle">Forbidden Isle</a>, <a href="/deadlands">Deadlands</a>, <a href="/the-iron-trail">The Iron Trail</a>, <a href="/iron-valleys">Iron Valleys</a>, <a href="/ashlands">Ashlands</a> and <a href="/cheaters-run">Cheaters Run</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Old Machines patrols can spawn in <a href="/forbidden-isle">Forbidden Isle</a>, <a href="/deadlands">Deadlands</a>, <a href="/the-iron-trail">The Iron Trail</a>, <a href="/iron-valleys">Iron Valleys</a>, <a href="/ashlands">Ashlands</a> and <a href="/cheaters-run">Cheaters Run</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/dead-fishing-village">Dead Fishing Village</a></dd><dd><a href="/police-barracks">Police Barracks</a></dd><dd><a href="/spider-factory">Spider Factory</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/dead-fishing-village">Dead Fishing Village</a></dd><dd><a href="/police-barracks">Police Barracks</a></dd><dd><a href="/spider-factory">Spider Factory</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>

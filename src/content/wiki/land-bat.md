@@ -22,12 +22,12 @@ categories: ["Factions"]
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>A lone landbat can spawn in <a href="/flats-lagoon-zone">Flats Lagoon</a>, <a href="/stobes-gamble">Stobe's Gamble</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/the-crags">The Crags</a>, and <a href="/the-pits">The Pits</a>.<p>Landbat swarms can spawn in <a href="/stobes-gamble">Stobe's Gamble</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>A lone landbat can spawn in <a href="/flats-lagoon-zone">Flats Lagoon</a>, <a href="/stobes-gamble">Stobe's Gamble</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/the-crags">The Crags</a>, and <a href="/the-pits">The Pits</a>.<p>Landbat swarms can spawn in <a href="/stobes-gamble">Stobe's Gamble</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which the Land Bats control.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>There are no locations which the Land Bats control.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
