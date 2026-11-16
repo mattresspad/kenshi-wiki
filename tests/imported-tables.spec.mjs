@@ -81,17 +81,23 @@ test('repaired character tables sort their real columns', async ({ page }) => {
 test('a genuine merged heading still sorts by its first populated column', async ({ page }) => {
   const example = '<table id="merged-example" class="wikitable"><tbody><tr><th colspan="2">Label</th><th>Value</th></tr><tr><td></td><td>Zulu</td><td>3</td></tr><tr><td></td><td>Alpha</td><td>1</td></tr><tr><td></td><td>Beta</td><td>2</td></tr></tbody></table>';
   expect(normalizeImportedTables(example).markdown).toBe(example);
-  // Insert a data fixture before the production sorting module initializes; no test-only route is published.
-  await page.route('**/adventurer-recruit', async route => {
-    const response = await route.fetch();
-    const html = await response.text();
-    const marker = /(<div\b[^>]*\bclass="mw-parser-output"[^>]*>)/;
-    expect(html).toMatch(marker);
-    await route.fulfill({ response, body: html.replace(marker, '$1' + example) });
-  });
+  // Let the browser navigate normally, including Cloudflare's browser checks.
+  // Add the fixture as its container is parsed, before the deferred sorting module runs.
+  await page.addInitScript(example => {
+    const observer = new MutationObserver(insert);
+    function insert() {
+      const content = document.querySelector('.mw-parser-output');
+      if (!content) return;
+      observer.disconnect();
+      content.insertAdjacentHTML('afterbegin', example);
+    }
+    observer.observe(document, { childList: true, subtree: true });
+    insert();
+  }, example);
   await page.goto('/adventurer-recruit');
   const table = page.locator('#merged-example');
   const heading = table.getByRole('columnheader', { name: 'Label', exact: true });
+  await expect(heading).toHaveClass(/\bheaderSort\b/);
   await expect(heading).toHaveAttribute('colspan', '2');
   await heading.press('Enter');
   await expect(table.locator('td:nth-child(2)')).toHaveText(['Alpha', 'Beta', 'Zulu']);
