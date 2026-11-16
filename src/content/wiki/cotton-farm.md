@@ -7,7 +7,7 @@ source:
 categories: ["Buildings","Farming"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Cotton Farm S</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/cotton">Cotton</a></td><td>10</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">Cotton is used to manufacture cloth, and only grows in green environments.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Cotton Farm S</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/cotton">Cotton</a></td><td>10</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">Cotton is used to manufacture cloth, and only grows in green environments.<br></td></tr></tfoot></table>
 
   
 A Cotton Farm produces [cotton](/cotton), which can be used to make [fabric](/fabrics). It can be farmed most efficiently in areas with the Green [Environment](/environment).

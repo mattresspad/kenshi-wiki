@@ -36,15 +36,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>The Yabuta Outlaws do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>The Yabuta Outlaws do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which the Yabuta Outlaws control.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>There are no locations which the Yabuta Outlaws control.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/bast-zone">Bast</a>, <a href="/grey-desert">Grey Desert</a>, <a href="/heng-zone">Heng</a>, <a href="/sinkuun">Sinkuun</a>, <a href="/skimsands">Skimsands</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.<dl><dt>Town Overrides</dt></dl><p>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.</p><dl><dd><a href="/fort-yabuta">Fort Yabuta</a> (initially named <a href="/fort-simion">Fort Simion</a>)</dd><dd><a href="/stoat">Stoat</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/bast-zone">Bast</a>, <a href="/grey-desert">Grey Desert</a>, <a href="/heng-zone">Heng</a>, <a href="/sinkuun">Sinkuun</a>, <a href="/skimsands">Skimsands</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.<dl><dt>Town Overrides</dt></dl><p>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.</p><dl><dd><a href="/fort-yabuta">Fort Yabuta</a> (initially named <a href="/fort-simion">Fort Simion</a>)</dd><dd><a href="/stoat">Stoat</a></dd></dl></td></tr></tbody></table></details>
 
   
 

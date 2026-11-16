@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Peeler Machine</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A machine designed to slowly and carefully remove the outer layers of whatever is put inside.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Peeler Machine</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A machine designed to slowly and carefully remove the outer layers of whatever is put inside.<br></td></tr></tfoot></table>
 
   
 This **nasty machine** is something the player should avoid. Owned by the [Skin Bandits](/skin-bandits), they will use it to skin alive [Humans](/human) that they have captured and taken to one of their [Skinhouses](/skinhouse).

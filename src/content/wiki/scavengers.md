@@ -47,15 +47,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Scavenger patrols can spawn in <a href="/sniper-valley">Sniper Valley</a>, <a href="/stobes-gamble">Stobe's Gamble</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/stormgap-coast">Stormgap Coast</a>, <a href="/the-crags">The Crags</a>, <a href="/the-outlands">The Outlands</a>, <a href="/the-pits">The Pits</a>, and <a href="/the-pits-east">The Pits East</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Scavenger patrols can spawn in <a href="/sniper-valley">Sniper Valley</a>, <a href="/stobes-gamble">Stobe's Gamble</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/stormgap-coast">Stormgap Coast</a>, <a href="/the-crags">The Crags</a>, <a href="/the-outlands">The Outlands</a>, <a href="/the-pits">The Pits</a>, and <a href="/the-pits-east">The Pits East</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/old-control-tower">Old Control Tower</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/old-control-tower">Old Control Tower</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
 
   
 

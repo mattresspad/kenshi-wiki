@@ -58,12 +58,12 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Fogmen patrols can spawn in <a href="/fog-islands">Fog Islands</a> and <a href="/dreg">Dreg</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Fogmen patrols can spawn in <a href="/fog-islands">Fog Islands</a> and <a href="/dreg">Dreg</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/deadhive-overrun">Deadhive Overrun</a></dd><dd><a href="/fog-deathyard">Fog Deathyard</a></dd><dd><a href="/tower-of-fog">Tower of Fog</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/deadhive-overrun">Deadhive Overrun</a></dd><dd><a href="/fog-deathyard">Fog Deathyard</a></dd><dd><a href="/tower-of-fog">Tower of Fog</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/distant-hive-village">Distant Hive Village</a></dd><dd><a href="/hive-village">Hive Village</a></dd><dd><a href="/holy-military-base">Holy Military Base</a></dd><dd><a href="/southern-hive-location">Southern Hive</a></dd><dd><a href="/southern-hive-village">Southern Hive Village</a></dd><dd><a href="/western-hive-location">Western Hive</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/distant-hive-village">Distant Hive Village</a></dd><dd><a href="/hive-village">Hive Village</a></dd><dd><a href="/holy-military-base">Holy Military Base</a></dd><dd><a href="/southern-hive-location">Southern Hive</a></dd><dd><a href="/southern-hive-village">Southern Hive Village</a></dd><dd><a href="/western-hive-location">Western Hive</a></dd></dl></td></tr></tbody></table></details>

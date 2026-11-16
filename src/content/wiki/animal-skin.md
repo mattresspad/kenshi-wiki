@@ -47,7 +47,7 @@ Skins can be bought from relevant [traders](/traders) including those in [Hive V
 
 ### Used In
 
-<details class="collapsible"><summary>Leather Tanning Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Animal Skin</span></strong><div></div><p><span>(.5 required)</span></p></td><td><a href="/leather"><span>Leather</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Leather Tanning Bench</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Animal Skin</span></strong><div></div><p><span>(.5 required)</span></p></td><td><a href="/leather"><span>Leather</span></a><div></div></td></tr></tbody></table></details>
 
 -   [Construction](/construction): [Scrap Tent](/scrap-tent)
 

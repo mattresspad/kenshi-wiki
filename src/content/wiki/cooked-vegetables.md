@@ -24,7 +24,7 @@ infobox:
 
 **Cooked Vegetables** are a [food](/food) item which can be purchased from relevant [traders](/traders). Players can cook vegetables in a [Cooking Stove](/cooking-stove) after researching [Cooking](/cooking-tech). 
 
-<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Cooked Vegetables</span></strong><div></div></td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Cooked Vegetables</span></strong><div></div></td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
 
   
 

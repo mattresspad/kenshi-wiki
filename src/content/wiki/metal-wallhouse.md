@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Metal Wallhouse</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>20</td></tr><tr><td>Estimated build time:</td><td>3 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A makeshift house, built tall and flat to fit against steep slopes.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Metal Wallhouse</caption><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>20</td></tr><tr><td>Estimated build time:</td><td>3 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A makeshift house, built tall and flat to fit against steep slopes.<br></td></tr></tfoot></table>
 
   
 The **Metal Wallhouse** is a three floored building connected by stairs and appears to be made from scrap. This type of building cannot be constructed by the player, though it can be purchased at specific locations.

@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Mercenary Tent</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/fabrics">Fabrics</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A tent used by mercenaries to shelter from the rain.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Mercenary Tent</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/fabrics">Fabrics</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A tent used by mercenaries to shelter from the rain.<br></td></tr></tfoot></table>
 
   
 **Mercenary Tents** are [camping](/camping) [buildings](/buildings-list) which the player can construct anywhere after learning the blueprint. They require very few materials in order to construct and do not result in the creation of a player town. Camps can be used as a quick shelter from acid rain.

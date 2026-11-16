@@ -7,7 +7,7 @@ source:
 categories: ["Storage","Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Weapon Cabinet</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>2</td></tr><tr><td>Estimated build time:</td><td>2 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">Secure storage for all your weapons.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Weapon Cabinet</caption><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>2</td></tr><tr><td>Estimated build time:</td><td>2 hrs</td></tr></tbody><tfoot><tr><td colspan="2">Secure storage for all your weapons.<br></td></tr></tfoot></table>
 
 **Weapon Cabinet** is a [Storage](/storage) building which contains [Weapons](/weapons). It can be constructed after researching [Gear Storage (Tech)](/gear-storage-tech).
 

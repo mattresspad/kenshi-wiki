@@ -7,7 +7,7 @@ source:
 categories: ["Clarification needed","Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Outpost s-III</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>20</td></tr><tr><td><a href="/copper-alloy-plates">Copper Alloy Plates</a></td><td>20</td></tr><tr><td>Estimated build time:</td><td>7 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">The "s-III" version is a tough outpost that builds well on awkward terrain.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Outpost s-III</caption><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>20</td></tr><tr><td><a href="/copper-alloy-plates">Copper Alloy Plates</a></td><td>20</td></tr><tr><td>Estimated build time:</td><td>7 hrs</td></tr></tbody><tfoot><tr><td colspan="2">The "s-III" version is a tough outpost that builds well on awkward terrain.<br></td></tr></tfoot></table>
 
 **Outpost s-III** are large building models that require appropriate [technologies](/outpost-type-tech) to be researched in order to be built. As the in-game description suggests, these building types construct well on awkward or uneven terrain.
 

@@ -27,7 +27,7 @@ They can be used as is in the production of weapons and construction of building
 
 Starting out, the production of iron plates must be operated by at least one worker, though through research, can eventually be turned into an automated process.
 
-<details class="collapsible" open=""><summary>Iron Refinery</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-iron"><span>Raw Iron</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Iron Plates</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Iron Refinery</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-iron"><span>Raw Iron</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Iron Plates</span></strong><div></div></td></tr></tbody></table></details>
 
   
 

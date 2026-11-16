@@ -62,14 +62,14 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Holy Nation Outlaw squads can spawn in <a href="/border-zone">Border Zone</a>, <a href="/cannibal-plains">Cannibal Plains</a>, <a href="/dreg">Dreg</a>, <a href="/fog-islands">Fog Islands</a>, <a href="/okrans-gulf">Okran's Gulf</a>, <a href="/okrans-pride">Okran's Pride</a>, <a href="/okrans-valley">Okran's Valley</a>, <a href="/skinners-roam">Skinner's Roam</a>, and <a href="/vain">Vain</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Holy Nation Outlaw squads can spawn in <a href="/border-zone">Border Zone</a>, <a href="/cannibal-plains">Cannibal Plains</a>, <a href="/dreg">Dreg</a>, <a href="/fog-islands">Fog Islands</a>, <a href="/okrans-gulf">Okran's Gulf</a>, <a href="/okrans-pride">Okran's Pride</a>, <a href="/okrans-valley">Okran's Valley</a>, <a href="/skinners-roam">Skinner's Roam</a>, and <a href="/vain">Vain</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/rebel-base">Rebel Base</a></dd><dd><a href="/the-hub">The Hub</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/rebel-base">Rebel Base</a></dd><dd><a href="/the-hub">The Hub</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/blister-hill">Blister Hill</a></dd><dd><a href="/rebirth">Rebirth</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/blister-hill">Blister Hill</a></dd><dd><a href="/rebirth">Rebirth</a></dd></dl></td></tr></tbody></table></details>
 
 <ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a href="/starving-bandits">Starving Bandits</a> are 11.1x (<a href="/skinners-roam">Skinner's Roam</a>), 5.4x (<a href="/border-zone">Border Zone</a>), 4.5x (<a href="/okrans-gulf">Okran's Gulf</a>), 1.7x (<a href="/okrans-pride">Okran's Pride</a>) 1.33x (<a href="/dreg">Dreg</a>) more than HNO, and is only slightly outnumbered by them in <a href="/okrans-valley">Okran's Valley</a> by being only 0.88x as common as there.</span></li><li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">Its estimated that Starving Bandits across all zones are around 4x as much as HNO</span></li></ol>

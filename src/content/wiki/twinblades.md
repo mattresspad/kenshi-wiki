@@ -20,12 +20,12 @@ They've been known to extort doctors and surgeons for organs as well. Their lead
 
 ## Location
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>The Twinblades do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>The Twinblades do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>The Twinblades can only be found in their hideout in <a href="/mud-town">Mud Town</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>The Twinblades can only be found in their hideout in <a href="/mud-town">Mud Town</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>If <a href="/shark">Shark</a> is overwritten due to <a href="/big-grim">Big Grim</a> and <a href="/big-darkbrow">Big Darkbrow</a> being killed or imprisoned (<a href="/big-gray">Big Gray</a> must still be alive), the Twinblade hideout can be found there.<dl><dt>Town Overrides</dt></dl><p>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>If <a href="/shark">Shark</a> is overwritten due to <a href="/big-grim">Big Grim</a> and <a href="/big-darkbrow">Big Darkbrow</a> being killed or imprisoned (<a href="/big-gray">Big Gray</a> must still be alive), the Twinblade hideout can be found there.<dl><dt>Town Overrides</dt></dl><p>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</p></td></tr></tbody></table></details>

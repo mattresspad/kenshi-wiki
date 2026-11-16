@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Locksmith Training Box</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>2</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A simple locked box used to practice the art of lockpicking. It has a transparent cutaway on the side, so beginners can see how a lock works internally.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Locksmith Training Box</caption><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>2</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A simple locked box used to practice the art of lockpicking. It has a transparent cutaway on the side, so beginners can see how a lock works internally.<br></td></tr></tfoot></table>
 
   
 **Locksmith Training Boxes** are [training](/training) buildings. Players can construct this building after researching [Lockpick Training](/lockpick-training-tech). The Locksmith Training Box's primary purpose is to improve the character's [Lockpicking](/lockpicking) statistic, without the dangers of practicing on the belongings of others.

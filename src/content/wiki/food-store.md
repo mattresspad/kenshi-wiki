@@ -7,7 +7,7 @@ source:
 categories: ["Storage","Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Food Store</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A general storage for all food items, characters can come here to get food when they need it.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Food Store</caption><tbody><tr><td>Type:</td><td>Interior/Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A general storage for all food items, characters can come here to get food when they need it.<br></td></tr></tfoot></table>
 
   
 

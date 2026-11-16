@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Thief Training Boxes</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>3</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A big unstable pile of boxes filled with noisy metal parts and junk. The idea is to try and remove different items from the boxes without making any noise.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Thief Training Boxes</caption><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>3</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A big unstable pile of boxes filled with noisy metal parts and junk. The idea is to try and remove different items from the boxes without making any noise.<br></td></tr></tfoot></table>
 
 Thief Training Boxes are a [training](/training) objects that can be built inside of player [constructed](/construction) buildings after researching the appropriate [technology](/thievery-training-tech). The Thief Training Box's primary purpose is to improve the character's [Thievery](/thievery) statistic, without the dangers of practicing on the belongings of others.
 

@@ -31,4 +31,4 @@ All locations controlled by [Ancient Ruins](/ancient-ruins):
 -   [Swamped Lab](/swamped-lab)
 -   [Workshop Complex](/workshop-complex)
 
-<details class="collapsible" open=""><summary>Possible Stock</summary><table class="wikitable"><tbody><tr><th colspan="4"><hr></th></tr><tr><th colspan="2">Altered Items</th><th>Average Price</th><th>Chance</th></tr><tr><td></td><td><a href="/book"><span>Book</span></a></td><td>c.300</td><td>never</td></tr><tr><th colspan="4"></th></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Possible Stock</summary><table class="wikitable"><tbody><tr><th colspan="4"><hr></th></tr><tr><th colspan="2">Altered Items</th><th>Average Price</th><th>Chance</th></tr><tr><td></td><td><a href="/book"><span>Book</span></a></td><td>c.300</td><td>never</td></tr></tbody></table></details>

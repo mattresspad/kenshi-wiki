@@ -7,13 +7,13 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Steel Refinery</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>20</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/steel-bars-tech">Steel Bars</a></td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">This machine refines iron to make high quality steel bars<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Steel Refinery</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>20</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/steel-bars-tech">Steel Bars</a></td></tr></tbody><tfoot><tr><td colspan="2">This machine refines iron to make high quality steel bars<br></td></tr></tfoot></table>
 
   
 
 The **Steel Refinery** refines [Iron Plates](/iron-plates) into [Steel Bars](/steel-bars) for use in [weapon](/weapon-smith) and [armour](/armour-smith) smithing. This machine uses and increases a character's [Labouring](/labouring) stat.
 
-<details class="collapsible" open=""><summary>Steel Refinery</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(4 required)</span></p></td><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Steel Refinery</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/iron-plates"><span>Iron Plates</span></a><div></div><p><span>(4 required)</span></p></td><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div></td></tr></tbody></table></details>
 
   
 

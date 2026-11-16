@@ -53,12 +53,12 @@ Armours located in shops of this faction can have these qualities (relative chan
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>The Swampers do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>The Swampers do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/grayflayer-village">Grayflayer Village</a></dd><dd><a href="/mud-town">Mud Town</a></dd><dd><a href="/shark">Shark</a></dd><dd><a href="/swamp-village">Swamp Village</a></dd></dl><p>Swamper Residents can also be found in <a href="/rot">Rot</a> and <a href="/stone-rat-village">Stone Rat Village</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/grayflayer-village">Grayflayer Village</a></dd><dd><a href="/mud-town">Mud Town</a></dd><dd><a href="/shark">Shark</a></dd><dd><a href="/swamp-village">Swamp Village</a></dd></dl><p>Swamper Residents can also be found in <a href="/rot">Rot</a> and <a href="/stone-rat-village">Stone Rat Village</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/grayflayer-village">Grayflayer Village</a></dd><dd><a href="/shark">Shark</a> x3</dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/grayflayer-village">Grayflayer Village</a></dd><dd><a href="/shark">Shark</a> x3</dd></dl></td></tr></tbody></table></details>

@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Bed</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td><a href="/fabrics">Fabrics</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/beds-tech">Beds (Tech)</a></td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">Essential place to rest and recover faster from wounds. 800% heal rate when sleeping.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Bed</caption><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td><a href="/fabrics">Fabrics</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/beds-tech">Beds (Tech)</a></td></tr></tbody><tfoot><tr><td colspan="2">Essential place to rest and recover faster from wounds. 800% heal rate when sleeping.<br></td></tr></tfoot></table>
 
   
 **Beds** are used for restoring the health of characters. Beds help organic characters heal their stun and bandaged health faster. Beds can be found in [towns](/towns) or [constructed](/construction) in player buildings.

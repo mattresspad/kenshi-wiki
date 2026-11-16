@@ -7,11 +7,11 @@ source:
 categories: ["Buildings","Farming"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Vegetable Farm S</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/greenfruit">Greenfruit</a></td><td>10</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">One of the easiest crops to grow and the most efficient food source, if the land will allow it.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Vegetable Farm S</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/greenfruit">Greenfruit</a></td><td>10</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">One of the easiest crops to grow and the most efficient food source, if the land will allow it.<br></td></tr></tfoot></table>
 
 A **Vegetable Farm** produces [Greenfruit](/greenfruit)[.](/greenfruit) It can be farmed most efficiently in areas with the Green [Environment](/environment). Greenfruit can also be grown inside an Arid or Swamp environment, as long as there is more than 0% of Green environment there as well. This building requires no research in order to construct it.
 
-<details class="collapsible" open=""><summary>Vegetable Farm</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(2 required)</span></p></td><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Vegetable Farm</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(2 required)</span></p></td><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div></td></tr></tbody></table></details>
 
   
 

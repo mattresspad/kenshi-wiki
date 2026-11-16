@@ -29,7 +29,7 @@ Basic First Aid Kits can also be found on some of the common infantry units from
   
 This item is also utilized by slavers and [Cannibals](/cannibals) to restore their victim's condition for 'later use'.
 
-<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Basic First Aid Kit</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Basic First Aid Kit</span></strong><div></div></td></tr></tbody></table></details>
 
   
 

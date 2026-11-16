@@ -15,7 +15,7 @@ The **Weapon Smithing** stat affects the speed and quality of [weapons](/weapons
 
 The ability to smith weapons is negatively affected by injuries and darkness. Therefore, the weapon crafter should be fully healed, and lighting fixtures should be present throughout the whole crafting process in order to prevent quality deterioration.
 
-<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td><span>Negative Multiplier:</span><br>-<a href="/deadhive-soldier"><span>Deadhive Soldier</span></a><br>-<a href="/hive-soldier-drone"><span>Hive Soldier Drone</span></a><br>-<a href="/southern-hive-soldier-drone"><span>Southern Hive Soldier Drone</span></a></td><td><span>Positive Multiplier:</span><br>-<a href="/scorchlander"><span>Scorchlander</span></a><br>-<a href="/p4-unit"><span>P4 Unit</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td><span>Negative Multiplier:</span><br>-<a href="/deadhive-soldier"><span>Deadhive Soldier</span></a><br>-<a href="/hive-soldier-drone"><span>Hive Soldier Drone</span></a><br>-<a href="/southern-hive-soldier-drone"><span>Southern Hive Soldier Drone</span></a></td><td><span>Positive Multiplier:</span><br>-<a href="/scorchlander"><span>Scorchlander</span></a><br>-<a href="/p4-unit"><span>P4 Unit</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
 
 ##  Weapon Grades
 

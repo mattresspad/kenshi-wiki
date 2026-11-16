@@ -28,15 +28,15 @@ One can consider them as a faction label for shady blackmarkets of sorts.
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>The Trade Ninjas do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>The Trade Ninjas do not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>The Trade Ninjas own a <a href="/trade-ninjas-bar">bar</a> in <a href="/the-hub">The Hub</a> and <a href="/rebel-base">Rebel Base</a>.<p>They also own the <a href="/bar-of-mourn">Bar of Mourn</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>The Trade Ninjas own a <a href="/trade-ninjas-bar">bar</a> in <a href="/the-hub">The Hub</a> and <a href="/rebel-base">Rebel Base</a>.<p>They also own the <a href="/bar-of-mourn">Bar of Mourn</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.<p>After <a href="/heft">Heft</a>, <a href="/heng">Heng</a>, and <a href="/stoat">Stoat</a> are taken over, the Trade Ninjas will own Bars there as well.</p></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.<p>After <a href="/heft">Heft</a>, <a href="/heng">Heng</a>, and <a href="/stoat">Stoat</a> are taken over, the Trade Ninjas will own Bars there as well.</p></td></tr></tbody></table></details>
 
   
 

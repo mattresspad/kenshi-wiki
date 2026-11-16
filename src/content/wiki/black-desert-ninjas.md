@@ -39,12 +39,12 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Black Desert Ninja patrols can spawn in <a href="/grey-desert">Grey Desert</a>, <a href="/iron-valleys">Iron Valleys</a>, and <a href="/the-black-desert">The Black Desert</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Black Desert Ninja patrols can spawn in <a href="/grey-desert">Grey Desert</a>, <a href="/iron-valleys">Iron Valleys</a>, and <a href="/the-black-desert">The Black Desert</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which the Black Desert Ninjas control.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>There are no locations which the Black Desert Ninjas control.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>

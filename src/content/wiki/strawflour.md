@@ -25,7 +25,7 @@ infobox:
 
 It can be purchased from [Trade Goods Traders](/trade-goods-trader) at various settlements.
 
-<details class="collapsible" open=""><summary>Grain Silo</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/wheatstraw"><span>Wheatstraw</span></a><div></div><p><span>(10 required)</span></p></td><td><strong><span>Strawflour</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Grain Silo</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/wheatstraw"><span>Wheatstraw</span></a><div></div><p><span>(10 required)</span></p></td><td><strong><span>Strawflour</span></strong><div></div></td></tr></tbody></table></details>
 
   
 

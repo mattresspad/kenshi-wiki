@@ -7,7 +7,7 @@ source:
 categories: ["Buildings","Farming"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Rain Collector</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/rain-collector-tech">Rain Collector</a></td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2"><br></td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Rain Collector</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>4</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/rain-collector-tech">Rain Collector</a></td></tr></tbody></table></td></tr></tbody></table>
 
   
 

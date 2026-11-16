@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Stone Mine</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>3</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A basic stone mine. They're hard work, and the amount of resources you get out is mostly dependent on how many workers you can throw at it.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Stone Mine</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>3</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A basic stone mine. They're hard work, and the amount of resources you get out is mostly dependent on how many workers you can throw at it.<br></td></tr></tfoot></table>
 
   
 

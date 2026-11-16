@@ -41,7 +41,7 @@ CLICK EXPAND ON THE LEFT TO SEE THE ENTIRE TABLE
 
 ## Arid, Green, and Swamp Fertility Maps
 
-<table class="wikitable"><tbody><tr><td></td><td valign="top"></td><td valign="top"></td><td valign="top"></td></tr></tbody></table>
+<table class="wikitable"><tbody></tbody></table>
 
   
 

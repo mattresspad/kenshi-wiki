@@ -7,7 +7,7 @@ source:
 categories: ["Buildings","Storage"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Storage: Fuel</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>3 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2"><br></td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Storage: Fuel</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>3 hrs</td></tr></tbody></table></td></tr></tbody></table>
 
   
 

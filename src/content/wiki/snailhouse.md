@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Snailhouse</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>40</td></tr><tr><td>Estimated build time:</td><td>7 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A wide open two-story building that often serves as a bar.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Snailhouse</caption><tbody><tr><td>Type:</td><td>Building Shell</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>40</td></tr><tr><td>Estimated build time:</td><td>7 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A wide open two-story building that often serves as a bar.<br></td></tr></tfoot></table>
 
   
 **Snailhouse** is a building in Kenshi which can be constructed or [purchased](/player-owned-buildings-in-town) by the player. It can be constructed after researching [Large Building Shells](/large-building-shells-tech). It is a considerably large structure, costing the same resources to build as the [Stationhouse](/stationhouse).

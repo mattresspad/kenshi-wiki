@@ -7,7 +7,7 @@ source:
 categories: ["Buildings","Power"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Small Wind Generator</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/electrical-components">Electrical Components</a></td><td>4</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>7</td></tr><tr><td>Estimated build time:</td><td>2 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">Small wind generators are better at generating a more consistent output in all winds, but have less power overall.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Small Wind Generator</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/electrical-components">Electrical Components</a></td><td>4</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>7</td></tr><tr><td>Estimated build time:</td><td>2 hrs</td></tr></tbody><tfoot><tr><td colspan="2">Small wind generators are better at generating a more consistent output in all winds, but have less power overall.<br></td></tr></tfoot></table>
 
 A **Small Wind Generator** is a [building](/buildings-list) which produces [power](/power) via wind. After the initial cost of construction, Small Wind Generators generate power without any additional resource cost.
 

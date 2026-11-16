@@ -49,15 +49,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Fishman patrols can spawn in <a href="/cheaters-run">Cheaters Run</a>, <a href="/fishman-island">Fishman Island</a>, <a href="/the-pits">The Pits</a>, and <a href="/the-pits-east">The Pits East</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Fishman patrols can spawn in <a href="/cheaters-run">Cheaters Run</a>, <a href="/fishman-island">Fishman Island</a>, <a href="/the-pits">The Pits</a>, and <a href="/the-pits-east">The Pits East</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/fish-isle">Fish Isle</a></dd><dd><a href="/gurgler-nest">Gurgler Nest</a></dd><dd><a href="/island-lab">Island Lab</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/fish-isle">Fish Isle</a></dd><dd><a href="/gurgler-nest">Gurgler Nest</a></dd><dd><a href="/island-lab">Island Lab</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/catun">Catun</a></dd><dd><a href="/crab-town">Crab Town</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/catun">Catun</a></dd><dd><a href="/crab-town">Crab Town</a></dd></dl></td></tr></tbody></table></details>
 
   
 

@@ -28,7 +28,7 @@ The Meatwrap is a very situational food that is hardly useful even in the early 
 
 It is absolutely outshined by almost any other type of food but can be made if no other options are available.
 
-<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/bread"><span>Bread</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Meatwrap</span></strong><div></div></td></tr><tr><td><a href="/raw-meat"><span>Raw Meat</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/bread"><span>Bread</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Meatwrap</span></strong><div></div></td></tr><tr><td><a href="/raw-meat"><span>Raw Meat</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>
 
   
 

@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Biofuel Distillery (Greenfruit)</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>6</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">Turns crops into fuel for generators.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Biofuel Distillery (Greenfruit)</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>6</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">Turns crops into fuel for generators.<br></td></tr></tfoot></table>
 
   
 
@@ -15,7 +15,7 @@ categories: ["Buildings"]
 
   
 
-<details class="collapsible" open=""><summary>Biofuel Distillery (Greenfruit)</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div><p><span>(4 required)</span></p></td><td><a href="/fuel"><span>Fuel</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Biofuel Distillery (Greenfruit)</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div><p><span>(4 required)</span></p></td><td><a href="/fuel"><span>Fuel</span></a><div></div></td></tr></tbody></table></details>
 
   
 

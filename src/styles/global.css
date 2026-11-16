@@ -573,6 +573,27 @@ details.collapsible > table.wikitable > tbody:only-child > tr:first-child:has(
   .creature-stats { flex-direction: column; }
 }
 
+/* Imported item cards use a real grid instead of bordered spacer cells around nested tables. */
+.imported-item-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .75rem;
+  align-items: start;
+  width: fit-content;
+  max-width: 100%;
+  margin-block: .75rem;
+}
+.mw-parser-output .imported-item-grid > table { width: 100%; margin: 0; }
+.mw-parser-output .imported-property-table caption {
+  padding: .3rem .4rem;
+  color: var(--color-text);
+  font-weight: 600;
+  text-align: start;
+}
+@media screen and (max-width: 40rem) {
+  .imported-item-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
 /* Meitou release listings are ordinary Markdown, including their linked headings. */
 .mw-parser-output .community-mod-list > ul {
   display: grid;

@@ -388,8 +388,7 @@ test('faction disclosures open on their content and preserve their linked town l
     const summary = page.locator('summary').filter({ hasText: new RegExp('^' + name + '$') });
     const section = summary.locator('..');
     const rows = section.locator(':scope > table.wikitable > tbody > tr');
-    await expect(rows).toHaveCount(2);
-    await expect(rows.first()).toBeHidden();
+    await expect(rows).toHaveCount(1);
     await expect(rows.last()).toBeVisible();
     await expect(rows.last().getByRole('link', { name: link, exact: true })).toHaveAttribute('href', href);
     await summary.click();

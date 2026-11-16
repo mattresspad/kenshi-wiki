@@ -27,18 +27,18 @@ It can be purchased from [Trade Goods Traders](/trade-goods-trader) or [Holy Far
 
 The "rum that makes you go blind" in its description refers to [Grog](/grog), not [Cactus Rum](/cactus-rum).
 
-<details class="collapsible" open=""><summary>Wheat Farm</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Wheatstraw</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Wheat Farm</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Wheatstraw</span></strong><div></div></td></tr></tbody></table></details>
 
   
 
 ### Used In
 
-<details class="collapsible"><summary>Biofuel Distillery (Wheatstraw)</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Wheatstraw</span></strong><div></div><p><span>(4 required)</span></p></td><td><a href="/fuel"><span>Fuel</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Biofuel Distillery (Wheatstraw)</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Wheatstraw</span></strong><div></div><p><span>(4 required)</span></p></td><td><a href="/fuel"><span>Fuel</span></a><div></div></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Grain Silo</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Wheatstraw</span></strong><div></div><p><span>(10 required)</span></p></td><td><a href="/strawflour"><span>Strawflour</span></a><div></div></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Grain Silo</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><strong><span>Wheatstraw</span></strong><div></div><p><span>(10 required)</span></p></td><td><a href="/strawflour"><span>Strawflour</span></a><div></div></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Grog Machine</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td><td><a href="/grog"><span>Grog</span></a><div></div></td></tr><tr><td><strong><span>Wheatstraw</span></strong><div></div><p><span>(20 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Grog Machine</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td><td><a href="/grog"><span>Grog</span></a><div></div></td></tr><tr><td><strong><span>Wheatstraw</span></strong><div></div><p><span>(20 required)</span></p></td></tr></tbody></table></details>

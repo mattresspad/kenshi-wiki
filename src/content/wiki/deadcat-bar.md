@@ -25,7 +25,7 @@ infobox:
 
 -   [Deadcat Vendor](/deadcat-vendor)
 
-<details class="collapsible" open=""><summary>Possible Stock</summary><table class="wikitable"><tbody><tr><th colspan="4"><hr></th></tr><tr><th colspan="2">Item</th><th>Average Price</th><th>Chance</th></tr><tr><td></td><td><a href="/dried-fish"><span>Dried Fish</span></a></td><td>c.360</td><td>Common</td></tr><tr><td></td><td><a href="/grand-fish"><span>Grand Fish</span></a></td><td>c.360</td><td>Common</td></tr><tr><td></td><td><a href="/grog"><span>Grog</span></a></td><td>c.1,155</td><td>Common</td></tr><tr><td></td><td><a href="/thinfish"><span>Thinfish</span></a></td><td>c.360</td><td>Common</td></tr><tr><th colspan="4"></th></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Possible Stock</summary><table class="wikitable"><tbody><tr><th colspan="4"><hr></th></tr><tr><th colspan="2">Item</th><th>Average Price</th><th>Chance</th></tr><tr><td></td><td><a href="/dried-fish"><span>Dried Fish</span></a></td><td>c.360</td><td>Common</td></tr><tr><td></td><td><a href="/grand-fish"><span>Grand Fish</span></a></td><td>c.360</td><td>Common</td></tr><tr><td></td><td><a href="/grog"><span>Grog</span></a></td><td>c.1,155</td><td>Common</td></tr><tr><td></td><td><a href="/thinfish"><span>Thinfish</span></a></td><td>c.360</td><td>Common</td></tr></tbody></table></details>
 
 Wanted Posters
 

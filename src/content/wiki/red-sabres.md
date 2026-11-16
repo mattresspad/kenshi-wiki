@@ -54,15 +54,15 @@ _The factions this faction has special relations with. Most others will use the 
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Red Sabre patrols can spawn in <a href="/south-wetlands">South Wetlands</a> and <a href="/the-swamp">The Swamp</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Red Sabre patrols can spawn in <a href="/south-wetlands">South Wetlands</a> and <a href="/the-swamp">The Swamp</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/red-sabre-hideout">Red Sabre Hideout</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/red-sabre-hideout">Red Sabre Hideout</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Killing or imprisoning the Red Sabre Boss results in smaller squads for Red Sabre patrols.<dl><dt>Town Overrides</dt></dl><p>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>Killing or imprisoning the Red Sabre Boss results in smaller squads for Red Sabre patrols.<dl><dt>Town Overrides</dt></dl><p>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</p></td></tr></tbody></table></details>
 
   
 

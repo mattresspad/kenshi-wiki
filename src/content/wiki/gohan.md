@@ -28,7 +28,7 @@ Thanks to this being the only crop-based recipe that does not require water, it'
 
 Gohan uses approximately 1.49 water/unit to grow indoors or non-rainy but suitable environments, and none to cook. All water logistics are eliminated entirely if grown in rainy environments like The Swamp, The Deadlands or [Vain](/vain), as rain will automatically water the Greenfruit and Riceweed, making it, situationally, the single most water-efficient food item in the game.
 
-<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Gohan</span></strong><div></div></td></tr><tr><td><a href="/riceweed"><span>Riceweed</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/greenfruit"><span>Greenfruit</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Gohan</span></strong><div></div></td></tr><tr><td><a href="/riceweed"><span>Riceweed</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
 
   
 

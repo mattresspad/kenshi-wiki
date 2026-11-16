@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<details class="collapsible" open=""><summary>Camping</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>Tents</td><td>Other</td></tr><tr><td><p><a href="/flat-shelter"><span>Flat Shelter</span></a><br><a href="/mercenary-tent"><span>Mercenary Tent</span></a><br><a href="/scrap-tent"><span>Scrap Tent</span></a></p></td><td><p><a href="/camp-bed"><span>Camp Bed</span></a><br><a href="/campfire"><span>Campfire</span></a></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Camping</summary><table class="wikitable"><tbody><tr><td>Tents</td><td>Other</td></tr><tr><td><p><a href="/flat-shelter"><span>Flat Shelter</span></a><br><a href="/mercenary-tent"><span>Mercenary Tent</span></a><br><a href="/scrap-tent"><span>Scrap Tent</span></a></p></td><td><p><a href="/camp-bed"><span>Camp Bed</span></a><br><a href="/campfire"><span>Campfire</span></a></p></td></tr></tbody></table></details>
 
   
 

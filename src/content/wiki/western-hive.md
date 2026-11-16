@@ -93,15 +93,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Western Hive caravans can spawn in <a href="/flats-lagoon-zone">Flats Lagoon</a>, <a href="/heng-zone">Heng</a>, <a href="/stenn-desert">Stenn Desert</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/vain">Vain</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Western Hive caravans can spawn in <a href="/flats-lagoon-zone">Flats Lagoon</a>, <a href="/heng-zone">Heng</a>, <a href="/stenn-desert">Stenn Desert</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/vain">Vain</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/distant-hive-village">Distant Hive Village</a></dd><dd><a href="/hive-village">Hive Village</a></dd><dd><a href="/western-hive-location">Western Hive</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/distant-hive-village">Distant Hive Village</a></dd><dd><a href="/hive-village">Hive Village</a></dd><dd><a href="/western-hive-location">Western Hive</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/border-zone">Border Zone</a>, <a href="/dreg">Dreg</a>, <a href="/flats-lagoon-zone">Flats Lagoon</a>, <a href="/okrans-pride">Okran's Pride</a>, <a href="/okrans-valley">Okran's Valley</a>, <a href="/purple-sands">Purple Sands</a>, <a href="/sinkuun">Sinkuun</a>, <a href="/skinners-roam">Skinner's Roam</a>, <a href="/stenn-desert">Stenn Desert</a>, <a href="/the-eye">The Eye</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-swamp">The Swamp</a>.<dl><dt>Town Overrides</dt></dl><p>If <a href="/the-queen">The Queen</a> is killed or imprisoned, Hive Villages will become <a href="/deadhive-overrun">Deadhive Overrun</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible"><summary>World States</summary><table class="wikitable"><tbody><tr><td>If certain <a href="/world-states">World States</a> are achieved, this faction can be found patrolling <a href="/border-zone">Border Zone</a>, <a href="/dreg">Dreg</a>, <a href="/flats-lagoon-zone">Flats Lagoon</a>, <a href="/okrans-pride">Okran's Pride</a>, <a href="/okrans-valley">Okran's Valley</a>, <a href="/purple-sands">Purple Sands</a>, <a href="/sinkuun">Sinkuun</a>, <a href="/skinners-roam">Skinner's Roam</a>, <a href="/stenn-desert">Stenn Desert</a>, <a href="/the-eye">The Eye</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-swamp">The Swamp</a>.<dl><dt>Town Overrides</dt></dl><p>If <a href="/the-queen">The Queen</a> is killed or imprisoned, Hive Villages will become <a href="/deadhive-overrun">Deadhive Overrun</a>.</p></td></tr></tbody></table></details>
 
   
 

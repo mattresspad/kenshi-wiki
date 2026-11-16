@@ -37,12 +37,12 @@ _The factions this faction has special relations towards. For all others, it wil
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Bounty Hunter patrols can spawn in <a href="/heng-zone">Heng</a>, <a href="/stobes-gamble">Stobe's Gamble</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/stormgap-coast">Stormgap Coast</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/watchers-rim">Watcher's Rim</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Bounty Hunter patrols can spawn in <a href="/heng-zone">Heng</a>, <a href="/stobes-gamble">Stobe's Gamble</a>, <a href="/stobes-garden">Stobe's Garden</a>, <a href="/stormgap-coast">Stormgap Coast</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/watchers-rim">Watcher's Rim</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><span class="new" title="Bounty Hunter Camp (page does not exist)" data-uncrawlable-url="L3dpa2kvQm91bnR5X0h1bnRlcl9DYW1wP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==">Bounty Hunter Camp</span></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><span class="new" title="Bounty Hunter Camp (page does not exist)" data-uncrawlable-url="L3dpa2kvQm91bnR5X0h1bnRlcl9DYW1wP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==">Bounty Hunter Camp</span></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>

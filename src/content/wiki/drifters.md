@@ -62,15 +62,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td><a href="/drifter">Drifter</a> Treasure Hunter patrols can spawn in <a href="/stobes-gamble">Stobe's Gamble</a>, <a href="/the-crags">The Crags</a>, and <a href="/the-pits">The Pits</a>.<p>Traveller patrols can spawn in <a href="/dreg">Dreg</a>, <a href="/okrans-gulf">Okran's Gulf</a>, <a href="/okrans-pride">Okran's Pride</a>, <a href="/okrans-valley">Okran's Valley</a>, <a href="/bast-zone">Bast (Zone)</a>, <a href="/the-great-desert">The Great Desert</a>, <a href="/heng">Heng</a>, <a href="/stenn-desert">Stenn Desert</a>, <a href="/the-hook">The Hook</a>.</p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td><a href="/drifter">Drifter</a> Treasure Hunter patrols can spawn in <a href="/stobes-gamble">Stobe's Gamble</a>, <a href="/the-crags">The Crags</a>, and <a href="/the-pits">The Pits</a>.<p>Traveller patrols can spawn in <a href="/dreg">Dreg</a>, <a href="/okrans-gulf">Okran's Gulf</a>, <a href="/okrans-pride">Okran's Pride</a>, <a href="/okrans-valley">Okran's Valley</a>, <a href="/bast-zone">Bast (Zone)</a>, <a href="/the-great-desert">The Great Desert</a>, <a href="/heng">Heng</a>, <a href="/stenn-desert">Stenn Desert</a>, <a href="/the-hook">The Hook</a>.</p></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which the Drifters control.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>There are no locations which the Drifters control.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
 
   
 

@@ -13,7 +13,7 @@ categories: ["Statistics","Buildings"]
 
 Turrets are buildings and do not require ammunition. They, like crossbows, can deal damage to friendly units.
 
-<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href="/deadhive-worker"><span>Deadhive Worker</span></a><br>-<a href="/hive-worker-drone"><span>Hive Worker Drone</span></a><br>-<a href="/screamer-mki"><span>Screamer MkI</span></a><br>-<a href="/skeleton-race"><span>Skeleton (Race)</span></a><br>-<a href="/southern-hive-worker-drone"><span>Southern Hive Worker Drone</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href="/deadhive-worker"><span>Deadhive Worker</span></a><br>-<a href="/hive-worker-drone"><span>Hive Worker Drone</span></a><br>-<a href="/screamer-mki"><span>Screamer MkI</span></a><br>-<a href="/skeleton-race"><span>Skeleton (Race)</span></a><br>-<a href="/southern-hive-worker-drone"><span>Southern Hive Worker Drone</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
 
 ## Stats Affected
 

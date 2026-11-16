@@ -11,4 +11,4 @@ categories: ["Modders resource","Modding Guide","Modding"]
 
 **Smegdorf the swamp Shamon** (hewhosailstheseaofdreams) has generously provided us these alpha masks for the three main factions. You can use these when you make mods.
 
-<table class="wikitable"><tbody><tr><td></td><td></td><td></td></tr><tr><td>Shek Kingdom</td><td>United Cities</td><td>Holy Nation</td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td>Shek Kingdom</td><td>United Cities</td><td>Holy Nation</td></tr></tbody></table>

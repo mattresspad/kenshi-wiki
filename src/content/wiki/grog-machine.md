@@ -7,7 +7,7 @@ source:
 categories: ["Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Grog Machine</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>3</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A contraption what is for making grog with.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Grog Machine</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>3</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A contraption what is for making grog with.<br></td></tr></tfoot></table>
 
   
 
@@ -17,4 +17,4 @@ It uses 20 [Wheatstraw](/wheatstraw) and 1 [Water](/water) per unit of [Grog](/g
 
 Be aware, for most settlements assigning your chef to make Grog as an automatic job will swiftly drain your supplies of Wheatstraw.
 
-<details class="collapsible" open=""><summary>Grog Machine</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td><td><a href="/grog"><span>Grog</span></a><div></div></td></tr><tr><td><a href="/wheatstraw"><span>Wheatstraw</span></a><div></div><p><span>(20 required)</span></p></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Grog Machine</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/water"><span>Water</span></a><div></div><p><span>(1 required)</span></p></td><td><a href="/grog"><span>Grog</span></a><div></div></td></tr><tr><td><a href="/wheatstraw"><span>Wheatstraw</span></a><div></div><p><span>(20 required)</span></p></td></tr></tbody></table></details>

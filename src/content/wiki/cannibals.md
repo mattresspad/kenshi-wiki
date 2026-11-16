@@ -63,12 +63,12 @@ Cannibals are hostile towards everyone, but these factions especially hate the C
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Cannibal patrols can spawn in <a href="/cannibal-plains">Cannibal Plains</a>, <a href="/darkfinger">Darkfinger</a>, <a href="/northern-coast">Northern Coast</a>, <a href="/berserker-country">Berserker Country</a>, <a href="/bast">Bast</a>, <a href="/okrans-valley">Okran's Valley</a>, <a href="/dreg">Dreg</a>, <a href="/purple-sands">Purple Sands</a> and <a href="/hidden-forest">Hidden Forest</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Cannibal patrols can spawn in <a href="/cannibal-plains">Cannibal Plains</a>, <a href="/darkfinger">Darkfinger</a>, <a href="/northern-coast">Northern Coast</a>, <a href="/berserker-country">Berserker Country</a>, <a href="/bast">Bast</a>, <a href="/okrans-valley">Okran's Valley</a>, <a href="/dreg">Dreg</a>, <a href="/purple-sands">Purple Sands</a> and <a href="/hidden-forest">Hidden Forest</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/cannibal-camp">Cannibal Camp</a></dd><dd><a href="/cannibal-capital">Cannibal Capital</a></dd><dd><a href="/cannibal-village">Cannibal Village</a></dd><dd><a href="/first-village">First Village</a></dd><dd><a href="/suspicious-lab">Suspicious Lab</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/cannibal-camp">Cannibal Camp</a></dd><dd><a href="/cannibal-capital">Cannibal Capital</a></dd><dd><a href="/cannibal-village">Cannibal Village</a></dd><dd><a href="/first-village">First Village</a></dd><dd><a href="/suspicious-lab">Suspicious Lab</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/cannibal-infestation">Cannibal Infestation</a></dd><dd><a href="/okrans-fist">Okran's Fist</a></dd><dd><a href="/sho-battai">Sho-Battai</a></dd><dd><a href="/flotsam-village">Flotsam Village</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>Depending on <a href="/world-states">World States</a>, these locations can be controlled by this faction.<dl><dd><a href="/cannibal-infestation">Cannibal Infestation</a></dd><dd><a href="/okrans-fist">Okran's Fist</a></dd><dd><a href="/sho-battai">Sho-Battai</a></dd><dd><a href="/flotsam-village">Flotsam Village</a></dd></dl></td></tr></tbody></table></details>

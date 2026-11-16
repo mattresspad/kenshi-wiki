@@ -13,15 +13,15 @@ Not technically a unified faction but more of a loose category of bandits, deser
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Slaves can spawn with <a href="/noble-hunter">Noble Hunters</a> in <a href="/stormgap-coast">Stormgap Coast</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Slaves can spawn with <a href="/noble-hunter">Noble Hunters</a> in <a href="/stormgap-coast">Stormgap Coast</a>, <a href="/the-great-desert">The Great Desert</a>, and <a href="/the-hook">The Hook</a>.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which the Outlaws control.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>There are no locations which the Outlaws control.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
 
   
 

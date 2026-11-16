@@ -23,7 +23,7 @@ infobox:
 
 **Sleeping Bags** can be created at a (Basic) [Medical Workbench](/medical-workbench) or bought from a [Travel Shop](/travel-supplies-shops). They are used as the only ingredient in a [Camp Bed](/camp-bed) which can be placed via the "Building menu". When the Camping Bed is dismantled a Sleeping Bag is returned, allowing for it to be used again.
 
-<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Sleeping Bag</span></strong><div></div></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Sleeping Bag</span></strong><div></div></td></tr></tbody></table></details>
 
   
 

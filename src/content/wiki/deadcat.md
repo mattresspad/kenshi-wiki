@@ -47,15 +47,15 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>Deadcat does not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Zones</summary><table class="wikitable"><tbody><tr><td>Deadcat does not patrol any zones as Homeless Spawns.</td></tr></tbody></table></details>
 
   
 
-<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/fishing-village">Fishing Village</a></dd><dd><a href="/gatherer-village">Gatherer Village</a></dd><dd><a href="/ghost-village">Ghost Village</a></dd><dd><a href="/horrible-ruin">Nice Ruin</a></dd><dd><a href="/old-village-deadcat">Old Village</a></dd></dl></td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Towns</summary><table class="wikitable"><tbody><tr><td>These towns, outposts, and other locations are controlled by this faction.<dl><dd><a href="/fishing-village">Fishing Village</a></dd><dd><a href="/gatherer-village">Gatherer Village</a></dd><dd><a href="/ghost-village">Ghost Village</a></dd><dd><a href="/horrible-ruin">Nice Ruin</a></dd><dd><a href="/old-village-deadcat">Old Village</a></dd></dl></td></tr></tbody></table></details>
 
   
 
-<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td></td></tr><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
+<details class="collapsible"><summary>Town Overrides</summary><table class="wikitable"><tbody><tr><td>There are no locations which can be controlled by this faction due to changes in <a href="/world-states">World States</a>.</td></tr></tbody></table></details>
 
   
 

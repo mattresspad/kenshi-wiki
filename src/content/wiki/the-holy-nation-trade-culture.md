@@ -53,7 +53,7 @@ All locations controlled by [The Holy Nation](/the-holy-nation).
 
 _**This article is a Work in Progress. It may contain out of date or incomplete information.**_
 
-<details class="collapsible" open=""><summary>Possible Stock</summary><table class="wikitable"><tbody><tr><th colspan="4"><hr></th></tr><tr><th colspan="2">Altered Items</th><th>Average Price</th><th>Chance</th></tr><tr><td></td><td><a href="/hashish"><span>Hashish</span></a></td><td>c.144 (400%)</td><td>never</td></tr><tr><th colspan="4"></th></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Possible Stock</summary><table class="wikitable"><tbody><tr><th colspan="4"><hr></th></tr><tr><th colspan="2">Altered Items</th><th>Average Price</th><th>Chance</th></tr><tr><td></td><td><a href="/hashish"><span>Hashish</span></a></td><td>c.144 (400%)</td><td>never</td></tr></tbody></table></details>
 
 ## Note
 

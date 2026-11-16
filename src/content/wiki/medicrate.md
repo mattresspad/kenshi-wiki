@@ -7,7 +7,7 @@ source:
 categories: ["Storage","Buildings"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Medicrate</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>2</td></tr><tr><td>Estimated build time:</td><td>4 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">A safe place to store your medikits.<br></td></tr></tbody></table>
+<table class="wikitable imported-property-table"><caption>Medicrate</caption><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>2</td></tr><tr><td>Estimated build time:</td><td>4 hrs</td></tr></tbody><tfoot><tr><td colspan="2">A safe place to store your medikits.<br></td></tr></tfoot></table>
 
 The **Medicrate** is a [storage](/storage) container for [Medical Items](/medical-items) such as First Aid Kits and Splint Kits. Items stored in the Medicrate can be stacked in groups of five. The ability to construct this building is unlocked after researching [Basic First Aid Kits](/basic-first-aid-kits-tech).
 
