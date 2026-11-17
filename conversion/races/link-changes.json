@@ -62,5 +62,30 @@
       "/sabres",
       "/weapon-smith-skill"
     ]
+  },
+  {
+    "name": "race-siblings-1",
+    "resolved": [
+      "/alpha-fishman",
+      "/cannibal-race",
+      "/cannibal-skav",
+      "/deadhive-prince",
+      "/deadhive-soldier",
+      "/deadhive-worker",
+      "/fishman",
+      "/hive",
+      "/hive-prince",
+      "/hive-queen",
+      "/hive-soldier-drone",
+      "/human",
+      "/p4-unit",
+      "/robots"
+    ],
+    "introduced": [
+      "/bookshop-trader",
+      "/hive-prisoner-shackles",
+      "/pearl-vase",
+      "/weapon-smith"
+    ]
   }
 ]
