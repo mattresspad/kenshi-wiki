@@ -87,5 +87,28 @@
       "/pearl-vase",
       "/weapon-smith"
     ]
+  },
+  {
+    "name": "race-siblings-2",
+    "resolved": [
+      "/scorchlander",
+      "/screamer-mki",
+      "/shek",
+      "/shek/health",
+      "/skeleton",
+      "/skeleton-log-head-mkii",
+      "/skeleton-mkii-screamer",
+      "/skeleton-no-head-mkii",
+      "/skeleton-p4mkii",
+      "/soldierbot",
+      "/southern-hive-prince",
+      "/southern-hive-soldier-drone",
+      "/southern-hive-worker-drone"
+    ],
+    "introduced": [
+      "/blunt-weapons",
+      "/shek/lore",
+      "/stronger-opponent-logic"
+    ]
   }
 ]
