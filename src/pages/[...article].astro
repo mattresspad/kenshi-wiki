@@ -7,7 +7,7 @@ import {prepareArticle} from '../lib/article.mjs';
 export async function getStaticPaths() {
   const {entries, byId} = await readWiki();
   return entries.map(entry => {
-    const article = byId.get(entry.id);
+    const article = byId.get(entry.data.articleId);
     return {params:{article:article.path.slice(1)}, props:{entry, article}};
   });
 }

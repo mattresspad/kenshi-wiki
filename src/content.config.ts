@@ -3,10 +3,8 @@ import { glob } from 'astro/loaders';
 
 const factPart = z.union([z.string(), z.tuple([z.string(), z.string()])]);
 const articles = defineCollection({
-  loader: glob({ base: './src/content/articles', pattern: '**/*.md', generateId: ({ data }) => {
-    if (typeof data.articleId !== 'string' || !data.articleId.trim()) throw Error('Every article must declare its registered articleId');
-    return data.articleId;
-  } }),
+  // The loader caches by physical file. The catalog resolves data.articleId independently.
+  loader: glob({ base: './src/content/articles', pattern: '**/*.md', generateId: ({entry}) => entry }),
   schema: z.object({
     articleId: z.string().min(1), title: z.string(), description: z.string(), categories: z.array(z.string()),
     layout: z.enum(['town', 'recipe', 'reference']),

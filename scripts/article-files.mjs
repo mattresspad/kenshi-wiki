@@ -11,7 +11,7 @@ export function articleFiles(root = '.') {
     const header = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---/);
     if (!header) throw Error('Missing article metadata in ' + absolute);
     const data = parse(header[1]);
-    return {id: data.articleId, data, filePath: relative(root, absolute).split(sep).join('/')};
+    return {data, filePath: relative(root, absolute).split(sep).join('/')};
   });
 }
 

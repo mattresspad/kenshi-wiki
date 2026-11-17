@@ -54,9 +54,10 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
     articles.set(path, article);
   }
   const editableFiles = new Map();
-  for (const {id, filePath, data} of entries) {
+  for (const {filePath, data} of entries) {
+    const id = data.articleId;
     const article = byId.get(id);
-    if (!article || data.articleId !== id) throw Error('Unregistered article ID ' + id + ' in ' + filePath);
+    if (!article) throw Error('Unregistered article ID ' + id + ' in ' + filePath);
     if (article.filePath) throw Error('Duplicate editable article ID ' + id + ' in ' + article.filePath + ' and ' + filePath);
     if (!filePath?.startsWith('src/content/articles/') || !filePath.endsWith('.md') || filePath.split('/').includes('..')) throw Error('Invalid editable file for ' + id);
     claim(editableFiles, filePath.toLowerCase(), 'editable file');
@@ -79,7 +80,7 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
   const compare = new Intl.Collator('en', {numeric:true, sensitivity:'base'});
   for (const group of categories.values()) group.members.sort((a,b) =>
     compare.compare(a.title,b.title) || a.path.localeCompare(b.path,'en'));
-  const local = new Set(['/', ...entries.map(e => byId.get(e.id).path), ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals]);
+  const local = new Set(['/', ...entries.map(e => byId.get(e.data.articleId).path), ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals]);
   const searchTitles = [
     ['About Kenshi', '/about-kenshi'], ['Contributors', '/contributors'],
     ...[...articles.values()].map(a => [a.title, a.path]),

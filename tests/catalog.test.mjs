@@ -33,7 +33,7 @@ test('reconcile original raw membership sets independently of the URL generator'
 });
 test('reviewed destinations, aliases and fragments work as the batch grows',()=>{
   const cat=snapshot.articles.find(a=>a.path==='/catun');
-  const atlas=buildCatalog([{id:cat.id,filePath:'src/content/articles/locations/towns/catun.md',data:{articleId:cat.id,title:cat.title,categories:cat.categories}}]);
+  const atlas=buildCatalog([{filePath:'src/content/articles/locations/towns/catun.md',data:{articleId:cat.id,title:cat.title,categories:cat.categories}}]);
   assert.equal(atlas.href('/catun#town-override'),'/catun#town-override');
   assert.equal(atlas.href('/admag#history'),'https://kenshi.wiki/admag#history');
   assert.deepEqual(displayCategories(['WIP','Wip',"Trader's Guild",'Traders guild','Traders Guild']),['WIP','Traders Guild']);
@@ -75,9 +75,9 @@ test('an editable file can move and its public address can change independently'
 
 test('unregistered files, duplicate identities and route collisions fail the catalog',()=>{
   const a = snapshot.articles.find(a=>a.id==='catun');
-  const entry = {id:a.id,filePath:'src/content/articles/town.md',data:{articleId:a.id,title:a.title,categories:a.categories}};
+  const entry = {filePath:'src/content/articles/town.md',data:{articleId:a.id,title:a.title,categories:a.categories}};
   assert.throws(()=>buildCatalog([entry,{...entry,filePath:'src/content/articles/copy.md'}]),/Duplicate editable article ID/);
-  assert.throws(()=>buildCatalog([{...entry,id:'missing'}]),/Unregistered article ID/);
+  assert.throws(()=>buildCatalog([{...entry,data:{...entry.data,articleId:'missing'}}]),/Unregistered article ID/);
   for (const path of ['/backpacks','/category/locations','/modding','/random','/search-titles.json','/holy-nation']) {
     const bad = {...snapshot,articles:snapshot.articles.map(record=>record.id===a.id?{...record,path}:record)};
     assert.throws(()=>buildCatalog([],bad),/duplicate/i,path);

@@ -80,7 +80,7 @@ const memberships=[...initial.categories.values()].reduce((n,g)=>n+g.members.len
 const duplicateCheck=new Set(routes.filter(r=>['article','category','utility','portal','home'].includes(r.kind)).map(r=>r.path));
 if(duplicateCheck.size!==snapshot.articles.length+initial.categories.size+snapshot.utilities.length+snapshot.portals.length) throw Error('Overlapping public page identities');
 const temporaryLinks=Array.from(external,([from,urls])=>({from,to:[...urls].sort()}));
-const report={revision:snapshot.revision,reviewedArticles:transferred.map(e=>atlas.byId.get(e.id).path),memberships, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
+const report={revision:snapshot.revision,reviewedArticles:transferred.map(e=>atlas.byId.get(e.data.articleId).path),memberships, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
   aliases:policy.aliases,exclusions,temporaryLinks,assetRedirects,blenderChange,routes};
 mkdirSync('reports',{recursive:true});
 writeFileSync('reports/routes.json',JSON.stringify(report,null,2)+'\n');

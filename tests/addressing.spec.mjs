@@ -3,7 +3,7 @@ import {snapshot, origin} from '../src/lib/catalog.mjs';
 import {articleFiles} from '../scripts/article-files.mjs';
 import {recordedSource} from '../src/lib/page-source.mjs';
 
-const files = new Map(articleFiles().map(entry => [entry.id, entry.filePath]));
+const files = new Map(articleFiles().map(entry => [entry.data.articleId, entry.filePath]));
 
 test('the search title index covers registered addresses while the header opens live search', async ({request,page}) => {
   const response = await request.get('/search-titles.json');
