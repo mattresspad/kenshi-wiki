@@ -29,7 +29,7 @@ export function articleEvidence(html, frozen) {
   const $ = load(area.html(), {}, false);
   // This separately checked editorial note qualifies the original imported words.
   $('.source-qualification').remove();
-  const headings = $('h2,h3,h4,h5,h6').toArray().map(el => [el.name,$(el).attr('id'),text($(el).text())]);
+  const headings = $('h2,h3,h4,h5,h6').toArray().map(el => [el.name,$(el).attr('id') ?? null,text($(el).text())]);
   const ids = $('[id]').toArray().map(el => $(el).attr('id'));
   const links = root => root.find('a[href]').toArray().map(el => [text($(el).text()),destination($(el).attr('href'))]);
   const images = $('img[src]').toArray().map(el => [$(el).attr('src'),$(el).attr('alt') ?? '']);

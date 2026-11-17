@@ -3,6 +3,8 @@ import {snapshot, origin} from '../src/lib/catalog.mjs';
 import {articleFiles} from '../scripts/article-files.mjs';
 import {recordedSource} from '../src/lib/page-source.mjs';
 
+import {beforeGeography,batches} from '../scripts/geography/batches.mjs';
+
 const files = new Map(articleFiles().map(entry => [entry.data.articleId, entry.filePath]));
 
 test('the search title index covers registered addresses while the header opens live search', async ({request,page}) => {
@@ -20,7 +22,9 @@ test('the search title index covers registered addresses while the header opens 
 for (const phone of [false,true]) test('copy a real Markdown or portal file '+(phone?'on phone':'on desktop'),async({page,context,baseURL})=>{
   await page.setViewportSize(phone?{width:390,height:844}:{width:1440,height:900});
   await context.grantPermissions(['clipboard-read','clipboard-write'],{origin:baseURL});
-  for (const route of ['/catun','/backpacks','/the-holy-nation','/modding/meitou/make-a-saddle-pack','/modding/blender-plugins','/modding']) {
+  const ids=new Set([...beforeGeography,...(batches.at(-1)?.ids.slice(0,1) ?? [])]);
+  const routes=snapshot.articles.filter(article=>ids.has(article.id)).map(article=>article.path);
+  for (const route of [...routes,'/modding']) {
     await page.goto(route);
     if (phone) await page.locator('#tools > summary').press('Enter');
     const editor = page.locator((phone?'.small-tools':'.wide-tools')+' .edit-file');

@@ -47,6 +47,9 @@ for (const a of atlas.byId.values()) {
         !edits.length || edits.some(el => !$(el).attr('href').endsWith('/'+a.filePath.split('/').map(encodeURIComponent).join('/')))) {
       throw Error('Rendered editable path differs for ' + a.id);
     }
+    const expectedLinks=[original.markdown,original.history,correctionLink(origin+a.path)];
+    const renderedLinks=$('.source-links a').toArray().map(el=>$(el).attr('href'));
+    if (renderedLinks.length!==expectedLinks.length || renderedLinks.some((url,i)=>url!==expectedLinks[i])) throw Error('Source history or correction address differs for '+a.id);
     articleSources = $('#source-history').nextUntil('h2').find('a[href]').toArray().map(el=>({
       label:$(el).text(), href:new URL($(el).attr('href'),origin+a.path).href
     }));

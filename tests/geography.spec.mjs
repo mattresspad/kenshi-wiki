@@ -66,6 +66,13 @@ test('keyboard sorts loot prices across the two-column item heading',async({page
   }
 });
 
+test('World States keeps the table heading fragment on its original element',async({page})=>{
+  test.skip(!includedIds.has('world-states'));
+  await page.goto('/world-states#United_Cities');
+  await expect(page.locator('h3 > #United_Cities')).toHaveText('United Cities');
+  await expect(page.locator('.page-outline a[href="#United_Cities"]')).toHaveCount(1);
+});
+
 test('Bad Teeth retains its five override destinations in source priority order',async({page})=>{
   test.skip(!includedIds.has('bad-teeth'));
   await page.goto('/bad-teeth#town-overrides');

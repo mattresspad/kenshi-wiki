@@ -109,7 +109,15 @@ function freeze() {
   }
   assert.equal(Object.keys(assets).length,35);
   const save = (name,value) => writeFileSync(join(dir,name),JSON.stringify(value,null,2)+'\n');
-  save('roster.json',{revision:snapshot.revision,existing:['catun'],batches});
+  const baseRevision='6ec3f5cd00239fcb14073fe0b2cf148d630482f6';
+  const oldFiles=execFileSync('git',['ls-tree','-r','--name-only',baseRevision,'src/content/articles'],{encoding:'utf8'}).trim().split(/\r?\n/);
+  const previouslyTransferred=oldFiles.filter(file=>file.endsWith('.md')).map(file=>{
+    const original=execFileSync('git',['show',baseRevision+':'+file],{encoding:'utf8'});
+    const id=parse(original.split(/\r?\n---\r?\n/)[0].replace(/^---\r?\n/,'')).articleId;
+    assert.ok(records.has(id),file);
+    return id;
+  }).sort();
+  save('roster.json',{revision:snapshot.revision,baseRevision,previouslyTransferred,existing:['catun'],batches});
   // One record per line keeps additions and field changes reviewable without repeating Markdown.
   writeFileSync(join(dir,'reference.json'),'{\n  "articles": {\n'+Object.entries(fixtures).map(([id,v])=>'    '+JSON.stringify(id)+': '+JSON.stringify(v)).join(',\n')+'\n  },\n  "assets": '+JSON.stringify(assets,null,2)+'\n}\n');
   console.log('Frozen',ids.size,'articles,',batches.length,'batches and',Object.keys(assets).length,'assets');

@@ -1,5 +1,13 @@
 {
   "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "baseRevision": "6ec3f5cd00239fcb14073fe0b2cf148d630482f6",
+  "previouslyTransferred": [
+    "backpacks",
+    "catun",
+    "modding/blender-plugins",
+    "modding/meitou/make-a-saddle-pack",
+    "the-holy-nation"
+  ],
   "existing": [
     "catun"
   ],

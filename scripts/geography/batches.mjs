@@ -7,7 +7,7 @@ export {roster, checkpoint};
 export const batches = roster.batches.slice(0, checkpoint.included);
 export const includedIds = new Set(batches.flatMap(batch => batch.ids));
 export const geographyIds = new Set(['catun', ...roster.batches.flatMap(batch => batch.ids)]);
-export const beforeGeography = ['catun','backpacks','the-holy-nation','modding/blender-plugins','modding/meitou/make-a-saddle-pack'];
+export const beforeGeography = roster.previouslyTransferred;
 export function expectedRoutes() {
   const ids = new Set([...beforeGeography, ...includedIds]);
   return new Set(['/', ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals,

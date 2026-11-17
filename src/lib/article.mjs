@@ -13,10 +13,12 @@ export function prepareArticle(html, data, href) {
   const parents = [];
   for (const heading of $('h2,h3,h4').toArray()) {
     const el = $(heading);
-    const generated = el.attr('id');
+    // Imported table headings can put their existing public fragment on a child span.
+    const target = el.attr('id') ? el : el.children('.mw-headline[id]').first();
+    const generated = target.attr('id');
     if (!generated) throw Error('Heading without a bookmark: ' + el.text());
     const id = data.headingIds[generated] ?? generated;
-    el.attr({id, tabindex: '-1'});
+    target.attr({id, tabindex: '-1'});
     const level = Number(heading.tagName.slice(1));
     while (parents.length && parents.at(-1).level >= level) parents.pop();
     const item = {id, label: el.text(), children: []};
