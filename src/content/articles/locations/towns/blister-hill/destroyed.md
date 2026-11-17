@@ -1,0 +1,40 @@
+---
+articleId: blister-hill/destroyed
+title: Blister Hill/Destroyed
+description: Blister Hill falls to ruins if Holy Lord Phoenix is killed or imprisoned. It's possible for this override to switch to outlaw or flotsam overrides.
+categories:
+  - Article stubs
+  - Locations
+  - Holy Nation
+layout: geography
+factTitle: Blister Hill
+factGroups:
+  - heading: null
+    rows:
+      - - Type
+        - Ruins
+      - - Biome
+        - - Okran's Pride
+          - /okrans-pride
+      - - Factions
+        - - The Holy Nation
+          - /the-holy-nation
+  - heading: Technical Info
+    rows:
+      - - FCS Name
+        - Blister Hill (override) destroyed
+      - - String ID
+        - 1532974-__world reactions.mod
+---
+
+_This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/blister-hill/destroyed)._
+
+<figure class="quote"><blockquote>Oh, 62nd Phoenix... Of all the Phoenix' you were my favourite...</blockquote><figcaption><a href="/holy-citizen">Holy Citizen</a></figcaption></figure>
+
+[Blister Hill](/blister-hill) falls to ruins if [Holy Lord Phoenix](/holy-lord-phoenix) is killed or imprisoned. It's possible for this override to switch to [outlaw](/blister-hill/holy-nation-outlaws) or [flotsam](/blister-hill/flotsam-ninjas) overrides.
+
+It appears that since the central authority figure of this city was untimely and prematurely assassinated or captured, the paralysis in military command combined with breakdown in civil order in this city broke down completely as a result of mass panic<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>, uncertainty<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup>, grief<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup> and [rage](/wrath-of-god)<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span class="cite-bracket">[</span>4<span class="cite-bracket">]</span></a></sup>, causing the town to become destroyed and abandoned<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span class="cite-bracket">[</span>5<span class="cite-bracket">]</span></a></sup>, ostensibly either retreating to the countryside<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite-bracket">[</span>6<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span class="cite-bracket">[</span>7<span class="cite-bracket">]</span></a></sup>, or mobilizing in preparing for endless campaigns against the offender<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span class="cite-bracket">[</span>8<span class="cite-bracket">]</span></a></sup>
+
+The military presence surrounding the city under the command of [Seta](/high-inquisitor-seta) and/or [Valtena](/high-inquisitor-valtena) still remains strong, preventing the rebels and criminals from taking over and moving into this town<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span class="cite-bracket">[</span>9<span class="cite-bracket">]</span></a></sup><sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span class="cite-bracket">[</span>10<span class="cite-bracket">]</span></a></sup>.
+
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">"Amusing... Such panic and squabbling amongst themselves has ended up destroying their own capital before we could take it." - <a href="/esata-the-stone-golem">Esata</a></span></li><li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">"With our beloved lord gone, what will become of the Holy Nation?" - <a href="/holy-citizen">Holy Citizen</a>, <a href="/holy-lord-phoenix">Phoenix</a> imprisoned/dead.</span></li><li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text">"Why must you have taken the Holy Lord Phoenix so soon, Okran? Why!?" - <a href="/holy-citizen">Holy Citizen</a></span></li><li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text">"Oh I'm going to enjoy our little catchup. But first things first, we need to plan our attack on the Holy Nation, while the nest is riled. Knowing the notoriously calm Okranites, their rage will surely blind them... We can't miss our opportunity!" - <a href="/moll">Moll</a></span></li><li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text">"The people of Blister Hill couldn't handle the downfall of their 'invincible' god lord. I guess you've seen the ruins, (player)?" - <a href="/moll">Moll</a></span></li><li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text"><a href="/holy-farms">Holy Farms</a> are either under HN or a neutral faction control, access to them is always possible.</span></li><li id="cite_note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7">↑</a></span> <span class="reference-text">The <a href="/blister-hill/holy-nation-outlaws">Outlaw</a> override suggests that while buildings are destroyed, the citizens mostly evacuated from the region, and could've partially returned back.</span></li><li id="cite_note-8"><span class="mw-cite-backlink"><a href="#cite_ref-8">↑</a></span> <span class="reference-text"><a href="/wrath-of-god">Wrath of God</a> occurs directly as a result of Phoenix being imprisoned/killed, and could occur infinitely, indicative of Holy Army moving to have punitive expeditions being mustered and launched.</span></li><li id="cite_note-9"><span class="mw-cite-backlink"><a href="#cite_ref-9">↑</a></span> <span class="reference-text">"But we can't take the capital for ourselves just yet. It's too dangerous, the high inquisitors' armies still patrol Okran's Pride in heavy force. Seta and Valtena are distracted by the invading Shek but they're still holding up the fort without the Phoenix..." - <a href="/moll">Moll</a></span></li><li id="cite_note-10"><span class="mw-cite-backlink"><a href="#cite_ref-10">↑</a></span> <span class="reference-text">The outlaw and rebel versions of Blister Hill require the capture/death of Seta, Valtena and Phoenix.</span></li></ol>
