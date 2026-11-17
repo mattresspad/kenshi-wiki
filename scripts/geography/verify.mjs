@@ -5,7 +5,7 @@ import {batches, checkpoint, expectedRoutes, frozenEvidence, includedIds, roster
 import {snapshot} from '../../src/lib/catalog.mjs';
 import {load} from 'cheerio';
 
-export function verifyGeography(atlas) {
+export function verifyGeography(atlas, assetRedirects) {
   const fixture = frozenEvidence();
   const actual = new Set([...atlas.byId.values()].filter(a=>a.filePath?.endsWith('.md') && fixture.articles[a.id]).map(a=>a.id));
   assert.deepEqual(actual,includedIds,'Incomplete geography batch');
@@ -49,9 +49,14 @@ export function verifyGeography(atlas) {
   const originals=new Map(snapshot.articles.map(a=>[a.id,a.path]));
   assert.equal(atlas.local.size,expectedPages.size,'Unexpected local route count');
   for(const id of includedIds) assert.ok(atlas.local.has(originals.get(id)),id);
+  const familyPaths=new Set(['catun',...actual].map(id=>atlas.byId.get(id).path));
+  const redirects=snapshot.redirects.filter(rule=>familyPaths.has(rule.to));
+  for(const rule of redirects) assert.ok(assetRedirects.some(live=>live.from===rule.from && live.to===rule.to && live.status===rule.status),rule.from);
+  const proofs=[...actual].map(id=>fixture.articles[id]);
   if(checkpoint.included===roster.batches.length) {
-    assert.equal(atlas.local.size,394); assert.equal(assets.size,35);
+    assert.equal(atlas.local.size,394); assert.equal(assets.size,35); assert.equal(redirects.length,42);
   }
-  return {through:batches.at(-1)?.name ?? null, verified:actual.size, assets:assets.size,
+  return {through:batches.at(-1)?.name ?? null, verified:actual.size, familyPages:familyPaths.size, redirects,
+    headings:proofs.reduce((n,p)=>n+p.headings.length,0), citationTargets:proofs.reduce((n,p)=>n+p.ids.filter(id=>/^cite_(?:ref|note)/.test(id)).length,0), assets:assets.size,
     emptyGalleries, unregisteredDestinations:[...new Map(unknown.map(e=>[e.from+' '+e.to,e])).values()], fragmentExceptions:[...new Map(issues.map(e=>[e.from+' '+e.to,e])).values()]};
 }

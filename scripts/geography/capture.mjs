@@ -14,7 +14,7 @@ export async function captureBatch(base, batch, output) {
     'geography-indexes':['world-of-kenshi','major-towns']
   };
   const samples=[...(extra[batch.name] ?? [batch.ids[0]])];
-  if (batch.name===roster.batches.at(-1).name) samples.push('old-world#old-world-towns','category/zones','category/spawning-locations');
+  if (batch.name===roster.batches.at(-1).name) samples.push('catun/fishmen','catun-alpha','bonefields','bad-teeth#town-overrides','old-world#old-world-towns','category/zones','category/spawning-locations');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {

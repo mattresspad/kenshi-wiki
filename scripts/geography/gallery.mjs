@@ -57,7 +57,7 @@ const reference=link(report.revision.slice(0,8),'https://github.com/mattresspad/
 const baseline=read('conversion/geography/baseline-links.json');
 const remaining=read(join(root,last.folder,'links.json')).remaining;
 const netResolved=baseline.filter(url=>!remaining.includes(url)), netIntroduced=remaining.filter(url=>!baseline.includes(url));
-const summary={revision:report.revision,checkpoints:accepted.length,htmlPages:last.pages,geographyArticles:last.verified+1,geographyRedirects:redirects.length,
+const summary={revision:report.revision,checkpoints:accepted.length,htmlPages:last.pages,geographyArticles:last.verified+1,geographyRedirects:redirects.length,comparedHeadings:geo.headings,citationTargets:geo.citationTargets,
   checkedIcons:last.icons,desktopAndPhoneCaptures:screenshots,editoriallyReviewedGeography:reviewed.map(r=>r.path),
   linkChangeSinceStart:{resolved:netResolved,introduced:netIntroduced,remaining},emptyGalleries:emptyIds,missingFragments:geo.fragmentExceptions,unregisteredDestinations:geo.unregisteredDestinations};
 writeFileSync(join(root,'summary.json'),JSON.stringify(summary,null,2)+'\n');
