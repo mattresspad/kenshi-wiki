@@ -1,0 +1,32 @@
+---
+import Header from '../components/Header.astro';
+import Sidebar from '../components/Sidebar.astro';
+import {origin, repo} from '../lib/catalog.mjs';
+import '../styles/frame.css';
+import '../styles/articles.css';
+import '../styles/restoration.css';
+const {kind='home',title,description,href,outline=[],categories=[],edit=repo+'/edit/main/src/pages/index.astro',history=repo+'/commits/main/src/pages/index.astro'}=Astro.props;
+const path=Astro.props.publicPath ?? '/';
+const siteData={'@context':'https://schema.org','@type':'WebSite',name:'Kenshi Wiki',alternateName:'kenshi.wiki',url:origin+'/'};
+---
+<!doctype html><html lang="en"><head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>{kind==='home'?title:title+' · Kenshi Wiki'}</title><meta name="description" content={description}/>
+  <link rel="canonical" href={origin+path}/>{kind==='home' && <script type="application/ld+json" set:html={JSON.stringify(siteData)}/>}
+  <script is:inline>
+    let palette=new URLSearchParams(location.search).get('theme');
+    try {palette ||= localStorage.getItem('wiki-theme')} catch {}
+    document.documentElement.dataset.theme=['light','dark'].includes(palette)?palette:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+  </script>
+</head><body>
+<a class="skip-to" href="#reading">Skip to wiki content</a>
+<div class="frame" id="frame">
+  <Header {kind} {title} {categories} {href} {edit} {history}/>
+  <Sidebar {kind} {outline} {href}/>
+  <button type="button" class="scrim" id="scrim" tabindex="-1" aria-label="Dismiss navigation" hidden></button>
+  <main id="reading" class:list={['reading',kind+'-reading']} tabindex="-1" aria-label="Wiki content"><slot/></main>
+  <footer class="foot"><div class="licenses">
+    <span>Original text — <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span>
+    <span>Fandom adaptations — <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></span><span>Fan-made wiki. Kenshi is a trademark of Lo-Fi Games.</span>
+  </div><nav aria-label="Licensing and artwork"><a href={href('/contributors#licensing')}>Licensing</a><a href="/notices/artwork.txt">Artwork notices</a></nav></footer>
+</div><script>import '../scripts/frame.js';</script></body></html>

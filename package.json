@@ -1,0 +1,28 @@
+{
+  "name": "kenshi-wiki-restoration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/package.mjs && node scripts/report.mjs",
+    "preview": "astro preview",
+    "test": "playwright test",
+    "test:catalog": "node --test tests/catalog.test.mjs",
+    "package:check": "cf workers versions create --prebuilt --dry-run",
+    "inventory": "node scripts/inventory.mjs",
+    "report": "node scripts/report.mjs",
+    "review": "node scripts/review.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.7.5",
+    "astro": "7.4.7",
+    "cheerio": "1.2.0"
+  },
+  "devDependencies": {
+    "@cloudflare/build-output-utils": "0.9.10",
+    "@playwright/test": "1.61.1",
+    "cf": "1.0.0-beta.28",
+    "yaml": "2.9.1"
+  }
+}

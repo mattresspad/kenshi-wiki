@@ -1,0 +1,27 @@
+---
+import directory from '../data/directory.json';
+import Icon from './Icon.astro';
+const { kind, outline, href } = Astro.props;
+---
+<aside class="rail" id="left-navigation" aria-label="Wiki sidebar">
+  <div class="rail-scroll" id="rail-scroll">
+    <a href="/" class="masthead" aria-label="Kenshi Wiki main page"><span>Kenshi</span><span>Wiki</span></a>
+    <nav class="rail-navigation" aria-labelledby="primary-title"><h2 id="primary-title">Navigation</h2>
+      <div class="shortcuts"><a href="/" aria-label="Main page" title="Main page" aria-current={kind==='home'?'page':undefined}><Icon name="home"/></a><a href={href('/random')} aria-label="Random page" title="Random page"><Icon name="dice"/></a></div>
+      <div class="primary-links">{['Gameplay','Guides','Modding'].map(t=><a href={href('/'+t.toLowerCase())}>{t}</a>)}</div>
+    </nav>
+    {outline.length>0 && <nav class="page-outline" aria-label="On this page"><details id="article-outline" open><summary>On this page</summary>
+      <ul>{outline.map(item=><li><a href={'#'+item.id}>{item.label}</a>
+        {item.children.length>0 && <details class="sub-outline"><summary aria-label={'Subsections of '+item.label}>Subsections</summary>
+          <ul>{item.children.map(sub=><li><a href={'#'+sub.id}>{sub.label}</a></li>)}</ul></details>}</li>)}</ul></details></nav>}
+    <nav class="topic-tree" aria-labelledby="tree-title"><h2 id="tree-title">Browse topics</h2>
+      {directory.navigation.map(section=><details class="branch"><summary>{section.title}</summary><div class="twigs">
+        {section.groups.map(g=><details class="twig"><summary>{g.title}</summary><ul>{g.links.map(l=><li><a href={href(l.href)}>{l.label}</a></li>)}</ul></details>)}</div></details>)}
+    </nav>
+  </div>
+  <div class="rail-base"><button class="settings-button" type="button" id="settings-button" aria-expanded="false" aria-controls="settings-panel">Sidebar settings <span aria-hidden="true">⌃</span></button>
+    <div id="settings-panel" class="settings-panel" hidden><fieldset><legend>Open article contents</legend>
+      {[['folded','Folded'],['headings','Headings'],['subsections','Headings and subsections']].map(([val,label])=><label><input type="radio" name="outline" value={val} checked={val==='headings'}/>{label}</label>)}
+    </fieldset></div>
+  </div>
+</aside>

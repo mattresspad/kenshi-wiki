@@ -1,0 +1,189 @@
+* { box-sizing: border-box }
+:root {
+  color-scheme: light;
+  --page: #fbf9f2; --chrome: #f1eee4; --rail: #f3f0e7; --cell: #f7f5ed; --pop: #fffdf6;
+  --text: #262824; --quiet: #50544b; --link: #254e77; --heading-link: #594b32;
+  --edge: #c8c3b5; --soft: #d9d5c9; --strong: #9e998b; --brass: #896c35;
+  --hover: #e8dcc1; --focus: #116076; --shade: #27231930;
+  --tile: #ebe7da; --hatch: #dad4c4;
+  --rail-width: 176px; --bar: 40px;
+  font-family: "Source Sans 3", "Segoe UI", Arial, sans-serif;
+}
+:root[data-theme=dark] {
+  color-scheme: dark;
+  --page: #151513; --chrome: #1e1e1b; --rail: #1d1d1a; --cell: #1c1c19; --pop: #292924;
+  --text: #edeae0; --quiet: #c0bdaf; --link: #a9c9ee; --heading-link: #d3c4a7;
+  --edge: #45443c; --soft: #34352f; --strong: #636257; --brass: #b39a60;
+  --hover: #3d3627; --focus: #e5c77f; --shade: #0008;
+  --tile: #282923; --hatch: #35372f;
+}
+html, body { margin: 0; padding: 0; color: var(--text); background: var(--page) }
+body { font-size: 15px; line-height: 1.4 }
+button, input, summary { font: inherit }
+button, summary { cursor: pointer }
+a { color: var(--link); text-underline-offset: 2px }
+button { color: inherit }
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
+  outline: 2px solid var(--focus); outline-offset: -2px; border-radius: 2px;
+}
+[hidden] { display: none !important }
+.visually-hidden, .skip-to:not(:focus) { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap }
+.skip-to:focus { position: fixed; left: 6px; top: 5px; z-index: 80; color: var(--link); background: var(--pop); padding: 5px 10px }
+.frame {
+  display: grid; height: 100vh; height: 100dvh; grid-template-columns: var(--rail-width) minmax(0,1fr);
+  grid-template-rows: calc(2 * var(--bar)) minmax(0,1fr) auto; grid-template-areas: "rail top" "rail reading" "rail foot";
+}
+.frame[data-folded] { grid-template-columns: 0 minmax(0,1fr) }
+.top { grid-area: top; z-index: 8; position: relative; min-width: 0; background: var(--chrome); font-size: 13px; font-weight: 550 }
+.sites-row, .context-row { display: flex; align-items: center; height: var(--bar); min-width: 0; border-bottom: 1px solid var(--edge) }
+.sites-row { gap: 10px; padding: 0 10px }
+.site-band { flex: 1; min-width: 0; display: flex; align-items: center; gap: 4px }
+.chip-line { display: flex; gap: 4px; min-width: 0; overflow: clip }
+.site-chip, .site-more summary, .small-tools summary {
+  display: inline-flex; flex: none; align-items: center; justify-content: center; min-height: 28px;
+  border: 1px solid var(--edge); border-radius: 3px; background: var(--cell); padding: 3px 8px;
+  line-height: 18px; white-space: nowrap; color: var(--link); text-decoration: none;
+}
+.chip-line .site-chip[data-segment=start]:not(:first-child) { margin-inline-start: 6px }
+.wide-tools, .revisions, .small-tools .menu-list { display: flex; align-items: center }
+.wide-tools { flex: none; gap: 3px }
+.top a, .top button, .top summary { color: var(--link) }
+.wide-tools a, .wide-tools button { padding: 6px 7px; white-space: nowrap; text-decoration: none }
+.theme-control { background: transparent; border: 0; font: inherit }
+.top a:hover, .top button:hover, .top summary:hover { background-color: var(--hover) }
+.pop { position: relative; flex: none }
+.pop summary { list-style: none; gap: 6px }
+.pop summary::-webkit-details-marker { display: none }
+.pop summary::after { content: ""; width: 5px; height: 5px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: translateY(-1px) rotate(45deg) }
+.site-more summary { width: 59px }
+.menu-list {
+  position: absolute; z-index: 25; top: calc(100% + 5px); inset-inline-start: 0; min-width: 148px;
+  max-height: calc(100dvh - 70px); overflow: auto; padding: 4px; border: 1px solid var(--strong);
+  background: var(--pop); box-shadow: 0 4px 10px var(--shade); border-radius: 3px;
+}
+.site-more[data-align=end] .menu-list { left: auto; right: 0 }
+.menu-list a, .menu-list button { display: block; width: 100%; border: 0; border-radius: 0; padding: 6px 8px; text-align: left; background: transparent; color: var(--link); text-decoration: none; font: inherit; white-space: nowrap }
+.small-tools { display: none; margin-left: auto }
+.small-tools .menu-list { align-items: stretch; flex-direction: column; left: auto; right: 0 }
+.context-row > .tab, .revisions a { display: flex; align-items: center; justify-content: center; align-self: stretch; padding: 0 11px; border: 0; border-right: 1px solid var(--edge); border-radius: 0; color: var(--link); text-decoration: none; font: inherit; background: transparent; white-space: nowrap }
+.context-row > .page-tab { box-shadow: inset 0 -2px var(--brass) }
+.drawer-button { gap: 7px }
+.split-icon { width: 15px; height: 11px; border: 1px solid currentColor; border-inline-start-width: 5px; border-radius: 1px }
+.revisions { margin-left: auto; align-self: stretch; border-left: 1px solid var(--edge) }
+.search { flex: 0 1 292px; display: flex; min-width: 0; height: 28px; margin: 0 10px; border: 1px solid var(--strong); border-radius: 2px; background: var(--cell) }
+.search input { width: 100%; min-width: 0; padding: 3px 5px; border: 0; background: transparent; color: var(--text); font-weight: 400 }
+.search input::placeholder { color: var(--quiet); opacity: 1 }
+.search button { border: 0; flex: none; width: 29px; background: transparent; display: grid; place-items: center }
+.glass { position: relative; width: 10px; height: 10px; border: 1.5px solid currentColor; border-radius: 50%; margin-right: 3px }
+.glass::after { content: ""; position: absolute; width: 6px; height: 1.5px; background: currentColor; right: -5px; bottom: -2px; transform: rotate(45deg) }
+.rail {
+  grid-area: rail; display: grid; grid-template-rows: subgrid; position: relative; z-index: 4;
+  min-height: 0; min-width: 0; border-right: 1px solid var(--edge); background: var(--rail);
+}
+.rail-scroll { grid-row: 1 / 3; min-height: 0; min-width: 0; overflow: auto; overscroll-behavior: contain; padding: 0 13px 14px 17px }
+.masthead { margin: 0 0 9px; min-height: 163px; color: var(--text); text-decoration: none; display: flex; flex-direction: column; align-items: center; justify-content: center }
+.masthead span:first-child { font: 600 38px/1 "STIX Two Text", Cambria, Georgia, serif; letter-spacing: -.05em }
+.masthead span:last-child { display: flex; align-items: center; gap: 7px; color: var(--heading-link); margin-top: 5px; font-size: 13px; font-weight: 650; letter-spacing: .17em; text-transform: uppercase }
+.masthead span:last-child::before, .masthead span:last-child::after { content: ""; height: 1px; width: 20px; background: var(--brass) }
+.rail h2 { margin: 0 0 6px; padding: 0 0 5px; border-bottom: 1px solid var(--edge); color: var(--quiet); font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase }
+.rail-navigation a, .topic-tree summary { border: 1px solid var(--edge); border-radius: 2px; background: var(--cell); text-decoration: none }
+.shortcuts { display: grid; grid-template-columns: 1fr 1fr; gap: 4px }
+.shortcuts a { display: grid; place-items: center; min-height: 31px }
+.shortcuts a[aria-current] { border-color: var(--brass) }
+.house-icon { display: block; position: relative; width: 10px; height: 8px; margin-top: 4px; border: 1.4px solid currentColor; border-top: 0 }
+.house-icon::before { content: ""; display: block; position: absolute; left: 0; top: -5px; width: 7px; height: 7px; transform: rotate(45deg); border-top: 1.5px solid currentColor; border-left: 1.5px solid currentColor }
+.die-icon { border: 1px solid currentColor; width: 14px; height: 14px; border-radius: 3px; background: radial-gradient(circle at 28% 28%,currentColor 1.2px,transparent 1.6px),radial-gradient(circle at 50% 50%,currentColor 1.2px,transparent 1.6px),radial-gradient(circle at 72% 72%,currentColor 1.2px,transparent 1.6px) }
+.primary-links { display: grid; gap: 4px; margin-top: 6px }
+.primary-links a { display: grid; place-items: center; min-height: 32px; font-size: 14px; font-weight: 650 }
+.topic-tree { margin-top: 17px }
+.topic-tree summary { padding: 3px 5px; font-size: 13px; font-weight: 600; overflow-wrap: anywhere }
+.branch + .branch, .twig + .twig { margin-top: 3px }
+.twigs { padding: 4px 0 4px 7px }
+.twig summary { border-color: transparent; background: transparent }
+.twig ul { list-style: none; padding: 0 0 0 9px; margin: 2px 0 5px; border-left: 1px solid var(--edge) }
+.twig li a { display: block; padding: 3px 4px; color: var(--link); text-decoration: none; overflow-wrap: anywhere; font-size: 13px }
+.rail a:hover, .rail summary:hover, .rail button:hover { background-color: var(--hover) }
+.rail-base { grid-row: 3; min-width: 0; position: relative; border-top: 1px solid var(--edge); background: var(--chrome) }
+.settings-button { min-height: 34px; height: 100%; width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 4px 11px 4px 17px; border: 0; font-size: 13px; color: var(--link); background: transparent; text-align: left }
+.settings-panel { position: absolute; bottom: 100%; left: 0; right: 0; padding: 10px; border: 1px solid var(--strong); background: var(--pop); box-shadow: 0 -3px 9px var(--shade); font-size: 13px }
+.settings-panel fieldset { margin: 0; padding: 0; border: 0 }
+.settings-panel legend { font-weight: 650; margin-bottom: 5px }
+.settings-panel label { display: flex; gap: 6px; align-items: start; margin-top: 4px }
+.settings-panel input { margin: 3px 0 0; accent-color: var(--brass) }
+.scrim { position: fixed; inset: calc(2 * var(--bar)) 0 0; z-index: 9; border: 0; background: #1116 }
+.reading { grid-area: reading; min-width: 0; min-height: 0; overflow: auto; padding: 19px 24px 22px; background: var(--page) }
+.reading:focus { outline: 0 }
+.reading:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px }
+.intro { display: grid; grid-template-columns: minmax(148px,16%) minmax(0,1fr); gap: 16px; align-items: center; min-height: 76px }
+.intro h1 { margin: 0; color: var(--text); font: 600 clamp(28px,2.4vw,36px)/1.1 "STIX Two Text", Cambria, Georgia, serif; letter-spacing: -.04em }
+.intro-copy { text-align: center }
+.intro-copy p { margin: 0; padding: 2px 0 6px; font-size: 16px; font-weight: 550; line-height: 1.4; text-wrap: pretty }
+.intro-copy nav { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); border-top: 1px solid var(--strong) }
+.intro-copy nav a { padding: 4px 3px; color: var(--link); text-decoration: none }
+.intro-copy nav a:hover { background: var(--hover); text-decoration: underline }
+.directory { margin-top: 12px; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px }
+.subject { min-width: 0 }
+.subject > h2 { margin: 0; padding: 3px 0 5px; border-bottom: 2px solid var(--edge); font-size: 22px; font-weight: 650; line-height: 27px }
+.topic { display: grid; grid-template-columns: 64px minmax(0,1fr); gap: 12px; padding: 6px 0 8px; border-bottom: 1px solid var(--edge); scroll-margin-top: 6px }
+.topic:last-child { border-bottom: 0 }
+.thumbnail {
+  display: block; width: 64px; height: 64px; border: 1px solid var(--strong); border-radius: 1px;
+  background: repeating-linear-gradient(140deg,transparent 0 7px,var(--hatch) 7px 8px),var(--tile);
+}
+.topic-body { min-width: 0 }
+.topic h3 { margin: 0 0 2px; font-size: 16px; font-weight: 650; line-height: 23px }
+.topic h3 a { color: var(--heading-link) }
+.link-pair { columns: 2; column-gap: 10px; margin: 0; padding: 0; min-width: 0; list-style: none }
+.link-pair li { margin: 0; padding: 0; break-inside: avoid }
+.link-pair a {
+  display: block; box-sizing: border-box; min-height: 24px; padding: 1.5px 4px; border: 1px solid var(--soft);
+  color: var(--link); background: var(--cell); line-height: 19px; font-size: 15px; overflow-wrap: anywhere; text-decoration: none;
+  transition: background-color 130ms ease-out;
+}
+.link-pair a:hover, .link-pair a:focus-visible { background-color: var(--hover); text-decoration: underline; transition-duration: 0ms }
+.foot { grid-area: foot; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 18px; min-height: 35px; border-top: 1px solid var(--edge); background: var(--chrome); color: var(--quiet); padding: 5px 15px; font-size: 12px; line-height: 1.45 }
+.licenses, .foot nav { display: flex; align-items: center; flex-wrap: wrap; gap: 3px 14px }
+.foot nav { margin-left: auto }
+@media (min-width:761px) and (max-width:1120px) {
+  .directory { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px }
+  .reading { padding-inline: 18px }
+  .wide-tools { display: none }
+  .small-tools { display: block }
+  .revisions a { padding-inline: 7px }
+}
+@media (max-width:760px) {
+  .frame, .frame[data-folded] { display: block; height: auto; min-height: 100vh }
+  .top { position: sticky; top: 0; z-index: 14 }
+  .sites-row { padding: 0 9px; gap: 8px }
+  .small-tools { display: block }
+  .wide-tools, .revisions { display: none }
+  .context-row .tab { padding-inline: 9px }
+  .search { flex: 1; height: 32px; margin: 0 7px }
+  .rail { display: none; position: fixed; left: 0; top: calc(2 * var(--bar)); bottom: 0; width: min(240px,calc(100% - 32px)); z-index: 12; grid-template-rows: minmax(0,1fr) auto; box-shadow: 4px 0 12px var(--shade) }
+  .frame[data-drawer] .rail { display: grid }
+  .rail-scroll { grid-row: 1; padding-inline: 14px }
+  .rail-base { grid-row: 2 }
+  .masthead { min-height: 151px }
+  .settings-button, .primary-links a, .shortcuts a { min-height: 44px }
+  .topic-tree summary, .twig li a { min-height: 32px; padding-block: 6px }
+  body.drawer-open { overflow: hidden }
+  .reading { overflow: visible; padding: 16px 16px 22px }
+  .intro { display: block; min-height: 0 }
+  .intro h1 { display: grid; place-items: center; height: 59px; margin-bottom: 11px; font-size: 31px; text-align: center }
+  .intro-copy p { padding: 3px 0 8px; font-size: 17px; line-height: 1.4 }
+  .intro-copy nav { grid-template-columns: repeat(2,minmax(0,1fr)) }
+  .intro-copy nav a { min-height: 32px }
+  .directory { grid-template-columns: minmax(0,1fr); gap: 15px; margin-top: 12px }
+  .topic { scroll-margin-top: calc(2 * var(--bar) + 6px) }
+  .foot { display: block; padding: 11px 16px 15px }
+  .foot nav { margin: 7px 0 0 }
+  .licenses { display: block }
+  .licenses span { display: block; margin-bottom: 2px }
+}
+@media(max-width:350px) {
+  .context-row .tab { font-size: 12px; padding-inline: 6px }
+  .reading { padding-inline: 12px }
+  .topic { column-gap: 8px }
+  .link-pair { column-gap: 6px }
+}
+@media(prefers-reduced-motion:reduce) { .link-pair a { transition: none } }

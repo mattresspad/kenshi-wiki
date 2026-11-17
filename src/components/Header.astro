@@ -1,0 +1,43 @@
+---
+import ribbon from '../data/ribbon.json';
+import Icon from './Icon.astro';
+import Tools from './Tools.astro';
+import { categoryPath, repo } from '../lib/catalog.mjs';
+const { kind, title, categories, href, edit, history } = Astro.props;
+const subject = kind === 'home' ? 'Main page' : (kind === 'article' ? 'Article: ' : 'Category: ') + title;
+const categoryLabel = categories.length === 1 ? 'Category:' : 'Categories:';
+const current = kind === 'home' ? '/' : '#firstHeading';
+---
+<header class="top">
+  <div class="sites-row">
+    <nav aria-label="Related sites" class="site-band" id="site-band">
+      <div id="site-links" class="chip-line"></div>
+      <details class="pop site-more" id="site-more"><summary>More</summary>
+        <div class="menu-list" id="more-links">{ribbon.map(item=>
+          <a class="site-chip" href={item.href} data-segment={item.groupStart?'start':'inner'}
+            data-icon-only={item.iconOnly?true:undefined} aria-label={item.iconOnly?item.label:undefined} title={item.iconOnly?item.label:undefined}>
+            {item.icon.endsWith('.svg') ? <span class="mask-icon" style={'--icon:url(/icons/'+item.icon+')'} aria-hidden="true"></span>
+            : <img src={'/icons/'+item.icon} alt="" width="16" height="16"/>}<span class="chip-caption">{item.label}</span>
+          </a>)}</div>
+      </details>
+    </nav>
+    <nav class="wide-tools" aria-label="Wiki tools"><Tools {edit} {history} {href}/></nav>
+    <details class="pop small-tools" id="tools"><summary>Wiki tools</summary><div class="menu-list"><Tools {edit} {history} {href} compact/></div></details>
+  </div>
+  <div class="context-row">
+    <button type="button" class="tab drawer-button" id="toggle-navigation" aria-controls="left-navigation" aria-expanded="false">
+      <span class="split-icon" aria-hidden="true"></span>Navigation</button>
+    <a class:list={['tab','page-tab',{'article-context':kind!=='home'}]} href={current} aria-current="page">
+      {kind==='home' ? <><Icon name="home"/>Main page</> : <><span class="context-label">{kind==='article'?'Article:':'Category:'}</span> {title}</>}
+    </a>
+    {categories.length>0 && <nav class="context-cats" aria-label="Article categories">
+      <span class="context-label">{categoryLabel}</span>{categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</nav>}
+    {kind!=='home' && <details class="pop context-more" id="article-tools">
+      <summary aria-label={subject}>{kind==='article' && title==='Make a saddle pack for Meitou'?'Saddle guide':title}</summary>
+      <div class="menu-list"><a href={current} aria-current="page">{subject}</a>
+        {categories.length>0 && <><strong>{categoryLabel}</strong>{categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</>}
+      </div></details>}
+    <nav class="revisions" aria-label="Revision history"><a href={repo+'/commits/main/'}><Icon name="pulse"/>Recent changes</a><a href={history}><Icon name="clock"/>View history</a></nav>
+    <form class="search" action={href('/search')} role="search" method="get"><label for="wiki-search" class="visually-hidden">Search Kenshi Wiki</label><input type="search" name="q" id="wiki-search" placeholder="Search Kenshi Wiki"/><button aria-label="Search"><span class="glass" aria-hidden="true"></span></button></form>
+  </div>
+</header>

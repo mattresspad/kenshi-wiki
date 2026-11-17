@@ -1,0 +1,15 @@
+---
+import Frame from '../layouts/Frame.astro';
+import directory from '../data/directory.json';
+import {readWiki} from '../lib/wiki';
+const {href}=await readWiki();
+---
+<Frame title="Kenshi Wiki" description="Browse Kenshi’s world, items and characters, or find guides and community modding projects." {href}>
+  <div class="intro"><h1>Kenshi Wiki</h1><div class="intro-copy">
+    <p><a href="https://store.steampowered.com/app/233860/Kenshi/">Kenshi</a> is an open-world, squad-based RPG by <a href="https://lofigames.com/">Lo-Fi Games</a>, the studio founded by <a href="https://en.wikipedia.org/wiki/Kenshi_(video_game)#Development">Chris Hunt</a>.</p>
+    <nav aria-label="About the game and wiki"><a href={href('/about-kenshi')}>About Kenshi</a><a href={href('/guides')}>Guides</a><a href="https://store.steampowered.com/news/app/233860">Patch notes</a><a href="https://github.com/mattresspad/kenshi-wiki#contributing">Contribute</a></nav>
+  </div></div>
+  <div class="directory">{directory.subjects.map(s=><section class="subject"><h2>{s.title}</h2>
+    {s.groups.map(group=><section class="topic" id={group.id}><span class="thumbnail" aria-hidden="true"></span>
+      <div class="topic-body"><h3><a href={href(group.href)}>{group.label}</a></h3><ul class="link-pair">{group.links.map(l=><li><a href={href(l.href)}>{l.label}</a></li>)}</ul></div></section>)}</section>)}</div>
+</Frame>

@@ -1,0 +1,55 @@
+@font-face {font-family:"Exo 2";src:url("/fonts/exo-2.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
+.top { font-family: "Exo 2","Segoe UI",sans-serif }
+.mask-icon { display:inline-block;width:16px;height:16px;flex:none;vertical-align:-.18em;background:currentColor;mask:var(--icon) center / contain no-repeat }
+.wide-tools .mask-icon,.small-tools .mask-icon { margin-right:.35em }
+.site-chip { gap:5px }
+.site-chip img { display:block;flex:none }
+.chip-line [data-icon-only] .chip-caption { display:none }
+.menu-list .site-chip { display:flex;justify-content:flex-start;align-items:center }
+.shortcuts .ui-glyph { margin:0 }
+.context-label { color:var(--quiet);margin-inline-end:4px }
+.context-cats a + a::before { content:"·";margin-right:9px;color:var(--quiet) }
+.context-more .menu-list strong { display:block;padding:6px 8px 2px;color:var(--quiet) }
+.article-reading { padding:8px 14px 24px 24px }
+.article-sheet { width:100% }
+.opening { min-width:0 }
+.article-head { padding-top:8px }
+.town .opening { display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);grid-template-rows:auto 1fr;gap:0 18px;align-items:start }
+.town .article-head { grid-column:1;grid-row:1 }
+.town .opening-copy { grid-column:1;grid-row:2 }
+.town .factbox { grid-column:2;grid-row:1 / 3 }
+.article-sheet .lead-text p:first-child { font-size:1.06em }
+.town p { max-width:none }
+.town .article-body ul { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px 24px;max-width:80ch;padding-left:20px }
+.factbox { padding:0;overflow:hidden;font-size:14px }
+.factbox h2,.factbox h3 { text-align:center;margin:0;padding:5px 8px }
+.factbox h2 { background:var(--heading-link);color:var(--page);font-size:17px }
+.factbox h3 { background:var(--chrome);border-block:1px solid var(--edge);font-size:14px }
+.factbox dl { margin:6px 11px 8px }
+.factbox code { font-size:12px }
+.article-sheet .source-links { display:flex;flex-wrap:wrap;gap:5px 16px;font-size:14px }
+.recipe p,.recipe li,.recipe figcaption { text-wrap:pretty }
+.article-body > h3#recorded-playtest { border-inline-start:3px solid var(--brass);padding-inline-start:10px }
+.recipe #recorded-playtest + p { padding:9px 12px;background:var(--cell);border-inline-start:3px solid var(--brass) }
+.article-sheet .article-body figure img { max-width:100%;height:auto }
+@media (min-width:761px) and (max-width:1150px) {
+  .context-row > .article-context {display:none}
+  .context-more {display:block}
+}
+@media (max-width:760px) {
+  .article-reading {padding:13px 16px 22px}
+  .town .opening {display:block}
+  .article-head {padding-top:0}
+  .factbox {margin:11px 0 16px}
+  .factbox h2 {margin:0}
+  .town .article-body ul {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .context-more summary {max-width:33vw;overflow:hidden}
+}
+@media print {.article-reading {padding:0}.town .opening {display:block}.factbox {max-width:300px}}
+
+/* Keep the project and platform links on one line whenever they fit. */
+.site-chip { padding-inline:5px;gap:4px;font-size:12px }
+.chip-line { column-gap:3px }
+.chip-line .site-chip[data-segment=start]:not(:first-child) { margin-inline-start:4px }
+.chip-line .site-chip[data-icon-only] { width:26px;padding-inline:4px }
+.wide-tools a,.wide-tools button { padding-inline:5px }

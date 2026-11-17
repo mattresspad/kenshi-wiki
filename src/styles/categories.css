@@ -1,0 +1,26 @@
+.category-intro h1 { margin:0 0 7px;padding:0 0 5px;border-bottom:1px solid var(--edge);font:600 32px/1.16 Cambria,Georgia,serif }
+.category-intro p { margin:0 0 13px;color:var(--quiet) }
+.az-board { columns:225px;column-gap:12px }
+.az-group { break-inside:avoid;margin:0 0 8px;background:var(--cell);border:1px solid var(--edge) }
+.az-group h2 { margin:0;padding:2px 7px;color:var(--heading-link);background:var(--chrome);border-bottom:1px solid var(--soft);font-size:16px;line-height:21px }
+.az-entries ul { margin:0;padding:0;list-style:none }
+.az-entries a { display:block;padding:2px 7px;border-bottom:1px solid var(--soft);font-size:14px;line-height:19px;overflow-wrap:anywhere;text-decoration:none }
+.az-entries a:focus-visible,.az-entries a:hover { background:var(--hover);text-decoration:underline }
+.az-entries:focus-visible { outline:2px solid var(--focus);outline-offset:-2px }
+@media screen and (min-width:761px) {
+  .az-board[data-fit] { position:relative;columns:auto;height:var(--board-height) }
+  .az-board[data-fit] .az-group { position:absolute;left:var(--group-x);top:var(--group-y);width:var(--group-width);margin:0 }
+  .az-board[data-fit] .az-entries { max-height:var(--list-height);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin }
+}
+@media(max-width:760px) {
+  .az-board { columns:auto }
+  .az-entries a { min-height:35px;padding:6px 9px }
+}
+@media print {
+  .frame,.category-reading { display:block;height:auto;overflow:visible }
+  .az-board { columns:2;height:auto }
+  .az-group { position:static;width:auto;break-inside:auto }
+  .az-group h2 { break-after:avoid }
+  .az-entries { overflow:visible;max-height:none }
+  .az-entries li { break-inside:avoid }
+}

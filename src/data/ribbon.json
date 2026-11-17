@@ -1,0 +1,114 @@
+[
+  {
+    "label": "Meitou",
+    "href": "https://meitou.kenshi.wiki/",
+    "icon": "meitou.webp",
+    "groupStart": true,
+    "iconOnly": false
+  },
+  {
+    "label": "Map",
+    "href": "https://map.kenshi.wiki/",
+    "icon": "map.svg",
+    "groupStart": false,
+    "iconOnly": false
+  },
+  {
+    "label": "WebFCS",
+    "href": "https://web-fcs.kenshi.wiki/",
+    "icon": "webfcs.svg",
+    "groupStart": false,
+    "iconOnly": false
+  },
+  {
+    "label": "KenshiDB",
+    "href": "https://kenshidb.wiki/",
+    "icon": "kenshidb.svg",
+    "groupStart": false,
+    "iconOnly": false
+  },
+  {
+    "label": "Steam",
+    "href": "https://store.steampowered.com/app/233860/Kenshi/",
+    "icon": "steam.webp",
+    "groupStart": true,
+    "iconOnly": false
+  },
+  {
+    "label": "GOG",
+    "href": "https://www.gog.com/en/game/kenshi",
+    "icon": "gog.webp",
+    "groupStart": false,
+    "iconOnly": false
+  },
+  {
+    "label": "Humble Bundle",
+    "href": "https://www.humblebundle.com/store/kenshi",
+    "icon": "humble-bundle.webp",
+    "groupStart": false,
+    "iconOnly": false
+  },
+  {
+    "label": "Steam Workshop",
+    "href": "https://steamcommunity.com/app/233860/workshop/",
+    "icon": "workshop.webp",
+    "groupStart": true,
+    "iconOnly": false
+  },
+  {
+    "label": "Nexus Mods",
+    "href": "https://www.nexusmods.com/games/kenshi",
+    "icon": "nexus.webp",
+    "groupStart": false,
+    "iconOnly": false
+  },
+  {
+    "label": "Steam Forums",
+    "href": "https://steamcommunity.com/app/233860/discussions/",
+    "icon": "steam-forums.webp",
+    "groupStart": true,
+    "iconOnly": false
+  },
+  {
+    "label": "r/Kenshi",
+    "href": "https://www.reddit.com/r/Kenshi/",
+    "icon": "reddit.webp",
+    "groupStart": false,
+    "iconOnly": false
+  },
+  {
+    "label": "Discord",
+    "href": "https://discord.gg/EYhrarkbh6",
+    "icon": "discord.webp",
+    "groupStart": false,
+    "iconOnly": false
+  },
+  {
+    "label": "Lo-Fi Games",
+    "href": "https://lofigames.com/",
+    "icon": "lo-fi-games.webp",
+    "groupStart": true,
+    "iconOnly": false
+  },
+  {
+    "label": "X",
+    "href": "https://x.com/KenshiOfficial",
+    "icon": "x.webp",
+    "groupStart": false,
+    "iconOnly": true
+  },
+  {
+    "label": "Facebook",
+    "href": "https://www.facebook.com/OfficialKenshi/",
+    "icon": "facebook.webp",
+    "groupStart": false,
+    "iconOnly": true
+  },
+  {
+    "label": "Instagram",
+    "href": "https://www.instagram.com/lofigames/",
+    "icon": "instagram.webp",
+    "groupStart": false,
+    "iconOnly": true
+  }
+]

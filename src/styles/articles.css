@@ -1,0 +1,96 @@
+/* Shared article frame and the four selected navigation glyphs. */
+.ui-glyph, .meitou-icon { flex: none; vertical-align: -.15em }
+.ui-glyph { margin-inline-end: .32em }
+.meitou-icon { margin-inline-end: 5px; object-fit: contain }
+:root[data-theme=light] .glyph-moon, :root[data-theme=dark] .glyph-sun { display: none }
+.context-cats { display: flex; align-self: stretch; align-items: center; gap: 2px; padding: 0 5px; border-right: 1px solid var(--edge) }
+.context-cats a { padding: 5px 6px; text-decoration: none }
+.context-more { display: none }
+.context-more summary { display: flex; align-items: center; justify-content: center; height: var(--bar); padding: 0 9px; color: var(--link); border-right: 1px solid var(--edge); box-shadow: inset 0 -2px var(--brass) }
+.page-outline { margin: 17px 0 }
+.page-outline > details > summary { padding: 2px 0 5px; font-weight: 700; font-size: 11px; color: var(--quiet); letter-spacing: .05em; text-transform: uppercase; border-bottom: 1px solid var(--edge) }
+.page-outline ul { list-style: none; margin: 4px 0 0; padding: 0 }
+.page-outline li { margin: 0; border-bottom: 1px solid var(--soft) }
+.page-outline a, .sub-outline summary { display: block; padding: 4px 4px; color: var(--link); text-decoration: none; overflow-wrap: anywhere; font-size: 13px }
+.page-outline a:hover, .page-outline a:focus-visible { text-decoration: underline }
+.sub-outline summary { display: list-item; padding: 0 4px 4px 9px; color: var(--quiet); font-size: 11px }
+.sub-outline ul { border-left: 1px solid var(--edge); margin: 0 0 4px 9px; padding-left: 4px }
+.sub-outline li { border: 0 }
+.article-reading { scroll-behavior: auto }
+.article-sheet { min-width: 0; margin: 0; font-size: 16px; line-height: 1.55; overflow-wrap: break-word }
+.article-head h1 { margin: 0 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--edge); font: 600 clamp(28px,2.5vw,37px)/1.16 "STIX Two Text",Cambria,Georgia,serif; letter-spacing: -.025em }
+.article-sheet h2, .article-sheet h3 { color: var(--text); line-height: 1.25 }
+.article-sheet h2 { margin: 26px 0 9px; padding-bottom: 5px; border-bottom: 1px solid var(--edge); font-size: 22px; font-weight: 650 }
+.article-sheet h3 { margin: 20px 0 7px; font-size: 18px }
+.article-sheet :is(h1,h2,h3):focus-visible { outline: 2px solid var(--focus); outline-offset: 2px }
+.article-sheet [id] { scroll-margin-top: 12px }
+.bookmark { display: block; height: 0 }
+.article-sheet p { max-width: 79ch; margin: 0 0 11px }
+.article-sheet .lede { max-width: 74ch; font-size: 1.08em }
+.article-sheet a { text-decoration-thickness: 1px }
+.article-sheet a:hover { color: var(--heading-link) }
+.factbox { background: var(--cell); border: 1px solid var(--edge); padding: 10px 13px }
+.factbox h2 { margin: 0 0 5px; padding-bottom: 5px; color: var(--heading-link); font-size: 16px }
+.factbox dl { display: grid; grid-template-columns: auto minmax(0,1fr); gap: 3px 14px; margin: 0; font-size: 14px }
+.article-sheet dt { color: var(--quiet); font-weight: 600 }
+.article-sheet dd { margin: 0 }
+.article-actions, .end-categories { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 14px; font-size: 14px }
+.article-actions { margin: 9px 0 12px }
+.facility-list { display: grid; gap: 3px 24px; grid-template-columns: repeat(3,minmax(0,1fr)); max-width: 78ch; margin: 8px 0 15px; padding-left: 21px }
+.facility-list li::marker, .article-sheet ol li::marker { color: var(--heading-link) }
+.article-sheet table { border-collapse: collapse; width: min(100%,72ch); font-size: 15px; line-height: 1.35; margin: 6px 0 12px; font-variant-numeric: tabular-nums }
+.article-sheet caption { text-align: left; font-size: 13px; font-weight: 600; color: var(--quiet); padding: 0 0 5px }
+.article-sheet th, .article-sheet td { padding: 5px 9px; border: 1px solid var(--edge); text-align: left }
+.article-sheet thead { background: var(--chrome) }
+.article-sheet tbody th { font-weight: 500 }
+.article-sheet tbody tr:nth-child(even) { background: var(--cell) }
+.sale-list :is(th,td):nth-child(n+3), .records :is(th,td):nth-child(n+2) { text-align: right }
+.override-facts { display: flex; flex-wrap: wrap; margin: 8px 0 12px; gap: 8px 28px; font-size: 15px }
+.record-identifiers { display: grid; grid-template-columns: max-content minmax(0,1fr); gap: 3px 14px; margin: 8px 0 12px }
+.tested-versions { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 9px; margin-bottom: 12px; color: var(--quiet); font-size: 14px }
+.tested-versions > span:first-child { font-weight: 650 }
+.article-sheet ol { max-width: 79ch; padding-left: 26px; margin: 6px 0 13px }
+.article-sheet ol li { margin-bottom: 7px; padding-inline-start: 2px }
+.article-sheet code { font: .87em/1.48 "Cascadia Mono",Consolas,monospace; overflow-wrap: anywhere }
+.article-sheet :not(pre) > code { background: var(--cell); padding: 0 3px; border: 1px solid var(--soft); border-radius: 2px }
+.article-sheet pre { max-width: min(100%,79ch); white-space: pre-wrap; overflow-wrap: anywhere; border: 1px solid var(--edge); border-inline-start: 3px solid var(--brass); background: var(--cell); padding: 9px 13px; margin-block: 8px 12px; font-size: 15px; line-height: 1.46; tab-size: 2 }
+.article-sheet pre code { font-size: .94em }
+.source-box, .evidence { border: 1px solid var(--edge); background: var(--cell); padding: 12px 15px; max-width: 82ch }
+.source-box p:last-child, .evidence p:last-child { margin-bottom: 0 }
+.evidence { border-inline-start: 3px solid var(--brass); margin-top: 13px }
+.evidence h3 { margin-top: 0 }
+.article-sheet figure { margin: 12px 0; max-width: 640px }
+.article-sheet figure a { display: block; width: fit-content; max-width: 100% }
+.article-sheet figure img { display: block; max-width: 100%; height: auto; border: 1px solid var(--edge) }
+.article-sheet figcaption { font-size: 14px; margin-top: 5px; color: var(--quiet) }
+.end-categories { margin: 18px 0 0; padding-block: 9px; border-block: 1px solid var(--edge) }
+.end-categories > span { font-weight: 650; color: var(--quiet) }
+@media (max-width:1150px) { .context-cats { display: none } }
+@media (max-width:760px) {
+  .context-row > .article-context { display: none }
+  .context-more { display: block }
+  .context-more .menu-list { min-width: 205px; max-width: calc(100vw - 110px) }
+  .context-more .menu-list a { white-space: normal }
+  .article-sheet { font-size: 16px; line-height: 1.48 }
+  .article-sheet [id] { scroll-margin-top: calc(2 * var(--bar) + 9px) }
+  .article-head h1 { font-size: 29px; margin-bottom: 10px }
+  .article-sheet h2 { margin-top: 21px; font-size: 21px }
+  .factbox { max-width: 30rem; padding: 8px 12px }
+  .factbox h2 { margin: 0 0 4px; font-size: 16px }
+  .facility-list { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 4px 23px }
+  .page-outline a { min-height: 32px; padding-block: 5px }
+  .sub-outline summary { padding-block: 4px }
+  .article-sheet th, .article-sheet td { padding: 5px 6px }
+  .article-sheet table { font-size: 14px }
+  .article-sheet pre { padding: 8px; font-size: 14px }
+  .record-identifiers { display: block }
+  .record-identifiers dd { margin-bottom: 5px }
+  .tested-versions { align-items: flex-start; flex-direction: column; gap: 2px }
+  .tested-versions span[aria-hidden] { display: none }
+}
+@media print {
+  .top,.rail,.scrim,.skip-to,.article-actions { display: none }
+  .frame,.reading,.article-sheet { display: block; height: auto; overflow: visible; padding: 0 }
+  .foot { margin-top: 14px }
+  .article-sheet :is(figure,pre,tr) { break-inside: avoid }
+}

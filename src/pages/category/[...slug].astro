@@ -1,0 +1,24 @@
+---
+import Frame from '../../layouts/Frame.astro';
+import {readWiki} from '../../lib/wiki';
+import {categoryPath, letterGroups, policy, repo, snapshot} from '../../lib/catalog.mjs';
+import '../../styles/categories.css';
+export function getStaticPaths() {
+  return policy.reviewedCategories.map(name=>({params:{slug:categoryPath(name).slice('/category/'.length)},props:{name}}));
+}
+const {name}=Astro.props;
+const {categories,href}=await readWiki();
+const group=categories.get(name);
+const letters=letterGroups(group.members);
+const history=repo+'/commits/'+snapshot.revision+'/src/content/wiki';
+const edit=repo+'/tree/main/src/content/wiki';
+---
+<Frame kind="category" publicPath={group.path} title={name} description={'Kenshi Wiki articles in the '+name+' category.'} {href} {history} {edit}>
+  <header class="category-intro"><h1 id="firstHeading" tabindex="-1">{name}</h1>
+    <p><strong>{group.members.length} articles</strong> in this category. To change membership, open the article and edit its categories.</p></header>
+  <div class="az-board" aria-label={'Articles in '+name}>
+    {letters.map(({letter,entries})=><section class="az-group" aria-labelledby={'letter-'+letter}><h2 id={'letter-'+letter}>{letter}</h2>
+      <div class="az-entries">{entries.length>0 && <ul>{entries.map(a=><li><a data-member={a.path} href={href(a.path)}>{a.title}</a></li>)}</ul>}</div></section>)}
+  </div>
+  <script>import '../../scripts/category.js';</script>
+</Frame>

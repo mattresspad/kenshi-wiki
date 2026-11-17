@@ -1,0 +1,884 @@
+{
+  "subjects": [
+    {
+      "title": "Concepts",
+      "groups": [
+        {
+          "id": "group-basics",
+          "label": "Basics",
+          "href": "/controls",
+          "links": [
+            {
+              "label": "Controls",
+              "href": "/controls"
+            },
+            {
+              "label": "Game Starts",
+              "href": "/game-starts"
+            },
+            {
+              "label": "Skills",
+              "href": "/statistics"
+            },
+            {
+              "label": "Lore",
+              "href": "/category/lore"
+            },
+            {
+              "label": "Guides",
+              "href": "/guides"
+            },
+            {
+              "label": "Events",
+              "href": "/category/events"
+            }
+          ]
+        },
+        {
+          "id": "group-gameplay",
+          "label": "Gameplay",
+          "href": "/gameplay",
+          "links": [
+            {
+              "label": "Stealth",
+              "href": "/stealth"
+            },
+            {
+              "label": "Thievery",
+              "href": "/thievery"
+            },
+            {
+              "label": "Assassination",
+              "href": "/assassination"
+            },
+            {
+              "label": "Bounty",
+              "href": "/bounty"
+            },
+            {
+              "label": "Slavery",
+              "href": "/slavery"
+            },
+            {
+              "label": "Money",
+              "href": "/cats"
+            }
+          ]
+        },
+        {
+          "id": "group-extras",
+          "label": "Extras",
+          "href": "/mods",
+          "links": [
+            {
+              "label": "Mods",
+              "href": "/mods"
+            },
+            {
+              "label": "Forgotten Construction Set",
+              "href": "/forgotten-construction-set"
+            },
+            {
+              "label": "Modding",
+              "href": "/modding"
+            },
+            {
+              "label": "Modding guides",
+              "href": "/category/modding-guide"
+            },
+            {
+              "label": "Removed content",
+              "href": "/category/removed-content"
+            }
+          ]
+        },
+        {
+          "id": "group-skills",
+          "label": "Skills",
+          "href": "/statistics",
+          "links": [
+            {
+              "label": "Martial Arts",
+              "href": "/martial-arts"
+            },
+            {
+              "label": "Strength",
+              "href": "/strength"
+            },
+            {
+              "label": "Dexterity",
+              "href": "/dexterity"
+            },
+            {
+              "label": "Toughness",
+              "href": "/toughness"
+            },
+            {
+              "label": "Athletics",
+              "href": "/athletics"
+            },
+            {
+              "label": "Swimming",
+              "href": "/swimming"
+            }
+          ]
+        },
+        {
+          "id": "group-world",
+          "label": "World",
+          "href": "/world-of-kenshi",
+          "links": [
+            {
+              "label": "World of Kenshi",
+              "href": "/world-of-kenshi"
+            },
+            {
+              "label": "Major Towns",
+              "href": "/major-towns"
+            },
+            {
+              "label": "Zones",
+              "href": "/category/zones"
+            },
+            {
+              "label": "Locations",
+              "href": "/category/locations"
+            },
+            {
+              "label": "Ancient Ruins",
+              "href": "/ancient-ruins"
+            },
+            {
+              "label": "World States",
+              "href": "/world-states"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Items",
+      "groups": [
+        {
+          "id": "group-gear",
+          "label": "Gear",
+          "href": "/equipment",
+          "links": [
+            {
+              "label": "Weapons",
+              "href": "/weapons"
+            },
+            {
+              "label": "Armour",
+              "href": "/armour"
+            },
+            {
+              "label": "Clothing",
+              "href": "/clothing"
+            },
+            {
+              "label": "Backpacks",
+              "href": "/backpacks"
+            },
+            {
+              "label": "Robot Limbs",
+              "href": "/robot-limbs"
+            },
+            {
+              "label": "Crossbows",
+              "href": "/category/crossbows"
+            }
+          ]
+        },
+        {
+          "id": "group-armour",
+          "label": "Armour",
+          "href": "/armour",
+          "links": [
+            {
+              "label": "Light Armour",
+              "href": "/light-armour"
+            },
+            {
+              "label": "Medium Armour",
+              "href": "/medium-armour"
+            },
+            {
+              "label": "Heavy Armour",
+              "href": "/heavy-armour"
+            },
+            {
+              "label": "Headgear",
+              "href": "/headgear"
+            },
+            {
+              "label": "Body Armour",
+              "href": "/body-armour"
+            },
+            {
+              "label": "Shirts",
+              "href": "/shirts"
+            },
+            {
+              "label": "Legwear",
+              "href": "/legwear"
+            },
+            {
+              "label": "Footwear",
+              "href": "/footwear"
+            }
+          ]
+        },
+        {
+          "id": "group-resources",
+          "label": "Resources",
+          "href": "/items",
+          "links": [
+            {
+              "label": "Items",
+              "href": "/items"
+            },
+            {
+              "label": "Food",
+              "href": "/food"
+            },
+            {
+              "label": "Nutrition",
+              "href": "/category/nutrition"
+            },
+            {
+              "label": "Books",
+              "href": "/book"
+            },
+            {
+              "label": "Artifacts",
+              "href": "/artifacts"
+            },
+            {
+              "label": "AI Core",
+              "href": "/ai-core"
+            }
+          ]
+        },
+        {
+          "id": "group-technology",
+          "label": "Technology",
+          "href": "/technology",
+          "links": [
+            {
+              "label": "Technology",
+              "href": "/technology"
+            },
+            {
+              "label": "Blueprints",
+              "href": "/blueprints"
+            },
+            {
+              "label": "Robotics",
+              "href": "/robotics"
+            },
+            {
+              "label": "Crafting",
+              "href": "/crafting"
+            },
+            {
+              "label": "Cooking",
+              "href": "/cooking"
+            }
+          ]
+        },
+        {
+          "id": "group-building",
+          "label": "Building",
+          "href": "/construction",
+          "links": [
+            {
+              "label": "Construction",
+              "href": "/construction"
+            },
+            {
+              "label": "Buildings",
+              "href": "/category/buildings"
+            },
+            {
+              "label": "Farming",
+              "href": "/farming"
+            },
+            {
+              "label": "Power",
+              "href": "/power"
+            },
+            {
+              "label": "Storage",
+              "href": "/storage"
+            },
+            {
+              "label": "Turrets",
+              "href": "/turrets"
+            },
+            {
+              "label": "Water",
+              "href": "/water"
+            },
+            {
+              "label": "Copper",
+              "href": "/copper"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Life",
+      "groups": [
+        {
+          "id": "group-characters",
+          "label": "Characters",
+          "href": "/category/characters",
+          "links": [
+            {
+              "label": "All characters",
+              "href": "/category/characters"
+            },
+            {
+              "label": "Unique NPCs",
+              "href": "/category/unique"
+            },
+            {
+              "label": "Bosses",
+              "href": "/category/bosses"
+            },
+            {
+              "label": "Traders",
+              "href": "/traders"
+            },
+            {
+              "label": "Vendors",
+              "href": "/category/vendors"
+            },
+            {
+              "label": "Nobles",
+              "href": "/category/nobles"
+            }
+          ]
+        },
+        {
+          "id": "group-races",
+          "label": "Races",
+          "href": "/races",
+          "links": [
+            {
+              "label": "Greenlander",
+              "href": "/greenlander"
+            },
+            {
+              "label": "Scorchlander",
+              "href": "/scorchlander"
+            },
+            {
+              "label": "Shek",
+              "href": "/shek"
+            },
+            {
+              "label": "Hive",
+              "href": "/hive"
+            },
+            {
+              "label": "Skeleton",
+              "href": "/skeleton"
+            }
+          ]
+        },
+        {
+          "id": "group-factions",
+          "label": "Factions",
+          "href": "/factions",
+          "links": [
+            {
+              "label": "The Holy Nation",
+              "href": "/the-holy-nation"
+            },
+            {
+              "label": "United Cities",
+              "href": "/united-cities"
+            },
+            {
+              "label": "Shek Kingdom",
+              "href": "/shek-kingdom"
+            },
+            {
+              "label": "Tech Hunters",
+              "href": "/tech-hunters"
+            },
+            {
+              "label": "Shinobi Thieves",
+              "href": "/shinobi-thieves"
+            },
+            {
+              "label": "Slave Traders",
+              "href": "/slave-traders"
+            }
+          ]
+        },
+        {
+          "id": "group-fauna",
+          "label": "Fauna",
+          "href": "/fauna",
+          "links": [
+            {
+              "label": "Fauna",
+              "href": "/fauna"
+            },
+            {
+              "label": "Animals",
+              "href": "/category/animals"
+            },
+            {
+              "label": "Wildlife",
+              "href": "/wildlife"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "navigation": [
+    {
+      "title": "Concepts",
+      "groups": [
+        {
+          "title": "Basics",
+          "links": [
+            {
+              "label": "Controls",
+              "href": "/controls"
+            },
+            {
+              "label": "Game Starts",
+              "href": "/game-starts"
+            },
+            {
+              "label": "Skills",
+              "href": "/statistics"
+            },
+            {
+              "label": "Lore",
+              "href": "/category/lore"
+            },
+            {
+              "label": "Guides",
+              "href": "/guides"
+            },
+            {
+              "label": "Events",
+              "href": "/category/events"
+            }
+          ]
+        },
+        {
+          "title": "Gameplay",
+          "links": [
+            {
+              "label": "Gameplay overview",
+              "href": "/gameplay"
+            },
+            {
+              "label": "Stealth",
+              "href": "/stealth"
+            },
+            {
+              "label": "Thievery",
+              "href": "/thievery"
+            },
+            {
+              "label": "Assassination",
+              "href": "/assassination"
+            },
+            {
+              "label": "Bounty",
+              "href": "/bounty"
+            },
+            {
+              "label": "Slavery",
+              "href": "/slavery"
+            },
+            {
+              "label": "Money",
+              "href": "/cats"
+            }
+          ]
+        },
+        {
+          "title": "Extras",
+          "links": [
+            {
+              "label": "Mods",
+              "href": "/mods"
+            },
+            {
+              "label": "Forgotten Construction Set",
+              "href": "/forgotten-construction-set"
+            },
+            {
+              "label": "Modding",
+              "href": "/modding"
+            },
+            {
+              "label": "Modding guides",
+              "href": "/category/modding-guide"
+            },
+            {
+              "label": "Removed content",
+              "href": "/category/removed-content"
+            }
+          ]
+        },
+        {
+          "title": "Skills",
+          "links": [
+            {
+              "label": "Statistics",
+              "href": "/statistics"
+            },
+            {
+              "label": "Martial Arts",
+              "href": "/martial-arts"
+            },
+            {
+              "label": "Strength",
+              "href": "/strength"
+            },
+            {
+              "label": "Dexterity",
+              "href": "/dexterity"
+            },
+            {
+              "label": "Toughness",
+              "href": "/toughness"
+            },
+            {
+              "label": "Athletics",
+              "href": "/athletics"
+            },
+            {
+              "label": "Swimming",
+              "href": "/swimming"
+            }
+          ]
+        },
+        {
+          "title": "World",
+          "links": [
+            {
+              "label": "World of Kenshi",
+              "href": "/world-of-kenshi"
+            },
+            {
+              "label": "Major Towns",
+              "href": "/major-towns"
+            },
+            {
+              "label": "Zones",
+              "href": "/category/zones"
+            },
+            {
+              "label": "Locations",
+              "href": "/category/locations"
+            },
+            {
+              "label": "Ancient Ruins",
+              "href": "/ancient-ruins"
+            },
+            {
+              "label": "World States",
+              "href": "/world-states"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Items",
+      "groups": [
+        {
+          "title": "Gear",
+          "links": [
+            {
+              "label": "Equipment",
+              "href": "/equipment"
+            },
+            {
+              "label": "Weapons",
+              "href": "/weapons"
+            },
+            {
+              "label": "Armour",
+              "href": "/armour"
+            },
+            {
+              "label": "Clothing",
+              "href": "/clothing"
+            },
+            {
+              "label": "Backpacks",
+              "href": "/backpacks"
+            },
+            {
+              "label": "Robot Limbs",
+              "href": "/robot-limbs"
+            },
+            {
+              "label": "Crossbows",
+              "href": "/category/crossbows"
+            }
+          ]
+        },
+        {
+          "title": "Armour",
+          "links": [
+            {
+              "label": "Armour",
+              "href": "/armour"
+            },
+            {
+              "label": "Light Armour",
+              "href": "/light-armour"
+            },
+            {
+              "label": "Medium Armour",
+              "href": "/medium-armour"
+            },
+            {
+              "label": "Heavy Armour",
+              "href": "/heavy-armour"
+            },
+            {
+              "label": "Headgear",
+              "href": "/headgear"
+            },
+            {
+              "label": "Body Armour",
+              "href": "/body-armour"
+            },
+            {
+              "label": "Shirts",
+              "href": "/shirts"
+            },
+            {
+              "label": "Legwear",
+              "href": "/legwear"
+            },
+            {
+              "label": "Footwear",
+              "href": "/footwear"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "links": [
+            {
+              "label": "Items",
+              "href": "/items"
+            },
+            {
+              "label": "Food",
+              "href": "/food"
+            },
+            {
+              "label": "Nutrition",
+              "href": "/category/nutrition"
+            },
+            {
+              "label": "Books",
+              "href": "/book"
+            },
+            {
+              "label": "Artifacts",
+              "href": "/artifacts"
+            },
+            {
+              "label": "AI Core",
+              "href": "/ai-core"
+            }
+          ]
+        },
+        {
+          "title": "Technology",
+          "links": [
+            {
+              "label": "Technology",
+              "href": "/technology"
+            },
+            {
+              "label": "Blueprints",
+              "href": "/blueprints"
+            },
+            {
+              "label": "Robotics",
+              "href": "/robotics"
+            },
+            {
+              "label": "Crafting",
+              "href": "/crafting"
+            },
+            {
+              "label": "Cooking",
+              "href": "/cooking"
+            }
+          ]
+        },
+        {
+          "title": "Building",
+          "links": [
+            {
+              "label": "Construction",
+              "href": "/construction"
+            },
+            {
+              "label": "Buildings",
+              "href": "/category/buildings"
+            },
+            {
+              "label": "Farming",
+              "href": "/farming"
+            },
+            {
+              "label": "Power",
+              "href": "/power"
+            },
+            {
+              "label": "Storage",
+              "href": "/storage"
+            },
+            {
+              "label": "Turrets",
+              "href": "/turrets"
+            },
+            {
+              "label": "Water",
+              "href": "/water"
+            },
+            {
+              "label": "Copper",
+              "href": "/copper"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Life",
+      "groups": [
+        {
+          "title": "Characters",
+          "links": [
+            {
+              "label": "All characters",
+              "href": "/category/characters"
+            },
+            {
+              "label": "Unique NPCs",
+              "href": "/category/unique"
+            },
+            {
+              "label": "Bosses",
+              "href": "/category/bosses"
+            },
+            {
+              "label": "Traders",
+              "href": "/traders"
+            },
+            {
+              "label": "Vendors",
+              "href": "/category/vendors"
+            },
+            {
+              "label": "Nobles",
+              "href": "/category/nobles"
+            }
+          ]
+        },
+        {
+          "title": "Races",
+          "links": [
+            {
+              "label": "Races",
+              "href": "/races"
+            },
+            {
+              "label": "Greenlander",
+              "href": "/greenlander"
+            },
+            {
+              "label": "Scorchlander",
+              "href": "/scorchlander"
+            },
+            {
+              "label": "Shek",
+              "href": "/shek"
+            },
+            {
+              "label": "Hive",
+              "href": "/hive"
+            },
+            {
+              "label": "Skeleton",
+              "href": "/skeleton"
+            }
+          ]
+        },
+        {
+          "title": "Factions",
+          "links": [
+            {
+              "label": "Factions",
+              "href": "/factions"
+            },
+            {
+              "label": "The Holy Nation",
+              "href": "/the-holy-nation"
+            },
+            {
+              "label": "United Cities",
+              "href": "/united-cities"
+            },
+            {
+              "label": "Shek Kingdom",
+              "href": "/shek-kingdom"
+            },
+            {
+              "label": "Tech Hunters",
+              "href": "/tech-hunters"
+            },
+            {
+              "label": "Shinobi Thieves",
+              "href": "/shinobi-thieves"
+            },
+            {
+              "label": "Slave Traders",
+              "href": "/slave-traders"
+            }
+          ]
+        },
+        {
+          "title": "Fauna",
+          "links": [
+            {
+              "label": "Fauna",
+              "href": "/fauna"
+            },
+            {
+              "label": "Animals",
+              "href": "/category/animals"
+            },
+            {
+              "label": "Wildlife",
+              "href": "/wildlife"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
