@@ -32,7 +32,7 @@ for (const b of accepted) {
     screenshots++;
   }
   const photos = [...samples].map(([key,shots]) => {
-    const article=byId.get(shots[0].id);
+    const article=byId.get(shots[0].id) ?? {path:'/'+shots[0].id};
     return '<h3>'+link(key,base+article.path+(shots[0].anchor?'#'+shots[0].anchor:''))+'</h3><div class="photos">'+shots.map(shot=>{
       const src=b.folder+'/'+shot.file;
       const label=(shot.device==='phone'?'390 × 844':'1440 × 900')+' · '+shot.theme;

@@ -27,7 +27,10 @@ export function verifyGeography(atlas) {
     for(const key of Object.keys(expected)) assert.deepEqual(actualEvidence[key],expected[key],id+' — '+key);
     assert.deepEqual(record.categories,original.get(id).categories,id+' categories');
     assert.equal($('link[rel=canonical]').attr('href'),'https://kenshi.wiki'+record.path);
-    assert.equal($('.import-history a').length,3,id+' attribution');
+    const fandom='https://kenshi.fandom.com/wiki/'+encodeURIComponent(record.source.title.replaceAll(' ','_'));
+    assert.deepEqual($('.import-history a').toArray().map(a=>a.attribs.href),[
+      fandom+'?oldid='+record.source.revision,fandom+'?action=history','https://creativecommons.org/licenses/by-sa/'+record.license+'/'],id+' attribution links');
+    assert.ok($('.import-history p').text().includes(record.credit+', under CC BY-SA '+record.license),id+' attribution wording');
     for(const [url] of expected.images) assets.add(url);
     if(expected.emptyGallery) emptyGalleries.push(id);
     for(const a of $('.lead-text a,.article-body a,.factbox a').toArray()){

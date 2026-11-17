@@ -108,7 +108,12 @@ function freeze() {
     fixtures[id]=proof;
   }
   assert.equal(Object.keys(assets).length,35);
-  const save = (name,value) => writeFileSync(join(dir,name),JSON.stringify(value,null,2)+'\n');
+  const output = (name,content) => {
+    const path=join(dir,name);
+    if(action==='verify-freeze') assert.equal(readFileSync(path,'utf8').replaceAll('\r\n','\n'),content,name+' reference changed');
+    else writeFileSync(path,content);
+  };
+  const save = (name,value) => output(name,JSON.stringify(value,null,2)+'\n');
   const baseRevision='6ec3f5cd00239fcb14073fe0b2cf148d630482f6';
   const oldFiles=execFileSync('git',['ls-tree','-r','--name-only',baseRevision,'src/content/articles'],{encoding:'utf8'}).trim().split(/\r?\n/);
   const previouslyTransferred=oldFiles.filter(file=>file.endsWith('.md')).map(file=>{
@@ -119,7 +124,7 @@ function freeze() {
   }).sort();
   save('roster.json',{revision:snapshot.revision,baseRevision,previouslyTransferred,existing:['catun'],batches});
   // One record per line keeps additions and field changes reviewable without repeating Markdown.
-  writeFileSync(join(dir,'reference.json'),'{\n  "articles": {\n'+Object.entries(fixtures).map(([id,v])=>'    '+JSON.stringify(id)+': '+JSON.stringify(v)).join(',\n')+'\n  },\n  "assets": '+JSON.stringify(assets,null,2)+'\n}\n');
+  output('reference.json','{\n  "articles": {\n'+Object.entries(fixtures).map(([id,v])=>'    '+JSON.stringify(id)+': '+JSON.stringify(v)).join(',\n')+'\n  },\n  "assets": '+JSON.stringify(assets,null,2)+'\n}\n');
   console.log('Frozen',ids.size,'articles,',batches.length,'batches and',Object.keys(assets).length,'assets');
 }
 function factParts(value) {
@@ -185,6 +190,6 @@ function transfer() {
   for(const [file,content] of writes){mkdirSync(dirname(file),{recursive:true});writeFileSync(file,content);}
   console.log('Transferred',batch.name,batch.ids.length);
 }
-if(action==='freeze') freeze();
+if(action==='freeze' || action==='verify-freeze') freeze();
 else if(action==='transfer') transfer();
 else throw Error('Unknown geography intake action');

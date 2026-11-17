@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import {join} from 'node:path';
 import {chromium} from '@playwright/test';
 import {snapshot} from '../../src/lib/catalog.mjs';
+import {roster} from './batches.mjs';
 
 export async function captureBatch(base, batch, output) {
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
@@ -12,7 +13,8 @@ export async function captureBatch(base, batch, output) {
     'bark-overrides':['bark#town-overrides'],
     'geography-indexes':['world-of-kenshi','major-towns']
   };
-  const samples=extra[batch.name] ?? [batch.ids[0]];
+  const samples=[...(extra[batch.name] ?? [batch.ids[0]])];
+  if (batch.name===roster.batches.at(-1).name) samples.push('old-world#old-world-towns','category/zones','category/spawning-locations');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {
@@ -25,17 +27,20 @@ export async function captureBatch(base, batch, output) {
       const checks=theme==='light' ? [...new Set([...samples,...batch.ids])] : samples;
       for(const sample of checks){
         const [id,anchor]=sample.split('#'),article=articles.get(id);
-        const url=new URL(article.path,base);url.searchParams.set('theme',theme);if(anchor)url.hash=anchor;
+        const route=article?.path ?? '/'+id;
+        const url=new URL(route,base);url.searchParams.set('theme',theme);if(anchor)url.hash=anchor;
         const res=await page.goto(url.href,{waitUntil:'domcontentloaded'});
         assert.equal(res.status(),200,url.href);
         await page.evaluate(async()=>{await document.fonts.ready;await new Promise(requestAnimationFrame)});
         const geometry=await page.evaluate(()=>{
           const main=document.querySelector('main');
           return {screen:document.documentElement.scrollWidth-innerWidth,body:main.scrollWidth-main.clientWidth,
-            theme:document.documentElement.dataset.theme,id:document.querySelector('article').dataset.articleId};
+            theme:document.documentElement.dataset.theme,id:document.querySelector('article[data-article-id]')?.dataset.articleId,
+            canonical:document.querySelector('link[rel="canonical"]').href};
         });
-        assert.equal(geometry.id,id);assert.equal(geometry.theme,theme);
-        assert.ok(geometry.screen<=1 && geometry.body<=1,article.path+' '+device+' overflow '+JSON.stringify(geometry));
+        if(article)assert.equal(geometry.id,id);
+        assert.equal(geometry.canonical,'https://kenshi.wiki'+route);assert.equal(geometry.theme,theme);
+        assert.ok(geometry.screen<=1 && geometry.body<=1,route+' '+device+' overflow '+JSON.stringify(geometry));
         if(samples.includes(sample)){
           const file=sample.replaceAll('/','--').replace('#','-')+'-'+device+'-'+theme+'.png';
           await page.screenshot({path:join(output,file),animations:'disabled'});
