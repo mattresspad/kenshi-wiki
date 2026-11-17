@@ -96,30 +96,30 @@
 }
 
 .article-sheet h4 { margin: 14px 0 5px; font-size: 1.04em; color: var(--heading-link) }
-.article-sheet h4:focus-visible, .article-sheet .references li:focus-visible, .reference sup:focus-visible {
+.article-sheet :is(h4,h5,h6):focus-visible, .article-sheet .references li:focus-visible, .reference sup:focus-visible {
   outline: 2px solid var(--focus); outline-offset: 2px;
 }
 .article-sheet.reference .quote { margin: 15px 0 20px; max-width: 76ch; padding: 9px 14px; border-inline-start: 3px solid var(--brass); background: var(--cell) }
 .reference .quote blockquote { margin: 0 }
 .reference .quote figcaption { margin-top: 6px; color: var(--quiet) }
-.geography .historical-notice, .geography .source-qualification, .geography figure.quote {
+.imported .historical-notice, .imported .source-qualification, .imported figure.quote {
   margin: 0 0 12px; max-width: 80ch; padding: 8px 13px;
   border-inline-start: 3px solid var(--brass); background: var(--cell);
 }
-.geography .historical-notice { font-size: .94em }
-.geography figure.quote blockquote { margin: 0 }
-.geography figure.quote figcaption { color: var(--quiet) }
-.geography .factbox dd { min-width: 0; overflow-wrap: anywhere }
-.geography .article-body ul { padding-inline-start: 1.55em; max-width: 90ch }
-.geography .table-scroll { margin-block: 8px; max-width: 100% }
-.geography .table-scroll table { width: max-content; min-width: min(100%, 28em); max-width: 80ch }
-.geography .table-scroll th { font-weight: 650 }
-.geography .item-icon { width: 32px; height: 32px; object-fit: contain; vertical-align: middle }
-.geography .references { max-width: 90ch; overflow-wrap: anywhere }
-.geography .import-history { margin-top: 20px }
-.geography .end-categories:has(span:only-child:empty) { display: none }
+.imported .historical-notice { font-size: .94em }
+.imported figure.quote blockquote { margin: 0 }
+.imported figure.quote figcaption { color: var(--quiet) }
+.imported .factbox dd { min-width: 0; overflow-wrap: anywhere }
+.imported .article-body ul { padding-inline-start: 1.55em; max-width: 90ch }
+.imported .table-scroll { margin-block: 8px; max-width: 100% }
+.imported .table-scroll table { width: max-content; min-width: min(100%, 28em); max-width: 80ch }
+.imported .table-scroll th { font-weight: 650 }
+.imported .item-icon { width: 32px; height: 32px; object-fit: contain; vertical-align: middle }
+.imported .references { max-width: 90ch; overflow-wrap: anywhere }
+.imported .import-history { margin-top: 20px }
+.imported .end-categories:has(span:only-child:empty) { display: none }
 @media print {
-  .geography .table-scroll table { width: 100%; max-width: 100%; min-width: 0 }
+  .imported .table-scroll table { width: 100%; max-width: 100%; min-width: 0 }
 }
 .reference .references { max-width: 91ch }
 .reference .references li { overflow-wrap: anywhere; margin-block-end: 4px }
@@ -183,3 +183,16 @@
   .equipment-comparison :is(td,th) { padding: 2pt }
   .equipment-comparison .sort-mark, .equipment-comparison img { display: none }
 }
+
+.article-sheet :is(h5,h6) { margin:12px 0 5px; font-size:1em; color:var(--heading-link) }
+.imported .collapsible { max-width:83ch; margin:9px 0 }
+.imported .collapsible > summary { width:fit-content; cursor:pointer; color:var(--link); padding-block:4px }
+.faction-prose { margin-block:8px 12px }
+.faction-prose :is(dt,dd) { margin-block:4px }
+.faction .faction-locations { columns:2; margin-block:9px; padding-left:22px }
+.faction-locations li { break-inside:avoid }
+.faction .relations-table { min-width:0; width:100% }
+.faction .references { max-width:90ch }
+.faction .references li { overflow-wrap:anywhere; margin-bottom:4px }
+.faction :is(sup,.references li):target { background:var(--hover) }
+@media(max-width:760px) { .faction .faction-locations { columns:1 } }

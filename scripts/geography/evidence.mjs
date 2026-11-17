@@ -1,5 +1,6 @@
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
+import {normalizeFactionTables} from '../../src/lib/faction-tables.mjs';
 import {origin, snapshot} from '../../src/lib/catalog.mjs';
 
 export const hash = value => createHash('sha256').update(value).digest('hex');
@@ -21,12 +22,13 @@ function emptyGallery($) {
   });
 }
 // Fingerprints cover reader-visible content independently of either site's chrome.
-export function articleEvidence(html, frozen) {
+export function articleEvidence(html, frozen, faction = false) {
   const doc = load(html);
   const area = frozen ? doc('.mw-parser-output').clone() : doc('<div></div>');
   if (frozen) area.children('.infobox,.fandom-notice').remove();
   else area.append(doc('.lead-text').contents().clone(), '\n', doc('.article-body').contents().clone());
   const $ = load(area.html(), {}, false);
+  if (faction) normalizeFactionTables($);
   // This separately checked editorial note qualifies the original imported words.
   $('.source-qualification').remove();
   const headings = $('h2,h3,h4,h5,h6').toArray().map(el => [el.name,$(el).attr('id') ?? null,text($(el).text())]);

@@ -7,6 +7,9 @@ import {load} from 'cheerio';
 import {buildCatalog, categoryPath, origin, policy, snapshot} from '../src/lib/catalog.mjs';
 
 import {verifyGeography} from './geography/verify.mjs';
+import {verifyFactions} from './factions/verify.mjs';
+import factionNotes from '../conversion/factions/notes.json' with {type:'json'};
+import {includedIds as factionIds, frozenEvidence as factionEvidence} from './factions/batches.mjs';
 import geoNotes from '../conversion/geography/notes.json' with {type:'json'};
 import {includedIds,geographyIds,frozenEvidence} from './geography/batches.mjs';
 import blenderChange from '../conversion/pr-43.json' with {type:'json'};
@@ -20,7 +23,9 @@ for (const [id, checks] of Object.entries(review.articles)) {
 }
 for (const gap of review.mediaGaps) if (!atlas.byId.has(gap.articleId)) throw Error('Unknown article for media gap ' + gap.articleId);
 const geography = verifyGeography(atlas, assetRedirects);
+const factions=verifyFactions(atlas,assetRedirects);
 const geographicalSources=frozenEvidence().articles;
+const factionSources=factionEvidence().articles;
 const emptyGalleryIds=new Set([...geography.emptyGalleries,...review.mediaGaps.filter(gap=>gap.section==='Gallery').map(gap=>gap.articleId)]);
 const initial=buildCatalog();
 const htmlFile = p => path.join('dist', p==='/'?'index.html':p.slice(1)+'.html');
@@ -56,11 +61,11 @@ for (const a of atlas.byId.values()) {
       label:$(el).text(), href:new URL($(el).attr('href'),origin+a.path).href
     }));
   }
-  const checks = {...(includedIds.has(a.id) ? {formatCheck:'scripts/geography/verify.mjs'} : {}), ...review.articles[a.id]};
-  const media=a.filePath && geographyIds.has(a.id) ? {
+  const checks = {...(includedIds.has(a.id) ? {formatCheck:'scripts/geography/verify.mjs'} : {}), ...(factionIds.has(a.id) ? {formatCheck:'scripts/factions/verify.mjs'} : {}), ...review.articles[a.id]};
+  const media=a.filePath && (geographyIds.has(a.id) || factionIds.has(a.id)) ? {
     originalMediaComparison:'unassessed',
-    emptyImportedGallery:emptyGalleryIds.has(a.id),
-    verifiedBodyItemIcons:[...new Set((geographicalSources[a.id]?.images ?? []).map(([url])=>url))]
+    emptyImportedGallery:emptyGalleryIds.has(a.id) || factions.emptyGalleries.includes(a.id),
+    verifiedBodyItemIcons:[...new Set(((geographicalSources[a.id] ?? factionSources[a.id])?.images ?? []).map(([url])=>url))]
   } : undefined;
   record('article',a.path,{id:a.id,media, editableFile:a.filePath, sourceFile:a.sourceFile, sourceRevision:a.sourceRevision,
     credit:a.credit, license:a.license, source:a.source, contributor:a.contributor, evidence, articleSources, correction:correctionLink(origin+a.path),
@@ -99,7 +104,7 @@ const duplicateCheck=new Set(routes.filter(r=>['article','category','utility','p
 if(duplicateCheck.size!==snapshot.articles.length+initial.categories.size+snapshot.utilities.length+snapshot.portals.length) throw Error('Overlapping public page identities');
 const temporaryLinks=Array.from(external,([from,urls])=>({from,to:[...urls].sort()}));
 const articlesAt = state => routes.filter(row=>row.kind==='article' && row[state]).map(row=>row.path);
-const report={revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, editorialExceptions:geoNotes, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
+const report={revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
   aliases:policy.aliases,exclusions,temporaryLinks,assetRedirects,blenderChange,routes};
 mkdirSync('reports',{recursive:true});
 writeFileSync('reports/routes.json',JSON.stringify(report,null,2)+'\n');
@@ -124,6 +129,11 @@ const lines=['# Restoration route report','','Frozen source '+snapshot.revision+
   geography.verified+' new articles checked against the pinned rendered source, including '+geography.headings+' headings and '+geography.citationTargets+' citation targets. '+geography.assets+' distinct referenced item icons verified.',
   geography.emptyGalleries.length+' empty imported galleries among the new articles and '+geography.fragmentExceptions.length+' source links to missing local fragments are listed by article in the ledger. '+geography.unregisteredDestinations.length+' article links have destinations outside the frozen route inventory. Other media coverage is unassessed.','',
   ...Object.entries(geoNotes).map(([id,note])=>'- '+atlas.byId.get(id).title+' — '+note),'',
+  '## Factions','',
+  factions.familyPages+' faction and supporting pages are local, including The Holy Nation. '+factions.redirects.length+' frozen redirects to this family are active.',
+  factions.verified+' new articles checked against the pinned rendered source, including '+factions.headings+' headings and '+factions.citationTargets+' citation targets.',
+  factions.emptyGalleries.length+' empty imported galleries, '+factions.fragmentExceptions.length+' missing local fragments and '+factions.unregisteredDestinations.length+' unregistered destinations are recorded in routes.json. Other media coverage is unassessed.','',
+  ...Object.entries(factionNotes).map(([id,note])=>'- '+atlas.byId.get(id).title+' — '+note),'',
   '## Media restoration','',
   'The original importer omitted images. Coverage is unassessed unless there is separate evidence.','',
   ...review.mediaGaps.map(gap => '- '+atlas.byId.get(gap.articleId).title+' / '+gap.section+' — '+gap.status+'. '+gap.observation+' '+gap.source),'',

@@ -17,7 +17,7 @@ const {entry,article}=Astro.props;
 const {href}=await readWiki();
 const data=entry.data;
 const {intro,body,outline}=prepareArticle(entry.rendered?.html,data,href);
-const importedGeography = data.layout === 'geography';
+const importedGeography = ['geography','faction'].includes(data.layout);
 if (importedGeography) outline.push({id:'source-history', label:'Sources and history', children:[]});
 const categories=displayCategories(data.categories);
 const source=recordedSource(article.sourceFile, article.sourceRevision, snapshot.revision);
@@ -25,7 +25,7 @@ const history=source.history;
 const correction=correctionLink(origin+article.path);
 ---
 <Frame kind="article" publicPath={article.path} title={data.title} description={data.description} {categories} {outline} {href} editableFile={article.filePath} {history}>
-  <div id="content" class:list={['article-sheet',data.layout,{'with-facts':data.facts || data.factGroups}]}><article id="bodyContent" data-article-id={article.id} aria-labelledby="firstHeading">
+  <div id="content" class:list={['article-sheet',data.layout,{'with-facts':data.facts || data.factGroups, imported:importedGeography}]}><article id="bodyContent" data-article-id={article.id} aria-labelledby="firstHeading">
     <div class="opening">
       <header class="article-head"><h1 id="firstHeading" tabindex="-1">{data.title}</h1></header>
       <div class="opening-copy">

@@ -2,11 +2,16 @@ import assert from 'node:assert/strict';
 import {join} from 'node:path';
 import {chromium} from '@playwright/test';
 import {snapshot} from '../../src/lib/catalog.mjs';
-import {roster} from './batches.mjs';
+import {families} from '../conversion/batches.mjs';
 
-export async function captureBatch(base, batch, output) {
+export async function captureBatch(base, batch, output, family='geography') {
+  const {roster}=families[family];
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
   const extra={
+    'major-factions':batch.ids,
+    'infobox-variants':batch.ids,
+    'historical-factions':batch.ids,
+    'overview-and-guides':['factions','guide-to-faction-relations#faction-pacifiers','hostile-factions'],
     'bad-teeth':['bad-teeth#town-overrides','bad-teeth/shek-kingdom'],
     'catun-pilot':batch.ids,
     'spawns-loot-and-citations':batch.ids,
@@ -14,7 +19,8 @@ export async function captureBatch(base, batch, output) {
     'geography-indexes':['world-of-kenshi','major-towns']
   };
   const samples=[...(extra[batch.name] ?? [batch.ids[0]])];
-  if (batch.name===roster.batches.at(-1).name) samples.push('catun/fishmen','catun-alpha','bonefields','bad-teeth#town-overrides','old-world#old-world-towns','category/zones','category/spawning-locations');
+  if (family==='geography' && batch.name===roster.batches.at(-1).name) samples.push('catun/fishmen','catun-alpha','bonefields','bad-teeth#town-overrides','old-world#old-world-towns','category/zones','category/spawning-locations');
+  if(family==='factions' && batch.name===roster.batches.at(-1).name) samples.push('category/factions','united-cities#emperor-tengus-entourage','guide-to-faction-relations#faction-pacifiers');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {

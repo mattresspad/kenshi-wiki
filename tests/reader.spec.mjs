@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import {readFileSync} from 'node:fs';
 import {snapshot,origin,policy,categoryPath} from '../src/lib/catalog.mjs';
-import {expectedRoutes} from '../scripts/geography/batches.mjs';
+import {expectedRoutes} from '../scripts/conversion/batches.mjs';
 import baseline from './article-baseline.json' with {type:'json'};
 import ribbon from '../src/data/ribbon.json' with {type:'json'};
 

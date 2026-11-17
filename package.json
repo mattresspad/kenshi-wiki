@@ -8,12 +8,13 @@
     "build": "node scripts/check-articles.mjs && astro build && node scripts/package.mjs && node scripts/report.mjs",
     "preview": "node scripts/preview.mjs",
     "test": "playwright test",
-    "test:catalog": "node --test tests/catalog.test.mjs tests/warm-move.test.mjs",
+    "test:catalog": "node --test tests/catalog.test.mjs tests/faction-format.test.mjs tests/warm-move.test.mjs",
     "package:check": "cf workers versions create --prebuilt --dry-run",
     "inventory": "node scripts/inventory.mjs",
     "report": "node scripts/report.mjs",
     "geography:accept": "node scripts/geography/accept.mjs",
-    "review": "node scripts/review.mjs"
+    "review": "node scripts/review.mjs",
+    "factions:accept": "node scripts/conversion/accept.mjs factions"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",

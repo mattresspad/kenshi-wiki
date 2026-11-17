@@ -1,4 +1,5 @@
 import {load} from 'cheerio';
+import {normalizeFactionTables} from './faction-tables.mjs';
 
 // Process Astro's rendered Markdown once at build time for both the outline and the reading surface.
 export function prepareArticle(html, data, href) {
@@ -9,9 +10,11 @@ export function prepareArticle(html, data, href) {
     const target = el.attr('href');
     if (target.startsWith('/') && !/^\/(?:images|notices)\//.test(target)) el.attr('href', href(target));
   }
+  if (data.layout === 'faction') normalizeFactionTables($);
+  const imported = ['geography','faction'].includes(data.layout);
   const outline = [];
   const parents = [];
-  for (const heading of $('h2,h3,h4').toArray()) {
+  for (const heading of $('h2,h3,h4,h5,h6').toArray()) {
     const el = $(heading);
     // Imported table headings can put their existing public fragment on a child span.
     const target = el.attr('id') ? el : el.children('.mw-headline[id]').first();
@@ -36,12 +39,12 @@ export function prepareArticle(html, data, href) {
   for (const header of $('table thead th').toArray()) $(header).attr('scope','col');
   for (const row of $('table tbody tr').toArray()) {
     const cell = $(row).children().first();
-    if (data.layout !== 'geography' && cell.is('td') && !$(row).closest('.relations-table').length) {
+    if (!imported && cell.is('td') && !$(row).closest('.relations-table').length) {
       cell[0].tagName = 'th';
       cell.attr('scope', 'row');
     }
   }
-  if (data.layout === 'geography') {
+  if (imported) {
     for (const table of $('table').toArray()) {
       const el = $(table);
       // Removed-content notices were imported as two layout cells.
@@ -51,7 +54,7 @@ export function prepareArticle(html, data, href) {
         el.replaceWith(notice);
         continue;
       }
-      const label = el.prevAll('h2,h3,h4').first().text() || data.title;
+      const label = el.prevAll('h2,h3,h4,h5,h6').first().text() || data.title;
       el.wrap($('<div class="table-scroll" role="region" tabindex="0"></div>').attr('aria-label', label + ' table'));
       const first = el.children('tbody').children('tr').first();
       if (el.is('.sortable') && first.children().length && !first.children(':not(th)').length && !first.children('[rowspan]').length) {
@@ -64,7 +67,7 @@ export function prepareArticle(html, data, href) {
   const intro = [];
   for (const el of $.root().children().toArray()) {
     const openingTip = intro.length === 0 && $(el).is('.loading-tip');
-    const openingFeature = data.layout === 'geography' && $(el).is('figure.quote,.historical-notice');
+    const openingFeature = imported && $(el).is('figure.quote,.historical-notice');
     if (el.tagName !== 'p' && !openingTip && !openingFeature) break;
     intro.push($.html(el));
     $(el).remove();
