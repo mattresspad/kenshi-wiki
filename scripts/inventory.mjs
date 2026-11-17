@@ -2,10 +2,29 @@
 import { execFileSync } from 'node:child_process';
 import { writeFileSync } from 'node:fs';
 import { parse } from 'yaml';
+import assert from 'node:assert/strict';
+import blenderChange from '../conversion/pr-43.json' with {type: 'json'};
 
-const revision = '0c9b4348592605169315b6dd613dde1c220d1237';
+const revision = '83abc179fafa63b826d7f2662c4a18a134a9e6c1';
 const repository = process.argv[2] || '.';
 const git = (args, input) => execFileSync('git', ['-C', repository, ...args], { input, maxBuffer: 96 * 1024 * 1024 });
+// Verify the accepted contribution independently of which later snapshot is being inventoried.
+const changedFiles = git(['diff', '--name-only', blenderChange.from, blenderChange.revision]).toString().trim().split(/\r?\n/);
+const guidePath = entry => 'src/content/wiki' + entry.article + '.md';
+assert.deepEqual(changedFiles.sort(), [
+  ...blenderChange.edits.map(guidePath), 'src/content/wiki/modding/blender-plugins.md', 'src/data/portals/modding.yaml'
+].sort());
+for (const edit of blenderChange.edits) {
+  const file = guidePath(edit);
+  for (const [rev, expected] of [[blenderChange.from, edit.oldBlob], [blenderChange.revision, edit.newBlob]]) {
+    assert.equal(git(['rev-parse', rev + ':' + file]).toString().trim(), expected, file);
+  }
+  const diff = git(['diff', '--unified=0', blenderChange.from, blenderChange.revision, '--', file]).toString().replaceAll('\r\n','\n');
+  const lines = diff.slice(diff.indexOf('\n@@')+1).trimStart().split('\n');
+  assert.deepEqual(lines.filter(line=>line.startsWith('+')).map(line=>line.slice(1)), edit.added, file);
+  assert.deepEqual(lines.filter(line=>line.startsWith('-')).map(line=>line.slice(1)), edit.removed, file);
+  assert.ok(edit.added.some(line => line.includes('](/modding/blender-plugins)')), file);
+}
 const tree = git(['ls-tree', '-r', '-z', revision]).toString().split('\0').filter(Boolean).map(line => {
   const [meta, name] = line.split('\t');
   return { name, hash: meta.split(' ')[2] };

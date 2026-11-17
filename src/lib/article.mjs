@@ -7,19 +7,23 @@ export function prepareArticle(html, data, href) {
   for (const anchor of $('a[href]').toArray()) {
     const el = $(anchor);
     const target = el.attr('href');
-    if (target.startsWith('/') && !target.startsWith('/images/')) el.attr('href', href(target));
+    if (target.startsWith('/') && !/^\/(?:images|notices)\//.test(target)) el.attr('href', href(target));
   }
   const outline = [];
-  for (const heading of $('h2,h3').toArray()) {
+  const parents = [];
+  for (const heading of $('h2,h3,h4').toArray()) {
     const el = $(heading);
     const generated = el.attr('id');
     if (!generated) throw Error('Heading without a bookmark: ' + el.text());
     const id = data.headingIds[generated] ?? generated;
-    el.attr({id, tabindex:'-1'});
-    const item = {id, label:el.text(), children:[]};
-    if (heading.tagName === 'h2' || !outline.length) outline.push(item);
-    else outline.at(-1).children.push(item);
+    el.attr({id, tabindex: '-1'});
+    const level = Number(heading.tagName.slice(1));
+    while (parents.length && parents.at(-1).level >= level) parents.pop();
+    const item = {id, label: el.text(), children: []};
+    (parents.at(-1)?.item.children ?? outline).push(item);
+    parents.push({level, item});
   }
+  for (const target of $('sup[id^=cite_ref],li[id^=cite_note]').toArray()) $(target).attr('tabindex', '-1');
   for (const [old, target] of Object.entries(data.bookmarks)) {
     const node = $('[id]').filter((_,e) => $(e).attr('id') === target);
     if (node.length !== 1) throw Error('Missing bookmark destination: ' + target);
@@ -29,8 +33,11 @@ export function prepareArticle(html, data, href) {
   for (const block of $('pre code').toArray()) $(block).text($(block).text().replace(/\n$/, ''));
   for (const header of $('table thead th').toArray()) $(header).attr('scope','col');
   for (const row of $('table tbody tr').toArray()) {
-    const cell = $(row).children('td').first();
-    if (cell.length) cell.replaceWith($('<th scope="row"></th>').html(cell.html()));
+    const cell = $(row).children().first();
+    if (cell.is('td') && !$(row).closest('.relations-table').length) {
+      cell[0].tagName = 'th';
+      cell.attr('scope', 'row');
+    }
   }
   const intro = [];
   for (const el of $.root().children().toArray()) {

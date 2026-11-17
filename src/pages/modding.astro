@@ -1,0 +1,37 @@
+---
+import Frame from '../layouts/Frame.astro';
+import portal from '../data/modding.json';
+import { categoryPath, repo, snapshot } from '../lib/catalog.mjs';
+import { readWiki } from '../lib/wiki';
+const { articles, href } = await readWiki();
+const source = 'src/data/portals/modding.yaml';
+const history = repo + '/commits/' + snapshot.revision + '/' + source;
+const edit = repo + '/edit/main/' + source;
+const sections = portal.sections.map(section => ({
+  ...section,
+  id: section.title.toLowerCase().replaceAll(' ', '-'),
+  entries: section.articles.map(entry => {
+    const path = '/' + entry.id;
+    const article = articles.get(path);
+    if (!article) throw Error('Missing Modding portal article ' + path);
+    return { ...entry, title: article.title, href: href(path) };
+  })
+}));
+const outline = sections.map(({id, title}) => ({id, label: title, children: []}));
+---
+<Frame kind="portal" title={portal.title} description={portal.intro} publicPath="/modding" {outline} {href} {edit} {history}>
+  <div id="content"><article id="bodyContent" class="article-sheet portal">
+    <header class="article-head"><h1 id="firstHeading" tabindex="-1">{portal.title}</h1></header>
+    <div id="mw-content-text"><p>{portal.intro}</p>
+    <nav aria-label="Modding index">
+      {portal.indexes.map(index => <a href={href(categoryPath(index.category))}>{index.label}</a>)}
+    </nav>
+    {sections.map(section => <section aria-labelledby={section.id}>
+      <h2 id={section.id} tabindex="-1">{section.title}</h2>
+      <ul>{section.entries.map(entry => <li>
+        <a href={entry.href}>{entry.title}</a><p>{entry.description}{'credit' in entry && <> <a href={entry.credit.evidence}>{entry.credit.label}</a></>}</p>
+      </li>)}</ul>
+    </section>)}
+    </div>
+  </article></div>
+</Frame>

@@ -1,0 +1,97 @@
+{
+  "title": "Modding",
+  "intro": "Learn to edit Kenshi’s records and artwork, build towns in the Forgotten Construction Set, and extend the game with MeitouClient.",
+  "indexes": [
+    {
+      "category": "Modding",
+      "label": "Browse all modding articles"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Using mods",
+      "articles": [
+        {
+          "id": "mods",
+          "description": "Find mods on Steam Workshop or Nexus Mods and enable them in the launcher."
+        },
+        {
+          "id": "why-load-order-matters-and-other-faq-about-using-mods",
+          "description": "See which edit wins when two mods change the same value, and where a patch fits."
+        }
+      ]
+    },
+    {
+      "title": "Modding with Meitou",
+      "articles": [
+        {
+          "id": "modding/meitou",
+          "description": "Browse community releases for MeitouClient, meet their creators, and learn how to make a code mod."
+        },
+        {
+          "id": "modding/meitou/porting-re-kenshi-mods",
+          "description": "Take one feature from an RE_Kenshi mod and find out which records, assets or code it needs on Meitou."
+        },
+        {
+          "id": "modding/meitou/make-a-saddle-pack",
+          "description": "Fit a saddle to the Wandering Trader’s Pack Bull, then hand another player your four-file mod."
+        }
+      ]
+    },
+    {
+      "title": "Working with the FCS",
+      "articles": [
+        {
+          "id": "introduction-to-modding",
+          "description": "Get to know the Forgotten Construction Set’s start screen, record editor, and toolbar."
+        },
+        {
+          "id": "using-the-fcs",
+          "description": "Look up data management, error messages, and mod files in the game’s FCS manual."
+        }
+      ]
+    },
+    {
+      "title": "Dialogue and world editing",
+      "articles": [
+        {
+          "id": "dialogue-structure-overlook",
+          "description": "Follow the branches of a conversation and see what a dialogue script can express.",
+          "credit": {
+            "label": "Guide by Cattrina",
+            "evidence": "https://kenshi.fandom.com/wiki/Dialogue_Structure_Overlook?oldid=95840"
+          }
+        },
+        {
+          "id": "using-faction-reputation-as-variable",
+          "description": "Use faction reputation to store a value that another dialogue line can check.",
+          "credit": {
+            "label": "Technique by Soar",
+            "evidence": "https://kenshi.fandom.com/wiki/Using_Faction_Reputation_As_Variable?oldid=94622"
+          }
+        },
+        {
+          "id": "creating-new-towns",
+          "description": "Build a town in the game editor, then assign its residents and squads."
+        }
+      ]
+    },
+    {
+      "title": "Art and animation",
+      "articles": [
+        {
+          "id": "modding/blender-plugins",
+          "description": "Pick the Blender plugin that opens Kenshi models in your Blender version, and the import settings that keep faces and materials intact."
+        },
+        {
+          "id": "how-to-make-custom-armour-mesh",
+          "description": "Rig an armour mesh in Blender and connect the exported mesh to an item."
+        },
+        {
+          "id": "making-animations-basics",
+          "description": "Prepare an animation for export and assign it to the races that use it."
+        }
+      ]
+    }
+  ]
+}

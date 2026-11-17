@@ -91,14 +91,14 @@ for(const width of [1440,390]) test('article outline, source credits and evidenc
   }
 });
 
-test('three indexes match independent membership sets and link to reviewed pages or the live wiki',async({page})=>{
-  const sets={locations:['Locations'],wip:['WIP','Wip'],'traders-guild':['Traders Guild',"Trader's Guild",'Traders guild']};
+test('four indexes match independent membership sets and link to reviewed pages or the live wiki',async({page})=>{
+  const sets={modding:['Modding'],locations:['Locations'],wip:['WIP','Wip'],'traders-guild':['Traders Guild',"Trader's Guild",'Traders guild']};
   for(const [slug,labels] of Object.entries(sets)){
     await page.goto('/category/'+slug);
     const expected=snapshot.articles.filter(a=>a.categories.some(k=>labels.includes(k))).map(a=>a.path).sort();
     const actual=await page.locator('[data-member]').evaluateAll(as=>as.map(a=>[a.dataset.member,a.getAttribute('href')]));
     expect(actual.map(row=>row[0]).sort()).toEqual(expected);
-    for(const [path,href] of actual)expect(href).toBe(['/catun',saddle].includes(path)?path:origin+path);
+    for(const [path,href] of actual)expect(href).toBe(['/catun',saddle,'/the-holy-nation','/backpacks','/modding/blender-plugins'].includes(path)?path:origin+path);
     await expect(page.locator('main')).not.toContainText('formatnum');
   }
   await page.goto('/catun');
@@ -126,8 +126,8 @@ test('long letters retain keyboard access, focus and a flowing phone and print l
     await plain.locator('#site-more summary').click();await expect(plain.locator('#more-links a')).toHaveCount(16);
   }finally{await ctx.close()}
 });
-test('six canonical pages and the sitemap agree; excluded and pending routes return 404 locally',async({request})=>{
-  const paths=['/','/catun',saddle,'/category/locations','/category/wip','/category/traders-guild'];
+test('eleven canonical pages and the sitemap agree; excluded and pending routes return 404 locally',async({request})=>{
+  const paths=['/','/catun',saddle,'/the-holy-nation','/backpacks','/modding','/category/modding','/modding/blender-plugins','/category/locations','/category/wip','/category/traders-guild'];
   const xml=await (await request.get('/sitemap-0.xml')).text();
   const urls=Array.from(xml.matchAll(/<loc>([^<]+)<\/loc>/g),m=>m[1]);expect(urls.sort()).toEqual(paths.map(p=>origin+p).sort());
   for(const p of paths){const html=await(await request.get(p)).text();const tags=load(html)('link[rel=canonical]');expect(tags.length).toBe(1);expect(tags.attr('href')).toBe(origin+p);}

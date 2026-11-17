@@ -37,7 +37,7 @@ export function buildCatalog(reviewed = []) {
   const compare = new Intl.Collator('en', {numeric:true, sensitivity:'base'});
   for (const group of categories.values()) group.members.sort((a,b) =>
     compare.compare(a.title,b.title) || a.path.localeCompare(b.path,'en'));
-  const local = new Set(['/', ...reviewed.map(a=>a.path), ...policy.reviewedCategories.map(categoryPath)]);
+  const local = new Set(['/', ...reviewed.map(a=>a.path), ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals]);
   function href(path) {
     if (!path.startsWith('/') || path.startsWith('//')) return path;
     const plain = path.split(/[?#]/,1)[0];

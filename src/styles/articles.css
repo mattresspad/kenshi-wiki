@@ -94,3 +94,66 @@
   .foot { margin-top: 14px }
   .article-sheet :is(figure,pre,tr) { break-inside: avoid }
 }
+
+.article-sheet h4 { margin: 14px 0 5px; font-size: 1.04em; color: var(--heading-link) }
+.article-sheet h4:focus-visible, .article-sheet .references li:focus-visible, .reference sup:focus-visible {
+  outline: 2px solid var(--focus); outline-offset: 2px;
+}
+.article-sheet.reference .quote { margin: 15px 0 20px; max-width: 76ch; padding: 9px 14px; border-inline-start: 3px solid var(--brass); background: var(--cell) }
+.reference .quote blockquote { margin: 0 }
+.reference .quote figcaption { margin-top: 6px; color: var(--quiet) }
+.reference .references { max-width: 91ch }
+.reference .references li { overflow-wrap: anywhere; margin-block-end: 4px }
+.reference :is(sup, .references li):target { background: var(--hover) }
+.article-sheet .notice.loading-tip { max-width: 79ch; margin-block: 10px; padding: 7px 11px; background: var(--cell); border-inline-start: 2px solid var(--brass) }
+.loading-tip-label { font-weight: 650 }
+.reference .collapsible { max-width: 83ch; margin: 9px 0 }
+.reference :is(.collapsible,.comparison) > summary { width: fit-content; cursor: pointer; color: var(--link); padding-block: 4px }
+.portal ul { list-style: none; padding: 0; max-width: 74ch }
+.portal li { padding-block: 6px; border-bottom: 1px solid var(--soft) }
+.portal li > a { font-weight: 650 }
+.portal li p { margin: 1px 0 0 }
+.comparison { min-width: 0 }
+.table-scroll { width: 100%; max-width: 88rem; overflow-x: auto; overscroll-behavior-x: contain }
+.table-scroll:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px }
+.article-sheet table.equipment-comparison { width: 100%; min-width: 61rem; margin: 1px 0 4px; font-variant-numeric: tabular-nums }
+.equipment-comparison thead th { vertical-align: bottom }
+.equipment-comparison :is(th,td):not(:first-child) { text-align: right }
+.equipment-comparison thead th:first-child { min-width: 11rem }
+.equipment-comparison img { width: 32px; height: 32px; object-fit: contain; vertical-align: middle; margin-right: 3px }
+.equipment-comparison button {
+  border: 0; padding: 2px; font: inherit; color: inherit; background: transparent; cursor: pointer; text-align: inherit;
+}
+.equipment-comparison button:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px }
+.sort-mark::after { content: '↕'; color: var(--quiet); margin-inline-start: 2px; font-size: .82em }
+[aria-sort=ascending] .sort-mark::after { content: '↑'; color: var(--link) }
+[aria-sort=descending] .sort-mark::after { content: '↓'; color: var(--link) }
+@media (max-width: 760px) {
+  .table-scroll { container-type: inline-size }
+  .article-sheet table.equipment-comparison {
+    --name-width: clamp(6.75rem, 36cqi, 9.5rem);
+    --visible-stats: 3;
+    --stat-width: calc((100cqi - var(--name-width)) / var(--visible-stats));
+    table-layout: fixed; min-width: 0; width: calc(var(--name-width) + 11 * var(--stat-width));
+    border-spacing: 0; border-collapse: separate;
+  }
+  @container (max-width: 20rem) { .article-sheet table.equipment-comparison { --visible-stats: 2 } }
+  @container (min-width: 30rem) { .article-sheet table.equipment-comparison { --visible-stats: 5 } }
+  @container (min-width: 40rem) { .article-sheet table.equipment-comparison { --visible-stats: 7 } }
+  .equipment-comparison tr > * { border-width: 0 1px 1px 0; overflow-wrap: anywhere }
+  .equipment-comparison thead th { border-block-start-width: 1px }
+  .equipment-comparison thead th:first-child { min-width: 0 }
+  .equipment-comparison tr > :first-child {
+    position: sticky; inset-inline-start: 0; width: var(--name-width); min-width: 0; max-width: none; border-inline-start-width: 1px;
+    background: var(--page); box-shadow: 1px 0 0 var(--edge);
+  }
+  .equipment-comparison thead tr > :first-child { background: var(--chrome) }
+  .equipment-comparison tbody tr:nth-child(even) > :first-child { background: var(--cell) }
+  .equipment-comparison img { width: 23px; height: 23px }
+}
+@media print {
+  .table-scroll { overflow: visible; max-width: 100% }
+  .article-sheet table.equipment-comparison { min-width: 0; table-layout: fixed; font-size: 8pt }
+  .equipment-comparison :is(td,th) { padding: 2pt }
+  .equipment-comparison .sort-mark, .equipment-comparison img { display: none }
+}

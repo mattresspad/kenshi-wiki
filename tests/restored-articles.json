@@ -1,0 +1,1340 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "articles": {
+    "the-holy-nation": {
+      "frameIds": [
+        "content",
+        "firstHeading",
+        "bodyContent",
+        "mw-content-text",
+        "catlinks",
+        "mw-normal-catlinks"
+      ],
+      "headings": [
+        {
+          "id": "history",
+          "level": 2
+        },
+        {
+          "id": "society",
+          "level": 2
+        },
+        {
+          "id": "military",
+          "level": 2
+        },
+        {
+          "id": "disposition",
+          "level": 2
+        },
+        {
+          "id": "shek-kingdom",
+          "level": 3
+        },
+        {
+          "id": "united-cities",
+          "level": 3
+        },
+        {
+          "id": "flotsam-ninjas",
+          "level": 3
+        },
+        {
+          "id": "mongrel",
+          "level": 3
+        },
+        {
+          "id": "holy-nation-outlaws",
+          "level": 3
+        },
+        {
+          "id": "starving-bandits",
+          "level": 3
+        },
+        {
+          "id": "black-dragon-ninjas",
+          "level": 3
+        },
+        {
+          "id": "dust-bandits",
+          "level": 3
+        },
+        {
+          "id": "berserkers",
+          "level": 3
+        },
+        {
+          "id": "krals-chosen",
+          "level": 3
+        },
+        {
+          "id": "western-hive",
+          "level": 3
+        },
+        {
+          "id": "skeletons",
+          "level": 3
+        },
+        {
+          "id": "fogmen",
+          "level": 3
+        },
+        {
+          "id": "cannibals",
+          "level": 3
+        },
+        {
+          "id": "characters",
+          "level": 2
+        },
+        {
+          "id": "unique-characters",
+          "level": 3
+        },
+        {
+          "id": "mentioned-characters",
+          "level": 3
+        },
+        {
+          "id": "generic-characters",
+          "level": 3
+        },
+        {
+          "id": "militarypolice",
+          "level": 4
+        },
+        {
+          "id": "military-1",
+          "level": 4
+        },
+        {
+          "id": "civilians",
+          "level": 4
+        },
+        {
+          "id": "traders-and-merchants",
+          "level": 4
+        },
+        {
+          "id": "animals",
+          "level": 4
+        },
+        {
+          "id": "armour-quality",
+          "level": 3
+        },
+        {
+          "id": "default-residents-priority",
+          "level": 3
+        },
+        {
+          "id": "default-gate-guards",
+          "level": 4
+        },
+        {
+          "id": "lock-complexity",
+          "level": 2
+        },
+        {
+          "id": "relations",
+          "level": 2
+        },
+        {
+          "id": "faction-relations",
+          "level": 3
+        },
+        {
+          "id": "player-relations",
+          "level": 3
+        },
+        {
+          "id": "locations",
+          "level": 2
+        },
+        {
+          "id": "tips",
+          "level": 2
+        },
+        {
+          "id": "trivia",
+          "level": 2
+        },
+        {
+          "id": "references",
+          "level": 2
+        }
+      ],
+      "citations": [
+        [
+          "cite_ref-1",
+          "cite_note-1"
+        ],
+        [
+          "cite_ref-2",
+          "cite_note-2"
+        ],
+        [
+          "cite_ref-3",
+          "cite_note-3"
+        ],
+        [
+          "cite_ref-4",
+          "cite_note-4"
+        ],
+        [
+          "cite_ref-5",
+          "cite_note-5"
+        ],
+        [
+          "cite_ref-6",
+          "cite_note-6"
+        ],
+        [
+          "cite_ref-7",
+          "cite_note-7"
+        ],
+        [
+          "cite_ref-8",
+          "cite_note-8"
+        ],
+        [
+          "cite_ref-:9_9-0",
+          "cite_note-:9-9"
+        ],
+        [
+          "cite_ref-:12_10-0",
+          "cite_note-:12-10"
+        ],
+        [
+          "cite_ref-:0_11-0",
+          "cite_note-:0-11"
+        ],
+        [
+          "cite_ref-:5_12-0",
+          "cite_note-:5-12"
+        ],
+        [
+          "cite_ref-13",
+          "cite_note-13"
+        ],
+        [
+          "cite_ref-14",
+          "cite_note-14"
+        ],
+        [
+          "cite_ref-15",
+          "cite_note-15"
+        ],
+        [
+          "cite_ref-16",
+          "cite_note-16"
+        ],
+        [
+          "cite_ref-:1_17-0",
+          "cite_note-:1-17"
+        ],
+        [
+          "cite_ref-:6_18-0",
+          "cite_note-:6-18"
+        ],
+        [
+          "cite_ref-:7_19-0",
+          "cite_note-:7-19"
+        ],
+        [
+          "cite_ref-20",
+          "cite_note-20"
+        ],
+        [
+          "cite_ref-21",
+          "cite_note-21"
+        ],
+        [
+          "cite_ref-23",
+          "cite_note-23"
+        ],
+        [
+          "cite_ref-:10_24-0",
+          "cite_note-:10-24"
+        ],
+        [
+          "cite_ref-25",
+          "cite_note-25"
+        ],
+        [
+          "cite_ref-26",
+          "cite_note-26"
+        ],
+        [
+          "cite_ref-27",
+          "cite_note-27"
+        ],
+        [
+          "cite_ref-29",
+          "cite_note-29"
+        ],
+        [
+          "cite_ref-30",
+          "cite_note-30"
+        ],
+        [
+          "cite_ref-31",
+          "cite_note-31"
+        ],
+        [
+          "cite_ref-32",
+          "cite_note-32"
+        ],
+        [
+          "cite_ref-33",
+          "cite_note-33"
+        ],
+        [
+          "cite_ref-35",
+          "cite_note-35"
+        ],
+        [
+          "cite_ref-36",
+          "cite_note-36"
+        ],
+        [
+          "cite_ref-37",
+          "cite_note-37"
+        ],
+        [
+          "cite_ref-38",
+          "cite_note-38"
+        ],
+        [
+          "cite_ref-39",
+          "cite_note-39"
+        ],
+        [
+          "cite_ref-40",
+          "cite_note-40"
+        ],
+        [
+          "cite_ref-41",
+          "cite_note-41"
+        ],
+        [
+          "cite_ref-42",
+          "cite_note-42"
+        ],
+        [
+          "cite_ref-43",
+          "cite_note-43"
+        ],
+        [
+          "cite_ref-44",
+          "cite_note-44"
+        ],
+        [
+          "cite_ref-45",
+          "cite_note-45"
+        ],
+        [
+          "cite_ref-46",
+          "cite_note-46"
+        ],
+        [
+          "cite_ref-47",
+          "cite_note-47"
+        ],
+        [
+          "cite_ref-48",
+          "cite_note-48"
+        ],
+        [
+          "cite_ref-49",
+          "cite_note-49"
+        ],
+        [
+          "cite_ref-50",
+          "cite_note-50"
+        ],
+        [
+          "cite_ref-51",
+          "cite_note-51"
+        ],
+        [
+          "cite_ref-52",
+          "cite_note-52"
+        ],
+        [
+          "cite_ref-53",
+          "cite_note-53"
+        ],
+        [
+          "cite_ref-54",
+          "cite_note-54"
+        ],
+        [
+          "cite_ref-55",
+          "cite_note-55"
+        ],
+        [
+          "cite_ref-56",
+          "cite_note-56"
+        ],
+        [
+          "cite_ref-57",
+          "cite_note-57"
+        ],
+        [
+          "cite_ref-58",
+          "cite_note-58"
+        ],
+        [
+          "cite_ref-59",
+          "cite_note-59"
+        ],
+        [
+          "cite_ref-60",
+          "cite_note-60"
+        ],
+        [
+          "cite_ref-61",
+          "cite_note-61"
+        ],
+        [
+          "cite_ref-62",
+          "cite_note-62"
+        ],
+        [
+          "cite_ref-63",
+          "cite_note-63"
+        ],
+        [
+          "cite_ref-64",
+          "cite_note-64"
+        ],
+        [
+          "cite_ref-65",
+          "cite_note-65"
+        ],
+        [
+          "cite_ref-66",
+          "cite_note-66"
+        ],
+        [
+          "cite_ref-67",
+          "cite_note-67"
+        ],
+        [
+          "cite_ref-68",
+          "cite_note-68"
+        ],
+        [
+          "cite_ref-69",
+          "cite_note-69"
+        ],
+        [
+          "cite_ref-70",
+          "cite_note-70"
+        ],
+        [
+          "cite_ref-71",
+          "cite_note-71"
+        ],
+        [
+          "cite_ref-72",
+          "cite_note-72"
+        ],
+        [
+          "cite_ref-73",
+          "cite_note-73"
+        ],
+        [
+          "cite_ref-74",
+          "cite_note-74"
+        ],
+        [
+          "cite_ref-75",
+          "cite_note-75"
+        ],
+        [
+          "cite_ref-76",
+          "cite_note-76"
+        ],
+        [
+          "cite_ref-77",
+          "cite_note-77"
+        ],
+        [
+          "cite_ref-78",
+          "cite_note-78"
+        ],
+        [
+          "cite_ref-79",
+          "cite_note-79"
+        ],
+        [
+          "cite_ref-80",
+          "cite_note-80"
+        ],
+        [
+          "cite_ref-81",
+          "cite_note-81"
+        ],
+        [
+          "cite_ref-82",
+          "cite_note-82"
+        ],
+        [
+          "cite_ref-:8_83-0",
+          "cite_note-:8-83"
+        ],
+        [
+          "cite_ref-84",
+          "cite_note-84"
+        ],
+        [
+          "cite_ref-85",
+          "cite_note-85"
+        ],
+        [
+          "cite_ref-:8_83-1",
+          "cite_note-:8-83"
+        ],
+        [
+          "cite_ref-86",
+          "cite_note-86"
+        ],
+        [
+          "cite_ref-87",
+          "cite_note-87"
+        ],
+        [
+          "cite_ref-88",
+          "cite_note-88"
+        ],
+        [
+          "cite_ref-89",
+          "cite_note-89"
+        ],
+        [
+          "cite_ref-90",
+          "cite_note-90"
+        ],
+        [
+          "cite_ref-91",
+          "cite_note-91"
+        ],
+        [
+          "cite_ref-92",
+          "cite_note-92"
+        ],
+        [
+          "cite_ref-93",
+          "cite_note-93"
+        ],
+        [
+          "cite_ref-94",
+          "cite_note-94"
+        ],
+        [
+          "cite_ref-95",
+          "cite_note-95"
+        ],
+        [
+          "cite_ref-96",
+          "cite_note-96"
+        ],
+        [
+          "cite_ref-97",
+          "cite_note-97"
+        ],
+        [
+          "cite_ref-98",
+          "cite_note-98"
+        ],
+        [
+          "cite_ref-99",
+          "cite_note-99"
+        ],
+        [
+          "cite_ref-100",
+          "cite_note-100"
+        ],
+        [
+          "cite_ref-101",
+          "cite_note-101"
+        ],
+        [
+          "cite_ref-102",
+          "cite_note-102"
+        ],
+        [
+          "cite_ref-103",
+          "cite_note-103"
+        ],
+        [
+          "cite_ref-104",
+          "cite_note-104"
+        ],
+        [
+          "cite_ref-105",
+          "cite_note-105"
+        ],
+        [
+          "cite_ref-106",
+          "cite_note-106"
+        ],
+        [
+          "cite_ref-107",
+          "cite_note-107"
+        ],
+        [
+          "cite_ref-108",
+          "cite_note-108"
+        ],
+        [
+          "cite_ref-109",
+          "cite_note-109"
+        ],
+        [
+          "cite_ref-110",
+          "cite_note-110"
+        ],
+        [
+          "cite_ref-111",
+          "cite_note-111"
+        ],
+        [
+          "cite_ref-112",
+          "cite_note-112"
+        ],
+        [
+          "cite_ref-113",
+          "cite_note-113"
+        ],
+        [
+          "cite_ref-114",
+          "cite_note-114"
+        ],
+        [
+          "cite_ref-115",
+          "cite_note-115"
+        ],
+        [
+          "cite_ref-116",
+          "cite_note-116"
+        ],
+        [
+          "cite_ref-117",
+          "cite_note-117"
+        ],
+        [
+          "cite_ref-118",
+          "cite_note-118"
+        ],
+        [
+          "cite_ref-119",
+          "cite_note-119"
+        ],
+        [
+          "cite_ref-120",
+          "cite_note-120"
+        ],
+        [
+          "cite_ref-:9_9-1",
+          "cite_note-:9-9"
+        ],
+        [
+          "cite_ref-:12_10-1",
+          "cite_note-:12-10"
+        ],
+        [
+          "cite_ref-:3_121-0",
+          "cite_note-:3-121"
+        ],
+        [
+          "cite_ref-:4_122-0",
+          "cite_note-:4-122"
+        ],
+        [
+          "cite_ref-123",
+          "cite_note-123"
+        ],
+        [
+          "cite_ref-124",
+          "cite_note-124"
+        ],
+        [
+          "cite_ref-125",
+          "cite_note-125"
+        ],
+        [
+          "cite_ref-126",
+          "cite_note-126"
+        ],
+        [
+          "cite_ref-127",
+          "cite_note-127"
+        ],
+        [
+          "cite_ref-:2_128-0",
+          "cite_note-:2-128"
+        ],
+        [
+          "cite_ref-129",
+          "cite_note-129"
+        ],
+        [
+          "cite_ref-130",
+          "cite_note-130"
+        ],
+        [
+          "cite_ref-131",
+          "cite_note-131"
+        ],
+        [
+          "cite_ref-132",
+          "cite_note-132"
+        ],
+        [
+          "cite_ref-133",
+          "cite_note-133"
+        ],
+        [
+          "cite_ref-134",
+          "cite_note-134"
+        ],
+        [
+          "cite_ref-135",
+          "cite_note-135"
+        ],
+        [
+          "cite_ref-136",
+          "cite_note-136"
+        ],
+        [
+          "cite_ref-137",
+          "cite_note-137"
+        ],
+        [
+          "cite_ref-138",
+          "cite_note-138"
+        ],
+        [
+          "cite_ref-139",
+          "cite_note-139"
+        ],
+        [
+          "cite_ref-140",
+          "cite_note-140"
+        ],
+        [
+          "cite_ref-141",
+          "cite_note-141"
+        ],
+        [
+          "cite_ref-142",
+          "cite_note-142"
+        ],
+        [
+          "cite_ref-143",
+          "cite_note-143"
+        ],
+        [
+          "cite_ref-144",
+          "cite_note-144"
+        ],
+        [
+          "cite_ref-145",
+          "cite_note-145"
+        ],
+        [
+          "cite_ref-146",
+          "cite_note-146"
+        ],
+        [
+          "cite_ref-147",
+          "cite_note-147"
+        ],
+        [
+          "cite_ref-:1_17-1",
+          "cite_note-:1-17"
+        ],
+        [
+          "cite_ref-:6_18-1",
+          "cite_note-:6-18"
+        ],
+        [
+          "cite_ref-148",
+          "cite_note-148"
+        ],
+        [
+          "cite_ref-149",
+          "cite_note-149"
+        ],
+        [
+          "cite_ref-:7_19-1",
+          "cite_note-:7-19"
+        ],
+        [
+          "cite_ref-150",
+          "cite_note-150"
+        ],
+        [
+          "cite_ref-:1_17-2",
+          "cite_note-:1-17"
+        ],
+        [
+          "cite_ref-151",
+          "cite_note-151"
+        ],
+        [
+          "cite_ref-152",
+          "cite_note-152"
+        ],
+        [
+          "cite_ref-153",
+          "cite_note-153"
+        ],
+        [
+          "cite_ref-154",
+          "cite_note-154"
+        ],
+        [
+          "cite_ref-155",
+          "cite_note-155"
+        ],
+        [
+          "cite_ref-156",
+          "cite_note-156"
+        ],
+        [
+          "cite_ref-157",
+          "cite_note-157"
+        ],
+        [
+          "cite_ref-158",
+          "cite_note-158"
+        ],
+        [
+          "cite_ref-159",
+          "cite_note-159"
+        ],
+        [
+          "cite_ref-160",
+          "cite_note-160"
+        ],
+        [
+          "cite_ref-:11_161-0",
+          "cite_note-:11-161"
+        ],
+        [
+          "cite_ref-162",
+          "cite_note-162"
+        ],
+        [
+          "cite_ref-:11_161-1",
+          "cite_note-:11-161"
+        ],
+        [
+          "cite_ref-163",
+          "cite_note-163"
+        ],
+        [
+          "cite_ref-164",
+          "cite_note-164"
+        ],
+        [
+          "cite_ref-165",
+          "cite_note-165"
+        ],
+        [
+          "cite_ref-167",
+          "cite_note-167"
+        ],
+        [
+          "cite_ref-168",
+          "cite_note-168"
+        ],
+        [
+          "cite_ref-:2_128-1",
+          "cite_note-:2-128"
+        ],
+        [
+          "cite_ref-169",
+          "cite_note-169"
+        ],
+        [
+          "cite_ref-170",
+          "cite_note-170"
+        ],
+        [
+          "cite_ref-171",
+          "cite_note-171"
+        ],
+        [
+          "cite_ref-172",
+          "cite_note-172"
+        ],
+        [
+          "cite_ref-173",
+          "cite_note-173"
+        ],
+        [
+          "cite_ref-174",
+          "cite_note-174"
+        ],
+        [
+          "cite_ref-175",
+          "cite_note-175"
+        ],
+        [
+          "cite_ref-176",
+          "cite_note-176"
+        ],
+        [
+          "cite_ref-177",
+          "cite_note-177"
+        ],
+        [
+          "cite_ref-178",
+          "cite_note-178"
+        ],
+        [
+          "cite_ref-179",
+          "cite_note-179"
+        ],
+        [
+          "cite_ref-180",
+          "cite_note-180"
+        ],
+        [
+          "cite_ref-181",
+          "cite_note-181"
+        ],
+        [
+          "cite_ref-182",
+          "cite_note-182"
+        ],
+        [
+          "cite_ref-183",
+          "cite_note-183"
+        ],
+        [
+          "cite_ref-184",
+          "cite_note-184"
+        ],
+        [
+          "cite_ref-185",
+          "cite_note-185"
+        ],
+        [
+          "cite_ref-186",
+          "cite_note-186"
+        ],
+        [
+          "cite_ref-187",
+          "cite_note-187"
+        ],
+        [
+          "cite_ref-188",
+          "cite_note-188"
+        ],
+        [
+          "cite_ref-189",
+          "cite_note-189"
+        ],
+        [
+          "cite_ref-190",
+          "cite_note-190"
+        ],
+        [
+          "cite_ref-:10_24-1",
+          "cite_note-:10-24"
+        ],
+        [
+          "cite_ref-191",
+          "cite_note-191"
+        ],
+        [
+          "cite_ref-192",
+          "cite_note-192"
+        ],
+        [
+          "cite_ref-193",
+          "cite_note-193"
+        ],
+        [
+          "cite_ref-194",
+          "cite_note-194"
+        ],
+        [
+          "cite_ref-195",
+          "cite_note-195"
+        ],
+        [
+          "cite_ref-196",
+          "cite_note-196"
+        ],
+        [
+          "cite_ref-197",
+          "cite_note-197"
+        ],
+        [
+          "cite_ref-198",
+          "cite_note-198"
+        ],
+        [
+          "cite_ref-199",
+          "cite_note-199"
+        ],
+        [
+          "cite_ref-200",
+          "cite_note-200"
+        ],
+        [
+          "cite_ref-201",
+          "cite_note-201"
+        ],
+        [
+          "cite_ref-202",
+          "cite_note-202"
+        ],
+        [
+          "cite_ref-203",
+          "cite_note-203"
+        ],
+        [
+          "cite_ref-204",
+          "cite_note-204"
+        ],
+        [
+          "cite_ref-205",
+          "cite_note-205"
+        ],
+        [
+          "cite_ref-206",
+          "cite_note-206"
+        ],
+        [
+          "cite_ref-207",
+          "cite_note-207"
+        ],
+        [
+          "cite_ref-208",
+          "cite_note-208"
+        ],
+        [
+          "cite_ref-209",
+          "cite_note-209"
+        ],
+        [
+          "cite_ref-210",
+          "cite_note-210"
+        ],
+        [
+          "cite_ref-211",
+          "cite_note-211"
+        ],
+        [
+          "cite_ref-212",
+          "cite_note-212"
+        ],
+        [
+          "cite_ref-213",
+          "cite_note-213"
+        ],
+        [
+          "cite_ref-:3_121-1",
+          "cite_note-:3-121"
+        ],
+        [
+          "cite_ref-:4_122-1",
+          "cite_note-:4-122"
+        ],
+        [
+          "cite_ref-214",
+          "cite_note-214"
+        ],
+        [
+          "cite_ref-215",
+          "cite_note-215"
+        ]
+      ]
+    },
+    "backpacks": {
+      "frameIds": [
+        "content",
+        "firstHeading",
+        "bodyContent",
+        "mw-content-text",
+        "catlinks",
+        "mw-normal-catlinks"
+      ],
+      "headings": [
+        {
+          "id": "types-of-backpacks",
+          "level": 2
+        },
+        {
+          "id": "loading-screen-tips",
+          "level": 2
+        },
+        {
+          "id": "history",
+          "level": 2
+        },
+        {
+          "id": "trivia",
+          "level": 2
+        }
+      ],
+      "rows": [
+        {
+          "item": "/small-thieves-backpack",
+          "icon": "/icons/items/1288-gamedata.base.png",
+          "cells": [
+            "Small Thieves Backpack",
+            "8x8",
+            "64",
+            "1x",
+            "1x",
+            "1 kg",
+            "3,000",
+            "60%",
+            "0",
+            "1.00x",
+            "1.00x",
+            "1.00x"
+          ],
+          "gridSort": null
+        },
+        {
+          "item": "/thieves-backpack",
+          "icon": "/icons/items/46036-rebirth.mod.png",
+          "cells": [
+            "Thieves Backpack",
+            "10x14",
+            "140",
+            "1x",
+            "1x",
+            "2 kg",
+            "5,000",
+            "60%",
+            "-2",
+            "1.00x",
+            "1.00x",
+            "1.00x"
+          ],
+          "gridSort": null
+        },
+        {
+          "item": "/small-backpack",
+          "icon": "/icons/items/576-gamedata.base.png",
+          "cells": [
+            "Small Backpack",
+            "8x8",
+            "64",
+            "1x",
+            "1x",
+            "1 kg",
+            "1,000",
+            "50%",
+            "-2",
+            "0.95x",
+            "0.85x",
+            "0.85x"
+          ],
+          "gridSort": null
+        },
+        {
+          "item": "/medium-backpack",
+          "icon": "/icons/items/635-gamedata.base.png",
+          "cells": [
+            "Medium Backpack",
+            "10x14",
+            "140",
+            "1x",
+            "1x",
+            "4 kg",
+            "1,500",
+            "50%",
+            "-5",
+            "0.90x",
+            "0.50x",
+            "0.50x"
+          ],
+          "gridSort": null
+        },
+        {
+          "item": "/scavengers-basket",
+          "icon": "/icons/items/45554-changes_otto.mod.png",
+          "cells": [
+            "Scavenger's Basket",
+            "10x14",
+            "140",
+            "1x",
+            "1x",
+            "1 kg",
+            "250",
+            "30%",
+            "-5",
+            "0.90x",
+            "0.50x",
+            "0.50x"
+          ],
+          "gridSort": null
+        },
+        {
+          "item": "/large-backpack",
+          "icon": "/icons/items/1012-gamedata.base.png",
+          "cells": [
+            "Large Backpack",
+            "12x20",
+            "240",
+            "1x",
+            "1x",
+            "8 kg",
+            "3,000",
+            "50%",
+            "-10",
+            "0.80x",
+            "0.25x",
+            "0.25x"
+          ],
+          "gridSort": null
+        },
+        {
+          "item": "/traders-backpack",
+          "icon": "/icons/items/45555-changes_otto.mod.png",
+          "cells": [
+            "Trader's Wooden Backpack",
+            "8x8",
+            "64",
+            "3x",
+            "3x",
+            "4 kg",
+            "800",
+            "50%",
+            "-5",
+            "0.90x",
+            "0.40x",
+            "0.40x"
+          ],
+          "gridSort": null
+        },
+        {
+          "item": "/wooden-backpack",
+          "icon": "/icons/items/46042-rebirth.mod.png",
+          "cells": [
+            "Wooden Backpack",
+            "8x8",
+            "64",
+            "3x",
+            "3x",
+            "4 kg",
+            "800",
+            "50%",
+            "-5",
+            "0.90x",
+            "0.50x",
+            "0.50x"
+          ],
+          "gridSort": null
+        },
+        {
+          "item": "/bull-backpack",
+          "icon": "/icons/items/43948-rebirth.mod.png",
+          "cells": [
+            "Bull Backpack",
+            "20x20",
+            "400",
+            "1x",
+            "5x",
+            "6 kg",
+            "2,000",
+            "90%",
+            "-4",
+            "0.80x",
+            "1.00x",
+            "1.00x"
+          ],
+          "gridSort": "21"
+        },
+        {
+          "item": "/garru-backpack",
+          "icon": "/icons/items/4002-gamedata.base.png",
+          "cells": [
+            "Garru Backpack",
+            "20x20",
+            "400",
+            "1x",
+            "6x",
+            "6 kg",
+            "2,000",
+            "90%",
+            "-4",
+            "0.80x",
+            "1.00x",
+            "1.00x"
+          ],
+          "gridSort": "22"
+        },
+        {
+          "item": "/shopkeepers-goods-bag",
+          "icon": "/icons/items/1389-gamedata.base.png",
+          "cells": [
+            "Shopkeepers goods bag",
+            "20x20",
+            "400",
+            "1x",
+            "1x",
+            "100 kg",
+            "5,000",
+            "0%",
+            "-10",
+            "0.50x",
+            "0.00x",
+            "0.00x"
+          ],
+          "gridSort": "23"
+        },
+        {
+          "item": "/traders-backpack-medium",
+          "icon": "/icons/items/1498-gamedata.base.png",
+          "cells": [
+            "Traders Backpack Medium (Unobtainable)",
+            "8x8",
+            "64",
+            "2x",
+            "3x",
+            "4 kg",
+            "2,500",
+            "50%",
+            "-5",
+            "0.90x",
+            "0.50x",
+            "0.50x"
+          ],
+          "gridSort": "15"
+        },
+        {
+          "item": "/traders-backpack-large",
+          "icon": "/icons/items/1499-gamedata.base.png",
+          "cells": [
+            "Traders Backpack Large",
+            "10x14",
+            "140",
+            "2x",
+            "3x",
+            "8 kg",
+            "4,500",
+            "50%",
+            "-10",
+            "0.80x",
+            "0.20x",
+            "0.20x"
+          ],
+          "gridSort": null
+        }
+      ]
+    }
+  }
+}

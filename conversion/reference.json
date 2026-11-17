@@ -1,5 +1,5 @@
 {
-  "revision": "0c9b4348592605169315b6dd613dde1c220d1237",
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
   "portals": ["/gameplay","/guides","/modding"],
   "utilities": ["/about-kenshi","/contributors","/","/random","/search"],
   "endpoints": ["/robots.txt","/sitemap-index.xml","/sitemap-0.xml","/search-titles.json","/sources/outland.css.txt","/sources/wiki-header.css.txt"],
@@ -1489,6 +1489,7 @@
     {"path":"/miu","title":"Miu","categories":["Characters","Unique","Playable"],"source":{"title":"Miu","revision":91439}},
     {"path":"/modders-resource-logo-masks-for-main-factions","title":"Modders Resource Logo Masks for Main Factions","categories":["Modders resource","Modding Guide","Modding"],"source":{"title":"Modders Resource Logo Masks for Main Factions","revision":95634}},
     {"path":"/modding-enabling-to-craft-vanilla-armour","title":"Modding: Enabling to craft vanilla armour","categories":["Modding","Guides"],"source":{"title":"Modding: Enabling to craft vanilla armour","revision":73878}},
+    {"path":"/modding/blender-plugins","title":"Blender plugins","categories":["Modding"],"source":"original"},
     {"path":"/modding/meitou","title":"Meitou community mods","categories":["Modding"],"source":"original"},
     {"path":"/modding/meitou/make-a-saddle-pack","title":"Make a saddle pack for Meitou","categories":["Modding","Guides"],"source":"original"},
     {"path":"/modding/meitou/porting-re-kenshi-mods","title":"Does my RE_Kenshi mod need a port?","categories":["Modding","Guides"],"source":"original"},

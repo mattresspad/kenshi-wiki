@@ -6,7 +6,7 @@ The local Astro worktree rebuilds the reader experience from the approved FreshW
 
 Use Node 24 and npm. Run `npm ci`, `npm run build`, then `npm run preview -- --host 127.0.0.1 --port 4392`. `npm run test:catalog` checks the frozen taxonomy. `npm test` runs the browser suite. Set `WIKI_CHROME` to a local Chromium executable or install Playwright Chromium. `npm run package:check` validates the prebuilt assets-only Cloudflare package.
 
-With the loopback preview running, use `npm run review` to check both palettes at all three viewport sizes. Open `reports/index.html` for the full-size screenshots, per-URL ledger, and browser measurements.
+The preview serves the packaged assets through Cloudflare’s local asset router, including the published Holy Nation aliases. With the loopback preview running, use `npm run review` to check both palettes at all three viewport sizes. Open `reports/index.html` for the full-size screenshots, per-URL ledger, and browser measurements.
 
 ## Article and route review
 

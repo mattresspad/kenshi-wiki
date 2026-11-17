@@ -14,16 +14,16 @@ test('reconcile original raw membership sets independently of the URL generator'
     expected.get(name).add(article.path);
   }
   const {categories}=buildCatalog();
-  assert.equal(snapshot.articles.length,2183);assert.equal(snapshot.redirects.length,263);
+  assert.equal(snapshot.articles.length,2184);assert.equal(snapshot.redirects.length,263);
   assert.equal(rawNames.size,202);assert.equal(categories.size,198);
   let pairs=0;
   for (const [name,paths] of expected) {
     assert.deepEqual(categories.get(name).members.map(m=>m.path).sort(),[...paths].sort());
     pairs+=paths.size;
   }
-  assert.equal(pairs,4118);
+  assert.equal(pairs,4119);
   assert.equal(snapshot.articles.filter(a=>a.categories.includes('Pages with non-numeric formatnum arguments')).length,51);
-  for (const [name,n] of Object.entries({WIP:81,'Traders Guild':19,Locations:273})) assert.equal(categories.get(name).members.length,n);
+  for (const [name,n] of Object.entries({WIP:81,'Traders Guild':19,Locations:273,Modding:96})) assert.equal(categories.get(name).members.length,n);
   assert.equal(categories.get('Traders Guild').members.filter(m=>m.path==='/samurai-rogue').length,1);
 });
 test('reviewed destinations, aliases and fragments work as the batch grows',()=>{

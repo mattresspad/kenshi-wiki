@@ -4,7 +4,8 @@ import Icon from './Icon.astro';
 import Tools from './Tools.astro';
 import { categoryPath, repo } from '../lib/catalog.mjs';
 const { kind, title, categories, href, edit, history } = Astro.props;
-const subject = kind === 'home' ? 'Main page' : (kind === 'article' ? 'Article: ' : 'Category: ') + title;
+const prefix = {article: 'Article:', category: 'Category:', portal: 'Portal:'}[kind];
+const subject = kind === 'home' ? 'Main page' : prefix + ' ' + title;
 const categoryLabel = categories.length === 1 ? 'Category:' : 'Categories:';
 const current = kind === 'home' ? '/' : '#firstHeading';
 ---
@@ -28,7 +29,7 @@ const current = kind === 'home' ? '/' : '#firstHeading';
     <button type="button" class="tab drawer-button" id="toggle-navigation" aria-controls="left-navigation" aria-expanded="false">
       <span class="split-icon" aria-hidden="true"></span>Navigation</button>
     <a class:list={['tab','page-tab',{'article-context':kind!=='home'}]} href={current} aria-current="page">
-      {kind==='home' ? <><Icon name="home"/>Main page</> : <><span class="context-label">{kind==='article'?'Article:':'Category:'}</span> {title}</>}
+      {kind==='home' ? <><Icon name="home"/>Main page</> : <><span class="context-label">{prefix}</span> {title}</>}
     </a>
     {categories.length>0 && <nav class="context-cats" aria-label="Article categories">
       <span class="context-label">{categoryLabel}</span>{categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</nav>}

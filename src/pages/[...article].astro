@@ -19,7 +19,7 @@ const correction=new URL(repo+'/issues/new');
 correction.search=new URLSearchParams({template:'article-correction.yml',article:origin+'/'+entry.id}).toString();
 ---
 <Frame kind="article" publicPath={'/'+entry.id} title={data.title} description={data.description} {categories} {outline} {href} {edit} {history}>
-  <div id="content" class:list={['article-sheet',data.layout]}><article id="bodyContent" aria-labelledby="firstHeading">
+  <div id="content" class:list={['article-sheet',data.layout,{'with-facts':data.facts}]}><article id="bodyContent" aria-labelledby="firstHeading">
     <div class="opening">
       <header class="article-head"><h1 id="firstHeading" tabindex="-1">{data.title}</h1></header>
       <div class="opening-copy">
@@ -28,14 +28,15 @@ correction.search=new URLSearchParams({template:'article-correction.yml',article
         <nav class="article-actions" aria-label="Article sources and corrections"><a href="#source-history">Sources and history</a><a href={correction.href}>Suggest a correction</a>
         {data.layout==='recipe' && <a href="#turn-save-and-reload">Jump to the player test</a>}</nav>
       </div>
-      {data.facts && <aside class="factbox" aria-label={data.title+' town facts'}>
-        <h2>{data.title}</h2><dl>{data.facts.map(([key,value,path])=><><dt>{key}</dt><dd>{path?<a href={href(path)}>{value}</a>:value}</dd></>)}</dl>
+      {data.facts && <aside class="factbox" aria-label={data.title+' facts'}>
+        <h2>{data.title}</h2><dl>{data.facts.map(([key,...parts])=><><dt>{key}</dt><dd>{parts.map(part=>Array.isArray(part)?<a href={href(part[1])}>{part[0]}</a>:part)}</dd></>)}</dl>
         {data.recordId && <><h3>Technical info</h3><dl><dt>Town ID</dt><dd><code>{data.recordId}</code></dd></dl></>}
       </aside>}
     </div>
     <div id="mw-content-text" class="article-body" set:html={body}/>
-    <div class="source-links"><a href={repo+'/blob/'+snapshot.revision+'/'+source}>Recorded Markdown</a><a href={history}>Article revision history</a><a href={correction.href}>Suggest a correction to this article</a></div>
+    <div class="source-links"><a href={repo+'/blob/'+(data.sourceRevision ?? snapshot.revision)+'/'+source}>Recorded Markdown</a><a href={history}>Article revision history</a><a href={correction.href}>Suggest a correction to this article</a></div>
     <nav id="catlinks" class="end-categories" aria-label="Page categories"><span id="mw-normal-catlinks">{categories.length===1?'Category':'Categories'}</span>
       {categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</nav>
   </article></div>
+  <script>import '../scripts/sort-table.js';</script>
 </Frame>

@@ -1,6 +1,7 @@
 ---
 import directory from '../data/directory.json';
 import Icon from './Icon.astro';
+import Outline from './Outline.astro';
 const { kind, outline, href } = Astro.props;
 ---
 <aside class="rail" id="left-navigation" aria-label="Wiki sidebar">
@@ -11,9 +12,7 @@ const { kind, outline, href } = Astro.props;
       <div class="primary-links">{['Gameplay','Guides','Modding'].map(t=><a href={href('/'+t.toLowerCase())}>{t}</a>)}</div>
     </nav>
     {outline.length>0 && <nav class="page-outline" aria-label="On this page"><details id="article-outline" open><summary>On this page</summary>
-      <ul>{outline.map(item=><li><a href={'#'+item.id}>{item.label}</a>
-        {item.children.length>0 && <details class="sub-outline"><summary aria-label={'Subsections of '+item.label}>Subsections</summary>
-          <ul>{item.children.map(sub=><li><a href={'#'+sub.id}>{sub.label}</a></li>)}</ul></details>}</li>)}</ul></details></nav>}
+      <Outline sections={outline}/></details></nav>}
     <nav class="topic-tree" aria-labelledby="tree-title"><h2 id="tree-title">Browse topics</h2>
       {directory.navigation.map(section=><details class="branch"><summary>{section.title}</summary><div class="twigs">
         {section.groups.map(g=><details class="twig"><summary>{g.title}</summary><ul>{g.links.map(l=><li><a href={href(l.href)}>{l.label}</a></li>)}</ul></details>)}</div></details>)}

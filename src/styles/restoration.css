@@ -14,12 +14,12 @@
 .article-sheet { width:100% }
 .opening { min-width:0 }
 .article-head { padding-top:8px }
-.town .opening { display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);grid-template-rows:auto 1fr;gap:0 18px;align-items:start }
-.town .article-head { grid-column:1;grid-row:1 }
-.town .opening-copy { grid-column:1;grid-row:2 }
-.town .factbox { grid-column:2;grid-row:1 / 3 }
+.with-facts .opening { display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);grid-template-rows:auto 1fr;gap:0 18px;align-items:start }
+.with-facts .article-head { grid-column:1;grid-row:1 }
+.with-facts .opening-copy { grid-column:1;grid-row:2 }
+.with-facts .factbox { grid-column:2;grid-row:1 / 3 }
 .article-sheet .lead-text p:first-child { font-size:1.06em }
-.town p { max-width:none }
+.town p, .with-facts .lead-text p { max-width:none }
 .town .article-body ul { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px 24px;max-width:80ch;padding-left:20px }
 .factbox { padding:0;overflow:hidden;font-size:14px }
 .factbox h2,.factbox h3 { text-align:center;margin:0;padding:5px 8px }
@@ -38,14 +38,14 @@
 }
 @media (max-width:760px) {
   .article-reading {padding:13px 16px 22px}
-  .town .opening {display:block}
+  .with-facts .opening {display:block}
   .article-head {padding-top:0}
   .factbox {margin:11px 0 16px}
   .factbox h2 {margin:0}
   .town .article-body ul {grid-template-columns:repeat(2,minmax(0,1fr))}
   .context-more summary {max-width:33vw;overflow:hidden}
 }
-@media print {.article-reading {padding:0}.town .opening {display:block}.factbox {max-width:300px}}
+@media print {.article-reading {padding:0}.with-facts .opening {display:block}.factbox {max-width:300px}}
 
 /* Keep the project and platform links on one line whenever they fit. */
 .site-chip { padding-inline:5px;gap:4px;font-size:12px }

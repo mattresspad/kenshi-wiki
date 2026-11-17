@@ -1,0 +1,14 @@
+---
+interface Section { id: string; label: string; children: Section[] }
+interface Props { sections: Section[] }
+const {sections} = Astro.props;
+---
+<ul>
+  {sections.map(section => <li>
+    <a href={'#' + section.id}>{section.label}</a>
+    {section.children.length > 0 && <details class="sub-outline">
+      <summary aria-label={'Subsections of ' + section.label}>Subsections</summary>
+      <Astro.self sections={section.children}/>
+    </details>}
+  </li>)}
+</ul>

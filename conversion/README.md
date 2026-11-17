@@ -1,6 +1,6 @@
 # Conversion ledger
 
-The source of record is [revision 0c9b434](https://github.com/mattresspad/kenshi-wiki/tree/0c9b4348592605169315b6dd613dde1c220d1237). Public main matched that revision at the first batch check on 16 November 2026. Reconcile it again before the restoration push.
+The current comparison is [83abc179](https://github.com/mattresspad/kenshi-wiki/commit/83abc179fafa63b826d7f2662c4a18a134a9e6c1). The first batch was frozen at [0c9b434](https://github.com/mattresspad/kenshi-wiki/tree/0c9b4348592605169315b6dd613dde1c220d1237). [Second batch and PR #43](second-batch.md). Reconcile public main again before the restoration push.
 
 | Imported category | Public category | Membership decision |
 |---|---|---|
@@ -9,12 +9,12 @@ The source of record is [revision 0c9b434](https://github.com/mattresspad/kenshi
 | Pages with non-numeric formatnum arguments | Excluded from reader navigation and the sitemap | The 51 affected articles stay in the inventory with their original category metadata. |
 | Locations | /category/locations | All 273 members, in the A–Z index. |
 
-The source records 2,183 articles, 202 original category names and 263 explicit redirects. After the mappings and exclusion, readers have 198 distinct categories and 4,118 distinct article memberships. An unrecognized category URL collision fails the build.
+The source records 2,184 articles, 202 original category names and 263 explicit redirects. After the mappings and exclusion, readers have 198 distinct categories and 4,119 distinct article memberships. An unrecognized category URL collision fails the build.
 
 Home and the two article interiors use the approved independent design brief. [Catun’s section ledger](catun.md) includes the held King Gurgler question. The saddle guide preserves Prd’s original content, first commit, evidence and sample-art credit. Both articles retain their original public paths.
 
-The build writes a human summary and a machine-readable per-URL ledger under reports. Pending rows keep their original paths and credits. The next editorial cases are The Holy Nation’s long outline and Backpacks’ tables. Preserve page-specific facts, qualifications, bookmarks, authorship and corrections as each article is accepted. Prd approves any intentional retirement.
+The build writes a human summary and a machine-readable per-URL ledger under reports. Pending rows keep their original paths and credits. The second batch covers The Holy Nation’s long outline and Backpacks’ tables. Preserve page-specific facts, qualifications, bookmarks, authorship and corrections as each article is accepted. Prd approves any intentional retirement.
 
 The restoration milestone requires final dispositions for all public URLs, reconciliation with live changes, cleared temporary links, a software license decision and a reviewed candidate. Record the good production Worker and source revision before the separate archive, branch swap and cutover.
 
-The frozen Holy Nation page has 38 article headings from History through References. The Backpacks page contains a 12-column table. These are the next outline and table regression cases.
+The frozen Holy Nation page has 38 article headings from History through References. The Backpacks page contains a 12-column table. These are now part of the browser and bookmark checks.
