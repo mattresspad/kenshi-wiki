@@ -61,5 +61,23 @@
       "/way-of-the-warrior-the-book-of-kral",
       "/white-eyebrow-clan"
     ]
+  },
+  {
+    "name": "infobox-variants",
+    "resolved": [
+      "/grayflayers",
+      "/skeleton-bandits"
+    ],
+    "introduced": [
+      "/category/grayflayers",
+      "/category/swamp-gangs",
+      "/category/swampers",
+      "/category/swamps",
+      "/letters-from-a-swamper",
+      "/p4-unit",
+      "/skeleton-grayflayer",
+      "/skeleton-mask",
+      "/upgraded-skeleton-guard"
+    ]
   }
 ]
