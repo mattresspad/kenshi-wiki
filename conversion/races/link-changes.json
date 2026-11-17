@@ -37,5 +37,30 @@
       "/visored-helmet",
       "/whistler"
     ]
+  },
+  {
+    "name": "race-structures",
+    "resolved": [
+      "/how-to-make-a-new-race",
+      "/races",
+      "/whistler"
+    ],
+    "introduced": [
+      "/armour-smith",
+      "/blunt",
+      "/category/character",
+      "/category/race",
+      "/crossbow-smith",
+      "/hackers",
+      "/hats",
+      "/katanas",
+      "/melee-attack",
+      "/melee-defence",
+      "/perception",
+      "/polearms-class",
+      "/precision-shooting",
+      "/sabres",
+      "/weapon-smith-skill"
+    ]
   }
 ]

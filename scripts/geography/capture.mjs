@@ -10,7 +10,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   const extra={
     'race-pilots':['greenlander#anatomy','hive-worker-drone#anatomy','skeleton-race#experience-multipliers'],
     'race-structures':['races','how-to-make-a-new-race','whistler'],
-    'race-siblings-1':['hive#references','hive-queen','deadhive-prince'],
+    'race-siblings-1':['hive#cite_note-1','hive-queen','deadhive-prince'],
     'race-siblings-2':['shek/health#anatomy','skeleton','category/races'],
     'major-factions':batch.ids,
     'infobox-variants':batch.ids,

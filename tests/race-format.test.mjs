@@ -15,3 +15,10 @@ test('race index scaffolding becomes lists while item tables retain captions and
  normalizeRaceTables($);assert.equal($('.race-index a').attr('href'),'/human');assert.equal($('table').length,1);
  assert.equal($('caption').text(),'Severed arm');assert.equal($('th[scope=row]').text(),'-Weight');assert.equal($('td').first().text(),'1kg');
 });
+
+import {prepareArticle} from '../src/lib/article.mjs';
+test('full article preparation keeps explicitly grouped column scopes',()=>{
+ const html='<table><tr><th>Species</th><th colspan="2">Human</th></tr><tr><th></th><th>Green</th><th>Scorch</th></tr><tr><td colspan="3">Movement</td></tr><tr><th>Speed</th><td>120</td><td>120</td></tr></table>';
+ const result=prepareArticle(html,{title:'Races',layout:'race',headingIds:{},bookmarks:{}},href=>href),$=load(result.body);
+ assert.equal($('th[scope=colgroup]').text(),'Human');assert.equal($('th[scope=rowgroup]').text(),'Movement');assert.equal($('.table-scroll[role=region]').length,1);
+});

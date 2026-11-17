@@ -63,3 +63,14 @@ for(const phone of [false,true])for(const theme of ['light','dark'])test.describ
   expect(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth)).toBe(0);
  });
 });
+
+for(const phone of [false,true])for(const theme of ['light','dark'])test.describe((phone?'phone':'desktop')+' Hive sources '+theme,()=>{
+ test.use({viewport:phone?{width:390,height:844}:{width:1440,height:900},colorScheme:theme});
+ test('citation goes to its note and returns with keyboard focus',async({page})=>{
+  test.skip(!included.has('hive'));
+  await page.goto('/hive?theme='+theme+'#cite_ref-1');
+  const ref=page.locator('[id="cite_ref-1"]'),note=page.locator('[id="cite_note-1"]');
+  await ref.getByRole('link').press('Enter');await expect(note).toBeFocused();await expect(note).toBeInViewport();
+  await note.locator('a[href="#cite_ref-1"]').press('Enter');await expect(ref).toBeFocused();await expect(ref).toBeInViewport();
+ });
+});

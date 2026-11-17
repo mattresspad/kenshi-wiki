@@ -38,7 +38,7 @@ export function prepareArticle(html, data, href) {
     node.before($('<span></span>').attr({id:old,class:'bookmark','aria-hidden':'true'}));
   }
   for (const block of $('pre code').toArray()) $(block).text($(block).text().replace(/\n$/, ''));
-  for (const header of $('table thead th').toArray()) $(header).attr('scope','col');
+  for (const header of $('table thead th:not([scope])').toArray()) $(header).attr('scope','col');
   for (const row of $('table tbody tr').toArray()) {
     const cell = $(row).children().first();
     if (!imported && cell.is('td') && !$(row).closest('.relations-table').length) {
