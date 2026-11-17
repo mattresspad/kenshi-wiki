@@ -163,6 +163,39 @@ for (const phone of [false,true]) for (const palette of ['light','dark']) {
       await byId(page,note).locator('a[href="#'+cite+'"]').focus();await page.keyboard.press('Enter');
       await expect(byId(page,cite)).toBeFocused();await visibleTarget(page,cite);
     });
+    test('the introductory and section talk quotes retain the words and original marker', async ({page}) => {
+      await page.goto(packs + '?theme=' + palette);
+      const tips = page.getByRole('note');
+      const expected = [
+        "If a character keeps food in his backpack then it will be automatically shared with the rest of the squad.",
+        "Backpacks are a good way to carry more stuff, but the larger ones will hinder you in combat.",
+        "If you don't have a backpack, you can feed your animals by dropping some food on the floor nearby.",
+        "You need to eat to survive. Your character simply needs food in his inventory in order to stay fed. Food in a backpack will be shared among the squad members."
+      ];
+      await expect(tips).toHaveText(expected.map(text => 'Loading screen tip: ' + text));
+      const first = page.locator('.article-head + .opening-copy .lead-text > .loading-tip:first-child');
+      await expect(first).toHaveText('Loading screen tip: ' + expected[0]);
+      await expect(first).toBeInViewport({ratio: 1});
+      await expect(first.locator('+ p')).toContainText('Backpacks are carrying equipment');
+      expect(await first.evaluate(el => Boolean(el.compareDocumentPosition(document.querySelector('.article-actions')) & Node.DOCUMENT_POSITION_FOLLOWING))).toBe(true);
+      const styles = await first.evaluate(async el => {
+        const rule = getComputedStyle(el);
+        const image = new Image();
+        image.src = new URL('/icons/talk.png', location.href);
+        await image.decode();
+        return {size: [image.naturalWidth, image.naturalHeight], image: rule.backgroundImage,
+          borders: [rule.borderLeftWidth, rule.borderRightWidth], brass: rule.borderLeftColor !== rule.borderRightColor};
+      });
+      expect(styles.size).toEqual([48, 32]);
+      expect(styles.image).toContain('/icons/talk.png');
+      expect(styles.borders).toEqual(['3px', '1px']);
+      expect(styles.brass).toBe(true);
+      await page.goto(packs + '?theme=' + palette + '#loading-screen-tips');
+      const section = page.locator('#loading-screen-tips ~ .loading-tip');
+      await expect(section).toHaveText(expected.slice(1).map(text => 'Loading screen tip: ' + text));
+      await expect(section.last()).toBeInViewport({ratio: 1});
+      expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth)).toBe(0);
+    });
     test('table sorting, horizontal navigation and a linked header',async({page})=>{
       await page.goto(packs+'?theme='+palette+'#types-of-backpacks');
       const region=page.getByRole('region',{name:'Backpack comparison'}),table=region.getByRole('table');

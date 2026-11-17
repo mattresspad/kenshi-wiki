@@ -10,6 +10,8 @@ headingIds:
   sources-and-history: source-history
 ---
 
+<div class="notice loading-tip" role="note"><span class="loading-tip-label visually-hidden">Loading screen tip:</span> If a character keeps food in his backpack then it will be automatically shared with the rest of the squad.</div>
+
 **Backpacks** are carrying equipment worn on the back. Equipping one gives a character extra space and can reduce combat stats. Some bags also let the wearer stack [Trade Goods](/trade-goods) that would normally occupy separate slots.
 
 Garru and Bull backpacks apply the stack multiplier directly. Trader and Wooden backpacks first raise smaller stacks to a minimum size (2 for Trader and 3 for Wooden), then multiply the stack size by 3.
@@ -44,13 +46,11 @@ Occasionally you can find some of the animal Backpacks, Scavenger Basket and the
 
 ## Loading screen tips
 
-<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> If a character keeps food in his backpack then it will be automatically shared with the rest of the squad.</div>
+<div class="notice loading-tip" role="note"><span class="loading-tip-label visually-hidden">Loading screen tip:</span> Backpacks are a good way to carry more stuff, but the larger ones will hinder you in combat.</div>
 
-<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> Backpacks are a good way to carry more stuff, but the larger ones will hinder you in combat.</div>
+<div class="notice loading-tip" role="note"><span class="loading-tip-label visually-hidden">Loading screen tip:</span> If you don't have a backpack, you can feed your animals by dropping some food on the floor nearby.</div>
 
-<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> If you don't have a backpack, you can feed your animals by dropping some food on the floor nearby.</div>
-
-<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> You need to eat to survive. Your character simply needs food in his inventory in order to stay fed. Food in a backpack will be shared among the squad members.</div>
+<div class="notice loading-tip" role="note"><span class="loading-tip-label visually-hidden">Loading screen tip:</span> You need to eat to survive. Your character simply needs food in his inventory in order to stay fed. Food in a backpack will be shared among the squad members.</div>
 
 ## History
 

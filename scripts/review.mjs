@@ -59,6 +59,18 @@ async function showTable(page, size, theme) {
     await capture(page,'backpacks',size,theme,'table','All twelve desktop columns');
   }
 }
+async function showTips(page, size, theme) {
+  const url = preview('/backpacks', theme);
+  await page.goto(url);
+  await page.evaluate(async () => {
+    const icon = new Image();
+    icon.src = '/icons/talk.png';
+    await Promise.all([icon.decode(), document.fonts.ready]);
+  });
+  await capture(page, 'backpacks', size, theme, 'opening-tip', 'Food-sharing tip beneath the Backpacks title');
+  await page.locator('#loading-screen-tips').evaluate(heading => heading.scrollIntoView({block: 'start'}));
+  await capture(page, 'backpacks', size, theme, 'loading-tips', 'Three loading screen tips after the comparison table');
+}
 try {
   for(const size of sizes)for(const theme of palettes){
     const context=await browser.newContext({viewport:{width:size.width,height:size.height},deviceScaleFactor:1,colorScheme:theme,hasTouch:size.id==='phone'});
@@ -94,7 +106,7 @@ try {
       await page.screenshot({path:'reports/'+file(id,size,theme),animations:'disabled'});
       metrics.push({id,theme,size:size.id,...measured});
     }
-    if(size.id!=='wide') {await showOutline(page,size,theme);await showTable(page,size,theme);}
+    if(size.id!=='wide') {await showOutline(page,size,theme);await showTable(page,size,theme);await showTips(page,size,theme);}
     await context.close();
   }
   assert.deepEqual(errors,[]);
@@ -105,14 +117,18 @@ const sections=pages.map(([id,title,path])=>{
     const src=file(id,size,theme);
     return '<figure><a href="'+src+'"><img loading="lazy" width="'+size.width+'" height="'+size.height+'" src="'+src+'" alt="'+title+' in '+theme+' at '+size.width+' pixels"></a><figcaption>'+size.width+' × '+size.height+'</figcaption></figure>';
   }).join('')+'</div></details>').join('');
-  const detail=interactions.filter(shot=>shot.section===id);
-  const extra=detail.length?'<div class="detail-shots">'+detail.map(shot=>'<figure><a href="'+shot.src+'"><img loading="lazy" width="'+shot.width+'" height="'+shot.height+'" src="'+shot.src+'" alt="'+shot.caption+' in '+shot.theme+'"></a><figcaption>'+shot.caption+' · '+shot.width+' px · '+shot.theme+'</figcaption></figure>').join('')+'</div>':'';
+  const detail = interactions.filter(shot => shot.section === id);
+  const isTip = shot => /-(opening-tip|loading-tips)\.png$/.test(shot.src);
+  const figures = shots => shots.map(shot => '<figure><a href="'+shot.src+'"><img loading="lazy" width="'+shot.width+'" height="'+shot.height+'" src="'+shot.src+'" alt="'+shot.caption+' in '+shot.theme+'"></a><figcaption>'+shot.caption+' · '+shot.width+' px · '+shot.theme+'</figcaption></figure>').join('');
+  const gallery = shots => shots.length ? '<div class="detail-shots">'+figures(shots)+'</div>' : '';
+  const quotes = detail.filter(isTip);
+  const extra = gallery(detail.filter(shot => !isTip(shot))) + (quotes.length ? '<h3 id="backpack-tips">Backpacks talk quotes</h3>'+gallery(quotes) : '');
   return '<section id="'+id+'"><h2>'+title+'</h2><p><a href="'+preview(path,'light')+'">Open in light</a> · <a href="'+preview(path,'dark')+'">Open in dark</a></p>'+variants+extra+'</section>';
 }).join('');
 const routeReport=readFileSync('reports/route-report.md','utf8');
 const html='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Kenshi Wiki restoration review</title><style>'+
 'body{margin:0 auto;max-width:1220px;padding:16px clamp(14px,3vw,40px);background:#faf8f1;color:#282923;font:16px/1.5 "Segoe UI",sans-serif}.detail-shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:12px;margin:12px 0}.detail-shots img{object-fit:contain;max-height:330px;width:auto;max-width:100%}h1{font:600 36px Cambria,Georgia,serif;margin:10px 0}h2{margin:22px 0 5px;border-bottom:1px solid #ada898}nav{display:flex;flex-wrap:wrap;gap:6px 15px}a{color:#244f74}summary{cursor:pointer;font-weight:600;padding-block:4px}figure{margin:0}img{display:block;width:100%;height:auto;border:1px solid #b9b4a6}figcaption{font-size:13px}.shots{display:grid;grid-template-columns:2fr 1.5fr .42fr;gap:12px;align-items:start}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#eeece2;padding:12px}a:focus-visible,summary:focus-visible{outline:2px solid #0d6277;outline-offset:2px}@media(max-width:650px){.shots{grid-template-columns:1fr 1fr}.shots figure:last-child{max-width:145px}}'+
-'</style></head><body><h1>Kenshi Wiki restoration review</h1><p>Open a page to use the rail and article links. Select a screenshot for the full-size capture.</p><nav>'+pages.map(([id,title])=>'<a href="#'+id+'">'+title+'</a>').join('')+'<a href="#report">Route report</a></nav>'+sections+
+'</style></head><body><h1>Kenshi Wiki restoration review</h1><p>Open a page to use the rail and article links. Select a screenshot for the full-size capture.</p><nav>'+pages.map(([id,title])=>'<a href="#'+id+'">'+title+'</a>').join('')+'<a href="#backpack-tips">Backpacks talk quotes</a><a href="#report">Route report</a></nav>'+sections+
 '<section id="report"><h2>Route report</h2><p><a href="routes.json">Per-URL ledger</a> · <a href="viewports.json">Browser measurements</a> · <a href="route-report.md">Markdown report</a></p><pre>'+routeReport.replaceAll('&','&amp;').replaceAll('<','&lt;')+'</pre></section></body></html>';
 writeFileSync('reports/index.html',html);
 console.log(metrics.length+' viewport screenshots and '+interactions.length+' interaction screenshots in reports/previews');

@@ -41,7 +41,8 @@ export function prepareArticle(html, data, href) {
   }
   const intro = [];
   for (const el of $.root().children().toArray()) {
-    if (el.tagName !== 'p') break;
+    const openingTip = intro.length === 0 && $(el).is('.loading-tip');
+    if (el.tagName !== 'p' && !openingTip) break;
     intro.push($.html(el));
     $(el).remove();
   }

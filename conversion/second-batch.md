@@ -5,7 +5,7 @@ The comparison revision is [83abc179](https://github.com/mattresspad/kenshi-wiki
 | Article | Conversion decision |
 |---|---|
 | The Holy Nation | Retain all 38 section IDs, including the six fourth-level headings. Keep the 223 citation markers, 211 notes, and each return link. Move the opening quotation below the introduction. Give the four faction facts a panel and keep the original qualifications. Convert the layout tables around zones, towns and world states to prose and lists inside their original disclosures. Retain Fandom revision 95303 and Git history. |
-| Backpacks | Keep all 13 rows, 12 columns, item links, 13 inventory icons and numerical sort overrides in their original order. Move the introductory food-sharing tip into Loading screen tips. Place the existing Old World observation under History. Retain Fandom revision 91761 and all four section bookmarks. |
+| Backpacks | Keep all 13 rows, 12 columns, item links, 13 inventory icons and numerical sort overrides in their original order. The food-sharing tip opens the article. The other three tips retain their Loading screen tips bookmark. Place the existing Old World observation under History. Retain Fandom revision 91761 and all four section bookmarks. |
 | Blender plugins | Preserve teppuM’s original comparison, three plugin destinations, tested Blender builds, November 2026 date and untested Lo-Fi plugin qualification. Retain original [commit 7c0a654](https://github.com/mattresspad/kenshi-wiki/commit/7c0a6547fdfd7868d976f1189b2889dad68f12ae) and CC BY-SA 4.0. |
 
 ## PR #43

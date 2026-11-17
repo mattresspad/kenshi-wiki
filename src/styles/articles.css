@@ -105,8 +105,15 @@
 .reference .references { max-width: 91ch }
 .reference .references li { overflow-wrap: anywhere; margin-block-end: 4px }
 .reference :is(sup, .references li):target { background: var(--hover) }
-.article-sheet .notice.loading-tip { max-width: 79ch; margin-block: 10px; padding: 7px 11px; background: var(--cell); border-inline-start: 2px solid var(--brass) }
-.loading-tip-label { font-weight: 650 }
+.article-sheet .loading-tip {
+  min-height: 50px;
+  align-content: center;
+  margin-block: 10px;
+  padding: 8px 13px 8px 72px;
+  border: 1px solid var(--edge);
+  border-inline-start: 3px solid var(--brass);
+  background: var(--cell) url("/icons/talk.png") 12px center / 48px 32px no-repeat;
+}
 .reference .collapsible { max-width: 83ch; margin: 9px 0 }
 .reference :is(.collapsible,.comparison) > summary { width: fit-content; cursor: pointer; color: var(--link); padding-block: 4px }
 .portal ul { list-style: none; padding: 0; max-width: 74ch }
