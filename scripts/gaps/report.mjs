@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdirSync,existsSync} from 'node:fs';
 import {join} from 'node:path';
-import {families} from '../conversion/batches.mjs';
+import {families,selectedIds} from '../conversion/batches.mjs';
 import {validateResolution} from './core.mjs';
 import {snapshot,origin} from '../../src/lib/catalog.mjs';
 import {discover,regressions,extractPage,targetOf,digest} from './core.mjs';
@@ -79,10 +79,15 @@ export function reportGaps(atlas,articleReviews={}) {
       occurrences,families:[...new Set(occurrences.flatMap(o=>familyOf(o.pageId)))].sort(),affectedPages:[...new Set(occurrences.map(o=>o.pageId))]};
   });
   rows.sort((a,b)=>a.priority.localeCompare(b.priority)||a.target.localeCompare(b.target)||a.kind.localeCompare(b.kind));
+  const formattedIds=new Set(Object.keys(families).flatMap(f=>[...selectedIds(f)]));
+  const closureFile='conversion/gaps/resolutions.json';
+  const resolutionHistory=existsSync(closureFile)?JSON.parse(readFileSync(closureFile)).records:[];
   const coverage=snapshot.articles.map(a=>({
     id:a.id,path:a.path,sourceFile:a.sourceFile,sourceRevision:a.sourceRevision,
     sourceSha256:sourcePages.get(a.id).sourceSha256,automatedSourceAudit:'complete',
     transferred:!!atlas.byId.get(a.id).filePath,
+    formatChecked:formattedIds.has(a.id)||!!articleReviews[a.id]?.formatCheck,
+    existenceContentOrganizationReview:articleReviews[a.id]?.editorialReview?'recorded':'pending',
     editorialReview:articleReviews[a.id]?.editorialReview??null,
     originalMediaComparison:'unassessed'
   }));
@@ -90,7 +95,7 @@ export function reportGaps(atlas,articleReviews={}) {
   const result={revision:snapshot.revision,scope:{sourceArticles:2184,sourcePages:baseline.pages.length,currentPages:local.size,
       audit:'Internal routes, fragments, reference labels, empty sections and declared media. Original Fandom media coverage and external website availability require separate investigation.'},
     counts:{kind:count('kind'),classification:count('classification'),status:count('status')},
-    currentProblems,coverage,findings:rows,sourcePages:baseline.pages.map(({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256})=>({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256}))};
+    currentProblems,coverage,resolutionHistory,findings:rows,sourcePages:baseline.pages.map(({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256})=>({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256}))};
   const folder='reports/gaps';mkdirSync(folder,{recursive:true});
   writeFileSync(join(folder,'register.json'),JSON.stringify(result,null,2)+'\n');
   writeFileSync(join(folder,'coverage.json'),JSON.stringify(coverage,null,2)+'\n');

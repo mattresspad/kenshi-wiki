@@ -5,6 +5,7 @@ The frozen comparison is 83abc179fafa63b826d7f2662c4a18a134a9e6c1. The source gr
 ## Evidence and investigation
 
 - source.json is extracted evidence: registered destinations, redirects, every source page's original file and revision, SHA-256 hashes, rendered IDs, link/media occurrences and empty sections. Only regeneration needs the comparison checkout; builds read checked-in data.
+- resolutions.json retains accepted closure records and their observed route/media/restored-section evidence. The current report includes this history even as later batches add findings.
 - register.json holds durable investigation notes. Findings are keyed by destination and exact fragment, or by media URL, missing-page label, empty section or curated claim. Shared targets retain every affected article and repeated literal occurrence.
 - book-import-evidence.json preserves the earlier lore-book investigation's metadata, original revision links, extraction counts and checksums. It does not claim a new Fandom fetch or reproduce the books.
 - The report joins occurrences to their source file and pinned revision. Exact source lines are recorded when a literal link occurs once; repeated links retain the precise rendered element ordinal and containing section. Do not pretend a guessed Markdown line is exact.
