@@ -1,16 +1,13 @@
 ---
+articleId: the-holy-nation
 title: The Holy Nation
 description: The Holy Nation is an Okranite theocracy based in Blister Hill. Learn which towns it controls and how its patrols treat travelers of different races.
 categories:
   - Factions
   - Holy Nation
 layout: reference
-credit: Kenshi Wiki’s Fandom contributors
-license: "3.0"
-originalCommit: 8c5792c58951a4b99c04a0c2e71900d8b75fc603
 headingIds:
   sources-and-history: source-history
-fandomRevision: 95303
 facts:
   - - Faction HQ
     - - Blister Hill

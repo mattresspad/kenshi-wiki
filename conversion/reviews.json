@@ -1,0 +1,34 @@
+{
+  "articles": {
+    "catun": {
+      "formatCheck": "tests/reader.spec.mjs",
+      "editorialReview": "conversion/catun.md"
+    },
+    "modding/meitou/make-a-saddle-pack": {
+      "formatCheck": "tests/reader.spec.mjs",
+      "editorialReview": "conversion/README.md"
+    },
+    "the-holy-nation": {
+      "formatCheck": "tests/restoration.spec.mjs",
+      "editorialReview": "conversion/second-batch.md"
+    },
+    "backpacks": {
+      "formatCheck": "tests/restoration.spec.mjs",
+      "editorialReview": "conversion/second-batch.md"
+    },
+    "modding/blender-plugins": {
+      "formatCheck": "tests/restoration.spec.mjs",
+      "editorialReview": "conversion/second-batch.md"
+    }
+  },
+  "mediaGaps": [
+    {
+      "articleId": "catun",
+      "section": "Gallery",
+      "status": "Needs source comparison",
+      "observation": "The imported Gallery is empty. Its former images and credits require verification against the original revision.",
+      "source": "https://kenshi.fandom.com/wiki/Catun?oldid=93167",
+      "evidence": "conversion/catun.md"
+    }
+  ]
+}

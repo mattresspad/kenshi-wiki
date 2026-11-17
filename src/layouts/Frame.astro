@@ -1,11 +1,15 @@
 ---
 import Header from '../components/Header.astro';
 import Sidebar from '../components/Sidebar.astro';
-import {origin, repo} from '../lib/catalog.mjs';
+import {origin, repo, snapshot} from '../lib/catalog.mjs';
+import {editableSource, recordedSource} from '../lib/page-source.mjs';
 import '../styles/frame.css';
 import '../styles/articles.css';
 import '../styles/restoration.css';
-const {kind='home',title,description,href,outline=[],categories=[],edit=repo+'/edit/main/src/pages/index.astro',history=repo+'/commits/main/src/pages/index.astro'}=Astro.props;
+const {kind='home',title,description,href,outline=[],categories=[],editableFile='src/data/directory.json',history=recordedSource('src/pages/index.astro',snapshot.revision).history}=Astro.props;
+const branch = import.meta.env.WIKI_EDIT_BRANCH?.trim();
+const edit = editableSource(editableFile, branch);
+const recent = repo + '/commits/' + (branch || 'main') + '/';
 const path=Astro.props.publicPath ?? '/';
 const siteData={'@context':'https://schema.org','@type':'WebSite',name:'Kenshi Wiki',alternateName:'kenshi.wiki',url:origin+'/'};
 ---
@@ -21,7 +25,7 @@ const siteData={'@context':'https://schema.org','@type':'WebSite',name:'Kenshi W
 </head><body>
 <a class="skip-to" href="#reading">Skip to wiki content</a>
 <div class="frame" id="frame">
-  <Header {kind} {title} {categories} {href} {edit} {history}/>
+  <Header {kind} {title} {categories} {href} {edit} {history} {recent}/>
   <Sidebar {kind} {outline} {href}/>
   <button type="button" class="scrim" id="scrim" tabindex="-1" aria-label="Dismiss navigation" hidden></button>
   <main id="reading" class:list={['reading',kind+'-reading']} tabindex="-1" aria-label="Wiki content"><slot/></main>

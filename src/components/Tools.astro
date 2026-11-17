@@ -1,9 +1,16 @@
 ---
 import Icon from './Icon.astro';
-const { edit, history, compact=false, href } = Astro.props;
+const {edit, history, recent, compact = false, href} = Astro.props;
 ---
 <button type="button" class="theme-control"><Icon name="sun"/><Icon name="moon"/><span class="theme-caption">Theme</span></button>
 <a href={href('/contributors')}><Icon name="people"/>Contributors</a>
-<a href={edit}><span class="mask-icon" style="--icon:url('/icons/github.svg')" aria-hidden="true"></span>Edit on GitHub</a>
-{compact && <><a href="https://github.com/mattresspad/kenshi-wiki/commits/main/"><Icon name="pulse"/>Recent changes</a>
+{edit.url ? <a href={edit.url}><span class="mask-icon" style="--icon:url('/icons/github.svg')" aria-hidden="true"></span>Edit on GitHub</a> :
+  <details class="edit-file">
+    <summary>Copy file path</summary>
+    <div class="edit-panel">
+      <code>{edit.file}</code>
+      <button type="button" data-copy-file hidden>Copy</button><span role="status"></span>
+    </div>
+  </details>}
+{compact && <><a href={recent}><Icon name="pulse"/>Recent changes</a>
 <a href={history}><Icon name="clock"/>View history</a></>}

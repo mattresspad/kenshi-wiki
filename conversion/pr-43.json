@@ -13,7 +13,8 @@
       ],
       "added": [
         "1)    Blender 4.0 (December 2024) with [Kenshi\\_IO\\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) (the official one is outdated). For newer Blender versions, see [Blender plugins](/modding/blender-plugins)."
-      ]
+      ],
+      "articleId": "creating-a-rideable-animal/vehicle"
     },
     {
       "article": "/making-animations-basics",
@@ -22,7 +23,8 @@
       "removed": [],
       "added": [
         "-   Re-exporting the game's existing animations through any current [Blender plugin](/modding/blender-plugins) shifts fast moves by a few degrees, and by 20 to 70 degrees in the worst cases. Make new animations rather than round-tripping vanilla ones you want to keep exact."
-      ]
+      ],
+      "articleId": "making-animations-basics"
     },
     {
       "article": "/making-custom-ragdoll",
@@ -33,7 +35,8 @@
       ],
       "added": [
         "1.  Export your skeleton using [Kenshi\\_IO\\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) for Blender (replaces Kenshi import/export plugin). You need Blender 4.0. For newer Blender versions, see [Blender plugins](/modding/blender-plugins).  "
-      ]
+      ],
+      "articleId": "making-custom-ragdoll"
     },
     {
       "article": "/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading",
@@ -44,7 +47,8 @@
       ],
       "added": [
         "WIP This tutorial is a sub page for the skin making page. DO NOTE: if you used the wrong Blender & plugin combination, it can also result a mesh not shading properly. Blender 4.0 and [Kindrad's plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) is recommended. For newer Blender versions, see [Blender plugins](/modding/blender-plugins)."
-      ]
+      ],
+      "articleId": "why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading"
     }
   ]
 }

@@ -187,3 +187,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
   .link-pair { column-gap: 6px }
 }
 @media(prefers-reduced-motion:reduce) { .link-pair a { transition: none } }
+
+.edit-file { position: relative }
+.edit-file > summary { list-style: none; padding: 6px 7px; white-space: nowrap; border-radius: 2px }
+.edit-file > summary::-webkit-details-marker { display: none }
+.edit-panel {
+  position: absolute; z-index: 26; inset-inline-end: 0; top: 100%; width: min(26rem, 80vw);
+  padding: 10px; background: var(--pop); border: 1px solid var(--edge); box-shadow: 0 3px 8px var(--shade);
+}
+.edit-panel code { display: block; overflow-wrap: anywhere; user-select: all; font-size: .87rem; font-weight: 400 }
+.edit-panel button { margin: 5px 5px 0 0; border: 1px solid var(--edge); background: var(--cell); border-radius: 2px }
+.small-tools .edit-file > summary { text-align: left }
+.small-tools .edit-panel { position: static; width: min(18rem, 68vw); box-shadow: none }
+.small-tools .edit-panel button { width: auto }

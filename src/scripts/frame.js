@@ -11,7 +11,23 @@ const systemDark = matchMedia('(prefers-color-scheme: dark)');
 const pageTheme = document.documentElement;
 const more = document.getElementById('site-more');
 const toolsMenu = document.getElementById('tools');
-const headerPopups = [more, toolsMenu, document.getElementById('article-tools')].filter(Boolean);
+const headerPopups = [more, toolsMenu, document.getElementById('article-tools'), ...document.querySelectorAll('details.edit-file')].filter(Boolean);
+for (const editor of document.querySelectorAll('details.edit-file')) {
+  const copy = editor.querySelector('[data-copy-file]');
+  const status = editor.querySelector('[role=status]');
+  if (navigator.clipboard?.writeText) {
+    copy.hidden = false;
+    copy.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(editor.querySelector('code').textContent);
+        status.textContent = 'Copied';
+      } catch {
+        status.textContent = 'Select the path to copy it.';
+      }
+    });
+  }
+  editor.addEventListener('toggle', () => { if (!editor.open) status.textContent = ''; });
+}
 let desktopOpen = true;
 let drawerOpen = false;
 let chosenTheme = new URLSearchParams(location.search).get('theme');
@@ -129,7 +145,8 @@ function visibleInDrawer(element) {
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') {
     if (!settings.hidden) { event.preventDefault(); closeSettings(true); return; }
-    const popup = headerPopups.find(item => item.open);
+    const openPopups = headerPopups.filter(item => item.open);
+    const popup = openPopups.filter(item => item.contains(document.activeElement)).at(-1) ?? openPopups[0];
     if (popup) { event.preventDefault(); popup.open = false; popup.querySelector('summary').focus(); return; }
     if (phone.matches && drawerOpen) { event.preventDefault(); closeDrawer(); }
   }
@@ -141,7 +158,11 @@ document.addEventListener('keydown', (event) => {
 });
 for (const popup of headerPopups) {
   popup.addEventListener('toggle', () => {
-    if (popup.open) for (const other of headerPopups) if (other !== popup) other.open = false;
+    if (popup.open) {
+      for (const other of headerPopups) if (!other.contains(popup) && !popup.contains(other)) other.open = false;
+    } else {
+      for (const child of popup.querySelectorAll('details[open]')) child.open = false;
+    }
   });
 }
 for (const eventName of ['pointerdown','focusin']) {

@@ -1,12 +1,10 @@
 ---
+articleId: modding/blender-plugins
 title: Blender plugins
 description: Which Blender plugins import and export Kenshi models, skeletons, animations and collision, which Blender versions each works in, and the settings and problems to know about.
 categories:
   - Modding
 layout: reference
-credit: teppuM
-license: "4.0"
-originalCommit: 7c0a6547fdfd7868d976f1189b2889dad68f12ae
 headingIds:
   sources-and-history: source-history
 ---

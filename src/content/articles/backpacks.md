@@ -1,16 +1,13 @@
 ---
+articleId: backpacks
 title: Backpacks
 description: Compare the capacity, weight, price and combat penalties of 13 backpacks in Kenshi, and see how stacking and squad food sharing work.
 categories:
   - Equipment
   - Weapons
 layout: reference
-credit: Kenshi Wiki’s Fandom contributors
-license: "3.0"
-originalCommit: 8c5792c58951a4b99c04a0c2e71900d8b75fc603
 headingIds:
   sources-and-history: source-history
-fandomRevision: 91761
 ---
 
 **Backpacks** are carrying equipment worn on the back. Equipping one gives a character extra space and can reduce combat stats. Some bags also let the wearer stack [Trade Goods](/trade-goods) that would normally occupy separate slots.

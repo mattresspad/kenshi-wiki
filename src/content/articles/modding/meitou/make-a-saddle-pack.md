@@ -1,11 +1,8 @@
 ---
+articleId: modding/meitou/make-a-saddle-pack
 title: "Make a saddle pack for Meitou"
 description: "Give the Wandering Trader’s Pack Bull a riding fit, package it as a separate Kenshi mod, and test the ZIP on a clean Meitou profile."
 layout: recipe
-credit: Prd (mattresspad)
-license: '4.0'
-sourceRevision: 0c9b4348592605169315b6dd613dde1c220d1237
-originalCommit: 1ce0ec1c8121874779541500e38f25c2912e12d4
 headingIds:
   sources-and-history: source-history
   the-fitting-file: transport-json

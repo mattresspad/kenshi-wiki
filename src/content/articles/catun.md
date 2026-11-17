@@ -1,13 +1,9 @@
 ---
+articleId: catun
 title: Catun
 description: Find Catun in the Bonefields, see who controls it, and compare its shops, properties and Fishmen takeover.
 layout: town
 categories: [Article stubs, Locations, United Cities]
-credit: Kenshi Wiki’s Fandom contributors
-license: '3.0'
-sourceRevision: 0c9b4348592605169315b6dd613dde1c220d1237
-originalCommit: 8c5792c58951a4b99c04a0c2e71900d8b75fc603
-fandomRevision: 93167
 facts:
   - [Region, [Bonefields, /bonefields]]
   - [Control, [United Cities, /united-cities]]

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/package.mjs && node scripts/report.mjs",
+    "build": "node scripts/check-articles.mjs && astro build && node scripts/package.mjs && node scripts/report.mjs",
     "preview": "node scripts/preview.mjs",
     "test": "playwright test",
     "test:catalog": "node --test tests/catalog.test.mjs",

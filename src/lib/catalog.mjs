@@ -3,7 +3,7 @@ import snapshot from '../../conversion/reference.json' with { type: 'json' };
 
 export { snapshot, policy };
 export const origin = 'https://kenshi.wiki';
-export const repo = 'https://github.com/mattresspad/kenshi-wiki';
+export {repo} from './page-source.mjs';
 
 export function categoryPath(name) {
   const segments = name.replaceAll(': ', ' ').split(/[:/]/u);
@@ -18,9 +18,50 @@ export function displayCategories(raw) {
   return Array.from(new Set(names));
 }
 
-export function buildCatalog(reviewed = []) {
-  const articles = new Map(snapshot.articles.map(a => [a.path, a]));
-  for (const entry of reviewed) articles.set(entry.path, entry);
+function claim(map, key, owner) {
+  if (!key || map.has(key)) throw Error('Missing or duplicate ' + owner + ' [' + key + '], already held by ' + map.get(key));
+  map.set(key, owner);
+}
+
+export function buildCatalog(entries = [], reference = snapshot, deployedRedirects = []) {
+  const byId = new Map();
+  const articles = new Map();
+  const publicPaths = new Map();
+  const sourceFiles = new Map();
+  for (const path of [...reference.portals, ...reference.utilities, ...reference.endpoints]) claim(publicPaths, path, 'non-article route');
+  for (const name of Object.keys(policy.excluded)) claim(publicPaths, categoryPath(name), 'excluded category');
+  const redirects = new Map();
+  for (const rule of reference.redirects) {
+    if (redirects.has(rule.from)) throw Error('Duplicate redirect source: ' + rule.from);
+    redirects.set(rule.from, rule.to);
+  }
+  for (const rule of deployedRedirects) {
+    if (redirects.has(rule.from) && redirects.get(rule.from) !== rule.to) throw Error('Redirect conflict at ' + rule.from);
+    redirects.set(rule.from, rule.to);
+  }
+  for (const from of redirects.keys()) claim(publicPaths, from, 'redirect');
+  for (const record of reference.articles) {
+    const {id, path, sourceFile, sourceRevision} = record;
+    if (typeof id !== 'string' || !id.trim() || byId.has(id)) throw Error('Missing or duplicate article ID: ' + id);
+    if (typeof path !== 'string' || !/^\/[a-z0-9.-]+(?:\/[a-z0-9.-]+)*$/.test(path) ||
+        path.endsWith('.html') || new URL(path, origin).pathname !== path) throw Error('Invalid canonical path for ' + id);
+    if (!sourceFile?.startsWith('src/content/wiki/') || !sourceFile.endsWith('.md') || sourceFile.split('/').includes('..') ||
+        !/^[a-f0-9]{40}$/.test(sourceRevision) || !record.credit || !record.license) throw Error('Missing source mapping for ' + id);
+    claim(sourceFiles, sourceFile, 'original source');
+    claim(publicPaths, path, 'article ' + id);
+    const article = {...record, filePath: null};
+    byId.set(id, article);
+    articles.set(path, article);
+  }
+  const editableFiles = new Map();
+  for (const {id, filePath, data} of entries) {
+    const article = byId.get(id);
+    if (!article || data.articleId !== id) throw Error('Unregistered article ID ' + id + ' in ' + filePath);
+    if (article.filePath) throw Error('Duplicate editable article ID ' + id + ' in ' + article.filePath + ' and ' + filePath);
+    if (!filePath?.startsWith('src/content/articles/') || !filePath.endsWith('.md') || filePath.split('/').includes('..')) throw Error('Invalid editable file for ' + id);
+    claim(editableFiles, filePath.toLowerCase(), 'editable file');
+    Object.assign(article, {filePath, title: data.title, categories: data.categories});
+  }
   const categories = new Map();
   const slugOwners = new Map();
   for (const article of articles.values()) {
@@ -29,6 +70,7 @@ export function buildCatalog(reviewed = []) {
         const path = categoryPath(name);
         if (slugOwners.has(path)) throw Error('Unmapped category collision: ' + name + ' / ' + slugOwners.get(path));
         slugOwners.set(path, name);
+        claim(publicPaths, path, 'category ' + name);
         categories.set(name, {name, path, members: []});
       }
       categories.get(name).members.push({path:article.path, title:article.title});
@@ -37,13 +79,21 @@ export function buildCatalog(reviewed = []) {
   const compare = new Intl.Collator('en', {numeric:true, sensitivity:'base'});
   for (const group of categories.values()) group.members.sort((a,b) =>
     compare.compare(a.title,b.title) || a.path.localeCompare(b.path,'en'));
-  const local = new Set(['/', ...reviewed.map(a=>a.path), ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals]);
+  const local = new Set(['/', ...entries.map(e => byId.get(e.id).path), ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals]);
+  const searchTitles = [
+    ['About Kenshi', '/about-kenshi'], ['Contributors', '/contributors'],
+    ...[...articles.values()].map(a => [a.title, a.path]),
+    ...reference.portals.map(path => [path.slice(1,2).toUpperCase() + path.slice(2), path])
+  ];
   function href(path) {
     if (!path.startsWith('/') || path.startsWith('//')) return path;
     const plain = path.split(/[?#]/,1)[0];
-    return local.has(plain) ? path : origin + path;
+    if (local.has(plain)) return path;
+    const destination = redirects.get(plain);
+    if (destination && local.has(destination)) return destination + path.slice(plain.length);
+    return origin + path;
   }
-  return {articles, categories, local, href};
+  return {articles, byId, categories, local, href, searchTitles};
 }
 
 export function letterGroups(members) {

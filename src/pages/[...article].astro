@@ -1,31 +1,33 @@
 ---
 import Frame from '../layouts/Frame.astro';
 import {readWiki} from '../lib/wiki';
-import {categoryPath, displayCategories, origin, repo, snapshot} from '../lib/catalog.mjs';
+import {categoryPath, displayCategories, origin, snapshot} from '../lib/catalog.mjs';
+import {recordedSource, correctionLink} from '../lib/page-source.mjs';
 import {prepareArticle} from '../lib/article.mjs';
 export async function getStaticPaths() {
-  const {entries} = await readWiki();
-  return entries.map(entry=>({params:{article:entry.id},props:{entry}}));
+  const {entries, byId} = await readWiki();
+  return entries.map(entry => {
+    const article = byId.get(entry.id);
+    return {params:{article:article.path.slice(1)}, props:{entry, article}};
+  });
 }
-const {entry}=Astro.props;
+const {entry,article}=Astro.props;
 const {href}=await readWiki();
 const data=entry.data;
 const {intro,body,outline}=prepareArticle(entry.rendered?.html,data,href);
 const categories=displayCategories(data.categories);
-const source='src/content/wiki/'+entry.id+'.md';
-const history=repo+'/commits/'+snapshot.revision+'/'+source;
-const edit=repo+'/edit/main/'+source;
-const correction=new URL(repo+'/issues/new');
-correction.search=new URLSearchParams({template:'article-correction.yml',article:origin+'/'+entry.id}).toString();
+const source=recordedSource(article.sourceFile, article.sourceRevision, snapshot.revision);
+const history=source.history;
+const correction=correctionLink(origin+article.path);
 ---
-<Frame kind="article" publicPath={'/'+entry.id} title={data.title} description={data.description} {categories} {outline} {href} {edit} {history}>
-  <div id="content" class:list={['article-sheet',data.layout,{'with-facts':data.facts}]}><article id="bodyContent" aria-labelledby="firstHeading">
+<Frame kind="article" publicPath={article.path} title={data.title} description={data.description} {categories} {outline} {href} editableFile={article.filePath} {history}>
+  <div id="content" class:list={['article-sheet',data.layout,{'with-facts':data.facts}]}><article id="bodyContent" data-article-id={article.id} aria-labelledby="firstHeading">
     <div class="opening">
       <header class="article-head"><h1 id="firstHeading" tabindex="-1">{data.title}</h1></header>
       <div class="opening-copy">
         {data.versions && <div class="tested-versions"><span>Tested with</span>{data.versions.map(([label,url])=><a href={url}>{label}</a>)}</div>}
         <div class="lead-text" set:html={intro}/>
-        <nav class="article-actions" aria-label="Article sources and corrections"><a href="#source-history">Sources and history</a><a href={correction.href}>Suggest a correction</a>
+        <nav class="article-actions" aria-label="Article sources and corrections"><a href="#source-history">Sources and history</a><a href={correction}>Suggest a correction</a>
         {data.layout==='recipe' && <a href="#turn-save-and-reload">Jump to the player test</a>}</nav>
       </div>
       {data.facts && <aside class="factbox" aria-label={data.title+' facts'}>
@@ -34,7 +36,7 @@ correction.search=new URLSearchParams({template:'article-correction.yml',article
       </aside>}
     </div>
     <div id="mw-content-text" class="article-body" set:html={body}/>
-    <div class="source-links"><a href={repo+'/blob/'+(data.sourceRevision ?? snapshot.revision)+'/'+source}>Recorded Markdown</a><a href={history}>Article revision history</a><a href={correction.href}>Suggest a correction to this article</a></div>
+    <div class="source-links"><a href={source.markdown}>Recorded Markdown</a><a href={history}>Article revision history</a><a href={correction}>Suggest a correction to this article</a></div>
     <nav id="catlinks" class="end-categories" aria-label="Page categories"><span id="mw-normal-catlinks">{categories.length===1?'Category':'Categories'}</span>
       {categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</nav>
   </article></div>

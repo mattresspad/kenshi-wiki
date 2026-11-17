@@ -2,8 +2,8 @@
 import ribbon from '../data/ribbon.json';
 import Icon from './Icon.astro';
 import Tools from './Tools.astro';
-import { categoryPath, repo } from '../lib/catalog.mjs';
-const { kind, title, categories, href, edit, history } = Astro.props;
+import { categoryPath } from '../lib/catalog.mjs';
+const { kind, title, categories, href, edit, history, recent } = Astro.props;
 const prefix = {article: 'Article:', category: 'Category:', portal: 'Portal:'}[kind];
 const subject = kind === 'home' ? 'Main page' : prefix + ' ' + title;
 const categoryLabel = categories.length === 1 ? 'Category:' : 'Categories:';
@@ -22,8 +22,8 @@ const current = kind === 'home' ? '/' : '#firstHeading';
           </a>)}</div>
       </details>
     </nav>
-    <nav class="wide-tools" aria-label="Wiki tools"><Tools {edit} {history} {href}/></nav>
-    <details class="pop small-tools" id="tools"><summary>Wiki tools</summary><div class="menu-list"><Tools {edit} {history} {href} compact/></div></details>
+    <nav class="wide-tools" aria-label="Wiki tools"><Tools {edit} {history} {recent} {href}/></nav>
+    <details class="pop small-tools" id="tools"><summary>Wiki tools</summary><div class="menu-list"><Tools {edit} {history} {recent} {href} compact/></div></details>
   </div>
   <div class="context-row">
     <button type="button" class="tab drawer-button" id="toggle-navigation" aria-controls="left-navigation" aria-expanded="false">
@@ -38,7 +38,7 @@ const current = kind === 'home' ? '/' : '#firstHeading';
       <div class="menu-list"><a href={current} aria-current="page">{subject}</a>
         {categories.length>0 && <><strong>{categoryLabel}</strong>{categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</>}
       </div></details>}
-    <nav class="revisions" aria-label="Revision history"><a href={repo+'/commits/main/'}><Icon name="pulse"/>Recent changes</a><a href={history}><Icon name="clock"/>View history</a></nav>
+    <nav class="revisions" aria-label="Revision history"><a href={recent}><Icon name="pulse"/>Recent changes</a><a href={history}><Icon name="clock"/>View history</a></nav>
     <form class="search" action={href('/search')} role="search" method="get"><label for="wiki-search" class="visually-hidden">Search Kenshi Wiki</label><input type="search" name="q" id="wiki-search" placeholder="Search Kenshi Wiki"/><button aria-label="Search"><span class="glass" aria-hidden="true"></span></button></form>
   </div>
 </header>

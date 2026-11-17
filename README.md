@@ -12,7 +12,7 @@ The preview serves the packaged assets through Cloudflare’s local asset router
 
 Edit accepted pages in `src/content/articles`. The title, description, categories, credit and source revision belong with their Markdown. Article headings supply the sidebar. Keep stable heading IDs and add aliases when moving a section. Sources and corrections link to the recorded history and current public contribution flow.
 
-The checked-in conversion inventory stores metadata from the pinned Git tree. To reproduce it from a repository containing that revision, run `npm run inventory -- <repository>`. Builds read the snapshot offline. Reader links open a reviewed article locally or its live wiki page during the local rollout. The public milestone requires clearing temporary links. See [the conversion ledger](conversion/README.md).
+Each article declares its permanent ID. The checked-in conversion inventory records its public path, original Git file, revision and credits. In a local preview, Copy file path shows its actual FreshWiki file. Set `WIKI_EDIT_BRANCH` to the published rebuild branch when generating GitHub edit links. To reproduce it from a repository containing that revision, run `npm run inventory -- <repository>`. Builds read the snapshot offline. Reader links open a reviewed article locally or its live wiki page during the local rollout. The public milestone requires clearing temporary links. See [the conversion ledger](conversion/README.md).
 
 ## Credits
 
