@@ -19,7 +19,7 @@ The restoration milestone requires final dispositions for all public URLs, recon
 
 The frozen Holy Nation page has 38 article headings from History through References. The Backpacks page contains a 12-column table. These are now part of the browser and bookmark checks.
 
-The [geography family](geography/README.md) records the intake order, source comparisons and review evidence.
+The [geography family](geography/README.md) and [Factions family](factions/README.md) record their separate rosters, intake order, source comparisons and review evidence. Shared batch expectations accumulate accepted permanent IDs across families. The next sequence is Races, Animals, then Characters; [overlaps are recorded explicitly](next-families.json). The [technical-data investigation](technical-data-investigation.md) remains separate from article conversion.
 
 ## Article addresses and editorial homes
 

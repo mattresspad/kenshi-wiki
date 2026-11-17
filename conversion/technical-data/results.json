@@ -1,0 +1,431 @@
+{
+  "sourcePins": {
+    "compiler": {
+      "head": "f49133ad96ed19b0820e2c05f7397ac8172dec97",
+      "digest": "e03190e8e5f4dfe9a6ba44df2f16fe0ba8333b4fbe6297749a20dde8d8641a2b",
+      "workingTreeChanges": 29
+    },
+    "tools": {
+      "head": "a932280bd2ae03262dcc7f6d14bf599738386f12",
+      "digest": "b7fa96250d99ef79a1da45ceb39efd24041d306431d9f31d66cf0e641ce87486",
+      "workingTreeChanges": 6
+    },
+    "mapStore": {
+      "head": null,
+      "digest": "2c134d62406ad94d19be62a7749c73724964a8b2ecae8dac32f546d03e6f2e35",
+      "workingTreeChanges": 10
+    },
+    "map": {
+      "head": "b901a3efe9bccf041d18fe3ecf4445cd9653cb5d",
+      "digest": "d7e0352c95fa806d11c21f2b8c9d9ac033480de236c5329156c37fcced58f36b",
+      "workingTreeChanges": 35
+    }
+  },
+  "archive": {
+    "name": "56b5eb802ac4d395b67ae10da0a79c4781853aaca11fc8b76a3ec9215f809411.zip",
+    "sha256": "11c3bb87eafdd8cc65ce79dc39b129380459a84888d343fb3aea94f88961b46b",
+    "bytes": 1414977,
+    "revision": "369f7e9dbb75a51cd358df91bc358016140e0d3fc9bd633c8d012b73d588c4e1",
+    "members": 39,
+    "datasets": 36,
+    "kenshiVersion": "1.0.68"
+  },
+  "compiler": {
+    "version": "0.2.0",
+    "revision": "3873bd6a61504a8f26933b5f5684aa76d8ee08f1c92c678482386c82cbfff889",
+    "counts": {
+      "contextAvailability": {
+        "available": 27,
+        "empty": 18,
+        "incomplete": 0,
+        "notApplicable": 925
+      },
+      "contextDefinitions": 2,
+      "contexts": 970,
+      "records": 8623
+    },
+    "scope": {
+      "contextKeys": [
+        "Building.biomeAssociations",
+        "Town.spawnsIn"
+      ],
+      "incompleteContextPolicy": "error",
+      "recordMode": "all"
+    },
+    "contextCatalog": [
+      {
+        "applicability": {
+          "all": [
+            {
+              "key": "is foliage",
+              "meaning": "The building is configured as foliage.",
+              "operator": "equals",
+              "source": "values",
+              "value": true
+            }
+          ]
+        },
+        "contextId": "biomeAssociations",
+        "contextKey": "Building.biomeAssociations",
+        "documentType": "contextDefinition",
+        "entrypointType": "Building",
+        "limitations": [
+          "This answer establishes foliage-configuration associations, not exact world placement or generation frequency."
+        ],
+        "question": "Which biome records are associated with this building through approved foliage configuration?",
+        "result": {
+          "deduplicateBy": "objectKey",
+          "fields": [],
+          "itemKey": "objectKey",
+          "itemType": "Biomes",
+          "kind": "objectList",
+          "orderBy": [
+            {
+              "direction": "ascending",
+              "field": "object.name"
+            },
+            {
+              "direction": "ascending",
+              "field": "object.objectKey"
+            }
+          ]
+        },
+        "routeIds": [
+          "044_building_to_foliagemesh_to_foliagelayer_to_biomes"
+        ],
+        "schemaVersion": 1,
+        "title": "Biome associations"
+      },
+      {
+        "applicability": {
+          "all": [
+            {
+              "key": "type",
+              "meaning": "Town type 0 is TOWN_NEST.",
+              "operator": "equals",
+              "source": "values",
+              "value": 0
+            }
+          ]
+        },
+        "contextId": "spawnsIn",
+        "contextKey": "Town.spawnsIn",
+        "documentType": "contextDefinition",
+        "entrypointType": "Town",
+        "limitations": [
+          "spawnWeight is relative within the owning biome group; it is not an absolute spawn probability or population count."
+        ],
+        "question": "Which biome groups spawn this town as a nest, and with what relative weight?",
+        "result": {
+          "deduplicateBy": "objectKey",
+          "fields": [
+            {
+              "description": "Relative weighted chance of spawning this nest within the owning biome group.",
+              "name": "spawnWeight",
+              "valueType": "number"
+            }
+          ],
+          "itemKey": "objectKey",
+          "itemType": "BiomeGroup",
+          "kind": "objectList",
+          "orderBy": [
+            {
+              "direction": "ascending",
+              "field": "object.name"
+            },
+            {
+              "direction": "ascending",
+              "field": "object.objectKey"
+            }
+          ]
+        },
+        "routeIds": [
+          "173_town_to_biomegroup"
+        ],
+        "schemaVersion": 1,
+        "title": "Nest spawn areas"
+      }
+    ],
+    "artifacts": [
+      {
+        "bytes": 11654774,
+        "documentCount": 8623,
+        "documentType": "record",
+        "file": "records.jsonl",
+        "mediaType": "application/x-ndjson",
+        "name": "records",
+        "schemaVersion": 1,
+        "sha256": "780cc6b387fdd36f6a9805fb9158c25137ded48dfb4dad7959072d9631cdb4d4"
+      },
+      {
+        "bytes": 1161554,
+        "documentCount": 970,
+        "documentType": "context",
+        "file": "contexts.jsonl",
+        "mediaType": "application/x-ndjson",
+        "name": "contexts",
+        "schemaVersion": 1,
+        "sha256": "04b1ce07248d3d9a132b697892784c80c7ac81e85de760819892c55871a114f0"
+      },
+      {
+        "bytes": 1780,
+        "documentCount": 2,
+        "documentType": "contextDefinition",
+        "file": "context_catalog.jsonl",
+        "mediaType": "application/x-ndjson",
+        "name": "contextCatalog",
+        "schemaVersion": 1,
+        "sha256": "ebf4856c129b46f3d8d04821e56ecbe0f7ef6ff21988dd042143a68daccf0a48"
+      }
+    ],
+    "deterministic": true
+  },
+  "comparisons": [
+    {
+      "type": "Town",
+      "dataset": "townFcsData",
+      "id": "33-gamedata.quack",
+      "name": "Catun",
+      "objectKey": "Town:33-gamedata.quack",
+      "mapSource": "town_fcs_data_20260719_214841.json",
+      "compilerSource": "town_fcs_data_20250711_213638.json",
+      "valuesChanged": [],
+      "referencesChanged": []
+    },
+    {
+      "type": "Town",
+      "dataset": "townFcsData",
+      "id": "1533709-__world reactions Slavers.mod",
+      "name": "Catun (override) fishman takeover",
+      "objectKey": "Town:1533709-__world reactions Slavers.mod",
+      "mapSource": "town_fcs_data_20260719_214841.json",
+      "compilerSource": "town_fcs_data_20250711_213638.json",
+      "valuesChanged": [],
+      "referencesChanged": []
+    },
+    {
+      "type": "WorldEventState",
+      "dataset": "worldStates",
+      "id": "1533710-__world reactions Slavers.mod",
+      "name": "Lord Shiro is alive",
+      "objectKey": "WorldEventState:1533710-__world reactions Slavers.mod",
+      "mapSource": "world_state_data_20260719_214848.json",
+      "compilerSource": "world_state_data_20250711_213657.json",
+      "valuesChanged": [],
+      "referencesChanged": []
+    },
+    {
+      "type": "Faction",
+      "dataset": "factions",
+      "id": "defaultEmpireFactionSID",
+      "name": "United Cities",
+      "objectKey": "Faction:defaultEmpireFactionSID",
+      "mapSource": "faction_data_20260719_214808.json",
+      "compilerSource": "faction_data_20250711_213453.json",
+      "valuesChanged": [],
+      "referencesChanged": []
+    },
+    {
+      "type": "Race",
+      "dataset": "races",
+      "id": "17-gamedata.quack",
+      "name": "Greenlander",
+      "objectKey": "Race:17-gamedata.quack",
+      "mapSource": "race_data_20260719_214832.json",
+      "compilerSource": "race_data_20250711_213611.json",
+      "valuesChanged": [],
+      "referencesChanged": []
+    }
+  ],
+  "exampleIndex": {
+    "records": 5,
+    "bytes": 28794,
+    "sha256": "6f7e1ab4ad582527b46ec16baecfc53beacc51894469804f139514cee4a31e1e"
+  },
+  "mapConsumer": {
+    "factionCount": 79,
+    "available": true,
+    "diagnostics": [
+      {
+        "kind": "Town",
+        "entityId": "49387-rebirth.mod",
+        "reason": "Faction reference is ambiguous or unresolved.",
+        "candidateFactionIds": [
+          "513-gamedata.base",
+          "56101-rebirth.mod"
+        ],
+        "unresolvedIds": []
+      }
+    ],
+    "baselineDiagnostics": [
+      {
+        "level": "warning",
+        "code": "conditionless_world_state",
+        "message": "World state '63144-rebirth.mod' is inactive because it has no supported conditions.",
+        "context": {
+          "stateId": "63144-rebirth.mod"
+        }
+      },
+      {
+        "level": "warning",
+        "code": "conditionless_world_state",
+        "message": "World state '1533834-rebirth.mod' is inactive because it has no supported conditions.",
+        "context": {
+          "stateId": "1533834-rebirth.mod"
+        }
+      },
+      {
+        "level": "warning",
+        "code": "conditionless_world_state",
+        "message": "World state '63881-Dialogue.mod' is inactive because it has no supported conditions.",
+        "context": {
+          "stateId": "63881-Dialogue.mod"
+        }
+      },
+      {
+        "level": "warning",
+        "code": "conditionless_world_state",
+        "message": "World state '59123-Dialogue.mod' is inactive because it has no supported conditions.",
+        "context": {
+          "stateId": "59123-Dialogue.mod"
+        }
+      },
+      {
+        "level": "warning",
+        "code": "conditionless_world_state",
+        "message": "World state '62347-Dialogue.mod' is inactive because it has no supported conditions.",
+        "context": {
+          "stateId": "62347-Dialogue.mod"
+        }
+      },
+      {
+        "level": "warning",
+        "code": "conditionless_world_state",
+        "message": "World state '65302-Dialogue.mod' is inactive because it has no supported conditions.",
+        "context": {
+          "stateId": "65302-Dialogue.mod"
+        }
+      },
+      {
+        "level": "warning",
+        "code": "conditionless_world_state",
+        "message": "World state '97160-Dialogue.mod' is inactive because it has no supported conditions.",
+        "context": {
+          "stateId": "97160-Dialogue.mod"
+        }
+      },
+      {
+        "level": "warning",
+        "code": "conditionless_world_state",
+        "message": "World state '1534045-rebirth.mod' is inactive because it has no supported conditions.",
+        "context": {
+          "stateId": "1534045-rebirth.mod"
+        }
+      }
+    ],
+    "towns": {
+      "fresh": {
+        "baseName": "Catun",
+        "name": "Catun",
+        "owner": "United Cities",
+        "ownerId": "defaultEmpireFactionSID",
+        "nodeId": "33-gamedata.quack",
+        "activeTownId": "33-gamedata.quack",
+        "path": [
+          "33-gamedata.quack"
+        ],
+        "transitions": [],
+        "ambiguous": false,
+        "cycle": false
+      },
+      "dead": {
+        "baseName": "Catun",
+        "name": "Catun (override) fishman takeover",
+        "owner": "Fishmen",
+        "ownerId": "96359-rebirth.mod",
+        "nodeId": "1533709-__world reactions Slavers.mod",
+        "activeTownId": "1533709-__world reactions Slavers.mod",
+        "path": [
+          "33-gamedata.quack",
+          "1533709-__world reactions Slavers.mod"
+        ],
+        "transitions": [
+          {
+            "sequence": 1,
+            "phase": "command",
+            "evaluationIndex": 1,
+            "baseTownId": "33-gamedata.quack",
+            "sourceTownId": "33-gamedata.quack",
+            "targetTownId": "1533709-__world reactions Slavers.mod",
+            "conditionCount": 1,
+            "referencePosition": 0
+          }
+        ],
+        "ambiguous": false,
+        "cycle": false
+      },
+      "captured": {
+        "baseName": "Catun",
+        "name": "Catun (override) fishman takeover",
+        "owner": "Fishmen",
+        "ownerId": "96359-rebirth.mod",
+        "nodeId": "1533709-__world reactions Slavers.mod",
+        "activeTownId": "1533709-__world reactions Slavers.mod",
+        "path": [
+          "33-gamedata.quack",
+          "1533709-__world reactions Slavers.mod"
+        ],
+        "transitions": [
+          {
+            "sequence": 1,
+            "phase": "command",
+            "evaluationIndex": 1,
+            "baseTownId": "33-gamedata.quack",
+            "sourceTownId": "33-gamedata.quack",
+            "targetTownId": "1533709-__world reactions Slavers.mod",
+            "conditionCount": 1,
+            "referencePosition": 0
+          }
+        ],
+        "ambiguous": false,
+        "cycle": false
+      }
+    },
+    "exampleQueriesPassed": true
+  },
+  "live": {
+    "checked": true,
+    "at": "2026-11-17T21:16:30.971Z",
+    "bootstrap": "https://map.kenshi.wiki/map-data/vanilla.json",
+    "matchingDatasets": [
+      {
+        "dataset": "townFcsData",
+        "url": "https://map.kenshi.wiki/data/vanilla/56b5eb802ac4d395b67ae10da0a79c4781853aaca11fc8b76a3ec9215f809411/369f7e9dbb75a51cd358df91bc358016140e0d3fc9bd633c8d012b73d588c4e1/town_fcs_data_20260719_214841.json",
+        "bytes": 924593,
+        "sha256": "bd64e9e5a329fc1c714a2fe002657db9b904a213e455450f713bb052717c09d5",
+        "source": "r2"
+      },
+      {
+        "dataset": "factions",
+        "url": "https://map.kenshi.wiki/data/vanilla/56b5eb802ac4d395b67ae10da0a79c4781853aaca11fc8b76a3ec9215f809411/369f7e9dbb75a51cd358df91bc358016140e0d3fc9bd633c8d012b73d588c4e1/faction_data_20260719_214808.json",
+        "bytes": 667806,
+        "sha256": "126c27691bb73e19cfc645dea579e70d83816403067e809c3b433e0e24219bfc",
+        "source": "r2"
+      },
+      {
+        "dataset": "races",
+        "url": "https://map.kenshi.wiki/data/vanilla/56b5eb802ac4d395b67ae10da0a79c4781853aaca11fc8b76a3ec9215f809411/369f7e9dbb75a51cd358df91bc358016140e0d3fc9bd633c8d012b73d588c4e1/race_data_20260719_214832.json",
+        "bytes": 697045,
+        "sha256": "5479d021ed050f6be419bae271ffa4f33ebe0d45ab11779e8d012c3a79e4b340",
+        "source": "r2"
+      },
+      {
+        "dataset": "worldStates",
+        "url": "https://map.kenshi.wiki/data/vanilla/56b5eb802ac4d395b67ae10da0a79c4781853aaca11fc8b76a3ec9215f809411/369f7e9dbb75a51cd358df91bc358016140e0d3fc9bd633c8d012b73d588c4e1/world_state_data_20260719_214848.json",
+        "bytes": 304655,
+        "sha256": "7e16ea22ee6af01de1a5d7ddfad2b815e65f3c57684afefc5631a8a87fff9981",
+        "source": "r2"
+      }
+    ]
+  }
+}
