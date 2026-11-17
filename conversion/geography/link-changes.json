@@ -185,5 +185,31 @@
       "/swamp-store",
       "/the-great-desert"
     ]
+  },
+  {
+    "name": "geography-indexes",
+    "resolved": [
+      "/ancient-locations",
+      "/major-towns",
+      "/world-of-kenshi"
+    ],
+    "introduced": [
+      "/bars",
+      "/category/town-residents",
+      "/deadlands",
+      "/flats-lagoon-zone",
+      "/great-white-gorillo",
+      "/gut",
+      "/leviathan-coast",
+      "/mad-cat-lon",
+      "/robotics-shop",
+      "/seasons-and-weather",
+      "/stobes-gamble",
+      "/stone-golem",
+      "/stormgap-coast",
+      "/the-great-library",
+      "/twinblades",
+      "/venge"
+    ]
   }
 ]
