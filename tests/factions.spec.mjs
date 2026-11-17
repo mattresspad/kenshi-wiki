@@ -42,6 +42,7 @@ for(const phone of [false,true])for(const theme of ['light','dark'])test.describ
       const next=page.locator('main a[href="/'+end+'"]').first();
       await reveal(page,next);await next.press('Enter');
       await expect(page).toHaveURL(new RegExp('/'+end+'$'));
+      await expect(page.locator('article[data-article-id]')).toHaveAttribute('data-article-id',end);
       expect(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth)).toBe(0);
     }
   });

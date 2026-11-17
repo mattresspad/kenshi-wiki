@@ -11,7 +11,7 @@ export async function captureBatch(base, batch, output, family='geography') {
     'major-factions':batch.ids,
     'infobox-variants':batch.ids,
     'historical-factions':batch.ids,
-    'overview-and-guides':['factions','guide-to-faction-relations#faction-pacifiers','hostile-factions'],
+    'overview-and-guides':['factions','guide-to-faction-relations#after-harming-relations','hostile-factions'],
     'bad-teeth':['bad-teeth#town-overrides','bad-teeth/shek-kingdom'],
     'catun-pilot':batch.ids,
     'spawns-loot-and-citations':batch.ids,
@@ -20,7 +20,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   };
   const samples=[...(extra[batch.name] ?? [batch.ids[0]])];
   if (family==='geography' && batch.name===roster.batches.at(-1).name) samples.push('catun/fishmen','catun-alpha','bonefields','bad-teeth#town-overrides','old-world#old-world-towns','category/zones','category/spawning-locations');
-  if(family==='factions' && batch.name===roster.batches.at(-1).name) samples.push('category/factions','united-cities#emperor-tengus-entourage','guide-to-faction-relations#faction-pacifiers');
+  if(family==='factions' && batch.name===roster.batches.at(-1).name) samples.push('category/factions','united-cities#emperor-tengus-entourage','guide-to-faction-relations#after-harming-relations');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {
@@ -48,9 +48,30 @@ export async function captureBatch(base, batch, output, family='geography') {
         assert.equal(geometry.canonical,'https://kenshi.wiki'+route);assert.equal(geometry.theme,theme);
         assert.ok(geometry.screen<=1 && geometry.body<=1,route+' '+device+' overflow '+JSON.stringify(geometry));
         if(samples.includes(sample)){
+          if(family==='factions' && id==='united-cities' && anchor) {
+            const outline=page.locator('.page-outline a[href="#'+anchor+'"]');
+            await outline.evaluate(el=>{for(let p=el.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true;});
+            if(device==='phone')await page.locator('#toggle-navigation').press('Enter');
+            await outline.scrollIntoViewIfNeeded();
+            const expanded='united-cities-outline-'+device+'-'+theme+'.png';
+            await page.screenshot({path:join(output,expanded),animations:'disabled'});
+            shots.push({id,anchor,device,theme,file:expanded});
+            if(device==='phone')await page.keyboard.press('Escape');
+          }
+          if(id==='guide-to-faction-relations') {
+            const region=page.locator('.article-body .table-scroll');
+            await region.scrollIntoViewIfNeeded();await region.focus();await page.keyboard.press('Home');
+          }
           const file=sample.replaceAll('/','--').replace('#','-')+'-'+device+'-'+theme+'.png';
           await page.screenshot({path:join(output,file),animations:'disabled'});
           shots.push({id,anchor,device,theme,file});
+          if(id==='guide-to-faction-relations' && device==='phone') {
+            const region=page.locator('.article-body .table-scroll');
+            await region.focus();await page.keyboard.press('End');
+            const right='pacifier-costs-right-'+device+'-'+theme+'.png';
+            await page.screenshot({path:join(output,right),animations:'disabled'});
+            shots.push({id,anchor,device,theme,file:right});
+          }
         }
       }
       await context.close();
