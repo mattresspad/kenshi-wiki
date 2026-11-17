@@ -1,12 +1,14 @@
 const collator = new Intl.Collator('en', {numeric: true, sensitivity: 'base'});
 
-for (const table of document.querySelectorAll('table[data-sortable]')) {
-  const region = table.closest('.table-scroll');
+for (const region of document.querySelectorAll('.table-scroll')) {
   region.addEventListener('keydown', event => {
     if (event.target !== region || !['Home', 'End'].includes(event.key)) return;
     event.preventDefault();
     region.scrollLeft = event.key === 'End' ? region.scrollWidth : 0;
   });
+}
+
+for (const table of document.querySelectorAll('table[data-sortable]')) {
   const headers = Array.from(table.tHead.rows[0].cells);
   const body = table.tBodies[0];
 
@@ -27,7 +29,7 @@ for (const table of document.querySelectorAll('table[data-sortable]')) {
 
     button.addEventListener('click', () => {
       const ascending = header.getAttribute('aria-sort') !== 'ascending';
-      const index = header.cellIndex;
+      const index = headers.slice(0,header.cellIndex).reduce((columns, prior) => columns + prior.colSpan, 0);
       const numeric = header.dataset.sortType === 'number';
       const key = row => {
         const cell = row.cells[index];

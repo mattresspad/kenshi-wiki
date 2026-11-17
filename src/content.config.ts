@@ -7,9 +7,11 @@ const articles = defineCollection({
   loader: glob({ base: './src/content/articles', pattern: '**/*.md', generateId: ({entry}) => entry }),
   schema: z.object({
     articleId: z.string().min(1), title: z.string(), description: z.string(), categories: z.array(z.string()),
-    layout: z.enum(['town', 'recipe', 'reference']),
+    layout: z.enum(['town', 'recipe', 'reference', 'geography']),
     bookmarks: z.record(z.string(), z.string()).default({}), headingIds: z.record(z.string(), z.string()).default({}),
     facts: z.array(z.tuple([z.string(), factPart]).rest(factPart)).optional(), recordId: z.string().optional(),
+    factTitle: z.string().optional(),
+    factGroups: z.array(z.object({heading:z.string().nullable(), rows:z.array(z.tuple([z.string(), factPart]).rest(factPart))})).optional(),
     versions: z.array(z.tuple([z.string(), z.string()])).optional()
   })
 });

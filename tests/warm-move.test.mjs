@@ -2,8 +2,9 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
 import {cpSync, existsSync, mkdirSync, mkdtempDisposableSync, readFileSync, renameSync, writeFileSync} from 'node:fs';
-import {dirname, join, resolve} from 'node:path';
+import {dirname, join, resolve, sep as requireSeparator} from 'node:path';
 import {load} from 'cheerio';
+import {beforeGeography,roster} from '../scripts/geography/batches.mjs';
 import {articleFiles} from '../scripts/article-files.mjs';
 import {origin} from '../src/lib/catalog.mjs';
 import {editableSource, recordedSource} from '../src/lib/page-source.mjs';
@@ -14,9 +15,16 @@ test('a byte-identical file move updates the warm Astro build; a separate canoni
   const fixture = mkdtempDisposableSync(resolve('reports','address-fixture-'));
   t.after(()=>fixture.remove());
   const root = fixture.path;
+  const pilot=new Set([...beforeGeography,...roster.batches[0].ids]);
+  const fixtureFiles=new Set(articleFiles().filter(entry=>pilot.has(entry.data.articleId)).map(entry=>resolve(entry.filePath)));
   for (const file of ['astro.config.mjs','package.json','src','public','conversion','scripts','tests']) {
-    cpSync(file,join(root,file),{recursive:true});
+    cpSync(file,join(root,file),{recursive:true,filter:source=>!resolve(source).startsWith(resolve('src/content/articles')+requireSeparator) || !source.endsWith('.md') || fixtureFiles.has(resolve(source))});
   }
+  const coverage=join(root,'conversion/geography/checkpoint.json');
+  writeFileSync(coverage,JSON.stringify({included:Math.min(1,JSON.parse(readFileSync(coverage)).included)}));
+  const reviewFile=join(root,'conversion/reviews.json'), review=JSON.parse(readFileSync(reviewFile));
+  review.articles=Object.fromEntries(Object.entries(review.articles).filter(([id])=>pilot.has(id)));
+  writeFileSync(reviewFile,JSON.stringify(review));
   const manifest = JSON.parse(readFileSync('node_modules/astro/package.json'));
   const cli = resolve('node_modules/astro',manifest.bin.astro ?? manifest.bin);
   const inventory = join(root,'conversion/reference.json');

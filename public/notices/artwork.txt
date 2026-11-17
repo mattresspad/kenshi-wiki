@@ -34,7 +34,7 @@ The two guide images preserve Prd's recorded Pack Bull test and Maestro fitting 
 https://github.com/mattresspad/kenshi-wiki/commit/1ce0ec1c8121874779541500e38f25c2912e12d4
 https://github.com/mattresspad/MeitouTransport/blob/v0.3.0-playtest.4/LICENSING.md
 
-Backpack inventory icons (public/icons/items) are Lo-Fi Games’ Kenshi artwork. The images come from the original icon files or renders of the game meshes and textures using MeitouClient’s meitou-tools icons. The tool is GPL-3.0-or-later. Each filename contains the item’s game record ID.
+Backpack inventory icons and the 35 item icons in geography articles (public/icons/items) are Lo-Fi Games’ Kenshi artwork. The images come from the original icon files or renders of the game meshes and textures using MeitouClient’s meitou-tools icons. The tool is GPL-3.0-or-later. Each filename contains the item’s game record ID.
 https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/notices/artwork.txt
 
 The 48 × 32 loading screen tip marker (public/icons/talk.png) is Lo-Fi Games’ pic_PointerTalk frame from Kenshi’s UI atlas, data/gui/gfx/Kenshi_UI.png. Its region is defined in data/gui/images/kenshi_images.xml. The prototype extracted this frame unchanged with scripts/split-ui-atlas.mjs. The artwork record lists no separate redistribution permission.

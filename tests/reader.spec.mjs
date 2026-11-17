@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import {readFileSync} from 'node:fs';
-import {snapshot,origin} from '../src/lib/catalog.mjs';
+import {snapshot,origin,policy,categoryPath} from '../src/lib/catalog.mjs';
+import {expectedRoutes} from '../scripts/geography/batches.mjs';
 import baseline from './article-baseline.json' with {type:'json'};
 import ribbon from '../src/data/ribbon.json' with {type:'json'};
 
@@ -91,14 +92,15 @@ for(const width of [1440,390]) test('article outline, source credits and evidenc
   }
 });
 
-test('four indexes match independent membership sets and link to reviewed pages or the live wiki',async({page})=>{
-  const sets={modding:['Modding'],locations:['Locations'],wip:['WIP','Wip'],'traders-guild':['Traders Guild',"Trader's Guild",'Traders guild']};
+test('restored indexes match independent membership sets and link to reviewed pages or the live wiki',async({page})=>{
+  const sets=Object.fromEntries(policy.reviewedCategories.map(name=>[categoryPath(name).slice(10),[name,...Object.keys(policy.aliases).filter(alias=>policy.aliases[alias]===name)]]));
+  const local=expectedRoutes();
   for(const [slug,labels] of Object.entries(sets)){
     await page.goto('/category/'+slug);
     const expected=snapshot.articles.filter(a=>a.categories.some(k=>labels.includes(k))).map(a=>a.path).sort();
     const actual=await page.locator('[data-member]').evaluateAll(as=>as.map(a=>[a.dataset.member,a.getAttribute('href')]));
     expect(actual.map(row=>row[0]).sort()).toEqual(expected);
-    for(const [path,href] of actual)expect(href).toBe(['/catun',saddle,'/the-holy-nation','/backpacks','/modding/blender-plugins'].includes(path)?path:origin+path);
+    for(const [path,href] of actual)expect(href).toBe(local.has(path)?path:origin+path);
     await expect(page.locator('main')).not.toContainText('formatnum');
   }
   await page.goto('/catun');
@@ -126,8 +128,8 @@ test('long letters retain keyboard access, focus and a flowing phone and print l
     await plain.locator('#site-more summary').click();await expect(plain.locator('#more-links a')).toHaveCount(16);
   }finally{await ctx.close()}
 });
-test('eleven canonical pages and the sitemap agree; excluded and pending routes return 404 locally',async({request})=>{
-  const paths=['/','/catun',saddle,'/the-holy-nation','/backpacks','/modding','/category/modding','/modding/blender-plugins','/category/locations','/category/wip','/category/traders-guild'];
+test('all locally accepted canonical pages and the sitemap agree; excluded and pending routes return 404 locally',async({request})=>{
+  const paths=[...expectedRoutes()];
   const xml=await (await request.get('/sitemap-0.xml')).text();
   const urls=Array.from(xml.matchAll(/<loc>([^<]+)<\/loc>/g),m=>m[1]);expect(urls.sort()).toEqual(paths.map(p=>origin+p).sort());
   for(const p of paths){const html=await(await request.get(p)).text();const tags=load(html)('link[rel=canonical]');expect(tags.length).toBe(1);expect(tags.attr('href')).toBe(origin+p);}

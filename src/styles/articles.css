@@ -102,6 +102,25 @@
 .article-sheet.reference .quote { margin: 15px 0 20px; max-width: 76ch; padding: 9px 14px; border-inline-start: 3px solid var(--brass); background: var(--cell) }
 .reference .quote blockquote { margin: 0 }
 .reference .quote figcaption { margin-top: 6px; color: var(--quiet) }
+.geography .historical-notice, .geography .source-qualification, .geography figure.quote {
+  margin: 0 0 12px; max-width: 80ch; padding: 8px 13px;
+  border-inline-start: 3px solid var(--brass); background: var(--cell);
+}
+.geography .historical-notice { font-size: .94em }
+.geography figure.quote blockquote { margin: 0 }
+.geography figure.quote figcaption { color: var(--quiet) }
+.geography .factbox dd { min-width: 0; overflow-wrap: anywhere }
+.geography .article-body ul { padding-inline-start: 1.55em; max-width: 90ch }
+.geography .table-scroll { margin-block: 8px; max-width: 100% }
+.geography .table-scroll table { width: max-content; min-width: min(100%, 28em); max-width: 80ch }
+.geography .table-scroll th { font-weight: 650 }
+.geography .item-icon { width: 32px; height: 32px; object-fit: contain; vertical-align: middle }
+.geography .references { max-width: 90ch; overflow-wrap: anywhere }
+.geography .import-history { margin-top: 20px }
+.geography .end-categories:has(span:only-child:empty) { display: none }
+@media print {
+  .geography .table-scroll table { width: 100%; max-width: 100%; min-width: 0 }
+}
 .reference .references { max-width: 91ch }
 .reference .references li { overflow-wrap: anywhere; margin-block-end: 4px }
 .reference :is(sup, .references li):target { background: var(--hover) }

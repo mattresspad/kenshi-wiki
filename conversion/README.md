@@ -19,6 +19,8 @@ The restoration milestone requires final dispositions for all public URLs, recon
 
 The frozen Holy Nation page has 38 article headings from History through References. The Backpacks page contains a 12-column table. These are now part of the browser and bookmark checks.
 
+The [geography family](geography/README.md) records the intake order, source comparisons and review evidence.
+
 ## Article addresses and editorial homes
 
 Each entry in [the registry](reference.json) has a permanent `id`, an explicit public `path`, and the `sourceFile` captured from the pinned Git tree. The initial keys were seeded once from the frozen article slugs. Keep the key when renaming the article, moving its file, or changing its public address. An intentional public address change also needs a redirect from its previous address. The inventory command updates source metadata against registered source files and fails on an unregistered addition or removal.
