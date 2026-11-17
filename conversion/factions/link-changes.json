@@ -79,5 +79,16 @@
       "/skeleton-mask",
       "/upgraded-skeleton-guard"
     ]
+  },
+  {
+    "name": "historical-factions",
+    "resolved": [
+      "/factions-alpha",
+      "/free-traders-alpha"
+    ],
+    "introduced": [
+      "/adventurers-guild-alpha",
+      "/sand-ninjas-alpha"
+    ]
   }
 ]
