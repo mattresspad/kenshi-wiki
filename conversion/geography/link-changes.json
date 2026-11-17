@@ -1246,5 +1246,33 @@
       "/immortal-king",
       "/imperial-lords"
     ]
+  },
+  {
+    "name": "camps-and-nests-1",
+    "resolved": [
+      "/blood-bandit-camp",
+      "/cannibal-camp",
+      "/cannibal-infestation",
+      "/crab-nest",
+      "/dust-bandit-camp",
+      "/fog-deathyard",
+      "/goat-herders-camp",
+      "/gurgler-nest",
+      "/mercenary-camp",
+      "/nest",
+      "/nest-of-beak-things",
+      "/raider-camp",
+      "/river-nest",
+      "/skimmer-nest",
+      "/swamp-raptor-nest",
+      "/vagrant-camp",
+      "/wolf-den"
+    ],
+    "introduced": [
+      "/cooking-pit",
+      "/gurgler-egg",
+      "/prisoner-pole",
+      "/torch-post"
+    ]
   }
 ]
