@@ -1,0 +1,41 @@
+---
+articleId: ruined-holy-outpost
+title: Ruined Holy Outpost
+description: Given the location that it's situated in, it may have been a former military post that was destroyed in the conflict between Shek Kingdom and The Holy Nation.
+categories:
+  - Locations
+  - Holy Nation
+layout: geography
+factTitle: Ruined Holy Outpost
+factGroups:
+  - heading: null
+    rows:
+      - - Type
+        - Ruins
+      - - Biome
+        - - Border Zone
+          - /border-zone
+      - - Factions
+        - - The Holy Nation
+          - /the-holy-nation
+  - heading: Technical Info
+    rows:
+      - - Level Data
+        - zone.23.33.zone
+      - - String ID
+        - 44852-rebirth.mod
+---
+
+The **Ruined Holy Outpost** is a small ruin in the [Border Zone](/border-zone) located between [Tiny Settlement](/tiny-settlement) and [The Hub](/the-hub). Many lootable [Weapons](/weapons) spawn around the ground.
+
+Given the location that it's situated in, it may have been a former military post that was destroyed in the conflict between Shek Kingdom and The Holy Nation.
+
+## Loot
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
+
+<table class="wikitable sortable"><tbody><tr><th colspan="2" data-sort-type="text" scope="col">Item</th><th data-sort-type="number" scope="col">Quantity</th><th data-sort-type="number" scope="col">Price each</th></tr><tr><td data-sort-value="Iron Plates"></td><td data-sort-value="Iron Plates"><a href="/iron-plates">Iron Plates</a></td><td data-sort-value="2">2</td><td data-sort-value="135">c.135</td></tr></tbody></table>
+
+### Weapons
+
+<table class="wikitable sortable"><tbody><tr><th colspan="2" data-sort-type="text" scope="col">Item</th><th data-sort-type="number" scope="col">Grade</th><th data-sort-type="number" scope="col">Quantity</th><th data-sort-type="number" scope="col">Price each</th></tr><tr><td data-sort-value="Long Cleaver"></td><td data-sort-value="Long Cleaver"><img class="item-icon item-icon-wide" src="/icons/items/478-gamedata.base.png" alt="" width="96" height="24"> <a href="/long-cleaver">Long Cleaver</a></td><td data-sort-value="1"><span>[Rusted Junk]</span></td><td data-sort-value="2">2</td><td data-sort-value="791">c.791</td></tr><tr><td data-sort-value="Flesh Cleaver"></td><td data-sort-value="Flesh Cleaver"><img class="item-icon item-icon-wide" src="/icons/items/2606-gamedata.base.png" alt="" width="96" height="24"> <a href="/flesh-cleaver">Flesh Cleaver</a></td><td data-sort-value="1"><span>[Rusted Junk]</span></td><td data-sort-value="1">1</td><td data-sort-value="339">c.339</td></tr><tr><td data-sort-value="Horse Chopper"></td><td data-sort-value="Horse Chopper"><img class="item-icon item-icon-wide" src="/icons/items/475-gamedata.base.png" alt="" width="96" height="24"> <a href="/horse-chopper">Horse Chopper</a></td><td data-sort-value="1"><span>[Rusted Junk]</span></td><td data-sort-value="1">1</td><td data-sort-value="452">c.452</td></tr><tr><td data-sort-value="Iron Stick"></td><td data-sort-value="Iron Stick"><img class="item-icon item-icon-wide" src="/icons/items/2064-gamedata.base.png" alt="" width="96" height="24"> <a href="/iron-stick">Iron Stick</a></td><td data-sort-value="1"><span>[Rusted Junk]</span></td><td data-sort-value="2">2</td><td data-sort-value="90">c.90</td></tr><tr><td data-sort-value="Mercenary Club"></td><td data-sort-value="Mercenary Club"><img class="item-icon item-icon-wide" src="/icons/items/2110-gamedata.base.png" alt="" width="96" height="24"> <a href="/mercenary-club">Mercenary Club</a></td><td data-sort-value="1"><span>[Rusted Junk]</span></td><td data-sort-value="2">2</td><td data-sort-value="339">c.339</td></tr><tr><td data-sort-value="Long Cleaver"></td><td data-sort-value="Long Cleaver"><img class="item-icon item-icon-wide" src="/icons/items/478-gamedata.base.png" alt="" width="96" height="24"> <a href="/long-cleaver">Long Cleaver</a></td><td data-sort-value="2"><span>[Rusting Blade]</span></td><td data-sort-value="1">1</td><td data-sort-value="868">c.868</td></tr><tr><td data-sort-value="Ninja Blade"></td><td data-sort-value="Ninja Blade"><img class="item-icon item-icon-wide" src="/icons/items/924-gamedata.base.png" alt="" width="96" height="24"> <a href="/ninja-blade">Ninja Blade</a></td><td data-sort-value="2"><span>[Rusting Blade]</span></td><td data-sort-value="1">1</td><td data-sort-value="496">c.496</td></tr><tr><td data-sort-value="Horse Chopper"></td><td data-sort-value="Horse Chopper"><img class="item-icon item-icon-wide" src="/icons/items/475-gamedata.base.png" alt="" width="96" height="24"> <a href="/horse-chopper">Horse Chopper</a></td><td data-sort-value="2"><span>[Rusting Blade]</span></td><td data-sort-value="1">1</td><td data-sort-value="496">c.496</td></tr><tr><td data-sort-value="Iron Stick"></td><td data-sort-value="Iron Stick"><img class="item-icon item-icon-wide" src="/icons/items/2064-gamedata.base.png" alt="" width="96" height="24"> <a href="/iron-stick">Iron Stick</a></td><td data-sort-value="2"><span>[Rusting Blade]</span></td><td data-sort-value="2">2</td><td data-sort-value="99">c.99</td></tr><tr><td data-sort-value="Flesh Cleaver"></td><td data-sort-value="Flesh Cleaver"><img class="item-icon item-icon-wide" src="/icons/items/2606-gamedata.base.png" alt="" width="96" height="24"> <a href="/flesh-cleaver">Flesh Cleaver</a></td><td data-sort-value="2"><span>[Rusting Blade]</span></td><td data-sort-value="2">2</td><td data-sort-value="372">c.372</td></tr><tr><td data-sort-value="Long Cleaver"></td><td data-sort-value="Long Cleaver"><img class="item-icon item-icon-wide" src="/icons/items/478-gamedata.base.png" alt="" width="96" height="24"> <a href="/long-cleaver">Long Cleaver</a></td><td data-sort-value="3"><span>[Mid-Grade Salvage]</span></td><td data-sort-value="1">1</td><td data-sort-value="2610">c.2,610</td></tr><tr><td data-sort-value="Iron Stick"></td><td data-sort-value="Iron Stick"><img class="item-icon item-icon-wide" src="/icons/items/2064-gamedata.base.png" alt="" width="96" height="24"> <a href="/iron-stick">Iron Stick</a></td><td data-sort-value="3"><span>[Mid-Grade Salvage]</span></td><td data-sort-value="1">1</td><td data-sort-value="298">c.298</td></tr><tr><td data-sort-value="Ninja Blade"></td><td data-sort-value="Ninja Blade"><img class="item-icon item-icon-wide" src="/icons/items/924-gamedata.base.png" alt="" width="96" height="24"> <a href="/ninja-blade">Ninja Blade</a></td><td data-sort-value="4"><span>[Old Refitted Blade]</span></td><td data-sort-value="1">1</td><td data-sort-value="1731">c.1,731</td></tr><tr><td data-sort-value="Iron Stick"></td><td data-sort-value="Iron Stick"><img class="item-icon item-icon-wide" src="/icons/items/2064-gamedata.base.png" alt="" width="96" height="24"> <a href="/iron-stick">Iron Stick</a></td><td data-sort-value="4"><span>[Old Refitted Blade]</span></td><td data-sort-value="1">1</td><td data-sort-value="346">c.346</td></tr><tr><td data-sort-value="Mercenary Club"></td><td data-sort-value="Mercenary Club"><img class="item-icon item-icon-wide" src="/icons/items/2110-gamedata.base.png" alt="" width="96" height="24"> <a href="/mercenary-club">Mercenary Club</a></td><td data-sort-value="5"><span>[Refitted Blade]</span></td><td data-sort-value="1">1</td><td data-sort-value="1549">c.1,549</td></tr><tr><td data-sort-value="Flesh Cleaver"></td><td data-sort-value="Flesh Cleaver"><img class="item-icon item-icon-wide" src="/icons/items/2606-gamedata.base.png" alt="" width="96" height="24"> <a href="/flesh-cleaver">Flesh Cleaver</a></td><td data-sort-value="5"><span>[Refitted Blade]</span></td><td data-sort-value="1">1</td><td data-sort-value="1549">c.1,549</td></tr></tbody></table>
