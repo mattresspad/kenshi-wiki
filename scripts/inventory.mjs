@@ -2,6 +2,8 @@
 import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { parse } from 'yaml';
+import { markdownToHtml } from 'satteri';
+import { load } from 'cheerio';
 import assert from 'node:assert/strict';
 import {buildCatalog} from '../src/lib/catalog.mjs';
 import blenderChange from '../conversion/pr-43.json' with {type: 'json'};
@@ -53,7 +55,16 @@ for (const file of tree.filter(f => /^src\/data\/portals\/[^/]+\.yaml$/.test(f.n
 }
 const stream = git(['cat-file', '--batch'], documents.map(f => f.hash).join('\n') + '\n');
 let cursor = 0;
-const articles = documents.map(({name, hash}) => {
+async function originalLinks(markdown) {
+  if (!markdown.includes('//')) return [];
+  const {html} = await markdownToHtml(markdown);
+  const $ = load(html, {}, false);
+  const links = new Set($('a[href]').toArray().map(anchor => $(anchor).attr('href')));
+  return [...links].filter(url => /^(?:https?:)?\/\//i.test(url));
+}
+
+const articles = [];
+for (const {name, hash} of documents) {
   const boundary = stream.indexOf(10, cursor);
   const [object, type, size] = stream.toString('ascii', cursor, boundary).split(' ');
   if (object !== hash || type !== 'blob') throw Error('Unexpected Git object for ' + name);
@@ -73,10 +84,12 @@ const articles = documents.map(({name, hash}) => {
   const isOriginal = source === 'original';
   const credit = isOriginal ? (first.author === 'mattresspad' ? 'Prd (mattresspad)' : first.author) : 'Kenshi Wiki’s Fandom contributors';
   const contributor = portalCredits.get(row.id);
-  return {id:row.id, path:row.path, sourceFile:name, sourceRevision:row.sourceRevision,
+  const sourceLinks = await originalLinks(content.slice(header[0].length));
+  articles.push({id:row.id, path:row.path, sourceFile:name, sourceRevision:row.sourceRevision,
     title, categories, source, credit, license:isOriginal?'4.0':'3.0', originalCommit:first.firstCommit,
-    ...(contributor ? {contributor} : {}), ...(row.evidence?.length ? {evidence:row.evidence} : {})};
-});
+    ...(contributor ? {contributor} : {}), ...(row.evidence?.length ? {evidence:row.evidence} : {}),
+    ...(sourceLinks.length ? {sourceLinks} : {})});
+}
 const redirects = git(['show', revision + ':public/_redirects']).toString().split(/\r?\n/)
   .map(l => l.trim()).filter(l => l && !l.startsWith('#')).map(l => {
     const [from, to, status] = l.split(/\s+/);

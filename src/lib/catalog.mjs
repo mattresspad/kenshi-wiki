@@ -47,6 +47,10 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
         path.endsWith('.html') || new URL(path, origin).pathname !== path) throw Error('Invalid canonical path for ' + id);
     if (!sourceFile?.startsWith('src/content/wiki/') || !sourceFile.endsWith('.md') || sourceFile.split('/').includes('..') ||
         !/^[a-f0-9]{40}$/.test(sourceRevision) || !record.credit || !record.license) throw Error('Missing source mapping for ' + id);
+    if (!/^[a-f0-9]{40}$/.test(record.originalCommit) ||
+        !(record.source === 'original' || (record.source?.title && Number.isInteger(record.source.revision)))) {
+      throw Error('Missing source history for ' + id);
+    }
     claim(sourceFiles, sourceFile, 'original source');
     claim(publicPaths, path, 'article ' + id);
     const article = {...record, filePath: null};

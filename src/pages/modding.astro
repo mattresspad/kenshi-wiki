@@ -2,10 +2,10 @@
 import Frame from '../layouts/Frame.astro';
 import portal from '../data/modding.json';
 import { categoryPath, snapshot } from '../lib/catalog.mjs';
-import { recordedSource } from '../lib/page-source.mjs';
+import { moddingPortalFiles, recordedSource } from '../lib/page-source.mjs';
 import { readWiki } from '../lib/wiki';
 const { byId, href } = await readWiki();
-const source = recordedSource('src/data/portals/modding.yaml', snapshot.revision);
+const source = recordedSource(moddingPortalFiles.sourceFile, snapshot.revision);
 const sections = portal.sections.map(section => ({
   ...section,
   id: section.title.toLowerCase().replaceAll(' ', '-'),
@@ -17,7 +17,7 @@ const sections = portal.sections.map(section => ({
 }));
 const outline = sections.map(({id, title}) => ({id, label: title, children: []}));
 ---
-<Frame kind="portal" title={portal.title} description={portal.intro} publicPath="/modding" {outline} {href} editableFile="src/data/modding.json" history={source.history}>
+<Frame kind="portal" title={portal.title} description={portal.intro} publicPath="/modding" {outline} {href} editableFile={moddingPortalFiles.editableFile} history={source.history}>
   <div id="content"><article id="bodyContent" class="article-sheet portal">
     <header class="article-head"><h1 id="firstHeading" tabindex="-1">{portal.title}</h1></header>
     <div id="mw-content-text"><p>{portal.intro}</p>

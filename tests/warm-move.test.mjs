@@ -59,6 +59,13 @@ test('a byte-identical file move updates the warm Astro build; a separate canoni
     assert.equal(row.editableFile,file);
     assert.equal(row.path,route);
     assert.equal(row.sourceFile,record.sourceFile);
+    const portal = ledger.routes.find(a => a.path === '/modding');
+    assert.equal(portal.editableFile, 'src/data/modding.json');
+    assert.equal(portal.sourceFile, 'src/data/portals/modding.yaml');
+    assert.ok(portal.evidence.markdown.endsWith('/' + registry.revision + '/' + portal.sourceFile));
+    const pending = ledger.routes.find(a => a.id === 'ludins-reports');
+    assert.equal(pending.transferred, false);
+    assert.ok(pending.evidence.sourceLinks.includes('https://kenshi.fandom.com/wiki/Ludin%27s_Reports?oldid=90111'));
   }
   build();
   checkPage(record.path,editable);

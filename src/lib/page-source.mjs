@@ -1,5 +1,7 @@
 export const repo = 'https://github.com/mattresspad/kenshi-wiki';
 
+export const moddingPortalFiles = {editableFile: 'src/data/modding.json', sourceFile: 'src/data/portals/modding.yaml'};
+
 function gitPath(path) {
   return path.split('/').map(encodeURIComponent).join('/');
 }

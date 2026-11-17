@@ -1,7 +1,7 @@
 import {readFileSync, existsSync, mkdirSync, writeFileSync} from 'node:fs';
 import path from 'node:path';
 import {articleFiles, assetRedirects as readRedirects} from './article-files.mjs';
-import {recordedSource, correctionLink, repo} from '../src/lib/page-source.mjs';
+import {recordedSource, correctionLink, moddingPortalFiles, repo} from '../src/lib/page-source.mjs';
 import review from '../conversion/reviews.json' with {type:'json'};
 import {load} from 'cheerio';
 import {buildCatalog, categoryPath, origin, policy, snapshot} from '../src/lib/catalog.mjs';
@@ -27,7 +27,7 @@ function record(kind,url,details={}) {
 for (const a of atlas.byId.values()) {
   const original = recordedSource(a.sourceFile, a.sourceRevision, snapshot.revision);
   const evidence = {...original, originalCommit:repo+'/commit/'+a.originalCommit,
-    license:'https://creativecommons.org/licenses/by-sa/'+a.license+'/', citations:a.evidence ?? []};
+    license:'https://creativecommons.org/licenses/by-sa/'+a.license+'/', citations:a.evidence ?? [], sourceLinks:a.sourceLinks ?? []};
   if (typeof a.source === 'object') {
     const page = 'https://kenshi.fandom.com/wiki/' + encodeURIComponent(a.source.title.replaceAll(' ', '_'));
     evidence.importRevision = page + '?oldid=' + a.source.revision;
@@ -53,7 +53,11 @@ for (const a of atlas.byId.values()) {
     transferred:!!a.filePath, formatChecked:!!checks.formatCheck, editoriallyReviewed:!!checks.editorialReview, checks});
 }
 for (const g of initial.categories.values()) record('category',g.path,{name:g.name,referenceMembers:g.members.length});
-for (const url of snapshot.portals) record('portal',url);
+for (const url of snapshot.portals) {
+  const source = url === '/modding' ? {...moddingPortalFiles, sourceRevision:snapshot.revision,
+    evidence:recordedSource(moddingPortalFiles.sourceFile, snapshot.revision)} : {};
+  record('portal',url,source);
+}
 for (const url of snapshot.utilities) record(url==='/'?'home':'utility',url);
 for (const r of snapshot.redirects) {
   const present = assetRedirects.some(rule => rule.from === r.from && rule.to === r.to && rule.status === r.status);

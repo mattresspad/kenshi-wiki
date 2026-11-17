@@ -82,7 +82,7 @@ test('unregistered files, duplicate identities and route collisions fail the cat
     const bad = {...snapshot,articles:snapshot.articles.map(record=>record.id===a.id?{...record,path}:record)};
     assert.throws(()=>buildCatalog([],bad),/duplicate/i,path);
   }
-  for (const changes of [{id:'backpacks'},{sourceFile:undefined},{path:undefined}]) {
+  for (const changes of [{id:'backpacks'},{sourceFile:undefined},{originalCommit:undefined},{source:undefined},{path:undefined}]) {
     const bad = {...snapshot,articles:snapshot.articles.map(record=>record.id===a.id?{...record,...changes}:record)};
     assert.throws(()=>buildCatalog([],bad));
   }
