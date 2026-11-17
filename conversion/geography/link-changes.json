@@ -897,5 +897,47 @@
       "/swamper-gate-guard",
       "/trade-ninjas"
     ]
+  },
+  {
+    "name": "settlements-and-sites-8",
+    "resolved": [
+      "/skinhouse",
+      "/skinhouse-hq",
+      "/skinhouse-hq/destroyed",
+      "/skinhouse/destroyed",
+      "/skinhouse/southern-hive",
+      "/slave-farm",
+      "/slave-farm-south",
+      "/slave-farm-south/free-traders",
+      "/slave-farm/destroyed",
+      "/slave-markets",
+      "/smugglers-bar",
+      "/sniper-tower",
+      "/south-stone-camp",
+      "/southern-hive-location",
+      "/southern-hive-village",
+      "/spider-factory",
+      "/spring",
+      "/squin",
+      "/squin/berserkers",
+      "/squin/krals-chosen",
+      "/squin/mukai",
+      "/stack",
+      "/stack/destroyed",
+      "/stack/krals-chosen",
+      "/stack/shek-kingdom"
+    ],
+    "introduced": [
+      "/category/cities",
+      "/elite-droneguard",
+      "/grayflayer",
+      "/king",
+      "/peeler-machine",
+      "/skin-bandit",
+      "/smuggler",
+      "/southern-hive-worker-drone",
+      "/steel-refinery",
+      "/swamper-trade-culture"
+    ]
   }
 ]
