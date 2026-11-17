@@ -996,5 +996,41 @@
       "/swamp-ninja-jonin",
       "/the-vault-warden"
     ]
+  },
+  {
+    "name": "settlements-and-sites-10",
+    "resolved": [
+      "/traders-edge",
+      "/traders-edge/anti-slavers",
+      "/traders-edge/destroyed",
+      "/traders-edge/empire-peasants",
+      "/traders-edge/malnourished",
+      "/watchtower-town",
+      "/waystation",
+      "/waystation-border-zone",
+      "/waystation-grey-desert",
+      "/waystation-ruins",
+      "/waystation-stenn-desert",
+      "/waystation-the-hook",
+      "/western-hive-location",
+      "/workshop-complex",
+      "/worlds-end"
+    ],
+    "introduced": [
+      "/bank",
+      "/battery-station",
+      "/drifters",
+      "/finch",
+      "/iyo",
+      "/legends-series",
+      "/map-to-worlds-end",
+      "/mass-extinction-series",
+      "/royal-soldier-drone",
+      "/soldier-drone",
+      "/the-grid",
+      "/the-lost-ancients-series",
+      "/the-mystery-of-skeletech-series",
+      "/traders-edge-alpha"
+    ]
   }
 ]
