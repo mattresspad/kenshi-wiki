@@ -94,7 +94,7 @@ But knowing what I know, I truly recommend making a small vehicle, below chest l
 
 You will need:
 
-1)    Blender 4.0 (December 2024) with [Kenshi\_IO\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) (the official one is outdated)
+1)    Blender 4.0 (December 2024) with [Kenshi\_IO\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) (the official one is outdated). For newer Blender versions, see [Blender plugins](/modding/blender-plugins).
 
 2)    Enormous amounts of time, patience and snacks… no double it!
 

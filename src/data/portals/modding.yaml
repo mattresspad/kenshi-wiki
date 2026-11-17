@@ -40,6 +40,8 @@ sections:
         description: Build a town in the game editor, then assign its residents and squads.
   - title: Art and animation
     articles:
+      - id: modding/blender-plugins
+        description: Pick the Blender plugin that opens Kenshi models in your Blender version, and the import settings that keep faces and materials intact.
       - id: how-to-make-custom-armour-mesh
         description: Rig an armour mesh in Blender and connect the exported mesh to an item.
       - id: making-animations-basics

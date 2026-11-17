@@ -25,7 +25,7 @@ Edit: 10th July 2023 I did manage to make a working ragdoll, but for an end user
 
 # How to make the actual ragdoll in Scythe
 
-1.  Export your skeleton using [Kenshi\_IO\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) for Blender (replaces Kenshi import/export plugin). You need Blender 4.0.  
+1.  Export your skeleton using [Kenshi\_IO\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) for Blender (replaces Kenshi import/export plugin). You need Blender 4.0. For newer Blender versions, see [Blender plugins](/modding/blender-plugins).  
     **Use a simple cube at the bottom as the mesh**, rigged to Bip01, do not alter the link in Scythe.
 2.  Move the skeleton and mesh in to the data/ragdoll folder, (change your root to data/ragdoll if you have not already using the ROOT button in Scythe.)
 3.  Find and insert the skeleton in Scythe using the Insert option on the right sidebar under the arrow tab/prim main tab, below the ROOT button. (Refresh to see the mesh first.)

@@ -7,7 +7,7 @@ source:
 categories: ["WIP","Modding Guide","Modding"]
 ---
 
-WIP This tutorial is a sub page for the skin making page. DO NOTE: if you used the wrong Blender & plugin combination, it can also result a mesh not shading properly. Blender 4.0 and [Kindrad's plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) is recommended.
+WIP This tutorial is a sub page for the skin making page. DO NOTE: if you used the wrong Blender & plugin combination, it can also result a mesh not shading properly. Blender 4.0 and [Kindrad's plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) is recommended. For newer Blender versions, see [Blender plugins](/modding/blender-plugins).
 
 You did a great effort and finally managed to port a 3rd party mesh into Kenshi, only it to look flat. No matter how much depth your normal map has, the shading never looks three dimensional. Why?
 
