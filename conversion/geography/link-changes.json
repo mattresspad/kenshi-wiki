@@ -158,5 +158,32 @@
       "/world-state-routes",
       "/yabuta-of-the-sands"
     ]
+  },
+  {
+    "name": "bark-overrides",
+    "resolved": [
+      "/bark",
+      "/bark/empire-peasants",
+      "/bark/half-destroyed",
+      "/bark/malnourished"
+    ],
+    "introduced": [
+      "/bark-alpha",
+      "/empire-armor-shop",
+      "/empire-armour-shop",
+      "/fish-shop",
+      "/free-traders",
+      "/hobbs",
+      "/izumi",
+      "/jewel",
+      "/rebel-swordsmen",
+      "/red",
+      "/slave-shop",
+      "/small-empire-weapon-shop",
+      "/swamp-house",
+      "/swamp-shack",
+      "/swamp-store",
+      "/the-great-desert"
+    ]
   }
 ]
