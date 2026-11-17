@@ -41,4 +41,6 @@ If [Lord Shiro](/lord-shiro) is killed or imprisoned, [Catun](/catun) gets overt
 
 ## Trivia
 
+<p class="source-qualification"><strong>Unverified population claim.</strong> The imported account below leaves open whether King Gurgler’s fate changes the surviving squads. Lord Shiro’s death or imprisonment triggers the takeover described above.</p>
+
 -   Despite being heavily hinted that [Fishmen's](/fishmen) population amount are tied with [King Gurgler](/king-gurgler) (which seemingly disappears entirely if he is killed). This override can happen regardless of if he is alive or not.

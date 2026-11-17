@@ -19,6 +19,18 @@
     "modding/blender-plugins": {
       "formatCheck": "tests/restoration.spec.mjs",
       "editorialReview": "conversion/second-batch.md"
+    },
+    "catun/fishmen": {
+      "formatCheck": "scripts/geography/verify.mjs",
+      "editorialReview": "conversion/geography/README.md"
+    },
+    "catun-alpha": {
+      "formatCheck": "scripts/geography/verify.mjs",
+      "editorialReview": "conversion/geography/README.md"
+    },
+    "bonefields": {
+      "formatCheck": "scripts/geography/verify.mjs",
+      "editorialReview": "conversion/geography/README.md"
     }
   },
   "mediaGaps": [

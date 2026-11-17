@@ -8,4 +8,10 @@ To regenerate the reference, build the pinned comparison in a separate directory
 
 Run `npm run geography:accept` at each checkpoint. It builds the site, compares every transferred geography article against the reference, runs catalog and browser tests, requests a Cloudflare package dry run, and captures the new batch on desktop and phone. The link history starts with the eleven-page preview. Every entry lists destinations introduced or resolved since the preceding batch. The full route and media ledgers, remaining live destinations, screenshots and four command logs go into that batch’s directory under `reports/geography`. The main report retains credits, source revisions and edit targets independently of transfer and editorial status.
 
+## Pilot editorial review
+
+Catun/Fishmen retains Lord Shiro’s trigger, destruction of every building, the override record and both squad rows. Its Trivia passage about King Gurgler remains attributed to the source with a visible qualification. A comparison of the active override and resident squads with his status changed would resolve it. Catun’s ordinary-town ledger retains the same question.
+
+Catun (Alpha) opens with its removal and beta-version context, so the description of Dead Cat ownership reads as historical. Capital, Catan, Capan, Catun, and the update 0.64 note and return link remain in their original order. Bonefields retains the Skeleton’s opening quote, conditional spawns and environment values. Its neighboring-zone entry for Flats Lagoon still goes to the town. Verify which article the author intended before changing that destination. The [editorial notes](notes.json) and each article’s pinned source are linked in the route report.
+
 The next family after geography review is characters and creatures. The four PR #43 guide edits stay recorded in the [Blender reconciliation](../pr-43.json) for their respective conversion batches. The public milestone still needs an upstream reconciliation, final URL dispositions, the software license decision and staging and rollback review.
