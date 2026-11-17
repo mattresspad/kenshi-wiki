@@ -54,7 +54,7 @@ Bringing an existing mod? [Assess one RE_Kenshi feature](/modding/meitou/porting
 Ordinary Kenshi mods can change game records in the [Forgotten Construction Set](/forgotten-construction-set) or supply new assets. Meitou code mods can also run C# inside the client. Follow the [MeitouClient code-mod guide][guide] for setup instructions that match your client version.
 
 1. [Create your first mod][quickstart]. Build a C# library against your installed client and identify its entry type in the [`meitou.json` manifest][manifest].
-2. [Choose what it changes][extensions]. The guide shows how to add a dialogue condition, react to a combat hit, or extend the interface.
+2. [Choose what it changes][extensions]. The guide shows how to add a dialogue condition, react to a combat hit, or extend the interface. [Code mod hooks](/modding/meitou/code-mod-hooks) lists every hook the client offers.
 3. [Check it in game][check]. Enable the mod in the launcher and try the feature. To check that simulation results repeat, run `meitou-tools mod-check` on a save. It compares three runs and reports the first tick that differs. See [troubleshooting][troubleshooting] if the mod fails to load.
 
 [suggest]: https://github.com/mattresspad/kenshi-wiki/issues/new?template=article-correction.yml&article=https%3A%2F%2Fkenshi.wiki%2Fmodding%2Fmeitou

@@ -14,6 +14,8 @@ sections:
     articles:
       - id: modding/meitou
         description: Browse community releases for MeitouClient, meet their creators, and learn how to make a code mod.
+      - id: modding/meitou/code-mod-hooks
+        description: See every hook a Meitou code mod can use, from combat and items to squads and the interface, and what each one does.
       - id: modding/meitou/porting-re-kenshi-mods
         description: Take one feature from an RE_Kenshi mod and find out which records, assets or code it needs on Meitou.
       - id: modding/meitou/make-a-saddle-pack
