@@ -1274,5 +1274,30 @@
       "/prisoner-pole",
       "/torch-post"
     ]
+  },
+  {
+    "name": "reference-1",
+    "resolved": [
+      "/category/spawning-locations",
+      "/category/zones",
+      "/old-world"
+    ],
+    "introduced": [
+      "/blackened-chain-headwrap",
+      "/category/interactive-maps",
+      "/category/maps",
+      "/category/resource-maps",
+      "/chain-headwrap",
+      "/dried-gristle-flaps",
+      "/flat-topper",
+      "/jacket",
+      "/metal-purity",
+      "/mr-floppy",
+      "/potatoes",
+      "/raider-armour",
+      "/sword-for-hire",
+      "/truth-two",
+      "/wandering-trader"
+    ]
   }
 ]
