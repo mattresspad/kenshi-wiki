@@ -1,0 +1,377 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "scope": "Existence, content and organization reviewed against the pinned import. This is not game-data or gameplay verification. Transferred and formatting status remain independent.",
+  "articles": [
+    {
+      "id": "greenlander",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Default-race description and game quote; health, seven anatomy rows, four limb panels, equipment, experience and start lists retained.",
+      "organization": "Health → anatomy → equipment → experience → characters → trivia reads coherently. Reload bleeding claim held.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights",
+        "race-reload-bleeding"
+      ]
+    },
+    {
+      "id": "hive-worker-drone",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Blood 50, bleed 0.3, vision/hunger 0.5, +/−20% modifiers, food/equipment restrictions and limb captions retained.",
+      "organization": "Same anatomy/panel treatment as Greenlander; distinction between worker subrace and Hive overview preserved.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "skeleton-race",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Oil/blood 100, heal 2, 200 HP, armour restrictions, immunity and underwater movement remain qualified as imported.",
+      "organization": "Specific subrace stays separate from /skeleton overview; no artificial organic limb panels added.",
+      "questions": [
+        "race-movement",
+        "race-hit-weights",
+        "race-healing"
+      ]
+    },
+    {
+      "id": "races",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Playable, conditionally recruitable and unplayable lists retain membership. All comparison rows, blank cells and footnote retained.",
+      "organization": "Replaced list-only table scaffolding with lists; two-row comparison headers and row groups added without sorting or reordered rows.",
+      "questions": [
+        "race-movement",
+        "race-matrix-blanks",
+        "race-matrix-qualifications"
+      ]
+    },
+    {
+      "id": "how-to-make-a-new-race",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Read as an FCS/Blender workflow: duplicate, race group, editor limits, mesh/skeleton exports, textures, masks, body files and world placement.",
+      "organization": "Existing sequential steps and advanced sections retained. Tool/version assumptions, packaging/smoke-test gaps and permission wording need an evidence-backed update.",
+      "questions": [
+        "race-tutorial"
+      ]
+    },
+    {
+      "id": "whistler",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Removed-content notice, artist credit, ModDB/Nexus links and speculative identity/size qualifications retained.",
+      "organization": "Notice precedes description; distinguish removed vanilla concept from a playable fan mod.",
+      "questions": [
+        "race-whistler"
+      ]
+    },
+    {
+      "id": "alpha-fishman",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "King Gurgler-only use, quotation, health and slow movement/swimming caveats retained.",
+      "organization": "Short creature subrace description followed by statistics; no fabricated playable-start section.",
+      "questions": [
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "cannibal-race",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Cannibal faction distinction, biology, stats and origin claim retained.",
+      "organization": "Race-vs-faction route distinction explicit. Uncited First Empire/starvation origin needs sourcing.",
+      "questions": [
+        "race-cannibal-origin",
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "cannibal-skav",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Scrawny Cannibal subrace and 0.6 hunger, anatomy, weather and slots retained.",
+      "organization": "Compact description/statistics sequence appropriate; version and defaults remain undocumented.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "deadhive-prince",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "75 HP, bleed 0.2, hunger 1 and Western Prince differences retained.",
+      "organization": "Comparison prose leads into statistics; values not reconciled by guessing.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "deadhive-soldier",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Head 100, bleed 0.2, hunger 1 and +10% strength exception retained.",
+      "organization": "Empty Trivia preserved as a bookmark and registered separately.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "deadhive-worker",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Lower HP, bleed 0.2, hunger/vision 1 and missing Western penalties retained.",
+      "organization": "Empty Trivia remains a recorded content gap; table structure preserved.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "fishman",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Slow land speed, underwater walking despite swimming multiplier 5, single gender and health retained.",
+      "organization": "Swimming capability vs multiplier distinction requires testing rather than a table-only inference.",
+      "questions": [
+        "race-fishman-swimming",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "hive",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Read distribution, factions, play style, lore, long trivia and all citations. Source distinguishes many estimates and in-world viewpoints but also overstates conclusions.",
+      "organization": "Long outline retained. Unfinished sentence, toughness generalization, speculative population conclusions and dialogue-derived characterizations registered.",
+      "questions": [
+        "race-hive-incomplete",
+        "race-hive-generalisations",
+        "race-populations",
+        "race-hive-lore"
+      ]
+    },
+    {
+      "id": "hive-prince",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Quote about the unseen Queen, 80 HP, bleed 0.3, recruitment and head/food restrictions retained with speaker credit.",
+      "organization": "Character-selection quotation is kept as a quotation, not updated to present-day omniscient narration.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "hive-queen",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Artificial dispenser source, two Queens, repair requirement, hunger and unplayable status retained.",
+      "organization": "Mechanics, lore attribution and observed captivity behavior require separate evidence.",
+      "questions": [
+        "race-queen",
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "hive-soldier-drone",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Head 200, other HP 100, helmet restriction, partial weather protection and experience modifiers retained.",
+      "organization": "Head-healing inference kept with other technical questions; no inferred immunity added.",
+      "questions": [
+        "race-healing",
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "human",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Greenlander/Scorchlander groups, Burn quotation, history theory and athletics-level qualification retained.",
+      "organization": "Short overview appropriately links to detailed subraces. Historical theory remains qualified.",
+      "questions": [
+        "race-movement",
+        "race-healing"
+      ]
+    },
+    {
+      "id": "p4-unit",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Recruitable drifter distinction, head 150, other HP 200, heal 3 and design speculation retained.",
+      "organization": "No playable-start claim added; missing overview speed does not erase this page’s value.",
+      "questions": [
+        "race-healing",
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "robots",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Animal/humanoid lists, unplayable distinctions and 4% wear example retained.",
+      "organization": "Robots, Skeleton overview and Skeleton subrace remain distinct; generic 200-HP wear example needs qualification for other bodies.",
+      "questions": [
+        "race-robot-wear"
+      ]
+    },
+    {
+      "id": "scorchlander",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Heal 1.1, bleed/hunger 0.9, vision 1.25, raw meat, experience modifiers and extensive trivia retained.",
+      "organization": "Population ratios and possible mod-inspired appearance are not promoted to established facts.",
+      "questions": [
+        "race-populations",
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "screamer-mki",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Unplayable status, vision 0.75, heal 3, body health and Stobe resemblance retained.",
+      "organization": "Clear subrace identity; preserved comparison evidence for the No-Head vision question.",
+      "questions": [
+        "race-nohead-vision",
+        "race-healing",
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "shek",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Read faction distinction, description quote, distribution estimates, origin theory, health link, modifiers, start/recruit lists and trivia.",
+      "organization": "/shek/health kept alongside overview; lore quotations remain attributed. Formula, percentages and categorical cultural deductions need review.",
+      "questions": [
+        "race-healing",
+        "race-populations",
+        "race-shek-lore"
+      ]
+    },
+    {
+      "id": "shek/health",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Four health headings, 125 HP limbs, bleed 0.9, heal 0.8, hunger 1.25, anatomy weights and four limb properties retained.",
+      "organization": "Nested public address and source file tracked independently; reachable from Shek overview.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights",
+        "race-healing"
+      ]
+    },
+    {
+      "id": "skeleton",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Overview description, subraces, loading tip, repair/wear mechanics, equipment and play-dead workaround retained.",
+      "organization": "Overview and specific /skeleton-race remain separate. Gameplay advice and bug/workaround claims need a pinned game build.",
+      "questions": [
+        "race-healing",
+        "race-robot-wear",
+        "race-skeleton-reload"
+      ]
+    },
+    {
+      "id": "skeleton-log-head-mkii",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Unplayable status, Soldierbot head, 150 body HP, vision 2, bleed 0.4 and proposed origin retained.",
+      "organization": "Speculative resource-saving/Second Empire explanations stay explicitly possible.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "skeleton-mkii-screamer",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Dome II Screamer Unit, mixed head/body identity, vision 2, bleed 0.4 and 150 body HP retained.",
+      "organization": "No conflation with /screamer-mki. Rounded speed and modifier meanings remain open.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "skeleton-no-head-mkii",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Thrall identity, 0% head hit chance, 120 body HP and proposed permanent injury penalties retained.",
+      "organization": "Lowest-vision claim conflicts with Screamer MkI value; exact penalty and injury interpretation need proof.",
+      "questions": [
+        "race-nohead-vision",
+        "race-nohead-penalties",
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "skeleton-p4mkii",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Named Second Empire users, 150 HP, bleed 0.2, heal 3 and qualified origins retained.",
+      "organization": "Character links remain distinct from race identity and become local in later batches.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "soldierbot",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Agnu recruitment, vision 2, heal 3, precise speed and qualified historical speculation retained.",
+      "organization": "Subrace properties retained without inventing an available character-creation option.",
+      "questions": [
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights",
+        "race-healing"
+      ]
+    },
+    {
+      "id": "southern-hive-prince",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Rare slave recruitment, bleed 0.2 and absent Western bonuses retained.",
+      "organization": "One-in-a-thousand / single-per-save assertion is held for reproducible spawn and recruitment tests.",
+      "questions": [
+        "race-southern-prince",
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "southern-hive-soldier-drone",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Faction/dialogue-package recruitment restriction, lack of perception penalty and stats retained.",
+      "organization": "Instruction to consider recruitment conditions goes beyond stats; needs a tested faction/dialogue example.",
+      "questions": [
+        "race-southern-recruitment",
+        "race-defaults",
+        "race-movement",
+        "race-hit-weights"
+      ]
+    },
+    {
+      "id": "southern-hive-worker-drone",
+      "existence": "Registered source, canonical path and category checked",
+      "content": "Espher recruitment, bleed 0.4, missing toughness bonus, food/slots and statistics retained.",
+      "organization": "Both speed labels lack numbers; empty Trivia remains. No inferred numbers filled from Western Worker.",
+      "questions": [
+        "race-southern-speed",
+        "race-hive-generalisations",
+        "race-defaults",
+        "race-hit-weights"
+      ]
+    }
+  ]
+}

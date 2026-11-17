@@ -44,3 +44,7 @@ To transfer an article, select its registered ID, add one Markdown file in the a
 The Fandom importer omitted images. Record known gaps by article ID, section, source revision or evidence link, and verification status. Catun’s empty Gallery is awaiting comparison with Fandom revision 93167. Verify media coverage separately against credited source revisions.
 
 Use `npm run inventory -- <comparison-checkout>` only to reconcile the checked-in source registry. A normal build and the catalog tests use the repository’s own data. Repeating inventory normalization against the same revision should leave the registry byte-identical.
+
+## Corpus gap register and review milestone
+
+The [gap register](gaps/README.md) audits all 2,184 pinned articles and keeps inherited issues separate from conversion regressions. [Races](races/README.md) adds an explicit article-by-article content and organization review. Transfer, format acceptance, editorial review and original-media comparison remain independent. The restoration milestone requires an existence/content/organization review for every inventoried article, including earlier transfers still awaiting that review. Documented inherited gaps may remain open; introduced failures and unsupported closure claims block acceptance. At cutover an absolute kenshi.wiki link is no longer an old-site fallback. Outstanding absent addresses need real 404 responses with search and correction options in the utility batch; missing fragments remain separate article-level findings.

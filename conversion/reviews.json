@@ -31,6 +31,15 @@
     "bonefields": {
       "formatCheck": "scripts/geography/verify.mjs",
       "editorialReview": "conversion/geography/README.md"
+    },
+    "greenlander": {
+      "editorialReview": "conversion/races/review.json"
+    },
+    "hive-worker-drone": {
+      "editorialReview": "conversion/races/review.json"
+    },
+    "skeleton-race": {
+      "editorialReview": "conversion/races/review.json"
     }
   },
   "mediaGaps": [

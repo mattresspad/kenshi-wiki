@@ -68,3 +68,7 @@ node scripts/technical-data/investigate.mjs <KDC-directory> <KDT-directory> <map
 ```
 
 Omit `--live` for the offline build and consumer checks. The script writes an isolated compiler copy, two publications, source pins, an example index, consumer results and command logs beneath `reports/technical-data/`. It never writes to the supplied project directories. `latest.json` identifies the evidence run. The normal wiki build does not depend on any of these tool checkouts or the generated data index.
+
+## Deferred broader-export investigation
+
+The Races conversion does not adopt the proposed index or commit to a KDT/KDC delivery architecture. Investigate KDT capabilities beyond the map’s currently published subset as separate research. Any accepted technical correction must record exact record IDs, game/mod versions, source checksums, transformation versions and semantic qualifications, distinguishing exported values from derived interpretations and observed game behavior. The race gap register holds questions about defaults, units, movement conversions, healing, hit weights and reload behavior until that evidence exists.
