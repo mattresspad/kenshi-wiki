@@ -1193,5 +1193,36 @@
       "/straw-lieutenant",
       "/upgraded-skeleton-bandit"
     ]
+  },
+  {
+    "name": "zones-3",
+    "resolved": [
+      "/the-eye",
+      "/the-great-desert",
+      "/the-grid",
+      "/the-hook",
+      "/the-iron-trail",
+      "/the-outlands",
+      "/the-pits",
+      "/the-pits-east",
+      "/the-shrieking-forest",
+      "/the-swamp",
+      "/the-unwanted-zone",
+      "/vain",
+      "/venge",
+      "/watchers-rim",
+      "/wend"
+    ],
+    "introduced": [
+      "/cannibal-infestation",
+      "/cpu-of-the-head-of-agriculture",
+      "/crab-egg",
+      "/grand-fish",
+      "/hive-caravan-boss",
+      "/light-wind-generator-theory-tech",
+      "/mercenary-camp",
+      "/thinfish",
+      "/vegetable-farm"
+    ]
   }
 ]
