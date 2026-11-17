@@ -1224,5 +1224,27 @@
       "/thinfish",
       "/vegetable-farm"
     ]
+  },
+  {
+    "name": "historical-1",
+    "resolved": [
+      "/bark-alpha",
+      "/black-scratch-alpha",
+      "/brink-alpha",
+      "/clownsteady-alpha",
+      "/eyesocket-alpha",
+      "/fort-simion-alpha",
+      "/heft-alpha",
+      "/port-south-alpha",
+      "/shark-alpha",
+      "/skinners-roam-alpha",
+      "/the-forgotten-throne",
+      "/traders-edge-alpha"
+    ],
+    "introduced": [
+      "/factions-alpha",
+      "/immortal-king",
+      "/imperial-lords"
+    ]
   }
 ]
