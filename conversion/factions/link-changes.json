@@ -90,5 +90,17 @@
       "/adventurers-guild-alpha",
       "/sand-ninjas-alpha"
     ]
+  },
+  {
+    "name": "overview-and-guides",
+    "resolved": [
+      "/factions",
+      "/guide-to-faction-relations"
+    ],
+    "introduced": [
+      "/books",
+      "/diplomatic-status",
+      "/the-old-empire"
+    ]
   }
 ]
