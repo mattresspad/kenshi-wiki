@@ -41,5 +41,29 @@
       "/weather-effects",
       "/wolves"
     ]
+  },
+  {
+    "name": "bad-teeth",
+    "resolved": [
+      "/bad-teeth",
+      "/bad-teeth/destroyed",
+      "/bad-teeth/half-destroyed",
+      "/bad-teeth/krals-chosen",
+      "/bad-teeth/shek-kingdom",
+      "/bad-teeth/united-cities"
+    ],
+    "introduced": [
+      "/bughouse",
+      "/category/shek-kingdom",
+      "/empire-trade-culture",
+      "/holy-armour-shop",
+      "/river-raptor",
+      "/shek-armor-shop",
+      "/shek-bar",
+      "/shek-kingdom-trade-culture",
+      "/shek-weapon-shop",
+      "/travel-gear",
+      "/wrath-of-god"
+    ]
   }
 ]
