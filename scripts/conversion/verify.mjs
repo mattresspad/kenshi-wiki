@@ -55,10 +55,10 @@ export function verifyFamily(name, atlas, assetRedirects) {
   const headings=proofs.reduce((n,p)=>n+p.headings.length,0);
   const citationTargets=proofs.reduce((n,p)=>n+p.ids.filter(id=>/^cite_(?:ref|note)/.test(id)).length,0);
   if(checkpoint.included===roster.batches.length) {
-    assert.equal(assets.size,name==='geography'?35:0);
-    assert.equal(redirects.length,name==='geography'?42:5);
-    assert.equal(headings,name==='geography'?1421:639);
-    assert.equal(citationTargets,name==='geography'?307:453);
+    assert.equal(assets.size,roster.expected?.assets ?? (name==='geography'?35:0));
+    assert.equal(redirects.length,roster.expected?.redirects ?? (name==='geography'?42:5));
+    assert.equal(headings,roster.expected?.headings ?? (name==='geography'?1421:639));
+    assert.equal(citationTargets,roster.expected?.citationTargets ?? (name==='geography'?307:453));
   }
   const unique=rows=>[...new Map(rows.map(row=>[row.from+' '+row.to,row])).values()];
   return {through:roster.batches[checkpoint.included-1]?.name??null,verified:actual.size,familyPages:familyPaths.size,redirects,headings,citationTargets,assets:assets.size,

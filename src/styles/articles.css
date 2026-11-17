@@ -196,3 +196,20 @@
 .faction .references li { overflow-wrap:anywhere; margin-bottom:4px }
 .faction :is(sup,.references li):target { background:var(--hover) }
 @media(max-width:760px) { .faction .faction-locations { columns:1 } }
+
+.race .imported-item-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr)); gap:10px; max-width:65rem }
+.race .imported-item-grid .table-scroll { margin:0 }
+.race .imported-item-grid table { min-width:0; width:100%; max-width:none; font-size:.9em }
+.race .imported-property-table caption { padding:5px 8px; font-weight:650; text-align:left; background:var(--cell); border:1px solid var(--edge); border-bottom:0 }
+.race .race-index { display:flex; flex-wrap:wrap; gap:0 28px; max-width:90ch }
+.race .race-index > ul { margin-block:6px; min-width:12rem }
+.race .table-scroll:has(.race-comparison) { max-width:100% }
+.race .table-scroll .race-comparison { min-width:64rem; max-width:none; width:100%; font-variant-numeric:tabular-nums }
+.race-comparison thead th { text-align:center }
+.race-comparison tbody th[scope=rowgroup] { text-align:left; color:var(--heading-link); background:var(--cell) }
+.race-comparison tbody th[scope=row] { min-width:10rem }
+.race .references li { margin-bottom:4px }
+.race :is(sup,.references li):target { background:var(--hover) }
+@media print { .race .table-scroll .race-comparison { min-width:0; width:100%; font-size:7pt } }
+
+.race .table-scroll { scroll-margin-top:calc(2 * var(--bar) + 12px) }

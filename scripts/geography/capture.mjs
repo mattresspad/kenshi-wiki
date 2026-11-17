@@ -8,6 +8,10 @@ export async function captureBatch(base, batch, output, family='geography') {
   const {roster}=families[family];
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
   const extra={
+    'race-pilots':['greenlander#anatomy','hive-worker-drone#anatomy','skeleton-race#experience-multipliers'],
+    'race-structures':['races','how-to-make-a-new-race','whistler'],
+    'race-siblings-1':['hive#references','hive-queen','deadhive-prince'],
+    'race-siblings-2':['shek/health#anatomy','skeleton','category/races'],
     'major-factions':batch.ids,
     'infobox-variants':batch.ids,
     'historical-factions':batch.ids,
@@ -58,6 +62,7 @@ export async function captureBatch(base, batch, output, family='geography') {
             shots.push({id,anchor,device,theme,file:expanded});
             if(device==='phone')await page.keyboard.press('Escape');
           }
+          if(id==='races') {await page.locator('table.race-comparison').locator('..').evaluate(el=>el.scrollIntoView({block:'start'}));}
           if(id==='guide-to-faction-relations') {
             const region=page.locator('.article-body .table-scroll');
             await region.scrollIntoViewIfNeeded();await region.focus();await page.keyboard.press('Home');
@@ -65,6 +70,10 @@ export async function captureBatch(base, batch, output, family='geography') {
           const file=sample.replaceAll('/','--').replace('#','-')+'-'+device+'-'+theme+'.png';
           await page.screenshot({path:join(output,file),animations:'disabled'});
           shots.push({id,anchor,device,theme,file});
+          if(id==='races' && device==='phone') {
+            const region=page.locator('table.race-comparison').locator('..');await region.focus();await page.keyboard.press('End');
+            const right='race-comparison-right-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});
+          }
           if(id==='guide-to-faction-relations' && device==='phone') {
             const region=page.locator('.article-body .table-scroll');
             await region.focus();await page.keyboard.press('End');

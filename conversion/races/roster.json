@@ -1,0 +1,100 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "baseRevision": "615b877",
+  "members": [
+    "alpha-fishman",
+    "cannibal-race",
+    "cannibal-skav",
+    "deadhive-prince",
+    "deadhive-soldier",
+    "deadhive-worker",
+    "fishman",
+    "greenlander",
+    "hive",
+    "hive-prince",
+    "hive-queen",
+    "hive-soldier-drone",
+    "hive-worker-drone",
+    "how-to-make-a-new-race",
+    "human",
+    "p4-unit",
+    "robots",
+    "scorchlander",
+    "screamer-mki",
+    "shek",
+    "shek/health",
+    "skeleton",
+    "skeleton-log-head-mkii",
+    "skeleton-mkii-screamer",
+    "skeleton-no-head-mkii",
+    "skeleton-p4mkii",
+    "skeleton-race",
+    "soldierbot",
+    "southern-hive-prince",
+    "southern-hive-soldier-drone",
+    "southern-hive-worker-drone",
+    "whistler"
+  ],
+  "existing": [],
+  "batches": [
+    {
+      "name": "race-pilots",
+      "ids": [
+        "greenlander",
+        "hive-worker-drone",
+        "skeleton-race"
+      ]
+    },
+    {
+      "name": "race-structures",
+      "ids": [
+        "races",
+        "how-to-make-a-new-race",
+        "whistler"
+      ]
+    },
+    {
+      "name": "race-siblings-1",
+      "ids": [
+        "alpha-fishman",
+        "cannibal-race",
+        "cannibal-skav",
+        "deadhive-prince",
+        "deadhive-soldier",
+        "deadhive-worker",
+        "fishman",
+        "hive",
+        "hive-prince",
+        "hive-queen",
+        "hive-soldier-drone",
+        "human",
+        "p4-unit",
+        "robots"
+      ]
+    },
+    {
+      "name": "race-siblings-2",
+      "ids": [
+        "scorchlander",
+        "screamer-mki",
+        "shek",
+        "shek/health",
+        "skeleton",
+        "skeleton-log-head-mkii",
+        "skeleton-mkii-screamer",
+        "skeleton-no-head-mkii",
+        "skeleton-p4mkii",
+        "soldierbot",
+        "southern-hive-prince",
+        "southern-hive-soldier-drone",
+        "southern-hive-worker-drone"
+      ]
+    }
+  ],
+  "expected": {
+    "headings": 362,
+    "citationTargets": 136,
+    "assets": 0,
+    "redirects": 1
+  }
+}

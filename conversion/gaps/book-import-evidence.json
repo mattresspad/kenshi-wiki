@@ -1,0 +1,363 @@
+{
+  "source": "Recovered local Lore Books import investigation",
+  "artifact": "lore-books-import-evidence.json",
+  "sha256": "0b7909c61df4d59aae55ab2ec84c17fefff5a20c7c9a5665963724a544869392",
+  "recheckedAgainst": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "importer": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+  "method": "The earlier audit recorded Fandom revisions and reproduced the importer exclusion when boxed book text exceeds half the remaining words. This pass checked the pinned exclusion rule and searched the full registered title/path/alias inventory. Source prose and item locations still require page-by-page restoration review.",
+  "entries": [
+    {
+      "title": "Letter To Moll",
+      "path": "/letter-to-moll",
+      "revision": 75016,
+      "aliases": [],
+      "book": true,
+      "boxed": 193,
+      "total": 331,
+      "excluded": true,
+      "volumes": []
+    },
+    {
+      "title": "Memo From Moll",
+      "path": "/memo-from-moll",
+      "revision": 75017,
+      "aliases": [],
+      "book": true,
+      "boxed": 171,
+      "total": 223,
+      "excluded": true,
+      "volumes": []
+    },
+    {
+      "title": "Scripture of Radiance Series",
+      "path": "/scripture-of-radiance-series",
+      "revision": 80529,
+      "aliases": [
+        "Scripture of Radiance I",
+        "Scripture of Radiance II",
+        "Scripture of Radiance III",
+        "Scripture of Radiance IV",
+        "Scripture of Radiance V"
+      ],
+      "book": true,
+      "boxed": 502,
+      "total": 670,
+      "excluded": true,
+      "volumes": [
+        "Scripture of Radiance Vol. I",
+        "Scripture of Radiance Vol. II",
+        "Scripture of Radiance Vol. III",
+        "Scripture of Radiance Vol. IV",
+        "Scripture of Radiance Vol. V"
+      ]
+    },
+    {
+      "title": "The Guiding Light Series",
+      "path": "/the-guiding-light-series",
+      "revision": 71341,
+      "aliases": [
+        "The Guiding Light I",
+        "The Guiding Light II",
+        "The Guiding Light III",
+        "The Guiding Light IV",
+        "The Guiding Light V",
+        "The Guiding Light VI"
+      ],
+      "book": true,
+      "boxed": 675,
+      "total": 818,
+      "excluded": true,
+      "volumes": [
+        "The Guiding Light I",
+        "The Guiding Light II",
+        "The Guiding Light III",
+        "The Guiding Light IV",
+        "The Guiding Light V",
+        "The Guiding Light VI"
+      ]
+    },
+    {
+      "title": "Ludin's Reports",
+      "path": "/ludins-reports",
+      "revision": 90111,
+      "aliases": [],
+      "book": true,
+      "boxed": 568,
+      "total": 620,
+      "excluded": true,
+      "volumes": [
+        "Ludin's Report I",
+        "Ludin's Report II",
+        "Ludin's Report III"
+      ]
+    },
+    {
+      "title": "Captive's Journal Series",
+      "path": "/captives-journal-series",
+      "revision": 95896,
+      "aliases": [],
+      "book": true,
+      "boxed": 386,
+      "total": 420,
+      "excluded": true,
+      "volumes": [
+        "Captive's Journal I",
+        "Captive's Journal II",
+        "Captive's Journal III",
+        "Captive's Journal IV"
+      ]
+    },
+    {
+      "title": "Lam's Survival Series",
+      "path": "/lams-survival-series",
+      "revision": 80521,
+      "aliases": [],
+      "book": true,
+      "boxed": 124,
+      "total": 171,
+      "excluded": true,
+      "volumes": [
+        "Lam's Survival Vol.1",
+        "Lam's Survival Vol.3"
+      ]
+    },
+    {
+      "title": "Mega City: The Beginning Series",
+      "path": "/mega-city-the-beginning-series",
+      "revision": 82296,
+      "aliases": [],
+      "book": true,
+      "boxed": 327,
+      "total": 387,
+      "excluded": true,
+      "volumes": [
+        "Mega City: The Beginning I",
+        "Mega City: The Beginning II"
+      ]
+    },
+    {
+      "title": "Maril's Diary Series",
+      "path": "/marils-diary-series",
+      "revision": 57092,
+      "aliases": [
+        "Maril's Diary"
+      ],
+      "book": true,
+      "boxed": 456,
+      "total": 496,
+      "excluded": true,
+      "volumes": [
+        "Maril's Diary I",
+        "Maril's Diary II",
+        "Maril's Diary III"
+      ]
+    },
+    {
+      "title": "Letters From A Swamper",
+      "path": "/letters-from-a-swamper",
+      "revision": 75098,
+      "aliases": [],
+      "book": true,
+      "boxed": 558,
+      "total": 676,
+      "excluded": true,
+      "volumes": [
+        "Letter From A Swamper I",
+        "Letter From A Swamper II",
+        "Letter From A Swamper III",
+        "Letter From A Swamper IV",
+        "Letter From A Swamper V"
+      ]
+    },
+    {
+      "title": "Letters To Hash",
+      "path": "/letters-to-hash",
+      "revision": 75099,
+      "aliases": [],
+      "book": true,
+      "boxed": 162,
+      "total": 229,
+      "excluded": true,
+      "volumes": [
+        "Letter To Hash",
+        "Letter To Hash II"
+      ]
+    },
+    {
+      "title": "Legend of Luquin Series",
+      "path": "/legend-of-luquin-series",
+      "revision": 75104,
+      "aliases": [
+        "Legend of Luquin"
+      ],
+      "book": true,
+      "boxed": 353,
+      "total": 412,
+      "excluded": true,
+      "volumes": [
+        "Legend of Luquin I",
+        "Legend of Luquin II"
+      ]
+    },
+    {
+      "title": "United Weekly Series",
+      "path": "/united-weekly-series",
+      "revision": 93743,
+      "aliases": [
+        "United Weekly I",
+        "United Weekly II",
+        "United Weekly III",
+        "United Weekly IV",
+        "United Weekly V"
+      ],
+      "book": true,
+      "boxed": 276,
+      "total": 374,
+      "excluded": true,
+      "volumes": [
+        "United Weekly I",
+        "United Weekly II",
+        "United Weekly III",
+        "United Weekly IV",
+        "United Weekly V",
+        "United Weekly VI",
+        "United Weekly VII"
+      ]
+    },
+    {
+      "title": "Cultural Groupings And Evolution Series",
+      "path": "/cultural-groupings-and-evolution-series",
+      "revision": 80394,
+      "aliases": [
+        "Cultural Groupings And Evolution I",
+        "Cultural Groupings And Evolution II"
+      ],
+      "book": true,
+      "boxed": 365,
+      "total": 469,
+      "excluded": true,
+      "volumes": [
+        "Cultural Groupings And Evolution I",
+        "Cultural Groupings And Evolution II"
+      ]
+    },
+    {
+      "title": "Legends Series",
+      "path": "/legends-series",
+      "revision": 80393,
+      "aliases": [
+        "Legend of the Foulhound",
+        "Legend of the Grievewraith",
+        "Legend of the Headless Ancient Series",
+        "Legend of the Mist Ghoul",
+        "Legend of the Foresaken Howler",
+        "Legend Series"
+      ],
+      "book": true,
+      "boxed": 655,
+      "total": 745,
+      "excluded": true,
+      "volumes": [
+        "Legend of the Forsaken Howler",
+        "Legend of the Foulhound",
+        "Legend of the Grievewraith",
+        "Legend of the Headless Ancient I",
+        "Legend of the Headless Ancient II",
+        "Legend of the Mist Ghoul"
+      ]
+    },
+    {
+      "title": "Mass Extinction Series",
+      "path": "/mass-extinction-series",
+      "revision": 80401,
+      "aliases": [
+        "Mass Extinction I",
+        "Mass Extinction II",
+        "Mass Extinction III",
+        "Mass Extinction IV"
+      ],
+      "book": true,
+      "boxed": 575,
+      "total": 663,
+      "excluded": true,
+      "volumes": [
+        "Mass Extinction I",
+        "Mass Extinction II",
+        "Mass Extinction III",
+        "Mass Extinction IV"
+      ]
+    },
+    {
+      "title": "Okranite Theories In Relation To Findings Series",
+      "path": "/okranite-theories-in-relation-to-findings-series",
+      "revision": 80402,
+      "aliases": [
+        "Okranite Theories I",
+        "Okranite Theories II"
+      ],
+      "book": true,
+      "boxed": 370,
+      "total": 448,
+      "excluded": true,
+      "volumes": [
+        "Okranite Theories In Relation To Findings I",
+        "Okranite Theories In Relation To Findings II"
+      ]
+    },
+    {
+      "title": "Tech Hunter's Notes Series",
+      "path": "/tech-hunters-notes-series",
+      "revision": 90987,
+      "aliases": [],
+      "book": true,
+      "boxed": 1302,
+      "total": 1500,
+      "excluded": true,
+      "volumes": [
+        "Tech Hunter's Notes: Leviathan Coast",
+        "Tech Hunter's Notes: Pool of Obedience",
+        "Tech Hunter's Notes: Shopper's Guide",
+        "Tech Hunter's Notes: The Ashlands",
+        "Tech Hunter's Notes: The Ashlands pt II",
+        "Tech Hunter's Notes: The Black Desert",
+        "Tech Hunter's Notes: The Holy Nation",
+        "Tech Hunter's Notes: The Shrieking Forest",
+        "Tech Hunter's Notes: The Swamps"
+      ]
+    },
+    {
+      "title": "The Lost Ancients Series",
+      "path": "/the-lost-ancients-series",
+      "revision": 82166,
+      "aliases": [
+        "The Lost Ancients I",
+        "The Lost Ancients II"
+      ],
+      "book": true,
+      "boxed": 435,
+      "total": 523,
+      "excluded": true,
+      "volumes": [
+        "The Lost Ancients I",
+        "The Lost Ancients II"
+      ]
+    },
+    {
+      "title": "The Mystery Of Skeletech Series",
+      "path": "/the-mystery-of-skeletech-series",
+      "revision": 80410,
+      "aliases": [
+        "The Mystery Of Skeletech I",
+        "The Mystery Of Skeletech II"
+      ],
+      "book": true,
+      "boxed": 296,
+      "total": 430,
+      "excluded": true,
+      "volumes": [
+        "The Mystery Of Skeletech I",
+        "The Mystery Of Skeletech II"
+      ]
+    }
+  ]
+}

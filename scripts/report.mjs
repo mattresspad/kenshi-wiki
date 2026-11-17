@@ -8,6 +8,9 @@ import {buildCatalog, categoryPath, origin, policy, snapshot} from '../src/lib/c
 
 import {verifyGeography} from './geography/verify.mjs';
 import {verifyFactions} from './factions/verify.mjs';
+import {verifyFamily} from './conversion/verify.mjs';
+import {selectedIds} from './conversion/batches.mjs';
+import {reportGaps} from './gaps/report.mjs';
 import factionNotes from '../conversion/factions/notes.json' with {type:'json'};
 import {includedIds as factionIds, frozenEvidence as factionEvidence} from './factions/batches.mjs';
 import geoNotes from '../conversion/geography/notes.json' with {type:'json'};
@@ -24,6 +27,7 @@ for (const [id, checks] of Object.entries(review.articles)) {
 for (const gap of review.mediaGaps) if (!atlas.byId.has(gap.articleId)) throw Error('Unknown article for media gap ' + gap.articleId);
 const geography = verifyGeography(atlas, assetRedirects);
 const factions=verifyFactions(atlas,assetRedirects);
+const races=verifyFamily('races',atlas,assetRedirects),raceIds=selectedIds('races');
 const geographicalSources=frozenEvidence().articles;
 const factionSources=factionEvidence().articles;
 const emptyGalleryIds=new Set([...geography.emptyGalleries,...review.mediaGaps.filter(gap=>gap.section==='Gallery').map(gap=>gap.articleId)]);
@@ -61,8 +65,8 @@ for (const a of atlas.byId.values()) {
       label:$(el).text(), href:new URL($(el).attr('href'),origin+a.path).href
     }));
   }
-  const checks = {...(includedIds.has(a.id) ? {formatCheck:'scripts/geography/verify.mjs'} : {}), ...(factionIds.has(a.id) ? {formatCheck:'scripts/factions/verify.mjs'} : {}), ...review.articles[a.id]};
-  const media=a.filePath && (geographyIds.has(a.id) || factionIds.has(a.id)) ? {
+  const checks = {...(includedIds.has(a.id) ? {formatCheck:'scripts/geography/verify.mjs'} : {}), ...(factionIds.has(a.id) ? {formatCheck:'scripts/factions/verify.mjs'} : {}), ...(raceIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...review.articles[a.id]};
+  const media=a.filePath && (geographyIds.has(a.id) || factionIds.has(a.id) || raceIds.has(a.id)) ? {
     originalMediaComparison:'unassessed',
     emptyImportedGallery:emptyGalleryIds.has(a.id) || factions.emptyGalleries.includes(a.id),
     verifiedBodyItemIcons:[...new Set(((geographicalSources[a.id] ?? factionSources[a.id])?.images ?? []).map(([url])=>url))]
@@ -104,7 +108,8 @@ const duplicateCheck=new Set(routes.filter(r=>['article','category','utility','p
 if(duplicateCheck.size!==snapshot.articles.length+initial.categories.size+snapshot.utilities.length+snapshot.portals.length) throw Error('Overlapping public page identities');
 const temporaryLinks=Array.from(external,([from,urls])=>({from,to:[...urls].sort()}));
 const articlesAt = state => routes.filter(row=>row.kind==='article' && row[state]).map(row=>row.path);
-const report={revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
+const gaps=reportGaps(atlas,review.articles);
+const report={gaps,races,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
   aliases:policy.aliases,exclusions,temporaryLinks,assetRedirects,blenderChange,routes};
 mkdirSync('reports',{recursive:true});
 writeFileSync('reports/routes.json',JSON.stringify(report,null,2)+'\n');
@@ -134,9 +139,11 @@ const lines=['# Restoration route report','','Frozen source '+snapshot.revision+
   factions.verified+' new articles checked against the pinned rendered source, including '+factions.headings+' headings and '+factions.citationTargets+' citation targets.',
   factions.emptyGalleries.length+' empty imported galleries, '+factions.fragmentExceptions.length+' missing local fragments and '+factions.unregisteredDestinations.length+' unregistered destinations are recorded in routes.json. Other media coverage is unassessed.','',
   ...Object.entries(factionNotes).map(([id,note])=>'- '+atlas.byId.get(id).title+' — '+note),'',
+  '## Races','',races.verified+' race and supporting articles checked, '+races.headings+' headings and '+races.citationTargets+' citation targets.','',
+  '## Gap register','',gaps.sourceArticles+' source articles audited. '+gaps.findings+' deduplicated records include pending conversions, inherited defects and claim questions. See gaps/index.html and gaps/register.json for every occurrence. '+gaps.introduced+' introduced regressions.','',
   '## Media restoration','',
   'The original importer omitted images. Coverage is unassessed unless there is separate evidence.','',
   ...review.mediaGaps.map(gap => '- '+atlas.byId.get(gap.articleId).title+' / '+gap.section+' — '+gap.status+'. '+gap.observation+' '+gap.source),'',
-  'Milestone remains open while routes await conversion or verification, or temporary links remain. Reconcile public main again, record the software license, then review the candidate and rollback version with Prd before production.',''];
+  'Milestone requires every inventoried route to have a disposition, every article to receive an existence/content/organization review, and every detected gap to be accounted for. Documented inherited gaps may remain open; introduced regressions must be fixed. Apex-domain links are not post-cutover fallbacks. Reconcile public main, settle the software license, and review staging and rollback with Prd before separate production approval.',''];
 writeFileSync('reports/route-report.md',lines.join('\n'));
 console.log(atlas.local.size+' HTML pages; '+memberships+' reference memberships; '+routes.length+' ledger rows.');

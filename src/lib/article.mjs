@@ -1,4 +1,5 @@
 import {load} from 'cheerio';
+import {normalizeRaceTables} from './race-tables.mjs';
 import {normalizeFactionTables} from './faction-tables.mjs';
 
 // Process Astro's rendered Markdown once at build time for both the outline and the reading surface.
@@ -11,7 +12,8 @@ export function prepareArticle(html, data, href) {
     if (target.startsWith('/') && !/^\/(?:images|notices)\//.test(target)) el.attr('href', href(target));
   }
   if (data.layout === 'faction') normalizeFactionTables($);
-  const imported = ['geography','faction'].includes(data.layout);
+  if (data.layout === 'race') normalizeRaceTables($);
+  const imported = ['geography','faction','race'].includes(data.layout);
   const outline = [];
   const parents = [];
   for (const heading of $('h2,h3,h4,h5,h6').toArray()) {
