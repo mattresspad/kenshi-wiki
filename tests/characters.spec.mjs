@@ -22,6 +22,16 @@ for(const phone of [false,true])for(const theme of ['light','dark'])test.describ
   for(const chain of [['/mongrel','/beep'],['/emperor-tengu','/heft'],['/emperor-tengu','/world-states']]){await page.goto(chain[0]+'?theme='+theme);await page.locator('main a[href="'+chain[1]+'"]').first().click();await expect(page).toHaveURL(new RegExp(chain[1]+'$'));}
   if(included.has('unique-recruits')){await page.goto('/beep');await page.locator('main a[href="/unique-recruits"]').first().click();await expect(page.locator('h1')).toHaveText('Unique Recruits');}
  });
+ test('equipment keeps shared manufacturer rows intact and sorts item names past icons',async({page})=>{
+  test.skip(!included.has('drifter'));const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto('/armour-king?theme='+theme);const merged=page.locator('table').filter({has:page.locator('tbody [rowspan]')}).first();
+  await expect(merged.locator('button')).toHaveCount(0);await expect(merged.locator('tbody tr')).toHaveCount(3);await expect(merged).toContainText('Skeleton Smiths');
+  await page.goto('/drifter?theme='+theme);const table=page.locator('table[data-sortable]').filter({has:page.locator('thead th[colspan="2"]')}).first();
+  const names=()=>table.locator('tbody tr').evaluateAll(rows=>rows.map(row=>row.cells[1].textContent.trim()));
+  const before=await names(),ascending=[...before].sort(new Intl.Collator('en',{numeric:true,sensitivity:'base'}).compare);
+  await table.getByRole('button',{name:'Sort by Name',exact:true}).press('Enter');expect(await names()).toEqual(ascending);
+  await table.getByRole('button',{name:'Sort by Name',exact:true}).press('Enter');expect(await names()).toEqual([...ascending].reverse());expect(errors).toEqual([]);
+ });
  test('long category strips keep search inside the frame',async({page})=>{
   test.skip(phone||!included.has('big-darkbrow'));await page.goto('/big-darkbrow?theme='+theme);
   const last=page.locator('.context-cats a').last();await last.focus();await expect(last).toBeInViewport();

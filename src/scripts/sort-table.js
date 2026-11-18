@@ -11,6 +11,8 @@ for (const region of document.querySelectorAll('.table-scroll')) {
 for (const table of document.querySelectorAll('table[data-sortable]')) {
   const headers = Array.from(table.tHead.rows[0].cells);
   const body = table.tBodies[0];
+  // Shared cells couple rows: keep the original equipment group together.
+  if (!body || [...body.rows].some(row => [...row.cells].some(cell => cell.rowSpan !== 1))) continue;
 
   for (const header of headers) {
     const name = header.innerText.replace(/\s+/g, ' ').trim();
@@ -32,13 +34,18 @@ for (const table of document.querySelectorAll('table[data-sortable]')) {
       const index = headers.slice(0,header.cellIndex).reduce((columns, prior) => columns + prior.colSpan, 0);
       const numeric = header.dataset.sortType === 'number';
       const key = row => {
-        const cell = row.cells[index];
-        const value = (cell.dataset.sortValue ?? cell.textContent).trim();
-        return numeric ? Number.parseFloat(value.replaceAll(',', '')) : value;
+        let column = 0;
+        const cells = [...row.cells].filter(cell => {
+          const start = column; column += cell.colSpan;
+          return start < index + header.colSpan && column > index;
+        });
+        return cells.map(cell => (cell.dataset.sortValue ?? cell.textContent).trim()).filter(Boolean).join(' ');
       };
       const rows = Array.from(body.rows);
       rows.sort((a, b) => {
-        const comparison = numeric ? key(a) - key(b) : collator.compare(key(a), key(b));
+        const left = key(a), right = key(b);
+        const x = Number.parseFloat(left.replaceAll(',', '')), y = Number.parseFloat(right.replaceAll(',', ''));
+        const comparison = numeric && Number.isFinite(x) && Number.isFinite(y) ? x - y : collator.compare(left, right);
         return ascending ? comparison : -comparison;
       });
       body.append(...rows);
