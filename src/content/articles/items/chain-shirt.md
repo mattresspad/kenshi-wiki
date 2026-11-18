@@ -1,0 +1,80 @@
+---
+articleId: chain-shirt
+title: Chain Shirt
+description: The Chain Shirt is a Medium Armour that is equipped in the Shirt slot. It is the short-sleeved variant of the Chainmail. It also has a blackened and rusted v…
+categories:
+  - Armour
+  - Shirts
+  - Medium Armour
+layout: item
+factTitle: Chain Shirt
+factGroups:
+  - heading: null
+    rows:
+      - - Slot
+        - - Shirt
+          - /shirts
+      - - Class
+        - - Medium
+          - /medium-armour
+      - - Material
+        - Chain
+      - - Base weight
+        - 10 kg
+      - - Base value
+        - c. 8,000
+      - - Size in inventory
+        - 2x4
+  - heading: Protection
+    rows:
+      - - Left Arm
+        - 25% covered
+      - - Stomach
+        - 100% covered
+      - - Right Arm
+        - 25% covered
+      - - Chest
+        - 100% covered
+  - heading: Modifiers
+    rows:
+      - - Combat speed
+        - 0.97x
+      - - Cut into stun
+        - 40%
+      - - Dexterity
+        - 0.90x
+      - - Dodge
+        - 0.90x
+      - - Ranged skill
+        - 0.80x
+      - - Stealth
+        - 0.85x
+  - heading: null
+    rows:
+      - - String id
+        - 544-gamedata.base
+factImage:
+  src: /icons/items/544-gamedata.base.png
+  alt: Chain Shirt
+factCaption: A chain undershirt provides a reliable second layer of defence.
+---
+
+The **Chain Shirt** is a Medium Armour that is equipped in the Shirt slot. It is the short-sleeved variant of the [Chainmail](/chainmail). It also has a [blackened](/blackened-chain-shirt) and [rusted](/rusty-chain-shirt) variant. Additionally, there is also a [Hiver-equivalent](/hiver-chain-shirt) version of this clothing.
+
+This armour has inventory dimensions of **2x4**.
+
+## Appearance
+
+Similar in appearance to [Chainmail](/chainmail), the Chain Shirt is made up of thousands of individual metal rings linked together. Chainmail covers the entire torso, halfway up the character's neck and down to the biceps of both arms.
+
+## Stats
+
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Chain</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1%</td><td>4%</td><td>8%</td><td>12%</td><td>17%</td><td>20%</td></tr><tr><th scope="row">Cut resistance</th><td>5%</td><td>12%</td><td>20%</td><td>29%</td><td>38%</td><td>44%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">60%</td></tr><tr><th scope="row">Harpoon resistance</th><td>1pts</td><td>5pts</td><td>11pts</td><td>17pts</td><td>23pts</td><td>28pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">6.75 kg</td></tr><tr><th scope="row">Value</th><td>c.835</td><td>c.2,580</td><td>c.8,163</td><td>c.17,469</td><td>c.30,498</td><td>c.42,712</td></tr><tr><th scope="row">Sell value</th><td>c.208</td><td>c.645</td><td>c.2,040</td><td>c.4,367</td><td>c.7,624</td><td>c.10,678</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">100%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">100%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">25%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">25%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td>0.24x</td><td>0.29x</td><td>0.35x</td><td>0.41x</td><td>0.47x</td><td>0.52x</td></tr><tr><th scope="row">Crossbows effect</th><td colspan="6">0.80x</td></tr><tr><th scope="row">Precision shooting effect</th><td colspan="6">0.80x</td></tr><tr><th scope="row">Dodge skill effect</th><td colspan="6">0.90x</td></tr><tr><th scope="row">Combat speed effect</th><td colspan="6">0.97x</td></tr><tr><th scope="row">Dexterity effect</th><td colspan="6">0.90x</td></tr></tbody></table>
+
+## Source
+
+<details class="collapsible" open=""><summary>Locations</summary><table class="wikitable"><tbody><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><div><span><a href="/elite-hunter">Elite Hunter</a></span> <span><span class="basic-tooltip" title="85% chance of High grade.">[H]</span> <span class="basic-tooltip" title="15% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/harmothoe">Harmothoe</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/high-inquisitor-seta">High Inquisitor Seta</a></span> <span><span class="basic-tooltip" title="90% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="10% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/high-inquisitor-valtena">High Inquisitor Valtena</a></span> <span><span class="basic-tooltip" title="90% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="10% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/holy-lord-phoenix">Holy Lord Phoenix</a></span> <span><span class="basic-tooltip" title="100% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/inquisitor">Inquisitor</a></span> <span><span class="basic-tooltip" title="90% chance of High grade.">[H]</span> <span class="basic-tooltip" title="10% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/mercenary-captain">Mercenary Captain</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/ronin-armour-trader">Ronin Armour Trader</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/samurai-captain">Samurai Captain</a></span> <span><span class="basic-tooltip" title="90% chance of High grade.">[H]</span> <span class="basic-tooltip" title="10% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/samurai-elite">Samurai Elite</a></span> <span><span class="basic-tooltip" title="90% chance of High grade.">[H]</span> <span class="basic-tooltip" title="10% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/samurai-gate-guard">Samurai Gate Guard</a></span> <span><span class="basic-tooltip" title="95% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/samurai-gate-sergeant">Samurai Gate Sergeant</a></span> <span><span class="basic-tooltip" title="90% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="10% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/samurai-sergeant">Samurai Sergeant</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/the-vault-warden">The Vault Warden</a></span> <span><span class="basic-tooltip" title="90% chance of High grade.">[H]</span> <span class="basic-tooltip" title="10% chance of Specialist grade.">[S]</span></span></div><div></div></td><td><div><span><a href="/bounty-hunter">Bounty Hunter</a></span> <span><span class="basic-tooltip" title="85% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="15% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/cannibal-hunter">Cannibal Hunter</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/cannibal-hunter-captain">Cannibal Hunter Captain</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/cannibal-hunter-robun">Cannibal Hunter Robun</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/empire-noble-guard">Empire Noble Guard</a></span> <span><span class="basic-tooltip" title="100% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/high-overseer">High Overseer</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/high-paladin">High Paladin</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/hooded-empire-noble-guard">Hooded Empire Noble Guard</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/moon-guardian">Moon Guardian</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/noble-captain">Noble Captain</a></span> <span><span class="basic-tooltip" title="95% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/outlaw">Outlaw</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/protector-of-the-flame">Protector of the Flame</a></span> <span><span class="basic-tooltip" title="90% chance of High grade.">[H]</span> <span class="basic-tooltip" title="10% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/samurai-gate-guard">Samurai Gate Guard</a></span> <span><span class="basic-tooltip" title="95% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/samurai-heavy">Samurai Heavy</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/samurai-rogue">Samurai Rogue</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/swamper-bar-thug">Swamper Bar Thug</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/yabuta-chief">Yabuta Chief</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/yabuta-outlaw">Yabuta Outlaw</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p><span><a href="/armour-king">Armour King</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="2% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="80% chance of High grade.">[H]</span> <span class="basic-tooltip" title="110% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="50% chance of Masterwork grade.">[M]</span></span><br><span><a href="/clothes-shop">Clothes Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="11% chance of Prototype grade.">[P]</span> <span class="basic-tooltip" title="42% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="36% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="11% chance of High grade.">[H]</span></span><br><span><a href="/clothing-shop">Clothing Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="3.2% chance of Prototype grade.">[P]</span> <span class="basic-tooltip" title="42% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="42% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="12% chance of High grade.">[H]</span> <span class="basic-tooltip" title="0.8% chance of Specialist grade.">[S]</span></span><br><span><a href="/holy-armor-shop">Holy Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="11% chance of Prototype grade.">[P]</span> <span class="basic-tooltip" title="42% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="36% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="11% chance of High grade.">[H]</span></span><br><span><a href="/mongrel-clothes-shop">Mongrel Clothes Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="20% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="51% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span> <span class="basic-tooltip" title="9% chance of Specialist grade.">[S]</span></span><br><span><a href="/the-great-library">The Great Library</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br></p></td><td><p><a href="/cannibal-capital">Cannibal Capital</a><br><a href="/cannibal-village">Cannibal Village</a><br><a href="/first-village">First Village</a><br><span class="new" title="Inquisitor Police Station (page does not exist)" data-uncrawlable-url="L3dpa2kvSW5xdWlzaXRvcl9Qb2xpY2VfU3RhdGlvbj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Inquisitor Police Station</span><br><span class="new" title="Inquisitor Barracks (page does not exist)" data-uncrawlable-url="L3dpa2kvSW5xdWlzaXRvcl9CYXJyYWNrcz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Inquisitor Barracks</span><br><a href="/holy-armory">Holy Armory</a><br><span class="new" title="Holy Barracks (page does not exist)" data-uncrawlable-url="L3dpa2kvSG9seV9CYXJyYWNrcz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Holy Barracks</span><br><a href="/watchtower">Watchtower</a><br><br></p><p>This armour can also be found as loot via the <a href="/artifacts">Artifacts</a> system.</p></td></tr></tbody></table></details>
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.6</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>3</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Chain Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 20,409.</li></ul></div>

@@ -1,0 +1,54 @@
+---
+articleId: clothing
+title: Clothing
+description: Clothing is any equipment which can be equipped in an armour slot but gives no defensive bonus and does not fall into the Light, Medium, or Heavy armour clas…
+categories:
+  - Equipment
+  - Clothing
+  - Armour
+layout: item
+---
+
+<figure class="quote"><blockquote>'Ey, what's with those rags, you're wearing anyway? Look like you've been chewed on by a gutter...</blockquote><figcaption><a href="/catun">Catun</a> Bar Patron</figcaption></figure>
+
+
+
+**Clothing** is any [equipment](/equipment) which can be equipped in an armour slot but gives no defensive bonus and does not fall into the [Light](/light-armour), [Medium](/medium-armour), or [Heavy](/heavy-armour) armour class. Many serve no purpose beyond decreasing your "looks like a slave" rating when escaping [Slavery](/slavery). Clothing tends to be found as starting gear on new recruits. Some clothing may provide bonuses to [Athletics](/athletics), [Combat Speed](/combat-speed), [Stealth](/stealth), or [Martial Arts](/martial-arts).
+
+While clothing items give no stats bonus depending on their quality, the player-crafted high-quality items are still identifiable by a slight change in the worded description. Such items are described as "high quality armour", followed by a generic description that cites the creator's name. Only the [smiths](/armour-smith) that are able to regularly craft "Specialist" level gear make clothing with this special description.
+
+## Headgear
+
+There are eight Clothing [Headgear](/headgear) options.
+
+<table class="wikitable sortable"><tbody><tr><th>Image</th><th>Item</th><th data-sort-type="number">Cost</th><th data-sort-type="number">Sell Price</th><th>Crafting Table</th></tr><tr><td><img class="item-icon" src="/icons/items/55393-rebirth.mod.png" alt="" width="40" height="40"></td><td><a href="/ashland-hat">Ashland Hat</a></td><td>151</td><td>37</td><td><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/55395-rebirth.mod.png" alt="" width="40" height="40"></td><td><a href="/ashlander-stormgoggles">Ashlander Stormgoggles</a></td><td>120</td><td>30</td><td><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/45556-changes_otto.mod.png" alt="" width="40" height="40"></td><td><a href="/basket-hat">Basket Hat</a></td><td>10</td><td>7</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2167-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/cap">Cap</a></td><td>90</td><td>22</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/1534055-Newwworld_Plus.mod.png" alt="" width="40" height="40"></td><td><a href="/sandogasa">Sandagosa</a></td><td>10</td><td>2</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2168-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/square-goggles">Square Goggles</a></td><td>60</td><td>15</td><td><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/575-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/straw-hat">Straw Hat</a></td><td>10</td><td>2</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2164-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/wool-hat">Wool Hat</a></td><td>90</td><td>22</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr></tbody></table>
+
+## Shirts
+
+There are six Clothing [Shirt](/shirts) options.
+
+<table class="wikitable sortable"><tbody><tr><th>Image</th><th>Item</th><th data-sort-type="number">Cost</th><th data-sort-type="number">Sell Price</th><th>Crafting Table</th></tr><tr><td><img class="item-icon" src="/icons/items/1168-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/cloth-shirt">Cloth Shirt</a></td><td>225</td><td>56</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/18917-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/black-cloth-shirt">Black Cloth Shirt</a></td><td>225</td><td>56</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2326-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/martial-artist-bindings">Martial Artist Bindings</a></td><td>200</td><td>40</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/543-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/turtleneck">Turtleneck</a></td><td>300</td><td>75</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/51643-rebirth.mod.png" alt="" width="40" height="40"></td><td><a href="/dyed-turtleneck">Dyed Turtleneck</a></td><td>300</td><td>75</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/1167-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/white-vest">White Vest</a></td><td>150</td><td>20</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr></tbody></table>
+
+## Legwear
+
+There are ten Clothing [Legwear](/legwear) options.
+
+<table class="wikitable sortable"><tbody><tr><th>Image</th><th>Item</th><th data-sort-type="number">Cost</th><th data-sort-type="number">Sell Price</th><th>Crafting Table</th></tr><tr><td><img class="item-icon" src="/icons/items/550-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/cargopants">Cargopants</a>*</td><td>50</td><td>12</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2193-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/gi-pants">Gi Pants</a></td><td>50</td><td>12</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/551-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/halfpants-ragged">Halfpants (ragged)</a>*</td><td>50</td><td>12</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2188-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/monk-pants">Monk Pants</a></td><td>50</td><td>12</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/51662-Newwworld.mod.png" alt="" width="40" height="40"></td><td><a href="/nobles-trousers">Noble's Trousers</a></td><td>500</td><td>75</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2194-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/ninja-pants">Ninja Pants</a></td><td>-</td><td>-</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2308-clothes_v1.mod.png" alt="" width="40" height="40"></td><td><a href="/rag-loincloth">Rag Loincloth</a>*</td><td>50</td><td>12</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/18911-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/stout-hessian">Stout Hessian</a></td><td>-</td><td>-</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2169-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/stout-hessian-uniform">Stout Hessian Uniform</a></td><td>-</td><td>-</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2158-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/worn-out-shorts">Worn-out Shorts</a></td><td>20</td><td>5</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr></tbody></table>
+
+\*There are colored/dyed versions of these items
+
+## Body Armour
+
+There are five Clothing [Body Armour](/body-armour) options.
+
+<table class="wikitable sortable"><tbody><tr><th>Image</th><th>Item</th><th data-sort-type="number">Cost</th><th data-sort-type="number">Sell Price</th><th>Crafting Table</th></tr><tr><td><img class="item-icon" src="/icons/items/564-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/gi">Gi</a></td><td>200</td><td>50</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/SHACKLES-BODY.png" alt="" width="40" height="40"></td><td><a href="/hive-prisoner-shackles">Hive Prisoner Shackles</a>*</td><td>-</td><td>-</td><td>-</td></tr><tr><td><img class="item-icon" src="/icons/items/2189-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/monk-robe">Monk Robe</a></td><td>393</td><td>98</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2197-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/ninja-gi">Ninja Gi</a></td><td>200</td><td>50</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/51663-Newwworld.mod.png" alt="" width="40" height="40"></td><td><a href="/nobles-robe">Noble's Robe</a></td><td>-</td><td>-</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr><tr><td><img class="item-icon" src="/icons/items/2309-clothes_v1.mod.png" alt="" width="40" height="40"></td><td><a href="/rag-shirt">Rag Shirt</a></td><td>393</td><td>98</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr></tbody></table>
+
+\*It's considered Heavy Armour by the FCS.
+
+## Footwear
+
+There are two Clothing [Footwear](/footwear) option.
+
+<table class="wikitable sortable"><tbody><tr><th>Image</th><th>Item</th><th data-sort-type="number">Cost</th><th data-sort-type="number">Sell Price</th><th>Crafting Table</th></tr><tr><td><img class="item-icon" src="/icons/items/SHACKLES.png" alt="" width="40" height="40"></td><td><a href="/prisoner-shackles">Prisoner Shackles</a>*</td><td>-</td><td>-</td><td>-</td></tr><tr><td><img class="item-icon" src="/icons/items/557-gamedata.base.png" alt="" width="40" height="40"></td><td><a href="/wooden-sandals">Wooden Sandals</a></td><td>50</td><td>12</td><td><a href="/clothing-bench">Clothing Bench</a></td></tr></tbody></table>
+
+\*It's considered Medium Armour by the FCS.

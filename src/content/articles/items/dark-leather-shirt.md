@@ -1,0 +1,86 @@
+---
+articleId: dark-leather-shirt
+title: Dark Leather Shirt
+description: Dark Leather Shirt is Light Armour that are equipped in the Body Armour slot. It is a dark-green version of Leather Shirt with slightly better protective sta…
+categories:
+  - Armour
+  - Shirts
+  - Light Armour
+layout: item
+factTitle: Dark Leather Shirt
+factGroups:
+  - heading: null
+    rows:
+      - - Slot
+        - - Shirt
+          - /shirts
+      - - Class
+        - - Light
+          - /light-armour
+      - - Material
+        - Leather
+      - - Base weight
+        - 1 kg
+      - - Base value
+        - c. 3,000
+      - - Size in inventory
+        - 2x4
+  - heading: Protection
+    rows:
+      - - Chest
+        - 100% covered
+      - - Left Arm
+        - 30% covered
+      - - Stomach
+        - 100% covered
+      - - Right Arm
+        - 30% covered
+  - heading: Modifiers
+    rows:
+      - - Cut into stun
+        - 50%
+      - - Stealth
+        - 1.10x
+  - heading: null
+    rows:
+      - - String id
+        - 2214-gamedata.base
+factImage:
+  src: /icons/items/2214-gamedata.base.png
+  alt: Dark Leather Shirt
+factCaption: Undershirts provide a reliable second layer of defence.
+---
+
+**Dark Leather Shirt** is Light Armour that are equipped in the Body Armour slot. It is a dark-green version of [Leather Shirt](/leather-shirt) with slightly better protective stats with the downside of being much more expensive.
+
+This armour has inventory dimensions of **2x4**.
+
+## Appearance
+
+The Dark Leather Shirt is similar in appearance to the [Leather Shirt](/leather-shirt) except that is darker in color.
+
+## Grades
+
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>2.688%</td><td>6.048%</td><td>10.528%</td><td>15.008%</td><td>19.488%</td><td>22.848%</td></tr><tr><th scope="row">Cut resistance</th><td>4.224%</td><td>9.504%</td><td>16.544%</td><td>23.584%</td><td>30.624%</td><td>35.904%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">50%</td></tr><tr><th scope="row">Harpoon resistance</th><td>2.1pts</td><td>4.725pts</td><td>8.225pts</td><td>11.725pts</td><td>15.225pts</td><td>17.85pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">1.9375 kg</td></tr><tr><th scope="row">Value</th><td>c.343</td><td>c.1,750</td><td>c.6,258</td><td>c.13,767</td><td>c.24,279</td><td>c.34,137</td></tr><tr><th scope="row">Sell value</th><td>c.85</td><td>c.437</td><td>c.1,564</td><td>c.3,441</td><td>c.6,069</td><td>c.8,534</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">100%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">100%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">30%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">30%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td colspan="6">1.10x</td></tr></tbody></table>
+
+## Source
+
+<details class="collapsible" open=""><summary>Locations</summary><table class="wikitable"><tbody><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><div><span><a href="/bo">Bo</a></span> <span><span class="basic-tooltip" title="95% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/cloud-ninja">Cloud Ninja</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/dust-king">Dust King</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/flotsam-jonin">Flotsam Jonin</a></span> <span><span class="basic-tooltip" title="80% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/flotsam-ninja">Flotsam Ninja</a></span> <span><span class="basic-tooltip" title="80% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/griffin">Griffin</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/jewel">Jewel</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/mani">Mani</a></span> <span><span class="basic-tooltip" title="95% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/moll">Moll</a></span> <span><span class="basic-tooltip" title="95% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/police-chief">Police Chief</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/ruka">Ruka</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/savant">Savant</a></span> <span><span class="basic-tooltip" title="75% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="25% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/thief-boss">Thief Boss</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/yabuta-of-the-sands">Yabuta of the Sands</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/yayoi">Yayoi</a></span> <span><span class="basic-tooltip" title="95% chance of Specialist grade.">[S]</span></span></div><div></div></td><td><div><span><a href="/bar-fisherman">Bar Fisherman</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/jonin-elite">Jonin Elite</a></span> <span><span class="basic-tooltip" title="90% chance of High grade.">[H]</span> <span class="basic-tooltip" title="10% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/ninja-guard">Ninja Guard</a></span> <span><span class="basic-tooltip" title="90% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="10% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/outlaw">Outlaw</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/pacifiers">Pacifier</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/sand-ninja-jounin">Sand Ninja Jounin</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/sand-ninja-oni">Sand Ninja Oni</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/shinobi-guard">Shinobi Guard</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/stone-rat">Stone Rat</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/swamper-bar-thug">Swamper Bar Thug</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/wandering-assassin">Wandering Assassin</a></span> <span><span class="basic-tooltip" title="90% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="10% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/yabuta-chief">Yabuta Chief</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/yabuta-outlaw">Yabuta Outlaw</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p><span><a href="/armour-king">Armour King</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="2% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="80% chance of High grade.">[H]</span> <span class="basic-tooltip" title="110% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="50% chance of Masterwork grade.">[M]</span></span><br><span><a href="/flotsam-armory">Flotsam Armory</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="59% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="29% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="12% chance of High grade.">[H]</span></span><br><span><a href="/mongrel-armor-shop">Mongrel Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="20% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="51% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span> <span class="basic-tooltip" title="9% chance of Specialist grade.">[S]</span></span><br><span><a href="/tech-hunter-shop">Tech Hunter Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="12% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="61% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="24% chance of High grade.">[H]</span> <span class="basic-tooltip" title="3% chance of Specialist grade.">[S]</span></span><br><span><a href="/thieves-guild">Thieves Guild</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="13% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="69% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="17% chance of High grade.">[H]</span> <span class="basic-tooltip" title="1% chance of Specialist grade.">[S]</span></span><br></p></td><td><p><span class="new" title="Anti-Slaver Barracks (page does not exist)" data-uncrawlable-url="L3dpa2kvQW50aS1TbGF2ZXJfQmFycmFja3M/YWN0aW9uPWVkaXQmcmVkbGluaz0x">Anti-Slaver Barracks</span><br><a href="/anti-slaver-hq">Anti-Slaver HQ</a><br><span class="new" title="Anti-Slaver Prison (page does not exist)" data-uncrawlable-url="L3dpa2kvQW50aS1TbGF2ZXJfUHJpc29uP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==">Anti-Slaver Prison</span><br><a href="/cannibal-capital">Cannibal Capital</a><br><a href="/cannibal-village">Cannibal Village</a><br><a href="/first-village">First Village</a><br><span class="new" title="Flotsam Barracks (page does not exist)" data-uncrawlable-url="L3dpa2kvRmxvdHNhbV9CYXJyYWNrcz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Flotsam Barracks</span><br><span class="new" title="Flotsam HQ (page does not exist)" data-uncrawlable-url="L3dpa2kvRmxvdHNhbV9IUT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Flotsam HQ</span><br><a href="/mongrel-hq">Mongrel HQ</a><br><span class="new" title="Tech Hunter HQ (page does not exist)" data-uncrawlable-url="L3dpa2kvVGVjaF9IdW50ZXJfSFE/YWN0aW9uPWVkaXQmcmVkbGluaz0x">Tech Hunter HQ</span><br><br>This armour can also be found as loot via the <a href="/artifacts">Artifacts</a> system.</p></td></tr></tbody></table></details>
+
+The Artifact locations for this item are;
+
+Specialist - The eastern most Lost Armoury in Leviathan Coast
+
+Masterwork - Black Dog HQ inside the Metal chest on the bottom floor.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.62</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>3.1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Dark Leather Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 15,643.</li></ul></div>
+
+## Trivia
+
+-   Unlike [Leather Shirt](/leather-shirt), Dark Leather Shirt doesn't have a vest or turtleneck version.
+-   Dark Leather Shirt provides the highest blunt resistance of all shirts in the game.
+-   Dark Leather Shirt is 40% more expensive than the leather shirt due to having a 1.4x Relative Price Multiplier.
+
+<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Dark Leather Shirt<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>15,645</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>3,911</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Dark Leather Shirt</td></tr></tbody></table>
