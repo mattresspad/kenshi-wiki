@@ -41,3 +41,5 @@ The 48 × 32 loading screen tip marker (public/icons/talk.png) is Lo-Fi Games’
 https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/notices/artwork.txt
 
 The six item-icon files used by the Animals overview were restored unchanged from the same pinned public/icons/items source. Fauna reuses them in its Image column; they do not establish complete creature portrait coverage. See conversion/animals/reference.json for SHA-256 checksums and conversion/animals/review.json for that limitation. The Lo-Fi Games artwork notice above applies.
+
+Characters restoration: 83 distinct referenced Kenshi inventory icons at revision 83abc179 (8 already present; 75 added). These retain the Kenshi item-art attribution and permission status recorded above. Checksums: conversion/characters/reference.json. Inventory icons do not establish complete character-portrait or gallery coverage.

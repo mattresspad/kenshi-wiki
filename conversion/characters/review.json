@@ -1,0 +1,136 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "articles": [
+    {
+      "id": "beep",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Free recruitment, Hive exile, Brave/Dumb/Honorable personality, limb-replacement dialogue and Agnu interactions retain their qualifications.",
+      "organization": "Reviewed 7 section bookmarks and 10 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/beep.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "163aca6a0e224d3cb3cd8c9e9b3275c313c29f5b4d33a1dddc69a0fb4225e970"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "armour-king",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Swimming access and protective sentries retained. Catch/Second Empire history remains a qualified interpretation of Armour King’s dialogue.",
+      "organization": "Reviewed 10 section bookmarks and 14 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armour-king.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "40cf85082a9a61ea37f10d31c8a80b03e394275a8c40157490221e052a40882b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "emperor-tengu",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Retinue quantities and malnourishment condition, false quest, alliance exceptions, noble dependencies and world-state consequences retained; requires-alive section needs completion.",
+      "organization": "Reviewed 15 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/emperor-tengu.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "37bee8d02e6088a4ff7a18505c54a3bbf4ccdff7394b1001697cfe1a4978326c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "samurai",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Seven statistics groups remain unlabeled by race; 2-hour escort, personality-dependent food and 2,000-Cat bribe preserved.",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "df0a86994e8b3bdba03a22a66e2b0a66ea516fe32f1941ad489f7edc1862be86"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "unique-recruits",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "All 44 named rows and five information columns retained; spawn randomness, recruitment exceptions and racial-modifier qualifications retained. Inert checklist removed separately.",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/unique-recruits.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ae3ac67c8b9b08564d4989bee2f81947e71b5397654a54f2aacb8d4f6bc48794"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "generic-recruits",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "WIP warning, free recruits and specialist subheadings retained without presenting incomplete instructions as verified.",
+      "organization": "Reviewed 11 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/generic-recruits.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1adb9fd47d4b1207a7a5a19a66696fbbf94ecb14263fa8018dc2ad0c0d4205a0"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "slave-recruits",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Buying versus rescuing conditions, personality/stat restrictions and possible locations retained as conditional instructions.",
+      "organization": "Reviewed 3 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-recruits.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fedc3d5da015141864a97208e79b6613231ad5e908868f968d77de6957b51aa7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-stock-shopping",
+        "claim:character-world-state-conditions"
+      ]
+    }
+  ],
+  "editorialChanges": [
+    {
+      "id": "unique-recruits",
+      "change": "Removed the inert Fandom progress header and 44 disabled checkbox cells; retained all five information columns and existing IDs.",
+      "evidence": "src/lib/character-tables.mjs"
+    },
+    {
+      "id": "statistics-groups",
+      "change": "Added numbered group labels and a source qualification without assigning races or changing source values.",
+      "evidence": "src/lib/character-tables.mjs"
+    }
+  ]
+}

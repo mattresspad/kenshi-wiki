@@ -330,6 +330,34 @@
     "wild-bull": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/animals/review.json"
+    },
+    "beep": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "armour-king": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "emperor-tengu": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "samurai": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "unique-recruits": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "generic-recruits": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "slave-recruits": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
     }
   },
   "mediaGaps": [

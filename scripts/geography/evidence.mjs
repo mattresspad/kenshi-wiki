@@ -1,5 +1,6 @@
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
+import {removeImportedChecklist} from '../../src/lib/character-tables.mjs';
 import {normalizeFactionTables} from '../../src/lib/faction-tables.mjs';
 import {normalizeRaceTables} from '../../src/lib/race-tables.mjs';
 import {origin, snapshot} from '../../src/lib/catalog.mjs';
@@ -29,7 +30,8 @@ export function articleEvidence(html, frozen, faction = false) {
   if (frozen) area.children('.infobox,.fandom-notice').remove();
   else area.append(doc('.lead-text').contents().clone(), '\n', doc('.article-body').contents().clone());
   const $ = load(area.html(), {}, false);
-  if (faction === 'race') normalizeRaceTables($);
+  if (faction === 'character') removeImportedChecklist($);
+  else if (faction === 'race') normalizeRaceTables($);
   else if (faction) normalizeFactionTables($);
   // This separately checked editorial note qualifies the original imported words.
   $('.source-qualification').remove();
