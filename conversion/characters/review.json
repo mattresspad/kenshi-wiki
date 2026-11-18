@@ -968,6 +968,389 @@
         "claim:character-profile-comparison",
         "claim:character-recruitment"
       ]
+    },
+    {
+      "id": "izumi",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hey, you there! I need employment. I can fix you up, but really I need someone to sponsor my research. Izumi is a Unique Recruit from the Empire. She is a young scientist and medic. She can be hired for c.2,500. She can be found in any town controlled by United Cities or Empire Peasants. She can also be found in Town Overrides of these towns: Bark, Brink, Cl",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/izumi.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "15e161e96b467beafeba4e2bcbf26f6f98f8ac7f2254d79a87c94f770cd9371a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "jewel",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'm a cook, not a fighter, man! I know better than to needlessly seek out death. You call it the act of a coward, I call it the rationality of a realist. Jewel is a Unique Recruit. She is a cook who used to own a bar, but Shek barbarians took it over. She can be found in any town controlled by United Cities or Empire Peasants. She can also be found in Town O",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/jewel.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2650d9c4ea3ceec4009de2cdabb1e196d45feb6e5f3d8c611a8df74fa0dec6b6"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "kang",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I change for no-one. You either hire me, or you walk away. And in the latter case you'll die a fool... Kang is a Unique Recruit found in the Shek Kingdom. He spawns in Admag, Squin or Last Stand. He has a Maniacal Personality. He can be hired for c.6000 and should anyone bother you, he will “rip out their spines.” Aside from his recruitment dialogue, he has ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/kang.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2bbb1d2164bb9365ad265237a738b56b23939d57d6f43afebfcc356537705a70"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "knife",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I've travelled enough since leaving Stack to know that no man or woman is trustworthy. But I'm looking to travel again. I guess you always appreciate that which gets taken away from you and, for me, that was my freedom. Knife is a Unique Recruit. She is a Flotsam Ninja looking to travel. She’ll join the player after a c.6,000 payment which she intends to sen",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/knife.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1da16b198f4b6c41c0e097805f6bf6ce09f03d812bb46b44aa3ff647dd7c2a48"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "lost-drone",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Lost Drones are factionless hivers. They can be found wandering Bast, Dreg, Flats Lagoon, Heng, Okran’s Gulf, Okran’s Pride, Okran’s Valley, Skimsands, Stenn Desert, The Great Desert, and The Hook. These hivers were likely separated or exiled from the Western Hive. They are not to be confused with the Lost Hiver drones. Given their abundance in both Holy Nat",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lost-drone.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f86d5b8bd96265e2c3f6a0b98b5c7b2c701fa0e642f529a4f4bf07eabe4b8707"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "lumi",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: [Her eyes widen excitedly]... Do you know what I love more than anything in all the land?Crabs! Lumi is a female Unique Recruit who can be found in Crab Town. She loves crabs! She can be hired for c.6,000. She has a Fearful Personality. Being allied with the Crab Raiders does not affect Lumi’s dialogue. Statistics Scorchlander",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lumi.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7ece2a6522fadf963030ddf8e49fd97cbe0f95e632a5a9ce594ab64e8e296fa3"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "luquin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Psst, break me out...Promise you I'll come in useful... Luquin is a Unique Recruit imprisoned within Tengu’s Vault. He has a c.30,000 Bounty. He has a Brave personality. There are 2 books that can be found titled “​Legend of Luquin I” and “Legend of Luquin II” that seem to refer to him, and after he was imprisoned for murdering the Noble Lord Kurusaga and fo",
+      "organization": "Reviewed 6 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/luquin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e02f477c80107dbd59da25e1d8d16910ee52455a041742bafa46cedf018e8f5a"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "medic-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Need to hire a good medic? I've got plenty of experience. Medic Recruit is a randomly named Generic Recruit. They are a medic looking for work. They can be hired for c.6,000. They can be found in Eyesocket, Slave Markets, Black Scratch, Flats Lagoon, Smugglers Bar, any Waystation, and World’s End. They can also be found in locations controlled by Deadcat or ",
+      "organization": "Reviewed 2 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/medic-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c0a5c8ef513bcc2a38f0fa8333e9bf98531ab143d7116685b049efadf77f4cd0"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "miu",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hell, its a place in this world. And it has giant fucking SPIDERS in it. Miu is a Unique Recruit. She is found in the town of Shark in The Swamp. She has a Brave Personality. She claims to be an ex-slave, who escaped with a friend called Ned, only to watch him getting killed by a spider right at the town’s gates. She has decent Labouring skills and is an exc",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/miu.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d2142ff212ba98408708b57a148a982f6003052d058695c2affe4269280507cb"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-miu-dialogue-structure",
+        "claim:character-recruitment",
+        "claim:character-sensory-dialogue"
+      ]
+    },
+    {
+      "id": "oron",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I need to be freed, 3500 Cats to free me from my lord. Let me fight for you, outsider, as a mighty warrior once again. Peasant life is killing my soul, I need battle. Oron is a Shek Retainer and Unique Recruit spawning in either Admag, Squin, or Last Stand. Oron promises loyalty to your character in exchange for the chance to fight. They have an Honorable Pe",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/oron.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6fcf9ede1029bd68a5fa7958f8dc43a25ffbe55e74fdd58a5e3189e71fcd623b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "outlaw-adventurer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Need a merc? I'm pretty good with a sword... Outlaw Adventurer is a randomly named Generic Recruit. They can potentially have a couple different backstories depending on their personality. They can be hired for either c.5,000 or c.6,000. They have a random Personality and after recruited have the “Player THUG” Dialogue Package. They wear [Shoddy] armour (5% ",
+      "organization": "Reviewed 1 section bookmarks and 16 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outlaw-adventurer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "44e2c4e2a80e02a86c51f3bb33a33079439f8ac5adba6e71fc3bcb8ce5e89b2d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "outlaw-cook",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: *Sigh* Everyone underrates the cook. But you know what, without a good cook you'll be shitting sideways for the rest of your days. Part of a swordsman's training, a scientists research... part of it all is good food! How can you improve without the fuel to nourish the mind and body?! Outlaw Cook is a randomly named Generic Recruit. They are a cook looking fo",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outlaw-cook.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1adba3e6a7fc1290e932b0dc47ce8b4a48b73b2191ad842a1e416583feef6c55"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "outlaw-medic",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Nothing personal, pal, but my skills are valuable and I ain't joining some penniless chump. So, are you worth something or are you just a nobody? Outlaw Medic is a randomly named Generic Recruit. They are a medic looking for work. They can be hired for c.6,000. They can be found in Black Scratch, Flats Lagoon, Smugglers Bar, Waystation and Waystation Four, a",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outlaw-medic.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e3ef86e395cc274f478020a7418e2461a2b4929ea7edb9b678515750d97e877a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "outlaw-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'm a trader... Wife left me 3 months ago. Left me for the bloody hat merchant across the road. Fed up of seein' their ugly faces everyday to be honest, I just wanna get out of here and do something badass, have an adventure and say 'screw you, wife! I'm livin' the high life now!'....Male, Honorable Personality The Outlaw Recruit is a randomly named Generic ",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outlaw-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ce0c2c690fd80ca128a1e024aed8f2fc0855d311d71e69196f2481399874c495"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations",
+        "claim:character-stock-shopping",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "pia",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Paladins... we need to keep our distance. Trust me, the Holy Nation are bad news...Pia on Paladins Pia is a Unique Recruit. She is a fast runner. Her sister Naevia was also a member of the Flotsam Ninjas, but recently “Died doing what she loved doing, fighting the Paladins”. She can be found in Flotsam Village and is recruitable for the cost of c.3,000. She ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/pia.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b1c5ce6d077b6d490460060d1df7faac9175239509c546bb1d718ad6d923aa26"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-sensory-dialogue"
+      ]
+    },
+    {
+      "id": "prisoner",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Prisoner is someone serving time in Tengu’s Vault. They can be rescued for a possibility for them to join the Player’s faction. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown. Statistics Greenlander Shek Trivia These prisoners may be incarcerated Dust Bandits, given their similar equipment and stat values.",
+      "organization": "Reviewed 2 section bookmarks and 16 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/prisoner.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b8b0aaa05fb8f5740a75f6733f477ed7d12d46b5f1c7a69626b8cbb0885cd184"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "rane-the-giant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Rane the Giant is a former Hundred Guardian and Unique Recruit. She was named by the Shek leader, the Stone Golem. Her position was challenged, and she lost the duel, lowering her status in Shek society. She can be found in either a Squin, Admag or Last Stand bar and it costs c.7,500 to recruit her. They wear [Shoddy] armour (5% chance of [Standard]) and hav",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rane-the-giant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "99733c5bb6d1d65586f8b2a19b620e2b0873f4bb5966a0be2326c0daab2bc74f"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "ray",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Aye, got no tongue, past owner cut it out. He can be a pretty feisty one so can't say I blame 'em for it. I can just picture the bastard givin' lip, probably woulda done the same myself... I tell ya, I need to make my money back somehow, don't care if I gotta make bonemeal outta the good-for-nothing meat sack.Bar fly Ray is a Unique Recruit. He is a mute sla",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ray.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7e2a34fd1cf0b3293b33d7111bd2f4b4e85b6a2eff59595d4b7a2481611ca634"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Need a sword? I can be your sword... or whatever else you want me to be...Greenlander or Shek Recruit is a randomly named Generic Recruit. They are a person looking for work. They can be hired for c.3,000. They have a chance of spawning in any town controlled by the United Cities, including when the location is “malnourished”. They can be found in Black Scra",
+      "organization": "Reviewed 1 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2677276c8a172d71efa9057773b9ff0e940996e293b9a8fbbdfa02b63ebc76a7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "recruit-seeking-revenge",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: My family taught me everything, lessons those bastards could never take away. But they left me alive, and that was their mistake. You fight bandits, yeah? Kill 'em dead? They tried to ruin me with fear, but I'll show them what fear really is. Recruit Seeking Revenge is a randomly named Unique Recruit. She wants revenge for her family’s deaths. She will join ",
+      "organization": "Reviewed 1 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/recruit-seeking-revenge.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6d25eb3217cdab611b665340fddff4137faf46db1dbf1c891752b40b14cff199"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "red",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ah, to hell with it, I've got nothing left to lose apart from the rags on my back! And there's something about you, you seem like my kinda guy. Let's go, you and me, we stick together! Red is a Unique Recruit. She can be found in Bark, wandering around the city. She has a Brave personality. Beneath her face-obscuring hat and rags, she has bright red hair, qu",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/red.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "efd026afac27bee11989bd1edadf86b8cd9a30985ae773eddfbae3288862455d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "reva",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I learnt the hard way that there is no god. But a lot of the refugees here, they just can't let go of their belief in Okran, even after Okran betrayed us all, abandoned us to be left at the mercy of man... I just can't live amongst this nonsense any longer. I despise it. Reva is a Unique Recruit. She is a former Holy Nation citizen who was trained by the Flo",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/reva.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "21fc99d1bf34474b67e05c8aa73b8014cab57e2344ce02428e8b7f6043780e13"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "riddly",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: ... A new face. Fancy a drink? Riddly is a Unique Recruit found in bars in United Cities towns and villages. She is a friendly, lone adventurer who strikes the player up on conversation. If told that the player wishes to build a settlement and asks her to join, she will not join as she isn’t much of the settler type. If asked to join up on their adventure, h",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/riddly.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6711d25090cb6e1558d4c5a52a17702ffb4976e743886789c5f59afc23d21d27"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
     }
   ],
   "editorialChanges": [

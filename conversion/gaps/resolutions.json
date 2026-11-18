@@ -3533,6 +3533,39 @@
       }
     },
     {
+      "id": "availability:/izumi",
+      "kind": "availability",
+      "target": "/izumi",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/izumi"
+      }
+    },
+    {
+      "id": "availability:/jewel",
+      "kind": "availability",
+      "target": "/jewel",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/jewel"
+      }
+    },
+    {
+      "id": "availability:/kang",
+      "kind": "availability",
+      "target": "/kang",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/kang"
+      }
+    },
+    {
       "id": "availability:/king",
       "kind": "availability",
       "target": "/king",
@@ -3552,6 +3585,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/king-gorillo"
+      }
+    },
+    {
+      "id": "availability:/knife",
+      "kind": "availability",
+      "target": "/knife",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/knife"
       }
     },
     {
@@ -3687,6 +3731,17 @@
       }
     },
     {
+      "id": "availability:/lost-drone",
+      "kind": "availability",
+      "target": "/lost-drone",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lost-drone"
+      }
+    },
+    {
       "id": "availability:/lost-library",
       "kind": "availability",
       "target": "/lost-library",
@@ -3706,6 +3761,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/lost-town"
+      }
+    },
+    {
+      "id": "availability:/lumi",
+      "kind": "availability",
+      "target": "/lumi",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lumi"
+      }
+    },
+    {
+      "id": "availability:/luquin",
+      "kind": "availability",
+      "target": "/luquin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/luquin"
       }
     },
     {
@@ -3761,6 +3838,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/manhunters"
+      }
+    },
+    {
+      "id": "availability:/medic-recruit",
+      "kind": "availability",
+      "target": "/medic-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/medic-recruit"
       }
     },
     {
@@ -3827,6 +3915,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/minor-outposts"
+      }
+    },
+    {
+      "id": "availability:/miu",
+      "kind": "availability",
+      "target": "/miu",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/miu"
       }
     },
     {
@@ -4270,6 +4369,17 @@
       }
     },
     {
+      "id": "availability:/oron",
+      "kind": "availability",
+      "target": "/oron",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/oron"
+      }
+    },
+    {
       "id": "availability:/other-locations",
       "kind": "availability",
       "target": "/other-locations",
@@ -4289,6 +4399,50 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/outlaw"
+      }
+    },
+    {
+      "id": "availability:/outlaw-adventurer",
+      "kind": "availability",
+      "target": "/outlaw-adventurer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outlaw-adventurer"
+      }
+    },
+    {
+      "id": "availability:/outlaw-cook",
+      "kind": "availability",
+      "target": "/outlaw-cook",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outlaw-cook"
+      }
+    },
+    {
+      "id": "availability:/outlaw-medic",
+      "kind": "availability",
+      "target": "/outlaw-medic",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outlaw-medic"
+      }
+    },
+    {
+      "id": "availability:/outlaw-recruit",
+      "kind": "availability",
+      "target": "/outlaw-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outlaw-recruit"
       }
     },
     {
@@ -4333,6 +4487,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/pack-bull"
+      }
+    },
+    {
+      "id": "availability:/pia",
+      "kind": "availability",
+      "target": "/pia",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/pia"
       }
     },
     {
@@ -4446,6 +4611,17 @@
       }
     },
     {
+      "id": "availability:/prisoner",
+      "kind": "availability",
+      "target": "/prisoner",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/prisoner"
+      }
+    },
+    {
       "id": "availability:/purple-sands",
       "kind": "availability",
       "target": "/purple-sands",
@@ -4476,6 +4652,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/raider-camp"
+      }
+    },
+    {
+      "id": "availability:/rane-the-giant",
+      "kind": "availability",
+      "target": "/rane-the-giant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rane-the-giant"
       }
     },
     {
@@ -4520,6 +4707,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/ravaged-hamlet"
+      }
+    },
+    {
+      "id": "availability:/ray",
+      "kind": "availability",
+      "target": "/ray",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ray"
       }
     },
     {
@@ -4655,6 +4853,39 @@
       }
     },
     {
+      "id": "availability:/recruit",
+      "kind": "availability",
+      "target": "/recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/recruit"
+      }
+    },
+    {
+      "id": "availability:/recruit-seeking-revenge",
+      "kind": "availability",
+      "target": "/recruit-seeking-revenge",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/recruit-seeking-revenge"
+      }
+    },
+    {
+      "id": "availability:/red",
+      "kind": "availability",
+      "target": "/red",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/red"
+      }
+    },
+    {
       "id": "availability:/red-sabre-hideout",
       "kind": "availability",
       "target": "/red-sabre-hideout",
@@ -4685,6 +4916,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/reprogramming-workshop"
+      }
+    },
+    {
+      "id": "availability:/reva",
+      "kind": "availability",
+      "target": "/reva",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/reva"
+      }
+    },
+    {
+      "id": "availability:/riddly",
+      "kind": "availability",
+      "target": "/riddly",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/riddly"
       }
     },
     {
