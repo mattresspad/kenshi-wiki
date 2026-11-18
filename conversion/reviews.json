@@ -2198,6 +2198,18 @@
     "building-materials": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/items/review.json"
+    },
+    "tooth-pick": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "small-backpack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "map-of-the-united-cities-extended-territories": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
     }
   },
   "mediaGaps": [

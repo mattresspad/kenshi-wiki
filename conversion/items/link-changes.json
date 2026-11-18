@@ -102,5 +102,16 @@
       "/weapons/damage",
       "/weapons/modifiers"
     ]
+  },
+  {
+    "name": "item-structures",
+    "resolved": [
+      "/map-of-the-united-cities-extended-territories",
+      "/small-backpack",
+      "/tooth-pick"
+    ],
+    "introduced": [
+      "/crossbow-crafting-bench"
+    ]
   }
 ]

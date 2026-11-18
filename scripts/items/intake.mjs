@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {execFileSync} from 'node:child_process';
 import {readFileSync,writeFileSync,existsSync,mkdirSync} from 'node:fs';
 import {join,dirname} from 'node:path';
 import {stringify} from 'yaml';
@@ -21,6 +22,7 @@ if(['freeze','verify-freeze'].includes(action)){
  assert.deepEqual(Object.values(groups).map(a=>a.length),[43,10,139,19,12,137,16]);
  for(const [name,ids] of Object.entries(groups)){const count=Math.ceil(ids.length/25),size=Math.floor(ids.length/count),extra=ids.length%count;let offset=0;for(let i=0;i<count;i++){const length=size+(i<extra?1:0);batches.push({name:name+'-'+(i+1),ids:ids.slice(offset,offset+=length)});}}
  assert.equal(batches.length,22);
+ const baselineAssets=new Set(execFileSync('git',['-c','safe.directory=D:/NeoEcosystem/FreshWiki/site','ls-tree','-r','--name-only','3dbcdf1','public'],{encoding:'utf8'}).trim().split(/\r?\n/).map(p=>p.slice('public'.length)));
  const articles={},assets={};
  for(const id of batches.flatMap(b=>b.ids)){
   source.document(id);articles[id]=articleEvidence(source.html(id),true,'item');
@@ -31,7 +33,7 @@ if(['freeze','verify-freeze'].includes(action)){
  json('roster.json',{revision:snapshot.revision,baseRevision:'3dbcdf1',categories,members,existing,deferred,batches,expected});
  json('supporting-pages.json',{revision:snapshot.revision,ids:[]});
  save(join(root,'reference.json'),JSON.stringify({articles,assets},null,2)+'\n');
- json('asset-intake.json',{revision:snapshot.revision,assets:Object.entries(assets).map(([url,sha256])=>({url,sha256,alreadyPresent:JSON.parse(readFileSync('conversion/items/asset-intake.json')).assets.find(a=>a.url===url).alreadyPresent}))});
+ json('asset-intake.json',{revision:snapshot.revision,assets:Object.entries(assets).map(([url,sha256])=>({url,sha256,alreadyPresent:baselineAssets.has(url)}))});
  console.log('Frozen 391 members, 390 additions, 1160 headings and 354 images.');
 }else if(action==='transfer'){
  const roster=JSON.parse(readFileSync(join(root,'roster.json'))),checkpoint=JSON.parse(readFileSync(join(root,'checkpoint.json'))),fixture=JSON.parse(readFileSync(join(root,'reference.json')));

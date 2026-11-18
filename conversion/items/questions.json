@@ -42,5 +42,218 @@
     "Weapon strength, animation power and weight formulas need exact versioned interpretation.",
     "Trace weapon IDs, animation power and weight overrides; distinguish arithmetic from observed timings.",
     "Imported formulas and the explicit clarification marker are retained without stronger guarantees."
+  ],
+  [
+    "item-slot-and-class-contradictions",
+    [
+      "dark-leather-shirt",
+      "clothing",
+      "body-armour",
+      "ninja-mask",
+      "light-armour",
+      "headgear"
+    ],
+    "Body Armour slot|no defensive|no stats|Medium Armour|no stat penalties|Light Armour",
+    "Narrative slot and class generalizations can disagree with item facts or exceptions.",
+    "Check exact records: Dark Leather Shirt says Body Armour while its facts identify a shirt; preserve Ninja Mask class qualifications.",
+    "Do not infer a corrected slot, class or blanket absence of penalties from the prose alone."
+  ],
+  [
+    "item-blueprint-availability",
+    null,
+    "blueprint.*(exists|unneeded|nowhere|removed)|cannot.*craft|can.t be crafted|through modding|only.*Smithy",
+    "Crafting records and blueprint availability are distinct.",
+    "Verify loot/vendor assignments and alternate research unlocks for Holy Chest Plate, Skeleton Mask, Hack Stopper and Sleeveless Dustcoat.",
+    "An unlock panel does not demonstrate an obtainable recipe."
+  ],
+  [
+    "item-hidden-modifiers",
+    [
+      "armoured-rag-skirt",
+      "plated-longboots",
+      "samurai-boots",
+      "samurai-helmet",
+      "tin-can"
+    ],
+    "0.9775|0.98x|100%|90%|95%|98.75",
+    "Armour text describes rounded or hidden modifiers and resistance caps.",
+    "Check grade arithmetic and in-game presentation with exact versions and IDs.",
+    "Missing tooltip text does not independently establish a default or full resistance."
+  ],
+  [
+    "item-disguise-and-storage",
+    [
+      "armour",
+      "empire-samurai-armour",
+      "hive-prisoner-shackles",
+      "prisoner-shackles"
+    ],
+    "uniform|Furnace|Locker|enslaved|Slave status|5 game hours",
+    "Uniform, stolen-item and prisoner status changes include untested workflow claims.",
+    "Test each action with faction/state conditions; distinguish dye, stolen and uniform tags.",
+    "A displayed tag clearing does not prove every consequence cleared."
+  ],
+  [
+    "item-backpack-stacking",
+    [
+      "wooden-backpack",
+      "traders-wooden-backpack",
+      "traders-backpack-large",
+      "traders-backpack-medium"
+    ],
+    "stack|mult",
+    "Backpack prose mixes minimum stack bonus, multiplier and examples.",
+    "Trace stackability and bag multipliers; test initially stackable and non-stackable items separately.",
+    "Nine times and three times do not describe the same starting stack assumption."
+  ],
+  [
+    "item-interpretive-lore",
+    null,
+    "speculat|likely|probably|perhaps|assum|Hessen|best in slot|only.*Smithy",
+    "Item lore and advice include speculation, subjective rankings and potentially overbroad claims.",
+    "Retain qualifications and source attribution; investigate etymology, unique-crafting-station claims and armour rankings separately.",
+    "Imported interpretation is not independently verified history or mechanics."
+  ],
+  [
+    "item-food-thresholds-efficiency",
+    [
+      "food",
+      "bread",
+      "chewsticks",
+      "dustwich",
+      "foodcube",
+      "gohan",
+      "rice-bowl",
+      "raw-meat"
+    ],
+    "250|200|efficien|water|rain|spoil|hunger",
+    "Food feeding thresholds and efficiency comparisons depend on species, biome, rain, crop yield and recipe assumptions.",
+    "Check each threshold and efficiency calculation with exact ingredient quantities, farming conditions and game version.",
+    "Preserve the imported comparisons without treating a nutrition-per-water estimate as universally optimal."
+  ],
+  [
+    "item-medical-semantics",
+    [
+      "medical-items",
+      "advanced-splint-kit",
+      "splint-kit",
+      "skeleton-repair-kit"
+    ],
+    "heal|rig|26|50|51|0.45|8x|4x|percent|wear",
+    "Medical instructions mix UI percentages, flat rigged HP, quality limits, injury types and regeneration conditions.",
+    "Compare medical item records and observed healing, weather/amputation and skeleton wear behavior with controlled skill levels.",
+    "A tooltip, item quality or white health bar may not directly describe restored HP."
+  ],
+  [
+    "item-research-totals",
+    [
+      "ai-core",
+      "ancient-science-book",
+      "book",
+      "engineering-research"
+    ],
+    "32|154|306|19|total|research",
+    "Research-artifact totals need reconciliation against the full research tree and optional unlock assumptions.",
+    "Derive totals from a pinned vanilla research export and document excluded, duplicate and conditional technologies.",
+    "The imported totals remain statements from their source rather than fresh compiler verification."
+  ],
+  [
+    "item-ancient-book-respawn",
+    [
+      "ancient-science-book",
+      "half-eaten-ancient-science-book"
+    ],
+    "respawn|Suspicious|Tower|Cult|day",
+    "Ancient and half-eaten science-book pages differ in location and replenishment guidance.",
+    "Compare loot and location records and test replenishment/import behavior separately.",
+    "Keep location restrictions and respawn qualifications; a renewable-resource suggestion is unverified."
+  ],
+  [
+    "item-trade-markups",
+    [
+      "hashish",
+      "trade-goods",
+      "sake",
+      "grog",
+      "cactus-rum"
+    ],
+    "markup|mark-up|30%|500|1200|discount|price",
+    "Trade guidance mixes multipliers, percentage increases, stolen-goods discounts and regional modifiers.",
+    "Verify base value versus buy/sell prices with regional, faction and stolen-item conditions.",
+    "A 500 percent multiplier is not a 500 percent increase; preserve source wording pending a supported correction."
+  ],
+  [
+    "item-unique-use-contradiction",
+    [
+      "unique-items",
+      "holy-seal",
+      "chalice-of-fire",
+      "mystery-sack",
+      "note-from-moll"
+    ],
+    "no function|seal|ally|75|36|destroy|destruction|Elixer|Clunknad",
+    "Unique Items calls the collection non-functional although individual entries describe diplomatic rewards or temporary allies; Mystery Sack also presents a joke quest as an apparent objective.",
+    "Cross-check each individual dialogue condition and distinguish in-world dialogue from actionable reward mechanics.",
+    "Preserve the imported descriptions and joke explanation; do not promise rewards or safety from a general overview."
+  ],
+  [
+    "item-cpu-removal",
+    [
+      "old-cpu-unit"
+    ],
+    "immediate death|Prisoner Cage|without killing",
+    "Old CPU Unit gives an immediate-death rule alongside a prisoner-cage exception.",
+    "Test the same skeleton and item record before and after caging under a pinned version.",
+    "The exception is preserved, not verified as a safe exploit."
+  ],
+  [
+    "item-pearl-training-box",
+    [
+      "pearl-vase"
+    ],
+    "Box III|Box IIII",
+    "Pearl Vase names a Thief Training Box III in its prose but IIII in Uses.",
+    "Check the construction recipe and intended building destination before correcting the label.",
+    "Both imported labels are retained; the apparent typo is not silently changed."
+  ],
+  [
+    "item-uncraftable-recipes",
+    [
+      "ration-pack",
+      "thinfish"
+    ],
+    "uncraftable|no recipe|cannot cook|Crafting|Camp Fish",
+    "Some items include imported recipe tables alongside explicit uncraftable or ineffective-processing qualifications.",
+    "Check enabled recipe and station records and observe the actual output.",
+    "A retained table is evidence of an imported record, not proof that a player can craft the item."
+  ],
+  [
+    "item-lantern-charges",
+    [
+      "lantern-of-radiance",
+      "lantern"
+    ],
+    "20|25|200|charge|never|light",
+    "Lantern descriptions include differing quality values, charge behavior and inventory-merging advice.",
+    "Compare exact lantern records and lighting penalties with observed use.",
+    "The restoration does not validate unlimited-use or merging exploits."
+  ],
+  [
+    "item-overview-organization",
+    [
+      "items"
+    ],
+    "9|Limbs|placeholder|removed",
+    "Items overview combines slot counts, placeholder pricing and historical records.",
+    "Reconcile slot terminology and identify incomplete pricing sections using the source evidence.",
+    "Keep historical qualifications and placeholder labels visible until editorial follow-up."
+  ],
+  [
+    "item-map-reveal-semantics",
+    null,
+    "chosen randomly|every single location|Chance",
+    "Map tables distinguish one randomly selected destination from all listed destinations.",
+    "Trace each map item and reveal record, including relative weights versus independent probability and already-discovered locations.",
+    "Preserved percentages are not independently established probability formulas."
   ]
 ]

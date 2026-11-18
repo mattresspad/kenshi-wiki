@@ -83,6 +83,54 @@
         "claim:item-crafting-and-research",
         "claim:item-quality-and-prices"
       ]
+    },
+    {
+      "id": "tooth-pick",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Tooth Pick is a Crossbow. The standard of cheap and lightweight crossbows. A less well made version of the design is called Junkbow. Grades Crafting Unlocked by:Tooth Pick blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,858. The blueprint for this weapon can be found at the The Great Library. After unlocking the ability to craft through use ",
+      "organization": "Reviewed 2 section bookmarks and 7 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tooth-pick.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "676c5d0265759591ce9d66a46d58ab1d7e0332bef238b08d24c9a49418ddc31f"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "small-backpack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Small Backpack is a lightweight backpack that is unable to stack trade goods and has comparatively little space, but hinders combatants only slightly. Small Backpacks have an inventory size of 3x3, making it the smallest of all backpacks. When equipped in the BACKPACK slot, this backpack adds a backpack inventory with a size of 8x8. Can be bought commonly fr",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/small-backpack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "99c6d5475c809a4a8c75346e0e2646442657e0bc3f1f03de466be86151b91e9a"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "map-of-the-united-cities-extended-territories",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal every single location available in the table below.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/map-of-the-united-cities-extended-territories.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "699599849ee5eea3e9351b806bbaa995dadc06cbbd86ac4aaafba5aaa1c553e4"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [

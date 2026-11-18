@@ -5,6 +5,7 @@ import {articleEvidence, hash} from '../geography/evidence.mjs';
 import {families, selectedIds, expectedIds, expectedRoutes} from './batches.mjs';
 import {snapshot} from '../../src/lib/catalog.mjs';
 
+const fragmentIndexes=new WeakMap();
 export function verifyFamily(name, atlas, assetRedirects) {
   const {roster,checkpoint}=families[name];
   const included=selectedIds(name);
@@ -18,12 +19,14 @@ export function verifyFamily(name, atlas, assetRedirects) {
   const issues=[],unknown=[],emptyGalleries=[],assets=new Set();
   const registered=new Set([...original.values()].map(record=>record.path));
   for(const path of [...snapshot.portals,...snapshot.utilities,...snapshot.endpoints,...snapshot.redirects.map(rule=>rule.from),...[...atlas.categories.values()].map(category=>category.path)]) registered.add(path);
-  const otherLocalIds=new Map();
+  let otherLocalIds=fragmentIndexes.get(atlas);
+  if(!otherLocalIds){otherLocalIds=new Map();
   for(const route of atlas.local) {
     const file='dist/'+(route==='/'?'index':route.slice(1))+'.html';
     const $=load(readFileSync(file));
     otherLocalIds.set(route,new Set($('[id]').toArray().map(e=>e.attribs.id)));
   }
+  fragmentIndexes.set(atlas,otherLocalIds);}
   for(const id of actual) {
     const record=atlas.byId.get(id),html=readFileSync('dist'+record.path+'.html','utf8'),$=load(html);
     const expected=fixture.articles[id],proof=articleEvidence(html,false,name==='items'?'item':false);

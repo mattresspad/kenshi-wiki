@@ -44,7 +44,7 @@ Catun is a fortified [major town](/major-towns) in the [Bonefields](/bonefields)
 
 ## Location and defences
 
-Explore the Bonefields or read the **[Map of the United Cities (Extended Territories)](/maps)** to find Catun. Outpost s-IIIs serve as wall towers. Samurai with polearms regularly defend the town against [skin spiders](/skin-spider), [boneyard wolves](/boneyard-wolf), [garrus](/garru) and [beak things](/beak-thing). One or two members of the [Band of Bones](/band-of-bones-character) occasionally turn up. The imported account describes the local samurai as able to overwhelm these intruders.
+Explore the Bonefields or read the **[Map of the United Cities (Extended Territories)](/map-of-the-united-cities-extended-territories)** to find Catun. Outpost s-IIIs serve as wall towers. Samurai with polearms regularly defend the town against [skin spiders](/skin-spider), [boneyard wolves](/boneyard-wolf), [garrus](/garru) and [beak things](/beak-thing). One or two members of the [Band of Bones](/band-of-bones-character) occasionally turn up. The imported account describes the local samurai as able to overwhelm these intruders.
 
 ## Buildings and shops
 

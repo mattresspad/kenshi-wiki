@@ -5810,6 +5810,17 @@
       }
     },
     {
+      "id": "availability:/map-of-the-united-cities-extended-territories",
+      "kind": "availability",
+      "target": "/map-of-the-united-cities-extended-territories",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/map-of-the-united-cities-extended-territories"
+      }
+    },
+    {
       "id": "availability:/meat-lord",
       "kind": "availability",
       "target": "/meat-lord",
@@ -9187,6 +9198,17 @@
       }
     },
     {
+      "id": "availability:/small-backpack",
+      "kind": "availability",
+      "target": "/small-backpack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/small-backpack"
+      }
+    },
+    {
       "id": "availability:/small-time",
       "kind": "availability",
       "target": "/small-time",
@@ -10581,6 +10603,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/titus"
+      }
+    },
+    {
+      "id": "availability:/tooth-pick",
+      "kind": "availability",
+      "target": "/tooth-pick",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tooth-pick"
       }
     },
     {
@@ -13034,6 +13067,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "9c74d52ce0747d317be6d1e2604f4156967325f7ca86a357754aaf68a8e766e1",
         "sourceSha256": "9c74d52ce0747d317be6d1e2604f4156967325f7ca86a357754aaf68a8e766e1"
+      }
+    },
+    {
+      "id": "media:/icons/items/96158-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/96158-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-structures",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "5cdcca6c337e61cd6c27acabf8edabfb9d6a28730d83885f9a69b8f698a2dc66",
+        "sourceSha256": "5cdcca6c337e61cd6c27acabf8edabfb9d6a28730d83885f9a69b8f698a2dc66"
       }
     },
     {
