@@ -3269,6 +3269,17 @@
       }
     },
     {
+      "id": "availability:/high-inquisitor-valtena",
+      "kind": "availability",
+      "target": "/high-inquisitor-valtena",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/high-inquisitor-valtena"
+      }
+    },
+    {
       "id": "availability:/hive",
       "kind": "availability",
       "target": "/hive",
@@ -3486,6 +3497,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holy-farms"
+      }
+    },
+    {
+      "id": "availability:/holy-lord-phoenix",
+      "kind": "availability",
+      "target": "/holy-lord-phoenix",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-lord-phoenix"
       }
     },
     {
@@ -3940,6 +3962,17 @@
       }
     },
     {
+      "id": "availability:/king-gurgler",
+      "kind": "availability",
+      "target": "/king-gurgler",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/king-gurgler"
+      }
+    },
+    {
       "id": "availability:/knife",
       "kind": "availability",
       "target": "/knife",
@@ -3970,6 +4003,50 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/lab-ruin"
+      }
+    },
+    {
+      "id": "availability:/lady-kana",
+      "kind": "availability",
+      "target": "/lady-kana",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lady-kana"
+      }
+    },
+    {
+      "id": "availability:/lady-merin",
+      "kind": "availability",
+      "target": "/lady-merin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lady-merin"
+      }
+    },
+    {
+      "id": "availability:/lady-sanda",
+      "kind": "availability",
+      "target": "/lady-sanda",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lady-sanda"
+      }
+    },
+    {
+      "id": "availability:/lady-tsugi",
+      "kind": "availability",
+      "target": "/lady-tsugi",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lady-tsugi"
       }
     },
     {
@@ -4050,6 +4127,17 @@
       }
     },
     {
+      "id": "availability:/longen",
+      "kind": "availability",
+      "target": "/longen",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/longen"
+      }
+    },
+    {
       "id": "availability:/looted-ruins",
       "kind": "availability",
       "target": "/looted-ruins",
@@ -4058,6 +4146,72 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/looted-ruins"
+      }
+    },
+    {
+      "id": "availability:/lord-inaba",
+      "kind": "availability",
+      "target": "/lord-inaba",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lord-inaba"
+      }
+    },
+    {
+      "id": "availability:/lord-mirage",
+      "kind": "availability",
+      "target": "/lord-mirage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lord-mirage"
+      }
+    },
+    {
+      "id": "availability:/lord-nagata",
+      "kind": "availability",
+      "target": "/lord-nagata",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lord-nagata"
+      }
+    },
+    {
+      "id": "availability:/lord-ohta",
+      "kind": "availability",
+      "target": "/lord-ohta",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lord-ohta"
+      }
+    },
+    {
+      "id": "availability:/lord-shiro",
+      "kind": "availability",
+      "target": "/lord-shiro",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lord-shiro"
+      }
+    },
+    {
+      "id": "availability:/lord-yoshinaga",
+      "kind": "availability",
+      "target": "/lord-yoshinaga",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lord-yoshinaga"
       }
     },
     {
@@ -4146,6 +4300,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/machinists"
+      }
+    },
+    {
+      "id": "availability:/mad-cat-lon",
+      "kind": "availability",
+      "target": "/mad-cat-lon",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mad-cat-lon"
       }
     },
     {
@@ -4325,6 +4490,17 @@
       }
     },
     {
+      "id": "availability:/moll",
+      "kind": "availability",
+      "target": "/moll",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/moll"
+      }
+    },
+    {
       "id": "availability:/mongrel",
       "kind": "availability",
       "target": "/mongrel",
@@ -4388,6 +4564,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mud-town"
+      }
+    },
+    {
+      "id": "availability:/mukai-the-mountain",
+      "kind": "availability",
+      "target": "/mukai-the-mountain",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mukai-the-mountain"
       }
     },
     {
@@ -4465,6 +4652,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/no-faction"
+      }
+    },
+    {
+      "id": "availability:/noble-captain",
+      "kind": "availability",
+      "target": "/noble-captain",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/noble-captain"
+      }
+    },
+    {
+      "id": "availability:/noble-hunter",
+      "kind": "availability",
+      "target": "/noble-hunter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/noble-hunter"
       }
     },
     {
@@ -4872,6 +5081,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/police-barracks"
+      }
+    },
+    {
+      "id": "availability:/ponk",
+      "kind": "availability",
+      "target": "/ponk",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ponk"
       }
     },
     {
