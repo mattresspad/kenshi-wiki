@@ -3597,6 +3597,322 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "economy-arm-right",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Economy Arm (right) is a Robot Limb, and a replacement for a lost right arm. This is the cheapest, and worst, model of robotic limbs. Stats Source Crafting Unlocked by:Hiver Skeleton Arms research: 6 hours at tech level 4; costs 4 Ancient Science Books; needs Hiver Skeleton Legs.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/economy-arm-right.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "56464497864f235345655ba0703f7ee0db7bf2b6fc8d38aa662adfcafd6e86c2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "economy-leg-left",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Economy Leg (left) is a Robot Limb, and a replacement for a lost left leg. This is the cheapest, and worst, model of robotic limbs. Stats Source Crafting Unlocked by:Hiver Skeleton Legs research: 6 hours at tech level 4; costs 6 Ancient Science Books; needs Robotics.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/economy-leg-left.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9ed5eedfb9899dab1c722a1a9cc755bc6c2c4cf1150afc657d8bde9ed3aa6c7b"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "economy-leg-right",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Economy Leg (right) is a Robot Limb, and a replacement for a lost right leg. This is the cheapest, and worst, model of robotic legs. Stats Source Crafting Unlocked by:Hiver Skeleton Legs research: 6 hours at tech level 4; costs 6 Ancient Science Books; needs Robotics.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/economy-leg-right.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0b56e2c28f9ae2efd137be10e7cbc77da6781bf75a8f6eae23433e469ce12292"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "industrial-lifter-arm-left",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Industrial Lifter Arm (left) is a Robot Limb, and a replacement for a lost left arm. Stats Source Crafting Unlocked by:Extra Strong Arms research: 12 hours at tech level 6; costs 2 AI Cores; needs Skeleton Arms.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/industrial-lifter-arm-left.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "93ec046cbf15a8d24b8fcc771e9ab8e3ebe8d82525c6e864eeff3faef5aae89e"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "industrial-lifter-arm-right",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Industrial Lifter Arm (right) is a Robot Limb, and a replacement for a lost right arm. Stats Source Crafting Unlocked by:Extra Strong Arms research: 12 hours at tech level 6; costs 2 AI Cores; needs Skeleton Arms.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/industrial-lifter-arm-right.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3e4adf28da5b2065dc7e14aca3640c4669385059c0db345bd0faf48edc045e79"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "klr-series-arm-left",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: KLR Series Arm (left) is a Robot Limb, and a replacement for a lost left arm. Stats Source Crafting Unlocked by:Durable Arms research: 12 hours at tech level 6; costs 2 AI Cores; needs Skeleton Arms.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/klr-series-arm-left.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "13a57ba444df2ea9f3c9a44655acb9d6f461298ec4fcedfa2269ce3d0c5d644c"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "klr-series-arm-right",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: KLR Series Arm (right) is a Robot Limb, and a replacement for a lost right arm. Stats Source Crafting Unlocked by:Durable Arms research: 12 hours at tech level 6; costs 2 AI Cores; needs Skeleton Arms.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/klr-series-arm-right.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "db6e853d2b42274ae585e32a8e992c92690da82ab150c70e9d708ecdc402d97b"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "klr-series-leg-left",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: KLR Series Leg (left) is a Robot Limb, and a replacement for a lost left leg. Stats Source Crafting Unlocked by:Extra Durable Legs research: 12 hours at tech level 6; costs 2 AI Cores; needs Skeleton Legs.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/klr-series-leg-left.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "677a7e6acb85cf9b6e35aa45c0958d7999c4af3bc5e4caa026fc927441a2e020"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "klr-series-leg-right",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: KLR Series Leg (right) is a Robot Limb, and a replacement for a lost right leg. Stats Source Crafting Unlocked by:Extra Durable Legs research: 12 hours at tech level 6; costs 2 AI Cores; needs Skeleton Legs.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/klr-series-leg-right.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4dcaad8b2ffbdfdf8c5107ca0019c4cb43712c7fd43e4bb24d135c297b5b28e0"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "scout-leg-left",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Scout Leg (left) is a Robot Limb, and a replacement for a lost left leg. It’s noteworthy that out of all Robotic Limbs, the Scout Legs have the least penalty for Swimming skill, along with the largest Athletics bonus. Stats Source Crafting Unlocked by:High-Speed Legs research: 12 hours at tech level 6; costs 2 AI Cores; needs Skeleton Legs.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/scout-leg-left.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "36abb00f6edb8bd4dac64ca3c679ae58a122db6f6bd6a62b559ddb072de5e1bd"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "scout-leg-right",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Scout Leg (right) is a Robot Limb, and a replacement for a lost right leg. It’s noteworthy that out of all Robotic Limbs, the Scout Legs have the lowest penalty for Swimming skill, along with the largest Athletics bonus. Stats Source Crafting Unlocked by:High-Speed Legs research: 12 hours at tech level 6; costs 2 AI Cores; needs Skeleton Legs.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/scout-leg-right.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8a7167393beddffeee6df4893c8903c4a28e67c3cb666283e81109813cf6fcf2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "skeleton-arm-left",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Skeleton Arm (left) is a Robot Limb, and a replacement for a lost left arm. Stats Source Crafting Unlocked by:Skeleton Arms research: 12 hours at tech level 5; costs 2 AI Cores; needs Hiver Skeleton Arms.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-arm-left.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5d6018fc595a5cd56ed8238eb86a580cfc1e0d67803a04c2ddc504acfbde9fb7"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "skeleton-arm-right",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Skeleton Arm (right) is a Robot Limb, and a replacement for a lost right arm. Stats Source Crafting Unlocked by:Skeleton Arms research: 12 hours at tech level 5; costs 2 AI Cores; needs Hiver Skeleton Arms.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-arm-right.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0f85f21b20ad3f8bcc18bca70857044e2b98c22a4cbdcae50ea44f5aab92613c"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "skeleton-leg-left",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Skeleton Leg (left) is a Robot Limb, and a replacement for a lost left leg. Stats Source Crafting Unlocked by:Skeleton Legs research: 12 hours at tech level 5; costs 2 AI Cores; needs Hiver Skeleton Arms.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-leg-left.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4b47b3e2bcc27760cb41867fa7b061cab0a744714ffdd5a1e95e42eefa177ee6"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "skeleton-leg-right",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Skeleton Leg (right) is a Robot Limb, and a replacement for a lost right leg. Stats Source Crafting Unlocked by:Skeleton Legs research: 12 hours at tech level 5; costs 2 AI Cores; needs Hiver Skeleton Arms.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-leg-right.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fc425c2870c30030221b2cf4f090b24eb0e6034bb66bd3513134901aec7d1842"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "steady-arm-left",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Steady Arm (left) is a Robot Limb, and a replacement for a lost left arm. This is the only robot limb that boosts Crossbows, so it is ideal for rangers. Since there are only left-handed Steady Arms, and only right-handed Thief’s Arms, these two arms synergize well together. They both increase Dexterity, and do not lower any Statistics that the other arm rais",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/steady-arm-left.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7bc6e162c783e94795e16f21696ed2e195a7dd88f099bb0e645def768820aa38"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "stealth-leg-left",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Stealth Leg (left) is a Robot Limb, and a replacement for a lost left leg. The “assassination units” in the description is likely to be referring to Screamer MkI given their increased experience gain in Assassination skill. Stats Source Crafting Unlocked by:Stealth Legs research: 12 hours at tech level 6; costs 2 AI Cores; needs Skeleton Legs.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stealth-leg-left.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ccef49e3dc0f9e63be2a7b550620ed397c1d2f5f4898b93e3bc9f8f0f0cb3a65"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "stealth-leg-right",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Stealth Leg (right) is a Robot Limb, and a replacement for a lost right leg. The “assassination units” in the description is likely to be referring to Screamer MkI given their increased experience gain in Assassination skill. Stats Source Crafting Unlocked by:Stealth Legs research: 12 hours at tech level 6; costs 2 AI Cores; needs Skeleton Legs.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stealth-leg-right.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6150afda5404d09919274192e7b0fe1d45db97b1b2c81b4bb3b6d139a6ed194b"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "thiefs-arm-right",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Thief’s Arm (right) is a Robot Limb, and a replacement for a lost right arm. As the name suggests, it is ideal for use by thieves, as it raises Lockpicking, Thievery, and Dexterity. There are only right-handed Thief’s Arms, which makes them synergize well with the exclusively left-handed Steady Arm. Stats Source Crafting",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thiefs-arm-right.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b6335adcfe70f1b0974d2139cb20126a9035675af63e4d49dce58e40219c61a8"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [

@@ -435,5 +435,33 @@
       "/bookshop",
       "/leather-armour-crafting-tech"
     ]
+  },
+  {
+    "name": "limbs-1",
+    "resolved": [
+      "/economy-arm-right",
+      "/economy-leg-left",
+      "/economy-leg-right",
+      "/industrial-lifter-arm-left",
+      "/industrial-lifter-arm-right",
+      "/klr-series-arm-left",
+      "/klr-series-arm-right",
+      "/klr-series-leg-left",
+      "/klr-series-leg-right",
+      "/scout-leg-left",
+      "/scout-leg-right",
+      "/skeleton-arm-left",
+      "/skeleton-arm-right",
+      "/skeleton-leg-left",
+      "/skeleton-leg-right",
+      "/steady-arm-left",
+      "/stealth-leg-left",
+      "/stealth-leg-right",
+      "/thiefs-arm-right"
+    ],
+    "introduced": [
+      "/high-speed-legs-tech",
+      "/robotics-tech"
+    ]
   }
 ]
