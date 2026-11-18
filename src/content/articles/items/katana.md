@@ -1,0 +1,165 @@
+---
+articleId: katana
+title: Katana
+description: The Katana is probably the most basic and recognizable weapon in Kenshi. They have an extremely low strength requirement of 2, and as such can be used at nor…
+categories:
+  - Weapons
+  - Katana
+layout: item
+factTitle: Katana
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Katana
+          - /katanas
+      - - Base weight
+        - 2 kg
+      - - Base value
+        - c. 500
+      - - Size in inventory
+        - 1x7
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 1.00x
+      - - Blunt damage
+        - 0.00x
+      - - Bleed
+        - 1.20x
+      - - Armour penetration
+        - -30%
+      - - Attack
+        - "+4"
+      - - Defence
+        - "-4"
+      - - Reach
+        - "21"
+  - heading: Damage against
+    rows:
+      - - Humans
+        - +10%
+      - - Robots
+        - -40%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 476-gamedata.base
+factImage:
+  src: /icons/items/476-gamedata.base.png
+  alt: Katana
+factCaption: A standard katana, one of the fastest, lightest weapons around.  They rely on skill and dexterity rather than brute strength.  Quality is more important than it is with other types of blade, so they tend to be more expensive.
+---
+
+The **Katana** is probably the most basic and recognizable weapon in Kenshi. They have an extremely low strength requirement of 2, and as such can be used at normal speed with minimal training.
+
+This weapon has inventory dimensions of **1x7**. It can be equipped in both the primary and secondary weapon slots.
+
+The [Meitou](/meitou)\-version of this weapon can be found on [Emperor Tengu](/emperor-tengu), the leader of [United Cities](/united-cities).
+
+Katana crafting (71.43val/material) is decent for earning [Money](/money-making-strategies) through crafting [weapons](/weapon-smith), although it is outclassed by Desert (100 val/material) and Foreign (83.3 val/material) Sabre.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>7</td><td>7</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>7</td><td>7</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>7</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Katanas blueprint: 6 hours at tech level 2; the blueprint is worth c. 10,000.</li></ul></div>
+
+## Blueprints
+
+<table class="wikitable"><tbody><tr><td colspan="2"><div></div><div>Katanas</div><div>[Research Blueprint]</div><div></div></td></tr><tr><td colspan="2">A classic weapon, light, sharp and fast. Deadly and beautiful, but the fine skill they require makes them less commonly used than other blades.<hr></td></tr><tr><td>Research Level</td><td>2</td></tr><tr><td>Value</td><td>c.10,000</td></tr><tr><td>Sell value</td><td>c.2,500</td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Ability to Make</td><td><div><strong>Katana</strong>, <a href="/guardless-katana">Guardless Katana</a></div></td></tr></tbody></table>
+
+The [Blueprints](/blueprints) for this item can be found at the following locations.
+
+### Shops
+
+-   [Bar of Mourn](/bar-of-mourn)
+-   [Black Market Bar](/black-market-bar)
+-   [Catun Scrapmasters](/catun-scrapmasters)
+-   [Empire Weapon Shop](/empire-weapon-shop)
+-   [Mongrel Weapon Shop](/mongrel-weapon-shop)
+-   [Ronin Weapon Shop](/ronin-weapon-shop)
+-   [The Great Library](/the-great-library)
+
+### Loot
+
+-   Bark, Empire Peasants
+-   [Cactus Den](/cactus-den)
+-   [Flotsam Armory](/flotsam-armory)
+-   Heft, Empire Peasants
+-   Heng, Empire Peasants
+-   Sho-Battai, Empire Peasants
+-   [Tower Of Ninjas](/tower-of-ninjas)
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.385</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+3</td></tr><tr><td>-Defence bonus</td><td>-5</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.1,131</td></tr><tr><td>-Sell value</td><td>c.282</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.47</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.1,240</td></tr><tr><td>-Sell value</td><td>c.310</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.4995</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.40 kg</td></tr><tr><td>-Value</td><td>c.3,729</td></tr><tr><td>-Sell value</td><td>c.932</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.576</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.40 kg</td></tr><tr><td>-Value</td><td>c.4,329</td></tr><tr><td>-Sell value</td><td>c.1,082</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.6525</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.40 kg</td></tr><tr><td>-Value</td><td>c.5,165</td></tr><tr><td>-Sell value</td><td>c.1,291</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.81</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.40 kg</td></tr><tr><td>-Value</td><td>c.9,445</td></tr><tr><td>-Sell value</td><td>c.2,361</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.895</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.40 kg</td></tr><tr><td>-Value</td><td>c.11,655</td></tr><tr><td>-Sell value</td><td>c.2,913</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.98</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.40 kg</td></tr><tr><td>-Value</td><td>c.14,388</td></tr><tr><td>-Sell value</td><td>c.3,597</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.15</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.21,000</td></tr><tr><td>-Sell value</td><td>c.5,250</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.235</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.24,434</td></tr><tr><td>-Sell value</td><td>c.6,108</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.32</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.27,610</td></tr><tr><td>-Sell value</td><td>c.6,902</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.639</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.37,979</td></tr><tr><td>-Sell value</td><td>c.9,494</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.7325</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.39,960</td></tr><tr><td>-Sell value</td><td>c.9,990</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.826</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.41,422</td></tr><tr><td>-Sell value</td><td>c.10,355</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>2.20</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.62,956</td></tr><tr><td>-Sell value</td><td>c.15,739</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.385</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+3</td></tr><tr><td>-Defence bonus</td><td>-5</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.3,771</td></tr><tr><td>-Sell value</td><td>c.942</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.47</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.4,135</td></tr><tr><td>-Sell value</td><td>c.1,033</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.555</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.4,662</td></tr><tr><td>-Sell value</td><td>c.1,165</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.64</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.5,412</td></tr><tr><td>-Sell value</td><td>c.1,353</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.725</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.6,456</td></tr><tr><td>-Sell value</td><td>c.1,614</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.81</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.7,871</td></tr><tr><td>-Sell value</td><td>c.1,967</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.895</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.9,712</td></tr><tr><td>-Sell value</td><td>c.2,428</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.98</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.11,990</td></tr><tr><td>-Sell value</td><td>c.2,997</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.15</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.17,500</td></tr><tr><td>-Sell value</td><td>c.4,375</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.235</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.20,361</td></tr><tr><td>-Sell value</td><td>c.5,090</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.32</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.23,009</td></tr><tr><td>-Sell value</td><td>c.5,752</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.49</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.27,128</td></tr><tr><td>-Sell value</td><td>c.6,782</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Katana</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.575</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>2.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.28,542</td></tr><tr><td>-Sell value</td><td>c.7,135</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## Trivia
+
+-   Based on the [katana](https://en.wikipedia.org/wiki/katana "wikipedia:katana") (刀) which is one of the traditionally made swords used in feudal Japan.
+-   _Katana_ is carried in its scabbard with the curved sharp edge facing up, while _tachi_ was usually worn with the curve sharpened edge facing down.
+-   Most authentic _katana_ and _tachi_ blades can be distinguished by the signature of the swordsmith on the _nakago_ (the "handle" part of the blade that gets wrapped in the actual hilt). When carried on the left waist, the signature (though covered in the hilt) faces outwards, and thus the two blades are distinguishable due to the different facing of the curved side (i.e. when place flat on the ground with signature facing up and sword pointing away from the observer, the katana blade will curve rightwards, while tachi will curve leftwards).
+-   When worn together with the _wakizashi_, the pair of swords is known as **daishō** (大小) which literally means "_big-little_".
