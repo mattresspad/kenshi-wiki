@@ -5097,6 +5097,403 @@
         "claim:character-recruitment",
         "claim:character-stat-associations"
       ]
+    },
+    {
+      "id": "meat-lord",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Meat?Bery, bery ungry now.Take meat. Meat Lord is one of the Cannibals’ leaders found in the First Village in Darkfinger. He is accompanied by an entourage of 2-3 Cannibal Chiefs. Despite having only average combat skills, he has a high level of Strength. They wear no armour and have weapons manufactured by Ancient. He has a bounty of c.30,000 from The Holy ",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/meat-lord.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d14a2d29de06d7a5ebb9b41638fbbb63dadabe8ca6397abcbce859218b5e0b59"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "mercenary",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Mercenaries are members of the Mercenary Guild. They can be found traversing the lands and cities alongside their Mercenary Captain. Their leader will often hire them out for bodyguard and base defence duties. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Humans Shek Hive Skeletons Greenlander Scorch",
+      "organization": "Reviewed 2 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mercenary.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f2dfbb0fe9131b51d859b6a5b5e149ea21b016288d74720fd0e5d58688014887"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "mercenary-captain",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Need a merc?Merc shop Mercenary Captains are commanders within the Mercenary Guild. They can be found inside the bars in towns and waystations or wandering from town to town. They wear [Shoddy] armour (15% chance of [Standard]) and have weapons manufactured by Catun Scrapmaster. Statistics Greenlander Shek Interactions Need a merc?Merc shop Mercenary Captain",
+      "organization": "Reviewed 2 section bookmarks and 16 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mercenary-captain.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "96b754c6b59a6a2652eea4f22a64890180c866e722988d79324c9a9b6a6d2a58"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "mercenary-heavy",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Mercenary Heavies are members of the Mercenary Guild. They can be found following Mercenary Captains in cities and many parts of the world. They are slightly stronger than their normal counterparts and have heavier armour. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Greenlander Shek",
+      "organization": "Reviewed 1 section bookmarks and 16 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mercenary-heavy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "34a8f4c131a86efb4195b773bb9a8f82a2d0775201ffa0c3154ab60a82c19e03"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "mighty-canhead",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Rrrrrgggghhhh!Canhead mighty!Meat for Canhead!- Mighty Canhead Mighty Canhead is a unique character and a ‘Magi’ of the Cannibals faction. He will head a Raid Event with 60+ other Cannibals if the player has an outpost in or near Cannibal lands. Mighty Canhead can also attack if the player has been causing a lot of trouble in the Cannibal plains, such as att",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mighty-canhead.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5702cbf20b62f1e744f3f90df8d40584f28b1de609149ad584839077ebf47678"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "moon-guardian",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Moons almighty, make it rain...Flesh for the birds and blood for the sands...Take what is dirt and purify the lands...Rain for the harvest, blood for the sands! Moon Guardians are members of the Preacher Cult. They can be found in Cult Village in the Stormgap Coast. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown.",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/moon-guardian.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9cf33e7129a3cc8a6a51895c33922479a2147e42314009c35d98f9f421c669e0"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "mourn-barman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Old mining town. Weren't so great with their slave control, turns out. But it makes a good shelter for travellers, so long as the wildlife keeps at bay...Barman describing Mourn The Mourn Barman is an unnamed member of the Trade Ninjas. He resides in the Bar in Mourn. Upon asking him about the place, he will tell the player a small story and warn them not to",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mourn-barman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3d0a3d4348e80c0aeb61c23c0930a26f0d1b0a7ca795cbe4c460561dd80c8163"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "mr-floppy",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Mr. Floppy is the name of the proprietor of each Mr. Floppy’s Flophouse (otherwise known as an inn). Currently he has very little interaction with player characters. When spoken to, he greets the character with, “Hey hey hey! It’s Mr. Floppy! What can I do for you?” The player can ask Mr. Floppy three possible questions. Two are in regard to the Flop House a",
+      "organization": "Reviewed 2 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mr-floppy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6e8f9e4f7bfb7932b4ce8a911adaddefc7266525ff278d9bfb89e9515e5d9b3a"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "ninja",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ninjas are members of several factions. They can be members of the Vagrants, Holy Nation Outlaws, Empire Peasants, Tech Hunters, Shinobi Thieves, or United Cities. They are usually found squatting in the cities of these factions, aside from the Shinobi Thieves, where they hang around in bars, guarding the Thief Fence. They wear [Shoddy] armour (5% chance of ",
+      "organization": "Reviewed 1 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ninja.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cd0deed44637046595c8e73ac2327fb54994cb158286befa4f8c5b376a65a10c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "ninja-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ninja Guards are generic characters which can spawn as a member of either the Trade Ninjas or Shinobi Thieves factions. Ninja Guards are shop guards of the Trade Ninjas. They can be seen guarding bars like the one in Mourn. Ninja Guards can be found within and occasionally outside Thief watchtowers. They become allies who will defend you from being attacked ",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ninja-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "129a5827f786e5e4c8b36626c8a9107e54227bd9f6fbea78818c39669f139dee"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "no-face",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'm fed up with politics! Had enough, see?!Just a bunch of idiots lyin' to each other! No more of it fer me!No-Face No-Face is the only human character of the Gutters faction. He can be found at Strange Camp located on an island in Gut. Upon landing on his islands’ shores he will attack with his Oldworld Bow Mkl crossbow and switch to his sword for close com",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/no-face.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "be3b70dbf5dfecd5a41455375325040ab59749b686a50bc4ef4ba4ec184b7b23"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-npc-ai-workarounds"
+      ]
+    },
+    {
+      "id": "nomad",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Nomads are members of the Nomads faction. They can be found in Settled Nomads and Settled Nomad Village. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Greenlander Scorchlander",
+      "organization": "Reviewed 1 section bookmarks and 16 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/nomad.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "69192b188f8276d6fdb731043320033429ef2aa55be8d1db01fc0719e3197edf"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "old-empire-police-captain",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Old Empire Police Captains are members of the Second Empire faction. They can be found alongside General Hat-12 in Ashland Dome IV. They wear [Specialist] armour (25% chance of [Masterwork]) and have weapons manufactured by Skeleton Smiths or Edgewalkers. This character can colour armour and clothing due to a colour scheme attached. Removing these items from",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/old-empire-police-captain.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "052d4df187237f7ee76d60c3d2b0c3dddf748261f0420b5edc24e84ed990adb8"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "outlaw-farmer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Empire took my farm, I'm outta food and I'm homeless... And YOU'RE gonna feed me, outlander!desperation talking Outlaw Farmers are members of the Rebel Farmers. If UC towns get half-destroyed, they have a chance to spawn inside towns fighting with Samurai forces as part of the Rebel Swordsmen faction instead. They can be found patrolling several biomes, ",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outlaw-farmer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "330cb38298d922381879839de5cff91fd213c770dddc430055e1835875d434ea"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "outlaw-heavy",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Outlaw Heavies are members of the Rebel Farmers faction. These are the closest the rebel farmers have to heavy infantry, forming the core of heavy squads roaming Bast, Grey Desert, Heng, and Sinkuun. They can be found in groups of 3-7, sometimes being tagged along by 1-3 Outlaw Swordsmen but are always led by an Outlaw Swordsman Captain. With Lord Inaba dead",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outlaw-heavy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "98ac46462c4521764430ab6d6ecb8b81921d6ee794b64bbcc4c00176150dc8bc"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "outlaw-swordsman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Outlaw Swordsmen are typical sabre-wielding bandits fighting for the Rebel Farmers. In certain town overrides, some of the swordsmen abandon banditry and become guards for farming towns controlled by the Empire Peasants. Others presumably joined the Rebel Swordsmen. They can be found patrolling several biomes, usually in the UC territories: Grey Desert, Heng",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outlaw-swordsman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e06ecf305d4ec0339133c8e0b71665002ed360edcca7f971085eeefab8b8e82a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "outlaw-swordsman-captain",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Uncle Simion, he got a mouth of dirt... but he got a heart of gold deep down...Captain on Simion Outlaw Swordsman Captains are skilled fighters and field leaders in the Rebel Farmers faction. They can be found acting as Boss Simion’s personal bodyguards in Fort Simion. On patrols, they usually lead patrols of Outlaw Heavies and Outlaw Swordsmen. They are the",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outlaw-swordsman-captain.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "90c1aed84d0b9d63c8902d4e1e1fe1042e94ca8ba94b234e8347c01a85209fca"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "outpost-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Don't try any funny business Outpost Guards are high skilled protectors of the Free Traders and the Traders Guild. This character is not set to spawn anywhere. The two locations controlled by the Free Traders are either guarded by Tech Hunter Gate Guards or Outlaw Farmers. Trader’s Edge, the only location controlled by the Traders Guild, is guarded by Samura",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outpost-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ebf69cc68062e830fc8d9e6ecc5d862cbc490294d12d237ab5df13053aa2bd6c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-removed-content",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "paladin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Paladins are soldiers for The Holy Nation, typically acting as veteran troops and occasionally as squad leaders. They often go on patrols alongside Holy Servants and are commanded by High Paladins. They can also instead act as leaders commanding Holy Sentinels, or more rarely, serving under an elite formation of Inquisitors. Paladins can be seen manning Cros",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/paladin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c906ebaaf82b7100bfefdd313e3eb38e22b7d848e28155b76038f2e771598bc1"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "paladin-guardian",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Thieves! Working for Narko!Paladin Guardian upon spotting an intruder in Narko's Trap Paladin Guardians are rare soldiers of the Holy Nation. They are found exclusively in Narko’s Trap, guarding it from would-be tech hunters and thieves seeking access to the unique Ancient Tech Lab. They intend on keeping Narko’s Trap a secret and will attack anyone on sight",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/paladin-guardian.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "335a1324f600754e4865d0829895cc7dcf5d136ddf6992da8d635527c2263113"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "peasant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Peasants are members of Empire Peasants faction. They are similar to the standard Empire Peasant NPC character. They spawn in Vagrant Camps. Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Hive Worker Drone Skeleton",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/peasant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "491b8bcaf6e7e17085e60a385efb8f906e1365d177bcccc062a261fe85153a3f"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "peasant-farmer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Peasant Farmers are members of the Empire Peasants faction. They can be found in farm huts and farmer storehouses. Peasant Farmers can also be found as squatters in United Cities locations. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown. Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Pri",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/peasant-farmer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "07c3ca778e31ee8ae4f71fc30e32436285da073b18f7cc94ee0c08f5860a6942"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "plastic-surgeon",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Plastic Surgeons are NPCs who have a chance of spawning at any bars. In exchange for 200 cats, the character editor will be re-activated, allowing the player to make changes to existing character including a new name. There is a similar NPC named Guild Plastic Surgeon found at Shinobi Thieves towers, who will provide the service for free, but only to members",
+      "organization": "Reviewed 9 section bookmarks and 62 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/plastic-surgeon.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f536b90f1b7118aff4b774f3e739d0857125f73c76cbeaa27ab5f8080934a755"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "police-alpha",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Police were guards and patrol units of United Cities and Dead Cat towns in the Old World. They operate out of Police Stations if they are in a town. Police will normally patrol in small groups of 2-3, but on occasion a lone Policeman may be encountered. Trivia They have been replaced by Samurai Police in United Cities towns, and Mercenary Police in Deadcat t",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/police-alpha.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4163163f0ee6d2a9b840e1d4da5cf6f1356fa7e7509f4807755e4e87fb3248c7"
+      },
+      "questions": [
+        "claim:character-removed-content",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "police-chief",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Looks like you've caught a bounty. Is he dead? You only get paid half for that.Police Chief, seeing the player carry a dead bounty Police Chiefs are the security chiefs of the United Cities, Empire Peasants, and the Free Traders. They can be easily found inside of Police Stations, and can be asked about bounty notices, offering bails, and reselling confiscat",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/police-chief.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fb09e6fee76b37fe1ba2f8c3038f9935606ba4275f6ac624642b9c67a2577a81"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
     }
   ],
   "editorialChanges": [

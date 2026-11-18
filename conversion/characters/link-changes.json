@@ -639,5 +639,40 @@
       "/old-cpu-unit",
       "/red-bandana"
     ]
+  },
+  {
+    "name": "npcs-6",
+    "resolved": [
+      "/meat-lord",
+      "/mercenary",
+      "/mercenary-captain",
+      "/mercenary-heavy",
+      "/mighty-canhead",
+      "/moon-guardian",
+      "/mourn-barman",
+      "/mr-floppy",
+      "/ninja",
+      "/ninja-guard",
+      "/no-face",
+      "/nomad",
+      "/old-empire-police-captain",
+      "/outlaw-farmer",
+      "/outlaw-heavy",
+      "/outlaw-swordsman",
+      "/outlaw-swordsman-captain",
+      "/outpost-guard",
+      "/paladin",
+      "/paladin-guardian",
+      "/peasant",
+      "/peasant-farmer",
+      "/plastic-surgeon",
+      "/police-alpha",
+      "/police-chief"
+    ],
+    "introduced": [
+      "/bolts-regulars",
+      "/mighty-canhead-event",
+      "/police-armour"
+    ]
   }
 ]

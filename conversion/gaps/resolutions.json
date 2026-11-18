@@ -5733,6 +5733,17 @@
       }
     },
     {
+      "id": "availability:/meat-lord",
+      "kind": "availability",
+      "target": "/meat-lord",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/meat-lord"
+      }
+    },
+    {
       "id": "availability:/medic-recruit",
       "kind": "availability",
       "target": "/medic-recruit",
@@ -5777,6 +5788,17 @@
       }
     },
     {
+      "id": "availability:/mercenary",
+      "kind": "availability",
+      "target": "/mercenary",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mercenary"
+      }
+    },
+    {
       "id": "availability:/mercenary-camp",
       "kind": "availability",
       "target": "/mercenary-camp",
@@ -5788,6 +5810,17 @@
       }
     },
     {
+      "id": "availability:/mercenary-captain",
+      "kind": "availability",
+      "target": "/mercenary-captain",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mercenary-captain"
+      }
+    },
+    {
       "id": "availability:/mercenary-guild",
       "kind": "availability",
       "target": "/mercenary-guild",
@@ -5796,6 +5829,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mercenary-guild"
+      }
+    },
+    {
+      "id": "availability:/mercenary-heavy",
+      "kind": "availability",
+      "target": "/mercenary-heavy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mercenary-heavy"
+      }
+    },
+    {
+      "id": "availability:/mighty-canhead",
+      "kind": "availability",
+      "target": "/mighty-canhead",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mighty-canhead"
       }
     },
     {
@@ -5898,6 +5953,17 @@
       }
     },
     {
+      "id": "availability:/moon-guardian",
+      "kind": "availability",
+      "target": "/moon-guardian",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/moon-guardian"
+      }
+    },
+    {
       "id": "availability:/mountain-dog",
       "kind": "availability",
       "target": "/mountain-dog",
@@ -5917,6 +5983,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mourn"
+      }
+    },
+    {
+      "id": "availability:/mourn-barman",
+      "kind": "availability",
+      "target": "/mourn-barman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mourn-barman"
+      }
+    },
+    {
+      "id": "availability:/mr-floppy",
+      "kind": "availability",
+      "target": "/mr-floppy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mr-floppy"
       }
     },
     {
@@ -6019,6 +6107,39 @@
       }
     },
     {
+      "id": "availability:/ninja",
+      "kind": "availability",
+      "target": "/ninja",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ninja"
+      }
+    },
+    {
+      "id": "availability:/ninja-guard",
+      "kind": "availability",
+      "target": "/ninja-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ninja-guard"
+      }
+    },
+    {
+      "id": "availability:/no-face",
+      "kind": "availability",
+      "target": "/no-face",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/no-face"
+      }
+    },
+    {
       "id": "availability:/no-faction",
       "kind": "availability",
       "target": "/no-faction",
@@ -6049,6 +6170,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/noble-hunter"
+      }
+    },
+    {
+      "id": "availability:/nomad",
+      "kind": "availability",
+      "target": "/nomad",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/nomad"
       }
     },
     {
@@ -6239,6 +6371,17 @@
       }
     },
     {
+      "id": "availability:/old-empire-police-captain",
+      "kind": "availability",
+      "target": "/old-empire-police-captain",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/old-empire-police-captain"
+      }
+    },
+    {
       "id": "availability:/old-empire-supply-outpost",
       "kind": "availability",
       "target": "/old-empire-supply-outpost",
@@ -6371,6 +6514,28 @@
       }
     },
     {
+      "id": "availability:/outlaw-farmer",
+      "kind": "availability",
+      "target": "/outlaw-farmer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outlaw-farmer"
+      }
+    },
+    {
+      "id": "availability:/outlaw-heavy",
+      "kind": "availability",
+      "target": "/outlaw-heavy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outlaw-heavy"
+      }
+    },
+    {
       "id": "availability:/outlaw-medic",
       "kind": "availability",
       "target": "/outlaw-medic",
@@ -6390,6 +6555,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/outlaw-recruit"
+      }
+    },
+    {
+      "id": "availability:/outlaw-swordsman",
+      "kind": "availability",
+      "target": "/outlaw-swordsman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outlaw-swordsman"
+      }
+    },
+    {
+      "id": "availability:/outlaw-swordsman-captain",
+      "kind": "availability",
+      "target": "/outlaw-swordsman-captain",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outlaw-swordsman-captain"
+      }
+    },
+    {
+      "id": "availability:/outpost-guard",
+      "kind": "availability",
+      "target": "/outpost-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outpost-guard"
       }
     },
     {
@@ -6437,6 +6635,50 @@
       }
     },
     {
+      "id": "availability:/paladin",
+      "kind": "availability",
+      "target": "/paladin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/paladin"
+      }
+    },
+    {
+      "id": "availability:/paladin-guardian",
+      "kind": "availability",
+      "target": "/paladin-guardian",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/paladin-guardian"
+      }
+    },
+    {
+      "id": "availability:/peasant",
+      "kind": "availability",
+      "target": "/peasant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/peasant"
+      }
+    },
+    {
+      "id": "availability:/peasant-farmer",
+      "kind": "availability",
+      "target": "/peasant-farmer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/peasant-farmer"
+      }
+    },
+    {
       "id": "availability:/pia",
       "kind": "availability",
       "target": "/pia",
@@ -6448,6 +6690,28 @@
       }
     },
     {
+      "id": "availability:/plastic-surgeon",
+      "kind": "availability",
+      "target": "/plastic-surgeon",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/plastic-surgeon"
+      }
+    },
+    {
+      "id": "availability:/police-alpha",
+      "kind": "availability",
+      "target": "/police-alpha",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/police-alpha"
+      }
+    },
+    {
       "id": "availability:/police-barracks",
       "kind": "availability",
       "target": "/police-barracks",
@@ -6456,6 +6720,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/police-barracks"
+      }
+    },
+    {
+      "id": "availability:/police-chief",
+      "kind": "availability",
+      "target": "/police-chief",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/police-chief"
       }
     },
     {
