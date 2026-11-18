@@ -775,5 +775,39 @@
       "/dyed-turban",
       "/human-skin"
     ]
+  },
+  {
+    "name": "npcs-10",
+    "resolved": [
+      "/starving-vagrant",
+      "/stobe",
+      "/stone-rat",
+      "/stormthrall",
+      "/straw-lieutenant",
+      "/strayed-paladin",
+      "/surgeon",
+      "/suspicious-settler",
+      "/swamp-ninja-chunin",
+      "/swamp-ninja-genin",
+      "/swamp-ninja-jonin",
+      "/swamper-bar-thug",
+      "/swamper-casino-dealer",
+      "/swamper-gate-guard",
+      "/swamper-non-gang",
+      "/sword-for-hire",
+      "/tech-hunter",
+      "/tech-hunter-gate-guard",
+      "/tech-hunter-guard",
+      "/tech-hunter-ruins",
+      "/tech-hunter-shopkeeper",
+      "/territorial-thug",
+      "/the-five-invincibles",
+      "/thief"
+    ],
+    "introduced": [
+      "/dyed-turtleneck",
+      "/unholy-chest-plate",
+      "/white-plate-jacket"
+    ]
   }
 ]

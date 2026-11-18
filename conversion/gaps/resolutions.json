@@ -9506,6 +9506,17 @@
       }
     },
     {
+      "id": "availability:/starving-vagrant",
+      "kind": "availability",
+      "target": "/starving-vagrant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/starving-vagrant"
+      }
+    },
+    {
       "id": "availability:/stenn-desert",
       "kind": "availability",
       "target": "/stenn-desert",
@@ -9583,6 +9594,17 @@
       }
     },
     {
+      "id": "availability:/stobe",
+      "kind": "availability",
+      "target": "/stobe",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stobe"
+      }
+    },
+    {
       "id": "availability:/stobes-gamble",
       "kind": "availability",
       "target": "/stobes-gamble",
@@ -9613,6 +9635,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/stone-camp"
+      }
+    },
+    {
+      "id": "availability:/stone-rat",
+      "kind": "availability",
+      "target": "/stone-rat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stone-rat"
       }
     },
     {
@@ -9649,6 +9682,17 @@
       }
     },
     {
+      "id": "availability:/stormthrall",
+      "kind": "availability",
+      "target": "/stormthrall",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stormthrall"
+      }
+    },
+    {
       "id": "availability:/strange-camp",
       "kind": "availability",
       "target": "/strange-camp",
@@ -9657,6 +9701,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/strange-camp"
+      }
+    },
+    {
+      "id": "availability:/straw-lieutenant",
+      "kind": "availability",
+      "target": "/straw-lieutenant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/straw-lieutenant"
+      }
+    },
+    {
+      "id": "availability:/strayed-paladin",
+      "kind": "availability",
+      "target": "/strayed-paladin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/strayed-paladin"
       }
     },
     {
@@ -9671,6 +9737,17 @@
       }
     },
     {
+      "id": "availability:/surgeon",
+      "kind": "availability",
+      "target": "/surgeon",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/surgeon"
+      }
+    },
+    {
       "id": "availability:/suspicious-lab",
       "kind": "availability",
       "target": "/suspicious-lab",
@@ -9679,6 +9756,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/suspicious-lab"
+      }
+    },
+    {
+      "id": "availability:/suspicious-settler",
+      "kind": "availability",
+      "target": "/suspicious-settler",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/suspicious-settler"
       }
     },
     {
@@ -9701,6 +9789,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/swamp-ninja-base"
+      }
+    },
+    {
+      "id": "availability:/swamp-ninja-chunin",
+      "kind": "availability",
+      "target": "/swamp-ninja-chunin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-ninja-chunin"
+      }
+    },
+    {
+      "id": "availability:/swamp-ninja-genin",
+      "kind": "availability",
+      "target": "/swamp-ninja-genin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-ninja-genin"
+      }
+    },
+    {
+      "id": "availability:/swamp-ninja-jonin",
+      "kind": "availability",
+      "target": "/swamp-ninja-jonin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-ninja-jonin"
       }
     },
     {
@@ -9781,6 +9902,50 @@
       }
     },
     {
+      "id": "availability:/swamper-bar-thug",
+      "kind": "availability",
+      "target": "/swamper-bar-thug",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamper-bar-thug"
+      }
+    },
+    {
+      "id": "availability:/swamper-casino-dealer",
+      "kind": "availability",
+      "target": "/swamper-casino-dealer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamper-casino-dealer"
+      }
+    },
+    {
+      "id": "availability:/swamper-gate-guard",
+      "kind": "availability",
+      "target": "/swamper-gate-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamper-gate-guard"
+      }
+    },
+    {
+      "id": "availability:/swamper-non-gang",
+      "kind": "availability",
+      "target": "/swamper-non-gang",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamper-non-gang"
+      }
+    },
+    {
       "id": "availability:/swampers",
       "kind": "availability",
       "target": "/swampers",
@@ -9789,6 +9954,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/swampers"
+      }
+    },
+    {
+      "id": "availability:/sword-for-hire",
+      "kind": "availability",
+      "target": "/sword-for-hire",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sword-for-hire"
+      }
+    },
+    {
+      "id": "availability:/tech-hunter",
+      "kind": "availability",
+      "target": "/tech-hunter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-hunter"
       }
     },
     {
@@ -9803,6 +9990,28 @@
       }
     },
     {
+      "id": "availability:/tech-hunter-gate-guard",
+      "kind": "availability",
+      "target": "/tech-hunter-gate-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-hunter-gate-guard"
+      }
+    },
+    {
+      "id": "availability:/tech-hunter-guard",
+      "kind": "availability",
+      "target": "/tech-hunter-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-hunter-guard"
+      }
+    },
+    {
       "id": "availability:/tech-hunter-recruit",
       "kind": "availability",
       "target": "/tech-hunter-recruit",
@@ -9811,6 +10020,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/tech-hunter-recruit"
+      }
+    },
+    {
+      "id": "availability:/tech-hunter-ruins",
+      "kind": "availability",
+      "target": "/tech-hunter-ruins",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-hunter-ruins"
+      }
+    },
+    {
+      "id": "availability:/tech-hunter-shopkeeper",
+      "kind": "availability",
+      "target": "/tech-hunter-shopkeeper",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-hunter-shopkeeper"
       }
     },
     {
@@ -9855,6 +10086,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/tengus-vault"
+      }
+    },
+    {
+      "id": "availability:/territorial-thug",
+      "kind": "availability",
+      "target": "/territorial-thug",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/territorial-thug"
       }
     },
     {
@@ -9921,6 +10163,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/the-eye"
+      }
+    },
+    {
+      "id": "availability:/the-five-invincibles",
+      "kind": "availability",
+      "target": "/the-five-invincibles",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-five-invincibles"
       }
     },
     {
@@ -10141,6 +10394,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/the-vault-warden"
+      }
+    },
+    {
+      "id": "availability:/thief",
+      "kind": "availability",
+      "target": "/thief",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-10",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/thief"
       }
     },
     {

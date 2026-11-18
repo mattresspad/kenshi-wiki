@@ -6677,6 +6677,393 @@
         "claim:character-fcs-statistics",
         "claim:character-world-state-conditions"
       ]
+    },
+    {
+      "id": "starving-vagrant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Starving Vagrants are members of the Vagrants faction. They are similar to the Starving Bandits of The Holy Nation territories in that they resort to banditry to get money and food to feed themselves. They operate around the northern territory of the United Cities of The Great Desert & Heng, most likely making them the bottom impoverished outcasts from the E",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/starving-vagrant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9c57653f95a45c1c9c84d75235aa8a1817e828c98939eac2ce322da202dda37b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-patrol-interpretation",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "stobe",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Stobe is a character in Kenshi lore. The two zones Stobe’s Gamble and Stobe’s Garden are named in honor of him. His remains can be found in Stobe’s Garden, east of a Reaver Camp and west of Ark. The Skeleton Bandits often speak about Stobe, and acknowledge him as a deity.[1] Many Skeletons[2] are apparently saddened by the sight of Stobe’s carcass (or at lea",
+      "organization": "Reviewed 3 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stobe.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4a85267404f52e18cf3fb3d46cad281373cb4737629f949fe55af1ec4ecaa2e2"
+      },
+      "questions": [
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "stone-rat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Stone Rats are members of the Stone Rats. They can be found in Shark and Stone Rat Village. They have a Dumb Personality. They wear [Standard] armour (5% chance of [High]) and have weapons manufactured by Ancient. Statistics Greenlander Scorchlander Shek Hive Prince",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stone-rat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4082bd5bc52b9dfb07927f69170129349f48b92f39d674d654b5af03b1f990b7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "stormthrall",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: SKRRRRRRREE! Stormthralls are the guards of Cat-Lon’s Exile. They live in a separate Dome than Mad Cat-Lon, but after Cat-Lon is finished talking, he calls for them to swarm his Dome. There are 120 Stormthralls at Cat-Lon’s Exile. They wear [Shoddy] armour (50% chance of [Standard]) and have weapons manufactured by Ancient or Skeleton Smiths. Stormthralls ca",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stormthrall.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "174ad5ba5ea374ff88ac2e03f18850271a74bfd2519bc72e9556c38868785828"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "straw-lieutenant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Straw Lieutenants are members of the Grass Pirates. They can be found leading squads of 5 to 12 Grass Pirate characters on patrols of Stormgap Coast, The Eye, and The Outlands. Straw Lieutenants have a 10% chance of spawning with a bounty ranging from c.1,000 to c.3,000. They wear [Shoddy] armour (15% chance of [Standard]) and have weapons manufactured by Un",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/straw-lieutenant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3499c694cff007277715d2c8298fe12ba91d2b2cbca324fafbbb28d3192c0c23"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "strayed-paladin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You! Enemy of the Light! Darkness be purged!A Strayed Paladin attacking. Strayed Paladins are members of The Holy Nation. They only exist if Phoenix, Seta, and Valtena are all either killed or imprisoned. They appear to be Paladins who are separated from Holy Nation’s military leadership and roam aimlessly in the wilds. They tend to equip a variety of makesh",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/strayed-paladin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "457e04a9eb6b3a842384abac713e36cb6fd56da37dd7ea20bf17d4ef13527b60"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-patrol-interpretation",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "surgeon",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Surgeons are shopkeepers of the Holy Nation that can be found in hospitals at the southern Holy Military Base and Okran’s Shield, working alongside Doctors. They sell medical supplies and offer facelifts for c.500. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Humans Shek Hive Skeletons Greenlander S",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/surgeon.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "328309a6f3ca6d340bf86df58273321e21ae6b5679e6dae1a85a9658174ef979"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "suspicious-settler",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Suspicious Settler lives in Gatherer Village, which is located to the west of Mongrel and is part of the Deadcat faction. He has 2 unique pets called Beloved Goat and Settler’s Pup. Talking to the Settler leads to him begging you not to attack. If you don’t, he will tell you how his home has been raided by bandits. If you offer him protection he will sell yo",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/suspicious-settler.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1b8c2f2244781f3b448cff9fd2103c5c994bfaaa6cadf88c1e79a3753776b587"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "swamp-ninja-chunin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Swamp Ninja Chunin are members of the Swamp Ninjas. They can be found in the Swamp Ninja Base or wandering with a squad of Swamp Ninja Genin in The Swamp and the South Wetlands. They wear [Shoddy] armour (10% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Greenlander Scorchlander Hive Prince",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamp-ninja-chunin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "50f95de4dec4d8e7e911c32992f0e10d3b9a25a96b0f1ffbb1396785b78cf03d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "swamp-ninja-genin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Swamp Ninja Genin are members of the Swamp Ninjas. They can be found in the Swamp Ninja Base or roaming The Swamp and the South Wetlands. They wear [Shoddy] armour (10% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Greenlander Scorchlander Hive Prince",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamp-ninja-genin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "16db809240fc95601693a436796d7180b4d127265ee52a8a1c70f4e270480799"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "swamp-ninja-jonin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Swamp Ninja Jonin are elite members of the Swamp Ninjas. Two can typically be found in the Swamp Ninja Base. If Big Al and Grim are not alive, they can be found in Stone Rat Village. If the Red Sabre Boss is not alive, this character can be found accompanying Swamp Ninja Genin and Swamp Ninja Chunin in patrolling The Swamp. They wear [Shoddy] armour (10% cha",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamp-ninja-jonin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e74d4987d4d64e10aeba46ae84e62c1b4e8c95501515a99ef77790490cc1be40"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "swamper-bar-thug",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: What's that yer drinkin'? Grog?... Grog's for girls. What're you, a girl now? An unnamed member of the Bar Thugs faction. They can be found in Shark bar. They have a 1% chance of having a bounty from c.500 to c.1,500. They wear [Shoddy] armour (15% chance of [Standard]). Statistics Greenlander",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamper-bar-thug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "47d5069e1dfa18a850323343e3c5fdaadbe81e49bf26cbbaf6a9f9fe10b3a3c8"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "swamper-casino-dealer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Up for a game o' catcrawlers, outlander? Full six rollback gets the girl!Dealer Swamper Casino Dealers are unnamed members of the Blackshifters. They can be found manning the Blackshifter Casino Bars. Unlike normal Bars, the player cannot buy food and supplies from the Casino Dealer. Instead, they are invited for a game of catcrawlers. They wear [Shoddy] arm",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamper-casino-dealer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5cbe272b3040c27c437589e9abdd3b925f15683758148547ff09fa9e23576560"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-incomplete-instructions"
+      ]
+    },
+    {
+      "id": "swamper-gate-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Swamper Gate Guard is a member of the Swampers faction. They can be commonly found protecting the outlying villages in The Swamp as well as Shark. They wear [Specialist] armour (4% chance of [Masterwork]) and have weapons manufactured by Catun Scrapmaster. Statistics Greenlander Scorchlander Shek Hive Prince",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamper-gate-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "db64b6ab7a14b34532d5f39b3824b1451bf6ccc3710c6499b824557b0a87c114"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "swamper-non-gang",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Say goodbye to all morals and say hello to the swamps!Swampers Swampers (Non-Gang) are named residents of the Swampers. These variants are usually found in residential areas, as well as serving as the shopkeepers in Swamp shops. Like most Swampers, they have a very high chance of wearing a Longcoat compared to other body armours. They have a 5% chance of hav",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamper-non-gang.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "113dca35dc78c4301ad2911c690dbd01385b2330f6eb749ee31eedf59e934379"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "sword-for-hire",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This page is about character recruitment in Old World. Please refer to the Playable Characters page for further links to characters currently available. The Sword for Hire is available to become a follower. They function exactly the same as the player created at the beginning. They can be found in bars and can be hired for c.700. They can also be customized ",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sword-for-hire.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "adb44af4745cd307130ce1fd7e57a51ef3b741703ec83c4f7864e70d7109c7af"
+      },
+      "questions": [
+        "claim:character-recruitment",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "tech-hunter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Tech Hunters are unnamed members of the Machinists. There are a total of four of them that can be found in the University in World’s End. For the mercenaries of the faction Tech Hunters, see Drifters. They have a 4% chance of having a bounty ranging from c.1 to c.4,000. They are among the few characters in the game to be carrying splint kits, a tribute to th",
+      "organization": "Reviewed 1 section bookmarks and 40 source tables; 5 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "46eb5d1e9332e8a199d7d66440af78e52c765d0fc4dec2c25085d7cfe668f775"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "tech-hunter-gate-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Pummeling bandits is actually kind of therapeuticRandom Tech Hunter Gate Guard Tech Hunter Gate Guards are randomly-named members of the Tech Hunters faction. They can be found guarding Tech Hunter-controlled towns such as Black Scratch, Flats Lagoon, and World’s End as well as working as mercenaries for the Free Traders, Empire Peasants, and Anti-Slavers, g",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunter-gate-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e606f6af1420df03d5ebc31e3a7e3cf3c62911e735b8aecd7a8693a41d23f10a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "tech-hunter-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Tech Hunter Guards are unnamed members of the Tech Hunters faction. They can be found patrolling tech hunter-controlled settlements like World’s End, Mourn and Black Scratch. They also serve as shop guards for Tech Hunter Shops located in Spring, The Free City, and tech-hunter controlled Stoat. They have a 2% chance of having a bounty ranging from c.1 to c.4",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunter-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ba4c93889a96a6d59518494de498779b5fc9508a7f4727100899aee8a46a2fc9"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "tech-hunter-ruins",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: All the way out in these ruins and I found company, eh?Tech Hunter greeting Tech Hunter Ruins are randomly named members of the Tech Hunters faction. They can be found patrolling Forbidden Isle, Leviathan Coast, and Shun in groups of 1-5 characters. They have a 4% chance to spawn with a bounty ranging from c.1 to c.4000. They wear [Standard] armour (8% chanc",
+      "organization": "Reviewed 2 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunter-ruins.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e13b2b25efb96aa3ab22fb25afd08945dd6274c098d025fdd9d5d4c1260d3d74"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "tech-hunter-shopkeeper",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Come in. Have a browse.Shopkeeper greeting customer Tech Hunter Shopkeepers are named members of the Tech Hunters. They man Tech Hunter shops in various locations. These shops include Adventurer Ranger Shops, Empire Ranger Shops, Tech Hunter Shops, Travel and Repairs Shop, and Travel Gear. Unlike most shopkeepers, they have enough stats and gear to be capabl",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunter-shopkeeper.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "356e15375666166f5a9f65ce9396619ad0d0c61f5caf8eba55a1d6faf2b6d92a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "territorial-thug",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Territorial Thug is a randomly named member of the Stone Rats faction. One can be found in Shark and in Stone Rat Village. They are a bully who will heckle passing by players, so long as they have a small squad (less than 6). They have a Dumb Personality. Speaking to them prompts them to order you to dance or do other random favors such as bribing/giftin",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/territorial-thug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "747b06792911320b181226dbeede2fe9f9468d9316095dc195087b37b0abf697"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "the-five-invincibles",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bring me your war! The Five Invincibles are the greatest warriors of the Shek Kingdom. They can all be found in the Faction HQ in Admag. One of the Five Invincibles will be leading the Shek reinforcements during a Holy Nation raid on an allied player’s outpost. If Esata the Stone Golem is killed or imprisoned then the Five Invincibles will swear allegiance t",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-five-invincibles.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2d4224233f7ffcf9be8d325436c7ece4db625aa24d83f02871237836a5a00fa6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "thief",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Thieves are members of the Shinobi Thieves. They can be found in Thieves Guild Watchtowers. They become allies who will defend the player from attacks after you join the Shinobi Thieves by talking to the Thief Boss. They wear [Shoddy] armour (15% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Greenlander Scorchlander Hive Prince H",
+      "organization": "Reviewed 1 section bookmarks and 40 source tables; 5 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thief.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6c996fe0068478d2e0208cc07dcc6d3e2277c5f221100fa904dd83d1b30f9cfc"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
     }
   ],
   "editorialChanges": [
