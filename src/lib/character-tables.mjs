@@ -23,7 +23,7 @@ export function normalizeCharacterTables($) {
   const rows=el.children('tbody').children('tr');const first=rows.first();
   if(first.children().length&&!first.children(':not(th)').length&&!el.children('thead').length)first.appendTo($('<thead></thead>').prependTo(el));
   el.children('thead').find('th:not([scope])').attr('scope','col');
-  if(el.children('thead').length){for(const row of el.children('tbody').children('tr').toArray()){const cell=$(row).children().first();if(cell.is('td')&&!cell.attr('colspan')){cell[0].tagName='th';cell.attr('scope','row');}}}
+  if(el.children('thead').length){for(const row of el.children('tbody').children('tr').toArray()){const cell=$(row).children().filter((i,e)=>$(e).text().trim().length>0).first();if(cell.is('td')&&!cell.attr('colspan')){cell[0].tagName='th';cell.attr('scope','row');}}}
   if(el.is('.sortable')&&el.children('thead').find('tr').length===1&&!el.children('thead').find('[rowspan]:not([rowspan="1"])').length)el.attr('data-sortable','');
   const labels=el.children('thead').text();if(labels.includes('Noteworthy Because'))el.addClass('recruit-comparison');
   el.addClass('character-normalized');

@@ -52,3 +52,7 @@ The [gap register](gaps/README.md) audits all 2,184 pinned articles and keeps in
 ## Animals and Characters handoff
 
 [Animals](animals/README.md) freezes 49 category members and one supporting care guide, reuses five faction files, and records 50 individual content/organization reviews. The local handoff is 560 transferred articles and 571 HTML pages. Existing animal IDs remain in their current editorial homes for the next Characters family; do not duplicate files for multiple category memberships.
+
+## Characters local handoff
+
+The 504-member Characters family is recorded in [characters/README.md](characters/README.md): 461 new articles and 43 reused identities, with 23 batch acceptances, individual reviews and source qualifications. The local preview totals 1,021 articles and 1,033 HTML pages. The next-family assessment proposes Items and equipment without authorizing a new transfer. Public restoration and production cutover remain separate milestones.

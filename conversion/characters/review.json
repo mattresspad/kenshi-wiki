@@ -7455,6 +7455,11 @@
       "id": "statistics-groups",
       "change": "Added numbered group labels and a source qualification without assigning races or changing source values.",
       "evidence": "src/lib/character-tables.mjs"
+    },
+    {
+      "id": "equipment-tables",
+      "change": "Keep merged manufacturer groups in source order; sort independent rows by names beside icons; use nonempty item names as semantic row headers.",
+      "evidence": "src/scripts/sort-table.js; src/lib/character-tables.mjs"
     }
   ]
 }

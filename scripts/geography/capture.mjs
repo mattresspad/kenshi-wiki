@@ -34,7 +34,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   const samples=[...(extra[batch.name] ?? [batch.ids[0]])];
   if (family==='geography' && batch.name===roster.batches.at(-1).name) samples.push('catun/fishmen','catun-alpha','bonefields','bad-teeth#town-overrides','old-world#old-world-towns','category/zones','category/spawning-locations');
   if(family==='factions' && batch.name===roster.batches.at(-1).name) samples.push('category/factions','united-cities#emperor-tengus-entourage','guide-to-faction-relations#after-harming-relations');
-  if(family==='characters' && batch.name===roster.batches.at(-1).name)samples.push('category/characters','unique-recruits#named-recruits','samurai#statistics');
+  if(family==='characters' && batch.name===roster.batches.at(-1).name)samples.push('category/characters','unique-recruits#named-recruits','samurai#statistics','beep#statistics','armour-king#equipment','emperor-tengu#world-states','skeleton-bandit');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {

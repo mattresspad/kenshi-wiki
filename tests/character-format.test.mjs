@@ -22,3 +22,9 @@ test('struck infobox labels preserve source meaning and their links',()=>{
  assert.deepEqual(factParts('<s>Removed</s><br>Present'),[{strike:true,text:'Removed'},{break:true},'Present']);
  assert.throws(()=>factParts('<script>unsafe()</script>'),/Unexpected fact markup/);
 });
+
+test('equipment row headers identify item names rather than decorative icons',()=>{
+ const $=load('<table><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td><img src="/icon.png" alt=""></td><td><a href="/katana">Katana</a></td><td>71%</td></tr></table>',{},false);
+ normalizeCharacterTables($);assert.equal($('tbody th[scope=row]').text(),'Katana');assert.equal($('tbody td img').length,1);
+ const once=$.html();normalizeCharacterTables($);assert.equal($.html(),once);
+});
