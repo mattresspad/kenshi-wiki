@@ -124,3 +124,13 @@ export function validateResolution(row,observed){
   if(!observed&&!['claim','unlinked-label'].includes(row.kind))throw Error('Unsupported resolved claim '+row.id);
   if(!observed&&(!row.resolution.method||!row.resolution.evidence||!row.resolution.verifiedBy))throw Error('Investigation proof required '+row.id);
 }
+
+// A later family acceptance does not replace the evidence that first closed a finding.
+export function appendAcceptedResolutions(history, report, acceptedIn) {
+ const records=[...history.records];
+ for(const row of report.findings.filter(r=>r.status==='resolved'&&r.resolution)){
+  const proof={id:row.id,kind:row.kind,target:row.target,sourceRevision:report.revision,acceptedIn,resolution:row.resolution};
+  if(!records.some(old=>old.id===proof.id&&old.sourceRevision===proof.sourceRevision&&JSON.stringify(old.resolution)===JSON.stringify(proof.resolution)))records.push(proof);
+ }
+ records.sort((a,b)=>a.id.localeCompare(b.id,'en'));return {...history,records};
+}

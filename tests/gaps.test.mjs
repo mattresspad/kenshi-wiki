@@ -55,3 +55,11 @@ test('closed findings need evidence and missing targets cannot be declared resol
  assert.throws(()=>validateResolution({...row,kind:'claim'},false),/Investigation proof/);
  assert.doesNotThrow(()=>validateResolution({...row,kind:'claim',resolution:{method:'controlled test',evidence:'checked-in test record',verifiedBy:'reviewer'}},false));
 });
+
+import {appendAcceptedResolutions} from '../scripts/gaps/core.mjs';
+test('cross-family acceptance preserves original closure evidence and records only new proofs',()=>{
+ const old={version:1,records:[{id:'availability:/a',kind:'availability',target:'/a',sourceRevision:'pin',acceptedIn:'races#final',resolution:{method:'exists'}}]};
+ const report={revision:'pin',findings:[{id:'availability:/a',kind:'availability',target:'/a',status:'resolved',resolution:{method:'exists'}},{id:'media:/b',kind:'media',target:'/b',status:'resolved',resolution:{method:'sha',sha256:'abc'}}]};
+ const next=appendAcceptedResolutions(old,report,'animals#pilot');assert.equal(next.records.length,2);assert.equal(next.records[0].acceptedIn,'races#final');assert.equal(old.records.length,1);
+ assert.deepEqual(appendAcceptedResolutions(next,report,'animals#final'),next);
+});

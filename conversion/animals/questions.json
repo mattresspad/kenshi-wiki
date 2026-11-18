@@ -2,10 +2,11 @@
   [
     "animal-malformed-coefficient",
     [
-      "domesticated-bull"
+      "domesticated-bull",
+      "pack-beast"
     ],
     "0\\.0\\.0702",
-    "Domesticated Bull Variant 1 contains the malformed numerical token 0.0.0702.",
+    "Domesticated Bull and Pack Beast Variant 1 contain the malformed numerical token 0.0.0702.",
     "Compare the Fandom revision history and exact animal weapon formula before editing; preserve the literal token until confirmed.",
     "Similar Garru coefficients are suggestive but are not sufficient correction evidence."
   ],
@@ -67,5 +68,95 @@
     "Garru aggression depends on movement, personality dialogue and nearby fights.",
     "Test each dialogue personality and movement condition separately with exact records and a pinned version.",
     "The quotation and conditional advice are preserved; universal safety cannot be inferred."
+  ],
+  [
+    "animal-leviathan-conditions",
+    [
+      "leviathan",
+      "guide-to-animals"
+    ],
+    "squad of|squads of|22 minutes|fastest healing",
+    "Leviathan aggression thresholds differ in precision between the profile and care guide; healing-rate units and fastest-healing wording also need verification.",
+    "Trace dialogue triggers and health-rate semantics, then test squad sizes and healing over measured game time.",
+    "The guide mentions increased chance at five, while the detailed profile gives thresholds at three, four and six; do not replace either account without evidence."
+  ],
+  [
+    "animal-turtle-conditions",
+    [
+      "swamp-turtle"
+    ],
+    "groups of 6|alone or in pairs|Herd|Squad|weapon assigned|attack animation",
+    "Swamp Turtle introductory group sizes differ from its detailed spawn ranges; missing-weapon and animation claims also lack verification.",
+    "Compare current squad records and animation bindings; test vanilla separately from the linked community fix.",
+    "Observed or simplified group descriptions may explain the difference; the mod is not proof of vanilla design intent."
+  ],
+  [
+    "animal-skimmer-conditions",
+    [
+      "skimmer"
+    ],
+    "6:00|140|single target|Extra attack slots|2 qualities|nocturnal",
+    "Skimmer sleep timing, attack-target wording and two weapon qualities need field/runtime interpretation.",
+    "Test lone and nested squads, sleep/re-wake timing and target count; inspect quality selection records.",
+    "The extra-slot field does not by itself establish the number of victims hit."
+  ],
+  [
+    "animal-security-targets",
+    [
+      "security-spider"
+    ],
+    "2 units|Extra attack slots",
+    "Security Spider narrative attack count and Extra attack slots need semantic reconciliation.",
+    "Inspect the field’s meaning and observe closely grouped targets with a controlled attacker.",
+    "Do not assume the extra-slot value is a total target count."
+  ],
+  [
+    "animal-special-variants",
+    [
+      "settlers-pup",
+      "megaraptor",
+      "king-gorillo"
+    ],
+    "only animal|only.*female|highest total|no death item",
+    "Unique-variant superlatives and missing-death-item behavior need a versioned whole-corpus comparison and game test.",
+    "Check exact creature and spawn records including overrides; test butchering and special inventory behavior.",
+    "Only/highest wording may depend on which records and spawn contexts are counted."
+  ],
+  [
+    "animal-historical-interpretations",
+    [
+      "mountain-dog",
+      "megacrab",
+      "skin-spider"
+    ],
+    "speculation|might explain|may predate|rumored|rumoured",
+    "Creature origin and ruined-town/controller claims are explicitly speculative or rumored.",
+    "Retain the qualifiers and seek narrative or developer evidence before presenting these as established history.",
+    "Spawn proximity is not proof of origin, destruction or control."
+  ],
+  [
+    "animal-faction-semantics",
+    [
+      "crimper-faction",
+      "skimmers",
+      "spiders",
+      "wildlife",
+      "wolves"
+    ],
+    "coexistence|not real|not exclusively|default",
+    "Reused animal faction pages contain coexistence, hidden-faction and spawn-membership claims.",
+    "Trace relation direction, hidden flags and specific squad faction references; distinguish species from allegiance.",
+    "A shared species name or faction label is not enough to infer every individual’s faction."
+  ],
+  [
+    "animal-blood-resistance",
+    [
+      "blood-spider",
+      "skin-spider"
+    ],
+    "weak to bleeding|high bleeding resistance|cousins",
+    "Blood Spider and Skin Spider prose describes the smaller spider’s bleeding response differently.",
+    "Compare the exact race bleed/heal fields and observe blood loss and recovery under equivalent injuries.",
+    "Resistance, blood capacity and recovery rate may be conflated; retain both descriptions pending evidence."
   ]
 ]

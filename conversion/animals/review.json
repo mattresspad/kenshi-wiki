@@ -95,7 +95,8 @@
         "claim:animal-damage-reload",
         "claim:animal-feeding",
         "claim:animal-garru-provocation",
-        "claim:animal-guide-purchase"
+        "claim:animal-guide-purchase",
+        "claim:animal-leviathan-conditions"
       ]
     },
     {
@@ -141,6 +142,7 @@
       "content": "Underwater pursuit, hunger-draining behavior, Miu warning, conditional 20/75, 1/9, 1/26 and 2/63 spawn chances, squad ranges and Rot override retained.",
       "organization": "Spawns and World States remain separate. Empty Gallery recorded; conditional probabilities need source-record context.",
       "questions": [
+        "claim:animal-blood-resistance",
         "claim:animal-conditional-spawns",
         "claim:animal-damage-reload",
         "claim:animal-growth-fields",
@@ -326,6 +328,7 @@
         "claim:animal-gorillo-superlatives",
         "claim:animal-growth-fields",
         "claim:animal-movement",
+        "claim:animal-special-variants",
         "claim:race-hit-weights"
       ]
     },
@@ -340,6 +343,276 @@
         "claim:animal-growth-fields",
         "claim:animal-movement",
         "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "leviathan",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Family/loner behavior, squad-size probabilities, healing/tactics, exact adult/pup ages, version history and model-artist credit retained.",
+      "organization": "Large combat section remains separate from formulas and spawns. Empty Gallery, aggression thresholds, healing units and superlatives remain questions.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-leviathan-conditions",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "megacrab",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Lost Town location, speculative ruin explanation, ganglion trophy, statistics and no-respawn statement retained.",
+      "organization": "One-off named crab remains separate from tournament crabs; the ruined-town explanation retains its alternative hypothesis.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-historical-interpretations",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "megaraptor",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Drowned Citadel location, 0.9–1.0 age, female-chance claim and Swamp Creatures versus Raptors distinction retained.",
+      "organization": "Short location and faction qualifications remain explicit; the exclusive female-chance assertion needs whole-record checking.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-special-variants",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "mountain-dog",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Cannibal Hunter association, explicitly speculative northern origin, anatomy, damage and old start history retained.",
+      "organization": "Four empty spawn sections remain. The introductory speculation must not become a confirmed wild spawn region.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-historical-interpretations",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "mr-gigantus",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Third tournament, 0.50–0.90 age, gate-defense warning, drops and health ranges retained.",
+      "organization": "Death Items heading/caption remains bookmarked; tournament order and special scaling need exact record context.",
+      "questions": [
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "pack-beast",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Caravan factions, 6-stack lantern backpack, night stealth caveat, diet, hunger and anatomy retained.",
+      "organization": "Separate from wild Garru. The malformed 0.0.0702 coefficient and differing Fauna drops join shared findings.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-fauna-comparisons",
+        "claim:animal-growth-fields",
+        "claim:animal-malformed-coefficient",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "river-raptor",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Opening quote, crop/corpse behavior, Holy Nation patrols, 3–12 squad and 100+ nest wording retained.",
+      "organization": "Empty Other Locations retained. Population and crop-trigger behavior need conditions rather than unconditional promises.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "security-spider",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Robot status, lab/armoury locations, non-eating behavior, enclosed-space risk and 120 health panel retained.",
+      "organization": "Separate from Iron Spider and Security Spider II. Narrative target count and Extra attack slots semantics need verification.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-robot-fields",
+        "claim:animal-security-targets",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "security-spider-ii",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Smaller variant, Black Desert City/Scraphouse/drug-farm/Armour King destinations, 60-health anatomy and distinct damage coefficients retained.",
+      "organization": "Variant identity is preserved. Robot growth fields are not interpreted as active biological aging.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-robot-fields",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "settlers-pup",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Settler relationship, unique scale, 214-health example, missing death item and adult 0.9–1.0 spawn qualification retained.",
+      "organization": "No Death Items panel is fabricated. The apparently puppy name does not override the stated adult spawn.",
+      "questions": [
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-special-variants",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "skimmer",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Buried-nest warning, lone-versus-group sleep conditions, 6:00–23:00 schedule, 140-minute return and two weapon variants retained.",
+      "organization": "Empty spawn subsections remain. Narrative single-target attacks and extra-slot property require semantic clarification.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-skimmer-conditions",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "skin-spider",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Qualified migration and Bugmaster control, feeding penalty, weapon bonuses, anatomy and 1–10/20–30 squads retained.",
+      "organization": "Rumor remains rumor. Bleeding comparison with Blood Spider and implied strength/movement effects remain unverified.",
+      "questions": [
+        "claim:animal-blood-resistance",
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-historical-interpretations",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "swamp-raptor",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Crop/corpse behavior, comparison with River Raptor and Megaraptor, health and damage variants retained.",
+      "organization": "Short profile lacks a dedicated spawn roster; no new list inferred from the overview.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "swamp-turtle",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Peaceful behavior, introductory group sizes, 5–12 adults/0–3 pups herd, 1–3 squad and weapon/animation-mod qualifications retained.",
+      "organization": "Empty Gallery remains. Introductory group counts and detailed spawn ranges differ; the fix mod is not proof of vanilla intent.",
+      "questions": [
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-turtle-conditions",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "the-crabinator",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Fourth tournament, 0.90–1.30 multiplier, shared gate strategy and 957–1089 anatomy retained.",
+      "organization": "Tournament sequence and exceptional scale remain separate from normal Crab growth; no stats extrapolation performed.",
+      "questions": [
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "titus",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "First tournament, 1.20–1.60 multiplier, strategy, drops and 236–308 anatomy retained.",
+      "organization": "Its older age but smaller health than later bosses requires distinct records/scales, not sorted age assumptions.",
+      "questions": [
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "war-gorillo",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Southern Hive/Queen association, combat advice, 70/100-power attacks and animal panels retained.",
+      "organization": "Separate profile retained despite shared Gorillo structure; no ownership or spawn override inferred from ordinary species.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "wild-bull",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Peaceful herd/charge behavior, bull-type comparison, stats and 3–6/8–16 adult plus pup ranges retained.",
+      "organization": "Wandering traders and settled villages remain distinct from wild spawn lists; Backpack capability is not inferred from family membership alone.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "crimper-faction",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "No-default-spawn qualification, Southern Hive King distinction, Crimper character link and coexistence relations retained.",
+      "organization": "Reused faction file and original categories; this is not the robot species profile.",
+      "questions": [
+        "claim:animal-faction-semantics"
+      ]
+    },
+    {
+      "id": "skimmers",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Not-real faction qualification, character/nest links and Western Hive/Herbivore coexistence retained.",
+      "organization": "Reused faction file remains distinct from singular Skimmer.",
+      "questions": [
+        "claim:animal-faction-semantics"
+      ]
+    },
+    {
+      "id": "spiders",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Non-exclusive faction membership, Bugmaster/three spider entries, coexistence relations and Rot world-state link retained.",
+      "organization": "Reused file; species labels do not determine every spawned character’s faction.",
+      "questions": [
+        "claim:animal-faction-semantics"
+      ]
+    },
+    {
+      "id": "wildlife",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Not-real faction warning, four character entries, town/nest lists and asymmetric-looking relation values retained.",
+      "organization": "Reused file stays separate from Fauna overview. Relationship direction and spawned faction conditions need records.",
+      "questions": [
+        "claim:animal-faction-semantics"
+      ]
+    },
+    {
+      "id": "wolves",
+      "existence": "Permanent ID, source provenance, canonical path and categories checked; reused files identified before transfer",
+      "content": "Wild Bonedog/Boneyard Wolf membership, not-real status and Landbats coexistence retained.",
+      "organization": "Reused short faction page retains its single Relations heading and history; no duplicate animal profile created.",
+      "questions": [
+        "claim:animal-faction-semantics"
       ]
     }
   ],

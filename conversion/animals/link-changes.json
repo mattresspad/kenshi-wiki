@@ -40,5 +40,33 @@
       "/animal-feeder",
       "/megacrab-ganglion"
     ]
+  },
+  {
+    "name": "animal-siblings-1",
+    "resolved": [
+      "/beloved-goat",
+      "/black-gorillo",
+      "/blood-spider",
+      "/boneyard-wolf",
+      "/cornelius",
+      "/crab",
+      "/crimper",
+      "/domesticated-bull",
+      "/elder-blood-spider",
+      "/elder-crab",
+      "/garru",
+      "/goat",
+      "/gorillo",
+      "/great-white-gorillo",
+      "/iron-spider",
+      "/king",
+      "/king-gorillo",
+      "/land-bats",
+      "/landbat"
+    ],
+    "introduced": [
+      "/great-white-claw",
+      "/great-white-skin"
+    ]
   }
 ]

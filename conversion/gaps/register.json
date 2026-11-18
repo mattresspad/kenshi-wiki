@@ -33461,6 +33461,62 @@
       ]
     },
     {
+      "id": "claim:animal-blood-resistance",
+      "kind": "claim",
+      "target": "/blood-spider",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Blood Spider and Skin Spider prose describes the smaller spider’s bleeding response differently.",
+      "proposedResolution": "Compare the exact race bleed/heal fields and observe blood loss and recovery under equivalent injuries.",
+      "uncertainty": "Resistance, blood capacity and recovery rate may be conflated; retain both descriptions pending evidence.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "blood-spider",
+          "sourceFile": "src/content/wiki/blood-spider.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "49f0d924d3fec7eb2ad6795b8a47c0549aa533643cbbcfd7fb9a9db467de3d0e",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/blood-spider.md"
+        },
+        {
+          "articleId": "skin-spider",
+          "sourceFile": "src/content/wiki/skin-spider.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "9017714d1c7bdfa8e2dde735f62f0054633f403db9deb190b0cc3e48e47c26f5",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/skin-spider.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "blood-spider",
+          "label": "Blood Spiders are the true \"glass cannons\" of Kenshi. They are individually quite fragile, but they attack in groups, hit like a truck, and can walk along the bottom of bodies of water. Particularly in [The Swamp](/the-swamp), this means that being caught between Blood Spiders and a large lake can be a death sentence, as the spiders will simply follow a swimmer into the water and continue attacking them, unlike most pursuers. If faced on open terrain, however, it is relatively easy to outrun a pack. They are also quite weak to bleeding damage but can recover lost blood quickly. If you manage to down one, quickly looting its teeth to kill it is a good idea.",
+          "literal": "Blood Spiders are the true \"glass cannons\" of Kenshi. They are individually quite fragile, but they attack in groups, hit like a truck, and can walk along the bottom of bodies of water. Particularly in [The Swamp](/the-swamp), this means that being caught between Blood Spiders and a large lake can be a death sentence, as the spiders will simply follow a swimmer into the water and continue attacking them, unlike most pursuers. If faced on open terrain, however, it is relatively easy to outrun a pack. They are also quite weak to bleeding damage but can recover lost blood quickly. If you manage to down one, quickly looting its teeth to kill it is a good idea.",
+          "line": 20,
+          "sourceFile": "src/content/wiki/blood-spider.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skin-spider",
+          "label": "They are large tan insectoid or arachnoid creatures with long, multi-jointed legs and a tiny, creepy head. They hunt anything nearby with high cutting damage attacks from their pointy legs, and they share their [smaller cousins'](/blood-spider) ability to \"eat\" their prey alive by draining its hunger bar.",
+          "literal": "They are large tan insectoid or arachnoid creatures with long, multi-jointed legs and a tiny, creepy head. They hunt anything nearby with high cutting damage attacks from their pointy legs, and they share their [smaller cousins'](/blood-spider) ability to \"eat\" their prey alive by draining its hunger bar.",
+          "line": 22,
+          "sourceFile": "src/content/wiki/skin-spider.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skin-spider",
+          "label": "Although larger and tougher than Blood Spiders, Skin Spiders are generally less dangerous because they favor open terrain where they are easier to see coming and can fairly easily be outpaced. Like their cousins, they have high bleeding resistance and will wake up quickly should they be knocked out, so it is wise to loot their claws to kill them once downed.",
+          "literal": "Although larger and tougher than Blood Spiders, Skin Spiders are generally less dangerous because they favor open terrain where they are easier to see coming and can fairly easily be outpaced. Like their cousins, they have high bleeding resistance and will wake up quickly should they be knocked out, so it is wise to loot their claws to kill them once downed.",
+          "line": 24,
+          "sourceFile": "src/content/wiki/skin-spider.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:animal-cleanser-origin",
       "kind": "claim",
       "target": "/cleanser-unit",
@@ -34559,6 +34615,251 @@
           "literal": "    -   Age 2.1 = 58.94495 mph",
           "line": 85,
           "sourceFile": "src/content/wiki/elder-beak-thing.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:animal-faction-semantics",
+      "kind": "claim",
+      "target": "/crimper-faction",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Reused animal faction pages contain coexistence, hidden-faction and spawn-membership claims.",
+      "proposedResolution": "Trace relation direction, hidden flags and specific squad faction references; distinguish species from allegiance.",
+      "uncertainty": "A shared species name or faction label is not enough to infer every individual’s faction.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "crimper-faction",
+          "sourceFile": "src/content/wiki/crimper-faction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "73eba1e76b08f90637b4c7e90594e6d9c22a7e63a183cb840dea71e2bfbddc8e",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/crimper-faction.md"
+        },
+        {
+          "articleId": "skimmers",
+          "sourceFile": "src/content/wiki/skimmers.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "f5b901153ef408efda7dcc7a007482e01dc4ed56c2b0936a704b7d8e2469c49f",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/skimmers.md"
+        },
+        {
+          "articleId": "spiders",
+          "sourceFile": "src/content/wiki/spiders.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "10e978f470b5e7f33fba46ff1951296c0d7bf5281858961bf052c731dfae123d",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/spiders.md"
+        },
+        {
+          "articleId": "wildlife",
+          "sourceFile": "src/content/wiki/wildlife.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "cfbfde4257ebea2c02516f6657471dd99b371b205de935bdcc91c3fe192c7d1f",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/wildlife.md"
+        },
+        {
+          "articleId": "wolves",
+          "sourceFile": "src/content/wiki/wolves.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "288edf5169f743cff0c9038b63bdcdbcf98cc50d587a23b0cc052e9a37ec393a",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/wolves.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "crimper-faction",
+          "label": "description: \"Crimper is a faction for Crimpers. There are no characters from this faction set to spawn inside Kenshi by default, the only Crimper that can be found is aff…\"",
+          "literal": "description: \"Crimper is a faction for Crimpers. There are no characters from this faction set to spawn inside Kenshi by default, the only Crimper that can be found is aff…\"",
+          "line": 3,
+          "sourceFile": "src/content/wiki/crimper-faction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crimper-faction",
+          "label": "Crimper is a faction for [Crimpers](/crimper). There are no characters from this faction set to spawn inside Kenshi by default, the only Crimper that can be found is affiliated with the [Southern Hive](/southern-hive) named [King](/king).",
+          "literal": "Crimper is a faction for [Crimpers](/crimper). There are no characters from this faction set to spawn inside Kenshi by default, the only Crimper that can be found is affiliated with the [Southern Hive](/southern-hive) named [King](/king).",
+          "line": 10,
+          "sourceFile": "src/content/wiki/crimper-faction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crimper-faction",
+          "label": "-   [Herbivore](/herbivore) (coexistence)",
+          "literal": "-   [Herbivore](/herbivore) (coexistence)",
+          "line": 18,
+          "sourceFile": "src/content/wiki/crimper-faction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crimper-faction",
+          "label": "-   [Crab Raiders](/crab-raiders) (coexistence)",
+          "literal": "-   [Crab Raiders](/crab-raiders) (coexistence)",
+          "line": 19,
+          "sourceFile": "src/content/wiki/crimper-faction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crimper-faction",
+          "label": "-   [Crabs](/crabs) (coexistence)",
+          "literal": "-   [Crabs](/crabs) (coexistence)",
+          "line": 20,
+          "sourceFile": "src/content/wiki/crimper-faction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crimper-faction",
+          "label": "-   [Gorillos](/gorillos) (coexistence)",
+          "literal": "-   [Gorillos](/gorillos) (coexistence)",
+          "line": 21,
+          "sourceFile": "src/content/wiki/crimper-faction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crimper-faction",
+          "label": "-   [Old Machines](/old-machines) (coexistence)",
+          "literal": "-   [Old Machines](/old-machines) (coexistence)",
+          "line": 22,
+          "sourceFile": "src/content/wiki/crimper-faction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crimper-faction",
+          "label": "-   [Wildlife](/wildlife) (coexistence)",
+          "literal": "-   [Wildlife](/wildlife) (coexistence)",
+          "line": 23,
+          "sourceFile": "src/content/wiki/crimper-faction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skimmers",
+          "label": "description: \"Skimmers is the faction of Skimmers. This faction cannot be seen on the faction tab as it is considered \\\"not real\\\".\"",
+          "literal": "description: \"Skimmers is the faction of Skimmers. This faction cannot be seen on the faction tab as it is considered \\\"not real\\\".\"",
+          "line": 3,
+          "sourceFile": "src/content/wiki/skimmers.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skimmers",
+          "label": "**Skimmers** is the faction of Skimmers. This faction cannot be seen on the faction tab as it is considered \"not real\".",
+          "literal": "**Skimmers** is the faction of Skimmers. This faction cannot be seen on the faction tab as it is considered \"not real\".",
+          "line": 10,
+          "sourceFile": "src/content/wiki/skimmers.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skimmers",
+          "label": "-   [Western Hive](/western-hive) (coexistence)",
+          "literal": "-   [Western Hive](/western-hive) (coexistence)",
+          "line": 23,
+          "sourceFile": "src/content/wiki/skimmers.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skimmers",
+          "label": "-   [Herbivore](/herbivore) (coexistence)",
+          "literal": "-   [Herbivore](/herbivore) (coexistence)",
+          "line": 24,
+          "sourceFile": "src/content/wiki/skimmers.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "spiders",
+          "label": "description: \"Spiders is an animal faction that consists mostly - but not exclusively - of spiders. Care should be noted that not all spiders belong to this faction, as th…\"",
+          "literal": "description: \"Spiders is an animal faction that consists mostly - but not exclusively - of spiders. Care should be noted that not all spiders belong to this faction, as th…\"",
+          "line": 3,
+          "sourceFile": "src/content/wiki/spiders.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "spiders",
+          "label": "**Spiders** is an animal faction that consists mostly - but not exclusively - of spiders. Care should be noted that not all spiders belong to this faction, as they can spawn under other faction tags, such as Swamp Creatures.",
+          "literal": "**Spiders** is an animal faction that consists mostly - but not exclusively - of spiders. Care should be noted that not all spiders belong to this faction, as they can spawn under other faction tags, such as Swamp Creatures.",
+          "line": 10,
+          "sourceFile": "src/content/wiki/spiders.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "spiders",
+          "label": "-   [Wildlife](/wildlife) (0) (coexistence)",
+          "literal": "-   [Wildlife](/wildlife) (0) (coexistence)",
+          "line": 21,
+          "sourceFile": "src/content/wiki/spiders.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "spiders",
+          "label": "-   [Herbivore](/herbivore) (0) (coexistence)",
+          "literal": "-   [Herbivore](/herbivore) (0) (coexistence)",
+          "line": 22,
+          "sourceFile": "src/content/wiki/spiders.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "spiders",
+          "label": "-   [Swamp Creatures](/swamp-creatures) (coexistence)",
+          "literal": "-   [Swamp Creatures](/swamp-creatures) (coexistence)",
+          "line": 23,
+          "sourceFile": "src/content/wiki/spiders.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "spiders",
+          "label": "-   [Swampers](/swampers) (coexistence)",
+          "literal": "-   [Swampers](/swampers) (coexistence)",
+          "line": 24,
+          "sourceFile": "src/content/wiki/spiders.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "spiders",
+          "label": "-   [Hounds](/hounds) (coexistence)",
+          "literal": "-   [Hounds](/hounds) (coexistence)",
+          "line": 25,
+          "sourceFile": "src/content/wiki/spiders.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wildlife",
+          "label": "This page details the characters and relations about the faction \"Wildlife\", not to be confused with [Fauna](/fauna), which is a category for all types of wild animals, not the faction itself. This faction will not appear on the relation list as it is \"not real\".",
+          "literal": "This page details the characters and relations about the faction \"Wildlife\", not to be confused with [Fauna](/fauna), which is a category for all types of wild animals, not the faction itself. This faction will not appear on the relation list as it is \"not real\".",
+          "line": 10,
+          "sourceFile": "src/content/wiki/wildlife.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wildlife",
+          "label": "-   [Herbivore](/herbivore) (0) (coexistence)",
+          "literal": "-   [Herbivore](/herbivore) (0) (coexistence)",
+          "line": 37,
+          "sourceFile": "src/content/wiki/wildlife.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wolves",
+          "label": "description: \"Wolves is the faction that wild Bonedogs and Boneyard Wolfs are in. It does not show up in the faction tab as it is a \\\"not real\\\" faction.\"",
+          "literal": "description: \"Wolves is the faction that wild Bonedogs and Boneyard Wolfs are in. It does not show up in the faction tab as it is a \\\"not real\\\" faction.\"",
+          "line": 3,
+          "sourceFile": "src/content/wiki/wolves.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wolves",
+          "label": "**Wolves** is the faction that wild [Bonedogs](/bonedog) and [Boneyard Wolfs](/boneyard-wolf) are in. It does not show up in the faction tab as it is a \"not real\" faction.",
+          "literal": "**Wolves** is the faction that wild [Bonedogs](/bonedog) and [Boneyard Wolfs](/boneyard-wolf) are in. It does not show up in the faction tab as it is a \"not real\" faction.",
+          "line": 10,
+          "sourceFile": "src/content/wiki/wolves.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wolves",
+          "label": "-   [Landbats](/land-bat) (coexistence)",
+          "literal": "-   [Landbats](/land-bat) (coexistence)",
+          "line": 14,
+          "sourceFile": "src/content/wiki/wolves.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
@@ -36244,12 +36545,131 @@
       ]
     },
     {
+      "id": "claim:animal-historical-interpretations",
+      "kind": "claim",
+      "target": "/mountain-dog",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Creature origin and ruined-town/controller claims are explicitly speculative or rumored.",
+      "proposedResolution": "Retain the qualifiers and seek narrative or developer evidence before presenting these as established history.",
+      "uncertainty": "Spawn proximity is not proof of origin, destruction or control.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "mountain-dog",
+          "sourceFile": "src/content/wiki/mountain-dog.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "8c4e8a53e5c77c632e6c3e2005a44e76c18e8683e77c39274e54630f93c81ae0",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/mountain-dog.md"
+        },
+        {
+          "articleId": "megacrab",
+          "sourceFile": "src/content/wiki/megacrab.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "64f1b3dd4360dc7de26fb24a7000880a11389981505fe6720550b5563d9aa27a",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/megacrab.md"
+        },
+        {
+          "articleId": "skin-spider",
+          "sourceFile": "src/content/wiki/skin-spider.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "9017714d1c7bdfa8e2dde735f62f0054633f403db9deb190b0cc3e48e47c26f5",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/skin-spider.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "mountain-dog",
+          "label": "Given the name and location, it is perhaps implied they are native to the mountains north of [The Holy Nation](/the-holy-nation), though this is purely speculation.",
+          "literal": "Given the name and location, it is perhaps implied they are native to the mountains north of [The Holy Nation](/the-holy-nation), though this is purely speculation.",
+          "line": 20,
+          "sourceFile": "src/content/wiki/mountain-dog.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "megacrab",
+          "label": "**Megacrab** is one of the biggest [Crabs](/crab) of all, currently inhabiting the [Lost Town](/lost-town) in [Howler Maze](/howler-maze). The crab's presence here might explain the destruction of the town, or the ruins may predate the Crabs. It is similar to the giant crabs that assault the player faction base during the [Crab Tournament](/crab-tournament). Players can loot a unique trophy after defeating this crab: [Megacrab Ganglion](/megacrab-ganglion).",
+          "literal": "**Megacrab** is one of the biggest [Crabs](/crab) of all, currently inhabiting the [Lost Town](/lost-town) in [Howler Maze](/howler-maze). The crab's presence here might explain the destruction of the town, or the ruins may predate the Crabs. It is similar to the giant crabs that assault the player faction base during the [Crab Tournament](/crab-tournament). Players can loot a unique trophy after defeating this crab: [Megacrab Ganglion](/megacrab-ganglion).",
+          "line": 18,
+          "sourceFile": "src/content/wiki/megacrab.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skin-spider",
+          "label": "Skin Spiders can be found in enormous swarms of 20-30 in Arach and are rumored to be controlled by that zone's infamous humanoid [resident](/bugmaster). Anyone hoping to claim the Bugmaster's treasure hoard will need to fight (or sneak) through many waves of these guardian spiders.",
+          "literal": "Skin Spiders can be found in enormous swarms of 20-30 in Arach and are rumored to be controlled by that zone's infamous humanoid [resident](/bugmaster). Anyone hoping to claim the Bugmaster's treasure hoard will need to fight (or sneak) through many waves of these guardian spiders.",
+          "line": 26,
+          "sourceFile": "src/content/wiki/skin-spider.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:animal-leviathan-conditions",
+      "kind": "claim",
+      "target": "/leviathan",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Leviathan aggression thresholds differ in precision between the profile and care guide; healing-rate units and fastest-healing wording also need verification.",
+      "proposedResolution": "Trace dialogue triggers and health-rate semantics, then test squad sizes and healing over measured game time.",
+      "uncertainty": "The guide mentions increased chance at five, while the detailed profile gives thresholds at three, four and six; do not replace either account without evidence.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "leviathan",
+          "sourceFile": "src/content/wiki/leviathan.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c77dadf53d62780c00de0d0097bb578b434c827e6ee953ba5e1b72872dc7be79",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/leviathan.md"
+        },
+        {
+          "articleId": "guide-to-animals",
+          "sourceFile": "src/content/wiki/guide-to-animals.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "ca5a67a4dfba265d60b72bd26f02c316758e71e05b336d32aee93f9893c291ea",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/guide-to-animals.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "leviathan",
+          "label": "Loners can become territorial if they see a character who is in a squad of three or more, in which case the Leviathan will \"GGGRRRROOOOOOO\" then attack anyone in that squad. This can occur even if only one squad member is present. The chance for this to occur is 10% for squads of 3, 30% for squads of 4 or more and finally a 50% for squads of 6 or more.",
+          "literal": "Loners can become territorial if they see a character who is in a squad of three or more, in which case the Leviathan will \"GGGRRRROOOOOOO\" then attack anyone in that squad. This can occur even if only one squad member is present. The chance for this to occur is 10% for squads of 3, 30% for squads of 4 or more and finally a 50% for squads of 6 or more.",
+          "line": 23,
+          "sourceFile": "src/content/wiki/leviathan.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "leviathan",
+          "label": "-   As heal rate is the % of max health healed over 22 minutes of gametime, Leviathans are the fastest healing units in the game.",
+          "literal": "-   As heal rate is the % of max health healed over 22 minutes of gametime, Leviathans are the fastest healing units in the game.",
+          "line": 150,
+          "sourceFile": "src/content/wiki/leviathan.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "guide-to-animals",
+          "label": "-   [Leviathan](/leviathan) - May become hostile if the Leviathan is a loner and if you have a squad of 3 or more. (Increased chance with a squad of 5 or more)",
+          "literal": "-   [Leviathan](/leviathan) - May become hostile if the Leviathan is a loner and if you have a squad of 3 or more. (Increased chance with a squad of 5 or more)",
+          "line": 48,
+          "sourceFile": "src/content/wiki/guide-to-animals.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:animal-malformed-coefficient",
       "kind": "claim",
       "target": "/domesticated-bull",
       "classification": "unresolved",
       "origin": "inherited",
-      "priority": "P2",
+      "priority": "P1",
       "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
       "status": "open",
       "finding": "Domesticated Bull Variant 1 contains the malformed numerical token 0.0.0702.",
@@ -36263,6 +36683,13 @@
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
           "sha256": "e2e287f8f318b8430cb627f30ca12708d6a9284d98ae6c99936aacd75f616e0b",
           "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/domesticated-bull.md"
+        },
+        {
+          "articleId": "pack-beast",
+          "sourceFile": "src/content/wiki/pack-beast.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "07b380c7811c7234934455e4ec664876449ba7346e428762f947557684d34cfa",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/pack-beast.md"
         }
       ],
       "occurrences": [
@@ -36272,6 +36699,14 @@
           "literal": "**Blunt =** 13 + Martial Arts (0.0234) + Strength (0.0.0702)",
           "line": 89,
           "sourceFile": "src/content/wiki/domesticated-bull.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "pack-beast",
+          "label": "**Blunt =** 13 + Martial Arts (0.0234) + Strength (0.0.0702)",
+          "literal": "**Blunt =** 13 + Martial Arts (0.0234) + Strength (0.0.0702)",
+          "line": 88,
+          "sourceFile": "src/content/wiki/pack-beast.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
@@ -37283,6 +37718,240 @@
           "literal": "-   Hunger rate: 5",
           "line": 77,
           "sourceFile": "src/content/wiki/king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:animal-security-targets",
+      "kind": "claim",
+      "target": "/security-spider",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Security Spider narrative attack count and Extra attack slots need semantic reconciliation.",
+      "proposedResolution": "Inspect the field’s meaning and observe closely grouped targets with a controlled attacker.",
+      "uncertainty": "Do not assume the extra-slot value is a total target count.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "security-spider",
+          "sourceFile": "src/content/wiki/security-spider.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "92ae58b66ea61016193d54a229ede618a090caf4a593b7626f25fef112d19ce9",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/security-spider.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "security-spider",
+          "label": "Being robotic, they are incapable of eating and will thus not eat your character upon KO. However, they usually don't leave the area as they typically spawn in fairly small, enclosed spaces, so be careful about getting back up if you regain consciousness. On top of all of this, they tend to spawn in groups, so fighting in a group against these can be a valuable strategy, if only to distract the spiders so they don't all prioritize one person. Be sure to spread out your characters as they can hit up to 2 units with each attack if they are close enough.",
+          "literal": "Being robotic, they are incapable of eating and will thus not eat your character upon KO. However, they usually don't leave the area as they typically spawn in fairly small, enclosed spaces, so be careful about getting back up if you regain consciousness. On top of all of this, they tend to spawn in groups, so fighting in a group against these can be a valuable strategy, if only to distract the spiders so they don't all prioritize one person. Be sure to spread out your characters as they can hit up to 2 units with each attack if they are close enough.",
+          "line": 19,
+          "sourceFile": "src/content/wiki/security-spider.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "security-spider",
+          "label": "-   Extra attack slots: 2",
+          "literal": "-   Extra attack slots: 2",
+          "line": 66,
+          "sourceFile": "src/content/wiki/security-spider.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:animal-skimmer-conditions",
+      "kind": "claim",
+      "target": "/skimmer",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Skimmer sleep timing, attack-target wording and two weapon qualities need field/runtime interpretation.",
+      "proposedResolution": "Test lone and nested squads, sleep/re-wake timing and target count; inspect quality selection records.",
+      "uncertainty": "The extra-slot field does not by itself establish the number of victims hit.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "skimmer",
+          "sourceFile": "src/content/wiki/skimmer.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "22af854124c9365e228e11ab40c4680cef3416d84602612a49122d439796ea18",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/skimmer.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "skimmer",
+          "label": "If one Skimmer spawns alone it will hunt without resting. However, Skimmers from nests and larger squads will conceal themselves under the ground to sleep from 6:00 to 23:00, only waking up before then if something walks too close. Once awoken (during the day) Skimmers will go back to sleep after wandering for around 140 in-game minutes, provided they are not in combat.",
+          "literal": "If one Skimmer spawns alone it will hunt without resting. However, Skimmers from nests and larger squads will conceal themselves under the ground to sleep from 6:00 to 23:00, only waking up before then if something walks too close. Once awoken (during the day) Skimmers will go back to sleep after wandering for around 140 in-game minutes, provided they are not in combat.",
+          "line": 26,
+          "sourceFile": "src/content/wiki/skimmer.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skimmer",
+          "label": "Bodyparts of adults have around 200-250 HP. Their attacks damage a single target.",
+          "literal": "Bodyparts of adults have around 200-250 HP. Their attacks damage a single target.",
+          "line": 28,
+          "sourceFile": "src/content/wiki/skimmer.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skimmer",
+          "label": "-   Extra attack slots: 1",
+          "literal": "-   Extra attack slots: 1",
+          "line": 80,
+          "sourceFile": "src/content/wiki/skimmer.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skimmer",
+          "label": "-   Skimmers are nocturnal animals.",
+          "literal": "-   Skimmers are nocturnal animals.",
+          "line": 121,
+          "sourceFile": "src/content/wiki/skimmer.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skimmer",
+          "label": "-   Skimmers are the only animal which use [unknown](/unknown-manufacturer) quality weapons, meaning they only have 2 qualities.",
+          "literal": "-   Skimmers are the only animal which use [unknown](/unknown-manufacturer) quality weapons, meaning they only have 2 qualities.",
+          "line": 124,
+          "sourceFile": "src/content/wiki/skimmer.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:animal-special-variants",
+      "kind": "claim",
+      "target": "/settlers-pup",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Unique-variant superlatives and missing-death-item behavior need a versioned whole-corpus comparison and game test.",
+      "proposedResolution": "Check exact creature and spawn records including overrides; test butchering and special inventory behavior.",
+      "uncertainty": "Only/highest wording may depend on which records and spawn contexts are counted.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "settlers-pup",
+          "sourceFile": "src/content/wiki/settlers-pup.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "e7066eff09b5e8a562a1b7023b5563356db320c0c19f7424b52d8357149cec7f",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/settlers-pup.md"
+        },
+        {
+          "articleId": "megaraptor",
+          "sourceFile": "src/content/wiki/megaraptor.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "87b496751682673faee7d32440b204d7a5f39c01a4fb609598ada3565b79a91b",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/megaraptor.md"
+        },
+        {
+          "articleId": "king-gorillo",
+          "sourceFile": "src/content/wiki/king-gorillo.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "e8f882396295bbbbf900acdff531bf40d4195df3af7e42abf30ef224b7c115b0",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/king-gorillo.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "settlers-pup",
+          "label": "It is slightly stronger than the average [Bonedog](/bonedog), with 5 higher base stats. It also has a unique set scale min + max which causes it to have 214 health in its body parts when age 1.1 which is 34 more than a normal Bonedog. Settlers Pup is notable as it is the only animal which spawns with no death item (so, it cannot die from butchering. Bandits will still attempt to butcher the animal, but nothing will happen as a result of it).",
+          "literal": "It is slightly stronger than the average [Bonedog](/bonedog), with 5 higher base stats. It also has a unique set scale min + max which causes it to have 214 health in its body parts when age 1.1 which is 34 more than a normal Bonedog. Settlers Pup is notable as it is the only animal which spawns with no death item (so, it cannot die from butchering. Bandits will still attempt to butcher the animal, but nothing will happen as a result of it).",
+          "line": 12,
+          "sourceFile": "src/content/wiki/settlers-pup.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "megaraptor",
+          "label": "It is living in the Drowned Ancient Citadel Ruin in [Raptor Island](/raptor-island-zone). Interestingly enough it is the only animal in the game with a female chance of 100.",
+          "literal": "It is living in the Drowned Ancient Citadel Ruin in [Raptor Island](/raptor-island-zone). Interestingly enough it is the only animal in the game with a female chance of 100.",
+          "line": 12,
+          "sourceFile": "src/content/wiki/megaraptor.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "king-gorillo",
+          "label": "-   Excluding age multipliers, the King Gorillo is the highest total combat stat character in game.",
+          "literal": "-   Excluding age multipliers, the King Gorillo is the highest total combat stat character in game.",
+          "line": 111,
+          "sourceFile": "src/content/wiki/king-gorillo.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:animal-turtle-conditions",
+      "kind": "claim",
+      "target": "/swamp-turtle",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Swamp Turtle introductory group sizes differ from its detailed spawn ranges; missing-weapon and animation claims also lack verification.",
+      "proposedResolution": "Compare current squad records and animation bindings; test vanilla separately from the linked community fix.",
+      "uncertainty": "Observed or simplified group descriptions may explain the difference; the mod is not proof of vanilla design intent.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "swamp-turtle",
+          "sourceFile": "src/content/wiki/swamp-turtle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "5e436af5eb9dc2201a07f080ac690c073806791f00da79e28ea83a234e32e9f1",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/swamp-turtle.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "swamp-turtle",
+          "label": "Swamp Turtles can be found alone or in pairs in [The Swamp](/the-swamp). In the [South Wetlands](/south-wetlands), they can be found in groups of 6.",
+          "literal": "Swamp Turtles can be found alone or in pairs in [The Swamp](/the-swamp). In the [South Wetlands](/south-wetlands), they can be found in groups of 6.",
+          "line": 20,
+          "sourceFile": "src/content/wiki/swamp-turtle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "swamp-turtle",
+          "label": "-   Swamp Turtle Herd (5-12 Adults, 0-3 Pups, South Wetlands)",
+          "literal": "-   Swamp Turtle Herd (5-12 Adults, 0-3 Pups, South Wetlands)",
+          "line": 90,
+          "sourceFile": "src/content/wiki/swamp-turtle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "swamp-turtle",
+          "label": "-   Swamp Turtle Squad (1-3 Adults)",
+          "literal": "-   Swamp Turtle Squad (1-3 Adults)",
+          "line": 91,
+          "sourceFile": "src/content/wiki/swamp-turtle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "swamp-turtle",
+          "label": "-   Unlike all other animals in Kenshi Swamp Turtles do not have a weapon assigned to them. Because of this the game instead gives them a random ancient quality weapon instead. (Due to this you'll find Swamp Turtles with + and - attack/defense depending on which weapon they spawned with).",
+          "literal": "-   Unlike all other animals in Kenshi Swamp Turtles do not have a weapon assigned to them. Because of this the game instead gives them a random ancient quality weapon instead. (Due to this you'll find Swamp Turtles with + and - attack/defense depending on which weapon they spawned with).",
+          "line": 95,
+          "sourceFile": "src/content/wiki/swamp-turtle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "swamp-turtle",
+          "label": "-   Swamp Turtles also have an incorrect attack animation assigned to them. This means that, when players do take damage from them, they do not actually see the attack animation play. The attack animation also somewhat determines what type of attack the Swamp Turtles have, which in this case is supposed to be a stomp AoE attack. The mod, [Swamp Turtle FIX](https://steamcommunity.com/sharedfiles/filedetails/?id=2237731365), resolves this issue by changing the attack animation to the correct one. Please note that by using the mod Swamp Turtles will be MUCH more dangerous.",
+          "literal": "-   Swamp Turtles also have an incorrect attack animation assigned to them. This means that, when players do take damage from them, they do not actually see the attack animation play. The attack animation also somewhat determines what type of attack the Swamp Turtles have, which in this case is supposed to be a stomp AoE attack. The mod, [Swamp Turtle FIX](https://steamcommunity.com/sharedfiles/filedetails/?id=2237731365), resolves this issue by changing the attack animation to the correct one. Please note that by using the mod Swamp Turtles will be MUCH more dangerous.",
+          "line": 96,
+          "sourceFile": "src/content/wiki/swamp-turtle.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]

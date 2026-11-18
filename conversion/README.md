@@ -48,3 +48,7 @@ Use `npm run inventory -- <comparison-checkout>` only to reconcile the checked-i
 ## Corpus gap register and review milestone
 
 The [gap register](gaps/README.md) audits all 2,184 pinned articles and keeps inherited issues separate from conversion regressions. [Races](races/README.md) adds an explicit article-by-article content and organization review. Transfer, format acceptance, editorial review and original-media comparison remain independent. The restoration milestone requires an existence/content/organization review for every inventoried article, including earlier transfers still awaiting that review. Documented inherited gaps may remain open; introduced failures and unsupported closure claims block acceptance. At cutover an absolute kenshi.wiki link is no longer an old-site fallback. Outstanding absent addresses need real 404 responses with search and correction options in the utility batch; missing fragments remain separate article-level findings.
+
+## Animals and Characters handoff
+
+[Animals](animals/README.md) freezes 49 category members and one supporting care guide, reuses five faction files, and records 50 individual content/organization reviews. The local handoff is 560 transferred articles and 571 HTML pages. Existing animal IDs remain in their current editorial homes for the next Characters family; do not duplicate files for multiple category memberships.

@@ -166,6 +166,98 @@
     "barnabus": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/animals/review.json"
+    },
+    "beloved-goat": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "black-gorillo": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "blood-spider": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "boneyard-wolf": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "cornelius": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "crab": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "crimper": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "domesticated-bull": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "elder-blood-spider": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "elder-crab": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "garru": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "goat": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "gorillo": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "great-white-gorillo": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "iron-spider": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "king": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "king-gorillo": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "landbat": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "crimper-faction": {
+      "formatCheck": "scripts/factions/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "skimmers": {
+      "formatCheck": "scripts/factions/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "spiders": {
+      "formatCheck": "scripts/factions/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "wildlife": {
+      "formatCheck": "scripts/factions/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "wolves": {
+      "formatCheck": "scripts/factions/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
     }
   },
   "mediaGaps": [
