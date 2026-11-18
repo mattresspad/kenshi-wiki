@@ -6303,6 +6303,281 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "ancient-military-documents",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ancient Military Documents are Maps found in Ancient Locations and reveal Lost Armories across the continent of Kenshi. Revealed locations Upon use, this item will reveal a single location available in the table below — chosen randomly.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ancient-military-documents.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ade5f3dd382151cb618d40f93d9e3ab48019aef0035b930840d02fe0895ee153"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "bugmasters-map",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bugmaster’s Map is found inside of the chest in his throne. Revealed locations Upon use, this item will reveal a single location available in the table below — chosen randomly.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bugmasters-map.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1572c2b9008f8dd6b7d01d0c02724899edd620f68dcbf3f4c67dee883236b9c7"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "engineers-map",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal a single location available in the table below — chosen randomly.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/engineers-map.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0a64cef36e34b1d593babcc34f49d74fd870e96c2bbc21f106178cde4f213aef"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "glorious-holy-map",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal every single location available in the table below.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/glorious-holy-map.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f27ecc56d128b98a3fcf95a2a4908018940c88b23259b4ee3196d338980130c9"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "map-of-the-ashlands",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal a single location available in the table below — chosen randomly.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/map-of-the-ashlands.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4725b2ca69fc4883d7e7c8ccc23e8a86458f0e8852a6f0838aafc126296ac8f3"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "map-of-the-border-zone",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal every single location available in the table below.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/map-of-the-border-zone.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b46342d5e76065249b12b7209fc37ca88766ac97b7c777d6c66e439a7a3dff23"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "map-of-the-shek-kingdom",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal every single location available in the table below.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/map-of-the-shek-kingdom.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3a6cdb28a45050c31b92918be95c0bc84dfb4c012901d57a119da322d45579eb"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "map-of-the-swamps",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal every single location available in the table below.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/map-of-the-swamps.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c4398e63afe42bd4d957dcf4468ba0fad32e9b814c964083e5eec85b3249147a"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "map-of-the-united-cities-central-territories",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Map of the United Cities (Central Territories) is a map item that, upon use, reveals the majority of United Cities locations on the eastern side of the world. Revealed locations Upon use, this item will reveal every single location available in the table below.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/map-of-the-united-cities-central-territories.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "014830134c20bba1d8eafaaa38d957e7e9bac24bd50331f85124ca10b4cf5994"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "map-of-vain",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal every single location available in the table below.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/map-of-vain.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8c5989aaec052b9353dbab0a5ee7a78ccdcef8b5de2de249cbd11d1b57aefd91"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "map-to-mongrel",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal a single location available in the table below — chosen randomly.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/map-to-mongrel.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f718ee0bbfd62fc33b62924aaf272e3004151ff726fa21fb768ecc599d838ca4"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "map-to-worlds-end",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal a single location available in the table below — chosen randomly.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/map-to-worlds-end.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f32357d627713031cf58741936ed1996262c74f5f27c65baed2033d34d95abc0"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "old-treasure-map",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal a single location available in the table below — chosen randomly.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/old-treasure-map.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "033958934343641c1a36b9cc869dc2033186b4fc927e71de0e5e3db2fe271d80"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "secret-holy-nation-documents",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Secret Holy Nation Documents is a map item worth a considerable amount of money and can be bought/stolen from Inquisitorums of Holy Nation. Revealed locations Upon use, this item will reveal a single location available in the table below — chosen randomly.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/secret-holy-nation-documents.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "104fd0596dfeda10e8108076d866080096374f31450568861a99cc9c7cb61b78"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "tech-hunter-library-map",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal a single location available in the table below — chosen randomly.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunter-library-map.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a1a7a8d09c37fe7802ac6491d2f4f62d34c792f756f5985277c82802ba141709"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "tech-hunters-map",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Revealed locations Upon use, this item will reveal a single location available in the table below — chosen randomly.",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunters-map.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "effdc24b3458f29864a598f6724ff81d91ad46c998d2ee539b9fd0051405ed88"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [

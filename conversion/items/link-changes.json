@@ -753,5 +753,27 @@
       "/wheat-farm",
       "/wheatstraw-farming-tech"
     ]
+  },
+  {
+    "name": "maps-1",
+    "resolved": [
+      "/ancient-military-documents",
+      "/bugmasters-map",
+      "/engineers-map",
+      "/glorious-holy-map",
+      "/map-of-the-ashlands",
+      "/map-of-the-border-zone",
+      "/map-of-the-shek-kingdom",
+      "/map-of-the-swamps",
+      "/map-of-the-united-cities-central-territories",
+      "/map-of-vain",
+      "/map-to-mongrel",
+      "/map-to-worlds-end",
+      "/old-treasure-map",
+      "/secret-holy-nation-documents",
+      "/tech-hunter-library-map",
+      "/tech-hunters-map"
+    ],
+    "introduced": []
   }
 ]
