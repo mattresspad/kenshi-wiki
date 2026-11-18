@@ -5214,9 +5214,387 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "half-eaten-ancient-science-book",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Half-Eaten Ancient Science Book is a special kind of Damaged Book. They can only be found in Tower of Goats and Cult Village.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/half-eaten-ancient-science-book.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0252355445685a7c816b70a4079364a0de92b751c2874adc539dcf9cbeaf6d41"
+      },
+      "questions": [
+        "claim:item-ancient-book-respawn",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "hashish",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hashish (also known as Hash) is a trade good and a generally illegal drug made from Hemp. Hashish is illegal in most places throughout the world, leading to a hugely profitable markup outside of where its produced, but comparatively very few buyers available. Players can also produce hashish themselves by researching Hashish Production and building a Hemp Pr",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hashish.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6d707d6f5e1f5b11d0124edcc92b984d341abe774cf44bec4a58a8e93924b336"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-trade-markups"
+      ]
+    },
+    {
+      "id": "hemp",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hemp is a raw material harvested from Hemp Farms or Hydroponic Hemp stations and processed at a Fabric Loom (Hemp) to create Fabrics. It can be stored in the Storage: Hemp container. It can be also processed into fuel at a Biofuel Distillery or into a number of Medical Items. It is considered illegal by the United Cities due to its potential of being turned ",
+      "organization": "Reviewed 3 section bookmarks and 13 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hemp.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6ce20905a3dabad7859322566e7ee7daf8528018fecf131b611c125f51d5f688"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "hinge",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Hinge is an item used in the construction of Junkbows and Crossbow Parts. The item is also used in constructing Locksmith Training Boxes. They are made at the Arrow Making Bench and the Robotics Bench. Arrow Making Bench Robotics Bench Used in Arrow Making Bench Crossbow Crafting Bench History Crafting Unlocked by:Crossbow Bolts research: 6 hours at tech l",
+      "organization": "Reviewed 3 section bookmarks and 5 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hinge.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2a53b2d6a01524ade743c7176ac167115cb4d2bf051c31a75ba7c6b3e53f928a"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "holy-seal",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Holy Seal is an item which is given to the player through dialogue from Holy Lord Phoenix. The player must have 75 relations with The Holy Nation to receive this item. Please note that you must not be a female or have robotic limbs and must not be allied with any of their enemies to speak with the Phoenix. The dialogue you must complete is to agree to destro",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-seal.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "94791d5dfe851b94a981d2d65199989509323e7325fc631de5a3b5a0bd07de9d"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-unique-use-contradiction"
+      ]
+    },
+    {
+      "id": "horn-of-the-megaraptor",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Horn of the Megaraptor is an Animal product and trade good in Kenshi. A total of 10 can be looted from the unconscious or dead Megaraptor. They can be sold for c.1,500 each.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/horn-of-the-megaraptor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b08f69f540f3576a7e34244ee59f3c8f584405fd3d91172b3fd18436e55eb281"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "human-teeth",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Human Teeth is a unique item which can only be found at the Throne of the Bugmaster and (very rarely) in Holy Nation Temples. They can be eaten by Hive Worker Drones, Hive Soldier Drones and animals.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/human-teeth.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9b4a62d6c2176dfbab8b3028131e419f8a0ed20031172749c9b2594999fdd308"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "iron-plates",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Iron plates are a vital resource created at an Iron Refinery through the smelting of Raw Iron. Alternatively, they are also often times found in mechanical animals as loot. It is specifically stored in Storage: Iron Plates. They can be used as is in the production of weapons and construction of buildings, or further refined into Steel Bars. Starting out, the",
+      "organization": "Reviewed 6 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/iron-plates.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ce639e9ab21b7602f95b3458801953e419282f2851268eefb710934e86187370"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "items",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: In Kenshi, you will come across many different items by either looting or buying from traders. Items serve many purposes in Kenshi and drastically affect the playstyle you choose. They can range from simply being trade goods bought and sold for profit, to Weapons, Armour and Clothing. Some of these item types and usages are listed below. Equipment One of the",
+      "organization": "Reviewed 16 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/items.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c9c39a2c9133fa3e82cc08f8346d3b6c4ede4038a953eb8679e58ccf734ee79f"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-overview-organization",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "junk",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Junk is a term used to describe an item with no useful function to serve other than being a miscellaneous or trade item. A majority of junk items can be found in the upper floors of Ancient Labs, in locked or open crates. These items usually weigh a large amount, like the Generator Core, o",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/junk.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6c65234595b3a9d94be708afb003eded63016d6c0c53114e5decde1d1c0e1074"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "lantern-of-radiance",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Lantern of radiance... lantern of deception, more like...in-game dialogue The Lantern of Radiance is a lantern that produces a small radius of light around the character when worn in the belt slot. The lantern can be purchased from hivers who will claim it protects you from the creatures of the Fog Islands. However, the lantern has no anomalous effects. Iron",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lantern-of-radiance.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3da66a917ce138a4e287d0e45c5a39d0ce1e4c57c04f2c7225db0e6badf9efa5"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-lantern-charges",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "lantern",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Lantern is an item which can be equipped in the Belt slot. Unlike Lanterns of Radiance, regular Lantern items are not found in stores and must be looted from locations. This item has a quality of 25, unlike the Lanterns of Radiance. It can be found in: Bark Lady Sanda not alive Catun Lord Shiro not alive Crab Town Crab Queen not alive Crab Town or Crab Villa",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lantern.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "25816154e28325e130def50647f44f10ecb45b00b78d8d9c02229e3efd200095"
+      },
+      "questions": [
+        "claim:item-lantern-charges",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "lanterns",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Lanterns can be bought in various shops, most commonly in the Western Hive territory. Lanterns serve as a light source when it’s dark and are equipped on the Belt slot. Occasionally, while passing a Hive merchant they will chase after you and pressure you into purchasing a lantern. Merchan",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lanterns.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "add6603d04c6c8e17dc243b76d70ac6a481c7a4fd8fbe73c76a4d872f4017ded"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "leather",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Leather is a resource processed from Animal Skin at the Leather Tanning Bench. Leather Tanning Bench Used In Leather Armour Crafting Bench Construction: Assassination Dummy History Crafting",
+      "organization": "Reviewed 3 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/leather.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e73b23631e8041320c51a997ba4314d64f379aa7a9693474a3b0c68eccdb9c4d"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "leviathan-pearl",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Leviathan Pearls are an item found in the inventory of Leviathans. Looting the pearl from their body will cause them to die. Leviathans can be found on the Leviathan Coast, Flats Lagoon, Stobes Gamble, Sniper Valley and the Bonefields. Pearls will drop from both adult leviathans and their pups, with no difference in price. Leviathan pups are significantly ea",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/leviathan-pearl.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ee562dc4fe8210bcbd3b41691487befbc8d9cd6267504d7de0caf15ca1d83988"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "luxury-goods",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Luxury Goods are a Trade Good that can be bought and sold to make a profit. They are sold by Trade Goods Traders at the ‘Trade’ building in towns. These are commonly found in Noble Houses, where they can be stolen to earn a minor profit if strapped for cash. They look like a casket (with expensive items probably inside).",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/luxury-goods.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3203488e52a9e282c85438011a007179b64fa3c56773724c0afe20b7fe46051a"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "maps",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Maps are items in Kenshi which can be used in order to reveal unknown locations on the player’s Map. After use, these items disappear from whichever inventory they were in. Players cannot use a map item if they already know all the locations which that map can reveal. All maps are either obtained through purchasing them, or through looting them from Ancient ",
+      "organization": "Reviewed 2 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/maps.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3b736be1fce8a13470101cdee46e52b973db33526c11fd0a96913050b838e0bf"
+      },
+      "questions": []
+    },
+    {
+      "id": "meatwrap",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Meatwrap is a food item. It can be purchased from relevant traders, typically in Bars. Players can cook Meatwraps on a Cooking Stove after researching Advanced Cooking. The Meatwrap is a very situational food that is hardly useful even in the early games when technology or resources are limited. It is the result of combining Raw Meat, 15nu, and Bread, 30nu, ",
+      "organization": "Reviewed 2 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/meatwrap.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a21512e5aeedf9456a9eb7c973d92cf84c5a6df7831a95fb18a41c165c142cab"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "medical-items",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Medical Items are items which can be used to heal characters. Medical Items are entirely separate from the trade good Medical Supplies, which has no functional use. First Aid Kits and Splint Kits can be used on all non-skeleton races. Healing large amounts of health takes a lot of time and it is recommended that characters rest in a Bed (8x) or a Camp Bed (4",
+      "organization": "Reviewed 6 section bookmarks and 3 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/medical-items.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "263d4d2c60a23dad31cbbfc335baf3d1408a7df7427f8c52a5276a4c8cbda71b"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-medical-semantics",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "medical-supplies",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Medical Supplies are a trade good that can be bought and sold to make a profit. They aren’t needed in the crafting of any medical items and cannot be used for healing. Given the fact that medical supplies are not really used for patching up the wounded, one could speculate that they are more of an ancient medicine to cure some of the common diseases or some ",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/medical-supplies.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ed99ba24128b8b0cc0b5376f1f43acd7b1ac29bf7b16a2f2a78246eec1229bdc"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "megacrab-ganglion",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Megacrab Ganglion is a unique item for which the only use is to sell. 5 can be found on the bodies of Megacrab, Barnabus, Mr Gigantus, and The Crabinator The Megacrab is only found in the Howler Maze and it may not be worth the effort to go there for only this item, especially since the only notable locations in that area are the Lost Libraries. If players",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/megacrab-ganglion.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "16d44b397df5e8286947cec0968a29464c9a8324d28d84a50b809382055f4b23"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "membership-pack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Membership Pack is a unique item which is given to the player through dialogue from Yamdu when the player becomes allied with the Traders Guild. Despite the item description’s worries, it is never asked for again by any other characters.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/membership-pack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "161cac1b381de3ebcbce49cdca732a9237d2ec593cbb2ec03c93f31905277aec"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "motor",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Motor is a trade good which can be crafted at a Robotics Bench. Robotics Bench Used In 1 x Robotics Components History Crafting Unlocked by:Robotics research: 8 hours at tech level 3; costs 1 Ancient Science Book; needs Steel Bars, Electrical Crafting.",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/motor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6e57d823fa6984723c4404d0d1405a1bdffe2a79048b165cf157e8495aef747e"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [
+    {
+      "id": "item-fandom-checklist",
+      "change": "Map of the Ashlands loses its inert Fandom checklist column. The five disabled-input IDs remain as bookmark spans, and all five locations, amounts and chances remain unchanged. No tracking feature is introduced.",
+      "evidence": "src/lib/item-tables.mjs"
+    },
     {
       "id": "item-numeric-sorting",
       "change": "Source sort keys stay unchanged. Numeric columns without an explicit type are detected from all meaningful keys; decimal, signed, currency and unit values sort numerically. Explicit text types remain text. The inherited trailing quote in one weapon price sort key is interpreted without rewriting its source.",
