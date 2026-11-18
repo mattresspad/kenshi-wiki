@@ -967,9 +967,188 @@
       "questions": [
         "claim:item-table-only-and-sort-markup"
       ]
+    },
+    {
+      "id": "bolts-heavies",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bolts [Heavies] are ammunition used with Crossbows. After researching Crossbow Bolts and learning the Blueprint, these bolts can be made on an Arrow Making Bench. They can later be stored in a Boltbox. Used with Spring Bat Crafting Unlocked by:Bolts: Heavies blueprint: 2 hours at tech level 3; the blueprint is worth c. 1,000.",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bolts-heavies.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "91af315d8f89cfd9c3d53c62d7f63e79133da1a825f6a0d5b46849e367f167ba"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "bolts-longs",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bolts [Longs] are ammunition used with Crossbows. After researching Crossbow Bolts and learning the Blueprint (that can be bought occasionally in World’s End), these bolts can be made on an Arrow Making Bench for 0.5 steel bars per Bolts [Longs]. They can later be stored in a Boltbox. These bolts are the rarest bolts in Kenshi, as most of the ranger shops on",
+      "organization": "Reviewed 2 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bolts-longs.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c3a98c7128550ee9eaa111344db9cd667ef3d64723a369f9126e32436fb0165f"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "bolts-regulars",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bolts [Regulars] are used with Crossbows. For long expeditions, crossbows that use regular bolts are the most efficient. After researching Crossbow Bolts and learning the Blueprint, these bolts can be made on an Arrow Making Bench. Then can later be stored in a Boltbox. Used with Oldworld Bow MkI Oldworld Bow MkII Ranger Crafting Unlocked by:Bolts: Regulars ",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bolts-regulars.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "76d2cdf40ab2763b8c4dcecd46c48d855e339deff95e20174f7453fde58e4086"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "bolts-toothpicks",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bolts [Toothpicks] are ammunition used with Crossbows. These bolts can be made on an Arrow Making Bench after researching Crossbow Bolts. They can be stored in a Boltbox. Used with Junkbow Tooth Pick Crafting Unlocked by:Crossbow Bolts research: 6 hours at tech level 2; costs 6 Books.",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bolts-toothpicks.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c18d5cb6b4158d1727f073ab0fb71ae5df5b57fbd2dfca4e7317995db75825a9"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "eagles-cross",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Eagle’s Cross is a Crossbow with farthest range and highest damage of any ranged weapon. It can be dangerous in the hands of an unskilled shooter; a single friendly-fire shot could kill any low-toughness allies. It is the only Crossbow which requires Long Bolts which only hold 10 shots and weigh 2kg each stack. On long adventures a smaller crossbow may be mo",
+      "organization": "Reviewed 7 section bookmarks and 7 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/eagles-cross.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4712bc5a42d49578e74d9757bafe08ad282573e8c5b04680132ac7ed7aca56ae"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "junkbow",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Junkbow is a Crossbow. A poor quality attempt at crafting a Tooth Pick. Players can craft this on a Crossbow Crafting Bench after researching Crossbow Crafting. This is a weapon of choice for the Dust Bandit Bowmen. Crossbow Crafting Bench Grades Crafting Unlocked by:Crossbow Crafting research: 8 hours at tech level 3; costs 1 Engineering Research; needs Cro",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/junkbow.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8839a30705ca0a00344ab1a465e40869aa0d28e8ecbfd142a0a4b32393f77a7c"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "oldworld-bow-mki",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Oldworld Bow MkI is a Crossbow and uses Bolts [Regulars]. A more advanced version of this design is the Oldworld Bow MkII. The Oldworld Bow MkI is a great choice for an early-game bow, as it an upgrade is most respects to the Ranger (the Ranger has a only marginally faster rate of fire; the only noticeable advantage of the Ranger is its lesser weight), while",
+      "organization": "Reviewed 2 section bookmarks and 7 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/oldworld-bow-mki.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "458a72dace5b9623260df2c3c823742beaab4876042b7ed9d132b2940d32512c"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "oldworld-bow-mkii",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Oldworld Bow MkII is a Crossbow that uses Bolts [Regulars]. A less-advanced version of this design is the Oldworld Bow MkI, which is faster to load for lower level characters. Grades Crafting Unlocked by:Oldworld Bow MkII blueprint: 12 hours at tech level 1; the blueprint is worth c. 9,868. The blueprint for this weapon can be found at the Scraphouse. After ",
+      "organization": "Reviewed 3 section bookmarks and 7 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/oldworld-bow-mkii.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a39ddb67d878395a4edbc481953a37944e4dd0c48a6c46e1c95d64c885e114e6"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ranger",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ranger is a Crossbow and uses Bolts [Regulars]. Grades Crafting Unlocked by:Ranger blueprint: 12 hours at tech level 1; the blueprint is worth c. 6,690. The blueprint for this weapon can be found at the The Great Library. After unlocking the ability to craft through use of a blueprint, players can craft this crossbow at a Crossbow Crafting Bench. A single Ra",
+      "organization": "Reviewed 2 section bookmarks and 7 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ranger.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8434ee4df8788e8bc5c90f1168530caaaf60206088283e13bb273bd51748be3a"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "spring-bat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Spring Bat is a crossbow which uses heavy bolts. It inflicts heavy damage and is very effective even at low levels, but comes with the risk of a deadly misfire against a teammate due to its low accuracy and high damage. It is a common weapon of choice by Escaped Servants and Scavengers. Grades Crafting Unlocked by:Spring Bat blueprint: 12 hours at tech level",
+      "organization": "Reviewed 2 section bookmarks and 7 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/spring-bat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2d8b0c709765175c17e953d2e25516b5a5de20145f29830753fd0557fa89d9cf"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [
+    {
+      "id": "item-numeric-sorting",
+      "change": "Source sort keys stay unchanged. Numeric columns without an explicit type are detected from all meaningful keys; decimal, signed, currency and unit values sort numerically. Explicit text types remain text. The inherited trailing quote in one weapon price sort key is interpreted without rewriting its source.",
+      "evidence": "src/lib/table-numbers.mjs"
+    },
+    {
+      "id": "catun-map-destination",
+      "change": "The reviewed Catun prose names the United Cities extended-territories map; its former general Maps link now targets that registered item directly.",
+      "evidence": "src/content/articles/locations/towns/catun.md"
+    },
     {
       "id": "item-grade-panels",
       "change": "Grouped consecutive quality tables into responsive panels, keeping every source cell, unit, value and bookmark in order.",

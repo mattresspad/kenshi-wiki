@@ -214,5 +214,26 @@
       "/category/combat",
       "/weapons-trader"
     ]
+  },
+  {
+    "name": "crossbows-1",
+    "resolved": [
+      "/bolts-heavies",
+      "/bolts-longs",
+      "/bolts-regulars",
+      "/bolts-toothpicks",
+      "/eagles-cross",
+      "/junkbow",
+      "/oldworld-bow-mki",
+      "/oldworld-bow-mkii",
+      "/ranger",
+      "/spring-bat"
+    ],
+    "introduced": [
+      "/arrow-making-bench",
+      "/boltbox",
+      "/crossbow-bolts-tech",
+      "/crossbow-crafting-tech"
+    ]
   }
 ]

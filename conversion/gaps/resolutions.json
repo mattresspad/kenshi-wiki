@@ -1091,6 +1091,50 @@
       }
     },
     {
+      "id": "availability:/bolts-heavies",
+      "kind": "availability",
+      "target": "/bolts-heavies",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#crossbows-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bolts-heavies"
+      }
+    },
+    {
+      "id": "availability:/bolts-longs",
+      "kind": "availability",
+      "target": "/bolts-longs",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#crossbows-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bolts-longs"
+      }
+    },
+    {
+      "id": "availability:/bolts-regulars",
+      "kind": "availability",
+      "target": "/bolts-regulars",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#crossbows-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bolts-regulars"
+      }
+    },
+    {
+      "id": "availability:/bolts-toothpicks",
+      "kind": "availability",
+      "target": "/bolts-toothpicks",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#crossbows-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bolts-toothpicks"
+      }
+    },
+    {
       "id": "availability:/bonedog",
       "kind": "availability",
       "target": "/bonedog",
@@ -2672,6 +2716,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/dust-king-tower"
+      }
+    },
+    {
+      "id": "availability:/eagles-cross",
+      "kind": "availability",
+      "target": "/eagles-cross",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#crossbows-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/eagles-cross"
       }
     },
     {
@@ -5458,6 +5513,17 @@
       }
     },
     {
+      "id": "availability:/junkbow",
+      "kind": "availability",
+      "target": "/junkbow",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#crossbows-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/junkbow"
+      }
+    },
+    {
       "id": "availability:/kamikaze",
       "kind": "availability",
       "target": "/kamikaze",
@@ -6910,6 +6976,28 @@
       }
     },
     {
+      "id": "availability:/oldworld-bow-mki",
+      "kind": "availability",
+      "target": "/oldworld-bow-mki",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#crossbows-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/oldworld-bow-mki"
+      }
+    },
+    {
+      "id": "availability:/oldworld-bow-mkii",
+      "kind": "availability",
+      "target": "/oldworld-bow-mkii",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#crossbows-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/oldworld-bow-mkii"
+      }
+    },
+    {
       "id": "availability:/oron",
       "kind": "availability",
       "target": "/oron",
@@ -7457,6 +7545,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/rane-the-giant"
+      }
+    },
+    {
+      "id": "availability:/ranger",
+      "kind": "availability",
+      "target": "/ranger",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#crossbows-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ranger"
       }
     },
     {
@@ -9976,6 +10075,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/spring"
+      }
+    },
+    {
+      "id": "availability:/spring-bat",
+      "kind": "availability",
+      "target": "/spring-bat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#crossbows-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/spring-bat"
       }
     },
     {
