@@ -7064,6 +7064,385 @@
         "claim:character-fcs-statistics",
         "claim:character-stat-associations"
       ]
+    },
+    {
+      "id": "thief-boss",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Thief Bosses are characters in charge of the local Thieves Guild Tower for the Shinobi Thieves. This character is usually stationed outside the tower and must be talked to in order to join the Thieves. They wear [Shoddy] armour (15% chance of [Standard]) and have weapons manufactured by Catun Scrapmaster. Statistics Greenlander Scorchlander Hive Prince Hive ",
+      "organization": "Reviewed 1 section bookmarks and 40 source tables; 5 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thief-boss.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "237f449fb146e6b829fc68a49cd64186043c6db9efcfbee71681a8d5b8765081"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "thrall",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Thralls are indistinguishable from Weak Thralls, thus the only way to tell them apart is by checking their names. These Thralls are only found inside of Tower of Abuse. They have near twice the amount of combat stats when compared to Weak Thralls, So caution is advised since there are around 5 or more in the Tower of Abuse. They wear no armour and have weapo",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thrall.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bc2c857c81eebc281a0ce02c80069da607d08b239cda5052888c4bcd06ac5b03"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "traders-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Traders Guards are members of the Traders Guild faction, acting as a basic security force. They can be found in the Bank and the Trader’s Guild HQ. If Anti-Slavers takeover, they can be found under their faction instead. They wear [Standard] armour (5% chance of [High]) and have weapons manufactured by Catun Scrapmaster. Statistics Humans Shek Hive Skeletons",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/traders-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3657bc141b735b49f28a21dd208534ff0a11443c0117bd35c5d05574dc7095a6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "traitorous-bar-thug",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: An unnamed member of the Vagrants faction. They are a variant of Bar Thugs which can be found in bars in The Hub, Waystation, or in Shark. This thug will talk about how he is on the run after a robbery-turned-murder of a Hat Trader if he is given c.100 for drinks. They have a 7% chance of having a bounty from c.250 to c.1,750. They wear [Standard] armour (5%",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/traitorous-bar-thug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "33cc3860678259bbf413c1184c326ed3ba75a6b715a8de7552b84b20671d11a4"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "twinblade",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Twinblades are members of the Twinblades faction within the Swamp. They can be found roaming the city Shark or within the village Mud Town. They have a Maniacal Personality. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Catun Scrapmaster. Statistics Scorchlander",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/twinblade.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a43827db0e857bc2f3b11f39053d6ad3239fab61df11cdca5538bfd8dd197eee"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "twitchy-bar-thug",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: An unnamed member of the Vagrants faction. They are a variant of Bar Thugs which can be found in bars in The Hub, Waystation, or in Shark. This thug has some dialogue options which involve buying them a grog for c.100 or fighting them. Fighting them will usually cause the guards to help you, giving you free early loot. They have an 8% chance of having a boun",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/twitchy-bar-thug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cf9528e224cff1bbdcc2a28d423994b71231fcf54e45b10f8a5c42bf7e327f7c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "uc-citizen",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Get out of my house dammit! The UC Citizens are civilian residents of the United Cities. They wear [Shoddy] armour (5% chance of [Standard]). Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Hive Worker Drone Skeleton",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/uc-citizen.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "692c00b300ab58973f4da1cbbf7e1df2396298f4fea6f8b792df12caddf1dccc"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "ugly-bar-thug",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: An unnamed member of the Vagrants faction. They are a variant of Bar Thugs which can be found in bars in The Hub, Waystation, or in Shark. This thug is a bodyguard for hire. He charges c.2,000 per day for personal protection and c.1,000 per day for outpost guarding. They have a 4% chance of having a bounty from c.500 to c.2,500. They wear [Standard] armour (",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ugly-bar-thug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d330ac4e7f2e8acfe83faabeb3d0fa4f17dfeeb57172b3110ea9bd30f7a021f9"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "undertaker",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Undertakers are members of the Mongrel faction. They can be found in Mongrel. They are responsible for working the corpse furnaces in town. This character can also be found in Black Scratch as a member of the Tech Hunters faction. Since their race is randomly determined by the weighted race chances of their faction, in Black Scratch Undertakers have a chance",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/undertaker.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "368bbd000b5bd2827b0ae2e9da54bf91b3123aa40f6817d83172541803173530"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "united-hero",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: KNOCK KNOCK! It's your local patriots!-United Hero raid United Heroes are members of the United Heroes League. They can be found raiding the player’s outpost if the Traders Guild taxman has been declined or ignored. They wear [Shoddy] armour (40% chance of [Standard]) and have weapons manufactured by Unknown. Statistics Greenlander",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/united-hero.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f5cc90394d970dd090abd8d333ad07bab7d95b7f54123a4295661fe13e2eff21"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "upgraded-skeleton-bandit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Upgraded Skeleton Bandits are elite member of the Skeleton Bandits faction. They can be found leading patrols of Skeleton Bandits in Stobe’s Gamble, Stobe’s Garden, The Pits, and The Crags. These patrols persist so long as Elder is alive. They wear [Standard] armour (18% chance of [High]) and have weapons manufactured by Catun Scrapmaster or Skeleton Smiths.",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/upgraded-skeleton-bandit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bab1a587442d927378a1ed1faea5bec37bab5598b228fd63560b14ea57551e5a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "upgraded-skeleton-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Upgraded Skeleton Guards are elite members of the Skeleton Bandits faction. Twenty can be found guarding Elder in the HQ building of Iron HQ, and an additional 24 to 36 can be found resting in their Metal Wallhouse residences. They wear [Standard] armour (18% chance of [High]) and have weapons manufactured by Catun Scrapmaster or Skeleton Smiths. Statistics ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/upgraded-skeleton-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5f01e0d5c68b06ccb1d000e94da9e02796fea2981a121947cf165d4a9c812b77"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "upgraded-watchbot",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Upgraded Watchbots are members of the Skeleton Legion faction. They can be found in Barrier Tower and Sniper Tower manning the Harpoon Turrets. Their ranged weapons can sometimes be of masterwork quality. They wear [High] armour (20% chance of [Specialist]). Statistics Skeleton Log-Head MkII Trivia Their Crossbow/Perception/Precision Shooting skill is past l",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/upgraded-watchbot.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e137b2142df91d87b12d75719f7be27d89776423f028423ac8404c0dee30bdcf"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "vigilante-chief",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Vigilante Chiefs are members of the Rebel Swordsmen faction. They act as the Police Chiefs for towns controlled by the Empire Peasants in the northeastern territories. The Vigilante Chiefs use the dialogue of standard Police Chiefs. This means they can potentially have unique dialogues for turning in many same bounties as under the United Cities and use the ",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/vigilante-chief.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0be5a1d7ad77e0cfaf1dec71b62edaecf2e9e15f2181b1d4e40067609c182227"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "wall-man",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You look like someone who can appreciate a good wall. Wall Man is a randomly named Unique Recruit. This guy absolutely loves walls and wants to build ’em for you. They can be hired for 5,000 Cats. They can be found in any town controlled by the United Cities, as well as Eyesocket, Shark, Slave Markets, Waystations, World’s End, Smugglers Bar, Black Scratch, ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wall-man.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "70a33ce2e31261715c046b5c63241ddb7552b2f2c63177fc1538f71dc25b90c4"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "wandering-assassin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Wandering Assassins are Shinobi Thieves who wander the world of Kenshi. They will heal player characters and help in a battle if the player is allied with the Shinobi Thieves. Though their primary job is “Wandering Trader”, players cannot trade with them. In daylight hours, they will stop to trade with local merchants. Wandering Assassins always spawn in a s",
+      "organization": "Reviewed 1 section bookmarks and 40 source tables; 5 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wandering-assassin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "261125a2c534d153d2a66ff2fabbe5d9ca9e7ff1d751d4661117b69dc573481e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "waystation-barman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Welcome, customer, what can I do for you?Barman greeting Waystation Barmen are named shopkeepers of the Tech Hunters and Anti-Slavers found manning Adventurer Bars. Despite their name, the bars they sell their wares in can be found in cities belonging to the Tech Hunters or Anti-Slavers, not just in Waystations. They wear [Shoddy] armour (5% chance of [Stand",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/waystation-barman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a624c572117856f452782acf719ea406397d8f927b0a1fdccc8437e143143a8b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "weak-thrall",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Weak Thralls are the weakest members of the faction Thrall Masters. There are ten Weak Thralls in the Tower of Abuse. They can also be found in squads roaming The Eye, Venge and the Grey Desert. These squads can contain 2 to 22 Weak Thralls. They wear no armour and have weapons manufactured by Ancient or Skeleton Smiths. Statistics Skeleton No-Head MkII Tips",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/weak-thrall.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "544812f1df5e6fb0adc05be7602aa9b0564a25537c5c92b367bb494252545798"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "white-eyebrow",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: White Eyebrow is the leader of the White Eyebrow Clan. He is not set to spawn in game, but players might encounter his Wanted Poster. The following information is from FCS. He has a Brave Personality. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Ancient. He is only wanted by the United Cities. Statistics Greenlander",
+      "organization": "Reviewed 1 section bookmarks and 10 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/white-eyebrow.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "746f11f0051ac4582663b1c3106765bd10a7d9d6356c8bc4f4cd32e56b054089"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "white-eyebrow-grunt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: White Eyebrow Grunt is a member of the mythical White Eyebrow Clan. They are not set to spawn anywhere in game. These characters, if they existed, would be almost identical to White Eyebrow himself. The primary differences between them are that Grunts have no bounty and have a 50% chance of being female. Statistics Greenlander",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/white-eyebrow-grunt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4765c587e1302e66baa72b7df5169608b8b72dfd1d13139e585e63050d4fd21a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "yabuta-of-the-sands",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Psh. You know... stole a few greenfruits, picked a few pockets. Tell me, do I deserve Tengu's hell Vault, brother? Lady luck doesn't sink any lower than this.... Yabuta of the Sands is a prisoner in Tengu’s Vault. Releasing him and letting him escape alive will cause the creation of the Yabuta Outlaws. Yabuta has a Crazy Personality. They wear [Shoddy] armou",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/yabuta-of-the-sands.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "396f46ade8dcfa2e32dac114e8209512eceeff0a68e8d5f975bece63463132f5"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "yabuta-outlaw",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This is our desert now...The weak aren't welcome. Yabuta Outlaws are members of the Yabuta Outlaws. They can be found patrolling the northeastern territories of the United Cities, The Hook, and their hideout in Fort Yabuta (previously Fort Simion) after Yabuta of the Sands has been freed from Tengu’s Vault. They have a 20% chance to have a bounty ranging fro",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/yabuta-outlaw.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "18a2370b66b56b63431f994fc9de47f013d42ed7880f8dddd4169f11fcfd40bb"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "yayoi",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Didn't think we'd let you face the Holy Nation without us, did you?We fight together, or we die together...Good luck, my friends. Yayoi is a member of the Flotsam Ninjas. She is intended to be the leader of an Ally Reinforcements Event, arriving at the player’s Outpost with 4-10 Flotsam Ninja characters to protect the player from base assaults by The Holy Na",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/yayoi.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e83b6a61de14bb06dcd54b340e6345d494267782538c4312deef419dee90cf77"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "zed",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Zed is an unused character in Kenshi found in the FCS. Per the Tech Hunter’s Notes Series, it appears that Zed was meant to be one of the more prominent Tech Hunters that could be recruited. Zed’s appearance is randomized in-game. They wear [Standard] armour (5% chance of [High]) and have weapons manufactured by Catun Scrapmaster. Statistics Greenlander Triv",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/zed.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a161388300bde3f957ba9e54b2216acbf85f292f23e0bfe8c14e057ab119a397"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-removed-content"
+      ]
     }
   ],
   "editorialChanges": [

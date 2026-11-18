@@ -2082,6 +2082,102 @@
     "thief": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/characters/review.json"
+    },
+    "thief-boss": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "thrall": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "traders-guard": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "traitorous-bar-thug": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "twinblade": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "twitchy-bar-thug": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "uc-citizen": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "ugly-bar-thug": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "undertaker": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "united-hero": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "upgraded-skeleton-bandit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "upgraded-skeleton-guard": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "upgraded-watchbot": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "vigilante-chief": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "wall-man": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "wandering-assassin": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "waystation-barman": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "weak-thrall": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "white-eyebrow": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "white-eyebrow-grunt": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "yabuta-of-the-sands": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "yabuta-outlaw": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "yayoi": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "zed": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
     }
   },
   "mediaGaps": [

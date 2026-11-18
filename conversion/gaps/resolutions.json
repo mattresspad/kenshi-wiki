@@ -10408,6 +10408,17 @@
       }
     },
     {
+      "id": "availability:/thief-boss",
+      "kind": "availability",
+      "target": "/thief-boss",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/thief-boss"
+      }
+    },
+    {
       "id": "availability:/thief-fence",
       "kind": "availability",
       "target": "/thief-fence",
@@ -10416,6 +10427,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/thief-fence"
+      }
+    },
+    {
+      "id": "availability:/thrall",
+      "kind": "availability",
+      "target": "/thrall",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/thrall"
       }
     },
     {
@@ -10639,6 +10661,17 @@
       }
     },
     {
+      "id": "availability:/traders-guard",
+      "kind": "availability",
+      "target": "/traders-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/traders-guard"
+      }
+    },
+    {
       "id": "availability:/traders-guild",
       "kind": "availability",
       "target": "/traders-guild",
@@ -10647,6 +10680,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/traders-guild"
+      }
+    },
+    {
+      "id": "availability:/traitorous-bar-thug",
+      "kind": "availability",
+      "target": "/traitorous-bar-thug",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/traitorous-bar-thug"
+      }
+    },
+    {
+      "id": "availability:/twinblade",
+      "kind": "availability",
+      "target": "/twinblade",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/twinblade"
       }
     },
     {
@@ -10661,6 +10716,17 @@
       }
     },
     {
+      "id": "availability:/twitchy-bar-thug",
+      "kind": "availability",
+      "target": "/twitchy-bar-thug",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/twitchy-bar-thug"
+      }
+    },
+    {
       "id": "availability:/uc-armour-trader",
       "kind": "availability",
       "target": "/uc-armour-trader",
@@ -10669,6 +10735,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/uc-armour-trader"
+      }
+    },
+    {
+      "id": "availability:/uc-citizen",
+      "kind": "availability",
+      "target": "/uc-citizen",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/uc-citizen"
       }
     },
     {
@@ -10691,6 +10768,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/uc-weapon-trader"
+      }
+    },
+    {
+      "id": "availability:/ugly-bar-thug",
+      "kind": "availability",
+      "target": "/ugly-bar-thug",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ugly-bar-thug"
+      }
+    },
+    {
+      "id": "availability:/undertaker",
+      "kind": "availability",
+      "target": "/undertaker",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/undertaker"
       }
     },
     {
@@ -10727,6 +10826,17 @@
       }
     },
     {
+      "id": "availability:/united-hero",
+      "kind": "availability",
+      "target": "/united-hero",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/united-hero"
+      }
+    },
+    {
       "id": "availability:/united-heroes-league",
       "kind": "availability",
       "target": "/united-heroes-league",
@@ -10735,6 +10845,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/united-heroes-league"
+      }
+    },
+    {
+      "id": "availability:/upgraded-skeleton-bandit",
+      "kind": "availability",
+      "target": "/upgraded-skeleton-bandit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/upgraded-skeleton-bandit"
+      }
+    },
+    {
+      "id": "availability:/upgraded-skeleton-guard",
+      "kind": "availability",
+      "target": "/upgraded-skeleton-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/upgraded-skeleton-guard"
+      }
+    },
+    {
+      "id": "availability:/upgraded-watchbot",
+      "kind": "availability",
+      "target": "/upgraded-watchbot",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/upgraded-watchbot"
       }
     },
     {
@@ -10793,6 +10936,39 @@
       }
     },
     {
+      "id": "availability:/vigilante-chief",
+      "kind": "availability",
+      "target": "/vigilante-chief",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/vigilante-chief"
+      }
+    },
+    {
+      "id": "availability:/wall-man",
+      "kind": "availability",
+      "target": "/wall-man",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wall-man"
+      }
+    },
+    {
+      "id": "availability:/wandering-assassin",
+      "kind": "availability",
+      "target": "/wandering-assassin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wandering-assassin"
+      }
+    },
+    {
       "id": "availability:/war-gorillo",
       "kind": "availability",
       "target": "/war-gorillo",
@@ -10834,6 +11010,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/waystation"
+      }
+    },
+    {
+      "id": "availability:/waystation-barman",
+      "kind": "availability",
+      "target": "/waystation-barman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/waystation-barman"
       }
     },
     {
@@ -10892,6 +11079,17 @@
       }
     },
     {
+      "id": "availability:/weak-thrall",
+      "kind": "availability",
+      "target": "/weak-thrall",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/weak-thrall"
+      }
+    },
+    {
       "id": "availability:/wend",
       "kind": "availability",
       "target": "/wend",
@@ -10936,6 +11134,17 @@
       }
     },
     {
+      "id": "availability:/white-eyebrow",
+      "kind": "availability",
+      "target": "/white-eyebrow",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/white-eyebrow"
+      }
+    },
+    {
       "id": "availability:/white-eyebrow-clan",
       "kind": "availability",
       "target": "/white-eyebrow-clan",
@@ -10944,6 +11153,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/white-eyebrow-clan"
+      }
+    },
+    {
+      "id": "availability:/white-eyebrow-grunt",
+      "kind": "availability",
+      "target": "/white-eyebrow-grunt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/white-eyebrow-grunt"
       }
     },
     {
@@ -11046,6 +11266,28 @@
       }
     },
     {
+      "id": "availability:/yabuta-of-the-sands",
+      "kind": "availability",
+      "target": "/yabuta-of-the-sands",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/yabuta-of-the-sands"
+      }
+    },
+    {
+      "id": "availability:/yabuta-outlaw",
+      "kind": "availability",
+      "target": "/yabuta-outlaw",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/yabuta-outlaw"
+      }
+    },
+    {
       "id": "availability:/yabuta-outlaws",
       "kind": "availability",
       "target": "/yabuta-outlaws",
@@ -11065,6 +11307,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/yamdu"
+      }
+    },
+    {
+      "id": "availability:/yayoi",
+      "kind": "availability",
+      "target": "/yayoi",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/yayoi"
+      }
+    },
+    {
+      "id": "availability:/zed",
+      "kind": "availability",
+      "target": "/zed",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-11",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/zed"
       }
     },
     {
