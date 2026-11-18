@@ -53,3 +53,6 @@
 .chip-line .site-chip[data-segment=start]:not(:first-child) { margin-inline-start:4px }
 .chip-line .site-chip[data-icon-only] { width:26px;padding-inline:4px }
 .wide-tools a,.wide-tools button { padding-inline:5px }
+
+/* Long category lists must leave the search field usable. Tab focus scrolls each link into view. */
+@media(min-width:1151px){.context-cats{min-width:0;overflow-x:auto;white-space:nowrap}.context-cats>*{flex:none}.search{min-width:160px}}

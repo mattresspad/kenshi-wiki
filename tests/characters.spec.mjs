@@ -22,6 +22,12 @@ for(const phone of [false,true])for(const theme of ['light','dark'])test.describ
   for(const chain of [['/mongrel','/beep'],['/emperor-tengu','/heft'],['/emperor-tengu','/world-states']]){await page.goto(chain[0]+'?theme='+theme);await page.locator('main a[href="'+chain[1]+'"]').first().click();await expect(page).toHaveURL(new RegExp(chain[1]+'$'));}
   if(included.has('unique-recruits')){await page.goto('/beep');await page.locator('main a[href="/unique-recruits"]').first().click();await expect(page.locator('h1')).toHaveText('Unique Recruits');}
  });
+ test('long category strips keep search inside the frame',async({page})=>{
+  test.skip(phone||!included.has('big-darkbrow'));await page.goto('/big-darkbrow?theme='+theme);
+  const last=page.locator('.context-cats a').last();await last.focus();await expect(last).toBeInViewport();
+  const box=await page.locator('.search').boundingBox();expect(box.width).toBeGreaterThanOrEqual(160);expect(box.x+box.width).toBeLessThanOrEqual(1440);
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth)).toBe(0);
+ });
  test('character citation reaches its note and returns by keyboard',async({page})=>{
   test.skip(!included.has('agnu'));await page.goto('/agnu?theme='+theme);
   const ref=page.locator('sup[id^="cite_ref"]').first(),id=await ref.getAttribute('id'),link=ref.locator('a').first(),target=await link.getAttribute('href');

@@ -178,6 +178,17 @@
       }
     },
     {
+      "id": "availability:/arc",
+      "kind": "availability",
+      "target": "/arc",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/arc"
+      }
+    },
+    {
       "id": "availability:/archive-town",
       "kind": "availability",
       "target": "/archive-town",
@@ -530,6 +541,17 @@
       }
     },
     {
+      "id": "availability:/bayan",
+      "kind": "availability",
+      "target": "/bayan",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bayan"
+      }
+    },
+    {
       "id": "availability:/beak-thing",
       "kind": "availability",
       "target": "/beak-thing",
@@ -604,6 +626,61 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/berserkers"
+      }
+    },
+    {
+      "id": "availability:/big-al",
+      "kind": "availability",
+      "target": "/big-al",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/big-al"
+      }
+    },
+    {
+      "id": "availability:/big-darkbrow",
+      "kind": "availability",
+      "target": "/big-darkbrow",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/big-darkbrow"
+      }
+    },
+    {
+      "id": "availability:/big-fang",
+      "kind": "availability",
+      "target": "/big-fang",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/big-fang"
+      }
+    },
+    {
+      "id": "availability:/big-gray",
+      "kind": "availability",
+      "target": "/big-gray",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/big-gray"
+      }
+    },
+    {
+      "id": "availability:/big-grim",
+      "kind": "availability",
+      "target": "/big-grim",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/big-grim"
       }
     },
     {
@@ -893,6 +970,17 @@
       }
     },
     {
+      "id": "availability:/boss-simion",
+      "kind": "availability",
+      "target": "/boss-simion",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/boss-simion"
+      }
+    },
+    {
       "id": "availability:/bounty-hunters",
       "kind": "availability",
       "target": "/bounty-hunters",
@@ -978,6 +1066,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/broken-ones"
+      }
+    },
+    {
+      "id": "availability:/bugmaster",
+      "kind": "availability",
+      "target": "/bugmaster",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bugmaster"
       }
     },
     {
@@ -1396,6 +1495,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crab-nest"
+      }
+    },
+    {
+      "id": "availability:/crab-queen",
+      "kind": "availability",
+      "target": "/crab-queen",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-queen"
       }
     },
     {
@@ -1883,6 +1993,17 @@
       }
     },
     {
+      "id": "availability:/dust-king",
+      "kind": "availability",
+      "target": "/dust-king",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dust-king"
+      }
+    },
+    {
       "id": "availability:/dust-king-tower",
       "kind": "availability",
       "target": "/dust-king-tower",
@@ -1891,6 +2012,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/dust-king-tower"
+      }
+    },
+    {
+      "id": "availability:/elder",
+      "kind": "availability",
+      "target": "/elder",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/elder"
       }
     },
     {
@@ -2026,6 +2158,17 @@
       }
     },
     {
+      "id": "availability:/esata-the-stone-golem",
+      "kind": "availability",
+      "target": "/esata-the-stone-golem",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/esata-the-stone-golem"
+      }
+    },
+    {
       "id": "availability:/escaped-servant",
       "kind": "availability",
       "target": "/escaped-servant",
@@ -2100,6 +2243,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/expedition-5"
+      }
+    },
+    {
+      "id": "availability:/eyegore",
+      "kind": "availability",
+      "target": "/eyegore",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/eyegore"
       }
     },
     {
@@ -2444,6 +2598,17 @@
       }
     },
     {
+      "id": "availability:/flying-bull",
+      "kind": "availability",
+      "target": "/flying-bull",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flying-bull"
+      }
+    },
+    {
       "id": "availability:/fog-deathyard",
       "kind": "availability",
       "target": "/fog-deathyard",
@@ -2463,6 +2628,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fog-islands"
+      }
+    },
+    {
+      "id": "availability:/fog-prince",
+      "kind": "availability",
+      "target": "/fog-prince",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fog-prince"
       }
     },
     {
@@ -2609,6 +2785,17 @@
       }
     },
     {
+      "id": "availability:/ghost",
+      "kind": "availability",
+      "target": "/ghost",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ghost"
+      }
+    },
+    {
       "id": "availability:/ghost-village",
       "kind": "availability",
       "target": "/ghost-village",
@@ -2672,6 +2859,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/gorillos"
+      }
+    },
+    {
+      "id": "availability:/gorrillo",
+      "kind": "availability",
+      "target": "/gorrillo",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gorrillo"
       }
     },
     {
@@ -2782,6 +2980,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/greenlander"
+      }
+    },
+    {
+      "id": "availability:/grey",
+      "kind": "availability",
+      "target": "/grey",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/grey"
       }
     },
     {
@@ -3046,6 +3255,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/high-bonefields"
+      }
+    },
+    {
+      "id": "availability:/high-inquisitor-seta",
+      "kind": "availability",
+      "target": "/high-inquisitor-seta",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/high-inquisitor-seta"
       }
     },
     {

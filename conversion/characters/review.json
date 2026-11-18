@@ -2110,6 +2110,359 @@
         "claim:character-fcs-statistics",
         "claim:character-stat-associations"
       ]
+    },
+    {
+      "id": "arc",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is about the leader of Mongrel. For the Reaver HQ, see Ark. Slander! All this talk of the sabre wielding Arc... Hmph.The Stone Golem would squash Arc like the bug he is...Shek Warriors on Arc Arc is a legendary swordsman, and the leader of the Mongrel faction. He is located in the HQ in Mongrel and has Diplomatic Status. Aside from being apparen",
+      "organization": "Reviewed 12 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/arc.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0ca4611d1ca785a21cf26fa49c5abc45e51fbf1aa4d3d1d3bdd4347403b23b26"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "bayan",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Stone Golem saves her energies for the art of combat. Not the art of gum flapping, as my lady describes it. And that's why I'm here. What do you want, outsider? And make it quick, I'm a busy man.Bayan's greeting Bayan is an advisor to the Stone Golem of Shek Kingdom. He can be found in the Faction HQ in Admag, unless World States have moved the Shek HQ. ",
+      "organization": "Reviewed 13 section bookmarks and 12 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bayan.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a3fb1b021d36acdda42089790de537534fc2182eb5f0183e50717d5942abdf93"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "big-al",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Big Al is leader of the Stone Rats faction and is found in Stone Rat Village within the Swamp. Despite being their leader, he does not have Diplomatic Status. He has the Maniacal Personality. Statistics Shek World States If Big Al is killed or kidnapped, it will cause the Stone Rat Village to be taken over by the Hounds or the Swamp Ninjas depending on other",
+      "organization": "Reviewed 11 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/big-al.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dee6d7c3e6a7fe411c9ec9d8d049d7d416b35da9d564071d11fa13cfa048e2f9"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "big-darkbrow",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Big Darkbrow is the leader of Blackshifters. He can be found in a hideout in Shark. He has a Traitorous Personality. Statistics Hive Prince World States If Big Darkbrow is killed or kidnapped alone will not cause any changes. If Big Grim is killed or kidnapped while he is okay, the Blackshifters will rule over Shark, else if he is also not okay, the Grayflay",
+      "organization": "Reviewed 9 section bookmarks and 13 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/big-darkbrow.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bf041dccf74d56dcdde37e50baf48a8cb3bdff1bc1f5a9c2b32b3f4f6f7a3267"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "big-fang",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Big Fang is leader of the Twinblades faction within the Swamp. Despite being a leader, he does not have a Diplomatic Status. He can be found in Mud Town, located north of the city Shark, or in Shark itself if the Grayflayers take it over. He has a Maniacal Personality. Statistics Scorchlander World States Big Fang is the only swamp gang leader to not have a ",
+      "organization": "Reviewed 12 section bookmarks and 16 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/big-fang.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "30da63fc4b2b4e91b6691c3ffcb9daeb6e3698ebc4d9fe778091e8954f41bd12"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "big-gray",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I tell ya hounds, Big Gray, he's gettin' outta hand...Hound Big Gray is the leader of one of the criminal gangs of the Swamp, the Grayflayers. Despite being a leader, he does not have Diplomatic Status. He can be found in Grayflayer Village. He has an Honorable Personality. Statistics Greenlander World States If Big Gray is killed or kidnapped, it will cause",
+      "organization": "Reviewed 11 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/big-gray.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "85ca8c1a64ddfdce498ca329050aa720625eb6c50649346830fe6caaa88f6fa2"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "big-grim",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Big Grim is the leader of the Hounds faction. She can be found in the Hounds Faction HQ in Shark. In order to join the Hounds, players need to find Ears to “smooth things over.” Player characters can talk to Big Grim before speaking to Ears, but she will not be friendly. She has the Diplomatic Status tag and will critically decrease relations with the Hounds",
+      "organization": "Reviewed 13 section bookmarks and 16 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/big-grim.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ef476b33da2d1ee9b9143ed975619d34748c57cf02a66c990615d457a03a220e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "boss-simion",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Who the fuck are you? Be wantin' me bounty I 'spect, eh? That's all that ye traders, mercenaries and townies are intested in after all, ain't it? Don't matter who's pocket the Cats are in, as long as you can line yer own with 'em... Boss Simion is the leader of the Rebel Farmers. He resides in Fort Simion, with 8 Outlaw Swordsman Captains, 4 ~ 6 Outlaw Heavi",
+      "organization": "Reviewed 15 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/boss-simion.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6067a3550bf23a61cfe9cef5bc1136634e0e78fcd5749b1db313ff5aabcbe993"
+      },
+      "questions": [
+        "claim:character-boss-state-exceptions",
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-removed-content",
+        "claim:character-stock-shopping",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "bugmaster",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Bugmaster is a dangerous criminal who resides in the Throne of the Bugmaster, surrounded by a giant army of Skin and Blood Spiders. He’s a member of the Spiders faction, and due to his name, the presumed leader. It is highly recommended that players avoid encountering Bugmaster until they have a group of mid to high level stat characters and/or the best ",
+      "organization": "Reviewed 9 section bookmarks and 13 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bugmaster.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "54bbabae4df4db0e3397e2233a9e327895490e91676747298e9f06ec2ebe1023"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "crab-queen",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: We crabbed are open minded people. Prove yourself. We have enemies in The Pits. Prove your loyalty to the crabs, and they will do so in return. The Crab Queen is the leader of the Crab Raiders. She can be found in the Palace of the Crab Queen in Crab Town. She has a bounty of c.40,000 from the United Cities, despite not having a bounty poster for her unlike ",
+      "organization": "Reviewed 12 section bookmarks and 16 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-queen.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2876bd23c05aa2a100de583a9841b4f508e645f3b015f45803897adecdcc8ab0"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "dust-king",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Still alive, eh? Looks like I didn't kill you enough last time! The Dust King is the leader of the Dust Bandits faction. He lives in the Dust King Tower. Aside from having an army of Dust Bandits protecting him, there are also quite a few Dust Bosses with standard or better equipment. He is wanted by United Cities, The Holy Nation and Shek Kingdom. Although ",
+      "organization": "Reviewed 13 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dust-king.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d4f11be9a1574211ee06caf6ef3085840b0d923722b2f7e8896d235ecdcddfac"
+      },
+      "questions": [
+        "claim:character-boss-state-exceptions",
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "elder",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: We are superior!We are free from flesh pleasures!We are free from bodily filth!We are free from the grasping mind!We. Are. Skeletons.Elder's propaganda The Elder is the leader of the Skeleton Bandits faction. Talking to him at Iron HQ allows you to join his faction regardless of race with the right dialogue choices. He is also notable for his Meitou-grade Ri",
+      "organization": "Reviewed 9 section bookmarks and 12 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/elder.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7e07e9fd8caa9cf08d1ca6a63effbc5731626da896587a7e1a9edbf6187cd111"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "esata-the-stone-golem",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I am the undefeated. Nobody can win against me.Esata victorious over an enemy. Esata the Stone Golem is the leader of the Shek Kingdom (or potentially Kral’s Chosen) and has Diplomatic Status. She can be found in the Faction HQ in Admag along with her daughter Seto, Bayan, and 4 of The Five Invincibles, unless World States have moved the Shek HQ. Esata wield",
+      "organization": "Reviewed 7 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/esata-the-stone-golem.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "385f7f09f684130fce2f5d4c8f3bdd0c9d77cf0056bbf5f4b29368238c06d913"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-faction-overrides",
+        "claim:character-fcs-statistics",
+        "claim:character-patrol-interpretation",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "eyegore",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Captain-General Eyegore is a Hiveless Southern Soldier Drone and the leader of the United Cities or Traders Guild army. He is considered by most within the Empire to be the final solution to any and all problems. If the player has caused poor enough relations with the United Cities (such as kidnapping Emperor Tengu) and has survived their samurai raids, Eyeg",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/eyegore.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bbcb826584580370b9bee8f765e63f1a69b50eb68b6f4b8a44927559ff1cc1e7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-faction-overrides",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "flying-bull",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You tread on Shek soil, flatskin! Is it war that you're after?! Come to me! Flying Bull (also named Ida) is a huge Shek warrior and the leader of Kral’s Chosen. He resides in New Kralia, carrying around a unique Fragment Axe named Bull Horn Axe gifted by King Shager. Soon after Shager’s overthrow, Ida, better known as Flying Bull, a devout follower of King S",
+      "organization": "Reviewed 3 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flying-bull.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "17d49dfd45191c7d7e8db35468a3b58f6604127a0ee522cf000af53c2ef7d470"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-patrol-interpretation",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "fog-prince",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Fog Princes are the leaders of the Fogmen faction. They each have a head which can be removed from their inventory and sold for a bounty of c.6,000. Fog Princes are never alone in the wild, often surrounded by Fogmen and Fog Heavies. Seeking the Princes out in the fog, even with several well-equipped combatants, can be very unforgiving. Fortunately, Fogmen o",
+      "organization": "Reviewed 2 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fog-prince.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "aeac7911a1efea00ff0a5f171d9d2333bad2d196fa1cf6eaf577943ad40f9940"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-removed-content",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "ghost",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Suchon died long ago...An exile is lost, forever a ghost searching for the other side...Shek Warriors seeing player carrying Ghost Suchon, or ‘Ghost’ as he is more commonly known, is the leader of the Berserkers. He can be found in the Berserker village east of Last Stand camping with many other Berserkers. When turning Ghost in to the police in the Shek Kin",
+      "organization": "Reviewed 3 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ghost.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d3802691b0f9e893003d4692e85adf6328d86c613ee374fb6623cc8810e594cc"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "gorrillo",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: ME BORED OF TINY PEOPLEBREAKING INTO HOMEWHY ALWAYS TRY TO HUNT GORRILLO Gorrillo is the leader of The Gorrillo Bandits. He can be found in The Old Prison. Upon seeing a player character, he will exclaim his dislike of “tiny people” breaking into his home trying to hunt him down. Not to be confused with the animal Gorillo, where he might get his name from. C",
+      "organization": "Reviewed 4 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gorrillo.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "522129f86554dafe154aadd5b33d3c11e67942aca7f8e264458c6bebc56a4a70"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "grey",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Grey is a member of the Anti-Slavers that oversees new initiates. He can be found accompanying Tinfist in the Faction HQ in Spring. He has an Honorable Personality. If you wish to convince him to allow you to join into the Anti-Slavers you must prove you’re an enemy of their enemy. Doing so will see you face against many powerful foes. The alternative way of",
+      "organization": "Reviewed 2 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/grey.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bf46d6a33d83877b23f5da596d9bce095ffc604f995ceddfe72e3437205436f7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "high-inquisitor-seta",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Seta controls Stack in the south west of the plains. Valtena you'll find in a military outpost, Okran's Shield, on the eastern border. Do not underestimate their hold on the Holy Nation, the two of them are probably smarter than the Phoenix himself - he was born into his role, remember, but those guys earned it with pure Okranite crazy and cunning.Moll. High",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/high-inquisitor-seta.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e6f2538d8cb56edb09de120612393515cb773d777d8fdbc335f76241cf868b1d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-patrol-interpretation",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "world-states",
+      "existence": "Existing geography article reused at /world-states in gameplay/world-states.md; identity, original categories and source mapping retained.",
+      "content": "Reviewed the introduction, three faction/state groupings, sixteen citation notes and Prosperous qualification. Death versus captivity exceptions, prisoner release reversals and repeatable base assaults remain explicit; no new gameplay verification claimed.",
+      "organization": "Retained original headings and the United Cities/Traders Guild comparison layout, its embedded bookmarks, all sixteen citation/return pairs and linked character/state lists. The empty layout cell and label-based interpretations are retained pending later editorial work.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/world-states.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a90d8a4ac260e792101566d46f461b54cd526edb031e56fd083ecdbc592db5ec"
+      },
+      "questions": [
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions",
+        "claim:character-world-state-overview"
+      ]
     }
   ],
   "editorialChanges": [

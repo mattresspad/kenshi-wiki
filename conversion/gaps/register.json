@@ -50840,6 +50840,39 @@
       ]
     },
     {
+      "id": "claim:character-errorcode-hex",
+      "kind": "claim",
+      "target": "/error-code-0xffffff",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The imported trivia incorrectly calls 0xFFFFFF the maximum unsigned 64-bit integer and calls hexadecimal binary notation.",
+      "proposedResolution": "Correct the mathematical statement in a separate editorial change: 0xFFFFFF = 2^24 - 1 = 16777215; the unsigned 64-bit maximum is 2^64 - 1. Keep fictional cause and developer-intent speculation separate.",
+      "uncertainty": "The arithmetic discrepancy is established; the lore explanation remains speculation.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "error-code-0xffffff",
+          "sourceFile": "src/content/wiki/error-code-0xffffff.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "dcce3bb5e30f838ea62f22f30ac39a550f65322a77d7168f7ad0fcdc430d1d23",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/error-code-0xffffff.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "error-code-0xffffff",
+          "label": "    -   It is also the maximum value of a 64-bit unsigned integer in binary notation. This might imply that the bots' odd behavior is the result of an integer overflow error possibly caused by remaining active for hundreds of years without resetting.",
+          "literal": "    -   It is also the maximum value of a 64-bit unsigned integer in binary notation. This might imply that the bots' odd behavior is the result of an integer overflow error possibly caused by remaining active for hundreds of years without resetting.",
+          "line": 87,
+          "sourceFile": "src/content/wiki/error-code-0xffffff.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:character-faction-overrides",
       "kind": "claim",
       "target": "/lady-kana",
@@ -71117,6 +71150,62 @@
       ]
     },
     {
+      "id": "claim:character-incomplete-instructions",
+      "kind": "claim",
+      "target": "/swamper-casino-dealer",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Casino instructions include an editorial placeholder and an unexplained 16.78% jackpot probability; Skeleton Resident is explicitly incomplete.",
+      "proposedResolution": "Recover the dialogue outcomes and weight denominator for the casino; complete the resident profile from its source records.",
+      "uncertainty": "Do not infer equal outcome probabilities from the displayed choice list.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "swamper-casino-dealer",
+          "sourceFile": "src/content/wiki/swamper-casino-dealer.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "5cbe272b3040c27c437589e9abdd3b925f15683758148547ff09fa9e23576560",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/swamper-casino-dealer.md"
+        },
+        {
+          "articleId": "skeleton-resident",
+          "sourceFile": "src/content/wiki/skeleton-resident.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "698373309c6e98677e7d19b1650c4445402d49682f5a72e68d5759b031a752a7",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/skeleton-resident.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "swamper-casino-dealer",
+          "label": "_Fill out with information and better gambler slang._",
+          "literal": "_Fill out with information and better gambler slang._",
+          "line": 67,
+          "sourceFile": "src/content/wiki/swamper-casino-dealer.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "swamper-casino-dealer",
+          "label": "The most optimum strategy would be to _Fish_ for _buxom red_ and _chubby nine,_ and to _Roll Back_ for _hungry gutter_ and _arrow in the neck_. For _stone roller,_ the odds are equal for both _Fish_ and _Roll Back_. The chance of getting a jackpot (see above) is only 16.78%, and it is far more reliable to bet safely rather than go for a jackpot.",
+          "literal": "The most optimum strategy would be to _Fish_ for _buxom red_ and _chubby nine,_ and to _Roll Back_ for _hungry gutter_ and _arrow in the neck_. For _stone roller,_ the odds are equal for both _Fish_ and _Roll Back_. The chance of getting a jackpot (see above) is only 16.78%, and it is far more reliable to bet safely rather than go for a jackpot.",
+          "line": 79,
+          "sourceFile": "src/content/wiki/swamper-casino-dealer.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "skeleton-resident",
+          "label": "_**This article is a Work in Progress. It may contain out of date or incomplete information.**_",
+          "literal": "_**This article is a Work in Progress. It may contain out of date or incomplete information.**_",
+          "line": 24,
+          "sourceFile": "src/content/wiki/skeleton-resident.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:character-miu-dialogue-structure",
       "kind": "claim",
       "target": "/miu",
@@ -71190,6 +71279,218 @@
       ]
     },
     {
+      "id": "claim:character-name-intent",
+      "kind": "claim",
+      "target": "/sandas-noble-guard",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Record-name dashes are treated as evidence of intended removal despite the NPCs appearing in game.",
+      "proposedResolution": "Separate the observed spawn and naming-fix mod from unverified claims about developer intent.",
+      "uncertainty": "Punctuation in a record name is not proof of intended availability.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "sandas-noble-guard",
+          "sourceFile": "src/content/wiki/sandas-noble-guard.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "502e02c80616247ca9aab896445a5d4bae28e63ae6b51891c2b52e71c401e4d2",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/sandas-noble-guard.md"
+        },
+        {
+          "articleId": "slavemonger",
+          "sourceFile": "src/content/wiki/slavemonger.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "f04cf57add4c7a7956df720010eadb1e16c40ba4810fefd481c4fbcd106cc402",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/slavemonger.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "sandas-noble-guard",
+          "label": "-   In the base game (and specifically in FCS), Sanda's guards are incorrectly named as _\"Empire noble guard---\"_s, with the three dashes indicating that they may not have been intended to appear at all. This has been corrected in the [Naming Fixes Project](https://steamcommunity.com/sharedfiles/filedetails/?id=2277236149).",
+          "literal": "-   In the base game (and specifically in FCS), Sanda's guards are incorrectly named as _\"Empire noble guard---\"_s, with the three dashes indicating that they may not have been intended to appear at all. This has been corrected in the [Naming Fixes Project](https://steamcommunity.com/sharedfiles/filedetails/?id=2277236149).",
+          "line": 258,
+          "sourceFile": "src/content/wiki/sandas-noble-guard.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "slavemonger",
+          "label": "In the base game (and specifically in FCS), Slavemongers have their squad named as _\"Slave Hunters------\"_, with the dashes indicating that they may not have been intended to appear at all and is supposed to be a cut content.",
+          "literal": "In the base game (and specifically in FCS), Slavemongers have their squad named as _\"Slave Hunters------\"_, with the dashes indicating that they may not have been intended to appear at all and is supposed to be a cut content.",
+          "line": 31,
+          "sourceFile": "src/content/wiki/slavemonger.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "slavemonger",
+          "label": "-   The dashes indicating cut content is similar to [Sanda's Noble Guard](/sandas-noble-guard).",
+          "literal": "-   The dashes indicating cut content is similar to [Sanda's Noble Guard](/sandas-noble-guard).",
+          "line": 76,
+          "sourceFile": "src/content/wiki/slavemonger.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:character-npc-ai-workarounds",
+      "kind": "claim",
+      "target": "/error-code-0xffffff",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "NPC pages describe reload workarounds, unloaded pursuit, repeated enslavement, cage behavior and respawning.",
+      "proposedResolution": "Reproduce each named instruction using pinned character/squad/dialogue records and fresh plus saved games.",
+      "uncertainty": "AI jobs, personality restrictions and persistence can change the outcome; retained advice is not newly verified.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "error-code-0xffffff",
+          "sourceFile": "src/content/wiki/error-code-0xffffff.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "dcce3bb5e30f838ea62f22f30ac39a550f65322a77d7168f7ad0fcdc430d1d23",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/error-code-0xffffff.md"
+        },
+        {
+          "articleId": "errorcode-0x000000",
+          "sourceFile": "src/content/wiki/errorcode-0x000000.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "349096aa52d5feaf5c1bedb731788dcc36a73f037b514445ac105c7d11039b41",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/errorcode-0x000000.md"
+        },
+        {
+          "articleId": "guild-plastic-surgeon",
+          "sourceFile": "src/content/wiki/guild-plastic-surgeon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "2e452959f230e6c5a6c94057866ab49bbff54f074843641e8d71748efefb4213",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/guild-plastic-surgeon.md"
+        },
+        {
+          "articleId": "no-face",
+          "sourceFile": "src/content/wiki/no-face.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "be3b70dbf5dfecd5a41455375325040ab59749b686a50bc4ef4ba4ec184b7b23",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/no-face.md"
+        },
+        {
+          "articleId": "reaver-slave",
+          "sourceFile": "src/content/wiki/reaver-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "1857bd0fc9ca00419fc791743df5aa82b3a48b3d24e23fe718dc057550f8e885",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/reaver-slave.md"
+        },
+        {
+          "articleId": "protector-of-the-flame",
+          "sourceFile": "src/content/wiki/protector-of-the-flame.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "73b480dd453359baab2043baa4ed3cd736468c26ab413adf3b6430f981eab9fc",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/protector-of-the-flame.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "error-code-0xffffff",
+          "label": "-   Once they are allied, the bots will allow themselves to be picked up by player characters after a short time. This will bring two advantages that makes these characters invaluable. First, they allow themselves to be placed in [Prisoner Cages](/prisoner-cage), creating a \"jack-in-the-box\" kind of reserve military force. Being caged also keeps them away from neutral characters that these bots could otherwise attack. Second, once picked up, the bots can be equipped with new armour, weapons, and repair kits significantly extending their survivability and usefulness.",
+          "literal": "-   Once they are allied, the bots will allow themselves to be picked up by player characters after a short time. This will bring two advantages that makes these characters invaluable. First, they allow themselves to be placed in [Prisoner Cages](/prisoner-cage), creating a \"jack-in-the-box\" kind of reserve military force. Being caged also keeps them away from neutral characters that these bots could otherwise attack. Second, once picked up, the bots can be equipped with new armour, weapons, and repair kits significantly extending their survivability and usefulness.",
+          "line": 77,
+          "sourceFile": "src/content/wiki/error-code-0xffffff.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "error-code-0xffffff",
+          "label": "-   You need to save and then load your save after giving one a repair kit in order for them to be used (if you are playing an organic character be sure to also give them first aid kits to help patch you up when injured).",
+          "literal": "-   You need to save and then load your save after giving one a repair kit in order for them to be used (if you are playing an organic character be sure to also give them first aid kits to help patch you up when injured).",
+          "line": 78,
+          "sourceFile": "src/content/wiki/error-code-0xffffff.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "error-code-0xffffff",
+          "label": "-   They will instantly get off of a Skeleton Repair Bed if placed in one. So, if you wish to heal the wear damage of an Error Code you may pick one up and drop them on the ground. This will KO the Error Code for a short time. Simply pick the unit back up and place in a Skeleton Repair bed. Repeat if needed until the wear damage is healed.",
+          "literal": "-   They will instantly get off of a Skeleton Repair Bed if placed in one. So, if you wish to heal the wear damage of an Error Code you may pick one up and drop them on the ground. This will KO the Error Code for a short time. Simply pick the unit back up and place in a Skeleton Repair bed. Repeat if needed until the wear damage is healed.",
+          "line": 81,
+          "sourceFile": "src/content/wiki/error-code-0xffffff.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "error-code-0xffffff",
+          "label": "-   If enslaved/jailed by an NPC, their AI goals may change to retreating fast and will despawn once they travel far enough away from you.",
+          "literal": "-   If enslaved/jailed by an NPC, their AI goals may change to retreating fast and will despawn once they travel far enough away from you.",
+          "line": 82,
+          "sourceFile": "src/content/wiki/error-code-0xffffff.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "errorcode-0x000000",
+          "label": "-   They have an AI\\_Package which contains an Unloaded Func (regulating AI behavior when they are unloaded, aka _not loaded_) of upjob\\_travel\\_target\\_fast, which allows the ErrorCodes to chase after you when far away faster than they can actually move. Humorously, even if all ErrorCodes in a squad are crippled or even unconscious they can still rush across the map (watch them by keeping your map open and zoomed in a bit until their blip appears) at extremely fast speeds and once you get close enough for the units to load in, they will just be there still crippled/conscious in front of you.",
+          "literal": "-   They have an AI\\_Package which contains an Unloaded Func (regulating AI behavior when they are unloaded, aka _not loaded_) of upjob\\_travel\\_target\\_fast, which allows the ErrorCodes to chase after you when far away faster than they can actually move. Humorously, even if all ErrorCodes in a squad are crippled or even unconscious they can still rush across the map (watch them by keeping your map open and zoomed in a bit until their blip appears) at extremely fast speeds and once you get close enough for the units to load in, they will just be there still crippled/conscious in front of you.",
+          "line": 69,
+          "sourceFile": "src/content/wiki/errorcode-0x000000.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "guild-plastic-surgeon",
+          "label": "-   It is possible to kidnap a **Guild Plastic Surgeon** (even as an ally of the Shinobi) to profit from their services in the comfort of a [player outpost](/guide-to-building-an-outpost). Guild Surgeons can still be talked to when placed in cages or when left roaming inside player buildings. They show no signs of wanting to escape provided that the outpost gate is closed.",
+          "literal": "-   It is possible to kidnap a **Guild Plastic Surgeon** (even as an ally of the Shinobi) to profit from their services in the comfort of a [player outpost](/guide-to-building-an-outpost). Guild Surgeons can still be talked to when placed in cages or when left roaming inside player buildings. They show no signs of wanting to escape provided that the outpost gate is closed.",
+          "line": 180,
+          "sourceFile": "src/content/wiki/guild-plastic-surgeon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "no-face",
+          "label": "-   It is possible to become neutral with Gutters by buying him out of slavery repeatably.",
+          "literal": "-   It is possible to become neutral with Gutters by buying him out of slavery repeatably.",
+          "line": 72,
+          "sourceFile": "src/content/wiki/no-face.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "reaver-slave",
+          "label": "**Reaver Slaves** are the unreliable [whelps](/reaver-whelp) of the [Reavers](/reavers). Reaver Slaves are members of the [Vagrants](/vagrants) faction. They can be found in small groups accompanying squads of [Blooded](/reaver-blooded) and [Ironclads](/reaver-ironclad), serving as their meat shields during fights, or locked in cages within [Reaver Camps](/reaver-camp) or [Ark](/ark).",
+          "literal": "**Reaver Slaves** are the unreliable [whelps](/reaver-whelp) of the [Reavers](/reavers). Reaver Slaves are members of the [Vagrants](/vagrants) faction. They can be found in small groups accompanying squads of [Blooded](/reaver-blooded) and [Ironclads](/reaver-ironclad), serving as their meat shields during fights, or locked in cages within [Reaver Camps](/reaver-camp) or [Ark](/ark).",
+          "line": 25,
+          "sourceFile": "src/content/wiki/reaver-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "reaver-slave",
+          "label": "Like other slaves, Reaver Slaves can become [Slave Recruits](/slave-recruits) if they are freed from their [Prisoner Shackles](/prisoner-shackles) and/or [Prisoner Cage](/prisoner-cage). During a fight, if one is able to defeat their masters before killing the slaves, they will also have a chance to join the player, just take care not to accidentally attack them after the fight.",
+          "literal": "Like other slaves, Reaver Slaves can become [Slave Recruits](/slave-recruits) if they are freed from their [Prisoner Shackles](/prisoner-shackles) and/or [Prisoner Cage](/prisoner-cage). During a fight, if one is able to defeat their masters before killing the slaves, they will also have a chance to join the player, just take care not to accidentally attack them after the fight.",
+          "line": 27,
+          "sourceFile": "src/content/wiki/reaver-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "reaver-slave",
+          "label": "-   Due to a bug(?) it is much harder to recruit this slave type (though not unique to this slave) when attempting to free them from their cages.",
+          "literal": "-   Due to a bug(?) it is much harder to recruit this slave type (though not unique to this slave) when attempting to free them from their cages.",
+          "line": 66,
+          "sourceFile": "src/content/wiki/reaver-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "reaver-slave",
+          "label": "-   The bug causes slaves of Maniacal personality to be stuck in their cages without attempting to join. As such, only Honorable or Smart personality slaves can join the player.",
+          "literal": "-   The bug causes slaves of Maniacal personality to be stuck in their cages without attempting to join. As such, only Honorable or Smart personality slaves can join the player.",
+          "line": 67,
+          "sourceFile": "src/content/wiki/reaver-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "protector-of-the-flame",
+          "label": "Care should be taken when engaging the protector in combat, as he is one of the highest stat characters in the game. Despite being set as Unique, he also has a unique replacement spawn of himself, so if you manage to slay him, another Protector will eventually take his place, and raising the squad size multiplier can cause multiple Protectors to spawn.",
+          "literal": "Care should be taken when engaging the protector in combat, as he is one of the highest stat characters in the game. Despite being set as Unique, he also has a unique replacement spawn of himself, so if you manage to slay him, another Protector will eventually take his place, and raising the squad size multiplier can cause multiple Protectors to spawn.",
+          "line": 30,
+          "sourceFile": "src/content/wiki/protector-of-the-flame.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:character-patrol-interpretation",
       "kind": "claim",
       "target": "/high-inquisitor-seta",
@@ -71251,6 +71552,41 @@
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
           "sha256": "4af130dcba0bc93de7eb0051e344e7bc1a9c40d063892a23fbb033abe84b3c85",
           "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/mad-cat-lon.md"
+        },
+        {
+          "articleId": "holy-chosen",
+          "sourceFile": "src/content/wiki/holy-chosen.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "1ad254716401e483173bebc69fc1fa512d3796666ee63bd834e3aded7a301033",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/holy-chosen.md"
+        },
+        {
+          "articleId": "hundred-guardian",
+          "sourceFile": "src/content/wiki/hundred-guardian.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "0c5ac5fb18977ca9a6e6315851e2368f7ea4d2855b3606bdd896ea15bcaaf535",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/hundred-guardian.md"
+        },
+        {
+          "articleId": "kamikaze",
+          "sourceFile": "src/content/wiki/kamikaze.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "396cc690dc447a1c06807a0c38c7a76aa4c3f252f7fdeedc6e90cefed16064a4",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/kamikaze.md"
+        },
+        {
+          "articleId": "starving-vagrant",
+          "sourceFile": "src/content/wiki/starving-vagrant.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "9c57653f95a45c1c9c84d75235aa8a1817e828c98939eac2ce322da202dda37b",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/starving-vagrant.md"
+        },
+        {
+          "articleId": "strayed-paladin",
+          "sourceFile": "src/content/wiki/strayed-paladin.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "457e04a9eb6b3a842384abac713e36cb6fd56da37dd7ea20bf17d4ef13527b60",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/strayed-paladin.md"
         }
       ],
       "occurrences": [
@@ -71653,6 +71989,134 @@
           "line": 85,
           "sourceFile": "src/content/wiki/mad-cat-lon.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "holy-chosen",
+          "label": "Holy Chosen can be found patrolling in large numbers making up the bulk of the Holy Army Force alongside some more experienced [Holy Sentinels](/holy-sentinel) and [Paladins](/paladin).",
+          "literal": "Holy Chosen can be found patrolling in large numbers making up the bulk of the Holy Army Force alongside some more experienced [Holy Sentinels](/holy-sentinel) and [Paladins](/paladin).",
+          "line": 29,
+          "sourceFile": "src/content/wiki/holy-chosen.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "hundred-guardian",
+          "label": "They guard the [Shek](/shek) capital [Admag](/admag) and the city [Squin](/squin), and are found as patrol leaders leading [Shek Warriors](/shek-warrior). The patrols they lead are consisted of 1 ~ 2 Hundred Guardians, and 4 ~ 8 Shek Warriors. They also serve as police inside Shek Kingdom towns.",
+          "literal": "They guard the [Shek](/shek) capital [Admag](/admag) and the city [Squin](/squin), and are found as patrol leaders leading [Shek Warriors](/shek-warrior). The patrols they lead are consisted of 1 ~ 2 Hundred Guardians, and 4 ~ 8 Shek Warriors. They also serve as police inside Shek Kingdom towns.",
+          "line": 29,
+          "sourceFile": "src/content/wiki/hundred-guardian.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "hundred-guardian",
+          "label": "If the player is allied with [The Holy Nation](/the-holy-nation), their patrols will attack the player unprovoked (unless the player is allied with them too).",
+          "literal": "If the player is allied with [The Holy Nation](/the-holy-nation), their patrols will attack the player unprovoked (unless the player is allied with them too).",
+          "line": 31,
+          "sourceFile": "src/content/wiki/hundred-guardian.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "hundred-guardian",
+          "label": "Once allied with the Shek Kingdom, a player can talk to wandering patrols of **Hundred Guardians** to ask them to bodyguard the player or guard their outpost. They will then follow the player for 72 hours or guard their outpost for 48 hours.",
+          "literal": "Once allied with the Shek Kingdom, a player can talk to wandering patrols of **Hundred Guardians** to ask them to bodyguard the player or guard their outpost. They will then follow the player for 72 hours or guard their outpost for 48 hours.",
+          "line": 75,
+          "sourceFile": "src/content/wiki/hundred-guardian.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "hundred-guardian",
+          "label": "Note that the Hundred Guardians guarding towns can be talked to but will refuse to follow, redirecting the player to look for patrolling Hundred Guardians outside Shek cities.",
+          "literal": "Note that the Hundred Guardians guarding towns can be talked to but will refuse to follow, redirecting the player to look for patrolling Hundred Guardians outside Shek cities.",
+          "line": 77,
+          "sourceFile": "src/content/wiki/hundred-guardian.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kamikaze",
+          "label": "-   Unlike the similar [Strayed Paladins](/strayed-paladin), [Samurai Rogues](/samurai-rogue) and [Hive Bandits](/hive-bandit), Kamikaze do not appear to be solely a case of a breakdown in organization and military structures causing them to appear, as there are some of them that are directly used in [Shek Kingdom](/shek-kingdom) command under [Mukai](/mukai-the-mountain).",
+          "literal": "-   Unlike the similar [Strayed Paladins](/strayed-paladin), [Samurai Rogues](/samurai-rogue) and [Hive Bandits](/hive-bandit), Kamikaze do not appear to be solely a case of a breakdown in organization and military structures causing them to appear, as there are some of them that are directly used in [Shek Kingdom](/shek-kingdom) command under [Mukai](/mukai-the-mountain).",
+          "line": 71,
+          "sourceFile": "src/content/wiki/kamikaze.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kamikaze",
+          "label": "    -   Their entire population mobilized for total war are smaller than the presence of even the outcasts such as [Starving Bandits](/starving-bandits) in every region.",
+          "literal": "    -   Their entire population mobilized for total war are smaller than the presence of even the outcasts such as [Starving Bandits](/starving-bandits) in every region.",
+          "line": 75,
+          "sourceFile": "src/content/wiki/kamikaze.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kamikaze",
+          "label": "    -   In [Border Zone](/border-zone) and [Skinner's Roam](/skinners-roam) squad spawns, their numbers are outnumbered by Holy Nation's military alone by ~9.3x/8.3x, and by ~19.3x/15.6x when compared to all HN-origin (i.e. [Starving Bandits](/starving-bandits), [Holy Nation Outlaws](/holy-nation-outlaws)) Human squads.",
+          "literal": "    -   In [Border Zone](/border-zone) and [Skinner's Roam](/skinners-roam) squad spawns, their numbers are outnumbered by Holy Nation's military alone by ~9.3x/8.3x, and by ~19.3x/15.6x when compared to all HN-origin (i.e. [Starving Bandits](/starving-bandits), [Holy Nation Outlaws](/holy-nation-outlaws)) Human squads.",
+          "line": 77,
+          "sourceFile": "src/content/wiki/kamikaze.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kamikaze",
+          "label": "        -   This only includes the patrols that could be directly \"seen\" (i.e. with weights and thereby in homeless spawns) and not those that are also heavily hinted to be in the same area<sup id=\"cite_ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup><sup id=\"cite_ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup><sup id=\"cite_ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> but not simulated, which would swing the estimated numbers further against Shek Kingdom.",
+          "literal": "        -   This only includes the patrols that could be directly \"seen\" (i.e. with weights and thereby in homeless spawns) and not those that are also heavily hinted to be in the same area<sup id=\"cite_ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup><sup id=\"cite_ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup><sup id=\"cite_ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> but not simulated, which would swing the estimated numbers further against Shek Kingdom.",
+          "line": 78,
+          "sourceFile": "src/content/wiki/kamikaze.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kamikaze",
+          "label": "    -   They could be launching assaults even after the latter's military command is [significantly disrupted](/strayed-paladin), [frontier](/stack/destroyed) [settlements](/bad-teeth/destroyed) [abandoned/in disrepair](/holy-mines/destroyed), and they would still be unable to raze any [Holy Farms](/holy-farms)<sup id=\"cite_ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup>.",
+          "literal": "    -   They could be launching assaults even after the latter's military command is [significantly disrupted](/strayed-paladin), [frontier](/stack/destroyed) [settlements](/bad-teeth/destroyed) [abandoned/in disrepair](/holy-mines/destroyed), and they would still be unable to raze any [Holy Farms](/holy-farms)<sup id=\"cite_ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup>.",
+          "line": 79,
+          "sourceFile": "src/content/wiki/kamikaze.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kamikaze",
+          "label": "-   Very few (less than ~2% of total) standard [Shek Warrior](/shek-warrior) patrols can still be found in [Stenn Desert](/stenn-desert) and [Spider Plains](/spider-plains), suggesting that there are a few negligible number of Sheks that haven't went Kamikaze.",
+          "literal": "-   Very few (less than ~2% of total) standard [Shek Warrior](/shek-warrior) patrols can still be found in [Stenn Desert](/stenn-desert) and [Spider Plains](/spider-plains), suggesting that there are a few negligible number of Sheks that haven't went Kamikaze.",
+          "line": 84,
+          "sourceFile": "src/content/wiki/kamikaze.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kamikaze",
+          "label": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\">\"They have same stats of a Hundred Guardian\"</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\">One of the patrol spawns tied with Esata in <a href=\"/stenn-desert\">Stenn Desert</a> de-spawns when she is killed, suggesting that they went Kamikaze</span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\">Admag's complete destruction and depopulation is tied directly with Esata</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a href=\"/high-inquisitor-valtena\">High Inquisitor Valtena</a> for one is hinted by <a href=\"/moll\">Moll</a> to have significant patrol presence in <a href=\"/okrans-pride\">Okran's Pride</a>, despite there being no homeless spawn patrols in that area tied to him when he is alive.</span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\"><a href=\"/border-zone\">Border Zone</a> for example is hinted to have <a href=\"/high-inquisitor-seta\">High Inquisitor Seta's</a> forces blocking <a href=\"/shek-kingdom\">Shek Kingdom</a> as his status is tied with the latter's patrol presence in the area, even when they are clearly launching assaults into <a href=\"/okrans-pride\">Okran's Pride</a> and <a href=\"/okrans-gulf\">Okran's Gulf</a> when <a href=\"/seto\">Seto</a> is dead.</span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\"><a href=\"/high-inquisitor-seta\">High Inquisitor Seta</a> and <a href=\"/holy-lord-phoenix\">Holy Lord Phoenix's</a> status prevents <a href=\"/krals-chosen\">Kral's Chosen</a> from spawning in <a href=\"/skinners-roam\">Skinner's Roam</a> despite not having any simulated patrol presence in the area (initially), suggesting they have some level of army force there that aren't simulated.</span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\">Esata's status has zero effects on whether or not Holy Farms get destroyed. The farmers will even be reliefed if Esata is incapacitated. This suggests that the Sheks could easily be spreading themselves too thin to be effective if they launch full front assaults as Kamikaze.</span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\"><a href=\"/holy-farmer\">Holy Farmers</a> would cease to complain about tribute extortions if <a href=\"/esata-the-stone-golem\">Esata</a> is killed/kidnapped, even if <a href=\"/high-inquisitor-seta\">Seta</a>, <a href=\"/holy-lord-phoenix\">Phoenix</a> and <a href=\"/high-inquisitor-valtena\">Valtena</a> are all dead by this point, suggesting HN have mounted a successful defense against Kamikaze assaults that prevented further tribute raids.</span></li><li id=\"cite_note-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-9\">↑</a></span> <span class=\"reference-text\">\"Soon we'll purge the last of her beasts... Before the barbarians reach our gates for blood like the psychopaths they are.\" - Paladin</span></li><li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">↑</a></span> <span class=\"reference-text\">\"The horned devils plague the Holy Lands but they are small in number, they won't last with their wreckless suicide mission. Eventually their kind will be extinct and we'll finally see peace.\" - <a href=\"/holy-lord-phoenix\">Holy Lord Phoenix</a></span></li><li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-11\">↑</a></span> <span class=\"reference-text\">\"All you need to do is assassinate the Stone Golem, sir. Take her out of the picture and the Shek will surely fight themselves extinct\"</span></li><li id=\"cite_note-12\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-12\">↑</a></span> <span class=\"reference-text\">\"The Shek devils are in turmoil. They still linger on, one cannot simply plug the dark abyss closed of it's inner evils, but their threat is considerably lessened...\" - Holy Lord Phoenix</span></li></ol>",
+          "literal": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\">\"They have same stats of a Hundred Guardian\"</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\">One of the patrol spawns tied with Esata in <a href=\"/stenn-desert\">Stenn Desert</a> de-spawns when she is killed, suggesting that they went Kamikaze</span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\">Admag's complete destruction and depopulation is tied directly with Esata</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a href=\"/high-inquisitor-valtena\">High Inquisitor Valtena</a> for one is hinted by <a href=\"/moll\">Moll</a> to have significant patrol presence in <a href=\"/okrans-pride\">Okran's Pride</a>, despite there being no homeless spawn patrols in that area tied to him when he is alive.</span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\"><a href=\"/border-zone\">Border Zone</a> for example is hinted to have <a href=\"/high-inquisitor-seta\">High Inquisitor Seta's</a> forces blocking <a href=\"/shek-kingdom\">Shek Kingdom</a> as his status is tied with the latter's patrol presence in the area, even when they are clearly launching assaults into <a href=\"/okrans-pride\">Okran's Pride</a> and <a href=\"/okrans-gulf\">Okran's Gulf</a> when <a href=\"/seto\">Seto</a> is dead.</span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\"><a href=\"/high-inquisitor-seta\">High Inquisitor Seta</a> and <a href=\"/holy-lord-phoenix\">Holy Lord Phoenix's</a> status prevents <a href=\"/krals-chosen\">Kral's Chosen</a> from spawning in <a href=\"/skinners-roam\">Skinner's Roam</a> despite not having any simulated patrol presence in the area (initially), suggesting they have some level of army force there that aren't simulated.</span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\">Esata's status has zero effects on whether or not Holy Farms get destroyed. The farmers will even be reliefed if Esata is incapacitated. This suggests that the Sheks could easily be spreading themselves too thin to be effective if they launch full front assaults as Kamikaze.</span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\"><a href=\"/holy-farmer\">Holy Farmers</a> would cease to complain about tribute extortions if <a href=\"/esata-the-stone-golem\">Esata</a> is killed/kidnapped, even if <a href=\"/high-inquisitor-seta\">Seta</a>, <a href=\"/holy-lord-phoenix\">Phoenix</a> and <a href=\"/high-inquisitor-valtena\">Valtena</a> are all dead by this point, suggesting HN have mounted a successful defense against Kamikaze assaults that prevented further tribute raids.</span></li><li id=\"cite_note-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-9\">↑</a></span> <span class=\"reference-text\">\"Soon we'll purge the last of her beasts... Before the barbarians reach our gates for blood like the psychopaths they are.\" - Paladin</span></li><li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">↑</a></span> <span class=\"reference-text\">\"The horned devils plague the Holy Lands but they are small in number, they won't last with their wreckless suicide mission. Eventually their kind will be extinct and we'll finally see peace.\" - <a href=\"/holy-lord-phoenix\">Holy Lord Phoenix</a></span></li><li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-11\">↑</a></span> <span class=\"reference-text\">\"All you need to do is assassinate the Stone Golem, sir. Take her out of the picture and the Shek will surely fight themselves extinct\"</span></li><li id=\"cite_note-12\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-12\">↑</a></span> <span class=\"reference-text\">\"The Shek devils are in turmoil. They still linger on, one cannot simply plug the dark abyss closed of it's inner evils, but their threat is considerably lessened...\" - Holy Lord Phoenix</span></li></ol>",
+          "line": 86,
+          "sourceFile": "src/content/wiki/kamikaze.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "starving-vagrant",
+          "label": "-   Starving Vagrants could be estimated to be around ~0.5% of the northern [United Cities](/united-cities) total population by cross-referencing the [Sho-Battai](/sho-battai/empire-peasants) override's [Simion's](/boss-simion) forces required to take over that town (1655 value) and recover 80% of it.",
+          "literal": "-   Starving Vagrants could be estimated to be around ~0.5% of the northern [United Cities](/united-cities) total population by cross-referencing the [Sho-Battai](/sho-battai/empire-peasants) override's [Simion's](/boss-simion) forces required to take over that town (1655 value) and recover 80% of it.",
+          "line": 250,
+          "sourceFile": "src/content/wiki/starving-vagrant.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "strayed-paladin",
+          "label": "They appear to be [Paladins](/paladin) who are separated from Holy Nation's military leadership and roam aimlessly in the wilds. They tend to equip a variety of makeshift rags and armor, somewhat similar to [Starving Bandits](/starving-bandits). Unlike [them](/hungry-bandit), however, they are _not_ malnourished and are still formidable in combat. They have the same stats as a [Paladin](/paladin), as well as a Smart [Personality](/personality).",
+          "literal": "They appear to be [Paladins](/paladin) who are separated from Holy Nation's military leadership and roam aimlessly in the wilds. They tend to equip a variety of makeshift rags and armor, somewhat similar to [Starving Bandits](/starving-bandits). Unlike [them](/hungry-bandit), however, they are _not_ malnourished and are still formidable in combat. They have the same stats as a [Paladin](/paladin), as well as a Smart [Personality](/personality).",
+          "line": 34,
+          "sourceFile": "src/content/wiki/strayed-paladin.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "strayed-paladin",
+          "label": "These characters are likely stragglers separated from the main army force, since their military is still functional as evident by certain settlements<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> and Events such as [Wrath of God](/wrath-of-god)<sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup> where they still have countless [Inquisitors](/inquisitor), [High Paladin](/high-paladin) and [Paladins](/paladin) to throw against the [outpost](/guide-to-building-an-outpost) in military expeditions [covering the entire map](/world-of-kenshi).",
+          "literal": "These characters are likely stragglers separated from the main army force, since their military is still functional as evident by certain settlements<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> and Events such as [Wrath of God](/wrath-of-god)<sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup> where they still have countless [Inquisitors](/inquisitor), [High Paladin](/high-paladin) and [Paladins](/paladin) to throw against the [outpost](/guide-to-building-an-outpost) in military expeditions [covering the entire map](/world-of-kenshi).",
+          "line": 36,
+          "sourceFile": "src/content/wiki/strayed-paladin.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "strayed-paladin",
+          "label": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a href=\"/holy-farms\">Holy Farms</a> still have some military presence even if Seta, Valtena and Phoenix are all incapacitated, whilst <a href=\"/narkos-trap\">Narko's Trap</a> and <a href=\"/watchtower\">Watchtower</a> will always be functional and under The Holy Nation control.</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a href=\"/wrath-of-god\">Wrath of God</a> can trigger even if Seta, Valtena and Phoenix are all incapacitated.</span></li></ol>",
+          "literal": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a href=\"/holy-farms\">Holy Farms</a> still have some military presence even if Seta, Valtena and Phoenix are all incapacitated, whilst <a href=\"/narkos-trap\">Narko's Trap</a> and <a href=\"/watchtower\">Watchtower</a> will always be functional and under The Holy Nation control.</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a href=\"/wrath-of-god\">Wrath of God</a> can trigger even if Seta, Valtena and Phoenix are all incapacitated.</span></li></ol>",
+          "line": 81,
+          "sourceFile": "src/content/wiki/strayed-paladin.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
     },
@@ -71803,6 +72267,127 @@
           "literal": "Infinite Wingwang will initially offer his service to your character for 100,000 Cats but it is possible to talk him down to 5,000 Cats. In order to talk Infinite Wingwang down in his fee choose either, \"I'll give you 4,000, and I'm changing your name.\" or, \"What!? I could get 10 Infinite Wingwangs for that!\" and then select the, \"Um, 5000?\" option when available.",
           "line": 67,
           "sourceFile": "src/content/wiki/infinite-wingwang.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:character-rebirth-slave-context",
+      "kind": "claim",
+      "target": "/rebirth-slave",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Rebirth Slave lacks an explanatory introduction or location, behavior and recruitment context beyond profile tables.",
+      "proposedResolution": "Restore context from its pinned source revision and character/squad records; compare Lower Servant and Slave without assuming an alias.",
+      "uncertainty": "A statistics profile alone does not explain when this distinct record appears.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "rebirth-slave",
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "7f377a8c19099f967730d16f79f34d29b9e47861736c1bd4b4a68ced90f8a3f4",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/rebirth-slave.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "rebirth-slave",
+          "label": "This character can colour armour and clothing due to a [colour scheme](/colour-scheme) attached.",
+          "literal": "This character can colour armour and clothing due to a [colour scheme](/colour-scheme) attached.",
+          "line": 16,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "## Statistics",
+          "literal": "## Statistics",
+          "line": 18,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "Statistics",
+          "literal": "Statistics",
+          "line": 32,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "_The Statistics here are taken from [FCS](/forgotten-construction-set).  ",
+          "literal": "_The Statistics here are taken from [FCS](/forgotten-construction-set).  ",
+          "line": 56,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "Statistics",
+          "literal": "Statistics",
+          "line": 59,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "_The Statistics here are taken from [FCS](/forgotten-construction-set).  ",
+          "literal": "_The Statistics here are taken from [FCS](/forgotten-construction-set).  ",
+          "line": 83,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "Statistics",
+          "literal": "Statistics",
+          "line": 89,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "_The Statistics here are taken from [FCS](/forgotten-construction-set).  ",
+          "literal": "_The Statistics here are taken from [FCS](/forgotten-construction-set).  ",
+          "line": 113,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "Statistics",
+          "literal": "Statistics",
+          "line": 123,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "_The Statistics here are taken from [FCS](/forgotten-construction-set).  ",
+          "literal": "_The Statistics here are taken from [FCS](/forgotten-construction-set).  ",
+          "line": 147,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "Statistics",
+          "literal": "Statistics",
+          "line": 150,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "rebirth-slave",
+          "label": "_The Statistics here are taken from [FCS](/forgotten-construction-set).  ",
+          "literal": "_The Statistics here are taken from [FCS](/forgotten-construction-set).  ",
+          "line": 174,
+          "sourceFile": "src/content/wiki/rebirth-slave.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
@@ -88876,6 +89461,63 @@
           "label": "## Other World States:",
           "literal": "## Other World States:",
           "line": 40,
+          "sourceFile": "src/content/wiki/world-states.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "world-states",
+          "label": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a href=\"/dust-king\">Dust King's</a> <a href=\"/bandit-demands\">Bandit Demands</a> requires him to be dead to stop, not just imprisoned.</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a href=\"/hive-attack-southern-hive\">Hive Attack</a> of both <a href=\"/western-hive\">Western Hive</a> and <a href=\"/southern-hive\">Southern Hive</a> variant requires their respective Queens to be kidnapped instead of killed to be launched.</span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\"><a href=\"/skin-bandits\">Skin Bandits</a>, <a href=\"/reavers\">Reavers</a>, <a href=\"/manhunters\">Manhunters</a>, <a href=\"/slave-hunters\">Slave Hunters</a>, <a href=\"/traders-guild\">Traders Guild</a> and (potentially) <a href=\"/yabuta-outlaws\">Yabuta Outlaws</a> could get completely destroyed if their leaders are taken out, with no homeless spawns, settlements, camps, or events coming from or belonging to them.</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a href=\"/the-gorrillo-bandits\">The Gorrillo Bandits</a>, <a href=\"/anti-slavers\">Anti-Slavers</a>, <a href=\"/black-dragon-ninjas\">Black Dragon Ninjas</a>, <a href=\"/hounds\">Hounds</a>, <a href=\"/thrall-masters\">Thrall Masters</a>, <a href=\"/fishmen\">Fishmen</a>, and <a href=\"/slave-traders\">Slave Traders</a> could be considered to be at near-complete destruction when taken out as they would have zero homeless spawns, with only base assaults or a few settlements under their faction label remaining for some of them.</span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\"><a href=\"/berserkers\">Berserkers</a>, <a href=\"/band-of-bones\">Band of Bones</a>, <a href=\"/krals-chosen\">Kral's Chosen</a>, <a href=\"/red-sabres\">Red Sabres</a>, <a href=\"/swamp-ninjas\">Swamp Ninjas</a>, <a href=\"/crab-raiders\">Crab Raiders</a>, <a href=\"/skeleton-bandits\">Skeleton Bandits</a> and <a href=\"/scavengers\">Scavengers</a> are examples of this.</span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\"><a href=\"/holy-farms\">Holy Farms</a>, <a href=\"/watchtower-town\">Watchtower</a> and <a href=\"/narkos-trap\">Narko's Trap</a> will still be functional under HN control even if <a href=\"/high-inquisitor-seta\">Seta</a>, <a href=\"/holy-lord-phoenix\">Phoenix</a> and <a href=\"/high-inquisitor-valtena\">Valtena</a> are all taken out.</span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\"><a href=\"/tengus-vault\">Tengu's Vault</a> and <a href=\"/farming-village\">Farming Village</a> will always be functional and under UC control.</span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\"><a href=\"/spring\">Spring</a> will always be functional and under control of <a href=\"/anti-slavers\">Anti-Slavers</a></span></li><li id=\"cite_note-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-9\">↑</a></span> <span class=\"reference-text\"><a href=\"/scout-post\">Scout Posts</a> will always be functional and under control of <a href=\"/flotsam-ninjas\">Flotsam Ninjas</a>.</span></li><li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">↑</a></span> <span class=\"reference-text\"><a href=\"/berserker-village\">Berserker Village</a> and (potentially) <a href=\"/admag\">Admag</a> and <a href=\"/squin\">Squin</a> will always be (barely) functional under <a href=\"/berserker\">Berserker</a> control.</span></li><li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-11\">↑</a></span> <span class=\"reference-text\"><a href=\"/exile-camp\">Exile Camp</a> and (potentially) <a href=\"/grayflayer-village\">Grayflayer Village</a> will always be functional and under <a href=\"/band-of-bones\">Band of Bones</a> control.</span></li><li id=\"cite_note-12\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-12\">↑</a></span> <span class=\"reference-text\"><a href=\"/last-stand\">Last Stand</a> and <a href=\"/the-great-fortress\">The Great Fortress</a> will always be functional (only barely for the latter) and under <a href=\"/shek-kingdom\">Shek Kingdom</a> control.</span></li><li id=\"cite_note-13\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-13\">↑</a></span> <span class=\"reference-text\"><a href=\"/wrath-of-god\">Wrath of God</a>, <a href=\"/challenger-of-the-undefeated\">Challenger of the Undefeated</a> and <a href=\"/invincible-vengeance\">Invincible Vengeance</a> are potentially never-ending with or without any leaders.</span></li><li id=\"cite_note-14\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-14\">↑</a></span> <span class=\"reference-text\"><a href=\"/wrath-of-god\">Wrath of God</a> and <a href=\"/hive-attack-western-hive\">Hive Attack (Western Hive)</a>/<a href=\"/hive-attack-southern-hive\">Hive Attack (Southern Hive)</a> have variants that are specifically spawning only when the leader is captured but not killed, with the stated intention to bring them back.</span></li><li id=\"cite_note-15\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-15\">↑</a></span> <span class=\"reference-text\"><a href=\"/stack/shek-kingdom\">Stack/Shek Kingdom</a>, <a href=\"/bad-teeth/shek-kingdom\">Bad Teeth/Shek Kingdom</a>, <a href=\"/blackshifters\">Shark/Blackshifter</a> are examples of this.</span></li><li id=\"cite_note-16\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-16\">↑</a></span> <span class=\"reference-text\"><a href=\"/holy-mines/slave-traders\">Holy Mines/Slave Traders</a> and <a href=\"/okrans-shield/reavers\">Okran's Shield/Reavers</a> are examples of this, as they will switch to <a href=\"/holy-mines/destroyed\">their</a> <a href=\"/okrans-shield/destroyed\">respective</a> destroyed overrides upon second entry.</span></li></ol>",
+          "literal": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a href=\"/dust-king\">Dust King's</a> <a href=\"/bandit-demands\">Bandit Demands</a> requires him to be dead to stop, not just imprisoned.</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a href=\"/hive-attack-southern-hive\">Hive Attack</a> of both <a href=\"/western-hive\">Western Hive</a> and <a href=\"/southern-hive\">Southern Hive</a> variant requires their respective Queens to be kidnapped instead of killed to be launched.</span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\"><a href=\"/skin-bandits\">Skin Bandits</a>, <a href=\"/reavers\">Reavers</a>, <a href=\"/manhunters\">Manhunters</a>, <a href=\"/slave-hunters\">Slave Hunters</a>, <a href=\"/traders-guild\">Traders Guild</a> and (potentially) <a href=\"/yabuta-outlaws\">Yabuta Outlaws</a> could get completely destroyed if their leaders are taken out, with no homeless spawns, settlements, camps, or events coming from or belonging to them.</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a href=\"/the-gorrillo-bandits\">The Gorrillo Bandits</a>, <a href=\"/anti-slavers\">Anti-Slavers</a>, <a href=\"/black-dragon-ninjas\">Black Dragon Ninjas</a>, <a href=\"/hounds\">Hounds</a>, <a href=\"/thrall-masters\">Thrall Masters</a>, <a href=\"/fishmen\">Fishmen</a>, and <a href=\"/slave-traders\">Slave Traders</a> could be considered to be at near-complete destruction when taken out as they would have zero homeless spawns, with only base assaults or a few settlements under their faction label remaining for some of them.</span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\"><a href=\"/berserkers\">Berserkers</a>, <a href=\"/band-of-bones\">Band of Bones</a>, <a href=\"/krals-chosen\">Kral's Chosen</a>, <a href=\"/red-sabres\">Red Sabres</a>, <a href=\"/swamp-ninjas\">Swamp Ninjas</a>, <a href=\"/crab-raiders\">Crab Raiders</a>, <a href=\"/skeleton-bandits\">Skeleton Bandits</a> and <a href=\"/scavengers\">Scavengers</a> are examples of this.</span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\"><a href=\"/holy-farms\">Holy Farms</a>, <a href=\"/watchtower-town\">Watchtower</a> and <a href=\"/narkos-trap\">Narko's Trap</a> will still be functional under HN control even if <a href=\"/high-inquisitor-seta\">Seta</a>, <a href=\"/holy-lord-phoenix\">Phoenix</a> and <a href=\"/high-inquisitor-valtena\">Valtena</a> are all taken out.</span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\"><a href=\"/tengus-vault\">Tengu's Vault</a> and <a href=\"/farming-village\">Farming Village</a> will always be functional and under UC control.</span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\"><a href=\"/spring\">Spring</a> will always be functional and under control of <a href=\"/anti-slavers\">Anti-Slavers</a></span></li><li id=\"cite_note-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-9\">↑</a></span> <span class=\"reference-text\"><a href=\"/scout-post\">Scout Posts</a> will always be functional and under control of <a href=\"/flotsam-ninjas\">Flotsam Ninjas</a>.</span></li><li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">↑</a></span> <span class=\"reference-text\"><a href=\"/berserker-village\">Berserker Village</a> and (potentially) <a href=\"/admag\">Admag</a> and <a href=\"/squin\">Squin</a> will always be (barely) functional under <a href=\"/berserker\">Berserker</a> control.</span></li><li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-11\">↑</a></span> <span class=\"reference-text\"><a href=\"/exile-camp\">Exile Camp</a> and (potentially) <a href=\"/grayflayer-village\">Grayflayer Village</a> will always be functional and under <a href=\"/band-of-bones\">Band of Bones</a> control.</span></li><li id=\"cite_note-12\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-12\">↑</a></span> <span class=\"reference-text\"><a href=\"/last-stand\">Last Stand</a> and <a href=\"/the-great-fortress\">The Great Fortress</a> will always be functional (only barely for the latter) and under <a href=\"/shek-kingdom\">Shek Kingdom</a> control.</span></li><li id=\"cite_note-13\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-13\">↑</a></span> <span class=\"reference-text\"><a href=\"/wrath-of-god\">Wrath of God</a>, <a href=\"/challenger-of-the-undefeated\">Challenger of the Undefeated</a> and <a href=\"/invincible-vengeance\">Invincible Vengeance</a> are potentially never-ending with or without any leaders.</span></li><li id=\"cite_note-14\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-14\">↑</a></span> <span class=\"reference-text\"><a href=\"/wrath-of-god\">Wrath of God</a> and <a href=\"/hive-attack-western-hive\">Hive Attack (Western Hive)</a>/<a href=\"/hive-attack-southern-hive\">Hive Attack (Southern Hive)</a> have variants that are specifically spawning only when the leader is captured but not killed, with the stated intention to bring them back.</span></li><li id=\"cite_note-15\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-15\">↑</a></span> <span class=\"reference-text\"><a href=\"/stack/shek-kingdom\">Stack/Shek Kingdom</a>, <a href=\"/bad-teeth/shek-kingdom\">Bad Teeth/Shek Kingdom</a>, <a href=\"/blackshifters\">Shark/Blackshifter</a> are examples of this.</span></li><li id=\"cite_note-16\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-16\">↑</a></span> <span class=\"reference-text\"><a href=\"/holy-mines/slave-traders\">Holy Mines/Slave Traders</a> and <a href=\"/okrans-shield/reavers\">Okran's Shield/Reavers</a> are examples of this, as they will switch to <a href=\"/holy-mines/destroyed\">their</a> <a href=\"/okrans-shield/destroyed\">respective</a> destroyed overrides upon second entry.</span></li></ol>",
+          "line": 70,
+          "sourceFile": "src/content/wiki/world-states.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:character-world-state-overview",
+      "kind": "claim",
+      "target": "/world-states",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The overview generalizes death/imprisonment, Okay predicates, release reversals and the meaning of Prosperous override names.",
+      "proposedResolution": "Check the exact state predicates, override priority and reentry behavior against the sixteen retained notes; preserve explicit Dust King and Hive Queen exceptions.",
+      "uncertainty": "A label such as Prosperous is not a measured welfare value, and the overview must not erase character-specific exceptions.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "world-states",
+          "sourceFile": "src/content/wiki/world-states.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "a90d8a4ac260e792101566d46f461b54cd526edb031e56fd083ecdbc592db5ec",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/world-states.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "world-states",
+          "label": "Generally speaking, it doesn't matter whether you Imprison or Kill a faction leader, the results will remain the same except in a few cases<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup><sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup>. When certain condition states that it requires a person to be dead, imprisoning said character will also work. Conversely, if a condition states that it requires a person to be alive, it means that they should be alive AND free (not imprisoned). If (in [FCS](/forgotten-construction-set)) a condition checks whether or not a person is \"Okay\", it means whether or not they are both alive AND free.",
+          "literal": "Generally speaking, it doesn't matter whether you Imprison or Kill a faction leader, the results will remain the same except in a few cases<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup><sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup>. When certain condition states that it requires a person to be dead, imprisoning said character will also work. Conversely, if a condition states that it requires a person to be alive, it means that they should be alive AND free (not imprisoned). If (in [FCS](/forgotten-construction-set)) a condition checks whether or not a person is \"Okay\", it means whether or not they are both alive AND free.",
+          "line": 16,
+          "sourceFile": "src/content/wiki/world-states.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "world-states",
+          "label": "If a character tied with homeless spawns was kidnapped or imprisoned but was later released, the homeless spawns tied with said character will all come back to effect. This appears to be intended as it likely accounts for successful rescue operations intended to bring their leader back alive<sup id=\"cite_ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">[</span>14<span class=\"cite-bracket\">]</span></a></sup>, [Town Overrides](/town-overrides) may also switch in certain cases<sup id=\"cite_ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">[</span>15<span class=\"cite-bracket\">]</span></a></sup>, in some cases it is even _necessary_ for the person needed to be initially killed/imprisoned to achieve the override to be _later released_ for the override to persist<sup id=\"cite_ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">[</span>16<span class=\"cite-bracket\">]</span></a></sup>.",
+          "literal": "If a character tied with homeless spawns was kidnapped or imprisoned but was later released, the homeless spawns tied with said character will all come back to effect. This appears to be intended as it likely accounts for successful rescue operations intended to bring their leader back alive<sup id=\"cite_ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">[</span>14<span class=\"cite-bracket\">]</span></a></sup>, [Town Overrides](/town-overrides) may also switch in certain cases<sup id=\"cite_ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">[</span>15<span class=\"cite-bracket\">]</span></a></sup>, in some cases it is even _necessary_ for the person needed to be initially killed/imprisoned to achieve the override to be _later released_ for the override to persist<sup id=\"cite_ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">[</span>16<span class=\"cite-bracket\">]</span></a></sup>.",
+          "line": 22,
+          "sourceFile": "src/content/wiki/world-states.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "world-states",
+          "label": "-   Despite popular misconception, many of the overrides that are labelled \"Prosperous\" in the [FCS](/forgotten-construction-set) does not necessarily mean that the town/city/village in question is more prosperous than it was before and may even be at a worse condition (e.g. more buildings destroyed or more malnourished individuals). Rather, it is considered a \"Prosperous\" override because when compared to all the other overrides for said area, the override in question is the best one it could achieve.",
+          "literal": "-   Despite popular misconception, many of the overrides that are labelled \"Prosperous\" in the [FCS](/forgotten-construction-set) does not necessarily mean that the town/city/village in question is more prosperous than it was before and may even be at a worse condition (e.g. more buildings destroyed or more malnourished individuals). Rather, it is considered a \"Prosperous\" override because when compared to all the other overrides for said area, the override in question is the best one it could achieve.",
+          "line": 68,
           "sourceFile": "src/content/wiki/world-states.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         },

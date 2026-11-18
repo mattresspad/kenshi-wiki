@@ -113,7 +113,12 @@
       "esata-the-stone-golem",
       "flying-bull",
       "mukai-the-mountain",
-      "mad-cat-lon"
+      "mad-cat-lon",
+      "holy-chosen",
+      "hundred-guardian",
+      "kamikaze",
+      "starving-vagrant",
+      "strayed-paladin"
     ],
     "patrol|military|population|frequency|berserk|hunt down",
     "Patrol changes are used to infer military losses, strategic intent or population changes.",
@@ -155,5 +160,72 @@
     "Queen of the South describes hunger behavior that conflicts with the interface message.",
     "Check race hunger fields and an observed captivity trial with version and elapsed game time.",
     "An interface tooltip and exported hunger rate are different evidence; neither alone verifies starvation."
+  ],
+  [
+    "character-errorcode-hex",
+    [
+      "error-code-0xffffff"
+    ],
+    "64-bit|binary notation|overflow",
+    "The imported trivia incorrectly calls 0xFFFFFF the maximum unsigned 64-bit integer and calls hexadecimal binary notation.",
+    "Correct the mathematical statement in a separate editorial change: 0xFFFFFF = 2^24 - 1 = 16777215; the unsigned 64-bit maximum is 2^64 - 1. Keep fictional cause and developer-intent speculation separate.",
+    "The arithmetic discrepancy is established; the lore explanation remains speculation."
+  ],
+  [
+    "character-rebirth-slave-context",
+    [
+      "rebirth-slave"
+    ],
+    "colour armour|Statistics",
+    "Rebirth Slave lacks an explanatory introduction or location, behavior and recruitment context beyond profile tables.",
+    "Restore context from its pinned source revision and character/squad records; compare Lower Servant and Slave without assuming an alias.",
+    "A statistics profile alone does not explain when this distinct record appears."
+  ],
+  [
+    "character-npc-ai-workarounds",
+    [
+      "error-code-0xffffff",
+      "errorcode-0x000000",
+      "guild-plastic-surgeon",
+      "no-face",
+      "reaver-slave",
+      "protector-of-the-flame"
+    ],
+    "save|load|cage|bug|repeat|spawn|unloaded|retreat",
+    "NPC pages describe reload workarounds, unloaded pursuit, repeated enslavement, cage behavior and respawning.",
+    "Reproduce each named instruction using pinned character/squad/dialogue records and fresh plus saved games.",
+    "AI jobs, personality restrictions and persistence can change the outcome; retained advice is not newly verified."
+  ],
+  [
+    "character-incomplete-instructions",
+    [
+      "swamper-casino-dealer",
+      "skeleton-resident"
+    ],
+    "Fill out|16.78|incomplete|out of date",
+    "Casino instructions include an editorial placeholder and an unexplained 16.78% jackpot probability; Skeleton Resident is explicitly incomplete.",
+    "Recover the dialogue outcomes and weight denominator for the casino; complete the resident profile from its source records.",
+    "Do not infer equal outcome probabilities from the displayed choice list."
+  ],
+  [
+    "character-name-intent",
+    [
+      "sandas-noble-guard",
+      "slavemonger"
+    ],
+    "dashes|cut content|intended",
+    "Record-name dashes are treated as evidence of intended removal despite the NPCs appearing in game.",
+    "Separate the observed spawn and naming-fix mod from unverified claims about developer intent.",
+    "Punctuation in a record name is not proof of intended availability."
+  ],
+  [
+    "character-world-state-overview",
+    [
+      "world-states"
+    ],
+    "Generally|Okay|Prosperous|imprison|released",
+    "The overview generalizes death/imprisonment, Okay predicates, release reversals and the meaning of Prosperous override names.",
+    "Check the exact state predicates, override priority and reentry behavior against the sixteen retained notes; preserve explicit Dust King and Hive Queen exceptions.",
+    "A label such as Prosperous is not a measured welfare value, and the overview must not erase character-specific exceptions."
   ]
 ]
