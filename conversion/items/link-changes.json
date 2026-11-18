@@ -720,5 +720,38 @@
       "/riceweed-farming-tech",
       "/sake-distillation-tech"
     ]
+  },
+  {
+    "name": "items-6",
+    "resolved": [
+      "/simple-rug",
+      "/skeleton-eye",
+      "/skeleton-muscle",
+      "/skeleton-repair-kit",
+      "/sleeping-bag",
+      "/small-emperor-statue",
+      "/splint-kit",
+      "/spring-steel",
+      "/standard-first-aid-kit",
+      "/steel-bars",
+      "/strawflour",
+      "/the-little-boy-that-got-dismembered-by-skeletons",
+      "/thinfish",
+      "/tools",
+      "/trade-goods",
+      "/unique-items",
+      "/water",
+      "/water-jug",
+      "/weapons/classes",
+      "/wheatstraw",
+      "/wooden-bowl",
+      "/wrench"
+    ],
+    "introduced": [
+      "/sleeping-bags-tech",
+      "/water-tower",
+      "/wheat-farm",
+      "/wheatstraw-farming-tech"
+    ]
   }
 ]

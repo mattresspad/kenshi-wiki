@@ -5951,6 +5951,358 @@
       "questions": [
         "claim:item-quality-and-prices"
       ]
+    },
+    {
+      "id": "simple-rug",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Simple Rug is a trade good that can be found in some residences as well as in Shark Mechanical Shop, Mongrel General Shop and in Shek General stores for sale. It can be picked up from the floor with an “Alt+left click”. Simple Rug can be placed back on the floor by simply dragging it out of the inventory of a character. There is an expensive version of this ",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/simple-rug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3c3bba63da696c07244d907510b3d0f5491acc4fe2049f419c7765548dc62941"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "skeleton-eye",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Skeleton Eye is an item which can be found in ancient locations. It serves no function outside of being worth a decent amount of money. Found in: Armoury Ruin Ancient Labs Lost Town Noble House",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-eye.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a061e289e5e3fd94bbff5444a79b7ebd2742fe0284731f31ad542bbec2a50220"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "skeleton-muscle",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Skeleton Muscle is a trade good which can be crafted at a Robotics Bench. Muscles can be found in various ruins including Ancient Labs or looted from Robotic animals. They can most efficiently be stored in Robotics Storage. It is also used in crafting artificial limbs. Robotics Bench Used In 1 x Robotics Components Drops 1 x Security Spider 1 x Security Spid",
+      "organization": "Reviewed 4 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-muscle.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3905cd485aab0a52c6c3db18a177bfe28b07c02c9e5943c47a1470ec74f7dcee"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "skeleton-repair-kit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Skeleton Repair Kits are medical items used to heal cutting damage on robotic body parts. Players can learn how to craft this item by researching Robotics. After researching, these kits can be crafted on a Robotics Bench. These kits can be stored in Storage: Robotics. They can be found on some skeleton characters (such as Tinfist) and Police Chiefs (United C",
+      "organization": "Reviewed 1 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-repair-kit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f83a5092ee25518529d8c119e9bf449fa56ac699bf4907af0d20e56cef3978e6"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-medical-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "sleeping-bag",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Sleeping Bags can be created at a (Basic) Medical Workbench or bought from a Travel Shop. They are used as the only ingredient in a Camp Bed which can be placed via the “Building menu”. When the Camping Bed is dismantled a Sleeping Bag is returned, allowing for it to be used again. Medical Workbench Crafting Unlocked by:Sleeping Bags research: 2 hours at tec",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sleeping-bag.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "75ae2b36513eca1d782c9d91a7aa5ec80f7e61163f3f1544f08ccee3c966a7f6"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "small-emperor-statue",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Small Emperor Statue is a useless junk Item: no purpose other than trading and only worth a small amount. This item can be found in Residential Buildings. When starting out, stealing this item along with other junk can help players increase their Thievery stat with little risk (if the building is empty) and reward.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/small-emperor-statue.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6976b86053ac6f24ae7fbc0e80c6b02ba1d00dfbe1371db5b46fa5ad0a95972b"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "splint-kit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Splint Kits are medical items used to improve functionality of injured limbs. Once applied, they help limping characters run normally, except in most extreme cases of limb damage. Players can learn how to craft this item by researching Splints. After researching, these kits can be crafted on any Medical Workbench. These kits can be stored in a Medicrate. The",
+      "organization": "Reviewed 2 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/splint-kit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "accb086abe695c65c0380c857eddf35c65ec3ed090e69f4a75a0a1b63a9d9f90"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-medical-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "spring-steel",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Spring Steel is an item which can be turned into Crossbow Parts. It is created at the Arrow Making Bench after researching Crossbow Crafting. It can be purchased from construction goods vendors such as Mechanical Shops, though it has a relatively low chance of spawning in their shop inventory. It can be stored in Storage: Crossbow Parts. The item is also nee",
+      "organization": "Reviewed 1 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/spring-steel.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7ca78ea579d423f4d86cc1771d40f584dae5f95b65d7747e9503b132ecb96a28"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "standard-first-aid-kit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Standard First Aid Kits are medical items used to heal cutting damage on organic body parts. Players can learn how to craft this item by researching Medicine. After researching, these kits can be crafted on a Medical Workbench. These kits can be stored in a Medicrate. This standard of medical coverage is favored by the United Cities Police units, Bounty Hunt",
+      "organization": "Reviewed 1 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/standard-first-aid-kit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "11da29b61be1015284efa2c28aed29f78d3f87e59c2aaa6207284582bbd49c08"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "steel-bars",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Steel Bars are a trade good used in the production process of crossbows, high-tier melee weapons as well as in the creation of Chain Armour, Chainmail Sheets and Skeleton Repair Kits. They can be bought at Trade Goods Shops and occasionally found in some ancient locations. Steel bars can be made by a Steel Refinery with Iron Plates. With the first level of r",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/steel-bars.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e6c2da404c89b67ded8c3cd5f1dc52e910fa97b5a88793d4f0817ae28d3ce60f"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "strawflour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Strawflour is an inedible raw ingredient created by milling Wheatstraw in a Grain Silo. It is combined with Water to produce Bread utilizing a Bread Oven. This item can be stored in Flour Storage. It can be purchased from Trade Goods Traders at various settlements. Grain Silo Used In Bread History Crafting",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/strawflour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f6a6c6c9fcc5e8f231cfef0fdd77e05baf3e0c72346b3f387fd1b5b29dd0c6ec"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "the-little-boy-that-got-dismembered-by-skeletons",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Little Boy That Got Dismembered By Skeletons is a book item found in The Holy Nation. This item can be found in many Holy Nation vendors. From this item, players learn how deeply entrenched the hatred of skeletons is in The Holy Nation. Due to there being a lack of children in Kenshi, this book does give some insight as to the way that children are indoc",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-little-boy-that-got-dismembered-by-skeletons.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "67e05681280459232cde208442e519f9295e7d23a7ef30907019691442b4cad0"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "thinfish",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Thinfish is a food item which can only be obtained through trading or thieving. Fish and Drugs Sellers sell Thinfish. Although Dried Fish is described to be made from Thinfish, players cannot cook this item. The name originates from the fact that it’s simply thinner than the other type of fish, the Grand Fish. Crafting Trivia Thinfish is the most expensive f",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thinfish.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4e4cd97a1e99382d6497e59f7ea782ee66496fc23d30837fe894b49f66486d9d"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-uncraftable-recipes"
+      ]
+    },
+    {
+      "id": "tools",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Tools are an item that can be bought and sold to make a very small profit. They are sold by Trade Goods Traders. They can also be used in the construction of Thief Training Boxes and to open locked containers without requiring the Lockpicking skill. The higher your strength level the faster they work. Details Stacks in sizes of 4 History Crafting Trivia If y",
+      "organization": "Reviewed 4 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tools.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "139e39e4a159b3f866117983033b5d855ad79d9aceee54f286e46608404f2115"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "trade-goods",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Trade Goods are items generally meant for trading, crafting or other uses depending on the item. They buy and sell for their full value unlike most other items, which tend to sell for a much lower value, and are often either ingredients or craftable themselves. Stolen trade goods, however, will sell for half the price, like most other items. The value at any",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/trade-goods.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "538ca146fc03497a7aadd9d518c6aea9c915706c4cc1c61fe9fd8d2028a583a1"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-trade-markups"
+      ]
+    },
+    {
+      "id": "unique-items",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Unique Items are items which have no function and can only be found in very specific locations in game. There is likely only one of each of these items. Bull Horn Axe Coin Doll CPU of Cat-Lon CPU of the Head of Agriculture CPU of General Hat-12 CPU of General Jang CPU of Rhinobot Chalice Of Fire Great White Claw Great White Skin Gurgler Head Half-Eaten Ancie",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/unique-items.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "615f8e6074bb549424ad56b9ea8675e75b2fa045f5dc1b62438b1f5340bd900d"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-unique-use-contradiction"
+      ]
+    },
+    {
+      "id": "water-jug",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Water Jug is a useless junk Item: no purpose other than trading and only worth a small amount. This item can be found in Residential Buildings. When starting out, stealing this item along with other junk can help players increase their Thievery stat with little risk (if the building is empty) and reward. Despite being full of Water, the Water Jug is not func",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/water-jug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2012b9c9eb68400cd2171e5145730852b92fc67600895a7a4d78103846180e67"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "water",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Water is necessary for the production of several items and vital for the production of crops. It can be acquired from a Well or a Rain Collector and stored in a Water Tower or Water Tank. It cannot be consumed as food, nor is needed for any sort of cooling or dehydration prevention in the deserts of Kenshi. Used In Bread (0.25) Cactus Rum (1) Chewsticks (0.2",
+      "organization": "Reviewed 2 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/water.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8141edbef500c9e654edea3a2fef537089bd9c74d0782295c19c55f426459801"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "weapons/classes",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Different weapons deal damage in different ways. Blunt Weapons Blunt Weapons primarily deal stun damage, which does not require a first aid kit to heal. Hackers Hackers are weapons which balance cutting and stun damage. Hackers deal additional damage against Robots, and have impressive armour penetration. Their drawback is that they are slightly less effecti",
+      "organization": "Reviewed 7 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/weapons/classes.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e8c196b7c22193c7454096f0f034b87fd01a9858386cc2737a6c9536c7accebe"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "wheatstraw",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Wheatstraw is an inedible raw ingredient used to produce Strawflour in a Grain Silo or Grog with a Grog Distillery. Players can grow wheat at a Wheat Farm and store it in Storage: Wheatstraw after researching Wheatstraw Farming. It can be turned into fuel at a Biofuel Distillery and into flour at a Grain Silo. It can be purchased from Trade Goods Traders or ",
+      "organization": "Reviewed 1 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wheatstraw.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c9a89a9652e664a41d6117b724f04ffdef772243afb836f6beab124684a3ed44"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "wooden-bowl",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Wooden Bowl is a junk item with no purpose other than trading. It is only worth a small amount. This item can be found in Residential Buildings. When starting out, stealing this item along with other junk can help players increase their Thievery stat with little risk (if the building is empty) and reward.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wooden-bowl.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7004f0fbfad9016adcd30b30c6fec6e528cf495b41b5ed9595c710149a3c47c6"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "wrench",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Wrench is a useless junk Item which can be sold for c.90. Lore-wise it’s used as a tool to fix certain broken-down machinery.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wrench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "432281451bbdc551fdb47a190511dfdd91b2b3c4baa07940d86baaac5dd68509"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [
