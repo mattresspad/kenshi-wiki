@@ -741,5 +741,39 @@
       "/skeleton-doctor"
     ],
     "introduced": []
+  },
+  {
+    "name": "npcs-9",
+    "resolved": [
+      "/skeleton-drifter",
+      "/skeleton-grayflayer",
+      "/skeleton-resident",
+      "/skin-bandit",
+      "/slave",
+      "/slave-hunter",
+      "/slave/civilian",
+      "/slave/outlaw",
+      "/slave/ronin",
+      "/slave/tough",
+      "/slave/tough-not-hiver",
+      "/slave/warrior",
+      "/slavemonger",
+      "/slaver",
+      "/slaver-boss",
+      "/slaver-caravan-boss",
+      "/slaver-caravan-guard",
+      "/slaver-guard",
+      "/slaver-heavy-guard",
+      "/smuggler",
+      "/sniperbot",
+      "/soldier-drone",
+      "/soldierbot-character",
+      "/soldierbot-guard",
+      "/spider-foreman"
+    ],
+    "introduced": [
+      "/dyed-turban",
+      "/human-skin"
+    ]
   }
 ]

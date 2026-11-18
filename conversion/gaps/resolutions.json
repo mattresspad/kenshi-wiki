@@ -8472,6 +8472,28 @@
       }
     },
     {
+      "id": "availability:/skeleton-drifter",
+      "kind": "availability",
+      "target": "/skeleton-drifter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-drifter"
+      }
+    },
+    {
+      "id": "availability:/skeleton-grayflayer",
+      "kind": "availability",
+      "target": "/skeleton-grayflayer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-grayflayer"
+      }
+    },
+    {
       "id": "availability:/skeleton-legion",
       "kind": "availability",
       "target": "/skeleton-legion",
@@ -8549,6 +8571,17 @@
       }
     },
     {
+      "id": "availability:/skeleton-resident",
+      "kind": "availability",
+      "target": "/skeleton-resident",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-resident"
+      }
+    },
+    {
       "id": "availability:/skeletons",
       "kind": "availability",
       "target": "/skeletons",
@@ -8601,6 +8634,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skimsands"
+      }
+    },
+    {
+      "id": "availability:/skin-bandit",
+      "kind": "availability",
+      "target": "/skin-bandit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skin-bandit"
       }
     },
     {
@@ -8703,6 +8747,17 @@
       }
     },
     {
+      "id": "availability:/slave",
+      "kind": "availability",
+      "target": "/slave",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave"
+      }
+    },
+    {
       "id": "availability:/slave-escapee",
       "kind": "availability",
       "target": "/slave-escapee",
@@ -8755,6 +8810,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/slave-farm/destroyed"
+      }
+    },
+    {
+      "id": "availability:/slave-hunter",
+      "kind": "availability",
+      "target": "/slave-hunter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-hunter"
       }
     },
     {
@@ -8879,6 +8945,149 @@
       }
     },
     {
+      "id": "availability:/slave/civilian",
+      "kind": "availability",
+      "target": "/slave/civilian",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave/civilian"
+      }
+    },
+    {
+      "id": "availability:/slave/outlaw",
+      "kind": "availability",
+      "target": "/slave/outlaw",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave/outlaw"
+      }
+    },
+    {
+      "id": "availability:/slave/ronin",
+      "kind": "availability",
+      "target": "/slave/ronin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave/ronin"
+      }
+    },
+    {
+      "id": "availability:/slave/tough",
+      "kind": "availability",
+      "target": "/slave/tough",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave/tough"
+      }
+    },
+    {
+      "id": "availability:/slave/tough-not-hiver",
+      "kind": "availability",
+      "target": "/slave/tough-not-hiver",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave/tough-not-hiver"
+      }
+    },
+    {
+      "id": "availability:/slave/warrior",
+      "kind": "availability",
+      "target": "/slave/warrior",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave/warrior"
+      }
+    },
+    {
+      "id": "availability:/slavemonger",
+      "kind": "availability",
+      "target": "/slavemonger",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slavemonger"
+      }
+    },
+    {
+      "id": "availability:/slaver",
+      "kind": "availability",
+      "target": "/slaver",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slaver"
+      }
+    },
+    {
+      "id": "availability:/slaver-boss",
+      "kind": "availability",
+      "target": "/slaver-boss",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slaver-boss"
+      }
+    },
+    {
+      "id": "availability:/slaver-caravan-boss",
+      "kind": "availability",
+      "target": "/slaver-caravan-boss",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slaver-caravan-boss"
+      }
+    },
+    {
+      "id": "availability:/slaver-caravan-guard",
+      "kind": "availability",
+      "target": "/slaver-caravan-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slaver-caravan-guard"
+      }
+    },
+    {
+      "id": "availability:/slaver-guard",
+      "kind": "availability",
+      "target": "/slaver-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slaver-guard"
+      }
+    },
+    {
+      "id": "availability:/slaver-heavy-guard",
+      "kind": "availability",
+      "target": "/slaver-heavy-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slaver-heavy-guard"
+      }
+    },
+    {
       "id": "availability:/slaves",
       "kind": "availability",
       "target": "/slaves",
@@ -8898,6 +9107,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/small-time"
+      }
+    },
+    {
+      "id": "availability:/smuggler",
+      "kind": "availability",
+      "target": "/smuggler",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/smuggler"
       }
     },
     {
@@ -8934,6 +9154,28 @@
       }
     },
     {
+      "id": "availability:/sniperbot",
+      "kind": "availability",
+      "target": "/sniperbot",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sniperbot"
+      }
+    },
+    {
+      "id": "availability:/soldier-drone",
+      "kind": "availability",
+      "target": "/soldier-drone",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/soldier-drone"
+      }
+    },
+    {
       "id": "availability:/soldier-drone-swordslinger",
       "kind": "availability",
       "target": "/soldier-drone-swordslinger",
@@ -8953,6 +9195,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/soldierbot"
+      }
+    },
+    {
+      "id": "availability:/soldierbot-character",
+      "kind": "availability",
+      "target": "/soldierbot-character",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/soldierbot-character"
+      }
+    },
+    {
+      "id": "availability:/soldierbot-guard",
+      "kind": "availability",
+      "target": "/soldierbot-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/soldierbot-guard"
       }
     },
     {
@@ -9085,6 +9349,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/spider-factory"
+      }
+    },
+    {
+      "id": "availability:/spider-foreman",
+      "kind": "availability",
+      "target": "/spider-foreman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-9",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/spider-foreman"
       }
     },
     {

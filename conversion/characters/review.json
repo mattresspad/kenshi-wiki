@@ -6287,6 +6287,396 @@
         "claim:character-equipment-probability",
         "claim:character-fcs-statistics"
       ]
+    },
+    {
+      "id": "skeleton-drifter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Skeleton Drifters are wanderers or civilians that belong to several factions: Skeletons, Drifters, Flotsam Ninjas, Mongrel, or Tech Hunters. As civilians of the Flotsam or Mongrel, they can be rarely found patrolling and shopping in the respective towns. Otherwise they can be found wandering several biomes such as Cannibal Plains, Heng, Iron Valleys, The Eye",
+      "organization": "Reviewed 12 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-drifter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "28a8fc17963293e94df246f9c3afbefaa1fb82a7c230777e4ccf251c4d52d240"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "skeleton-grayflayer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Skeleton Grayflayer is a member of the Grayflayers. They can be found in the Grayflayer Village. They wear [Standard] armour (5% chance of [High]) and have weapons manufactured by Ancient. Statistics Skeleton Trivia Unlike most other characters in Kenshi, Skeleton Grayflayer does not have any stat randomizers.",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-grayflayer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "66de1d9fd1707da1b408c396a58f532e4fa4b28beed086e86e67fd0dada3bf6e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "skeleton-resident",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Skeleton Residents are inhabitants of Black Desert City. Statistics Skeleton",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-resident.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "698373309c6e98677e7d19b1650c4445402d49682f5a72e68d5759b031a752a7"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-incomplete-instructions",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "skin-bandit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I spit mouth fluid for the skinless... Skin Bandits are members of the Skin Bandits faction. They can be found in Skinhouses, Skinhouse HQ, and in squads patrolling Sonorous Dark. They wear [Shoddy] armour (22% chance of [Standard]) and have weapons manufactured by Ancient, Catun Scrapmaster, or Skeleton Smiths. Removing these items from the creature will ki",
+      "organization": "Reviewed 1 section bookmarks and 17 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skin-bandit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6754bde78af6bad70f4b23c64a77b3bb45ea17a03e294b25f315e144b43eca89"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "slave",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: There are 6 separate Slave characters in Kenshi. All of them have randomized names and the same stats. They all belong to the Outlaw Faction and are typically enslaved by the Slave Traders. They can also spawn with the Noble Hunter. In that instance they will be slaves of the United Cities. There are many different Dialogue Packages which slaves can have whi",
+      "organization": "Reviewed 0 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6bd328d72f09b2e84ea2be1a64d1433fb14940d046b962967412938269e01252"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "slave-hunter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slave Hunters are members of the faction of Slave Hunters. They patrol the areas around The Great Desert in groups of 4 ~ 10. and will attack lone individuals and small groups in an attempt to pass them off as escaped slaves. They will not do this if there are witnesses around, however. In many ways, they are essentially a weaker and less numerous Manhunter.",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-hunter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "eba5239043844bc08925f65ac1b05ce3248e26c289a033f2142567bfb1f33ef3"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "slave/civilian",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This character has the “Npc CIVILIAN Basic 1” dialogue package. They have a set “Random” Personality, so these personalities are common: Honorable, Traitorous, Smart, Dumb, Brave, Fearful, and Maniacal. If this character manages to join the player faction, they will have the “Player CIVILIAN” dialogue package.",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave/civilian.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c11d255e456c6c8816f0129e763f681b7ecc25708687bb09ecc51eb98074c8d4"
+      },
+      "questions": [
+        "claim:character-equipment-probability"
+      ]
+    },
+    {
+      "id": "slave/outlaw",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This character has the “Npc OUTLAW Basic 1” and “Npc THUG Escapes 2” dialogue packages. They have no set Personality, so there is likely an even chance for all personality types. If this character manages to join the player faction, they will have the “Player THUG” dialogue package.",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave/outlaw.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6abdce0c4e6aabde1bf3996cb9b2ad8ee2e972d50f83aa9492644e8e3ee60933"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-historical-lore",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "slave/ronin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This character has the “Npc HIVER Ronin - Complete Package” dialogue package. They commonly have an Honorable or Brave Personality and will rarely have a Traitorous, Maniacal, or Fearful personality. If this character manages to join the player faction, they will have the “Player HIVER Ronin” dialogue package.",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave/ronin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5073b45e8f3fe434ae5e8e0c537c424ccfee7cff659671260e81b71606d47306"
+      },
+      "questions": [
+        "claim:character-equipment-probability"
+      ]
+    },
+    {
+      "id": "slave/tough",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This character has the “base slave” dialogue package. They have no set Personality, so there is likely an even chance for all personality types. If this character manages to join the player faction, they will have the “Player TOUGH Merc” dialogue package.",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave/tough.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2ab604fc7bc77bc924a80d2791aa2ef313bf8f63d4801c6aba676a9f1dcfe117"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "slave/tough-not-hiver",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This character has the “Npc TOUGH Merc Basic 1”, “Npc TOUGH Merc Escape 4”, and “Npc TOUGH Merc Aggro 2” dialogue packages. They have a set “Random” Personality, so these personalities are common: Honorable, Traitorous, Smart, Dumb, Brave, Fearful, and Maniacal. If this character manages to join the player faction, they will have the “Player TOUGH Merc” dial",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave/tough-not-hiver.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f1d5a0424d57d7936d2d988df78750c61e5df598c843d6465fa04b3b6cbf762c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "slave/warrior",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This character has the “Npc Shek Warrior - Base 1” dialogue package. They have a set “Random” Personality, so these personalities are common: Honorable, Traitorous, Smart, Dumb, Brave, Fearful, and Maniacal. If this character manages to join the player faction, they will have the “Player SHEK Warrior” dialogue package.",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave/warrior.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "81788a946e021add7919d5e474023c7fe5ab0a4cbc9a08f4347cf21c1a1a033c"
+      },
+      "questions": [
+        "claim:character-equipment-probability"
+      ]
+    },
+    {
+      "id": "slavemonger",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You are now a slave.I am taking your possessionsI am taking your name.You are property. Follow the orders of your master and you will be treated well.Forget your place and you will be punished.Try to escape and you will be disposed of.Slavemonger reciting slaver mantra. Slavemongers are foot-soldiers of the Slave Traders, tasked with finding new slaves. They",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slavemonger.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f04cf57add4c7a7956df720010eadb1e16c40ba4810fefd481c4fbcd106cc402"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-name-intent",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "slaver",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slavers are typical members of the Slave Traders. They are frequently found in slave camps where they act as quartermasters, workmasters, and wardens. Slavers are also hired by The Holy Nation to keep slaves in line at the Holy Mines. They wear [Shoddy] armour (10% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Greenlander Scorchl",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slaver.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "20038f821de911c72ea63c32d18e03690ef8faeb7c07c26728b161cd2e384cfc"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "slaver-boss",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Slaver Boss is the shopkeeper of a Slave Shop. They will purchase slaves which the player or slave hunting NPCs are carrying. They will also sell slaves to the player, including enslaved player characters. They wear [Standard] armour (10% chance of [High]) and have weapons manufactured by Catun Scrapmaster. This character can colour armour and clothing due",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slaver-boss.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "248fb903a333a73b1ba8efd6a977c425603174b1423c03cb0f1a257266cc09d6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "slaver-caravan-boss",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slaver Caravan Bosses are leading members of the Slave Traders. They are often found in drinking away their money in Slaver Bars, or on the road between territories controlled by the United Cities, Traders Guild, and Slave Traders. They are usually found leading a caravan, followed by groups of 7 to 14 Slaver Caravan Guards. The caravan is sometimes accompan",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slaver-caravan-boss.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2a04f6c2cf50cb047584f214139eea73cf6fad0bc180d1fd99cf9413baa2c5e3"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "slaver-caravan-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slaver Caravan Guards are common guards of the Slave Traders. They are often found in drinking away their money in Slaver Bars, or on the road between territories controlled by the United Cities, Traders Guild, and Slave Traders. They are usually found in groups of 7 to 14, led by a Slaver Caravan Boss. The caravan is sometimes accompanied by a Slaver Heavy ",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slaver-caravan-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6d4627bada5576be69941c7d06bc962254cbae9d6ed66a5b85f58489b9898194"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "slaver-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slaver Guards are common soldiers of the Slave Traders. They are frequently found in slaver-owned towns and act as guards and patrols to the establishments within. Despite their status as guards, they are no stronger than the typical Slaver - though they do wear better armour. They have a chance to spawn with a Ranger crossbow to differentiate them from thei",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slaver-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fda60589c2a0cd1c08a1c8c510fc61d60ff4d63747d99073962d90484981020d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "slaver-heavy-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: We've got a runner!Slaver Heavy Guard spotting an escapee Slaver Heavy Guards are members of the Traders Guild. They are a melee-only variant of the Slaver Guard, and despite being called a ‘heavy’, wear the same armour of their non-heavy counterparts. They are frequently found patrolling slave camps and guarding the gates, and occasionally accompany Slaver ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slaver-heavy-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "99a0d8975702606f1d8b6836398125e66ef8be5aa748e2c78b8bea1a12ef3c6b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "smuggler",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Smugglers are members of the Grayflayers faction. Eight can be found in the Smugglers Bar. They have a 5% chance of spawning with a bounty ranging from 1,500 to 2,500 cats. They wear [Standard] armour (15% chance of [High]) and have weapons manufactured by Ancient or Catun Scrapmaster. Statistics Greenlander Scorchlander Shek Hive Prince",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/smuggler.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "47181ec4bb8ebf7fb669dc57acb6e457bccc09690948053c45fdf1b5e06278d7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "sniperbot",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I don't like this place, feels like I'm being watched.We should move fast.Player characters upon entering Sniper Valley Sniperbots are members of the Old Machines which can be found patrolling in the southeast. Specifically, they can spawn in the zones Sniper Valley, Sonorous Dark, Stobe’s Gamble, The Crags, and The Pits. Sniper Valley is likely to be exclus",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sniperbot.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "53507423473b9b53e2078ae248e2dd3be245567b62cac1b1be7927b1779b976a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "soldier-drone",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Soldier Drones are soldiers of the Western Hive. They can be found in large numbers guarding Hive Villages and the Distant Hive Village. They will also assault the player’s base in large quantities should The Queen be kidnapped. They wear no armour and have weapons manufactured by Ancient. Statistics Hive Soldier Drone",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/soldier-drone.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9679f8d24d6fa20187956109b942ee173f97d3dfb273c2c3a639ea0b4aaef064"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "soldierbot-character",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is about a character. For Soldierbot subrace, see Soldierbot. Soldierbots are members of the Ancient Ruins faction. They can be found in Dead Workshops. Although called a “Soldierbot”, these characters are Screamer MkI Skeletons. They wear no armour and have weapons manufactured by Ancient or Skeleton Smiths. Statistics Screamer MkI",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/soldierbot-character.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4963f1746d41f9f225b828a14d632fbcdbb79a61cde24ce47cb3542afd5a1f85"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "soldierbot-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Soldierbot Guards are members of the Skeletons faction. They can be found guarding the Scraphouse. As this character does not have a dialogue package, they will not react to witnessing a theft. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Skeleton Smiths. Statistics Soldierbot",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/soldierbot-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9b7ada649d54461fe23b6dbab7a9faf7c5f2b12017eae8045601b820273e0a63"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "spider-foreman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Spider Foreman is a dangerous character of the Old Machines faction found in the Spider Factory on the Forbidden Isle. This enemy can be easily identified by his uncommon head and silvery Meitou grade staff. Despite wielding only a staff, this enemy can be easily lethal. The large range of the staff allows him to hit many foes in one swing. They wear no ",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/spider-foreman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6d2a48b6ef678e6c49c2d7b1a4c39428e176145637ffc540da702857cd754f09"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
     }
   ],
   "editorialChanges": [
