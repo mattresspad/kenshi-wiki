@@ -1,0 +1,159 @@
+---
+articleId: desert-sabre
+title: Desert Sabre
+description: The Desert Sabre is an excellent weapon for killing spiders. Because of this, the Bounty Hunters hunting the Bugmaster often carry these weapons.
+categories:
+  - Weapons
+  - Sabre
+layout: item
+factTitle: Desert Sabre
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Sabre
+          - /sabres
+      - - Base weight
+        - 8 kg
+      - - Base value
+        - c. 500
+      - - Size in inventory
+        - 2x8
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 1.10x
+      - - Blunt damage
+        - 0.25x
+      - - Bleed
+        - 1.00x
+      - - Armour penetration
+        - 0%
+      - - Attack
+        - "0"
+      - - Defence
+        - "+2"
+      - - Reach
+        - "22"
+  - heading: Damage against
+    rows:
+      - - Spider
+        - +100%
+      - - Small Spider
+        - +50%
+      - - Bonedog
+        - +25%
+      - - Skimmer
+        - +100%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 52305-rebirth.mod
+factImage:
+  src: /icons/items/52305-rebirth.mod.png
+  alt: Desert Sabre
+factCaption: An unusual weapon design that supposedly came from the deserts.  Usually hard to find, but they have a distinct ability to gut spiders really well, making them popular with certain specialists.
+---
+
+The **Desert Sabre** is an excellent weapon for killing spiders. Because of this, the Bounty Hunters hunting the [Bugmaster](/bugmaster) often carry these weapons.
+
+In the item's stats, "Spider" and "Small Spider" refer to the races of [Skin Spider](/skin-spider) and [Blood Spider](/blood-spider), respectively.
+
+This weapon has inventory dimensions of **2x8**, meaning it can only be used as a primary weapon.
+
+The [Meitou](/meitou)\-version of this weapon can be found on [Eyegore](/eyegore), martial captain of [United Cities](/united-cities).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>5</td><td>5</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>5</td><td>5</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Desert Sabres blueprint: 4 hours at tech level 2; the blueprint is worth c. 12,000.</li></ul></div>
+
+## Blueprints
+
+<table class="wikitable"><tbody><tr><td colspan="2"><div></div><div>Desert Sabres</div><div>[Research Blueprint]</div><div></div></td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Research Level</td><td>2</td></tr><tr><td>Value</td><td>c.12,000</td></tr><tr><td>Sell value</td><td>c.3,000</td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Ability to Make</td><td><div><strong>Desert Sabre</strong></div></td></tr></tbody></table>
+
+The [Blueprints](/blueprints) for this item can be found at the following locations.
+
+### Shops
+
+-   [Catun Scrapmasters](/catun-scrapmasters)
+-   [Empire Weapon Shop](/empire-weapon-shop)
+-   [Mercenary Smithy](/mercenary-smithy)
+-   [Mongrel Weapon Shop](/mongrel-weapon-shop)
+-   [Scraphouse](/scraphouse)
+-   [Shark Smithy](/shark-smithy)
+
+### Loot
+
+-   [Cat-Lon's Exile](/cat-lons-exile)
+-   [Mud Town](/mud-town)
+-   [Rot](/rot)
+-   [Shark](/shark)
+-   [Stone Rat Village](/stone-rat-village)
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.4235</td></tr><tr><td>-Blunt damage</td><td>0.025</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>+1</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.1,131</td></tr><tr><td>-Sell value</td><td>c.282</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.517</td></tr><tr><td>-Blunt damage</td><td>0.05</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.1,240</td></tr><tr><td>-Sell value</td><td>c.310</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.54945</td></tr><tr><td>-Blunt damage</td><td>0.075</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>5.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.3,729</td></tr><tr><td>-Sell value</td><td>c.932</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.6336</td></tr><tr><td>-Blunt damage</td><td>0.10</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>5.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.4,329</td></tr><tr><td>-Sell value</td><td>c.1,082</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.71775</td></tr><tr><td>-Blunt damage</td><td>0.125</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>5.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.5,165</td></tr><tr><td>-Sell value</td><td>c.1,291</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.891</td></tr><tr><td>-Blunt damage</td><td>0.18</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.60 kg</td></tr><tr><td>-Value</td><td>c.9,445</td></tr><tr><td>-Sell value</td><td>c.2,361</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.9845</td></tr><tr><td>-Blunt damage</td><td>0.21</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.60 kg</td></tr><tr><td>-Value</td><td>c.11,655</td></tr><tr><td>-Sell value</td><td>c.2,913</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.078</td></tr><tr><td>-Blunt damage</td><td>0.24</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.60 kg</td></tr><tr><td>-Value</td><td>c.14,388</td></tr><tr><td>-Sell value</td><td>c.3,597</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.265</td></tr><tr><td>-Blunt damage</td><td>0.25</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>10.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.21,000</td></tr><tr><td>-Sell value</td><td>c.5,250</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.3585</td></tr><tr><td>-Blunt damage</td><td>0.275</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>11.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.24,434</td></tr><tr><td>-Sell value</td><td>c.6,108</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.452</td></tr><tr><td>-Blunt damage</td><td>0.30</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>12.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.27,610</td></tr><tr><td>-Sell value</td><td>c.6,902</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.8029</td></tr><tr><td>-Blunt damage</td><td>0.35</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>14.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.37,979</td></tr><tr><td>-Sell value</td><td>c.9,494</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.90575</td></tr><tr><td>-Blunt damage</td><td>0.375</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>15.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.39,960</td></tr><tr><td>-Sell value</td><td>c.9,990</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>2.0086</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.41,422</td></tr><tr><td>-Sell value</td><td>c.10.355</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>2.42</td></tr><tr><td>-Blunt damage</td><td>0.50</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>20.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.62,956</td></tr><tr><td>-Sell value</td><td>c.15,739</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.4235</td></tr><tr><td>-Blunt damage</td><td>0.025</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>+1</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.3,771</td></tr><tr><td>-Sell value</td><td>c.942</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.517</td></tr><tr><td>-Blunt damage</td><td>0.05</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.4,135</td></tr><tr><td>-Sell value</td><td>c.1,033</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.6105</td></tr><tr><td>-Blunt damage</td><td>0.075</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.4,662</td></tr><tr><td>-Sell value</td><td>c.1,165</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.704</td></tr><tr><td>-Blunt damage</td><td>0.10</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.5,412</td></tr><tr><td>-Sell value</td><td>c.1,353</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.7975</td></tr><tr><td>-Blunt damage</td><td>0.125</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.6,456</td></tr><tr><td>-Sell value</td><td>c.1,614</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.891</td></tr><tr><td>-Blunt damage</td><td>0.15</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.7,871</td></tr><tr><td>-Sell value</td><td>c.1,967</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.9845</td></tr><tr><td>-Blunt damage</td><td>0.175</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.9,712</td></tr><tr><td>-Sell value</td><td>c.2,428</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.078</td></tr><tr><td>-Blunt damage</td><td>0.20</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.11,990</td></tr><tr><td>-Sell value</td><td>c.2,997</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.265</td></tr><tr><td>-Blunt damage</td><td>0.25</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>10.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.17,500</td></tr><tr><td>-Sell value</td><td>c.4,375</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.3585</td></tr><tr><td>-Blunt damage</td><td>0.275</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>11.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.20,361</td></tr><tr><td>-Sell value</td><td>c.5,090</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.452</td></tr><tr><td>-Blunt damage</td><td>0.30</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>12.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.23,009</td></tr><tr><td>-Sell value</td><td>c.5,752</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.639</td></tr><tr><td>-Blunt damage</td><td>0.35</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>14.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.27,128</td></tr><tr><td>-Sell value</td><td>c.6,782</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Desert Sabre</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.7325</td></tr><tr><td>-Blunt damage</td><td>0.375</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs Spider</td><td>+100%</td></tr><tr><td>-Damage vs Small Spider</td><td>+50%</td></tr><tr><td>-Damage vs Bonedog</td><td>+25%</td></tr><tr><td>-Damage vs Skimmer</td><td>+100%</td></tr><tr><td>-Required Strength Level</td><td>15.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.28,542</td></tr><tr><td>-Sell value</td><td>c.7,135</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>

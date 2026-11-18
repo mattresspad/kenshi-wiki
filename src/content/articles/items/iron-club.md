@@ -1,0 +1,143 @@
+---
+articleId: iron-club
+title: Iron Club
+description: Iron Clubs are Blunt class weapons introduced in update 0.42. With a focus on Blunt Damage, they make decent tools for capturing bandits and other criminals…
+categories:
+  - Weapons
+  - Blunt
+layout: item
+factTitle: Iron Club
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Blunt
+          - /blunt-weapons
+      - - Base weight
+        - 2 kg
+      - - Base value
+        - c. 80
+      - - Size in inventory
+        - 1x7
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 0.10x
+      - - Blunt damage
+        - 0.85x
+      - - Bleed
+        - 0.30x
+      - - Armour penetration
+        - 0%
+      - - Attack
+        - "0"
+      - - Defence
+        - "0"
+      - - Indoors
+        - "+2"
+      - - Reach
+        - "18"
+  - heading: Damage against
+    rows:
+      - - Animals
+        - -10%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 52295-rebirth.mod
+factImage:
+  src: /icons/items/52295-rebirth.mod.png
+  alt: Iron Club
+factCaption: A basic iron stick with a wrapped handle.
+---
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
+
+**Iron Clubs** are [Blunt class weapons](/blunt-weapons) introduced in update 0.42. With a focus on [Blunt Damage](/stun-damage), they make decent tools for capturing bandits and other criminals for their bounties. Packs of [Escaped Servants](/escaped-servant), [Slave Hunters](/slave-hunters), [Holy Servants](/holy-servant) and [Starving Bandits](/starving-bandits) are known to carry these, often of the rusted variety.
+
+This weapon has inventory dimensions of **1x7**. It can be equipped in both the primary and secondary weapon slots.
+
+The ability to make these weapons is unlocked by researching [Basic Weapon Smithing](/basic-weapon-smithing-tech).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>2</td><td>2</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>2</td><td>2</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/basic-weapon-smithing-tech">Basic Weapon Smithing</a> research: 4 hours at tech level 1; costs <a href="/book">2 Books</a>.</li></ul></div>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center" bgcolor="#322d2a"><a href="/basic-weapon-smithing-tech">Basic Weapon Smithing</a><b></b></td></tr><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">The starting point of crafting our own weapons.</td></tr><tr><td colspan="2" align="center"><hr></td></tr><tr><td><b>Research Level</b></td><td>1</td></tr><tr><td><b>Estimated Time</b></td><td>4 hours</td></tr><tr><td><b>Costs</b></td><td>2 <a href="/book">Books</a></td></tr><tr><td colspan="2" align="center" bgcolor="#322d2a"><b>Unlocks</b></td></tr><tr><td><b>New Buildings</b></td><td><a href="/weapon-smithing-bench">Weapon Smithing Bench</a></td></tr><tr><td><b>Ability to Make</b></td><td><strong>Iron Club</strong>, <a href="/staff">Staff</a></td></tr><tr><td><b>Ability to Research</b></td><td><a href="/basic-weapon-grades-tech">Basic Weapon Grades (Tech)</a></td></tr></tbody></table>
+
+## Blueprints
+
+There are no [Blueprints](/blueprints) for this item available in the game.
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0385</td></tr><tr><td>-Blunt damage</td><td>0.085</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>3.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.180</td></tr><tr><td>-Sell value</td><td>c.45</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.047</td></tr><tr><td>-Blunt damage</td><td>0.17</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>6.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.40 kg</td></tr><tr><td>-Value</td><td>c.198</td></tr><tr><td>-Sell value</td><td>c.49</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.04995</td></tr><tr><td>-Blunt damage</td><td>0.255</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>10.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.10 kg</td></tr><tr><td>-Value</td><td>c.596</td></tr><tr><td>-Sell value</td><td>c.149</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0576</td></tr><tr><td>-Blunt damage</td><td>0.34</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>13.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.80 kg</td></tr><tr><td>-Value</td><td>c.692</td></tr><tr><td>-Sell value</td><td>c.173</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.06525</td></tr><tr><td>-Blunt damage</td><td>0.425</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>17.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.50 kg</td></tr><tr><td>-Value</td><td>c.826</td></tr><tr><td>-Sell value</td><td>c.206</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.081</td></tr><tr><td>-Blunt damage</td><td>0.612</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>24.48</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.24 kg</td></tr><tr><td>-Value</td><td>c.1,511</td></tr><tr><td>-Sell value</td><td>c.377</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0895</td></tr><tr><td>-Blunt damage</td><td>0.714</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>28.56</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.28 kg</td></tr><tr><td>-Value</td><td>c.1,864</td></tr><tr><td>-Sell value</td><td>c.466</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.098</td></tr><tr><td>-Blunt damage</td><td>0.816</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>32.64</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.32 kg</td></tr><tr><td>-Value</td><td>c.2,302</td></tr><tr><td>-Sell value</td><td>c.575</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.115</td></tr><tr><td>-Blunt damage</td><td>0.85</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>34.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>17.00 kg</td></tr><tr><td>-Value</td><td>c.3,360</td></tr><tr><td>-Sell value</td><td>c.840</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1235</td></tr><tr><td>-Blunt damage</td><td>0.935</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>37.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>18.70 kg</td></tr><tr><td>-Value</td><td>c.3,909</td></tr><tr><td>-Sell value</td><td>c.977</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.132</td></tr><tr><td>-Blunt damage</td><td>1.02</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>40.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.40 kg</td></tr><tr><td>-Value</td><td>c.4,417</td></tr><tr><td>-Sell value</td><td>c.1,104</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1639</td></tr><tr><td>-Blunt damage</td><td>1.19</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>47.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>23.80 kg</td></tr><tr><td>-Value</td><td>c.6,076</td></tr><tr><td>-Sell value</td><td>c.1,519</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.17325</td></tr><tr><td>-Blunt damage</td><td>1.275</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>51.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>25.50 kg</td></tr><tr><td>-Value</td><td>c.6,393</td></tr><tr><td>-Sell value</td><td>c.1,598</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1826</td></tr><tr><td>-Blunt damage</td><td>1.36</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>54.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>27.20 kg</td></tr><tr><td>-Value</td><td>c.6,627</td></tr><tr><td>-Sell value</td><td>c.1,656</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.22</td></tr><tr><td>-Blunt damage</td><td>1.70</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>68.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>34.00 kg</td></tr><tr><td>-Value</td><td>c.10,072</td></tr><tr><td>-Sell value</td><td>c.2,518</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0385</td></tr><tr><td>-Blunt damage</td><td>0.085</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>3.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.603</td></tr><tr><td>-Sell value</td><td>c.150</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.047</td></tr><tr><td>-Blunt damage</td><td>0.17</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>6.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.40 kg</td></tr><tr><td>-Value</td><td>c.661</td></tr><tr><td>-Sell value</td><td>c.165</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0555</td></tr><tr><td>-Blunt damage</td><td>0.255</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>10.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.10 kg</td></tr><tr><td>-Value</td><td>c.745</td></tr><tr><td>-Sell value</td><td>c.186</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.064</td></tr><tr><td>-Blunt damage</td><td>0.34</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>13.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.80 kg</td></tr><tr><td>-Value</td><td>c.865</td></tr><tr><td>-Sell value</td><td>c.216</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0725</td></tr><tr><td>-Blunt damage</td><td>0.425</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>17.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.50 kg</td></tr><tr><td>-Value</td><td>c.1,032</td></tr><tr><td>-Sell value</td><td>c.258</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.081</td></tr><tr><td>-Blunt damage</td><td>0.51</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>20.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.20 kg</td></tr><tr><td>-Value</td><td>c.1,259</td></tr><tr><td>-Sell value</td><td>c.314</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0895</td></tr><tr><td>-Blunt damage</td><td>0.595</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>23.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>11.90 kg</td></tr><tr><td>-Value</td><td>c.1,554</td></tr><tr><td>-Sell value</td><td>c.388</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.098</td></tr><tr><td>-Blunt damage</td><td>0.68</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>27.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.60 kg</td></tr><tr><td>-Value</td><td>c.1,918</td></tr><tr><td>-Sell value</td><td>c.479</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.115</td></tr><tr><td>-Blunt damage</td><td>0.85</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>34.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>17.00 kg</td></tr><tr><td>-Value</td><td>c.2,800</td></tr><tr><td>-Sell value</td><td>c.700</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1235</td></tr><tr><td>-Blunt damage</td><td>0.935</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>37.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>18.70 kg</td></tr><tr><td>-Value</td><td>c.3,257</td></tr><tr><td>-Sell value</td><td>c.814</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.132</td></tr><tr><td>-Blunt damage</td><td>1.02</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>40.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.40 kg</td></tr><tr><td>-Value</td><td>c.3,681</td></tr><tr><td>-Sell value</td><td>c.920</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.149</td></tr><tr><td>-Blunt damage</td><td>1.19</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>47.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>23.80 kg</td></tr><tr><td>-Value</td><td>c.4,340</td></tr><tr><td>-Sell value</td><td>c.1,085</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1575</td></tr><tr><td>-Blunt damage</td><td>1.275</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>51.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>25.50 kg</td></tr><tr><td>-Value</td><td>c.4,566</td></tr><tr><td>-Sell value</td><td>c.1,141</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## Trivia
+
+-   When originally implemented **Iron Clubs** were classified as [Sabres](/sabres). This was fixed in version 0.90.0 when the [Blunt](/blunt) class was implemented.
+-   Even though there is a [Meitou](/meitou) texture, it does not spawn in game, making it impossible to get your hands on without mods.

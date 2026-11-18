@@ -1,0 +1,152 @@
+---
+articleId: longsword
+title: Longsword
+description: The Longsword is a lighter sabre, without much decrease in damage.
+categories:
+  - Weapons
+  - Sabre
+layout: item
+factTitle: Longsword
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Sabre
+          - /sabres
+      - - Base weight
+        - 4 kg
+      - - Base value
+        - c. 250
+      - - Size in inventory
+        - 1x7
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 1.00x
+      - - Blunt damage
+        - 0.15x
+      - - Bleed
+        - 0.90x
+      - - Armour penetration
+        - -15%
+      - - Attack
+        - "-2"
+      - - Defence
+        - "+2"
+      - - Reach
+        - "20"
+  - heading: Damage against
+    rows:
+      - - Animals
+        - -10%
+      - - Robots
+        - -10%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 901-gamedata.base
+factImage:
+  src: /icons/items/901-gamedata.base.png
+  alt: Longsword
+factCaption: Very light for a sabre, but too straight and heavy to classify as a katana.  They are popular among nobles as a status symbol in the empire.
+---
+
+The **Longsword** is a lighter sabre, without much decrease in damage.
+
+This weapon has inventory dimensions of **1x7**. Currently, it is the only sabre class weapon able to fit into the secondary weapon slot.
+
+It can be seen on several Slave Masters of the Traders Guild and [Nobles](/noble-circle) of the [United Cities](/united-cities). The [Cross](/cross)\-version of this weapon can be found on [Longen](/longen), leader of the [Traders Guild](/traders-guild) (in [Trader's Edge](/traders-edge)) and [Valamon](/valamon), leader of the [Reavers](/reavers) in the [Ark](/ark).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>4</td><td>4</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>4</td><td>4</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Longswords blueprint: 4 hours at tech level 3; the blueprint is worth c. 3,000.</li></ul></div>
+
+## Blueprints
+
+<table class="wikitable"><tbody><tr><td colspan="2"><div></div><div>Longswords</div><div>[Research Blueprint]</div><div></div></td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Research Level</td><td>3</td></tr><tr><td>Value</td><td>c.3,000</td></tr><tr><td>Sell value</td><td>c.750</td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Ability to Make</td><td><div><strong>Longsword</strong></div></td></tr></tbody></table>
+
+The [Blueprints](/blueprints) for this item can be found at the following locations.
+
+### Shops
+
+-   [Catun Scrapmasters](/catun-scrapmasters)
+-   [Empire Weapon Shop](/empire-weapon-shop)
+-   [The Great Library](/the-great-library)
+
+### Loot
+
+_This item's blueprint is not available as loot at any location._
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.385</td></tr><tr><td>-Blunt damage</td><td>0.015</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-3</td></tr><tr><td>-Defence bonus</td><td>+1</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.565</td></tr><tr><td>-Sell value</td><td>c.141</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.47</td></tr><tr><td>-Blunt damage</td><td>0.03</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.620</td></tr><tr><td>-Sell value</td><td>c.155</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.4995</td></tr><tr><td>-Blunt damage</td><td>0.045</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.80 kg</td></tr><tr><td>-Value</td><td>c.1,846</td></tr><tr><td>-Sell value</td><td>c.466</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.576</td></tr><tr><td>-Blunt damage</td><td>0.06</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.80 kg</td></tr><tr><td>-Value</td><td>c.2,164</td></tr><tr><td>-Sell value</td><td>c.541</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.6525</td></tr><tr><td>-Blunt damage</td><td>0.075</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.80 kg</td></tr><tr><td>-Value</td><td>c.2,582</td></tr><tr><td>-Sell value</td><td>c.645</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.81</td></tr><tr><td>-Blunt damage</td><td>0.108</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.32</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.80 kg</td></tr><tr><td>-Value</td><td>c.4,722</td></tr><tr><td>-Sell value</td><td>c.1,180</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.895</td></tr><tr><td>-Blunt damage</td><td>0.126</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>5.04</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.80 kg</td></tr><tr><td>-Value</td><td>c.5,827</td></tr><tr><td>-Sell value</td><td>c.1,456</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.98</td></tr><tr><td>-Blunt damage</td><td>0.144</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>5.76</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.80 kg</td></tr><tr><td>-Value</td><td>c.7,194</td></tr><tr><td>-Sell value</td><td>c.1,798</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.15</td></tr><tr><td>-Blunt damage</td><td>0.15</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>6.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.10,500</td></tr><tr><td>-Sell value</td><td>c.2,625</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.235</td></tr><tr><td>-Blunt damage</td><td>0.165</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>6.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.12,216</td></tr><tr><td>-Sell value</td><td>c.3,054</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.32</td></tr><tr><td>-Blunt damage</td><td>0.18</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>7.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.13,805</td></tr><tr><td>-Sell value</td><td>c.3,451</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.639</td></tr><tr><td>-Blunt damage</td><td>0.21</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>8.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.20 kg</td></tr><tr><td>-Value</td><td>c.18,989</td></tr><tr><td>-Sell value</td><td>c.4,747</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.7325</td></tr><tr><td>-Blunt damage</td><td>0.225</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>9.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.50 kg</td></tr><tr><td>-Value</td><td>c.19,980</td></tr><tr><td>-Sell value</td><td>c.4,995</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.826</td></tr><tr><td>-Blunt damage</td><td>0.24</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.80 kg</td></tr><tr><td>-Value</td><td>c.20,711</td></tr><tr><td>-Sell value</td><td>c.5,117</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>2.20</td></tr><tr><td>-Blunt damage</td><td>0.30</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>12.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.31,478</td></tr><tr><td>-Sell value</td><td>c.7,869</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.385</td></tr><tr><td>-Blunt damage</td><td>0.015</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-3</td></tr><tr><td>-Defence bonus</td><td>+1</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.1,885</td></tr><tr><td>-Sell value</td><td>c.471</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.47</td></tr><tr><td>-Blunt damage</td><td>0.03</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.2,067</td></tr><tr><td>-Sell value</td><td>c.516</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.555</td></tr><tr><td>-Blunt damage</td><td>0.045</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.2,331</td></tr><tr><td>-Sell value</td><td>c.582</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.64</td></tr><tr><td>-Blunt damage</td><td>0.06</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.2,706</td></tr><tr><td>-Sell value</td><td>c.676</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.725</td></tr><tr><td>-Blunt damage</td><td>0.075</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.3,228</td></tr><tr><td>-Sell value</td><td>c.807</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.81</td></tr><tr><td>-Blunt damage</td><td>0.09</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.3,935</td></tr><tr><td>-Sell value</td><td>c.983</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.895</td></tr><tr><td>-Blunt damage</td><td>0.105</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.4,856</td></tr><tr><td>-Sell value</td><td>c.1,214</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>0.98</td></tr><tr><td>-Blunt damage</td><td>0.12</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.5,995</td></tr><tr><td>-Sell value</td><td>c.1,498</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.15</td></tr><tr><td>-Blunt damage</td><td>0.15</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>6.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.8,750</td></tr><tr><td>-Sell value</td><td>c.2,187</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.235</td></tr><tr><td>-Blunt damage</td><td>0.165</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>6.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.10,181</td></tr><tr><td>-Sell value</td><td>c.2,545</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.32</td></tr><tr><td>-Blunt damage</td><td>0.18</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>7.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.11,504</td></tr><tr><td>-Sell value</td><td>c.2,876</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.49</td></tr><tr><td>-Blunt damage</td><td>0.21</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>8.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.20 kg</td></tr><tr><td>-Value</td><td>c.13,564</td></tr><tr><td>-Sell value</td><td>c.3,391</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Longsword</td></tr><tr><td>[Sabre class]</td></tr><tr><td>-Cutting damage</td><td>1.575</td></tr><tr><td>-Blunt damage</td><td>0.225</td></tr><tr><td>-Blood loss</td><td>0.90x</td></tr><tr><td>-Armour penetration</td><td>-15%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>9.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.50 kg</td></tr><tr><td>-Value</td><td>c.14,271</td></tr><tr><td>-Sell value</td><td>c.3,567</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## History
+
+-   Longswords replaced a Hacker class weapon called the [Flat Topper](/flat-topper).
+
+### Unused icons

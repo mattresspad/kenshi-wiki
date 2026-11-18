@@ -1,0 +1,160 @@
+---
+articleId: falling-sun
+title: Falling Sun
+description: The Falling Sun, like the other Heavy Weapons, has an extremely high damage potential, sometimes doing enough damage to outright kill an opponent in one hit.…
+categories:
+  - Weapons
+  - Heavy Weapon
+layout: item
+factTitle: Falling Sun
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Heavy weapon
+          - /heavy-weapons
+      - - Base weight
+        - 10 kg
+      - - Base value
+        - c. 600
+      - - Size in inventory
+        - 2x10
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 1.20x
+      - - Blunt damage
+        - 1.00x
+      - - Bleed
+        - 1.00x
+      - - Armour penetration
+        - 0%
+      - - Attack
+        - "0"
+      - - Defence
+        - "0"
+      - - Indoors
+        - "-6"
+      - - Reach
+        - "25"
+  - heading: Damage against
+    rows:
+      - - Beak Thing
+        - +50%
+      - - Gorillo
+        - +50%
+      - - Leviathan
+        - +50%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 52306-rebirth.mod
+factImage:
+  src: /icons/items/52306-rebirth.mod.png
+  alt: Falling Sun
+factCaption: A ridiculously unwieldy weapon sometimes used by Skeletons.  Requiring both dexterity and strength to use properly, they are widely known as "Suicide Blades", because they often get their users killed.
+---
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
+
+The **Falling Sun**, like the other [Heavy Weapons](/heavy-weapons-class), has an extremely high damage potential, sometimes doing enough damage to outright kill an opponent in one hit. The Falling Sun is the lightest of the Heavy Weapons. As it has a lower blunt damage amount, it requires less strength to be able to use it effectively. An experienced user is someone to be feared.
+
+The damage boost against Gorillos applies to only standard [Gorillo](/gorillo) and the [Great White Gorillo](/great-white-gorillo), not [Black Gorillos](/black-gorillo) or the [King Gorillo](/king-gorillo) (nor the character [Gorrillo](/gorrillo) and his [Gorrillo Bandits](/the-gorrillo-bandits) for that matter).
+
+The Falling Sun stands out among heavy weapons for its greater cutting damage compared to its blunt damage, making a Rusted Junk quality one a somewhat viable [Dexterity](/dexterity) training weapon.
+
+This weapon has inventory dimensions of **2x10**, meaning it can only be used as a primary weapon. Like other heavy weapons, this item will not fit into standard inventories. It must either be equipped or carried inside a backpack.
+
+High-quality versions of this weapon are commonly found in the [Scraphouse](/scraphouse). Low to Medium quality versions of this weapon are sometimes found in [Shek](/shek-kingdom), [Mongrel](/mongrel), [Flotsam](/flotsam-ninjas), and [Tech Hunter](/tech-hunters) weapon shops. [Cross](/cross)\-manufactured Falling Sun is found on one [ancient leader](/mad-cat-lon). A Rusted Junk quality version may be found extremely rarely in bars in [The Hub](/the-hub) or [Mourn](/mourn), in shops in the Shek Kingdom, or crafted.
+
+The [Meitou](/meitou)\-version of this weapon can be found on [Mad Cat-Lon](/mad-cat-lon), the leader of the [Second Empire Exile](/second-empire-exile).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>14</td><td>14</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>14</td><td>14</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>14</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Exotic Weapons blueprint: 12 hours at tech level 2; the blueprint is worth c. 20,000.</li></ul></div>
+
+## Blueprints
+
+<table class="wikitable"><tbody><tr><td colspan="2"><div></div><div>Exotic Weapons</div><div>[Research Blueprint]</div><div></div></td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Research Level</td><td>2</td></tr><tr><td>Value</td><td>c.20,000</td></tr><tr><td>Sell value</td><td>c.5,000</td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Ability to Make</td><td><div><strong>Falling Sun</strong></div></td></tr></tbody></table>
+
+The [Blueprints](/blueprints) for this item can be found at the following locations.
+
+### Shops
+
+-   [Scraphouse](/scraphouse)
+
+### Loot
+
+-   [Cat-Lon's Exile](/cat-lons-exile)
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.462</td></tr><tr><td>-Blunt damage</td><td>0.10</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>10.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.1,357</td></tr><tr><td>-Sell value</td><td>c.339</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.564</td></tr><tr><td>-Blunt damage</td><td>0.20</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>10.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.1,488</td></tr><tr><td>-Sell value</td><td>c.372</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.5994</td></tr><tr><td>-Blunt damage</td><td>0.30</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>12.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>7.00 kg</td></tr><tr><td>-Value</td><td>c.4,475</td></tr><tr><td>-Sell value</td><td>c.1,118</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.6912</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.5,195</td></tr><tr><td>-Sell value</td><td>c.1,298</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.783</td></tr><tr><td>-Blunt damage</td><td>0.50</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>20.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.6,198</td></tr><tr><td>-Sell value</td><td>c.1,549</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.972</td></tr><tr><td>-Blunt damage</td><td>0.72</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>28.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.40 kg</td></tr><tr><td>-Value</td><td>c.11,334</td></tr><tr><td>-Sell value</td><td>c.2,833</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.074</td></tr><tr><td>-Blunt damage</td><td>0.84</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>33.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.80 kg</td></tr><tr><td>-Value</td><td>c.13,986</td></tr><tr><td>-Sell value</td><td>c.3,496</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.176</td></tr><tr><td>-Blunt damage</td><td>0.96</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>38.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>19.20 kg</td></tr><tr><td>-Value</td><td>c.17,266</td></tr><tr><td>-Sell value</td><td>c.4,316</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.38</td></tr><tr><td>-Blunt damage</td><td>1.00</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>40.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.00 kg</td></tr><tr><td>-Value</td><td>c.25,200</td></tr><tr><td>-Sell value</td><td>c.6,300</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.482</td></tr><tr><td>-Blunt damage</td><td>1.10</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>44.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.00 kg</td></tr><tr><td>-Value</td><td>c.29,320</td></tr><tr><td>-Sell value</td><td>c.7,330</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.584</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>24.00 kg</td></tr><tr><td>-Value</td><td>c.33,313</td></tr><tr><td>-Sell value</td><td>c.8,283</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.9668</td></tr><tr><td>-Blunt damage</td><td>1.40</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>56.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>28.00 kg</td></tr><tr><td>-Value</td><td>c.45,575</td></tr><tr><td>-Sell value</td><td>c.11,393</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>2.079</td></tr><tr><td>-Blunt damage</td><td>1.50</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>60.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>30.00 kg</td></tr><tr><td>-Value</td><td>c.47,952</td></tr><tr><td>-Sell value</td><td>c.11,988</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>2.1912</td></tr><tr><td>-Blunt damage</td><td>1.60</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>64.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>32.00 kg</td></tr><tr><td>-Value</td><td>c.49,707</td></tr><tr><td>-Sell value</td><td>c.12,426</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>2.64</td></tr><tr><td>-Blunt damage</td><td>2.00</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>80.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>40.00 kg</td></tr><tr><td>-Value</td><td>c.75,548</td></tr><tr><td>-Sell value</td><td>c.18,887</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.462</td></tr><tr><td>-Blunt damage</td><td>0.10</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>10.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.4,525</td></tr><tr><td>-Sell value</td><td>c.1,131</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.564</td></tr><tr><td>-Blunt damage</td><td>0.20</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>10.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.4,962</td></tr><tr><td>-Sell value</td><td>c.1,240</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.666</td></tr><tr><td>-Blunt damage</td><td>0.30</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>12.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.5,594</td></tr><tr><td>-Sell value</td><td>c.1,398</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.768</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.6,494</td></tr><tr><td>-Sell value</td><td>c.1,623</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.87</td></tr><tr><td>-Blunt damage</td><td>0.50</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>20.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.7,748</td></tr><tr><td>-Sell value</td><td>c.1,937</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.972</td></tr><tr><td>-Blunt damage</td><td>0.60</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>24.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.00 kg</td></tr><tr><td>-Value</td><td>c.9,445</td></tr><tr><td>-Sell value</td><td>c.2,361</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.074</td></tr><tr><td>-Blunt damage</td><td>0.70</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>28.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.00 kg</td></tr><tr><td>-Value</td><td>c.11,655</td></tr><tr><td>-Sell value</td><td>c.2,913</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.176</td></tr><tr><td>-Blunt damage</td><td>0.80</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>32.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.00 kg</td></tr><tr><td>-Value</td><td>c.14,388</td></tr><tr><td>-Sell value</td><td>c.3,597</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.38</td></tr><tr><td>-Blunt damage</td><td>1.00</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>40.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.00 kg</td></tr><tr><td>-Value</td><td>c.21,000</td></tr><tr><td>-Sell value</td><td>c.5,250</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.482</td></tr><tr><td>-Blunt damage</td><td>1.10</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>44.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.00 kg</td></tr><tr><td>-Value</td><td>c.24,434</td></tr><tr><td>-Sell value</td><td>c.6,108</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.584</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>24.00 kg</td></tr><tr><td>-Value</td><td>c.27,610</td></tr><tr><td>-Sell value</td><td>c.6,902</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.788</td></tr><tr><td>-Blunt damage</td><td>1.40</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>56.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>28.00 kg</td></tr><tr><td>-Value</td><td>c.32,554</td></tr><tr><td>-Sell value</td><td>c.8,138</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Falling Sun</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>1.89</td></tr><tr><td>-Blunt damage</td><td>1.50</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Damage vs Beak Thing</td><td>+50%</td></tr><tr><td>-Damage vs Gorillo</td><td>+50%</td></tr><tr><td>-Damage vs Leviathan</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>60.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>30.00 kg</td></tr><tr><td>-Value</td><td>c.34,251</td></tr><tr><td>-Sell value</td><td>c.8,562</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## History
+
+### Unused icons

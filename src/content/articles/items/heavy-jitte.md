@@ -1,0 +1,146 @@
+---
+articleId: heavy-jitte
+title: Heavy Jitte
+description: Heavy Jittes, along with their smaller counterpart the Jitte, are Blunt weapons that inflict stun damage (blunt) and extremely minor cut damage/blood loss. A…
+categories:
+  - Weapons
+  - Blunt
+layout: item
+factTitle: Heavy Jitte
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Blunt
+          - /blunt-weapons
+      - - Base weight
+        - 6 kg
+      - - Base value
+        - c. 300
+      - - Size in inventory
+        - 1x9
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 0.00x
+      - - Blunt damage
+        - 1.30x
+      - - Bleed
+        - 0.10x
+      - - Armour penetration
+        - +10%
+      - - Attack
+        - "0"
+      - - Defence
+        - "+8"
+      - - Indoors
+        - "-2"
+      - - Reach
+        - "21"
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 52290-rebirth.mod
+factImage:
+  src: /icons/items/52290-rebirth.mod.png
+  alt: Heavy Jitte
+factCaption: A professional law-enforcement weapon.  Designed for non-lethal takedowns, it has a sword-catcher guard that gives an advantage when defending.
+---
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
+
+**Heavy Jittes**, along with their smaller counterpart the [Jitte](/jitte), are [Blunt weapons](/blunt-weapons) that inflict [stun damage](/stun-damage) (blunt) and extremely minor cut damage/blood loss. As Dexterity experience gained is based off the cut damage of a weapon, using either of the two variants will reward no Dexterity at all. Due to their lack of any serious cut damage this makes them somewhat useful for subduing bandit leaders and other [bounties](/bounty) without running the risk of them dying due to wound degeneration. Please note that KO time is almost entirely based on blood loss and cut damage received, stun damage only adds time when hit under 0 health in a bodypart so characters knocked out with a Heavy Jitte may get up very quickly before you can pick them up.
+
+They are notably carried by [Samurai Police](/samurai-police).
+
+The [Cross](/cross)\-version of this weapon can be found on [General Hat-12](/general-hat-12) in [Ashland Dome IV](/ashland-dome-iv), who used to be the Chief of the [Second Empire](/second-empire)'s police force.
+
+This weapon has inventory dimensions of **1x9**, meaning it can only be equipped as a primary weapon.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>6</td><td>6</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>6</td><td>6</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Jittes blueprint: 4 hours at tech level 2; the blueprint is worth c. 6,000.</li></ul></div>
+
+## Blueprints
+
+<table class="wikitable"><tbody><tr><td colspan="2"><div></div><div>Jittes</div><div>[Research Blueprint]</div><div></div></td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Research Level</td><td>2</td></tr><tr><td>Value</td><td>c.6,000</td></tr><tr><td>Sell value</td><td>c.1,500</td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Ability to Make</td><td><div><strong>Heavy Jitte</strong>, <a href="/jitte">Jitte</a></div></td></tr></tbody></table>
+
+The [Blueprints](/blueprints) for this item can be found at the following locations.
+
+### Shops
+
+-   [Catun Scrapmasters](/catun-scrapmasters)
+-   [Empire Weapon Shop](/empire-weapon-shop)
+-   [The Great Library](/the-great-library)
+
+### Loot
+
+_This item's blueprint is not available as loot at any location._
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.13</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>+7</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>6.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.678</td></tr><tr><td>-Sell value</td><td>c.169</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.26</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>10.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.744</td></tr><tr><td>-Sell value</td><td>c.186</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.39</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>15.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.46 kg</td></tr><tr><td>-Value</td><td>c.2,237</td></tr><tr><td>-Sell value</td><td>c.559</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.52</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>20.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>7.28 kg</td></tr><tr><td>-Value</td><td>c.2,597</td></tr><tr><td>-Sell value</td><td>c.649</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.65</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>26.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.10 kg</td></tr><tr><td>-Value</td><td>c.3,099</td></tr><tr><td>-Sell value</td><td>c.774</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.936</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>37.44</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.104 kg</td></tr><tr><td>-Value</td><td>c.5,667</td></tr><tr><td>-Sell value</td><td>c.1,416</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.092</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>43.68</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>15.288 kg</td></tr><tr><td>-Value</td><td>c.6,993</td></tr><tr><td>-Sell value</td><td>c.1,748</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.248</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>49.92</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>17.472 kg</td></tr><tr><td>-Value</td><td>c.8,633</td></tr><tr><td>-Sell value</td><td>c.2,158</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.30</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>52.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>18.20 kg</td></tr><tr><td>-Value</td><td>c.12,600</td></tr><tr><td>-Sell value</td><td>c.3,150</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.43</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>57.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.02 kg</td></tr><tr><td>-Value</td><td>c.14,660</td></tr><tr><td>-Sell value</td><td>c.3,665</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.56</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>62.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>21.84 kg</td></tr><tr><td>-Value</td><td>c.16,566</td></tr><tr><td>-Sell value</td><td>c.4,141</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.82</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>72.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>25.48 kg</td></tr><tr><td>-Value</td><td>c.22,787</td></tr><tr><td>-Sell value</td><td>c.5,696</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.95</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>78.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>27.30 kg</td></tr><tr><td>-Value</td><td>c.23,976</td></tr><tr><td>-Sell value</td><td>c.5,994</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>2.08</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>83.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>29.12 kg</td></tr><tr><td>-Value</td><td>c.24,853</td></tr><tr><td>-Sell value</td><td>c.6,213</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>2.60</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>104.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>36.40 kg</td></tr><tr><td>-Value</td><td>c.37,774</td></tr><tr><td>-Sell value</td><td>c.9,443</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.13</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>+7</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>6.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.2,264</td></tr><tr><td>-Sell value</td><td>c.565</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.26</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>10.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.2,481</td></tr><tr><td>-Sell value</td><td>c.620</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.39</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>15.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.2,797</td></tr><tr><td>-Sell value</td><td>c.699</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.52</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>20.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>7.28 kg</td></tr><tr><td>-Value</td><td>c.3,247</td></tr><tr><td>-Sell value</td><td>c.811</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.65</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>26.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.10 kg</td></tr><tr><td>-Value</td><td>c.3,874</td></tr><tr><td>-Sell value</td><td>c.968</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.78</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>31.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.92 kg</td></tr><tr><td>-Value</td><td>c.4,722</td></tr><tr><td>-Sell value</td><td>c.1,180</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.91</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>36.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.74 kg</td></tr><tr><td>-Value</td><td>c.5,827</td></tr><tr><td>-Sell value</td><td>c.1,456</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.04</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>41.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.56 kg</td></tr><tr><td>-Value</td><td>c.7,194</td></tr><tr><td>-Sell value</td><td>c.1,798</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.30</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>52.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>18.20 kg</td></tr><tr><td>-Value</td><td>c.10,500</td></tr><tr><td>-Sell value</td><td>c.2,625</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.43</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>57.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.02 kg</td></tr><tr><td>-Value</td><td>c.12,216</td></tr><tr><td>-Sell value</td><td>c.3,054</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.56</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>62.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>21.84 kg</td></tr><tr><td>-Value</td><td>c.13,805</td></tr><tr><td>-Sell value</td><td>c.3,451</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.82</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>72.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>25.48 kg</td></tr><tr><td>-Value</td><td>c.16,276</td></tr><tr><td>-Sell value</td><td>c.4,069</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Heavy Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>1.95</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Armour penetration</td><td>+10%</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Required Strength Level</td><td>78.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>27.30 kg</td></tr><tr><td>-Value</td><td>c.17,125</td></tr><tr><td>-Sell value</td><td>c.4,281</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>

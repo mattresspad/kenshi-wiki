@@ -1,0 +1,160 @@
+---
+articleId: long-cleaver
+title: Long Cleaver
+description: The Long Cleaver is the longest reaching Hacker. Base damage wise, it is identical to the Paladin's Cross. It is used by a couple members of The Holy Nation,…
+categories:
+  - Weapons
+  - Hacker
+layout: item
+factTitle: Long Cleaver
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Hacker
+          - /hackers
+      - - Base weight
+        - 13 kg
+      - - Base value
+        - c. 350
+      - - Size in inventory
+        - 2x9
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 0.80x
+      - - Blunt damage
+        - 0.80x
+      - - Bleed
+        - 0.75x
+      - - Armour penetration
+        - +30%
+      - - Attack
+        - "0"
+      - - Defence
+        - "-2"
+      - - Indoors
+        - "-4"
+      - - Reach
+        - "25"
+  - heading: Damage against
+    rows:
+      - - Animals
+        - -10%
+      - - Robots
+        - +20%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 478-gamedata.base
+factImage:
+  src: /icons/items/478-gamedata.base.png
+  alt: Long Cleaver
+factCaption: Close to being classed as a heavy weapon, it's the heaviest cleaver you will find.
+---
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
+
+The **Long Cleaver** is the longest reaching [Hacker](/hacker-class). Base damage wise, it is identical to the Paladin's Cross. It is used by a couple members of [The Holy Nation](/the-holy-nation), and a few [United Cities](/united-cities) Nobles.
+
+The long cleaver has the highest potential damage out of all weapons against heavily armoured, non-robotic humanoids.
+
+This weapon has inventory dimensions of 2x9, meaning it can only be equipped as a primary weapon.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>10</td><td>10</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>10</td><td>10</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Long Cleavers blueprint: 4 hours at tech level 2; the blueprint is worth c. 5,000.</li></ul></div>
+
+## Blueprints
+
+<table class="wikitable"><tbody><tr><td colspan="2"><div></div><div>Long Cleavers</div><div>[Research Blueprint]</div><div></div></td></tr><tr><td colspan="2">The heavy cleaver, it bridges the gap between sabres and heavy weapons. Some people like 'em.<hr></td></tr><tr><td>Research Level</td><td>2</td></tr><tr><td>Value</td><td>c.5,000</td></tr><tr><td>Sell value</td><td>c.1,250</td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Ability to Make</td><td><div><strong>Long Cleaver</strong></div></td></tr></tbody></table>
+
+The [Blueprints](/blueprints) for this item can be found at the following locations.
+
+### Shops
+
+-   [Holy Weapon Shop](/holy-weapon-shop)
+-   [Shek Weapon Shop](/shek-weapon-shop)
+-   [The Great Library](/the-great-library)
+
+### Loot
+
+-   [Bad Teeth](/bad-teeth)
+-   Drin, The Holy Nation
+-   [Holy Armory](/holy-armory)
+-   [Holy Military Base](/holy-military-base)
+-   [Last Stand](/last-stand)
+-   [Narko's Trap](/narkos-trap)
+-   [Okran's Fist](/okrans-fist)
+-   [Okran's Shield](/okrans-shield)
+-   [Stack](/stack)
+-   [The Great Fortress](/the-great-fortress)
+-   [Watchtower](/watchtower)
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.308</td></tr><tr><td>-Blunt damage</td><td>0.08</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>-3</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>13.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.00 kg</td></tr><tr><td>-Value</td><td>c.791</td></tr><tr><td>-Sell value</td><td>c.197</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.376</td></tr><tr><td>-Blunt damage</td><td>0.16</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>13.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.00 kg</td></tr><tr><td>-Value</td><td>c.868</td></tr><tr><td>-Sell value</td><td>c.217</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.3996</td></tr><tr><td>-Blunt damage</td><td>0.24</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>13.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.10 kg</td></tr><tr><td>-Value</td><td>c.2,610</td></tr><tr><td>-Sell value</td><td>c.652</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.4608</td></tr><tr><td>-Blunt damage</td><td>0.32</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>13.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.10 kg</td></tr><tr><td>-Value</td><td>c.3,030</td></tr><tr><td>-Sell value</td><td>c.757</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.522</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.10 kg</td></tr><tr><td>-Value</td><td>c.3,615</td></tr><tr><td>-Sell value</td><td>c.903</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.648</td></tr><tr><td>-Blunt damage</td><td>0.576</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>23.04</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>15.60 kg</td></tr><tr><td>-Value</td><td>c.6,612</td></tr><tr><td>-Sell value</td><td>c.1,653</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.716</td></tr><tr><td>-Blunt damage</td><td>0.672</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>26.88</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>15.60 kg</td></tr><tr><td>-Value</td><td>c.8,158</td></tr><tr><td>-Sell value</td><td>c.2,039</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.784</td></tr><tr><td>-Blunt damage</td><td>0.768</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>30.72</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>15.60 kg</td></tr><tr><td>-Value</td><td>c.10,072</td></tr><tr><td>-Sell value</td><td>c.2,518</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.92</td></tr><tr><td>-Blunt damage</td><td>0.80</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>32.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.00 kg</td></tr><tr><td>-Value</td><td>c.14,700</td></tr><tr><td>-Sell value</td><td>c.3,675</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.988</td></tr><tr><td>-Blunt damage</td><td>0.88</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>35.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>17.60 kg</td></tr><tr><td>-Value</td><td>c.17,104</td></tr><tr><td>-Sell value</td><td>c.4,276</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.056</td></tr><tr><td>-Blunt damage</td><td>0.96</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>38.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>19.20 kg</td></tr><tr><td>-Value</td><td>c.19,327</td></tr><tr><td>-Sell value</td><td>c.4,831</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.3112</td></tr><tr><td>-Blunt damage</td><td>1.12</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>44.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.40 kg</td></tr><tr><td>-Value</td><td>c.26,585</td></tr><tr><td>-Sell value</td><td>c.6,646</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.386</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>24.00 kg</td></tr><tr><td>-Value</td><td>c.27,972</td></tr><tr><td>-Sell value</td><td>c.6,993</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.4608</td></tr><tr><td>-Blunt damage</td><td>1.28</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>51.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>25.60 kg</td></tr><tr><td>-Value</td><td>c.28,996</td></tr><tr><td>-Sell value</td><td>c.7,249</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.76</td></tr><tr><td>-Blunt damage</td><td>1.60</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>64.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>32.00 kg</td></tr><tr><td>-Value</td><td>c.44,069</td></tr><tr><td>-Sell value</td><td>c.11,017</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.308</td></tr><tr><td>-Blunt damage</td><td>0.08</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>-3</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>13.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.00 kg</td></tr><tr><td>-Value</td><td>c.2,639</td></tr><tr><td>-Sell value</td><td>c.659</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.376</td></tr><tr><td>-Blunt damage</td><td>0.16</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>13.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.00 kg</td></tr><tr><td>-Value</td><td>c.2,894</td></tr><tr><td>-Sell value</td><td>c.723</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.444</td></tr><tr><td>-Blunt damage</td><td>0.24</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>13.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.00 kg</td></tr><tr><td>-Value</td><td>c.3,263</td></tr><tr><td>-Sell value</td><td>c.815</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.512</td></tr><tr><td>-Blunt damage</td><td>0.32</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>13.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.00 kg</td></tr><tr><td>-Value</td><td>c.3,788</td></tr><tr><td>-Sell value</td><td>c.947</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.58</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.00 kg</td></tr><tr><td>-Value</td><td>c.4,519</td></tr><tr><td>-Sell value</td><td>c.1,129</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.648</td></tr><tr><td>-Blunt damage</td><td>0.48</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>19.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.00 kg</td></tr><tr><td>-Value</td><td>c.5,510</td></tr><tr><td>-Sell value</td><td>c.1,377</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.716</td></tr><tr><td>-Blunt damage</td><td>0.56</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>22.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.00 kg</td></tr><tr><td>-Value</td><td>c.6,798</td></tr><tr><td>-Sell value</td><td>c.1,699</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.784</td></tr><tr><td>-Blunt damage</td><td>0.64</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>25.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.00 kg</td></tr><tr><td>-Value</td><td>c.8,393</td></tr><tr><td>-Sell value</td><td>c.2,098</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.92</td></tr><tr><td>-Blunt damage</td><td>0.80</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>32.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.00 kg</td></tr><tr><td>-Value</td><td>c.12,250</td></tr><tr><td>-Sell value</td><td>c.3,062</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.988</td></tr><tr><td>-Blunt damage</td><td>0.88</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>35.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>17.60 kg</td></tr><tr><td>-Value</td><td>c.14,253</td></tr><tr><td>-Sell value</td><td>c.3,563</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.056</td></tr><tr><td>-Blunt damage</td><td>0.96</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>38.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>19.20 kg</td></tr><tr><td>-Value</td><td>c.16,106</td></tr><tr><td>-Sell value</td><td>c.4,026</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.192</td></tr><tr><td>-Blunt damage</td><td>1.12</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>44.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.40 kg</td></tr><tr><td>-Value</td><td>c.18,989</td></tr><tr><td>-Sell value</td><td>c.4,747</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Long Cleaver</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.26</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>24.00 kg</td></tr><tr><td>-Value</td><td>c.19,980</td></tr><tr><td>-Sell value</td><td>c.4,995</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>

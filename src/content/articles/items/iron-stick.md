@@ -1,0 +1,138 @@
+---
+articleId: iron-stick
+title: Iron Stick
+description: An Iron Stick is essentially just a simple metal rod. It is the favored weapon of very low tier characters such as Scrawny Cannibals and Fogmen.
+categories:
+  - Weapons
+  - Blunt
+layout: item
+factTitle: Iron Stick
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Blunt
+          - /blunt-weapons
+      - - Base weight
+        - 2 kg
+      - - Base value
+        - c. 40
+      - - Size in inventory
+        - 1x7
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 0.10x
+      - - Blunt damage
+        - 0.70x
+      - - Bleed
+        - 0.30x
+      - - Armour penetration
+        - 0%
+      - - Attack
+        - "-2"
+      - - Defence
+        - "-2"
+      - - Indoors
+        - "+2"
+      - - Reach
+        - "18"
+  - heading: Damage against
+    rows:
+      - - Animals
+        - -10%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 2064-gamedata.base
+factImage:
+  src: /icons/items/2064-gamedata.base.png
+  alt: Iron Stick
+factCaption: An iron stick, used to hit things.
+---
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
+
+An **Iron Stick** is essentially just a simple metal rod. It is the favored weapon of very low tier characters such as [Scrawny Cannibals](/scrawny-cannibal) and [Fogmen](/fogmen).
+
+This weapon has inventory dimensions of **1x7**. It can therefore be equipped in both the primary and secondary weapon slots. It is the only weapon (Excluding uniquely named weapons like the Bull Horn Axe and Exile Plank) which cannot be crafted. The highest quality which can be obtained is an Edge Type #1 as an [artifact](/artifacts) spawn.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>1</td><td>1</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>1</td><td>1</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>1</td></tr></tbody></table></div>
+
+## Blueprints
+
+There are no [Blueprints](/blueprints) for this item available in the game.
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0385</td></tr><tr><td>-Blunt damage</td><td>0.07</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-3</td></tr><tr><td>-Defence bonus</td><td>-3</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>2.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.90</td></tr><tr><td>-Sell value</td><td>c.22</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.047</td></tr><tr><td>-Blunt damage</td><td>0.14</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>5.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.80 kg</td></tr><tr><td>-Value</td><td>c.99</td></tr><tr><td>-Sell value</td><td>c.24</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.04995</td></tr><tr><td>-Blunt damage</td><td>0.21</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>8.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.20 kg</td></tr><tr><td>-Value</td><td>c.298</td></tr><tr><td>-Sell value</td><td>c.74</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0576</td></tr><tr><td>-Blunt damage</td><td>0.28</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>11.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.346</td></tr><tr><td>-Sell value</td><td>c.86</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.06525</td></tr><tr><td>-Blunt damage</td><td>0.35</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>14.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>7.00 kg</td></tr><tr><td>-Value</td><td>c.413</td></tr><tr><td>-Sell value</td><td>c.103</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.081</td></tr><tr><td>-Blunt damage</td><td>0.504</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>20.16</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.08 kg</td></tr><tr><td>-Value</td><td>c.755</td></tr><tr><td>-Sell value</td><td>c.188</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0895</td></tr><tr><td>-Blunt damage</td><td>0.588</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>23.52</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>11.76 kg</td></tr><tr><td>-Value</td><td>c.932</td></tr><tr><td>-Sell value</td><td>c.233</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.098</td></tr><tr><td>-Blunt damage</td><td>0.672</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>26.88</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.44 kg</td></tr><tr><td>-Value</td><td>c.1,150</td></tr><tr><td>-Sell value</td><td>c.287</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.115</td></tr><tr><td>-Blunt damage</td><td>0.70</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>28.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.00 kg</td></tr><tr><td>-Value</td><td>c.1,680</td></tr><tr><td>-Sell value</td><td>c.420</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1235</td></tr><tr><td>-Blunt damage</td><td>0.77</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>30.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>15.40 kg</td></tr><tr><td>-Value</td><td>c.1,954</td></tr><tr><td>-Sell value</td><td>c.488</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.132</td></tr><tr><td>-Blunt damage</td><td>0.84</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>33.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.80 kg</td></tr><tr><td>-Value</td><td>c.2,208</td></tr><tr><td>-Sell value</td><td>c.552</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1639</td></tr><tr><td>-Blunt damage</td><td>0.98</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>39.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>19.60 kg</td></tr><tr><td>-Value</td><td>c.3,038</td></tr><tr><td>-Sell value</td><td>c.759</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.17325</td></tr><tr><td>-Blunt damage</td><td>1.05</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>42.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>21.00 kg</td></tr><tr><td>-Value</td><td>c.3,196</td></tr><tr><td>-Sell value</td><td>c.799</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1826</td></tr><tr><td>-Blunt damage</td><td>1.12</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>44.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.40 kg</td></tr><tr><td>-Value</td><td>c.3,312</td></tr><tr><td>-Sell value</td><td>c.828</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.22</td></tr><tr><td>-Blunt damage</td><td>1.40</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>56.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>28.00 kg</td></tr><tr><td>-Value</td><td>c.5,036</td></tr><tr><td>-Sell value</td><td>c.1,259</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade (Does not exist, if they did however these would be their stats)_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0385</td></tr><tr><td>-Blunt damage</td><td>0.07</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-3</td></tr><tr><td>-Defence bonus</td><td>-3</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>2.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.301</td></tr><tr><td>-Sell value</td><td>c.75</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.047</td></tr><tr><td>-Blunt damage</td><td>0.14</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>5.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.80 kg</td></tr><tr><td>-Value</td><td>c.330</td></tr><tr><td>-Sell value</td><td>c.82</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0555</td></tr><tr><td>-Blunt damage</td><td>0.21</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>8.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.20 kg</td></tr><tr><td>-Value</td><td>c.372</td></tr><tr><td>-Sell value</td><td>c.93</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.064</td></tr><tr><td>-Blunt damage</td><td>0.28</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>11.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.432</td></tr><tr><td>-Sell value</td><td>c.108</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0725</td></tr><tr><td>-Blunt damage</td><td>0.35</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>14.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>7.00 kg</td></tr><tr><td>-Value</td><td>c.516</td></tr><tr><td>-Sell value</td><td>c.129</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.081</td></tr><tr><td>-Blunt damage</td><td>0.42</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>16.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.40 kg</td></tr><tr><td>-Value</td><td>c.629</td></tr><tr><td>-Sell value</td><td>c.157</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0895</td></tr><tr><td>-Blunt damage</td><td>0.49</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>19.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.80 kg</td></tr><tr><td>-Value</td><td>c.776</td></tr><tr><td>-Sell value</td><td>c.194</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.098</td></tr><tr><td>-Blunt damage</td><td>0.56</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>22.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>11.20 kg</td></tr><tr><td>-Value</td><td>c.959</td></tr><tr><td>-Sell value</td><td>c.239</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.115</td></tr><tr><td>-Blunt damage</td><td>0.70</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>28.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.00 kg</td></tr><tr><td>-Value</td><td>c.1,400</td></tr><tr><td>-Sell value</td><td>c.350</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1235</td></tr><tr><td>-Blunt damage</td><td>0.77</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>30.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>15.40 kg</td></tr><tr><td>-Value</td><td>c.1,628</td></tr><tr><td>-Sell value</td><td>c.407</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.132</td></tr><tr><td>-Blunt damage</td><td>0.84</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>33.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.80 kg</td></tr><tr><td>-Value</td><td>c.1,840</td></tr><tr><td>-Sell value</td><td>c.460</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.149</td></tr><tr><td>-Blunt damage</td><td>0.98</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>39.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>19.60 kg</td></tr><tr><td>-Value</td><td>c.2,170</td></tr><tr><td>-Sell value</td><td>c.542</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Iron Stick</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1575</td></tr><tr><td>-Blunt damage</td><td>1.05</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>42.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>21.00 kg</td></tr><tr><td>-Value</td><td>c.2,283</td></tr><tr><td>-Sell value</td><td>c.570</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## Trivia
+
+-   The model used for the Iron Stick use to be the Iron Club's in older versions of Kenshi.
