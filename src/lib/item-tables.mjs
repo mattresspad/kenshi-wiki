@@ -6,7 +6,8 @@ export function normalizeItemTables($){
   const grade=/^\[(?:Prototype|Shoddy|Standard|High|Specialist|Masterwork) Grade\]$/.test(second.text().trim()) || (/^\[[^\]]+ class\]$/.test(second.text().trim())&&el.text().includes('[Model #')); 
   if(grade){const model=el.text().match(/\[Model #[^\]]+\]/)?.[0];el.addClass('item-grade-table').attr('aria-label',first.text().trim()+' '+(model??second.text().trim()));}
   if(first.children().length&&!first.children(':not(th)').length&&!el.children('thead').length){
-   const head=$('<thead></thead>').prependTo(el);first.appendTo(head);
+   const head=$('<thead></thead>').prependTo(el);
+   for(const row of rows.toArray()){const candidate=$(row);if(!candidate.children().length||candidate.children(':not(th)').length)break;candidate.appendTo(head);}
    head.find('th:not([scope])').each((_,cell)=>$(cell).attr('scope',Number(cell.attribs.colspan??1)>1?'colgroup':'col'));
   }
   for(const row of el.children('tbody').children('tr').toArray()){

@@ -69,7 +69,7 @@ export function prepareArticle(html, data, href) {
       const label = el.find('caption').first().text() || el.prevAll('h2,h3,h4,h5,h6').first().text() || data.title;
       el.wrap($('<div class="table-scroll" role="region" tabindex="0"></div>').attr('aria-label', label + ' table'));
       const first = el.children('tbody').children('tr').first();
-      if (el.is('.sortable') && first.children().length && !first.children(':not(th)').length && !first.children('[rowspan]').length) {
+      if (el.is('.sortable') && !el.children('thead').length && first.children().length && !first.children(':not(th)').length && !first.children('[rowspan]').length) {
         first.children().attr('scope','col');
         first.appendTo($('<thead></thead>').prependTo(el));
         el.attr('data-sortable','');

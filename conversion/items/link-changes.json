@@ -235,5 +235,47 @@
       "/crossbow-bolts-tech",
       "/crossbow-crafting-tech"
     ]
+  },
+  {
+    "name": "armour-1",
+    "resolved": [
+      "/ancient-samurai-armour",
+      "/ancient-samurai-helmet",
+      "/ancient-samurai-legplates",
+      "/armour",
+      "/armoured-face-plates",
+      "/armoured-hood",
+      "/armoured-rag-skirt",
+      "/armoured-rag-skirt-colored",
+      "/armoured-rags",
+      "/armoured-rags-colored",
+      "/ashland-hat",
+      "/ashlander-stormgoggles",
+      "/assassins-rags",
+      "/bandana",
+      "/basket-hat",
+      "/black-bandana",
+      "/black-cloth-shirt",
+      "/black-plate-jacket",
+      "/black-rag-shirt",
+      "/blackened-chain-hive-shirt",
+      "/blackened-chain-shirt",
+      "/blackened-chainmail",
+      "/blackened-chainmail-tagelmust",
+      "/body-armour",
+      "/bucket-zukin",
+      "/cap"
+    ],
+    "introduced": [
+      "/category/headgear",
+      "/category/legwear",
+      "/category/medium-armour",
+      "/category/shirts",
+      "/clothing-manufacture-tech",
+      "/hats-and-headgear-tech",
+      "/heft-armor-shop",
+      "/plate-armour-crafting-tech",
+      "/simple-clothing-types-tech"
+    ]
   }
 ]

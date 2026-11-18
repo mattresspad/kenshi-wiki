@@ -1136,6 +1136,462 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "ancient-samurai-armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Ancient Samurai Armour is a Heavy Armour that is equipped in the Body Armour slot. Due to its age, it has less resistances compared to its modern version while having the same attack damage penalty, making this armour an inferior choice. It is worn as a part of a set together with Ancient Samurai Legplates. Ancient Samurai Helmet and Ancient Samurai Boot",
+      "organization": "Reviewed 4 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ancient-samurai-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a2638fec6f9bce18ca4c9fb782a3610ef25c50aa27f5adf50c6cdf52c985b227"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ancient-samurai-helmet",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ancient Samurai Helmet is a Heavy Armour that is equipped in the Headgear slot. As the Second Empire remnants who are the only ones to wear the Ancient Samurai armour set are purely composed of Skeletons (who cannot use Headgear), this armour cannot be found anywhere in the game. Had it existed in the game it would have been part of a set together with Ancie",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ancient-samurai-helmet.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c659fd252814238f1b83e2651883db1b31226af20b71ff070c64130774b32f6c"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ancient-samurai-legplates",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ancient Samurai Legplates are Heavy Armour equipped in the Legwear slot. Due to its age, it has less resistances compared to its modern version while having the same penalties, making this armour an inferior choice. It is worn as a part of a set together with Ancient Samurai Armour. Ancient Samurai Helmet and Ancient Samurai Boots could have been part of thi",
+      "organization": "Reviewed 4 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ancient-samurai-legplates.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d9bd23c30bf9724ed7b03559dace5f2bb4321801b4b996c05945f4d3745e55c4"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Armour king! Armour king! Saving lives! With armouring!Armour King Armour is a selection of equipment worn on various parts of the body to mitigate damage. It can be worn on five different parts of the body. Armour can be made by the player through the skill Armour Smith, purchased from Traders, or looted from characters. All types of armour are most efficie",
+      "organization": "Reviewed 8 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6e3149646a0060f0b89c190fa403a9f8443d23c7527dbfdc3d82fa0f957d1f05"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-damage-and-modifiers",
+        "claim:item-disguise-and-storage",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "armoured-face-plates",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Armoured Face Plates is a Medium Armour that is equipped in the Headgear slot. There is a hooded variant with higher coverage and resistance to acid and burning damage, but with penalties on combat stats and less protection from cutting damage (due to lower cut resistance efficiency). This armour has inventory dimensions of 3x3. Appearance The Armoured F",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armoured-face-plates.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e39c4f2cd0d969d4777acbece4c1b6e77a398e920941ccdd0d01716aaa8e0ad7"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "armoured-hood",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Armoured Hood is a Medium Armour equipped in the headgear slot. It is the only Head armour which reduces defence. There is an unhooded variant with no penalties on stats, better cut efficiency, but lower coverage, along with lacking the resistance to acid and burning damage. This armour has inventory dimensions of 3x3. Appearance Armoured Hood is a chain",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armoured-hood.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "116225504ce36908040667789d0ce79e5c454cdefdf62a593c5b770955d8ea0e"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "armoured-rag-skirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Armoured Rag Skirt is a Medium Armour equipped in the Legwear slot. By default, the rags are biege in color. However, a separate armor of the same name but with an added ‘(colored)’ exists. Together with the Armoured Rags it forms a set that can also be dyed different colors depending on the character it is equipped on first. This armour has inventory di",
+      "organization": "Reviewed 4 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armoured-rag-skirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "87f7a36064f7820cec76959e95fcc932f8978a37b35059c289073f36a9ae7e27"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-hidden-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "armoured-rags",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Armoured Rags is a Medium Armour equipped in the Body Armour slot. By default, the rags are beige in color. However, a separate armor of the same name but with an added ‘(colored)’ exists. Together with Armoured Rag Skirt it forms a set that can also be dyed different colours depending on the character it is equipped on first. This armour’s low stomach cover",
+      "organization": "Reviewed 4 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armoured-rags.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "93241c2b06e78dace5a9466e77d7c25a9ae2db2669cb2f4f1262533bbcadb301"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ashland-hat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Ashland Hat is Clothing that is equipped in the Headgear slot. It is a slightly armored version of the Ashlander Stormgoggles, but with much less protection for Duststorms but a gain of protection for Acid weather. This armour has inventory dimensions of 3x4. Appearance Ashland Hat is a pair of Ashlander Stormgoggles with a black top hat. Stats Source Lo",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ashland-hat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ed826e17109953a588578a43fdfeed95e565039aa830b9393e537e6898f945b0"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ashlander-stormgoggles",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ashlander Stormgoggles are Clothing that is equipped in the Headgear slot. There is an armored version with a top hat that has less weather protection in Duststorms, but with additional protection against Acid. This armour has inventory dimensions of 1x3. Appearance Ashlander Stormgoggles appear as a pair of round, black goggles. They feature a thin silver f",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ashlander-stormgoggles.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a36c771364b6cdc72fbe310c93d90b9cf9b43cfa04216fadedca2862c9700711"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "assassins-rags",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Assassin’s Rags are Light Armour that are equipped in the Body Armour slot. It is notable for having 100% coverage for the striking (right) arm only, leaving other parts of the body much less defended. This armor is also notable in that it provides 100% fist protection, making it useful for Martial Arts specialists who have not replaced their limbs with supe",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/assassins-rags.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "35a287ca77782a3a99a13b29412c1faef0e511fc4101b7a6243dcbe6986e4212"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "bandana",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Bandana is a Light Armour that is equipped on the Headgear slot. The Bandana has two other variants: the Black Bandana and the Red Bandana. This “blank” version of bandana is dyeable. This armour has inventory dimensions of 3x3. Appearance The Bandana is a white cloth tied around the character’s face like a headband. It leaves the majority of the face an",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bandana.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dac4222986c6e3bad98b8e2d3804a372c77772130d8a3ae07f1f2f0b995a182a"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "basket-hat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Basket Hat is Clothing that is equipped in the Headgear slot. This armour has inventory dimensions of 3x3. Source Locations Crafting Unlocked by:Basket Hat blueprint: 12 hours at tech level 1; the blueprint is worth c. 15.Hats and Headgear research: 6 hours at tech level 1; costs 2 Books; needs Clothing Manufacture. The blueprint is obtainable but unneeded",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/basket-hat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5a1a894965af1ec81ffdba3b966171044603b87e6c31e18622f7d9ed5b03b656"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "black-bandana",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Black Bandana is a Light Armour that is equipped in the Headgear slot. The Black Bandana has two other variants: the Bandana and the Red Bandana. This armour has inventory dimensions of 3x3. it is not equipped by any character. Appearance The Black Bandana is a black cloth tied around the character’s face like a headband. It leaves the majority of the fa",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/black-bandana.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "23cedc6b70dcc76387be0a3acc9cdf00d4a26e165fbbc7b207d73a9b307f12b1"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "black-cloth-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Black Cloth Shirt is Clothing that is equipped in the Shirt slot. There is also the standard version of this shirt. This armour has inventory dimensions of 2x4. Appearance Black Cloth Shirt is a black version of the Cloth Shirt. Source Locations Crafting Unlocked by:Black Cloth Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 337.Simple",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/black-cloth-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "890f9821fee23e62009c207b560c7d8300e12bbe8447cd10fb4d35d8cc08011c"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "black-plate-jacket",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Black Plate Jacket is a Medium Armour that is equipped in the Body Armour slot. It and its variants are one of the few body armours that cover 100% of the entire upper body. It lacks the Stealth and Assassination penalties of its plain and white variants. This armour has inventory dimensions of 4x6. Appearance The Black Plate Jacket is a sleek and stylis",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/black-plate-jacket.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1a5fc2b2607f90252f4d06e72f15857a0ef63ccdb79c1d766b052dc597bada7b"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "black-rag-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Black Rag Shirt is a piece of Clothing that is equipped in the Body Armour slot. Because of its color, it has a stealth bonus unlike its plain, dyed, and holy variants. This armour has inventory dimensions of 4x6. Appearance The Black Rag Shirt is made up of several ragged strips of black cloth that wrap around the characters neck and upper torso. Some s",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/black-rag-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "38a7579a8dd6510b13268078fd914e01ca70a85eef96e43715934d448cff4e36"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "blackened-chain-hive-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Blackened Chain Hive Shirt is a Medium Armour equipped in the Shirt slot. This shirt is one of the four shirt options available for Hive characters to wear in the shirt slot. This armour has inventory dimensions of 4x2. There are standard and rusted versions of this shirt. This is also the Hiver-equivalent of Blackened Chain Shirt and Blackened Chainmail. Ap",
+      "organization": "Reviewed 5 section bookmarks and 5 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blackened-chain-hive-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "01218222675116261245bb8bd91f254e55c9c00f4c39f7bb8d423fbb9f1f154c"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "blackened-chain-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Blackened Chain Shirt is a Medium Armour that is equipped in the Shirt slot. This armour has inventory dimensions of 2x4. There are standard, rusted and long-sleeve versions of this clothing. Additionally, there is also a Hiver-equivalent version of this clothing. Appearance Blackened Chain Shirt is similar in appearance to the Chain Shirt. The major dif",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blackened-chain-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "468b7e7a3f1e47495ca32bcc0e6672d0df6442287ca3caad872a5117720db496"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "blackened-chainmail-tagelmust",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Blackened Chainmail Tagelmust is a Medium Armor that is equipped in the Headgear slot. It has the highest protection compared to its rusted and cloth versions. This armour has inventory dimensions of 3x3. Appearance It is a black chainmail strip wrapped around the head. Stats Source Locations Crafting Unlocked by:Blackened Chainmail Tagelmust blueprint: ",
+      "organization": "Reviewed 5 section bookmarks and 5 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blackened-chainmail-tagelmust.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a21605a2a799e8780e7b302eac7c9f1c6fba789175c092dd4881b883f1c6b110"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "blackened-chainmail",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Blackened Chainmail is a Medium Armour that is equipped in the Shirt slot. This armour has inventory dimensions of 2x4. This chainmail also offers slightly more resistance than the short-sleeve chain shirts. Appearance Blackened Chainmail covers the full torso of the character and is similar in appearance to Chainmail. The major difference between the two is",
+      "organization": "Reviewed 5 section bookmarks and 5 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blackened-chainmail.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "38dc62ab0134e90ea72228a84d6fa48c1bb35ffc801882b52d1c9302f817c4ed"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "body-armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Body Armour includes any piece of equipment of any armour class that is meant to cover the torso in the chest armour slot. Characters of all humanoid races can equip body armour in the armour slot. For damage and resistance calculations, see Damage and Resistances. The following values assume [Standard] quality. No Armour Coverage These armors provide no pro",
+      "organization": "Reviewed 5 section bookmarks and 5 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/body-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d782d603f38146fef5a08de7c8aec56c207ecc5a53dc80d2f686b06b517d38cb"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-slot-and-class-contradictions"
+      ]
+    },
+    {
+      "id": "bucket-zukin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Bucket Zukin is Heavy Armour that is equipped in the Headgear slot. It is the standard headgear for regular soldiers of The Holy Nation. The helmet can be dyed. This armour has inventory dimensions of 3x3. Appearance The Bucket Zukin appears to be a pot helmet with a flat chainmail sheet attached as to wrap around the sides and back of the head. Two plat",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bucket-zukin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d14c11251a96fc11043a772dcb030f6c5472f4da3c782ac70de1c536d9c8aa74"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cap",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Cap is Clothing that is equipped in the Headgear slot. This armour has inventory dimensions of 3x3. Appearance The Cap is a basic brown baseball hat but made with several leather pieces crudely sewn together. There are no insignia, logos or any writing on the Cap. Source Locations Crafting Unlocked by:Cap blueprint: 12 hours at tech level 1; the blueprin",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cap.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "16d8798bbdf29b74d531e62868f38f315cb367e335c5bed26364ddc18572fd1f"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [
