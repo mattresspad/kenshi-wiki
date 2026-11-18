@@ -5587,6 +5587,370 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "mystery-sack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Mystery Sack is a unique item which Emperor Tengu will give the player when he sends them on a journey to kill the notorious Grievewrath. The sack contains Tengu’s royal seal so that the character can retrieve the “Elixer of Godly Powers” from Clunknad Spanner, the skeleton wizard. Trivia It’s simply a half-chewed Greenfruit inside a sack, with the added bon",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mystery-sack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "37f386406aa92d8166fec93042c6afdd8785739eb7d0ce8d3f40f815b2140c70"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-unique-use-contradiction"
+      ]
+    },
+    {
+      "id": "note-from-moll",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Note From Moll is a unique item which is given to the player through dialogue from Moll. The player must be allied with the Flotsam Ninjas to receive this item. Tips Be careful not to speak to any Flotsam Ninjas inside of Molls building as she may join in with the ground. If she is defeated when out it will lead to the destruction of the Flotsam Ninjas.",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/note-from-moll.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e6e20fc798803997c48cc506fe2bc996ce961fab32a577af52643f50d3d9059d"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-unique-use-contradiction"
+      ]
+    },
+    {
+      "id": "old-cpu-unit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Old CPU Unit is an item which can only be found in a few locations. It serves no function outside of being worth a small amount of money. Found on: Hydraulic Knight Old Empire Police Captain Skin Bandit Legion Thrall In every case, removing this item will result in the immediate death of the skeleton which was holding it. Aspiring ninja/assassin can clear up",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/old-cpu-unit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "72f2274816bd77bb0d0e2d4b984091e71357d7015fc1befe2bfd96ea085132fa"
+      },
+      "questions": [
+        "claim:item-cpu-removal",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "old-map",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Old Map is a junk item: no purpose other than trading and only worth a small amount. This item can be found in Lost Libraries along with Damaged Books and Parchment. This item might actually be a real map of the way the continent in Kenshi was before much of the landscape was altered and polluted. The player characters in Kenshi describe it as ‘probably fict",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/old-map.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "36d0d60a46b928a9cebf07908efc0cc0c0dc350da8260f48c33ddf81ca5ab74c"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "outpost-items",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The desire to create is one of the deepest yearnings of the human soul.E.U. Outpost Items are all the building blocks used in the creation of items and buildings. They are the materials you must buy, gather, and produce to expand your empire. Raw materials will need to be processed through Crafting. Raw Materials These items are often refined in Industry Bui",
+      "organization": "Reviewed 3 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outpost-items.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b3bd2d46a965e194e09153a17bfcc6047bd43c3c0aa2cda8529f656d08129cd3"
+      },
+      "questions": [
+        "claim:item-crafting-and-research"
+      ]
+    },
+    {
+      "id": "parchment",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Parchment is some useless junk found in Lost Libraries along with Damaged Books and Old Maps. Tips Parchment, while functionally useless, stacks pretty well and sells for good value relative to its size and abundance. When you loot Lost Libraries, it’s good to grab all the useless items (i.e. Old Maps, Damaged Books) and utilize a large storage device (such ",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/parchment.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8d53e289cb1bc958b3c41717f5ae2be961f3de4c7ccb2d7ef169f724f1f25433"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "pearl-cup",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Pearl Cups can be found in Residential Buildings or in Hive village shops. When starting out, stealing this item along with other junk can help players increase their Thievery stat with little risk (if the building is empty) and reward. It is quite possible that this item is made from Leviathan Pearls, alongside other pearl-related things such as Pearl Vase,",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/pearl-cup.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "757b3a41b06fc02a398f54652dc9a01af093a443e00172c6b21621535bad539b"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "pearl-sword-holder",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Pearl Sword Holder is a useless junk Item: no purpose other than trading and only worth a small amount. This item can be found in Residential Buildings. When starting out, stealing this item along with other junk can help players increase their Thievery stat with little risk (if the building is empty) and reward. It is quite possible that this item is made f",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/pearl-sword-holder.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4f4edb3431d973bc13d425bf316650ca7dfe81c10417db4e5e8ee15619c00c16"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "pearl-urn",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Pearl Urn is a useless junk Item: no purpose other than trading and only worth a small amount. This item can be found in Residential Buildings. When starting out, stealing this item along with other junk can help players increase their Thievery stat with little risk (if the building is empty) and reward. It is quite possible that this item is made from Levia",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/pearl-urn.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ff4924b5ef00df27548137b6ec565041641ed19cc36b65d4de3fa21ad622eecf"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "pearl-vase",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Pearl Vases can be found in Residential Buildings. When starting out, stealing this item along with other junk can help players increase their Thievery stat with little risk (if the building is empty) and reward. It is quite possible that this item is made from Leviathan Pearls, alongside other pearl-related things such as Pearl Urn, Pearl Cup and Pearl Swor",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/pearl-vase.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "473f1866f57379247fb00a9a4ad78d104f224a4bcdc019f3dab351d86015f24e"
+      },
+      "questions": [
+        "claim:item-pearl-training-box",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "power-core",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Power Core is an item which can be found in ancient locations. It serves no function outside of being worth a decent amount of money. Found in: Ancient Labs Armoury Ruin Archive Town Leaning Tower Lost Town Old Empire Watchtower Dead Workshop, Deadland Workshop, Post-Ancient Workshop, Workshop Complex Tips Picking up items off counters (Power Core included",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/power-core.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4c4431c9914c2c2adc6e867bf11da8d02231647fe96d4ab01ca977078bccbe9f"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "press",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Press is a trade good which can be crafted at Robotics Bench. Presses are typically found in various ruins including Ancient Labs. Robotics Bench Used In Skeleton Muscle History Crafting Unlocked by:Robotics research: 8 hours at tech level 3; costs 1 Ancient Science Book; needs Steel Bars, Electrical Crafting.",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/press.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "edac7a43a3f105167e5a63ea842e9f80a088c2240c3b85fda4c0edb3b8d05c22"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ration-pack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Anyway, I have some spare rations, please, take this food and be safe. It's easy to run low on supplies out here.High Paladin Ration Pack is a uncraftable Food item which can be purchased from certain traders and caravans or received as a gift. Ration Packs and Ancient Nutri-Rations have the highest nutritional value of any food. Locations These Ration Packs",
+      "organization": "Reviewed 4 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ration-pack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1d7afc78c4f46d310adcc594d76bb20142d33fbc377a662879499e2dcd83f69a"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-uncraftable-recipes"
+      ]
+    },
+    {
+      "id": "raw-iron",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Raw Iron is the base ingredient for many of the production chains in Kenshi. It’s mainly used in the production of iron plates, however it can also be used in its raw state in order to produce Armour Plating at a Plate Beating Station and at the Arrow Making Bench for producing Spring Steel. Iron Plates are, in turn, used to make more advanced materials, suc",
+      "organization": "Reviewed 3 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/raw-iron.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "63134330f8dda3d36271519ed807f490dfd151ff0990099456a65e698e5d6471"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "raw-meat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Raw Meat is an ingredient used primarily in the crafting of food at a Cooking Stove. It can be bought from relevant Traders including those in Hive Villages or gathered from most Fauna. It is only edible to hivers, scorchlanders and animals. Despite its raw status, it retains the same nutritional value as Dried Meat. It does not spoil over time. Locations Me",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/raw-meat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ebcbcda45ed5f42124c48186934c387bbeb3b0113fe9b690454bd27d527559fc"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-food-thresholds-efficiency",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "raw-stone",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Raw Stone is the base ingredient used to create Building Materials, the building blocks of construction. Stone can be gathered through use of a Stone Mine and stored in Storage: Stones container. Both of those buildings become obsolete with the construction of a Hybrid Stone Mine. Small quantities of Raw Stone can be found in the ruins of various (ancient) l",
+      "organization": "Reviewed 2 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/raw-stone.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "624a67f38fc18919064d9c43fb61128c3be1640c519f97aa626d17474bb2dfeb"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "research-artifacts",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Because knowledge is a valuable thing in this world. Someone has to try and protect it and spread it around.Bookshop Trader Research Artifacts are items in Kenshi which are required to research Technology on a Research Bench. Book artifacts are common and can easily be found in Mechanical Shops and other similar shops. The other artifact types can also be fo",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/research-artifacts.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fffbb77367d88bbae51726992e5e26b3a9400514180e75346427cfc65d5fcb59"
+      },
+      "questions": [
+        "claim:item-crafting-and-research"
+      ]
+    },
+    {
+      "id": "rice-bowl",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Rice Bowl is a food item which can be purchased from relevant traders or created in a Cooking Stove. This food is easiest to find in The Swamp, where Riceweed is abundant. Riceweed is the single most water-hungry crop in the game, with Hydroponics making it only slightly less bad. This doesn’t matter so long as the crops are grown outdoors in rainy environme",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rice-bowl.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2354c1a6835b4c55e851fc85c29bb150d834967cbb540d24cc864373417acd37"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-food-thresholds-efficiency",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "riceweed",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Riceweed is an inedible raw ingredient that must be cooked using a Cooking Stove. It can be purchased from Western Hive traders in Hive Villages. After researching Riceweed Farming, players can start Riceweed Farms and store their crops in Storage: Riceweed. Riceweed Farm Used In Gohan Rice Bowl Sake History",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/riceweed.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "311a7d90d57904ee125c126ee8d082d52c416e8d95777268d6478a7538b5c31b"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "robotics-components",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Robotics Components is a trade good which can be bought at traders such as Hive Village or crafted at a Robotics Bench. It is also used in crafting artificial limbs and Skeleton Repair Kits. Robotics Bench Used In Robotics Bench Skeleton Limb Bench History Crafting Unlocked by:Robotics research: 8 hours at tech level 3; costs 1 Ancient Science Book; needs St",
+      "organization": "Reviewed 3 section bookmarks and 25 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/robotics-components.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8fb6b849af9d25012cb0c5b915b4f4ac2ce7f070620f093008c902b3e29675cb"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "rotten-food",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Rotten Food is an inedible and useless junk item. Many samples of this may be found in Black Desert City storerooms as well as some malnourished bars.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rotten-food.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c45d5b0d21485ddd7b4977c20d4e6349a182099bf45328c47da4e290bd561dc0"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "sake",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Sake is a trade good which has a high mark-up price in United Cities, as well as a low price for sale in The Swamp. Although this item is typically only sold in Bars it cannot be used as food. Sake is made from Riceweed in a Sake Still using the Cooking skill. Players can farm Riceweed after researching Riceweed Farming and construct a sake still after Sake ",
+      "organization": "Reviewed 1 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sake.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f456c9d3137f04f0f2a7d8902205e67b5a345d4b614909cf48b6e85ee9c21d59"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-trade-markups"
+      ]
+    },
+    {
+      "id": "severed-limbs",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Severed Limbs are items which are created when a character loses a limb. Characters must be of a Human, Shek, Hive, or Cannibal/Cannibal Skav race in order for a limb item to be dropped for the corresponding limb. Severed limbs may be grabbed by Bonedogs or Boneyard Wolves who will eventually eat them. Animals never lose limbs. Characters with lost limbs can",
+      "organization": "Reviewed 5 section bookmarks and 28 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/severed-limbs.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ff333c606a1edde4d04d6d8684d684bb89c0332f534dac3ff4fdf6c68cecf714"
+      },
+      "questions": [
+        "claim:item-quality-and-prices"
+      ]
     }
   ],
   "editorialChanges": [

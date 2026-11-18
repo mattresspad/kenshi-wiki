@@ -686,5 +686,39 @@
       "/training",
       "/training-turret"
     ]
+  },
+  {
+    "name": "items-5",
+    "resolved": [
+      "/iron-ore",
+      "/mystery-sack",
+      "/note-from-moll",
+      "/old-cpu-unit",
+      "/old-map",
+      "/outpost-items",
+      "/parchment",
+      "/pearl-cup",
+      "/pearl-sword-holder",
+      "/pearl-urn",
+      "/pearl-vase",
+      "/power-core",
+      "/press",
+      "/ration-pack",
+      "/raw-iron",
+      "/raw-meat",
+      "/raw-stone",
+      "/research-artifact",
+      "/research-artifacts",
+      "/rice-bowl",
+      "/riceweed",
+      "/robotics-components",
+      "/rotten-food",
+      "/sake",
+      "/severed-limbs"
+    ],
+    "introduced": [
+      "/riceweed-farming-tech",
+      "/sake-distillation-tech"
+    ]
   }
 ]
