@@ -563,5 +563,43 @@
       "/monk-pants",
       "/nobles-wrath"
     ]
+  },
+  {
+    "name": "npcs-4",
+    "resolved": [
+      "/empire-noble-guard-hooded",
+      "/gurgler",
+      "/gutterhead",
+      "/harbinger",
+      "/harmothoe",
+      "/head-of-agriculture",
+      "/hero-boss",
+      "/hex",
+      "/high-overseer",
+      "/high-paladin",
+      "/hive-bandit",
+      "/hive-bandit-leader",
+      "/holy-barman",
+      "/holy-chosen",
+      "/holy-citizen",
+      "/holy-citizen/female",
+      "/holy-citizen/male",
+      "/holy-farmer",
+      "/holy-farmer-wife",
+      "/holy-priest",
+      "/holy-sentinel",
+      "/holy-servant",
+      "/holy-shop-guard",
+      "/hooded-empire-noble-guard",
+      "/hound",
+      "/hound-skeleton"
+    ],
+    "introduced": [
+      "/category/disambiguations",
+      "/category/paladins",
+      "/credits",
+      "/empire-samurai-armour",
+      "/halfpants"
+    ]
   }
 ]

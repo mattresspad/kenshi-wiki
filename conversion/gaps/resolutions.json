@@ -3896,6 +3896,17 @@
       }
     },
     {
+      "id": "availability:/gurgler",
+      "kind": "availability",
+      "target": "/gurgler",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gurgler"
+      }
+    },
+    {
       "id": "availability:/gurgler-nest",
       "kind": "availability",
       "target": "/gurgler-nest",
@@ -3918,6 +3929,17 @@
       }
     },
     {
+      "id": "availability:/gutterhead",
+      "kind": "availability",
+      "target": "/gutterhead",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gutterhead"
+      }
+    },
+    {
       "id": "availability:/gutters",
       "kind": "availability",
       "target": "/gutters",
@@ -3937,6 +3959,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hamut"
+      }
+    },
+    {
+      "id": "availability:/harbinger",
+      "kind": "availability",
+      "target": "/harbinger",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/harbinger"
+      }
+    },
+    {
+      "id": "availability:/harmothoe",
+      "kind": "availability",
+      "target": "/harmothoe",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/harmothoe"
+      }
+    },
+    {
+      "id": "availability:/head-of-agriculture",
+      "kind": "availability",
+      "target": "/head-of-agriculture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/head-of-agriculture"
       }
     },
     {
@@ -4061,6 +4116,28 @@
       }
     },
     {
+      "id": "availability:/hero-boss",
+      "kind": "availability",
+      "target": "/hero-boss",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hero-boss"
+      }
+    },
+    {
+      "id": "availability:/hex",
+      "kind": "availability",
+      "target": "/hex",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hex"
+      }
+    },
+    {
       "id": "availability:/hidden-forest",
       "kind": "availability",
       "target": "/hidden-forest",
@@ -4105,6 +4182,28 @@
       }
     },
     {
+      "id": "availability:/high-overseer",
+      "kind": "availability",
+      "target": "/high-overseer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/high-overseer"
+      }
+    },
+    {
+      "id": "availability:/high-paladin",
+      "kind": "availability",
+      "target": "/high-paladin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/high-paladin"
+      }
+    },
+    {
       "id": "availability:/hive",
       "kind": "availability",
       "target": "/hive",
@@ -4113,6 +4212,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hive"
+      }
+    },
+    {
+      "id": "availability:/hive-bandit",
+      "kind": "availability",
+      "target": "/hive-bandit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hive-bandit"
+      }
+    },
+    {
+      "id": "availability:/hive-bandit-leader",
+      "kind": "availability",
+      "target": "/hive-bandit-leader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hive-bandit-leader"
       }
     },
     {
@@ -4270,6 +4391,17 @@
       }
     },
     {
+      "id": "availability:/holy-barman",
+      "kind": "availability",
+      "target": "/holy-barman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-barman"
+      }
+    },
+    {
       "id": "availability:/holy-boot-trader",
       "kind": "availability",
       "target": "/holy-boot-trader",
@@ -4278,6 +4410,50 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holy-boot-trader"
+      }
+    },
+    {
+      "id": "availability:/holy-chosen",
+      "kind": "availability",
+      "target": "/holy-chosen",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-chosen"
+      }
+    },
+    {
+      "id": "availability:/holy-citizen",
+      "kind": "availability",
+      "target": "/holy-citizen",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-citizen"
+      }
+    },
+    {
+      "id": "availability:/holy-citizen/female",
+      "kind": "availability",
+      "target": "/holy-citizen/female",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-citizen/female"
+      }
+    },
+    {
+      "id": "availability:/holy-citizen/male",
+      "kind": "availability",
+      "target": "/holy-citizen/male",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-citizen/male"
       }
     },
     {
@@ -4311,6 +4487,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holy-farm/slave-traders"
+      }
+    },
+    {
+      "id": "availability:/holy-farmer",
+      "kind": "availability",
+      "target": "/holy-farmer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-farmer"
+      }
+    },
+    {
+      "id": "availability:/holy-farmer-wife",
+      "kind": "availability",
+      "target": "/holy-farmer-wife",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-farmer-wife"
       }
     },
     {
@@ -4534,6 +4732,50 @@
       }
     },
     {
+      "id": "availability:/holy-priest",
+      "kind": "availability",
+      "target": "/holy-priest",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-priest"
+      }
+    },
+    {
+      "id": "availability:/holy-sentinel",
+      "kind": "availability",
+      "target": "/holy-sentinel",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-sentinel"
+      }
+    },
+    {
+      "id": "availability:/holy-servant",
+      "kind": "availability",
+      "target": "/holy-servant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-servant"
+      }
+    },
+    {
+      "id": "availability:/holy-shop-guard",
+      "kind": "availability",
+      "target": "/holy-shop-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-shop-guard"
+      }
+    },
+    {
       "id": "availability:/holy-weapon-trader",
       "kind": "availability",
       "target": "/holy-weapon-trader",
@@ -4542,6 +4784,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holy-weapon-trader"
+      }
+    },
+    {
+      "id": "availability:/hooded-empire-noble-guard",
+      "kind": "availability",
+      "target": "/hooded-empire-noble-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hooded-empire-noble-guard"
       }
     },
     {
@@ -4575,6 +4828,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hostile-factions"
+      }
+    },
+    {
+      "id": "availability:/hound",
+      "kind": "availability",
+      "target": "/hound",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hound"
+      }
+    },
+    {
+      "id": "availability:/hound-skeleton",
+      "kind": "availability",
+      "target": "/hound-skeleton",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hound-skeleton"
       }
     },
     {

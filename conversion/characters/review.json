@@ -4311,6 +4311,395 @@
         "claim:character-recruitment",
         "claim:character-stat-associations"
       ]
+    },
+    {
+      "id": "gurgler",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: GURGLEGURGLEGurgler Gurglers are the most common of the Fishmen. They can be found roaming in large packs on Fishman Island which is located south of the Bonefields. Though they lack any threatening skills they focus on their population size to overwhelm foes. Like their stronger cousins they use their Claws to fight in combat using Martial Arts. Removing th",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gurgler.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a1ddbde8469d3462f8dfaf6ff956e94df5f0ed69a6b87a7acfcbd593d5e2a23c"
+      },
+      "questions": [
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "gutterhead",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Gutterhead is the influential leader of the faction Scavengers. He leads 7 other Scavengers within the Old Control Tower. They wear [Shoddy] armour (40% chance of [Standard]) and have weapons manufactured by Ancient and Unknown. His Wanted Poster is distributed in the United Cities, but his entry in FCS does not have a “bounty faction” which causes it to be ",
+      "organization": "Reviewed 2 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gutterhead.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "832f454b0f9c44385b499dc241c33528da20a692edada7e7b59ac5ea445cc45a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "harbinger",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Attention Peasants! I demand to speak with your pathetic leader!Harbinger Harbinger is an unused character in Kenshi found in the FCS. It is unknown what faction they were meant to belong to, though it appears they were supposed to be used for a Base or Outpost Assault. They wear no armour and have weapons manufactured by Ancient (Manufacturer). Statistics G",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/harbinger.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8c47fe665bc38b4efc1046722e18e4f95254e361f5982b1c42d1b29ea3f180c6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "harmothoe",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Always nice to see a lovely lady all the way out here no man's land! What can I do for you, sister?Harmothoe greeting a female character Harmothoe is a unique member of the Free Traders. She can be found leading a caravan, which can trade goods with the player. She can be found in either Heng or Trader’s Edge. Her caravan includes 2 Pack Beasts and 8 to 10 C",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/harmothoe.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5c8b33609ebf9e204002f235cdc196f9e66c2ee042c5faee76e502d4681c5e04"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "head-of-agriculture",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Head of Agriculture is a member of the Second Empire faction. They can be found in Ashland Dome I with many Legion Thralls. This character carries a Meitou Short-Cleaver. They also carry a unique CPU: CPU of the Head of Agriculture. They wear [Specialist] armour (5% chance of [Masterwork]) and have weapons manufactured by Cross. Removing these items from",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/head-of-agriculture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6b79bea5483b6a68a57b76224ca5ac9021536fc177ded42e5e062982ef393b0f"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "hero-boss",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Got some foreigners setting up shop in our desert, eh?Hero Boss picking a fight Hero Bosses are squad leaders of the United Heroes League. They are usually found leading packs of 5-7 City Heroes as they roam around United Cities territories in the northeast. They also patrol with groups of 3-7 City Heroes around the areas of Heng and The Great Desert. They w",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hero-boss.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cfdce920ba4bba9243a1e179951b8c26d449c8c1ce9537fc6d5e9108a20939a6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "hex",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Stickin' it... to the Empire... Fuck... Tengu...Hex, when asked what she's in for Hex is an Outlaw being held prisoner in Tengu’s Vault. She has a c.25,000 Bounty. She has the Brave Personality. If you break her out of prison, she’ll run away to check on her family at the farm. This gives her the job “Wandering Trader” and has her run around the United Citie",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hex.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2f7796e332f92ea535f963880ebe15d5fdffece6eab8513b39d4312b9b1e9747"
+      },
+      "questions": [
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "high-overseer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: High Overseers are the leading authority figures of a Holy Mine. Killing a High Overseer will not destroy the Holy Mine, however. They are charged with overseeing day-to-day operations and making sure the Lower Servants are kept in line. They command a Holy Mine’s garrison of Slavers, Paladins and Holy Sentinels. High Overseers are similar in appearance to H",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/high-overseer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ec225b8609da7b3d33a313ccd178e4c6ce11fe97f64affbe68efc75f6a908fdb"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "high-paladin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: High Paladins are elite fighters that serve as squad leaders in The Holy Nation army, as well as bodyguards for the Lord Phoenix. They can often be found leading Holy Nation patrol groups, with Paladins and Holy Servants under their command. Rarely, they can also be found as an elite squad serving under an Inquisitor patrolling HN heartlands. They wear [Stan",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/high-paladin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "da3bde84a6e1f1742bfec343f347ecdc6cf2d9bccfe2fc362048c7b17322a02b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "hive-bandit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hive Bandits are bandit members of the Western Hive. They start spawning after the Hive Queen is killed or kidnapped. They can be found in 2 main regions: Western regions of Border Zone, Dreg, Flats Lagoon, Okran’s Pride, Okran’s Valley, Skinner’s Roam, Stenn Desert, The Swamp, Flats Lagoon. Eastern Regions of Sinkuun, The Great Desert, The Eye. They spawn i",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hive-bandit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2de7502b6245495f3bb0edb6ee23a20e00ab2b3fa2c9674a982edf5905746e79"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "hive-bandit-leader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Erase them!Erase!Erase!Erase!-a Hive Bandit attacking Hive Bandit Leaders are members of the Western Hive. They start spawning after the Hive Queen is killed or kidnapped. They spawn accompanied by a squad of 4 to 8 Hive Bandits. They spawn in 2 main regions: Western regions of Border Zone, Dreg, Flats Lagoon, Okran’s Pride, Okran’s Valley, Skinner’s Roam, S",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hive-bandit-leader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "506e1100faecc72b564aeb3db69f22f397138729d04c44af1a2278d952c651ec"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "holy-barman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Love and devotion, brother. Need supplies?Holy Barman greeting Holy Barmen are shopkeepers of The Holy Nation. They reside and sell items from Holy Nation Bars. Like all Holy Nation shopkeepers, they don’t sell wares to races that aren’t Human. They wear [Shoddy] armour (5% chance of [Standard]). Statistics Greenlander",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-barman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5fcc35970ad633235f7e5f2e8d9c411b1257b917bb9604b1ce158df0255a1822"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "holy-chosen",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The holy servants of Okran will fight his last crusade, to prevent the Second Extinction. The Agents Of Darkness will be burned away from these lands with the Lord's light. Praise the lord Okran's sacrifices for mankind!Holy Priest Holy Chosen are fighters for the Holy Nation that can be found on the front lines of Bast and Skimsands against the United Citie",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-chosen.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1ad254716401e483173bebc69fc1fa512d3796666ee63bd834e3aded7a301033"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-patrol-interpretation",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "holy-citizen",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a disambiguation page for Holy Citizen The following is a list of links to pages that might share the same title. Please follow one of the disambiguation links below or search to find the page you were looking for if it is not listed. If an internal link led you here, you may wish to change the link to point directly to the intended article. ",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-citizen.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "80194a50d450cd1e0762292eddcd6e795824522577e71434df04e6b764c8c746"
+      },
+      "questions": [
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "holy-citizen/female",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Okran blesses us with clear skies This Holy Citizen is more likely to spawn as a female character than the other Holy Citizen. This version also has slightly lower stats, but not by much. This character can be found alongside the other type of Holy Citizen as a resident in any town controlled by The Holy Nation. This character can also be found as a squatter",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-citizen/female.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0abcb97199b2bdd8f53b0b8a3acac244c2775e2523b98c705cf2dfa35f2b8c87"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "holy-citizen/male",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Okran hates liars. And skeletons. And loose women. This Holy Citizen is more likely to spawn as a male character than the other Holy Citizen. This version also has slightly higher stats, but not by much. This character can be found alongside the other type of Holy Citizen as a resident in any town controlled by The Holy Nation. This character can also spawn ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-citizen/male.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "192de2824e10c1504d396a89c81ccd82a8157253ebf420b47d117d93c8e70094"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "holy-farmer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Holy Farmers are the primary labor force and most common character found at the Holy Farms. They can often be found laboring in the fields near Holy Farms during the day. Holy Farmers can be male or female (though mostly females), with the males sometimes having Holy Farmer Wives accompany them. In-game due to the fact that they don’t have any First Aid Kits",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-farmer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d3a54d3db59013d83b30bd958748f9947eeb74aa2f284c5edbda3d5f7ff48dc9"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "holy-farmer-wife",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Holy Farmer Wives are residents at Holy Farms and assumed wives of Holy Farmers and Holy Farm Leaders. Some women at the Holy Farms work as regular farmers, rather than wives. Unlike Holy Farmers, they seem to have no labor schedule and unlike Holy Farm Leaders, offer no trade goods or dialogue options. However, Holy Farmer Wives are the only ones at Holy Fa",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-farmer-wife.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b3d09ad600127db0425f8989ddd109a705eb635b59863b978a079a3ec5218dad"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "holy-priest",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: To ignore the request of a holy priest is looked upon as sacrilege, my brothers...a priest's High Paladin escort Holy Priests are high-ranking figures of The Holy Nation. They are zealots devoted to their god Okran and tend to stay within or near temples. They will lead Prayer Days to a player’s outpost if it is located within Holy Nation territory or nearby",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-priest.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0f7e9f44701aac49add698f8fa31a89e183213146526ff49f8980b003788e5bd"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "holy-sentinel",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Holy Sentinels are guards and middle-ranking foot soldiers for The Holy Nation, charged with protecting towns and assets such as mines. Sometimes they patrol, usually led by a Paladin. They frequently stand at the gates of Holy Nation towns, checking outsiders for contraband. They are also responsible for executing heretics via burning in the lore. Holy Sent",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-sentinel.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "602570d5e163669c98e7383cf97b237822c63f35f89bf851a9bfb095ab05188f"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "holy-servant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Holy Servants are characters in The Holy Nation, often seen acting as the companions of Paladins and Priests. Instead of working in the mines, they patrol and perform shopkeeping duties; Holy Bakeries in particular are managed by Holy Servants. Among the Holy Nation’s population, only Greenlander men are given the opportunity to become Holy Servants - possib",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-servant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f0efb4b1ae0ba335e3435a43c9342027baf92c82263d5f94674b2ea125c09417"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "holy-shop-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Thief! Sinners be burned!Shop Guard catching a thief Holy Shop Guards are guards of The Holy Nation. They can normally be found inside shops in Holy Nation towns. They are slightly weaker than the normal Shop Guard and wield inferior blunt weapons, they also appear to have better jack of all trades skills on Laboring, Farming and Cooking than the standard Sh",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-shop-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c91adb3729047e967425e2cd8a40399e46fc07bf67ace1d8068b41c320461ce3"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "hooded-empire-noble-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Noble guardsmen, outta the way! Hooded Empire Noble Guards are elite guards of the United Cities and Traders Guild. They are most commonly found guarding the nobles of these factions. They accompany their lords and ladies inside their Noble House and outside in the streets, shouting down any peasant who dares cross the noble’s path, and attacking any that do",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hooded-empire-noble-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5bc0e77074b4d41214432921b66bf37ec0def1a0bcd5e26f9eb0a16116db72e9"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "hound",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: An outsider, eh? I give you three days, maxHound Hounds are the regular members of the Hounds faction. They can be found in Shark and patrolling inside and around their village Rot. They have a Brave Personality. They wear [Standard] armour (5% chance of [High]) and have weapons manufactured by Ancient. Statistics Greenlander",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hound.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "daed917e9071ec0dec407ae43af04464f4f31377e115107e5f2f7edf5fe92171"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "hound-skeleton",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hound Skeleton is an unused character in Kenshi. They can only be accessed through the Forgotten Construction Set. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Skeleton Trivia Based on the naming of the character and their equipment, it seems they were intended to be a member of the Hounds.",
+      "organization": "Reviewed 2 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hound-skeleton.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ba45447ce23d77fbbc1dbaef6f924b1b16928a888014999450cd7a8e4bf6fbcb"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-removed-content"
+      ]
     }
   ],
   "editorialChanges": [
