@@ -1,0 +1,347 @@
+---
+articleId: farmer-recruit
+title: Farmer Recruit
+description: Farmer Recruit is a randomly named Generic Recruit. They're looking for a farm to work, and they can be hired for c.6,000.
+categories:
+  - Characters
+  - Playable
+layout: character
+factTitle: Farmer Recruit
+factGroups:
+  - heading: null
+    rows:
+      - - Race
+        - - Human
+          - /human
+        - ", "
+        - - Shek
+          - /shek
+        - ", "
+        - - Hive
+          - /hive
+        - ", "
+        - - Skeleton
+          - /skeleton
+      - - Subrace
+        - - Greenlander
+          - /greenlander
+        - ", "
+        - - Scorchlander
+          - /scorchlander
+        - ", "
+        - - Hive Prince
+          - /hive-prince
+        - ", "
+        - - Hive Soldier Drone
+          - /hive-soldier-drone
+        - ", "
+        - - Hive Worker Drone
+          - /hive-worker-drone
+        - ", "
+        - - P4 Unit
+          - /p4-unit
+        - ", "
+        - - Skeleton
+          - /skeleton-race
+      - - Gender
+        - 50% female
+  - heading: Items
+    rows:
+      - - Weapons
+        - - Staff
+          - /staff
+      - - Headgear
+        - - Tagelmust
+          - /tagelmust
+        - ", "
+        - - Straw Hat
+          - /straw-hat
+        - ", "
+        - - Rattan Hat
+          - /rattan-hat
+      - - Shirt
+        - - White Vest
+          - /white-vest
+        - ", "
+        - - Cloth Shirt
+          - /cloth-shirt
+        - ", "
+        - - Leather Vest
+          - /leather-vest
+      - - Legwear
+        - - Cargopants
+          - /cargopants
+        - ", "
+        - - Stout Hessian
+          - /stout-hessian
+        - ", "
+        - - Worn-out Shorts
+          - /worn-out-shorts
+      - - Footwear
+        - - Wooden Sandals
+          - /wooden-sandals
+      - - Inventory
+        - - Standard First Aid Kit
+          - /standard-first-aid-kit
+  - heading: Technical Info
+    rows:
+      - - FCS Name
+        - hire farmer
+      - - String ID
+        - 53389-Dialogue.mod
+---
+
+<figure class="quote"><blockquote>Here to recruit?... Well, if you need a farmer look no further. I can turn a barren wasteland into a blooming oasis. Even managed twenty farms before they went to hell back in the Red Rebellion. I charge 6000 Cats if you're interested.</blockquote><figcaption><a href="/shek">Shek</a>, <a href="/greenlander">Greenlander</a>, or <a href="/scorchlander">Scorchlander</a>, in town of <a href="/united-cities">United Cities</a></figcaption></figure>
+
+**Farmer Recruit** is a randomly named [Generic Recruit](/generic-recruits). They're looking for a farm to work, and they can be hired for c.6,000.
+
+This character can potentially spawn in any location outside of [The Holy Nation](/the-holy-nation).
+
+They wear \[Shoddy\] armour (5% chance of \[Standard\]) and have weapons manufactured by Unknown.
+
+## Statistics
+
+-   Humans
+
+-   Shek
+
+-   Hive
+
+-   Skeletons
+
+
+-   Greenlander
+
+-   Scorchlander
+
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/strength">Strength</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/perception">Perception</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/katanas">Katanas</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/sabres">Sabres</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/hackers">Hackers</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/blunt-weapons">Blunt</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/polearms">Polearms</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dodge">Dodge</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/turrets">Turrets</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbows">Crossbows</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/stealth">Stealth</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/lockpicking">Lockpicking</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/thievery">Thievery</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/assassination">Assassination</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">9 – 11</td></tr><tr><td><a href="/swimming">Swimming</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/field-medic">Field Medic</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/engineer">Engineer</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/robotics">Robotics</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/science">Science</a></td><td align="center">1.2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/armour-smith">Armour Smith</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td><a href="/labouring">Labouring</a></td><td align="center">1</td></tr><tr><td><a href="/farming">Farming</a></td><td align="center">60</td></tr><tr><td><a href="/cooking">Cooking</a></td><td align="center">1.2</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 1
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/strength">Strength</a></td><td align="center">0 – 1.8</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">0 – 2.2</td></tr><tr><td><a href="/perception">Perception</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/katanas">Katanas</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/sabres">Sabres</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/hackers">Hackers</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/blunt-weapons">Blunt</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/polearms">Polearms</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dodge">Dodge</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/turrets">Turrets</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbows">Crossbows</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/stealth">Stealth</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/lockpicking">Lockpicking</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/thievery">Thievery</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/assassination">Assassination</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">10.8 – 13.2</td></tr><tr><td><a href="/swimming">Swimming</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/field-medic">Field Medic</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/engineer">Engineer</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/robotics">Robotics</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/science">Science</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/armour-smith">Armour Smith</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td><a href="/labouring">Labouring</a></td><td align="center">0.8</td></tr><tr><td><a href="/farming">Farming</a></td><td align="center">40</td></tr><tr><td><a href="/cooking">Cooking</a></td><td align="center">0.8</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 1
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
+
+-   Shek
+
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/strength">Strength</a></td><td align="center">0 – 2.2</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/perception">Perception</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/katanas">Katanas</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/sabres">Sabres</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/hackers">Hackers</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/blunt-weapons">Blunt</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/polearms">Polearms</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dodge">Dodge</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/turrets">Turrets</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbows">Crossbows</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/stealth">Stealth</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/lockpicking">Lockpicking</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/thievery">Thievery</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/assassination">Assassination</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">7.2 – 8.8</td></tr><tr><td><a href="/swimming">Swimming</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/field-medic">Field Medic</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/engineer">Engineer</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/robotics">Robotics</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/science">Science</a></td><td align="center">0.8</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/armour-smith">Armour Smith</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td><a href="/labouring">Labouring</a></td><td align="center">0.8</td></tr><tr><td><a href="/farming">Farming</a></td><td align="center">40</td></tr><tr><td><a href="/cooking">Cooking</a></td><td align="center">1</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 1
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
+
+-   Hive Prince
+
+-   Hive Soldier Drone
+
+-   Hive Worker Drone
+
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/strength">Strength</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/perception">Perception</a></td><td align="center">0 – 2.4</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/katanas">Katanas</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/sabres">Sabres</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/hackers">Hackers</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/blunt-weapons">Blunt</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/polearms">Polearms</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dodge">Dodge</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/turrets">Turrets</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbows">Crossbows</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/stealth">Stealth</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/lockpicking">Lockpicking</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/thievery">Thievery</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/assassination">Assassination</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">10.8 – 13.2</td></tr><tr><td><a href="/swimming">Swimming</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/field-medic">Field Medic</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/engineer">Engineer</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/robotics">Robotics</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/science">Science</a></td><td align="center">1.2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/armour-smith">Armour Smith</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td><a href="/labouring">Labouring</a></td><td align="center">0.8</td></tr><tr><td><a href="/farming">Farming</a></td><td align="center">50</td></tr><tr><td><a href="/cooking">Cooking</a></td><td align="center">1</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 1
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/strength">Strength</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/perception">Perception</a></td><td align="center">0 – 1.6</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/katanas">Katanas</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/sabres">Sabres</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/hackers">Hackers</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/blunt-weapons">Blunt</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/polearms">Polearms</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dodge">Dodge</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/turrets">Turrets</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbows">Crossbows</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/stealth">Stealth</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/lockpicking">Lockpicking</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/thievery">Thievery</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/assassination">Assassination</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">9 – 11</td></tr><tr><td><a href="/swimming">Swimming</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/field-medic">Field Medic</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/engineer">Engineer</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/robotics">Robotics</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/science">Science</a></td><td align="center">0.8</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/armour-smith">Armour Smith</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td><a href="/labouring">Labouring</a></td><td align="center">1</td></tr><tr><td><a href="/farming">Farming</a></td><td align="center">40</td></tr><tr><td><a href="/cooking">Cooking</a></td><td align="center">0.8</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 1
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/strength">Strength</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/perception">Perception</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/katanas">Katanas</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/sabres">Sabres</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/hackers">Hackers</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/blunt-weapons">Blunt</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/polearms">Polearms</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dodge">Dodge</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/turrets">Turrets</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/crossbows">Crossbows</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/stealth">Stealth</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/lockpicking">Lockpicking</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/thievery">Thievery</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/assassination">Assassination</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">10.8 – 13.2</td></tr><tr><td><a href="/swimming">Swimming</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/field-medic">Field Medic</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/engineer">Engineer</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/robotics">Robotics</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/science">Science</a></td><td align="center">0.8</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/armour-smith">Armour Smith</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td><a href="/labouring">Labouring</a></td><td align="center">1.2</td></tr><tr><td><a href="/farming">Farming</a></td><td align="center">60</td></tr><tr><td><a href="/cooking">Cooking</a></td><td align="center">0.8</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 1
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
+
+-   P4 Unit
+
+-   Skeleton
+
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/strength">Strength</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/perception">Perception</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/katanas">Katanas</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/sabres">Sabres</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/hackers">Hackers</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/blunt-weapons">Blunt</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/polearms">Polearms</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dodge">Dodge</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/turrets">Turrets</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbows">Crossbows</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/stealth">Stealth</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/lockpicking">Lockpicking</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/thievery">Thievery</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/assassination">Assassination</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">9 – 11</td></tr><tr><td><a href="/swimming">Swimming</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/field-medic">Field Medic</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/engineer">Engineer</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/robotics">Robotics</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/science">Science</a></td><td align="center">1.2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/armour-smith">Armour Smith</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td><a href="/labouring">Labouring</a></td><td align="center">1</td></tr><tr><td><a href="/farming">Farming</a></td><td align="center">50</td></tr><tr><td><a href="/cooking">Cooking</a></td><td align="center">1</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 1
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/strength">Strength</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/perception">Perception</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/katanas">Katanas</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/sabres">Sabres</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/hackers">Hackers</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/blunt-weapons">Blunt</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/polearms">Polearms</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/dodge">Dodge</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/turrets">Turrets</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/crossbows">Crossbows</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/stealth">Stealth</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/lockpicking">Lockpicking</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/thievery">Thievery</a></td><td align="center">0 – 1.6</td></tr><tr><td><a href="/assassination">Assassination</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">9 – 11</td></tr><tr><td><a href="/swimming">Swimming</a></td><td align="center">0 – 2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/field-medic">Field Medic</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/engineer">Engineer</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/robotics">Robotics</a></td><td align="center">0 – 2.4</td></tr><tr><td><a href="/science">Science</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/armour-smith">Armour Smith</a></td><td align="center">0 – 2</td></tr><tr><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td><a href="/labouring">Labouring</a></td><td align="center">1</td></tr><tr><td><a href="/farming">Farming</a></td><td align="center">50</td></tr><tr><td><a href="/cooking">Cooking</a></td><td align="center">1</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 1
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
