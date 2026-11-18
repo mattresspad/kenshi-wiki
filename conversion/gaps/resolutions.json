@@ -1630,6 +1630,17 @@
       }
     },
     {
+      "id": "availability:/bull-backpack",
+      "kind": "availability",
+      "target": "/bull-backpack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bull-backpack"
+      }
+    },
+    {
       "id": "availability:/bull-horn-axe",
       "kind": "availability",
       "target": "/bull-horn-axe",
@@ -4347,6 +4358,17 @@
       }
     },
     {
+      "id": "availability:/garru-backpack",
+      "kind": "availability",
+      "target": "/garru-backpack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/garru-backpack"
+      }
+    },
+    {
       "id": "availability:/gatherer-village",
       "kind": "availability",
       "target": "/gatherer-village",
@@ -6657,6 +6679,17 @@
       }
     },
     {
+      "id": "availability:/large-backpack",
+      "kind": "availability",
+      "target": "/large-backpack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/large-backpack"
+      }
+    },
+    {
       "id": "availability:/last-stand",
       "kind": "availability",
       "target": "/last-stand",
@@ -7215,6 +7248,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/medium-armour"
+      }
+    },
+    {
+      "id": "availability:/medium-backpack",
+      "kind": "availability",
+      "target": "/medium-backpack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/medium-backpack"
       }
     },
     {
@@ -9803,6 +9847,17 @@
       }
     },
     {
+      "id": "availability:/scavengers-basket",
+      "kind": "availability",
+      "target": "/scavengers-basket",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/scavengers-basket"
+      }
+    },
+    {
       "id": "availability:/scorchlander",
       "kind": "availability",
       "target": "/scorchlander",
@@ -10339,6 +10394,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shop-guard"
+      }
+    },
+    {
+      "id": "availability:/shopkeepers-goods-bag",
+      "kind": "availability",
+      "target": "/shopkeepers-goods-bag",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shopkeepers-goods-bag"
       }
     },
     {
@@ -11230,6 +11296,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/small-backpack"
+      }
+    },
+    {
+      "id": "availability:/small-thieves-backpack",
+      "kind": "availability",
+      "target": "/small-thieves-backpack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/small-thieves-backpack"
       }
     },
     {
@@ -12740,6 +12817,17 @@
       }
     },
     {
+      "id": "availability:/thieves-backpack",
+      "kind": "availability",
+      "target": "/thieves-backpack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/thieves-backpack"
+      }
+    },
+    {
       "id": "availability:/thrall",
       "kind": "availability",
       "target": "/thrall",
@@ -12938,6 +13026,28 @@
       }
     },
     {
+      "id": "availability:/traders-backpack-large",
+      "kind": "availability",
+      "target": "/traders-backpack-large",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/traders-backpack-large"
+      }
+    },
+    {
+      "id": "availability:/traders-backpack-medium",
+      "kind": "availability",
+      "target": "/traders-backpack-medium",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/traders-backpack-medium"
+      }
+    },
+    {
       "id": "availability:/traders-edge",
       "kind": "availability",
       "target": "/traders-edge",
@@ -13034,6 +13144,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/traders-leathers"
+      }
+    },
+    {
+      "id": "availability:/traders-wooden-backpack",
+      "kind": "availability",
+      "target": "/traders-wooden-backpack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/traders-wooden-backpack"
       }
     },
     {
@@ -13683,6 +13804,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/wolves"
+      }
+    },
+    {
+      "id": "availability:/wooden-backpack",
+      "kind": "availability",
+      "target": "/wooden-backpack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#backpacks-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wooden-backpack"
       }
     },
     {

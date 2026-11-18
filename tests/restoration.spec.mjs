@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { load } from 'cheerio';
 import evidence from './restored-articles.json' with {type: 'json'};
 import accepted from '../conversion/pr-43.json' with {type: 'json'};
-import { origin } from '../src/lib/catalog.mjs';
+import { origin, snapshot } from '../src/lib/catalog.mjs';
 
 const holy = '/the-holy-nation';
 const packs = '/backpacks';
@@ -10,6 +10,8 @@ const blender = '/modding/blender-plugins';
 const reference = evidence.articles;
 const normalize = text => text.replace(/\s+/g, ' ').trim();
 const forPath = href => new URL(href, origin).pathname;
+const frozenRedirects = new Map(snapshot.redirects.map(rule=>[rule.from,rule.to]));
+const canonicalItems = rows => rows.map(row=>({...row,item:frozenRedirects.get(row.item)??row.item}));
 const byId = (page, id) => page.locator('[id="' + id + '"]');
 
 test('original headings, citation pairs, backpack cells, sort keys and icons survive the conversion', async ({request}) => {
@@ -40,7 +42,8 @@ test('original headings, citation pairs, backpack cells, sort keys and icons sur
         return {item: forPath(cells.first().find('a').attr('href')), icon: cells.first().find('img').attr('src'),
           cells: cells.toArray().map(c => normalize($(c).text())), gridSort: cells.eq(1).attr('data-sort-value') ?? null};
       });
-      expect(rows).toEqual(expected.rows);
+      // A frozen alias becomes its local canonical destination as its target arrives.
+      expect(canonicalItems(rows)).toEqual(canonicalItems(expected.rows));
       for (const row of rows) expect((await request.get(row.icon)).status()).toBe(200);
       expect($('#history').next('p').text()).toContain('Old World');
       const notice = $('main a').filter((_, el) => $(el).text() === 'item-art notice').attr('href');

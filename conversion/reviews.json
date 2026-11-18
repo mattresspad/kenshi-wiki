@@ -3078,6 +3078,54 @@
     "thiefs-arm-right": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/items/review.json"
+    },
+    "bull-backpack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "garru-backpack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "large-backpack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "medium-backpack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "scavengers-basket": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "shopkeepers-goods-bag": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "small-thieves-backpack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "thieves-backpack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "traders-backpack-large": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "traders-backpack-medium": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "traders-wooden-backpack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "wooden-backpack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
     }
   },
   "mediaGaps": [

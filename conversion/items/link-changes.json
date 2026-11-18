@@ -463,5 +463,24 @@
       "/high-speed-legs-tech",
       "/robotics-tech"
     ]
+  },
+  {
+    "name": "backpacks-1",
+    "resolved": [
+      "/bull-backpack",
+      "/garru-backpack",
+      "/large-backpack",
+      "/medium-backpack",
+      "/scavengers-basket",
+      "/shopkeepers-goods-bag",
+      "/small-thieves-backpack",
+      "/thieves-backpack",
+      "/traders-backpack",
+      "/traders-backpack-large",
+      "/traders-backpack-medium",
+      "/traders-wooden-backpack",
+      "/wooden-backpack"
+    ],
+    "introduced": []
   }
 ]

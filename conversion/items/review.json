@@ -3913,6 +3913,203 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "bull-backpack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bull Backpack is a large backpack that can only be equipped by Wild Bull, Pack Bull, or Domesticated Bull characters. It can stack trade goods up to 5. Can be purchased from General Item Trader at World’s End, Farm Traders in many towns or a Holy Farm Leader for c.2,000.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bull-backpack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "457e6f5fdd4549c6405f113409906832f83d32e0a01511b9e742fc53deffb5bf"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "garru-backpack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A large backpack that can only be equipped by domesticated garrus and can stack trade goods up to 6. This backpack features a hanging lantern which will make sneaking while wearing one/by one less effective. Can be purchased from Adventure Shops at World’s End, or the Shek Kingdom as well as from Animal Traders/Farm Traders in towns for c.2,000.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/garru-backpack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9e8e14fef85714b9b2e5ed8942aa61a88e684159415454f613c5c1a93dcf27fc"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "large-backpack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Large Backpack is an unwieldy backpack that will hamper your fighting ability. Of all the backpacks available to humanoids, it has the largest grid, which is 12x20. Only the Garru Backpack and Bull Backpack are larger. They can also stack Trade Goods, which this bag can’t. Due to this bag being tied with Traders Backpack Large as the backpacks with the large",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/large-backpack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9ad0f544df9b966a9d3d54165d53591ce5cdb484f72686531534475947b08a17"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "medium-backpack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A medium weight backpack that is unable to stack Trade Goods and has an adequate amount of space with 10x14 tiles but hinders you more in combat than a Small Backpack. It has an inventory size of 5x4. Can be bought commonly from Item Traders for c.1,500.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/medium-backpack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6054a51237f84dd2a491ab72b8d06f6130c66dea9673ac4e3557c27e703dd739"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "scavengers-basket",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Scavenger’s Basket is a lightweight backpack that is unable to stack trade goods and has a storage space of 10x14 grid tiles and an inventory size of 5x4. This is the same amount of space as a Medium Backpack and a Thieves Backpack. From all backpacks available, this is the most affordable bag. Compared to the Medium Backpack, the Medium has a higher enc",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/scavengers-basket.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "697133579b63bf00f4939687b8799794342e6a0a01c4a5628cc0330eba9db4e6"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "shopkeepers-goods-bag",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Shopkeeper Goods Bag is a very large Backpack with a weight of 100 kg. As it weighs a lot, it can be used to help encumber your character to Strength train but any fights will be made very difficult. Although it reduces your Dodge skill effect to 0.00x it is not ideal for training it as encumbrance reduces the dodge XP you gain. (50% Encumbrance would me",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shopkeepers-goods-bag.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ce95f693eef23daad12f2619cee66b3be86435488404bd763718bc0e01ff15f5"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "small-thieves-backpack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Small Thieves’ Backpack is a small backpack that reduces encumbrance by 60% and does not hinder your stealth or combat abilities. It is a smaller version of the Thieves Backpack. Small Thieves Backpacks have an inventory size of 4x4, making it slightly larger than a Small Backpack. When equipped in the BACKPACK slot, this backpack adds a backpack invento",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/small-thieves-backpack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0d32ef865babac7eb58f9dc59fa4fb9ee1ed5ab6b2ab2da7d81eec7a532cb537"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "thieves-backpack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Thieves’ Backpack is a medium backpack that reduces encumbrance by 60% and does not hinder your stealth. It slightly hinders combat skills (Attack and Defense) by -2 points, which is equal to the ordinary small backpack, and less than any of the larger standard issue backpacks, but still worse than the Small Thieves Backpack. This backpack has a storage ",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thieves-backpack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "84d46bf11b86aba1d39ecd42ff94597dd2419dc86624915d0f1371e9e002a1fc"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "traders-backpack-large",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Large Trader’s Backpack is a heavy weight backpack that is able to stack Trade Goods by at least two items per spot. It makes usually non stackable items stack by atleast 2, then multiplies the maximum stack for any stackable item by 3 leading to stack sizes of 6 in most cases. Can be found equipped (not sold) by traders at the Holy Armour Shop, Clothing",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/traders-backpack-large.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d38dd1979df345d205a0dc5e9aeda286bf8a5d06187e46411f564fdef5d4101f"
+      },
+      "questions": [
+        "claim:item-backpack-stacking",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "traders-backpack-medium",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A medium weight backpack that is able to stack Trade Goods by at least two items per spot. It multiplies the maximum stack for any stackable item by 3. As of 1.0.68 this item cannot be found in game.",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/traders-backpack-medium.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "41a90e27b218a47b8e0f3151564fbbded673734ffe0b79f19f4386d8e0060384"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-backpack-stacking",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "traders-wooden-backpack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Trader’s Backpack is a backpack that allows for carrying of large quantities of trade goods and building materials due to its allowance of stacking items. Can be purchased from any General Item Trader. Stackable bonus minimum and mult are both 3 resulting in the ability to stack items up to 9x their normal amount. The built-in sun shader provides no benefits",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/traders-wooden-backpack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3cf95804709df8eacad9cafea35c3f665cf88cb495f8fa071a3cf76ef53f1d71"
+      },
+      "questions": [
+        "claim:item-backpack-stacking",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "wooden-backpack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Wooden Backpack is a piece of starting equipment when beginning the game as The Freedom Seekers. It is one of the few Backpacks which allows stacking of Trade Goods. It has a stackable bonus minimum of 3 and mult of 3 allowing items to stack up to 9x inside. (Items which already stack are stacked up 3x, so things like books will stack up to 12) Wooden Ba",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wooden-backpack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e9070f827b1a979b7b44de9cac43c4e2003da88115c02c45c06d055c0217f68c"
+      },
+      "questions": [
+        "claim:item-backpack-stacking",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [
