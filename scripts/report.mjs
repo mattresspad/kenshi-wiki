@@ -149,6 +149,7 @@ const lines=['# Restoration route report','','Frozen source '+snapshot.revision+
   '## Races','',races.verified+' race and supporting articles checked, '+races.headings+' headings and '+races.citationTargets+' citation targets.','',
   '## Animals','',animals.verified+' new animal and supporting articles checked, '+animals.headings+' headings, '+animals.assets+' referenced item icons. Five existing faction articles are reused without duplicate files.','',
   '## Characters','',characters.verified+' new character articles checked, '+characters.headings+' headings, '+characters.citationTargets+' citation targets and '+characters.assets+' referenced item icons. Forty-two animal articles and World States retain their existing editorial homes.','',
+  '## Equipment and Items','',items.verified+' new item articles checked, '+items.headings+' headings, '+items.citationTargets+' citation targets and '+items.assets+' referenced images. Infobox image identity and caption line breaks are checked separately. Existing Backpacks retains its home and review evidence; eleven Technology/Modding records remain deferred.','',
   '## Gap register','',gaps.sourceArticles+' source articles audited. '+gaps.findings+' deduplicated records include pending conversions, inherited defects and claim questions. See gaps/index.html and gaps/register.json for every occurrence. '+gaps.introduced+' introduced regressions.','',
   '## Media restoration','',
   'The original importer omitted images. Coverage is unassessed unless there is separate evidence.','',

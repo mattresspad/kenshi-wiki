@@ -113,5 +113,23 @@
     "introduced": [
       "/crossbow-crafting-bench"
     ]
+  },
+  {
+    "name": "item-comparisons",
+    "resolved": [
+      "/crossbow-class",
+      "/crossbows",
+      "/light-armour",
+      "/robot-limbs"
+    ],
+    "introduced": [
+      "/category/light-armour",
+      "/category/statistics",
+      "/category/weapon-types",
+      "/clothing-bench",
+      "/crafting-tech",
+      "/robotics-bench",
+      "/robotics-repair-kit"
+    ]
   }
 ]

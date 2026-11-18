@@ -14,6 +14,7 @@
       "questions": [
         "claim:item-crafting-and-research",
         "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
@@ -128,8 +129,66 @@
       },
       "questions": [
         "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
         "claim:item-quality-and-prices",
         "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "robot-limbs",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Loading screen tip: If a limb is hit with a sharp weapon and it has less than -100 health then it will be severed. This is a permanent loss, you will have to find a robotic replacement. *The tip incorrectly mentions “sharp weapon”. If you are hit by any attack whatsoever and your limb goes below -100% of its max health from that attack the limb will be sever",
+      "organization": "Reviewed 9 section bookmarks and 4 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/robot-limbs.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b79a815de0f50dd24b93f69ac657c1181528d50e0a626eaabcb56131e2452c6b"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-robot-limb-reload"
+      ]
+    },
+    {
+      "id": "crossbows",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Crossbows are Kenshi’s only ranged weapons that can be carried. To use a crossbow, equip the crossbow, make sure that the character has the correct ammunition in their inventory, and ensure that RANGED is active under JOBS. Crossbows can do a decent amount of damage to a single target and cause significant bleeding. It is important to note that the size of t",
+      "organization": "Reviewed 8 section bookmarks and 4 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crossbows.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "02938bc19d7c6d41bf21f6319cb25d314681fe8a8e4e3260cb58d107816c6372"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crossbow-formulas",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "light-armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Comparisons state Standard quality, retain modifiers and the Ninja Mask classification qualification.",
+      "organization": "Reviewed 5 section bookmarks and 5 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/light-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9853b7c1d3d13fb7bbdb9e3f9068a1ec39ecdc07212c4c7028256fe1e8b4bff2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-slot-and-class-contradictions"
       ]
     }
   ],
