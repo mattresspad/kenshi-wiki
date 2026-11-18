@@ -190,6 +190,56 @@
         "claim:item-quality-and-prices",
         "claim:item-slot-and-class-contradictions"
       ]
+    },
+    {
+      "id": "ancient-samurai-boots",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Removed-content warning precedes the historical description.",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ancient-samurai-boots.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "eace1cdd87e4fcbb1e062bef3c7aec95b84a5735e31beb12776e398852a299d8"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "faulty-prisoner-shackles",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Unobtainable because the listed placement-group assignment is missing; surviving record distinguished from obtainable equipment.",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/faulty-prisoner-shackles.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4b792dbc3da7a61e2d9198c83fc5ef2e1d1cd24b9d9bafee7fe84a13b4bedb01"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "the-holy-flame",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Holy Flame is an item that can be found everywhere in The Holy Nation. Having one in your inventory will allow you to get out of many situations involving Paladins and Inquisitors. Holding it in your inventory is a neccessary requirement for fulfilling Prayer Day.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-holy-flame.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d634499f0ec460002470c982d03ffa833399f93274be6c257a5933f6b1052482"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [

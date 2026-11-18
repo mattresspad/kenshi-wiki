@@ -145,6 +145,17 @@
       }
     },
     {
+      "id": "availability:/ancient-samurai-boots",
+      "kind": "availability",
+      "target": "/ancient-samurai-boots",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-qualifications",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ancient-samurai-boots"
+      }
+    },
+    {
       "id": "availability:/ancient-tech-lab",
       "kind": "availability",
       "target": "/ancient-tech-lab",
@@ -3090,6 +3101,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/farming-village"
+      }
+    },
+    {
+      "id": "availability:/faulty-prisoner-shackles",
+      "kind": "availability",
+      "target": "/faulty-prisoner-shackles",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-qualifications",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/faulty-prisoner-shackles"
       }
     },
     {
@@ -10386,6 +10408,17 @@
       }
     },
     {
+      "id": "availability:/the-holy-flame",
+      "kind": "availability",
+      "target": "/the-holy-flame",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-qualifications",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-holy-flame"
+      }
+    },
+    {
       "id": "availability:/the-holy-nation",
       "kind": "availability",
       "target": "/the-holy-nation",
@@ -11699,6 +11732,18 @@
       }
     },
     {
+      "id": "media:/icons/items/1533509-Newwworld.mod.png",
+      "kind": "media",
+      "target": "/icons/items/1533509-Newwworld.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-qualifications",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "febfd4f4aa947f45630338b97cb4c7a7f4b3a4e76339443e15ee932d09539189",
+        "sourceSha256": "febfd4f4aa947f45630338b97cb4c7a7f4b3a4e76339443e15ee932d09539189"
+      }
+    },
+    {
       "id": "media:/icons/items/1534050-Newwworld.mod.png",
       "kind": "media",
       "target": "/icons/items/1534050-Newwworld.mod.png",
@@ -12455,6 +12500,18 @@
       }
     },
     {
+      "id": "media:/icons/items/42322-changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42322-changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-qualifications",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "ce4ef50b4c7380cf2bbe4cd05a3435674c86bb5d7e1d5273fa4c05e5dfca062a",
+        "sourceSha256": "ce4ef50b4c7380cf2bbe4cd05a3435674c86bb5d7e1d5273fa4c05e5dfca062a"
+      }
+    },
+    {
       "id": "media:/icons/items/42338-changes_otto.mod.png",
       "kind": "media",
       "target": "/icons/items/42338-changes_otto.mod.png",
@@ -12800,6 +12857,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "7a53b1e0a3ab06ce9c75659f4fd401e78a313b9362b419305bafd6ffa33fccc4",
         "sourceSha256": "7a53b1e0a3ab06ce9c75659f4fd401e78a313b9362b419305bafd6ffa33fccc4"
+      }
+    },
+    {
+      "id": "media:/icons/items/5255-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/5255-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-qualifications",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "d6ea53a28a9723789afdc62381d7c4a4667f176aee0a8a00dc0894d4a23f2258",
+        "sourceSha256": "d6ea53a28a9723789afdc62381d7c4a4667f176aee0a8a00dc0894d4a23f2258"
       }
     },
     {
