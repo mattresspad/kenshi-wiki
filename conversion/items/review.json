@@ -2805,6 +2805,406 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "nobles-trousers",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Noble’s Trousers are legwear found on nobles in the Noble Circle and on the roaming Noble Hunters of The Empire. It is part of a costume set with Noble’s Robe. Despite the matching robe qualified as armour, Noble pants are set to be of simple clothing type. This armour has inventory dimensions of 4x5. Appearance A pair of olivine green loose-fitting pants wi",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/nobles-trousers.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4ffc96186fa80519a3adf4808e25e50fe89af1faa9545fe619f7f535abe270fa"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "paladins-heavy-hachigane",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Paladins Heavy Hachigane is a Heavy Armour that is equipped in the Headgear slot. It is available in HN Armour Traders. It is equipped by Holy Nation soldiers - High Paladins, Inquisitors, Protector of the Flame, and Strayed Paladins. It can be crafted in the Heavy Armour Smithy after researching the appropriate blueprint. It can be dyed. This armour has",
+      "organization": "Reviewed 4 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/paladins-heavy-hachigane.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6726ad82754046d5d65e99b7e754c61be884da27534e055eabf4d0633e353b89"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "plate-jacket",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Plate Jacket is a Medium Armour that is equipped in the Body Armour slot. It can be normally found sold in Mongrel, United Cities, Shek, and Tech Hunter armour shops. It is one of the only body armours that covers 100% of the entire upper body. It is the worst of the three plate jackets, suffering from the Stealth and Assassination penalties that the bla",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/plate-jacket.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "731c0c1a8f9143e8eb5e559e2a3ab1a67c8085cef45d0ef2cad7e9a091cffed0"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "plated-drifters-leather-pants",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Plated Drifter’s Leather Pants are a pair of shoddily reinforced Drifters Leather Pants. They belong to the Medium Armour Class. This armour was introduced into the game with version 0.98.37. Although being “plated”, these pants are labeled “Chain.” These pants can be bought from Hive, Shek, and Tech Hunter armour shops. They can normally be found worn by Re",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/plated-drifters-leather-pants.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "29f8fd739b3da3699b05c45883040ac075ff466302e26f4f388d987921831c5a"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "plated-longboots",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Plated Longboots are armoured Boots. They belong to the Medium Armour Class and can be crafted using the Heavy Armour Smithy. Compared to Samurai Boots, they provide less damage resistance but no penalties on martial arts and dodge, and a smaller penalty on running speed. This footwear has inventory dimensions of 2x4. Appearance Plated Longboots are knee-hig",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/plated-longboots.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a7519fde6e0e3470006cf6b622d2f898aac8cef6e81677e61fd927b512ae02c1"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-hidden-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "police-helmet",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Police Helmet is a Medium Armour that is equipped in the Headgear slot. It can be purchased from armour shops in UC and the Swamp. It is equipped by the Vigilante Chief. It has a chance of being equipped on Bounty Hunters. It can be crafted in the Heavy Armour Smithy after researching the blueprint. This armour has inventory dimensions of 3x3. Lore The p",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/police-helmet.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6a98d62bb5d0fb53a1e206b7f1454b995d0e9aff3d6a17b1f549a9b067ce4ce0"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "prisoner-shackles",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Prisoner Shackles are automatically equipped on a character when they are enslaved. Any gear in the “Boots” slot will be placed on the floor. Shackles weigh 20kg so that slaves are weighed down and run slower. Characters wearing prisoner’s shackles will have their Stealth and movement speed severely reduced. Shackles can be removed by Lockpicking, using Tool",
+      "organization": "Reviewed 2 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/prisoner-shackles.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b7da2355ab048025861b3633ef6910ea2be3b46c69fafed9b7885a68af2c54ff"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-disguise-and-storage",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "rag-loincloth-dyed",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Rag Loincloth (Dyed) is a piece of Clothing equipped in the Legwear slot. This is a colorable variation of Rag Loincloth. There is a matching shirt for this “rag set” called the Dyed Rag Shirt. It is worn by Skeletons, perhaps a leftover of previous uniforms. This armour has inventory dimensions of 4x4. Appearance The hips and legs are mostly covered wit",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rag-loincloth-dyed.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d91aea21f12b0ffcec20581bb4595d654ee0924ded6af31477c71b397a6c976d"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "rag-loincloth",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Rag Loincloth is a type of armor in Kenshi that is worn predominately by Starving Bandits and Starving Vagrants and Slaves of the Slave Traders and United Cities. It is often worn together with the Rag Shirt. A coloured version of this item also exists and is called the Rag Loincloth (Dyed). This armour has inventory dimensions of 4x4. Depending on what Game",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rag-loincloth.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d7231b114eda2fbd6fb4c72ba8e75979fa3ff58581be18a75d3e67f00d16ef9b"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "rag-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Rag Shirt is a type of armor in Kenshi that is worn by numerous individuals, such as Vagrants, Starving Bandits, Nomads, Empire Peasants, and Holy Citizens. There are matching trousers of this “rag set” called the Rag Loincloth. A colourable version of the shirt is called the Dyed Rag Shirt. There are also two more types of the rag shirt - the Black Rag Shir",
+      "organization": "Reviewed 4 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rag-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "efb50df413f7ffc2651c70419c5df42acf39b7e779e5eaba74295c5762c2ec48"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "rattan-hat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Rattan Hat is a Light Armour equipped in the Headgear slot. It can be bought from UC and Ronin Hat shops. It is randomly equipped by Anti-Slaver Jonins, Bar Thugs, Black Dog Bodyguards, Bounty Hunters, Caravan Guards, Drifters, Grayflayers, Outlaws, Rebel Swordsman Veterans, Red Sabres, Samurai Scouts, Smugglers, Swamper Gate Guards, Tech Hunters, Tech H",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rattan-hat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f352bb9499b1e451db59c106c00c11d4b39b95bc768e32ffd683d53360fa5d1e"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "red-bandana",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Keeps sweat and hair out of your eyes.In-game Description The Red Bandana is a type of Headgear belonging to the Light Armour Class. The Red Bandana has two other variants: the Bandana and the Black Bandana. This armour has inventory dimensions of 3x3. It is only found equipped on the Kamikaze character. Appearance The Red Bandana is a red cloth tied around ",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/red-bandana.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f687f50cb46d57b340cef9e6831298b30118a52678e69a93785046ee5f45dd2b"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "rusted-hive-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Rusted Hive Shirt is a Medium Armour that is equipped in the Shirt slot. It can be bought from Western Hive Villages. This shirt is one of the four shirt options available for Hive characters to wear in the shirt slot. This armour has inventory dimensions of 4x2. There are standard and blackened versions of this clothing. This is also the Hive-equivalent",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rusted-hive-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "78dee354baaee88ae4df54446d1bea978fd9841c758b2634dec228e43233b09b"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "rusty-chain-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Rusty Chain Shirt is a Medium Armour that is equipped in the Shirt slot. It can be sold by Armour King and HN and Swamp Armour Traders, as well as from Crab Smithies. There are standard, darkened and long-sleeve versions of this clothing. Additionally, there is also a Hiver-equivalent version of this clothing. This armour has inventory dimensions of 2x4.",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rusty-chain-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e989da928a944dc80e190a7202aee84202339309fb551ebc30352ecf33c7b779"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "rusty-chainmail-tagelmust",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Rusty Chainmail Tagelmust is a Medium Armour that is equipped in the Headgear slot. It can be sold by the Mongrel, Shek, and Tech Hunter armour shops. It also has cloth and blackened version. This type of tagelmust is not equipped by any character. This armour has inventory dimensions of 3x3. Appearance The Rusty Chainmail Tagelmust appears to be a rusty",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rusty-chainmail-tagelmust.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0788fed44b44faaa41e562a907b7f12a11b6aeff8258a8779939152cfea596ad"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "rusty-chainmail",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Rusty Chainmail is a Medium Armour that is equipped in the Shirt slot. It can be bought from HN, Swamp and Crab Armour shops. There are standard, darkened and short sleeve versions of this clothing. Additionally, there is also a Hiver-equivalent of this clothing. This armour has inventory dimensions of 2x4. It is the armour of choice of Skeleton Bandits ",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rusty-chainmail.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d2170f22e7e21b6df828efdaf3d870755b0685a7d738348df65a74a30d8baa1d"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "samurai-boots",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Samurai Boots are Heavy Armour that are equipped in the Footwear slot. They can be bought from UC and Ronin Armour Shops. It is part of the samurai armour series together with Samurai Helmet, Samurai Armour and Samurai Legplates. They are primarily equipped by United Cities soldiers such as Samurais, Samurai Sergeants, Samurai Heavies, Samurai Captains, Samu",
+      "organization": "Reviewed 6 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-boots.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fcf2df6ed2f8ac6546f81bbfa97349117b5aeb6f71e93a1b616a5fb88d1bd1e0"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-hidden-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "samurai-clothpants",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Samurai Clothpants are Light Armour that are equipped in the Legwear slot. They are sold by Mongrel, Ronin, Shek, and UC Armour Vendors as well as by Clothing Vendors. They are equipped (randomly or otherwise) by Anti-Slavers, Anti-Slaver Jonins, Anti-Slavers (unarmed), Bounty Hunters, Drifters, Elite Hunters, Flotsam Jonins, Flotsam Ninjas, Grayflayers, Hum",
+      "organization": "Reviewed 4 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-clothpants.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "057289465fcbd4c502c086316959635a035b4d03b3c5716a9e38b4d4b7e6a56d"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "samurai-helmet",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Samurai Helmet is part of the basic armour of Samurai. It belongs to the Heavy Armour Class and is part of the samurai armour series together with Samurai Armour, Samurai Legplates and Samurai Boots. The Samurai Helmet can be dyed. A rusted and stat-wise inferior version of Samurai Helmet was set to appear in game but does not spawn due to being assigned",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-helmet.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b202d1b918d922d18f0e4c452008f5f210b5a6d499e61704a5a7ba1ffc0c81ec"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-hidden-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "samurai-legplates",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Samurai Legplates are Heavy Armour that are equipped in the Legwear slot. They are sold by Mongrel, Ronin, Shek, and UC Armour Vendors. It is part of the samurai armour series together with Samurai Helmet, Samurai Armour and Samurai Boots. The band on this armour is dyeable. They are equipped by Elite Hunters, Empire Noble Guards, Hundred Guardians, Kamikaze",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-legplates.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "391ea41e63d6b17be967fb52ff689e2878ce7516ee9341185c1125d58fea5d89"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "sandogasa",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Sandogasa is clothing equipped in the headgear slot. This hat is an alternative to Straw Hats. This hat can be purchased from hat shops. This armour has inventory dimensions of 4x3. Appearance This hat looks like an umbrella hat made of a wicker-like material. Crafting Unlocked by:Sandogasa blueprint: 12 hours at tech level 1; the blueprint is worth c. 1",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sandogasa.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d7180876471f1a0cff9967059b9fa8d69086d828d7aec714ef7b0008220b8f39"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "shirts",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Shirts include any piece of equipment of any armour class that is meant to cover the torso in the shirt slot. The following values assume [Standard] quality. Human and Shek Shirts These shirts can be worn by Human and Shek characters. They can be purchased at clothing shops and looted from certain places. Hiver Shirts These shirts are the only options availa",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shirts.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c05d72be66806a9768a9a5128057f13525cee4e23edd7c8af5d597963ecb03bc"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "side-angle-hachigane",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Side-Angle Hachigane is a Light Armour that is equipped in the Headgear slot. It can be sold in UC Armour and Hat shops, as well as Ronin Hat Shops. This headgear is exclusive to Humans. It can be randomly worn by human Anti-Slavers, Anti-Slaver Jonins, Anti-Slavers (unarmed), Drifters, Grass Pirates, Mercenaries, Mercenary Heavies, Straw Lieutenants, Te",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/side-angle-hachigane.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "41d4b1ca6c134d4c11657d0046487ab461bdffa8dac4d52e60fe2dfc364ffcb9"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [

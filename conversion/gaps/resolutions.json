@@ -7702,6 +7702,17 @@
       }
     },
     {
+      "id": "availability:/nobles-trousers",
+      "kind": "availability",
+      "target": "/nobles-trousers",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/nobles-trousers"
+      }
+    },
+    {
       "id": "availability:/nodachi",
       "kind": "availability",
       "target": "/nodachi",
@@ -8230,6 +8241,17 @@
       }
     },
     {
+      "id": "availability:/paladins-heavy-hachigane",
+      "kind": "availability",
+      "target": "/paladins-heavy-hachigane",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/paladins-heavy-hachigane"
+      }
+    },
+    {
       "id": "availability:/peasant",
       "kind": "availability",
       "target": "/peasant",
@@ -8285,6 +8307,39 @@
       }
     },
     {
+      "id": "availability:/plate-jacket",
+      "kind": "availability",
+      "target": "/plate-jacket",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/plate-jacket"
+      }
+    },
+    {
+      "id": "availability:/plated-drifters-leather-pants",
+      "kind": "availability",
+      "target": "/plated-drifters-leather-pants",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/plated-drifters-leather-pants"
+      }
+    },
+    {
+      "id": "availability:/plated-longboots",
+      "kind": "availability",
+      "target": "/plated-longboots",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/plated-longboots"
+      }
+    },
+    {
       "id": "availability:/polearm",
       "kind": "availability",
       "target": "/polearm",
@@ -8337,6 +8392,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/police-chief"
+      }
+    },
+    {
+      "id": "availability:/police-helmet",
+      "kind": "availability",
+      "target": "/police-helmet",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/police-helmet"
       }
     },
     {
@@ -8483,6 +8549,17 @@
       }
     },
     {
+      "id": "availability:/prisoner-shackles",
+      "kind": "availability",
+      "target": "/prisoner-shackles",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/prisoner-shackles"
+      }
+    },
+    {
       "id": "availability:/protector-of-the-flame",
       "kind": "availability",
       "target": "/protector-of-the-flame",
@@ -8549,6 +8626,39 @@
       }
     },
     {
+      "id": "availability:/rag-loincloth",
+      "kind": "availability",
+      "target": "/rag-loincloth",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rag-loincloth"
+      }
+    },
+    {
+      "id": "availability:/rag-loincloth-dyed",
+      "kind": "availability",
+      "target": "/rag-loincloth-dyed",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rag-loincloth-dyed"
+      }
+    },
+    {
+      "id": "availability:/rag-shirt",
+      "kind": "availability",
+      "target": "/rag-shirt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rag-shirt"
+      }
+    },
+    {
       "id": "availability:/raider-camp",
       "kind": "availability",
       "target": "/raider-camp",
@@ -8612,6 +8722,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/raptors"
+      }
+    },
+    {
+      "id": "availability:/rattan-hat",
+      "kind": "availability",
+      "target": "/rattan-hat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rattan-hat"
       }
     },
     {
@@ -8923,6 +9044,17 @@
       }
     },
     {
+      "id": "availability:/red-bandana",
+      "kind": "availability",
+      "target": "/red-bandana",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/red-bandana"
+      }
+    },
+    {
       "id": "availability:/red-sabre",
       "kind": "availability",
       "target": "/red-sabre",
@@ -9209,6 +9341,50 @@
       }
     },
     {
+      "id": "availability:/rusted-hive-shirt",
+      "kind": "availability",
+      "target": "/rusted-hive-shirt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rusted-hive-shirt"
+      }
+    },
+    {
+      "id": "availability:/rusty-chain-shirt",
+      "kind": "availability",
+      "target": "/rusty-chain-shirt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rusty-chain-shirt"
+      }
+    },
+    {
+      "id": "availability:/rusty-chainmail",
+      "kind": "availability",
+      "target": "/rusty-chainmail",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rusty-chainmail"
+      }
+    },
+    {
+      "id": "availability:/rusty-chainmail-tagelmust",
+      "kind": "availability",
+      "target": "/rusty-chainmail-tagelmust",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rusty-chainmail-tagelmust"
+      }
+    },
+    {
       "id": "availability:/sabina",
       "kind": "availability",
       "target": "/sabina",
@@ -9264,6 +9440,17 @@
       }
     },
     {
+      "id": "availability:/samurai-boots",
+      "kind": "availability",
+      "target": "/samurai-boots",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-boots"
+      }
+    },
+    {
       "id": "availability:/samurai-captain",
       "kind": "availability",
       "target": "/samurai-captain",
@@ -9272,6 +9459,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/samurai-captain"
+      }
+    },
+    {
+      "id": "availability:/samurai-clothpants",
+      "kind": "availability",
+      "target": "/samurai-clothpants",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-clothpants"
       }
     },
     {
@@ -9327,6 +9525,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/samurai-heavy"
+      }
+    },
+    {
+      "id": "availability:/samurai-helmet",
+      "kind": "availability",
+      "target": "/samurai-helmet",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-helmet"
+      }
+    },
+    {
+      "id": "availability:/samurai-legplates",
+      "kind": "availability",
+      "target": "/samurai-legplates",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-legplates"
       }
     },
     {
@@ -9426,6 +9646,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/sandas-noble-guard"
+      }
+    },
+    {
+      "id": "availability:/sandogasa",
+      "kind": "availability",
+      "target": "/sandogasa",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sandogasa"
       }
     },
     {
@@ -9902,6 +10133,17 @@
       }
     },
     {
+      "id": "availability:/shirts",
+      "kind": "availability",
+      "target": "/shirts",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shirts"
+      }
+    },
+    {
       "id": "availability:/sho-battai",
       "kind": "availability",
       "target": "/sho-battai",
@@ -10031,6 +10273,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shun"
+      }
+    },
+    {
+      "id": "availability:/side-angle-hachigane",
+      "kind": "availability",
+      "target": "/side-angle-hachigane",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/side-angle-hachigane"
       }
     },
     {
@@ -15270,6 +15523,18 @@
       }
     },
     {
+      "id": "media:/icons/items/64923-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/64923-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "01e1c8b70350881434dd5c025ee217c7a6d2dfb2186ce16bafaa023652435b97",
+        "sourceSha256": "01e1c8b70350881434dd5c025ee217c7a6d2dfb2186ce16bafaa023652435b97"
+      }
+    },
+    {
       "id": "media:/icons/items/65260-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/65260-rebirth.mod.png",
@@ -15507,6 +15772,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "5cdcca6c337e61cd6c27acabf8edabfb9d6a28730d83885f9a69b8f698a2dc66",
         "sourceSha256": "5cdcca6c337e61cd6c27acabf8edabfb9d6a28730d83885f9a69b8f698a2dc66"
+      }
+    },
+    {
+      "id": "media:/icons/items/98562-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/98562-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-5",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "16450bc0bde0bad510d5c605ac5b76ca0f44e079bf150269d724433edb28550e",
+        "sourceSha256": "16450bc0bde0bad510d5c605ac5b76ca0f44e079bf150269d724433edb28550e"
       }
     },
     {
