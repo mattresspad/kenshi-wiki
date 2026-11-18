@@ -29,3 +29,5 @@ The source audit packets were read for every frozen sibling batch, including cap
 Intake and source-audit commands alone use the frozen comparison material. Ordinary build, catalog/browser checks, package checks and gap reporting read checked-in FreshWiki inputs. Reports and screenshots remain local under reports/items.
 
 The eleven deferred IDs stay listed in roster.json and keep their original reader categories. Narcotics is registered but outside this selection. Next-family assessment keeps Buildings, Crafting/Construction and Technology distinct, with later gameplay, lore, modding and remainder work explicit.
+
+The table-only Weapons/Modifiers article is reviewed as a qualified comparison, not classified as an empty prose page. Weapon-model tables have distinct accessible names. Comparisons infer numeric ordering only when every meaningful key is numeric, preserving explicit text column types and original sort attributes; an inherited trailing quote in one weapon price attribute is recorded in the gap register. Decimal, signed and currency ordering has focused browser and catalog coverage.

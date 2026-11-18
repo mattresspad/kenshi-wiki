@@ -621,6 +621,352 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "meitou",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The blades never rust or need sharpening, and are said to be unbreakable. There are only a handful in existence.In-game description Meitou (名刀, “Famous/Excellent Sword” in Japanese) is the highest weapon grade in the game. Only the legendary smith Cross has been able to craft weapons of this quality. Their weapons are spread around the land of Kenshi, often ",
+      "organization": "Reviewed 8 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/meitou.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "991a90e6c213520a73d89a566759e002bab501441aefef5cf22902eaa9a03961"
+      },
+      "questions": [
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "mercenary-club",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Mercenary club is one of the better quality Blunt weapons, as far as damage is concerned. This club is often used by slavers. This weapon has inventory dimensions of 1x7. It can be equipped in both the primary and secondary weapon slots. The ability to make this weapon is learned through researching Heavy Weapons. Crafting Unlocked by:Heavy Weapons resea",
+      "organization": "Reviewed 6 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mercenary-club.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e9edab72f6a404bc7eecc6053280f422c650504fcf8c57ded6b9515cbbc6b9c4"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "moon-cleaver",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Moon Cleaver is an unusual weapon; it is uniquely shaped unlike any other weapon. It is the preferred weapon of the Cannibal Grand Wizard, Dack, Blackshifters, and the Preacher Cult. The Meitou-grade version of the weapon can be found on The Preacher in the Cult Village. This weapon has inventory dimensions of 2x9, meaning it can only be equipped as a pr",
+      "organization": "Reviewed 7 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/moon-cleaver.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f33ec0a1dd04e31ebc5bae6dd164e9d1764e0a4da81a9956b403e71424be1335"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "naginata-katana",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Naginata Katana is a variation on the Naginata, with a slightly shorter reach, and a hybrid of properties from the Naginata and Katanas. While the Naginata Katana’s bonus against animals is not as large as the Naginata, its bonus against humanoids and sweeping attacks make it effective in regions where poorly armoured humanoids are found in large numbers",
+      "organization": "Reviewed 6 section bookmarks and 29 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/naginata-katana.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fb693a3a1b88828ce9952075795b2a74943f708aaaebe459a25f72239da0ef11"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "naginata",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Naginata is a long and fast weapon, often used by the armies of the United Cities. With its bonus against animals, it is a very potent weapon for wiping out nests. This weapon has inventory dimensions of 1x10, meaning it can only be equipped as a primary weapon. The Meitou-version of this weapon can be found on Crab Queen, the leader of the Crab Raiders.",
+      "organization": "Reviewed 7 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/naginata.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2e496b0baf361f40ab1623ff6fa8f4a5cc28e08ee4ed38c65726aa35dcda91c2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ninja-blade",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Ninja Blade is a sleek and lightweight weapon. This weapon is often used by ninjas and assassins. It has the lowest cut damage of any Katana, even an Edge Type 3 Katana deals more cut damage than a Cross quality Ninja Blade. If you are too poor to afford a normal Katana, or still want to use a Ninja Blade… For whatever reason, you will find the Meitou ve",
+      "organization": "Reviewed 8 section bookmarks and 29 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ninja-blade.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e2358abd17d7171d985ca87d7125554aae98cc0d4e95e592b4765ba246298280"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "nodachi",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Nodachi is a Katana Class weapon. Heavier, with increased range and damage compared to most katanas at the expense of indoor penalties. It is very widely used, including by many of the more elite samurai of the United Cities. It has the second lowest Armour Penetration penalty of the Katanas (Ninja blade has -20% as well but it is Ninja blade so…) making i",
+      "organization": "Reviewed 6 section bookmarks and 29 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/nodachi.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8f384e86bf38dbeeb0d04fc295034c76da35517a4ba77b9041e9b44042cb2de4"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "paladins-cross",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Paladin’s Cross is a holy weapon commonly used by the paladins of The Holy Nation. With increased damage against Robots, it is a very effective weapon for removing the technological taint across the world. The Meitou quality Paladin’s Cross can be found on Holy Lord Phoenix in Blister Hill. This weapon has inventory dimensions of 2x10, meaning it can onl",
+      "organization": "Reviewed 7 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/paladins-cross.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "19c9ef6bfc9edaf9092b8d84c1bd95e55bbd7e51fc4a5c99dd3486b5a3c42f51"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "plank",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Plank is a Heavy Weapons class weapon. It is one of the heaviest weapons in the game, with a massive amount of blunt damage only dwarfed by the Heavy Jitte and Fragment Axe. This weapon has inventory dimensions of 2x10, meaning it can only be used as a primary weapon. Like other heavy weapons, this item will not fit into standard inventories. It must eithe",
+      "organization": "Reviewed 5 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/plank.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "92060c6a01785ca0c9154bcee158ff68cadfb6e410ed3eb4f0719008555897f0"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "polearm",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Polearm is an excellent weapon for killing animals. Its long reach allow you to hit them from further away, and its damage bonus against them makes sure every hit counts. Due to this, both Western and Southern Hive soldiers use this as their primary weapon. This weapon has inventory dimensions of 1x10, meaning it can only be equipped as a primary weapon.",
+      "organization": "Reviewed 5 section bookmarks and 29 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/polearm.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f0bb86eba2c5f122264be2f1fed9e2425b69c2f8e639800f50ae8ab56a6412fc"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "polearms",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Polearms are a class of weapon that excels at speed and reach. Most have bonus damage against animals. Polearm and Heavy Polearm are notably the only weapons which provide an armour penetration bonus without having high strength requirements[1]. All Polearms have moderate attack bonuses and indoor penalties. Polearms also have the second highest blood loss m",
+      "organization": "Reviewed 5 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/polearms.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1a117b0682fb2a85185da54394dd337e05890d55b991d0d748e733513d5cd542"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "ringed-sabre",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Ringed Sabre is another common weapon, often used by bandit leaders and prominent warriors, such as Arc. It has the highest total damage of any Sabre. This weapon has inventory dimensions of 2x8, meaning it can only be used as a primary weapon. The Meitou-version of this weapon can be found on Elder, the leader of the Skeleton Bandits. Crafting Unlocked ",
+      "organization": "Reviewed 6 section bookmarks and 29 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ringed-sabre.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "504020b0ba7c3b0b57df71f25855f6c2e3d75b99c06475abe05f5d7d66c14b00"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "sabres",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Sabres are a class of weapons that specialize in heavy cutting damage with an added splash of blunt damage. Sabres are generally defensive weapons, most featuring a defensive bonus in exchange for an attack penalty. Their attacking animations are rather fast which leaves fewer openings for others to exploit. It’s not rare to see a skilled Sabre wielder stun ",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sabres.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0281c14f92890c5d291075c0106252cb19f916ec497dc73459af25049fcce5c8"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "short-cleaver",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Short-Cleaver is an even lighter hacker class weapon and is the only one able to be used a as secondary weapon. This weapon has inventory dimensions of 1x7. It can be equipped in both the primary and secondary weapon slots. Meitou-quality weapon can be found on Head of Agriculture in Ashland Dome I. Crafting Unlocked by:Short-Cleaver blueprint: 12 hours at t",
+      "organization": "Reviewed 5 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/short-cleaver.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2fbbfaf2e986fc88320c9e12b4459485b7d631dc2a2341c670561dddc65d240d"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "spiked-club",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Unlike most Blunt Weapons, the Spiked Club has an extremely high bleed rate. However, due to its small cut damage this only leads to a small amount of bloodloss. This weapon has inventory dimensions of 1x7. It can be equipped in both the primary and secondary weapon slots. The ability to make these weapons can be learned by researching Heavy Weapons. Craftin",
+      "organization": "Reviewed 6 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/spiked-club.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b03dfcefee67ca02cfcd8d4d9fb07b132ed429be5a0566ffb8d1673809434073"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "staff",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Staff is a long, relatively fast weapon with a short reach (For a Polearm). Please note that the “fast” part has to do with the animations assigned to all Polearms. Its moderate blunt damage and low cut damage means that it is the worst weapon to train Dexterity with. (Not including Jitte/Heavy Jitte which give 0 Dex for training with) It is often found ",
+      "organization": "Reviewed 6 section bookmarks and 29 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/staff.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "031ee9580df80329fec879dfc008855d12068b361e1dc78c649a1369b8dcef7c"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "topper",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Topper is a Katana Class weapon that is aimed to inflict more blunt damage and sacrifice some cutting damage. While it has the same reach as the Nodachi, it does not have the penalties or bonuses it has. This makes it a better choice for those trying to avoid them. The Topper is the only Katana without a Robotic damage reduction and also happens to have th",
+      "organization": "Reviewed 8 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/topper.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "830b8a8ae6ec46d88a4032bad4dcce5a84b4948f31d59e947c2166eafc03cfb1"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "wakizashi",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Wakizashi is a Katana Class weapon. This is the smallest katana, giving it a major advantage indoors. Though like most katanas it has a large penalty against armour and robots. Its low damage and lack of blunt damage make it a decent option for training Dexterity. This weapon has inventory dimensions of 1x6. It can be equipped in both the primary and secon",
+      "organization": "Reviewed 9 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wakizashi.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "74e0822b573b64f7c1aeead7fb8ce05879ce66c7a4384985bbae0835a2cd0e4a"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "weapons",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Oh if I had a penny for every rusty piece of crap sword I see sheathed on the back of a clueless wanderer...Catun Scrapmaster Combat is a primary part of Kenshi, and all combat except for martial arts is done with weapons. Weapons are items that are split into multiple categories, each dealing different types and amounts of damage. Armour is designed to redu",
+      "organization": "Reviewed 5 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/weapons.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3551287764b3d1f0c70462178e28d89b9b65eeac0a33a6c894facab8bfa8619b"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "weapons/damage",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: All stats are Mk I.",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/weapons/damage.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f0e201680bc56fb0944584b2d77fbcf8adb69404900e5c21cc07ea835a88b5fa"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-table-only-and-sort-markup"
+      ]
+    },
+    {
+      "id": "weapons/modifiers",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Table-only comparison reviewed: WeaponClassPrimary Damage Type (At Cross Quality)Attack BonusDefense BonusIndoor BonusArmour PenetrationDamage vs AnimalsDamage vs HumansDamage vs RobotsDamage vs Special; 33 rows. Header qualifications, source row order and all numerical cells retained.",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/weapons/modifiers.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bff395b687137bfea6d45faf28ac1234601c6176e992ee0c292854cd29dfa2da"
+      },
+      "questions": [
+        "claim:item-table-only-and-sort-markup"
+      ]
     }
   ],
   "editorialChanges": [

@@ -183,5 +183,36 @@
       "/heavy-weapons-tech",
       "/stun-damage"
     ]
+  },
+  {
+    "name": "weapons-2",
+    "resolved": [
+      "/meitou",
+      "/mercenary-club",
+      "/moon-cleaver",
+      "/naginata",
+      "/naginata-katana",
+      "/ninja-blade",
+      "/nodachi",
+      "/paladins-cross",
+      "/plank",
+      "/polearm",
+      "/polearms",
+      "/polearms-class",
+      "/ringed-sabre",
+      "/sabres",
+      "/short-cleaver",
+      "/spiked-club",
+      "/staff",
+      "/topper",
+      "/wakizashi",
+      "/weapons",
+      "/weapons/damage",
+      "/weapons/modifiers"
+    ],
+    "introduced": [
+      "/category/combat",
+      "/weapons-trader"
+    ]
   }
 ]

@@ -255,5 +255,16 @@
     "Map tables distinguish one randomly selected destination from all listed destinations.",
     "Trace each map item and reveal record, including relative weights versus independent probability and already-discovered locations.",
     "Preserved percentages are not independently established probability formulas."
+  ],
+  [
+    "item-table-only-and-sort-markup",
+    [
+      "weapons/modifiers",
+      "weapons/damage"
+    ],
+    "Primary Damage Type|6720|Mk I",
+    "The weapon modifiers page is table-only; its grade assumption appears in a header. Weapons/Damage contains a malformed quoted numeric sort attribute.",
+    "Preserve the registered nested pages, header qualifications and original cell values. Treat the trailing quote as presentation markup when interpreting a numeric sort key.",
+    "No game statistic is changed; broader explanatory prose remains a later editorial task."
   ]
 ]

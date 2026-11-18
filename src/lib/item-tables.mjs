@@ -4,7 +4,7 @@ export function normalizeItemTables($){
   const el=$(table);if(el.hasClass('item-normalized'))continue;
   const rows=el.children('tbody').children('tr'),first=rows.first(),second=rows.eq(1);
   const grade=/^\[(?:Prototype|Shoddy|Standard|High|Specialist|Masterwork) Grade\]$/.test(second.text().trim()) || (/^\[[^\]]+ class\]$/.test(second.text().trim())&&el.text().includes('[Model #')); 
-  if(grade){el.addClass('item-grade-table').attr('aria-label',first.text().trim()+' '+second.text().trim());}
+  if(grade){const model=el.text().match(/\[Model #[^\]]+\]/)?.[0];el.addClass('item-grade-table').attr('aria-label',first.text().trim()+' '+(model??second.text().trim()));}
   if(first.children().length&&!first.children(':not(th)').length&&!el.children('thead').length){
    const head=$('<thead></thead>').prependTo(el);first.appendTo(head);
    head.find('th:not([scope])').each((_,cell)=>$(cell).attr('scope',Number(cell.attribs.colspan??1)>1?'colgroup':'col'));

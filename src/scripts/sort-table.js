@@ -1,3 +1,4 @@
+import {numericKey,numericColumn} from '../lib/table-numbers.mjs';
 const collator = new Intl.Collator('en', {numeric: true, sensitivity: 'base'});
 
 for (const region of document.querySelectorAll('.table-scroll')) {
@@ -33,7 +34,6 @@ for (const table of document.querySelectorAll('table[data-sortable]')) {
     button.addEventListener('click', () => {
       const ascending = header.getAttribute('aria-sort') !== 'ascending';
       const index = headers.slice(0,header.cellIndex).reduce((columns, prior) => columns + prior.colSpan, 0);
-      const numeric = header.dataset.sortType === 'number';
       const key = row => {
         let column = 0;
         const cells = [...row.cells].filter(cell => {
@@ -43,10 +43,11 @@ for (const table of document.querySelectorAll('table[data-sortable]')) {
         return cells.map(cell => (cell.dataset.sortValue ?? cell.textContent).trim()).filter(Boolean).join(' ');
       };
       const rows = Array.from(body.rows);
+      const numeric=numericColumn(rows.map(key),header.dataset.sortType);
       rows.sort((a, b) => {
         const left = key(a), right = key(b);
-        const x = Number.parseFloat(left.replaceAll(',', '')), y = Number.parseFloat(right.replaceAll(',', ''));
-        const comparison = numeric && Number.isFinite(x) && Number.isFinite(y) ? x - y : collator.compare(left, right);
+        const x = numericKey(left), y = numericKey(right);
+        const comparison = numeric && x!==null && y!==null ? x - y : collator.compare(left, right);
         return ascending ? comparison : -comparison;
       });
       body.append(...rows);
