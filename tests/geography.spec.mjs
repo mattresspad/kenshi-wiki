@@ -45,8 +45,10 @@ for(const phone of [false,true]) test('Catun journey and original geography book
   await expect(page.locator('.lead-text')).toContainText('0.90.0');
   await page.locator('#cite_ref-1 a').press('Enter');
   await expect(page).toHaveURL(/#cite_note-1$/);
+  await expect(page.locator('#cite_note-1')).toBeFocused();
   await page.locator('#cite_note-1 a[href="#cite_ref-1"]').press('Enter');
   await expect(page).toHaveURL(/#cite_ref-1$/);
+  await expect(page.locator('#cite_ref-1')).toBeFocused();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth)).toBe(0);
 });
 

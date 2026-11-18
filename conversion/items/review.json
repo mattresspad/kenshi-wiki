@@ -2416,6 +2416,395 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "human-skin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: For craftable armour, see Human Skin Suit. Human Skin is a Body Armour worn by Skin Bandits. Alas it provides no actual armour protection. This item is quite similar in appearance to the Human Skin Suit. Contrary to popular belief, The Holy Nation will see through this disguise for some strange reason. Appearance Just humans being humans, doing normal human ",
+      "organization": "Reviewed 2 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/human-skin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c38661caca77b79b241327c2a78920bcc6257e716cefb32ab178d73ceb13805d"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "iron-hat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Iron Hat is a Medium Armour that is equipped in the Headgear slot. It is sold at UC and Swamp armour shops. It is the headgear of choice of Black Dragon Genins. It can also be randomly worn by Anti-Slaver Jonins, Bounty Hunters, Drifters, Samurai Scouts, Strayed Paladins, Tech Hunters, Tech Hunter Gate Guards, Tech Hunter Guards, and Tech Hunter Ruins. I",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/iron-hat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3b58aeb0e7e3c742b037daeaa8ee0c159660fd0f970ffcd9d0aebbe4eba41b0f"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "karuta-zukin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Karuta Zukin is a Medium Armour that is equipped in the Headgear slot. It can be sold by Ronin, United Cities, and Holy Nation hat vendors. It cannot be worn by Deadhive Workers, Hive Worker Drones, and Southern Hive Worker Drones. It has the exact same stats as Kusari Zukin and is worth slightly more. It can be randomly equipped by Bounty Hunters, Hoode",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/karuta-zukin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4bac959db730d8f9ce93a8829801b43f641955f7c474b4e0ecf215472496b877"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "kusari-zukin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Kusari Zukin is a Medium Armour that is equipped in the Headgear slot. It can be sold by Ronin, United Cities, and Holy Nation hat vendors. It cannot be worn by Deadhive Workers, Hive Worker Drones, and Southern Hive Worker Drones. It has exactly the same stats as Karuta Zukin, and worth slightly less. It can be randomly equipped by Bounty Hunters, Hoode",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/kusari-zukin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d9c449c1ad328e9a78ddf8c211827664d5eebf81ac121df59c252f38a484219b"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "leather-hive-vest",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Leather Hive Vest is Armour that is equipped in the Shirt slot of Hivers. It belongs to the Light Armour Class and can be crafted using the Leather Armour Crafting Bench. This shirt is one of the four shirt options available for Hive characters to wear in the shirt slot. This armour has inventory dimensions of 4x2. This shirt can potentially be found on Tech",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/leather-hive-vest.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "baaf2aa4f7fc1fbb0d9b52e23ce0fb30bbb0f9b20474ec6c0de607e2e0c7baaf"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "leather-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Leather Shirt is armour that is equipped in the Shirt slot. It is sold in most armour shops. This armour has inventory dimensions of 2x4. There are no-sleeve, long-sleeve and dark versions of this clothing. Additionally, there is also a Hiver-equivalent of this clothing. It is most commonly found on members of the Cannibal Hunters, Swampers and Slavers, as w",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/leather-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "15e66c3670c0fd6bce36c5de13be5afcd5b868c6ca11aa77770f2632372318bc"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "leather-turtleneck",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Leather Turtleneck is a Light Armour that is equipped in the Shirt slot. It can be bought from Mongrel, UC, HN, and Swamp armour and clothing vendors. This armour has inventory dimensions of 2x4. This item offers the same resistances at all levels as the Leather Shirt and Leather Vest, which are the short-sleeve and no-sleeve version of this clothing, respec",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/leather-turtleneck.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "20c321a626af6e4bb476890250411123019439ad887720e18083ff2b1bb2b2d4"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "leather-vest",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Leather Vest is a Light Armour that is equipped in the Shirt slot. It is sold by United Cities clothing shops, Holy Nation armour and clothing shops, and Shek Kingdom and Tech Hunter Ronin armour shops. There are short-sleeve and long-sleeve versions of this clothing. Additionally, there is also a Hiver-equivalent version of this clothing. This armour has in",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/leather-vest.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "df7051077ae836ae48f164d69bff5ba9c8b29830aee0c8f8e8a07e5210dd102d"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "legwear",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Legwear includes any piece of equipment of any armour class that is meant to be in the pants slot. For damage and resistance calculations, see Damage and Resistances. The following values assume [Standard] quality. No Armour Coverage While these items also offer no armour protection, wearing them may help characters not look like slaves while escaping slaver",
+      "organization": "Reviewed 5 section bookmarks and 5 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/legwear.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "02d64243a3b931abcd3f0fdb046830a06249cd9c7b46eb153e74ed2d82e1ac8a"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "longcoat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Longcoat is a Light Armour that is equipped in the Body Armour slot. It can be bought from the Swamp armour shops. A Sleeveless variant of this armour also exists as well as a similar (and statistically superior) armour - Dustcoat. It is randomly equipped by Anti-Slaver Jonins, Bar Thugs, Bounty Hunters, Drifters, Holy Nation Robots, Outlaws, Skeleton Dr",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/longcoat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3b1d10d4f891baf22c7459eb25edc1c017b7fcdc217b82c301bc76231738d1f2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "martial-artist-bindings",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Martial Artist Bindings is a shirt which provides no armour protection and is therefore considered clothing. This armour has inventory dimensions of 2x4. Appearance Martial Artist Bindings are white cloth hand, abdominal, and foot wrappings on the character. The appearance is similar to what professional fighters wear to prevent injuries sustained from strik",
+      "organization": "Reviewed 3 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/martial-artist-bindings.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b4ecb13af91f324484e130954007e9a876fa94118a99a38efc0430b5eb01d9b2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "mask-type-iii",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Mask Type III is a headgear item with stats comparable to Swamp Ninja Mask. It shares the weather protections of a Fog Mask. This mask is only found on Lady Kana. It is not, however, unique and it can be crafted by the player. This armour has inventory dimensions of 3x3. Appearance It’s a funky mask. Unlike the Swamp Ninja Mask, it doesn’t have clear bre",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mask-type-iii.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ed391bbfc4a72f05584ba8b63bb480cadf5868ff4971aa75de336cdf10cd8f48"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "masked-helmet",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Masked Helmet is a Medium Armour that is equipped in the Headgear slot. It is sold by UC, HN and Swamp Armour Traders, as well as Ronin and UC Hat Traders. It is the headgear of choice of Blood Raiders, Manhunters, and Reaver Ironclads. It is randomly worn by Bounty Hunters, City Heroes, Hero Bosses, and United Heroes. It can be crafted using the Heavy A",
+      "organization": "Reviewed 4 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/masked-helmet.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a2f53c038da284aa792c5c2207816dc08773d8f257eb7762065e64d2b7eaed70"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "medium-armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Medium Armour is Armour which provides more protection than Light Armour and less than Heavy Armour, as well as a generally moderate stats debuff. The following values are the stats of the armour at [Standard] quality. Headgear There are twelve headgear options. View Headgear List▾▾ [1]: This item has a listed 1.05x stealth that is never applied due to being",
+      "organization": "Reviewed 5 section bookmarks and 5 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/medium-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9fde61bc246588f8c7e05522015a6ea220109137ca7d61241817c9febebdbaac"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "mercenary-leather-armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Mercenary Leather Armour is a Medium Armour that is equipped in the Body Armour slot. It can be bought from Shek Kingdom, Tech Hunters, Mongrel, and United Cities armour shops. It is randomly equipped by Anti-Slaver Jonins, Band of Bones, Bounty Hunters, City Heroes, Drifters, Hero Bosses, Red Sabres, Samurai Rogues, Skeleton Drifters, Stone Rats, Tech H",
+      "organization": "Reviewed 4 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mercenary-leather-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e9874e92d67cdb17dcc080d3e39c9d4cff953c4d470546a536ec530a6865588c"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "mercenary-plate",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Mercenary Plate is a Heavy Armour that is equipped in the Body Armour slot. It is often seen worn by Shop Guards, Caravan Guards, Manhunters, Slavemongers, Slaver Guards, Slaver Heavy Guards and other guard variants. It can be crafted in the Heavy Armour Smithy after researching the appropriate blueprint. This item can be dyed. This armour has inventory dime",
+      "organization": "Reviewed 6 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mercenary-plate.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f02ade32285136a4bb8fa8a272ea40569c2816aef49ae80307810a7069a8abad"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "monk-pants",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Monk Pants are clothing that are wearable as pants. They are also widely available at Clothing Traders throughout the game. They neither improve or decrease protection or stats for the character wearing them. Monk Pants are most notably worn by Finch and Iyo as well as Holy Priest, Holy Citizen, and Holy Farmer Wife characters. When worn by Holy Nation chara",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/monk-pants.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8b8a81a85ee93c1f6fea17564176da5a6749afdf8190758bacf440dc7a54c059"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "monk-robe",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Monk Robe is a Clothing that is equipped in the Body Armour slot. It can be bought from Clothing Vendors. It is part of a set together with Monk Pants. It gives a significant boost in Martial Arts. It is worn by Holy Chosen, Holy Priests, and Holy Servants. The Holy Servant Rags possibly come from a withered version of this clothing. This armour has inve",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/monk-robe.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bb303a68dd6687ea6f9e0ed7a796daae19497d5a4c46a091d88cca0265aa3c9e"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ninja-gi",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ninja Gi is a clothing item that offers no protection and can be equipped in the Body armour slot of a character’s inventory. They can be worn in a set together with the Ninja Pants and a Ninja Mask. A white version of this item is simply called a Gi. World’s End and Mongrel characters equip the Ninja Gi. This armour has inventory dimensions of 4x6. Appearan",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ninja-gi.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bb238b1f2c0ff3be6e2c68134f4710c5152a8c7c5dddf44d1233ebd570972883"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ninja-mask",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Ninja Mask is a Medium Armour that is equipped in the Headgear slot. It can be bought from the Swamp and the Shinobi Thieves. It is the headgear of choice of Cloud Ninjas, Thieves, Thief Fences, and Thief Bosses. It can be randomly equipped by Anti-Slaver Jonins, City Heroes, Drifters, Hero Bosses, Tech Hunters, Tech Hunter Gate Guards, Tech Hunter Guard",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ninja-mask.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cf3c4ce25b31540ccc0435a481d3846f0be954ce5e5bde825f9e1984b69151d5"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-slot-and-class-contradictions",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ninja-pants",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ninja Pants are black Gi Pants. They are a Clothing item and offer no armour protection. They can be worn as part of a set together with the Ninja Gi and a Ninja Mask. A white version of this item is called the Gi Pants and grants Martial Arts instead of stealth. This armour has inventory dimensions of 4x5. They are worn by members of the Shinobi Thieves as ",
+      "organization": "Reviewed 3 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ninja-pants.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "65ce331a0b1510f7ec5ec51ce33be1ae89d4b4d0af50e47b5e6a4f5b20c69240"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ninja-rags",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ninja Rags are Light Armour that is equipped in the Body Armour slot. It can be found sold by Clothing Traders and Swamp Traders, as well as from Shinobi Thieves Traders. It can be found equipped by ninjas and bandits such as Black Dragon Genins, Cloud Ninjas, Grayflayers, Ninjas, Skeleton Grayflayers, Sand Ninjas, Sand Ninja Jounin, and Kral’s Chosen. It is",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ninja-rags.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "46cb2a79017fe374418933cf73b8cf20bedd04f6ec2d08cc603e2bd536b0e4bf"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "nobles-robe",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: These are worn by Noble Hunters and all other Nobles of the United Cities. It is part of a costume set with Noble’s Trousers. Despite the matching pants designated as clothing, this robe is qualified as armour with no class assigned. This armour has inventory dimensions of 4x6. Appearance The Noble’s Robe appears to be a puffy, long-sleeved, collared, green ",
+      "organization": "Reviewed 2 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/nobles-robe.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cd9ee91b4ad9b655828913d0711daa0b2083758ffc49ae329732bd77e4665da4"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [

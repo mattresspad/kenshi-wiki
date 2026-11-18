@@ -341,5 +341,37 @@
     "introduced": [
       "/clothing-trader"
     ]
+  },
+  {
+    "name": "armour-4",
+    "resolved": [
+      "/human-skin",
+      "/iron-hat",
+      "/karuta-zukin",
+      "/kusari-zukin",
+      "/leather-hive-vest",
+      "/leather-shirt",
+      "/leather-turtleneck",
+      "/leather-vest",
+      "/legwear",
+      "/longcoat",
+      "/martial-artist-bindings",
+      "/mask-type-iii",
+      "/masked-helmet",
+      "/medium-armour",
+      "/mercenary-leather-armour",
+      "/mercenary-plate",
+      "/monk-pants",
+      "/monk-robe",
+      "/ninja-gi",
+      "/ninja-mask",
+      "/ninja-pants",
+      "/ninja-rags",
+      "/nobles-robe"
+    ],
+    "introduced": [
+      "/armour-trader",
+      "/travel-supplies-shops"
+    ]
   }
 ]

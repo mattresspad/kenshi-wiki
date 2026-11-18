@@ -5997,6 +5997,17 @@
       }
     },
     {
+      "id": "availability:/human-skin",
+      "kind": "availability",
+      "target": "/human-skin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/human-skin"
+      }
+    },
+    {
       "id": "availability:/human-skin-suit",
       "kind": "availability",
       "target": "/human-skin-suit",
@@ -6126,6 +6137,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/iron-club"
+      }
+    },
+    {
+      "id": "availability:/iron-hat",
+      "kind": "availability",
+      "target": "/iron-hat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/iron-hat"
       }
     },
     {
@@ -6327,6 +6349,17 @@
       }
     },
     {
+      "id": "availability:/karuta-zukin",
+      "kind": "availability",
+      "target": "/karuta-zukin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/karuta-zukin"
+      }
+    },
+    {
       "id": "availability:/katana",
       "kind": "availability",
       "target": "/katana",
@@ -6423,6 +6456,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/krals-chosen-character"
+      }
+    },
+    {
+      "id": "availability:/kusari-zukin",
+      "kind": "availability",
+      "target": "/kusari-zukin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/kusari-zukin"
       }
     },
     {
@@ -6536,6 +6580,50 @@
       }
     },
     {
+      "id": "availability:/leather-hive-vest",
+      "kind": "availability",
+      "target": "/leather-hive-vest",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/leather-hive-vest"
+      }
+    },
+    {
+      "id": "availability:/leather-shirt",
+      "kind": "availability",
+      "target": "/leather-shirt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/leather-shirt"
+      }
+    },
+    {
+      "id": "availability:/leather-turtleneck",
+      "kind": "availability",
+      "target": "/leather-turtleneck",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/leather-turtleneck"
+      }
+    },
+    {
+      "id": "availability:/leather-vest",
+      "kind": "availability",
+      "target": "/leather-vest",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/leather-vest"
+      }
+    },
+    {
       "id": "availability:/legion",
       "kind": "availability",
       "target": "/legion",
@@ -6566,6 +6654,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/legion-thrall"
+      }
+    },
+    {
+      "id": "availability:/legwear",
+      "kind": "availability",
+      "target": "/legwear",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/legwear"
       }
     },
     {
@@ -6621,6 +6720,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/long-cleaver"
+      }
+    },
+    {
+      "id": "availability:/longcoat",
+      "kind": "availability",
+      "target": "/longcoat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/longcoat"
       }
     },
     {
@@ -6943,6 +7053,39 @@
       }
     },
     {
+      "id": "availability:/martial-artist-bindings",
+      "kind": "availability",
+      "target": "/martial-artist-bindings",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/martial-artist-bindings"
+      }
+    },
+    {
+      "id": "availability:/mask-type-iii",
+      "kind": "availability",
+      "target": "/mask-type-iii",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mask-type-iii"
+      }
+    },
+    {
+      "id": "availability:/masked-helmet",
+      "kind": "availability",
+      "target": "/masked-helmet",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/masked-helmet"
+      }
+    },
+    {
       "id": "availability:/meat-lord",
       "kind": "availability",
       "target": "/meat-lord",
@@ -6962,6 +7105,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/medic-recruit"
+      }
+    },
+    {
+      "id": "availability:/medium-armour",
+      "kind": "availability",
+      "target": "/medium-armour",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/medium-armour"
       }
     },
     {
@@ -7075,6 +7229,28 @@
       }
     },
     {
+      "id": "availability:/mercenary-leather-armour",
+      "kind": "availability",
+      "target": "/mercenary-leather-armour",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mercenary-leather-armour"
+      }
+    },
+    {
+      "id": "availability:/mercenary-plate",
+      "kind": "availability",
+      "target": "/mercenary-plate",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mercenary-plate"
+      }
+    },
+    {
       "id": "availability:/mighty-canhead",
       "kind": "availability",
       "target": "/mighty-canhead",
@@ -7182,6 +7358,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mongrel-faction"
+      }
+    },
+    {
+      "id": "availability:/monk-pants",
+      "kind": "availability",
+      "target": "/monk-pants",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/monk-pants"
+      }
+    },
+    {
+      "id": "availability:/monk-robe",
+      "kind": "availability",
+      "target": "/monk-robe",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/monk-robe"
       }
     },
     {
@@ -7394,6 +7592,17 @@
       }
     },
     {
+      "id": "availability:/ninja-gi",
+      "kind": "availability",
+      "target": "/ninja-gi",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ninja-gi"
+      }
+    },
+    {
       "id": "availability:/ninja-guard",
       "kind": "availability",
       "target": "/ninja-guard",
@@ -7402,6 +7611,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/ninja-guard"
+      }
+    },
+    {
+      "id": "availability:/ninja-mask",
+      "kind": "availability",
+      "target": "/ninja-mask",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ninja-mask"
+      }
+    },
+    {
+      "id": "availability:/ninja-pants",
+      "kind": "availability",
+      "target": "/ninja-pants",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ninja-pants"
+      }
+    },
+    {
+      "id": "availability:/ninja-rags",
+      "kind": "availability",
+      "target": "/ninja-rags",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ninja-rags"
       }
     },
     {
@@ -7446,6 +7688,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/noble-hunter"
+      }
+    },
+    {
+      "id": "availability:/nobles-robe",
+      "kind": "availability",
+      "target": "/nobles-robe",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/nobles-robe"
       }
     },
     {
@@ -13097,6 +13350,30 @@
       }
     },
     {
+      "id": "media:/icons/items/1532813-Newwworld.mod.png",
+      "kind": "media",
+      "target": "/icons/items/1532813-Newwworld.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "fcdacace2cbe9f0ce995ec466a4f8df836ba3ea1ba17d81b493fdc8a81478882",
+        "sourceSha256": "fcdacace2cbe9f0ce995ec466a4f8df836ba3ea1ba17d81b493fdc8a81478882"
+      }
+    },
+    {
+      "id": "media:/icons/items/1532828-Newwworld.mod.png",
+      "kind": "media",
+      "target": "/icons/items/1532828-Newwworld.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "fa2ab46a44325d03cf0162efb12255f4e2cd95e095aee24445e3dbf62520576d",
+        "sourceSha256": "fa2ab46a44325d03cf0162efb12255f4e2cd95e095aee24445e3dbf62520576d"
+      }
+    },
+    {
       "id": "media:/icons/items/1533508-Newwworld.mod.png",
       "kind": "media",
       "target": "/icons/items/1533508-Newwworld.mod.png",
@@ -13214,6 +13491,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "5718230e5f23a1638aefdb1f8345d5d9d8de028b55a95ec94f564694f1071228",
         "sourceSha256": "5718230e5f23a1638aefdb1f8345d5d9d8de028b55a95ec94f564694f1071228"
+      }
+    },
+    {
+      "id": "media:/icons/items/1534062-Newwworld_Plus.mod.png",
+      "kind": "media",
+      "target": "/icons/items/1534062-Newwworld_Plus.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-4",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "64c0f37162626525eed9fb5b8c527da7fe70f90136df492cb2494f025f8fb70c",
+        "sourceSha256": "64c0f37162626525eed9fb5b8c527da7fe70f90136df492cb2494f025f8fb70c"
       }
     },
     {

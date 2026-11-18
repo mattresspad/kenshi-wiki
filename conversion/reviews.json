@@ -2726,6 +2726,98 @@
     "human-skin-suit": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/items/review.json"
+    },
+    "human-skin": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "iron-hat": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "karuta-zukin": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "kusari-zukin": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "leather-hive-vest": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "leather-shirt": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "leather-turtleneck": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "leather-vest": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "legwear": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "longcoat": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "martial-artist-bindings": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "mask-type-iii": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "masked-helmet": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "medium-armour": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "mercenary-leather-armour": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "mercenary-plate": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "monk-pants": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "monk-robe": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "ninja-gi": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "ninja-mask": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "ninja-pants": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "ninja-rags": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "nobles-robe": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
     }
   },
   "mediaGaps": [
