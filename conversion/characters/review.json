@@ -2798,6 +2798,339 @@
         "claim:character-fcs-statistics",
         "claim:character-world-state-conditions"
       ]
+    },
+    {
+      "id": "queen-of-the-south",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: EEEEEEEEEH! Queen of the South is leader of the Southern Hive and has Diplomatic Status. She sits upon her throne located in Southern Hive protected by her Elite Droneguards who will attack any intruders. She rules over her subjects with the help of her consort, the King. Despite all other members of the Southern Hive having a distinct pink coloration of the",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/queen-of-the-south.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7961afd10f660957a8405ca3a2caf88399212e404b8b9cbd80843d8fba9a0670"
+      },
+      "questions": [
+        "claim:character-captivity-hunger",
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "red-sabre-boss",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Those that enter the swamp, don't leave the swamp...Get 'em! And strip every last bit o' loot from their carcasses!-Red Sabre Boss attacking Red Sabre Boss, or “The Red Bandit” is the boss of the Red Sabres. He resides in Red Sabre Hideout surrounded by 22 Red Sabres. Though he is named in his bounty letter, he is not given the name ‘The Red Bandit’ in-game.",
+      "organization": "Reviewed 2 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/red-sabre-boss.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7c5ac1562bc633ffff33af84d6a427697c05d2b3f96d0f6507af442ef2b3da02"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "sand-ninja-oni",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Sand Ninja Oni is the leader of the Sand Ninjas and resides at Cactus Den. Infiltrating their den makes the Sand Ninjas faction hostile towards you. They wear [Standard] armour (10% chance of [High]) and have weapons manufactured by Catun Scrapmaster. Although their bounty is for c.10,000 in the FCS, it counts for both the Traders Guild and the United Cities",
+      "organization": "Reviewed 2 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sand-ninja-oni.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3dacadc0d13be12ea249ef5831abc8b1543f2e843f15a6f36a1fd2c18de36143"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "savant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Of course. Is it about your... the skeletons?... Yes, I thought it might be. What else is there to ask, you've only just met me! I studied skeleton psychology for three years when I was just ten years old, you know... Savant is the crazed Leader of the Skin Bandits with a bounty of c.80,000 by the United Cities, despite the listing of a c.50,000 on his wante",
+      "organization": "Reviewed 5 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/savant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7baab1612f749f026cba1b728ea208e38b288c019750f4df7b5c93a46775a947"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "screamer-the-false",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Make it past a few lasers and a human thinks it's invincible... Screamer The False is one of the two leaders of the Thrall Masters faction (the other is Ponk). Both are found in the Tower of Abuse. He carries the Meitou grade Heavy Polearm. They wear [High] armour (30% chance of [Specialist]) and have weapons manufactured by Cross. Both Ponk and Screamer hav",
+      "organization": "Reviewed 3 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/screamer-the-false.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6b5aaa97559fedd596344b112f8303c6527091cdc7b7ae3f6abc2ae28e30773e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "shade",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Attacking like a pack of bloody beasts! Shade is the leader of the Swamp Ninjas and resides at the Swamp Ninja Base. They wear [Standard] armour (10% chance of [High]) and have weapons manufactured by Edgewalkers. She has a bounty of c.20,000 and is wanted by the Shek Kingdom. Statistics Scorchlander World States Killing or imprisoning Shade will cease Swamp",
+      "organization": "Reviewed 2 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shade.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "819ff9cd12209a045d31b22ce8c12ca3aef6844d72cc8bf4c32c0949f24828c2"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "slave-market-master",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ugh! Rotten peasant! Shoo! Slave Market Master is a noble member of the Traders Guild. He can be found at Slave Markets in South Wetlands. As with the other TG Nobles, Slave Market Master lives in a Noble House and is guarded by 4 Empire Noble Guard Hooded characters and 4 Samurai Heavy characters. He has Smart Personality. They wear [Specialist] armour (10%",
+      "organization": "Reviewed 2 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-market-master.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dc01470183803c0c4e97bb9b94a2d5fdb4afa5e1f876689cb027116ac6d4780f"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "slave-master-grande",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slave Master Grande is a noble member of the Traders Guild. He can be found at Eyesocket in Stormgap Coast. As with the other TG Nobles, Grande lives in a Noble House and is guarded by 4 Empire Noble Guard Hooded characters and 4 Samurai Heavy characters. He has Smart Personality. They wear [Specialist] armour (10% chance of [Masterwork]) and have weapons ma",
+      "organization": "Reviewed 2 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-master-grande.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1e3b46c5d77b0d98cff2347b1513c307e7640e38b2b7fa540607cfb7caa35e3a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "slave-master-haga",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slave Master Haga is a noble member of the Traders Guild. He can be found at Stone Camp in The Great Desert. As with the other TG Nobles, Haga lives in a Noble House and is guarded by 4 Hooded Empire Noble Guard characters and 4 Samurai Heavy characters. He has Fearful Personality. They wear [Specialist] armour (10% chance of [Masterwork]) and have weapons m",
+      "organization": "Reviewed 2 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-master-haga.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "86645bd58533b7b034bebe9287bf562a176f5614f897860d5fb86381e2aa555d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "slave-master-ruben",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slave Master ‘Sly’ Ruben is a noble member of the Traders Guild. They can be found at South Stone Camp in Heng. This character has a Traitorous Personality. As with the other TG Nobles, Ruben lives in a Noble House and is guarded by 4 Hooded Empire Noble Guard characters and 4 Samurai Heavy characters. They wear [Specialist] armour (10% chance of [Masterwork",
+      "organization": "Reviewed 3 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-master-ruben.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6f981ab3422bf7ad51a3b3608a5576d230ee59e4fdaff374e13d119f551bcb07"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "slave-master-wada",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slave Master Wada is a slave master of the Traders Guild. He can be found inside his home in Port South. As with the other TG Nobles, Wada lives in a Noble House and is guarded by 4 Empire Noble Guard Hooded characters and 4 Samurai Heavy characters. He has Smart Personality. They wear [Specialist] armour (10% chance of [Masterwork]) and have weapons manufac",
+      "organization": "Reviewed 3 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-master-wada.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "40a59720e11723c84df3fbd031e8fdb822a84b59ae5bd8e3c64ee6ad7e416b1e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "slave-mistress-grace",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slave Mistress Grace is a noble member of the Traders Guild. She can be found at Slave Farm South in The Hook. As with other Traders Guild nobles, she is guarded by 4 Empire Noble Guard Hooded and 4 Samurai Heavy characters. She has a 90% chance of carrying money items and can be holding between c.1,000 and c.5,000. They wear [Specialist] armour (10% chance ",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-mistress-grace.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "45a10e9a0f381ce8cc63d20f859a9d2772b87b38892efc855a25cc5e5aec8fad"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "slave-mistress-ren",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slave Mistress Ren is a noble of the Traders Guild faction. She can be found in the Noble House at Slave Farm in Heng. As with other Traders Guild nobles, she is guarded by 4 Empire Noble Guard Hooded and 4 Samurai Heavy characters. She has a 90% chance of carrying money items and can be holding between c.1,000 and c.5,000. They wear [Specialist] armour (10%",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-mistress-ren.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3e105f96256d19aeeb3e1189263ce9543cae311aed1c7a41553cae035153494e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "the-preacher",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Purify them! Return their blood to the sands!- The Preacher The Preacher is the leader of the Preacher Cult. They can be found in the Cult Village alongside Moon Guardians and Farmers. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Cross. Although this character is always Hive, they have a 40% chance of being a female ch",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-preacher.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bb6c60cbdc810a1e348cedec75cdac5fd6bd50757228b252ff6a4daeea9782da"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "the-queen",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: EEEEEEEEEH! The Queen is leader of the Western Hive and has Diplomatic Status. She rules her domain from the “Hill Hut” in the Western Hive, located on an island west of Vain. Upon entering the Hill Hut, multiple Royal Soldier Drones will gasp and walk over to you and demand you leave. They do not become hostile if you refuse. The Hive Queen can be seen sitt",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-queen.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "480d791cdb27a343b829097213b7a0cb7f740abc213c6c4502fc526e5e1da9e8"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "the-vault-warden",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Vault Warden is a high-level character located at Tengu’s Vault wielding a Meitou grade Jitte. He can often be seen taunting prisoners and new arrivals with sarcastic comments. If this character is killed a Samurai Captain will replace Warden’s position. They wear [High] armour (10% chance of [Specialist]) and have weapons manufactured by Cross. This cha",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-vault-warden.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4c02d57d3336ad8d1aa97c54159f1f4e3d13d0feb9409c3bda00e9ba42a6b081"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "tinfist",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Tinfist and Cat-Lon made a great team... And now Tinfist fights for a losing cause for the humans... While Cat-Lon disappears into thin air...... What happened?Skeleton Patron, Black Desert City Tinfist is the infamous leader of the Anti-Slavers and resides at their city Spring located southwest in Stobe’s Gamble. He is a Skeleton who possesses very high com",
+      "organization": "Reviewed 8 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tinfist.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "09c83a50ff2aeaf96fcdec0e66cd6eeb0c78a69f13b12488a0eb17533f1b45ea"
+      },
+      "questions": [
+        "claim:character-boss-state-exceptions",
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "tora-the-fearless",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You! You stare at my horns! You have the gall to gawk at a Shek Warrior's horns, you must have the fight to back it up! Tora the Fearless is the leader of the Band of Bones who refused to give up her weapon after being disgraced as a Shek Kingdom warrior and having her horns removed. Instead, Tora underwent self-exile and fled to a life of banditry, preferri",
+      "organization": "Reviewed 3 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tora-the-fearless.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "81f4d46a8d5d9db18a988d8189ef4675901f2cd563472905ec7e19950c93838f"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-removed-content",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "valamon",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: What's this?!.. A new conscript? Well, my sister, today is your lucky day! Valamon is the leader of the Reavers. He can be found in the capital of Reavers, Ark. They wear [Specialist] armour (25% chance of [Masterwork]) and have weapons manufactured by Cross. He is only wanted by the United Cities: Statistics Shek World States If Valamon is killed or kidnapp",
+      "organization": "Reviewed 2 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/valamon.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e7e55b57406d4b9ad2378a2498d2cc01551c486e126690591d2ab05551b0a261"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "yabuta-chief",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Yabuta Chief is a leader of the Yabuta Outlaws. He can be found in the HQ in Fort Yabuta (formerly Fort Simion) after Yabuta of the Sands has been released from Tengu’s Vault (as long as the player is not allied with Rebel Farmers). They have a 20% chance to have a bounty ranging from c.1,500 to c.2,500. They wear [Standard] armour (5% chance of [High]) ",
+      "organization": "Reviewed 2 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/yabuta-chief.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b3b73c08aff20d76b3d1e9e5f03f53939b3a0c93648666408eb1ad59329c4ed2"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
     }
   ],
   "editorialChanges": [

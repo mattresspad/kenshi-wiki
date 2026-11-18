@@ -5216,6 +5216,17 @@
       }
     },
     {
+      "id": "availability:/queen-of-the-south",
+      "kind": "availability",
+      "target": "/queen-of-the-south",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/queen-of-the-south"
+      }
+    },
+    {
       "id": "availability:/races",
       "kind": "availability",
       "target": "/races",
@@ -5469,6 +5480,17 @@
       }
     },
     {
+      "id": "availability:/red-sabre-boss",
+      "kind": "availability",
+      "target": "/red-sabre-boss",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/red-sabre-boss"
+      }
+    },
+    {
       "id": "availability:/red-sabre-hideout",
       "kind": "availability",
       "target": "/red-sabre-hideout",
@@ -5711,6 +5733,17 @@
       }
     },
     {
+      "id": "availability:/sand-ninja-oni",
+      "kind": "availability",
+      "target": "/sand-ninja-oni",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sand-ninja-oni"
+      }
+    },
+    {
       "id": "availability:/sand-ninjas",
       "kind": "availability",
       "target": "/sand-ninjas",
@@ -5719,6 +5752,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/sand-ninjas"
+      }
+    },
+    {
+      "id": "availability:/savant",
+      "kind": "availability",
+      "target": "/savant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/savant"
       }
     },
     {
@@ -5785,6 +5829,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/screamer-mki"
+      }
+    },
+    {
+      "id": "availability:/screamer-the-false",
+      "kind": "availability",
+      "target": "/screamer-the-false",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/screamer-the-false"
       }
     },
     {
@@ -5895,6 +5950,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/settlers-pup"
+      }
+    },
+    {
+      "id": "availability:/shade",
+      "kind": "availability",
+      "target": "/shade",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shade"
       }
     },
     {
@@ -6503,6 +6569,17 @@
       }
     },
     {
+      "id": "availability:/slave-market-master",
+      "kind": "availability",
+      "target": "/slave-market-master",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-market-master"
+      }
+    },
+    {
       "id": "availability:/slave-markets",
       "kind": "availability",
       "target": "/slave-markets",
@@ -6511,6 +6588,72 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/slave-markets"
+      }
+    },
+    {
+      "id": "availability:/slave-master-grande",
+      "kind": "availability",
+      "target": "/slave-master-grande",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-master-grande"
+      }
+    },
+    {
+      "id": "availability:/slave-master-haga",
+      "kind": "availability",
+      "target": "/slave-master-haga",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-master-haga"
+      }
+    },
+    {
+      "id": "availability:/slave-master-ruben",
+      "kind": "availability",
+      "target": "/slave-master-ruben",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-master-ruben"
+      }
+    },
+    {
+      "id": "availability:/slave-master-wada",
+      "kind": "availability",
+      "target": "/slave-master-wada",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-master-wada"
+      }
+    },
+    {
+      "id": "availability:/slave-mistress-grace",
+      "kind": "availability",
+      "target": "/slave-mistress-grace",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-mistress-grace"
+      }
+    },
+    {
+      "id": "availability:/slave-mistress-ren",
+      "kind": "availability",
+      "target": "/slave-mistress-ren",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-mistress-ren"
       }
     },
     {
@@ -7460,6 +7603,28 @@
       }
     },
     {
+      "id": "availability:/the-preacher",
+      "kind": "availability",
+      "target": "/the-preacher",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-preacher"
+      }
+    },
+    {
+      "id": "availability:/the-queen",
+      "kind": "availability",
+      "target": "/the-queen",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-queen"
+      }
+    },
+    {
       "id": "availability:/the-shrieking-forest",
       "kind": "availability",
       "target": "/the-shrieking-forest",
@@ -7490,6 +7655,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/the-unwanted-zone"
+      }
+    },
+    {
+      "id": "availability:/the-vault-warden",
+      "kind": "availability",
+      "target": "/the-vault-warden",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-vault-warden"
       }
     },
     {
@@ -7526,6 +7702,17 @@
       }
     },
     {
+      "id": "availability:/tinfist",
+      "kind": "availability",
+      "target": "/tinfist",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tinfist"
+      }
+    },
+    {
       "id": "availability:/tiny-settlement",
       "kind": "availability",
       "target": "/tiny-settlement",
@@ -7545,6 +7732,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/titus"
+      }
+    },
+    {
+      "id": "availability:/tora-the-fearless",
+      "kind": "availability",
+      "target": "/tora-the-fearless",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tora-the-fearless"
       }
     },
     {
@@ -7834,6 +8032,17 @@
       }
     },
     {
+      "id": "availability:/valamon",
+      "kind": "availability",
+      "target": "/valamon",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/valamon"
+      }
+    },
+    {
       "id": "availability:/venge",
       "kind": "availability",
       "target": "/venge",
@@ -8084,6 +8293,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/worlds-end"
+      }
+    },
+    {
+      "id": "availability:/yabuta-chief",
+      "kind": "availability",
+      "target": "/yabuta-chief",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#bosses-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/yabuta-chief"
       }
     },
     {
