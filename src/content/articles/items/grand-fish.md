@@ -1,0 +1,35 @@
+---
+articleId: grand-fish
+title: Grand Fish
+description: The other fish species in Kenshi, referenced in this item's description, is Thinfish. Thinfish can be turned into Dried Fish, but Grand Fish supposedly canno…
+categories:
+  - Items
+  - Nutrition
+layout: item
+factTitle: Grand Fish
+factGroups:
+  - heading: null
+    rows:
+      - - Type
+        - Food
+      - - Weight
+        - 1 kg
+      - - Base value
+        - c. 600
+      - - Size in inventory
+        - 3x2
+      - - Nutrition
+        - 15 nu
+  - heading: null
+    rows:
+      - - String id
+        - 50514-Newwworld.mod
+factImage:
+  src: /icons/items/50514-Newwworld.mod.png
+  alt: Grand Fish
+factCaption: The Grand Fish, king of all the two known fish species in the world.
+---
+
+**Grand Fish** is a [food](/food) item in Kenshi. It can be purchased from vendors in [The Swamp](/the-swamp) and [Fishing Village](/fishing-village). It can also be found in [Fish Isle](/fish-isle).
+
+The other fish species in Kenshi, referenced in this item's description, is [Thinfish](/thinfish). Thinfish can be turned into [Dried Fish](/dried-fish), but Grand Fish supposedly cannot be dried.
