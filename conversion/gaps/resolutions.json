@@ -4897,6 +4897,83 @@
       }
     },
     {
+      "id": "availability:/human-mercenary",
+      "kind": "availability",
+      "target": "/human-mercenary",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/human-mercenary"
+      }
+    },
+    {
+      "id": "availability:/hundred-guardian",
+      "kind": "availability",
+      "target": "/hundred-guardian",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hundred-guardian"
+      }
+    },
+    {
+      "id": "availability:/hungry-bandit",
+      "kind": "availability",
+      "target": "/hungry-bandit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hungry-bandit"
+      }
+    },
+    {
+      "id": "availability:/hungry-bandit-leader",
+      "kind": "availability",
+      "target": "/hungry-bandit-leader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hungry-bandit-leader"
+      }
+    },
+    {
+      "id": "availability:/hydraulic-knight",
+      "kind": "availability",
+      "target": "/hydraulic-knight",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hydraulic-knight"
+      }
+    },
+    {
+      "id": "availability:/idad",
+      "kind": "availability",
+      "target": "/idad",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/idad"
+      }
+    },
+    {
+      "id": "availability:/immortal-king",
+      "kind": "availability",
+      "target": "/immortal-king",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/immortal-king"
+      }
+    },
+    {
       "id": "availability:/infested-lab",
       "kind": "availability",
       "target": "/infested-lab",
@@ -4916,6 +4993,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/infinite-wingwang"
+      }
+    },
+    {
+      "id": "availability:/inquisitor",
+      "kind": "availability",
+      "target": "/inquisitor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/inquisitor"
       }
     },
     {
@@ -5007,6 +5095,17 @@
       }
     },
     {
+      "id": "availability:/iyo",
+      "kind": "availability",
+      "target": "/iyo",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/iyo"
+      }
+    },
+    {
       "id": "availability:/izumi",
       "kind": "availability",
       "target": "/izumi",
@@ -5015,6 +5114,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/izumi"
+      }
+    },
+    {
+      "id": "availability:/jaegar",
+      "kind": "availability",
+      "target": "/jaegar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/jaegar"
       }
     },
     {
@@ -5029,6 +5139,28 @@
       }
     },
     {
+      "id": "availability:/jonin-elite",
+      "kind": "availability",
+      "target": "/jonin-elite",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/jonin-elite"
+      }
+    },
+    {
+      "id": "availability:/kamikaze",
+      "kind": "availability",
+      "target": "/kamikaze",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/kamikaze"
+      }
+    },
+    {
       "id": "availability:/kang",
       "kind": "availability",
       "target": "/kang",
@@ -5037,6 +5169,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/kang"
+      }
+    },
+    {
+      "id": "availability:/karate-drifter",
+      "kind": "availability",
+      "target": "/karate-drifter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/karate-drifter"
       }
     },
     {
@@ -5084,6 +5227,17 @@
       }
     },
     {
+      "id": "availability:/koin",
+      "kind": "availability",
+      "target": "/koin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/koin"
+      }
+    },
+    {
       "id": "availability:/krals-chosen",
       "kind": "availability",
       "target": "/krals-chosen",
@@ -5092,6 +5246,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/krals-chosen"
+      }
+    },
+    {
+      "id": "availability:/krals-chosen-character",
+      "kind": "availability",
+      "target": "/krals-chosen-character",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/krals-chosen-character"
       }
     },
     {
@@ -5150,6 +5315,17 @@
       }
     },
     {
+      "id": "availability:/lagoon-barman",
+      "kind": "availability",
+      "target": "/lagoon-barman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lagoon-barman"
+      }
+    },
+    {
       "id": "availability:/land-bat",
       "kind": "availability",
       "target": "/land-bat",
@@ -5191,6 +5367,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/leaning-tower"
+      }
+    },
+    {
+      "id": "availability:/legion",
+      "kind": "availability",
+      "target": "/legion",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/legion"
+      }
+    },
+    {
+      "id": "availability:/legion-scout",
+      "kind": "availability",
+      "target": "/legion-scout",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/legion-scout"
+      }
+    },
+    {
+      "id": "availability:/legion-thrall",
+      "kind": "availability",
+      "target": "/legion-thrall",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/legion-thrall"
       }
     },
     {
@@ -5348,6 +5557,17 @@
       }
     },
     {
+      "id": "availability:/lost-hiver",
+      "kind": "availability",
+      "target": "/lost-hiver",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lost-hiver"
+      }
+    },
+    {
       "id": "availability:/lost-library",
       "kind": "availability",
       "target": "/lost-library",
@@ -5359,6 +5579,17 @@
       }
     },
     {
+      "id": "availability:/lost-prince",
+      "kind": "availability",
+      "target": "/lost-prince",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lost-prince"
+      }
+    },
+    {
       "id": "availability:/lost-town",
       "kind": "availability",
       "target": "/lost-town",
@@ -5367,6 +5598,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/lost-town"
+      }
+    },
+    {
+      "id": "availability:/lower-servant",
+      "kind": "availability",
+      "target": "/lower-servant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lower-servant"
       }
     },
     {
@@ -5389,6 +5631,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/luquin"
+      }
+    },
+    {
+      "id": "availability:/machinist",
+      "kind": "availability",
+      "target": "/machinist",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/machinist"
       }
     },
     {
@@ -5425,6 +5678,17 @@
       }
     },
     {
+      "id": "availability:/manhunter",
+      "kind": "availability",
+      "target": "/manhunter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/manhunter"
+      }
+    },
+    {
       "id": "availability:/manhunter-base",
       "kind": "availability",
       "target": "/manhunter-base",
@@ -5455,6 +5719,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/manhunters"
+      }
+    },
+    {
+      "id": "availability:/mani",
+      "kind": "availability",
+      "target": "/mani",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mani"
       }
     },
     {

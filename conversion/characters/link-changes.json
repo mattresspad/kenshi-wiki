@@ -601,5 +601,43 @@
       "/empire-samurai-armour",
       "/halfpants"
     ]
+  },
+  {
+    "name": "npcs-5",
+    "resolved": [
+      "/human-mercenary",
+      "/hundred-guardian",
+      "/hungry-bandit",
+      "/hungry-bandit-leader",
+      "/hydraulic-knight",
+      "/idad",
+      "/immortal-king",
+      "/inquisitor",
+      "/iyo",
+      "/jaegar",
+      "/jonin-elite",
+      "/kamikaze",
+      "/karate-drifter",
+      "/koin",
+      "/krals-chosen-character",
+      "/lagoon-barman",
+      "/legion",
+      "/legion-scout",
+      "/legion-thrall",
+      "/lost-hiver",
+      "/lost-prince",
+      "/lower-servant",
+      "/machinist",
+      "/manhunter",
+      "/mani"
+    ],
+    "introduced": [
+      "/category/manhunters",
+      "/enemy-hunt",
+      "/holy-nation-assault-inquisitor",
+      "/holy-nation-assault-major",
+      "/old-cpu-unit",
+      "/red-bandana"
+    ]
   }
 ]

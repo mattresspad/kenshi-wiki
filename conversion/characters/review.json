@@ -4700,6 +4700,403 @@
         "claim:character-historical-lore",
         "claim:character-removed-content"
       ]
+    },
+    {
+      "id": "human-mercenary",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Human Mercenaries are members of the Mercenary Guild. They can be found within the Holy Nation and United Cities looking for work. They are potentially the weakest mercenary variant. Speaking to their leader allows you to hire them as bodyguards (c.2,000 per day) or outpost protectors (c.1,000 per day). They wear [Shoddy] armour (5% chance of [Standard]) and",
+      "organization": "Reviewed 1 section bookmarks and 16 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/human-mercenary.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "60631cc763ee371722553ece14eeea61ec38e6343b03cd957894a913d4862a3f"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "hundred-guardian",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Glory doesn't come to us. We rip it from our enemies with our own hands.Courage.Hundred Guardian Hundred Guardians are the elite soldiers of the Shek Kingdom and highly skilled fighters. As their name implies, they are one of the top 100 fighters of the Shek Kingdom, possibly with the top 5 of them being part of The Five Invincibles instead. They are neutral",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hundred-guardian.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0c5ac5fb18977ca9a6e6315851e2368f7ea4d2855b3606bdd896ea15bcaaf535"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-patrol-interpretation",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "hungry-bandit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hungry Bandits make up the majority of the Starving Bandits faction and can be found wandering in desperate bands led by Hungry Bandit Leaders (one of these characters may also be the leader) who will commonly accost or attack people for food. Accordingly, they spawn with low Hunger, generally giving them a 10 to 15% penalty to their already poor stats. Thou",
+      "organization": "Reviewed 1 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hungry-bandit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e3f4c03b5356d95a07548649cd63aea706a0d8bfb2d8edc4261e302f8e859d8a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "hungry-bandit-leader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Even if you have to die, I'm taking your food! Hungry Bandit Leaders lead squads of Hungry Bandits and are the most skilled members of the Starving Bandits. Their squads can be found patrolling in Border Zone, Dreg, Northern Coast, Okran’s Gulf, Okran’s Pride, Okran’s Valley, Shem, and Skinner’s Roam. Hungry Bandit Leaders will approach characters that pass ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hungry-bandit-leader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9722f8ff26b8277829ac1b1c5aee79bf9d89880b8cf7e6182c6329af2a861880"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "hydraulic-knight",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hydraulic Knights are members of the Second Empire faction. 5 of them can be found in Ashland Dome III. They wear [Specialist] armour (15% chance of [Masterwork]) and have weapons manufactured by Skeleton Smiths and Edgewalkers. This character can colour armour and clothing due to a colour scheme attached. Removing these items from the creature will kill it ",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hydraulic-knight.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "54ee4580eefff9f02fb52cc8b7e494b1e373ef65d18b08a5917c9d85c02cc1b2"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "idad",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Idad was an author that wrote the books Mass Extinction IV, Cultural Groupings And Evolution I, The Mystery Of Skeletech II, Legend of the Grievewraith, Legend of the Headless Ancient I, and Legend of the Mist Ghoul. Little is known about Idad since Idad doesn’t exist as an NPC that players can interact with, however, it’s likely that Idad was a Machinist an",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/idad.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "df68bc946b9c586b2e67d35dde60eb9d7169aea11cec978830b6c10307df40ce"
+      },
+      "questions": [
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "immortal-king",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: INVADER!THIS IS MY KINGDOM!LEAVE!Immortal King The Immortal King is a character that does not exist in the game but can be found in the Forgotten Construction Set. He does have unique dialogue lines which all lead to fighting. Not very much is known about him. The developers just scrapped him from the game or made him “cut content”. His name might suggest th",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/immortal-king.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "291274b2b24de510e75da814205889d264cdbe7fcadb1de5d510604790d1e6aa"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "inquisitor",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: What need is there for payment, when one has the wholesome duty of carrying out Okran's Will?... This greed is to be expected of outsiders though, you have served Okran well today so I will compensate you for your expenses nonetheless. I suggest you reflect on the Scripture of Radiance Volume V, brother. Money, material goods, rewards... these earthly desire",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/inquisitor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bfceab3b9d45f078ce2756b480157971d87e2e6f47dad1917a57bd4136adafc1"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "iyo",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Iyo is the second in command to the faction Machinists. They can be found in World’s End in the Science HQ. Iyo has diplomatic status. Finch claims that Iyo is his “assistant”. Players can talk to Iyo and ask them some questions about the Science HQ and what they do. Iyo is an author behind many of the Tech Hunter’s Notes Series. Statistics P4 Unit Trivia Iy",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/iyo.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cc9bb62ffe8e84ff5d7aced35738992b292eab256a43664c711d9d5fa242f048"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "jaegar",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Jaegar is a member of the Anti-Slavers and can be found wandering in the city Spring located in the southwest region of Stobe’s Gamble. He has a Brave Personality. They wear [Specialist] armour (5% chance of [Masterwork]) and have weapons manufactured by Skeleton Smiths. Like his fellow Anti-Slavers Jaegar finds himself wanted by the both the Holy Nation and",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/jaegar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4d0e1a70b68dafa1c519bd8036b9033f4b10f0806d357615a8eb2ec131dd85f5"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "jonin-elite",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Jonin Elites (上忍, Jōnin, literally meaning: High Ninja, meaning (Viz): Elite Ninja), are powerful ninjas of the United Cities. They serve as Emperor Tengu’s bodyguards alongside the Samurai Elites and can only be found in the Faction Throne in Heft. There are in total 5 Jonin Elites that guard Emperor Tengu under default Heft. If Heft is malnourished, there ",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/jonin-elite.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6359df723cd5c2ca6c3b4f02655eb6717cf47fd0c9c8e5a037cd83ff6d88ec35"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "kamikaze",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The horned devils plague the Holy Lands but they are small in number, they won't last with their wreckless suicide mission. Eventually their kind will be extinct and we'll finally see peace.Holy Lord Phoenix Kamikazes are members of the Shek Kingdom faction. They can only be found if Esata has been killed or kidnapped. They appear to be the remnants of Hundr",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/kamikaze.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "396cc690dc447a1c06807a0c38c7a76aa4c3f252f7fdeedc6e90cefed16064a4"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-patrol-interpretation",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "karate-drifter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Karate Drifters are members of the Drifters. They are very powerful mysterious martial artists who can be rarely found wandering alone in Stobe’s Gamble. They wear [Standard] armour (20% chance of [High]). Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Hive Worker Drone P4 Unit Skeleton Trivia Given their g",
+      "organization": "Reviewed 2 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/karate-drifter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6e3b3f034b2a5034b2d3367a1d2da014556fac41c09d8ccaef779b87eb45a489"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "koin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: As you can see, Lord Tengu is rather... tied up right now... *Sigh*... If you have business here, you can speak with myself, Diplomat Koin. Koin is a high-ranking member of United Cities found in Heft and has Diplomatic Status. He appears and acts like the secretary and spokesperson for Emperor Tengu. He can be spoken with to form an alliance with the United",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/koin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f94adec586fe6f8546c402c4c6e9ed69de49a94fe539f8d9de9b86ae2174a0f7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "krals-chosen-character",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Oh, did I hurt your fragile emotions, insignificant flatskin? Your weakness offends the spirit of Kral! Leave. Kral’s Chosen are members of the faction Kral’s Chosen. They can be found in New Kralia and in squads patrolling the Spider Plains and Stenn Desert. They wear [Shoddy] armour (15% chance of [Standard]) and have weapons manufactured by Ancient. Stati",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/krals-chosen-character.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5515feafb6e22d25eef726322ff9ee1c2f83e0f184c2f39f0c6e65d1792cb877"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "lagoon-barman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: On route to the Ashlands? Guess you'll be looking to stock up.Lagoon Barman greeting Lagoon Barman is a named shopkeeper of the Tech Hunters. They man the Bar in Flats Lagoon. They always spawn with the Smart Personality. Aside from giving the player tips on how to enter the Ashlands, they have regular shopkeeper dialogue. They wear [Shoddy] armour (5% chanc",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lagoon-barman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fbc731be9068abfa9d6ef98d38f66502969e3123a2cb883bde2efc422e99635b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "legion",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Legions are members of the Skeleton Legion faction. They can often be found leading large patrols of Legion Thralls throughout the Ashlands. These patrols can have 18 to 35 Thralls. They wear [Standard] armour (15% chance of [High]) and have weapons manufactured by Ancient and Skeleton Smiths. This character can colour armour and clothing due to a colour sch",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/legion.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2e1e7f9726f1205210822404f1af280d59dad775ee6a2f183f80ad86df875ea8"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "legion-scout",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Legion Scouts are members of the Skeleton Legion faction. They can be found in the Ashlands. They can usually be found in a pair, either alone or integrated into a force of 7 Legion skeletons. If Mad Cat-Lon has been killed, the force they are with is increased to a dozen Legions. They wear [Standard] armour (15% chance of [High]) and have weapons manufactur",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/legion-scout.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "076fa2ef9cf9ebd2e8cd3dac119294dbd0359bb642da786d4caa071cc66c878b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "legion-thrall",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Legion Thralls are the main force of the Skeleton Legion. They can be found patrolling the Ashlands and in Ashland Dome I. Although not having a head, this character appears to have an Old CPU Unit in it’s inventory, indicating that either the CPU Units isn’t stored in Skeleton’s heads (or at least for this particular model). Or that it’s simply a developer ",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/legion-thrall.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dfa3aa5f33393dde6ef3834f7e5616f537d8811462b141aef4de781f3282ff0a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "lost-hiver",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Lost Hiver is a member of the Western Hive faction. They can spawn after The Queen has been killed/kidnapped. This character always has a Dumb Personality. These hivers should not be confused with the Lost Drone who can spawn regardless of The Queen’s status. They would also sometimes attack the player if seen by them. This character can be found in a Homele",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lost-hiver.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "50f1bd01e2a9aef4bdb1ecc2c3f72f5010f635b89312a0d4fc7f38d7504aa611"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "lost-prince",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Lost Prince is a member of the Western Hive faction. They can spawn after The Queen has been killed/kidnapped. They have retained their “smart” Personality type and they have a Hiver Ronin dialogue package. They will spawn in Dreg, The Eye, Flats Lagoon, The Great Desert, Okran’s Pride, Okran’s Valley, The Skinner’s Roam, the Stenn Desert, Sinkuun, The Swamp",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lost-prince.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "575197c8d106eff2432a09df094dc61d6cd56b7c56fba53e36495dc6852830b8"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "lower-servant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Lower Servants are Slaves within The Holy Nation, usually working in one of the many Holy Mine sites. They are likely criminals (like Starving Bandits and Dust Bandits) that are enslaved for repentance and prison labor. They are worked by Slavers hired by the Holy Nation, as well as Holy Nation soldiers (Sentinels and Paladins) stationed at the mines. The Sl",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lower-servant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2455812399d00ecc8dd55b584970d12b8da4c8b5fd28f5320d98e5ed1e6eb2e7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "machinist",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Machinists are members of the Machinists faction. 10 can be found in the University in World’s End. They spawn with the Smart Personality. They wear [Shoddy] armour (5% chance of [Standard]). This character can colour armour and clothing due to a colour scheme attached. Statistics Greenlander Scorchlander Shek Hive Prince Skeleton",
+      "organization": "Reviewed 1 section bookmarks and 40 source tables; 5 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/machinist.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ee2fae321f9ca6beef82c7a8446bbb51c2db3385a6210284fe356a63edd719d2"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "manhunter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: These ones kinda look like escaped slaves, don't you think?Manhunter considering an attack Manhunters are the sole members of the Manhunters faction. They roam and patrol around United Cities territories in groups of 5-14, hoping to capture any slave they find. Occasionally, if there are no witnesses, they will attempt to attack and capture freemen to pass t",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/manhunter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e14f907c75e178002fa613bbdd7c8d9dcea9a4f8c32d36e4b133dfade22a90f4"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "mani",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Flotsam's second in command, Defence Captain Mani. I'm an ex-cannibal hunter, made it my life mission to track cannibals ever since I escaped their prisons 10 years ago. My comrades though, they weren't so lucky...Mani Mani is the Flotsam Ninjas’ second in command. He can be found in the Northern Scout Post and will sell characters any items inside of the Sc",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mani.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "930a56281dd852d974dd94ff06c47bc0ec813545ba93097cdfeb5d2858abd2ba"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
     }
   ],
   "editorialChanges": [
