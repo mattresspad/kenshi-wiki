@@ -1,0 +1,140 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "baseRevision": "016c23b",
+  "members": [
+    "barnabus",
+    "beak-thing",
+    "beloved-goat",
+    "black-gorillo",
+    "blood-spider",
+    "bonedog",
+    "boneyard-wolf",
+    "cage-beast",
+    "cleanser-unit",
+    "cornelius",
+    "crab",
+    "crimper",
+    "crimper-faction",
+    "domesticated-bull",
+    "elder-beak-thing",
+    "elder-blood-spider",
+    "elder-crab",
+    "fauna",
+    "garru",
+    "goat",
+    "gorillo",
+    "great-white-gorillo",
+    "iron-spider",
+    "king",
+    "king-gorillo",
+    "landbat",
+    "leviathan",
+    "megacrab",
+    "megaraptor",
+    "mountain-dog",
+    "mr-gigantus",
+    "pack-beast",
+    "pack-bull",
+    "river-raptor",
+    "security-spider",
+    "security-spider-ii",
+    "settlers-pup",
+    "skimmer",
+    "skimmers",
+    "skin-spider",
+    "spiders",
+    "swamp-raptor",
+    "swamp-turtle",
+    "the-crabinator",
+    "titus",
+    "war-gorillo",
+    "wild-bull",
+    "wildlife",
+    "wolves"
+  ],
+  "existing": [
+    "crimper-faction",
+    "skimmers",
+    "spiders",
+    "wildlife",
+    "wolves"
+  ],
+  "batches": [
+    {
+      "name": "animal-pilots",
+      "ids": [
+        "bonedog",
+        "pack-bull",
+        "beak-thing"
+      ]
+    },
+    {
+      "name": "animal-structures",
+      "ids": [
+        "elder-beak-thing",
+        "cleanser-unit",
+        "cage-beast"
+      ]
+    },
+    {
+      "name": "animal-overview-and-care",
+      "ids": [
+        "fauna",
+        "guide-to-animals",
+        "barnabus"
+      ]
+    },
+    {
+      "name": "animal-siblings-1",
+      "ids": [
+        "beloved-goat",
+        "black-gorillo",
+        "blood-spider",
+        "boneyard-wolf",
+        "cornelius",
+        "crab",
+        "crimper",
+        "domesticated-bull",
+        "elder-blood-spider",
+        "elder-crab",
+        "garru",
+        "goat",
+        "gorillo",
+        "great-white-gorillo",
+        "iron-spider",
+        "king",
+        "king-gorillo",
+        "landbat"
+      ]
+    },
+    {
+      "name": "animal-siblings-2",
+      "ids": [
+        "leviathan",
+        "megacrab",
+        "megaraptor",
+        "mountain-dog",
+        "mr-gigantus",
+        "pack-beast",
+        "river-raptor",
+        "security-spider",
+        "security-spider-ii",
+        "settlers-pup",
+        "skimmer",
+        "skin-spider",
+        "swamp-raptor",
+        "swamp-turtle",
+        "the-crabinator",
+        "titus",
+        "war-gorillo",
+        "wild-bull"
+      ]
+    }
+  ],
+  "expected": {
+    "headings": 321,
+    "citationTargets": 0,
+    "assets": 6,
+    "redirects": 2
+  }
+}
