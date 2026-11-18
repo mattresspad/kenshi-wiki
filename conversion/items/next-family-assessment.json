@@ -1,0 +1,3309 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "status": "Assessment only; next rosters require review before transfer.",
+  "remainingArticles": 773,
+  "groups": [
+    {
+      "name": "Buildings category",
+      "members": [
+        {
+          "id": "animal-feeder",
+          "path": "/animal-feeder",
+          "title": "Animal Feeder",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "armour-storage",
+          "path": "/armour-storage",
+          "title": "Armour Storage",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "arrow-making-bench",
+          "path": "/arrow-making-bench",
+          "title": "Arrow Making Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "assassination-dummy",
+          "path": "/assassination-dummy",
+          "title": "Assassination Dummy",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "battery-bank",
+          "path": "/battery-bank",
+          "title": "Battery Bank",
+          "filePath": null,
+          "categories": [
+            "Power",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "bed",
+          "path": "/bed",
+          "title": "Bed",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "biofuel-distillery-greenfruit",
+          "path": "/biofuel-distillery-greenfruit",
+          "title": "Biofuel Distillery (Greenfruit)",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "biofuel-distillery-hemp",
+          "path": "/biofuel-distillery-hemp",
+          "title": "Biofuel Distillery (Hemp)",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "biofuel-distillery-wheatstraw",
+          "path": "/biofuel-distillery-wheatstraw",
+          "title": "Biofuel Distillery (Wheatstraw)",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "biofuel-distillery",
+          "path": "/biofuel-distillery",
+          "title": "Biofuel Distillery",
+          "filePath": null,
+          "categories": [
+            "Article stubs",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "boltbox",
+          "path": "/boltbox",
+          "title": "Boltbox",
+          "filePath": null,
+          "categories": [
+            "Pages using duplicate arguments in template calls",
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "bread-basket",
+          "path": "/bread-basket",
+          "title": "Bread Basket",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "bread-oven",
+          "path": "/bread-oven",
+          "title": "Bread Oven",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "bughouse",
+          "path": "/bughouse",
+          "title": "Bughouse",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "building-making-tutorial",
+          "path": "/building-making-tutorial",
+          "title": "Building making tutorial",
+          "filePath": null,
+          "categories": [
+            "Modding",
+            "Buildings",
+            "WIP"
+          ]
+        },
+        {
+          "id": "buildings-list",
+          "path": "/buildings-list",
+          "title": "Buildings List",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "cactus-farm",
+          "path": "/cactus-farm",
+          "title": "Cactus Farm",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "camp-bed",
+          "path": "/camp-bed",
+          "title": "Camp Bed",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "campfire",
+          "path": "/campfire",
+          "title": "Campfire",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "camping",
+          "path": "/camping",
+          "title": "Camping",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "ceiling-fan-lamp",
+          "path": "/ceiling-fan-lamp",
+          "title": "Ceiling Fan Lamp",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "ceiling-lamp",
+          "path": "/ceiling-lamp",
+          "title": "Ceiling Lamp",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "chain-armour-crafting-bench",
+          "path": "/chain-armour-crafting-bench",
+          "title": "Chain Armour Crafting Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "chainmail-sheet-fabrication-bench",
+          "path": "/chainmail-sheet-fabrication-bench",
+          "title": "Chainmail Sheet Fabrication Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "clothing-bench",
+          "path": "/clothing-bench",
+          "title": "Clothing Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "cooking-pit",
+          "path": "/cooking-pit",
+          "title": "Cooking Pit",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "cooking-stove",
+          "path": "/cooking-stove",
+          "title": "Cooking Stove",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "copper-alloy-bench",
+          "path": "/copper-alloy-bench",
+          "title": "Copper Alloy Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "corpse-furnace",
+          "path": "/corpse-furnace",
+          "title": "Corpse Furnace",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "cotton-farm",
+          "path": "/cotton-farm",
+          "title": "Cotton Farm",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "crossbow-crafting-bench",
+          "path": "/crossbow-crafting-bench",
+          "title": "Crossbow Crafting Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "crossbow-locker",
+          "path": "/crossbow-locker",
+          "title": "Crossbow Locker",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "defensive-gates",
+          "path": "/defensive-gates",
+          "title": "Defensive Gates",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "defensive-structures",
+          "path": "/defensive-structures",
+          "title": "Defensive Structures",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "defensive-walls",
+          "path": "/defensive-walls",
+          "title": "Defensive Walls",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "display-stand",
+          "path": "/display-stand",
+          "title": "Display Stand",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "double-barrel-harpoon-turret",
+          "path": "/double-barrel-harpoon-turret",
+          "title": "Double-Barrel Harpoon Turret",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "electrical-torch-post",
+          "path": "/electrical-torch-post",
+          "title": "Electrical Torch Post",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "electrical-workbench",
+          "path": "/electrical-workbench",
+          "title": "Electrical Workbench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "fabric-chest",
+          "path": "/fabric-chest",
+          "title": "Fabric Chest",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "fabric-loom-cotton",
+          "path": "/fabric-loom-cotton",
+          "title": "Fabric Loom (cotton)",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "fabric-loom-hemp",
+          "path": "/fabric-loom-hemp",
+          "title": "Fabric Loom (hemp)",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "fabric-looms",
+          "path": "/fabric-looms",
+          "title": "Fabric Looms",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "flat-shelter",
+          "path": "/flat-shelter",
+          "title": "Flat Shelter",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "flour-storage",
+          "path": "/flour-storage",
+          "title": "Flour Storage",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "food-store",
+          "path": "/food-store",
+          "title": "Food Store",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "general-storage-boxes",
+          "path": "/general-storage-boxes",
+          "title": "General Storage Boxes",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "general-storage-chest",
+          "path": "/general-storage-chest",
+          "title": "General Storage Chest",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "generator-ii",
+          "path": "/generator-ii",
+          "title": "Generator II",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Power"
+          ]
+        },
+        {
+          "id": "grain-silo",
+          "path": "/grain-silo",
+          "title": "Grain Silo",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "grog-barrels",
+          "path": "/grog-barrels",
+          "title": "Grog Barrels",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "grog-machine",
+          "path": "/grog-machine",
+          "title": "Grog Machine",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "harpoon-turret",
+          "path": "/harpoon-turret",
+          "title": "Harpoon Turret",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "heavy-armour-smithy",
+          "path": "/heavy-armour-smithy",
+          "title": "Heavy Armour Smithy",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "hemp-farm",
+          "path": "/hemp-farm",
+          "title": "Hemp Farm",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "hemp-processor",
+          "path": "/hemp-processor",
+          "title": "Hemp Processor",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "hydroponic-hemp",
+          "path": "/hydroponic-hemp",
+          "title": "Hydroponic Hemp",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "hydroponic-riceweed",
+          "path": "/hydroponic-riceweed",
+          "title": "Hydroponic Riceweed",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "hydroponic-vegetables",
+          "path": "/hydroponic-vegetables",
+          "title": "Hydroponic Vegetables",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "hydroponic-wheatstraw",
+          "path": "/hydroponic-wheatstraw",
+          "title": "Hydroponic Wheatstraw",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "hydroponics",
+          "path": "/hydroponics",
+          "title": "Hydroponics",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "iron-refinery",
+          "path": "/iron-refinery",
+          "title": "Iron Refinery",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "item-furnace",
+          "path": "/item-furnace",
+          "title": "Item Furnace",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "l-house",
+          "path": "/l-house",
+          "title": "L-House",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "leather-armour-crafting-bench",
+          "path": "/leather-armour-crafting-bench",
+          "title": "Leather Armour Crafting Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "leather-tanning-bench",
+          "path": "/leather-tanning-bench",
+          "title": "Leather Tanning Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "light-post",
+          "path": "/light-post",
+          "title": "Light Post",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "lighting",
+          "path": "/lighting",
+          "title": "Lighting",
+          "filePath": null,
+          "categories": [
+            "Guides",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "locksmith-training-box",
+          "path": "/locksmith-training-box",
+          "title": "Locksmith Training Box",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "longhouse",
+          "path": "/longhouse",
+          "title": "Longhouse",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "makeshift-gate",
+          "path": "/makeshift-gate",
+          "title": "Makeshift Gate",
+          "filePath": null,
+          "categories": [
+            "WIP",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "manual-iron-refinery",
+          "path": "/manual-iron-refinery",
+          "title": "Manual Iron Refinery",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "manual-oil-drill",
+          "path": "/manual-oil-drill",
+          "title": "Manual Oil Drill",
+          "filePath": null,
+          "categories": [
+            "WIP",
+            "Buildings",
+            "Removed Content"
+          ]
+        },
+        {
+          "id": "medical-workbench",
+          "path": "/medical-workbench",
+          "title": "Medical Workbench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "medicrate",
+          "path": "/medicrate",
+          "title": "Medicrate",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "mercenary-tent",
+          "path": "/mercenary-tent",
+          "title": "Mercenary Tent",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "metal-chest",
+          "path": "/metal-chest",
+          "title": "Metal Chest",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "metal-wallhouse",
+          "path": "/metal-wallhouse",
+          "title": "Metal Wallhouse",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "mounted-crossbow-mkii",
+          "path": "/mounted-crossbow-mkii",
+          "title": "Mounted Crossbow mkII",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "mounted-crossbow",
+          "path": "/mounted-crossbow",
+          "title": "Mounted Crossbow",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "multi-barrel-harpoon-turret",
+          "path": "/multi-barrel-harpoon-turret",
+          "title": "Multi-Barrel Harpoon Turret",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "oil-drill",
+          "path": "/oil-drill",
+          "title": "Oil Drill",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Removed Content"
+          ]
+        },
+        {
+          "id": "oil-refinery",
+          "path": "/oil-refinery",
+          "title": "Oil Refinery",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Removed Content"
+          ]
+        },
+        {
+          "id": "oil-silo",
+          "path": "/oil-silo",
+          "title": "Oil Silo",
+          "filePath": null,
+          "categories": [
+            "WIP",
+            "Buildings",
+            "Removed Content"
+          ]
+        },
+        {
+          "id": "ore-drill",
+          "path": "/ore-drill",
+          "title": "Ore Drill",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "outhouse",
+          "path": "/outhouse",
+          "title": "Outhouse",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "outpost-s-i",
+          "path": "/outpost-s-i",
+          "title": "Outpost s-I",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Article stubs"
+          ]
+        },
+        {
+          "id": "outpost-s-ii",
+          "path": "/outpost-s-ii",
+          "title": "Outpost s-II",
+          "filePath": null,
+          "categories": [
+            "Article stubs",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "outpost-s-iii",
+          "path": "/outpost-s-iii",
+          "title": "Outpost s-III",
+          "filePath": null,
+          "categories": [
+            "Clarification needed",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "outpost-s-iv",
+          "path": "/outpost-s-iv",
+          "title": "Outpost s-IV",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "outpost-s-v",
+          "path": "/outpost-s-v",
+          "title": "Outpost s-V",
+          "filePath": null,
+          "categories": [
+            "Article stubs",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "peeler-machine",
+          "path": "/peeler-machine",
+          "title": "Peeler Machine",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "plate-beating-station",
+          "path": "/plate-beating-station",
+          "title": "Plate Beating Station",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "power",
+          "path": "/power",
+          "title": "Power",
+          "filePath": null,
+          "categories": [
+            "Guides",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "prisoner-cage",
+          "path": "/prisoner-cage",
+          "title": "Prisoner Cage",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "prisoner-pole",
+          "path": "/prisoner-pole",
+          "title": "Prisoner Pole",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "rain-collector",
+          "path": "/rain-collector",
+          "title": "Rain Collector",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "ramps",
+          "path": "/ramps",
+          "title": "Ramps",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "research-bench",
+          "path": "/research-bench",
+          "title": "Research Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "riceweed-farm",
+          "path": "/riceweed-farm",
+          "title": "Riceweed Farm",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "robotics-bench",
+          "path": "/robotics-bench",
+          "title": "Robotics Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "rum-barrels",
+          "path": "/rum-barrels",
+          "title": "Rum Barrels",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "rum-still",
+          "path": "/rum-still",
+          "title": "Rum Still",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "sake-barrels",
+          "path": "/sake-barrels",
+          "title": "Sake Barrels",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "sake-still",
+          "path": "/sake-still",
+          "title": "Sake Still",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "scrap-tent",
+          "path": "/scrap-tent",
+          "title": "Scrap Tent",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "searchlight",
+          "path": "/searchlight",
+          "title": "Searchlight",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "shop-counter",
+          "path": "/shop-counter",
+          "title": "Shop Counter",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "skeleton-limb-bench",
+          "path": "/skeleton-limb-bench",
+          "title": "Skeleton Limb Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "skeleton-repair-bed",
+          "path": "/skeleton-repair-bed",
+          "title": "Skeleton Repair Bed",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "small-generator",
+          "path": "/small-generator",
+          "title": "Small Generator",
+          "filePath": null,
+          "categories": [
+            "Power",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "small-research-bench",
+          "path": "/small-research-bench",
+          "title": "Small Research Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "small-shack",
+          "path": "/small-shack",
+          "title": "Small Shack",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "small-wind-generator",
+          "path": "/small-wind-generator",
+          "title": "Small Wind Generator",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Power"
+          ]
+        },
+        {
+          "id": "snailhouse",
+          "path": "/snailhouse",
+          "title": "Snailhouse",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "spotlight",
+          "path": "/spotlight",
+          "title": "Spotlight",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "stationhouse",
+          "path": "/stationhouse",
+          "title": "Stationhouse",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "steel-refinery",
+          "path": "/steel-refinery",
+          "title": "Steel Refinery",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "stephouse",
+          "path": "/stephouse",
+          "title": "Stephouse",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "stone-mine",
+          "path": "/stone-mine",
+          "title": "Stone Mine",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "stone-processor",
+          "path": "/stone-processor",
+          "title": "Stone Processor",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-armour-plate",
+          "path": "/storage-armour-plate",
+          "title": "Storage: Armour Plate",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-building-materials",
+          "path": "/storage-building-materials",
+          "title": "Storage: Building Materials",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-cactus",
+          "path": "/storage-cactus",
+          "title": "Storage: Cactus",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-chainmail",
+          "path": "/storage-chainmail",
+          "title": "Storage: Chainmail",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-copper-alloys",
+          "path": "/storage-copper-alloys",
+          "title": "Storage: Copper Alloys",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-copper",
+          "path": "/storage-copper",
+          "title": "Storage: Copper",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-cotton",
+          "path": "/storage-cotton",
+          "title": "Storage: Cotton",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-crossbow-parts",
+          "path": "/storage-crossbow-parts",
+          "title": "Storage: Crossbow Parts",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-electricals",
+          "path": "/storage-electricals",
+          "title": "Storage: Electricals",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-fuel",
+          "path": "/storage-fuel",
+          "title": "Storage: Fuel",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-greenfruit",
+          "path": "/storage-greenfruit",
+          "title": "Storage: Greenfruit",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-hashish",
+          "path": "/storage-hashish",
+          "title": "Storage: Hashish",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-hemp",
+          "path": "/storage-hemp",
+          "title": "Storage: Hemp",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-iron-plates",
+          "path": "/storage-iron-plates",
+          "title": "Storage: Iron Plates",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-leather",
+          "path": "/storage-leather",
+          "title": "Storage: Leather",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-meat",
+          "path": "/storage-meat",
+          "title": "Storage: Meat",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-ore",
+          "path": "/storage-ore",
+          "title": "Storage: Ore",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-riceweed",
+          "path": "/storage-riceweed",
+          "title": "Storage: Riceweed",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-robotics",
+          "path": "/storage-robotics",
+          "title": "Storage: Robotics",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-skins",
+          "path": "/storage-skins",
+          "title": "Storage: Skins",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-steel-bars",
+          "path": "/storage-steel-bars",
+          "title": "Storage: Steel Bars",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage-stones",
+          "path": "/storage-stones",
+          "title": "Storage: Stones",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storage-wheatstraw",
+          "path": "/storage-wheatstraw",
+          "title": "Storage: Wheatstraw",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "storage",
+          "path": "/storage",
+          "title": "Storage",
+          "filePath": null,
+          "categories": [
+            "WIP",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "storm-house",
+          "path": "/storm-house",
+          "title": "Storm House",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "swamp-dome",
+          "path": "/swamp-dome",
+          "title": "Swamp Dome",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "swamp-house",
+          "path": "/swamp-house",
+          "title": "Swamp House",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "swamp-shack",
+          "path": "/swamp-shack",
+          "title": "Swamp Shack",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "swamp-store",
+          "path": "/swamp-store",
+          "title": "Swamp Store",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "thief-training-boxes",
+          "path": "/thief-training-boxes",
+          "title": "Thief Training Boxes",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "torch-post",
+          "path": "/torch-post",
+          "title": "Torch Post",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "training-dummy",
+          "path": "/training-dummy",
+          "title": "Training Dummy",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "training-turret",
+          "path": "/training-turret",
+          "title": "Training Turret",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "training",
+          "path": "/training",
+          "title": "Training",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "turrets",
+          "path": "/turrets",
+          "title": "Turrets",
+          "filePath": null,
+          "categories": [
+            "Statistics",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "vegetable-farm",
+          "path": "/vegetable-farm",
+          "title": "Vegetable Farm",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "watchtower",
+          "path": "/watchtower",
+          "title": "Watchtower",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "water-tank",
+          "path": "/water-tank",
+          "title": "Water Tank",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "water-tower",
+          "path": "/water-tower",
+          "title": "Water Tower",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "weapon-cabinet",
+          "path": "/weapon-cabinet",
+          "title": "Weapon Cabinet",
+          "filePath": null,
+          "categories": [
+            "Storage",
+            "Buildings"
+          ]
+        },
+        {
+          "id": "weapon-smithing-bench",
+          "path": "/weapon-smithing-bench",
+          "title": "Weapon Smithing Bench",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        },
+        {
+          "id": "weapon-stand",
+          "path": "/weapon-stand",
+          "title": "Weapon Stand",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Storage"
+          ]
+        },
+        {
+          "id": "well",
+          "path": "/well",
+          "title": "Well",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "wheat-farm",
+          "path": "/wheat-farm",
+          "title": "Wheat Farm",
+          "filePath": null,
+          "categories": [
+            "Buildings",
+            "Farming"
+          ]
+        },
+        {
+          "id": "wind-generator",
+          "path": "/wind-generator",
+          "title": "Wind Generator",
+          "filePath": null,
+          "categories": [
+            "WIP",
+            "Buildings",
+            "Power"
+          ]
+        },
+        {
+          "id": "y-house",
+          "path": "/y-house",
+          "title": "Y-House",
+          "filePath": null,
+          "categories": [
+            "Buildings"
+          ]
+        }
+      ],
+      "pending": [
+        "animal-feeder",
+        "armour-storage",
+        "arrow-making-bench",
+        "assassination-dummy",
+        "battery-bank",
+        "bed",
+        "biofuel-distillery-greenfruit",
+        "biofuel-distillery-hemp",
+        "biofuel-distillery-wheatstraw",
+        "biofuel-distillery",
+        "boltbox",
+        "bread-basket",
+        "bread-oven",
+        "bughouse",
+        "building-making-tutorial",
+        "buildings-list",
+        "cactus-farm",
+        "camp-bed",
+        "campfire",
+        "camping",
+        "ceiling-fan-lamp",
+        "ceiling-lamp",
+        "chain-armour-crafting-bench",
+        "chainmail-sheet-fabrication-bench",
+        "clothing-bench",
+        "cooking-pit",
+        "cooking-stove",
+        "copper-alloy-bench",
+        "corpse-furnace",
+        "cotton-farm",
+        "crossbow-crafting-bench",
+        "crossbow-locker",
+        "defensive-gates",
+        "defensive-structures",
+        "defensive-walls",
+        "display-stand",
+        "double-barrel-harpoon-turret",
+        "electrical-torch-post",
+        "electrical-workbench",
+        "fabric-chest",
+        "fabric-loom-cotton",
+        "fabric-loom-hemp",
+        "fabric-looms",
+        "flat-shelter",
+        "flour-storage",
+        "food-store",
+        "general-storage-boxes",
+        "general-storage-chest",
+        "generator-ii",
+        "grain-silo",
+        "grog-barrels",
+        "grog-machine",
+        "harpoon-turret",
+        "heavy-armour-smithy",
+        "hemp-farm",
+        "hemp-processor",
+        "hydroponic-hemp",
+        "hydroponic-riceweed",
+        "hydroponic-vegetables",
+        "hydroponic-wheatstraw",
+        "hydroponics",
+        "iron-refinery",
+        "item-furnace",
+        "l-house",
+        "leather-armour-crafting-bench",
+        "leather-tanning-bench",
+        "light-post",
+        "lighting",
+        "locksmith-training-box",
+        "longhouse",
+        "makeshift-gate",
+        "manual-iron-refinery",
+        "manual-oil-drill",
+        "medical-workbench",
+        "medicrate",
+        "mercenary-tent",
+        "metal-chest",
+        "metal-wallhouse",
+        "mounted-crossbow-mkii",
+        "mounted-crossbow",
+        "multi-barrel-harpoon-turret",
+        "oil-drill",
+        "oil-refinery",
+        "oil-silo",
+        "ore-drill",
+        "outhouse",
+        "outpost-s-i",
+        "outpost-s-ii",
+        "outpost-s-iii",
+        "outpost-s-iv",
+        "outpost-s-v",
+        "peeler-machine",
+        "plate-beating-station",
+        "power",
+        "prisoner-cage",
+        "prisoner-pole",
+        "rain-collector",
+        "ramps",
+        "research-bench",
+        "riceweed-farm",
+        "robotics-bench",
+        "rum-barrels",
+        "rum-still",
+        "sake-barrels",
+        "sake-still",
+        "scrap-tent",
+        "searchlight",
+        "shop-counter",
+        "skeleton-limb-bench",
+        "skeleton-repair-bed",
+        "small-generator",
+        "small-research-bench",
+        "small-shack",
+        "small-wind-generator",
+        "snailhouse",
+        "spotlight",
+        "stationhouse",
+        "steel-refinery",
+        "stephouse",
+        "stone-mine",
+        "stone-processor",
+        "storage-armour-plate",
+        "storage-building-materials",
+        "storage-cactus",
+        "storage-chainmail",
+        "storage-copper-alloys",
+        "storage-copper",
+        "storage-cotton",
+        "storage-crossbow-parts",
+        "storage-electricals",
+        "storage-fuel",
+        "storage-greenfruit",
+        "storage-hashish",
+        "storage-hemp",
+        "storage-iron-plates",
+        "storage-leather",
+        "storage-meat",
+        "storage-ore",
+        "storage-riceweed",
+        "storage-robotics",
+        "storage-skins",
+        "storage-steel-bars",
+        "storage-stones",
+        "storage-wheatstraw",
+        "storage",
+        "storm-house",
+        "swamp-dome",
+        "swamp-house",
+        "swamp-shack",
+        "swamp-store",
+        "thief-training-boxes",
+        "torch-post",
+        "training-dummy",
+        "training-turret",
+        "training",
+        "turrets",
+        "vegetable-farm",
+        "watchtower",
+        "water-tank",
+        "water-tower",
+        "weapon-cabinet",
+        "weapon-smithing-bench",
+        "weapon-stand",
+        "well",
+        "wheat-farm",
+        "wind-generator",
+        "y-house"
+      ],
+      "reused": []
+    },
+    {
+      "name": "Crafting and construction supporting guides",
+      "members": [
+        {
+          "id": "crafting",
+          "path": "/crafting",
+          "title": "Crafting",
+          "filePath": null,
+          "categories": [
+            "Guides"
+          ]
+        },
+        {
+          "id": "construction",
+          "path": "/construction",
+          "title": "Construction",
+          "filePath": null,
+          "categories": [
+            "Guides"
+          ]
+        }
+      ],
+      "pending": [
+        "crafting",
+        "construction"
+      ],
+      "reused": []
+    },
+    {
+      "name": "Technology category",
+      "members": [
+        {
+          "id": "advanced-battery-capacity-tech",
+          "path": "/advanced-battery-capacity-tech",
+          "title": "Advanced Battery Capacity (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "advanced-battery-power-tech",
+          "path": "/advanced-battery-power-tech",
+          "title": "Advanced Battery Power (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "advanced-cooking-tech",
+          "path": "/advanced-cooking-tech",
+          "title": "Advanced Cooking (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "advanced-harpoonery-tech",
+          "path": "/advanced-harpoonery-tech",
+          "title": "Advanced Harpoonery (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "advanced-medicine-tech",
+          "path": "/advanced-medicine-tech",
+          "title": "Advanced Medicine (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "advanced-splints-tech",
+          "path": "/advanced-splints-tech",
+          "title": "Advanced Splints (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "advanced-stone-mining-tech",
+          "path": "/advanced-stone-mining-tech",
+          "title": "Advanced Stone Mining (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "advanced-training-dummies-tech",
+          "path": "/advanced-training-dummies-tech",
+          "title": "Advanced Training Dummies (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "advanced-weapon-grades-tech",
+          "path": "/advanced-weapon-grades-tech",
+          "title": "Advanced Weapon Grades (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "advanced-weapon-smithing-tech",
+          "path": "/advanced-weapon-smithing-tech",
+          "title": "Advanced Weapon Smithing (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "advanced-wind-generator-theory-tech",
+          "path": "/advanced-wind-generator-theory-tech",
+          "title": "Advanced Wind Generator Theory (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "amplified-generators-tech",
+          "path": "/amplified-generators-tech",
+          "title": "Amplified Generators (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "assassin-training-tech",
+          "path": "/assassin-training-tech",
+          "title": "Assassin Training (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "automated-hybrid-mine-tech",
+          "path": "/automated-hybrid-mine-tech",
+          "title": "Automated Hybrid Mine (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "automated-mining-tech-tech",
+          "path": "/automated-mining-tech-tech",
+          "title": "Automated Mining Tech (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "automatic-flour-grinding-tech",
+          "path": "/automatic-flour-grinding-tech",
+          "title": "Automatic Flour Grinding (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "automatic-loom-cotton-tech",
+          "path": "/automatic-loom-cotton-tech",
+          "title": "Automatic Loom (Cotton) (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "automatic-loom-hemp-tech",
+          "path": "/automatic-loom-hemp-tech",
+          "title": "Automatic Loom (Hemp) (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "baking-tech",
+          "path": "/baking-tech",
+          "title": "Baking (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "basic-exterior-lighting-tech",
+          "path": "/basic-exterior-lighting-tech",
+          "title": "Basic Exterior Lighting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "basic-first-aid-kits-tech",
+          "path": "/basic-first-aid-kits-tech",
+          "title": "Basic First Aid Kits (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "basic-weapon-grades-tech",
+          "path": "/basic-weapon-grades-tech",
+          "title": "Basic Weapon Grades (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "basic-weapon-smithing-tech",
+          "path": "/basic-weapon-smithing-tech",
+          "title": "Basic Weapon Smithing (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "batteries-tech",
+          "path": "/batteries-tech",
+          "title": "Batteries (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "battery-capacity-tech",
+          "path": "/battery-capacity-tech",
+          "title": "Battery Capacity (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "battery-power-tech",
+          "path": "/battery-power-tech",
+          "title": "Battery Power (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "beds-tech",
+          "path": "/beds-tech",
+          "title": "Beds (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "better-training-dummies-tech",
+          "path": "/better-training-dummies-tech",
+          "title": "Better Training Dummies (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "biofuel-tech",
+          "path": "/biofuel-tech",
+          "title": "Biofuel (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "cactus-farming-tech",
+          "path": "/cactus-farming-tech",
+          "title": "Cactus Farming (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "chain-armour-crafting-tech",
+          "path": "/chain-armour-crafting-tech",
+          "title": "Chain Armour Crafting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "clothing-manufacture-tech",
+          "path": "/clothing-manufacture-tech",
+          "title": "Clothing Manufacture (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "composite-runners-tech",
+          "path": "/composite-runners-tech",
+          "title": "Composite Runners (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "cooking-tech",
+          "path": "/cooking-tech",
+          "title": "Cooking (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "copper-alloys-tech",
+          "path": "/copper-alloys-tech",
+          "title": "Copper Alloys (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "core-tech",
+          "path": "/core-tech",
+          "title": "Core Tech",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "corpse-disposal-tech",
+          "path": "/corpse-disposal-tech",
+          "title": "Corpse Disposal (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "cotton-farming-tech",
+          "path": "/cotton-farming-tech",
+          "title": "Cotton Farming (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "crafting-tech",
+          "path": "/crafting-tech",
+          "title": "Crafting Tech",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "crossbow-bolts-tech",
+          "path": "/crossbow-bolts-tech",
+          "title": "Crossbow Bolts (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "crossbow-crafting-tech",
+          "path": "/crossbow-crafting-tech",
+          "title": "Crossbow Crafting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "crossbow-turret-spotlight-fitting-tech",
+          "path": "/crossbow-turret-spotlight-fitting-tech",
+          "title": "Crossbow Turret Spotlight Fitting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "crossbow-turret-strings-tech",
+          "path": "/crossbow-turret-strings-tech",
+          "title": "Crossbow Turret Strings (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "defense-tech",
+          "path": "/defense-tech",
+          "title": "Defense Tech",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "defensive-walls-tech",
+          "path": "/defensive-walls-tech",
+          "title": "Defensive Walls (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "desert-cooking-tech",
+          "path": "/desert-cooking-tech",
+          "title": "Desert Cooking (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "double-barrel-harpoon-turret-tech",
+          "path": "/double-barrel-harpoon-turret-tech",
+          "title": "Double-Barrel Harpoon Turret (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "double-barrel-turret-spotlight-fitting-tech",
+          "path": "/double-barrel-turret-spotlight-fitting-tech",
+          "title": "Double-Barrel Turret Spotlight Fitting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "durable-arms-tech",
+          "path": "/durable-arms-tech",
+          "title": "Durable Arms (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology",
+            "Robot Limbs"
+          ]
+        },
+        {
+          "id": "edgewalkers-tech",
+          "path": "/edgewalkers-tech",
+          "title": "Edgewalkers (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "electrical-crafting-tech",
+          "path": "/electrical-crafting-tech",
+          "title": "Electrical Crafting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "electrics-tech",
+          "path": "/electrics-tech",
+          "title": "Electrics Tech",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "extra-durable-legs-tech",
+          "path": "/extra-durable-legs-tech",
+          "title": "Extra Durable Legs (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology",
+            "Robot Limbs"
+          ]
+        },
+        {
+          "id": "extra-strong-arms-tech",
+          "path": "/extra-strong-arms-tech",
+          "title": "Extra Strong Arms (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology",
+            "Robot Limbs"
+          ]
+        },
+        {
+          "id": "fabric-manufacture-tech",
+          "path": "/fabric-manufacture-tech",
+          "title": "Fabric Manufacture (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "farming-tech",
+          "path": "/farming-tech",
+          "title": "Farming Tech",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "fuel-generator-theory-tech",
+          "path": "/fuel-generator-theory-tech",
+          "title": "Fuel Generator Theory (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "fully-automatic-ore-drill-tech",
+          "path": "/fully-automatic-ore-drill-tech",
+          "title": "Fully Automatic Ore Drill (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "gear-storage-tech",
+          "path": "/gear-storage-tech",
+          "title": "Gear Storage (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "grog-distillation-tech",
+          "path": "/grog-distillation-tech",
+          "title": "Grog Distillation (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "harpoon-turret-spotlight-fitting-tech",
+          "path": "/harpoon-turret-spotlight-fitting-tech",
+          "title": "Harpoon Turret Spotlight Fitting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "harpoon-turrets-tech",
+          "path": "/harpoon-turrets-tech",
+          "title": "Harpoon Turrets (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "hashish-production-tech",
+          "path": "/hashish-production-tech",
+          "title": "Hashish Production (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "hats-and-headgear-tech",
+          "path": "/hats-and-headgear-tech",
+          "title": "Hats and Headgear (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "heavy-building-foundations-tech",
+          "path": "/heavy-building-foundations-tech",
+          "title": "Heavy Building Foundations (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "heavy-generator-theory-tech",
+          "path": "/heavy-generator-theory-tech",
+          "title": "Heavy Generator Theory (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "heavy-weapons-tech",
+          "path": "/heavy-weapons-tech",
+          "title": "Heavy Weapons (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "hemp-based-fabric-tech",
+          "path": "/hemp-based-fabric-tech",
+          "title": "Hemp-Based Fabric (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "hemp-farming-tech",
+          "path": "/hemp-farming-tech",
+          "title": "Hemp Farming (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "hemp-oil-biofuel-tech",
+          "path": "/hemp-oil-biofuel-tech",
+          "title": "Hemp Oil Biofuel (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "high-speed-legs-tech",
+          "path": "/high-speed-legs-tech",
+          "title": "High-Speed Legs (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "hiver-skeleton-arms-tech",
+          "path": "/hiver-skeleton-arms-tech",
+          "title": "Hiver Skeleton Arms (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology",
+            "Robot Limbs"
+          ]
+        },
+        {
+          "id": "hiver-skeleton-legs-tech",
+          "path": "/hiver-skeleton-legs-tech",
+          "title": "Hiver Skeleton Legs (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology",
+            "Robot Limbs"
+          ]
+        },
+        {
+          "id": "hybrid-stone-mine-tech",
+          "path": "/hybrid-stone-mine-tech",
+          "title": "Hybrid Stone Mine (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "hydroponics-tech",
+          "path": "/hydroponics-tech",
+          "title": "Hydroponics (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "imprisonment-tech",
+          "path": "/imprisonment-tech",
+          "title": "Imprisonment (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "improved-stone-mining-tech",
+          "path": "/improved-stone-mining-tech",
+          "title": "Improved Stone Mining (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "indoor-lighting-tech",
+          "path": "/indoor-lighting-tech",
+          "title": "Indoor Lighting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "industry-tech",
+          "path": "/industry-tech",
+          "title": "Industry Tech",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "iron-plates-tech",
+          "path": "/iron-plates-tech",
+          "title": "Iron Plates (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "item-storage-tech",
+          "path": "/item-storage-tech",
+          "title": "Item Storage (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "large-building-shells-tech",
+          "path": "/large-building-shells-tech",
+          "title": "Large Building Shells (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "large-defensive-walls-tech",
+          "path": "/large-defensive-walls-tech",
+          "title": "Large Defensive Walls (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "leather-armour-crafting-tech",
+          "path": "/leather-armour-crafting-tech",
+          "title": "Leather Armour Crafting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "light-post-efficiency-tech",
+          "path": "/light-post-efficiency-tech",
+          "title": "Light Post Efficiency (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "light-post-tech",
+          "path": "/light-post-tech",
+          "title": "Light Post (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "light-wind-generator-theory-tech",
+          "path": "/light-wind-generator-theory-tech",
+          "title": "Light Wind Generator Theory (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "lockpick-training-tech",
+          "path": "/lockpick-training-tech",
+          "title": "Lockpick Training (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "makeshift-walls-tech",
+          "path": "/makeshift-walls-tech",
+          "title": "Makeshift Walls (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "medicine-tech",
+          "path": "/medicine-tech",
+          "title": "Medicine (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "medium-building-shells-tech",
+          "path": "/medium-building-shells-tech",
+          "title": "Medium Building Shells (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "mounted-crossbows-tech",
+          "path": "/mounted-crossbows-tech",
+          "title": "Mounted Crossbows (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "ore-drill-tech",
+          "path": "/ore-drill-tech",
+          "title": "Ore Drill (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "outpost-type-tech",
+          "path": "/outpost-type-tech",
+          "title": "Outpost Type (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "plate-armour-crafting-tech",
+          "path": "/plate-armour-crafting-tech",
+          "title": "Plate Armour Crafting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "powered-stone-refinery-tech",
+          "path": "/powered-stone-refinery-tech",
+          "title": "Powered Stone Refinery (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "public-sales-tech",
+          "path": "/public-sales-tech",
+          "title": "Public Sales (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "rain-collector-tech",
+          "path": "/rain-collector-tech",
+          "title": "Rain Collector (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "revolving-barrel-harpoon-turret-tech",
+          "path": "/revolving-barrel-harpoon-turret-tech",
+          "title": "Revolving-Barrel Harpoon Turret (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "riceweed-farming-tech",
+          "path": "/riceweed-farming-tech",
+          "title": "Riceweed Farming (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "robotics-tech",
+          "path": "/robotics-tech",
+          "title": "Robotics (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "rum-brewing-tech",
+          "path": "/rum-brewing-tech",
+          "title": "Rum Brewing (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "sake-distillation-tech",
+          "path": "/sake-distillation-tech",
+          "title": "Sake Distillation (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "search-lights-tech",
+          "path": "/search-lights-tech",
+          "title": "Search Lights (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "semi-automatic-ore-drill-tech",
+          "path": "/semi-automatic-ore-drill-tech",
+          "title": "Semi-Automatic Ore Drill (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "simple-clothing-types-tech",
+          "path": "/simple-clothing-types-tech",
+          "title": "Simple Clothing Types (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "simple-training-dummies-tech",
+          "path": "/simple-training-dummies-tech",
+          "title": "Simple Training Dummies (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "skeleton-arms-tech",
+          "path": "/skeleton-arms-tech",
+          "title": "Skeleton Arms (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology",
+            "Robot Limbs"
+          ]
+        },
+        {
+          "id": "skeleton-legs-tech",
+          "path": "/skeleton-legs-tech",
+          "title": "Skeleton Legs (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology",
+            "Robot Limbs"
+          ]
+        },
+        {
+          "id": "skeleton-repair-beds-tech",
+          "path": "/skeleton-repair-beds-tech",
+          "title": "Skeleton Repair Beds (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "sleeping-bags-tech",
+          "path": "/sleeping-bags-tech",
+          "title": "Sleeping Bags (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "small-house-tech",
+          "path": "/small-house-tech",
+          "title": "Small House (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "smithing-tech",
+          "path": "/smithing-tech",
+          "title": "Smithing Tech",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "splints-tech",
+          "path": "/splints-tech",
+          "title": "Splints (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "stealth-legs-tech",
+          "path": "/stealth-legs-tech",
+          "title": "Stealth Legs (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology",
+            "Robot Limbs"
+          ]
+        },
+        {
+          "id": "steel-bars-tech",
+          "path": "/steel-bars-tech",
+          "title": "Steel Bars (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "stone-refinery-upgrade-tech",
+          "path": "/stone-refinery-upgrade-tech",
+          "title": "Stone Refinery Upgrade (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "storage-boxes-crafting-tech",
+          "path": "/storage-boxes-crafting-tech",
+          "title": "Storage Boxes: Crafting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "storage-boxes-farming-tech",
+          "path": "/storage-boxes-farming-tech",
+          "title": "Storage Boxes: Farming (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "storage-boxes-ore-tech",
+          "path": "/storage-boxes-ore-tech",
+          "title": "Storage Boxes: Ore (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "storage-boxes-tech",
+          "path": "/storage-boxes-tech",
+          "title": "Storage Boxes (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "strong-defensive-walls-tech",
+          "path": "/strong-defensive-walls-tech",
+          "title": "Strong Defensive Walls (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "tech-level-tech",
+          "path": "/tech-level-tech",
+          "title": "Tech Level (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "tech-tree",
+          "path": "/tech-tree",
+          "title": "Tech tree",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "technology",
+          "path": "/technology",
+          "title": "Technology",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "thievery-training-tech",
+          "path": "/thievery-training-tech",
+          "title": "Thievery Training (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "training-tech",
+          "path": "/training-tech",
+          "title": "Training Tech",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "turret-training-tech",
+          "path": "/turret-training-tech",
+          "title": "Turret Training (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "upgraded-small-generators-tech",
+          "path": "/upgraded-small-generators-tech",
+          "title": "Upgraded Small Generators (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "weapon-melting-tech",
+          "path": "/weapon-melting-tech",
+          "title": "Weapon Melting (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "weapon-smithing-tech",
+          "path": "/weapon-smithing-tech",
+          "title": "Weapon Smithing (Tech)",
+          "filePath": null,
+          "categories": [
+            "WIP",
+            "Technology"
+          ]
+        },
+        {
+          "id": "wells-tech",
+          "path": "/wells-tech",
+          "title": "Wells (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "wheatstraw-farming-tech",
+          "path": "/wheatstraw-farming-tech",
+          "title": "Wheatstraw Farming (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "id": "wind-generator-theory-tech",
+          "path": "/wind-generator-theory-tech",
+          "title": "Wind Generator Theory (Tech)",
+          "filePath": null,
+          "categories": [
+            "Technology"
+          ]
+        }
+      ],
+      "pending": [
+        "advanced-battery-capacity-tech",
+        "advanced-battery-power-tech",
+        "advanced-cooking-tech",
+        "advanced-harpoonery-tech",
+        "advanced-medicine-tech",
+        "advanced-splints-tech",
+        "advanced-stone-mining-tech",
+        "advanced-training-dummies-tech",
+        "advanced-weapon-grades-tech",
+        "advanced-weapon-smithing-tech",
+        "advanced-wind-generator-theory-tech",
+        "amplified-generators-tech",
+        "assassin-training-tech",
+        "automated-hybrid-mine-tech",
+        "automated-mining-tech-tech",
+        "automatic-flour-grinding-tech",
+        "automatic-loom-cotton-tech",
+        "automatic-loom-hemp-tech",
+        "baking-tech",
+        "basic-exterior-lighting-tech",
+        "basic-first-aid-kits-tech",
+        "basic-weapon-grades-tech",
+        "basic-weapon-smithing-tech",
+        "batteries-tech",
+        "battery-capacity-tech",
+        "battery-power-tech",
+        "beds-tech",
+        "better-training-dummies-tech",
+        "biofuel-tech",
+        "cactus-farming-tech",
+        "chain-armour-crafting-tech",
+        "clothing-manufacture-tech",
+        "composite-runners-tech",
+        "cooking-tech",
+        "copper-alloys-tech",
+        "core-tech",
+        "corpse-disposal-tech",
+        "cotton-farming-tech",
+        "crafting-tech",
+        "crossbow-bolts-tech",
+        "crossbow-crafting-tech",
+        "crossbow-turret-spotlight-fitting-tech",
+        "crossbow-turret-strings-tech",
+        "defense-tech",
+        "defensive-walls-tech",
+        "desert-cooking-tech",
+        "double-barrel-harpoon-turret-tech",
+        "double-barrel-turret-spotlight-fitting-tech",
+        "durable-arms-tech",
+        "edgewalkers-tech",
+        "electrical-crafting-tech",
+        "electrics-tech",
+        "extra-durable-legs-tech",
+        "extra-strong-arms-tech",
+        "fabric-manufacture-tech",
+        "farming-tech",
+        "fuel-generator-theory-tech",
+        "fully-automatic-ore-drill-tech",
+        "gear-storage-tech",
+        "grog-distillation-tech",
+        "harpoon-turret-spotlight-fitting-tech",
+        "harpoon-turrets-tech",
+        "hashish-production-tech",
+        "hats-and-headgear-tech",
+        "heavy-building-foundations-tech",
+        "heavy-generator-theory-tech",
+        "heavy-weapons-tech",
+        "hemp-based-fabric-tech",
+        "hemp-farming-tech",
+        "hemp-oil-biofuel-tech",
+        "high-speed-legs-tech",
+        "hiver-skeleton-arms-tech",
+        "hiver-skeleton-legs-tech",
+        "hybrid-stone-mine-tech",
+        "hydroponics-tech",
+        "imprisonment-tech",
+        "improved-stone-mining-tech",
+        "indoor-lighting-tech",
+        "industry-tech",
+        "iron-plates-tech",
+        "item-storage-tech",
+        "large-building-shells-tech",
+        "large-defensive-walls-tech",
+        "leather-armour-crafting-tech",
+        "light-post-efficiency-tech",
+        "light-post-tech",
+        "light-wind-generator-theory-tech",
+        "lockpick-training-tech",
+        "makeshift-walls-tech",
+        "medicine-tech",
+        "medium-building-shells-tech",
+        "mounted-crossbows-tech",
+        "ore-drill-tech",
+        "outpost-type-tech",
+        "plate-armour-crafting-tech",
+        "powered-stone-refinery-tech",
+        "public-sales-tech",
+        "rain-collector-tech",
+        "revolving-barrel-harpoon-turret-tech",
+        "riceweed-farming-tech",
+        "robotics-tech",
+        "rum-brewing-tech",
+        "sake-distillation-tech",
+        "search-lights-tech",
+        "semi-automatic-ore-drill-tech",
+        "simple-clothing-types-tech",
+        "simple-training-dummies-tech",
+        "skeleton-arms-tech",
+        "skeleton-legs-tech",
+        "skeleton-repair-beds-tech",
+        "sleeping-bags-tech",
+        "small-house-tech",
+        "smithing-tech",
+        "splints-tech",
+        "stealth-legs-tech",
+        "steel-bars-tech",
+        "stone-refinery-upgrade-tech",
+        "storage-boxes-crafting-tech",
+        "storage-boxes-farming-tech",
+        "storage-boxes-ore-tech",
+        "storage-boxes-tech",
+        "strong-defensive-walls-tech",
+        "tech-level-tech",
+        "tech-tree",
+        "technology",
+        "thievery-training-tech",
+        "training-tech",
+        "turret-training-tech",
+        "upgraded-small-generators-tech",
+        "weapon-melting-tech",
+        "weapon-smithing-tech",
+        "wells-tech",
+        "wheatstraw-farming-tech",
+        "wind-generator-theory-tech"
+      ],
+      "reused": []
+    }
+  ],
+  "overlappingBuildingsTechnology": [],
+  "buildingMeshes": [
+    {
+      "id": "interior-walls-and-doors",
+      "path": "/interior-walls-and-doors",
+      "title": "Interior Walls and Doors",
+      "filePath": null,
+      "categories": [
+        "WIP",
+        "Building Meshes",
+        "Modding"
+      ]
+    }
+  ],
+  "deferredRobotLimbs": [
+    {
+      "id": "durable-arms-tech",
+      "path": "/durable-arms-tech",
+      "title": "Durable Arms (Tech)",
+      "filePath": null,
+      "categories": [
+        "Technology",
+        "Robot Limbs"
+      ]
+    },
+    {
+      "id": "extra-durable-legs-tech",
+      "path": "/extra-durable-legs-tech",
+      "title": "Extra Durable Legs (Tech)",
+      "filePath": null,
+      "categories": [
+        "Technology",
+        "Robot Limbs"
+      ]
+    },
+    {
+      "id": "extra-strong-arms-tech",
+      "path": "/extra-strong-arms-tech",
+      "title": "Extra Strong Arms (Tech)",
+      "filePath": null,
+      "categories": [
+        "Technology",
+        "Robot Limbs"
+      ]
+    },
+    {
+      "id": "hiver-skeleton-arms-tech",
+      "path": "/hiver-skeleton-arms-tech",
+      "title": "Hiver Skeleton Arms (Tech)",
+      "filePath": null,
+      "categories": [
+        "Technology",
+        "Robot Limbs"
+      ]
+    },
+    {
+      "id": "hiver-skeleton-legs-tech",
+      "path": "/hiver-skeleton-legs-tech",
+      "title": "Hiver Skeleton Legs (Tech)",
+      "filePath": null,
+      "categories": [
+        "Technology",
+        "Robot Limbs"
+      ]
+    },
+    {
+      "id": "skeleton-arms-tech",
+      "path": "/skeleton-arms-tech",
+      "title": "Skeleton Arms (Tech)",
+      "filePath": null,
+      "categories": [
+        "Technology",
+        "Robot Limbs"
+      ]
+    },
+    {
+      "id": "skeleton-legs-tech",
+      "path": "/skeleton-legs-tech",
+      "title": "Skeleton Legs (Tech)",
+      "filePath": null,
+      "categories": [
+        "Technology",
+        "Robot Limbs"
+      ]
+    },
+    {
+      "id": "stealth-legs-tech",
+      "path": "/stealth-legs-tech",
+      "title": "Stealth Legs (Tech)",
+      "filePath": null,
+      "categories": [
+        "Technology",
+        "Robot Limbs"
+      ]
+    }
+  ],
+  "laterModding": [
+    {
+      "id": "colour-scheme",
+      "path": "/colour-scheme",
+      "title": "Colour Scheme",
+      "filePath": null,
+      "categories": [
+        "World Data",
+        "Armour",
+        "Guides",
+        "Modding"
+      ]
+    },
+    {
+      "id": "how-to-make-custom-armour-mesh",
+      "path": "/how-to-make-custom-armour-mesh",
+      "title": "How to make custom armour mesh",
+      "filePath": null,
+      "categories": [
+        "Modding Guide",
+        "Modding",
+        "Armour"
+      ]
+    },
+    {
+      "id": "making-a-custom-melee-weapon",
+      "path": "/making-a-custom-melee-weapon",
+      "title": "Making a Custom Melee Weapon",
+      "filePath": null,
+      "categories": [
+        "WIP",
+        "Modding Guide",
+        "Modding",
+        "Weapons"
+      ]
+    }
+  ],
+  "remainderCases": [
+    {
+      "id": "narcotics",
+      "path": "/narcotics",
+      "title": "Narcotics",
+      "filePath": null,
+      "categories": [
+        "Pages with unmapped item name",
+        "Retired Items",
+        "Removed Content"
+      ]
+    }
+  ],
+  "sequence": [
+    "Buildings, with representative ordinary structures and industry/production stations first.",
+    "Crafting and Construction as a separate supporting-guide roster; retain recipe and station links.",
+    "Technology as a separate research roster, including the eight deferred Robot Limbs research records.",
+    "Then gameplay/skills, books/lore/history, guides/modding (including deferred PR #43 edits), followed by a corpus-wide remainder sweep."
+  ],
+  "constraints": [
+    "Category overlap does not create extra articles or editable homes.",
+    "Research unlocks, blueprint availability, input quantities and station requirements need separate preservation checks.",
+    "KDT-backed factual sourcing is a separate investigation, not a conversion dependency."
+  ]
+}
