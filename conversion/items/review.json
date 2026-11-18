@@ -4488,6 +4488,363 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "chalice-of-fire",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Chalice Of Fire is a unique item given by Holy Lord Phoenix to the player faction for showing considerable value to The Holy Nation. You receive the Chalice of Fire (as well as a Holy Seal after more dialogue) from the Holy Lord Phoenix as soon as your faction relation with The Holy Nation reaches 75. From the icon, it looks just like a more polished and",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chalice-of-fire.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "62518c449d715dd1af34984789e7b2bda36ca2d54ce160b6fa04c1d0220facc1"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-unique-use-contradiction"
+      ]
+    },
+    {
+      "id": "chewsticks",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Chewsticks are a food item purchased from relevant traders. Players can cook Chewsticks in a Cooking Stove after researching Desert Cooking. If Water is a rare commodity, Chewsticks are a very water-efficient food, with XL Cactus Fields producing 64 Cactus/24h for 2 Water +.25 per Chewstick = 8 per 4 water, 160nu/24h while Rice Bowls and Cooked Vegetables re",
+      "organization": "Reviewed 2 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chewsticks.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e25f911cfcbd217e5af6c36106b96cbde5a31828beb7d4b6a277489b424e352f"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-food-thresholds-efficiency",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "coin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Coin is an item which has no function or icon. They are found in the Noble House owned by Lord Nagata in Sho-Battai on the furniture in and on top of the building, as well as some other Noble Houses. Trivia This item has no texture. This item has no use except for collecting/selling.",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/coin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "295264a7857ca0d2d2713fb0649cdab7d1dd31ce9fe71ab31fde8d111aea45d5"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cooked-vegetables",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cooked Vegetables are a food item which can be purchased from relevant traders. Players can cook vegetables in a Cooking Stove after researching Cooking. Cooking Stove History Cooked Vegetables had an initial icon which simply displayed a top view for the container which holds this food. Crafting Unlocked by:Cooking research: 4 hours at tech level 1; costs 1",
+      "organization": "Reviewed 2 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cooked-vegetables.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "32cd2dce6e71b1f7a1bf858904f52b7117e5cb9df290063889e4a44a7ebe8639"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "copper-alloy-plates",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Copper Alloy Plates are items used in the construction of some buildings. They are crafted at Copper Alloy Bench which can be constructed after researching Copper Alloys. Curiously, crafting these levels your Engineer skill and not Labouring. They can be found in many ancient ruins in varying quantities. Copper Alloy Bench Used in 20 x Outpost s-III 30 x Out",
+      "organization": "Reviewed 4 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/copper-alloy-plates.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "297f0bc1f6cdc3e3bf82fb7c6ad523289f37a612a6bdd1724cab21d68c4d3d33"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "copper",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Copper is a material found across the land used to make anything electrical and much more. Presently it can only be mined from copper outcrops by using the Labouring skill. Large deposits are also found underground, but it is impossible to reach them. Used In Arrow Making Bench - to make Spring Steel (by combining it with Raw Iron) Construction - used to con",
+      "organization": "Reviewed 2 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/copper.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a6d54c9588436ca2aa7348b3beda203f752cd8c7f433f08c371c8f8a1478a7fa"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cotton",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cotton is a crop harvested from Cotton Farms and processed at a Fabric Loom (Cotton). It can be stored in the Storage:Cotton container. Cotton can be bought (or stolen) from relevant traders including Trade Goods Traders and Holy Farm Leaders. Cotton Farm Used In Fabrics History",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cotton.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "19a62281b89a1cddb1fb2e5033d11e8d793e3e9f657a31cc7c1d623fd3039b5b"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cpu-of-cat-lon",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: CPU of Cat-Lon is a unique item found on Mad Cat-Lon. Looting it from him after knocking him out through combat or Assassination will also instantly kill him. History In FCS, there are actually two items named, “CPU of Cat-Lon”. The one which is not used in game has the following description: Cat-Lon's dream was to rebuild civilisation and make up for past m",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cpu-of-cat-lon.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "583f639b1f73a08e699ff4f9504b41a6340ec171b797b418db65138036e25732"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cpu-of-general-hat-12",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: CPU of General Hat-12 is a Unique Item CPU Unit which is found on General Hat-12. Removing it from their inventory will kill them.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cpu-of-general-hat-12.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "09ca3a978a7a97c6e5e78fe6ffacb4ba81591857836f30d3e3d6f6e0f69e531b"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cpu-of-general-jang",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: CPU of General Jang is a unique item. Looting it from the general after knocking him out through combat or Assassination will also instantly kill him.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cpu-of-general-jang.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1b90510438c099df977fd404738ed0b41705a0dd681ec046248b223ad2e1adf4"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cpu-of-rhinobot",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: CPU of Rhinobot is found on Rhinobot in Ashland Dome II. Removing this item from his body will kill him instantly.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cpu-of-rhinobot.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e7959edee30e139e71da7b74f0d3e98978b1949eaa7522d9ce37309d2b257462"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cpu-of-the-head-of-agriculture",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: CPU of the Head of Agriculture is found on the Head of Agriculture in Ashland Dome I.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cpu-of-the-head-of-agriculture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "51ddd797dc8f11c434bfa90051e511d0ee541648965ef6089263bedfa0803295"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cpu-unit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A CPU Unit is an item which can primarily be found in ancient locations. It serves no function outside of being worth a decent amount of money. There are many unique CPU items which can be looted from specific skeletons, as well as a non-unique Old CPU Unit which can be found the same way. Found in: Ancient Labs",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cpu-unit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "575a524b2364ebce34b91b7d5bfd7735476dbb98d53d3a60737bff322289ddef"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "crab-egg",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Crab Egg is an item which can be obtained from Crab Nests in the Greenbeach, Howler Maze, and The Unwanted Zone. While not worth as much compared to other eggs, it is very easy to steal due to the Crabs low speed, and easier to carry due to its light weight. Presently no crabs can spawn from these eggs.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-egg.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "29c1447cd439b00795d691a0748ec6eaef88dd000a8e844d0749d94a56531582"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "crossbow-parts",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Crossbow Parts are items used in the construction of Crossbows. They are made out of Hinges and Spring Steel. The ability to craft this item is learned through researching Crossbow Crafting. They are made on the Arrow Making Bench. Arrow Making Bench Crafting Unlocked by:Crossbow Crafting research: 8 hours at tech level 3; costs 1 Engineering Research; needs",
+      "organization": "Reviewed 1 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crossbow-parts.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "edaf544e54717912dd99aa74b054e4d0f2a1ea28f1b7627c0aa545f9d41395e8"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cup",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cup is an item used in construction of Thief Training Boxes. Other than that, it is only for trading and only worth a small amount. This item can be found in Residential Buildings. When starting out, stealing this item along with other junk can help players increase their Thievery stat with little risk (if the building is empty) and reward. Uses 1 Cup is req",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cup.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4121e952bba9d46b2103d9616ab16a9f1a412aa25759a3327f9890bafaaebd57"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "damaged-book",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Damaged Book is a junk item. It has no purpose other than trading and is only worth a small amount. This item can be found in Lost Libraries alongside Old Maps and Parchment, two other function-less items.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/damaged-book.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "241929c82bad3ee6f4c40108ebc5892d6adb36f14f416560c4da03fc2096198c"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "doll",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Doll is an item that serves no practical purpose in the game other than adding flavour to the world. It can be found in a multitude of places, including Sand Ninja Oni’s Tower at Spine Canyon and ruined houses in places like Bast. One of them can also be found in Fort Simion in the inventory of Boss Simion. Because his inventory also includes Men of Dirt, ",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/doll.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "18beb5f4475f6de00296888b246d9c63ba3de791a6c6baa24f5166b2c4cd215c"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "dried-fish",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Dried Fish is a food item similar to Thinfish and Grand Fish. This item cannot be created through cooking and must be purchased or looted. Fish are typically found near the coast or in The Swamp.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dried-fish.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4e64b11e698f639c554962e7fcd8febb8c8cbf8da657d3d69fd59216b2d16632"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "dried-meat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Dried Meat is a food item purchased from relevant traders, typically Bars. Often, players can find dried meat through looting campfires found in the world. Dried Meat is made from Raw Meat at either a Cooking Stove or a Campfire. It is the most affordable vendor-bought food that grants the highest Nu-per-Cats value. This makes it a money-conscious pick-me-up",
+      "organization": "Reviewed 1 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dried-meat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1ac8ba91985cd065312c27eb8f9769a115f3cea6a2a325a4ce966a6e9a06802b"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "dustwich",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Dustwich is a food item purchased from relevant traders or created in a Cooking Stove. The ability to cook this item is learned through researching Desert Cooking. The Dustwich is the single-most water-efficient farmed food in the game, taking .25 water per 8 Cactus and .75 water per unit of bread, seed-to-table. The result is 70nu per 1 water. The dustwic",
+      "organization": "Reviewed 2 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dustwich.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1c9f6499ce7600c7c66acc7916893c3456d8cdfdf11704befa53f705ae3b45a5"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-food-thresholds-efficiency",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "electrical-components",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Electrical Components is an item which can be used in crafting and construction. They can be produced at an Electrical Workbench out of Copper after the player has researched Electrical Crafting. They can be bought at relevant traders including those in Hive Villages. They drop off of Robots such as Iron Spiders and Cleanser Units. Electrical Workbench Used ",
+      "organization": "Reviewed 4 section bookmarks and 24 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/electrical-components.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3a5704d441fe6c6352f089da99dc11cbb308d42f2d58ac1969ab06d6e3b7bd31"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "empty-grog-can",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Empty Grog Can is a useless junk item. They can typically be found on the ground near camps. Although this item is related to Grog, it is not created in game by drinking Grog (as drinking it is impossible). This item is also not required when the player creates Grog.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empty-grog-can.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ba36eafc290c2119954cc5f7e038e2e83761f430166dd1d68fab3186c074314c"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [

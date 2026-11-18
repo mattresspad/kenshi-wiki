@@ -533,5 +533,50 @@
       "/tech-level-tech",
       "/trade-goods-trader"
     ]
+  },
+  {
+    "name": "items-2",
+    "resolved": [
+      "/chalice-of-fire",
+      "/chewsticks",
+      "/coin",
+      "/cooked-vegetables",
+      "/copper",
+      "/copper-alloy-plates",
+      "/cotton",
+      "/cpu-of-cat-lon",
+      "/cpu-of-general-hat-12",
+      "/cpu-of-general-jang",
+      "/cpu-of-rhinobot",
+      "/cpu-of-the-head-of-agriculture",
+      "/cpu-unit",
+      "/crab-egg",
+      "/crossbow-parts",
+      "/cup",
+      "/damaged-book",
+      "/doll",
+      "/dried-fish",
+      "/dried-meat",
+      "/dustwich",
+      "/electrical-components",
+      "/empty-grog-can",
+      "/raw-copper"
+    ],
+    "introduced": [
+      "/battery-bank",
+      "/cooking-stove",
+      "/cooking-tech",
+      "/copper-alloy-bench",
+      "/copper-alloys-tech",
+      "/cotton-farm",
+      "/desert-cooking-tech",
+      "/double-barrel-harpoon-turret",
+      "/electrical-crafting-tech",
+      "/electrical-workbench",
+      "/fabric-loom-cotton",
+      "/multi-barrel-harpoon-turret",
+      "/small-generator",
+      "/thief-training-boxes"
+    ]
   }
 ]
