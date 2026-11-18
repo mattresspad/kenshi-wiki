@@ -3131,6 +3131,401 @@
         "claim:character-stat-associations",
         "claim:character-world-state-conditions"
       ]
+    },
+    {
+      "id": "anti-slaver",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You ain't leaving me out of all the action.Anti-Slaver accompanying an allied player Anti-Slavers are the lowest skilled member of the Anti-Slavers. They do not have randomly generated names, unlike all other generic members of the Anti-Slavers. These characters can be found raiding player outposts or found in residential areas in Anti-Slaver cities. These c",
+      "organization": "Reviewed 10 section bookmarks and 63 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/anti-slaver.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "74cf5a8f9d26f79509d4a0b35635ca5ab7a0c81f2d86030d869ea634c8b9144d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "anti-slaver-jonin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Know what I hate more than the stinking gutters?... Slavers.Jonin. Anti-Slaver Jonin are elite members of the Anti-Slavers. They can be found in small numbers patrolling Spring or other Anti-Slaver controlled territories. They also lead attacks on the player’s base should the player earn their ire, although they do so in small numbers. There is a HQ variant ",
+      "organization": "Reviewed 13 section bookmarks and 65 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/anti-slaver-jonin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ced16b4c0b2580d7a16d4597c0e8daed9ee0aff79f489691fcda3b1f273b4d1c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "anti-slaver-unarmed",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: For every slave that's ever suffered at the hands of people like you...Taste the fist of freedom, slaver!Anti-Slaver martial artist engaging Anti-Slavers (unarmed) are elite martial artists of the Anti-Slavers. They can be found patrolling towns and areas controlled by the Anti-Slavers in small numbers. They also join attacks on the player’s base if the play",
+      "organization": "Reviewed 12 section bookmarks and 63 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/anti-slaver-unarmed.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "55a763e926481650e429761ce5f7d58801949b1f708a9d5f316bccb1476260f7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "armour-kings-thrall",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Armour King’s Thralls are shop guards for the Armour King. They can be found in the Armour King’s Shop in Drowned Ruins. The Armour King will talk about his Thralls if the player lingers in his store long enough. The Armour King captured Thralls from the Ashlands and reprogrammed them. He claims that, despite their lack of heads, they are very good at detect",
+      "organization": "Reviewed 6 section bookmarks and 10 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armour-kings-thrall.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1158cbbffceb06340ac0475e149c8a93d7568b35e465093ffbce578c8663f8b6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "armoury-droneguard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Armoury Droneguards are members of the Southern Hive. They can be found in Hiver-Claimed Armoury and in some locations after they have been overtaken by the Southern Hive. Given the increased weapon quality these type of Droneguards have, it’s likely that the weapon they have is looted from the armoury that they have taken over. Statistics Southern Hive Sold",
+      "organization": "Reviewed 10 section bookmarks and 16 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armoury-droneguard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1c132c0d42932893bcde7740cbafbb616867b5aa69ebe43fe32636c2e10dfb58"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "atticus",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Atticus was an author that wrote the books Mass Extinction III, Legend of the Forsaken Howler, Legend of the Foulhound. Little is known about Atticus since Atticus doesn’t exist as an NPC that players can interact with, however, it’s likely that Atticus was a Machinist and that Atticus is possibly dead (hence the lack of an NPC). Atticus’ writings in Mass Ex",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/atticus.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "293868ae862b93f76a1e4e227774fef4711fc29612904dc266dfc9ad82031ea7"
+      },
+      "questions": [
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "baker",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bakers are shopkeepers of the United Cities. They man the Bakeries in their towns. Although being an unrecruitable shopkeeper, this character has a player dialogue package linked to it. Despite being a baker, this character has no cooking stats. Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Hive Worker Dro",
+      "organization": "Reviewed 7 section bookmarks and 60 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/baker.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0d64fb759c9fa8cfb6c5b107c18ab53474422259968fa8e7dec3341b9f188502"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "band-of-bones-character",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Welcome to the outlands, settlers, the land of the godless.Only demons reside here...And they hunger for war.Raise your blades.-Band of Bones assaulting an outpost Band of Bones are the generic members of the Band of Bones faction. They can be found roaming the regions of Bonefields, High Bonefields, Shem, Shun, Spider Plains, The Hook, and The Swamp in grou",
+      "organization": "Reviewed 11 section bookmarks and 16 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/band-of-bones-character.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "94388983f3efd1e3db771d42d9517556c6bd1d47a09fa429e326be0cabaecb9a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "bar-fisherman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You ain't from here, eh... Well unless you're here to talk fish, I ain't interested. Bar Fisherman is a character who can be found hanging out in the Bar in Fishing Village. Statistics Greenlander Scorchlander Shek Equipment Weapons Back slot Apparel Headgear Body Shirt Legwear Footwear",
+      "organization": "Reviewed 10 section bookmarks and 32 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bar-fisherman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e27ad365243c4212b64a036b5b3bd3829eeaac838d0a0acf617d7c2c0996f74c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "bar-fly",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Argh, that's it! Just you wait 'til I've finished this grog, I'll beat your face blue, slave! Bar fly is a character who can be found in Eyesocket and the Slave Markets. She is the owner of Unique Recruit Ray. She is a member of the Empire Peasants faction. Statistics Greenlander Scorchlander Shek Interactions She can be found lamenting their purchase of Ray",
+      "organization": "Reviewed 8 section bookmarks and 27 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bar-fly.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e6ffc33bcd21330a428eccf1e7b91c7e2c9226332327085bee3d23576f4b35d4"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "bar-thug-drunk",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I can get kidneys, spleens, limbs... whatever you want. All workin' and tested, best quality only... An unnamed member of the Vagrants faction. They are a variant of Bar Thugs which can be found in bars in The Hub, Waystation, or in Shark. This thug has unique dialogue lines including an offer to sell organs and limbs. There is no way to accept this offer: i",
+      "organization": "Reviewed 10 section bookmarks and 16 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bar-thug-drunk.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "90cb1995fad61741850937fc947e521b91024f0fdec402c4dcb52ef86d733b00"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "black-dragon-genin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Nice shitpost you got here...Bet the loot's even nicer though...Gut the place!Black Dragon Genins raiding Black Dragon Genin are the standard members of the Black Dragon Ninjas faction. Their title of “Genin” translates to “low ninja’ or “junior ninja”. They can be found in the Tower of Ninjas alongside Buzan and Dimak. If a player’s outpost is within range,",
+      "organization": "Reviewed 11 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/black-dragon-genin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f154ef57104184ce872bb857b3790d0f09a3c155e6b6a591eedbe495f40549e4"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "blackshifter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cross the Blackshifters and you'll pay for it in bloodBlackshifter warning Blackshifters are generic members of the Blackshifters faction within the Swamp. They can be found within their Casino Bar located in the city Shark and the village Mud Town. All Blackshifters have the Traitorous Personality. Statistics Hive Prince Hive Soldier Drone Equipment Weapons",
+      "organization": "Reviewed 8 section bookmarks and 22 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blackshifter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3ace2464d8569db6981247f64a610ae6369748ada58232be666685c33534ffcc"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "blood-raider",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Blood Raiders are the sole members of the Bloodraiders. They can be found in Blood Raider Camps in the Spine Canyon or in patrols of 3 to 11 in the areas of the Grey Desert and The Eye. Statistics Greenlander Shek Equipment Weapons Back slot Apparel Headgear Body Legwear Footwear",
+      "organization": "Reviewed 9 section bookmarks and 23 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blood-raider.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2b018b845edb9285d034245c9748da9271810aece2b64b84cc7287d9b1aba3d6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "blue-eyes",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Yeah, I smuggled in half the hash o' the Empire. Ain't no one can catch me!Blue Eyes Blue Eyes is a wanted criminal in the UC who can be found in Mourn, likely in a bar. She frequently brags about her exploits, making it easy to notice her. In The Swamp, players can find Note From Blue Eyes in which she writes about making it to the swamps. Statistics Greenl",
+      "organization": "Reviewed 11 section bookmarks and 16 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blue-eyes.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ef8a2d2b6a4e70ce6141add88ff65665cdd339cf3de64aae63303b4c0487ea39"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "bounty-hunter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'm taking you in, outlaw!We can do this the easy way or the hard way... Bounty Hunters are members of the Bounty Hunters faction. Some can be found in a Bounty Hunter Camp in Watcher’s Rim hunting the Bugmaster. Most of these roam around United Cities territories between towns, while some head out into Stobe’s Gamble or Stobe’s Garden, possibly looking for ",
+      "organization": "Reviewed 11 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bounty-hunter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fec04b9f013c009a9cbb02c4b7e3dd0e27041cd95d6bcdef0a757d3ddb200442"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "broken-model-30",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Broken Model 30s are members of the Ancient Ruins faction. They can be found occupying the Deadland Workshops in the Deadlands zone. Statistics P4 Unit Equipment Weapons Back slot Apparel This character spawns with no apparel. Inventory",
+      "organization": "Reviewed 6 section bookmarks and 11 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/broken-model-30.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d5a2734179c442ec00a243e66d2f77b14586f36353907b615704ed66a7f1956a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "broken-skeleton",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Broken Skeletons are malfunctioning Skeletons. They are usually found wandering alone in Obedience, Floodlands, and the Iron Valleys. They can also spawn in Ancient Tech Labs, and Deadland Workshops. Statistics Skeleton Equipment Weapons Back slot Apparel This character spawns with no apparel. Inventory",
+      "organization": "Reviewed 6 section bookmarks and 11 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/broken-skeleton.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4100c3dbd018b4a41dada4cf2d9e91caaa832e905b1f309425bc2d07e710cdf9"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "broken-skeleton-bandit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Phew!...I mean, uh. Target exterminated.Skeleton Bandit after defeating enemy squad Broken Skeleton Bandits are members of the Skeleton Bandits. They wander the zones of Stobe’s Gamble, Stobe’s Garden, The Crags and The Pits in groups of 1-5 after Elder has been killed or kidnapped. Statistics Greenlander Equipment Weapons Back slot Apparel Headgear Shirt Le",
+      "organization": "Reviewed 9 section bookmarks and 14 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/broken-skeleton-bandit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4be56961b3b0ea549eab3ef708de5abfe96d63d5820bf18462b37743991273e3"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "buzan",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'll paint a heart with their blood, just for you, Makky. Buzan is one of the leaders of the Black Dragon Ninjas. He can be found in the Tower of Ninjas alongside Dimak and many Black Dragon Genin. He has a Traitorous personality. Like Dimak, he has a bounty of c.20,000 in The Holy Nation. Statistics Scorchlander Equipment Weapons Back slot Apparel Body Legw",
+      "organization": "Reviewed 8 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/buzan.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "81738945aaf6f2c0dc879df83e39a7a574ae6bd0ea9cc1876683a01ea9ae84d2"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "cannibal",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cannibals are members of the Cannibals faction. They roam the Cannibal Plains and Darkfinger with several other members looking to capture people and return to their outposts in order to consume their prisoners as food. They usually roam in squads numbering 6 ~ 25 Cannibals, or 16 of them on average. Besides the obvious anatomical differences, a cannibal’s g",
+      "organization": "Reviewed 6 section bookmarks and 11 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cannibal.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2ecd121036dd6483ef30701171ed6cdb2b4b54005f90c73bc311918184d7d175"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "cannibal-chief",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cannibal Chiefs are minor leaders of the Cannibals faction. They can be found in Cannibal Capital, Cannibal Village, First Village, Suspicious Lab. This character has a 50% chance to spawn with a c.10,000 bounty which can be turned in at either The Holy Nation or the United Cities. Statistics Cannibal Equipment Weapons Back slot Apparel This character spawns",
+      "organization": "Reviewed 6 section bookmarks and 11 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cannibal-chief.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9ed7e8a319caae4b3343c655ea6f1323a5adfa39ec1249e7bf24827da0649b15"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "cannibal-grand-wizard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: So much meat. Cannibal Grand Wizard is leader of the Cannibals faction and located in Cannibal Capital. Despite being a leader, he does not have Diplomatic Status nor World States associated with him. He is wanted by The Holy Nation, Shek Kingdom, and United Cities for c.40,000. If you bring him to The Bastion, the Cannibal Hunters will have no unique dialog",
+      "organization": "Reviewed 6 section bookmarks and 14 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cannibal-grand-wizard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "daf09959f5762d2de97183729c9317fd36817e99f883dcfabaa6974058f949fb"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "cannibal-hunter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cannibal Hunters are the standard members of the faction Cannibal Hunters. They can be found roaming the area spanning from the Cannibal Plains to Sinkuun. Many Cannibal Hunters can be found in The Bastion. They patrol in groups of 5 ~ 7, or 6 ~ 9 Hunters with 0 ~ 2 Mountain Dogs. The leader of a Cannibal Hunters roaming group can be talked to in order to hi",
+      "organization": "Reviewed 11 section bookmarks and 18 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cannibal-hunter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c167707bb6746c99010453adacd276865f67a9c27dedd3193e7d88790eaf9cf3"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "cannibal-hunter-captain",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cannibal Hunter Captains are elite members of the Cannibal Hunters. They can be found in The Bastion. Statistics Greenlander Equipment Weapons Back slot Apparel Headgear Body Shirt Legwear Footwear Inventory",
+      "organization": "Reviewed 11 section bookmarks and 18 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cannibal-hunter-captain.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8dd71b09290890354665ef8f163dcb75c9f4dc8aefaec47986adb3e8b70645fe"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
     }
   ],
   "editorialChanges": [

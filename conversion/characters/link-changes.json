@@ -454,5 +454,41 @@
       "/southern-hive-visit",
       "/the-big-skin-harvest"
     ]
+  },
+  {
+    "name": "npcs-1",
+    "resolved": [
+      "/anti-slaver",
+      "/anti-slaver-jonin",
+      "/anti-slaver-unarmed",
+      "/armour-kings-thrall",
+      "/armoury-droneguard",
+      "/atticus",
+      "/baker",
+      "/band-of-bones-character",
+      "/bar-fisherman",
+      "/bar-fly",
+      "/bar-thug-drunk",
+      "/black-dragon-genin",
+      "/blackshifter",
+      "/blood-raider",
+      "/blue-eyes",
+      "/bounty-hunter",
+      "/broken-model-30",
+      "/broken-skeleton",
+      "/broken-skeleton-bandit",
+      "/buzan",
+      "/cannibal",
+      "/cannibal-chief",
+      "/cannibal-grand-wizard",
+      "/cannibal-hunter",
+      "/cannibal-hunter-captain"
+    ],
+    "introduced": [
+      "/conscript-leather-armour",
+      "/food-store",
+      "/note-from-blue-eyes",
+      "/police-helmet"
+    ]
   }
 ]

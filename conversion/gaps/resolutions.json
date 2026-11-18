@@ -156,6 +156,39 @@
       }
     },
     {
+      "id": "availability:/anti-slaver",
+      "kind": "availability",
+      "target": "/anti-slaver",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/anti-slaver"
+      }
+    },
+    {
+      "id": "availability:/anti-slaver-jonin",
+      "kind": "availability",
+      "target": "/anti-slaver-jonin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/anti-slaver-jonin"
+      }
+    },
+    {
+      "id": "availability:/anti-slaver-unarmed",
+      "kind": "availability",
+      "target": "/anti-slaver-unarmed",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/anti-slaver-unarmed"
+      }
+    },
+    {
       "id": "availability:/anti-slavers",
       "kind": "availability",
       "target": "/anti-slavers",
@@ -255,6 +288,28 @@
       }
     },
     {
+      "id": "availability:/armour-kings-thrall",
+      "kind": "availability",
+      "target": "/armour-kings-thrall",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/armour-kings-thrall"
+      }
+    },
+    {
+      "id": "availability:/armoury-droneguard",
+      "kind": "availability",
+      "target": "/armoury-droneguard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/armoury-droneguard"
+      }
+    },
+    {
       "id": "availability:/armoury-ruin",
       "kind": "availability",
       "target": "/armoury-ruin",
@@ -329,6 +384,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/ashlands"
+      }
+    },
+    {
+      "id": "availability:/atticus",
+      "kind": "availability",
+      "target": "/atticus",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/atticus"
       }
     },
     {
@@ -409,6 +475,17 @@
       }
     },
     {
+      "id": "availability:/baker",
+      "kind": "availability",
+      "target": "/baker",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/baker"
+      }
+    },
+    {
       "id": "availability:/band-of-bones",
       "kind": "availability",
       "target": "/band-of-bones",
@@ -417,6 +494,50 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/band-of-bones"
+      }
+    },
+    {
+      "id": "availability:/band-of-bones-character",
+      "kind": "availability",
+      "target": "/band-of-bones-character",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/band-of-bones-character"
+      }
+    },
+    {
+      "id": "availability:/bar-fisherman",
+      "kind": "availability",
+      "target": "/bar-fisherman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bar-fisherman"
+      }
+    },
+    {
+      "id": "availability:/bar-fly",
+      "kind": "availability",
+      "target": "/bar-fly",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bar-fly"
+      }
+    },
+    {
+      "id": "availability:/bar-thug-drunk",
+      "kind": "availability",
+      "target": "/bar-thug-drunk",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bar-thug-drunk"
       }
     },
     {
@@ -739,6 +860,17 @@
       }
     },
     {
+      "id": "availability:/black-dragon-genin",
+      "kind": "availability",
+      "target": "/black-dragon-genin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/black-dragon-genin"
+      }
+    },
+    {
       "id": "availability:/black-dragon-ninjas",
       "kind": "availability",
       "target": "/black-dragon-ninjas",
@@ -780,6 +912,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/black-scratch-alpha"
+      }
+    },
+    {
+      "id": "availability:/blackshifter",
+      "kind": "availability",
+      "target": "/blackshifter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/blackshifter"
       }
     },
     {
@@ -860,6 +1003,17 @@
       }
     },
     {
+      "id": "availability:/blood-raider",
+      "kind": "availability",
+      "target": "/blood-raider",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/blood-raider"
+      }
+    },
+    {
       "id": "availability:/blood-spider",
       "kind": "availability",
       "target": "/blood-spider",
@@ -879,6 +1033,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/bloodraiders"
+      }
+    },
+    {
+      "id": "availability:/blue-eyes",
+      "kind": "availability",
+      "target": "/blue-eyes",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/blue-eyes"
       }
     },
     {
@@ -981,6 +1146,17 @@
       }
     },
     {
+      "id": "availability:/bounty-hunter",
+      "kind": "availability",
+      "target": "/bounty-hunter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bounty-hunter"
+      }
+    },
+    {
       "id": "availability:/bounty-hunters",
       "kind": "availability",
       "target": "/bounty-hunters",
@@ -1058,6 +1234,17 @@
       }
     },
     {
+      "id": "availability:/broken-model-30",
+      "kind": "availability",
+      "target": "/broken-model-30",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/broken-model-30"
+      }
+    },
+    {
       "id": "availability:/broken-ones",
       "kind": "availability",
       "target": "/broken-ones",
@@ -1066,6 +1253,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/broken-ones"
+      }
+    },
+    {
+      "id": "availability:/broken-skeleton",
+      "kind": "availability",
+      "target": "/broken-skeleton",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/broken-skeleton"
+      }
+    },
+    {
+      "id": "availability:/broken-skeleton-bandit",
+      "kind": "availability",
+      "target": "/broken-skeleton-bandit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/broken-skeleton-bandit"
       }
     },
     {
@@ -1113,6 +1322,17 @@
       }
     },
     {
+      "id": "availability:/buzan",
+      "kind": "availability",
+      "target": "/buzan",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/buzan"
+      }
+    },
+    {
       "id": "availability:/cactus-den",
       "kind": "availability",
       "target": "/cactus-den",
@@ -1135,6 +1355,17 @@
       }
     },
     {
+      "id": "availability:/cannibal",
+      "kind": "availability",
+      "target": "/cannibal",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cannibal"
+      }
+    },
+    {
       "id": "availability:/cannibal-camp",
       "kind": "availability",
       "target": "/cannibal-camp",
@@ -1154,6 +1385,50 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cannibal-capital"
+      }
+    },
+    {
+      "id": "availability:/cannibal-chief",
+      "kind": "availability",
+      "target": "/cannibal-chief",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cannibal-chief"
+      }
+    },
+    {
+      "id": "availability:/cannibal-grand-wizard",
+      "kind": "availability",
+      "target": "/cannibal-grand-wizard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cannibal-grand-wizard"
+      }
+    },
+    {
+      "id": "availability:/cannibal-hunter",
+      "kind": "availability",
+      "target": "/cannibal-hunter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cannibal-hunter"
+      }
+    },
+    {
+      "id": "availability:/cannibal-hunter-captain",
+      "kind": "availability",
+      "target": "/cannibal-hunter-captain",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cannibal-hunter-captain"
       }
     },
     {
@@ -8398,6 +8673,30 @@
       }
     },
     {
+      "id": "media:/icons/items/1168-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/1168-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "7fa044f372b8807b2f23476de9bdb32dc07d94cf112fe195d354321a17583186",
+        "sourceSha256": "7fa044f372b8807b2f23476de9bdb32dc07d94cf112fe195d354321a17583186"
+      }
+    },
+    {
+      "id": "media:/icons/items/1169-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/1169-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "5c5b652e7396deab363657b174ae0b679e92607b182aa020c4366ebb98c0cf58",
+        "sourceSha256": "5c5b652e7396deab363657b174ae0b679e92607b182aa020c4366ebb98c0cf58"
+      }
+    },
+    {
       "id": "media:/icons/items/1288-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/1288-gamedata.base.png",
@@ -8419,6 +8718,54 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "b4106be7ab4b01fea393f75f860206562ae26097596472be8d2ec399e1bf962c",
         "sourceSha256": "b4106be7ab4b01fea393f75f860206562ae26097596472be8d2ec399e1bf962c"
+      }
+    },
+    {
+      "id": "media:/icons/items/1392-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/1392-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "fca6bf36ab612dad17dc7374b2c6a5c5a962b29f54bb62aaee7bffe13b9be1c6",
+        "sourceSha256": "fca6bf36ab612dad17dc7374b2c6a5c5a962b29f54bb62aaee7bffe13b9be1c6"
+      }
+    },
+    {
+      "id": "media:/icons/items/1393-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/1393-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "a46d316a5d4de5c9259d4cf3740aab7e085aa9502ef4b1f313f1dc923d17af34",
+        "sourceSha256": "a46d316a5d4de5c9259d4cf3740aab7e085aa9502ef4b1f313f1dc923d17af34"
+      }
+    },
+    {
+      "id": "media:/icons/items/1394-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/1394-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "d6de4a97e8d557eedba2021ce8cbd79015003e023f7d65152903c43ded3aacea",
+        "sourceSha256": "d6de4a97e8d557eedba2021ce8cbd79015003e023f7d65152903c43ded3aacea"
+      }
+    },
+    {
+      "id": "media:/icons/items/1395-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/1395-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "7d5055663334383107c89bf60abcbeb850a245fd7c8b2117a7d88feff77d27af",
+        "sourceSha256": "7d5055663334383107c89bf60abcbeb850a245fd7c8b2117a7d88feff77d27af"
       }
     },
     {
@@ -8470,6 +8817,54 @@
       }
     },
     {
+      "id": "media:/icons/items/18019-small_changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/18019-small_changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "e9767cd6c86c2e85489f18512456b91004407c364459ac8e743c110f87571641",
+        "sourceSha256": "e9767cd6c86c2e85489f18512456b91004407c364459ac8e743c110f87571641"
+      }
+    },
+    {
+      "id": "media:/icons/items/18029-small_changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/18029-small_changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "9ff7826fd33e8d45d21fa15afdc73bcc19fe96126a5c14bc09686f5dedeb28a0",
+        "sourceSha256": "9ff7826fd33e8d45d21fa15afdc73bcc19fe96126a5c14bc09686f5dedeb28a0"
+      }
+    },
+    {
+      "id": "media:/icons/items/18911-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/18911-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "a2b091772680de7412b7a7e5e0cf6c20803a124d933749fcebfac2f256480e36",
+        "sourceSha256": "a2b091772680de7412b7a7e5e0cf6c20803a124d933749fcebfac2f256480e36"
+      }
+    },
+    {
+      "id": "media:/icons/items/18917-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/18917-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "7fa044f372b8807b2f23476de9bdb32dc07d94cf112fe195d354321a17583186",
+        "sourceSha256": "7fa044f372b8807b2f23476de9bdb32dc07d94cf112fe195d354321a17583186"
+      }
+    },
+    {
       "id": "media:/icons/items/2064-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/2064-gamedata.base.png",
@@ -8506,6 +8901,18 @@
       }
     },
     {
+      "id": "media:/icons/items/2150-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2150-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "c8c24d9558c5804a876c2d57b474eac9bf1484918688fd43b572de0f865d5151",
+        "sourceSha256": "c8c24d9558c5804a876c2d57b474eac9bf1484918688fd43b572de0f865d5151"
+      }
+    },
+    {
       "id": "media:/icons/items/2154-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/2154-gamedata.base.png",
@@ -8527,6 +8934,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "7043762317b91a2fe91794e4c493906f53f091f20f1ac3ac7fbea0b77d7a35cb",
         "sourceSha256": "7043762317b91a2fe91794e4c493906f53f091f20f1ac3ac7fbea0b77d7a35cb"
+      }
+    },
+    {
+      "id": "media:/icons/items/2158-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2158-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "652b9dd939976e8e9d561797d1c13a42e784c75d17089a6505c1396c41cb713a",
+        "sourceSha256": "652b9dd939976e8e9d561797d1c13a42e784c75d17089a6505c1396c41cb713a"
       }
     },
     {
@@ -8614,6 +9033,30 @@
       }
     },
     {
+      "id": "media:/icons/items/2180-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2180-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "907c26c03a46f02cb1c936c4f4d2bf0f3f7b3c52169e6728ec18d884775522a4",
+        "sourceSha256": "907c26c03a46f02cb1c936c4f4d2bf0f3f7b3c52169e6728ec18d884775522a4"
+      }
+    },
+    {
+      "id": "media:/icons/items/2182-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2182-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "89b92a5232cf80041704820b309118928c7e228ca6c5f38511fc792082948819",
+        "sourceSha256": "89b92a5232cf80041704820b309118928c7e228ca6c5f38511fc792082948819"
+      }
+    },
+    {
       "id": "media:/icons/items/2185-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/2185-gamedata.base.png",
@@ -8650,6 +9093,54 @@
       }
     },
     {
+      "id": "media:/icons/items/2201-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2201-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "b474d4e86759c08d5621e15a7bba7d827c070987ceb756a5e5102aa8790cdbe9",
+        "sourceSha256": "b474d4e86759c08d5621e15a7bba7d827c070987ceb756a5e5102aa8790cdbe9"
+      }
+    },
+    {
+      "id": "media:/icons/items/2202-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2202-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "95e6f72b1177ec2077b805458a97924abaffe69b6042c317066904c35aa1cce2",
+        "sourceSha256": "95e6f72b1177ec2077b805458a97924abaffe69b6042c317066904c35aa1cce2"
+      }
+    },
+    {
+      "id": "media:/icons/items/2210-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2210-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "757cceda5b9baadab1f90b2f601cefd7fb6a560696d20a7c0eb6e26dc947857e",
+        "sourceSha256": "757cceda5b9baadab1f90b2f601cefd7fb6a560696d20a7c0eb6e26dc947857e"
+      }
+    },
+    {
+      "id": "media:/icons/items/2211-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2211-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "d9df525e5c81c752eb8a0b80fbb102870dbc54490d41ddef0e73a5f6990e77f1",
+        "sourceSha256": "d9df525e5c81c752eb8a0b80fbb102870dbc54490d41ddef0e73a5f6990e77f1"
+      }
+    },
+    {
       "id": "media:/icons/items/2212-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/2212-gamedata.base.png",
@@ -8671,6 +9162,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "5c5b652e7396deab363657b174ae0b679e92607b182aa020c4366ebb98c0cf58",
         "sourceSha256": "5c5b652e7396deab363657b174ae0b679e92607b182aa020c4366ebb98c0cf58"
+      }
+    },
+    {
+      "id": "media:/icons/items/2214-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2214-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "63121abc2c82f8be69664f1934a1f02dbb7975c5b5f3ee1ebd47df0975b747b0",
+        "sourceSha256": "63121abc2c82f8be69664f1934a1f02dbb7975c5b5f3ee1ebd47df0975b747b0"
       }
     },
     {
@@ -8758,6 +9261,30 @@
       }
     },
     {
+      "id": "media:/icons/items/2228-chris_r.mod.png",
+      "kind": "media",
+      "target": "/icons/items/2228-chris_r.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "5378068b6801cf3afac77066ea5033ca306d92d88e00b5a7d0633336217e1ee9",
+        "sourceSha256": "5378068b6801cf3afac77066ea5033ca306d92d88e00b5a7d0633336217e1ee9"
+      }
+    },
+    {
+      "id": "media:/icons/items/2229-chris_r.mod.png",
+      "kind": "media",
+      "target": "/icons/items/2229-chris_r.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "dcdac0f5d55e5cc5ce8129428d526b49c61b9addf86d5482cad2c9ec35b80627",
+        "sourceSha256": "dcdac0f5d55e5cc5ce8129428d526b49c61b9addf86d5482cad2c9ec35b80627"
+      }
+    },
+    {
       "id": "media:/icons/items/2283-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/2283-gamedata.base.png",
@@ -8767,6 +9294,42 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "392a93b6fbffdfb112ef2cf445aae48dacfb51fa0013481a0c1d874f03835fef",
         "sourceSha256": "392a93b6fbffdfb112ef2cf445aae48dacfb51fa0013481a0c1d874f03835fef"
+      }
+    },
+    {
+      "id": "media:/icons/items/2304-clothes_v1.mod.png",
+      "kind": "media",
+      "target": "/icons/items/2304-clothes_v1.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "dcf910ffe5d6c318bb224d6d8c632c995203059f9965d920d1e3a3559ab55111",
+        "sourceSha256": "dcf910ffe5d6c318bb224d6d8c632c995203059f9965d920d1e3a3559ab55111"
+      }
+    },
+    {
+      "id": "media:/icons/items/2305-clothes_v1.mod.png",
+      "kind": "media",
+      "target": "/icons/items/2305-clothes_v1.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "e65fcb39612451a9c3cbcde4834192d9ceda9668497318efb6a7e70ddc63e1bb",
+        "sourceSha256": "e65fcb39612451a9c3cbcde4834192d9ceda9668497318efb6a7e70ddc63e1bb"
+      }
+    },
+    {
+      "id": "media:/icons/items/2306-clothes_v1.mod.png",
+      "kind": "media",
+      "target": "/icons/items/2306-clothes_v1.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "26377c6de05dd0616a29fd57cf97990f2cfcba56d01c3a81b05c5584a27f8c83",
+        "sourceSha256": "26377c6de05dd0616a29fd57cf97990f2cfcba56d01c3a81b05c5584a27f8c83"
       }
     },
     {
@@ -8782,6 +9345,18 @@
       }
     },
     {
+      "id": "media:/icons/items/2326-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2326-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "440c2a09b4762343ee69975fa736cee44a79427576bcce605ae37f0041669856",
+        "sourceSha256": "440c2a09b4762343ee69975fa736cee44a79427576bcce605ae37f0041669856"
+      }
+    },
+    {
       "id": "media:/icons/items/2606-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/2606-gamedata.base.png",
@@ -8794,6 +9369,18 @@
       }
     },
     {
+      "id": "media:/icons/items/3061-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/3061-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "43bb5317b1698e69ac44fe6c2bfdd593979a910d56954b513cb1e2bd562d1b1e",
+        "sourceSha256": "43bb5317b1698e69ac44fe6c2bfdd593979a910d56954b513cb1e2bd562d1b1e"
+      }
+    },
+    {
       "id": "media:/icons/items/4002-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/4002-gamedata.base.png",
@@ -8803,6 +9390,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "21c181b9baae7e6a8f4bad88a549ddb09b61ab4a03777a150b4143f278688321",
         "sourceSha256": "21c181b9baae7e6a8f4bad88a549ddb09b61ab4a03777a150b4143f278688321"
+      }
+    },
+    {
+      "id": "media:/icons/items/42060-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42060-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "65a84b06a019714652ef0dd1fd65ce193361a6d7e7803ba33e02ab33a2f9187a",
+        "sourceSha256": "65a84b06a019714652ef0dd1fd65ce193361a6d7e7803ba33e02ab33a2f9187a"
       }
     },
     {
@@ -8899,6 +9498,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "53e1a12830cac00e94956ebfdc873c79cdd2d877c360d403b79627f8e1c6f98d",
         "sourceSha256": "53e1a12830cac00e94956ebfdc873c79cdd2d877c360d403b79627f8e1c6f98d"
+      }
+    },
+    {
+      "id": "media:/icons/items/45556-changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/45556-changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "bec8986bd7d5366921969fc5cc25165e538e9b805e88efbf655df3b5bde60537",
+        "sourceSha256": "bec8986bd7d5366921969fc5cc25165e538e9b805e88efbf655df3b5bde60537"
       }
     },
     {
@@ -9178,6 +9789,18 @@
       }
     },
     {
+      "id": "media:/icons/items/5346-armor_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/5346-armor_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "810c82fc506e219c1514809adbde01a5049167700a32ff1fe722297bab6e92f8",
+        "sourceSha256": "810c82fc506e219c1514809adbde01a5049167700a32ff1fe722297bab6e92f8"
+      }
+    },
+    {
       "id": "media:/icons/items/53643-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/53643-rebirth.mod.png",
@@ -9187,6 +9810,30 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "b858a4ccf40050d769f0aeee5df192930ab34f9b5c0156fbb8851c4266d1281f",
         "sourceSha256": "b858a4ccf40050d769f0aeee5df192930ab34f9b5c0156fbb8851c4266d1281f"
+      }
+    },
+    {
+      "id": "media:/icons/items/543-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/543-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "b460e4d5ea5c40ad25b5d37ab88b04102f77d0c4c45c30ef0551c60ce1acf11e",
+        "sourceSha256": "b460e4d5ea5c40ad25b5d37ab88b04102f77d0c4c45c30ef0551c60ce1acf11e"
+      }
+    },
+    {
+      "id": "media:/icons/items/544-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/544-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "5da89eb8c09a35ab023a3d61ee7c29e51c36fa73f66a98a6d0dd0b9026045171",
+        "sourceSha256": "5da89eb8c09a35ab023a3d61ee7c29e51c36fa73f66a98a6d0dd0b9026045171"
       }
     },
     {
@@ -9219,6 +9866,42 @@
       "target": "/icons/items/551-gamedata.base.png",
       "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
       "acceptedIn": "conversion/characters/acceptances.json#varied-statistics-and-stock",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "2996e353fa42aa7b44e1d4ee4c16b01cd5fb844749f9dd7b7a3cae333fcc00ae",
+        "sourceSha256": "2996e353fa42aa7b44e1d4ee4c16b01cd5fb844749f9dd7b7a3cae333fcc00ae"
+      }
+    },
+    {
+      "id": "media:/icons/items/55393-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/55393-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "edf62fee0fa09f57377d9c633e8aa33120f21d0b22b441963c838e9dc366cc65",
+        "sourceSha256": "edf62fee0fa09f57377d9c633e8aa33120f21d0b22b441963c838e9dc366cc65"
+      }
+    },
+    {
+      "id": "media:/icons/items/55395-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/55395-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "e36f786bbce1aba386f0a8b388df9b1bdf4b381cf71fcd278a060e81267916a4",
+        "sourceSha256": "e36f786bbce1aba386f0a8b388df9b1bdf4b381cf71fcd278a060e81267916a4"
+      }
+    },
+    {
+      "id": "media:/icons/items/554-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/554-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-1",
       "resolution": {
         "method": "local media matches pinned file SHA-256",
         "sha256": "2996e353fa42aa7b44e1d4ee4c16b01cd5fb844749f9dd7b7a3cae333fcc00ae",
