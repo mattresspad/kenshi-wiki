@@ -710,5 +710,36 @@
       "/crossbow-class",
       "/samurai-lord"
     ]
+  },
+  {
+    "name": "npcs-8",
+    "resolved": [
+      "/samurai-heavy",
+      "/samurai-police",
+      "/samurai-rogue",
+      "/samurai-scout",
+      "/samurai-sergeant",
+      "/sand-ninja",
+      "/sand-ninja-jounin",
+      "/sandas-noble-guard",
+      "/scavenger",
+      "/scrawny-cannibal",
+      "/screamer-unit",
+      "/screamy",
+      "/shek-barman",
+      "/shek-fighter",
+      "/shek-retainer",
+      "/shek-scout",
+      "/shek-warrior",
+      "/shinobi-citizen",
+      "/shinobi-guard",
+      "/shop-guard",
+      "/shrieking-bandit",
+      "/skeleton-bandit",
+      "/skeleton-barman",
+      "/skeleton-civilian",
+      "/skeleton-doctor"
+    ],
+    "introduced": []
   }
 ]

@@ -1,7 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-const factPart = z.union([z.string(), z.tuple([z.string(), z.string()]), z.object({break:z.literal(true)})]);
+const factPart = z.union([z.string(), z.tuple([z.string(), z.string()]), z.object({break:z.literal(true)}), z.object({strike:z.literal(true),text:z.string(),href:z.string().optional()})]);
 const articles = defineCollection({
   // The loader caches by physical file. The catalog resolves data.articleId independently.
   loader: glob({ base: './src/content/articles', pattern: '**/*.md', generateId: ({entry}) => entry }),

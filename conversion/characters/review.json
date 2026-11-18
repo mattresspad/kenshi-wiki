@@ -5892,6 +5892,401 @@
         "claim:character-historical-lore",
         "claim:character-stat-associations"
       ]
+    },
+    {
+      "id": "samurai-heavy",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Samurai Heavies are heavy foot-soldiers of the United Cities. They wield the larger Nodachi compared to their non-heavy counterparts and have a chance to spawn with the better chain shirt. They are also the lowest-ranked patrolling units to have a Catun-grade weapon. There are in total 2 Samurai Heavies that guard Emperor Tengu. They wear [Standard] armour (",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-heavy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "05ab76226df5c1bc5e376d26363830f7cb283562f6d7e8aa0ab2f4d3fd093cd8"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "samurai-police",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: How about welcoming your local Empire guards into your gates, eh? Samurai Police are law enforcers for the United Cities, Empire Peasants, and the Free Traders. This branch of Samurai operates out of Police Stations and are mainly responsible for protecting urban centers, while standard Samurai perform military duties such as patrolling. As law enforcement, ",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-police.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0e49984b54b86b3e12d07fc6402d4e03df51bfb600f96a217e15b64ff2aa3f89"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-stock-shopping",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "samurai-rogue",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Surrender your food!For the Empire!-Samurai Rogue attacking Samurai Rogues are members of the United Cities. They appear to be ex-Samurai Sergeants turned to banditry after the Noble Circle that employed them was incapacitated. Alternatively, they may be bandits employed by the government to rob wanderers for emergency provisions needed by the government aft",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-rogue.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "472ef9d1d72d5626cc18c392858d9f65306df1a7e53c99a752e1819a906986f6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "samurai-scout",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Samurai Scouts are one of the minor military soldiers of the United Cities. They can be found on patrols in various regions, following a Samurai Sergeant. They are notable for wearing a hat as their headgear and a chance to spawn with a Wakizashi instead of Katana and also wears a light-set of Wooden Sandals and Samurai Clothpants instead of heavy-set of Sam",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-scout.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7ac0e73c7d5c0f72d9659e25e450a150a1a079b45da86d4e3e293de46deed8be"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "samurai-sergeant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Samurai Sergeants are one of the minor military leaders of the United Cities. They can be found in various regions, leading patrols of Samurai Scouts, Samurai Conscripts, and standard Samurai. They are also one of the two patrolling units alongside with Samurai Heavy who have a Catun-grade weapon. They wear [Standard] armour (10% chance of [High]) and have w",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-sergeant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "81a357603ac40f98a7cde1ee292b92db8ce5b28ee02e706c0bbdd74881a93f2b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "sand-ninja",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Setting up in the desert without samurai guard?Dumb move.Attack!Sand Ninja raid Sand Ninjas are members of the Sand Ninjas faction. They can be found in Cactus Den and in small squads of 3-5 patrolling Spine Canyon, The Eye, and The Great Desert. They have a 20% chance of spawning with a bounty of c.4,000. They wear [Standard] armour (10% chance of [High]) a",
+      "organization": "Reviewed 1 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sand-ninja.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "75463ea728c193a62d7afb852c94bca14379b5ca5b1a8904fb24c171ed7ff80c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "sand-ninja-jounin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Attack.a Jounin's declaration Sand Ninja Jounin are elite units of the Sand Ninjas. These mysterious ninja travel by themselves in the desert, attacking anybody who gets near. They have a bounty ranging from c.6,000 to c.10,000. They wear [Standard] armour (10% chance of [High]) and have weapons manufactured by Catun Scrapmaster. Statistics Greenlander Scorc",
+      "organization": "Reviewed 1 section bookmarks and 16 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sand-ninja-jounin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d359f5027aa709180837162dde55cdc8358d450e02732e64790119e78c86f22b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "sandas-noble-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Noble guardsmen, outta the way!Noble procession Sanda’s Noble Guards are elite bodyguards of the United Cities. They are found exclusively in Lady Sanda’s retinue, in a group of 5 to 8. They can be visually differentiated from the normal Hooded Empire Noble Guard variant by the lack of a hood and the high-quality topper. They wear [Masterwork] armour and hav",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sandas-noble-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "502e02c80616247ca9aab896445a5d4bae28e63ae6b51891c2b52e71c401e4d2"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-name-intent",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "scavenger",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Scavengers are members of the Scavengers faction. They can be found roaming around the southeast portion of the map, such as Stobe’s Gamble, Stobe’s Garden, Stormgap Coast, The Outlands, The Pits, The Pits East, and Sniper Valley. They reside in the Old Control Tower in Venge. They wear [Shoddy] armour (40% chance of [Standard]) and have weapons manufactured",
+      "organization": "Reviewed 1 section bookmarks and 40 source tables; 5 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/scavenger.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d0aac20adfd6a04b11e3b438e99ee9009b4e203b8319b72a9c17e17dd88d7258"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "scrawny-cannibal",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Scrawny Cannibals are the weakest members of the Cannibal faction. Scrawny Cannibals can be found roaming the Cannibal Plains and Darkfinger in large groups. Scrawny Cannibals are visually distinct from the stronger Cannibal character because they have green body paint instead of red. Similarly to their stronger counterparts, the genders of Scrawny Cannibals",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/scrawny-cannibal.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "98dae462021e857d4bf0caebe2741b4ce3ce2e6b40bdb9d801aae88161d66e57"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "screamer-unit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Screamer Units are members of the, now dead, Second Empire. They can be found in Ashland Dome II, protecting Rhinobot. They can also spawn as the members of Skeleton Legion, patrolling the Ashlands. They wear [High] armour (15% chance of [Specialist]) and have weapons manufactured by Ancient or Skeleton Smiths. This character can colour armour and clothing d",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/screamer-unit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0f154477cbf4e97660e3a5e45a8986653ecdcfb4b6aaa5a2433ab24568c26a02"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "screamy",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ehhh? Meena... is that you?... Meeeeena. Me... Nah.... Nah me? Nahmean? Ah, nahmean, ah. Screamy is an Outlaw being held a prisoner in Tengu’s Vault. He has a c.20,000 Bounty. They wear no armour. Statistics Greenlander Shek",
+      "organization": "Reviewed 1 section bookmarks and 16 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/screamy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e9398a5bcdcaf7026fb50ac9aedcc97eafe206033b7e7a107c3cf0f78780a2cf"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "shek-barman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This is the great shek capital, home to the courageous Stone Golem. Remember it well, one day it will be the capital of all the lands.Admag Barman when asked about the city Shek Barmen are named shopkeepers of the Shek Kingdom. They can be found manning most of the Shek Bars in Shek-controlled cities. They spawn with the Fearful Personality. They wear [Shodd",
+      "organization": "Reviewed 0 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-barman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "65344ae93a43704228eec67879effaa2215095031e18483724d4974e820a06b0"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "shek-fighter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Shek Fighters are lone characters of the Shek Kingdom wandering the Stenn Desert. They have no notable dialog or interactions. They have a “duel wandering fighter starter” dialogue and a “not fearful” personality. They wear [Shoddy] armour (25% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Shek Trivia Originally, they were going ",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-fighter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "eaf702eb940ec5410153ba692c768b4a0607a0ff68fc60f82a9f1afa9bed0e23"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "shek-retainer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Shek Retainers are lower-class members of the Shek Kingdom. They are generally farmers, craftsmen, and general workers and are ranked below other Sheks of the warrior caste such as Shek Warriors and Hundred Guardians. Since they are not warriors, their horns are cut off. Shek Retainers manage some of the businesses in Shek towns. Retainers are also servants;",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-retainer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a1047ce654012f4ee5455a18c7cb8d493f459fc5cd71fb9a9e38be823f3d638f"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "shek-scout",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Shek Scouts are warriors of the Shek Kingdom. They can be found roaming the Stenn Desert and Spider Plains in small groups of 4 to 7. They are equipped similarly to the Shek Warriors but are slightly stronger. True to their name, they are only found wandering outside Shek towns. Unlike other patrols, these scouts will loot any unconcious bodies for food. The",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-scout.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6285d8756bf032618ac5cc0a3ca00d1ec469fbc6856ba11b875b27107ee66784"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "shek-warrior",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hrm. Think yourself a warrior, flatskin?Or is that sword just for decoration?Humorous.Warrior mocking a flatskin Shek Warriors are warriors of the Shek Kingdom. They are the most numerous members of the Kingdom, being found as guards and residents of shops and towns, as well as being led by their stronger brethren - the Hundred Guardians - into battle. If a ",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-warrior.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d08569d6ac716adb9c151b2206a51ca0499a76ff41ee2ef2ff64576f94840d5d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "shinobi-citizen",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Shinobi Citizens are characters that can be found squatting or living in several areas such as The Hub, Mongrel, and Mourn. When living in The Hub, they are members of the Holy Nation Outlaws faction. They wear [Shoddy] armour (10% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Humans Shek Hive Skeletons Greenlander Scorchlander S",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shinobi-citizen.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "aaa0fdc871f5b5756d5280d3495fc0d1d030482a09766fc8ecf68a3e5190dd47"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "shinobi-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: No problem. Welcome to Mongrel, island of the outcast.Guard greeting Mongrel first-timer Shinobi Guards are guards of Mongrel and the Tech Hunters. Guards belonging to Mongrel can often be found around the city, defending it from the onslaught of Fogmen. Tech Hunter Shinobi Guards can be found guarding Adventurer Ranger Shops and Empire Ranger Shops, as well",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shinobi-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fa3a5768b0cc91df78da777b60ad9e9311e80d44d1df626ac1af4111ee252429"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "shop-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Shoplifters get broken fingers!Shop Guard catching a thief Shop Guards are guards of the faction the shop they reside in belongs to. The possible factions include the Empire Peasants, Flotsam Ninjas, Free Traders, Mongrel, Shek Kingdom, Tech Hunters, The Holy Nation, and United Cities. They are normally found residing in bars and shops in the city. If a char",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shop-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "17670f77cda96e58cb0ee37153254dab1e51d2dcb4c63583d5ff38d590973f16"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "shrieking-bandit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: GYAAAAAAHA Shrieking Bandit Shrieking Bandits are members of the Shrieking Bandits faction. They can be found in groups of 9-26 in Cannibal Plains, Purple Sands, and The Shrieking Forest where they make their home. One can easily spot them because they frequently make shrieking noises as they roam around. They wear no armour and have weapons manufactured by ",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shrieking-bandit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2d378bc4c1e8b71163ac4076877d56d4a863e7ed65ccb729e711501126a220ad"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "skeleton-bandit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Kneel before your skele-ton lords!Skeleton Bandit victorious Skeleton Bandits are common soldiers of the Skeleton Bandits faction. They can typically be found in patrols of 10-15 led by an Upgraded Skeleton Bandit in Stobe’s Gamble, Stobe’s Garden, The Crags and The Pits. These patrols persist so long as Elder is alive. They wear [Standard] armour (10% chanc",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-bandit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "221b8e24dedd8f4d7a2207714e4e95d31bc5705445e957a6b2f309f93b734ae3"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "skeleton-barman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Sorry, we don't sell human food, I hope you brought your own... Need anything else?Barman to fleshy characters Skeleton Barman is a shopkeeper of the Skeletons. He can be found in the Skeleton Bar in Black Desert City. They wear [Standard] armour (5% chance of [High]) and have weapons manufactured by Skeleton Smiths. Statistics Skeleton",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-barman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4b406dab25a9125b3b8b20c156f927079f1c860ccf2f6aa7f5f300199640b918"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "skeleton-civilian",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: New guy in town, I see... Well, got plenty of parts for sale, no shortage in the Black Desert City...Robotics Shopkeeper greeting a fellow Skeleton Skeleton Civilians are members of the Skeletons faction. 5-6 can be found in the Robotics Shop in Black Desert City. One of them serves as the shopkeeper of the Robotic Shop. They wear no armour and have weapons ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-civilian.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "90387775bcb84c784aac973c800cf4a1d3aaf7bf28e4dcc83609af396a4af688"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "skeleton-doctor",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Need the help of Skeleton Doc? Skeleton Doctors are members of the Skeletons faction. They can be found in Robotics Workshops in Mongrel, Black Scratch, Heft, Heng, Spring, and the Border Zone Waystation. They wear [Standard] armour (5% chance of [High]) and have weapons manufactured by Catun Scrapmaster or Skeleton Smiths. Statistics P4 Unit",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-doctor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "23316f86413f0ce869f34a67352d9c2c3b45f3ea6ca16bd4789afb045c043d99"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
     }
   ],
   "editorialChanges": [

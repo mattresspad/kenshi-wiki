@@ -6,7 +6,7 @@ const {title, groups, href} = Astro.props;
   {groups.map(group => <>
     {group.heading && <h3>{group.heading}</h3>}
     <dl>{group.rows.map(([label, ...parts]) => <>
-      <dt>{label}</dt><dd>{parts.map(part => Array.isArray(part) ? <a href={href(part[1])}>{part[0]}</a> : typeof part === 'string' ? part : <br/>)}</dd>
+      <dt>{label}</dt><dd>{parts.map(part => Array.isArray(part) ? <a href={href(part[1])}>{part[0]}</a> : typeof part === 'string' ? part : part.strike ? <s>{part.href ? <a href={href(part.href)}>{part.text}</a> : part.text}</s> : <br/>)}</dd>
     </>)}</dl>
   </>)}
 </aside>

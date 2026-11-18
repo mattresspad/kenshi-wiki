@@ -32,6 +32,14 @@ for(const phone of [false,true])for(const theme of ['light','dark'])test.describ
   await table.getByRole('button',{name:'Sort by Name',exact:true}).press('Enter');expect(await names()).toEqual(ascending);
   await table.getByRole('button',{name:'Sort by Name',exact:true}).press('Enter');expect(await names()).toEqual([...ascending].reverse());expect(errors).toEqual([]);
  });
+ test('crossed-out race facts retain their qualification and destinations',async({page})=>{
+  test.skip(!included.has('skeleton-bandit'));
+  for(const id of ['skeleton-bandit','upgraded-skeleton-bandit','upgraded-skeleton-guard'].filter(id=>included.has(id))){
+   await page.goto('/'+id+'?theme='+theme);const race=page.locator('.factbox dt').filter({hasText:/^Race$/}).locator('+ dd');
+   await expect(race.locator('s a')).toHaveText('Skeleton');await expect(race.locator('s a')).toHaveAttribute('href','/skeleton');
+   await expect(race.locator(':scope > a')).toHaveText('Human');
+  }
+ });
  test('long category strips keep search inside the frame',async({page})=>{
   test.skip(phone||!included.has('big-darkbrow'));await page.goto('/big-darkbrow?theme='+theme);
   const last=page.locator('.context-cats a').last();await last.focus();await expect(last).toBeInViewport();

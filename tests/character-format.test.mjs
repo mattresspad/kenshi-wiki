@@ -15,3 +15,10 @@ test('inert recruit checklist is removed without changing information cells or b
  normalizeCharacterTables($);assert.equal($('input').length,0);assert.equal($('thead th').length,3);assert.equal($('#checkbox-0-1').length,1);assert.equal($('a').attr('href'),'/beep');assert.equal($('tbody tr').children().length,3);assert.equal($('table[data-sortable]').length,1);
  const once=$.html();normalizeCharacterTables($);assert.equal($.html(),once);
 });
+
+import {factParts} from '../scripts/conversion/source.mjs';
+test('struck infobox labels preserve source meaning and their links',()=>{
+ assert.deepEqual(factParts('<s><a href="/skeleton">Skeleton</a></s> <a href="/human">Human</a>'),[{strike:true,text:'Skeleton',href:'/skeleton'},' ',['Human','/human']]);
+ assert.deepEqual(factParts('<s>Removed</s><br>Present'),[{strike:true,text:'Removed'},{break:true},'Present']);
+ assert.throws(()=>factParts('<script>unsafe()</script>'),/Unexpected fact markup/);
+});

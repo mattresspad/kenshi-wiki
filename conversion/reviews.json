@@ -1786,6 +1786,106 @@
     "samurai-gate-sergeant": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/characters/review.json"
+    },
+    "samurai-heavy": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "samurai-police": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "samurai-rogue": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "samurai-scout": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "samurai-sergeant": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "sand-ninja": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "sand-ninja-jounin": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "sandas-noble-guard": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "scavenger": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "scrawny-cannibal": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "screamer-unit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "screamy": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "shek-barman": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "shek-fighter": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "shek-retainer": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "shek-scout": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "shek-warrior": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "shinobi-citizen": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "shinobi-guard": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "shop-guard": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "shrieking-bandit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "skeleton-bandit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "skeleton-barman": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "skeleton-civilian": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "skeleton-doctor": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
     }
   },
   "mediaGaps": [

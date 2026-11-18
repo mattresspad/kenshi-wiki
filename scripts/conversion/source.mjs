@@ -40,13 +40,13 @@ export function factParts(value) {
   const $ = load(value,{},false);
   const parts = [];
   const lineBreak = () => { if (parts.length && !parts.at(-1)?.break) parts.push({break:true}); };
-  function visit(node) {
-    if (node.type === 'text') { parts.push(node.data); return; }
-    if (node.name === 'a') { parts.push([$(node).text(),$(node).attr('href')]); return; }
+  function visit(node, strike = false) {
+    if (node.type === 'text') { parts.push(strike ? {strike:true,text:node.data} : node.data); return; }
+    if (node.name === 'a') { parts.push(strike ? {strike:true,text:$(node).text(),href:$(node).attr('href')} : [$(node).text(),$(node).attr('href')]); return; }
     if (node.name === 'br') { lineBreak(); return; }
-    assert.ok(['p','span'].includes(node.name),'Unexpected fact markup '+node.name);
+    assert.ok(['p','span','s'].includes(node.name),'Unexpected fact markup '+node.name);
     if (node.name === 'p') lineBreak();
-    for (const child of node.children ?? []) visit(child);
+    for (const child of node.children ?? []) visit(child, strike || node.name === 's');
     if (node.name === 'p') lineBreak();
   }
   for (const node of $.root().contents().toArray()) visit(node);

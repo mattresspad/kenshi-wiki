@@ -39,11 +39,13 @@ if(['freeze','verify-freeze'].includes(action)){
  const existing=new Set(articleFiles().map(e=>e.data.articleId));
  for(const id of roster.existing)assert.ok(existing.has(id),'Missing reused ID '+id);
  for(const id of batch.ids){
-  assert.ok(!existing.has(id),id);const {front,body}=source.document(id);
+  const {front,body}=source.document(id);
   const data={articleId:id,title:front.title,description:front.description??'',categories:front.categories??[],layout:'character'};
   if(front.infobox){data.factTitle=front.infobox.title;data.factGroups=front.infobox.groups.map(g=>({heading:g.heading??null,rows:g.rows.map(([label,value])=>[label,...factParts(value)])}));}
   const file=join('src/content/articles','characters',records.get(id).sourceFile.slice('src/content/wiki/'.length));
-  assert.ok(!existsSync(file),file);save(file,'---\n'+stringify(data,{lineWidth:0}).trimEnd()+'\n---\n\n'+body+'\n');
+  const output='---\n'+stringify(data,{lineWidth:0}).trimEnd()+'\n---\n\n'+body+'\n';
+  // Resume a partial transfer only when its files exactly match this pinned transformation.
+  if(existing.has(id)){assert.ok(existsSync(file),'Existing ID has a different editable home: '+id);assert.equal(readFileSync(file,'utf8').replaceAll('\r\n','\n'),output,'Refuse to overwrite edited transfer '+id);}else{assert.ok(!existsSync(file),file);save(file,output);}
   for(const [url] of fixture.articles[id].images){const bytes=source.pinned('public'+url);assert.equal(hash(bytes),fixture.assets[url]);if(existsSync('public'+url))assert.equal(hash(readFileSync('public'+url)),fixture.assets[url]);else save('public'+url,bytes);}
  }
  const localPaths=new Set([...existing,...batch.ids].map(id=>records.get(id).path));

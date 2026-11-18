@@ -7658,6 +7658,83 @@
       }
     },
     {
+      "id": "availability:/samurai-heavy",
+      "kind": "availability",
+      "target": "/samurai-heavy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-heavy"
+      }
+    },
+    {
+      "id": "availability:/samurai-police",
+      "kind": "availability",
+      "target": "/samurai-police",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-police"
+      }
+    },
+    {
+      "id": "availability:/samurai-rogue",
+      "kind": "availability",
+      "target": "/samurai-rogue",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-rogue"
+      }
+    },
+    {
+      "id": "availability:/samurai-scout",
+      "kind": "availability",
+      "target": "/samurai-scout",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-scout"
+      }
+    },
+    {
+      "id": "availability:/samurai-sergeant",
+      "kind": "availability",
+      "target": "/samurai-sergeant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-sergeant"
+      }
+    },
+    {
+      "id": "availability:/sand-ninja",
+      "kind": "availability",
+      "target": "/sand-ninja",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sand-ninja"
+      }
+    },
+    {
+      "id": "availability:/sand-ninja-jounin",
+      "kind": "availability",
+      "target": "/sand-ninja-jounin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sand-ninja-jounin"
+      }
+    },
+    {
       "id": "availability:/sand-ninja-oni",
       "kind": "availability",
       "target": "/sand-ninja-oni",
@@ -7680,6 +7757,17 @@
       }
     },
     {
+      "id": "availability:/sandas-noble-guard",
+      "kind": "availability",
+      "target": "/sandas-noble-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sandas-noble-guard"
+      }
+    },
+    {
       "id": "availability:/savant",
       "kind": "availability",
       "target": "/savant",
@@ -7699,6 +7787,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/scarred-adventurer"
+      }
+    },
+    {
+      "id": "availability:/scavenger",
+      "kind": "availability",
+      "target": "/scavenger",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/scavenger"
       }
     },
     {
@@ -7746,6 +7845,17 @@
       }
     },
     {
+      "id": "availability:/scrawny-cannibal",
+      "kind": "availability",
+      "target": "/scrawny-cannibal",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/scrawny-cannibal"
+      }
+    },
+    {
       "id": "availability:/screamer-mki",
       "kind": "availability",
       "target": "/screamer-mki",
@@ -7765,6 +7875,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/screamer-the-false"
+      }
+    },
+    {
+      "id": "availability:/screamer-unit",
+      "kind": "availability",
+      "target": "/screamer-unit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/screamer-unit"
+      }
+    },
+    {
+      "id": "availability:/screamy",
+      "kind": "availability",
+      "target": "/screamy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/screamy"
       }
     },
     {
@@ -7933,6 +8065,17 @@
       }
     },
     {
+      "id": "availability:/shek-barman",
+      "kind": "availability",
+      "target": "/shek-barman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-barman"
+      }
+    },
+    {
       "id": "availability:/shek-engineer",
       "kind": "availability",
       "target": "/shek-engineer",
@@ -7941,6 +8084,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shek-engineer"
+      }
+    },
+    {
+      "id": "availability:/shek-fighter",
+      "kind": "availability",
+      "target": "/shek-fighter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-fighter"
       }
     },
     {
@@ -7977,6 +8131,17 @@
       }
     },
     {
+      "id": "availability:/shek-retainer",
+      "kind": "availability",
+      "target": "/shek-retainer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-retainer"
+      }
+    },
+    {
       "id": "availability:/shek-ruins",
       "kind": "availability",
       "target": "/shek-ruins",
@@ -7985,6 +8150,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shek-ruins"
+      }
+    },
+    {
+      "id": "availability:/shek-scout",
+      "kind": "availability",
+      "target": "/shek-scout",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-scout"
+      }
+    },
+    {
+      "id": "availability:/shek-warrior",
+      "kind": "availability",
+      "target": "/shek-warrior",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-warrior"
       }
     },
     {
@@ -8007,6 +8194,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shem"
+      }
+    },
+    {
+      "id": "availability:/shinobi-citizen",
+      "kind": "availability",
+      "target": "/shinobi-citizen",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shinobi-citizen"
+      }
+    },
+    {
+      "id": "availability:/shinobi-guard",
+      "kind": "availability",
+      "target": "/shinobi-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shinobi-guard"
       }
     },
     {
@@ -8098,6 +8307,28 @@
       }
     },
     {
+      "id": "availability:/shop-guard",
+      "kind": "availability",
+      "target": "/shop-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shop-guard"
+      }
+    },
+    {
+      "id": "availability:/shrieking-bandit",
+      "kind": "availability",
+      "target": "/shrieking-bandit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shrieking-bandit"
+      }
+    },
+    {
       "id": "availability:/shrieking-bandits",
       "kind": "availability",
       "target": "/shrieking-bandits",
@@ -8186,6 +8417,17 @@
       }
     },
     {
+      "id": "availability:/skeleton-bandit",
+      "kind": "availability",
+      "target": "/skeleton-bandit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-bandit"
+      }
+    },
+    {
       "id": "availability:/skeleton-bandits",
       "kind": "availability",
       "target": "/skeleton-bandits",
@@ -8194,6 +8436,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skeleton-bandits"
+      }
+    },
+    {
+      "id": "availability:/skeleton-barman",
+      "kind": "availability",
+      "target": "/skeleton-barman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-barman"
+      }
+    },
+    {
+      "id": "availability:/skeleton-civilian",
+      "kind": "availability",
+      "target": "/skeleton-civilian",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-civilian"
+      }
+    },
+    {
+      "id": "availability:/skeleton-doctor",
+      "kind": "availability",
+      "target": "/skeleton-doctor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-8",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-doctor"
       }
     },
     {
