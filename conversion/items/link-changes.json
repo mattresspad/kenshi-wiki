@@ -482,5 +482,56 @@
       "/wooden-backpack"
     ],
     "introduced": []
+  },
+  {
+    "name": "items-1",
+    "resolved": [
+      "/advanced-first-aid-kit",
+      "/advanced-splint-kit",
+      "/ai-core",
+      "/ancient-nutri-rations",
+      "/ancient-science-book",
+      "/animal-claw",
+      "/animal-horn",
+      "/animal-skin",
+      "/animal-teeth",
+      "/armour-plating",
+      "/authentic-skeleton-repair-kit",
+      "/beak-thing-egg",
+      "/birth-of-the-phoenix",
+      "/bloodrum",
+      "/blueprints",
+      "/book",
+      "/books",
+      "/bread",
+      "/cactus",
+      "/cactus-rum",
+      "/capacitor",
+      "/cats",
+      "/ceramic-bowl",
+      "/chainmail-sheets"
+    ],
+    "introduced": [
+      "/advanced-medicine-tech",
+      "/advanced-splints-tech",
+      "/automated-hybrid-mine-tech",
+      "/automated-mining-tech-tech",
+      "/category/farming",
+      "/double-barrel-harpoon-turret-tech",
+      "/edgewalkers-tech",
+      "/fully-automatic-ore-drill-tech",
+      "/harpoon-turrets-tech",
+      "/hydroponics-tech",
+      "/large-building-shells-tech",
+      "/medicine-tech",
+      "/outpost-type-tech",
+      "/revolving-barrel-harpoon-turret-tech",
+      "/rum-still",
+      "/scrap-tent",
+      "/splints-tech",
+      "/storage-robotics",
+      "/tech-level-tech",
+      "/trade-goods-trader"
+    ]
   }
 ]

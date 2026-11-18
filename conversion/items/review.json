@@ -4110,6 +4110,384 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "advanced-first-aid-kit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced First Aid Kits are medical items used to heal cutting damage on organic body parts. Players can learn how to craft this item by researching Advanced Medicine. After researching, these kits can be crafted on a Medical Workbench. This item is also equipped by high-level members of the United Cities (nearly all of the Nobles) and by Holy Lord Phoenix t",
+      "organization": "Reviewed 1 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-first-aid-kit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cc02d7d270fb2638a1d794396c2c0dd6e185547cc7f87e547a0fab050d5d7e9a"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "advanced-splint-kit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced Splint Kits are medical items used to improve functionality of injured limbs. Once applied, they help limping characters run normally, except in most extreme cases of limb damage. Players can learn how to craft this item by researching Advanced Splints. After researching, these kits can be crafted on a Medical Workbench or procured from the NPCs tha",
+      "organization": "Reviewed 1 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-splint-kit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c77de82cdceb780bca2db97f6641cb2dabcf60811c594fbd4b6dc1e9a57a9fe8"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-medical-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ai-core",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: AI Cores are needed for researching various Technologies, including Hydroponics and Tech Level 6. You need a total of 32 cores to research everything. The following research requires AI Cores: Automated Hybrid Mine (2 Cores) Automated Mining Tech (1 Core) Double-Barrel Harpoon Turret (1 Core) Durable Arms (2 Cores) Edgewalkers (4 Cores) Extra Durable Legs (2",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ai-core.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "72a31584fc6d47423e554ea0f428d79273e58d4f8ba46b34be6443a852a2c60c"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-research-totals",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ancient-nutri-rations",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ancient Nutri-Rations are a unique type of Food which exclusively spawns in Old Empire Supply Outposts, “controlled” by the Second Empire. Despite being Skeleton-dominated, the Second Empire was still capable of producing some of the most nutritious food still available for humans and their subspecies. A more common equivalent to this item is the Ration Pack",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ancient-nutri-rations.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "38c2b52b28b06f1bd4097d725f89bb7f19df46e9b5a6d50ad71be6dbfbd1e7d3"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ancient-science-book",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ancient Science Books are needed for researching various Technologies. They are a fairly common item spawned using the Artifacts system. This item is illegal in The Holy Nation faction, and thus caution is advised before entering their towns with one. The technologies written about in these books are the base which formed the foundation of the Second Empire,",
+      "organization": "Reviewed 3 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ancient-science-book.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "71ee232b109c380446262e4170867ea9e9bc38c83db30f0010598df59e8bc010"
+      },
+      "questions": [
+        "claim:item-ancient-book-respawn",
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-research-totals",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "animal-claw",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Animal Claws are an Animal product and Trade Good in Kenshi. They are obtained from unconscious or dead Skin Spiders and Skimmers. They can be sold for c.90. It’s likely bought as trophies for decoration by those who obtain these items through trade.",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/animal-claw.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5f3eedae501aa3e07c0b52c035b0017c06865c4d477440566f6b8dc670f95b39"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "animal-horn",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Animal Horns are an Animal product and Trade Good in Kenshi. They are obtained from unconscious Wild Bulls or Pack Bulls, killing them in the process. This item is not found on Domesticated Bulls.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/animal-horn.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "abcccfefa300c9e4de33f931272b52ed5ebb0048f2247672e47b998da5f75e57"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "animal-skin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Animal Skin is an item found on most fauna, it can also be ‘produced’ by using Peeler Machine. It is used primarily in the crafting of Leather at a Leather Tanning Bench for use in the creation of armour. It also can be used to build a Scrap Tent for cheap protection against acid rain. Skins can be bought from relevant traders including those in Hive Village",
+      "organization": "Reviewed 4 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/animal-skin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b0c418b686168c49293a1834e5c86c144751ff7423cf5db1996419fe59c48d10"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "animal-teeth",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Animal Teeth are an Animal product and junk item Trade Good in Kenshi. They are obtained from unconscious or dead Bonedogs or Blood Spiders. Removing this item from the creature it belongs to will result in the creature’s death. Animal teeth are likely bought as trophies for decoration by those who obtain these items through trade.",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/animal-teeth.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cba7db6bb00629707ff3c016e58f844318d6ea92a0b07b3a15e4460f3e6ab792"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "armour-plating",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Armour Plating is the primary component in producing armour. This item is specifically stored in Storage: Armour Plate and only used in crafting armour in the Heavy Armour Smithy. Armour Plating can be produced using a worker’s armour smithing skill at the Plate Beating Station. Plate Beating Station Used in Heavy Armour Smithy Location This item can be loot",
+      "organization": "Reviewed 4 section bookmarks and 37 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armour-plating.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "85311fefb3974d4b7d3e907ccde3fac16ce0bf7104d8af5ef69f039e13fdcbc1"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "authentic-skeleton-repair-kit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Authentic Skeleton Repair Kits are medical items used to heal cutting damage on robotic body parts. These kits can be stored in Storage: Robotics. The name is somewhat misleading as the standard Skeleton Repair Kit is superior both in weight and charges. This likely implies that the Western Hivers gave their inferior product a fancy name in order to boost sa",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/authentic-skeleton-repair-kit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6f81a7c2cc5bdfb202bfa3521bc527245d0d979ad63267bba6ee0e13754cab5d"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "beak-thing-egg",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Beak Thing Egg is an obscure Animal Product item. Eggs can only be found in the nests of Beak Things. They are decently valuable and can be sold to any trader. Due to the eggs’ weight and space, it is difficult to carry many of them by one character. A particularly good area to acquire these items is from Gut. Beak Thing Nests are easy to spot and plenti",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/beak-thing-egg.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8ea82981e44b816e2b1597be49a6091c519300732d389901224ce79371b7096d"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "birth-of-the-phoenix",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Birth Of The Phoenix is a book item found in The Holy Nation. This item can be found at many Holy Nation vendors. This book contains religious propaganda about Holy Lord Phoenix. Places which might stock this item: Holy Boot Shop Holy Mechanical Shop Holy Nation Bar The Great Library Barracks of both High Inquisitors The home of the Holy Lord Phoenix Barrack",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/birth-of-the-phoenix.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "121c06d449669666fa7f45a8b53eb935440c38d1c1070e9b22770b81e72d7830"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "bloodrum",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bloodrum is a commodity which is made from combining Cactus Rum with Hashish. It cannot be crafted by the player. It is considered a contraband item by United Cities and Slave Traders. Large quantities can be looted from Smugglers (Grayflayers) in the Grey Desert Waystation area. Each Smuggler carries two Bloodrum and ten units of Hashish. Trivia Many United",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bloodrum.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "380be5fe447005ea8c914b57420e24c61df1bd1726920c5e0aa68c24aa6a50d7"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "blueprints",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Blueprints are used to unlock various technologies as opposed to learning them at a Research Bench. Many technologies, specifically different types of weapons and armour, cannot be researched normally and need to be learned through blueprints. The trade-off to the new system is that while research times for these technologies are instantaneous the blueprints",
+      "organization": "Reviewed 12 section bookmarks and 32 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blueprints.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b05cdcf89ba22d2bb3915969cbcca9d4c6abca9fb2f9ad8f43adbebff4d0b205"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "book",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Book is an item and the most common of the Research Artifacts in Kenshi. It is used at a Research Bench for researching various Technologies. Books can be purchased at Adventure Traders, Construction Traders, Hive Traders, Trade Goods Traders in nearly all settlements, as well as from Wandering Caravans. They can be looted frequently from Ancient Labs, Ancie",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/book.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "28ade46582b339b49438254c544a2d5b3962b8fb16526f5f45ef7b95504f3d59"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-research-totals",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "bread",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bread is a food item purchased from bars and bakeries or created in a Bread Oven. The item can be stored in Bread Baskets in high quantities. Bread is one of the most water-efficient one-ingredient food in the game, tied with Chewsticks. 1 water = 20 Wheatstraw = 2 Wheatflour, meaning .5=10=1, each Bread requires .25 water to cook, making each unit, 30nu cos",
+      "organization": "Reviewed 3 section bookmarks and 5 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bread.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e52d5bc6a3a9b7cf8441845aa7e4f2646f5e5591be4dbe2580100317bbea1dc6"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-food-thresholds-efficiency",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cactus-rum",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cactus Rum is a trade good produced at the Rum Still. Although similar, Empty Rum Bottle items have no interactions with this item. It cannot be used as food. Rum Still History Cactus Rum initially had an icon similar to the old icon for Empty Rum Bottle. Crafting",
+      "organization": "Reviewed 2 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cactus-rum.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7ae678b022c7f457d3f11682c34844bb46d694c8b06b1bd6408c3ac929a07fd2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-trade-markups"
+      ]
+    },
+    {
+      "id": "cactus",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cactus is an inedible raw ingredient used in the crafting of Food & Cactus Rum. It can be bought from Trade Goods Traders or Holy Farm Leaders at various locations. It is grown at a Cactus Farm and must be grown in an arid Environment. Cactus Farm Used In Chewsticks Dustwich Cactus Rum History",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cactus.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5e5c45aa5bfeea24c4d5ff56e2f46c84651def16433629397b56180baec0fcbe"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "capacitor",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Capacitor is an item which can be found in ancient locations or in towns to steal. It serves no function outside of being worth a little bit of money, but even then it has quite a low value. Crafting",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/capacitor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c13668690ce29ae84c4616eb3e2a3a934cfd4b5dad817ba75385640c3c81e47d"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cats",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The monetary unit used in Kenshi is known as Cats. These can be acquired by the player from selling looted junk to merchants. They are found in their item form by looting enemies such as nobles or in containers within ancient ruins such as barrels. Although Cats do exist as their item-form within containers or within the inventories of some enemies, when loo",
+      "organization": "Reviewed 5 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cats.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1e0a7518ebfc9382ef487882073f19aecdd4cd4865530caac91bf7a3357b4d3d"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "ceramic-bowl",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ceramic Bowl is a useless junk Item: no purpose other than trading and only worth a small amount. This item can be found in Residential Buildings. When starting out, stealing this item along with other junk can help players increase their Thievery stat with little risk (if the building is empty) and reward.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ceramic-bowl.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0af8778b13201188405a977415dfc98b56291eaba278cbcc5a607e8b2b39efd4"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "chainmail-sheets",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Chainmail Sheets are manufactured at a Chainmail Sheet Fabrication Bench and used to craft armour at a Chain Armour Crafting Bench. This item can be bought from relevant traders or looted from ancient locations. Chainmail Sheet Fabrication Bench Used In Chain Armour Crafting Bench Location Can be bought at these vendors: Adventurer Mechanical Shops, Blackmar",
+      "organization": "Reviewed 3 section bookmarks and 22 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chainmail-sheets.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e40abc671380958c30586475c46a593acfb2d0e076d6a338388e8ab34b18beb2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [
