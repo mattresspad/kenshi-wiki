@@ -2022,6 +2022,400 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "dyed-turtleneck",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Dyed Turtleneck is a Light Armour Shirt which can be worn by Human and Shek characters. It can be looted from Swamp Ninja Chunin and Swamp Ninja Genin as well as the many citizens of the United Cities. As it’s stated in its name, this item can be dyed unlike its plain variant. Appearance A plain, fully-sleeved shirt of white or other colour. Crafting Unlocke",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dyed-turtleneck.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3aa7ff74faa8ea6c9a6bcc593f0ab5104fa22129205413bd611a048995dc4b24"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "empire-samurai-armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Empire Samurai Armour is a Heavy Armour that is equipped in the Body Armour slot. It is worn by Samurai Gate Guards, Samurai Gate Sergeants, Samurai Police, Police Chiefs, Noble Captains, empire noble guard— and Empire Noble Guards. It has the same stats (except for dodge mult, that is 0.1 lower) and model as the regular Samurai Armour but has the United",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-samurai-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9bbfe9b8b9fe92cfa326edea7622ecfd4a1d7d4a3eabc87a106cbe9c401a0e28"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-damage-and-modifiers",
+        "claim:item-disguise-and-storage",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "flared-helmet",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Flared Helmet is a Medium Armour that is equipped in the Headgear slot. It can be purchased from Holy Nation Hat traders and UC Armour shops. It is the uniform headgear of Samurai Conscripts. It can also be randomly worn by Drifters, Strayed Paladins, Tech Hunters, Tech Hunter Gate Guards, Tech Hunter Guards, and Tech Hunter Ruins. This armour has invent",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flared-helmet.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "99f0fef9ef63f3c469a382f68f70cd202be4b8140883e20dd9aa59f55369386b"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "fog-mask",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Fog Mask is a Light Armour that is equipped in the Headgear slot. It is the Headgear of choice of Shinobi Citizens and Ex-Servants. It can be randomly worn by Bounty Hunters as well as Shinobi Guards and can be sold by Shinobi Traders. The Fog Mask has inventory dimensions of 3x3, provides total immunity to Dust Storms and Gas Clouds, and gives incredibl",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fog-mask.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "45878f9e7edfb7b3712e420f77f38b375fe7c4902e048b314be11debee749020"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "footwear",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Footwear includes any piece of equipment of any armour class that is meant to cover the feet in the footwear slot. The only races which can equip them are Shek and Humans. However, if both original legs have been severed from their body, the slot for footwear will become unavailable. The following values assume [Standard] quality if the item has different qu",
+      "organization": "Reviewed 0 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/footwear.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "acfe4d130422b9845dd9742e6a317e6b6a5ec5dc752363c473c0484f38a48fcc"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "gi-pants",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Gi Pants are a clothing item that is equipped as legwear. It can be bought from a vendor or crafted at a Clothing Bench. They form a part of a white Gi set together with the Gi top. There’s a black version of this item called the Ninja Pants. Gi Pants are most notably worn by Crumblejon. This armour has inventory dimensions of 4x5. Appearance A White pair of",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gi-pants.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "19ee1c5f9aaffae828d2c0ce65d1b3d1a79fa3fb4f49ea4276498f047ae0fd38"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "gi",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Gi is a type of clothing that is wearable in the body armour slot. It can be worn together with white Gi Pants. This armour has inventory dimensions of 4x6. There is a black version of this item named Ninja Gi. Appearance Looks like a real life Gi. Crafting Unlocked by:Gi blueprint: 12 hours at tech level 1; the blueprint is worth c. 300.Simple Clothing Type",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gi.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c1cc8707f2926c4c495803c7611881705af76b995ff445429bfd898171787405"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "hachigane",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Hachigane, meaning “head protector”, is a Light Armour that is equipped in the Headgear slot. It can be sold in UC Armour and Hat shops, as well as Ronin Hat Shops. This headgear is exclusive to Humans. It can be randomly worn by human Anti-Slavers, Anti-Slaver Jonins, Anti-Slavers (unarmed), Drifters, Grass Pirates, Mercenaries, Mercenary Heavies, Straw",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hachigane.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d1a078b3240990f54570acf0cf43ac085d21b269e66a327a37e6715b47c540ed"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "hack-stopper-jacket",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Hack Stopper Jacket is a Medium Armour that is equipped in the Body Armour slot. It cannot be found in any shops. It is worn by Reaver Bloodeds, Reaver Ironclads and Valamon. It is worn together with matching Hack Stopper Pants. This armour has inventory dimensions of 4x6. Appearance The Hack Stopper Jacket appears to be a brown, full-body leather armour",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hack-stopper-jacket.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6d071bbb8f72f2c0bbe704f5a38f2d178376d10ddf15a5536fa7a778525ad1f5"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "hack-stopper-pants",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hack Stopper Pants are Medium Armour that are equipped on the Legwear slot. They can not be bought from shops. They are worn by the Reavers. This includes Reaver Bloodeds, Reaver Ironclads, Reaver Neophytes, Reaver Slaves, Reaver Whelps, and Valamon himself. It is often worn together with a matching body armour called the Hack Stopper Jacket. The pants are a",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hack-stopper-pants.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a1415875e65e04f199db4b74ee117e38e43d95a1fc79d466857d25429fc6fb06"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "halfpants-colored",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Halfpants (colored) are a piece of Clothing equipped in the Legwear slot. This is a colourable variation of Halfpants (ragged). Other variants of Halfpants include: padded, reinforced, and sneaky chain. This armour has inventory dimensions of 4x4. Appearance Halfpants trousers that have endured a lot of wear and tear. The pant legs are ripped and torn ar",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/halfpants-colored.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0044a5fba16316cce6616423e62391215d26d70551ca39fe061e73a48c38fbc2"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "halfpants-padded",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Halfpants [Padded] are Light Armour that is equipped in the Legwear slot. They are generally available at Clothing Traders. Other variants of Halfpants include: colored, ragged, reinforced and sneaky chain. They are worn by Caravan Trader Bosses, Hive Caravan Bosses and Territorial Thugs. This armour has inventory dimensions of 4x4. They can be crafted in th",
+      "organization": "Reviewed 4 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/halfpants-padded.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5d2fc32a6381584c73755393e5e92bcb52696247e26af7663a8fc57eb4354fbe"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "halfpants-ragged",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Halfpants (Ragged) are the base version for every other variant of Halfpants. Other variants of Halfpants include: colored, padded, reinforced, and sneaky chain. This armour has inventory dimensions of 4x4. Appearance Halfpants are khaki colored trousers that have endured a lot of wear and tear. The pant legs are ripped and torn around shin height. Other tha",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/halfpants-ragged.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "29440c85f7969287971f4d0478ebdfe03fbb874c23dcf71028ddad18bdeefb58"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "halfpants-reinforced",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Halfpants [Reinforced] are Light Armour that is equipped in the Legwear slot. They are generally available at Clothing Traders and the Swamp. They are randomly worn by Gorillo Bandits. This armour has inventory dimensions of 4x4. It can be crafted at a Clothing Bench after researching the appropriate blueprint. Appearance Halfpants [Reinforced] are ragged bl",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/halfpants-reinforced.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ec66f704f5b56a5cd28da52a86d7ec468f8847debb6d68df5b95fc8084dd70b8"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "halfpants-sneaky-chain",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Halfpants [Sneaky Chain] are Light Armour equipped in the Legwear slot. It can be bought from Clothing Shops in UC and HN towns. Other variants of Halfpants include: colored, padded, ragged and reinforced. It can be randomly equipped by Hounds, Moon Guardians, Farmers, and Bounty Hunters. This armour has inventory dimensions of 4x4. It can be crafted in the ",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/halfpants-sneaky-chain.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2a602dc892f6fcd24ed6490604ee1e89376edeefa81124dfd0209321755015c2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "headgear",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Headgear includes any piece of equipment of any armour class that is meant to cover the head in the helmet slot. Robots and Hive Soldier Drone variants are unable to equip anything in the HEAD slot. The other Hive races which allow headgear typically also have additional restrictions on which headgear can be worn, with Hive Worker Drones having the most rest",
+      "organization": "Reviewed 5 section bookmarks and 5 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/headgear.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9360a8f5916ae8de2dbc14c925ec3907b3ec9b6f56bf65d22b20e08d354dc996"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-slot-and-class-contradictions"
+      ]
+    },
+    {
+      "id": "heart-protector",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Heart Protector is a Light Armour that is equipped in the Body Armour slot. It can be sold from Armour Shops. It is commonly seen among bandits and rebels, most notably Blood Raiders, Dust Bandits, Dust Bandit Bowmen, the Dust King, Outlaw Swordsmen, Outlaw Swordsman Captains, Reaver Neophytes, and Rebel Swordsmen. It can be randomly equipped by Band of ",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heart-protector.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8219492c1c8685627bbf6d465677d6b5fb0297432a237c7147bccdd5b8840c81"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "heavy-armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Heavy Armour offers a lot of protection in exchange for maneuverability. Using heavy armour can slow your traveling speed but will also serve as good protection for tank characters which have Taunt mode on and anticipate heavy damage. While using heavy armour and heavy weapons, a character’s strength may increase, making it easier for that character to use t",
+      "organization": "Reviewed 4 section bookmarks and 4 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heavy-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9558b96e31699d84037e0c54610a263984e5ceb435e2dbabff1724a4cee60cd5"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "hive-prisoner-shackles",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hive Prisoner Shackles are shackles specifically for Hive and Skeleton prisoners since they do not have a boots slot and cannot have regular Prisoner Shackles equipped, as well as Human or Shek characters who have prosthetic legs. Though any character can wear them, regardless of race or limb status. These shackles are instead equipped in the armour slot. Th",
+      "organization": "Reviewed 2 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hive-prisoner-shackles.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3b94e4227d514a3b1276b4874e269986772f36eb231c822278bd076eb310d510"
+      },
+      "questions": [
+        "claim:item-disguise-and-storage",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "hiver-chain-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hiver Chain Shirt is a Medium Armour that is equipped in the Shirt slot. This shirt is one of the four shirt options available for Hive characters to wear in the shirt slot. This shirt may be available for purchase from Hive Villages. This armour has inventory dimensions of 4x2. There are darkened and rusted versions of this shirt. This is also the Hiver-equ",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hiver-chain-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ae9ee6beea5d2200d957732e3eb92882a16fe83fbfc18748bad97c275fc97f3e"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "holy-chest-plate",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Holy Chest Plate is a Heavy Armour that is equipped in the Body Armour slot. This item can be purchased from Holy Armour Shop. Several options of colouring of this armour exists, depending on which Holy Nation character owns them. A white (blank) version of this armour can be dyed by the player. It is the basic uniform of The Holy Nation, as such it is w",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-chest-plate.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a72acad500d3ae03c8cd170d6846b30387766079d66ddda901fab1243fe2ec46"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "holy-servant-rags",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Holy Servant Rags are a piece of Clothing that is equipped in the Body Armour slot. It is one of the multiple variations of a Rag Shirt. Despite not being black or camouflaged, it shares the same statistics as a Black Rag Shirt - including the stealth effect. It is likely that this clothing is a withered version of the Monk Robe or Dyed Robes worn down durin",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-servant-rags.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "05572b3c8890b3db232a5e05d6f02dc5e467123ff6042ee58e42833a82aacfe5"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "human-skin-suit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Human Skin Suit is a Body Armour worn by Skin Bandits. It is the perfect non-disguise, but somehow the fleshies can tell that you are a skeleton. Because for every good thing there has to be another good thing, the Skin Bandits also store another type of Human Skin clothing. Appearance Just humans being humans, doing normal human things. We are not sure why ",
+      "organization": "Reviewed 2 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/human-skin-suit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dcae0fb96df0ccadf2231d335a3b95221832b70da06f7d7509d38be3a29c0dd3"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [
