@@ -5040,6 +5040,28 @@
       }
     },
     {
+      "id": "availability:/ruka",
+      "kind": "availability",
+      "target": "/ruka",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ruka"
+      }
+    },
+    {
+      "id": "availability:/sadneil",
+      "kind": "availability",
+      "target": "/sadneil",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sadneil"
+      }
+    },
+    {
       "id": "availability:/samurai",
       "kind": "availability",
       "target": "/samurai",
@@ -5059,6 +5081,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/sand-ninjas"
+      }
+    },
+    {
+      "id": "availability:/scarred-adventurer",
+      "kind": "availability",
+      "target": "/scarred-adventurer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/scarred-adventurer"
       }
     },
     {
@@ -5172,6 +5205,17 @@
       }
     },
     {
+      "id": "availability:/seto",
+      "kind": "availability",
+      "target": "/seto",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/seto"
+      }
+    },
+    {
       "id": "availability:/settled-nomad-village",
       "kind": "availability",
       "target": "/settled-nomad-village",
@@ -5249,6 +5293,28 @@
       }
     },
     {
+      "id": "availability:/shek-adventurer",
+      "kind": "availability",
+      "target": "/shek-adventurer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-adventurer"
+      }
+    },
+    {
+      "id": "availability:/shek-engineer",
+      "kind": "availability",
+      "target": "/shek-engineer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-engineer"
+      }
+    },
+    {
       "id": "availability:/shek-kingdom",
       "kind": "availability",
       "target": "/shek-kingdom",
@@ -5257,6 +5323,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shek-kingdom"
+      }
+    },
+    {
+      "id": "availability:/shek-medic",
+      "kind": "availability",
+      "target": "/shek-medic",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-medic"
+      }
+    },
+    {
+      "id": "availability:/shek-recruit",
+      "kind": "availability",
+      "target": "/shek-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-recruit"
       }
     },
     {
@@ -5381,6 +5469,17 @@
       }
     },
     {
+      "id": "availability:/shryke",
+      "kind": "availability",
+      "target": "/shryke",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shryke"
+      }
+    },
+    {
       "id": "availability:/shun",
       "kind": "availability",
       "target": "/shun",
@@ -5389,6 +5488,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shun"
+      }
+    },
+    {
+      "id": "availability:/silvershade",
+      "kind": "availability",
+      "target": "/silvershade",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/silvershade"
+      }
+    },
+    {
+      "id": "availability:/sinklyde",
+      "kind": "availability",
+      "target": "/sinklyde",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sinklyde"
       }
     },
     {
@@ -5411,6 +5532,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skeleton"
+      }
+    },
+    {
+      "id": "availability:/skeleton-adventurer",
+      "kind": "availability",
+      "target": "/skeleton-adventurer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-adventurer"
       }
     },
     {
@@ -5488,6 +5620,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skeleton-race"
+      }
+    },
+    {
+      "id": "availability:/skeleton-recruit",
+      "kind": "availability",
+      "target": "/skeleton-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-recruit"
       }
     },
     {
@@ -5645,6 +5788,17 @@
       }
     },
     {
+      "id": "availability:/slave-escapee",
+      "kind": "availability",
+      "target": "/slave-escapee",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-escapee"
+      }
+    },
+    {
       "id": "availability:/slave-farm",
       "kind": "availability",
       "target": "/slave-farm",
@@ -5788,6 +5942,17 @@
       }
     },
     {
+      "id": "availability:/soldier-drone-swordslinger",
+      "kind": "availability",
+      "target": "/soldier-drone-swordslinger",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/soldier-drone-swordslinger"
+      }
+    },
+    {
       "id": "availability:/soldierbot",
       "kind": "availability",
       "target": "/soldierbot",
@@ -5796,6 +5961,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/soldierbot"
+      }
+    },
+    {
+      "id": "availability:/soman",
+      "kind": "availability",
+      "target": "/soman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/soman"
       }
     },
     {
@@ -6217,6 +6393,17 @@
       }
     },
     {
+      "id": "availability:/stubs-momuso",
+      "kind": "availability",
+      "target": "/stubs-momuso",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stubs-momuso"
+      }
+    },
+    {
       "id": "availability:/suspicious-lab",
       "kind": "availability",
       "target": "/suspicious-lab",
@@ -6316,6 +6503,17 @@
       }
     },
     {
+      "id": "availability:/swamper-adventurer",
+      "kind": "availability",
+      "target": "/swamper-adventurer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamper-adventurer"
+      }
+    },
+    {
       "id": "availability:/swampers",
       "kind": "availability",
       "target": "/swampers",
@@ -6324,6 +6522,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/swampers"
+      }
+    },
+    {
+      "id": "availability:/tech-hunter-adventurer",
+      "kind": "availability",
+      "target": "/tech-hunter-adventurer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-hunter-adventurer"
+      }
+    },
+    {
+      "id": "availability:/tech-hunter-recruit",
+      "kind": "availability",
+      "target": "/tech-hunter-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-hunter-recruit"
       }
     },
     {
@@ -6346,6 +6566,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/telbooze"
+      }
+    },
+    {
+      "id": "availability:/tenacious-recruit",
+      "kind": "availability",
+      "target": "/tenacious-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tenacious-recruit"
       }
     },
     {
@@ -6822,6 +7053,17 @@
       }
     },
     {
+      "id": "availability:/unfortunate-recruit",
+      "kind": "availability",
+      "target": "/unfortunate-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/unfortunate-recruit"
+      }
+    },
+    {
       "id": "availability:/unique-recruits",
       "kind": "availability",
       "target": "/unique-recruits",
@@ -7149,6 +7391,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/yabuta-outlaws"
+      }
+    },
+    {
+      "id": "availability:/yamdu",
+      "kind": "availability",
+      "target": "/yamdu",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/yamdu"
       }
     },
     {

@@ -1351,6 +1351,388 @@
         "claim:character-fcs-statistics",
         "claim:character-recruitment"
       ]
+    },
+    {
+      "id": "ruka",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Looking at my horns, flatskin? [...] Because I can still prove my worth in battle without them... I have a question for you, flatskin. What do you do if you are outnumbered on the battle field?Ruka Ruka is a free Unique Recruit. She is a Shek with no horns and can be found in a bar in any Shek Kingdom town. She has a Brave personality. If you have human or H",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ruka.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0e4b097248505ac8e0f7ca33de75fddc9012bed6e80653d98346e12ff6ba1258"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "sadneil",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'll join you. But only because I'm weak and give in easily to peer pressure... *Sigh*Sadneil Sadneil is a Skeleton Unique Recruit. They are an exceptionally depressed skeleton who will join you for free after you annoy them a bit. Sadneil can be found in the Skeleton Bar in Black Desert City. If you can’t find them, be sure to check upstairs as well. They w",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sadneil.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0d3b159f31c59dcb5b8fe980a5a2e2e253a5ea77d240b06f9053ef47c28e5afa"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "scarred-adventurer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You looking at my scar? It's rude to stare, you know... But since I'm in a cheery mood, buy me a drink and I'll tell you how I got it... Scarred Adventurer is a randomly named Unique Recruit. They are a freelance hitman who almost lost an eye while attempting to open a can with a knife. They can be hired for c.6,000. This character can be found in Eyesocket ",
+      "organization": "Reviewed 1 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/scarred-adventurer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "711628285a8bbab0f61a10eaa6bb770de53cd25eee3e4a6debaf1c4d22fda24f"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "seto",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I am Seto, heir to Kral's Kingdom. I will be the devil you fear.Seto Seto is a Unique Recruit and the daughter of the Shek Kingdom’s ruler, Queen Esata the Stone Golem. She can be given to the player provided the player has over 35 relations and imprisoned/killed either the Bugmaster or Holy Lord Phoenix, or alternatively if the player has 80 relations. They",
+      "organization": "Reviewed 6 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/seto.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "16f5416e852ffa3733d507e51dc985164ae3cbe924741cf91934e78ba28635b7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "shek-adventurer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You think I would follow a flatskin? Do not make me laugh. Shek Adventurer is a randomly named Generic Recruit available in Shek Kingdom. They can be hired for c.6,000. They will only accept offers from Skeletons or other Sheks. They have a Traitorous Personality and after recruited will have the “Player SHEK Warrior” Dialogue Package. Statistics Shek",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-adventurer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f25c7d2f119156f139b744cad1c8a5d8e77f9b9d47473b94dc904a8b5b8f1883"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "shek-engineer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'm an engineer... a good one. But within these walls, you're nothing if you can't fight.. dirt. Outside, I know I'll be respected for what I can do... so, that brings me here, looking for outside work. Shek Engineer is a randomly named Generic Recruit available in Shek Kingdom. They are a Shek Retainer looking for a way out of the Kingdom so they can work w",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-engineer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a4510169b68763f17194c717bcc9f92c00d39c3b4b1eccf7c1678f5aad763a32"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "shek-medic",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Scouting for recruits, flatskin?I'm no warrior, but I am a field medic. Shek Medic is a randomly named Generic Recruit. They are a medic looking for work. They can be hired for c.6,000. They can be found in any town controlled by the Shek Kingdom, including takeovers of Bad Teeth and Stack. They can also be recruited from Bad Teeth, Squin, and Stack when tho",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-medic.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "787adb6d32027615fd58cedec12e1dffb214cdd96ae39e01d7ab90540c7b1bd1"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "shek-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Shek Recruit is a randomly named Generic Recruit. They are a shek retainer. They have a Fearful Personality and after recruited have the “Player SHEK Warrior” Dialogue Package. They wear no armour and have weapons manufactured by Unknown. Statistics Shek",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "526bb2094b5f18fef4b72e02e3a4beeb3ff5eaa93ffbc36a2301c5096ec395e8"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "shryke",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Oh, I want to, believe me. But every single time I pluck up the courage, my dear old brother's tortured screams echo in my mind. And that's when I remember that perhaps a lack of sunlight and the odd back-pain grumble from Crumblejon isn't such a bad thing after all. Not compared to my fate that lurks in the fogs... I mean sure, its easy to throw out suggest",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shryke.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fa74048fc8fe433db6c28cbae4ec6ab4e5dd0b695ce2b17c717c0369f920096d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "silvershade",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The crowd... Can barely hear myself think in this bar... A lot of people hate crowds, but me? I love' em. Can't seem to shake the feeling of loneliness ever since I left the Hive... So it comforts me. Silvershade is a Unique Recruit. He’s a hiveless prince hanging out in a noisy bar to quell the sense of loneliness he has from being away from his hive. He’s ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/silvershade.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e90b13fc2ad8880a5682f032c4f79dd43ee6010924560a49eace382e0dbf7c17"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "sinklyde",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Sinklyde is a Unique Recruit imprisoned within Tengu’s Vault. He has a c.25,000 bounty. They wear [Shoddy] armour (5% chance of [Standard]). He has a Maniacal Personality and after recruitment will have the “Player THUG” dialogue package. Despite being a unique recruit, Sinklyde does not seem to have any unique dialogue. Statistics Shek",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sinklyde.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c913d7c6bfd736f6f5d7cdf1520439c72c51cba0ab7689b3d73d21897b83f453"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "skeleton-adventurer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Are you recruiting? If so, I'm available for 6000 Cats. Skeleton Adventurer is a randomly named Generic Recruit. They are a Skeleton recruit with no backstory. They can be hired for c.6,000. They have a random Personality and after recruited have the “Player SKELETON” Dialogue Package. They wear no armour and have weapons manufactured by Unknown. Statistics ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-adventurer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9ec3f87a94eef3a2791d2dc5f9b83035a61f6630b30cb3508319c61c7c0ab0c1"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "skeleton-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Here for recruits? I'm available for hire. 3000 Cats. Skeleton Recruit is a randomly named Generic Recruit. They are a Skeleton with no backstory. They can be hired for c.3,000. They can be found in Crab Town, Mourn, The Hub, Waystation (Grey Desert), and, depending on certain World States, in Blister Hill, Heft, Heng, or Stoat. They can also be found in Sha",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a1a52a29152723f82e1a4609f1d425baa4c08813066802dd770571b8d48d6c05"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "slave-escapee",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: ... Guess you're gonna be wanting to report me to the slavers, huh? I'm just a pitiful slave after all, ain't I?... Well, you're not sending me back there, roamer. I won't let you live to report me!... [They grab their weapon]... Slave Escapee is a randomly named Generic Recruit. They are a member of the Slaves faction. If found alone, they can be spoken to ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-escapee.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9cd99669720a2d6cf3313c63c7c522c2a3ff46f475ae47605d7622b23712c3fe"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "soldier-drone-swordslinger",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: All that work, the training, the toil, and master says to lay down my sword. These hands were made for killing. He means to waste my time! Soldier Drone Swordslinger is a randomly named Unique Recruit. They were expelled by their “master” for taking food back from thieves. They can be hired for c.7,500. They have a chance of spawning in any town controlled b",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/soldier-drone-swordslinger.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a2b0f7cdc29e2f4bac74cc01cb9bc65be567e138e7c8135b3c58ea626adc4448"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "soman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Always been pretty good with my hands, never much of a fisherman though... Was practically piecing together blueprints before I even learnt to walk. All I need is 3500 Cats to tie up some loose ends and I'm ready to go. What do you say? Soman is a Unique Recruit. She is part of a failing family business fishing with her brother. She can be found in locations",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/soman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b93d9684ec7b23199b6ae3a712b93cc03a022b5213dddf9ff15d82feb493dccc"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "stubs-momuso",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You eyeballin' me?! Stubs Momuso is a Unique Recruit. He can be found in Shark or Mud Town. He is a rare Scorchlander that comes with a Greenlander skin. He is not very good with words so he often mispronounces things, and is highly aggressive. If the player is rude to him, he may attack, but if the player accuses him of “eyeballing back”, he will branch off",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stubs-momuso.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7e5768b3f13cfa9d5c5822e0ac446cb91e8866342667c28efbabf3896495d4eb"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "swamper-adventurer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I got cut...In a fight. What more do you want me to say? I fight. I get cut. They get cut. Everyone gets cut! IT'S A BIG CUT PARTY AND I DO IT AS A MEANS OF EMPLOYMENT. YES I AM AWARE WHAT MY PARENTS MIGHT THINK...You adventure types really get on my nerves. Swamper Adventurer is a randomly named Unique Recruit. They have a scar from getting cut in a fight. ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamper-adventurer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "58d4879a7dbdcd3f6b34d24b04be140d09c6dd9c25f4e78b2c26a9f691b0c2d3"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "tech-hunter-adventurer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Adventurer Recruit is a randomly named Generic Recruit. They are a person looking for work. They can be hired for c.6,000. They have a random Personality and after recruited have the “Player TOUGH Merc” Dialogue Package. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown. Statistics Greenlander Shek Hive Prince Skele",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunter-adventurer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "eebdbf8c1c543569878e01e93885f8a1bb7831cf06a63a75df67005a5982a563"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "tech-hunter-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Let me guess! Come to gloat about your tech hunting adventures over a refreshing rum?... Save your heroics for someone who cares, I've heard it all already in this bar...Traitorous Personality Tech Hunter Recruit is a randomly named Generic Recruit. They are a tech hunter looking to join other treasure seekers. They can be hired for c.3,000. They have a rand",
+      "organization": "Reviewed 1 section bookmarks and 40 source tables; 5 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunter-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d61f2d47fe6c422ed623a13823b43b7d7978b43024ac23f86d67ca4365b0ae8c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "tenacious-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I have the tenacity of a bemused Shek. So am I hired?Smart Personality The Tenacious Recruit is a randomly named Generic Recruit available in bars in Shark, Black Scratch, Flats Lagoon, Smugglers Bar, Waystations, World’s End, The Hub. Mourn, Empire Peasants bars, Crab Town, and, depending on World States, also in Blister Hill, Heft, Heng and Stoat. They hav",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tenacious-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fdc2e25c3c1e1c14900433911fb8354684e9d94c850dd1596384a4206c0cc526"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "unfortunate-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Me? I’d prefer to bury my past and make a new story actually, brother. —Unfortunate Recruit Unfortunate Recruit is a randomly named Generic Recruit available in the United Cities. They are characters who have had some sort of unfortunate or dark past and are looking to get out of town. You can hire them for c.3,000. They have a Random Personality and after r",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/unfortunate-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fa45c5698c98309b81b8ae0cb37eb6011f12647fb322ed0bb6d62aed0ba91aa6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "yamdu",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Can I help you, sir?At your service for all membership enquiries! Yamdu is Noble Squire Supreme under his master Longen. He has a Fearful Personality. If you talk to him he will give an offer to make an alliance with the Traders Guild for c.100,000. If you have an outpost the price will be at a discount for c. 75,000. Players can also talk to Yamdu about whi",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/yamdu.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b28bab6fc042cbfeddf6c6ee0c5a0776dc7fe450a4e4d5ffcae2eeed3ae2bc42"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-yamdu-respawn"
+      ]
     }
   ],
   "editorialChanges": [

@@ -244,5 +244,37 @@
       "/category/slaves",
       "/legend-of-luquin-series"
     ]
+  },
+  {
+    "name": "recruits-4",
+    "resolved": [
+      "/ruka",
+      "/sadneil",
+      "/scarred-adventurer",
+      "/seto",
+      "/shek-adventurer",
+      "/shek-engineer",
+      "/shek-medic",
+      "/shek-recruit",
+      "/shryke",
+      "/silvershade",
+      "/sinklyde",
+      "/skeleton-adventurer",
+      "/skeleton-recruit",
+      "/slave-escapee",
+      "/soldier-drone-swordslinger",
+      "/soman",
+      "/stubs-momuso",
+      "/swamper-adventurer",
+      "/tech-hunter-adventurer",
+      "/tech-hunter-recruit",
+      "/tenacious-recruit",
+      "/unfortunate-recruit",
+      "/yamdu"
+    ],
+    "introduced": [
+      "/cargopants-padded",
+      "/stone-golems-revenge"
+    ]
   }
 ]
