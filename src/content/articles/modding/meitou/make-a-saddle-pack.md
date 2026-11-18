@@ -12,7 +12,7 @@ versions:
 categories: ["Modding", "Guides"]
 ---
 
-Give the Pack Bull in **The Wandering Trader** a saddle of its own. Meitou Transport handles mounting, steering and dismounting. You choose the animal, fit the seat, and give another player a ZIP containing just your mod. You can make this pack with a text editor and the released sample files.
+Give the [Pack Bull](/pack-bull) in **The Wandering Trader** a saddle of its own. Meitou Transport handles mounting, steering and dismounting. You choose the animal, fit the seat, and give another player a ZIP containing just your mod. You can make this pack with a text editor and the released sample files.
 
 ## Inspect Garru Saddle
 

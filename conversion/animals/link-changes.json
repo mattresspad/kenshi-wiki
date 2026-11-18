@@ -16,5 +16,16 @@
       "/elder-beak-thing",
       "/elder-crab"
     ]
+  },
+  {
+    "name": "animal-structures",
+    "resolved": [
+      "/cage-beast",
+      "/cleanser-unit",
+      "/elder-beak-thing"
+    ],
+    "introduced": [
+      "/scout-leg-right"
+    ]
   }
 ]

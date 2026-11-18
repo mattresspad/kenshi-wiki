@@ -1,0 +1,353 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "scope": "Article existence, content and organization review against the pinned import; not FCS or gameplay verification. Original-media coverage remains unassessed.",
+  "articles": [
+    {
+      "id": "bonedog",
+      "existence": "Permanent ID, registered address, source file/revision and original categories checked",
+      "content": "Territorial/scavenger behavior, 225/240/275 feeding thresholds, limb play, current-age qualification, randomization, anatomy and three damage variants retained.",
+      "organization": "Stats lead into health, anatomy, damage and spawns. Four empty spawn sections remain bookmarked; feeding and reload claims need evidence.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-feeding",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "pack-bull",
+      "existence": "Permanent ID, registered address, source file/revision and original categories checked",
+      "content": "Backpack stacks and combat penalty, distinction from Wild/Domesticated Bulls, age-scaled health, movement, death items and damage variants retained.",
+      "organization": "Equipment is introduced before statistics. Empty spawn headings retained; comparison with Pack Beast and the saddle recipe does not imply identical records.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "beak-thing",
+      "existence": "Permanent ID, registered address, source file/revision and original categories checked",
+      "content": "Region list, egg quantities, tactics, ordinary growth stages, exceptional elder ages, six speed examples and conditional nest/squad sizes retained.",
+      "organization": "Tactics precede statistics; the 1.9–2.1 spawn interval differs from the ordinary Elder growth row. Flats Lagoon town destination and regional-count wording remain questions.",
+      "questions": [
+        "claim:animal-beak-regions",
+        "claim:animal-damage-reload",
+        "claim:animal-elder-ages",
+        "claim:animal-flats-lagoon",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "elder-beak-thing",
+      "existence": "Permanent ID, registered address, source file/revision and original categories checked",
+      "content": "Exceptional 1.9–2.1 ages, 547–631 blood, 372–442 head/596–708 body ranges and speed examples retained alongside ordinary growth rows.",
+      "organization": "Death Items precedes Statistics in the source and stays there. Exceptional-age explanation must be read with the shared growth panel, not replaced by it.",
+      "questions": [
+        "claim:animal-elder-ages",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "cleanser-unit",
+      "existence": "Permanent ID, registered address, source file/revision and original categories checked",
+      "content": "Robotic oil/blood, no self-healing, renewable-core claim, 400/600/1100-day growth values, 0.65–0.9 spawn age and robo levi squad retained.",
+      "organization": "Robot metadata is kept literal. Regions contains squad explanation; no organic-life-cycle inference is made from imported growth fields.",
+      "questions": [
+        "claim:animal-cleanser-origin",
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-robot-fields",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "cage-beast",
+      "existence": "Permanent ID, registered address, source file/revision and original categories checked",
+      "content": "Removed/unimplemented status, game-file availability and proposed Garru/backpack/cage appearance retained.",
+      "organization": "Historical warning appears before the short description. No invented statistics, spawn behavior or playable release claim.",
+      "questions": []
+    },
+    {
+      "id": "fauna",
+      "existence": "Permanent ID, registered address, source file/revision and original categories checked",
+      "content": "Version 1.0.68 notice; aggressive/passive/domesticated matrices retain all 13/5/7 rows, drops, quantities, places and override markers.",
+      "organization": "One overview links to the care guide. The Image column contains repeated item icons rather than full creature portraits; artwork completeness remains open.",
+      "questions": [
+        "claim:animal-fauna-comparisons",
+        "claim:animal-fauna-media",
+        "claim:animal-flats-lagoon"
+      ]
+    },
+    {
+      "id": "guide-to-animals",
+      "existence": "Permanent ID, registered address, source file/revision and original categories checked",
+      "content": "WIP warning; behavioral groups, purchase-stat loss, vendors, feeding, healing, backpack limits, weapon matrix, exploit and needs-testing qualifications retained.",
+      "organization": "Reviewed as instructions: reader can move from risks to vendors and care, but procedural and numerical claims lack a reproducible versioned test. The named Nomad quotation remains credited.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-feeding",
+        "claim:animal-garru-provocation",
+        "claim:animal-guide-purchase"
+      ]
+    },
+    {
+      "id": "barnabus",
+      "existence": "Permanent ID, registered address, source file/revision and original categories checked",
+      "content": "Second tournament, 0.20–0.60 spawn multiplier, tactics, ganglion drops, health ranges and anatomy retained.",
+      "organization": "Stats, strategy, Death Items and health remain in order. Repeated Death Items heading/caption is mild scaffolding; its bookmark is retained.",
+      "questions": [
+        "claim:animal-barnabus-scale",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "beloved-goat",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Settler pet, Gatherer Village location, assist-on-attack behavior and comparison with Goat retained with the animal panels.",
+      "organization": "Short introduction leads to health/anatomy. No new recruitment behavior inferred from its name.",
+      "questions": [
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "black-gorillo",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Regional roster, randomization, 70/100-power attacks, no-self-healing wording and hypothetical nest qualification retained.",
+      "organization": "Normal and King variants stay distinct. Hypothetical nests and sparring/damage advice remain qualified rather than becoming live spawn instructions.",
+      "questions": [
+        "claim:animal-conditional-spawns",
+        "claim:animal-damage-reload",
+        "claim:animal-gorillo-superlatives",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "blood-spider",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Underwater pursuit, hunger-draining behavior, Miu warning, conditional 20/75, 1/9, 1/26 and 2/63 spawn chances, squad ranges and Rot override retained.",
+      "organization": "Spawns and World States remain separate. Empty Gallery recorded; conditional probabilities need source-record context.",
+      "questions": [
+        "claim:animal-conditional-spawns",
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "boneyard-wolf",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Bonefields association, speculative bear comparison, blood/health ranges and damage formulas retained.",
+      "organization": "Empty regional/spawn subsections stay bookmarked. The real-world comparison remains an interpretation, not taxonomy.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-design-intent",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "cornelius",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Goat Man quotation, trader price and discount, slowed maturation, skin-drop difference and door warning retained.",
+      "organization": "Recruitment and risks are readable before/after statistics. Price, patrol risk and special growth need a reproducible test.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-named-interactions",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "crab",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Nest/egg quantities, approximate adult price, tournament conditions, food/logistics advice and Fishman Island takeover claim retained.",
+      "organization": "Health, play style and spawns stay distinct. Empty Spawn Groups and Elder Crab sections remain gaps; King Gurgler statement joins the existing investigation.",
+      "questions": [
+        "claim:animal-conditional-spawns",
+        "claim:animal-damage-reload",
+        "claim:animal-design-intent",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "crimper",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Distinct robot/faction identities, only-King claim, hunger/oil, no-self-healing and toughness/wound-degeneration interpretation retained.",
+      "organization": "Disambiguation remains first. The robot baseline is not substituted for the named King or rescue-raid instance.",
+      "questions": [
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-robot-fields",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "domesticated-bull",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Holy Farm purchase, 1.2 strength multiplier, horn comparison, age-only speed and health ranges retained.",
+      "organization": "Four empty spawn headings remain. Variant 1 contains literal 0.0.0702; preserved and flagged rather than silently repaired.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-malformed-coefficient",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "elder-blood-spider",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Tower of Spiders exclusivity, 1.6–2.0 age, base 40 with randomization 3, anatomy and damage variants retained.",
+      "organization": "Special spawn qualification precedes standard growth panels; gameplay high-80s implication remains unverified.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "elder-crab",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Rare eastern distribution, 1.9–2.0 age and health/movement ranges retained.",
+      "organization": "Short profile ends with See also Crab. Regional wording remains vague; no new region list inferred.",
+      "questions": [
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "garru",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Credited dialogue, personality-dependent provocation, 2.1 hunger, movement, three damage variants and family/herd quantities retained.",
+      "organization": "Wild Garru stays separate from Pack Beast; empty Other Locations preserved. Conditional stopping advice needs controlled testing.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-flats-lagoon",
+        "claim:animal-garru-provocation",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "goat",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Vendor/camp distinctions, Tower of Goats 20–30 population, stats, empty spawn headings and unused-backpack-slot wording retained.",
+      "organization": "Play advice leads into statistics and locations. Developer intent about the backpack slot remains an unverified attribution.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-design-intent",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "gorillo",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "White/black distinction, variant link, United Weekly passage, anatomy, attacks and solitary spawn retained.",
+      "organization": "Speculative golden-pants interpretation remains commentary. The linked book destination stays in the existing missing-book register.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "great-white-gorillo",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Mourn Barman quote, floor-sensitive aggression, claw celebration, 1.70–1.80 age and health ranges retained.",
+      "organization": "Narrative contains location information while later spawn headings are empty; preserve bookmarks and record the organization gap.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-named-interactions",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "iron-spider",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Old Machines membership, inactive scenery warning, patrol zones, oil/health and damage variants retained.",
+      "organization": "Living/decorative distinction is retained. Robot defaults and sleeping behavior are not validated by the rendering pass.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-robot-fields",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "king",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Droneguard quotation, prison-pole interaction, rescue-raid composition, 2.40–2.50 versus 0.90–1.00 ages, XP claim and missing AI Core qualification retained.",
+      "organization": "Separate spawn contexts stay explicit; absolute solo-defeat advice and inventory-size explanation are unresolved claims.",
+      "questions": [
+        "claim:animal-conditional-spawns",
+        "claim:animal-damage-reload",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:animal-named-interactions",
+        "claim:animal-robot-fields",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "king-gorillo",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Crumbling Labs one-time spawn, no extra reward, 70/100-power attacks and exceptional combat-stat claim retained.",
+      "organization": "Profile remains separate from Great White Gorillo. Highest-stat comparison is a version-dependent assertion requiring verification.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-gorillo-superlatives",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    },
+    {
+      "id": "landbat",
+      "existence": "Permanent ID, canonical address, source provenance and category membership checked",
+      "content": "Southeastern distribution, anatomy/damage, 1–10 squad and 18–30 swarm conditions retained.",
+      "organization": "The Land Bats alias will activate with this page. Flats Lagoon town link remains a destination question.",
+      "questions": [
+        "claim:animal-damage-reload",
+        "claim:animal-flats-lagoon",
+        "claim:animal-growth-fields",
+        "claim:animal-movement",
+        "claim:race-hit-weights"
+      ]
+    }
+  ],
+  "editorialChanges": [
+    {
+      "articleId": "modding/meitou/make-a-saddle-pack",
+      "change": "Linked the existing opening Pack Bull wording to /pack-bull after transfer. No wording, steps, values or bookmarks changed.",
+      "verification": "tests/animals.spec.mjs reader journey; previous saddle-guide preservation checks"
+    }
+  ]
+}

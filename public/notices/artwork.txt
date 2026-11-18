@@ -39,3 +39,5 @@ https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a1
 
 The 48 × 32 loading screen tip marker (public/icons/talk.png) is Lo-Fi Games’ pic_PointerTalk frame from Kenshi’s UI atlas, data/gui/gfx/Kenshi_UI.png. Its region is defined in data/gui/images/kenshi_images.xml. The prototype extracted this frame unchanged with scripts/split-ui-atlas.mjs. The artwork record lists no separate redistribution permission.
 https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/notices/artwork.txt
+
+The six item-icon files used by the Animals overview were restored unchanged from the same pinned public/icons/items source. Fauna reuses them in its Image column; they do not establish complete creature portrait coverage. See conversion/animals/reference.json for SHA-256 checksums and conversion/animals/review.json for that limitation. The Lo-Fi Games artwork notice above applies.

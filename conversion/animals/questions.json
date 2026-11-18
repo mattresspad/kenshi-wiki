@@ -1,0 +1,71 @@
+[
+  [
+    "animal-malformed-coefficient",
+    [
+      "domesticated-bull"
+    ],
+    "0\\.0\\.0702",
+    "Domesticated Bull Variant 1 contains the malformed numerical token 0.0.0702.",
+    "Compare the Fandom revision history and exact animal weapon formula before editing; preserve the literal token until confirmed.",
+    "Similar Garru coefficients are suggestive but are not sufficient correction evidence."
+  ],
+  [
+    "animal-conditional-spawns",
+    [
+      "blood-spider",
+      "crab",
+      "king",
+      "black-gorillo"
+    ],
+    "20/75|1/9|1/26|2/63|King Gurgler|raid|had they existed",
+    "Conditional spawn probabilities and world-state outcomes require their original conditions and game version.",
+    "Trace exact squad/biome/override records and test leader states in isolated saves; include the existing Catun/Fishmen King Gurgler question.",
+    "Displayed fractions, hypothetical nests and rescue-raid ages are not unconditional spawn guarantees."
+  ],
+  [
+    "animal-named-interactions",
+    [
+      "cornelius",
+      "great-white-gorillo",
+      "king"
+    ],
+    "discount|15,000|celebrat|AI Core|impossible|stronger opponent",
+    "Named animals have purchase/reward/inventory/XP claims and some absolute combat advice that require observation.",
+    "Test the exact dialogue, inventory and spawn contexts with the named records; retain speaker credit and conditions.",
+    "A narrative assertion is not verified merely because its linked town and NPC now resolve."
+  ],
+  [
+    "animal-gorillo-superlatives",
+    [
+      "black-gorillo",
+      "king-gorillo"
+    ],
+    "highest total|only non-robotic|only animal weapon",
+    "Gorillo superlatives and exclusivity claims need a versioned whole-record comparison.",
+    "Compare applicable animal records and observed combat before asserting highest/only behavior.",
+    "New versions, omitted variants or distinct spawn ages may change the comparison."
+  ],
+  [
+    "animal-design-intent",
+    [
+      "goat",
+      "boneyard-wolf",
+      "crab"
+    ],
+    "intended by the devs|real-life equivalent|fish, fungi",
+    "Developer-intent, real-world resemblance and diet statements lack direct evidence in the imported prose.",
+    "Seek developer/art references for intent and distinguish feeding mechanics from descriptive diet/lore.",
+    "These statements remain attributed to the imported account, not newly established facts."
+  ],
+  [
+    "animal-garru-provocation",
+    [
+      "garru",
+      "guide-to-animals"
+    ],
+    "Smart|Maniacal|Dumb|standing still|stops moving",
+    "Garru aggression depends on movement, personality dialogue and nearby fights.",
+    "Test each dialogue personality and movement condition separately with exact records and a pinned version.",
+    "The quotation and conditional advice are preserved; universal safety cannot be inferred."
+  ]
+]

@@ -130,6 +130,42 @@
     },
     "southern-hive-worker-drone": {
       "editorialReview": "conversion/races/review.json"
+    },
+    "bonedog": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "pack-bull": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "beak-thing": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "elder-beak-thing": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "cleanser-unit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "cage-beast": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "fauna": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "guide-to-animals": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "barnabus": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
     }
   },
   "mediaGaps": [
