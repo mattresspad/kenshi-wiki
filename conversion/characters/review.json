@@ -3913,6 +3913,404 @@
         "claim:character-equipment-probability",
         "claim:character-fcs-statistics"
       ]
+    },
+    {
+      "id": "elite-droneguard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Elite Droneguards are the personal guards of the Queen of the South and can be found in Southern Hive. There can be 10 to 13 Elite Droneguards protecting the Queen. They are far more skilled than the standard Droneguard and the Armoury Droneguards. They will attack the player for trespassing. Statistics Southern Hive Soldier Drone Equipment Weapons Back slot",
+      "organization": "Reviewed 9 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/elite-droneguard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ef932fb494d0abf84432456b4f2332659cf9f0abb65f3e6584f23431edc2e377"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "elite-hunter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Allow me to introduce myself. I am one of the Empire's Elite Hunters... And I've been sent for your head.The Elite Hunters of the United Cities. Elite Hunters are the United Cities special forces. They are usually sent out to take down high value targets - these include anyone with sufficiently poor enough relations with the Empire or the Trader’s Guild. Unl",
+      "organization": "Reviewed 12 section bookmarks and 65 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/elite-hunter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3396dfe10664ce73f36b34c7043280b840df7165bf2ab3a2b05ee40b4e32e10f"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "empire-mercenary",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Empire Mercenaries are guards found within the Dancing Skeleton. They apparently hail from the United Cities, hired to maintain peace and order within in the bar on behalf of the Swampers. Statistics Greenlander Equipment Weapons Hip slot Apparel Headgear Body Shirt Legwear Footwear Inventory",
+      "organization": "Reviewed 11 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-mercenary.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "facb02e9fe00e15a2260b90b30cd4745c0768771c55b40d42be417e9212931a6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "empire-peasant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: We're in this together. So we stick together. Empire Peasants are characters that belong to the faction of the same name, and can be found in United Cities territory. They either reside in UC towns, or in small encampments in the desert. They are the underclass of the Empire, a notable number of them being Hivers. Statistics Humans Shek Hive Skeletons Greenl",
+      "organization": "Reviewed 10 section bookmarks and 62 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-peasant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6d936f875ee22d53547a3fbf14c7d6ae68d99022aced29652b3fea67251c97ae"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "error-code-0xffffff",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Master! Error Code 0xFFFFFF are skeletons found exclusively in the Reprogramming Workshop. They are members of the Broken Ones faction. They will become allies with the player upon discovery. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown and Ancient. This character can colour armour and clothing due to a colour ",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/error-code-0xffffff.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dcce3bb5e30f838ea62f22f30ac39a550f65322a77d7168f7ad0fcdc430d1d23"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-errorcode-hex",
+        "claim:character-fcs-statistics",
+        "claim:character-npc-ai-workarounds",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "errorcode-0x000000",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: POLICE! ErrorCode 0x000000 are defective Skeletons. They can be found in Dead Fishing Village and Police Barracks. Upon seeing the player, they will attack the player whilst simultaneously shouting “police!”. They are members of the Old Machines faction. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown and Ancient.",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/errorcode-0x000000.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "349096aa52d5feaf5c1bedb731788dcc36a73f037b514445ac105c7d11039b41"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-npc-ai-workarounds",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "ex-servant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ex-Servant is a character that can be found squatting in The Hub. As their name implies, they are likely to be a previously Escaped Servant that became an “Ex-Servant” after having been able to live the life as an escapee for a prolonged period of time (similar to how “Escaped Slave” status turns to “Ex-Slave” for characters that escaped slavery). They wear ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ex-servant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "eea3aa36079de14b23ead5b67131db7182fbdb7ed611241526237e692c705e08"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "farmer-preacher-cult",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Blood in dirt, give us grain...Moons almighty, make it rain! Farmers from the Preacher Cult can be found in Cult Village in the Stormgap Coast. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown. Statistics Greenlander Scorchlander Hive Prince Hive Soldier Drone",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/farmer-preacher-cult.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "39393c6763173cf96abb6092924cd890a296f03187964e1b1082360d7ee4b60c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "finch",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Finch is the leader of the Machinists. He can be found in the Faction HQ in World’s End. He has diplomatic status, meaning that if you attack him his faction will become hostile towards you. Players can talk to Finch, who will tell them that he isn’t going to share information about research artifacts which the Tech Hunters have discovered. Asking him about ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/finch.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "33e779406bc0c590e5e02654c37c71d07e5ab3556bea84b9c369a5455342e353"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "flotsam-jonin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Flotsam Jonin are veteran soldiers of the Flotsam Ninjas, they have better skills than the typical Flotsam Ninja. 3 of them can be found in Flotsam’s HQ, acting similar to Moll’s bodyguards. 1 or 2 of them will spawn in one or both Scout Posts depending on if Mani is killed or not. They have a 5% chance to spawn with a bounty ranging from c.1,000 to c.3,000 ",
+      "organization": "Reviewed 2 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flotsam-jonin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "17340c0fc69f22ba9af430138daffa43874d44149e1fd3764a73d23ea8259591"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "flotsam-ninja",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Flotsam Ninjas are the rank-and-file soldiers of Flotsam Ninjas who reside within Flotsam Village and Scout Posts. They are fast runners that are skilled in katana, martial arts and attacking, but are rather pathetic in terms of defending. They spawn in groups of 4 ~ 10 in Hidden Forest and Northern Coast. And when both Seta and Valtena are dead while Moll i",
+      "organization": "Reviewed 3 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flotsam-ninja.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3e3b89b037af18db47fbabdd0e7f3e937e8e56edb1c3b405a81c22b443a84c45"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "flotsam-refugee",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Flotsam Refugees are people who have escaped the oppression of The Holy Nation and taken refuge under Flotsam Ninjas protection. They can be found around Flotsam Village tending to farms, as well as running the Flotsam Bar and Flotsam Armory. If they have the Fearful Personality, they will refuse to trade with non-humans, begging them to turn away and leave.",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flotsam-refugee.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "89edac8f7b2ec4cdf9de18e6870dd9b5d6de1d19da75a6bca815373c53b9f09f"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "fog-heavy",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Fog Heavies are members the Fogmen faction. They are the soldier variant of the Hive Soldier Drone for the Deadhive. Fog Heavies are often found escorting a Fog Prince in groups of 3 to 5. Fog Heavies are corrupted Hive Soldier Drones. They lurk in the Fog Islands in groups and are hostile towards anyone they come across. Like all Fogmen, they will kidnap ne",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fog-heavy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "53fbd69ff392ac614a467fb5de6ae94f7fbcd86be8d9746a43b597f4c4505b0c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "fogman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Fogman is a Hive worker drone from the Fogmen faction. Fogmen are deformed Hive drones. They lurk in the Fog Islands in large groups and are hostile towards anyone they come across. They will kidnap nearby unconscious characters. Fogmen can also be found in the Tower of Fog and Deadhive Overrun. They will start appearing in Hive territories if their respec",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fogman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "20ba6debbae0fc062648188f69afb3db0de4e8203f830eab8b01556504523123"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "garret",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I ain't no slave lover. This un's just havin' a drink while he carries my baggage, that's all...Garret upon being accused of \"slave loving\" Garret is a member of the Slave Traders that can be found in the Bars of Eyesocket or Slave Markets along with his slave. Statistics Greenlander Interactions When you find Garret, he is sitting with his slave by his side",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/garret.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e9cb89e972288421b2cff590eaa3eb6b3863807443c1a100f9d7f0f96efb3ac9"
+      },
+      "questions": [
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "garrets-slave",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Garret’s slave is a unique slave that can be found in the Bars of Eyesocket or Slave Markets along with his master Garret. Statistics Greenlander",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/garrets-slave.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f805283fd8d7b9726443785896441cfa86f6aea7a76d01f3c95e5ad8da75eff3"
+      },
+      "questions": [
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "gatwood-the-soft",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Gatwood the Soft was a master of Martial Arts, as well as the founder of modern martial arts in the world of Kenshi. He is only mentioned as it is likely that Gatwood has been dead for hundreds, possibly even thousands of years. Background Nothing is known about Gatwood the Soft, it is speculated he existed before or during the Second Empire due to training ",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gatwood-the-soft.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ae9f8cb52c0e8589746874f195f4dfcfd1b27e4ff0cc6333f77076c90609a6b7"
+      },
+      "questions": [
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "general-hat-12",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: General Hat-12 was the Chief of the Second Empire’s police force. He is a member of the Second Empire and can be found in Ashland Dome IV. They wear [Masterwork] armour and have weapons manufactured by Cross. This character can colour armour and clothing due to a colour scheme attached. Removing these items from the creature will kill it instantly. Statistic",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/general-hat-12.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "69feb8ef3d40011b389d2621aea41e3c30dfe06967c2db1e30ca319b776e0fb9"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "general-jang",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: General Jang is the leader of the Hydraulic Knights of the Second Empire. He can be found in Ashland Dome III. He is known for fighting ‘pirates’ and cannibals, the latter coined him the title of “The Inedible One”. Removing either his AI Core or his CPU from his body will instantly kill him. They wear [Specialist] armour (5% chance of [Masterwork]) and have",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/general-jang.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "17080c2cc23b0f6c6bb500e1c1b586a6046b2dfd039b52da0c567d5afa7048c9"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "goat-herder",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Goat Herder is a randomly named member of the Deadcat faction. They can be found in Goat Herder’s Camp. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Greenlander Scorchlander",
+      "organization": "Reviewed 1 section bookmarks and 16 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/goat-herder.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6276c6b203866e5881214b66dc383de77b2be3ea53ec397fd37d93f772950f23"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "goat-man",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Goat Man is located in Settled Nomad Village alongside his goat, Cornelius. He is found in the Hideout building. He has an Honorable Personality and will offer to sell Cornelius to the player if he deems you worthy. His price for Cornelius is half of what the nearby Nomad Animal Trader is offering. Statistics Scorchlander",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/goat-man.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8256f0981e157970c193e4d71a62479212926adfb142a9e5c506a195cfed3104"
+      },
+      "questions": [
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "gorillo-bandit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Gorillo Bandits are members of The Gorrillo Bandits. Unlike their leader, Gorrillo, they carry no weapons and wear nearly very little armor. They can be seen in packs harassing settlements and wanderers within the Bonefields and Flats Lagoon. A defining feature of a Gorillo Bandit are their unnaturally bulky arms and hunchbacked appearance. Gorillo Bandits c",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gorillo-bandit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8630c9263edd0ea773c7473ab3f108ff8ba8b4a341cc6e47147f726237b019a1"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "grass-pirate",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Grass Pirates are members of the Grass Pirates faction. They are normally led by a Straw Lieutenant in groups of 5 - 12, patrolling the areas of Stormgap Coast, The Eye, and The Outlands. They have a 10% chance of having a bounty ranging from c.1,000 to c.3,000 with the United Cities. They wear [Shoddy] armour (15% chance of [Standard]) and have weapons manu",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/grass-pirate.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7f7e732731d9043e29301953ac0394f6275cd729557ab181e1fae96983c75a9d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "grayflayer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Grayflayers are members of the Grayflayers. They can be found in the Grayflayers Village and in Smugglers Bar. They have an Honorable Personality. They wear [Standard] armour (5% chance of [High]) and have weapons manufactured by Ancient. Statistics Greenlander Scorchlander Shek Hive Prince",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/grayflayer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "96d128a305e40731f03c7213e8d5cfb903350d6c858d58ea97f44524c804cff3"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "guild-plastic-surgeon",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Guild Plastic Surgeon is typically found within Thief watchtowers but may occasionally stand outside. They can change your characters appearance for free after you join the Shinobi Thieves by talking to the Thief Boss. They wear [Shoddy] armour (15% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Greenlander Scorchlander Hive P",
+      "organization": "Reviewed 2 section bookmarks and 40 source tables; 5 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/guild-plastic-surgeon.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2e452959f230e6c5a6c94057866ab49bbff54f074843641e8d71748efefb4213"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-npc-ai-workarounds",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
     }
   ],
   "editorialChanges": [

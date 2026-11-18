@@ -2609,6 +2609,28 @@
       }
     },
     {
+      "id": "availability:/elite-droneguard",
+      "kind": "availability",
+      "target": "/elite-droneguard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/elite-droneguard"
+      }
+    },
+    {
+      "id": "availability:/elite-hunter",
+      "kind": "availability",
+      "target": "/elite-hunter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/elite-hunter"
+      }
+    },
+    {
       "id": "availability:/ells",
       "kind": "availability",
       "target": "/ells",
@@ -2639,6 +2661,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/empire-adventurer"
+      }
+    },
+    {
+      "id": "availability:/empire-mercenary",
+      "kind": "availability",
+      "target": "/empire-mercenary",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-mercenary"
+      }
+    },
+    {
+      "id": "availability:/empire-peasant",
+      "kind": "availability",
+      "target": "/empire-peasant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-peasant"
       }
     },
     {
@@ -2708,6 +2752,28 @@
       }
     },
     {
+      "id": "availability:/error-code-0xffffff",
+      "kind": "availability",
+      "target": "/error-code-0xffffff",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/error-code-0xffffff"
+      }
+    },
+    {
+      "id": "availability:/errorcode-0x000000",
+      "kind": "availability",
+      "target": "/errorcode-0x000000",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/errorcode-0x000000"
+      }
+    },
+    {
       "id": "availability:/esata-the-stone-golem",
       "kind": "availability",
       "target": "/esata-the-stone-golem",
@@ -2749,6 +2815,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/espher"
+      }
+    },
+    {
+      "id": "availability:/ex-servant",
+      "kind": "availability",
+      "target": "/ex-servant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ex-servant"
       }
     },
     {
@@ -2906,6 +2983,17 @@
       }
     },
     {
+      "id": "availability:/farmer-preacher-cult",
+      "kind": "availability",
+      "target": "/farmer-preacher-cult",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/farmer-preacher-cult"
+      }
+    },
+    {
       "id": "availability:/farmer-recruit",
       "kind": "availability",
       "target": "/farmer-recruit",
@@ -2947,6 +3035,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fighter-recruit"
+      }
+    },
+    {
+      "id": "availability:/finch",
+      "kind": "availability",
+      "target": "/finch",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/finch"
       }
     },
     {
@@ -3093,6 +3192,28 @@
       }
     },
     {
+      "id": "availability:/flotsam-jonin",
+      "kind": "availability",
+      "target": "/flotsam-jonin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flotsam-jonin"
+      }
+    },
+    {
+      "id": "availability:/flotsam-ninja",
+      "kind": "availability",
+      "target": "/flotsam-ninja",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flotsam-ninja"
+      }
+    },
+    {
       "id": "availability:/flotsam-ninjas",
       "kind": "availability",
       "target": "/flotsam-ninjas",
@@ -3112,6 +3233,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/flotsam-recruit"
+      }
+    },
+    {
+      "id": "availability:/flotsam-refugee",
+      "kind": "availability",
+      "target": "/flotsam-refugee",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flotsam-refugee"
       }
     },
     {
@@ -3170,6 +3302,17 @@
       }
     },
     {
+      "id": "availability:/fog-heavy",
+      "kind": "availability",
+      "target": "/fog-heavy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fog-heavy"
+      }
+    },
+    {
       "id": "availability:/fog-islands",
       "kind": "availability",
       "target": "/fog-islands",
@@ -3189,6 +3332,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fog-prince"
+      }
+    },
+    {
+      "id": "availability:/fogman",
+      "kind": "availability",
+      "target": "/fogman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fogman"
       }
     },
     {
@@ -3302,6 +3456,28 @@
       }
     },
     {
+      "id": "availability:/garret",
+      "kind": "availability",
+      "target": "/garret",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/garret"
+      }
+    },
+    {
+      "id": "availability:/garrets-slave",
+      "kind": "availability",
+      "target": "/garrets-slave",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/garrets-slave"
+      }
+    },
+    {
       "id": "availability:/garru",
       "kind": "availability",
       "target": "/garru",
@@ -3321,6 +3497,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/gatherer-village"
+      }
+    },
+    {
+      "id": "availability:/gatwood-the-soft",
+      "kind": "availability",
+      "target": "/gatwood-the-soft",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gatwood-the-soft"
+      }
+    },
+    {
+      "id": "availability:/general-hat-12",
+      "kind": "availability",
+      "target": "/general-hat-12",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/general-hat-12"
+      }
+    },
+    {
+      "id": "availability:/general-jang",
+      "kind": "availability",
+      "target": "/general-jang",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/general-jang"
       }
     },
     {
@@ -3368,6 +3577,17 @@
       }
     },
     {
+      "id": "availability:/goat-herder",
+      "kind": "availability",
+      "target": "/goat-herder",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/goat-herder"
+      }
+    },
+    {
       "id": "availability:/goat-herders-camp",
       "kind": "availability",
       "target": "/goat-herders-camp",
@@ -3379,6 +3599,17 @@
       }
     },
     {
+      "id": "availability:/goat-man",
+      "kind": "availability",
+      "target": "/goat-man",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/goat-man"
+      }
+    },
+    {
       "id": "availability:/gorillo",
       "kind": "availability",
       "target": "/gorillo",
@@ -3387,6 +3618,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/gorillo"
+      }
+    },
+    {
+      "id": "availability:/gorillo-bandit",
+      "kind": "availability",
+      "target": "/gorillo-bandit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gorillo-bandit"
       }
     },
     {
@@ -3423,6 +3665,17 @@
       }
     },
     {
+      "id": "availability:/grass-pirate",
+      "kind": "availability",
+      "target": "/grass-pirate",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/grass-pirate"
+      }
+    },
+    {
       "id": "availability:/grass-pirates",
       "kind": "availability",
       "target": "/grass-pirates",
@@ -3431,6 +3684,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/grass-pirates"
+      }
+    },
+    {
+      "id": "availability:/grayflayer",
+      "kind": "availability",
+      "target": "/grayflayer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/grayflayer"
       }
     },
     {
@@ -3607,6 +3871,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/guide-to-faction-relations"
+      }
+    },
+    {
+      "id": "availability:/guild-plastic-surgeon",
+      "kind": "availability",
+      "target": "/guild-plastic-surgeon",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/guild-plastic-surgeon"
       }
     },
     {

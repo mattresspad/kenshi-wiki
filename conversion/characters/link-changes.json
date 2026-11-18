@@ -527,5 +527,41 @@
       "/category/free-traders",
       "/halfpants-colored"
     ]
+  },
+  {
+    "name": "npcs-3",
+    "resolved": [
+      "/elite-droneguard",
+      "/elite-hunter",
+      "/empire-mercenary",
+      "/empire-peasant",
+      "/error-code-0xffffff",
+      "/errorcode-0x000000",
+      "/ex-servant",
+      "/farmer-preacher-cult",
+      "/finch",
+      "/flotsam-jonin",
+      "/flotsam-ninja",
+      "/flotsam-refugee",
+      "/fog-heavy",
+      "/fogman",
+      "/garret",
+      "/garrets-slave",
+      "/gatwood-the-soft",
+      "/general-hat-12",
+      "/general-jang",
+      "/goat-herder",
+      "/goat-man",
+      "/gorillo-bandit",
+      "/grass-pirate",
+      "/grayflayer",
+      "/guild-plastic-surgeon"
+    ],
+    "introduced": [
+      "/cpu-of-general-jang",
+      "/melee-defense",
+      "/monk-pants",
+      "/nobles-wrath"
+    ]
   }
 ]
