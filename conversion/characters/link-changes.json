@@ -674,5 +674,41 @@
       "/mighty-canhead-event",
       "/police-armour"
     ]
+  },
+  {
+    "name": "npcs-7",
+    "resolved": [
+      "/police-sergeant",
+      "/prince",
+      "/protector-of-the-flame",
+      "/psycho",
+      "/quin",
+      "/razor",
+      "/reaver-blooded",
+      "/reaver-ironclad",
+      "/reaver-neophyte",
+      "/reaver-slave",
+      "/reaver-whelp",
+      "/rebel-captain",
+      "/rebel-fighter",
+      "/rebel-swordsman",
+      "/rebel-swordsman-veteran",
+      "/rebirth-slave",
+      "/red-sabre",
+      "/rhinobot",
+      "/royal-soldier-drone",
+      "/sabina",
+      "/samurai-captain",
+      "/samurai-conscript",
+      "/samurai-elite",
+      "/samurai-gate-guard",
+      "/samurai-gate-sergeant"
+    ],
+    "introduced": [
+      "/category/recruits",
+      "/cpu-of-rhinobot",
+      "/crossbow-class",
+      "/samurai-lord"
+    ]
   }
 ]

@@ -6734,6 +6734,17 @@
       }
     },
     {
+      "id": "availability:/police-sergeant",
+      "kind": "availability",
+      "target": "/police-sergeant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/police-sergeant"
+      }
+    },
+    {
       "id": "availability:/ponk",
       "kind": "availability",
       "target": "/ponk",
@@ -6844,6 +6855,17 @@
       }
     },
     {
+      "id": "availability:/prince",
+      "kind": "availability",
+      "target": "/prince",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/prince"
+      }
+    },
+    {
       "id": "availability:/prisoner",
       "kind": "availability",
       "target": "/prisoner",
@@ -6852,6 +6874,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/prisoner"
+      }
+    },
+    {
+      "id": "availability:/protector-of-the-flame",
+      "kind": "availability",
+      "target": "/protector-of-the-flame",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/protector-of-the-flame"
+      }
+    },
+    {
+      "id": "availability:/psycho",
+      "kind": "availability",
+      "target": "/psycho",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/psycho"
       }
     },
     {
@@ -6874,6 +6918,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/queen-of-the-south"
+      }
+    },
+    {
+      "id": "availability:/quin",
+      "kind": "availability",
+      "target": "/quin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/quin"
       }
     },
     {
@@ -6965,6 +7020,28 @@
       }
     },
     {
+      "id": "availability:/razor",
+      "kind": "availability",
+      "target": "/razor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/razor"
+      }
+    },
+    {
+      "id": "availability:/reaver-blooded",
+      "kind": "availability",
+      "target": "/reaver-blooded",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/reaver-blooded"
+      }
+    },
+    {
       "id": "availability:/reaver-camp",
       "kind": "availability",
       "target": "/reaver-camp",
@@ -6998,6 +7075,50 @@
       }
     },
     {
+      "id": "availability:/reaver-ironclad",
+      "kind": "availability",
+      "target": "/reaver-ironclad",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/reaver-ironclad"
+      }
+    },
+    {
+      "id": "availability:/reaver-neophyte",
+      "kind": "availability",
+      "target": "/reaver-neophyte",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/reaver-neophyte"
+      }
+    },
+    {
+      "id": "availability:/reaver-slave",
+      "kind": "availability",
+      "target": "/reaver-slave",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/reaver-slave"
+      }
+    },
+    {
+      "id": "availability:/reaver-whelp",
+      "kind": "availability",
+      "target": "/reaver-whelp",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/reaver-whelp"
+      }
+    },
+    {
       "id": "availability:/reavers",
       "kind": "availability",
       "target": "/reavers",
@@ -7020,6 +7141,17 @@
       }
     },
     {
+      "id": "availability:/rebel-captain",
+      "kind": "availability",
+      "target": "/rebel-captain",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rebel-captain"
+      }
+    },
+    {
       "id": "availability:/rebel-farmers",
       "kind": "availability",
       "target": "/rebel-farmers",
@@ -7028,6 +7160,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/rebel-farmers"
+      }
+    },
+    {
+      "id": "availability:/rebel-fighter",
+      "kind": "availability",
+      "target": "/rebel-fighter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rebel-fighter"
+      }
+    },
+    {
+      "id": "availability:/rebel-swordsman",
+      "kind": "availability",
+      "target": "/rebel-swordsman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rebel-swordsman"
+      }
+    },
+    {
+      "id": "availability:/rebel-swordsman-veteran",
+      "kind": "availability",
+      "target": "/rebel-swordsman-veteran",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rebel-swordsman-veteran"
       }
     },
     {
@@ -7050,6 +7215,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/rebirth"
+      }
+    },
+    {
+      "id": "availability:/rebirth-slave",
+      "kind": "availability",
+      "target": "/rebirth-slave",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rebirth-slave"
       }
     },
     {
@@ -7130,6 +7306,17 @@
       }
     },
     {
+      "id": "availability:/red-sabre",
+      "kind": "availability",
+      "target": "/red-sabre",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/red-sabre"
+      }
+    },
+    {
       "id": "availability:/red-sabre-boss",
       "kind": "availability",
       "target": "/red-sabre-boss",
@@ -7182,6 +7369,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/reva"
+      }
+    },
+    {
+      "id": "availability:/rhinobot",
+      "kind": "availability",
+      "target": "/rhinobot",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rhinobot"
       }
     },
     {
@@ -7306,6 +7504,17 @@
       }
     },
     {
+      "id": "availability:/royal-soldier-drone",
+      "kind": "availability",
+      "target": "/royal-soldier-drone",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/royal-soldier-drone"
+      }
+    },
+    {
       "id": "availability:/royal-valley",
       "kind": "availability",
       "target": "/royal-valley",
@@ -7361,6 +7570,17 @@
       }
     },
     {
+      "id": "availability:/sabina",
+      "kind": "availability",
+      "target": "/sabina",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sabina"
+      }
+    },
+    {
       "id": "availability:/sadneil",
       "kind": "availability",
       "target": "/sadneil",
@@ -7380,6 +7600,61 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/samurai"
+      }
+    },
+    {
+      "id": "availability:/samurai-captain",
+      "kind": "availability",
+      "target": "/samurai-captain",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-captain"
+      }
+    },
+    {
+      "id": "availability:/samurai-conscript",
+      "kind": "availability",
+      "target": "/samurai-conscript",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-conscript"
+      }
+    },
+    {
+      "id": "availability:/samurai-elite",
+      "kind": "availability",
+      "target": "/samurai-elite",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-elite"
+      }
+    },
+    {
+      "id": "availability:/samurai-gate-guard",
+      "kind": "availability",
+      "target": "/samurai-gate-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-gate-guard"
+      }
+    },
+    {
+      "id": "availability:/samurai-gate-sergeant",
+      "kind": "availability",
+      "target": "/samurai-gate-sergeant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-gate-sergeant"
       }
     },
     {

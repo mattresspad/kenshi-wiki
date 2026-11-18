@@ -5494,6 +5494,404 @@
         "claim:character-stat-associations",
         "claim:character-world-state-conditions"
       ]
+    },
+    {
+      "id": "police-sergeant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Police Sergeant is a higher-leveled version of the Samurai Police, generally residing in police stations in the United Cities. Has EXTREMELY high detection of characters with any bounty, on par with bounty hunters. This character wears a Faction Uniform, meaning any looted armour will be tagged as a Disguise. Statistics Greenlander",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/police-sergeant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f1e6f899ad222b079976d4f2991c9f55a46eb51972d290a496b9190a1008f8e2"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "prince",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is about Southern Hive Prince characters. For the generic prince race, see Hive Prince. Sacrifice!Prince Princes of the Southern Hive can be found in locations controlled by the Southern Hive and leading patrol squads. They are accompanied by a group of Droneguards. They patrol Greyshelf, Royal Valley, and Stobe’s Gamble. They also lead war part",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/prince.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2e6515b0cee40dab06b89eeb51a5562a0bb76c19532785ae777091155c06e633"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "protector-of-the-flame",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This, is The Lord incarnate. You will not approach without summon, my brother.Step away from the Holy Lord Phoenix Himself, blessed be his name.The Protector, upon approach of a human male. The Protector of the Flame is an elite Paladin of The Holy Nation tasked with protecting the Holy Lord Phoenix in his throne room at Blister Hill. He can be differentiate",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/protector-of-the-flame.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "73b480dd453359baab2043baa4ed3cd736468c26ab413adf3b6430f981eab9fc"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-npc-ai-workarounds"
+      ]
+    },
+    {
+      "id": "psycho",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Disembowling Humans.Psycho, when asked what he is in for by a human player character Psycho is an Outlaw being held prisoner in Tengu’s Vault. He has a Crazy Personality with a rather impressive level of Martial Arts. Freeing him will result in him simply retreating. They wear [Shoddy] armour (5% chance of [Standard]). Statistics Greenlander Trivia In Psycho",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/psycho.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c56260d87745a2a857177687c20d154ab87372a722d77393a09ef86ea4046188"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "quin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Welcome, dear human, and please excuse the mess. Anything shiny, Dack hoards. A simpleton really. I'm sure his mind was fried when he got hit on the head back in the cha- uh... back some time ago...Quin, talking to a human customer Quin is a member of the Skeletons faction. He is located in the Scraphouse: the big ancient factory next to Black Desert City. H",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/quin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ff31bdefdc8744015367fc5428b6167d40cb9d9372582aee3a4eba37d34ad194"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "razor",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Razor is a hiver with a bounty of c.10.000 on his head from the United Cities. He can be found in the bar in Black Desert City, being notably the only non-Skeleton character inside the entire town. They wear no armour and have weapons manufactured by Catun Scrapmaster. Statistics Hive Soldier Drone",
+      "organization": "Reviewed 1 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/razor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9f9536106192f0d271a58fc315b5237d0cfc69b530c3345a8c56af4019222924"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "reaver-blooded",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Reaver Blooded is the main force of the Reavers. They can be found patrolling Greenbeach, Stobe’s Garden, The Crags, The Outlands, and The Pits East. They can also be found in Ark and in Reaver Camps. Reaver Bloodeds will enslave any nearby unconscious characters. These characters have a 25% chance of spawning with a crossbow. They wear [Shoddy] armour (20% ",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/reaver-blooded.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fb368921663e4bdef6cbb3f3a01a935860f89f5afc755be7bae9646c94841ed1"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "reaver-ironclad",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Reaver Ironclads are the toughest members of the Reavers, aside from Valamon himself. They can be found leading groups of Reaver Bloodeds in patrols in Greenbeach, Stobe’s Garden, The Crags, The Outlands, and The Pits East. They can also be found in Ark and in Reaver Camps. Reaver Ironclads will enslave any nearby unconscious characters. They wear [Standard]",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/reaver-ironclad.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c0b3cc531398754ab1e6fb675d6237f28de90b278aa43fd4d5da03cc58a5785d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "reaver-neophyte",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Reaver Neophyte is one of the weaker members of the Reavers faction. They can be found in Ark and in Reaver Camps. These characters have a 10% chance of spawning with a crossbow. They wear [Shoddy] armour (20% chance of [Standard]) and have weapons manufactured by Ancient, Unknown, or Catun Scrapmaster. Statistics Greenlander Scorchlander Shek",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/reaver-neophyte.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "393fe644f5dfc6fe6f6ca4ffd9fcce0eff7c4418692d0fb1bcd05e3ce1de8f9e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "reaver-slave",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'm surrounded by psychopaths... Oh god I'm surrounded by psychopaths...Meatshield Reaver Slaves are the unreliable whelps of the Reavers. Reaver Slaves are members of the Vagrants faction. They can be found in small groups accompanying squads of Blooded and Ironclads, serving as their meat shields during fights, or locked in cages within Reaver Camps or Ark",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/reaver-slave.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1857bd0fc9ca00419fc791743df5aa82b3a48b3d24e23fe718dc057550f8e885"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-npc-ai-workarounds",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "reaver-whelp",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Reaver Whelps are indoctrinated slaves of the Reavers. They can be found in Ark and in Reaver Camps. They wear [Shoddy] armour (10% chance of [Standard]) and have weapons manufactured by Ancient or Unknown. Statistics Greenlander Scorchlander Shek",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/reaver-whelp.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4cd8ff3954cea99762f972b5dcc9e0e85887d3b58a625a7c66e8b76997f1d569"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "rebel-captain",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: We're rebuilding the pieces of our nation... Slowly.Rebel Captain Rebel Captains are the strongest members of the Rebel Swordsmen. They act as patrol leaders and gate guards of towns controlled by the Empire Peasants in the northeastern territories. They spawn with a bounty ranging from c.2,500 to c.3,500. They wear [Standard] armour (5% chance of [High]) an",
+      "organization": "Reviewed 2 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rebel-captain.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "345d1152b01fd9a2e793ee7f3f1963d2be8916fd0b1f7e9b9785f773076b1339"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "rebel-fighter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Rebel Fighters are members of the Rebel Swordsmen faction. They appear as patrols and guards of towns controlled by the Empire Peasants in the northeastern territories. They have a 20% chance to spawn with a crossbow. They wear [Shoddy] armour (25% chance of [Standard]) and have weapons manufactured by Ancient. They have a 10% chance to spawn with a bounty r",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rebel-fighter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "18c7006b22266eae09e192374a020fc3109930826de9f636d51fcfcaccfc0965"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "rebel-swordsman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Rebel Swordsmen are members of the Rebel Swordsmen faction. They appear as guards and patrols of towns fully controlled by Empire Peasants in the northeastern territories. If the local noble of a town is killed but Emperor Tengu is still alive(conditions vary by town), then Rebel Swordsmen along with Outlaw Farmers show up in force to assault the town and po",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rebel-swordsman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c909bca7ff25dbee1b50703bc294481c973ce130877e475a266d73b0b0c6d1da"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "rebel-swordsman-veteran",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Rebel Swordsman Veteran is a member of the Rebel Swordsmen faction. They appear as guards in towns controlled by Empire Peasants in the northeastern territories. They have a 10% chance to spawn with a bounty ranging from c.300 to c.1,300. They wear [Standard] armour (5% chance of [High]) and have weapons manufactured by Ancient or Catun Scrapmaster. Stat",
+      "organization": "Reviewed 1 section bookmarks and 32 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rebel-swordsman-veteran.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b8d7261ab7ced0e4ff2d5a9e2aec406b001c73625254d488e48ccd9a8d2436f4"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "rebirth-slave",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This character can colour armour and clothing due to a colour scheme attached. Statistics Humans Shek Hive Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Hive Worker Drone",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rebirth-slave.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7f377a8c19099f967730d16f79f34d29b9e47861736c1bd4b4a68ced90f8a3f4"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-rebirth-slave-context",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "red-sabre",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Red Sabre is a member of the Red Sabres faction. They can typically be found wandering the Swamp or in their base, the Red Sabre Hideout. They wear [Shoddy] armour (10% chance of [Standard]) and have weapons manufactured by Ancient. This character can colour armour and clothing due to a colour scheme attached to their faction. The colour is also separate",
+      "organization": "Reviewed 1 section bookmarks and 24 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/red-sabre.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "94ab02821c34f1c9c8cd6f639a31caf39d141faf3c05c18c718c67e0582c0ada"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "rhinobot",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Rhinobot just wanted to help, but he had no moral processing, and so would help with anything, even the most diabolical evil. He didn't see anything wrong with his child prisons.CPU of Rhinobot Rhinobot is a Skeleton who was a notable member of the (now defunct) Second Empire. He can be found in Ashland Dome II alongside 7 or 8 Screamer Units. He carries a M",
+      "organization": "Reviewed 2 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rhinobot.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dcbd53c22ddd9d56aa878bc41b361934ba58ad601ba787c08d1f0b923c628f09"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "royal-soldier-drone",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ngaaah!Protect the queen!This can't be happening! Royal Soldier Drones can be found protecting The Queen in the village Western Hive and are part of the Western Hive faction. Upon entering the Hill Hut located atop the village they will rush over to you and demand you to leave. Any harm to the Queen will see you facing all nearby Drones**.** Despite their na",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/royal-soldier-drone.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3a91b350b108727f56bcad81fca5eb3453af1a5dbfd40bffc0ca60160ecb9ff7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "sabina",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Sabina was an author that wrote the books Mass Extinction II, The Lost Ancients II, and Okranite Theories In Relation To Findings I. Little is known about Sabina since Sabina doesn’t exist as an NPC that players can interact with, however, it’s likely that Sabina was a Machinist and that Sabina is possibly dead (hence the lack of an NPC). Sabina’s is cited b",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sabina.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "edacf8a6fab2cb389636909e9f2b37cadfc34f0438ea0a888c4da73ceaac2cdb"
+      },
+      "questions": [
+        "claim:character-historical-lore",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "samurai-captain",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Samurai Captains are elite officers in the United Cities armies. They can be found leading groups of Samurai Heavies in patrolling towns or serving as barracks’ leaders. They can also be found guarding important figures such as Longen and Emperor Tengu, alongside squads of Samurai Elites and Jonin Elites. One Samurai Captain accompanies Eyegore into battle. ",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-captain.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "85ce16a62fe8372612e5eec4240aef2ae70275b98f06a9415f12fa3a0dfe7c47"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "samurai-conscript",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Samurai Conscripts are low-ranking foot soldiers that make up a decent portion of the armies for the United Cities. The Traders Guild rarely uses conscription as well. They are typically led by Samurai Sergeants on patrols throughout the wastelands. Sometimes they can also spawn as guards of Empire General Storage and UC barracks. Lord Inaba, the noble gover",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-conscript.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c5e067a1665841a449b3e4f663b7d996d9e12496957f563fa9269245a81b7035"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "samurai-elite",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Samurai Elites are fearsome soldiers serving in the United Cities armies. These Samurai can exclusively be found guarding Emperor Tengu in the Faction Throne in Heft (and notably, exclusively Scorchlanders). They have extremely high combat stats, making them deadlier than even the Elite Hunters. There are in total 5 of them guarding Emperor Tengu under defau",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-elite.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "705a726a47b5d8b679e214f02c3a633794cdc6b1a0c121598c122d260f89ea48"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "samurai-gate-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Samurai Gate Guards are well-equipped static sentries for the United Cities that protect the entrances to their towns, including small villages. Their sergeants sometimes stop travelers to check for contraband. It is likely that they are veteran Samurai that earned the rank to be a gate guard given their title and similar but slightly stronger stats. Gate gu",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-gate-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4887f9d8b17673bbf1894ac6f7668b6c9d469b47360bc602942addba9d2d770a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "samurai-gate-sergeant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: All visitors need to be checked for contraband before entry into town, outlander. I need to check your inventory.Sergeant performing a check. Samurai Gate Sergeants are well-equipped static sentries for the United Cities that protect the entrances to their towns and lead the Samurai Gate Guards stationed there. They sometimes stop travelers to check for cont",
+      "organization": "Reviewed 2 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-gate-sergeant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "96ecea41e1fd5f361d76f751b20f4c9580bf18015debb5d0a9a1a627b4024814"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-stat-associations"
+      ]
     }
   ],
   "editorialChanges": [
