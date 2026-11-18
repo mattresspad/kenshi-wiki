@@ -1,8 +1,10 @@
 ---
-const {title, groups, href} = Astro.props;
+const {title, groups, href, image, caption} = Astro.props;
 ---
 <aside class="factbox" aria-label={title + ' facts'}>
   <h2>{title}</h2>
+  {image && <img class="fact-image" src={image.src} alt={image.alt} width="128" height="128"/>}
+  {caption && <p class="fact-caption">{caption}</p>}
   {groups.map(group => <>
     {group.heading && <h3>{group.heading}</h3>}
     <dl>{group.rows.map(([label, ...parts]) => <>

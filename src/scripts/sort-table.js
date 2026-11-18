@@ -15,6 +15,7 @@ for (const table of document.querySelectorAll('table[data-sortable]')) {
   if (!body || [...body.rows].some(row => [...row.cells].some(cell => cell.rowSpan !== 1))) continue;
 
   for (const header of headers) {
+    if(header.classList.contains('unsortable'))continue;
     const name = header.innerText.replace(/\s+/g, ' ').trim();
     const button = document.createElement('button');
     button.type = 'button';

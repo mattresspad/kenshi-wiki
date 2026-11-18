@@ -1,0 +1,13 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {execFileSync} from 'node:child_process';import {dirname,join,resolve} from 'node:path';
+const get=p=>JSON.parse(fs.readFileSync(p)),root=resolve('.');assert.equal(root.replaceAll('\\','/').toLowerCase(),'d:/neoecosystem/freshwiki/site');
+assert.ok(!fs.existsSync('reports/items/pause-before-next-batch'),'Paused at an accepted boundary for a presentation fix');
+const name=process.argv[2],roster=get('conversion/items/roster.json'),checkpoint=get('conversion/items/checkpoint.json'),accepted=get('conversion/items/acceptances.json'),batch=roster.batches[checkpoint.included];
+assert.equal(batch?.name,name,'Unexpected batch');assert.equal(accepted.length,checkpoint.included,'Accept the preceding batch first');assert.ok(fs.existsSync('reports/items/reviews/'+name+'.json'),'Inspect the audit before transfer');
+const run=(exe,args)=>execFileSync(exe,args,{cwd:root,stdio:'inherit',env:{...process.env,ASTRO_TELEMETRY_DISABLED:'1'}}),node=args=>run(process.execPath,args),git=args=>run('git',['-c','safe.directory='+root,...args]);
+assert.equal(execFileSync('git',['branch','--show-current'],{encoding:'utf8'}).trim(),'rebuild/restoration');
+node(['scripts/items/intake.mjs','transfer','D:/THE-ONLY-KENSHI-WIKI-CHECKOUT-FOLDER-LOCATION/homepage-polish','reports/geography-work/reference-83abc179',name]);
+git(['add','src/content/articles/items','public/icons/items']);git(['commit','-m','content(items): transfer '+name+' from pinned source']);
+node(['scripts/items/record-review.mjs',name]);node(['scripts/items/review.mjs']);
+run(process.execPath,[join(dirname(process.execPath),'node_modules/npm/bin/npm-cli.js'),'run','items:accept']);
+node(['scripts/gaps/record-resolutions.mjs','items']);
+git(['add','.']);git(['commit','-m','docs(items): accept '+name+' and retain review findings']);

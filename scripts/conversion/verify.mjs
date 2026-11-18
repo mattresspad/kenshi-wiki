@@ -26,7 +26,7 @@ export function verifyFamily(name, atlas, assetRedirects) {
   }
   for(const id of actual) {
     const record=atlas.byId.get(id),html=readFileSync('dist'+record.path+'.html','utf8'),$=load(html);
-    const expected=fixture.articles[id],proof=articleEvidence(html,false);
+    const expected=fixture.articles[id],proof=articleEvidence(html,false,name==='items'?'item':false);
     for(const key of Object.keys(expected)) assert.deepEqual(proof[key],expected[key],id+' — '+key);
     assert.deepEqual(record.categories,original.get(id).categories,id+' categories');
     assert.equal($('link[rel=canonical]').attr('href'),'https://kenshi.wiki'+record.path);
@@ -34,7 +34,7 @@ export function verifyFamily(name, atlas, assetRedirects) {
     assert.deepEqual($('.import-history a').toArray().map(a=>a.attribs.href),[
       fandom+'?oldid='+record.source.revision,fandom+'?action=history','https://creativecommons.org/licenses/by-sa/'+record.license+'/'],id+' attribution links');
     assert.ok($('.import-history p').text().includes(record.credit+', under CC BY-SA '+record.license),id+' attribution wording');
-    for(const [url] of expected.images)assets.add(url);
+    for(const [url] of [...expected.images,...(expected.factMedia?.images??[])])assets.add(url);
     if(expected.emptyGallery)emptyGalleries.push(id);
     for(const a of $('.lead-text a,.article-body a,.factbox a').toArray()) {
       const link=a.attribs.href;

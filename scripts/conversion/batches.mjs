@@ -13,12 +13,15 @@ import animalCheckpoint from '../../conversion/animals/checkpoint.json' with {ty
 import characterRoster from '../../conversion/characters/roster.json' with {type:'json'};
 import characterCheckpoint from '../../conversion/characters/checkpoint.json' with {type:'json'};
 
+import itemRoster from '../../conversion/items/roster.json' with {type:'json'};
+import itemCheckpoint from '../../conversion/items/checkpoint.json' with {type:'json'};
 export const families = {
   geography: {roster:geographyRoster, checkpoint:geographyCheckpoint},
   factions: {roster:factionRoster, checkpoint:factionCheckpoint},
   races: {roster:raceRoster, checkpoint:raceCheckpoint},
   animals: {roster:animalRoster, checkpoint:animalCheckpoint},
-  characters: {roster:characterRoster, checkpoint:characterCheckpoint}
+  characters: {roster:characterRoster, checkpoint:characterCheckpoint},
+  items: {roster:itemRoster, checkpoint:itemCheckpoint}
 };
 export function selectedIds(family) {
   const {roster, checkpoint} = families[family];

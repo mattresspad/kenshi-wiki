@@ -1,4 +1,5 @@
 import {load} from 'cheerio';
+import {normalizeItemTables} from './item-tables.mjs';
 import {normalizeCharacterTables} from './character-tables.mjs';
 import {normalizeAnimalTables} from './animal-tables.mjs';
 import {normalizeRaceTables} from './race-tables.mjs';
@@ -16,8 +17,9 @@ export function prepareArticle(html, data, href) {
   if (data.layout === 'faction') normalizeFactionTables($);
   if (data.layout === 'race') normalizeRaceTables($);
   if (data.layout === 'animal') normalizeAnimalTables($);
+  if (data.layout === 'item') normalizeItemTables($);
   if (data.layout === 'character') normalizeCharacterTables($);
-  const imported = ['geography','faction','race','animal','character'].includes(data.layout);
+  const imported = ['geography','faction','race','animal','character','item'].includes(data.layout);
   const outline = [];
   const parents = [];
   for (const heading of $('h2,h3,h4,h5,h6').toArray()) {

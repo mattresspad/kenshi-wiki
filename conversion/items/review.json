@@ -1,0 +1,105 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "articles": [
+    {
+      "id": "katana",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Manufacturer/grade differences, AP and race modifiers, crafting counts and Meitou ownership remain qualified.",
+      "organization": "Reviewed 8 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/katana.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a8027733a6f2e795d8857e56126301eacd21eb8993306e9088e618e903163ce9"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "samurai-armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Grade-specific resistance and price tables retain coverage, efficiency and up-to qualifications.",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3ae56b2b2d0d12d3a2dbda11af4cd90e8e90c668d505b28e1b90b63492ca51fb"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "economy-arm-left",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Summary HP 35–100 differs from grade-table HP 40–95. Both imported ranges retained; neither is treated as the verified correction.",
+      "organization": "Reviewed 4 section bookmarks and 8 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/economy-arm-left.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b6cff3f8cfe5c7e92e340baef4d00e128bb8b07b6ef4ec71fa4a834a8fdb027f"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-economy-arm-discrepancy",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "basic-first-aid-kit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Charges, skill quality limitation and recipe/research requirements kept distinct.",
+      "organization": "Reviewed 2 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/basic-first-aid-kit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6544fac410dad1d1365531be7542ae2f7b00f924ce4d9306a21c0b00a9137fe0"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "building-materials",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Stone recipe, storage and long Used In list retained.",
+      "organization": "Reviewed 3 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/building-materials.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0ae485790c7637f0fb9c8a3a5b77ed2ffdc632337a6918a1b9f511f198b49128"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices"
+      ]
+    }
+  ],
+  "editorialChanges": [
+    {
+      "id": "item-grade-panels",
+      "change": "Grouped consecutive quality tables into responsive panels, keeping every source cell, unit, value and bookmark in order.",
+      "evidence": "src/lib/item-tables.mjs"
+    },
+    {
+      "id": "item-table-semantics",
+      "change": "Added column/row scopes and independent table scroll regions. Only source-sortable comparisons get keyboard controls; unsortable columns and shared-cell matrices stay fixed.",
+      "evidence": "src/lib/item-tables.mjs"
+    },
+    {
+      "id": "item-infobox-media",
+      "change": "Added bounded infobox images and plain captions preserving original line breaks; phone facts follow the introduction.",
+      "evidence": "src/components/GeographyFacts.astro"
+    }
+  ]
+}

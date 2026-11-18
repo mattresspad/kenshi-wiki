@@ -640,6 +640,17 @@
       }
     },
     {
+      "id": "availability:/basic-first-aid-kit",
+      "kind": "availability",
+      "target": "/basic-first-aid-kit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/basic-first-aid-kit"
+      }
+    },
+    {
       "id": "availability:/bast",
       "kind": "availability",
       "target": "/bast",
@@ -1289,6 +1300,17 @@
       }
     },
     {
+      "id": "availability:/building-materials",
+      "kind": "availability",
+      "target": "/building-materials",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/building-materials"
+      }
+    },
+    {
       "id": "availability:/burn",
       "kind": "availability",
       "target": "/burn",
@@ -1586,6 +1608,17 @@
       }
     },
     {
+      "id": "availability:/category/armour",
+      "kind": "availability",
+      "target": "/category/armour",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/armour"
+      }
+    },
+    {
       "id": "availability:/category/characters",
       "kind": "availability",
       "target": "/category/characters",
@@ -1597,6 +1630,17 @@
       }
     },
     {
+      "id": "availability:/category/crossbows",
+      "kind": "availability",
+      "target": "/category/crossbows",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/crossbows"
+      }
+    },
+    {
       "id": "availability:/category/locations",
       "kind": "availability",
       "target": "/category/locations",
@@ -1605,6 +1649,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/category/locations"
+      }
+    },
+    {
+      "id": "availability:/category/map-items",
+      "kind": "availability",
+      "target": "/category/map-items",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/map-items"
       }
     },
     {
@@ -2562,6 +2617,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/ears"
+      }
+    },
+    {
+      "id": "availability:/economy-arm-left",
+      "kind": "availability",
+      "target": "/economy-arm-left",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/economy-arm-left"
       }
     },
     {
@@ -5183,6 +5249,17 @@
       }
     },
     {
+      "id": "availability:/katana",
+      "kind": "availability",
+      "target": "/katana",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/katana"
+      }
+    },
+    {
       "id": "availability:/king",
       "kind": "availability",
       "target": "/king",
@@ -7600,6 +7677,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/samurai"
+      }
+    },
+    {
+      "id": "availability:/samurai-armour",
+      "kind": "availability",
+      "target": "/samurai-armour",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-armour"
       }
     },
     {
@@ -11605,6 +11693,18 @@
       }
     },
     {
+      "id": "media:/icons/items/209-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/209-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "ebf3bc8fc548e7e7747fd16a8fc546f70fb7682b96c3cf10742eed797662005f",
+        "sourceSha256": "ebf3bc8fc548e7e7747fd16a8fc546f70fb7682b96c3cf10742eed797662005f"
+      }
+    },
+    {
       "id": "media:/icons/items/2110-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/2110-gamedata.base.png",
@@ -11614,6 +11714,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "ca73c77d083d767da5de49be0985ff82c29d0a3654c51d27260ed8456c1c9b2a",
         "sourceSha256": "ca73c77d083d767da5de49be0985ff82c29d0a3654c51d27260ed8456c1c9b2a"
+      }
+    },
+    {
+      "id": "media:/icons/items/2122-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2122-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "bde27382ed87bd3254d21d1cd241235c01d6959db96ba42819ebd5657871e232",
+        "sourceSha256": "bde27382ed87bd3254d21d1cd241235c01d6959db96ba42819ebd5657871e232"
       }
     },
     {
@@ -12913,6 +13025,18 @@
       }
     },
     {
+      "id": "media:/icons/items/96134-Newwworld.mod.png",
+      "kind": "media",
+      "target": "/icons/items/96134-Newwworld.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "9c74d52ce0747d317be6d1e2604f4156967325f7ca86a357754aaf68a8e766e1",
+        "sourceSha256": "9c74d52ce0747d317be6d1e2604f4156967325f7ca86a357754aaf68a8e766e1"
+      }
+    },
+    {
       "id": "media:/images/guides/maestro-garru-fit.png",
       "kind": "media",
       "target": "/images/guides/maestro-garru-fit.png",
@@ -12969,6 +13093,18 @@
       "resolution": {
         "method": "local resource available; independently maintained contents",
         "sha256": "35627911346368ba8f4acd9e482141b02ad7dfa4e18f3d42fd034c93b2db7ea2",
+        "sourceSha256": "b385289390d87210d9fedaa535f11ee55230dc6ab3af61cc313ac1614647ae8d"
+      }
+    },
+    {
+      "id": "media:/notices/artwork.txt",
+      "kind": "media",
+      "target": "/notices/artwork.txt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#item-pilots",
+      "resolution": {
+        "method": "local resource available; independently maintained contents",
+        "sha256": "15f97d1186fe24cf7a02b21c66076e9e40223cced2238eaee4a629dd1cd3fd35",
         "sourceSha256": "b385289390d87210d9fedaa535f11ee55230dc6ab3af61cc313ac1614647ae8d"
       }
     },

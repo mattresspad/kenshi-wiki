@@ -32,7 +32,7 @@ export function articleEvidence(html, frozen, faction = false) {
   const $ = load(area.html(), {}, false);
   if (faction === 'character') removeImportedChecklist($);
   else if (faction === 'race') normalizeRaceTables($);
-  else if (faction) normalizeFactionTables($);
+  else if (faction && faction !== 'item') normalizeFactionTables($);
   // This separately checked editorial note qualifies the original imported words.
   $('.source-qualification').remove();
   const headings = $('h2,h3,h4,h5,h6').toArray().map(el => [el.name,$(el).attr('id') ?? null,text($(el).text())]);
@@ -49,5 +49,5 @@ export function articleEvidence(html, frozen, faction = false) {
   // Compare text nodes in order. Block/presentation wrappers may add whitespace but cannot replace words.
   const words = text($.root().text()).replace(/\s+/gu,'');
   return {headings, ids, text:hash(words), links:signature(links($.root())), tables:signature(inventory),
-    facts:signature(factValues), images, emptyGallery:emptyGallery($)};
+    facts:signature(factValues), images, emptyGallery:emptyGallery($), ...(faction === 'item' ? {factMedia:{images:facts.find('img[src]').toArray().map(el=>[el.attribs.src,el.attribs.alt??'']),caption:facts.find(frozen?'.infobox-caption':'.fact-caption').text().replaceAll('\r\n','\n')}} : {})};
 }

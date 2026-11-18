@@ -252,3 +252,18 @@
 .character .table-scroll { scroll-margin-top:calc(2 * var(--bar) + 12px) }
 @media(max-width:600px) { .character-stat-grid { grid-template-columns:1fr } }
 @media print { .character .recruit-comparison { min-width:0; font-size:8pt } }
+
+/* Item images and quality panels retain the imported values and captions. */
+.factbox .fact-image { display:block; width:128px; height:128px; max-width:100%; object-fit:contain; margin:10px auto }
+.factbox p.fact-caption { white-space:pre-line; margin:8px 12px 12px; font-size:13px; line-height:1.45; color:var(--quiet) }
+.item-grade-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr)); gap:12px; margin-block:12px; max-width:100% }
+.item-grade-grid > * { min-width:0 }
+.item .item-grade-grid .table-scroll { margin:0 }
+.item .item-grade-table { width:100%; min-width:0; max-width:none; margin:0 }
+.item-grade-table tbody tr:nth-child(-n+2) { background:var(--chrome); font-weight:650 }
+.item .item-comparison { min-width:58rem; width:100%; max-width:none }
+.item .crafting-table { max-width:100%; width:auto }
+.item .table-scroll { scroll-margin-top:calc(2 * var(--bar) + 12px) }
+.item .item-source-warning { max-width:80ch }
+@media(max-width:600px){ .item-grade-grid { grid-template-columns:1fr } }
+@media print { .item .item-comparison { min-width:0; font-size:8pt } .factbox .fact-image { width:64px; height:64px } }
