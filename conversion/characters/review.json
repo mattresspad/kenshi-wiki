@@ -81,6 +81,7 @@
       },
       "questions": [
         "claim:character-equipment-probability",
+        "claim:character-profile-comparison",
         "claim:character-recruitment",
         "claim:character-world-state-conditions"
       ]
@@ -189,6 +190,412 @@
         "claim:character-historical-lore",
         "claim:character-recruitment",
         "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "adventurer-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: All you need to know is you say fight, and I say who. Adventurer Recruit is a randomly named Generic Recruit. They are a person looking for adventure and work, with basic combat stats. They can be hired for c.6,000. They have a random Personality and after recruited have the “Player TOUGH Merc” Dialogue Package. Statistics Humans Shek Hive Skeletons Greenlan",
+      "organization": "Reviewed 9 section bookmarks and 70 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/adventurer-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "12d6a90b6ff27734007ae39bc80a07e5261cc38bf8a2464b27641aa90f1f79ff"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "agnu",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Agnu is a Unique Recruit who can be found imprisoned by the Thrall Masters in the top floor of the Tower of Abuse. Agnu is the only Soldierbot that is recruitable and will join the player after being freed. Soldierbots heal 50% faster than normal Skeletons and can see from much further away. Agnu has several lines of unique dialogue, most of which are scream",
+      "organization": "Reviewed 8 section bookmarks and 9 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/agnu.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ea9169c203624d68df5c1d9a302646f8a1fd5d2be48e5ff73ef88779a19e438e"
+      },
+      "questions": [
+        "claim:character-agnu-interpretation",
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-prisoner-import",
+        "claim:character-profile-comparison",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "amateur-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'll...I'll take your toes. Off, yeah, clean off. Then. Uh, then I'll- I'll eat your heart! Liver too. Finally I'll puke it all out into your chest! Haha, yeah and use your toes to sew it back up! Yeah, what are you gunna do 'bout that!? Amateur Recruit is a randomly named Unique Recruit. They are an inexperienced person who anxiously threatens the player fo",
+      "organization": "Reviewed 5 section bookmarks and 11 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/amateur-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d7629bfa581dc1ffe8b0babefcd385115bfacc0837bf1ab3bf01dd25097e50fb"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "bard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Tell ya what, I'll sing ya a song. AHEM. MMMmmm- chmmmm...On second thought, pay my 3000 cat tab and I'll sing you tales till the sun stops setting. Know all the good ones and got a voice worth writing songs about! Ha! Bard is a Unique Recruit belonging to the Drifters that can be potentially found in the Bars of multiple areas, including all Holy Nation tow",
+      "organization": "Reviewed 12 section bookmarks and 11 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "34099cccddb91f302a3567d23896795d7227555e69d9285ba9d23373cdba9c83"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "berserker",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Today is a good day to die, warrior!Berserker's challenge Berserkers are members of the Berserkers faction. They can be found in Berserker Village and patrolling Stenn Desert, Spider Plains, Berserker Country, and Cannibal Plains. Taking down Seta can make them travel up to even Okran’s Gulf, assuming Ghost is alive and free. They have a Maniacal Personality",
+      "organization": "Reviewed 9 section bookmarks and 14 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/berserker.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "59fdced9240f9986356798f7005fb9ea7ce4b98ff39227c7ca024fada8e87b40"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "black-dog-bodyguard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You'll never make it alone, I tell ya, I've seen some ugly sights around here. We can handle anything though, you're safe with us. Do the right thing and hire yourself some mercs...Black Dog Bodyguard Black Dog Bodyguards are members of the Black Dog faction. They spawn with randomized names and can have either Traitorous, Brave, or Crazy Personalities. Stat",
+      "organization": "Reviewed 12 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/black-dog-bodyguard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "489b97d4ff8eccd80571f5540e8a089882f13f1c2008a9ea517c70d1d90c60b9"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "bo",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: So you're the new girl, eh... Well, how about we have some fun together?Bo Bo is a Unique Recruit who is part of the Anti-Slavers. She can be found in Black Scratch, accompanied by an Anti-Slaver Jonin. She can be found sitting down in either the Tech Hunter Bar or the Waystation. Despite her small stature, she is called ‘Big’ Bo by members of the Anti-Slave",
+      "organization": "Reviewed 14 section bookmarks and 18 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bo.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e3d67975b789b55da74f108e3171432cb0b211e165ed0354353e86565c5f6646"
+      },
+      "questions": [
+        "claim:character-bo-world-state",
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "burn",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Well, you see, if you're a raider or a bandit, I'll have to kill you before you destroy me first and take my tower. The spider bots keep most trespassers away, but now and then a couple of unwelcome ones seep through, understand?... So which is it?Burn Burn is a Skeleton Unique Recruit who can be found just outside his Tower in the Floodlands. He is an ex-ad",
+      "organization": "Reviewed 9 section bookmarks and 14 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/burn.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bdaa07b0cd55495f3ef03bc79230cb079544a57e9e961fd4551b24fccc2ba233"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "cat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Oh, hey a new guy! ...Wanna chat? I get so excited when I get visitors to talk to. Not much to do in here see. Sometimes I like to count flies. I call this one Chubbs, because she’s a bit overweight. She's the only friend I have in here. Cat is a Unique Recruit who is a little unhinged. He’s a decent medic, but currently a prisoner of the Dust King in his To",
+      "organization": "Reviewed 11 section bookmarks and 14 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6587ed0d101bb33dfffe190544900ed70a8053301913578ac4d4af5c9c9bd08a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-prisoner-import",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "chad",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You want me on team, eh? Well, these fists don't come cheap, rookie. You want raw power, you're gonna have to pay for it. 9000 Cats. Chad is a Unique Recruit that can be found in the Bar of Flats Lagoon. He spawns with no weapon and claims to have traveled into the south-eastern part of the map, encountering Beak Things and escaping after punching one in the",
+      "organization": "Reviewed 9 section bookmarks and 14 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chad.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fc4af193d9cee49c0ea30c45bf4330143e6c9f01e9893ac93803161c2a62d314"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "cook-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Was always told I'd never make it if I couldn't handle myself with a sword. Well, I'm still alive, aren't I? Melting the hearts of my enemies with my cooking, one ricebowl at a time! Cook Recruit is a randomly named Generic Recruit. They are a cook looking for work. They can be hired for c.6,000. They commonly have a Smart Personality and after recruited hav",
+      "organization": "Reviewed 10 section bookmarks and 72 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cook-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dc5df1df3fc177621af9755b998c455bb064768ac9e80d1ffa24b8e2df2c933b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "crumblejon",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This wouldn't have happened back in my youth... They wouldn't have landed a single hit on me. Ah, to be back in my prime again...Crumblejon reminiscing on his days as a Samurai. Crumblejon is a Unique Recruit found in Mongrel. His dialogue consists mostly of you pestering him, with him getting annoyed and refusing to join your squad (unless you pester him en",
+      "organization": "Reviewed 14 section bookmarks and 13 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crumblejon.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7fba90eb21404c081655382087f795c870eefeec68599675626ddf8faab4fe8c"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "digna",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Digna is a Unique Recruit. She is a former resident of Stack. Her father caught her trying to escape so she killed him and fled to Flotsam Village. She has a Brave Personality. She has the “Player FLOTSAM” dialogue package, which is shared with all recruits from the Flotsam Ninjas. She also has a one-time unique dialogue about nightmares. It triggers when en",
+      "organization": "Reviewed 8 section bookmarks and 13 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/digna.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e1f336d83e384b25df332e69538ae13521be2cdf99d4c3b2121092bfe35c2031"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "disheartened-skeleton",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Most of the settlers in this city are refugees of cruelty in one form or another. Enslavement or exile, mostly... Yet the majority of them use their freedom to victimise other victims. And so cruelty breeds cruelty, an infinite cycle. A disquieting glimpse into human behaviour. Disheartened Skeleton is a randomly named Unique Recruit. They are a mercenary. T",
+      "organization": "Reviewed 6 section bookmarks and 11 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/disheartened-skeleton.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4fcd9050f82e7b49f70ccf267b013066d6acb492715a45cf294b8726ed6dd012"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "doctor-chung",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Doctor Chung is a Unique Recruit similar to a Medic Recruit. He is an organ-harvesting surgeon begrudgingly serving for the Twinblades with unique dialog options. He can be found in a bar in Mud Town located in The Swamp or in Shark. Statistics Greenlander Doctor Chung dialogues A) Nevermind, it’s still good, it’s still good. If anyone can work miracles with",
+      "organization": "Reviewed 10 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/doctor-chung.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "63c062ba56dbf441ab43f0a28333ae8139f377b4da279fa035f54151747bfae2"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "ells",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ells isn't a thief! Ells just get's thirsty sometimes... But the bar guards beat Ells for drinking the rum. So Ells gotta go drink rum from the distillery when no one's looking... No-one else shares with Ells like you do. Ells is a Unique Recruit. He is a fat, alcoholic, simple-minded Empire citizen with a small bounty on his head for stealing alcohol from d",
+      "organization": "Reviewed 8 section bookmarks and 12 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ells.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "266085254d87fbf680b0ddaf3cbe447ce80411e1b7814fe791d90ba07085b0dd"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "empire-adventurer",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: It proves you're worth something to me, but it also ensures I have enough value not to get hawked to slavers in the outlands Empire Adventurer is a randomly named Generic Recruit. They are a person looking for work. They can be hired for c.6,000. They have a random Personality and after recruited have the “Npc TOUGH Merc Aggro 2” and “Npc TOUGH Merc Basic 1”",
+      "organization": "Reviewed 9 section bookmarks and 71 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-adventurer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bc6503263aaeac28dc334dd6871360afb2d512347727c42060b4a85fcd4f81f6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "empire-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'm in trouble. The nobles will be coming for me soon, they'll probably send me off to the Vault and torture me... cut out my tongue... Empire Recruit is a randomly named Generic Recruit available in the United Cities. They are citizens who seem to be in trouble with the nobles and will be indebted to you if you give them bribe money of c.3,000 to escape the",
+      "organization": "Reviewed 5 section bookmarks and 67 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "82ffc12c9aefc0b58129251028558c39b2cfc29424a60f89ec87313b007fb14e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "engineer-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I can handle all your engineering needs. Interested? Engineer Recruit is a randomly named Generic Recruit. They’re just an engineer looking for work. They can be hired for c.6,000. Their race is determined by the weighted chances set in the Drifters faction. Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Hi",
+      "organization": "Reviewed 10 section bookmarks and 72 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/engineer-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "237557a8102678018a0231f1cbc5d471d4621a380353ea3c00e1857e22fccc91"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "escaped-servant",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I just want to live... I... need... food!desperate Servant attacks Escaped Servants are members of the Holy Nation Outlaws. As their name and faction implies, they are escaped criminals such as Lower Servants and Rebirth Slaves who originated from the Holy Nation. They spawn in groups of 1 to 8. They can infrequently to rarely spawn in the Border Zone, Canni",
+      "organization": "Reviewed 3 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/escaped-servant.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2c12507933ee33197e338b19f0148b557d50a3adfd993cbb62cfff7a1e92d178"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment"
+      ]
+    },
+    {
+      "id": "escaped-slave",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Not to be confused with Slave Escapee. It took too much blood and sweat to escape the masters...I won't go back to the slave camp that easy! Escaped Slave is a randomly named Generic Recruit. They escaped slavery and have a c.2,000 bounty from the United Cities. If they are found in a squad alone, they can be talked to and potentially convinced to join the p",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/escaped-slave.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bb80682dda37697af0c039b3e621c330066d2212964a28639f4cfb80d384fc90"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "espher",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Nobody gets out of Tengu's Vault...Espher Espher is a Unique Recruit from the Southern Hive. Espher is imprisoned within Tengu’s Vault with a Bounty of c.25,000. Espher can join the player faction after being freed from imprisonment and safely escorted away from the prison. Espher is the only guaranteed Southern Hive recruit, although all three Southern Hive",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/espher.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3c91901cf5d5aa4c77dbb4f00c553e97069029488d667b1d4bb9db6e6f8b5797"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "ex-slave-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: It's nothing like the air in that mine. Tasted like metal, but not the kind we were looking for. Same smell in the cages. Sweaty, burning....I'd rather not think about it too much. Dwelling on the life of a slave is a shackling in itself. Sometimes I need to remember I'm free now. Ex-Slave Recruit is a randomly named Unique Recruit. They are someone who was ",
+      "organization": "Reviewed 1 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ex-slave-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "deba074641cff3c99fbcaff4870dd91e1b9f5f8941fc8ca92b81aea4e4fdd178"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "farmer-recruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Here to recruit?... Well, if you need a farmer look no further. I can turn a barren wasteland into a blooming oasis. Even managed twenty farms before they went to hell back in the Red Rebellion. I charge 6000 Cats if you're interested.Shek, Greenlander, or Scorchlander, in town of United Cities Farmer Recruit is a randomly named Generic Recruit. They’re look",
+      "organization": "Reviewed 1 section bookmarks and 64 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/farmer-recruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "09b1379b4f4b140166337bccf041831dafb4457ccbc45e45a3a9d6123683acf5"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
       ]
     }
   ],

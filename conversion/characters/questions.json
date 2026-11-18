@@ -40,5 +40,68 @@
     "Bo contains claims about Tinfist being treated as dead after a KO, a solo capture lock and equipment dependent on squad size.",
     "Test the named state predicates, squad AI and equipment roll with controlled settings and save/reload evidence.",
     "KO, imprisonment and death predicates must not be treated as interchangeable."
+  ],
+  [
+    "character-holy-robot-recruitment",
+    [
+      "holy-nation-robot"
+    ],
+    "25|75|48|once per game",
+    "Holy Nation Robot combines stat predicates, a 48-hour cooldown and a once-per-game/import limit.",
+    "Trace DC_IS_RECRUITABLE, dialogue event memory and cooldown fields; test each branch with a pinned version and isolated saves.",
+    "AND/OR grouping and the distinction between cooldown and one-time event availability remain unverified."
+  ],
+  [
+    "character-sensory-dialogue",
+    [
+      "miu",
+      "pia"
+    ],
+    "radar|before the spiders|Paladin",
+    "Miu and Pia are described as early-warning detectors based on dialogue.",
+    "Check dialogue conditions, perception/range and cooldowns; retain the behavioral description without claiming reliable detection coverage.",
+    "Off-screen dialogue is not proof of continuous or exhaustive threat detection."
+  ],
+  [
+    "character-miu-dialogue-structure",
+    [
+      "miu"
+    ],
+    "editors note|Dialogue A|Dialouge|opions",
+    "Miu’s dialogue walkthrough contains inconsistent labels, branching references and an explicit request for formatting help.",
+    "Map the original dialogue nodes and verify each target before restructuring the transcript.",
+    "Preserve the existing instructions and bookmarks; typographical cleanup alone would not establish correct branch mapping."
+  ],
+  [
+    "character-hamut-spring",
+    [
+      "hamut"
+    ],
+    "Anti-Slavery Guild|Spring|wife",
+    "Hamut’s prose calls Spring an Anti-Slavery Guild and gives differing outcomes for his wife.",
+    "Check the underlying dialogue and distinguish the settlement, faction and alternative dialogue branches.",
+    "Keep the source qualification; neither alternative establishes a single confirmed outcome."
+  ],
+  [
+    "character-yamdu-respawn",
+    [
+      "yamdu"
+    ],
+    "respawn|army of Yamdus",
+    "Yamdu’s repeated recruitment claim depends on non-unique respawn behavior.",
+    "Test recruitment, leaving/reentering the zone and save/reload with exact squad and character IDs.",
+    "A non-unique flag alone does not establish infinite recruitment in every version."
+  ],
+  [
+    "character-profile-comparison",
+    [
+      "agnu",
+      "unique-recruits",
+      "infinite-wingwang"
+    ],
+    "50|strength|Strength|strongest",
+    "Recruit overview and narrative strength comparisons need reconciliation with profile statistics and their qualifications.",
+    "Compare unmodified records, racial multipliers and generated starting values across the referenced profiles.",
+    "A tabulated base value, observed value and narrative superlative may use different contexts."
   ]
 ]

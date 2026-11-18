@@ -57,6 +57,28 @@
       }
     },
     {
+      "id": "availability:/adventurer-recruit",
+      "kind": "availability",
+      "target": "/adventurer-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/adventurer-recruit"
+      }
+    },
+    {
+      "id": "availability:/agnu",
+      "kind": "availability",
+      "target": "/agnu",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/agnu"
+      }
+    },
+    {
       "id": "availability:/alpha-fishman",
       "kind": "availability",
       "target": "/alpha-fishman",
@@ -76,6 +98,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/alpha-gurgler"
+      }
+    },
+    {
+      "id": "availability:/amateur-recruit",
+      "kind": "availability",
+      "target": "/amateur-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/amateur-recruit"
       }
     },
     {
@@ -387,6 +420,17 @@
       }
     },
     {
+      "id": "availability:/bard",
+      "kind": "availability",
+      "target": "/bard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bard"
+      }
+    },
+    {
       "id": "availability:/bark",
       "kind": "availability",
       "target": "/bark",
@@ -519,6 +563,17 @@
       }
     },
     {
+      "id": "availability:/berserker",
+      "kind": "availability",
+      "target": "/berserker",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/berserker"
+      }
+    },
+    {
       "id": "availability:/berserker-country",
       "kind": "availability",
       "target": "/berserker-country",
@@ -582,6 +637,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/black-dog"
+      }
+    },
+    {
+      "id": "availability:/black-dog-bodyguard",
+      "kind": "availability",
+      "target": "/black-dog-bodyguard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/black-dog-bodyguard"
       }
     },
     {
@@ -739,6 +805,17 @@
       }
     },
     {
+      "id": "availability:/bo",
+      "kind": "availability",
+      "target": "/bo",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bo"
+      }
+    },
+    {
       "id": "availability:/bonedog",
       "kind": "availability",
       "target": "/bonedog",
@@ -879,6 +956,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/broken-ones"
+      }
+    },
+    {
+      "id": "availability:/burn",
+      "kind": "availability",
+      "target": "/burn",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/burn"
       }
     },
     {
@@ -1025,6 +1113,17 @@
       }
     },
     {
+      "id": "availability:/cat",
+      "kind": "availability",
+      "target": "/cat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cat"
+      }
+    },
+    {
       "id": "availability:/cat-lons-exile",
       "kind": "availability",
       "target": "/cat-lons-exile",
@@ -1135,6 +1234,17 @@
       }
     },
     {
+      "id": "availability:/chad",
+      "kind": "availability",
+      "target": "/chad",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/chad"
+      }
+    },
+    {
       "id": "availability:/cheaters-run",
       "kind": "availability",
       "target": "/cheaters-run",
@@ -1198,6 +1308,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/clownsteady/malnourished"
+      }
+    },
+    {
+      "id": "availability:/cook-recruit",
+      "kind": "availability",
+      "target": "/cook-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cook-recruit"
       }
     },
     {
@@ -1344,6 +1465,17 @@
       }
     },
     {
+      "id": "availability:/crumblejon",
+      "kind": "availability",
+      "target": "/crumblejon",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crumblejon"
+      }
+    },
+    {
       "id": "availability:/crumbling-labs",
       "kind": "availability",
       "target": "/crumbling-labs",
@@ -1487,6 +1619,28 @@
       }
     },
     {
+      "id": "availability:/digna",
+      "kind": "availability",
+      "target": "/digna",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/digna"
+      }
+    },
+    {
+      "id": "availability:/disheartened-skeleton",
+      "kind": "availability",
+      "target": "/disheartened-skeleton",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/disheartened-skeleton"
+      }
+    },
+    {
       "id": "availability:/distant-hive-village",
       "kind": "availability",
       "target": "/distant-hive-village",
@@ -1517,6 +1671,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/distant-hive-village/slave-traders"
+      }
+    },
+    {
+      "id": "availability:/doctor-chung",
+      "kind": "availability",
+      "target": "/doctor-chung",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/doctor-chung"
       }
     },
     {
@@ -1707,6 +1872,17 @@
       }
     },
     {
+      "id": "availability:/ells",
+      "kind": "availability",
+      "target": "/ells",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ells"
+      }
+    },
+    {
       "id": "availability:/emperor-tengu",
       "kind": "availability",
       "target": "/emperor-tengu",
@@ -1718,6 +1894,17 @@
       }
     },
     {
+      "id": "availability:/empire-adventurer",
+      "kind": "availability",
+      "target": "/empire-adventurer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-adventurer"
+      }
+    },
+    {
       "id": "availability:/empire-peasants",
       "kind": "availability",
       "target": "/empire-peasants",
@@ -1726,6 +1913,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/empire-peasants"
+      }
+    },
+    {
+      "id": "availability:/empire-recruit",
+      "kind": "availability",
+      "target": "/empire-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-recruit"
       }
     },
     {
@@ -1759,6 +1957,61 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/endin"
+      }
+    },
+    {
+      "id": "availability:/engineer-recruit",
+      "kind": "availability",
+      "target": "/engineer-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/engineer-recruit"
+      }
+    },
+    {
+      "id": "availability:/escaped-servant",
+      "kind": "availability",
+      "target": "/escaped-servant",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/escaped-servant"
+      }
+    },
+    {
+      "id": "availability:/escaped-slave",
+      "kind": "availability",
+      "target": "/escaped-slave",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/escaped-slave"
+      }
+    },
+    {
+      "id": "availability:/espher",
+      "kind": "availability",
+      "target": "/espher",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/espher"
+      }
+    },
+    {
+      "id": "availability:/ex-slave-recruit",
+      "kind": "availability",
+      "target": "/ex-slave-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ex-slave-recruit"
       }
     },
     {
@@ -1891,6 +2144,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/farm-ruins"
+      }
+    },
+    {
+      "id": "availability:/farmer-recruit",
+      "kind": "availability",
+      "target": "/farmer-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/farmer-recruit"
       }
     },
     {
@@ -6439,6 +6703,18 @@
       }
     },
     {
+      "id": "media:/icons/items/1167-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/1167-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "a89a1cd85dd284c6e1636223a6beb3bbe64570a62dcd9c80240867be72dac464",
+        "sourceSha256": "a89a1cd85dd284c6e1636223a6beb3bbe64570a62dcd9c80240867be72dac464"
+      }
+    },
+    {
       "id": "media:/icons/items/1288-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/1288-gamedata.base.png",
@@ -6688,6 +6964,30 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "09c7f5bb4092cf576987e8e5116617a5f88ebc60f5a2faea19ccdde499c2df0e",
         "sourceSha256": "09c7f5bb4092cf576987e8e5116617a5f88ebc60f5a2faea19ccdde499c2df0e"
+      }
+    },
+    {
+      "id": "media:/icons/items/2212-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2212-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "416434dab65db20be497f19b83b8c1dc9badcccd6e8d7e3535eb5ac554c04d51",
+        "sourceSha256": "416434dab65db20be497f19b83b8c1dc9badcccd6e8d7e3535eb5ac554c04d51"
+      }
+    },
+    {
+      "id": "media:/icons/items/2213-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2213-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "5c5b652e7396deab363657b174ae0b679e92607b182aa020c4366ebb98c0cf58",
+        "sourceSha256": "5c5b652e7396deab363657b174ae0b679e92607b182aa020c4366ebb98c0cf58"
       }
     },
     {
