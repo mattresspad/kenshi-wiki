@@ -1592,6 +1592,436 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "cargopants-colored",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Cargopants (colored) are a piece of Clothing equipped in the Legwear slot. This is a colourable variation of Cargopants - while other variations include padded, reinforced, and chain. This armour has inventory dimensions of 4x4. Appearance Cargopants are simple full-leg length pants. They are held up on the character by a belt and have one cargo pocket o",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cargopants-colored.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f06b95b931423c9536fc16610f5f24d6818a0b3c1a600d9c62d9e7bfc36b45ca"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cargopants-padded",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cargopants [Padded] are Light Armour that is equipped in the Legwear slot. There is an unarmored variant (in plain and colorable versions) as well as armoured reinforced and chain variants of this armour. This armour has inventory dimensions of 4x4. Appearance Cargopants [Padded] are simple full-leg length khaki pants. They are held up on the character by a ",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cargopants-padded.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "968ef4ae9b27d26914ba1ab8b5cfc05b172cb6f393d42a357be3a7401c6aa087"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cargopants-reinforced",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cargopants [Reinforced] are Light Armour that is equipped in the Legwear slot. There is an unarmored variant (in plain and colourable versions) as well as armoured padded and chain variants of this armour. This armour has inventory dimensions of 4x4. Appearance Cargopants [Reinforced] are simple full-leg length black pants. They are held up on the character ",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cargopants-reinforced.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4ec0fb47bb741e7e641d4e302e94fd0a5fa76075699843a06fbd5577831b99d4"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cargopants-sneaky-chain",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cargopants [Sneaky Chain] are Light Armour that is equipped in the Legwear slot. There is an unarmored variant (in plain and colourable versions) as well as armoured padded and reinforced variants of this armour. This armour has inventory dimensions of 4x4. Appearance Cargopants [Sneaky Chain] are simple full-leg length black pants. They are held up on the c",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cargopants-sneaky-chain.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5bc4b0e318b0367caa6e0e0a27a1ec74a4cc38591c6483d5a7c917c336495f31"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cargopants",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cargopants is Clothing item that is equipped in the Legwear slot. There are four variations of Cargopants - a dyeable (colored) version, and the three armoured versions: padded, reinforced, and chain. This armour has inventory dimensions of 4x4. Appearance Cargopants are simple full-leg length khaki colored pants. They are held up on the character by a black",
+      "organization": "Reviewed 3 section bookmarks and 3 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cargopants.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0035f05111cb1e03c00fd29cd00670bc1b8b0d28c21a1e8ddd11308429c4fa64"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "chain-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Chain Shirt is a Medium Armour that is equipped in the Shirt slot. It is the short-sleeved variant of the Chainmail. It also has a blackened and rusted variant. Additionally, there is also a Hiver-equivalent version of this clothing. This armour has inventory dimensions of 2x4. Appearance Similar in appearance to Chainmail, the Chain Shirt is made up of ",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chain-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fa5aefa64e91d27e374f6966aceda324b71e3d3d68b3e54697196f3c86002044"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "chainmail",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Chainmail is a Medium Armour that is equipped in the Shirt slot. It could be considered the long-sleeved variant of the Chain Shirt with a higher cut efficiency. This armour has inventory dimensions of 2x4. Appearance Similar in appearance to the Chain Shirt, Chainmail is made up of thousands of individual metal rings linked together. Chainmail covers th",
+      "organization": "Reviewed 5 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chainmail.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "23397fc13150b48206d91a9f49ebb3dc125a539700ecfccca87d637fa3328045"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "cloth-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Cloth Shirt is Clothing that is equipped in the Shirt slot. There is a separate Black Cloth Shirt which is exactly the same. Unlike the latter, this item can be dyed. The un-sleeved version of this is White Vest, while the fully sleeved version of this is Turtleneck. This armour has inventory dimensions of 2x4. Appearance A plain, white cloth shirt. Sour",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cloth-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9ee9cf665558e5986a67885370e33aab6b2d5c14e2c025f43843a4d72ee66d2c"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "clothing",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: 'Ey, what's with those rags, you're wearing anyway? Look like you've been chewed on by a gutter...Catun Bar Patron Clothing is any equipment which can be equipped in an armour slot but gives no defensive bonus and does not fall into the Light, Medium, or Heavy armour class. Many serve no purpose beyond decreasing your “looks like a slave” rating when escapin",
+      "organization": "Reviewed 5 section bookmarks and 5 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/clothing.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bff23cfa82a86942890302adaabb10cc071346df8c0dd70b279da6964632369d"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-slot-and-class-contradictions"
+      ]
+    },
+    {
+      "id": "conscript-leather-armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Conscript Leather Armour is a Medium Armour that is equipped in the Body Armour slot. It is a variant of the Mercenary Leather Armour with the same stats, except that the Conscript Leather Armour is generally slightly cheaper and provides one less point of harpoon resistance. At specialist and masterwork levels, Conscript Leather Armour offers slightly b",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/conscript-leather-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "af3ad281d1f19db82497cf6797ab16a2334bf1824e8045ed7e7890c39f147225"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "crab-armour",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Crab Armour is a Heavy Armour that is equipped in the Body Armour slot. It is the body armour with the highest cut and harpoon resistance. It can be crafted if a blueprint is bought from the Crab Raiders and is part of a Crab Armour “set” together with Crab Helmet, Crab Trousers and Crab Shoes. This armour has inventory dimensions of 4x6. Appearance The Crab",
+      "organization": "Reviewed 5 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "97f01e6091937383da3a6298a084931c8e7624391f0beae01a139d6f3b8c1080"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "crab-helmet",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Crab Helmet is a Heavy Armour that is equipped in the Headgear slot. It is the headgear with the highest blunt resistance. Aside from the races that cannot wear helmets, it additionally cannot be worn by Hive Worker Drones and their southern and deadhive cousins. It can be crafted once a blueprint is purchased from the Crab Raiders and is part of a Crab Armo",
+      "organization": "Reviewed 5 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-helmet.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "300d9f846fab160f1ff6b9263b115970c4ee0e99dff8f0685e7cb958e17f8b13"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "crab-shoes",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Crab Shoes is Heavy Armour that is equipped in the Footwear slot. It is the only faction-specific footwear that can be found in game and it can be crafted once the blueprint is purchased from them. It is part of a Crab Armour “set” together with Crab Helmet, Crab Armour (body) and Crab Trousers. This armour has inventory dimensions of 2x4. Appearance Crab Sh",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-shoes.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "88a5998805d9289a9e3acd803060d6ce1dbcb2ba58eac3240ad79d17e9fb56a9"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "crab-trousers",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Crab Trousers are Heavy Armour that are equipped in the Legwear slot. It can be crafted once a blueprint is purchased from the Crab Raiders and is part of a Crab Armour “set” together with Crab Helmet, Crab Armour (body) and Crab Shoes. This armour has inventory dimensions of 4x5. Appearance The Crab Trousers appear to be pieces of brown scrap metal strapped",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-trousers.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a2fa91a8d734b7a3d30d14aac9e25d36c974095d815dace64274231d6b4d00bb"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "dark-leather-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Dark Leather Shirt is Light Armour that are equipped in the Body Armour slot. It is a dark-green version of Leather Shirt with slightly better protective stats with the downside of being much more expensive. This armour has inventory dimensions of 2x4. Appearance The Dark Leather Shirt is similar in appearance to the Leather Shirt except that is darker in co",
+      "organization": "Reviewed 5 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dark-leather-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "73c8d9df34ecf0fb89e075d5148457636049bf621ba96f8f595666a3f08eb773"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-slot-and-class-contradictions",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "drifters-boots",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Drifter’s Boots are Light Armour that are equipped in the Footwear slot. It is the unplated version of the Plated Longboots. This armour has inventory dimensions of 2x4. Appearance Drifter’s Boots are knee-high leather boots with crisscrossing laces. Grades Source Locations Crafting Unlocked by:Drifter's Boots blueprint: 12 hours at tech level 1; the bluepri",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/drifters-boots.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "58e8e1f0d49bbe78b92d42c350d4fe9b02e1f7784738ca8a1a974a8b17be60d2"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "drifters-leather-jacket",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Drifter’s Leather Jacket is a Light Armour that is equipped in the Body Armour slot. This armour has inventory dimensions of 5x4. Appearance Drifter’s Leather Jacket is a black leather jacket with the right sleeve cut off. The jacket also has a brown leather sash tied around the abdomen that is held in place by a leather belt. Stats Source Locations Crafting",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/drifters-leather-jacket.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b5d33e7fae0fb899adcd367c4047f765e6011b90745aa27bc23105e27969f6ca"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "drifters-leather-pants",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Drifters Leather Pants are Light Armour that are equipped in the Legwear slot. A heavier plated version of this armour is called the Plated Drifter’s Leather Pants. This armour has inventory dimensions of 4x4. Appearance Drifters Leather Pants are a pair of black leather pants folded around the knee. They are held up by a brown leather belt along with an add",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/drifters-leather-pants.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fd1bdd771930e7792d9d32e9d4622078b1351267035fdf9f9f1616107f3bad4a"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "dustcoat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Dustcoat is a Light Armour that is equipped in the Body Armour slot. It can be bought from the Scraphouse, the armour shop in Mongrel, and adventure shops in Black Scratch, Mourn, Spring, tech hunter-controlled Stoat, and The Free City. A sleeveless version of this armour can also be found. It is equipped by Tinfist, Quin, Dack, and Chad, Lord Yoshinaga and ",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dustcoat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "825983e7770af3357d4dd3c36d220bfc6805b90c478c255563b92621ac05aa2a"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "dyed-rag-shirt",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Dyed Rag Shirt is a piece of Clothing that is equipped in the Body Armour slot. Statistically-wise it is identical to the Rag Shirt, the only difference being its colouring properties. There are matching trousers for this “rag set” called the Rag Loincloth (Dyed). This armour has inventory dimensions of 4x6. Appearance A Rag Shirt is made up of several ragge",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dyed-rag-shirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8910d84c37fef38c8c8045c1c9bbf4689f9648fc5d59e4a5f2c20bc6c58e20d4"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "dyed-robes",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Dyed Robes are Clothing that are equipped in the Body Armour slot. As the name suggests, this item can be dyed. An already coloured version of this item is given to the newly instituted slaves in Rebirth. This armour has inventory dimensions of 4x6. Appearance Dyed Robes appear to be puffy, long-sleeved, collared robes tied at the bottom by sash. Orange-colo",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dyed-robes.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "639eb4e1b4ea246081cb50269f8c2f87558d044d23d28255a30b5a7f8639a89d"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "dyed-trousers",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Dyed Trousers are a colourable piece of Clothing worn in Legwear slot. They are given to characters who are enslaved in Rebirth, along with Dyed Robes. The player will also start with these items during The Slaves game start. This armour has inventory dimensions of 4x5. Appearance Source Locations Crafting Unlocked by:Dyed Trousers blueprint: 12 hours at",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dyed-trousers.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "39f4562eaf0275e2d57340e65349ff806312fcef11ea37c9389b4ac5f5462bd5"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "dyed-turban",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Dyed Turban is a Light Armour Class Headgear item. This armour has inventory dimensions of 3x3. Appearance Made from a single piece of cloth and wrapped around the player’s head so that some hangs to cover the cheeks and neck of the character. Stats Crafting Unlocked by:Dyed Turban blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,758.",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dyed-turban.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "01b65c56fb13142cd6df9662c88bdda1a6ca0715aab1a880ebaec48bfd2f33ce"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [

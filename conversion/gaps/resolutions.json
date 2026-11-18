@@ -1916,6 +1916,61 @@
       }
     },
     {
+      "id": "availability:/cargopants",
+      "kind": "availability",
+      "target": "/cargopants",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cargopants"
+      }
+    },
+    {
+      "id": "availability:/cargopants-colored",
+      "kind": "availability",
+      "target": "/cargopants-colored",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cargopants-colored"
+      }
+    },
+    {
+      "id": "availability:/cargopants-padded",
+      "kind": "availability",
+      "target": "/cargopants-padded",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cargopants-padded"
+      }
+    },
+    {
+      "id": "availability:/cargopants-reinforced",
+      "kind": "availability",
+      "target": "/cargopants-reinforced",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cargopants-reinforced"
+      }
+    },
+    {
+      "id": "availability:/cargopants-sneaky-chain",
+      "kind": "availability",
+      "target": "/cargopants-sneaky-chain",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cargopants-sneaky-chain"
+      }
+    },
+    {
       "id": "availability:/cat",
       "kind": "availability",
       "target": "/cat",
@@ -2092,6 +2147,28 @@
       }
     },
     {
+      "id": "availability:/chain-shirt",
+      "kind": "availability",
+      "target": "/chain-shirt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/chain-shirt"
+      }
+    },
+    {
+      "id": "availability:/chainmail",
+      "kind": "availability",
+      "target": "/chainmail",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/chainmail"
+      }
+    },
+    {
       "id": "availability:/cheaters-run",
       "kind": "availability",
       "target": "/cheaters-run",
@@ -2133,6 +2210,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cleanser-unit"
+      }
+    },
+    {
+      "id": "availability:/cloth-shirt",
+      "kind": "availability",
+      "target": "/cloth-shirt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cloth-shirt"
+      }
+    },
+    {
+      "id": "availability:/clothing",
+      "kind": "availability",
+      "target": "/clothing",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/clothing"
       }
     },
     {
@@ -2213,6 +2312,17 @@
       }
     },
     {
+      "id": "availability:/conscript-leather-armour",
+      "kind": "availability",
+      "target": "/conscript-leather-armour",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/conscript-leather-armour"
+      }
+    },
+    {
       "id": "availability:/cook-recruit",
       "kind": "availability",
       "target": "/cook-recruit",
@@ -2246,6 +2356,17 @@
       }
     },
     {
+      "id": "availability:/crab-armour",
+      "kind": "availability",
+      "target": "/crab-armour",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-armour"
+      }
+    },
+    {
       "id": "availability:/crab-barman",
       "kind": "availability",
       "target": "/crab-barman",
@@ -2254,6 +2375,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crab-barman"
+      }
+    },
+    {
+      "id": "availability:/crab-helmet",
+      "kind": "availability",
+      "target": "/crab-helmet",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-helmet"
       }
     },
     {
@@ -2334,6 +2466,17 @@
       }
     },
     {
+      "id": "availability:/crab-shoes",
+      "kind": "availability",
+      "target": "/crab-shoes",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-shoes"
+      }
+    },
+    {
       "id": "availability:/crab-town",
       "kind": "availability",
       "target": "/crab-town",
@@ -2353,6 +2496,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crab-town/fishmen"
+      }
+    },
+    {
+      "id": "availability:/crab-trousers",
+      "kind": "availability",
+      "target": "/crab-trousers",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-trousers"
       }
     },
     {
@@ -2518,6 +2672,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/dack"
+      }
+    },
+    {
+      "id": "availability:/dark-leather-shirt",
+      "kind": "availability",
+      "target": "/dark-leather-shirt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dark-leather-shirt"
       }
     },
     {
@@ -2796,6 +2961,17 @@
       }
     },
     {
+      "id": "availability:/drifters-boots",
+      "kind": "availability",
+      "target": "/drifters-boots",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/drifters-boots"
+      }
+    },
+    {
       "id": "availability:/drifters-last",
       "kind": "availability",
       "target": "/drifters-last",
@@ -2826,6 +3002,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/drifters-last/half-destroyed"
+      }
+    },
+    {
+      "id": "availability:/drifters-leather-jacket",
+      "kind": "availability",
+      "target": "/drifters-leather-jacket",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/drifters-leather-jacket"
+      }
+    },
+    {
+      "id": "availability:/drifters-leather-pants",
+      "kind": "availability",
+      "target": "/drifters-leather-pants",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/drifters-leather-pants"
       }
     },
     {
@@ -2980,6 +3178,61 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/dust-king-tower"
+      }
+    },
+    {
+      "id": "availability:/dustcoat",
+      "kind": "availability",
+      "target": "/dustcoat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dustcoat"
+      }
+    },
+    {
+      "id": "availability:/dyed-rag-shirt",
+      "kind": "availability",
+      "target": "/dyed-rag-shirt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dyed-rag-shirt"
+      }
+    },
+    {
+      "id": "availability:/dyed-robes",
+      "kind": "availability",
+      "target": "/dyed-robes",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dyed-robes"
+      }
+    },
+    {
+      "id": "availability:/dyed-trousers",
+      "kind": "availability",
+      "target": "/dyed-trousers",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dyed-trousers"
+      }
+    },
+    {
+      "id": "availability:/dyed-turban",
+      "kind": "availability",
+      "target": "/dyed-turban",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dyed-turban"
       }
     },
     {
@@ -12663,6 +12916,18 @@
       }
     },
     {
+      "id": "media:/icons/items/1534055-Newwworld_Plus.mod.png",
+      "kind": "media",
+      "target": "/icons/items/1534055-Newwworld_Plus.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "7e3f3adae1269c41d2979db900ec50ad520617c63937cf9930077a86a222395b",
+        "sourceSha256": "7e3f3adae1269c41d2979db900ec50ad520617c63937cf9930077a86a222395b"
+      }
+    },
+    {
       "id": "media:/icons/items/1534061-Newwworld_Plus.mod.png",
       "kind": "media",
       "target": "/icons/items/1534061-Newwworld_Plus.mod.png",
@@ -13011,6 +13276,18 @@
       }
     },
     {
+      "id": "media:/icons/items/2188-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2188-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "b5b995d748a41175092d8a205801d4d3bdb4c0950d1c7c2c7e85cd72b2082dd9",
+        "sourceSha256": "b5b995d748a41175092d8a205801d4d3bdb4c0950d1c7c2c7e85cd72b2082dd9"
+      }
+    },
+    {
       "id": "media:/icons/items/2189-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/2189-gamedata.base.png",
@@ -13020,6 +13297,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "10bba4203b53117bc4fa0fb9729ef10a788536f916571c391fcdd1120d233a19",
         "sourceSha256": "10bba4203b53117bc4fa0fb9729ef10a788536f916571c391fcdd1120d233a19"
+      }
+    },
+    {
+      "id": "media:/icons/items/2193-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2193-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "c3a8276e966a7db0ac80cac9254e77a72694f3fc01ac61a7e6f86bbfc1c9af36",
+        "sourceSha256": "c3a8276e966a7db0ac80cac9254e77a72694f3fc01ac61a7e6f86bbfc1c9af36"
       }
     },
     {
@@ -13623,6 +13912,18 @@
       }
     },
     {
+      "id": "media:/icons/items/50391-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/50391-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "d6de4a97e8d557eedba2021ce8cbd79015003e023f7d65152903c43ded3aacea",
+        "sourceSha256": "d6de4a97e8d557eedba2021ce8cbd79015003e023f7d65152903c43ded3aacea"
+      }
+    },
+    {
       "id": "media:/icons/items/50567-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/50567-rebirth.mod.png",
@@ -13659,6 +13960,30 @@
       }
     },
     {
+      "id": "media:/icons/items/51643-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/51643-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "b460e4d5ea5c40ad25b5d37ab88b04102f77d0c4c45c30ef0551c60ce1acf11e",
+        "sourceSha256": "b460e4d5ea5c40ad25b5d37ab88b04102f77d0c4c45c30ef0551c60ce1acf11e"
+      }
+    },
+    {
+      "id": "media:/icons/items/51662-Newwworld.mod.png",
+      "kind": "media",
+      "target": "/icons/items/51662-Newwworld.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "c5c4b7bb4e540541bc97591b14e5f5e77f06a448200343e49e0d2662edebe586",
+        "sourceSha256": "c5c4b7bb4e540541bc97591b14e5f5e77f06a448200343e49e0d2662edebe586"
+      }
+    },
+    {
       "id": "media:/icons/items/51663-Newwworld.mod.png",
       "kind": "media",
       "target": "/icons/items/51663-Newwworld.mod.png",
@@ -13692,6 +14017,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "bde27382ed87bd3254d21d1cd241235c01d6959db96ba42819ebd5657871e232",
         "sourceSha256": "bde27382ed87bd3254d21d1cd241235c01d6959db96ba42819ebd5657871e232"
+      }
+    },
+    {
+      "id": "media:/icons/items/51746-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/51746-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "b5b995d748a41175092d8a205801d4d3bdb4c0950d1c7c2c7e85cd72b2082dd9",
+        "sourceSha256": "b5b995d748a41175092d8a205801d4d3bdb4c0950d1c7c2c7e85cd72b2082dd9"
       }
     },
     {
@@ -13971,6 +14308,18 @@
       }
     },
     {
+      "id": "media:/icons/items/54582-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/54582-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "b53d7a08a449d5bc84db25342791abd889302f42ba01999b20cca947c254de25",
+        "sourceSha256": "b53d7a08a449d5bc84db25342791abd889302f42ba01999b20cca947c254de25"
+      }
+    },
+    {
       "id": "media:/icons/items/549-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/549-gamedata.base.png",
@@ -14196,6 +14545,42 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "16d12d0b3617c1f1b95f172202841fdc914a681f2bb8671733a444846b147f6e",
         "sourceSha256": "16d12d0b3617c1f1b95f172202841fdc914a681f2bb8671733a444846b147f6e"
+      }
+    },
+    {
+      "id": "media:/icons/items/64888-Newwworld.mod.png",
+      "kind": "media",
+      "target": "/icons/items/64888-Newwworld.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f5dd07ce246f0852269551245ab6c08181ba6911148e8bc5c9ca0b486b4bfb0",
+        "sourceSha256": "1f5dd07ce246f0852269551245ab6c08181ba6911148e8bc5c9ca0b486b4bfb0"
+      }
+    },
+    {
+      "id": "media:/icons/items/64890-Newwworld.mod.png",
+      "kind": "media",
+      "target": "/icons/items/64890-Newwworld.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "42d965f42349cb6b63660e224335e8f1b12fbeb0390ced6739a025bc1218f61d",
+        "sourceSha256": "42d965f42349cb6b63660e224335e8f1b12fbeb0390ced6739a025bc1218f61d"
+      }
+    },
+    {
+      "id": "media:/icons/items/64891-Newwworld.mod.png",
+      "kind": "media",
+      "target": "/icons/items/64891-Newwworld.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "38d622fc9cda54099acedfcc673cdb24d1895762896efe3b7156865e5961ca3b",
+        "sourceSha256": "38d622fc9cda54099acedfcc673cdb24d1895762896efe3b7156865e5961ca3b"
       }
     },
     {
@@ -14480,6 +14865,18 @@
       "target": "/icons/items/SHACKLES-BODY.png",
       "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
       "acceptedIn": "conversion/items/acceptances.json#armour-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "d6ea53a28a9723789afdc62381d7c4a4667f176aee0a8a00dc0894d4a23f2258",
+        "sourceSha256": "d6ea53a28a9723789afdc62381d7c4a4667f176aee0a8a00dc0894d4a23f2258"
+      }
+    },
+    {
+      "id": "media:/icons/items/SHACKLES.png",
+      "kind": "media",
+      "target": "/icons/items/SHACKLES.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-2",
       "resolution": {
         "method": "local media matches pinned file SHA-256",
         "sha256": "d6ea53a28a9723789afdc62381d7c4a4667f176aee0a8a00dc0894d4a23f2258",

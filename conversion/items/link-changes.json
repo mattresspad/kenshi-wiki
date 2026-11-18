@@ -277,5 +277,36 @@
       "/plate-armour-crafting-tech",
       "/simple-clothing-types-tech"
     ]
+  },
+  {
+    "name": "armour-2",
+    "resolved": [
+      "/cargopants",
+      "/cargopants-colored",
+      "/cargopants-padded",
+      "/cargopants-reinforced",
+      "/cargopants-sneaky-chain",
+      "/chain-shirt",
+      "/chainmail",
+      "/cloth-shirt",
+      "/clothing",
+      "/conscript-leather-armour",
+      "/crab-armour",
+      "/crab-helmet",
+      "/crab-shoes",
+      "/crab-trousers",
+      "/dark-leather-shirt",
+      "/drifters-boots",
+      "/drifters-leather-jacket",
+      "/drifters-leather-pants",
+      "/dustcoat",
+      "/dyed-rag-shirt",
+      "/dyed-robes",
+      "/dyed-trousers",
+      "/dyed-turban"
+    ],
+    "introduced": [
+      "/category/needs-grade-info"
+    ]
   }
 ]

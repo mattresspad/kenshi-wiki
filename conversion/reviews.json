@@ -2542,6 +2542,98 @@
     "cap": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/items/review.json"
+    },
+    "cargopants-colored": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "cargopants-padded": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "cargopants-reinforced": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "cargopants-sneaky-chain": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "cargopants": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "chain-shirt": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "chainmail": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "cloth-shirt": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "clothing": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "conscript-leather-armour": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "crab-armour": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "crab-helmet": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "crab-shoes": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "crab-trousers": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "dark-leather-shirt": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "drifters-boots": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "drifters-leather-jacket": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "drifters-leather-pants": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "dustcoat": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "dyed-rag-shirt": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "dyed-robes": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "dyed-trousers": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "dyed-turban": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
     }
   },
   "mediaGaps": [
