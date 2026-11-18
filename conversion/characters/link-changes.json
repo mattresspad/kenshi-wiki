@@ -82,5 +82,45 @@
       "/wooden-sandals",
       "/zed"
     ]
+  },
+  {
+    "name": "recruit-indexes",
+    "resolved": [
+      "/generic-recruits",
+      "/slave-recruits",
+      "/unique-recruits"
+    ],
+    "introduced": [
+      "/main-menu",
+      "/prisoner-shackles"
+    ]
+  },
+  {
+    "name": "varied-statistics-and-stock",
+    "resolved": [
+      "/alpha-gurgler",
+      "/drifter",
+      "/fish-and-drugs-seller"
+    ],
+    "introduced": [
+      "/bandana",
+      "/cap",
+      "/category/bounty",
+      "/cloth-shirt",
+      "/halfpants-ragged",
+      "/ninja-pants",
+      "/npc-shopping-behavior",
+      "/plated-longboots",
+      "/rattan-hat",
+      "/samurai-clothpants",
+      "/square-goggles",
+      "/stout-hessian-uniform",
+      "/straw-hat",
+      "/tagelmust",
+      "/traders-leathers",
+      "/tricorn-hat",
+      "/turban",
+      "/wool-hat"
+    ]
   }
 ]

@@ -18,6 +18,7 @@ const definitions=[
  ['character-historical-lore',null,/speculat|likely|perhaps|rumou?r|seems|assum|implied|theor|unclear|not elaborated/i, 'Character backstory and motive interpretations include qualified or speculative material.', 'Retain speaker attribution and separate dialogue quotations from interpretation; seek the cited dialogue or developer source before strengthening a claim.', 'A character claim or inference is not independently established historical fact.'],
  ['character-removed-content',null,/content discussed on this page|removed|0\.93\.14|out of date|incomplete information/i, 'Historical and incomplete character pages need their version and availability qualifications.', 'Compare the cited historical patch or FCS record with current data, keeping removed NPCs separate from present-day spawn or recruitment instructions.', 'A surviving record does not demonstrate a character currently spawns.']
 ];
+definitions.push(...get('conversion/characters/questions.json').map(([key,only,pattern,...rest])=>[key,only,new RegExp(pattern,'i'),...rest]));
 const texts=new Map();
 for(const id of ids){const original=sources.get(id);let text=readFileSync('reports/geography-work/reference-83abc179/'+original.sourceFile,'utf8').replaceAll('\r\n','\n');assert.equal(createHash('sha256').update(text).digest('hex'),original.sourceSha256,id+' source');texts.set(id,text.split('\n'));}
 for(const [key,only,pattern,finding,resolution,uncertainty] of definitions){

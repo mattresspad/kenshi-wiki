@@ -1,0 +1,44 @@
+[
+  [
+    "character-slavery-methods",
+    [
+      "slave-recruits",
+      "generic-recruits"
+    ],
+    "cages by the player|buying their freedom|save|reload|import",
+    "Slavery recruitment describes different purchase and liberation rules, while free recruits may retain hostile AI until reload.",
+    "Test purchase and liberation separately with exact dialogue packages, personalities and prior player hostility; preserve method distinctions.",
+    "The buying-freedom workaround must not be generalized to liberation, and reload/import claims need version-specific tests."
+  ],
+  [
+    "character-agnu-interpretation",
+    [
+      "agnu"
+    ],
+    "Gender Debate|gender|officially|50%|Venge",
+    "Agnu’s article mixes quoted dialogue, exported character-data claims, interpretation of gender and developer intent.",
+    "Verify the referenced dialogue entries and exact character record; distinguish the field value, narrative identity, player interpretations and unsupported claims about developer intent.",
+    "The text is retained for provenance review; a data field or ambiguous scream does not by itself settle narrative interpretation."
+  ],
+  [
+    "character-prisoner-import",
+    [
+      "agnu",
+      "cat"
+    ],
+    "bug|Dead NPCs|import",
+    "Agnu presents a prisoner-import problem as current, while Cat qualifies a similar problem as pre-1.0.",
+    "Compare original revision dates and reproduce unique-prisoner imports on a recorded game version before aligning the instructions.",
+    "These may describe different bugs or an outdated version qualification."
+  ],
+  [
+    "character-bo-world-state",
+    [
+      "bo"
+    ],
+    "not okay|dead|hard lock|Masterwork",
+    "Bo contains claims about Tinfist being treated as dead after a KO, a solo capture lock and equipment dependent on squad size.",
+    "Test the named state predicates, squad AI and equipment roll with controlled settings and save/reload evidence.",
+    "KO, imprisonment and death predicates must not be treated as interchangeable."
+  ]
+]

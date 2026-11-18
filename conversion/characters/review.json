@@ -99,7 +99,8 @@
         "claim:character-equipment-probability",
         "claim:character-historical-lore",
         "claim:character-recruitment",
-        "claim:character-removed-content"
+        "claim:character-removed-content",
+        "claim:character-slavery-methods"
       ]
     },
     {
@@ -116,8 +117,60 @@
         "claim:character-equipment-probability",
         "claim:character-historical-lore",
         "claim:character-recruitment",
+        "claim:character-slavery-methods",
         "claim:character-stock-shopping",
         "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "drifter",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Faction and race variability, rare recruitment, 4% bounty chance and 1–4,000-Cat range retained alongside eight unassigned statistics groups.",
+      "organization": "Reviewed 12 section bookmarks and 73 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/drifter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "884cbb67fd4c0cf1fc09d6c611f0510dad9b1471ac458a53ba0e2c15367dc909"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-stat-associations",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "fish-and-drugs-seller",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Swamp shop locations, equipment rolls and Possible Stock disclosure retain prices and Common availability labels.",
+      "organization": "Reviewed 2 section bookmarks and 33 source tables; 4 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fish-and-drugs-seller.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e4af303b53e484222cbbbeec8321d10c07b0b2f6605153f84700462ee6d25149"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-stat-associations",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "alpha-gurgler",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Fishmen variant keeps anatomy/drop treatment distinct from humanoid NPC statistics.",
+      "organization": "Reviewed 5 section bookmarks and 10 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/alpha-gurgler.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fdf2f20bc2025d86217bfb9795213a79b4981cc569741733e38599700a2dd75a"
+      },
+      "questions": [
+        "claim:character-fcs-statistics"
       ]
     }
   ],

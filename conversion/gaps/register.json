@@ -38011,6 +38011,160 @@
       "postCutover": "Keep the source qualification and correction route visible. Do not present an unverified interpretation as an established game rule."
     },
     {
+      "id": "claim:character-agnu-interpretation",
+      "kind": "claim",
+      "target": "/agnu",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Agnu’s article mixes quoted dialogue, exported character-data claims, interpretation of gender and developer intent.",
+      "proposedResolution": "Verify the referenced dialogue entries and exact character record; distinguish the field value, narrative identity, player interpretations and unsupported claims about developer intent.",
+      "uncertainty": "The text is retained for provenance review; a data field or ambiguous scream does not by itself settle narrative interpretation.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "agnu",
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "ea9169c203624d68df5c1d9a302646f8a1fd5d2be48e5ff73ef88779a19e438e",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/agnu.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "agnu",
+          "label": "**Agnu** is a [Unique Recruit](/unique-recruits) who can be found imprisoned by the [Thrall Masters](/thrall-masters) in the top floor of the [Tower of Abuse](/tower-of-abuse). Agnu is the only [Soldierbot](/soldierbot) that is recruitable and will join the player after being freed. Soldierbots heal 50% faster than normal Skeletons and can see from much further away.",
+          "literal": "**Agnu** is a [Unique Recruit](/unique-recruits) who can be found imprisoned by the [Thrall Masters](/thrall-masters) in the top floor of the [Tower of Abuse](/tower-of-abuse). Agnu is the only [Soldierbot](/soldierbot) that is recruitable and will join the player after being freed. Soldierbots heal 50% faster than normal Skeletons and can see from much further away.",
+          "line": 20,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "agnu",
+          "label": "-   If you try to go through [Venge](/venge) while having other characters in your squad, Agnu may stop and scream and won't move even if given a manual move command. If [Beep](/beep) is nearby, he may calm Agnu down.",
+          "literal": "-   If you try to go through [Venge](/venge) while having other characters in your squad, Agnu may stop and scream and won't move even if given a manual move command. If [Beep](/beep) is nearby, he may calm Agnu down.",
+          "line": 76,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "agnu",
+          "label": "### The Gender Debate",
+          "literal": "### The Gender Debate",
+          "line": 80,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "agnu",
+          "label": "Skeletons, as a race, do not have biological sex. The game does not establish whether Skeletons possess or identify with a gender, and it is therefore debated whether the concept of gender identity applies to them at all. The general public commonly refers to Skeletons as male, seemingly as a default. Technically, the most accurate classification would be \"neuter.\"",
+          "literal": "Skeletons, as a race, do not have biological sex. The game does not establish whether Skeletons possess or identify with a gender, and it is therefore debated whether the concept of gender identity applies to them at all. The general public commonly refers to Skeletons as male, seemingly as a default. Technically, the most accurate classification would be \"neuter.\"",
+          "line": 82,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "agnu",
+          "label": "The debate surrounding Agnu's gender identity originates from a single random biome dialogue entry<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>, in which [Beep](/beep) asks, \"Who else is female?\" and Agnu responds with one of a set of randomly selected screams. The same set of screams is used as a word substitution for Agnu's otherwise incomprehensible speech throughout the game, with the specific scream being selected randomly rather than according to the context of the dialogue. For example, when the player attempts to take Agnu into [Venge](/venge), the same pool of screams is used in dialogue indicating that Agnu will not enter the area<sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup>. The screams therefore cannot be assigned a fixed meaning based solely on the dialogue in which they occur.",
+          "literal": "The debate surrounding Agnu's gender identity originates from a single random biome dialogue entry<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>, in which [Beep](/beep) asks, \"Who else is female?\" and Agnu responds with one of a set of randomly selected screams. The same set of screams is used as a word substitution for Agnu's otherwise incomprehensible speech throughout the game, with the specific scream being selected randomly rather than according to the context of the dialogue. For example, when the player attempts to take Agnu into [Venge](/venge), the same pool of screams is used in dialogue indicating that Agnu will not enter the area<sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup>. The screams therefore cannot be assigned a fixed meaning based solely on the dialogue in which they occur.",
+          "line": 84,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "agnu",
+          "label": "It has also been speculated that the response is related to Agnu's damaged state. This raises the question of whether the same response would occur after Agnu is repaired. However, interpreting the dialogue in this way can introduce real-world concepts that were likely not intended by the developers. There is no indication that the dialogue was intended to represent gender dysphoria or imply that such an identity constitutes being \"broken.\" It might be more likely that the exchange was intended as a joke. The humor may simply come from the absurdity of attributing gender identity to robots in the first place.",
+          "literal": "It has also been speculated that the response is related to Agnu's damaged state. This raises the question of whether the same response would occur after Agnu is repaired. However, interpreting the dialogue in this way can introduce real-world concepts that were likely not intended by the developers. There is no indication that the dialogue was intended to represent gender dysphoria or imply that such an identity constitutes being \"broken.\" It might be more likely that the exchange was intended as a joke. The humor may simply come from the absurdity of attributing gender identity to robots in the first place.",
+          "line": 88,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "agnu",
+          "label": "The way the game handles Agnu's identity also suggests that the dialogue was not intended to establish a formal change in gender. There is no game mechanic or variable that changes after the exchange that would cause player characters or NPCs to subsequently refer to Agnu as \"she.\" Referring to Skeletons as \"he\" is the general norm, and Agnu's character data identifies Agnu as male. Had the developers intended to formally establish Agnu as female, this could have been implemented through a simple change to the character's data.",
+          "literal": "The way the game handles Agnu's identity also suggests that the dialogue was not intended to establish a formal change in gender. There is no game mechanic or variable that changes after the exchange that would cause player characters or NPCs to subsequently refer to Agnu as \"she.\" Referring to Skeletons as \"he\" is the general norm, and Agnu's character data identifies Agnu as male. Had the developers intended to formally establish Agnu as female, this could have been implemented through a simple change to the character's data.",
+          "line": 90,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "agnu",
+          "label": "Therefore, Agnu is officially classified as male in the game's data, although some players interpret Agnu as female based on the mentioned ambiguous dialogue.",
+          "literal": "Therefore, Agnu is officially classified as male in the game's data, although some players interpret Agnu as female based on the mentioned ambiguous dialogue.",
+          "line": 92,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "agnu",
+          "label": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\">biome- beep random 1</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\">biome- venge agnu</span></li></ol>",
+          "literal": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\">biome- beep random 1</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\">biome- venge agnu</span></li></ol>",
+          "line": 100,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:character-bo-world-state",
+      "kind": "claim",
+      "target": "/bo",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Bo contains claims about Tinfist being treated as dead after a KO, a solo capture lock and equipment dependent on squad size.",
+      "proposedResolution": "Test the named state predicates, squad AI and equipment roll with controlled settings and save/reload evidence.",
+      "uncertainty": "KO, imprisonment and death predicates must not be treated as interchangeable.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "bo",
+          "sourceFile": "src/content/wiki/bo.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "e3d67975b789b55da74f108e3171432cb0b211e165ed0354353e86565c5f6646",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/bo.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "bo",
+          "label": "She is also capable of asking a squad of Anti-Slavers you encounter to bodyguard your squad for three days. Strangely, this seems to work on [Tinfist's](/tinfist) squad, so one can potentially get Tinfist and [Grey](/grey) to follow them around. Be very careful if followed by Tinfist as if he happens to be KOed or bugs out he may register as \"not okay\" for his world state and be treated as dead.",
+          "literal": "She is also capable of asking a squad of Anti-Slavers you encounter to bodyguard your squad for three days. Strangely, this seems to work on [Tinfist's](/tinfist) squad, so one can potentially get Tinfist and [Grey](/grey) to follow them around. Be very careful if followed by Tinfist as if he happens to be KOed or bugs out he may register as \"not okay\" for his world state and be treated as dead.",
+          "line": 29,
+          "sourceFile": "src/content/wiki/bo.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "bo",
+          "label": "She appears to always spawn wearing a Masterwork [Dark Leather Shirt](/dark-leather-shirt) if the squad size multiplier is at 1.0 (default game settings).",
+          "literal": "She appears to always spawn wearing a Masterwork [Dark Leather Shirt](/dark-leather-shirt) if the squad size multiplier is at 1.0 (default game settings).",
+          "line": 31,
+          "sourceFile": "src/content/wiki/bo.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "bo",
+          "label": "<table class=\"wikitable sortable\"><tbody><tr><th data-sort-type=\"number\" scope=\"col\">Grade</th><th data-sort-type=\"number\" scope=\"col\">Chance</th></tr><tr><td data-sort-value=\"25\"><span>[Specialist]</span></td><td data-sort-value=\"95\">95%</td></tr><tr><td data-sort-value=\"26\"><span>[Masterwork]</span></td><td data-sort-value=\"5\">5%</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable sortable\"><tbody><tr><th data-sort-type=\"number\" scope=\"col\">Grade</th><th data-sort-type=\"number\" scope=\"col\">Chance</th></tr><tr><td data-sort-value=\"25\"><span>[Specialist]</span></td><td data-sort-value=\"95\">95%</td></tr><tr><td data-sort-value=\"26\"><span>[Masterwork]</span></td><td data-sort-value=\"5\">5%</td></tr></tbody></table>",
+          "line": 92,
+          "sourceFile": "src/content/wiki/bo.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "bo",
+          "label": "-   If training defense/dodge on the guards in Black Scratch be sure to avoid Bo's squadmate. The AI of her squad will cause the unit to pick you up when you are knocked unconscious but never drop you. If playing solo this is a hard lock as you are unable to free yourself and they will only move between the two bars in town.",
+          "literal": "-   If training defense/dodge on the guards in Black Scratch be sure to avoid Bo's squadmate. The AI of her squad will cause the unit to pick you up when you are knocked unconscious but never drop you. If playing solo this is a hard lock as you are unable to free yourself and they will only move between the two bars in town.",
+          "line": 120,
+          "sourceFile": "src/content/wiki/bo.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:character-equipment-probability",
       "kind": "claim",
       "target": "/beep",
@@ -70148,6 +70302,70 @@
       ]
     },
     {
+      "id": "claim:character-prisoner-import",
+      "kind": "claim",
+      "target": "/agnu",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Agnu presents a prisoner-import problem as current, while Cat qualifies a similar problem as pre-1.0.",
+      "proposedResolution": "Compare original revision dates and reproduce unique-prisoner imports on a recorded game version before aligning the instructions.",
+      "uncertainty": "These may describe different bugs or an outdated version qualification.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "agnu",
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "ea9169c203624d68df5c1d9a302646f8a1fd5d2be48e5ff73ef88779a19e438e",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/agnu.md"
+        },
+        {
+          "articleId": "cat",
+          "sourceFile": "src/content/wiki/cat.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "6587ed0d101bb33dfffe190544900ed70a8053301913578ac4d4af5c9c9bd08a",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/cat.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "agnu",
+          "label": "-   A bug exists that prevents unique prisoners like Agnu and [Cat](/cat) to spawn if the game was imported after they were loaded in.",
+          "literal": "-   A bug exists that prevents unique prisoners like Agnu and [Cat](/cat) to spawn if the game was imported after they were loaded in.",
+          "line": 73,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "agnu",
+          "label": "    -   Importing again without \"Dead NPCs\" checked will fix this issue.",
+          "literal": "    -   Importing again without \"Dead NPCs\" checked will fix this issue.",
+          "line": 74,
+          "sourceFile": "src/content/wiki/agnu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "cat",
+          "label": "A [United Cities](/united-cities) citizen, Cat was dressed very nicely on his way to a date when he was mistaken for a rich person because of his nice clothes. He got caught by the [Dust Bandits](/dust-bandits). They wanted a ransom for him because they thought he was someone important, but no one showed up, so he was left in prison in the [Dust King Tower](/dust-king-tower). The [UC](/united-cities) nobles don't even know him.",
+          "literal": "A [United Cities](/united-cities) citizen, Cat was dressed very nicely on his way to a date when he was mistaken for a rich person because of his nice clothes. He got caught by the [Dust Bandits](/dust-bandits). They wanted a ransom for him because they thought he was someone important, but no one showed up, so he was left in prison in the [Dust King Tower](/dust-king-tower). The [UC](/united-cities) nobles don't even know him.",
+          "line": 27,
+          "sourceFile": "src/content/wiki/cat.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "cat",
+          "label": "A bug existed in some [game versions](/changelog) prior to the 1.0 release that prevented unique prisoners like [Agnu](/agnu) and Cat to spawn if the game was imported in the past. Importing again without \"Dead NPCs\" fixed the problem.",
+          "literal": "A bug existed in some [game versions](/changelog) prior to the 1.0 release that prevented unique prisoners like [Agnu](/agnu) and Cat to spawn if the game was imported in the past. Importing again without \"Dead NPCs\" fixed the problem.",
+          "line": 93,
+          "sourceFile": "src/content/wiki/cat.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:character-recruitment",
       "kind": "claim",
       "target": "/beep",
@@ -75212,6 +75430,86 @@
           "literal": "categories: [\"Characters\",\"Unique\",\"Removed Content\"]",
           "line": 7,
           "sourceFile": "src/content/wiki/zed.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:character-slavery-methods",
+      "kind": "claim",
+      "target": "/slave-recruits",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Slavery recruitment describes different purchase and liberation rules, while free recruits may retain hostile AI until reload.",
+      "proposedResolution": "Test purchase and liberation separately with exact dialogue packages, personalities and prior player hostility; preserve method distinctions.",
+      "uncertainty": "The buying-freedom workaround must not be generalized to liberation, and reload/import claims need version-specific tests.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "slave-recruits",
+          "sourceFile": "src/content/wiki/slave-recruits.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "fedc3d5da015141864a97208e79b6613231ad5e908868f968d77de6957b51aa7",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/slave-recruits.md"
+        },
+        {
+          "articleId": "generic-recruits",
+          "sourceFile": "src/content/wiki/generic-recruits.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "1adb9fd47d4b1207a7a5a19a66696fbbf94ecb14263fa8018dc2ad0c0d4205a0",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/generic-recruits.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "slave-recruits",
+          "label": "There's a way to recruit some of the non-recruitable characters by \"buying their freedom\" after they are enslaved. The irony of this method is in that it is **the player** that puts them into this terrible situation and then \"rescues\" them. Players should pick up **unconscious** characters, travel to the slavers, and then **drop them down in front of the slavers** so that they'd enslave them. After it is done, it is safe to \"rescue\" the new slaves by buying their freedom. Provided that the player characters are not seen by the new slaves prior to them suddenly appearing in a slave cage and with a headache, they will feel grateful towards the player. Upon being freed, some former slaves will join the player's party as a form of gratitude. This strategy has been tested on [Holy Nation Robots](/holy-nation-robot) for example.",
+          "literal": "There's a way to recruit some of the non-recruitable characters by \"buying their freedom\" after they are enslaved. The irony of this method is in that it is **the player** that puts them into this terrible situation and then \"rescues\" them. Players should pick up **unconscious** characters, travel to the slavers, and then **drop them down in front of the slavers** so that they'd enslave them. After it is done, it is safe to \"rescue\" the new slaves by buying their freedom. Provided that the player characters are not seen by the new slaves prior to them suddenly appearing in a slave cage and with a headache, they will feel grateful towards the player. Upon being freed, some former slaves will join the player's party as a form of gratitude. This strategy has been tested on [Holy Nation Robots](/holy-nation-robot) for example.",
+          "line": 16,
+          "sourceFile": "src/content/wiki/slave-recruits.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "slave-recruits",
+          "label": "Some sources ([here](https://steamcommunity.com/app/233860/discussions/0/1733217429056700227/) and [here](https://www.reddit.com/r/Kenshi/comments/b5jzlr/after_about_2_days_of_savescumming_and_glitching/)) indicate, that:",
+          "literal": "Some sources ([here](https://steamcommunity.com/app/233860/discussions/0/1733217429056700227/) and [here](https://www.reddit.com/r/Kenshi/comments/b5jzlr/after_about_2_days_of_savescumming_and_glitching/)) indicate, that:",
+          "line": 24,
+          "sourceFile": "src/content/wiki/slave-recruits.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "slave-recruits",
+          "label": "-   Characters sold into slavery or placed into cages by the player cannot be recruited via liberation.",
+          "literal": "-   Characters sold into slavery or placed into cages by the player cannot be recruited via liberation.",
+          "line": 27,
+          "sourceFile": "src/content/wiki/slave-recruits.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "generic-recruits",
+          "label": "Bar squads such as the recruits shown on this page will **not** respawn or change over time. If you have emptied a bar, or they got killed, do not expect it to refill at some point. An [import](/main-menu) must be performed for any of them to refill.",
+          "literal": "Bar squads such as the recruits shown on this page will **not** respawn or change over time. If you have emptied a bar, or they got killed, do not expect it to refill at some point. An [import](/main-menu) must be performed for any of them to refill.",
+          "line": 18,
+          "sourceFile": "src/content/wiki/generic-recruits.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "generic-recruits",
+          "label": "These recruits can join the player for free. They are either rare finds due to spawn rates or have a chance to join the player after being freed from imprisonment. Some of these recruits retain bandit AI behavior or target designations and may potentially antagonize neutral travelers on the road or get attacked by guards or major faction patrols until the game is saved and reloaded.",
+          "literal": "These recruits can join the player for free. They are either rare finds due to spawn rates or have a chance to join the player after being freed from imprisonment. Some of these recruits retain bandit AI behavior or target designations and may potentially antagonize neutral travelers on the road or get attacked by guards or major faction patrols until the game is saved and reloaded.",
+          "line": 64,
+          "sourceFile": "src/content/wiki/generic-recruits.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "generic-recruits",
+          "label": "These Recruits have increased stats on a few specific skills. Players can save time on training characters with beginner stats if they spend slightly more money and recruit one of these characters.",
+          "literal": "These Recruits have increased stats on a few specific skills. Players can save time on training characters with beginner stats if they spend slightly more money and recruit one of these characters.",
+          "line": 74,
+          "sourceFile": "src/content/wiki/generic-recruits.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
