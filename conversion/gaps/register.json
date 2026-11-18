@@ -100519,6 +100519,119 @@
       ]
     },
     {
+      "id": "claim:item-crossbow-formulas",
+      "kind": "claim",
+      "target": "/crossbows",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Crossbow overview qualifies tooltips and describes damage, targeting and DPS formulas.",
+      "proposedResolution": "Verify source citations and exact engine/version semantics for range units, skill caps, immunity and multipliers.",
+      "uncertainty": "Descriptions and narrative may disagree; keep source qualifications until independently established.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "crossbows",
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "02938bc19d7c6d41bf21f6319cb25d314681fe8a8e4e3260cb58d107816c6372",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/crossbows.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "crossbows",
+          "label": "NOTE: There is an intentional mechanic from the developers that makes characters with the Diplomat tag \"immune\" to crossbows. Attempting to shoot units who have a Diplomatic status will usually result in your character aiming at someone else entirely. It is possible to have your marksmen target sometimes glitching and instead hitting an invisible target behind the Diplomat you set to attack. Despite the immunity, your marksmen can have a chance of 'accidentally' hitting the Diplomatic character in front of the unit you are aiming at. On occasion (Sometimes after stealing something from them, assassination attempt etc...) you will be able to shoot to Diplomatic targets with a Crossbow.",
+          "literal": "NOTE: There is an intentional mechanic from the developers that makes characters with the Diplomat tag \"immune\" to crossbows. Attempting to shoot units who have a Diplomatic status will usually result in your character aiming at someone else entirely. It is possible to have your marksmen target sometimes glitching and instead hitting an invisible target behind the Diplomat you set to attack. Despite the immunity, your marksmen can have a chance of 'accidentally' hitting the Diplomatic character in front of the unit you are aiming at. On occasion (Sometimes after stealing something from them, assassination attempt etc...) you will be able to shoot to Diplomatic targets with a Crossbow.",
+          "line": 14,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crossbows",
+          "label": "<table class=\"wikitable sortable\"><tbody><tr><th>Name</th><th>Damage</th><th>Accuracy deviation</th><th>Reload time</th><th>Range</th><th>Projectile Velocity</th><th>Required Skill<p>(Does not actually matter)</p></th></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/95724-Dialogue.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/junkbow\">Junkbow</a></td><td>12-30</td><td>6-12°</td><td>2.0-4.0s</td><td>30 - 40 m</td><td>82-102m/s</td><td>90</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/66534-Newwworld.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/tooth-pick\">Tooth Pick</a></td><td>11-32</td><td>6-11°</td><td>1.3-3.0s</td><td>38 - 50 m</td><td>82-102m/s</td><td>90</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/66169-Newwworld.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/ranger\">Ranger</a></td><td>23-57</td><td>3-5°</td><td>2.0-4.5s</td><td>61 - 79 m</td><td>93-114m/s</td><td>60</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/95764-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/spring-bat\">Spring Bat</a></td><td>35-101</td><td>4-8°</td><td>3.5-8.0s</td><td>41 - 54 m</td><td>116-137m/s</td><td>70</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/65870-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/oldworld-bow-mki\">Oldworld Bow MkI</a></td><td>23-64</td><td>2.5-4.0°</td><td>2.5-4.5s</td><td>82 - 109 m</td><td>116-137m/s</td><td>70</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/53643-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/oldworld-bow-mkii\">Oldworld Bow MkII</a></td><td>40-77</td><td>2.3-4.0°</td><td>2.3-7.9s</td><td>82 - 118 m</td><td>116-137m/s</td><td>80</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/66290-Newwworld.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/eagles-cross\">Eagle's Cross</a></td><td>56-127</td><td>1.6-2.5°</td><td>4.1-10s</td><td>152 - 188 m</td><td>162-183m/s</td><td>80</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable sortable\"><tbody><tr><th>Name</th><th>Damage</th><th>Accuracy deviation</th><th>Reload time</th><th>Range</th><th>Projectile Velocity</th><th>Required Skill<p>(Does not actually matter)</p></th></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/95724-Dialogue.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/junkbow\">Junkbow</a></td><td>12-30</td><td>6-12°</td><td>2.0-4.0s</td><td>30 - 40 m</td><td>82-102m/s</td><td>90</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/66534-Newwworld.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/tooth-pick\">Tooth Pick</a></td><td>11-32</td><td>6-11°</td><td>1.3-3.0s</td><td>38 - 50 m</td><td>82-102m/s</td><td>90</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/66169-Newwworld.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/ranger\">Ranger</a></td><td>23-57</td><td>3-5°</td><td>2.0-4.5s</td><td>61 - 79 m</td><td>93-114m/s</td><td>60</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/95764-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/spring-bat\">Spring Bat</a></td><td>35-101</td><td>4-8°</td><td>3.5-8.0s</td><td>41 - 54 m</td><td>116-137m/s</td><td>70</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/65870-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/oldworld-bow-mki\">Oldworld Bow MkI</a></td><td>23-64</td><td>2.5-4.0°</td><td>2.5-4.5s</td><td>82 - 109 m</td><td>116-137m/s</td><td>70</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/53643-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/oldworld-bow-mkii\">Oldworld Bow MkII</a></td><td>40-77</td><td>2.3-4.0°</td><td>2.3-7.9s</td><td>82 - 118 m</td><td>116-137m/s</td><td>80</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/66290-Newwworld.mod.png\" alt=\"\" width=\"96\" height=\"24\"> <a href=\"/eagles-cross\">Eagle's Cross</a></td><td>56-127</td><td>1.6-2.5°</td><td>4.1-10s</td><td>152 - 188 m</td><td>162-183m/s</td><td>80</td></tr></tbody></table>",
+          "line": 44,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crossbows",
+          "label": "The damage, accuracy, range, projectile speed, reload time are all affected by the quality of the weapon. A low-quality weapon will never reach the best values while the highest quality bows have minimum values much higher than the worst quality versions. Unlike other weapons Crossbows use the same quality as Armour, ranging from Prototype to Masterwork. Contrary to what is listed on a Crossbow's description they all have a Bloodloss value of 2.0x. (As in if a shot would do 100 damage against a Greenlander, then they will instantly lose 40 blood)",
+          "literal": "The damage, accuracy, range, projectile speed, reload time are all affected by the quality of the weapon. A low-quality weapon will never reach the best values while the highest quality bows have minimum values much higher than the worst quality versions. Unlike other weapons Crossbows use the same quality as Armour, ranging from Prototype to Masterwork. Contrary to what is listed on a Crossbow's description they all have a Bloodloss value of 2.0x. (As in if a shot would do 100 damage against a Greenlander, then they will instantly lose 40 blood)",
+          "line": 48,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crossbows",
+          "label": "-   The [Crossbows skill](/statistics) itself is a value of 0 to 100<sup id=\"cite_ref-Crossbow_Comparison/Analysis_1-0\" class=\"reference\"><a href=\"#cite_note-Crossbow_Comparison/Analysis-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>, multiplied by any equipment Crossbows effect ratios (such as from Ninja Rags). The skill applies to accuracy deviation and reload time. The effects from armour/robotics are multiplicative; that is, 1.1x Crossbows effect from Ninja Rags and 1.25x Crossbows effect from a Steady Arm is 1.375x total (1.1\\*1.25, or a 37.5% bonus) rather than a 1.35x total (1.1+1.25, or a 35% bonus). Crossbows effect multipliers also apply to the Precision Shooting skill.",
+          "literal": "-   The [Crossbows skill](/statistics) itself is a value of 0 to 100<sup id=\"cite_ref-Crossbow_Comparison/Analysis_1-0\" class=\"reference\"><a href=\"#cite_note-Crossbow_Comparison/Analysis-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>, multiplied by any equipment Crossbows effect ratios (such as from Ninja Rags). The skill applies to accuracy deviation and reload time. The effects from armour/robotics are multiplicative; that is, 1.1x Crossbows effect from Ninja Rags and 1.25x Crossbows effect from a Steady Arm is 1.375x total (1.1\\*1.25, or a 37.5% bonus) rather than a 1.35x total (1.1+1.25, or a 35% bonus). Crossbows effect multipliers also apply to the Precision Shooting skill.",
+          "line": 54,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crossbows",
+          "label": "-   [Precision Shooting](/precision-shooting) skill is used to calculate the accuracy of a shot, as well as the friendly fire avoidance. Friendly fire avoidance increases by 1.5% per level until capped at 100% at 66.66...% Precision Shooting.",
+          "literal": "-   [Precision Shooting](/precision-shooting) skill is used to calculate the accuracy of a shot, as well as the friendly fire avoidance. Friendly fire avoidance increases by 1.5% per level until capped at 100% at 66.66...% Precision Shooting.",
+          "line": 55,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crossbows",
+          "label": "-   **Reload time** - The minimum and maximum time it takes to reload a Crossbow. Your actual reload speed is determined by a ratio of the sum your Crossbows skill and Dexterity compared to the maximum of 200 total. Unlike with accuracy deviation, for the purpose of reload time, this maxes out at 100 for each stat. Going over 100 for either stat via prosthetics or equipment bonuses confers no extra benefit (for example, having 120 Crossbows skill and 50 Dexterity only counts as 150 total). _Lowering reload time is the only way to increase DPS, which means the Crossbows skill and Dexterity are the only factors that contribute to DPS gains for a given type and quality of crossbow._<sup id=\"cite_ref-Crossbow_Comparison/Analysis_1-4\" class=\"reference\"><a href=\"#cite_note-Crossbow_Comparison/Analysis-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>",
+          "literal": "-   **Reload time** - The minimum and maximum time it takes to reload a Crossbow. Your actual reload speed is determined by a ratio of the sum your Crossbows skill and Dexterity compared to the maximum of 200 total. Unlike with accuracy deviation, for the purpose of reload time, this maxes out at 100 for each stat. Going over 100 for either stat via prosthetics or equipment bonuses confers no extra benefit (for example, having 120 Crossbows skill and 50 Dexterity only counts as 150 total). _Lowering reload time is the only way to increase DPS, which means the Crossbows skill and Dexterity are the only factors that contribute to DPS gains for a given type and quality of crossbow._<sup id=\"cite_ref-Crossbow_Comparison/Analysis_1-4\" class=\"reference\"><a href=\"#cite_note-Crossbow_Comparison/Analysis-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>",
+          "line": 62,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crossbows",
+          "label": "-   **Required skill** - This value does nothing and inaccurate... FCS states that this stat is the \"skill level required to get 100% accuracy (0 deviation)\" with a given crossbow, but in testing, it has no impact on your accuracy whatsoever.",
+          "literal": "-   **Required skill** - This value does nothing and inaccurate... FCS states that this stat is the \"skill level required to get 100% accuracy (0 deviation)\" with a given crossbow, but in testing, it has no impact on your accuracy whatsoever.",
+          "line": 64,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crossbows",
+          "label": "### DPS breakdown",
+          "literal": "### DPS breakdown",
+          "line": 66,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crossbows",
+          "label": "-   0-73: [Oldworld Bow MkI](/oldworld-bow-mki) ( making it for a character, until it's reached a total of sum of Dex + Crossbow skill of 73, the Highest & best DPS Crossbow available for a starter crossbow character)",
+          "literal": "-   0-73: [Oldworld Bow MkI](/oldworld-bow-mki) ( making it for a character, until it's reached a total of sum of Dex + Crossbow skill of 73, the Highest & best DPS Crossbow available for a starter crossbow character)",
+          "line": 74,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crossbows",
+          "label": "-   74-155: [Eagle's Cross](/eagles-cross) ( Following same logic, this is the Highest DPS Crossbow for a crossbow character in \"middle career\")",
+          "literal": "-   74-155: [Eagle's Cross](/eagles-cross) ( Following same logic, this is the Highest DPS Crossbow for a crossbow character in \"middle career\")",
+          "line": 75,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crossbows",
+          "label": "-   156-200: [Oldworld Bow MkII](/oldworld-bow-mkii) (Highest DPS Crossbow of the game/master level)",
+          "literal": "-   156-200: [Oldworld Bow MkII](/oldworld-bow-mkii) (Highest DPS Crossbow of the game/master level)",
+          "line": 76,
+          "sourceFile": "src/content/wiki/crossbows.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:item-damage-and-modifiers",
       "kind": "claim",
       "target": "/katana",
@@ -108084,6 +108197,301 @@
           "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Economy Arm (left)</td></tr><tr><td colspan=\"2\">[Masterwork Grade]</td></tr><tr><td>-Max HP</td><td>95<p><br></p></td></tr><tr><td colspan=\"2\" align=\"left\">[Stats]</td></tr><tr><td>-Crossbow</td><td>-11%</td></tr><tr><td>-Lockpicking</td><td>-52%</td></tr><tr><td>-Thievery</td><td>-52%</td></tr><tr><td>-Dexterity</td><td>-20%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td colspan=\"2\" align=\"left\">------------</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td>-Value</td><td>c.3,207</td></tr><tr><td>-Sell Value</td><td>c.1,603</td></tr></tbody></table>",
           "line": 48,
           "sourceFile": "src/content/wiki/economy-arm-left.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:item-nonlethal-qualification",
+      "kind": "claim",
+      "target": "/blunt-weapons",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Blunt-weapon guidance differs in how strongly it promises non-lethal capture.",
+      "proposedResolution": "Compare damage, bleeding and coma conditions and retain differences between advice and guaranteed behavior.",
+      "uncertainty": "A low bleeding multiplier does not by itself guarantee a living target.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "blunt-weapons",
+          "sourceFile": "src/content/wiki/blunt-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "720a0108e84d562b39e94fe7f4550e43abb3ff1341a236a48b6d7be7a35cc282",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/blunt-weapons.md"
+        },
+        {
+          "articleId": "jitte",
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c01623bc6bdd96fc929e14606714e2b289aabc697b4920f6211dce5d25345cbb",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/jitte.md"
+        },
+        {
+          "articleId": "iron-club",
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "081d6420ac0409883b01f584e2eade1d6f31f5cdce5344b51bcd9b0b252656f1",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/iron-club.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "blunt-weapons",
+          "label": "Because stun (blunt) damage actually [reduces KO time for the most part](/damage), enemies defeated with a blunt weapon will get up very quickly after getting knocked out. A character knocked out with pure stun damage will stand up seconds (if not instantly) after being knocked unconscious (unless put into a recovery coma).",
+          "literal": "Because stun (blunt) damage actually [reduces KO time for the most part](/damage), enemies defeated with a blunt weapon will get up very quickly after getting knocked out. A character knocked out with pure stun damage will stand up seconds (if not instantly) after being knocked unconscious (unless put into a recovery coma).",
+          "line": 12,
+          "sourceFile": "src/content/wiki/blunt-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "blunt-weapons",
+          "label": "A commonly brought up point is that Blunt Weapons are useful for defeating bounties, because it removes the need to bandage them and reduces the chance of them dying (from bleeding and wound degeneration). However, this claim has significant flaws:",
+          "literal": "A commonly brought up point is that Blunt Weapons are useful for defeating bounties, because it removes the need to bandage them and reduces the chance of them dying (from bleeding and wound degeneration). However, this claim has significant flaws:",
+          "line": 18,
+          "sourceFile": "src/content/wiki/blunt-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "blunt-weapons",
+          "label": "-   Killing a bounty before being able to bandage them is already very unlikely unless using an incredibly skilled characters with high damage weapons.",
+          "literal": "-   Killing a bounty before being able to bandage them is already very unlikely unless using an incredibly skilled characters with high damage weapons.",
+          "line": 20,
+          "sourceFile": "src/content/wiki/blunt-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "blunt-weapons",
+          "label": "-   The short KO time can make it harder to actually pick up the bounty in the middle of a fight.",
+          "literal": "-   The short KO time can make it harder to actually pick up the bounty in the middle of a fight.",
+          "line": 21,
+          "sourceFile": "src/content/wiki/blunt-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "blunt-weapons",
+          "label": "-   You have to either do a lot of micromanaging to only attack the bounty with a blunt-wielding character or equip an entire squad with blunt weapons. Crossbows also cannot be used.",
+          "literal": "-   You have to either do a lot of micromanaging to only attack the bounty with a blunt-wielding character or equip an entire squad with blunt weapons. Crossbows also cannot be used.",
+          "line": 22,
+          "sourceFile": "src/content/wiki/blunt-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "blunt-weapons",
+          "label": "-   You will have a harder time trying to defeat the bounty (and their crowd of supporters, which bounties often have) with blunt weapons compared to other weapon classes.",
+          "literal": "-   You will have a harder time trying to defeat the bounty (and their crowd of supporters, which bounties often have) with blunt weapons compared to other weapon classes.",
+          "line": 23,
+          "sourceFile": "src/content/wiki/blunt-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "blunt-weapons",
+          "label": "<figure class=\"quote\"><blockquote>Affects damage. Blunt weapon damage breaks bones, disables limbs, and temporarily stuns organs. They don't cause much in the way of blood loss so are not usually lethal. Armour is usually designed for protection from blades, so you can often beat through it. A good weapon for the pacifist, or those who like to be different.\"</blockquote><figcaption>Blunt Weapon Skill description</figcaption></figure>",
+          "literal": "<figure class=\"quote\"><blockquote>Affects damage. Blunt weapon damage breaks bones, disables limbs, and temporarily stuns organs. They don't cause much in the way of blood loss so are not usually lethal. Armour is usually designed for protection from blades, so you can often beat through it. A good weapon for the pacifist, or those who like to be different.\"</blockquote><figcaption>Blunt Weapon Skill description</figcaption></figure>",
+          "line": 31,
+          "sourceFile": "src/content/wiki/blunt-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "blunt-weapons",
+          "label": "<table class=\"wikitable sortable\"><tbody><tr><th>Icon</th><th>Name</th><th>Cut multiplier</th><th>Blunt multiplier</th><th>Blood loss</th><th>Armour penetration</th><th>Attack</th><th>Defense</th><th>Indoors</th><th>Reach</th><th>Additional bonuses</th></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/52290-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/heavy-jitte\">Heavy Jitte</a></td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.3\">1.3x</td><td data-sort-value=\"0.1\">0.1x</td><td data-sort-value=\"10\">+10%</td><td>0</td><td>+8</td><td>-2</td><td>21</td><td></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/52295-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/iron-club\">Iron Club</a></td><td data-sort-value=\"0.1\">0.1x</td><td data-sort-value=\"0.85\">0.85x</td><td data-sort-value=\"0.3\">0.3x</td><td data-sort-value=\"0\">0%</td><td>0</td><td>0</td><td>+2</td><td>18</td><td><ul><li><b>Damage vs animals</b>: -10%</li><li>Can be used in the secondary weapon slot</li></ul></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/2064-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/iron-stick\">Iron Stick</a></td><td data-sort-value=\"0.1\">0.1x</td><td data-sort-value=\"0.7\">0.7x</td><td data-sort-value=\"0.3\">0.3x</td><td data-sort-value=\"0\">0%</td><td>-2</td><td>-2</td><td>+2</td><td>18</td><td><ul><li><b>Damage vs animals</b>: -10%</li><li>Can be used in the secondary weapon slot</li></ul></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/52303-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/jitte\">Jitte</a></td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"0.9\">0.9x</td><td data-sort-value=\"0.1\">0.1x</td><td data-sort-value=\"0\">0%</td><td>0</td><td>+8</td><td>+4</td><td>18</td><td><ul><li>Can be used in the secondary weapon slot</li></ul></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/2110-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/mercenary-club\">Mercenary Club</a></td><td data-sort-value=\"0.2\">0.2x</td><td data-sort-value=\"1\">1x</td><td data-sort-value=\"0.3\">0.3x</td><td data-sort-value=\"30\">+30%</td><td>-2</td><td>0</td><td>0</td><td>18</td><td><ul><li><b>Damage vs animals</b>: -10%</li><li><b>Damage vs robots</b>: +20%</li><li>Can be used in the secondary weapon slot</li></ul></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/52297-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/spiked-club\">Spiked Club</a></td><td data-sort-value=\"0.3\">0.3x</td><td data-sort-value=\"1\">1x</td><td data-sort-value=\"2\">2x</td><td data-sort-value=\"30\">+30%</td><td>-2</td><td>0</td><td>0</td><td>18</td><td><ul><li><b>Damage vs animals</b>: -10%</li><li>Can be used in the secondary weapon slot</li></ul></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable sortable\"><tbody><tr><th>Icon</th><th>Name</th><th>Cut multiplier</th><th>Blunt multiplier</th><th>Blood loss</th><th>Armour penetration</th><th>Attack</th><th>Defense</th><th>Indoors</th><th>Reach</th><th>Additional bonuses</th></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/52290-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/heavy-jitte\">Heavy Jitte</a></td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.3\">1.3x</td><td data-sort-value=\"0.1\">0.1x</td><td data-sort-value=\"10\">+10%</td><td>0</td><td>+8</td><td>-2</td><td>21</td><td></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/52295-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/iron-club\">Iron Club</a></td><td data-sort-value=\"0.1\">0.1x</td><td data-sort-value=\"0.85\">0.85x</td><td data-sort-value=\"0.3\">0.3x</td><td data-sort-value=\"0\">0%</td><td>0</td><td>0</td><td>+2</td><td>18</td><td><ul><li><b>Damage vs animals</b>: -10%</li><li>Can be used in the secondary weapon slot</li></ul></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/2064-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/iron-stick\">Iron Stick</a></td><td data-sort-value=\"0.1\">0.1x</td><td data-sort-value=\"0.7\">0.7x</td><td data-sort-value=\"0.3\">0.3x</td><td data-sort-value=\"0\">0%</td><td>-2</td><td>-2</td><td>+2</td><td>18</td><td><ul><li><b>Damage vs animals</b>: -10%</li><li>Can be used in the secondary weapon slot</li></ul></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/52303-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/jitte\">Jitte</a></td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"0.9\">0.9x</td><td data-sort-value=\"0.1\">0.1x</td><td data-sort-value=\"0\">0%</td><td>0</td><td>+8</td><td>+4</td><td>18</td><td><ul><li>Can be used in the secondary weapon slot</li></ul></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/2110-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/mercenary-club\">Mercenary Club</a></td><td data-sort-value=\"0.2\">0.2x</td><td data-sort-value=\"1\">1x</td><td data-sort-value=\"0.3\">0.3x</td><td data-sort-value=\"30\">+30%</td><td>-2</td><td>0</td><td>0</td><td>18</td><td><ul><li><b>Damage vs animals</b>: -10%</li><li><b>Damage vs robots</b>: +20%</li><li>Can be used in the secondary weapon slot</li></ul></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/52297-rebirth.mod.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/spiked-club\">Spiked Club</a></td><td data-sort-value=\"0.3\">0.3x</td><td data-sort-value=\"1\">1x</td><td data-sort-value=\"2\">2x</td><td data-sort-value=\"30\">+30%</td><td>-2</td><td>0</td><td>0</td><td>18</td><td><ul><li><b>Damage vs animals</b>: -10%</li><li>Can be used in the secondary weapon slot</li></ul></td></tr></tbody></table>",
+          "line": 39,
+          "sourceFile": "src/content/wiki/blunt-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "  caption: \"A professional law-enforcement weapon.  Designed for non-lethal takedowns, it has a sword-catcher guard that gives an advantage when defending.  The smaller 1-handed version makes a good sidearm and has an advantage in tight indoor situations.\"",
+          "literal": "  caption: \"A professional law-enforcement weapon.  Designed for non-lethal takedowns, it has a sword-catcher guard that gives an advantage when defending.  The smaller 1-handed version makes a good sidearm and has an advantage in tight indoor situations.\"",
+          "line": 11,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "**Jittes**, along with their larger counterpart the [Heavy Jitte](/heavy-jitte), are [Blunt weapons](/blunt-weapons) that inflict [Stun Damage](/stun-damage) and an extremely minor amount of cut damage/blood loss classifying them as a non-lethal weapon. This allows you to subdue and capture bandit leaders without the risk of them dying from wound degeneration or blood loss.",
+          "literal": "**Jittes**, along with their larger counterpart the [Heavy Jitte](/heavy-jitte), are [Blunt weapons](/blunt-weapons) that inflict [Stun Damage](/stun-damage) and an extremely minor amount of cut damage/blood loss classifying them as a non-lethal weapon. This allows you to subdue and capture bandit leaders without the risk of them dying from wound degeneration or blood loss.",
+          "line": 39,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.09</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>+7</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>3.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.00 kg</td></tr><tr><td>-Value</td><td>c.452</td></tr><tr><td>-Sell value</td><td>c.113</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/unknown-manufacturer\">Unknown</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.09</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>+7</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>3.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.00 kg</td></tr><tr><td>-Value</td><td>c.452</td></tr><tr><td>-Sell value</td><td>c.113</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/unknown-manufacturer\">Unknown</a></td></tr></tbody></table>",
+          "line": 71,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.18</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>7.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.00 kg</td></tr><tr><td>-Value</td><td>c.496</td></tr><tr><td>-Sell value</td><td>c.124</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/unknown-manufacturer\">Unknown</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.18</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>7.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.00 kg</td></tr><tr><td>-Value</td><td>c.496</td></tr><tr><td>-Sell value</td><td>c.124</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/unknown-manufacturer\">Unknown</a></td></tr></tbody></table>",
+          "line": 73,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.27</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>10.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.78 kg</td></tr><tr><td>-Value</td><td>c.1,491</td></tr><tr><td>-Sell value</td><td>c.372</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.27</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>10.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.78 kg</td></tr><tr><td>-Value</td><td>c.1,491</td></tr><tr><td>-Sell value</td><td>c.372</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "line": 75,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.36</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>14.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.04 kg</td></tr><tr><td>-Value</td><td>c.1,731</td></tr><tr><td>-Sell value</td><td>c.432</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.36</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>14.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.04 kg</td></tr><tr><td>-Value</td><td>c.1,731</td></tr><tr><td>-Sell value</td><td>c.432</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "line": 77,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.45</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>18.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.30 kg</td></tr><tr><td>-Value</td><td>c.2,066</td></tr><tr><td>-Sell value</td><td>c.516</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.45</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>18.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.30 kg</td></tr><tr><td>-Value</td><td>c.2,066</td></tr><tr><td>-Sell value</td><td>c.516</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "line": 79,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.648</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>25.92</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.072 kg</td></tr><tr><td>-Value</td><td>c.3,778</td></tr><tr><td>-Sell value</td><td>c.944</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.648</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>25.92</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.072 kg</td></tr><tr><td>-Value</td><td>c.3,778</td></tr><tr><td>-Sell value</td><td>c.944</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "line": 81,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.756</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>30.24</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.584 kg</td></tr><tr><td>-Value</td><td>c.4,662</td></tr><tr><td>-Sell value</td><td>c.1,165</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.756</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>30.24</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.584 kg</td></tr><tr><td>-Value</td><td>c.4,662</td></tr><tr><td>-Sell value</td><td>c.1,165</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "line": 83,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.864</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>34.56</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.096 kg</td></tr><tr><td>-Value</td><td>c.5,755</td></tr><tr><td>-Sell value</td><td>c.1,438</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.864</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>34.56</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.096 kg</td></tr><tr><td>-Value</td><td>c.5,755</td></tr><tr><td>-Sell value</td><td>c.1,438</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "line": 85,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.90</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>36.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.60 kg</td></tr><tr><td>-Value</td><td>c.8,400</td></tr><tr><td>-Sell value</td><td>c.2,100</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.90</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>36.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.60 kg</td></tr><tr><td>-Value</td><td>c.8,400</td></tr><tr><td>-Sell value</td><td>c.2,100</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "line": 87,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "jitte",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.99</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>39.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.86 kg</td></tr><tr><td>-Value</td><td>c.9,773</td></tr><tr><td>-Sell value</td><td>c.2,443</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Jitte</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.00</td></tr><tr><td>-Blunt damage</td><td>0.99</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Defence bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Required Strength Level</td><td>39.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.86 kg</td></tr><tr><td>-Value</td><td>c.9,773</td></tr><tr><td>-Sell value</td><td>c.2,443</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "line": 89,
+          "sourceFile": "src/content/wiki/jitte.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "**Iron Clubs** are [Blunt class weapons](/blunt-weapons) introduced in update 0.42. With a focus on [Blunt Damage](/stun-damage), they make decent tools for capturing bandits and other criminals for their bounties. Packs of [Escaped Servants](/escaped-servant), [Slave Hunters](/slave-hunters), [Holy Servants](/holy-servant) and [Starving Bandits](/starving-bandits) are known to carry these, often of the rusted variety.",
+          "literal": "**Iron Clubs** are [Blunt class weapons](/blunt-weapons) introduced in update 0.42. With a focus on [Blunt Damage](/stun-damage), they make decent tools for capturing bandits and other criminals for their bounties. Packs of [Escaped Servants](/escaped-servant), [Slave Hunters](/slave-hunters), [Holy Servants](/holy-servant) and [Starving Bandits](/starving-bandits) are known to carry these, often of the rusted variety.",
+          "line": 42,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0385</td></tr><tr><td>-Blunt damage</td><td>0.085</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>3.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.180</td></tr><tr><td>-Sell value</td><td>c.45</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/unknown-manufacturer\">Unknown</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0385</td></tr><tr><td>-Blunt damage</td><td>0.085</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>3.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.180</td></tr><tr><td>-Sell value</td><td>c.45</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/unknown-manufacturer\">Unknown</a></td></tr></tbody></table>",
+          "line": 64,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.047</td></tr><tr><td>-Blunt damage</td><td>0.17</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>6.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.40 kg</td></tr><tr><td>-Value</td><td>c.198</td></tr><tr><td>-Sell value</td><td>c.49</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/unknown-manufacturer\">Unknown</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.047</td></tr><tr><td>-Blunt damage</td><td>0.17</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>6.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.40 kg</td></tr><tr><td>-Value</td><td>c.198</td></tr><tr><td>-Sell value</td><td>c.49</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/unknown-manufacturer\">Unknown</a></td></tr></tbody></table>",
+          "line": 66,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.04995</td></tr><tr><td>-Blunt damage</td><td>0.255</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>10.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.10 kg</td></tr><tr><td>-Value</td><td>c.596</td></tr><tr><td>-Sell value</td><td>c.149</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.04995</td></tr><tr><td>-Blunt damage</td><td>0.255</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>10.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.10 kg</td></tr><tr><td>-Value</td><td>c.596</td></tr><tr><td>-Sell value</td><td>c.149</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "line": 68,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0576</td></tr><tr><td>-Blunt damage</td><td>0.34</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>13.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.80 kg</td></tr><tr><td>-Value</td><td>c.692</td></tr><tr><td>-Sell value</td><td>c.173</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0576</td></tr><tr><td>-Blunt damage</td><td>0.34</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>13.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.80 kg</td></tr><tr><td>-Value</td><td>c.692</td></tr><tr><td>-Sell value</td><td>c.173</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "line": 70,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.06525</td></tr><tr><td>-Blunt damage</td><td>0.425</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>17.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.50 kg</td></tr><tr><td>-Value</td><td>c.826</td></tr><tr><td>-Sell value</td><td>c.206</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.06525</td></tr><tr><td>-Blunt damage</td><td>0.425</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>17.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.50 kg</td></tr><tr><td>-Value</td><td>c.826</td></tr><tr><td>-Sell value</td><td>c.206</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "line": 72,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.081</td></tr><tr><td>-Blunt damage</td><td>0.612</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>24.48</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.24 kg</td></tr><tr><td>-Value</td><td>c.1,511</td></tr><tr><td>-Sell value</td><td>c.377</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.081</td></tr><tr><td>-Blunt damage</td><td>0.612</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>24.48</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.24 kg</td></tr><tr><td>-Value</td><td>c.1,511</td></tr><tr><td>-Sell value</td><td>c.377</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "line": 74,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0895</td></tr><tr><td>-Blunt damage</td><td>0.714</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>28.56</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.28 kg</td></tr><tr><td>-Value</td><td>c.1,864</td></tr><tr><td>-Sell value</td><td>c.466</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0895</td></tr><tr><td>-Blunt damage</td><td>0.714</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>28.56</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.28 kg</td></tr><tr><td>-Value</td><td>c.1,864</td></tr><tr><td>-Sell value</td><td>c.466</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "line": 76,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.098</td></tr><tr><td>-Blunt damage</td><td>0.816</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>32.64</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.32 kg</td></tr><tr><td>-Value</td><td>c.2,302</td></tr><tr><td>-Sell value</td><td>c.575</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.098</td></tr><tr><td>-Blunt damage</td><td>0.816</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>32.64</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.32 kg</td></tr><tr><td>-Value</td><td>c.2,302</td></tr><tr><td>-Sell value</td><td>c.575</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "line": 78,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.115</td></tr><tr><td>-Blunt damage</td><td>0.85</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>34.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>17.00 kg</td></tr><tr><td>-Value</td><td>c.3,360</td></tr><tr><td>-Sell value</td><td>c.840</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.115</td></tr><tr><td>-Blunt damage</td><td>0.85</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>34.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>17.00 kg</td></tr><tr><td>-Value</td><td>c.3,360</td></tr><tr><td>-Sell value</td><td>c.840</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "line": 80,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1235</td></tr><tr><td>-Blunt damage</td><td>0.935</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>37.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>18.70 kg</td></tr><tr><td>-Value</td><td>c.3,909</td></tr><tr><td>-Sell value</td><td>c.977</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1235</td></tr><tr><td>-Blunt damage</td><td>0.935</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>37.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>18.70 kg</td></tr><tr><td>-Value</td><td>c.3,909</td></tr><tr><td>-Sell value</td><td>c.977</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "line": 82,
+          "sourceFile": "src/content/wiki/iron-club.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "iron-club",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.132</td></tr><tr><td>-Blunt damage</td><td>1.02</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>40.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.40 kg</td></tr><tr><td>-Value</td><td>c.4,417</td></tr><tr><td>-Sell value</td><td>c.1,104</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Iron Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.132</td></tr><tr><td>-Blunt damage</td><td>1.02</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Indoors bonus</td><td>+2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>40.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.40 kg</td></tr><tr><td>-Value</td><td>c.4,417</td></tr><tr><td>-Sell value</td><td>c.1,104</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "line": 84,
+          "sourceFile": "src/content/wiki/iron-club.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
@@ -120866,6 +121274,95 @@
       ]
     },
     {
+      "id": "claim:item-robot-limb-reload",
+      "kind": "claim",
+      "target": "/robot-limbs",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Robot Limbs includes save/reload healing, severing, diplomatic and ineffective-bonus claims.",
+      "proposedResolution": "Reproduce each with exact limb, grade, game version, severing settings and faction relations.",
+      "uncertainty": "The imported exploit, threshold and tooltip correction are retained but not independently reproduced.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "robot-limbs",
+          "sourceFile": "src/content/wiki/robot-limbs.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "b79a815de0f50dd24b93f69ac657c1181528d50e0a626eaabcb56131e2452c6b",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/robot-limbs.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "robot-limbs",
+          "label": "description: \"*The tip incorrectly mentions \\\"sharp weapon\\\". If you are hit by any attack whatsoever and your limb goes below -100% of its max health from that attack the l…\"",
+          "literal": "description: \"*The tip incorrectly mentions \\\"sharp weapon\\\". If you are hit by any attack whatsoever and your limb goes below -100% of its max health from that attack the l…\"",
+          "line": 3,
+          "sourceFile": "src/content/wiki/robot-limbs.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "robot-limbs",
+          "label": "<div class=\"notice loading-tip\"><span class=\"loading-tip-label\">Loading screen tip:</span> If a limb is hit with a sharp weapon and it has less than -100 health then it will be severed. This is a permanent loss, you will have to find a robotic replacement.</div>",
+          "literal": "<div class=\"notice loading-tip\"><span class=\"loading-tip-label\">Loading screen tip:</span> If a limb is hit with a sharp weapon and it has less than -100 health then it will be severed. This is a permanent loss, you will have to find a robotic replacement.</div>",
+          "line": 10,
+          "sourceFile": "src/content/wiki/robot-limbs.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "robot-limbs",
+          "label": "**\\*The tip incorrectly mentions \"sharp weapon\". If you are hit by any attack whatsoever and your limb goes below -100% of its max health from that attack the limb will be severed if the limb severing frequency is set to anywhere more than \"never\"\\***",
+          "literal": "**\\*The tip incorrectly mentions \"sharp weapon\". If you are hit by any attack whatsoever and your limb goes below -100% of its max health from that attack the limb will be severed if the limb severing frequency is set to anywhere more than \"never\"\\***",
+          "line": 12,
+          "sourceFile": "src/content/wiki/robot-limbs.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "robot-limbs",
+          "label": "Characters can get in trouble in [The Holy Nation](/the-holy-nation) when having Robot Limbs. They will be seen as Skeletons and attacked unless the Holy Nation [faction reputation](/guide-to-faction-relations) is 50 or higher. Even if the reputation is 50 or higher, a character wearing robotic limbs will be unable to interact with [Holy Lord Phoenix](/holy-lord-phoenix) and any other member of the Holy Nation including [Paladins](/paladin), [Holy Priests](/holy-priest) and Shopkeepers (taking off robotic limbs would nonetheless still allow). The Holy Nation trade caravans who patrol around can still be traded with even without allying with their faction.",
+          "literal": "Characters can get in trouble in [The Holy Nation](/the-holy-nation) when having Robot Limbs. They will be seen as Skeletons and attacked unless the Holy Nation [faction reputation](/guide-to-faction-relations) is 50 or higher. Even if the reputation is 50 or higher, a character wearing robotic limbs will be unable to interact with [Holy Lord Phoenix](/holy-lord-phoenix) and any other member of the Holy Nation including [Paladins](/paladin), [Holy Priests](/holy-priest) and Shopkeepers (taking off robotic limbs would nonetheless still allow). The Holy Nation trade caravans who patrol around can still be traded with even without allying with their faction.",
+          "line": 22,
+          "sourceFile": "src/content/wiki/robot-limbs.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "robot-limbs",
+          "label": "<table class=\"wikitable sortable\"><tbody><tr><th>Limb</th><th>Price</th><th>Max HP</th><th>Crossbow</th><th>Lockpicking</th><th>Thievery</th><th>Strength</th><th>Dexterity</th><th>Swimming</th><th>Unarmed Damage Bonus</th></tr><tr><td><a href=\"/economy-arm-left\">Economy Arm (left)</a></td><td data-sort-value=\"3207\">3,207</td><td>95</td><td data-sort-value=\"-11\">-11.5%</td><td data-sort-value=\"-52\">-52.5%</td><td data-sort-value=\"-52\">-52.5%</td><td></td><td data-sort-value=\"-20\">-20.7%</td><td data-sort-value=\"-25\">-25%</td><td></td></tr><tr><td><a href=\"/skeleton-arm-left\">Skeleton Arm (left)</a></td><td data-sort-value=\"16586\">16,586</td><td>170</td><td></td><td data-sort-value=\"-10\">-10.75%</td><td data-sort-value=\"-10\">-10.75%</td><td></td><td data-sort-value=\"+25\">+25%</td><td data-sort-value=\"-25\">-25%</td><td>+3</td></tr><tr><td><a href=\"/klr-series-arm-left\">KLR Series Arm (left)</a></td><td data-sort-value=\"18293\">32,075</td><td>245</td><td></td><td data-sort-value=\"-8\">-8.75%</td><td data-sort-value=\"-8\">-8.75%</td><td data-sort-value=\"+10\">+10%</td><td data-sort-value=\"+10\">+10%</td><td data-sort-value=\"-25\">-25%</td><td>+4</td></tr><tr><td><a href=\"/industrial-lifter-arm-left\">Industrial Lifter Arm (left)</a></td><td data-sort-value=\"25660\">25,660</td><td>195</td><td></td><td data-sort-value=\"-12\">-12%</td><td data-sort-value=\"-12\">-12%</td><td data-sort-value=\"+23\">+23.75%</td><td></td><td data-sort-value=\"-25\">-25%</td><td>+3</td></tr><tr><td><a href=\"/steady-arm-left\">Steady Arm (left)</a>*</td><td data-sort-value=\"25660\">25,660</td><td>145</td><td data-sort-value=\"+25\">+25%</td><td></td><td></td><td></td><td data-sort-value=\"+20\">+20%</td><td data-sort-value=\"-25\">-25%</td><td></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable sortable\"><tbody><tr><th>Limb</th><th>Price</th><th>Max HP</th><th>Crossbow</th><th>Lockpicking</th><th>Thievery</th><th>Strength</th><th>Dexterity</th><th>Swimming</th><th>Unarmed Damage Bonus</th></tr><tr><td><a href=\"/economy-arm-left\">Economy Arm (left)</a></td><td data-sort-value=\"3207\">3,207</td><td>95</td><td data-sort-value=\"-11\">-11.5%</td><td data-sort-value=\"-52\">-52.5%</td><td data-sort-value=\"-52\">-52.5%</td><td></td><td data-sort-value=\"-20\">-20.7%</td><td data-sort-value=\"-25\">-25%</td><td></td></tr><tr><td><a href=\"/skeleton-arm-left\">Skeleton Arm (left)</a></td><td data-sort-value=\"16586\">16,586</td><td>170</td><td></td><td data-sort-value=\"-10\">-10.75%</td><td data-sort-value=\"-10\">-10.75%</td><td></td><td data-sort-value=\"+25\">+25%</td><td data-sort-value=\"-25\">-25%</td><td>+3</td></tr><tr><td><a href=\"/klr-series-arm-left\">KLR Series Arm (left)</a></td><td data-sort-value=\"18293\">32,075</td><td>245</td><td></td><td data-sort-value=\"-8\">-8.75%</td><td data-sort-value=\"-8\">-8.75%</td><td data-sort-value=\"+10\">+10%</td><td data-sort-value=\"+10\">+10%</td><td data-sort-value=\"-25\">-25%</td><td>+4</td></tr><tr><td><a href=\"/industrial-lifter-arm-left\">Industrial Lifter Arm (left)</a></td><td data-sort-value=\"25660\">25,660</td><td>195</td><td></td><td data-sort-value=\"-12\">-12%</td><td data-sort-value=\"-12\">-12%</td><td data-sort-value=\"+23\">+23.75%</td><td></td><td data-sort-value=\"-25\">-25%</td><td>+3</td></tr><tr><td><a href=\"/steady-arm-left\">Steady Arm (left)</a>*</td><td data-sort-value=\"25660\">25,660</td><td>145</td><td data-sort-value=\"+25\">+25%</td><td></td><td></td><td></td><td data-sort-value=\"+20\">+20%</td><td data-sort-value=\"-25\">-25%</td><td></td></tr></tbody></table>",
+          "line": 30,
+          "sourceFile": "src/content/wiki/robot-limbs.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "robot-limbs",
+          "label": "<table class=\"wikitable sortable\"><tbody><tr><th>Limb</th><th>Price</th><th>Max HP</th><th>Crossbow</th><th>Lockpicking</th><th>Thievery</th><th>Strength</th><th>Dexterity</th><th>Swimming</th><th>Unarmed Damage Bonus</th></tr><tr><td><a href=\"/economy-arm-right\">Economy Arm (right)</a></td><td data-sort-value=\"3207\">3,207</td><td>95</td><td data-sort-value=\"-11\">-11.5%</td><td data-sort-value=\"-52\">-52.5%</td><td data-sort-value=\"-52\">-52.5%</td><td></td><td data-sort-value=\"-20\">-20.7%</td><td data-sort-value=\"-25\">-25%</td><td></td></tr><tr><td><a href=\"/skeleton-arm-right\">Skeleton Arm (right)</a></td><td data-sort-value=\"18391\">18,391</td><td>170</td><td></td><td data-sort-value=\"-10\">-10.75%</td><td data-sort-value=\"-10\">-10.75%</td><td></td><td data-sort-value=\"+25\">+25%</td><td data-sort-value=\"-25\">-25%</td><td>+3</td></tr><tr><td><a href=\"/klr-series-arm-right\">KLR Series Arm (right)</a></td><td data-sort-value=\"32075\">32,075</td><td>245</td><td></td><td data-sort-value=\"-8\">-8.75%</td><td data-sort-value=\"-8\">-8.75%</td><td data-sort-value=\"+10\">+10%</td><td data-sort-value=\"+10\">+10%</td><td data-sort-value=\"-25\">-25%</td><td>+4</td></tr><tr><td><a href=\"/industrial-lifter-arm-right\">Industrial Lifter Arm (right)</a></td><td data-sort-value=\"25660\">25,660</td><td>195</td><td></td><td data-sort-value=\"-12\">-12%</td><td data-sort-value=\"-12\">-12%</td><td data-sort-value=\"+23\">+23.75%</td><td></td><td data-sort-value=\"-25\">-25%</td><td>+3</td></tr><tr><td><a href=\"/thiefs-arm-right\">Thief's Arm (right)</a>*</td><td data-sort-value=\"25660\">25,660</td><td>145</td><td></td><td data-sort-value=\"+25\">+25%</td><td data-sort-value=\"+25\">+25%</td><td></td><td data-sort-value=\"+20\">+20%</td><td data-sort-value=\"-16\">-16%</td><td></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable sortable\"><tbody><tr><th>Limb</th><th>Price</th><th>Max HP</th><th>Crossbow</th><th>Lockpicking</th><th>Thievery</th><th>Strength</th><th>Dexterity</th><th>Swimming</th><th>Unarmed Damage Bonus</th></tr><tr><td><a href=\"/economy-arm-right\">Economy Arm (right)</a></td><td data-sort-value=\"3207\">3,207</td><td>95</td><td data-sort-value=\"-11\">-11.5%</td><td data-sort-value=\"-52\">-52.5%</td><td data-sort-value=\"-52\">-52.5%</td><td></td><td data-sort-value=\"-20\">-20.7%</td><td data-sort-value=\"-25\">-25%</td><td></td></tr><tr><td><a href=\"/skeleton-arm-right\">Skeleton Arm (right)</a></td><td data-sort-value=\"18391\">18,391</td><td>170</td><td></td><td data-sort-value=\"-10\">-10.75%</td><td data-sort-value=\"-10\">-10.75%</td><td></td><td data-sort-value=\"+25\">+25%</td><td data-sort-value=\"-25\">-25%</td><td>+3</td></tr><tr><td><a href=\"/klr-series-arm-right\">KLR Series Arm (right)</a></td><td data-sort-value=\"32075\">32,075</td><td>245</td><td></td><td data-sort-value=\"-8\">-8.75%</td><td data-sort-value=\"-8\">-8.75%</td><td data-sort-value=\"+10\">+10%</td><td data-sort-value=\"+10\">+10%</td><td data-sort-value=\"-25\">-25%</td><td>+4</td></tr><tr><td><a href=\"/industrial-lifter-arm-right\">Industrial Lifter Arm (right)</a></td><td data-sort-value=\"25660\">25,660</td><td>195</td><td></td><td data-sort-value=\"-12\">-12%</td><td data-sort-value=\"-12\">-12%</td><td data-sort-value=\"+23\">+23.75%</td><td></td><td data-sort-value=\"-25\">-25%</td><td>+3</td></tr><tr><td><a href=\"/thiefs-arm-right\">Thief's Arm (right)</a>*</td><td data-sort-value=\"25660\">25,660</td><td>145</td><td></td><td data-sort-value=\"+25\">+25%</td><td data-sort-value=\"+25\">+25%</td><td></td><td data-sort-value=\"+20\">+20%</td><td data-sort-value=\"-16\">-16%</td><td></td></tr></tbody></table>",
+          "line": 34,
+          "sourceFile": "src/content/wiki/robot-limbs.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "robot-limbs",
+          "label": "-   An exploit that can be abused to heal all damage (Including wear) on a robotic limb is to take off the limb, save your game and then load the save. When the limb is put back on it will be back at full health.",
+          "literal": "-   An exploit that can be abused to heal all damage (Including wear) on a robotic limb is to take off the limb, save your game and then load the save. When the limb is put back on it will be back at full health.",
+          "line": 67,
+          "sourceFile": "src/content/wiki/robot-limbs.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "robot-limbs",
+          "label": "-   As of v1.0.68, the Unarmed Damage Bonus on robotic limbs still does nothing.",
+          "literal": "-   As of v1.0.68, the Unarmed Damage Bonus on robotic limbs still does nothing.",
+          "line": 73,
+          "sourceFile": "src/content/wiki/robot-limbs.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:item-source-media",
       "kind": "claim",
       "target": "/katana",
@@ -128741,6 +129238,173 @@
           "literal": "  caption: \"A map from a Tech Hunter scout, detailing a possible location to find Ancient Science Books.\"",
           "line": 11,
           "sourceFile": "src/content/wiki/tech-hunters-map.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:item-weapon-formulas",
+      "kind": "claim",
+      "target": "/heavy-weapons",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Weapon strength, animation power and weight formulas need exact versioned interpretation.",
+      "proposedResolution": "Trace weapon IDs, animation power and weight overrides; distinguish arithmetic from observed timings.",
+      "uncertainty": "Imported formulas and the explicit clarification marker are retained without stronger guarantees.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "heavy-weapons",
+          "sourceFile": "src/content/wiki/heavy-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "9cfcaa347df74f982da96d7c79e2b69b26f539722e16519a0e594e0b8ae0ecf2",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/heavy-weapons.md"
+        },
+        {
+          "articleId": "katanas",
+          "sourceFile": "src/content/wiki/katanas.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "a2b43beb788f87438e7b3536a794b484b18d4d35f94d1315c31d50feeb8ae29e",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/katanas.md"
+        },
+        {
+          "articleId": "fragment-axe",
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "95fb5e8bed8c637b007d0fcb8067ca9969de4ace458b4cec25f7beaf514bb2fc",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/fragment-axe.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "heavy-weapons",
+          "label": "Like all weapons, attack speed, with heavy weapons is determined by a combination of having enough [Strength](/strength) to use it effectively, [Dexterity](/dexterity), as well as [Melee Attack](/melee-attack). Block speed is determined by a combination of having enough Strength to use it effectively, Dexterity, as well as [Melee Defense](/melee-defense). The base attack speed is 0.765, every level in Dexterity will increase this by 0.00228, and 0.00152 for attack. Strength comes into play in the required strength level of the weapon, if below its required level your combat speed will be penalized (up to -47.5% at 20 levels or more below). Strength above the required level does not affect speed at all, beyond acting as a buffer for injuries penalizing your strength. The strength requirement to use a weapon is the blunt damage multiplied by 40<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>.",
+          "literal": "Like all weapons, attack speed, with heavy weapons is determined by a combination of having enough [Strength](/strength) to use it effectively, [Dexterity](/dexterity), as well as [Melee Attack](/melee-attack). Block speed is determined by a combination of having enough Strength to use it effectively, Dexterity, as well as [Melee Defense](/melee-defense). The base attack speed is 0.765, every level in Dexterity will increase this by 0.00228, and 0.00152 for attack. Strength comes into play in the required strength level of the weapon, if below its required level your combat speed will be penalized (up to -47.5% at 20 levels or more below). Strength above the required level does not affect speed at all, beyond acting as a buffer for injuries penalizing your strength. The strength requirement to use a weapon is the blunt damage multiplied by 40<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>.",
+          "line": 26,
+          "sourceFile": "src/content/wiki/heavy-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "heavy-weapons",
+          "label": "-   The weight of weapons is determined by the formula: Weight = MAX(20 \\* blunt damage \\* weight\\_mult, weight\\_kg). There are some minor exceptions to this rule, like when the result is lower than the default weight of the weapon. A weapon's weight\\_mult and weight\\_kg can be observed in FCS.",
+          "literal": "-   The weight of weapons is determined by the formula: Weight = MAX(20 \\* blunt damage \\* weight\\_mult, weight\\_kg). There are some minor exceptions to this rule, like when the result is lower than the default weight of the weapon. A weapon's weight\\_mult and weight\\_kg can be observed in FCS.",
+          "line": 46,
+          "sourceFile": "src/content/wiki/heavy-weapons.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "katanas",
+          "label": "They feature a two-hit combo attack (called Downward Combo) that makes them particularly useful when fighting animals or singular weak opponents but leaves their wielder vulnerable to getting hit in battles with multiple foes. The combo attack is the only weapon animation<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> which has less than 100 power (100% of the weapon's damage). It makes up for this by attacking twice: the power of the first strike is 80 and the second one is 60. Unfortunately, though, Downward Combo is usually too slow_\\[clarify\\]_ to land the second hit on an opponent if they were staggered by another attack. This leads to overall less damage over time when compared to weapon types like [Sabres](/sabres) or [Polearms](/polearms)<sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup>.",
+          "literal": "They feature a two-hit combo attack (called Downward Combo) that makes them particularly useful when fighting animals or singular weak opponents but leaves their wielder vulnerable to getting hit in battles with multiple foes. The combo attack is the only weapon animation<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> which has less than 100 power (100% of the weapon's damage). It makes up for this by attacking twice: the power of the first strike is 80 and the second one is 60. Unfortunately, though, Downward Combo is usually too slow_\\[clarify\\]_ to land the second hit on an opponent if they were staggered by another attack. This leads to overall less damage over time when compared to weapon types like [Sabres](/sabres) or [Polearms](/polearms)<sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup>.",
+          "line": 14,
+          "sourceFile": "src/content/wiki/katanas.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "katanas",
+          "label": "<table class=\"wikitable sortable\"><tbody><tr><th>Icon</th><th>Name</th><th>Cut multiplier</th><th>Blunt multiplier</th><th>Blood loss</th><th>Armour penetration</th><th>Attack</th><th>Defense</th><th>Indoors</th><th>Reach</th><th>Additional bonuses</th></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/923-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/guardless-katana\">Guardless Katana</a></td><td data-sort-value=\"1\">1x</td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.3\">1.3x</td><td data-sort-value=\"-30\">-30%</td><td>+6</td><td>-6</td><td>0</td><td>21</td><td><b>Damage vs robots</b>: -40%</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/476-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/katana\">Katana</a></td><td data-sort-value=\"1\">1x</td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.2\">1.2x</td><td data-sort-value=\"-30\">-30%</td><td>+4</td><td>-4</td><td>0</td><td>21</td><td><b>Damage vs robots</b>: -40%</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/924-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/ninja-blade\">Ninja Blade</a></td><td data-sort-value=\"0.8\">0.8x</td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.1\">1.1x</td><td data-sort-value=\"-20\">-20%</td><td>+2</td><td>-4</td><td>0</td><td>21</td><td><b>Damage vs robots</b>: -40%</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/922-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/nodachi\">Nodachi</a></td><td data-sort-value=\"1.2\">1.2x</td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.2\">1.2x</td><td data-sort-value=\"-20\">-20%</td><td>+4</td><td>-4</td><td>-4</td><td>25</td><td><b>Damage vs robots</b>: -40%<p>Can only be equipped as a main weapon</p></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/474-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/topper\">Topper</a></td><td data-sort-value=\"1.1\">1.1x</td><td data-sort-value=\"0.1\">0.1x</td><td data-sort-value=\"1\">1x</td><td data-sort-value=\"-15\">-15%</td><td>0</td><td>0</td><td>-4</td><td>25</td><td>Can only be equipped as a main weapon</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/1020-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/wakizashi\">Wakizashi</a></td><td data-sort-value=\"0.9\">0.9x</td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.2\">1.2x</td><td data-sort-value=\"-30\">-30%</td><td>+2</td><td>-2</td><td>+4</td><td>16</td><td><b>Damage vs robots</b>: -40%</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable sortable\"><tbody><tr><th>Icon</th><th>Name</th><th>Cut multiplier</th><th>Blunt multiplier</th><th>Blood loss</th><th>Armour penetration</th><th>Attack</th><th>Defense</th><th>Indoors</th><th>Reach</th><th>Additional bonuses</th></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/923-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/guardless-katana\">Guardless Katana</a></td><td data-sort-value=\"1\">1x</td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.3\">1.3x</td><td data-sort-value=\"-30\">-30%</td><td>+6</td><td>-6</td><td>0</td><td>21</td><td><b>Damage vs robots</b>: -40%</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/476-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/katana\">Katana</a></td><td data-sort-value=\"1\">1x</td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.2\">1.2x</td><td data-sort-value=\"-30\">-30%</td><td>+4</td><td>-4</td><td>0</td><td>21</td><td><b>Damage vs robots</b>: -40%</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/924-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/ninja-blade\">Ninja Blade</a></td><td data-sort-value=\"0.8\">0.8x</td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.1\">1.1x</td><td data-sort-value=\"-20\">-20%</td><td>+2</td><td>-4</td><td>0</td><td>21</td><td><b>Damage vs robots</b>: -40%</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/922-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/nodachi\">Nodachi</a></td><td data-sort-value=\"1.2\">1.2x</td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.2\">1.2x</td><td data-sort-value=\"-20\">-20%</td><td>+4</td><td>-4</td><td>-4</td><td>25</td><td><b>Damage vs robots</b>: -40%<p>Can only be equipped as a main weapon</p></td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/474-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/topper\">Topper</a></td><td data-sort-value=\"1.1\">1.1x</td><td data-sort-value=\"0.1\">0.1x</td><td data-sort-value=\"1\">1x</td><td data-sort-value=\"-15\">-15%</td><td>0</td><td>0</td><td>-4</td><td>25</td><td>Can only be equipped as a main weapon</td></tr><tr><td><img class=\"item-icon item-icon-wide\" src=\"/icons/items/1020-gamedata.base.png\" alt=\"\" width=\"96\" height=\"24\"></td><td><a href=\"/wakizashi\">Wakizashi</a></td><td data-sort-value=\"0.9\">0.9x</td><td data-sort-value=\"0\">0x</td><td data-sort-value=\"1.2\">1.2x</td><td data-sort-value=\"-30\">-30%</td><td>+2</td><td>-2</td><td>+4</td><td>16</td><td><b>Damage vs robots</b>: -40%</td></tr></tbody></table>",
+          "line": 28,
+          "sourceFile": "src/content/wiki/katanas.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "        - [\"Blunt damage\",\"1.80x\"]",
+          "literal": "        - [\"Blunt damage\",\"1.80x\"]",
+          "line": 22,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "[Edgewalker](/edgewalkers) and above variants of the weapon are so absurdly heavy that it is impossible for character without robotic limbs to wield them without penalties. Even with robotics, a very high level of strength is needed in order to use the higher quality variants efficiently. The Cross variant requires a character to have 144 STR to use without their combat speed being reduced, which cannot be achieved without [Robotic Limbs](/industrial-lifter-arm-right).",
+          "literal": "[Edgewalker](/edgewalkers) and above variants of the weapon are so absurdly heavy that it is impossible for character without robotic limbs to wield them without penalties. Even with robotics, a very high level of strength is needed in order to use the higher quality variants efficiently. The Cross variant requires a character to have 144 STR to use without their combat speed being reduced, which cannot be achieved without [Robotic Limbs](/industrial-lifter-arm-right).",
+          "line": 43,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.14985</td></tr><tr><td>-Blunt damage</td><td>0.54</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>21.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.60 kg</td></tr><tr><td>-Value</td><td>c.4,102</td></tr><tr><td>-Sell value</td><td>c.1,025</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.14985</td></tr><tr><td>-Blunt damage</td><td>0.54</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>21.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.60 kg</td></tr><tr><td>-Value</td><td>c.4,102</td></tr><tr><td>-Sell value</td><td>c.1,025</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "line": 89,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.1728</td></tr><tr><td>-Blunt damage</td><td>0.72</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>28.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.40 kg</td></tr><tr><td>-Value</td><td>c.4,762</td></tr><tr><td>-Sell value</td><td>c.1,190</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.1728</td></tr><tr><td>-Blunt damage</td><td>0.72</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>28.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.40 kg</td></tr><tr><td>-Value</td><td>c.4,762</td></tr><tr><td>-Sell value</td><td>c.1,190</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/ancient-manufacturer\">Ancient</a></td></tr></tbody></table>",
+          "line": 91,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.2685</td></tr><tr><td>-Blunt damage</td><td>1.512</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>60.48</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>30.24 kg</td></tr><tr><td>-Value</td><td>c.12,820</td></tr><tr><td>-Sell value</td><td>c.3,205</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.2685</td></tr><tr><td>-Blunt damage</td><td>1.512</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>60.48</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>30.24 kg</td></tr><tr><td>-Value</td><td>c.12,820</td></tr><tr><td>-Sell value</td><td>c.3,205</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/catun-scrapmaster-manufacturer\">Catun Scrapmaster</a></td></tr></tbody></table>",
+          "line": 97,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.345</td></tr><tr><td>-Blunt damage</td><td>1.80</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>72.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>36.00 kg</td></tr><tr><td>-Value</td><td>c.23,100</td></tr><tr><td>-Sell value</td><td>c.5,775</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.345</td></tr><tr><td>-Blunt damage</td><td>1.80</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>72.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>36.00 kg</td></tr><tr><td>-Value</td><td>c.23,100</td></tr><tr><td>-Sell value</td><td>c.5,775</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "line": 101,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.3705</td></tr><tr><td>-Blunt damage</td><td>1.98</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>79.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>39.60 kg</td></tr><tr><td>-Value</td><td>c.26,877</td></tr><tr><td>-Sell value</td><td>c.6,719</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.3705</td></tr><tr><td>-Blunt damage</td><td>1.98</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>79.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>39.60 kg</td></tr><tr><td>-Value</td><td>c.26,877</td></tr><tr><td>-Sell value</td><td>c.6,719</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "line": 103,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.396</td></tr><tr><td>-Blunt damage</td><td>2.16</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>86.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>43.20 kg</td></tr><tr><td>-Value</td><td>c.30,372</td></tr><tr><td>-Sell value</td><td>c.7,593</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.396</td></tr><tr><td>-Blunt damage</td><td>2.16</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>86.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>43.20 kg</td></tr><tr><td>-Value</td><td>c.30,372</td></tr><tr><td>-Sell value</td><td>c.7,593</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/skeleton-smiths-manufacturer\">Skeleton Smiths</a></td></tr></tbody></table>",
+          "line": 105,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.4917</td></tr><tr><td>-Blunt damage</td><td>2.52</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>100.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>50.40 kg</td></tr><tr><td>-Value</td><td>c.41,777</td></tr><tr><td>-Sell value</td><td>c.10,444</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/edgewalkers\">Edgewalkers</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.4917</td></tr><tr><td>-Blunt damage</td><td>2.52</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>100.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>50.40 kg</td></tr><tr><td>-Value</td><td>c.41,777</td></tr><tr><td>-Sell value</td><td>c.10,444</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/edgewalkers\">Edgewalkers</a></td></tr></tbody></table>",
+          "line": 107,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.5478</td></tr><tr><td>-Blunt damage</td><td>2.88</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>115.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>57.60 kg</td></tr><tr><td>-Value</td><td>c.45,565</td></tr><tr><td>-Sell value</td><td>c.11,391</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/edgewalkers\">Edgewalkers</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.5478</td></tr><tr><td>-Blunt damage</td><td>2.88</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>115.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>57.60 kg</td></tr><tr><td>-Value</td><td>c.45,565</td></tr><tr><td>-Sell value</td><td>c.11,391</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/edgewalkers\">Edgewalkers</a></td></tr></tbody></table>",
+          "line": 111,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.66</td></tr><tr><td>-Blunt damage</td><td>3.60</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>144.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>72.00 kg</td></tr><tr><td>-Value</td><td>c.69,252</td></tr><tr><td>-Sell value</td><td>c.17,313</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/cross\">Cross</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.66</td></tr><tr><td>-Blunt damage</td><td>3.60</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>144.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>72.00 kg</td></tr><tr><td>-Value</td><td>c.69,252</td></tr><tr><td>-Sell value</td><td>c.17,313</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan=\"2\">Manufactured by <a href=\"/cross\">Cross</a></td></tr></tbody></table>",
+          "line": 113,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "fragment-axe",
+          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.1665</td></tr><tr><td>-Blunt damage</td><td>0.54</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>21.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>18.00 kg</td></tr><tr><td>-Value</td><td>c.5,128</td></tr><tr><td>-Sell value</td><td>c.1,282</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan=\"2\">Crafted by <a href=\"/homemade\">Homemade</a></td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Fragment Axe</td></tr><tr><td>[Heavy class]</td></tr><tr><td>-Cutting damage</td><td>0.1665</td></tr><tr><td>-Blunt damage</td><td>0.54</td></tr><tr><td>-Blood loss</td><td>1.00x</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>21.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>18.00 kg</td></tr><tr><td>-Value</td><td>c.5,128</td></tr><tr><td>-Sell value</td><td>c.1,282</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan=\"2\">Crafted by <a href=\"/homemade\">Homemade</a></td></tr></tbody></table>",
+          "line": 121,
+          "sourceFile": "src/content/wiki/fragment-axe.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]

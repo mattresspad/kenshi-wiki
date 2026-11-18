@@ -3,7 +3,7 @@ export function normalizeItemTables($){
  for(const table of $('table').toArray()){
   const el=$(table);if(el.hasClass('item-normalized'))continue;
   const rows=el.children('tbody').children('tr'),first=rows.first(),second=rows.eq(1);
-  const grade=/^\[(?:Prototype|Shoddy|Standard|High|Specialist|Masterwork) Grade\]$/.test(second.text().trim());
+  const grade=/^\[(?:Prototype|Shoddy|Standard|High|Specialist|Masterwork) Grade\]$/.test(second.text().trim()) || (/^\[[^\]]+ class\]$/.test(second.text().trim())&&el.text().includes('[Model #')); 
   if(grade){el.addClass('item-grade-table').attr('aria-label',first.text().trim()+' '+second.text().trim());}
   if(first.children().length&&!first.children(':not(th)').length&&!el.children('thead').length){
    const head=$('<thead></thead>').prependTo(el);first.appendTo(head);

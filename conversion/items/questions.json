@@ -1,1 +1,46 @@
-[]
+[
+  [
+    "item-robot-limb-reload",
+    [
+      "robot-limbs"
+    ],
+    "save your game|load the save|Unarmed Damage Bonus|sharp weapon|50 or higher",
+    "Robot Limbs includes save/reload healing, severing, diplomatic and ineffective-bonus claims.",
+    "Reproduce each with exact limb, grade, game version, severing settings and faction relations.",
+    "The imported exploit, threshold and tooltip correction are retained but not independently reproduced."
+  ],
+  [
+    "item-crossbow-formulas",
+    [
+      "crossbows"
+    ],
+    "Bloodloss|Required skill|Precision Shooting|Range -|DPS|Diplomat",
+    "Crossbow overview qualifies tooltips and describes damage, targeting and DPS formulas.",
+    "Verify source citations and exact engine/version semantics for range units, skill caps, immunity and multipliers.",
+    "Descriptions and narrative may disagree; keep source qualifications until independently established."
+  ],
+  [
+    "item-nonlethal-qualification",
+    [
+      "blunt-weapons",
+      "jitte",
+      "iron-club"
+    ],
+    "non-lethal|blood loss|bount|KO time",
+    "Blunt-weapon guidance differs in how strongly it promises non-lethal capture.",
+    "Compare damage, bleeding and coma conditions and retain differences between advice and guaranteed behavior.",
+    "A low bleeding multiplier does not by itself guarantee a living target."
+  ],
+  [
+    "item-weapon-formulas",
+    [
+      "heavy-weapons",
+      "katanas",
+      "fragment-axe"
+    ],
+    "40|Weight =|144|80|60|clarify",
+    "Weapon strength, animation power and weight formulas need exact versioned interpretation.",
+    "Trace weapon IDs, animation power and weight overrides; distinguish arithmetic from observed timings.",
+    "Imported formulas and the explicit clarification marker are retained without stronger guarantees."
+  ]
+]

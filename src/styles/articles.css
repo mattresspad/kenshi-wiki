@@ -267,3 +267,14 @@
 .item .item-source-warning { max-width:80ch }
 @media(max-width:600px){ .item-grade-grid { grid-template-columns:1fr } }
 @media print { .item .item-comparison { min-width:0; font-size:8pt } .factbox .fact-image { width:64px; height:64px } }
+
+/* Keep item text and its first sections beside long facts panels. */
+@media(min-width:761px){
+ .item.with-facts > article{display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);gap:0 18px;align-items:start}
+ .item.with-facts .opening{display:contents}
+ .item.with-facts .article-head{grid-column:1;grid-row:1}
+ .item.with-facts .opening-copy{grid-column:1;grid-row:2}
+ .item.with-facts .factbox{grid-column:2;grid-row:1 / 4}
+ .item.with-facts .article-body{grid-column:1;grid-row:3;min-width:0}
+ .item.with-facts > article > :not(.opening):not(.article-body){grid-column:1 / -1}
+}
