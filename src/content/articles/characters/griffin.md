@@ -1,0 +1,87 @@
+---
+articleId: griffin
+title: Griffin
+description: Griffin is a Unique Recruit found in any Holy Nation bar. He believes he had a vision from Okran, who showed him that he would meet a wealthy wanderer, and t…
+categories:
+  - Characters
+  - Unique
+  - Playable
+layout: character
+factTitle: Griffin
+factGroups:
+  - heading: null
+    rows:
+      - - Race
+        - - Human
+          - /human
+      - - Subrace
+        - - Greenlander
+          - /greenlander
+      - - Gender
+        - male
+  - heading: Items
+    rows:
+      - - Headgear
+        - - Wool Hat
+          - /wool-hat
+      - - Shirt
+        - - Dark Leather Shirt
+          - /dark-leather-shirt
+      - - Legwear
+        - - Drifter's Leather Pants
+          - /drifters-leather-pants
+      - - Footwear
+        - - Drifter's Boots
+          - /drifters-boots
+      - - Inventory
+        - - Standard First Aid Kit
+          - /standard-first-aid-kit
+  - heading: Technical Info
+    rows:
+      - - String ID
+        - 19643-Dialogue.mod
+---
+
+<figure class="quote"><blockquote>I had a dream last night... The Lord of Light Okran himself came to me, and he told me that I would meet a weatlhy wanderer from the outside...</blockquote></figure>
+
+**Griffin** is a [Unique Recruit](/unique-recruits) found in any [Holy Nation](/the-holy-nation) bar. He believes he had a vision from [Okran](/okran), who showed him that he would meet a wealthy wanderer, and that wanderer would lead him to the truth of the First Extinction. Whether or not you believe him, he believes this wanderer is you and asks for c.9,000 as proof of your wealth.
+
+While he is a former soldier of [The Holy Nation](/the-holy-nation), he is not as prejudiced against the other [races](/races) and is willing to travel with them. He also does not necessarily believe that the [Skeletons](/skeleton) were the cause of the First Extinction, like the Holy Nation proclaims.
+
+He is a very good human recruit for melee combat, as he has a 20 for melee attack and defence, a 20 in all melee weapon stats except polearms, and a 20 in strength and dexterity. This makes him a reliable and very versatile recruit for combat purposes, as he can competently use almost any melee weapon without having to train his stats first, although keep in mind his non-combat stats are abysmal, so there will be a time investment required if you plan to use him for something like mining or farming in-between fighting. It's also worth noting that his athletics skill is also 20, which is plenty enough to outrun enemies like [Starving Bandits](/starving-bandits) and [Fogmen](/fogmen).
+
+He has an [Honorable](/personality) personality, his own unique dialogue package, and several lines of unique dialogue.
+
+He can be found in [Bad Teeth](/bad-teeth) as long as it has not been taken over by another faction. He can be found in the original [Blister Hill](/blister-hill) as well as the [Flotsam Ninjas](/flotsam-ninjas) controlled [Blister Hill](/blister-hill-flotsam-ninjas). He may have a chance of being in [Drin](/drin) if it is taken over by [The Holy Nation](/the-holy-nation). He can be in [Stack](/stack) if it is in its original state or possibly in ruins.
+
+They wear \[Shoddy\] armour (5% chance of \[Standard\]) and have weapons manufactured by [Ancient](/ancient).
+
+## Statistics
+
+-   Greenlander
+
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/strength">Strength</a></td><td align="center">20</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">1</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">20</td></tr><tr><td><a href="/perception">Perception</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/katanas">Katanas</a></td><td align="center">20</td></tr><tr><td><a href="/sabres">Sabres</a></td><td align="center">20</td></tr><tr><td><a href="/hackers">Hackers</a></td><td align="center">20</td></tr><tr><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">20</td></tr><tr><td><a href="/blunt-weapons">Blunt</a></td><td align="center">20</td></tr><tr><td><a href="/polearms">Polearms</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">20</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">20</td></tr><tr><td><a href="/dodge">Dodge</a></td><td align="center">1</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/turrets">Turrets</a></td><td align="center">1</td></tr><tr><td><a href="/crossbows">Crossbows</a></td><td align="center">1</td></tr><tr><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/stealth">Stealth</a></td><td align="center">1</td></tr><tr><td><a href="/lockpicking">Lockpicking</a></td><td align="center">1</td></tr><tr><td><a href="/thievery">Thievery</a></td><td align="center">1</td></tr><tr><td><a href="/assassination">Assassination</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">20</td></tr><tr><td><a href="/swimming">Swimming</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/field-medic">Field Medic</a></td><td align="center">5</td></tr><tr><td><a href="/engineer">Engineer</a></td><td align="center">0</td></tr><tr><td><a href="/robotics">Robotics</a></td><td align="center">1</td></tr><tr><td><a href="/science">Science</a></td><td align="center">0</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">1</td></tr><tr><td><a href="/armour-smith">Armour Smith</a></td><td align="center">1</td></tr><tr><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td><a href="/labouring">Labouring</a></td><td align="center">0</td></tr><tr><td><a href="/farming">Farming</a></td><td align="center">1.2</td></tr><tr><td><a href="/cooking">Cooking</a></td><td align="center">1.2</td></tr></tbody></table>
+
+* * *
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
