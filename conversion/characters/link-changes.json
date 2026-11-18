@@ -276,5 +276,40 @@
       "/cargopants-padded",
       "/stone-golems-revenge"
     ]
+  },
+  {
+    "name": "traders-1",
+    "resolved": [
+      "/bookshop-trader",
+      "/boot-trader",
+      "/caravan-trader-boss",
+      "/crab-barman",
+      "/crabsmith",
+      "/hive-caravan-boss",
+      "/hive-trader-character",
+      "/holy-armour-trader",
+      "/holy-boot-trader",
+      "/holy-construction-trader",
+      "/holy-farm-leader",
+      "/holy-weapon-trader",
+      "/nomad-animal-trader",
+      "/ronin-armour-trader",
+      "/ronin-construction-trader",
+      "/ronin-crossbow-trader",
+      "/ronin-hat-trader",
+      "/ronin-weapon-trader",
+      "/shinobi-trader",
+      "/thief-fence",
+      "/trade-goods-shopkeeper",
+      "/uc-armour-trader",
+      "/uc-hat-vendor",
+      "/uc-weapon-trader"
+    ],
+    "introduced": [
+      "/beast-trader",
+      "/chain-shirt",
+      "/crab-shoes",
+      "/crab-trousers"
+    ]
   }
 ]

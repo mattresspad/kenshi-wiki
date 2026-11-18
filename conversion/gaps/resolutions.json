@@ -860,6 +860,28 @@
       }
     },
     {
+      "id": "availability:/bookshop-trader",
+      "kind": "availability",
+      "target": "/bookshop-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bookshop-trader"
+      }
+    },
+    {
+      "id": "availability:/boot-trader",
+      "kind": "availability",
+      "target": "/boot-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/boot-trader"
+      }
+    },
+    {
       "id": "availability:/border-zone",
       "kind": "availability",
       "target": "/border-zone",
@@ -1113,6 +1135,17 @@
       }
     },
     {
+      "id": "availability:/caravan-trader-boss",
+      "kind": "availability",
+      "target": "/caravan-trader-boss",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/caravan-trader-boss"
+      }
+    },
+    {
       "id": "availability:/cat",
       "kind": "availability",
       "target": "/cat",
@@ -1344,6 +1377,17 @@
       }
     },
     {
+      "id": "availability:/crab-barman",
+      "kind": "availability",
+      "target": "/crab-barman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-barman"
+      }
+    },
+    {
       "id": "availability:/crab-nest",
       "kind": "availability",
       "target": "/crab-nest",
@@ -1429,6 +1473,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crabs"
+      }
+    },
+    {
+      "id": "availability:/crabsmith",
+      "kind": "availability",
+      "target": "/crabsmith",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crabsmith"
       }
     },
     {
@@ -3005,6 +3060,17 @@
       }
     },
     {
+      "id": "availability:/hive-caravan-boss",
+      "kind": "availability",
+      "target": "/hive-caravan-boss",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hive-caravan-boss"
+      }
+    },
+    {
       "id": "availability:/hive-prince",
       "kind": "availability",
       "target": "/hive-prince",
@@ -3035,6 +3101,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hive-soldier-drone"
+      }
+    },
+    {
+      "id": "availability:/hive-trader-character",
+      "kind": "availability",
+      "target": "/hive-trader-character",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hive-trader-character"
       }
     },
     {
@@ -3123,6 +3200,50 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hobbs"
+      }
+    },
+    {
+      "id": "availability:/holy-armour-trader",
+      "kind": "availability",
+      "target": "/holy-armour-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-armour-trader"
+      }
+    },
+    {
+      "id": "availability:/holy-boot-trader",
+      "kind": "availability",
+      "target": "/holy-boot-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-boot-trader"
+      }
+    },
+    {
+      "id": "availability:/holy-construction-trader",
+      "kind": "availability",
+      "target": "/holy-construction-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-construction-trader"
+      }
+    },
+    {
+      "id": "availability:/holy-farm-leader",
+      "kind": "availability",
+      "target": "/holy-farm-leader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-farm-leader"
       }
     },
     {
@@ -3343,6 +3464,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holy-nation-robot"
+      }
+    },
+    {
+      "id": "availability:/holy-weapon-trader",
+      "kind": "availability",
+      "target": "/holy-weapon-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-weapon-trader"
       }
     },
     {
@@ -4113,6 +4245,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/no-faction"
+      }
+    },
+    {
+      "id": "availability:/nomad-animal-trader",
+      "kind": "availability",
+      "target": "/nomad-animal-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/nomad-animal-trader"
       }
     },
     {
@@ -4974,6 +5117,61 @@
       }
     },
     {
+      "id": "availability:/ronin-armour-trader",
+      "kind": "availability",
+      "target": "/ronin-armour-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ronin-armour-trader"
+      }
+    },
+    {
+      "id": "availability:/ronin-construction-trader",
+      "kind": "availability",
+      "target": "/ronin-construction-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ronin-construction-trader"
+      }
+    },
+    {
+      "id": "availability:/ronin-crossbow-trader",
+      "kind": "availability",
+      "target": "/ronin-crossbow-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ronin-crossbow-trader"
+      }
+    },
+    {
+      "id": "availability:/ronin-hat-trader",
+      "kind": "availability",
+      "target": "/ronin-hat-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ronin-hat-trader"
+      }
+    },
+    {
+      "id": "availability:/ronin-weapon-trader",
+      "kind": "availability",
+      "target": "/ronin-weapon-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ronin-weapon-trader"
+      }
+    },
+    {
       "id": "availability:/rot",
       "kind": "availability",
       "target": "/rot",
@@ -5389,6 +5587,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shinobi-thieves"
+      }
+    },
+    {
+      "id": "availability:/shinobi-trader",
+      "kind": "availability",
+      "target": "/shinobi-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shinobi-trader"
       }
     },
     {
@@ -6844,6 +7053,17 @@
       }
     },
     {
+      "id": "availability:/thief-fence",
+      "kind": "availability",
+      "target": "/thief-fence",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/thief-fence"
+      }
+    },
+    {
       "id": "availability:/thrall-masters",
       "kind": "availability",
       "target": "/thrall-masters",
@@ -6954,6 +7174,17 @@
       }
     },
     {
+      "id": "availability:/trade-goods-shopkeeper",
+      "kind": "availability",
+      "target": "/trade-goods-shopkeeper",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/trade-goods-shopkeeper"
+      }
+    },
+    {
       "id": "availability:/trade-ninjas",
       "kind": "availability",
       "target": "/trade-ninjas",
@@ -7050,6 +7281,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/twinblades"
+      }
+    },
+    {
+      "id": "availability:/uc-armour-trader",
+      "kind": "availability",
+      "target": "/uc-armour-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/uc-armour-trader"
+      }
+    },
+    {
+      "id": "availability:/uc-hat-vendor",
+      "kind": "availability",
+      "target": "/uc-hat-vendor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/uc-hat-vendor"
+      }
+    },
+    {
+      "id": "availability:/uc-weapon-trader",
+      "kind": "availability",
+      "target": "/uc-weapon-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#traders-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/uc-weapon-trader"
       }
     },
     {

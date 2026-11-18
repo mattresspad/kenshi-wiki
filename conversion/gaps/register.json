@@ -38165,6 +38165,572 @@
       ]
     },
     {
+      "id": "claim:character-boss-state-exceptions",
+      "kind": "claim",
+      "target": "/dust-king",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Boss pages include death-only state exceptions, despawning, dialogue/save exploits and unusually high skill claims.",
+      "proposedResolution": "Preserve each stated condition and test its named record, event memory and save state on a pinned version before revising.",
+      "uncertainty": "Death, imprisonment, knockout and unload are not interchangeable; exploit and leveling descriptions remain unverified.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "dust-king",
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "d4f11be9a1574211ee06caf6ef3085840b0d923722b2f7e8896d235ecdcddfac",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dust-king.md"
+        },
+        {
+          "articleId": "boss-simion",
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "6067a3550bf23a61cfe9cef5bc1136634e0e78fcd5749b1db313ff5aabcbe993",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/boss-simion.md"
+        },
+        {
+          "articleId": "lord-yoshinaga",
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "7b69187ac7174bd704cd03306ee0d4e522c83dd795ef39869c0e963d83e13e45",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/lord-yoshinaga.md"
+        },
+        {
+          "articleId": "mad-cat-lon",
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "4af130dcba0bc93de7eb0051e344e7bc1a9c40d063892a23fbb033abe84b3c85",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/mad-cat-lon.md"
+        },
+        {
+          "articleId": "tinfist",
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "09c83a50ff2aeaf96fcdec0e66cd6eeb0c78a69f13b12488a0eb17533f1b45ea",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/tinfist.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "dust-king",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Attributes</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/strength\">Strength</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/toughness\">Toughness</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/dexterity\">Dexterity</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/perception\">Perception</a></td><td align=\"center\">0 – 2</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Attributes</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/strength\">Strength</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/toughness\">Toughness</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/dexterity\">Dexterity</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/perception\">Perception</a></td><td align=\"center\">0 – 2</td></tr></tbody></table>",
+          "line": 41,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dust-king",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Weapon Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/katanas\">Katanas</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/sabres\">Sabres</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/hackers\">Hackers</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/heavy-weapons\">Heavy Weapons</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/blunt-weapons\">Blunt</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/polearms\">Polearms</a></td><td align=\"center\">44 – 46</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Weapon Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/katanas\">Katanas</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/sabres\">Sabres</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/hackers\">Hackers</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/heavy-weapons\">Heavy Weapons</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/blunt-weapons\">Blunt</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/polearms\">Polearms</a></td><td align=\"center\">44 – 46</td></tr></tbody></table>",
+          "line": 43,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dust-king",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Combat Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/melee-attack\">Melee Attack</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/melee-defence\">Melee Defence</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/dodge\">Dodge</a></td><td align=\"center\">3.5 – 5.5</td></tr><tr><td><a href=\"/martial-arts\">Martial Arts</a></td><td align=\"center\">3.5 – 5.5</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Combat Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/melee-attack\">Melee Attack</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/melee-defence\">Melee Defence</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/dodge\">Dodge</a></td><td align=\"center\">3.5 – 5.5</td></tr><tr><td><a href=\"/martial-arts\">Martial Arts</a></td><td align=\"center\">3.5 – 5.5</td></tr></tbody></table>",
+          "line": 45,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dust-king",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Ranged Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/turrets\">Turrets</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/crossbows\">Crossbows</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/precision-shooting\">Precision Shooting</a></td><td align=\"center\">44 – 46</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Ranged Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/turrets\">Turrets</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/crossbows\">Crossbows</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/precision-shooting\">Precision Shooting</a></td><td align=\"center\">44 – 46</td></tr></tbody></table>",
+          "line": 47,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dust-king",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Thievery Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/stealth\">Stealth</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/lockpicking\">Lockpicking</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/thievery\">Thievery</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/assassination\">Assassination</a></td><td align=\"center\">22.5</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Thievery Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/stealth\">Stealth</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/lockpicking\">Lockpicking</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/thievery\">Thievery</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/assassination\">Assassination</a></td><td align=\"center\">22.5</td></tr></tbody></table>",
+          "line": 49,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dust-king",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Athletic Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/athletics\">Athletics</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/swimming\">Swimming</a></td><td align=\"center\">44 – 46</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Athletic Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/athletics\">Athletics</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/swimming\">Swimming</a></td><td align=\"center\">44 – 46</td></tr></tbody></table>",
+          "line": 51,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dust-king",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Science Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/field-medic\">Field Medic</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/engineer\">Engineer</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/robotics\">Robotics</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/science\">Science</a></td><td align=\"center\">1.2</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Science Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/field-medic\">Field Medic</a></td><td align=\"center\">44 – 46</td></tr><tr><td><a href=\"/engineer\">Engineer</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/robotics\">Robotics</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/science\">Science</a></td><td align=\"center\">1.2</td></tr></tbody></table>",
+          "line": 53,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dust-king",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Trade Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/weapon-smith\">Weapon Smith</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/armour-smith\">Armour Smith</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/crossbow-smith\">Crossbow Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/labouring\">Labouring</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/farming\">Farming</a></td><td align=\"center\">1.2</td></tr><tr><td><a href=\"/cooking\">Cooking</a></td><td align=\"center\">1.2</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Trade Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/weapon-smith\">Weapon Smith</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/armour-smith\">Armour Smith</a></td><td align=\"center\">0 – 2</td></tr><tr><td><a href=\"/crossbow-smith\">Crossbow Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/labouring\">Labouring</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/farming\">Farming</a></td><td align=\"center\">1.2</td></tr><tr><td><a href=\"/cooking\">Cooking</a></td><td align=\"center\">1.2</td></tr></tbody></table>",
+          "line": 55,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dust-king",
+          "label": "Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._",
+          "literal": "Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._",
+          "line": 62,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dust-king",
+          "label": "If the **Dust King** is killed, the '[Bandit Demands](/bandit-demands)' outpost [Event](/events) by [Dust Bandits](/dust-bandits) will cease to occur.",
+          "literal": "If the **Dust King** is killed, the '[Bandit Demands](/bandit-demands)' outpost [Event](/events) by [Dust Bandits](/dust-bandits) will cease to occur.",
+          "line": 66,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dust-king",
+          "label": "-   Dust King has an exceptional World State condition whereby it requires him to be killed, and ONLY if he is killed to work. Unlike many other characters, which could also be achieved if they are imprisoned. This implies that his faction is strong and/or loyal or somehow decentralized enough to function normally without its leader.",
+          "literal": "-   Dust King has an exceptional World State condition whereby it requires him to be killed, and ONLY if he is killed to work. Unlike many other characters, which could also be achieved if they are imprisoned. This implies that his faction is strong and/or loyal or somehow decentralized enough to function normally without its leader.",
+          "line": 110,
+          "sourceFile": "src/content/wiki/dust-king.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Attributes</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/strength\">Strength</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/toughness\">Toughness</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/dexterity\">Dexterity</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/perception\">Perception</a></td><td align=\"center\">-2 – 4</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Attributes</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/strength\">Strength</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/toughness\">Toughness</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/dexterity\">Dexterity</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/perception\">Perception</a></td><td align=\"center\">-2 – 4</td></tr></tbody></table>",
+          "line": 44,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Weapon Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/katanas\">Katanas</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/sabres\">Sabres</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/hackers\">Hackers</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/heavy-weapons\">Heavy Weapons</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/blunt-weapons\">Blunt</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/polearms\">Polearms</a></td><td align=\"center\">42 – 48</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Weapon Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/katanas\">Katanas</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/sabres\">Sabres</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/hackers\">Hackers</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/heavy-weapons\">Heavy Weapons</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/blunt-weapons\">Blunt</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/polearms\">Polearms</a></td><td align=\"center\">42 – 48</td></tr></tbody></table>",
+          "line": 46,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Combat Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/melee-attack\">Melee Attack</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/melee-defence\">Melee Defence</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/dodge\">Dodge</a></td><td align=\"center\">1.5 – 7.5</td></tr><tr><td><a href=\"/martial-arts\">Martial Arts</a></td><td align=\"center\">1.5 – 7.5</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Combat Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/melee-attack\">Melee Attack</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/melee-defence\">Melee Defence</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/dodge\">Dodge</a></td><td align=\"center\">1.5 – 7.5</td></tr><tr><td><a href=\"/martial-arts\">Martial Arts</a></td><td align=\"center\">1.5 – 7.5</td></tr></tbody></table>",
+          "line": 48,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Ranged Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/turrets\">Turrets</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/crossbows\">Crossbows</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/precision-shooting\">Precision Shooting</a></td><td align=\"center\">42 – 48</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Ranged Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/turrets\">Turrets</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/crossbows\">Crossbows</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/precision-shooting\">Precision Shooting</a></td><td align=\"center\">42 – 48</td></tr></tbody></table>",
+          "line": 50,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Thievery Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/stealth\">Stealth</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/lockpicking\">Lockpicking</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/thievery\">Thievery</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/assassination\">Assassination</a></td><td align=\"center\">22.5</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Thievery Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/stealth\">Stealth</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/lockpicking\">Lockpicking</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/thievery\">Thievery</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/assassination\">Assassination</a></td><td align=\"center\">22.5</td></tr></tbody></table>",
+          "line": 52,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Athletic Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/athletics\">Athletics</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/swimming\">Swimming</a></td><td align=\"center\">42 – 48</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Athletic Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/athletics\">Athletics</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/swimming\">Swimming</a></td><td align=\"center\">42 – 48</td></tr></tbody></table>",
+          "line": 54,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Science Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/field-medic\">Field Medic</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/engineer\">Engineer</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/robotics\">Robotics</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/science\">Science</a></td><td align=\"center\">1.2</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Science Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/field-medic\">Field Medic</a></td><td align=\"center\">42 – 48</td></tr><tr><td><a href=\"/engineer\">Engineer</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/robotics\">Robotics</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/science\">Science</a></td><td align=\"center\">1.2</td></tr></tbody></table>",
+          "line": 56,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Trade Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/weapon-smith\">Weapon Smith</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/armour-smith\">Armour Smith</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/crossbow-smith\">Crossbow Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/labouring\">Labouring</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/farming\">Farming</a></td><td align=\"center\">1.2</td></tr><tr><td><a href=\"/cooking\">Cooking</a></td><td align=\"center\">1.2</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Trade Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/weapon-smith\">Weapon Smith</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/armour-smith\">Armour Smith</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/crossbow-smith\">Crossbow Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/labouring\">Labouring</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/farming\">Farming</a></td><td align=\"center\">1.2</td></tr><tr><td><a href=\"/cooking\">Cooking</a></td><td align=\"center\">1.2</td></tr></tbody></table>",
+          "line": 58,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._",
+          "literal": "Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._",
+          "line": 65,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "If [Nagata](/lord-nagata) and [Tengu](/emperor-tengu) are killed/imprisoned while Boss Simion is alive and free, [Sho-Battai](/sho-battai) will be taken over by rebels. If [Kana](/lady-kana) is killed as well, [Port North](/port-north) will be taken over by Empire Peasants.",
+          "literal": "If [Nagata](/lord-nagata) and [Tengu](/emperor-tengu) are killed/imprisoned while Boss Simion is alive and free, [Sho-Battai](/sho-battai) will be taken over by rebels. If [Kana](/lady-kana) is killed as well, [Port North](/port-north) will be taken over by Empire Peasants.",
+          "line": 95,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "(Requires Boss Simion to be dead/imprisoned)",
+          "literal": "(Requires Boss Simion to be dead/imprisoned)",
+          "line": 97,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "boss-simion",
+          "label": "[Sho-Battai](/sho-battai) will be overrun by [Cannibals](/sho-battai/cannibals) if [Tengu](/emperor-tengu) and [Nagata](/lord-nagata) are killed.",
+          "literal": "[Sho-Battai](/sho-battai) will be overrun by [Cannibals](/sho-battai/cannibals) if [Tengu](/emperor-tengu) and [Nagata](/lord-nagata) are killed.",
+          "line": 101,
+          "sourceFile": "src/content/wiki/boss-simion.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Attributes</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/strength\">Strength</a></td><td align=\"center\">42.3 – 47.7</td></tr><tr><td><a href=\"/toughness\">Toughness</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/dexterity\">Dexterity</a></td><td align=\"center\">51.7 – 58.3</td></tr><tr><td><a href=\"/perception\">Perception</a></td><td align=\"center\">-2 – 4</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Attributes</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/strength\">Strength</a></td><td align=\"center\">42.3 – 47.7</td></tr><tr><td><a href=\"/toughness\">Toughness</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/dexterity\">Dexterity</a></td><td align=\"center\">51.7 – 58.3</td></tr><tr><td><a href=\"/perception\">Perception</a></td><td align=\"center\">-2 – 4</td></tr></tbody></table>",
+          "line": 44,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Weapon Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/katanas\">Katanas</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/sabres\">Sabres</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/hackers\">Hackers</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/heavy-weapons\">Heavy Weapons</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/blunt-weapons\">Blunt</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/polearms\">Polearms</a></td><td align=\"center\">47 – 53</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Weapon Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/katanas\">Katanas</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/sabres\">Sabres</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/hackers\">Hackers</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/heavy-weapons\">Heavy Weapons</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/blunt-weapons\">Blunt</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/polearms\">Polearms</a></td><td align=\"center\">47 – 53</td></tr></tbody></table>",
+          "line": 46,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Combat Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/melee-attack\">Melee Attack</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/melee-defence\">Melee Defence</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/dodge\">Dodge</a></td><td align=\"center\">2.4 – 9.6</td></tr><tr><td><a href=\"/martial-arts\">Martial Arts</a></td><td align=\"center\">2 – 8</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Combat Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/melee-attack\">Melee Attack</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/melee-defence\">Melee Defence</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/dodge\">Dodge</a></td><td align=\"center\">2.4 – 9.6</td></tr><tr><td><a href=\"/martial-arts\">Martial Arts</a></td><td align=\"center\">2 – 8</td></tr></tbody></table>",
+          "line": 48,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Ranged Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/turrets\">Turrets</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/crossbows\">Crossbows</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/precision-shooting\">Precision Shooting</a></td><td align=\"center\">47 – 53</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Ranged Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/turrets\">Turrets</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/crossbows\">Crossbows</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/precision-shooting\">Precision Shooting</a></td><td align=\"center\">47 – 53</td></tr></tbody></table>",
+          "line": 50,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Thievery Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/stealth\">Stealth</a></td><td align=\"center\">-2.4 – 4.8</td></tr><tr><td><a href=\"/lockpicking\">Lockpicking</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/thievery\">Thievery</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/assassination\">Assassination</a></td><td align=\"center\">25</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Thievery Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/stealth\">Stealth</a></td><td align=\"center\">-2.4 – 4.8</td></tr><tr><td><a href=\"/lockpicking\">Lockpicking</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/thievery\">Thievery</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/assassination\">Assassination</a></td><td align=\"center\">25</td></tr></tbody></table>",
+          "line": 52,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Athletic Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/athletics\">Athletics</a></td><td align=\"center\">56.4 – 63.6</td></tr><tr><td><a href=\"/swimming\">Swimming</a></td><td align=\"center\">47 – 53</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Athletic Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/athletics\">Athletics</a></td><td align=\"center\">56.4 – 63.6</td></tr><tr><td><a href=\"/swimming\">Swimming</a></td><td align=\"center\">47 – 53</td></tr></tbody></table>",
+          "line": 54,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Science Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/field-medic\">Field Medic</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/engineer\">Engineer</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/robotics\">Robotics</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/science\">Science</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Science Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/field-medic\">Field Medic</a></td><td align=\"center\">47 – 53</td></tr><tr><td><a href=\"/engineer\">Engineer</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/robotics\">Robotics</a></td><td align=\"center\">-2 – 4</td></tr><tr><td><a href=\"/science\">Science</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "line": 56,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Trade Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/weapon-smith\">Weapon Smith</a></td><td align=\"center\">-2.4 – 4.8</td></tr><tr><td><a href=\"/armour-smith\">Armour Smith</a></td><td align=\"center\">-2.4 – 4.8</td></tr><tr><td><a href=\"/crossbow-smith\">Crossbow Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/labouring\">Labouring</a></td><td align=\"center\">0.8</td></tr><tr><td><a href=\"/farming\">Farming</a></td><td align=\"center\">0.8</td></tr><tr><td><a href=\"/cooking\">Cooking</a></td><td align=\"center\">0.8</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Trade Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/weapon-smith\">Weapon Smith</a></td><td align=\"center\">-2.4 – 4.8</td></tr><tr><td><a href=\"/armour-smith\">Armour Smith</a></td><td align=\"center\">-2.4 – 4.8</td></tr><tr><td><a href=\"/crossbow-smith\">Crossbow Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/labouring\">Labouring</a></td><td align=\"center\">0.8</td></tr><tr><td><a href=\"/farming\">Farming</a></td><td align=\"center\">0.8</td></tr><tr><td><a href=\"/cooking\">Cooking</a></td><td align=\"center\">0.8</td></tr></tbody></table>",
+          "line": 58,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._",
+          "literal": "Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._",
+          "line": 65,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "Lord Yoshinaga's death/imprisonment would cease [Samurai](/samurai) patrols spawning in [Skimsands](/skimsands).",
+          "literal": "Lord Yoshinaga's death/imprisonment would cease [Samurai](/samurai) patrols spawning in [Skimsands](/skimsands).",
+          "line": 69,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "If [Lady Tsugi](/lady-tsugi) and **Lord Yoshinaga** are both dead/imprisoned while [Valamon](/valamon) is alive and free, [Reavers](/reavers) patrols will start spawning in [Heng](/heng-zone).",
+          "literal": "If [Lady Tsugi](/lady-tsugi) and **Lord Yoshinaga** are both dead/imprisoned while [Valamon](/valamon) is alive and free, [Reavers](/reavers) patrols will start spawning in [Heng](/heng-zone).",
+          "line": 71,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lord-yoshinaga",
+          "label": "Alternatively, if **Lady Tsugi**, **Lord Yoshinaga** and **Valamon** are all either killed/imprisoned while [Crab Queen](/crab-queen) is alive and free, [Crab Raiders](/crab-raiders) patrols will start spawning in [Heng](/heng-zone).",
+          "literal": "Alternatively, if **Lady Tsugi**, **Lord Yoshinaga** and **Valamon** are all either killed/imprisoned while [Crab Queen](/crab-queen) is alive and free, [Crab Raiders](/crab-raiders) patrols will start spawning in [Heng](/heng-zone).",
+          "line": 73,
+          "sourceFile": "src/content/wiki/lord-yoshinaga.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Attributes</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/strength\">Strength</a></td><td align=\"center\">85</td></tr><tr><td><a href=\"/toughness\">Toughness</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/dexterity\">Dexterity</a></td><td align=\"center\">60</td></tr><tr><td><a href=\"/perception\">Perception</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Attributes</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/strength\">Strength</a></td><td align=\"center\">85</td></tr><tr><td><a href=\"/toughness\">Toughness</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/dexterity\">Dexterity</a></td><td align=\"center\">60</td></tr><tr><td><a href=\"/perception\">Perception</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "line": 43,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Weapon Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/katanas\">Katanas</a></td><td align=\"center\">80</td></tr><tr><td><a href=\"/sabres\">Sabres</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/hackers\">Hackers</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/heavy-weapons\">Heavy Weapons</a></td><td align=\"center\">120</td></tr><tr><td><a href=\"/blunt-weapons\">Blunt</a></td><td align=\"center\">120</td></tr><tr><td><a href=\"/polearms\">Polearms</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Weapon Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/katanas\">Katanas</a></td><td align=\"center\">80</td></tr><tr><td><a href=\"/sabres\">Sabres</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/hackers\">Hackers</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/heavy-weapons\">Heavy Weapons</a></td><td align=\"center\">120</td></tr><tr><td><a href=\"/blunt-weapons\">Blunt</a></td><td align=\"center\">120</td></tr><tr><td><a href=\"/polearms\">Polearms</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "line": 45,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Combat Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/melee-attack\">Melee Attack</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/melee-defence\">Melee Defence</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/dodge\">Dodge</a></td><td align=\"center\">48</td></tr><tr><td><a href=\"/martial-arts\">Martial Arts</a></td><td align=\"center\">60</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Combat Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/melee-attack\">Melee Attack</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/melee-defence\">Melee Defence</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/dodge\">Dodge</a></td><td align=\"center\">48</td></tr><tr><td><a href=\"/martial-arts\">Martial Arts</a></td><td align=\"center\">60</td></tr></tbody></table>",
+          "line": 47,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Ranged Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/turrets\">Turrets</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/crossbows\">Crossbows</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/precision-shooting\">Precision Shooting</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Ranged Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/turrets\">Turrets</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/crossbows\">Crossbows</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/precision-shooting\">Precision Shooting</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "line": 49,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Thievery Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/stealth\">Stealth</a></td><td align=\"center\">0.8</td></tr><tr><td><a href=\"/lockpicking\">Lockpicking</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/thievery\">Thievery</a></td><td align=\"center\">0.8</td></tr><tr><td><a href=\"/assassination\">Assassination</a></td><td align=\"center\">50</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Thievery Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/stealth\">Stealth</a></td><td align=\"center\">0.8</td></tr><tr><td><a href=\"/lockpicking\">Lockpicking</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/thievery\">Thievery</a></td><td align=\"center\">0.8</td></tr><tr><td><a href=\"/assassination\">Assassination</a></td><td align=\"center\">50</td></tr></tbody></table>",
+          "line": 51,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Athletic Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/athletics\">Athletics</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/swimming\">Swimming</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Athletic Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/athletics\">Athletics</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/swimming\">Swimming</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "line": 53,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Science Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/field-medic\">Field Medic</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/engineer\">Engineer</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/robotics\">Robotics</a></td><td align=\"center\">1.2</td></tr><tr><td><a href=\"/science\">Science</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Science Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/field-medic\">Field Medic</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/engineer\">Engineer</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/robotics\">Robotics</a></td><td align=\"center\">1.2</td></tr><tr><td><a href=\"/science\">Science</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "line": 55,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Trade Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/weapon-smith\">Weapon Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/armour-smith\">Armour Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/crossbow-smith\">Crossbow Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/labouring\">Labouring</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/farming\">Farming</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/cooking\">Cooking</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Trade Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/weapon-smith\">Weapon Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/armour-smith\">Armour Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/crossbow-smith\">Crossbow Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/labouring\">Labouring</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/farming\">Farming</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/cooking\">Cooking</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "line": 57,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._",
+          "literal": "Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._",
+          "line": 62,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "(Requires **Mad Cat-Lon** to be killed/imprisoned)",
+          "literal": "(Requires **Mad Cat-Lon** to be killed/imprisoned)",
+          "line": 66,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "If **Mad Cat-Lon** is killed/imprisoned, static [Iron Spiders](/iron-spider) will cease to spawn in [Ashlands](/ashlands), while patrols of \"skeleton legion force- pre\" (7 Legion (melee) and 2 Legion scouts) will all cease to spawn and replaced with a larger patrol of \"skeleton legion force (post)\" (12 Legion (melee) an 2 Legion scouts) with a \"force speed\" \"RUN\" instead of \"GROUPED\" and doubled relative chance of spawn(relative to other squads, for example: it will be twice as common as \"Robot spider group\" or \"legion thrall unit\" and four times as common as cleanser squads or \"screamer unit\").",
+          "literal": "If **Mad Cat-Lon** is killed/imprisoned, static [Iron Spiders](/iron-spider) will cease to spawn in [Ashlands](/ashlands), while patrols of \"skeleton legion force- pre\" (7 Legion (melee) and 2 Legion scouts) will all cease to spawn and replaced with a larger patrol of \"skeleton legion force (post)\" (12 Legion (melee) an 2 Legion scouts) with a \"force speed\" \"RUN\" instead of \"GROUPED\" and doubled relative chance of spawn(relative to other squads, for example: it will be twice as common as \"Robot spider group\" or \"legion thrall unit\" and four times as common as cleanser squads or \"screamer unit\").",
+          "line": 68,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "The death/capture of **Mad Cat-Lon** will also allow the player to have dialogues to intimidate [Emperor Tengu](/emperor-tengu) as a response to being called a servant when allied with the United Cities.",
+          "literal": "The death/capture of **Mad Cat-Lon** will also allow the player to have dialogues to intimidate [Emperor Tengu](/emperor-tengu) as a response to being called a servant when allied with the United Cities.",
+          "line": 70,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Attributes</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/strength\">Strength</a></td><td align=\"center\">90</td></tr><tr><td><a href=\"/toughness\">Toughness</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/dexterity\">Dexterity</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/perception\">Perception</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Attributes</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/strength\">Strength</a></td><td align=\"center\">90</td></tr><tr><td><a href=\"/toughness\">Toughness</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/dexterity\">Dexterity</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/perception\">Perception</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "line": 50,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Weapon Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/katanas\">Katanas</a></td><td align=\"center\">10</td></tr><tr><td><a href=\"/sabres\">Sabres</a></td><td align=\"center\">10</td></tr><tr><td><a href=\"/hackers\">Hackers</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/heavy-weapons\">Heavy Weapons</a></td><td align=\"center\">120</td></tr><tr><td><a href=\"/blunt-weapons\">Blunt</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/polearms\">Polearms</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Weapon Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/katanas\">Katanas</a></td><td align=\"center\">10</td></tr><tr><td><a href=\"/sabres\">Sabres</a></td><td align=\"center\">10</td></tr><tr><td><a href=\"/hackers\">Hackers</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/heavy-weapons\">Heavy Weapons</a></td><td align=\"center\">120</td></tr><tr><td><a href=\"/blunt-weapons\">Blunt</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/polearms\">Polearms</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "line": 52,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Combat Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/melee-attack\">Melee Attack</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/melee-defence\">Melee Defence</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/dodge\">Dodge</a></td><td align=\"center\">80</td></tr><tr><td><a href=\"/martial-arts\">Martial Arts</a></td><td align=\"center\">110</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Combat Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/melee-attack\">Melee Attack</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/melee-defence\">Melee Defence</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/dodge\">Dodge</a></td><td align=\"center\">80</td></tr><tr><td><a href=\"/martial-arts\">Martial Arts</a></td><td align=\"center\">110</td></tr></tbody></table>",
+          "line": 54,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Ranged Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/turrets\">Turrets</a></td><td align=\"center\">12</td></tr><tr><td><a href=\"/crossbows\">Crossbows</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/precision-shooting\">Precision Shooting</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Ranged Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/turrets\">Turrets</a></td><td align=\"center\">12</td></tr><tr><td><a href=\"/crossbows\">Crossbows</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/precision-shooting\">Precision Shooting</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "line": 56,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Thievery Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/stealth\">Stealth</a></td><td align=\"center\">80</td></tr><tr><td><a href=\"/lockpicking\">Lockpicking</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/thievery\">Thievery</a></td><td align=\"center\">80</td></tr><tr><td><a href=\"/assassination\">Assassination</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Thievery Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/stealth\">Stealth</a></td><td align=\"center\">80</td></tr><tr><td><a href=\"/lockpicking\">Lockpicking</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/thievery\">Thievery</a></td><td align=\"center\">80</td></tr><tr><td><a href=\"/assassination\">Assassination</a></td><td align=\"center\">100</td></tr></tbody></table>",
+          "line": 58,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Athletic Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/athletics\">Athletics</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/swimming\">Swimming</a></td><td align=\"center\">10</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Athletic Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/athletics\">Athletics</a></td><td align=\"center\">100</td></tr><tr><td><a href=\"/swimming\">Swimming</a></td><td align=\"center\">10</td></tr></tbody></table>",
+          "line": 60,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Science Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/field-medic\">Field Medic</a></td><td align=\"center\">10</td></tr><tr><td><a href=\"/engineer\">Engineer</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/robotics\">Robotics</a></td><td align=\"center\">120</td></tr><tr><td><a href=\"/science\">Science</a></td><td align=\"center\">10</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Science Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/field-medic\">Field Medic</a></td><td align=\"center\">10</td></tr><tr><td><a href=\"/engineer\">Engineer</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/robotics\">Robotics</a></td><td align=\"center\">120</td></tr><tr><td><a href=\"/science\">Science</a></td><td align=\"center\">10</td></tr></tbody></table>",
+          "line": 62,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Trade Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/weapon-smith\">Weapon Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/armour-smith\">Armour Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/crossbow-smith\">Crossbow Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/labouring\">Labouring</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/farming\">Farming</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/cooking\">Cooking</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Trade Skills</th><th scope=\"col\" align=\"center\" width=\"80\">Level</th></tr><tr><td><a href=\"/weapon-smith\">Weapon Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/armour-smith\">Armour Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/crossbow-smith\">Crossbow Smith</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/labouring\">Labouring</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/farming\">Farming</a></td><td align=\"center\">1</td></tr><tr><td><a href=\"/cooking\">Cooking</a></td><td align=\"center\">1</td></tr></tbody></table>",
+          "line": 64,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._",
+          "literal": "Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._",
+          "line": 69,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "(Requires Tinfist to be imprisoned/dead)",
+          "literal": "(Requires Tinfist to be imprisoned/dead)",
+          "line": 83,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "When Tinfist is killed, several world states will trigger, mostly related with the expansion and strengthening of slavers who could do their operations much more efficiently without hindrance, dominating over several small and insignificant factions.",
+          "literal": "When Tinfist is killed, several world states will trigger, mostly related with the expansion and strengthening of slavers who could do their operations much more efficiently without hindrance, dominating over several small and insignificant factions.",
+          "line": 85,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "tinfist",
+          "label": "A '[Jonin Assault](/jonin-assault)' will be launched comprised of 20 [Anti-Slaver Jonins](/anti-slaver-jonin), with special leaders being either [Jaegar](/jaegar), [Bo](/bo), or [Grey](/grey) (all of them might not appear if the player has killed/imprisoned them beforehand).",
+          "literal": "A '[Jonin Assault](/jonin-assault)' will be launched comprised of 20 [Anti-Slaver Jonins](/anti-slaver-jonin), with special leaders being either [Jaegar](/jaegar), [Bo](/bo), or [Grey](/grey) (all of them might not appear if the player has killed/imprisoned them beforehand).",
+          "line": 99,
+          "sourceFile": "src/content/wiki/tinfist.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:character-captivity-hunger",
+      "kind": "claim",
+      "target": "/queen-of-the-south",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Queen of the South describes hunger behavior that conflicts with the interface message.",
+      "proposedResolution": "Check race hunger fields and an observed captivity trial with version and elapsed game time.",
+      "uncertainty": "An interface tooltip and exported hunger rate are different evidence; neither alone verifies starvation.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "queen-of-the-south",
+          "sourceFile": "src/content/wiki/queen-of-the-south.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "7961afd10f660957a8405ca3a2caf88399212e404b8b9cbd80843d8fba9a0670",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/queen-of-the-south.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "queen-of-the-south",
+          "label": "-   Although she is a robot, the Queen of the South has a Hunger rate of 3. If you were to place her inside of a cage you own, she would starve before too long.",
+          "literal": "-   Although she is a robot, the Queen of the South has a Hunger rate of 3. If you were to place her inside of a cage you own, she would starve before too long.",
+          "line": 77,
+          "sourceFile": "src/content/wiki/queen-of-the-south.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "queen-of-the-south",
+          "label": "    -   If you mouse over her hunger, it will state that she does not need to eat but this is simply a visual bug.",
+          "literal": "    -   If you mouse over her hunger, it will state that she does not need to eat but this is simply a visual bug.",
+          "line": 78,
+          "sourceFile": "src/content/wiki/queen-of-the-south.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:character-equipment-probability",
       "kind": "claim",
       "target": "/beep",
@@ -50269,6 +50835,149 @@
           "literal": "They wear \\[Standard\\] armour (5% chance of \\[High\\]) and have weapons manufactured by [Catun Scrapmaster](/catun-scrapmaster).",
           "line": 28,
           "sourceFile": "src/content/wiki/zed.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:character-faction-overrides",
+      "kind": "claim",
+      "target": "/lady-kana",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Character records and spawned squads can give different faction affiliations.",
+      "proposedResolution": "Identify the character record, squad template and override that produce the live allegiance.",
+      "uncertainty": "A base FCS faction alone may not describe the spawned character.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "lady-kana",
+          "sourceFile": "src/content/wiki/lady-kana.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "e2b9ce34b2d53d170a7ab7ced48db208cfdd5b5461639373c5e9240ed09d2e1a",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/lady-kana.md"
+        },
+        {
+          "articleId": "esata-the-stone-golem",
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "385f7f09f684130fce2f5d4c8f3bdd0c9d77cf0056bbf5f4b29368238c06d913",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/esata-the-stone-golem.md"
+        },
+        {
+          "articleId": "eyegore",
+          "sourceFile": "src/content/wiki/eyegore.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "bbcb826584580370b9bee8f765e63f1a69b50eb68b6f4b8a44927559ff1cc1e7",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/eyegore.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "lady-kana",
+          "label": "If Lady Kana is killed or imprisoned, then town overrides can apply to a number of locations.",
+          "literal": "If Lady Kana is killed or imprisoned, then town overrides can apply to a number of locations.",
+          "line": 77,
+          "sourceFile": "src/content/wiki/lady-kana.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "lady-kana",
+          "label": "-   Lady Kana, by herself, is listed in the FCS as part of the Slave Traders faction. Her noble squad, however, ultimately designates her as a Traders Guild member in game.",
+          "literal": "-   Lady Kana, by herself, is listed in the FCS as part of the Slave Traders faction. Her noble squad, however, ultimately designates her as a Traders Guild member in game.",
+          "line": 101,
+          "sourceFile": "src/content/wiki/lady-kana.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "She can be found in the Faction HQ in [Admag](/admag) along with her daughter [Seto](/seto), [Bayan](/bayan), and 4 of [The Five Invincibles](/the-five-invincibles), unless [World States](/world-states) have moved the Shek HQ.",
+          "literal": "She can be found in the Faction HQ in [Admag](/admag) along with her daughter [Seto](/seto), [Bayan](/bayan), and 4 of [The Five Invincibles](/the-five-invincibles), unless [World States](/world-states) have moved the Shek HQ.",
+          "line": 30,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "[Squin](/squin) will have a town override which would include [Mukai](/mukai-the-mountain) and still being under SK rule. Or handed over to [Kral's Chosen](/krals-chosen) if [Mukai](/mukai-the-mountain) is killed while [Flying Bull](/flying-bull) is alive. Or to the [Berserkers](/berserkers) if both Mukai and Flying Bull are dead.",
+          "literal": "[Squin](/squin) will have a town override which would include [Mukai](/mukai-the-mountain) and still being under SK rule. Or handed over to [Kral's Chosen](/krals-chosen) if [Mukai](/mukai-the-mountain) is killed while [Flying Bull](/flying-bull) is alive. Or to the [Berserkers](/berserkers) if both Mukai and Flying Bull are dead.",
+          "line": 92,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "Squads of [Shek](/shek) patrols will cease to spawn inside [Stenn Desert](/stenn-desert).",
+          "literal": "Squads of [Shek](/shek) patrols will cease to spawn inside [Stenn Desert](/stenn-desert).",
+          "line": 101,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "If [Seto](/seto) is killed, Shek Kingdom patrols will start invading [Okran's Pride](/okrans-pride) and [Okran's Gulf](/okrans-gulf) while [Admag will have a weakened override](/admag/weakened).",
+          "literal": "If [Seto](/seto) is killed, Shek Kingdom patrols will start invading [Okran's Pride](/okrans-pride) and [Okran's Gulf](/okrans-gulf) while [Admag will have a weakened override](/admag/weakened).",
+          "line": 109,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "If Esata the Stone Golem is turned in to the following factions, the following benefits/penalties are granted:",
+          "literal": "If Esata the Stone Golem is turned in to the following factions, the following benefits/penalties are granted:",
+          "line": 121,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "-   The defeat of Esata causes the removal of around 76% potential Shek Warrior squads in [Okran's Pride](/okrans-pride) (among other areas), with the rest ending up as [Kamikaze](/kamikaze), indicative that they de-populated themselves significantly from fighting after sending out all their forces from [Admag](/admag/berserkers).",
+          "literal": "-   The defeat of Esata causes the removal of around 76% potential Shek Warrior squads in [Okran's Pride](/okrans-pride) (among other areas), with the rest ending up as [Kamikaze](/kamikaze), indicative that they de-populated themselves significantly from fighting after sending out all their forces from [Admag](/admag/berserkers).",
+          "line": 142,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "-   Esata could potentially be a member of [Kral's Chosen](/krals-chosen) in [Squin](/squin/krals-chosen) if she is kidnapped, imprisoned or otherwise unwell while [Flying Bull](/flying-bull) is alive and free, and released after achieving the [Mukai override](/squin/mukai) before taking out [Mukai](/mukai-the-mountain) to achieve the [Kral's Chosen Squin](/squin/krals-chosen).",
+          "literal": "-   Esata could potentially be a member of [Kral's Chosen](/krals-chosen) in [Squin](/squin/krals-chosen) if she is kidnapped, imprisoned or otherwise unwell while [Flying Bull](/flying-bull) is alive and free, and released after achieving the [Mukai override](/squin/mukai) before taking out [Mukai](/mukai-the-mountain) to achieve the [Kral's Chosen Squin](/squin/krals-chosen).",
+          "line": 145,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://lofigames.com/lore-of-kenshi-3-shek-kingdom/\">Lore Of Kenshi #3: The Shek Kingdom - Kenshi | An Open Ended, Squad Based RPG</a></span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external autonumber\" href=\"https://lofigames.com/lore-of-kenshi-3-shek-kingdom/\">[1]</a> The Shek Kingdom puts little importance on academic education, meaning that most Shek can’t read – Esata is no exception to this and is not particularly intelligent.</span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\"><a href=\"/shek-kingdom\">Shek Kingdom</a> patrols will spawn in HN regions if Seta or Phoenix is killed.</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a href=\"/admag/weakened\">Admag would be depopulated</a> if Seto is dead, coinciding with the noticable increase in patrols at <a href=\"/okrans-pride\">Okran's Pride</a> and <a href=\"/okrans-gulf\">Okran's Gulf</a>.</span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\">\"Seto Revenge\" squad can overlap with \"Shek Patrol\" squad, with the latter not appearing until at least <a href=\"/high-inquisitor-seta\">Seta</a> or <a href=\"/holy-lord-phoenix\">Phoenix</a> is dead.</span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\">\"As such, they have continued their raiding and warlike ways with their neighbours ever since.\" - <a href=\"/history-of-kenshi\">History of Kenshi</a>, referring to the Shek Kingdom.</span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\">\"Esata, she terrorizes us with her barbarian warmongerers. She bides her time, waiting to butcher us all in her centuries-old feud.\" - <a href=\"/holy-lord-phoenix\">Phoenix</a></span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\">\"And then there's the barbaric warmongering devils... They've terrorized our towns enough with their needless hunger for blood, the war must end.\" - <a href=\"/holy-lord-phoenix\">Phoenix</a></span></li></ol>",
+          "literal": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://lofigames.com/lore-of-kenshi-3-shek-kingdom/\">Lore Of Kenshi #3: The Shek Kingdom - Kenshi | An Open Ended, Squad Based RPG</a></span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external autonumber\" href=\"https://lofigames.com/lore-of-kenshi-3-shek-kingdom/\">[1]</a> The Shek Kingdom puts little importance on academic education, meaning that most Shek can’t read – Esata is no exception to this and is not particularly intelligent.</span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\"><a href=\"/shek-kingdom\">Shek Kingdom</a> patrols will spawn in HN regions if Seta or Phoenix is killed.</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a href=\"/admag/weakened\">Admag would be depopulated</a> if Seto is dead, coinciding with the noticable increase in patrols at <a href=\"/okrans-pride\">Okran's Pride</a> and <a href=\"/okrans-gulf\">Okran's Gulf</a>.</span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\">\"Seto Revenge\" squad can overlap with \"Shek Patrol\" squad, with the latter not appearing until at least <a href=\"/high-inquisitor-seta\">Seta</a> or <a href=\"/holy-lord-phoenix\">Phoenix</a> is dead.</span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\">\"As such, they have continued their raiding and warlike ways with their neighbours ever since.\" - <a href=\"/history-of-kenshi\">History of Kenshi</a>, referring to the Shek Kingdom.</span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\">\"Esata, she terrorizes us with her barbarian warmongerers. She bides her time, waiting to butcher us all in her centuries-old feud.\" - <a href=\"/holy-lord-phoenix\">Phoenix</a></span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\">\"And then there's the barbaric warmongering devils... They've terrorized our towns enough with their needless hunger for blood, the war must end.\" - <a href=\"/holy-lord-phoenix\">Phoenix</a></span></li></ol>",
+          "line": 148,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "eyegore",
+          "label": "If the player has caused poor enough relations with the United Cities (such as kidnapping [Emperor Tengu](/emperor-tengu)) and has survived their samurai raids, Eyegore and his squad of [Samurais](/samurai), [Samurai Conscripts](/samurai-conscript), and [Samurai Scouts](/samurai-scout) will be sent to destroy everything they hold dear (their settlement).",
+          "literal": "If the player has caused poor enough relations with the United Cities (such as kidnapping [Emperor Tengu](/emperor-tengu)) and has survived their samurai raids, Eyegore and his squad of [Samurais](/samurai), [Samurai Conscripts](/samurai-conscript), and [Samurai Scouts](/samurai-scout) will be sent to destroy everything they hold dear (their settlement).",
+          "line": 28,
+          "sourceFile": "src/content/wiki/eyegore.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "eyegore",
+          "label": "If Eyegore has already been taken care of, then an [Elite Hunter](/elite-hunter) squad will form instead during the final assault.",
+          "literal": "If Eyegore has already been taken care of, then an [Elite Hunter](/elite-hunter) squad will form instead during the final assault.",
+          "line": 32,
+          "sourceFile": "src/content/wiki/eyegore.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "eyegore",
+          "label": "-   **Eyegore** is one of three unique leaders that could spawn as more than one faction, being potentially part of [United Cities](/united-cities) or [Traders Guild](/traders-guild).",
+          "literal": "-   **Eyegore** is one of three unique leaders that could spawn as more than one faction, being potentially part of [United Cities](/united-cities) or [Traders Guild](/traders-guild).",
+          "line": 80,
+          "sourceFile": "src/content/wiki/eyegore.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
@@ -70476,6 +71185,473 @@
           "literal": "\\[editors note: if someone knows how to tidy upp the dialogue boxes and such, i'd be very grateful.\\]",
           "line": 193,
           "sourceFile": "src/content/wiki/miu.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:character-patrol-interpretation",
+      "kind": "claim",
+      "target": "/high-inquisitor-seta",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Patrol changes are used to infer military losses, strategic intent or population changes.",
+      "proposedResolution": "Trace spawn weights, squad sizes and override predicates independently; separate authored dialogue, derived estimates and observed population or behavior.",
+      "uncertainty": "Relative spawn frequency is not a census; changes alone do not establish faction motives.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "high-inquisitor-seta",
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "e6f2538d8cb56edb09de120612393515cb773d777d8fdbc335f76241cf868b1d",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/high-inquisitor-seta.md"
+        },
+        {
+          "articleId": "high-inquisitor-valtena",
+          "sourceFile": "src/content/wiki/high-inquisitor-valtena.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "542306a8112e78d4c2b921cf8aeff465d2b18577438d7c750e76de0a54e69fba",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/high-inquisitor-valtena.md"
+        },
+        {
+          "articleId": "holy-lord-phoenix",
+          "sourceFile": "src/content/wiki/holy-lord-phoenix.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "aa34eee9d1cba5f25694a3491e42efe490d03f53c6c4863babd3f6b84b1a8ec4",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/holy-lord-phoenix.md"
+        },
+        {
+          "articleId": "esata-the-stone-golem",
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "385f7f09f684130fce2f5d4c8f3bdd0c9d77cf0056bbf5f4b29368238c06d913",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/esata-the-stone-golem.md"
+        },
+        {
+          "articleId": "flying-bull",
+          "sourceFile": "src/content/wiki/flying-bull.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "17d49dfd45191c7d7e8db35468a3b58f6604127a0ee522cf000af53c2ef7d470",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/flying-bull.md"
+        },
+        {
+          "articleId": "mukai-the-mountain",
+          "sourceFile": "src/content/wiki/mukai-the-mountain.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "0b972d1ce81b00d49a565b4a5f4d36a9fff75ecd47bd45e6f5f2779bf05c6080",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/mukai-the-mountain.md"
+        },
+        {
+          "articleId": "mad-cat-lon",
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "4af130dcba0bc93de7eb0051e344e7bc1a9c40d063892a23fbb033abe84b3c85",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/mad-cat-lon.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "<figure class=\"quote\"><blockquote>Seta controls Stack in the south west of the plains. Valtena you'll find in a military outpost, Okran's Shield, on the eastern border. Do not underestimate their hold on the Holy Nation, the two of them are probably smarter than the Phoenix himself - he was born into his role, remember, but those guys earned it with pure Okranite crazy and cunning.</blockquote><figcaption><a href=\"/moll\">Moll</a>.</figcaption></figure>",
+          "literal": "<figure class=\"quote\"><blockquote>Seta controls Stack in the south west of the plains. Valtena you'll find in a military outpost, Okran's Shield, on the eastern border. Do not underestimate their hold on the Holy Nation, the two of them are probably smarter than the Phoenix himself - he was born into his role, remember, but those guys earned it with pure Okranite crazy and cunning.</blockquote><figcaption><a href=\"/moll\">Moll</a>.</figcaption></figure>",
+          "line": 27,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "If Seta, Phoenix and Valtena are all killed while [Moll](/moll) is alive and free, [Flotsam Ninjas](/flotsam-ninjas) will take over [Blister Hill](/blister-hill) and [Rebirth](/rebirth). If Moll is also killed/imprisoned, both settlements will be part of [Holy Nation Outlaws](/holy-nation-outlaws). If Seta and Valtena are either killed/imprisoned while [Moll](/moll) is alive & free, [Flotsam Ninjas](/flotsam-ninjas) patrols would start spawning in [Okran's Gulf](/okrans-gulf) and [Okran's Valley](/okrans-valley) region.",
+          "literal": "If Seta, Phoenix and Valtena are all killed while [Moll](/moll) is alive and free, [Flotsam Ninjas](/flotsam-ninjas) will take over [Blister Hill](/blister-hill) and [Rebirth](/rebirth). If Moll is also killed/imprisoned, both settlements will be part of [Holy Nation Outlaws](/holy-nation-outlaws). If Seta and Valtena are either killed/imprisoned while [Moll](/moll) is alive & free, [Flotsam Ninjas](/flotsam-ninjas) patrols would start spawning in [Okran's Gulf](/okrans-gulf) and [Okran's Valley](/okrans-valley) region.",
+          "line": 86,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "If [Esata](/esata-the-stone-golem) is alive & free while Seta is killed, [Hundred Guardians](/hundred-guardian) and [Shek Warriors](/shek-warrior) patrol will start spawning at [Border Zone](/border-zone), [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) regions.",
+          "literal": "If [Esata](/esata-the-stone-golem) is alive & free while Seta is killed, [Hundred Guardians](/hundred-guardian) and [Shek Warriors](/shek-warrior) patrol will start spawning at [Border Zone](/border-zone), [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) regions.",
+          "line": 88,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "If [Ghost](/ghost) is alive & free while Seta is killed, it will cause [Berserkers](/berserkers) patrols start spawning in [Okran's Gulf](/okrans-gulf) region.",
+          "literal": "If [Ghost](/ghost) is alive & free while Seta is killed, it will cause [Berserkers](/berserkers) patrols start spawning in [Okran's Gulf](/okrans-gulf) region.",
+          "line": 90,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "If [Flying Bull](/flying-bull) is alive & free while Seta is killed it will cause Kral's Chosen patrols to start spawning in [Border Zone](/border-zone), [Skinner's Roam](/skinners-roam), [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) regions. They will increase in frequency at [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) if [Phoenix](/holy-lord-phoenix) is also killed. If Seta, Phoenix and Valtena are all killed Kral's Chosen patrols will start spawning at [Okran's Valley](/okrans-valley) and [Skimsands](/skimsands) regions.",
+          "literal": "If [Flying Bull](/flying-bull) is alive & free while Seta is killed it will cause Kral's Chosen patrols to start spawning in [Border Zone](/border-zone), [Skinner's Roam](/skinners-roam), [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) regions. They will increase in frequency at [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) if [Phoenix](/holy-lord-phoenix) is also killed. If Seta, Phoenix and Valtena are all killed Kral's Chosen patrols will start spawning at [Okran's Valley](/okrans-valley) and [Skimsands](/skimsands) regions.",
+          "line": 92,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "His death/imprisonment also causes the Holy army patrols to decrease in frequency in [Okran's Gulf](/okrans-gulf) (50%) and [Okran's Pride](/okrans-pride) (16%) regions.",
+          "literal": "His death/imprisonment also causes the Holy army patrols to decrease in frequency in [Okran's Gulf](/okrans-gulf) (50%) and [Okran's Pride](/okrans-pride) (16%) regions.",
+          "line": 94,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "If Seta is killed/imprisoned alongside with Phoenix and Valtena, [Strayed Paladin](/strayed-paladin) patrols consisting of 4 to 10 people patrolling the following zones: [Bast](/bast), [Border Zone](/border-zone), [Dreg](/dreg), [Okran's Gulf](/okrans-gulf), [Okran's Pride](/okrans-pride), [Okran's Valley](/okrans-valley), and [Skinner's Roam](/skinners-roam).",
+          "literal": "If Seta is killed/imprisoned alongside with Phoenix and Valtena, [Strayed Paladin](/strayed-paladin) patrols consisting of 4 to 10 people patrolling the following zones: [Bast](/bast), [Border Zone](/border-zone), [Dreg](/dreg), [Okran's Gulf](/okrans-gulf), [Okran's Pride](/okrans-pride), [Okran's Valley](/okrans-valley), and [Skinner's Roam](/skinners-roam).",
+          "line": 96,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "-   The fact that his world state correlates directly with vastly increased [Berserkers](/berserkers), [Kral's Chosen](/krals-chosen), [Shek Kingdom](/shek-kingdom) presence would suggest that said factions have been conducting low-intensity raids throughout [Border Zone](/border-zone) and the surrounding regions, but have been almost entirely blocked off and thinned out as a result of Seta's defensive perimeters<sup id=\"cite_ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup>, causing them to become so rare that they don't even appear as homeless spawns.",
+          "literal": "-   The fact that his world state correlates directly with vastly increased [Berserkers](/berserkers), [Kral's Chosen](/krals-chosen), [Shek Kingdom](/shek-kingdom) presence would suggest that said factions have been conducting low-intensity raids throughout [Border Zone](/border-zone) and the surrounding regions, but have been almost entirely blocked off and thinned out as a result of Seta's defensive perimeters<sup id=\"cite_ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup>, causing them to become so rare that they don't even appear as homeless spawns.",
+          "line": 100,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "    -   This is also supported by the fact that even when [Shek Kingdom](/shek-kingdom) is clearly launching assaults into [The Holy Nation](/the-holy-nation) and depopulating themselves<sup id=\"cite_ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> as a result of [Seto's](/seto) death/imprisonemnt<sup id=\"cite_ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup>, Seta's status would still prevent significant portions of Shek Kingdom patrols from spawning, indicative that he is blocking many raider forces off.",
+          "literal": "    -   This is also supported by the fact that even when [Shek Kingdom](/shek-kingdom) is clearly launching assaults into [The Holy Nation](/the-holy-nation) and depopulating themselves<sup id=\"cite_ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> as a result of [Seto's](/seto) death/imprisonemnt<sup id=\"cite_ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup>, Seta's status would still prevent significant portions of Shek Kingdom patrols from spawning, indicative that he is blocking many raider forces off.",
+          "line": 102,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "-   Seta has a significant number of forces under his command, capable of completely blocking off [Kral's Chosen](/krals-chosen), [Berserkers](/berserkers), [Flotsam Ninjas](/flotsam-ninjas), and around 3/5th of the [Shek Kingdom](/shek-kingdom) forces in [Okran's Pride](/okrans-pride), with the rest being blocked by [Phoenix's](/holy-lord-phoenix) forces.",
+          "literal": "-   Seta has a significant number of forces under his command, capable of completely blocking off [Kral's Chosen](/krals-chosen), [Berserkers](/berserkers), [Flotsam Ninjas](/flotsam-ninjas), and around 3/5th of the [Shek Kingdom](/shek-kingdom) forces in [Okran's Pride](/okrans-pride), with the rest being blocked by [Phoenix's](/holy-lord-phoenix) forces.",
+          "line": 106,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-seta",
+          "label": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\">The forces Seta commands is larger than the entirety of <a href=\"/shek-kingdom\">Shek Kingdom</a> (alongside smaller ones like Kral's Chosen and Berserkers), as they could fully go <a href=\"/kamikaze\">Kamikaze</a> without destroying any of HN cities as long as he is alive.</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\">\"With Seta gone, we are left open to the devils of the border zone. Times are truly dark...\" \"You will be missed, High Inquisitor Seta.\" - <a href=\"/holy-citizen\">Holy Citizens</a></span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\">\"The Phoenix and his two inquisitors, Seta and Valtena, form a strong defensive triangle between the three of them. The High Inquisitors fortify the enemy perimeters, but take them out and the Holy Nation will start to crack.\"</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\">\"With Seta gone, we're left open to the devils of the border zone...\" - <a href=\"/holy-citizen\">Holy Citizen</a></span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\">\"But Seta's defences still block our armies. He must die.\" - <a href=\"/esata-the-stone-golem\">Esata</a></span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\">\"They're still holding on to a strong defensive position on the southern border though. I suggest next assassinating Seta in the town of Stack. You would essentially be opening the Holy Nation's back door nice and wide for the attacking Shek to have their vengeance even more freely, sir.\" - <a href=\"/yamdu\">Yamdu</a></span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\">\"With Seta out of the way and their southern defenses open, the Shek are overrunning Okran's Plains like an infestation.\" - <a href=\"/yamdu\">Yamdu</a></span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\">\"And it looks like we weren't the only ones waiting to attack the Holy Nation. They've got their hands full fending off the Shek from the south after the defences were left open...\" - <a href=\"/moll\">Moll</a></span></li><li id=\"cite_note-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-9\">↑</a></span> <span class=\"reference-text\"><a href=\"/admag/weakened\">Admag/Weakened</a> showcases that Shek Kingdom assaults have drastically reduced their population.</span></li><li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">↑</a></span> <span class=\"reference-text\"><a href=\"/seto\">Seto's</a> imprisonment or death will cause <a href=\"/shek-kingdom\">Shek Kingdom</a> patrols to start spawning in <a href=\"/okrans-pride\">Okran's Pride</a> and <a href=\"/okrans-gulf\">Okran's Gulf</a> provided <a href=\"/esata-the-stone-golem\">Esata</a> is alive and free.</span></li></ol>",
+          "literal": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\">The forces Seta commands is larger than the entirety of <a href=\"/shek-kingdom\">Shek Kingdom</a> (alongside smaller ones like Kral's Chosen and Berserkers), as they could fully go <a href=\"/kamikaze\">Kamikaze</a> without destroying any of HN cities as long as he is alive.</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\">\"With Seta gone, we are left open to the devils of the border zone. Times are truly dark...\" \"You will be missed, High Inquisitor Seta.\" - <a href=\"/holy-citizen\">Holy Citizens</a></span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\">\"The Phoenix and his two inquisitors, Seta and Valtena, form a strong defensive triangle between the three of them. The High Inquisitors fortify the enemy perimeters, but take them out and the Holy Nation will start to crack.\"</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\">\"With Seta gone, we're left open to the devils of the border zone...\" - <a href=\"/holy-citizen\">Holy Citizen</a></span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\">\"But Seta's defences still block our armies. He must die.\" - <a href=\"/esata-the-stone-golem\">Esata</a></span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\">\"They're still holding on to a strong defensive position on the southern border though. I suggest next assassinating Seta in the town of Stack. You would essentially be opening the Holy Nation's back door nice and wide for the attacking Shek to have their vengeance even more freely, sir.\" - <a href=\"/yamdu\">Yamdu</a></span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\">\"With Seta out of the way and their southern defenses open, the Shek are overrunning Okran's Plains like an infestation.\" - <a href=\"/yamdu\">Yamdu</a></span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\">\"And it looks like we weren't the only ones waiting to attack the Holy Nation. They've got their hands full fending off the Shek from the south after the defences were left open...\" - <a href=\"/moll\">Moll</a></span></li><li id=\"cite_note-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-9\">↑</a></span> <span class=\"reference-text\"><a href=\"/admag/weakened\">Admag/Weakened</a> showcases that Shek Kingdom assaults have drastically reduced their population.</span></li><li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">↑</a></span> <span class=\"reference-text\"><a href=\"/seto\">Seto's</a> imprisonment or death will cause <a href=\"/shek-kingdom\">Shek Kingdom</a> patrols to start spawning in <a href=\"/okrans-pride\">Okran's Pride</a> and <a href=\"/okrans-gulf\">Okran's Gulf</a> provided <a href=\"/esata-the-stone-golem\">Esata</a> is alive and free.</span></li></ol>",
+          "line": 110,
+          "sourceFile": "src/content/wiki/high-inquisitor-seta.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-valtena",
+          "label": "<figure class=\"quote\"><blockquote>Seta controls Stack in the south west of the plains. Valtena you'll find in a military outpost, Okran's Shield, on the eastern border. Do not underestimate their hold on the Holy Nation, the two of them are probably smarter than the Phoenix himself - he was born into his role, remember, but those guys earned it with pure Okranite crazy and cunning.</blockquote><figcaption>Moll</figcaption></figure>",
+          "literal": "<figure class=\"quote\"><blockquote>Seta controls Stack in the south west of the plains. Valtena you'll find in a military outpost, Okran's Shield, on the eastern border. Do not underestimate their hold on the Holy Nation, the two of them are probably smarter than the Phoenix himself - he was born into his role, remember, but those guys earned it with pure Okranite crazy and cunning.</blockquote><figcaption>Moll</figcaption></figure>",
+          "line": 27,
+          "sourceFile": "src/content/wiki/high-inquisitor-valtena.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-valtena",
+          "label": "His death causes the Holy army patrols to decrease in frequency in [Bast](/bast) (90%), [Okran's Valley](/okrans-valley) (56%), and completely cease in [Skimsands](/skimsands).",
+          "literal": "His death causes the Holy army patrols to decrease in frequency in [Bast](/bast) (90%), [Okran's Valley](/okrans-valley) (56%), and completely cease in [Skimsands](/skimsands).",
+          "line": 75,
+          "sourceFile": "src/content/wiki/high-inquisitor-valtena.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-valtena",
+          "label": "If Valtena, Phoenix and Seta are all killed while [Flying Bull](/flying-bull) is alive and free, [Kral's Chosen](/krals-chosen) patrols will start spawning at [Okran's Valley](/okrans-valley) and [Skimsands](/skimsands).",
+          "literal": "If Valtena, Phoenix and Seta are all killed while [Flying Bull](/flying-bull) is alive and free, [Kral's Chosen](/krals-chosen) patrols will start spawning at [Okran's Valley](/okrans-valley) and [Skimsands](/skimsands).",
+          "line": 85,
+          "sourceFile": "src/content/wiki/high-inquisitor-valtena.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-valtena",
+          "label": "If Valtena and Seta are both killed while [Moll](/moll) is alive and free, [Flotsam Ninjas](/flotsam-ninjas) patrols would start spawning in [Okran's Gulf](/okrans-gulf) and [Okran's Valley](/okrans-valley) region.",
+          "literal": "If Valtena and Seta are both killed while [Moll](/moll) is alive and free, [Flotsam Ninjas](/flotsam-ninjas) patrols would start spawning in [Okran's Gulf](/okrans-gulf) and [Okran's Valley](/okrans-valley) region.",
+          "line": 87,
+          "sourceFile": "src/content/wiki/high-inquisitor-valtena.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-valtena",
+          "label": "If Valtena, Phoenix and Seta are all killed/imprisoned, [Strayed Paladin](/strayed-paladin) patrol consisted of 4 to 10 people patrolling the following zones: [Bast](/bast), [Border Zone](/border-zone), [Dreg](/dreg), [Okran's Gulf](/okrans-gulf), [Okran's Pride](/okrans-pride), [Okran's Valley](/okrans-valley), and [Skinner's Roam](/skinners-roam).",
+          "literal": "If Valtena, Phoenix and Seta are all killed/imprisoned, [Strayed Paladin](/strayed-paladin) patrol consisted of 4 to 10 people patrolling the following zones: [Bast](/bast), [Border Zone](/border-zone), [Dreg](/dreg), [Okran's Gulf](/okrans-gulf), [Okran's Pride](/okrans-pride), [Okran's Valley](/okrans-valley), and [Skinner's Roam](/skinners-roam).",
+          "line": 89,
+          "sourceFile": "src/content/wiki/high-inquisitor-valtena.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-valtena",
+          "label": "-   It is heavily hinted that if he is dead or captured, Holy Army forces will make a retreat closer to the core territories, thereby abandoning their frontier positions<sup id=\"cite_ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup><sup id=\"cite_ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">[</span>12<span class=\"cite-bracket\">]</span></a></sup>, as seen by how army forces cease to spawn in many of the border regions and the abandonment of military settlements.",
+          "literal": "-   It is heavily hinted that if he is dead or captured, Holy Army forces will make a retreat closer to the core territories, thereby abandoning their frontier positions<sup id=\"cite_ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup><sup id=\"cite_ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">[</span>12<span class=\"cite-bracket\">]</span></a></sup>, as seen by how army forces cease to spawn in many of the border regions and the abandonment of military settlements.",
+          "line": 98,
+          "sourceFile": "src/content/wiki/high-inquisitor-valtena.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-valtena",
+          "label": "-   Valtena has significant amount of army force acting as patrols tied under his command, roughly 30% of all HN army patrols, compared to 10% of [Seta](/high-inquisitor-seta) and 60% of [Phoenix](/holy-lord-phoenix).",
+          "literal": "-   Valtena has significant amount of army force acting as patrols tied under his command, roughly 30% of all HN army patrols, compared to 10% of [Seta](/high-inquisitor-seta) and 60% of [Phoenix](/holy-lord-phoenix).",
+          "line": 101,
+          "sourceFile": "src/content/wiki/high-inquisitor-valtena.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "high-inquisitor-valtena",
+          "label": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a href=\"/okrans-valley\">Okran's Valley</a>, <a href=\"/bast-zone\">Bast (Zone)</a>, <a href=\"/skimsands\">Skimsands</a> HN army forces are all tied with Valtena.</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a href=\"/okrans-fist\">Okran's Fist</a>, <a href=\"/okrans-shield\">Okran's Shield</a> and <a href=\"/drin/the-holy-nation\">Drin/The Holy Nation</a> are all tied with Valtena's status.</span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\">Roughly 92% of HN forces are tied with Valtena in Bast, with the remaining tied with Phoenix.</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\">Valtena has more forces under his command than the Empire's combined force of <a href=\"/emperor-tengu\">Tengu</a>, <a href=\"/lord-inaba\">Inaba</a> and <a href=\"/lord-yoshinaga\">Yoshinaga</a>, as seen in squads at <a href=\"/bast-zone\">Bast</a> and <a href=\"/skimsands\">Skimsands</a>.</span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\">HN army outnumbers UC forces by 2.1x in Bast and 4.8x in Skimsands.</span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\">Assuming Sanda and Nagata send forces to Bast and have the same frequency as Inaba in Bast with \"Empire Army\" squad, HN will still outnumber UC forces there by 1.07x.</span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\">HN will <a href=\"/drin/the-holy-nation\">capture Drin</a> if <a href=\"/emperor-tengu\">Tengu</a> and <a href=\"/lord-inaba\">Inaba</a> are killed, which indicates that <a href=\"/drin/destroyed\">UC army forces have scattered</a> and HN moved in to take its place.</span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\">\"Valtena is defeated and the Holy Nation is in a panic. Loathsome. So gutless are the flatskins...\" - Esata the Stone Golem.</span></li><li id=\"cite_note-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-9\">↑</a></span> <span class=\"reference-text\">\"One o' those high inquisitors got murdered, can you believe it? Yeah, heard it from the goat trader. Okran's Shield has gone to shit... Yeah, they say all the Okranites are freaking the fuck out...\" - Bar Patron comment on World States</span></li><li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">↑</a></span> <span class=\"reference-text\">\"The east will fall to the evils of the desert now that Valtena is gone... Times are truly dark.\" \"You will be missed, inquisitor Valtena...\" - Holy Citizen</span></li><li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-11\">↑</a></span> <span class=\"reference-text\">\"While the military are still regrouping and licking their wounds, this is our chance to stir things up.\" - <a href=\"/moll\">Moll</a></span></li><li id=\"cite_note-12\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-12\">↑</a></span> <span class=\"reference-text\">\"Take down that inquisitor Vlahahlena and push them back at Okran's Shield, remind them who rules the world and take that lovely little defensive position of theirs. I'm sure they'll start sticking to themselves again and then we don't have to deal with those bloddthirsty boneheads knocking at our gates.\" - <a href=\"/emperor-tengu\">Emperor Tengu</a></span></li></ol>",
+          "literal": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a href=\"/okrans-valley\">Okran's Valley</a>, <a href=\"/bast-zone\">Bast (Zone)</a>, <a href=\"/skimsands\">Skimsands</a> HN army forces are all tied with Valtena.</span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a href=\"/okrans-fist\">Okran's Fist</a>, <a href=\"/okrans-shield\">Okran's Shield</a> and <a href=\"/drin/the-holy-nation\">Drin/The Holy Nation</a> are all tied with Valtena's status.</span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\">Roughly 92% of HN forces are tied with Valtena in Bast, with the remaining tied with Phoenix.</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\">Valtena has more forces under his command than the Empire's combined force of <a href=\"/emperor-tengu\">Tengu</a>, <a href=\"/lord-inaba\">Inaba</a> and <a href=\"/lord-yoshinaga\">Yoshinaga</a>, as seen in squads at <a href=\"/bast-zone\">Bast</a> and <a href=\"/skimsands\">Skimsands</a>.</span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\">HN army outnumbers UC forces by 2.1x in Bast and 4.8x in Skimsands.</span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\">Assuming Sanda and Nagata send forces to Bast and have the same frequency as Inaba in Bast with \"Empire Army\" squad, HN will still outnumber UC forces there by 1.07x.</span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\">HN will <a href=\"/drin/the-holy-nation\">capture Drin</a> if <a href=\"/emperor-tengu\">Tengu</a> and <a href=\"/lord-inaba\">Inaba</a> are killed, which indicates that <a href=\"/drin/destroyed\">UC army forces have scattered</a> and HN moved in to take its place.</span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\">\"Valtena is defeated and the Holy Nation is in a panic. Loathsome. So gutless are the flatskins...\" - Esata the Stone Golem.</span></li><li id=\"cite_note-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-9\">↑</a></span> <span class=\"reference-text\">\"One o' those high inquisitors got murdered, can you believe it? Yeah, heard it from the goat trader. Okran's Shield has gone to shit... Yeah, they say all the Okranites are freaking the fuck out...\" - Bar Patron comment on World States</span></li><li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">↑</a></span> <span class=\"reference-text\">\"The east will fall to the evils of the desert now that Valtena is gone... Times are truly dark.\" \"You will be missed, inquisitor Valtena...\" - Holy Citizen</span></li><li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-11\">↑</a></span> <span class=\"reference-text\">\"While the military are still regrouping and licking their wounds, this is our chance to stir things up.\" - <a href=\"/moll\">Moll</a></span></li><li id=\"cite_note-12\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-12\">↑</a></span> <span class=\"reference-text\">\"Take down that inquisitor Vlahahlena and push them back at Okran's Shield, remind them who rules the world and take that lovely little defensive position of theirs. I'm sure they'll start sticking to themselves again and then we don't have to deal with those bloddthirsty boneheads knocking at our gates.\" - <a href=\"/emperor-tengu\">Emperor Tengu</a></span></li></ol>",
+          "line": 103,
+          "sourceFile": "src/content/wiki/high-inquisitor-valtena.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "holy-lord-phoenix",
+          "label": "The Phoenix's death causes some of the HN patrols to diminish in frequency at [Okran's Pride](/okrans-pride) (83%), [Okran's Gulf](/okrans-gulf) (50%), [Okran's Valley](/okrans-valley) (44%), and [Bast](/bast-zone) (10%) (see their respective zones' homeless spawns for more information).",
+          "literal": "The Phoenix's death causes some of the HN patrols to diminish in frequency at [Okran's Pride](/okrans-pride) (83%), [Okran's Gulf](/okrans-gulf) (50%), [Okran's Valley](/okrans-valley) (44%), and [Bast](/bast-zone) (10%) (see their respective zones' homeless spawns for more information).",
+          "line": 103,
+          "sourceFile": "src/content/wiki/holy-lord-phoenix.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "holy-lord-phoenix",
+          "label": "[Kral's Chosen](/krals-chosen) spawns will be in [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) in greater frequency provided [Seta](/high-inquisitor-seta) is killed too while [Flying Bull](/flying-bull) is alive, they will also invade [Okran's Valley](/okrans-valley) and [Skimsands](/skimsands) if [Valtena](/high-inquisitor-valtena) is also killed.",
+          "literal": "[Kral's Chosen](/krals-chosen) spawns will be in [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) in greater frequency provided [Seta](/high-inquisitor-seta) is killed too while [Flying Bull](/flying-bull) is alive, they will also invade [Okran's Valley](/okrans-valley) and [Skimsands](/skimsands) if [Valtena](/high-inquisitor-valtena) is also killed.",
+          "line": 105,
+          "sourceFile": "src/content/wiki/holy-lord-phoenix.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "holy-lord-phoenix",
+          "label": "[Holy Military Bases](/holy-military-base) will become destroyed and turn into [Deadhive Overruns](/deadhive-overrun). [Fogmen Nest Invasion](/fog-deathyard) will also start in [Okran's Gulf](/okrans-gulf).",
+          "literal": "[Holy Military Bases](/holy-military-base) will become destroyed and turn into [Deadhive Overruns](/deadhive-overrun). [Fogmen Nest Invasion](/fog-deathyard) will also start in [Okran's Gulf](/okrans-gulf).",
+          "line": 109,
+          "sourceFile": "src/content/wiki/holy-lord-phoenix.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "holy-lord-phoenix",
+          "label": "[Kral's Chosen](/krals-chosen) spawns will be in [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) in greater frequency provided [Seta](/high-inquisitor-seta) is killed too while [Flying Bull](/flying-bull) is alive, they will also invade [Okran's Valley](/okrans-valley) and [Skimsands](/skimsands) if [Valtena](/high-inquisitor-valtena) is also killed.",
+          "literal": "[Kral's Chosen](/krals-chosen) spawns will be in [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) in greater frequency provided [Seta](/high-inquisitor-seta) is killed too while [Flying Bull](/flying-bull) is alive, they will also invade [Okran's Valley](/okrans-valley) and [Skimsands](/skimsands) if [Valtena](/high-inquisitor-valtena) is also killed.",
+          "line": 119,
+          "sourceFile": "src/content/wiki/holy-lord-phoenix.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "holy-lord-phoenix",
+          "label": "If a player has an [outpost](/guide-to-building-an-outpost), the death or kidnapping of the Phoenix will prompt several raids to begin, primarily a [Wrath of God](/wrath-of-god). Berserkers will also start raiding the \"holy-dog slayer\". The [Band of Bones](/band-of-bones) [Raid](/raid) on the player outpost will, however, stop.",
+          "literal": "If a player has an [outpost](/guide-to-building-an-outpost), the death or kidnapping of the Phoenix will prompt several raids to begin, primarily a [Wrath of God](/wrath-of-god). Berserkers will also start raiding the \"holy-dog slayer\". The [Band of Bones](/band-of-bones) [Raid](/raid) on the player outpost will, however, stop.",
+          "line": 121,
+          "sourceFile": "src/content/wiki/holy-lord-phoenix.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "holy-lord-phoenix",
+          "label": "If Phoenix is alive while [Seto](/seto) is killed, Holy patrols will start spawning mostly in [Border Zone](/border-zone) and slightly in [Stenn Desert](/stenn-desert).",
+          "literal": "If Phoenix is alive while [Seto](/seto) is killed, Holy patrols will start spawning mostly in [Border Zone](/border-zone) and slightly in [Stenn Desert](/stenn-desert).",
+          "line": 127,
+          "sourceFile": "src/content/wiki/holy-lord-phoenix.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "holy-lord-phoenix",
+          "label": "If Phoenix is alive when [Esata](/esata-the-stone-golem) is killed, Holy Army Forces and Patrols will start spawning in [Border Zone](/border-zone) and [Skinner's Roam](/skinners-roam).",
+          "literal": "If Phoenix is alive when [Esata](/esata-the-stone-golem) is killed, Holy Army Forces and Patrols will start spawning in [Border Zone](/border-zone) and [Skinner's Roam](/skinners-roam).",
+          "line": 129,
+          "sourceFile": "src/content/wiki/holy-lord-phoenix.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "holy-lord-phoenix",
+          "label": "-   Phoenix has significant amount of army force acting as patrols tied under his command, roughly 60% of all HN army, compared to 30% of [Valtena](/high-inquisitor-valtena) and 10% of [Seta](/high-inquisitor-seta).",
+          "literal": "-   Phoenix has significant amount of army force acting as patrols tied under his command, roughly 60% of all HN army, compared to 30% of [Valtena](/high-inquisitor-valtena) and 10% of [Seta](/high-inquisitor-seta).",
+          "line": 163,
+          "sourceFile": "src/content/wiki/holy-lord-phoenix.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "Esata is the first of the Shek leaders to want to address their kingdom’s problem of a declining population, seeing that they would fight themselves extinct if they continue their assaults against [The Holy Nation](/the-holy-nation) without weakening them first. However, this new strategic rationality has caused a divide in its battle hungry citizens.",
+          "literal": "Esata is the first of the Shek leaders to want to address their kingdom’s problem of a declining population, seeing that they would fight themselves extinct if they continue their assaults against [The Holy Nation](/the-holy-nation) without weakening them first. However, this new strategic rationality has caused a divide in its battle hungry citizens.",
+          "line": 72,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "[Admag](/admag) would fall under [Berserkers](/berserkers) rule (It will spawn [Ghost](/ghost) in Admag if he hasn't been killed/imprisoned).",
+          "literal": "[Admag](/admag) would fall under [Berserkers](/berserkers) rule (It will spawn [Ghost](/ghost) in Admag if he hasn't been killed/imprisoned).",
+          "line": 90,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "[Squin](/squin) will have a town override which would include [Mukai](/mukai-the-mountain) and still being under SK rule. Or handed over to [Kral's Chosen](/krals-chosen) if [Mukai](/mukai-the-mountain) is killed while [Flying Bull](/flying-bull) is alive. Or to the [Berserkers](/berserkers) if both Mukai and Flying Bull are dead.",
+          "literal": "[Squin](/squin) will have a town override which would include [Mukai](/mukai-the-mountain) and still being under SK rule. Or handed over to [Kral's Chosen](/krals-chosen) if [Mukai](/mukai-the-mountain) is killed while [Flying Bull](/flying-bull) is alive. Or to the [Berserkers](/berserkers) if both Mukai and Flying Bull are dead.",
+          "line": 92,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "Squads of [Shek](/shek) patrols will cease to spawn inside [Stenn Desert](/stenn-desert).",
+          "literal": "Squads of [Shek](/shek) patrols will cease to spawn inside [Stenn Desert](/stenn-desert).",
+          "line": 101,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "[Kamikaze](/kamikaze) patrols will start invading [Border Zone](/border-zone), [Okran's Gulf](/okrans-gulf), [Okran's Pride](/okrans-pride) and [Skinner's Roam](/skinners-roam) regions. If [Mukai](/mukai-the-mountain) is alive and free they can be found patrolling [Stenn Desert](/stenn-desert) region.",
+          "literal": "[Kamikaze](/kamikaze) patrols will start invading [Border Zone](/border-zone), [Okran's Gulf](/okrans-gulf), [Okran's Pride](/okrans-pride) and [Skinner's Roam](/skinners-roam) regions. If [Mukai](/mukai-the-mountain) is alive and free they can be found patrolling [Stenn Desert](/stenn-desert) region.",
+          "line": 103,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "If [Phoenix](/holy-lord-phoenix) is alive, [The Holy Nation](/the-holy-nation) will start spawning 2 types of counter-attack patrols in [Border Zone](/border-zone) and [Skinner's Roam](/skinners-roam) against the [Kamikaze](/kamikaze).",
+          "literal": "If [Phoenix](/holy-lord-phoenix) is alive, [The Holy Nation](/the-holy-nation) will start spawning 2 types of counter-attack patrols in [Border Zone](/border-zone) and [Skinner's Roam](/skinners-roam) against the [Kamikaze](/kamikaze).",
+          "line": 105,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "If [Seto](/seto) is killed, Shek Kingdom patrols will start invading [Okran's Pride](/okrans-pride) and [Okran's Gulf](/okrans-gulf) while [Admag will have a weakened override](/admag/weakened).",
+          "literal": "If [Seto](/seto) is killed, Shek Kingdom patrols will start invading [Okran's Pride](/okrans-pride) and [Okran's Gulf](/okrans-gulf) while [Admag will have a weakened override](/admag/weakened).",
+          "line": 109,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "If [Seta](/high-inquisitor-seta) is killed, Shek Kingdom patrols will start invading [Border Zone](/border-zone), [Okran's Pride](/okrans-pride) and [Okran's Gulf](/okrans-gulf) while [Stack](/stack/shek-kingdom) and [Bad Teeth](/bad-teeth/shek-kingdom) will be taken over by them.",
+          "literal": "If [Seta](/high-inquisitor-seta) is killed, Shek Kingdom patrols will start invading [Border Zone](/border-zone), [Okran's Pride](/okrans-pride) and [Okran's Gulf](/okrans-gulf) while [Stack](/stack/shek-kingdom) and [Bad Teeth](/bad-teeth/shek-kingdom) will be taken over by them.",
+          "line": 111,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "If [Phoenix](/holy-lord-phoenix) is killed, Shek Kingdom patrols will start invading [Okran's Pride](/okrans-pride) and [Okran's Gulf](/okrans-gulf), while [Holy Farmers](/holy-farmer) will lament over being extortionately taxed [through their tributes](/tribute-round).",
+          "literal": "If [Phoenix](/holy-lord-phoenix) is killed, Shek Kingdom patrols will start invading [Okran's Pride](/okrans-pride) and [Okran's Gulf](/okrans-gulf), while [Holy Farmers](/holy-farmer) will lament over being extortionately taxed [through their tributes](/tribute-round).",
+          "line": 113,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "-   The defeat of Esata causes the removal of around 76% potential Shek Warrior squads in [Okran's Pride](/okrans-pride) (among other areas), with the rest ending up as [Kamikaze](/kamikaze), indicative that they de-populated themselves significantly from fighting after sending out all their forces from [Admag](/admag/berserkers).",
+          "literal": "-   The defeat of Esata causes the removal of around 76% potential Shek Warrior squads in [Okran's Pride](/okrans-pride) (among other areas), with the rest ending up as [Kamikaze](/kamikaze), indicative that they de-populated themselves significantly from fighting after sending out all their forces from [Admag](/admag/berserkers).",
+          "line": 142,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "esata-the-stone-golem",
+          "label": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://lofigames.com/lore-of-kenshi-3-shek-kingdom/\">Lore Of Kenshi #3: The Shek Kingdom - Kenshi | An Open Ended, Squad Based RPG</a></span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external autonumber\" href=\"https://lofigames.com/lore-of-kenshi-3-shek-kingdom/\">[1]</a> The Shek Kingdom puts little importance on academic education, meaning that most Shek can’t read – Esata is no exception to this and is not particularly intelligent.</span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\"><a href=\"/shek-kingdom\">Shek Kingdom</a> patrols will spawn in HN regions if Seta or Phoenix is killed.</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a href=\"/admag/weakened\">Admag would be depopulated</a> if Seto is dead, coinciding with the noticable increase in patrols at <a href=\"/okrans-pride\">Okran's Pride</a> and <a href=\"/okrans-gulf\">Okran's Gulf</a>.</span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\">\"Seto Revenge\" squad can overlap with \"Shek Patrol\" squad, with the latter not appearing until at least <a href=\"/high-inquisitor-seta\">Seta</a> or <a href=\"/holy-lord-phoenix\">Phoenix</a> is dead.</span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\">\"As such, they have continued their raiding and warlike ways with their neighbours ever since.\" - <a href=\"/history-of-kenshi\">History of Kenshi</a>, referring to the Shek Kingdom.</span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\">\"Esata, she terrorizes us with her barbarian warmongerers. She bides her time, waiting to butcher us all in her centuries-old feud.\" - <a href=\"/holy-lord-phoenix\">Phoenix</a></span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\">\"And then there's the barbaric warmongering devils... They've terrorized our towns enough with their needless hunger for blood, the war must end.\" - <a href=\"/holy-lord-phoenix\">Phoenix</a></span></li></ol>",
+          "literal": "<ol class=\"references\"><li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://lofigames.com/lore-of-kenshi-3-shek-kingdom/\">Lore Of Kenshi #3: The Shek Kingdom - Kenshi | An Open Ended, Squad Based RPG</a></span></li><li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external autonumber\" href=\"https://lofigames.com/lore-of-kenshi-3-shek-kingdom/\">[1]</a> The Shek Kingdom puts little importance on academic education, meaning that most Shek can’t read – Esata is no exception to this and is not particularly intelligent.</span></li><li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\"><a href=\"/shek-kingdom\">Shek Kingdom</a> patrols will spawn in HN regions if Seta or Phoenix is killed.</span></li><li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a href=\"/admag/weakened\">Admag would be depopulated</a> if Seto is dead, coinciding with the noticable increase in patrols at <a href=\"/okrans-pride\">Okran's Pride</a> and <a href=\"/okrans-gulf\">Okran's Gulf</a>.</span></li><li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\">\"Seto Revenge\" squad can overlap with \"Shek Patrol\" squad, with the latter not appearing until at least <a href=\"/high-inquisitor-seta\">Seta</a> or <a href=\"/holy-lord-phoenix\">Phoenix</a> is dead.</span></li><li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\">\"As such, they have continued their raiding and warlike ways with their neighbours ever since.\" - <a href=\"/history-of-kenshi\">History of Kenshi</a>, referring to the Shek Kingdom.</span></li><li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\">\"Esata, she terrorizes us with her barbarian warmongerers. She bides her time, waiting to butcher us all in her centuries-old feud.\" - <a href=\"/holy-lord-phoenix\">Phoenix</a></span></li><li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\">\"And then there's the barbaric warmongering devils... They've terrorized our towns enough with their needless hunger for blood, the war must end.\" - <a href=\"/holy-lord-phoenix\">Phoenix</a></span></li></ol>",
+          "line": 148,
+          "sourceFile": "src/content/wiki/esata-the-stone-golem.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "flying-bull",
+          "label": "New Kralia becomes ruined. Patrols of 5 ~ 8 [Kral's Chosen](/krals-chosen-character) in [Stenn Desert](/stenn-desert) and [Spider Plains](/spider-plains) disappear and are replaced by frequency-halved and broken patrols of 3-6 Kral's Chosen.",
+          "literal": "New Kralia becomes ruined. Patrols of 5 ~ 8 [Kral's Chosen](/krals-chosen-character) in [Stenn Desert](/stenn-desert) and [Spider Plains](/spider-plains) disappear and are replaced by frequency-halved and broken patrols of 3-6 Kral's Chosen.",
+          "line": 73,
+          "sourceFile": "src/content/wiki/flying-bull.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "flying-bull",
+          "label": "If [Esata](/esata-the-stone-golem) and [Mukai](/mukai-the-mountain) are killed, [Squin](/squin) will fall under [Kral's Chosen rule](/squin/krals-chosen), or to the [Berserkers](/berserkers) if both of them are killed/imprisoned.",
+          "literal": "If [Esata](/esata-the-stone-golem) and [Mukai](/mukai-the-mountain) are killed, [Squin](/squin) will fall under [Kral's Chosen rule](/squin/krals-chosen), or to the [Berserkers](/berserkers) if both of them are killed/imprisoned.",
+          "line": 77,
+          "sourceFile": "src/content/wiki/flying-bull.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "flying-bull",
+          "label": "If [Seta](/high-inquisitor-seta) is killed, patrols will spawn in [Border Zone](/border-zone), [Skinner's Roam](/skinners-roam), [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) (further increase in frequencies in the latter 2 regions if [Phoenix](/holy-lord-phoenix) is killed as well).",
+          "literal": "If [Seta](/high-inquisitor-seta) is killed, patrols will spawn in [Border Zone](/border-zone), [Skinner's Roam](/skinners-roam), [Okran's Gulf](/okrans-gulf) and [Okran's Pride](/okrans-pride) (further increase in frequencies in the latter 2 regions if [Phoenix](/holy-lord-phoenix) is killed as well).",
+          "line": 81,
+          "sourceFile": "src/content/wiki/flying-bull.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "flying-bull",
+          "label": "If [Seta](/high-inquisitor-seta), **Holy Lord Phoenix** and [High Inquisitor Valtena](/high-inquisitor-valtena) are all killed/imprisoned while **Flying Bull** is alive and free will cause **Kral's Chosen** patrols to patrol in [Okran's Valley](/okrans-valley) and [Skimsands](/skimsands).",
+          "literal": "If [Seta](/high-inquisitor-seta), **Holy Lord Phoenix** and [High Inquisitor Valtena](/high-inquisitor-valtena) are all killed/imprisoned while **Flying Bull** is alive and free will cause **Kral's Chosen** patrols to patrol in [Okran's Valley](/okrans-valley) and [Skimsands](/skimsands).",
+          "line": 83,
+          "sourceFile": "src/content/wiki/flying-bull.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "flying-bull",
+          "label": "    -   [Squin](/squin) is taken over by [Kral's Chosen](/krals-chosen) under **Flying Bull** after [Mukai](/mukai-the-mountain) is dead, the final stage of weakening of the Sheks before the town [gets completely destroyed](/squin/berserkers).",
+          "literal": "    -   [Squin](/squin) is taken over by [Kral's Chosen](/krals-chosen) under **Flying Bull** after [Mukai](/mukai-the-mountain) is dead, the final stage of weakening of the Sheks before the town [gets completely destroyed](/squin/berserkers).",
+          "line": 88,
+          "sourceFile": "src/content/wiki/flying-bull.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mukai-the-mountain",
+          "label": "The overwhelming vast majority<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> of [Shek Warriors](/shek-warrior) went [Kamikaze](/kamikaze) after [Esata](/esata-the-stone-golem) was defeated, [completely depopulating Admag](/admag/berserkers).",
+          "literal": "The overwhelming vast majority<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> of [Shek Warriors](/shek-warrior) went [Kamikaze](/kamikaze) after [Esata](/esata-the-stone-golem) was defeated, [completely depopulating Admag](/admag/berserkers).",
+          "line": 25,
+          "sourceFile": "src/content/wiki/mukai-the-mountain.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mukai-the-mountain",
+          "label": "If he is killed, [Squin](/squin) will be taken over by [Kral's Chosen](/krals-chosen) (if [Flying Bull's](/flying-bull) alive) or [Berserkers](/berserkers) otherwise.",
+          "literal": "If he is killed, [Squin](/squin) will be taken over by [Kral's Chosen](/krals-chosen) (if [Flying Bull's](/flying-bull) alive) or [Berserkers](/berserkers) otherwise.",
+          "line": 29,
+          "sourceFile": "src/content/wiki/mukai-the-mountain.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mukai-the-mountain",
+          "label": "[Squin](/squin) will fall under [Kral's Chosen](/krals-chosen) rule if [Flying Bull](/flying-bull) is alive and free, if **Flying Bull** is killed/imprisoned as well, Squin will fall under [Berserkers](/berserkers) rule.",
+          "literal": "[Squin](/squin) will fall under [Kral's Chosen](/krals-chosen) rule if [Flying Bull](/flying-bull) is alive and free, if **Flying Bull** is killed/imprisoned as well, Squin will fall under [Berserkers](/berserkers) rule.",
+          "line": 71,
+          "sourceFile": "src/content/wiki/mukai-the-mountain.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mukai-the-mountain",
+          "label": "[Kamikaze](/kamikaze) patrols will cease to spawn in [Stenn Desert](/stenn-desert) provided that **Esata** is also killed/imprisoned (which would automatically be the case since Mukai only spawns when that condition is achieved).",
+          "literal": "[Kamikaze](/kamikaze) patrols will cease to spawn in [Stenn Desert](/stenn-desert) provided that **Esata** is also killed/imprisoned (which would automatically be the case since Mukai only spawns when that condition is achieved).",
+          "line": 73,
+          "sourceFile": "src/content/wiki/mukai-the-mountain.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "If **Mad Cat-Lon** is killed/imprisoned, static [Iron Spiders](/iron-spider) will cease to spawn in [Ashlands](/ashlands), while patrols of \"skeleton legion force- pre\" (7 Legion (melee) and 2 Legion scouts) will all cease to spawn and replaced with a larger patrol of \"skeleton legion force (post)\" (12 Legion (melee) an 2 Legion scouts) with a \"force speed\" \"RUN\" instead of \"GROUPED\" and doubled relative chance of spawn(relative to other squads, for example: it will be twice as common as \"Robot spider group\" or \"legion thrall unit\" and four times as common as cleanser squads or \"screamer unit\").",
+          "literal": "If **Mad Cat-Lon** is killed/imprisoned, static [Iron Spiders](/iron-spider) will cease to spawn in [Ashlands](/ashlands), while patrols of \"skeleton legion force- pre\" (7 Legion (melee) and 2 Legion scouts) will all cease to spawn and replaced with a larger patrol of \"skeleton legion force (post)\" (12 Legion (melee) an 2 Legion scouts) with a \"force speed\" \"RUN\" instead of \"GROUPED\" and doubled relative chance of spawn(relative to other squads, for example: it will be twice as common as \"Robot spider group\" or \"legion thrall unit\" and four times as common as cleanser squads or \"screamer unit\").",
+          "line": 68,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "-   It appears that robotic patrols instead of only increasing in number, scales up activity immediately after Cat-Lon is taken down with all patrols 'On the run', evidenced by the fact that all of them move faster and static patrols are removed.",
+          "literal": "-   It appears that robotic patrols instead of only increasing in number, scales up activity immediately after Cat-Lon is taken down with all patrols 'On the run', evidenced by the fact that all of them move faster and static patrols are removed.",
+          "line": 84,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "mad-cat-lon",
+          "label": "    -   Rather than causing an invasion when the leader is taken down such as the cases of [Esata](/esata-the-stone-golem) (causes [SK](/shek-kingdom) to [invade](/kamikaze) [HN](/the-holy-nation)) and [Hive Queen](/hive-queen) ([Southern Hive](/southern-hive) invading a significant portion of the world) or a diaspora such as the cases of [Phoenix](/holy-lord-phoenix) ([Strayed Paladin](/strayed-paladin)), [Tengu](/emperor-tengu) ([Samurai Rogue](/samurai-rogue)) and [Hive Queen](/hive-queen) ([Lost Hiver](/lost-hiver)/[Hive Bandit](/hive-bandit)), they simply patrol the same area more fervently than ever. This could either indicate them going berserk or trying to hunt down the one who took down their leader. Either way, it's going to be much harder to get out of the area unnoticed than when you got in.",
+          "literal": "    -   Rather than causing an invasion when the leader is taken down such as the cases of [Esata](/esata-the-stone-golem) (causes [SK](/shek-kingdom) to [invade](/kamikaze) [HN](/the-holy-nation)) and [Hive Queen](/hive-queen) ([Southern Hive](/southern-hive) invading a significant portion of the world) or a diaspora such as the cases of [Phoenix](/holy-lord-phoenix) ([Strayed Paladin](/strayed-paladin)), [Tengu](/emperor-tengu) ([Samurai Rogue](/samurai-rogue)) and [Hive Queen](/hive-queen) ([Lost Hiver](/lost-hiver)/[Hive Bandit](/hive-bandit)), they simply patrol the same area more fervently than ever. This could either indicate them going berserk or trying to hunt down the one who took down their leader. Either way, it's going to be much harder to get out of the area unnoticed than when you got in.",
+          "line": 85,
+          "sourceFile": "src/content/wiki/mad-cat-lon.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]

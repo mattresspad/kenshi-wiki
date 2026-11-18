@@ -103,5 +103,57 @@
     "Recruit overview and narrative strength comparisons need reconciliation with profile statistics and their qualifications.",
     "Compare unmodified records, racial multipliers and generated starting values across the referenced profiles.",
     "A tabulated base value, observed value and narrative superlative may use different contexts."
+  ],
+  [
+    "character-patrol-interpretation",
+    [
+      "high-inquisitor-seta",
+      "high-inquisitor-valtena",
+      "holy-lord-phoenix",
+      "esata-the-stone-golem",
+      "flying-bull",
+      "mukai-the-mountain",
+      "mad-cat-lon"
+    ],
+    "patrol|military|population|frequency|berserk|hunt down",
+    "Patrol changes are used to infer military losses, strategic intent or population changes.",
+    "Trace spawn weights, squad sizes and override predicates independently; separate authored dialogue, derived estimates and observed population or behavior.",
+    "Relative spawn frequency is not a census; changes alone do not establish faction motives."
+  ],
+  [
+    "character-faction-overrides",
+    [
+      "lady-kana",
+      "esata-the-stone-golem",
+      "eyegore"
+    ],
+    "faction|squad|override",
+    "Character records and spawned squads can give different faction affiliations.",
+    "Identify the character record, squad template and override that produce the live allegiance.",
+    "A base FCS faction alone may not describe the spawned character."
+  ],
+  [
+    "character-boss-state-exceptions",
+    [
+      "dust-king",
+      "boss-simion",
+      "lord-yoshinaga",
+      "mad-cat-lon",
+      "tinfist"
+    ],
+    "death|killed|imprisoned|despawn|load|Assassination|level",
+    "Boss pages include death-only state exceptions, despawning, dialogue/save exploits and unusually high skill claims.",
+    "Preserve each stated condition and test its named record, event memory and save state on a pinned version before revising.",
+    "Death, imprisonment, knockout and unload are not interchangeable; exploit and leveling descriptions remain unverified."
+  ],
+  [
+    "character-captivity-hunger",
+    [
+      "queen-of-the-south"
+    ],
+    "Hunger|starve|visual bug",
+    "Queen of the South describes hunger behavior that conflicts with the interface message.",
+    "Check race hunger fields and an observed captivity trial with version and elapsed game time.",
+    "An interface tooltip and exported hunger rate are different evidence; neither alone verifies starvation."
   ]
 ]

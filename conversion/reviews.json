@@ -746,6 +746,102 @@
     "yamdu": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/characters/review.json"
+    },
+    "bookshop-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "boot-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "caravan-trader-boss": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "crab-barman": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "crabsmith": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "hive-caravan-boss": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "hive-trader-character": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-armour-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-boot-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-construction-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-farm-leader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-weapon-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "nomad-animal-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "ronin-armour-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "ronin-construction-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "ronin-crossbow-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "ronin-hat-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "ronin-weapon-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "shinobi-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "thief-fence": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "trade-goods-shopkeeper": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "uc-armour-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "uc-hat-vendor": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "uc-weapon-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
     }
   },
   "mediaGaps": [

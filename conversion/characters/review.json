@@ -1733,6 +1733,383 @@
         "claim:character-fcs-statistics",
         "claim:character-yamdu-respawn"
       ]
+    },
+    {
+      "id": "bookshop-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: I'm protecting the valuable knowledge that humans need to survive. And obviously in this position I can keep certain things hidden too... y'know.to Skeleton player characters Bookshop Trader is a randomly named shopkeeper of the Tech Hunters faction. They can be found in The Great Library. Statistics P4 Unit Equipment Weapons Back slot Apparel Headgear Body ",
+      "organization": "Reviewed 11 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bookshop-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9a02501b7c8933c9946e5690c3d88723e33c9a0e20ad4f0a240581db934a2768"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "boot-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Looking to trade?Boot Trader Boot Traders are unnamed shopkeepers of several factions: Flotsam Ninjas, Mongrel, Tech Hunters, United Cities depending on which city their Boot Shop is located. Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Hive Worker Drone Skeleton Equipment Weapons Back slot Apparel Body L",
+      "organization": "Reviewed 9 section bookmarks and 63 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/boot-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7213b6fc30f1d370d6a8190c0a4a1178318676ecbcfdbb4155e14859b9812bbe"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "caravan-trader-boss",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hassle-free trading outside of city walls. What're you looking to buy, outlander?Trader Boss greeting Caravan Trader Bosses are named traders of the Traders Guild and The Holy Nation. As their name implies, they lead caravans in areas controlled by these factions, trading supplies outside of city walls. If Harmothoe is killed, one replaces her as the leader ",
+      "organization": "Reviewed 11 section bookmarks and 57 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/caravan-trader-boss.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ee7da333254d8cbf6415d8b0a3eff44aa5f4155de5bd59b2beec790daf4ee2ff"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "crab-barman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Don't forget to crab up. The Crab Barman is a randomly-named trader of the Crab Raiders. They will sell fish and bar-related foodstuffs and items in the Crab Bar in Crab Town. Statistics Scorchlander Equipment Weapons This character spawns with no weapons. Apparel Shirt Legwear",
+      "organization": "Reviewed 6 section bookmarks and 11 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-barman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "626d64e4d3919637fd1085abcd030097c08e54b54118d636d45e11e8f7bae592"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "crabsmith",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You know what would look good on you? A crab helmet, take a look, try it on for size... The Crabsmith is a vendor of the Crab Raiders. He can be found in Crab Town in the Crab Armour Shop. He will sell the full set of Crab Armour and their blueprints, as well as some fish. He will only sell to allies of the Crab Raiders. Even if players have a Crab, he will ",
+      "organization": "Reviewed 10 section bookmarks and 16 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crabsmith.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "109629984901abbe91e48e4f57c4c8d4ae9b619f9424e0a81cb2d37dd8ba0f87"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "hive-caravan-boss",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Stock up, human, you need all the supplies you can get...Hive Boss Hive Caravan Bosses lead caravans for the Western Hive throughout the world, looking to trade goods. Their inventory typically consist of cheap skeleton limbs, materials, and food. Typically, the ranking of quantity of commodities from these 3 vendors from many to little would be: Food, First",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hive-caravan-boss.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fa6b9552c76361ae73f40468c4e345b77bba0bb5cd5e16a33d97200d708af094"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "hive-trader-character",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hive Traders are vendors of the Western Hive, selling to the player in any of the Hive Villages. They will, however, refuse to trade with the Hiver characters calling them “Hiveless ones”. This only seems to occur with the exiles of the Western Hive. They have a “Smart” personality. They wear [Standard] armour (22% chance of [High]) and have weapons manufact",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hive-trader-character.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6dc4a4d890b61ac3d72d1e7fb9e1f90f246b361f7cd9b2819e6292dc691f4950"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "holy-armour-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Okran bless you. How may I serve you holy brother?Holy Armour Trader greeting Holy Armour Traders are unnamed shopkeepers of The Holy Nation. They can be found selling their wares in Holy Armor Shops. Like all holy nation shopkeepers, they will not serve races that aren’t human. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufacture",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-armour-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "27f63458381e1b8dbf5473f4d04c7d736890cce64cb9ee02a22b79b74dbcb911"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "holy-boot-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Blessings upon you, brother. Looking to trade?Holy Boot Trader Holy Boot Traders are unnamed shopkeepers of The Holy Nation. They can be found manning Holy Boot Shops. Like all holy nation shopkeepers, they won’t sell to races that aren’t human. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Greenland",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-boot-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "86cb3542204eb7cdc8cbfe6ebbb3d5e982ec0dc9cbc7710984e71a2542fa4070"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "holy-construction-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You just need the raw Building Materials, or sometimes Iron Plates. You can't just plonk down anywhere though, you'll have to find a nice spot out in the wilds where you won't bother anyone, or maybe buy a building here in town.Trader answering an engineering question Holy Construction Traders are unnamed shopkeepers of The Holy Nation. They can be found in ",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-construction-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0add991dfa77a232cc8a07a057e5bb4053625bcc003e457155ef1a0b8d003da1"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "holy-farm-leader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Aptly named leaders of Holy Farms, Holy Farm Leaders are often found indoors at their respective farm. Unlike other HN shopkeepers, he can trade with non-humans, so long as they don’t have Robotic Limbs. It is possible to purchase domesticated animals such as bulls and dogs from them, as well as many farm trade goods. Unlike other traders or even Holy Farmer",
+      "organization": "Reviewed 2 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-farm-leader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8e60e4a46c57560c0419dacbbd533ce7e44535fd4db2a29a5439f25bc4f3b47e"
+      },
+      "questions": [
+        "claim:character-fcs-statistics",
+        "claim:character-stock-shopping"
+      ]
+    },
+    {
+      "id": "holy-weapon-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Holy Weapon Traders are shopkeepers found in Holy Weapon Shops. They are members of The Holy Nation. They wear [Shoddy] armour (5% chance of [Standard]). Statistics Greenlander",
+      "organization": "Reviewed 1 section bookmarks and 8 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-weapon-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3efc65710b2f5b474b7770ccfa55482fade750627268da6b9954e2ea51a42496"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "nomad-animal-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Nomad Animal Traders are members of the Nomads faction. They can be found in a squad of Nomads and various animals called the Beast Trader. The animals in this squad are up for sale. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Ancient. Statistics Greenlander Scorchlander",
+      "organization": "Reviewed 1 section bookmarks and 16 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/nomad-animal-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e45b49d369874b3d9dc9884f361eabac1b58eb80cd454154533f6c4d0aa2f4e7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "ronin-armour-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ronin Armour Traders are unnamed shopkeepers of the Flotsam Ninjas, Mongrel, Shek Kingdom, or Tech Hunters, depending on who owns the city their armour shop is located. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown. Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Dron",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ronin-armour-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fb063022147e4f02cf1ee20aa52b29bd0a3d69a7ff2ba1a8f39fd511f8ef1cfd"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "ronin-construction-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You just need the raw Building Materials, or sometimes Iron Plates. You can't just plonk down anywhere though, you'll have to find a nice spot out in the wilds where you won't bother anyone, or maybe buy a building here in town.Trader answering an engineering question Ronin Construction Traders are unnamed shopkeepers of the Tech Hunters, Shek Kingdom, or An",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ronin-construction-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "804c4f4d95092900effb002c4c6e7063d724b2f7c840e6d4632c56fa428f59da"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "ronin-crossbow-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: See anything you like?Shopkeeper greeting Ronin Crossbow Traders are unnamed shopkeepers of the Tech Hunters. They are found along with Tech Hunter Shopkeepers in Empire Ranger Shops. They wear [Shoddy] armour (5% chance of [Standard]). Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Skeleton",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ronin-crossbow-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "79a8706e4a6b333b806f560ced2038a82de837bef769df81320e777dc41711a4"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "ronin-hat-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ronin Hat Traders are unnamed shopkeepers of the Tech Hunters. They man the Headgear Shops in their towns. They wear [Shoddy] armour (5% chance of [Standard]). Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Skeleton",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ronin-hat-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6ac25c71e51e9d7fa550c1860c967c91480fd6bbb1b88360d383886f0db07a4e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "ronin-weapon-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ronin Weapon Traders are unnamed members of the Flotsam Ninjas or Tech Hunters depending on where the city their Ronin Weapon Shop is located. They can also be members of Mongrel if they reside in the Mongrel Weapon Shop. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown. Statistics Humans Shek Hive Skeletons Greenl",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ronin-weapon-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4500748ca413d88d9194f2f39c2f3e7f0c683b66bcccc7dd8a3a001b5492e645"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "shinobi-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: New member, eh?... Well, unless you actually enjoy the inside of a jail cell knock that shifty look off your face, I can spot you a mile off. Anyway, down to business, whadd'ya got for me?Trader advice Shinobi Traders are traders of the Shinobi Thieves. They can typically be found in the Thieves Guild Watchtower. They only sell to the player when they ally t",
+      "organization": "Reviewed 1 section bookmarks and 40 source tables; 5 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shinobi-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5e8949e0cb4854ee4a8a43b716358656136acb4833f299782ca96adf403a1fb8"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "thief-fence",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Thief Fences are members of the Shinobi Thieves. They can be found in random Bars within cities. They will trade with the player even if you are not part of their faction. Everything they buy and sell is marked down 50% no matter your relationship with the Shinobi Thieves. They wear [Shoddy] armour (15% chance of [Standard]) and have weapons manufactured by ",
+      "organization": "Reviewed 1 section bookmarks and 40 source tables; 5 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thief-fence.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b8bbb0c2f952d6a025d12b4bdcf7c815ca120b262d0c463e1f87371100e5184f"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "trade-goods-shopkeeper",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Looking to trade?Shopkeeper greeting Trade Goods Shopkeepers are unnamed shopkeepers of the Traders Guild. They can be found manning Empire General Shops, General Shops, and Holy General Shops. Despite being normally unrecruitable they have a CIVILIAN player dialogue package. They wear [Standard] armour (5% chance of [High]). Statistics Humans Shek Hive Skel",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/trade-goods-shopkeeper.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ee8e63d2e11e57aeb1b397752b42c0963ddef1856b85a12a74d6f6bc969a1771"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "uc-armour-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: UC Armour Traders are unnamed shopkeepers of the United Cities and the Tech Hunters. They can be found manning the Heft Armories, Clothing Shops and Empire Armor Shops. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown. Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Dron",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/uc-armour-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "218fb321f4cbdfab4bcacd0cf1f92fb57572e5c8f1d9f53b9ef323e70a6fb29b"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "uc-hat-vendor",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ah, a new buyer. Welcome.Hat Trader greeting The UC Hat Vendor is an unnamed shopkeeper of the United Cities. They can be found manning the Headgear Shop in Sho-Battai. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown. Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Dron",
+      "organization": "Reviewed 1 section bookmarks and 56 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/uc-hat-vendor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2dc2f2ca5e4c678e0dceeff3a0992ee90d923bf10af616996c7fce1b256e9166"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "uc-weapon-trader",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The UC Weapons Traders are unnamed shopkeepers of the Traders Guild. They can be found manning Small Empire Weapon Shop and Empire Weapon Shop in United Cities territory. They wear [Shoddy] armour (5% chance of [Standard]) and have weapons manufactured by Unknown. Statistics Humans Shek Hive Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Hive W",
+      "organization": "Reviewed 1 section bookmarks and 48 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/uc-weapon-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "41bb4c8f11f1a4cb4ade63b52bf7cc0718b3d5d855d93d0733bf92255d2c5ec6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
     }
   ],
   "editorialChanges": [

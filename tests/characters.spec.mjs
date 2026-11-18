@@ -22,6 +22,13 @@ for(const phone of [false,true])for(const theme of ['light','dark'])test.describ
   for(const chain of [['/mongrel','/beep'],['/emperor-tengu','/heft'],['/emperor-tengu','/world-states']]){await page.goto(chain[0]+'?theme='+theme);await page.locator('main a[href="'+chain[1]+'"]').first().click();await expect(page).toHaveURL(new RegExp(chain[1]+'$'));}
   if(included.has('unique-recruits')){await page.goto('/beep');await page.locator('main a[href="/unique-recruits"]').first().click();await expect(page.locator('h1')).toHaveText('Unique Recruits');}
  });
+ test('character citation reaches its note and returns by keyboard',async({page})=>{
+  test.skip(!included.has('agnu'));await page.goto('/agnu?theme='+theme);
+  const ref=page.locator('sup[id^="cite_ref"]').first(),id=await ref.getAttribute('id'),link=ref.locator('a').first(),target=await link.getAttribute('href');
+  await link.press('Enter');await expect(page.locator(target)).toBeInViewport();
+  const back=page.locator(target).locator('a[href="#'+id+'"]').first();await back.press('Enter');await expect(ref).toBeInViewport();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth)).toBe(0);
+ });
  test('recruit comparison sorts with keyboard and scrolls to qualifications on phone',async({page})=>{
   test.skip(!included.has('unique-recruits'));await page.goto('/unique-recruits?theme='+theme+'#named-recruits');const table=page.locator('.recruit-comparison'),region=table.locator('..');await expect(table.locator('thead th')).toHaveCount(5);await expect(table.locator('tbody tr')).toHaveCount(44);await expect(table.locator('input')).toHaveCount(0);
   const button=table.getByRole('button',{name:'Sort by Name',exact:true});await button.press('Enter');await expect(table.locator('thead th').first()).toHaveAttribute('aria-sort','ascending');const first=await table.locator('tbody tr').first().innerText();await button.press('Enter');await expect(table.locator('thead th').first()).toHaveAttribute('aria-sort','descending');expect(await table.locator('tbody tr').first().innerText()).not.toBe(first);
