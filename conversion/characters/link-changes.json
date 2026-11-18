@@ -490,5 +490,42 @@
       "/note-from-blue-eyes",
       "/police-helmet"
     ]
+  },
+  {
+    "name": "npcs-2",
+    "resolved": [
+      "/cannibal-hunter-robun",
+      "/caravan-drone",
+      "/caravan-guard",
+      "/catun-scrapmaster-character",
+      "/citizen",
+      "/city-hero",
+      "/cloud-ninja",
+      "/clunknad-spanner",
+      "/crab-man",
+      "/crab-patron",
+      "/crab-raider",
+      "/crab-raider-civilian",
+      "/crazy-bar-thug",
+      "/dack",
+      "/deadcat-fisherman",
+      "/deadcat-vendor",
+      "/dimak",
+      "/doctor",
+      "/drone",
+      "/droneguard",
+      "/drunken-bar-thug",
+      "/dust-bandit",
+      "/dust-bandit-bowman",
+      "/dust-boss",
+      "/ears"
+    ],
+    "introduced": [
+      "/bucket-zukin",
+      "/category/bandits",
+      "/category/dialogue",
+      "/category/free-traders",
+      "/halfpants-colored"
+    ]
   }
 ]

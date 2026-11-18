@@ -1432,6 +1432,17 @@
       }
     },
     {
+      "id": "availability:/cannibal-hunter-robun",
+      "kind": "availability",
+      "target": "/cannibal-hunter-robun",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cannibal-hunter-robun"
+      }
+    },
+    {
       "id": "availability:/cannibal-hunters",
       "kind": "availability",
       "target": "/cannibal-hunters",
@@ -1506,6 +1517,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cannibals"
+      }
+    },
+    {
+      "id": "availability:/caravan-drone",
+      "kind": "availability",
+      "target": "/caravan-drone",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/caravan-drone"
+      }
+    },
+    {
+      "id": "availability:/caravan-guard",
+      "kind": "availability",
+      "target": "/caravan-guard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/caravan-guard"
       }
     },
     {
@@ -1630,6 +1663,17 @@
       }
     },
     {
+      "id": "availability:/catun-scrapmaster-character",
+      "kind": "availability",
+      "target": "/catun-scrapmaster-character",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/catun-scrapmaster-character"
+      }
+    },
+    {
       "id": "availability:/catun/fishmen",
       "kind": "availability",
       "target": "/catun/fishmen",
@@ -1663,6 +1707,28 @@
       }
     },
     {
+      "id": "availability:/citizen",
+      "kind": "availability",
+      "target": "/citizen",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/citizen"
+      }
+    },
+    {
+      "id": "availability:/city-hero",
+      "kind": "availability",
+      "target": "/city-hero",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/city-hero"
+      }
+    },
+    {
       "id": "availability:/cleanser-unit",
       "kind": "availability",
       "target": "/cleanser-unit",
@@ -1671,6 +1737,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cleanser-unit"
+      }
+    },
+    {
+      "id": "availability:/cloud-ninja",
+      "kind": "availability",
+      "target": "/cloud-ninja",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cloud-ninja"
       }
     },
     {
@@ -1718,6 +1795,17 @@
       }
     },
     {
+      "id": "availability:/clunknad-spanner",
+      "kind": "availability",
+      "target": "/clunknad-spanner",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/clunknad-spanner"
+      }
+    },
+    {
       "id": "availability:/cook-recruit",
       "kind": "availability",
       "target": "/cook-recruit",
@@ -1762,6 +1850,17 @@
       }
     },
     {
+      "id": "availability:/crab-man",
+      "kind": "availability",
+      "target": "/crab-man",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-man"
+      }
+    },
+    {
       "id": "availability:/crab-nest",
       "kind": "availability",
       "target": "/crab-nest",
@@ -1773,6 +1872,17 @@
       }
     },
     {
+      "id": "availability:/crab-patron",
+      "kind": "availability",
+      "target": "/crab-patron",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-patron"
+      }
+    },
+    {
       "id": "availability:/crab-queen",
       "kind": "availability",
       "target": "/crab-queen",
@@ -1781,6 +1891,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crab-queen"
+      }
+    },
+    {
+      "id": "availability:/crab-raider",
+      "kind": "availability",
+      "target": "/crab-raider",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-raider"
+      }
+    },
+    {
+      "id": "availability:/crab-raider-civilian",
+      "kind": "availability",
+      "target": "/crab-raider-civilian",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-raider-civilian"
       }
     },
     {
@@ -1872,6 +2004,17 @@
       }
     },
     {
+      "id": "availability:/crazy-bar-thug",
+      "kind": "availability",
+      "target": "/crazy-bar-thug",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crazy-bar-thug"
+      }
+    },
+    {
       "id": "availability:/crimper",
       "kind": "availability",
       "target": "/crimper",
@@ -1949,6 +2092,17 @@
       }
     },
     {
+      "id": "availability:/dack",
+      "kind": "availability",
+      "target": "/dack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dack"
+      }
+    },
+    {
       "id": "availability:/darkfinger",
       "kind": "availability",
       "target": "/darkfinger",
@@ -1990,6 +2144,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/deadcat"
+      }
+    },
+    {
+      "id": "availability:/deadcat-fisherman",
+      "kind": "availability",
+      "target": "/deadcat-fisherman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/deadcat-fisherman"
+      }
+    },
+    {
+      "id": "availability:/deadcat-vendor",
+      "kind": "availability",
+      "target": "/deadcat-vendor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/deadcat-vendor"
       }
     },
     {
@@ -2070,6 +2246,17 @@
       }
     },
     {
+      "id": "availability:/dimak",
+      "kind": "availability",
+      "target": "/dimak",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dimak"
+      }
+    },
+    {
       "id": "availability:/disheartened-skeleton",
       "kind": "availability",
       "target": "/disheartened-skeleton",
@@ -2111,6 +2298,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/distant-hive-village/slave-traders"
+      }
+    },
+    {
+      "id": "availability:/doctor",
+      "kind": "availability",
+      "target": "/doctor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/doctor"
       }
     },
     {
@@ -2235,6 +2433,28 @@
       }
     },
     {
+      "id": "availability:/drone",
+      "kind": "availability",
+      "target": "/drone",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/drone"
+      }
+    },
+    {
+      "id": "availability:/droneguard",
+      "kind": "availability",
+      "target": "/droneguard",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/droneguard"
+      }
+    },
+    {
       "id": "availability:/drowned-ruins",
       "kind": "availability",
       "target": "/drowned-ruins",
@@ -2243,6 +2463,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/drowned-ruins"
+      }
+    },
+    {
+      "id": "availability:/drunken-bar-thug",
+      "kind": "availability",
+      "target": "/drunken-bar-thug",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/drunken-bar-thug"
+      }
+    },
+    {
+      "id": "availability:/dust-bandit",
+      "kind": "availability",
+      "target": "/dust-bandit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dust-bandit"
+      }
+    },
+    {
+      "id": "availability:/dust-bandit-bowman",
+      "kind": "availability",
+      "target": "/dust-bandit-bowman",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dust-bandit-bowman"
       }
     },
     {
@@ -2268,6 +2521,17 @@
       }
     },
     {
+      "id": "availability:/dust-boss",
+      "kind": "availability",
+      "target": "/dust-boss",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dust-boss"
+      }
+    },
+    {
       "id": "availability:/dust-king",
       "kind": "availability",
       "target": "/dust-king",
@@ -2287,6 +2551,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/dust-king-tower"
+      }
+    },
+    {
+      "id": "availability:/ears",
+      "kind": "availability",
+      "target": "/ears",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ears"
       }
     },
     {
@@ -8901,6 +9176,18 @@
       }
     },
     {
+      "id": "media:/icons/items/2149-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2149-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "6f9f22771f72d02c9885f5185f634d5a6f714f9ee15c33a433dd6afc7b78ea27",
+        "sourceSha256": "6f9f22771f72d02c9885f5185f634d5a6f714f9ee15c33a433dd6afc7b78ea27"
+      }
+    },
+    {
       "id": "media:/icons/items/2150-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/2150-gamedata.base.png",
@@ -8910,6 +9197,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "c8c24d9558c5804a876c2d57b474eac9bf1484918688fd43b572de0f865d5151",
         "sourceSha256": "c8c24d9558c5804a876c2d57b474eac9bf1484918688fd43b572de0f865d5151"
+      }
+    },
+    {
+      "id": "media:/icons/items/2151-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2151-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "02c8daf94dbd6de66c92e5571f317b7ac2a6163b0d59c89addaf4f101c31948c",
+        "sourceSha256": "02c8daf94dbd6de66c92e5571f317b7ac2a6163b0d59c89addaf4f101c31948c"
       }
     },
     {
@@ -9081,6 +9380,18 @@
       }
     },
     {
+      "id": "media:/icons/items/2197-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/2197-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "a8cffb605c83e226e8dbbf418c34cf89b95967fc6dda9675e06d873df05b2d63",
+        "sourceSha256": "a8cffb605c83e226e8dbbf418c34cf89b95967fc6dda9675e06d873df05b2d63"
+      }
+    },
+    {
       "id": "media:/icons/items/2200-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/2200-gamedata.base.png",
@@ -9249,6 +9560,18 @@
       }
     },
     {
+      "id": "media:/icons/items/2225-chris_r.mod.png",
+      "kind": "media",
+      "target": "/icons/items/2225-chris_r.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "cfb10046f2cf42c58948a8771cf7175db69e34874d138e2b69eece7ab9bcf17d",
+        "sourceSha256": "cfb10046f2cf42c58948a8771cf7175db69e34874d138e2b69eece7ab9bcf17d"
+      }
+    },
+    {
       "id": "media:/icons/items/2227-chris_r.mod.png",
       "kind": "media",
       "target": "/icons/items/2227-chris_r.mod.png",
@@ -9342,6 +9665,30 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "bade01620d012f7f4ee7730bc8ea40717b5fc756fcde1f8bfd3821870e4fdf87",
         "sourceSha256": "bade01620d012f7f4ee7730bc8ea40717b5fc756fcde1f8bfd3821870e4fdf87"
+      }
+    },
+    {
+      "id": "media:/icons/items/2308-clothes_v1.mod.png",
+      "kind": "media",
+      "target": "/icons/items/2308-clothes_v1.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "01e1c8b70350881434dd5c025ee217c7a6d2dfb2186ce16bafaa023652435b97",
+        "sourceSha256": "01e1c8b70350881434dd5c025ee217c7a6d2dfb2186ce16bafaa023652435b97"
+      }
+    },
+    {
+      "id": "media:/icons/items/2309-clothes_v1.mod.png",
+      "kind": "media",
+      "target": "/icons/items/2309-clothes_v1.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "f9f5657b61301f355458956eb824f5a8410a9f1cb41561475ba96e58e16687fa",
+        "sourceSha256": "f9f5657b61301f355458956eb824f5a8410a9f1cb41561475ba96e58e16687fa"
       }
     },
     {
@@ -9954,6 +10301,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "fc55ba8035c06a7471748fef8a31d5dd980b5efc09cc9366d8a8416942a055ee",
         "sourceSha256": "fc55ba8035c06a7471748fef8a31d5dd980b5efc09cc9366d8a8416942a055ee"
+      }
+    },
+    {
+      "id": "media:/icons/items/577-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/577-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#npcs-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "6715013eae6a1abd44aab76b33360cbd30b17c06f5219b83b4f2d14456be6229",
+        "sourceSha256": "6715013eae6a1abd44aab76b33360cbd30b17c06f5219b83b4f2d14456be6229"
       }
     },
     {

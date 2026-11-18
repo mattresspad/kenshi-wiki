@@ -1,5 +1,6 @@
 import fs from 'node:fs';import assert from 'node:assert/strict';import {execFileSync} from 'node:child_process';import {dirname,join,resolve} from 'node:path';
 const get=p=>JSON.parse(fs.readFileSync(p)),root=resolve('.');assert.equal(root.replaceAll('\\','/').toLowerCase(),'d:/neoecosystem/freshwiki/site');
+assert.ok(!fs.existsSync('reports/characters/pause-before-next-batch'),'Paused at an accepted boundary for a presentation fix');
 const name=process.argv[2],roster=get('conversion/characters/roster.json'),checkpoint=get('conversion/characters/checkpoint.json'),accepted=get('conversion/characters/acceptances.json'),batch=roster.batches[checkpoint.included];
 assert.equal(batch?.name,name,'Unexpected batch');assert.equal(accepted.length,checkpoint.included,'Accept the preceding batch first');assert.ok(fs.existsSync('reports/characters/reviews/'+name+'.json'),'Inspect the audit before transfer');
 const run=(exe,args)=>execFileSync(exe,args,{cwd:root,stdio:'inherit',env:{...process.env,ASTRO_TELEMETRY_DISABLED:'1'}}),node=args=>run(process.execPath,args),git=args=>run('git',['-c','safe.directory='+root,...args]);

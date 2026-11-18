@@ -3526,6 +3526,393 @@
         "claim:character-equipment-probability",
         "claim:character-fcs-statistics"
       ]
+    },
+    {
+      "id": "cannibal-hunter-robun",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cannibal Hunter Robun is the leader of the Cannibal Hunters, little brother of the writer of the Captive’s Journal Series, and most likely the sole survivor of the story detailed in them. Players can pay him to provide mercenary services against cannibals. He can be found at The Bastion, on the border of Darkfinger and Sinkuun. He has a Brave Personality. St",
+      "organization": "Reviewed 11 section bookmarks and 18 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cannibal-hunter-robun.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b3f5b513831c40131e85463f44c116b167f19efd6d1b849c7f37ec568e66a13e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore"
+      ]
+    },
+    {
+      "id": "caravan-drone",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Caravan Drones can be found roaming the vast world alongside their Hive Caravan Boss and Pack Beasts. Unlike most drones within the Western Hive, these characters wear armour. Statistics Hive Soldier Drone Equipment Weapons Back slot Apparel Body Legwear Inventory",
+      "organization": "Reviewed 8 section bookmarks and 14 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/caravan-drone.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "70d1407fe4b1535a26c590ac24a9858570bf0e4046bd50380caaf25fe1b2a2cc"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "caravan-guard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Caravan Guards are guards belonging to either the Holy Nation, Traders Guild or the Free Traders. They can be found protecting wandering traders as they move from city to city. Statistics Humans Shek Hive Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Hive Worker Drone Equipment Weapons Back slot Apparel Headgear Body Legwear Footwear Inventory",
+      "organization": "Reviewed 10 section bookmarks and 56 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/caravan-guard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "880386c0cfd01ca781bab390776b136a1c12e5da183f40546f170c7bd9a23a37"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "catun-scrapmaster-character",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Why, the noble bodyguards themselves use only our swords! You settle for a cheap sword, prepare to fight like a cheap warrior. The Catun Scrapmasters have been around for generations, the oldest and highest quality smiths in all the land.response to question regarding what makes their weapons special The Catun Scrapmaster is a shopkeeper of the United Cities",
+      "organization": "Reviewed 9 section bookmarks and 14 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/catun-scrapmaster-character.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "095f09cb3528ab94f7addb4c28d0dc3202cf1df920198ee6d983ac055cccfc53"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-removed-content"
+      ]
+    },
+    {
+      "id": "citizen",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Citizens are random NPCs found in the towns in Kenshi. They will normally roam around the town they are in, buying stuff from shops and generally minding their own business and if found near combat may flee to a safer area (i.e, Police Station). Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive Soldier Drone Hive Worker Dro",
+      "organization": "Reviewed 7 section bookmarks and 59 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/citizen.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0f804140bb2e964cce9f1dbbcb0b2b1e8d1f749d0ea09f7a91bc8e1b080ce315"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "city-hero",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: City Heroes are the racist pro-Empire vigilantes and ‘patriots’ that make up the United Heroes League. They can be found in their HQ: Fort Mirage. Squads will also patrol United Cities towns: Bark, Heft, Heng, Sho-Battai, and Stoat. They will sometimes leave the safety of the walls to patrol Heng and The Great Desert. United Heroes are the version that show ",
+      "organization": "Reviewed 11 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/city-hero.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "32d4eb99916c859477cc0d2aaf3c4fdf80051b04f6253d518a3f03d770719f49"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "cloud-ninja",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cloud Ninjas are the only members of the Black Desert Ninjas faction. They spawn in squads of 3 to 9 characters in The Black Desert, Grey Desert, and Iron Valleys. Statistics Greenlander Scorchlander Hive Prince Equipment Weapons Back slot Apparel Headgear Body Shirt Legwear Footwear Inventory",
+      "organization": "Reviewed 11 section bookmarks and 33 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cloud-ninja.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c1a5e122f5e25ea74654912882996a79eef2be988921b9b4c0d07bfaa248f05a"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "clunknad-spanner",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Clunknad Spanner is the alleged skeleton wizard mentioned by Emperor Tengu as a part of a joke. The emperor also gives the player a Mystery Sack in order to identify themselves to the wizard that should help the player to kill the notorious Grievewrath. The dialogue with Tengu is satire, mocking traditional RPG quest structure and the use of magic. Both of t",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/clunknad-spanner.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8803618587f1774a4195916e05b50250ed00b23d07a78b2ead6ca1151965a385"
+      },
+      "questions": []
+    },
+    {
+      "id": "crab-man",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: So you wanna buy a crab, eh. Well, first up you gotta have a solid crab care routine, let me tell you all about it... Crab Men are randomly named members of the Crab Raiders. They sell Crabs to the player even if they are not allied with the Crab Raiders. Statistics Scorchlander Equipment Weapons Back slot Apparel Body Shirt Legwear Inventory",
+      "organization": "Reviewed 9 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-man.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7567e02c630e22f4caa00d080a88eb6eef710a113436823404d71decf65a6088"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "crab-patron",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Crab Patron is a member of Crab Raiders, this character is a customer that can be found in various bars controlled by their faction. Statistics Scorchlander Equipment Weapons Back slot Apparel Body Shirt Legwear Inventory",
+      "organization": "Reviewed 9 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-patron.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dada223fea16c642ab3d62657f949f36001e7fbc34904dfc49f0e8e41b6e385e"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "crab-raider",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: You won't survive long without a crab.Raider to a crabless Crab Raiders are soldiers of the Crab Raiders faction. They can be found patrolling Crab Town, Crab Village, and other territories controlled by the Crab Raiders, such as Greenbeach, Stobe’s Garden, The Crags, The Pits, and The Pits East. The deaths of Valamon, Lady Tsugi, and Lord Yoshinaga can allo",
+      "organization": "Reviewed 13 section bookmarks and 18 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-raider.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d9648ade4d80f01169e37914779be74182b298fcaca6beaa365ddf150345cac6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "crab-raider-civilian",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Whadda we got here? A crabless, eh? Crab Raider Civilians are randomly-named members of the Crab Raiders. They can be found in Crab Town and Crab Village. Statistics Scorchlander Equipment Weapons Back slot Apparel Body Shirt Legwear Inventory",
+      "organization": "Reviewed 9 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-raider-civilian.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9050cc952b9cf16730d178a43c75754625d69ae2a82fe1649f97c4f9fc15b0f6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "crazy-bar-thug",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: An unnamed member of the Vagrants faction. They are a variant of Bar Thugs which can be found in bars in The Hub, Waystation, or in Shark. This thug has dialogue but cannot be spoken to. He will tell the user to “Get lost.” and other variations to the same intent. They have a 7% chance of having a bounty from 250 to 1750 Cats. Statistics Greenlander Equipmen",
+      "organization": "Reviewed 10 section bookmarks and 16 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crazy-bar-thug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9bfa81758980cea53a7558b9eeb37c9b076c7e7c2ed00a05ba6549770f70fbdf"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "dack",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Exiles make me nervous, Quin. Why is he in the Black Desert?Is he a spy for the humans? Did they hack his CPU?Dack, upon seeing a Skeleton Player Character Dack is a member of the Skeletons faction. They can be found in Scraphouse. He has a tendency to hoard shiny items, to the annoyance of Quin. Statistics Skeleton Equipment Weapons Back slot Apparel Trivia",
+      "organization": "Reviewed 6 section bookmarks and 12 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7f74562016f3ac49dfcc35c30aafde21071988173a8ae923ccd2669eb84141b1"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "deadcat-fisherman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Deadcat Fishermen are the remnants of the Deadcat faction. They can be spotted in small enclaves in Dreg and the Northern Coast. Statistics Greenlander Scorchlander Shek Equipment Weapons Back slot Apparel Headgear Body Shirt Legwear",
+      "organization": "Reviewed 9 section bookmarks and 31 source tables; 3 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/deadcat-fisherman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4083b4ff194d94e5ad502bdba966b59e0bd5f7c888c8a64d799f8ebd6da0e4dd"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "deadcat-vendor",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Careful of the painted tribe, they roam outside the village and pick off any unfortunate travellers that stray too far from town... The goddamn monsters feed on their own kind, eat away at their victims piece by piece while keeping them prisoner in their lair. Be careful, if you see one, there'll be a hundred others following behind...Deadcat Vendor warning ",
+      "organization": "Reviewed 8 section bookmarks and 54 source tables; 6 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/deadcat-vendor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dd9a0837d34e367263075c99114469587f2fad20b28c59b7a687c2ca20d89dc6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "dimak",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ohhoho! Like a fly caught in a web! What we got here? Dimak is one of the leaders of the Black Dragon Ninjas, wielding a Meitou Ninja Blade. She can be found in the Tower Of Ninjas alongside Buzan and many Black Dragon Genin. She is the only Shek in her faction. She has a Maniacal personality. Like Buzan, she has a bounty of c.20,000 wanted by The Holy Natio",
+      "organization": "Reviewed 10 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dimak.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "934485528c4fd6beec75cfec9b7a1b21659e7284f6ac5d8da3ba4855d32e0e1d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-world-state-conditions"
+      ]
+    },
+    {
+      "id": "doctor",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Doctors of the Holy Nation can be found in hospitals at the southern Holy Military Base and Okran’s Shield, working alongside Surgeons. They tend to any wounded soldier of Holy Nation nearby. Unlike the Surgeons, the Doctors do not appear to offer any services to the player. Statistics Humans Shek Hive Skeletons Greenlander Scorchlander Shek Hive Prince Hive",
+      "organization": "Reviewed 10 section bookmarks and 63 source tables; 7 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/doctor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "efb3b3b849cad49615923793b795a11d0098522a068d72d2407625d282024ec5"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "drone",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Drone are the workers among the Southern Hive. They can be found scattered within the Royal Valley and attack any who wander into the Southern Hive Villages. Statistics Southern Hive Worker Drone Equipment Weapons Back slot Apparel This character spawns with no apparel.",
+      "organization": "Reviewed 5 section bookmarks and 10 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/drone.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e4b14a2378a2b031d5375a0a5306ee73fd78521d54c129021ad44925120ea0f6"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "droneguard",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: What are YOU?!No-hive for King!Droneguard Droneguards are the bulk of the Southern Hive and are usually found in squads lead by a Prince. They can be found patrolling in Greyshelf, Royal Valley, and Stobe’s Gamble. They are also guards in Southern Hive and Southern Hive Village, as well as any locations which are overtaken by the Southern Hive. Statistics So",
+      "organization": "Reviewed 9 section bookmarks and 15 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/droneguard.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b2c2a28cc5fd000f9f17389c3b87e4b8b5048d27fe4349a4f466af546ff2ada7"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "drunken-bar-thug",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: An unnamed member of the Vagrants faction. They are a variant of Bar Thugs which can be found in bars in The Hub, Waystation, or in Shark. This thug will talk to the player about the Blood Bandits, Cannibals, or the Bugmaster if he is given c. 50 worth of drinks. They have a 2% chance of having a bounty from 250 to 1750 Cats. Statistics Greenlander Equipment",
+      "organization": "Reviewed 10 section bookmarks and 16 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/drunken-bar-thug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "417db2fb2a3c36a6042c0c6cb5f05728277d087850ce8047f3b33598bf3e6ab5"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
+    },
+    {
+      "id": "dust-bandit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Dust Bandits are the most commonly found members of the Dust Bandits faction. They spawn in squads of 5-10, led by a Dust Boss and sometimes accompanied by up to 4 Dust Bandit Bowmen. These squads can be found roaming Shem or the Border Zone. They also populate Dust Bandit Camps. These camps contain 3 Dust Bandit squads, which are slightly larger than their ",
+      "organization": "Reviewed 10 section bookmarks and 71 source tables; 8 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dust-bandit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2957324efa8455ac0c8974f2dda4c2c9cc4a17daee9bc6f99fd80d0fae4e42f2"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-recruitment",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "dust-bandit-bowman",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Dust Bandit Bowmen are members of the Dust Bandits. Up to 4 of them spawn in a squad, led by a Dust Boss and accompanied by 5-10 Dust Bandits . These squads can be found roaming Shem or the Border Zone. They also populate Dust Bandit Camps, which spawn in the aforementioned biomes, with the addition of Skinner’s Roam. These camps contain 3 Dust Bandit squads",
+      "organization": "Reviewed 10 section bookmarks and 24 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dust-bandit-bowman.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "38542abbaaaca39a529eb4c0e7e9fe88206a0a23e909046568ea18f10589e92d"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "dust-boss",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Come out and talk to your friendly neighborhood bandits! Dust Bosses are squad leaders of the Dust Bandits, who can be found leading groups of their fellow outlaws in their territory. They are stronger than their comrades, and may approach player characters with their group in tow to mug them. The player may either pay a fair sum of Cats and be left alone, o",
+      "organization": "Reviewed 8 section bookmarks and 22 source tables; 2 statistics groups retained in source order without inferred race labels. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dust-boss.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "65e77b537866e2c09359674bb460a795715584e8e26902af22392127bbf55796"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-stat-associations"
+      ]
+    },
+    {
+      "id": "ears",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ears is the person in The Swamp who can help characters ‘get noticed’. Ears is a member of the Hounds and has Diplomatic Status. They can be found in either Bar in Shark and will refuse to interact with you if you are allied with the Traders Guild, preventing you from allying with the Hounds (but not vice-versa). The same is also true if you are allied with ",
+      "organization": "Reviewed 12 section bookmarks and 17 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ears.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "519689d785ba64a450f8fe9e269d3d54c6a1716516b3fabbf6289b06a1699f70"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics"
+      ]
     }
   ],
   "editorialChanges": [
