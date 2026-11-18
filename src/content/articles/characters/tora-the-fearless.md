@@ -1,0 +1,108 @@
+---
+articleId: tora-the-fearless
+title: Tora the Fearless
+description: Tora the Fearless is the leader of the Band of Bones who refused to give up her weapon after being disgraced as a Shek Kingdom warrior and having her horns r…
+categories:
+  - Characters
+  - Unique
+  - Bounty
+  - Bosses
+layout: character
+factTitle: Tora the Fearless
+factGroups:
+  - heading: null
+    rows:
+      - - Race
+        - - Shek
+          - /shek
+      - - Gender
+        - Female
+  - heading: Items
+    rows:
+      - - Weapons
+        - - Combat Cleaver
+          - /combat-cleaver
+      - - Armour
+        - - Heart Protector
+          - /heart-protector
+        - ", "
+        - - Mercenary Leather Armour
+          - /mercenary-leather-armour
+      - - Legwear
+        - - Drifter's Leather Pants
+          - /drifters-leather-pants
+        - ", "
+        - - Samurai Legplates
+          - /samurai-legplates
+        - ", "
+        - - Armoured Rag Skirt
+          - /armoured-rag-skirt
+      - - Footwear
+        - - Drifter's Boots
+          - /drifters-boots
+        - ", "
+        - - Plated Longboots
+          - /plated-longboots
+      - - Inventory
+        - - Basic First Aid Kit
+          - /basic-first-aid-kit
+---
+
+<figure class="quote"><blockquote>You! You stare at my horns! You have the gall to gawk at a Shek Warrior's horns, you must have the fight to back it up!</blockquote></figure>
+
+**Tora the Fearless** is the leader of the [Band of Bones](/band-of-bones) who refused to give up her [weapon](/weapons) after being disgraced as a [Shek Kingdom](/shek-kingdom) warrior and having her horns removed. Instead, Tora underwent self-exile and fled to a life of banditry, preferring to die by the sword as a warrior even if it meant losing her honor to do so. She is located in the [Exile Camp](/exile-camp) southwest of [Squin](/squin). Like other Band of Bones members, she will attack when player characters approach the camp.
+
+Her situation and backstory is quite similar to that of [Ghost's](/ghost), another leader of a band of Shek renegades. However, Ghost commanded respect before his descent to banditry, whereas Tora likely did not.
+
+They wear \[Shoddy\] armour (15% chance of \[Standard\]) and have weapons manufactured by [Ancient](/ancient).
+
+<table class="wikitable"><caption><strong>WANTED: Tora the Gutless</strong></caption><tbody><tr><td colspan="2" align="left">Race: Shek<p>Gender: Female</p><p>Dishonoured shek retainer who has broken warrior law by refusing to give up the blade, instead resorting to lowly crimes of banditry in the Stenn sands.</p></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr><tr><td>Poster can be found in:</td><td><a href="/shek-kingdom">Shek Kingdom</a></td></tr></tbody></table>
+
+
+She has a bounty of c.10,000 on her head from [Shek Kingdom](/shek-kingdom).
+
+## Statistics
+
+-   Shek
+
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/strength">Strength</a></td><td align="center">44</td></tr><tr><td><a href="/toughness">Toughness</a></td><td align="center">54</td></tr><tr><td><a href="/dexterity">Dexterity</a></td><td align="center">36</td></tr><tr><td><a href="/perception">Perception</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/katanas">Katanas</a></td><td align="center">45</td></tr><tr><td><a href="/sabres">Sabres</a></td><td align="center">45</td></tr><tr><td><a href="/hackers">Hackers</a></td><td align="center">45</td></tr><tr><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">45</td></tr><tr><td><a href="/blunt-weapons">Blunt</a></td><td align="center">45</td></tr><tr><td><a href="/polearms">Polearms</a></td><td align="center">45</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/melee-attack">Melee Attack</a></td><td align="center">54</td></tr><tr><td><a href="/melee-defence">Melee Defence</a></td><td align="center">45</td></tr><tr><td><a href="/dodge">Dodge</a></td><td align="center">3.6</td></tr><tr><td><a href="/martial-arts">Martial Arts</a></td><td align="center">4.5</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/turrets">Turrets</a></td><td align="center">45</td></tr><tr><td><a href="/crossbows">Crossbows</a></td><td align="center">1</td></tr><tr><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">45</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/stealth">Stealth</a></td><td align="center">0.8</td></tr><tr><td><a href="/lockpicking">Lockpicking</a></td><td align="center">1</td></tr><tr><td><a href="/thievery">Thievery</a></td><td align="center">0.8</td></tr><tr><td><a href="/assassination">Assassination</a></td><td align="center">22.5</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/athletics">Athletics</a></td><td align="center">36</td></tr><tr><td><a href="/swimming">Swimming</a></td><td align="center">45</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/field-medic">Field Medic</a></td><td align="center">45</td></tr><tr><td><a href="/engineer">Engineer</a></td><td align="center">1</td></tr><tr><td><a href="/robotics">Robotics</a></td><td align="center">0.8</td></tr><tr><td><a href="/science">Science</a></td><td align="center">0.8</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">1</td></tr><tr><td><a href="/armour-smith">Armour Smith</a></td><td align="center">1</td></tr><tr><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td><a href="/labouring">Labouring</a></td><td align="center">0.8</td></tr><tr><td><a href="/farming">Farming</a></td><td align="center">0.8</td></tr><tr><td><a href="/cooking">Cooking</a></td><td align="center">1</td></tr></tbody></table>
+
+* * *
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
+
+## [World States](/world-states)
+
+(Requires Tora the Fearless to be imprisoned/dead)
+
+[Band of Bones](/band-of-bones) will cease to spawn in [Shun](/shun) and [Shem](/shem), and will also have their frequency halved and fracture from 4 ~ 8 into patrols of 2 ~ 4 in the regions of [Bonefields](/bonefields), [High Bonefields](/high-bonefields), [Shem](/shem), [Spider Plains](/spider-plains), [The Hook](/the-hook), and [The Swamp](/the-swamp).
+
+The [Raid](/raid) event of the Band of Bones will also cease to trigger.
+
+(Requires Tora the Fearless to be alive and free)
+
+If **Tora** is alive and free while [Big Gray](/big-gray) and [Big Grim](/big-grim) are killed/imprisoned, [Grayflayer Village](/grayflayer-village) will fall under the control of **Band of Bones**. She will relocate her position there as well.
+
+## Trivia
+
+-   When turning her in for a bounty, Shek will often refer to her as "Tora the Gutless." This is also noted in her wanted poster, where she is also referred to as "Tora the Gutless". This pejorative term is likely given to Tora based on Shek Kingdom's disdain for exiles and deserters.
