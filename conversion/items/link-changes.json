@@ -578,5 +578,48 @@
       "/small-generator",
       "/thief-training-boxes"
     ]
+  },
+  {
+    "name": "items-3",
+    "resolved": [
+      "/empty-rum-bottle",
+      "/engineering-research",
+      "/equipment",
+      "/fabrics",
+      "/fancy-rug",
+      "/flotsam-safehouse-note",
+      "/fog-prince-head",
+      "/food",
+      "/foodcube",
+      "/foul-raw-meat",
+      "/fuel",
+      "/gears",
+      "/generator-core",
+      "/gohan",
+      "/grand-fish",
+      "/great-white-claw",
+      "/great-white-skin",
+      "/greenfruit",
+      "/grind-machine",
+      "/grog",
+      "/gurgler-egg",
+      "/gurgler-head",
+      "/hacksaw"
+    ],
+    "introduced": [
+      "/advanced-cooking-tech",
+      "/biofuel-distillery",
+      "/biofuel-distillery-greenfruit",
+      "/biofuel-distillery-wheatstraw",
+      "/biofuel-tech",
+      "/category/head",
+      "/fabric-loom-hemp",
+      "/fabric-looms",
+      "/generator-ii",
+      "/grog-machine",
+      "/guide-to-health",
+      "/hydroponic-vegetables",
+      "/weapons-shops"
+    ]
   }
 ]

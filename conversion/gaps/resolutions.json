@@ -4006,6 +4006,17 @@
       }
     },
     {
+      "id": "availability:/empty-rum-bottle",
+      "kind": "availability",
+      "target": "/empty-rum-bottle",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empty-rum-bottle"
+      }
+    },
+    {
       "id": "availability:/endin",
       "kind": "availability",
       "target": "/endin",
@@ -4025,6 +4036,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/engineer-recruit"
+      }
+    },
+    {
+      "id": "availability:/engineering-research",
+      "kind": "availability",
+      "target": "/engineering-research",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/engineering-research"
+      }
+    },
+    {
+      "id": "availability:/equipment",
+      "kind": "availability",
+      "target": "/equipment",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/equipment"
       }
     },
     {
@@ -4204,6 +4237,17 @@
       }
     },
     {
+      "id": "availability:/fabrics",
+      "kind": "availability",
+      "target": "/fabrics",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fabrics"
+      }
+    },
+    {
       "id": "availability:/faction-hq",
       "kind": "availability",
       "target": "/faction-hq",
@@ -4256,6 +4300,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/falling-sun"
+      }
+    },
+    {
+      "id": "availability:/fancy-rug",
+      "kind": "availability",
+      "target": "/fancy-rug",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fancy-rug"
       }
     },
     {
@@ -4589,6 +4644,17 @@
       }
     },
     {
+      "id": "availability:/flotsam-safehouse-note",
+      "kind": "availability",
+      "target": "/flotsam-safehouse-note",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flotsam-safehouse-note"
+      }
+    },
+    {
       "id": "availability:/flotsam-village",
       "kind": "availability",
       "target": "/flotsam-village",
@@ -4677,6 +4743,17 @@
       }
     },
     {
+      "id": "availability:/fog-prince-head",
+      "kind": "availability",
+      "target": "/fog-prince-head",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fog-prince-head"
+      }
+    },
+    {
       "id": "availability:/fogman",
       "kind": "availability",
       "target": "/fogman",
@@ -4696,6 +4773,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fogmen"
+      }
+    },
+    {
+      "id": "availability:/food",
+      "kind": "availability",
+      "target": "/food",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/food"
+      }
+    },
+    {
+      "id": "availability:/foodcube",
+      "kind": "availability",
+      "target": "/foodcube",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/foodcube"
       }
     },
     {
@@ -4787,6 +4886,17 @@
       }
     },
     {
+      "id": "availability:/foul-raw-meat",
+      "kind": "availability",
+      "target": "/foul-raw-meat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/foul-raw-meat"
+      }
+    },
+    {
       "id": "availability:/fragment-axe",
       "kind": "availability",
       "target": "/fragment-axe",
@@ -4828,6 +4938,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/free-traders-alpha"
+      }
+    },
+    {
+      "id": "availability:/fuel",
+      "kind": "availability",
+      "target": "/fuel",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fuel"
       }
     },
     {
@@ -4897,6 +5018,17 @@
       }
     },
     {
+      "id": "availability:/gears",
+      "kind": "availability",
+      "target": "/gears",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gears"
+      }
+    },
+    {
       "id": "availability:/general-hat-12",
       "kind": "availability",
       "target": "/general-hat-12",
@@ -4916,6 +5048,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/general-jang"
+      }
+    },
+    {
+      "id": "availability:/generator-core",
+      "kind": "availability",
+      "target": "/generator-core",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/generator-core"
       }
     },
     {
@@ -5018,6 +5161,17 @@
       }
     },
     {
+      "id": "availability:/gohan",
+      "kind": "availability",
+      "target": "/gohan",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gohan"
+      }
+    },
+    {
       "id": "availability:/gorillo",
       "kind": "availability",
       "target": "/gorillo",
@@ -5070,6 +5224,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/gorrillo"
+      }
+    },
+    {
+      "id": "availability:/grand-fish",
+      "kind": "availability",
+      "target": "/grand-fish",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/grand-fish"
       }
     },
     {
@@ -5150,6 +5315,17 @@
       }
     },
     {
+      "id": "availability:/great-white-claw",
+      "kind": "availability",
+      "target": "/great-white-claw",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/great-white-claw"
+      }
+    },
+    {
       "id": "availability:/great-white-gorillo",
       "kind": "availability",
       "target": "/great-white-gorillo",
@@ -5158,6 +5334,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/great-white-gorillo"
+      }
+    },
+    {
+      "id": "availability:/great-white-skin",
+      "kind": "availability",
+      "target": "/great-white-skin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/great-white-skin"
       }
     },
     {
@@ -5191,6 +5378,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/greenbeach"
+      }
+    },
+    {
+      "id": "availability:/greenfruit",
+      "kind": "availability",
+      "target": "/greenfruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/greenfruit"
       }
     },
     {
@@ -5246,6 +5444,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/griffin"
+      }
+    },
+    {
+      "id": "availability:/grind-machine",
+      "kind": "availability",
+      "target": "/grind-machine",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/grind-machine"
+      }
+    },
+    {
+      "id": "availability:/grog",
+      "kind": "availability",
+      "target": "/grog",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/grog"
       }
     },
     {
@@ -5323,6 +5543,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/gurgler"
+      }
+    },
+    {
+      "id": "availability:/gurgler-egg",
+      "kind": "availability",
+      "target": "/gurgler-egg",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gurgler-egg"
+      }
+    },
+    {
+      "id": "availability:/gurgler-head",
+      "kind": "availability",
+      "target": "/gurgler-head",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gurgler-head"
       }
     },
     {
@@ -5411,6 +5653,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hackers"
+      }
+    },
+    {
+      "id": "availability:/hacksaw",
+      "kind": "availability",
+      "target": "/hacksaw",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hacksaw"
       }
     },
     {
@@ -14739,6 +14992,18 @@
       }
     },
     {
+      "id": "media:/icons/items/1514-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/1514-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "d14478a3b5692d9e9052f925c4cc18d4671e0d8bfc557af046e180a3f2d24cd7",
+        "sourceSha256": "d14478a3b5692d9e9052f925c4cc18d4671e0d8bfc557af046e180a3f2d24cd7"
+      }
+    },
+    {
       "id": "media:/icons/items/1532813-Newwworld.mod.png",
       "kind": "media",
       "target": "/icons/items/1532813-Newwworld.mod.png",
@@ -14952,6 +15217,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "64c0f37162626525eed9fb5b8c527da7fe70f90136df492cb2494f025f8fb70c",
         "sourceSha256": "64c0f37162626525eed9fb5b8c527da7fe70f90136df492cb2494f025f8fb70c"
+      }
+    },
+    {
+      "id": "media:/icons/items/1534121-__Fixes.mod.png",
+      "kind": "media",
+      "target": "/icons/items/1534121-__Fixes.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "5b713f24628e2ac3ab2e55662cc3fbef9c2e998106067a4b419b3ab11da93fbb",
+        "sourceSha256": "5b713f24628e2ac3ab2e55662cc3fbef9c2e998106067a4b419b3ab11da93fbb"
       }
     },
     {
@@ -15855,6 +16132,18 @@
       }
     },
     {
+      "id": "media:/icons/items/42083-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42083-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "530bd321d657a8efc3dc7f3111dc74b7947a03ec2f97665bf0475c3acbc7354f",
+        "sourceSha256": "530bd321d657a8efc3dc7f3111dc74b7947a03ec2f97665bf0475c3acbc7354f"
+      }
+    },
+    {
       "id": "media:/icons/items/42158-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/42158-gamedata.base.png",
@@ -15903,6 +16192,18 @@
       }
     },
     {
+      "id": "media:/icons/items/42189-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42189-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "19fabfd567a3b7100a5ece51d582a366347f24f54e5962386ced45621821a19e",
+        "sourceSha256": "19fabfd567a3b7100a5ece51d582a366347f24f54e5962386ced45621821a19e"
+      }
+    },
+    {
       "id": "media:/icons/items/42241-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/42241-rebirth.mod.png",
@@ -15936,6 +16237,30 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "639dadab95bc54c1293933c34322826f10d9bbbad55df037f2df16cdf1f67670",
         "sourceSha256": "639dadab95bc54c1293933c34322826f10d9bbbad55df037f2df16cdf1f67670"
+      }
+    },
+    {
+      "id": "media:/icons/items/42309-changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42309-changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "548cac75a39117c4797680b1f17b04ad03ac070f7279c0ea8ca26676728fc2f2",
+        "sourceSha256": "548cac75a39117c4797680b1f17b04ad03ac070f7279c0ea8ca26676728fc2f2"
+      }
+    },
+    {
+      "id": "media:/icons/items/42311-changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42311-changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "78fd6396ede47ce32eb933219f438084d632c83c8140559e54df30b8d19a9773",
+        "sourceSha256": "78fd6396ede47ce32eb933219f438084d632c83c8140559e54df30b8d19a9773"
       }
     },
     {
@@ -15984,6 +16309,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "bcf4b206c3c3b5de8080710e3cbe42c4927472b6c89863d5d3690d54d8103b17",
         "sourceSha256": "bcf4b206c3c3b5de8080710e3cbe42c4927472b6c89863d5d3690d54d8103b17"
+      }
+    },
+    {
+      "id": "media:/icons/items/42318-changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42318-changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "8afca803a88558c469a9c79ba58173cfd5d8bb7454649ff6213998285505926a",
+        "sourceSha256": "8afca803a88558c469a9c79ba58173cfd5d8bb7454649ff6213998285505926a"
       }
     },
     {
@@ -16083,6 +16420,18 @@
       }
     },
     {
+      "id": "media:/icons/items/43863-changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/43863-changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "ea8a2e882af0629d0870839282a129d580ce8fda467ebe2b9e9a78befb101aae",
+        "sourceSha256": "ea8a2e882af0629d0870839282a129d580ce8fda467ebe2b9e9a78befb101aae"
+      }
+    },
+    {
       "id": "media:/icons/items/43927-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/43927-rebirth.mod.png",
@@ -16104,6 +16453,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "1fd55366c9d5eb0ee560aa7d6ef2cb7aeb6257f6ab02ff94c77cb3ee64c42efa",
         "sourceSha256": "1fd55366c9d5eb0ee560aa7d6ef2cb7aeb6257f6ab02ff94c77cb3ee64c42efa"
+      }
+    },
+    {
+      "id": "media:/icons/items/43951-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/43951-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "66856f0b1bef2f34ded0793902687f49aa6b5928657a15453e45fc6bc01854b8",
+        "sourceSha256": "66856f0b1bef2f34ded0793902687f49aa6b5928657a15453e45fc6bc01854b8"
       }
     },
     {
@@ -16143,6 +16504,30 @@
       }
     },
     {
+      "id": "media:/icons/items/43957-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/43957-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "7c4e8598f8ba673cad0fd61b9ff0296e637fd5dc782eae62feff95958d68bcca",
+        "sourceSha256": "7c4e8598f8ba673cad0fd61b9ff0296e637fd5dc782eae62feff95958d68bcca"
+      }
+    },
+    {
+      "id": "media:/icons/items/43959-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/43959-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "d4309f5ad8f188b83b6edf7cfd5d3a3106e1c9a6062911eaface9a73fd8a76a8",
+        "sourceSha256": "d4309f5ad8f188b83b6edf7cfd5d3a3106e1c9a6062911eaface9a73fd8a76a8"
+      }
+    },
+    {
       "id": "media:/icons/items/43961-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/43961-rebirth.mod.png",
@@ -16152,6 +16537,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "7d4669997a9b18dff0587335b1d350d698f8676c30182671860703964e386fea",
         "sourceSha256": "7d4669997a9b18dff0587335b1d350d698f8676c30182671860703964e386fea"
+      }
+    },
+    {
+      "id": "media:/icons/items/44428-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/44428-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "0c5657d653c42d4cf5f20ccfa2c44062faa366ffb5a76902e5e5b823179b4387",
+        "sourceSha256": "0c5657d653c42d4cf5f20ccfa2c44062faa366ffb5a76902e5e5b823179b4387"
       }
     },
     {
@@ -16299,6 +16696,18 @@
       }
     },
     {
+      "id": "media:/icons/items/49381-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49381-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
       "id": "media:/icons/items/50391-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/50391-rebirth.mod.png",
@@ -16308,6 +16717,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "d6de4a97e8d557eedba2021ce8cbd79015003e023f7d65152903c43ded3aacea",
         "sourceSha256": "d6de4a97e8d557eedba2021ce8cbd79015003e023f7d65152903c43ded3aacea"
+      }
+    },
+    {
+      "id": "media:/icons/items/50514-Newwworld.mod.png",
+      "kind": "media",
+      "target": "/icons/items/50514-Newwworld.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "7b70a62ef7e80640573675fc01816c7ab048ab8a6ac1b5259806f6097d1f7ab3",
+        "sourceSha256": "7b70a62ef7e80640573675fc01816c7ab048ab8a6ac1b5259806f6097d1f7ab3"
       }
     },
     {
@@ -16683,6 +17104,18 @@
       }
     },
     {
+      "id": "media:/icons/items/54030-Newwworld.mod.png",
+      "kind": "media",
+      "target": "/icons/items/54030-Newwworld.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "b6d24beedef9a582a847ca6998d92112b370d8b4609fb53c24d8d088faf18610",
+        "sourceSha256": "b6d24beedef9a582a847ca6998d92112b370d8b4609fb53c24d8d088faf18610"
+      }
+    },
+    {
       "id": "media:/icons/items/543-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/543-gamedata.base.png",
@@ -16944,6 +17377,30 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "6715013eae6a1abd44aab76b33360cbd30b17c06f5219b83b4f2d14456be6229",
         "sourceSha256": "6715013eae6a1abd44aab76b33360cbd30b17c06f5219b83b4f2d14456be6229"
+      }
+    },
+    {
+      "id": "media:/icons/items/581-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/581-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "2b23e0381ec0b6b95c7f4b0ead4ab0ccca0ad28e987754bd5c02abd2352a1768",
+        "sourceSha256": "2b23e0381ec0b6b95c7f4b0ead4ab0ccca0ad28e987754bd5c02abd2352a1768"
+      }
+    },
+    {
+      "id": "media:/icons/items/584-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/584-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "232f2155cee0d855e43a75d07083a8cbfcf31845c2846a976e03e07ffdbc5583",
+        "sourceSha256": "232f2155cee0d855e43a75d07083a8cbfcf31845c2846a976e03e07ffdbc5583"
       }
     },
     {
@@ -17583,6 +18040,18 @@
       }
     },
     {
+      "id": "media:/icons/items/96409-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/96409-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "f443555efe29888c0f1d93d209bf5f32a410a0fbfa474af5ec552e1c82108b60",
+        "sourceSha256": "f443555efe29888c0f1d93d209bf5f32a410a0fbfa474af5ec552e1c82108b60"
+      }
+    },
+    {
       "id": "media:/icons/items/97089-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/97089-rebirth.mod.png",
@@ -17595,6 +18064,18 @@
       }
     },
     {
+      "id": "media:/icons/items/97662-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/97662-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "64d9944946a6ade56abfc548ec7593941f5f64016941a15fc4e4ac93d3539f8f",
+        "sourceSha256": "64d9944946a6ade56abfc548ec7593941f5f64016941a15fc4e4ac93d3539f8f"
+      }
+    },
+    {
       "id": "media:/icons/items/97903-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/97903-rebirth.mod.png",
@@ -17604,6 +18085,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "2c7a8404167701d3187297d0bc1219644c6138ec9909095ec4919b526ce72a14",
         "sourceSha256": "2c7a8404167701d3187297d0bc1219644c6138ec9909095ec4919b526ce72a14"
+      }
+    },
+    {
+      "id": "media:/icons/items/98510-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/98510-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "624b02987eaa520c269b576ac47472d0208bcdc2dbea4cb0434d81f94ca8fcb5",
+        "sourceSha256": "624b02987eaa520c269b576ac47472d0208bcdc2dbea4cb0434d81f94ca8fcb5"
       }
     },
     {

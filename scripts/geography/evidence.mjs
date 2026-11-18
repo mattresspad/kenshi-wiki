@@ -30,7 +30,7 @@ export function articleEvidence(html, frozen, faction = false) {
   if (frozen) area.children('.infobox,.fandom-notice').remove();
   else area.append(doc('.lead-text').contents().clone(), '\n', doc('.article-body').contents().clone());
   const $ = load(area.html(), {}, false);
-  if (faction === 'character') removeImportedChecklist($);
+  if (faction === 'character' || faction === 'item') removeImportedChecklist($);
   else if (faction === 'race') normalizeRaceTables($);
   else if (faction && faction !== 'item') normalizeFactionTables($);
   // This separately checked editorial note qualifies the original imported words.

@@ -1,5 +1,7 @@
+import {removeImportedChecklist} from './character-tables.mjs';
 // Preserve every source cell and its ordering while exposing table roles and grade groups.
 export function normalizeItemTables($){
+ removeImportedChecklist($);
  for(const table of $('table').toArray()){
   const el=$(table);if(el.hasClass('item-normalized'))continue;
   const rows=el.children('tbody').children('tr'),first=rows.first(),second=rows.eq(1);

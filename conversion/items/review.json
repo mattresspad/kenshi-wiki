@@ -4845,6 +4845,375 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "empty-rum-bottle",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Empty Rum Bottle is a junk item found scattered around Kenshi. It has a similar design to the Cactus Rum item. However, there is no action in game which turns Cactus Rum into an Empty Rum Bottle, or vice-versa.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empty-rum-bottle.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "37a00476fa4bd52bbf1c5a0844a352c14cc06ba3d774ab1e576b1406df634442"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "engineering-research",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Engineering Research is a Research Artifact needed for researching various Technologies. It is near guaranteed to spawn at Post-Ancient Workshop, Workshop Complex, and Deadland Workshop. It can also be found in various locations using the Artifacts System such as Ancient Labs. Shops that have a chance of selling them are Travel and Repairs Shop and Scraphous",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/engineering-research.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2de0e76e7d347c811c36d1c99f8e4567683443743c1776b406b7a9538171ff2b"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-research-totals",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "equipment",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Please forgive me, good sir! ... um.. and your armour looks so gorgeous on you.removed dialogue with Traders Guild gate captain Equipment is a set of items equipped to your character. It includes Armour, Clothing, Weapons, Backpacks, and Lanterns. The effect equipment has on Combat, Athletics and Stealth is determined by which class of Armour it is, or how l",
+      "organization": "Reviewed 7 section bookmarks and 0 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/equipment.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bffdcce3d0a08c0614993705d46be661926a840879a42b856b0a6a187977fd0d"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "fabrics",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Fabrics are a versatile item used in the creation of Armour, Clothing, Medical Items, and Weapons. Fabrics can be produced (using either Hemp or Cotton) at a Fabric Loom and stored in a Fabric Chest. The average cost (Assuming purchasing the materials to make Fabrics) is c.450 if using Cotton and c.57 if using Hemp. Fabric Loom (cotton) Fabric Loom (hemp) Us",
+      "organization": "Reviewed 4 section bookmarks and 142 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fabrics.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c7d9f23bf1347f6d9d05c8ef5162b443ed22710a29e905855f0ba135a6b5dbab"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "fancy-rug",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Fancy Rug is a trade good found on the floors of the luxurious Noble Houses. It can be picked up from the floor with an “Alt+left click”. Since Fancy Rugs are only found in possession of the nobles, such an act is always theft, at least at first. A Fancy Rug can be placed back on the floor by simply dragging it out of the inventory of a character. Simple Rug",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fancy-rug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3c66cf88a8c592f6ce5d81496ddcbaf45d09c2c07acef7cc0c0a67286807e162"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "flotsam-safehouse-note",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Flotsam Safehouse Note is a book item which can only be found in Flotsam Safehouse. This item is a letter written to escaped Rebirth Slaves from the leader of the Flotsam Ninjas, Moll. This item is not unique though, as Flotsam Safehouses might also spawn in an overwritten version of Rebirth.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flotsam-safehouse-note.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "15f96989af214dd4f5e2589dd306742e4da541fb30af889857d6c343ae0b63ef"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "fog-prince-head",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Fog Prince Head is an item in Kenshi. This item is only found on Fog Princes and removing it instantly kills its owner. Through selling this item to any vendor who can afford it, characters can earn the c.6,000 bounty on Fog Princes. History Like the Gurgler Head, before this item’s own icon was designed, it made use of the icon for Potatoes. While the icon ",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fog-prince-head.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e344c449cb3502ad8f3e1335a085ce47932aaf5bc8fb98c5d5795a72792dc3cd"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "food",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Loading screen tip: You need to eat to survive. Your character simply needs food in his inventory in order to stay fed. Food in a backpack will be shared among the squad members. Food consists of all the items in Kenshi which fill your hunger bar. A character’s hunger bar is filled by 1 for every nutrition charge used. They automatically consume some food wh",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/food.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8eb08b27ec6043a061beba38440090797b61a1101a2b6f10cba7124775f2b612"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-food-thresholds-efficiency",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "foodcube",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Foodcube is a food item, purchased from relevant traders or created in a Cooking Stove. They make good travelling rations and can be very easy to mass produce. Making Foodcubes for profit is not recommended however as food sells for half of their value unless sold in a counter. Foodcubes have the same nutritional value as Gohan but are much more expensive.",
+      "organization": "Reviewed 2 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/foodcube.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f612f51bea4b40e770144646bba81526a880415f512258841f06de8266f3076f"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-food-thresholds-efficiency",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "foul-raw-meat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Foul Raw Meat is a food item which can be gathered from many Animals and the humanoid Fishmen. It is edible for Hive characters (except for Hive Princes) and Domesticated Animals. It can also be added to the Animal Feeder. While the nutritional value of 10 is considered low, high amounts can be harvested from many creatures. Gathered From Beak Thing - 2 Crab",
+      "organization": "Reviewed 2 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/foul-raw-meat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9550435962dfd511e26dbecd9eb589c5b9de995c1f56def2dd3260d69a0c0b66"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "fuel",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Fuel is essential to keep generators running in areas where wind power is not reliable. To acquire fuel, a player can buy it from construction traders or steal it from various places, additionally it can sometimes be found in ruined buildings. The above means of acquiring fuel can be substituted by researching Biofuel, and building Biofuel Distilleries, whic",
+      "organization": "Reviewed 3 section bookmarks and 4 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fuel.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fc6e57b53b72ce905fa63584db1dbc1b0c89ecbdd4deb877c125f01288ea4e13"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "gears",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Gears is an item which can often be found on the shelves of Trade Goods shops across Kenshi. They have no function outside trade and due to their low value are considered a junk item. Given their abundance in Kenshi’s world, one could speculate that they are used by civilians and certain specialized engineers to fix broken down manual/auto machineries. Craft",
+      "organization": "Reviewed 1 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gears.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b415f594bbe83a476d6fffbd5e7db62aa3661b22622fb7d856cf1f73b8cfd0e7"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "generator-core",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Generator Core is an item which has no designated function. It is the heaviest stackable (In a backpack) object, making it useful for strength training. Aside from that, its only use is trading. In lore-wise terms, it’s most likely used as an essential component for setting up Wind and Fuel Generators, as well as a component to repair those generators in cas",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/generator-core.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6a258a0fdf76e62b733b32c34f865ced7aa2f6eea2c484e57dc0b22b94448910"
+      },
+      "questions": [
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "gohan",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Gohan (ご飯, “cooked rice” in Japanese) is a food item purchased from relevant traders or created in a Cooking Stove. It has the same nutritional value as a Foodcube. This food is easiest to find in The Swamp, where Riceweed is abundant. It will also be sold at a very cheap markup in places which use the “swamper” Trade Culture, which causes it have the best n",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gohan.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8cf9872ee40be73ec4ea3fd51f59ba63dc4fce98c14555afdda8674a1b969baa"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-food-thresholds-efficiency",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "grand-fish",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Grand Fish is a food item in Kenshi. It can be purchased from vendors in The Swamp and Fishing Village. It can also be found in Fish Isle. The other fish species in Kenshi, referenced in this item’s description, is Thinfish. Thinfish can be turned into Dried Fish, but Grand Fish supposedly cannot be dried.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/grand-fish.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bd57f10cda45c470ca87b7ac2c43956be8b23042f80b90c52d3d1dfaa56e5910"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "great-white-claw",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Great White Claw is an item obtained after killing the Great White Gorillo trapped in the locked headquarters in Mourn. If you talk to a bartender while the Great White Claw is in your inventory, he will congratulate you and give you free Sake and Grog.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/great-white-claw.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a87e0d93a0f11fd54f5adcafde6d06472a46cde96eb131ee3fcdadb839c9229d"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "great-white-skin",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Great White Skin is an animal product and trade good in Kenshi. It is obtained from the unconscious or dead Great White Gorillo. It drops as a set of 3 and can be sold for c.3,000 each.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/great-white-skin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "18d744f8d79dfded55b57f21c6e06e9476af65891238424d568affdf67d6d170"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "greenfruit",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Greenfruit is an inedible raw ingredient used in the crafting of food at a Cooking Stove. It can also be turned into fuel at Biofuel Distillery. It is grown at a Vegetable Farm or Hydroponic farm and can be stored in barrels 250 at a time. Both type of farms requires the same amount of water per crop. Vegetable Farm Used In Note: All recipes require 8 Greenf",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/greenfruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e43875c3dde7c0954d591df713575b6d3fb0ec347ae55bd50aa90e0e4075fe40"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "grind-machine",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Grind Machine is a junk item. It serves no purpose other than for trading.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/grind-machine.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d82da24d80ec6abf9d1095475e62a0d8e3fc6afa14dadef3a04bf508a1992305"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "grog",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Grog is a trade good. Grog has no markup due to its rarity in any faction. Grog is made in a Grog Machine using Wheatstraw and Water via the Cooking skill. It is stored in its own unique storage container, Grog Barrels. It cannot be used as food. In the description for Wheatstraw, grog is referred to as a “rum that makes you go blind”. Grog Machine Crafting ",
+      "organization": "Reviewed 4 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/grog.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "922ae40fc4d4ea13016af44d06d20aa3e59a3aac67fda91a214ff4f98a96bf82"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-trade-markups"
+      ]
+    },
+    {
+      "id": "gurgler-egg",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Gurgler Egg is an item which can be obtained from Gurgler Nests in Fishman Island.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gurgler-egg.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "34a3d3890732eee3c8d65ccc0acaa25c95b2c0822b459edd82a49c3bc78bd386"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "gurgler-head",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Gurgler Head is an item only obtainable from the unique King Gurgler in the Island Lab. Taking it kills him instantly. Upon bringing the head to police stations and attempting to collect the bounty, the guards will not take it but rather congratulate you and tell you to look for a collector that would take it as a trophy. The head is valued at c.60,000, ",
+      "organization": "Reviewed 1 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gurgler-head.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cb0dfe5843b6d5cc1f1159deecf0ab1f2253b3f25a4727be4b04f7d97d77b7bc"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "hacksaw",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hacksaw is an item which can be used to cut Prisoner Shackles and Hive Prisoner Shackles. It can also be used to cut open other locks as well. As a Hacksaw weighs only 1kg (Compared to Tools weighing 3kg) and performs the same job as Tools, they are superior.",
+      "organization": "Reviewed 0 section bookmarks and 0 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hacksaw.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4fec14a629d0a34a1ea262fed6a5c1fd3f49f135f2ee49b5a6b20b59272629c4"
+      },
+      "questions": [
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [
