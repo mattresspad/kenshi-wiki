@@ -2180,6 +2180,17 @@
       }
     },
     {
+      "id": "availability:/fighter-recruit",
+      "kind": "availability",
+      "target": "/fighter-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fighter-recruit"
+      }
+    },
+    {
       "id": "availability:/first-village",
       "kind": "availability",
       "target": "/first-village",
@@ -2331,6 +2342,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/flotsam-ninjas"
+      }
+    },
+    {
+      "id": "availability:/flotsam-recruit",
+      "kind": "availability",
+      "target": "/flotsam-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flotsam-recruit"
       }
     },
     {
@@ -2664,6 +2686,28 @@
       }
     },
     {
+      "id": "availability:/green",
+      "kind": "availability",
+      "target": "/green",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/green"
+      }
+    },
+    {
+      "id": "availability:/green-finger",
+      "kind": "availability",
+      "target": "/green-finger",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/green-finger"
+      }
+    },
+    {
       "id": "availability:/greenbeach",
       "kind": "availability",
       "target": "/greenbeach",
@@ -2708,6 +2752,17 @@
       }
     },
     {
+      "id": "availability:/griffin",
+      "kind": "availability",
+      "target": "/griffin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/griffin"
+      }
+    },
+    {
       "id": "availability:/guard-outpost",
       "kind": "availability",
       "target": "/guard-outpost",
@@ -2741,6 +2796,17 @@
       }
     },
     {
+      "id": "availability:/gunner-recruit",
+      "kind": "availability",
+      "target": "/gunner-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gunner-recruit"
+      }
+    },
+    {
       "id": "availability:/gurgler-nest",
       "kind": "availability",
       "target": "/gurgler-nest",
@@ -2771,6 +2837,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/gutters"
+      }
+    },
+    {
+      "id": "availability:/hamut",
+      "kind": "availability",
+      "target": "/hamut",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hamut"
+      }
+    },
+    {
+      "id": "availability:/headshot",
+      "kind": "availability",
+      "target": "/headshot",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/headshot"
       }
     },
     {
@@ -2972,6 +3060,50 @@
       }
     },
     {
+      "id": "availability:/hiveless-farmer",
+      "kind": "availability",
+      "target": "/hiveless-farmer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hiveless-farmer"
+      }
+    },
+    {
+      "id": "availability:/hiveless-fighter",
+      "kind": "availability",
+      "target": "/hiveless-fighter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hiveless-fighter"
+      }
+    },
+    {
+      "id": "availability:/hiveless-gunner",
+      "kind": "availability",
+      "target": "/hiveless-gunner",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hiveless-gunner"
+      }
+    },
+    {
+      "id": "availability:/hiveless-recruit",
+      "kind": "availability",
+      "target": "/hiveless-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hiveless-recruit"
+      }
+    },
+    {
       "id": "availability:/hiver-claimed-armoury",
       "kind": "availability",
       "target": "/hiver-claimed-armoury",
@@ -2980,6 +3112,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hiver-claimed-armoury"
+      }
+    },
+    {
+      "id": "availability:/hobbs",
+      "kind": "availability",
+      "target": "/hobbs",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hobbs"
       }
     },
     {
@@ -3104,6 +3247,83 @@
       }
     },
     {
+      "id": "availability:/holy-nation-engineer",
+      "kind": "availability",
+      "target": "/holy-nation-engineer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-engineer"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-female-adventurer",
+      "kind": "availability",
+      "target": "/holy-nation-female-adventurer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-female-adventurer"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-female-recruit",
+      "kind": "availability",
+      "target": "/holy-nation-female-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-female-recruit"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-fighter",
+      "kind": "availability",
+      "target": "/holy-nation-fighter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-fighter"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-male-adventurer",
+      "kind": "availability",
+      "target": "/holy-nation-male-adventurer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-male-adventurer"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-male-recruit",
+      "kind": "availability",
+      "target": "/holy-nation-male-recruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-male-recruit"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-medic",
+      "kind": "availability",
+      "target": "/holy-nation-medic",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-medic"
+      }
+    },
+    {
       "id": "availability:/holy-nation-outlaws",
       "kind": "availability",
       "target": "/holy-nation-outlaws",
@@ -3115,6 +3335,17 @@
       }
     },
     {
+      "id": "availability:/holy-nation-robot",
+      "kind": "availability",
+      "target": "/holy-nation-robot",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-robot"
+      }
+    },
+    {
       "id": "availability:/horrible-ruin",
       "kind": "availability",
       "target": "/horrible-ruin",
@@ -3123,6 +3354,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/horrible-ruin"
+      }
+    },
+    {
+      "id": "availability:/horse",
+      "kind": "availability",
+      "target": "/horse",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/horse"
       }
     },
     {
@@ -3189,6 +3431,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/infested-lab"
+      }
+    },
+    {
+      "id": "availability:/infinite-wingwang",
+      "kind": "availability",
+      "target": "/infinite-wingwang",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/characters/acceptances.json#recruits-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/infinite-wingwang"
       }
     },
     {

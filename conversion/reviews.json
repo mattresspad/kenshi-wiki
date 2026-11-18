@@ -470,6 +470,98 @@
     "farmer-recruit": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/characters/review.json"
+    },
+    "fighter-recruit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "flotsam-recruit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "green": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "green-finger": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "griffin": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "gunner-recruit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "hamut": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "headshot": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "hiveless-farmer": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "hiveless-fighter": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "hiveless-gunner": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "hiveless-recruit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "hobbs": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-nation-engineer": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-nation-female-adventurer": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-nation-female-recruit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-nation-fighter": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-nation-male-adventurer": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-nation-male-recruit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-nation-medic": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "holy-nation-robot": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "horse": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
+    },
+    "infinite-wingwang": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/characters/review.json"
     }
   },
   "mediaGaps": [
