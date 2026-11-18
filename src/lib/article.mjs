@@ -61,6 +61,7 @@ export function prepareArticle(html, data, href) {
       if(data.layout==='animal' && el.find('tr').length===1 && el.find('td').length===1 && el.text().trim().startsWith('This article has been updated')){
         el.attr("role","presentation").wrap('<aside class="historical-notice" role="note"></aside>');continue;
       }
+      if(data.layout==='animal' && el.hasClass('animal-note')){el.wrap('<aside class="animal-care-note" role="note"></aside>');continue;}
       const label = el.find('caption').first().text() || el.prevAll('h2,h3,h4,h5,h6').first().text() || data.title;
       el.wrap($('<div class="table-scroll" role="region" tabindex="0"></div>').attr('aria-label', label + ' table'));
       const first = el.children('tbody').children('tr').first();

@@ -228,3 +228,7 @@
 .animal .fauna-comparison td:last-child { min-width:20rem }
 .animal .historical-notice { max-width:88ch }
 @media print { .animal .fauna-comparison { min-width:0; font-size:8pt } .animal .fauna-comparison td:last-child { min-width:0 } }
+
+.animal .animal-care-note { max-width:80ch; margin-block:12px; border-inline-start:3px solid var(--brass) }
+.animal .animal-care-note table.animal-note { min-width:0; width:100%; max-width:100%; margin:0 }
+.animal .animal-care-note td { white-space:normal; overflow-wrap:anywhere }

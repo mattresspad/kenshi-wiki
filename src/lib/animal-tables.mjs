@@ -3,6 +3,7 @@ export function normalizeAnimalTables($) {
  for(const table of $('table').toArray()) {
   const el=$(table);if(el.hasClass('animal-normalized'))continue;
   const rows=el.find('tr');
+  if(rows.length===1 && rows.first().children('td').length===1 && !el.find('th').length)el.addClass('animal-note').attr('role','presentation');
   if(rows.length && rows.first().children().length && !rows.first().children(':not(th)').length) {
    let head=el.children('thead');
    if(!head.length){head=$('<thead></thead>').prependTo(el);rows.first().appendTo(head);}

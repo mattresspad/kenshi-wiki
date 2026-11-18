@@ -43,6 +43,11 @@ for(const phone of [false,true])for(const theme of ['light','dark'])test.describ
   expect(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth)).toBe(0);
   for(const image of await tables.locator('img').all())expect(await image.evaluate(el=>el.complete&&el.naturalWidth>0)).toBe(true);
  });
+ test('care warning wraps without its own horizontal scroll',async({page})=>{
+  test.skip(!included.has('guide-to-animals'));await page.goto('/guide-to-animals?theme='+theme+'#purchasable-animals');
+  const note=page.locator('.animal-care-note');await expect(note).toContainText('Bandits May Butcher Animals');
+  expect(await note.evaluate(el=>el.scrollWidth-el.clientWidth)).toBeLessThanOrEqual(1);
+ });
  test('animal reader journeys stay local when their destinations arrive',async({page})=>{
   test.skip(!included.has('fauna'));
   for(const chain of [['/fauna','/bonedog','/wolves'],['/bonefields','/beak-thing','/elder-beak-thing'],['/modding/meitou/make-a-saddle-pack','/pack-bull','/nomads']]){

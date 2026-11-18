@@ -16,3 +16,8 @@ test('animal captions label scroll regions while notices and age qualifications 
  const $=load(result.intro+result.body);assert.equal($('aside[role=note]').length,1);assert.equal($('table').length,2);
  assert.equal($('.table-scroll').attr('aria-label'),'Attributes table');assert.match($.text(),/Current age changes strength/);
 });
+
+test('single-cell care warnings wrap as notes while retaining their text and source cell',()=>{
+ const result=prepareArticle('<p>Care.</p><table><tr><td><b>Bandits May Butcher Animals</b><p>Keep this qualification.</p></td></tr></table>',{title:'Care',layout:'animal',headingIds:{},bookmarks:{}},x=>x),$=load(result.body);
+ assert.equal($('aside[role=note]').length,1);assert.equal($('table[role=presentation] td').length,1);assert.equal($('.table-scroll').length,0);assert.match($.text(),/Keep this qualification/);
+});

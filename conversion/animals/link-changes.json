@@ -27,5 +27,18 @@
     "introduced": [
       "/scout-leg-right"
     ]
+  },
+  {
+    "name": "animal-overview-and-care",
+    "resolved": [
+      "/barnabus",
+      "/fauna",
+      "/guide-to-animals"
+    ],
+    "introduced": [
+      "/animal-claw",
+      "/animal-feeder",
+      "/megacrab-ganglion"
+    ]
   }
 ]
