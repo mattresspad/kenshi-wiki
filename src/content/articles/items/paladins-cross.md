@@ -1,0 +1,150 @@
+---
+articleId: paladins-cross
+title: Paladin's Cross
+description: The Paladin's Cross is a holy weapon commonly used by the paladins of The Holy Nation. With increased damage against Robots, it is a very effective weapon fo…
+categories:
+  - Weapons
+  - Hacker
+  - Paladins
+  - Holy Nation
+layout: item
+factTitle: Paladin's Cross
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Hacker
+          - /hackers
+      - - Base weight
+        - 8 kg
+      - - Base value
+        - c. 400
+      - - Size in inventory
+        - 2x10
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 0.80x
+      - - Blunt damage
+        - 0.80x
+      - - Bleed
+        - 0.75x
+      - - Armour penetration
+        - +30%
+      - - Attack
+        - "0"
+      - - Defence
+        - "+2"
+      - - Indoors
+        - "-2"
+      - - Reach
+        - "23"
+  - heading: Damage against
+    rows:
+      - - Humans
+        - -10%
+      - - Animals
+        - -10%
+      - - Robots
+        - +50%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 52299-rebirth.mod
+factImage:
+  src: /icons/items/52299-rebirth.mod.png
+  alt: Paladin's Cross
+factCaption: The Cross is the revered holy weapon and symbol of the Paladins.  With it they have been slaying skeletons and people they think might be skeletons for centuries.
+---
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
+
+The **Paladin's Cross** is a holy weapon commonly used by the paladins of [The Holy Nation](/the-holy-nation). With increased damage against [Robots](/robots), it is a very effective weapon for removing the technological taint across the world.
+
+The [Meitou](/meitou) quality **Paladin's Cross** can be found on [Holy Lord Phoenix](/holy-lord-phoenix) in [Blister Hill](/blister-hill).
+
+This weapon has inventory dimensions of **2x10**, meaning it can only be equipped as a primary weapon.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>11</td><td>11</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>11</td><td>11</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>11</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Paladin's Cross blueprint: 4 hours at tech level 2; the blueprint is worth c. 5,000.</li></ul></div>
+
+## Blueprint Locations
+
+All the possible locations to find the [Blueprint](/blueprints) for this weapon.
+
+-   Holy Nation Barracks
+-   [Holy Armory](/holy-armory)
+-   [Holy Weapon Shop](/holy-weapon-shop)
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.308</td></tr><tr><td>-Blunt damage</td><td>0.08</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>+1</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.904</td></tr><tr><td>-Sell value</td><td>c.226</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.376</td></tr><tr><td>-Blunt damage</td><td>0.16</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.992</td></tr><tr><td>-Sell value</td><td>c.248</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.3996</td></tr><tr><td>-Blunt damage</td><td>0.24</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.2,983</td></tr><tr><td>-Sell value</td><td>c.745</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.4608</td></tr><tr><td>-Blunt damage</td><td>0.32</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>12.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.40 kg</td></tr><tr><td>-Value</td><td>c.3,463</td></tr><tr><td>-Sell value</td><td>c.865</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.522</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.4,132</td></tr><tr><td>-Sell value</td><td>c.1,033</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.648</td></tr><tr><td>-Blunt damage</td><td>0.576</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>23.04</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>11.52 kg</td></tr><tr><td>-Value</td><td>c.7,556</td></tr><tr><td>-Sell value</td><td>c.1,889</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.716</td></tr><tr><td>-Blunt damage</td><td>0.672</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>26.88</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>13.44 kg</td></tr><tr><td>-Value</td><td>c.9,324</td></tr><tr><td>-Sell value</td><td>c.2,331</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.784</td></tr><tr><td>-Blunt damage</td><td>0.768</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>30.72</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>15.36 kg</td></tr><tr><td>-Value</td><td>c.11,510</td></tr><tr><td>-Sell value</td><td>c.2,877</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.92</td></tr><tr><td>-Blunt damage</td><td>0.80</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>32.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.00 kg</td></tr><tr><td>-Value</td><td>c.16,800</td></tr><tr><td>-Sell value</td><td>c.4,200</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.988</td></tr><tr><td>-Blunt damage</td><td>0.88</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>35.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>17.60 kg</td></tr><tr><td>-Value</td><td>c.19,547</td></tr><tr><td>-Sell value</td><td>c.4,886</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.056</td></tr><tr><td>-Blunt damage</td><td>0.96</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>38.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>19.20 kg</td></tr><tr><td>-Value</td><td>c.22,088</td></tr><tr><td>-Sell value</td><td>c.5,522</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.3112</td></tr><tr><td>-Blunt damage</td><td>1.12</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>44.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.40 kg</td></tr><tr><td>-Value</td><td>c.30,383</td></tr><tr><td>-Sell value</td><td>c.7,595</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.386</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>24.00 kg</td></tr><tr><td>-Value</td><td>c.31,968</td></tr><tr><td>-Sell value</td><td>c.7,992</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.4608</td></tr><tr><td>-Blunt damage</td><td>1.28</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>51.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>25.60 kg</td></tr><tr><td>-Value</td><td>c.33,138</td></tr><tr><td>-Sell value</td><td>c.8,284</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.76</td></tr><tr><td>-Blunt damage</td><td>1.60</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>64.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>32.00 kg</td></tr><tr><td>-Value</td><td>c.50,365</td></tr><tr><td>-Sell value</td><td>c.12,591</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.308</td></tr><tr><td>-Blunt damage</td><td>0.08</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-1</td></tr><tr><td>-Defence bonus</td><td>+1</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.3,016</td></tr><tr><td>-Sell value</td><td>c.754</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.376</td></tr><tr><td>-Blunt damage</td><td>0.16</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.3,308</td></tr><tr><td>-Sell value</td><td>c.827</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.444</td></tr><tr><td>-Blunt damage</td><td>0.24</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.3,729</td></tr><tr><td>-Sell value</td><td>c.932</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.512</td></tr><tr><td>-Blunt damage</td><td>0.32</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>12.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.4,329</td></tr><tr><td>-Sell value</td><td>c.1,082</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.58</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.5,165</td></tr><tr><td>-Sell value</td><td>c.1,291</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.648</td></tr><tr><td>-Blunt damage</td><td>0.48</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>19.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.60 kg</td></tr><tr><td>-Value</td><td>c.6,296</td></tr><tr><td>-Sell value</td><td>c.1,574</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.716</td></tr><tr><td>-Blunt damage</td><td>0.56</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>22.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>11.20 kg</td></tr><tr><td>-Value</td><td>c.7,770</td></tr><tr><td>-Sell value</td><td>c.1,942</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.784</td></tr><tr><td>-Blunt damage</td><td>0.64</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>25.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.80 kg</td></tr><tr><td>-Value</td><td>c.9,592</td></tr><tr><td>-Sell value</td><td>c.2,398</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.92</td></tr><tr><td>-Blunt damage</td><td>0.80</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>32.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.00 kg</td></tr><tr><td>-Value</td><td>c.14,000</td></tr><tr><td>-Sell value</td><td>c.3,500</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>0.988</td></tr><tr><td>-Blunt damage</td><td>0.88</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>35.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>17.60 kg</td></tr><tr><td>-Value</td><td>c.16,289</td></tr><tr><td>-Sell value</td><td>c.4,072</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.056</td></tr><tr><td>-Blunt damage</td><td>0.96</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>38.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>19.20 kg</td></tr><tr><td>-Value</td><td>c.18,407</td></tr><tr><td>-Sell value</td><td>c.4,601</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.192</td></tr><tr><td>-Blunt damage</td><td>1.12</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>44.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.40 kg</td></tr><tr><td>-Value</td><td>c.21,702</td></tr><tr><td>-Sell value</td><td>c.5,425</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Paladin's Cross</td></tr><tr><td>[Hacker class]</td></tr><tr><td>-Cutting damage</td><td>1.26</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>0.75x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Defence bonus</td><td>+2</td></tr><tr><td>-Indoors bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+50%</td></tr><tr><td>-Damage vs humans</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>24.00 kg</td></tr><tr><td>-Value</td><td>c.22,834</td></tr><tr><td>-Sell value</td><td>c.5,708</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## History
+
+### Unused icons

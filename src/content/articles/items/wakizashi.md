@@ -1,0 +1,158 @@
+---
+articleId: wakizashi
+title: Wakizashi
+description: A Wakizashi is a Katana Class weapon. This is the smallest katana, giving it a major advantage indoors. Though like most katanas it has a large penalty again…
+categories:
+  - Weapons
+  - Katana
+layout: item
+factTitle: Wakizashi
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Katana
+          - /katanas
+      - - Base weight
+        - 1 kg
+      - - Base value
+        - c. 250
+      - - Size in inventory
+        - 1x6
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 0.90x
+      - - Blunt damage
+        - 0.00x
+      - - Bleed
+        - 1.20x
+      - - Armour penetration
+        - -30%
+      - - Attack
+        - "+2"
+      - - Defence
+        - "-2"
+      - - Indoors
+        - "+4"
+      - - Reach
+        - "16"
+  - heading: Damage against
+    rows:
+      - - Humans
+        - +10%
+      - - Robots
+        - -40%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, animal, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 1020-gamedata.base
+factImage:
+  src: /icons/items/1020-gamedata.base.png
+  alt: Wakizashi
+factCaption: Smaller and lighter, usually used as a sidearm for backup.  It's worth noting that although short, it has a major advantage when fighting indoors against longer weapons.
+---
+
+A **Wakizashi** is a [Katana Class](/katanas) weapon. This is the smallest katana, giving it a major advantage indoors. Though like most katanas it has a large penalty against armour and robots. Its low damage and lack of blunt damage make it a decent option for training [Dexterity](/dexterity).
+
+This weapon has inventory dimensions of **1x6**. It can be equipped in both the primary and secondary weapon slots.
+
+The [Cross](/cross)\-version of this weapon can be found on [Lady Kana](/lady-kana), [Slave Mistress Ren](/slave-mistress-ren) and [Slave Mistress Grace](/slave-mistress-grace).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>4</td><td>4</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>4</td><td>4</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Wakizashis blueprint: 6 hours at tech level 2; the blueprint is worth c. 5,000.</li></ul></div>
+
+## Blueprints
+
+<table class="wikitable"><tbody><tr><td colspan="2"><div></div><div>Wakizashis</div><div>[Research Blueprint]</div><div></div></td></tr><tr><td colspan="2">A shorter variant of the Katana, they are fast and sharp but generally used as backup weapons.<hr></td></tr><tr><td>Research Level</td><td>2</td></tr><tr><td>Value</td><td>c.5,000</td></tr><tr><td>Sell value</td><td>c.1,250</td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Ability to Make</td><td><div><strong>Wakizashi</strong></div></td></tr></tbody></table>
+
+The [Blueprints](/blueprints) for this item can be found at the following locations.
+
+### Shops
+
+-   [Bar of Mourn](/bar-of-mourn)
+-   [Black Market Bar](/black-market-bar)
+-   [Catun Scrapmasters](/catun-scrapmasters)
+-   [Empire Weapon Shop](/empire-weapon-shop)
+-   [Mongrel Weapon Shop](/mongrel-weapon-shop)
+-   [Ronin Weapon Shop](/ronin-weapon-shop)
+-   [The Great Library](/the-great-library)
+
+### Loot
+
+-   [Cactus Den](/cactus-den)
+-   [Flotsam Armory](/flotsam-armory)
+-   [Tower of Ninjas](/tower-of-ninjas)
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.3465</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+1</td></tr><tr><td>-Defence bonus</td><td>-3</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.565</td></tr><tr><td>-Sell value</td><td>c.141</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.423</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.620</td></tr><tr><td>-Sell value</td><td>c.155</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.44955</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>0.70</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>0.70 kg</td></tr><tr><td>-Value</td><td>c.1,864</td></tr><tr><td>-Sell value</td><td>c.466</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.5184</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>0.70</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>0.70 kg</td></tr><tr><td>-Value</td><td>c.2,164</td></tr><tr><td>-Sell value</td><td>c.541</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.58725</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>0.70</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>0.70 kg</td></tr><tr><td>-Value</td><td>c.2,582</td></tr><tr><td>-Sell value</td><td>c.645</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.729</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.2</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.20 kg</td></tr><tr><td>-Value</td><td>c.4,722</td></tr><tr><td>-Sell value</td><td>c.1,180</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.8055</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.2</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.20 kg</td></tr><tr><td>-Value</td><td>c.5,827</td></tr><tr><td>-Sell value</td><td>c.1,456</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.882</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.2</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.20 kg</td></tr><tr><td>-Value</td><td>c.7,194</td></tr><tr><td>-Sell value</td><td>c.1,798</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.035</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.10,500</td></tr><tr><td>-Sell value</td><td>c.2,625</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.1115</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.12,216</td></tr><tr><td>-Sell value</td><td>c.3,054</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.188</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.13,805</td></tr><tr><td>-Sell value</td><td>c.3,451</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.4751</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.18,989</td></tr><tr><td>-Sell value</td><td>c.4,747</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.55925</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.19,980</td></tr><tr><td>-Sell value</td><td>c.4,995</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.6434</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.20,711</td></tr><tr><td>-Sell value</td><td>c.5,177</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.98</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.31,478</td></tr><tr><td>-Sell value</td><td>c.7,869</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.3465</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+1</td></tr><tr><td>-Defence bonus</td><td>-3</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.1,885</td></tr><tr><td>-Sell value</td><td>c.471</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.423</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.2,067</td></tr><tr><td>-Sell value</td><td>c.516</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.4995</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.2,331</td></tr><tr><td>-Sell value</td><td>c.582</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.576</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.2,706</td></tr><tr><td>-Sell value</td><td>c.676</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.6525</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.3,228</td></tr><tr><td>-Sell value</td><td>c.807</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.729</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.3,935</td></tr><tr><td>-Sell value</td><td>c.983</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.8055</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.4,856</td></tr><tr><td>-Sell value</td><td>c.1,214</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.882</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.5,995</td></tr><tr><td>-Sell value</td><td>c.1,498</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.035</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.8,750</td></tr><tr><td>-Sell value</td><td>c.2,187</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.1115</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.10,180</td></tr><tr><td>-Sell value</td><td>c.2,545</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.188</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.11,504</td></tr><tr><td>-Sell value</td><td>c.2,876</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.341</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.13,564</td></tr><tr><td>-Sell value</td><td>c.3,391</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Wakizashi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.4175</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-30%</td></tr><tr><td>-Attack bonus</td><td>+2</td></tr><tr><td>-Defence bonus</td><td>-2</td></tr><tr><td>-Indoors bonus</td><td>+4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>1.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.14,271</td></tr><tr><td>-Sell value</td><td>c.3,567</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## History
+
+### Unused icons

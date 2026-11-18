@@ -1,0 +1,142 @@
+---
+articleId: mercenary-club
+title: Mercenary Club
+description: The Mercenary club is one of the better quality Blunt weapons, as far as damage is concerned. This club is often used by slavers.
+categories:
+  - Weapons
+  - Blunt
+layout: item
+factTitle: Mercenary Club
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Blunt
+          - /blunt-weapons
+      - - Base weight
+        - 4 kg
+      - - Base value
+        - c. 150
+      - - Size in inventory
+        - 1x7
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 0.20x
+      - - Blunt damage
+        - 1.00x
+      - - Bleed
+        - 0.30x
+      - - Armour penetration
+        - +30%
+      - - Attack
+        - "-2"
+      - - Defence
+        - "0"
+      - - Reach
+        - "18"
+  - heading: Damage against
+    rows:
+      - - Animals
+        - -10%
+      - - Robots
+        - +20%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 2110-gamedata.base
+factImage:
+  src: /icons/items/2110-gamedata.base.png
+  alt: Mercenary Club
+factCaption: A hefty club used by wealthier bandit types.
+---
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
+
+The **Mercenary club** is one of the better quality [Blunt weapons](/blunt), as far as damage is concerned. This club is often used by slavers.
+
+This weapon has inventory dimensions of **1x7**. It can be equipped in both the primary and secondary weapon slots.
+
+The ability to make this weapon is learned through researching [Heavy Weapons](/heavy-weapons-tech).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>6</td><td>6</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>6</td><td>6</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/heavy-weapons-tech">Heavy Weapons</a> research: 4 hours at tech level 2; costs <a href="/book">6 Books</a>.</li></ul></div>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center" bgcolor="#322d2a"><a href="/heavy-weapons-tech">Heavy Weapons</a><b></b></td></tr><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">Heavy weapons. Ridiculed by many and often hailed as "cock extensions", nothing is more amusing than watching some idiot try to fight with a weapon he can barely lift. But, if you work very, very hard, if you master it and build the necessary strength... maybe, just maybe you could become something very dangerous...</td></tr><tr><td colspan="2" align="center"><hr></td></tr><tr><td><b>Research Level</b></td><td>2</td></tr><tr><td><b>Estimated Time</b></td><td>4 hours</td></tr><tr><td><b>Costs</b></td><td>6 <a href="/book">Books</a></td></tr><tr><td colspan="2" align="center" bgcolor="#322d2a"><b>Unlocks</b></td></tr><tr><td><b>Ability to Make</b></td><td><strong>Mercenary Club</strong>, <a href="/spiked-club">Spiked Club</a></td></tr><tr><td><b>Ability to Research</b></td><td><span class="new" title="The Plank (Tech) (page does not exist)" data-uncrawlable-url="L3dpa2kvVGhlX1BsYW5rXyhUZWNoKT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">The Plank (Tech)</span>, <span class="new" title="Fragment Axe (Tech) (page does not exist)" data-uncrawlable-url="L3dpa2kvRnJhZ21lbnRfQXhlXyhUZWNoKT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Fragment Axe (Tech)</span></td></tr></tbody></table>
+
+## Blueprints
+
+There are no [Blueprints](/blueprints) for this item available in the game.
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.077</td></tr><tr><td>-Blunt damage</td><td>0.10</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-3</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.339</td></tr><tr><td>-Sell value</td><td>c.84</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.094</td></tr><tr><td>-Blunt damage</td><td>0.20</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.372</td></tr><tr><td>-Sell value</td><td>c.93</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.0999</td></tr><tr><td>-Blunt damage</td><td>0.30</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>12.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.1,118</td></tr><tr><td>-Sell value</td><td>c.279</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1152</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.1,298</td></tr><tr><td>-Sell value</td><td>c.324</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1305</td></tr><tr><td>-Blunt damage</td><td>0.50</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>20.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.1,549</td></tr><tr><td>-Sell value</td><td>c.387</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.162</td></tr><tr><td>-Blunt damage</td><td>0.72</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>28.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.40 kg</td></tr><tr><td>-Value</td><td>c.2,833</td></tr><tr><td>-Sell value</td><td>c.708</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.179</td></tr><tr><td>-Blunt damage</td><td>0.84</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>33.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.80 kg</td></tr><tr><td>-Value</td><td>c.3,496</td></tr><tr><td>-Sell value</td><td>c.874</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.196</td></tr><tr><td>-Blunt damage</td><td>0.96</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>38.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>19.20 kg</td></tr><tr><td>-Value</td><td>c.4,316</td></tr><tr><td>-Sell value</td><td>c.1,079</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.23</td></tr><tr><td>-Blunt damage</td><td>1.00</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>40.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.00 kg</td></tr><tr><td>-Value</td><td>c.6,300</td></tr><tr><td>-Sell value</td><td>c.1,575</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.247</td></tr><tr><td>-Blunt damage</td><td>1.10</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>44.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.00 kg</td></tr><tr><td>-Value</td><td>c.7,330</td></tr><tr><td>-Sell value</td><td>c.1,832</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.264</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>24.00 kg</td></tr><tr><td>-Value</td><td>c.8,283</td></tr><tr><td>-Sell value</td><td>c.2,070</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.3278</td></tr><tr><td>-Blunt damage</td><td>1.40</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>56.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>28.00 kg</td></tr><tr><td>-Value</td><td>c.11,393</td></tr><tr><td>-Sell value</td><td>c.2,848</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.3465</td></tr><tr><td>-Blunt damage</td><td>1.50</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>60.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>30.00 kg</td></tr><tr><td>-Value</td><td>c.11,988</td></tr><tr><td>-Sell value</td><td>c.2,997</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.3652</td></tr><tr><td>-Blunt damage</td><td>1.60</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>64.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>32.00 kg</td></tr><tr><td>-Value</td><td>c.12,426</td></tr><tr><td>-Sell value</td><td>c.3,106</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.44</td></tr><tr><td>-Blunt damage</td><td>2.00</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>80.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>40.00 kg</td></tr><tr><td>-Value</td><td>c.18,886</td></tr><tr><td>-Sell value</td><td>c.4,721</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.077</td></tr><tr><td>-Blunt damage</td><td>0.10</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-3</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.1,131</td></tr><tr><td>-Sell value</td><td>c.282</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.094</td></tr><tr><td>-Blunt damage</td><td>0.20</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.1,240</td></tr><tr><td>-Sell value</td><td>c.310</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.111</td></tr><tr><td>-Blunt damage</td><td>0.30</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>12.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.1,398</td></tr><tr><td>-Sell value</td><td>c.349</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.128</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.1,623</td></tr><tr><td>-Sell value</td><td>c.405</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.145</td></tr><tr><td>-Blunt damage</td><td>0.50</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>20.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.1,936</td></tr><tr><td>-Sell value</td><td>c.484</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.162</td></tr><tr><td>-Blunt damage</td><td>0.60</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>24.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.00 kg</td></tr><tr><td>-Value</td><td>c.2,361</td></tr><tr><td>-Sell value</td><td>c.590</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.179</td></tr><tr><td>-Blunt damage</td><td>0.70</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>28.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.00 kg</td></tr><tr><td>-Value</td><td>c.2,913</td></tr><tr><td>-Sell value</td><td>c.728</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.196</td></tr><tr><td>-Blunt damage</td><td>0.80</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>32.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.00 kg</td></tr><tr><td>-Value</td><td>c.3,597</td></tr><tr><td>-Sell value</td><td>c.899</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.23</td></tr><tr><td>-Blunt damage</td><td>1.00</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>40.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.00 kg</td></tr><tr><td>-Value</td><td>c.5,250</td></tr><tr><td>-Sell value</td><td>c.1,312</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.247</td></tr><tr><td>-Blunt damage</td><td>1.10</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>44.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.00 kg</td></tr><tr><td>-Value</td><td>c.6,108</td></tr><tr><td>-Sell value</td><td>c.1,527</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.264</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>24.00 kg</td></tr><tr><td>-Value</td><td>c.6,902</td></tr><tr><td>-Sell value</td><td>c.1,725</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.298</td></tr><tr><td>-Blunt damage</td><td>1.40</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>56.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>28.00 kg</td></tr><tr><td>-Value</td><td>c.8,138</td></tr><tr><td>-Sell value</td><td>c.2,034</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Mercenary Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.315</td></tr><tr><td>-Blunt damage</td><td>1.50</td></tr><tr><td>-Blood loss</td><td>0.30x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Damage vs robots</td><td>+20%</td></tr><tr><td>-Required Strength Level</td><td>60.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>30.00 kg</td></tr><tr><td>-Value</td><td>c.8,562</td></tr><tr><td>-Sell value</td><td>c.2,140</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## Trivia
+
+-   Even though there is a [Meitou](/meitou) texture, it does not spawn in game, making it impossible to get your hands on without mods.

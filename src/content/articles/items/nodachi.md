@@ -1,0 +1,149 @@
+---
+articleId: nodachi
+title: Nodachi
+description: A Nodachi is a Katana Class weapon. Heavier, with increased range and damage compared to most katanas at the expense of indoor penalties. It is very widely u…
+categories:
+  - Weapons
+  - Katana
+layout: item
+factTitle: Nodachi
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Katana
+          - /katanas
+      - - Base weight
+        - 8 kg
+      - - Base value
+        - c. 600
+      - - Size in inventory
+        - 1x10
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 1.20x
+      - - Blunt damage
+        - 0.00x
+      - - Bleed
+        - 1.20x
+      - - Armour penetration
+        - -20%
+      - - Attack
+        - "+4"
+      - - Defence
+        - "-4"
+      - - Indoors
+        - "-4"
+      - - Reach
+        - "25"
+  - heading: Damage against
+    rows:
+      - - Humans
+        - +10%
+      - - Robots
+        - -40%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 922-gamedata.base
+factImage:
+  src: /icons/items/922-gamedata.base.png
+  alt: Nodachi
+factCaption: An extended katana variant with increased reach and damage.
+---
+
+A **Nodachi** is a [Katana Class](/katanas) weapon. Heavier, with increased range and damage compared to most katanas at the expense of indoor penalties. It is very widely used, including by many of the more elite samurai of the [United Cities](/united-cities). It has the second lowest Armour Penetration penalty of the Katanas (Ninja blade has -20% as well but it is Ninja blade so...) making it decent (Katana wise) for taking on armoured foes. Due to the reduced Defense and indoor penalty, a Rusted Junk version can be used to level Defense up extremely fast inside of a building.
+
+The [Meitou](/meitou) version of this weapon can be found on the leader of Skin Bandits, [Savant](/savant).
+
+This weapon has inventory dimensions of **1x10**, meaning it cannot be stored in the inventory and must be equipped as a primary or stored in a backpack.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>10</td><td>10</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>10</td><td>10</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Nodachi blueprint: 6 hours at tech level 2; needs <a href="/katanas">Katanas</a>; the blueprint is worth c. 15,000.</li></ul></div>
+
+## Blueprint Locations
+
+All the possible locations to find the [Blueprint](/blueprints) for this weapon.
+
+-   [Black Market Bar](/black-market-bar) (Hub bar, Rebel Bar, Mourne Bar)
+-   [Catun Scrapmasters](/catun-scrapmasters)
+-   [Empire Weapon Shop](/empire-weapon-shop)
+-   [Ronin Weapon Shop](/ronin-weapon-shop)
+-   [The Great Library](/the-great-library)
+-   Armory - Flotsam Village
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.462</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+3</td></tr><tr><td>-Defence bonus</td><td>-5</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.1,357</td></tr><tr><td>-Sell value</td><td>c.339</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.564</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.1,488</td></tr><tr><td>-Sell value</td><td>c.372</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.5994</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>5.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.4,475</td></tr><tr><td>-Sell value</td><td>c.1,118</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.6912</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>5.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.5,195</td></tr><tr><td>-Sell value</td><td>c.1,298</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.783</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>5.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.6,198</td></tr><tr><td>-Sell value</td><td>c.1,549</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.972</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.60 kg</td></tr><tr><td>-Value</td><td>c.11,334</td></tr><tr><td>-Sell value</td><td>c.2,833</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.074</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.60 kg</td></tr><tr><td>-Value</td><td>c.13,986</td></tr><tr><td>-Sell value</td><td>c.3,496</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.176</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.60 kg</td></tr><tr><td>-Value</td><td>c.17,266</td></tr><tr><td>-Sell value</td><td>c.4,316</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.38</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.25,200</td></tr><tr><td>-Sell value</td><td>c.6,300</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.482</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.29,320</td></tr><tr><td>-Sell value</td><td>c.7,330</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.584</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.33,133</td></tr><tr><td>-Sell value</td><td>c.8,283</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.9668</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.45,575</td></tr><tr><td>-Sell value</td><td>c.11,393</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>2.079</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.47,952</td></tr><tr><td>-Sell value</td><td>c.11,988</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>2.1912</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.49,707</td></tr><tr><td>-Sell value</td><td>c.12,426</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>2.64</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.75,548</td></tr><tr><td>-Sell value</td><td>c.18,887</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.462</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+3</td></tr><tr><td>-Defence bonus</td><td>-5</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.4,525</td></tr><tr><td>-Sell value</td><td>c.1,131</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.564</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.4,962</td></tr><tr><td>-Sell value</td><td>c.1,240</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.666</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.5,594</td></tr><tr><td>-Sell value</td><td>c.1,398</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.768</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.6,494</td></tr><tr><td>-Sell value</td><td>c.1,623</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.87</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.7,748</td></tr><tr><td>-Sell value</td><td>c.1,937</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>0.972</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.9,445</td></tr><tr><td>-Sell value</td><td>c.2,361</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.074</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.11,655</td></tr><tr><td>-Sell value</td><td>c.2,913</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.176</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.14,388</td></tr><tr><td>-Sell value</td><td>c.3,597</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.38</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.21,000</td></tr><tr><td>-Sell value</td><td>c.5,250</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.482</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.24,434</td></tr><tr><td>-Sell value</td><td>c.6,108</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.584</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.27,610</td></tr><tr><td>-Sell value</td><td>c.6,902</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.788</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.32,554</td></tr><tr><td>-Sell value</td><td>c.8,138</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Nodachi</td></tr><tr><td>[Katana class]</td></tr><tr><td>-Cutting damage</td><td>1.89</td></tr><tr><td>-Blunt damage</td><td>0.00</td></tr><tr><td>-Blood loss</td><td>1.20x</td></tr><tr><td>-Armour penetration</td><td>-20%</td></tr><tr><td>-Attack bonus</td><td>+4</td></tr><tr><td>-Defence bonus</td><td>-4</td></tr><tr><td>-Indoors bonus</td><td>-4</td></tr><tr><td>-Damage vs robots</td><td>-40%</td></tr><tr><td>-Damage vs humans</td><td>+10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.34,251</td></tr><tr><td>-Sell value</td><td>c.8,562</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## Trivia
+
+-   Nodachi along with the Falling Sun has the highest value of all weapons.
+-   Nōdachi is the variant of ōdachi (大太刀), which translates into "_large/great sword_."
+-   Nōdachi translates into "_field sword_."

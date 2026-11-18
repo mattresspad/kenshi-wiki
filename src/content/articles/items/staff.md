@@ -1,0 +1,143 @@
+---
+articleId: staff
+title: Staff
+description: The Staff is a long, relatively fast weapon with a short reach (For a Polearm). Please note that the "fast" part has to do with the animations assigned to al…
+categories:
+  - Weapons
+  - Polearms
+layout: item
+factTitle: Staff
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Polearm
+          - /polearms
+      - - Base weight
+        - 1 kg
+      - - Base value
+        - c. 100
+      - - Size in inventory
+        - 1x10
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 0.05x
+      - - Blunt damage
+        - 0.80x
+      - - Bleed
+        - 0.10x
+      - - Armour penetration
+        - 0%
+      - - Attack
+        - "+8"
+      - - Defence
+        - "0"
+      - - Indoors
+        - "-6"
+      - - Reach
+        - "23"
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 52302-rebirth.mod
+factImage:
+  src: /icons/items/52302-rebirth.mod.png
+  alt: Staff
+factCaption: Popular with poor farmers, pacifists and drifters.  It's usually seen as a weapon for those who can't afford a blade, but sometimes can make a fool of a good swordsman.
+---
+
+The **Staff** is a long, relatively fast weapon with a short reach (For a Polearm). Please note that the "fast" part has to do with the animations assigned to all Polearms. Its moderate blunt damage and low cut damage means that it is the worst weapon to train Dexterity with. (Not including Jitte/Heavy Jitte which give 0 Dex for training with) It is often found as a weapon on farmers and various civilians.
+
+This weapon can primarily be found in shops in [The Swamp](/the-swamp). It is often the weapon of choice of [Rebel Farmers](/rebel-farmers). A [Meitou](/meitou) grade staff is in the hands of [Spider Foreman](/spider-foreman) in [Spider Factory](/spider-factory).
+
+The staff is unique among the [Polearms](/polearms) for not having a damage bonus against animals.
+
+The ability to make this weapon can be learned by researching [Basic Weapon Smithing](/basic-weapon-smithing-tech).
+
+This weapon has inventory dimensions of **1x10**, meaning it can only be equipped as a primary weapon.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>2</td><td>2</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>2</td><td>2</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/basic-weapon-smithing-tech">Basic Weapon Smithing</a> research: 4 hours at tech level 1; costs <a href="/book">2 Books</a>.</li></ul></div>
+
+## Blueprints
+
+There are no [Blueprints](/blueprints) for this item available in the game as it is learned when researching [Basic Weapon Smithing](/basic-weapon-smithing-tech).
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.01925</td></tr><tr><td>-Blunt damage</td><td>0.08</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+7</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>3.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.226</td></tr><tr><td>-Sell value</td><td>c.56</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.0235</td></tr><tr><td>-Blunt damage</td><td>0.16</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>6.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.248</td></tr><tr><td>-Sell value</td><td>c.62</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.024975</td></tr><tr><td>-Blunt damage</td><td>0.24</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.20 kg</td></tr><tr><td>-Value</td><td>c.745</td></tr><tr><td>-Sell value</td><td>c.186</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.0288</td></tr><tr><td>-Blunt damage</td><td>0.32</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>12.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.60 kg</td></tr><tr><td>-Value</td><td>c.865</td></tr><tr><td>-Sell value</td><td>c.216</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.032625</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.1,032</td></tr><tr><td>-Sell value</td><td>c.258</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.0405</td></tr><tr><td>-Blunt damage</td><td>0.576</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>23.04</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.88 kg</td></tr><tr><td>-Value</td><td>c.1,888</td></tr><tr><td>-Sell value</td><td>c.472</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.04475</td></tr><tr><td>-Blunt damage</td><td>0.672</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>26.88</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.36 kg</td></tr><tr><td>-Value</td><td>c.2,330</td></tr><tr><td>-Sell value</td><td>c.582</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.049</td></tr><tr><td>-Blunt damage</td><td>0.768</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>30.72</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.84 kg</td></tr><tr><td>-Value</td><td>c.2,877</td></tr><tr><td>-Sell value</td><td>c.719</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.0575</td></tr><tr><td>-Blunt damage</td><td>0.80</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>32.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.4,200</td></tr><tr><td>-Sell value</td><td>c.1,050</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.06175</td></tr><tr><td>-Blunt damage</td><td>0.88</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>35.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.40 kg</td></tr><tr><td>-Value</td><td>c.4,886</td></tr><tr><td>-Sell value</td><td>c.1,221</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.066</td></tr><tr><td>-Blunt damage</td><td>0.96</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>38.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.80 kg</td></tr><tr><td>-Value</td><td>c.5,522</td></tr><tr><td>-Sell value</td><td>c.1,380</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.08195</td></tr><tr><td>-Blunt damage</td><td>1.12</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>44.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.7,595</td></tr><tr><td>-Sell value</td><td>c.1,898</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.086625</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.7,992</td></tr><tr><td>-Sell value</td><td>c.1,998</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.0913</td></tr><tr><td>-Blunt damage</td><td>1.28</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>51.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.40 kg</td></tr><tr><td>-Value</td><td>c.8,284</td></tr><tr><td>-Sell value</td><td>c.2,071</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.11</td></tr><tr><td>-Blunt damage</td><td>1.60</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>64.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.12,591</td></tr><tr><td>-Sell value</td><td>c.3,147</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.01925</td></tr><tr><td>-Blunt damage</td><td>0.08</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+7</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>3.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.754</td></tr><tr><td>-Sell value</td><td>c.188</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.0235</td></tr><tr><td>-Blunt damage</td><td>0.16</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>6.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.00 kg</td></tr><tr><td>-Value</td><td>c.826</td></tr><tr><td>-Sell value</td><td>c.206</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.02775</td></tr><tr><td>-Blunt damage</td><td>0.24</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>9.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.20 kg</td></tr><tr><td>-Value</td><td>c.932</td></tr><tr><td>-Sell value</td><td>c.233</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.032</td></tr><tr><td>-Blunt damage</td><td>0.32</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>12.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>1.60 kg</td></tr><tr><td>-Value</td><td>c.1,082</td></tr><tr><td>-Sell value</td><td>c.270</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.03625</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.00 kg</td></tr><tr><td>-Value</td><td>c.1,291</td></tr><tr><td>-Sell value</td><td>c.322</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.0405</td></tr><tr><td>-Blunt damage</td><td>0.48</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>19.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.40 kg</td></tr><tr><td>-Value</td><td>c.1,574</td></tr><tr><td>-Sell value</td><td>c.393</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.04475</td></tr><tr><td>-Blunt damage</td><td>0.56</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>22.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>2.80 kg</td></tr><tr><td>-Value</td><td>c.1,942</td></tr><tr><td>-Sell value</td><td>c.485</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.049</td></tr><tr><td>-Blunt damage</td><td>0.64</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>25.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.20 kg</td></tr><tr><td>-Value</td><td>c.2,398</td></tr><tr><td>-Sell value</td><td>c.599</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.0575</td></tr><tr><td>-Blunt damage</td><td>0.80</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>32.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.3,500</td></tr><tr><td>-Sell value</td><td>c.875</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.06175</td></tr><tr><td>-Blunt damage</td><td>0.88</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>35.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.40 kg</td></tr><tr><td>-Value</td><td>c.4,072</td></tr><tr><td>-Sell value</td><td>c.1,018</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.066</td></tr><tr><td>-Blunt damage</td><td>0.96</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>38.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.80 kg</td></tr><tr><td>-Value</td><td>c.4,601</td></tr><tr><td>-Sell value</td><td>c.1,150</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.0745</td></tr><tr><td>-Blunt damage</td><td>1.12</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>44.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.60 kg</td></tr><tr><td>-Value</td><td>c.5,425</td></tr><tr><td>-Sell value</td><td>c.1,356</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Staff</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.07875</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>0.10x</td></tr><tr><td>-Attack bonus</td><td>+8</td></tr><tr><td>-Indoors bonus</td><td>-6</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.5,708</td></tr><tr><td>-Sell value</td><td>c.1,427</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## Trivia/Tips
+
+-   The Staff has the lowest total damage of any Polearm of the same quality.
+-   The Staff has the lowest range of all polearms.
+-   The Staff has the same reach and blunt damage as a Paladin's Cross but lacks Armour Penetration, Bonus Skeleton damage and has far less cut damage.
+-   With the exception of Jitte/Heavy Jitte, the Staff has the lowest cut damage of all the weapons in Kenshi.
+-   If all weapons had Cross quality variants and were wielded by a character with 100 in all stats, the Staff would have 85.748 damage.
+    -   This means the Staff features the 3rd lowest damage of all weapons, only beating Iron Stick by 2.652 damage and Ninja Blade by 4.108.

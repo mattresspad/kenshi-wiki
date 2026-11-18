@@ -1,0 +1,138 @@
+---
+articleId: spiked-club
+title: Spiked Club
+description: Unlike most Blunt Weapons, the Spiked Club has an extremely high bleed rate. However, due to its small cut damage this only leads to a small amount of bloodl…
+categories:
+  - Weapons
+  - Blunt
+layout: item
+factTitle: Spiked Club
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Blunt
+          - /blunt-weapons
+      - - Base weight
+        - 4 kg
+      - - Base value
+        - c. 160
+      - - Size in inventory
+        - 1x7
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 0.30x
+      - - Blunt damage
+        - 1.00x
+      - - Bleed
+        - 2.00x
+      - - Armour penetration
+        - +30%
+      - - Attack
+        - "-2"
+      - - Defence
+        - "0"
+      - - Reach
+        - "18"
+  - heading: Damage against
+    rows:
+      - - Animals
+        - -10%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 52297-rebirth.mod
+factImage:
+  src: /icons/items/52297-rebirth.mod.png
+  alt: Spiked Club
+factCaption: A nasty weapon that causes bleeding in addition to crushing damage.
+---
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>
+
+Unlike most [Blunt Weapons](/blunt-weapons), the **Spiked Club** has an extremely high bleed rate. However, due to its small cut damage this only leads to a small amount of bloodloss.
+
+This weapon has inventory dimensions of **1x7**. It can be equipped in both the primary and secondary weapon slots.
+
+The ability to make these weapons can be learned by researching [Heavy Weapons](/heavy-weapons-tech).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>6</td><td>6</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>6</td><td>6</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/heavy-weapons-tech">Heavy Weapons</a> research: 4 hours at tech level 2; costs <a href="/book">6 Books</a>.</li></ul></div>
+
+## Blueprints
+
+There are no [Blueprints](/blueprints) for this item available in the game. To learn how to craft Spiked Club the [Heavy Weapons](/heavy-weapons-tech) must be researched.
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1155</td></tr><tr><td>-Blunt damage</td><td>0.10</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-3</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.362</td></tr><tr><td>-Sell value</td><td>c.90</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.141</td></tr><tr><td>-Blunt damage</td><td>0.20</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.396</td></tr><tr><td>-Sell value</td><td>c.99</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.14985</td></tr><tr><td>-Blunt damage</td><td>0.30</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>12.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.1,193</td></tr><tr><td>-Sell value</td><td>c.298</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1728</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.1,385</td></tr><tr><td>-Sell value</td><td>c.346</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.19575</td></tr><tr><td>-Blunt damage</td><td>0.50</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>20.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.1,652</td></tr><tr><td>-Sell value</td><td>c.413</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.243</td></tr><tr><td>-Blunt damage</td><td>0.72</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>28.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.40 kg</td></tr><tr><td>-Value</td><td>c.3,022</td></tr><tr><td>-Sell value</td><td>c.755</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.2685</td></tr><tr><td>-Blunt damage</td><td>0.84</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>33.60</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.80 kg</td></tr><tr><td>-Value</td><td>c.3,729</td></tr><tr><td>-Sell value</td><td>c.932</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.294</td></tr><tr><td>-Blunt damage</td><td>0.96</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>38.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>19.20 kg</td></tr><tr><td>-Value</td><td>c.4,604</td></tr><tr><td>-Sell value</td><td>c.1,151</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.345</td></tr><tr><td>-Blunt damage</td><td>1.00</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>40.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.00 kg</td></tr><tr><td>-Value</td><td>c.6,720</td></tr><tr><td>-Sell value</td><td>c.1,680</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.3705</td></tr><tr><td>-Blunt damage</td><td>1.10</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>44.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.00 kg</td></tr><tr><td>-Value</td><td>c.7,818</td></tr><tr><td>-Sell value</td><td>c.1,954</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.396</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>24.00 kg</td></tr><tr><td>-Value</td><td>c.8,835</td></tr><tr><td>-Sell value</td><td>c.2,208</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.4917</td></tr><tr><td>-Blunt damage</td><td>1.40</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>56.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>28.00 kg</td></tr><tr><td>-Value</td><td>c.12,153</td></tr><tr><td>-Sell value</td><td>c.3,038</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.51975</td></tr><tr><td>-Blunt damage</td><td>1.50</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>60.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>30.00 kg</td></tr><tr><td>-Value</td><td>c.12,787</td></tr><tr><td>-Sell value</td><td>c.3,196</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.5478</td></tr><tr><td>-Blunt damage</td><td>1.60</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>64.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>32.00 kg</td></tr><tr><td>-Value</td><td>c.13,255</td></tr><tr><td>-Sell value</td><td>c.3,313</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.66</td></tr><tr><td>-Blunt damage</td><td>2.00</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>80.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>40.00 kg</td></tr><tr><td>-Value</td><td>c.20,146</td></tr><tr><td>-Sell value</td><td>c.5,036</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1155</td></tr><tr><td>-Blunt damage</td><td>0.10</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-3</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>4.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.1,206</td></tr><tr><td>-Sell value</td><td>c.301</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.141</td></tr><tr><td>-Blunt damage</td><td>0.20</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>4.00 kg</td></tr><tr><td>-Value</td><td>c.1,323</td></tr><tr><td>-Sell value</td><td>c.330</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.1665</td></tr><tr><td>-Blunt damage</td><td>0.30</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>12.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.1,491</td></tr><tr><td>-Sell value</td><td>c.372</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.192</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.00 kg</td></tr><tr><td>-Value</td><td>c.1,731</td></tr><tr><td>-Sell value</td><td>c.432</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.2175</td></tr><tr><td>-Blunt damage</td><td>0.50</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>20.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.00 kg</td></tr><tr><td>-Value</td><td>c.2,066</td></tr><tr><td>-Sell value</td><td>c.516</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.243</td></tr><tr><td>-Blunt damage</td><td>0.60</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>24.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.00 kg</td></tr><tr><td>-Value</td><td>c.2,518</td></tr><tr><td>-Sell value</td><td>c.629</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.2685</td></tr><tr><td>-Blunt damage</td><td>0.70</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>28.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>14.00 kg</td></tr><tr><td>-Value</td><td>c.3,108</td></tr><tr><td>-Sell value</td><td>c.777</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.294</td></tr><tr><td>-Blunt damage</td><td>0.80</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>32.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>16.00 kg</td></tr><tr><td>-Value</td><td>c.3,836</td></tr><tr><td>-Sell value</td><td>c.959</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.345</td></tr><tr><td>-Blunt damage</td><td>1.00</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>40.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>20.00 kg</td></tr><tr><td>-Value</td><td>c.5,600</td></tr><tr><td>-Sell value</td><td>c.1,400</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.3705</td></tr><tr><td>-Blunt damage</td><td>1.10</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>44.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>22.00 kg</td></tr><tr><td>-Value</td><td>c.6,515</td></tr><tr><td>-Sell value</td><td>c.1,628</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.396</td></tr><tr><td>-Blunt damage</td><td>1.20</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>48.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>24.00 kg</td></tr><tr><td>-Value</td><td>c.7,362</td></tr><tr><td>-Sell value</td><td>c.1,840</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.447</td></tr><tr><td>-Blunt damage</td><td>1.40</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>56.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>28.00 kg</td></tr><tr><td>-Value</td><td>c.8,680</td></tr><tr><td>-Sell value</td><td>c.2,170</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Spiked Club</td></tr><tr><td>[Blunt class]</td></tr><tr><td>-Cutting damage</td><td>0.4725</td></tr><tr><td>-Blunt damage</td><td>1.50</td></tr><tr><td>-Blood loss</td><td>2.00x</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>-2</td></tr><tr><td>-Damage vs animals</td><td>-10%</td></tr><tr><td>-Required Strength Level</td><td>60.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>30.00 kg</td></tr><tr><td>-Value</td><td>c.9,133</td></tr><tr><td>-Sell value</td><td>c.2,283</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+## Trivia
+
+-   As the instant blood loss formula is, (Cut Damage Done x 0.2 x Bloodloss of Weapon x Racial Bleedrate of target hit), the Spiked club will not cause much blood loss due to its low cut damage. If using a Spiked Club to train your Attack, your Dexterity will be extremely low as well resulting in much lower cut damage than blunt.

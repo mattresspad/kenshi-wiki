@@ -1,0 +1,141 @@
+---
+articleId: polearm
+title: Polearm
+description: The Polearm is an excellent weapon for killing animals. Its long reach allow you to hit them from further away, and its damage bonus against them makes sure…
+categories:
+  - Weapons
+  - Polearms
+layout: item
+factTitle: Polearm
+factGroups:
+  - heading: null
+    rows:
+      - - Class
+        - - Polearm
+          - /polearms
+      - - Base weight
+        - 5 kg
+      - - Base value
+        - c. 300
+      - - Size in inventory
+        - 1x10
+  - heading: Combat
+    rows:
+      - - Cut damage
+        - 0.50x
+      - - Blunt damage
+        - 0.50x
+      - - Bleed
+        - 1.00x
+      - - Armour penetration
+        - +30%
+      - - Attack
+        - "+6"
+      - - Defence
+        - "0"
+      - - Indoors
+        - "-8"
+      - - Reach
+        - "28"
+  - heading: Damage against
+    rows:
+      - - Animals
+        - +50%
+  - heading: null
+    rows:
+      - - Manufacturers
+        - Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross
+  - heading: null
+    rows:
+      - - String id
+        - 52301-rebirth.mod
+factImage:
+  src: /icons/items/52301-rebirth.mod.png
+  alt: Polearm
+factCaption: Unusual weapons that are sometimes used by hunters as their reach makes them good for taking down animals.  Due to their cumbersome length however they are at a serious disadvantage when used indoors.
+---
+
+The **Polearm** is an excellent weapon for killing animals. Its long reach allow you to hit them from further away, and its damage bonus against them makes sure every hit counts. Due to this, both [Western](/western-hive) and [Southern](/southern-hive) Hive soldiers use this as their primary weapon.
+
+This weapon has inventory dimensions of **1x10**, meaning it can only be equipped as a primary weapon.
+
+A [Meitou](/meitou) version of this weapon can be found on [Queen of the South](/queen-of-the-south) in [Southern Hive](/southern-hive).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>8</td><td>8</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>8</td><td>8</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Polearms blueprint: 4 hours at tech level 2; the blueprint is worth c. 3,000.</li></ul></div>
+
+## Blueprint Locations
+
+All the possible locations to find the [Blueprint](/blueprints) for this weapon.
+
+-   [Catun Scrapmasters](/catun-scrapmasters)
+-   [Empire Weapon Shop](/empire-weapon-shop)
+-   [Hive Trader](/hive-trader)
+-   [Holy Weapon Shop](/holy-weapon-shop)
+-   [Mongrel Weapon Shop](/mongrel-weapon-shop)
+-   [The Great Library](/the-great-library)
+
+## Variations
+
+All possible variations in an un-modded game, as of 1.0.68. Please note that the stats shown may differ slightly than in game as it tends to round values.
+
+### _Manufacturer_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.1925</td></tr><tr><td>-Blunt damage</td><td>0.05</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+5</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>5.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.00 kg</td></tr><tr><td>-Value</td><td>c.658</td></tr><tr><td>-Sell value</td><td>c.169</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.235</td></tr><tr><td>-Blunt damage</td><td>0.10</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>5.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.00 kg</td></tr><tr><td>-Value</td><td>c.744</td></tr><tr><td>-Sell value</td><td>c.186</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/unknown-manufacturer">Unknown</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.24975</td></tr><tr><td>-Blunt damage</td><td>0.15</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>6.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.50 kg</td></tr><tr><td>-Value</td><td>c.2,237</td></tr><tr><td>-Sell value</td><td>c.559</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.288</td></tr><tr><td>-Blunt damage</td><td>0.20</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.50 kg</td></tr><tr><td>-Value</td><td>c.2,597</td></tr><tr><td>-Sell value</td><td>c.649</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.32625</td></tr><tr><td>-Blunt damage</td><td>0.25</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>10.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>3.75 kg</td></tr><tr><td>-Value</td><td>c.3,099</td></tr><tr><td>-Sell value</td><td>c.774</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/ancient-manufacturer">Ancient</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.405</td></tr><tr><td>-Blunt damage</td><td>0.36</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>14.40</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.5,667</td></tr><tr><td>-Sell value</td><td>c.1,416</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.4475</td></tr><tr><td>-Blunt damage</td><td>0.42</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>16.80</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.30 kg</td></tr><tr><td>-Value</td><td>c.6,993</td></tr><tr><td>-Sell value</td><td>c.1,748</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.49</td></tr><tr><td>-Blunt damage</td><td>0.48</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>19.20</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>7.20 kg</td></tr><tr><td>-Value</td><td>c.8,633</td></tr><tr><td>-Sell value</td><td>c.2,158</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/catun-scrapmaster-manufacturer">Catun Scrapmaster</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.575</td></tr><tr><td>-Blunt damage</td><td>0.50</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>20.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>7.50 kg</td></tr><tr><td>-Value</td><td>c.12,600</td></tr><tr><td>-Sell value</td><td>c.3,150</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.6175</td></tr><tr><td>-Blunt damage</td><td>0.55</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>22.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.25 kg</td></tr><tr><td>-Value</td><td>c.14,660</td></tr><tr><td>-Sell value</td><td>c.3,665</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.66</td></tr><tr><td>-Blunt damage</td><td>0.60</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>24.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.00 kg</td></tr><tr><td>-Value</td><td>c.16,566</td></tr><tr><td>-Sell value</td><td>c.4,141</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/skeleton-smiths-manufacturer">Skeleton Smiths</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.8195</td></tr><tr><td>-Blunt damage</td><td>0.70</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>28.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.50 kg</td></tr><tr><td>-Value</td><td>c.22,787</td></tr><tr><td>-Sell value</td><td>c.5,696</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.86625</td></tr><tr><td>-Blunt damage</td><td>0.75</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>30.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>11.25 kg</td></tr><tr><td>-Value</td><td>c.23,976</td></tr><tr><td>-Sell value</td><td>c.5,994</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.913</td></tr><tr><td>-Blunt damage</td><td>0.80</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>32.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>12.00 kg</td></tr><tr><td>-Value</td><td>c.24,853</td></tr><tr><td>-Sell value</td><td>c.6,213</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 3]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/edgewalkers">Edgewalkers</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>1.10</td></tr><tr><td>-Blunt damage</td><td>1.00</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>40.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>15.00 kg</td></tr><tr><td>-Value</td><td>c.37,774</td></tr><tr><td>-Sell value</td><td>c.9,443</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Meitou]</span></td></tr><tr><td colspan="2">Manufactured by <a href="/cross">Cross</a></td></tr></tbody></table>
+
+### _Homemade_
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.1925</td></tr><tr><td>-Blunt damage</td><td>0.05</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+5</td></tr><tr><td>-Defence bonus</td><td>-1</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>5.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.00 kg</td></tr><tr><td>-Value</td><td>c.2,262</td></tr><tr><td>-Sell value</td><td>c.565</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusted Junk]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.235</td></tr><tr><td>-Blunt damage</td><td>0.10</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>5.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.00 kg</td></tr><tr><td>-Value</td><td>c.2,481</td></tr><tr><td>-Sell value</td><td>c.620</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Rusting Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.2775</td></tr><tr><td>-Blunt damage</td><td>0.15</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>6.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.00 kg</td></tr><tr><td>-Value</td><td>c.2,797</td></tr><tr><td>-Sell value</td><td>c.699</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mid-Grade Salvage]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.32</td></tr><tr><td>-Blunt damage</td><td>0.20</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>8.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.00 kg</td></tr><tr><td>-Value</td><td>c.3,247</td></tr><tr><td>-Sell value</td><td>c.811</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Old Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.3625</td></tr><tr><td>-Blunt damage</td><td>0.25</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>10.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.00 kg</td></tr><tr><td>-Value</td><td>c.3,874</td></tr><tr><td>-Sell value</td><td>c.968</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Refitted Blade]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.405</td></tr><tr><td>-Blunt damage</td><td>0.30</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>12.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.00 kg</td></tr><tr><td>-Value</td><td>c.4,722</td></tr><tr><td>-Sell value</td><td>c.1,180</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.4475</td></tr><tr><td>-Blunt damage</td><td>0.35</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>14.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>5.25 kg</td></tr><tr><td>-Value</td><td>c.5,827</td></tr><tr><td>-Sell value</td><td>c.1,456</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.49</td></tr><tr><td>-Blunt damage</td><td>0.40</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>16.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>6.00 kg</td></tr><tr><td>-Value</td><td>c.7,194</td></tr><tr><td>-Sell value</td><td>c.1,798</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Catun No.3]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.575</td></tr><tr><td>-Blunt damage</td><td>0.50</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>20.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>7.50 kg</td></tr><tr><td>-Value</td><td>c.10,500</td></tr><tr><td>-Sell value</td><td>c.2,625</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk I]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.6175</td></tr><tr><td>-Blunt damage</td><td>0.55</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>22.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>8.25 kg</td></tr><tr><td>-Value</td><td>c.12,216</td></tr><tr><td>-Sell value</td><td>c.3,054</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk II]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.66</td></tr><tr><td>-Blunt damage</td><td>0.60</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>24.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>9.00 kg</td></tr><tr><td>-Value</td><td>c.13,805</td></tr><tr><td>-Sell value</td><td>c.3,451</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Mk III]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.745</td></tr><tr><td>-Blunt damage</td><td>0.70</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>28.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>10.50 kg</td></tr><tr><td>-Value</td><td>c.16,276</td></tr><tr><td>-Sell value</td><td>c.4,069</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 1]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Polearm</td></tr><tr><td>[Polearm class]</td></tr><tr><td>-Cutting damage</td><td>0.7875</td></tr><tr><td>-Blunt damage</td><td>0.75</td></tr><tr><td>-Armour penetration</td><td>+30%</td></tr><tr><td>-Attack bonus</td><td>+6</td></tr><tr><td>-Indoors bonus</td><td>-8</td></tr><tr><td>-Damage vs animals</td><td>+50%</td></tr><tr><td>-Required Strength Level</td><td>30.00</td></tr><tr><td>----------------</td></tr><tr><td>-Weight</td><td>11.25 kg</td></tr><tr><td>-Value</td><td>c.17,125</td></tr><tr><td>-Sell value</td><td>c.4,281</td></tr><tr><td>&nbsp;</td></tr><tr><td><span>[Model #&nbsp;Edge Type 2]</span></td></tr><tr><td colspan="2">Crafted by <a href="/homemade">Homemade</a></td></tr></tbody></table>
