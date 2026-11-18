@@ -13,3 +13,19 @@ Every accepted batch retains build, catalog, browser and Cloudflare dry-run logs
 Missing registered destinations will not have an old-site fallback after cutover. Public restoration, licensing, branch replacement, production and technical-data integration remain separate milestones.
 
 Catun’s explicitly named United Cities map previously linked to the general `/maps` overview. This batch restores the matching registered item destination so the requested town-to-map journey is direct. No town prose, bookmarks or qualifications change.
+
+## Review coverage and reproduction
+
+The source audit packets were read for every frozen sibling batch, including captions, prose, heading lists and table structure. Review records retain existence, content and organization separately; checked numerical/table fingerprints protect the full values beyond the prose summaries. Restoring availability is distinct from verifying a gameplay formula.
+
+- Run `node scripts/items/intake.mjs verify-freeze <comparison checkout> reports/geography-work/reference-83abc179` to reproduce the frozen evidence. Initial asset reuse is derived from the local baseline commit 3dbcdf1, so subsequent copies do not change the 129/225 split.
+- Run `node scripts/items/run-batch.mjs <next batch>` only for the next untransferred, inspected batch.
+- Run `npm run items:accept` to rebuild and accept the current boundary, including after a failed gate is fixed.
+- Run `node scripts/items/review.mjs --complete` after all 390 new article reviews.
+- Run `node scripts/gaps/register.mjs --check` to check deterministic gap normalization.
+- Run `node scripts/gaps/record-resolutions.mjs items` only after acceptance. Earlier resolution evidence remains intact.
+- Run `node scripts/items/handoff.mjs` for the final gallery, batch deltas, media ledger and next-family assessment.
+
+Intake and source-audit commands alone use the frozen comparison material. Ordinary build, catalog/browser checks, package checks and gap reporting read checked-in FreshWiki inputs. Reports and screenshots remain local under reports/items.
+
+The eleven deferred IDs stay listed in roster.json and keep their original reader categories. Narcotics is registered but outside this selection. Next-family assessment keeps Buildings, Crafting/Construction and Technology distinct, with later gameplay, lore, modding and remainder work explicit.

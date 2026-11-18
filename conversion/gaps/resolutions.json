@@ -1069,6 +1069,17 @@
       }
     },
     {
+      "id": "availability:/blunt-weapons",
+      "kind": "availability",
+      "target": "/blunt-weapons",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/blunt-weapons"
+      }
+    },
+    {
       "id": "availability:/bo",
       "kind": "availability",
       "target": "/bo",
@@ -1319,6 +1330,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/building-materials"
+      }
+    },
+    {
+      "id": "availability:/bull-horn-axe",
+      "kind": "availability",
+      "target": "/bull-horn-axe",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bull-horn-axe"
       }
     },
     {
@@ -1872,6 +1894,17 @@
       }
     },
     {
+      "id": "availability:/combat-cleaver",
+      "kind": "availability",
+      "target": "/combat-cleaver",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/combat-cleaver"
+      }
+    },
+    {
       "id": "availability:/cook-recruit",
       "kind": "availability",
       "target": "/cook-recruit",
@@ -2309,6 +2342,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/deadlands"
+      }
+    },
+    {
+      "id": "availability:/desert-sabre",
+      "kind": "availability",
+      "target": "/desert-sabre",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/desert-sabre"
       }
     },
     {
@@ -2939,6 +2983,17 @@
       }
     },
     {
+      "id": "availability:/exile-plank",
+      "kind": "availability",
+      "target": "/exile-plank",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/exile-plank"
+      }
+    },
+    {
       "id": "availability:/expedition-4",
       "kind": "availability",
       "target": "/expedition-4",
@@ -3046,6 +3101,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fallen-tower"
+      }
+    },
+    {
+      "id": "availability:/falling-sun",
+      "kind": "availability",
+      "target": "/falling-sun",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/falling-sun"
       }
     },
     {
@@ -3269,6 +3335,17 @@
       }
     },
     {
+      "id": "availability:/flesh-cleaver",
+      "kind": "availability",
+      "target": "/flesh-cleaver",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flesh-cleaver"
+      }
+    },
+    {
       "id": "availability:/floodland-ruins",
       "kind": "availability",
       "target": "/floodland-ruins",
@@ -3467,6 +3544,17 @@
       }
     },
     {
+      "id": "availability:/foreign-sabre",
+      "kind": "availability",
+      "target": "/foreign-sabre",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/foreign-sabre"
+      }
+    },
+    {
       "id": "availability:/fort-mirage",
       "kind": "availability",
       "target": "/fort-mirage",
@@ -3519,6 +3607,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fort-simion/yabuta-outlaws"
+      }
+    },
+    {
+      "id": "availability:/fragment-axe",
+      "kind": "availability",
+      "target": "/fragment-axe",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fragment-axe"
       }
     },
     {
@@ -3951,6 +4050,17 @@
       }
     },
     {
+      "id": "availability:/guardless-katana",
+      "kind": "availability",
+      "target": "/guardless-katana",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/guardless-katana"
+      }
+    },
+    {
       "id": "availability:/guide-to-animals",
       "kind": "availability",
       "target": "/guide-to-animals",
@@ -4050,6 +4160,17 @@
       }
     },
     {
+      "id": "availability:/hackers",
+      "kind": "availability",
+      "target": "/hackers",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hackers"
+      }
+    },
+    {
       "id": "availability:/hamut",
       "kind": "availability",
       "target": "/hamut",
@@ -4102,6 +4223,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/headshot"
+      }
+    },
+    {
+      "id": "availability:/heavy-jitte",
+      "kind": "availability",
+      "target": "/heavy-jitte",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/heavy-jitte"
+      }
+    },
+    {
+      "id": "availability:/heavy-polearm",
+      "kind": "availability",
+      "target": "/heavy-polearm",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/heavy-polearm"
+      }
+    },
+    {
+      "id": "availability:/heavy-weapons",
+      "kind": "availability",
+      "target": "/heavy-weapons",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/heavy-weapons"
       }
     },
     {
@@ -4476,6 +4630,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hobbs"
+      }
+    },
+    {
+      "id": "availability:/holed-sabre",
+      "kind": "availability",
+      "target": "/holed-sabre",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holed-sabre"
       }
     },
     {
@@ -4919,6 +5084,17 @@
       }
     },
     {
+      "id": "availability:/horse-chopper",
+      "kind": "availability",
+      "target": "/horse-chopper",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/horse-chopper"
+      }
+    },
+    {
       "id": "availability:/hostile-factions",
       "kind": "availability",
       "target": "/hostile-factions",
@@ -5117,6 +5293,17 @@
       }
     },
     {
+      "id": "availability:/iron-club",
+      "kind": "availability",
+      "target": "/iron-club",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/iron-club"
+      }
+    },
+    {
       "id": "availability:/iron-hq",
       "kind": "availability",
       "target": "/iron-hq",
@@ -5158,6 +5345,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/iron-spider"
+      }
+    },
+    {
+      "id": "availability:/iron-stick",
+      "kind": "availability",
+      "target": "/iron-stick",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/iron-stick"
       }
     },
     {
@@ -5238,6 +5436,17 @@
       }
     },
     {
+      "id": "availability:/jitte",
+      "kind": "availability",
+      "target": "/jitte",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/jitte"
+      }
+    },
+    {
       "id": "availability:/jonin-elite",
       "kind": "availability",
       "target": "/jonin-elite",
@@ -5290,6 +5499,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/katana"
+      }
+    },
+    {
+      "id": "availability:/katanas",
+      "kind": "availability",
+      "target": "/katanas",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/katanas"
       }
     },
     {
@@ -5557,6 +5777,17 @@
       }
     },
     {
+      "id": "availability:/long-cleaver",
+      "kind": "availability",
+      "target": "/long-cleaver",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/long-cleaver"
+      }
+    },
+    {
       "id": "availability:/longen",
       "kind": "availability",
       "target": "/longen",
@@ -5565,6 +5796,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/longen"
+      }
+    },
+    {
+      "id": "availability:/longsword",
+      "kind": "availability",
+      "target": "/longsword",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/longsword"
       }
     },
     {
@@ -12716,6 +12958,18 @@
       }
     },
     {
+      "id": "media:/icons/items/52295-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/52295-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "c3e45d16f92281214a9256e5969259fc868a2a227b7d67124b5ebe0278f56fa6",
+        "sourceSha256": "c3e45d16f92281214a9256e5969259fc868a2a227b7d67124b5ebe0278f56fa6"
+      }
+    },
+    {
       "id": "media:/icons/items/52297-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/52297-rebirth.mod.png",
@@ -13016,6 +13270,30 @@
       }
     },
     {
+      "id": "media:/icons/items/56728-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/56728-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "31d4a2c9a68bd32176071c901b8d7e218006405add11395d1a09459b9ab340c2",
+        "sourceSha256": "31d4a2c9a68bd32176071c901b8d7e218006405add11395d1a09459b9ab340c2"
+      }
+    },
+    {
+      "id": "media:/icons/items/56729-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/56729-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "3a2efc83b9ea27ea186de741b5d26cab62ae139df9ff01388854313611b35031",
+        "sourceSha256": "3a2efc83b9ea27ea186de741b5d26cab62ae139df9ff01388854313611b35031"
+      }
+    },
+    {
       "id": "media:/icons/items/575-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/575-gamedata.base.png",
@@ -13073,6 +13351,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "879248cac3f7b58eaec3dbc0cf5a96686f94da34874c3f0e57f9135ae344c4f6",
         "sourceSha256": "879248cac3f7b58eaec3dbc0cf5a96686f94da34874c3f0e57f9135ae344c4f6"
+      }
+    },
+    {
+      "id": "media:/icons/items/65260-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/65260-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#weapons-1",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "f112568e4ca75949128d3e4a5565622bbd53fdfc2bd3be8cef2202f2e68e2c46",
+        "sourceSha256": "f112568e4ca75949128d3e4a5565622bbd53fdfc2bd3be8cef2202f2e68e2c46"
       }
     },
     {

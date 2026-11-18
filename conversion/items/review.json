@@ -240,6 +240,387 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "blunt-weapons",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Blunt Weapons specialize in blunt damage. With the exception of the Spiked Club, blunt weapons usually cause very little bleeding damage. They require significant amounts of strength as they go up in quality (because of the increase in blunt damage). Because stun (blunt) damage actually reduces KO time for the most part, enemies defeated with a blunt weapon ",
+      "organization": "Reviewed 5 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blunt-weapons.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "720a0108e84d562b39e94fe7f4550e43abb3ff1341a236a48b6d7be7a35cc282"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-map-reveal-semantics",
+        "claim:item-nonlethal-qualification",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "bull-horn-axe",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bull Horn Axe is a unique Fragment Axe used by Flying Bull, the Leader of the Kral’s Chosen. King Shager gave him this Axe for being a loyal warrior. Aside from a slightly reduced indoor combat penalty and the description, there is nothing unique about this Fragment Axe. It can come in 3 different grades, all of them being Ancient quality. Crafting It can't ",
+      "organization": "Reviewed 3 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bull-horn-axe.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1540c684567a7a33084c2f92742fd624551ddef94a907719f1655f9c5e5b97a7"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "combat-cleaver",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A shorter and lighter weapon, the Combat Cleaver unlike most Hackers has no stat penalties. It is the preferred weapon of the Sentinels and Chosen of The Holy Nation, as well as members of the Band of Bones and Bloodraiders. The Meitou version can be found on the King Gurgler in the Island Lab. This weapon has inventory dimensions of 2x8, meaning it can only",
+      "organization": "Reviewed 7 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/combat-cleaver.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "785e2e217db689d4719146f84988f4b9eeb0d5f5561b7b9bf511568011175061"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "desert-sabre",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Desert Sabre is an excellent weapon for killing spiders. Because of this, the Bounty Hunters hunting the Bugmaster often carry these weapons. In the item’s stats, “Spider” and “Small Spider” refer to the races of Skin Spider and Blood Spider, respectively. This weapon has inventory dimensions of 2x8, meaning it can only be used as a primary weapon. The M",
+      "organization": "Reviewed 7 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/desert-sabre.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d4983b872bcdbd2262db144975d78ebb3bb68f102534b73bcc64d58716e63554"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "exile-plank",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Exile Plank is a specific variety of Plank weapons. It has the exact same weight and damage as a normal Plank of the same quality. This weapon has inventory dimensions of 2x10, meaning it can only be used as a primary weapon. Like other heavy weapons, this item will not fit into standard inventories. It must either be equipped or carried inside a backpack. L",
+      "organization": "Reviewed 4 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/exile-plank.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4bea7d0505ef30582cab60ce567f651141e6d90588b67a12c1be7fa66fc63b4e"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "falling-sun",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Falling Sun, like the other Heavy Weapons, has an extremely high damage potential, sometimes doing enough damage to outright kill an opponent in one hit. The Falling Sun is the lightest of the Heavy Weapons. As it has a lower blunt damage amount, it requires less strength to be able to use it effectively. An experienced user is someone to be feared. The ",
+      "organization": "Reviewed 9 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/falling-sun.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "30e19e7f300954c33c3ef56f56c037bc8b50ce1b26940001532d6686c0099a68"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "flesh-cleaver",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Flesh Cleaver is a Hacker Class weapon, with a decent balance between Cutting and Stun Damage, and a lower-than-normal Bleed Rate. It is the preferred weapon of Cannibals and the Shrieking Bandits. The Flesh Cleaver is tied with the Wakizashi for having the shortest reach of all weapons. This weapon has inventory dimensions of 2x8, meaning it can only be u",
+      "organization": "Reviewed 7 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flesh-cleaver.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a573f0ecb3d148d71aa232cd94d6ace7da5b884f6fc9d1520a5bd6706e3acffe"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "foreign-sabre",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Foreign Sabre is an excellent weapon, despite the apparent social stigma against it. It provides a huge bonus to Melee Defense with only moderate penalties. The Meitou version of this weapon can be found on Bugmaster. This weapon has inventory dimensions of 2x8, meaning it can only be used as a primary weapon. Foreign Sabre is one of the best options for",
+      "organization": "Reviewed 8 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/foreign-sabre.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d37477d61c787283bb2e2b59b816905d7adf877a5e409d4c5182bac7eb415f72"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "fragment-axe",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Fragment Axe is a Heavy Weapon and as a result it takes a long time to swing and block if you lack the strength to properly use it. Very few men can stand up to such a mighty weapon. This weapon has inventory dimensions of 2x10, meaning it can only be used as a primary weapon. Like other heavy weapons, this item will not fit into standard inventories. It m",
+      "organization": "Reviewed 8 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fragment-axe.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "95fb5e8bed8c637b007d0fcb8067ca9969de4ace458b4cec25f7beaf514bb2fc"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media",
+        "claim:item-weapon-formulas"
+      ]
+    },
+    {
+      "id": "guardless-katana",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Guardless Katanas have a large bonus to the Melee Attack skill, while also having a hefty penalty to the Melee Defence skill. These two combined will cause a character to attack more often in comparison to normal. Though they may end up being defeated more easily if outnumbered due to the animations Katanas use. The Meitou version of this weapon can be found",
+      "organization": "Reviewed 9 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/guardless-katana.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5aa2260c791763ae4316b30ee823603acba1d8875ff48718804eb680fece1bce"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "hackers",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Affects damage. Often considered a thug's weapon, hackers are heavy axe-bladed weapons that do as much blunt damage as chopping damage, relying mainly on brute strength rather than skill. The crude blades don't cause as much bloodloss, so victims tend to get maimed to death instead. Easy to learn, not much to master.Hacker Weapon Skill description Hackers ar",
+      "organization": "Reviewed 3 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hackers.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cf668a33511466866bad3269c568efbb95af210f306d2aeca999bc06cbb34c9e"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices"
+      ]
+    },
+    {
+      "id": "heavy-jitte",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Heavy Jittes, along with their smaller counterpart the Jitte, are Blunt weapons that inflict stun damage (blunt) and extremely minor cut damage/blood loss. As Dexterity experience gained is based off the cut damage of a weapon, using either of the two variants will reward no Dexterity at all. Due to their lack of any serious cut damage this makes them somewh",
+      "organization": "Reviewed 7 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heavy-jitte.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "53150a024ec40cef64bf87866806eb855bf8e0c617f6e1f5d9a5e7a38765f320"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "heavy-polearm",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Heavy Polearm is an armour piercing Polearm focused on cut damage. This weapon has inventory dimensions of 1x10, meaning it can only be equipped as a primary weapon. A Meitou version of this weapon can be found on Screamer the False in the Tower of Abuse. Curiously, the Heavy Polearm is not wielded by any NPC besides Screamer. Non-Meitou variants can onl",
+      "organization": "Reviewed 7 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heavy-polearm.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "76eaec094af1894e188320b6d4212c6662033c812429eb0b3c5b18fdd2916af2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "heavy-weapons",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Loading screen tip: Heavy weapons require two hands to fight with. If a character has one arm disabled he will switch to using his secondary weapon if he has one. Heavy Weapons weigh more than most weapons and use a move set more centered around fighting large groups of units. Heavy weapons require brute force and deal heavy blunt damage. A heavy weapon will",
+      "organization": "Reviewed 6 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heavy-weapons.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9cfcaa347df74f982da96d7c79e2b69b26f539722e16519a0e594e0b8ae0ecf2"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-weapon-formulas"
+      ]
+    },
+    {
+      "id": "holed-sabre",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Holed Sabre is essentially a Horse Chopper with a hole cut out of it. This makes it slightly lighter and presumably gives it an extra bonus to Melee Defence. Regularly used by Mercenaries. This weapon has inventory dimensions of 2x8, meaning it can only be used as a primary weapon. The Meitou version of this weapon can be found on Ponk in the Tower of Ab",
+      "organization": "Reviewed 7 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holed-sabre.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5e6aa5b9564d6c56eebbf2687ba06b6a06c69a5145bf2e21d699167762354529"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "horse-chopper",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Horse Chopper is the basic sabre. It is a decent weapon, and very common. It is often the preferred weapon for Dust Bandits, Red Sabres, and many other Bandit Factions across the world. The Meitou version of this weapon can be found on the Red Sabre Boss in the Red Sabre Hideout. This weapon has inventory dimensions of 2x8, meaning it can only be used as",
+      "organization": "Reviewed 8 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/horse-chopper.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f602c1f7c611c5abac5b28d1bfe809a6b5d29076612f923d544f0836f5bdf2e8"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "iron-club",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Iron Clubs are Blunt class weapons introduced in update 0.42. With a focus on Blunt Damage, they make decent tools for capturing bandits and other criminals for their bounties. Packs of Escaped Servants, Slave Hunters, Holy Servants and Starving Bandits are known to carry these, often of the rusted variety. This weapon has inventory dimensions of 1x7. It can",
+      "organization": "Reviewed 6 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/iron-club.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "081d6420ac0409883b01f584e2eade1d6f31f5cdce5344b51bcd9b0b252656f1"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-nonlethal-qualification",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "iron-stick",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: An Iron Stick is essentially just a simple metal rod. It is the favored weapon of very low tier characters such as Scrawny Cannibals and Fogmen. This weapon has inventory dimensions of 1x7. It can therefore be equipped in both the primary and secondary weapon slots. It is the only weapon (Excluding uniquely named weapons like the Bull Horn Axe and Exile Plan",
+      "organization": "Reviewed 6 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/iron-stick.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "506fb730fd8bec6e1bb71b21bafdc65471c079ec3bf72084dc125dd44dfae71f"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "jitte",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Jittes, along with their larger counterpart the Heavy Jitte, are Blunt weapons that inflict Stun Damage and an extremely minor amount of cut damage/blood loss classifying them as a non-lethal weapon. This allows you to subdue and capture bandit leaders without the risk of them dying from wound degeneration or blood loss. This weapon has inventory dimensions ",
+      "organization": "Reviewed 7 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/jitte.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c01623bc6bdd96fc929e14606714e2b289aabc697b4920f6211dce5d25345cbb"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-nonlethal-qualification",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "katanas",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Katanas are a class of weapons that specialize in cutting damage. They are a very commonly found weapon type, and their low weight makes them easy for beginners to use. Katanas are offensive weapons, featuring attack bonuses and defense penalties, as well as a high blood loss multiplier. A major characteristic of Katanas are big penalties for armour penetrat",
+      "organization": "Reviewed 4 section bookmarks and 2 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/katanas.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a2b43beb788f87438e7b3536a794b484b18d4d35f94d1315c31d50feeb8ae29e"
+      },
+      "questions": [
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-weapon-formulas"
+      ]
+    },
+    {
+      "id": "long-cleaver",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Long Cleaver is the longest reaching Hacker. Base damage wise, it is identical to the Paladin’s Cross. It is used by a couple members of The Holy Nation, and a few United Cities Nobles. The long cleaver has the highest potential damage out of all weapons against heavily armoured, non-robotic humanoids. This weapon has inventory dimensions of 2x9, meaning",
+      "organization": "Reviewed 7 section bookmarks and 31 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/long-cleaver.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d18c575c94f976c7c53dd385120b792c9b48ce9328aa73ad1232b2809c121c81"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "longsword",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Longsword is a lighter sabre, without much decrease in damage. This weapon has inventory dimensions of 1x7. Currently, it is the only sabre class weapon able to fit into the secondary weapon slot. It can be seen on several Slave Masters of the Traders Guild and Nobles of the United Cities. The Cross-version of this weapon can be found on Longen, leader o",
+      "organization": "Reviewed 9 section bookmarks and 30 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/longsword.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "194e93d71407bfb0be8589da45ec631f201467c5c4b8c2da7cb130a6cbc18fac"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [

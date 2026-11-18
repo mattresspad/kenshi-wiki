@@ -143,5 +143,45 @@
       "/category/books",
       "/category/footwear"
     ]
+  },
+  {
+    "name": "weapons-1",
+    "resolved": [
+      "/blunt",
+      "/blunt-weapons",
+      "/bull-horn-axe",
+      "/combat-cleaver",
+      "/desert-sabre",
+      "/exile-plank",
+      "/falling-sun",
+      "/flesh-cleaver",
+      "/foreign-sabre",
+      "/fragment-axe",
+      "/guardless-katana",
+      "/hackers",
+      "/heavy-jitte",
+      "/heavy-polearm",
+      "/heavy-weapons",
+      "/holed-sabre",
+      "/horse-chopper",
+      "/iron-club",
+      "/iron-stick",
+      "/jitte",
+      "/katanas",
+      "/long-cleaver",
+      "/longsword"
+    ],
+    "introduced": [
+      "/basic-weapon-grades-tech",
+      "/basic-weapon-smithing-tech",
+      "/category/blunt",
+      "/category/clarification-needed",
+      "/category/hacker",
+      "/category/heavy-weapon",
+      "/category/polearms",
+      "/category/sabre",
+      "/heavy-weapons-tech",
+      "/stun-damage"
+    ]
   }
 ]

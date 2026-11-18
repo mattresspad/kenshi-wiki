@@ -2234,6 +2234,94 @@
     "the-holy-flame": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/items/review.json"
+    },
+    "blunt-weapons": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "bull-horn-axe": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "combat-cleaver": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "desert-sabre": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "exile-plank": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "falling-sun": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "flesh-cleaver": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "foreign-sabre": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "fragment-axe": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "guardless-katana": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "hackers": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "heavy-jitte": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "heavy-polearm": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "heavy-weapons": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "holed-sabre": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "horse-chopper": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "iron-club": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "iron-stick": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "jitte": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "katanas": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "long-cleaver": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
+    },
+    "longsword": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/items/review.json"
     }
   },
   "mediaGaps": [
