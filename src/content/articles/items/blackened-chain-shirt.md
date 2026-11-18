@@ -1,0 +1,84 @@
+---
+articleId: blackened-chain-shirt
+title: Blackened Chain Shirt
+description: The Blackened Chain Shirt is a Medium Armour that is equipped in the Shirt slot.
+categories:
+  - Armour
+  - Shirts
+  - Medium Armour
+layout: item
+factTitle: Blackened Chain Shirt
+factGroups:
+  - heading: null
+    rows:
+      - - Slot
+        - - Shirt
+          - /shirts
+      - - Class
+        - - Medium
+          - /medium-armour
+      - - Material
+        - Chain
+      - - Base weight
+        - 10 kg
+      - - Base value
+        - c. 13,000
+      - - Size in inventory
+        - 2x4
+  - heading: Protection
+    rows:
+      - - Left Arm
+        - 25% covered
+      - - Stomach
+        - 100% covered
+      - - Right Arm
+        - 25% covered
+      - - Chest
+        - 100% covered
+  - heading: Modifiers
+    rows:
+      - - Combat speed
+        - 0.97x
+      - - Cut into stun
+        - 40%
+      - - Dexterity
+        - 0.90x
+      - - Dodge
+        - 0.90x
+      - - Ranged skill
+        - 0.80x
+      - - Stealth
+        - 1.30x
+  - heading: null
+    rows:
+      - - String id
+        - 577-gamedata.base
+factImage:
+  src: /icons/items/577-gamedata.base.png
+  alt: Blackened Chain Shirt
+factCaption: The best lightweight under-armour that money can buy.  Adds a reliable extra layer of defence to your equipment.
+---
+
+The **Blackened Chain Shirt** is a Medium Armour that is equipped in the Shirt slot.
+
+This armour has inventory dimensions of **2x4**.
+
+There are [standard](/chain-shirt), [rusted](/rusty-chain-shirt) and [long-sleeve](/blackened-chainmail) versions of this clothing. Additionally, there is also a [Hiver-equivalent](/blackened-chain-hive-shirt) version of this clothing.
+
+## Appearance
+
+**Blackened Chain Shirt** is similar in appearance to the Chain Shirt. The major differences between the two are that the Blackened Chain Shirt is much darker, being made up of several small black chain links and the leather trim around the neck and arms is black instead of green.
+
+## Stats
+
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Chain</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1%</td><td>4%</td><td>8%</td><td>12%</td><td>17%</td><td>20%</td></tr><tr><th scope="row">Cut resistance</th><td>5%</td><td>12%</td><td>20%</td><td>29%</td><td>38%</td><td>44%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">60%</td></tr><tr><th scope="row">Harpoon resistance</th><td>1pts</td><td>5pts</td><td>11pts</td><td>17pts</td><td>23pts</td><td>28pts</td></tr><tr><th scope="row">Weight</th><td colspan="6">6.75 kg</td></tr><tr><th scope="row">Value</th><td>c.1,168</td><td>c.3,612</td><td>c.11,427</td><td>c.24,456</td><td>c.42,696</td><td>c.59,797</td></tr><tr><th scope="row">Sell value</th><td>c.292</td><td>c.903</td><td>c.2,856</td><td>c.6,114</td><td>c.10,674</td><td>c.14,949</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Chest</th><td colspan="6">100%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">100%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">25%</td></tr><tr><th scope="row">Left Arm</th><td colspan="6">25%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td>0.37x</td><td>0.44x</td><td>0.54x</td><td>0.63x</td><td>0.73x</td><td>0.80x</td></tr><tr><th scope="row">Crossbows effect</th><td colspan="6">0.80x</td></tr><tr><th scope="row">Precision shooting effect</th><td colspan="6">0.80x</td></tr><tr><th scope="row">Dodge skill effect</th><td colspan="6">0.90x</td></tr><tr><th scope="row">Combat speed effect</th><td colspan="6">0.97x</td></tr><tr><th scope="row">Dexterity effect</th><td colspan="6">0.90x</td></tr></tbody></table>
+
+## Source
+
+<details class="collapsible" open=""><summary>Locations</summary><table class="wikitable"><tbody><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><div><span><a href="/emperor-tengu">Emperor Tengu</a></span> <span><span class="basic-tooltip" title="100% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/esata-the-stone-golem">Esata the Stone Golem</a></span> <span><span class="basic-tooltip" title="100% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/holy-armour-trader">Holy Armour Trader</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/holy-weapon-trader">Holy Weapon Trader</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/noble-hunter">Noble Hunter</a></span> <span><span class="basic-tooltip" title="90% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="10% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/ronin-crossbow-trader">Ronin Crossbow Trader</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/ronin-weapon-trader">Ronin Weapon Trader</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/shryke">Shryke</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/the-five-invincibles">The Five Invincibles</a></span> <span><span class="basic-tooltip" title="95% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/uc-armour-trader">UC Armour Trader</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/uc-armour-trader">UC Armour Trader</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/undertaker">Undertaker</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div></td><td><div><span><a href="/cannibal-hunter">Cannibal Hunter</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/cannibal-hunter-captain">Cannibal Hunter Captain</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/cannibal-hunter-robun">Cannibal Hunter Robun</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/jonin-elite">Jonin Elite</a></span> <span><span class="basic-tooltip" title="90% chance of High grade.">[H]</span> <span class="basic-tooltip" title="10% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/outlaw">Outlaw</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/pacifiers">Pacifier</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/shinobi-guard">Shinobi Guard</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/stone-rat">Stone Rat</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/swamper-bar-thug">Swamper Bar Thug</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/vigilante-chief">Vigilante Chief</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/wandering-assassin">Wandering Assassin</a></span> <span><span class="basic-tooltip" title="90% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="10% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/yabuta-chief">Yabuta Chief</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/yabuta-outlaw">Yabuta Outlaw</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p><span><a href="/armour-king">Armour King</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="2% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="80% chance of High grade.">[H]</span> <span class="basic-tooltip" title="110% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="50% chance of Masterwork grade.">[M]</span></span><br><span><a href="/clothes-shop">Clothes Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="11% chance of Prototype grade.">[P]</span> <span class="basic-tooltip" title="42% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="36% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="11% chance of High grade.">[H]</span></span><br><span><a href="/clothing-shop">Clothing Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="3.2% chance of Prototype grade.">[P]</span> <span class="basic-tooltip" title="42% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="42% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="12% chance of High grade.">[H]</span> <span class="basic-tooltip" title="0.8% chance of Specialist grade.">[S]</span></span><br><span><a href="/crab-smithy">Crab Smithy</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="25% chance of Prototype grade.">[P]</span> <span class="basic-tooltip" title="50% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="25% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="1% chance of High grade.">[H]</span></span><br><span><a href="/flotsam-armory">Flotsam Armory</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="59% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="29% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="12% chance of High grade.">[H]</span></span><br><span><a href="/mongrel-clothes-shop">Mongrel Clothes Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="20% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="51% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span> <span class="basic-tooltip" title="9% chance of Specialist grade.">[S]</span></span><br><span><a href="/tech-hunter-shop">Tech Hunter Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="12% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="61% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="24% chance of High grade.">[H]</span> <span class="basic-tooltip" title="3% chance of Specialist grade.">[S]</span></span><br><span><a href="/thieves-guild">Thieves Guild</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="13% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="69% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="17% chance of High grade.">[H]</span> <span class="basic-tooltip" title="1% chance of Specialist grade.">[S]</span></span><br></p></td><td><p><span class="new" title="Anti-Slaver Barracks (page does not exist)" data-uncrawlable-url="L3dpa2kvQW50aS1TbGF2ZXJfQmFycmFja3M/YWN0aW9uPWVkaXQmcmVkbGluaz0x">Anti-Slaver Barracks</span><br><a href="/anti-slaver-hq">Anti-Slaver HQ</a><br><span class="new" title="Anti-Slaver Prison (page does not exist)" data-uncrawlable-url="L3dpa2kvQW50aS1TbGF2ZXJfUHJpc29uP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==">Anti-Slaver Prison</span><br><a href="/cactus-den">Cactus Den</a><br><a href="/cannibal-capital">Cannibal Capital</a><br><a href="/cannibal-village">Cannibal Village</a><br><a href="/first-village">First Village</a><br><span class="new" title="Flotsam Barracks (page does not exist)" data-uncrawlable-url="L3dpa2kvRmxvdHNhbV9CYXJyYWNrcz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Flotsam Barracks</span><br><span class="new" title="Flotsam HQ (page does not exist)" data-uncrawlable-url="L3dpa2kvRmxvdHNhbV9IUT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Flotsam HQ</span><br><a href="/mongrel-hq">Mongrel HQ</a><br><span class="new" title="Tech Hunter HQ (page does not exist)" data-uncrawlable-url="L3dpa2kvVGVjaF9IdW50ZXJfSFE/YWN0aW9uPWVkaXQmcmVkbGluaz0x">Tech Hunter HQ</span><br><a href="/tower-of-ninjas">Tower Of Ninjas</a><br><br>This armour can also be found as loot via the <a href="/artifacts">Artifacts</a> system.</p></td></tr></tbody></table></details>
+
+
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.6</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>3</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Blackened Chain Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 28,572.</li></ul></div>

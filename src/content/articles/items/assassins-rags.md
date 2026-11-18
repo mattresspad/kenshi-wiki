@@ -1,0 +1,102 @@
+---
+articleId: assassins-rags
+title: Assassin's Rags
+description: Assassin's Rags are Light Armour that are equipped in the Body Armour slot. It is notable for having 100% coverage for the striking (right) arm only, leaving…
+categories:
+  - Armour
+  - Body Armour
+  - Light Armour
+layout: item
+factTitle: Assassin's Rags
+factGroups:
+  - heading: null
+    rows:
+      - - Slot
+        - - Body armour
+          - /body-armour
+      - - Class
+        - - Light
+          - /light-armour
+      - - Material
+        - Leather
+      - - Base weight
+        - 2 kg
+      - - Base value
+        - c. 50
+      - - Size in inventory
+        - 6x4
+  - heading: Protection
+    rows:
+      - - Head
+        - 25% covered
+      - - Right Arm
+        - 100% covered
+      - - Chest
+        - 25% covered
+      - - Stomach
+        - 50% covered
+      - - Pierce resistance
+        - 0.00x
+  - heading: Modifiers
+    rows:
+      - - Assassination
+        - 1.30x
+      - - Attack
+        - "+8"
+      - - Defence
+        - "-4"
+      - - Combat skills
+        - "+5"
+      - - Combat speed
+        - 1.10x
+      - - Cut into stun
+        - 25%
+      - - Dexterity
+        - 1.20x
+      - - Dodge
+        - 1.20x
+      - - Fist injury
+        - 0.00x
+      - - Ranged skill
+        - 1.10x
+      - - Stealth
+        - 1.10x
+      - - Martial arts
+        - "+6"
+  - heading: null
+    rows:
+      - - String id
+        - 2154-gamedata.base
+factImage:
+  src: /icons/items/2154-gamedata.base.png
+  alt: Assassin's Rags
+factCaption: Ragged cloth with plates to protect the sword arm.  It's pretty dire protection, but the wide open mid-section creates an opening that leads to more predictable enemy attacks.  It's lightweight and the arm plates on your forward side allow you to adopt some extra skillful combat tactics.
+---
+
+**Assassin's Rags** are Light Armour that are equipped in the Body Armour slot. It is notable for having 100% coverage for the striking (right) arm only, leaving other parts of the body much less defended. This armor is also notable in that it provides 100% fist protection, making it useful for [Martial Arts](/martial-arts) specialists who have not replaced their limbs with superior Robotic ones.
+
+This armour has inventory dimensions of **6x4**.
+
+## Appearance
+
+**Assassin's Rags** are depicted as ragged cloths loosely wrapped around the neck and shoulder. The right arm is protected by metal plates strapped over thick cloth, which cover most of the arm. The left arm is slightly less covered with the cloth only covering below the elbow. Leather wrappings covering part of the stomach finish the ensemble off.
+
+## Stats
+
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Class · Leather</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>1.4%</td><td>5.6%</td><td>11.2%</td><td>16.8%</td><td>22.4%</td><td>26.6%</td></tr><tr><th scope="row">Cut resistance</th><td>2.2%</td><td>8.8%</td><td>17.6%</td><td>26.4%</td><td>35.2%</td><td>41.8%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">75%</td></tr><tr><th scope="row">Weight</th><td colspan="6">2.65 kg</td></tr><tr><th scope="row">Value</th><td>c.164</td><td>c.834</td><td>c.2,980</td><td>c.6,556</td><td>c.11,562</td><td>c.16,256</td></tr><tr><th scope="row">Sell value</th><td>c.41</td><td>c.208</td><td>c.745</td><td>c.1,639</td><td>c.2,890</td><td>c.4,064</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="6">25%</td></tr><tr><th scope="row">Chest</th><td colspan="6">25%</td></tr><tr><th scope="row">Stomach</th><td colspan="6">50%</td></tr><tr><th scope="row">Right Arm</th><td colspan="6">100%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Stealth effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Crossbows effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Precision shooting effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Dodge skill effect</th><td colspan="6">1.20x</td></tr><tr><th scope="row">Combat speed effect</th><td colspan="6">1.10x</td></tr><tr><th scope="row">Dexterity effect</th><td colspan="6">1.20x</td></tr><tr><th scope="row">Assassination skill</th><td colspan="6">1.30x</td></tr><tr><th scope="row">Fist protection</th><td colspan="6">100%</td></tr><tr><th scope="row">Melee attack bonus</th><td colspan="6">+8</td></tr><tr><th scope="row">Melee defence bonus</th><td colspan="6">-4</td></tr><tr><th scope="row">Martial arts bonus</th><td colspan="6">+6</td></tr></tbody></table>
+
+## Source
+
+<details class="collapsible" open=""><summary>Locations</summary><table class="wikitable"><tbody><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><div><span><a href="/big-gray">Big Gray</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/bo">Bo</a></span> <span><span class="basic-tooltip" title="95% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/flotsam-jonin">Flotsam Jonin</a></span> <span><span class="basic-tooltip" title="80% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/flotsam-ninja">Flotsam Ninja</a></span> <span><span class="basic-tooltip" title="80% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/hamut">Hamut</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/mani">Mani</a></span> <span><span class="basic-tooltip" title="95% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/moll">Moll</a></span> <span><span class="basic-tooltip" title="95% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/thief-boss">Thief Boss</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/wandering-assassin">Wandering Assassin</a></span> <span><span class="basic-tooltip" title="90% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="10% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/yabuta-of-the-sands">Yabuta of the Sands</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/yayoi">Yayoi</a></span> <span><span class="basic-tooltip" title="95% chance of Specialist grade.">[S]</span></span></div><div></div></td><td><div><span><a href="/anti-slaver-jonin">Anti-Slaver Jonin</a></span> <span><span class="basic-tooltip" title="80% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/bookshop-trader">Bookshop Trader</a></span> <span><span class="basic-tooltip" title="92% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="8% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/bounty-hunter">Bounty Hunter</a></span> <span><span class="basic-tooltip" title="85% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="15% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/drifter">Drifter</a></span> <span><span class="basic-tooltip" title="92% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="8% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/hive-bandit">Hive Bandit</a></span> <span><span class="basic-tooltip" title="80% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="20% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/hive-bandit-leader">Hive Bandit Leader</a></span> <span><span class="basic-tooltip" title="80% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="20% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/jonin-elite">Jonin Elite</a></span> <span><span class="basic-tooltip" title="90% chance of High grade.">[H]</span> <span class="basic-tooltip" title="10% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/lagoon-barman">Lagoon Barman</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><span class="new" title="Lagoon Patron (page does not exist)" data-uncrawlable-url="L3dpa2kvTGFnb29uX1BhdHJvbj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Lagoon Patron</span></span> <span><span class="basic-tooltip" title="92% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="8% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/riddly">Riddly</a></span> <span><span class="basic-tooltip" title="95% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/samurai-rogue">Samurai Rogue</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/shinobi-citizen">Shinobi Citizen</a></span> <span><span class="basic-tooltip" title="90% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="10% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/skeleton-drifter">Skeleton Drifter</a></span> <span><span class="basic-tooltip" title="75% chance of High grade.">[H]</span> <span class="basic-tooltip" title="25% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/tech-hunter">Tech Hunter</a></span> <span><span class="basic-tooltip" title="92% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="8% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/tech-hunter-gate-guard">Tech Hunter Gate Guard</a></span> <span><span class="basic-tooltip" title="92% chance of High grade.">[H]</span> <span class="basic-tooltip" title="8% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/tech-hunter-ruins">Tech Hunter Ruins</a></span> <span><span class="basic-tooltip" title="92% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="8% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/tech-hunter-shopkeeper">Tech Hunter Shopkeeper</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/waystation-barman">Waystation Barman</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p><span><a href="/armour-king">Armour King</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="2% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="80% chance of High grade.">[H]</span> <span class="basic-tooltip" title="110% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="50% chance of Masterwork grade.">[M]</span></span><br><span><a href="/mercenary-smithy">Mercenary Smithy</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br><span><a href="/shark-smithy">Shark Smithy</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br><span><a href="/tech-hunter-shop">Tech Hunter Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="12% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="61% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="24% chance of High grade.">[H]</span> <span class="basic-tooltip" title="3% chance of Specialist grade.">[S]</span></span><br><span><a href="/the-great-library">The Great Library</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br><span><a href="/thieves-guild">Thieves Guild</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="13% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="69% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="17% chance of High grade.">[H]</span> <span class="basic-tooltip" title="1% chance of Specialist grade.">[S]</span></span><br></p></td><td><p><span class="new" title="Anti-Slaver Barracks (page does not exist)" data-uncrawlable-url="L3dpa2kvQW50aS1TbGF2ZXJfQmFycmFja3M/YWN0aW9uPWVkaXQmcmVkbGluaz0x">Anti-Slaver Barracks</span><br><a href="/anti-slaver-hq">Anti-Slaver HQ</a><br><span class="new" title="Anti-Slaver Prison (page does not exist)" data-uncrawlable-url="L3dpa2kvQW50aS1TbGF2ZXJfUHJpc29uP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==">Anti-Slaver Prison</span><br><a href="/cannibal-capital">Cannibal Capital</a><br><a href="/cannibal-village">Cannibal Village</a><br><span class="new" title="Flotsam Barracks (page does not exist)" data-uncrawlable-url="L3dpa2kvRmxvdHNhbV9CYXJyYWNrcz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Flotsam Barracks</span><br><span class="new" title="Flotsam HQ (page does not exist)" data-uncrawlable-url="L3dpa2kvRmxvdHNhbV9IUT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=">Flotsam HQ</span><br><a href="/first-village">First Village</a><br><a href="/mongrel-hq">Mongrel HQ</a><br><a href="/scout-post">Scout Post</a><br><span class="new" title="Tech Hunter HQ (page does not exist)" data-uncrawlable-url="L3dpa2kvVGVjaF9IdW50ZXJfSFE/YWN0aW9uPWVkaXQmcmVkbGluaz0x">Tech Hunter HQ</span><br><br>This armour can also be found as loot via the <a href="/artifacts">Artifacts</a> system.</p></td></tr></tbody></table></details>
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.424</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>2.12</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Assassin's Rags blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,450.</li></ul></div>
+
+## Trivia/Notes
+
+-   Since its debut, the name of the equipment is misspelled as "Assassins Rags" because the apostrophe is missing on the 's'. This was finally fixed in 0.98.4X.
+-   Assassin's Rags has the highest bonus Dexterity, Combat Speed and Attack of any clothing piece. It is tied with Ninja rags for the best dodge bonus as well.
+-   Assassin's Rags used to have an insanely high bonus Dexterity multiplier of 1.3x. This was nerfed down to what it is today, 1.2x.
+-   Assassin's Rags have the highest Efficiency of any Leather Armour piece in the game.
+    -   It can be assumed that this is a tradeoff for having very low coverage, similar to items like Heart Protector.

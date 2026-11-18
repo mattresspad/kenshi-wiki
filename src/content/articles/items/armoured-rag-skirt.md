@@ -1,0 +1,80 @@
+---
+articleId: armoured-rag-skirt
+title: Armoured Rag Skirt
+description: The Armoured Rag Skirt is a Medium Armour equipped in the Legwear slot. By default, the rags are biege in color. However, a separate armor of the same name b…
+categories:
+  - Armour
+  - Legwear
+  - Medium Armour
+layout: item
+factTitle: Armoured Rag Skirt
+factGroups:
+  - heading: null
+    rows:
+      - - Slot
+        - - Legs
+          - /legwear
+      - - Class
+        - - Medium
+          - /medium-armour
+      - - Material
+        - Plate
+      - - Base weight
+        - 7 kg
+      - - Base value
+        - c. 50
+      - - Size in inventory
+        - 5x4
+  - heading: Protection
+    rows:
+      - - Left Leg
+        - 60% covered
+      - - Right Leg
+        - 60% covered
+      - - Pierce resistance
+        - 0.00x
+  - heading: Modifiers
+    rows:
+      - - Combat skills
+        - "+2"
+      - - Cut into stun
+        - 10%
+      - - Stealth
+        - -1.00x
+      - - Martial arts
+        - "+4"
+  - heading: null
+    rows:
+      - - String id
+        - 5346-armor_otto.mod
+factImage:
+  src: /icons/items/5346-armor_otto.mod.png
+  alt: Armoured Rag Skirt
+factCaption: Salvaged rags, straps and plates pulled together by a decent craftsman has made this monstrosity. Commonly found on wanderers and bandits, it shouldn't be underestimated.
+---
+
+The **Armoured Rag Skirt** is a Medium Armour equipped in the Legwear slot. By default, the rags are biege in color. However, a separate armor of the same name but with an added '(colored)' exists. Together with the [Armoured Rags](/armoured-rags) it forms a set that can also be [dyed](/colour-scheme) different colors depending on the character it is equipped on first.
+
+This armour has inventory dimensions of **4x5**. Although in game the Specialist quality rags do not show an Athletics reduction it applies a 0.9775x Athetics effect.
+
+## Appearance
+
+The **Armoured Rag Skirt** appears like shredded rags fashioned into a knee-length, open-front skirt. The rags are held up by a two thick leather belts with a large metal plate attached to the left hip.
+
+## Grades
+
+<table class="wikitable grade-table"><tbody><tr><th class="unsortable">Medium Armour Class · Metal Plate</th><th class="unsortable grade grade-prototype">Prototype</th><th class="unsortable grade grade-shoddy">Shoddy</th><th class="unsortable grade grade-standard">Standard</th><th class="unsortable grade grade-high">High</th><th class="unsortable grade grade-specialist">Specialist</th><th class="unsortable grade grade-masterwork">Masterwork</th></tr><tr><th scope="row">Blunt resistance</th><td>5%</td><td>13%</td><td>24%</td><td>35%</td><td>45%</td><td>54%</td></tr><tr><th scope="row">Cut resistance</th><td>15%</td><td>25%</td><td>39%</td><td>52%</td><td>66%</td><td>76%</td></tr><tr><th scope="row">Cut resistance efficiency</th><td colspan="6">90%</td></tr><tr><th scope="row">Weight</th><td colspan="6">6 kg</td></tr><tr><th scope="row">Value</th><td>c.398</td><td>c.975</td><td>c.2,822</td><td>c.5,900</td><td>c.10,209</td><td>c.14,249</td></tr><tr><th scope="row">Sell value</th><td>c.99</td><td>c.243</td><td>c.705</td><td>c.1,475</td><td>c.2,552</td><td>c.3,562</td></tr><tr><th colspan="7">Coverage</th></tr><tr><th scope="row">Right Leg</th><td colspan="6">60%</td></tr><tr><th scope="row">Left Leg</th><td colspan="6">60%</td></tr><tr><th colspan="7">Skills</th></tr><tr><th scope="row">Athletics effect</th><td>0.87x</td><td>0.89x</td><td>0.92x</td><td>0.95x</td><td>0.98x</td><td>–</td></tr><tr><th scope="row">Martial arts bonus</th><td colspan="6">+4</td></tr></tbody></table>
+
+## Source
+
+<details class="collapsible"><summary>Locations</summary><table class="wikitable"><tbody><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><div><span><a href="/burn">Burn</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/dust-bandit">Dust Bandit</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/dust-bandit-bowman">Dust Bandit Bowman</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/dust-boss">Dust Boss</a></span> <span><span class="basic-tooltip" title="90% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="10% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/harmothoe">Harmothoe</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/hive-bandit">Hive Bandit</a></span> <span><span class="basic-tooltip" title="80% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="20% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/hive-bandit-leader">Hive Bandit Leader</a></span> <span><span class="basic-tooltip" title="80% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="20% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/prisoner">Prisoner</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/dust-bandit">Dust Bandit</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/sinklyde">Sinklyde</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div></td><td><div><span><a href="/band-of-bones">Band of Bones</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/gutterhead">Gutterhead</a></span> <span><span class="basic-tooltip" title="60% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="40% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/scavenger">Scavenger</a></span> <span><span class="basic-tooltip" title="60% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="40% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/starving-vagrant">Starving Vagrant</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/tora-the-fearless">Tora the Fearless</a></span> <span><span class="basic-tooltip" title="85% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="15% chance of Standard grade.">[S]</span></span></div><div></div></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p><span><a href="/mongrel-armor-shop">Mongrel Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="20% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="51% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span> <span class="basic-tooltip" title="9% chance of Specialist grade.">[S]</span></span><br><span><a href="/shek-armor-shop">Shek Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="15% chance of Prototype grade.">[P]</span> <span class="basic-tooltip" title="29% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="43% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="12% chance of High grade.">[H]</span> <span class="basic-tooltip" title="1% chance of Specialist grade.">[S]</span></span><br><span><a href="/ronin-armor-shop">Ronin Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="12% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="61% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="24% chance of High grade.">[H]</span> <span class="basic-tooltip" title="3% chance of Specialist grade.">[S]</span></span><br><span><a href="/mercenary-smithy">Mercenary Smithy</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br><span><a href="/shark-smithy">Shark Smithy</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br><span><a href="/flotsam-armory">Flotsam Armory</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="59% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="29% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="12% chance of High grade.">[H]</span></span><br><span><a href="/the-great-library">The Great Library</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br></p></td><td><p><a href="/cactus-den">Cactus Den</a><br><a href="/tower-of-ninjas">Tower Of Ninjas</a><br><br>This armour can also be found as loot via the <a href="/artifacts">Artifacts</a> system.</p></td></tr></tbody></table></details>
+
+<details class="collapsible"><summary>Locations (colored)</summary><table class="wikitable"><tbody><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><div><span><a href="/armoury-droneguard">Armoury Droneguard</a></span> <span><span class="basic-tooltip" title="80% chance of High grade.">[H]</span> <span class="basic-tooltip" title="20% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/berserker">Berserker</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/caravan-drone">Caravan Drone</a></span> <span><span class="basic-tooltip" title="75% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="25% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/droneguard">Droneguard</a></span> <span><span class="basic-tooltip" title="89% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="11% chance of Standard grade.">[S]</span></span></div><div></div><div><span><a href="/elite-droneguard">Elite Droneguard</a></span> <span><span class="basic-tooltip" title="89% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="11% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/general-hat-12">General Hat-12</a></span> <span><span class="basic-tooltip" title="100% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/ghost">Ghost</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/legion-scout">Legion Scout</a></span> <span><span class="basic-tooltip" title="85% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="15% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/old-empire-police-captain">Old Empire Police Captain</a></span> <span><span class="basic-tooltip" title="75% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="25% chance of Masterwork grade.">[M]</span></span></div><div></div><div><span><a href="/ponk">Ponk</a></span> <span><span class="basic-tooltip" title="70% chance of High grade.">[H]</span> <span class="basic-tooltip" title="30% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/prince">Prince</a></span> <span><span class="basic-tooltip" title="78% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="22% chance of High grade.">[H]</span></span></div><div></div><div><span><a href="/red-sabre-boss">Red Sabre Boss</a></span> <span><span class="basic-tooltip" title="78% chance of High grade.">[H]</span> <span class="basic-tooltip" title="22% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/rhinobot">Rhinobot</a></span> <span><span class="basic-tooltip" title="95% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/screamer-the-false">Screamer the False</a></span> <span><span class="basic-tooltip" title="70% chance of High grade.">[H]</span> <span class="basic-tooltip" title="30% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/sniperbot">Sniperbot</a></span> <span><span class="basic-tooltip" title="80% chance of High grade.">[H]</span> <span class="basic-tooltip" title="20% chance of Specialist grade.">[S]</span></span></div><div></div><div><span><a href="/soldierbot-guard">Soldierbot Guard</a></span> <span><span class="basic-tooltip" title="95% chance of Shoddy grade.">[S]</span></span></div><div></div><div><span><a href="/upgraded-watchbot">Upgraded Watchbot</a></span> <span><span class="basic-tooltip" title="80% chance of High grade.">[H]</span> <span class="basic-tooltip" title="20% chance of Specialist grade.">[S]</span></span></div><div></div></td><td><div><span><a href="/red-sabre">Red Sabre</a></span> <span><span class="basic-tooltip" title="90% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="10% chance of Standard grade.">[S]</span></span></div><div></div></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p><span><a href="/shek-armor-shop">Shek Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="15% chance of Prototype grade.">[P]</span> <span class="basic-tooltip" title="29% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="43% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="12% chance of High grade.">[H]</span> <span class="basic-tooltip" title="1% chance of Specialist grade.">[S]</span></span><br><span><a href="/ronin-armor-shop">Ronin Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="12% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="61% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="24% chance of High grade.">[H]</span> <span class="basic-tooltip" title="3% chance of Specialist grade.">[S]</span></span><br><span><a href="/the-great-library">The Great Library</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br><span><a href="/thieves-guild">Thieves Guild</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="13% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="69% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="17% chance of High grade.">[H]</span> <span class="basic-tooltip" title="1% chance of Specialist grade.">[S]</span></span><br></p></td><td><p>This armour can be found as loot via the <a href="/artifacts">Artifacts</a> system.</p></td></tr></tbody></table></details>
+
+
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.24</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>1.2</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Armoured Rag Skirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,054.</li><li><a href="/plate-armour-crafting-tech">Plate Armour Crafting</a> research: 8 hours at tech level 3; costs <a href="/engineering-research">1 Engineering Research</a>.</li></ul></div>
+
+_**Note:** Although the blueprint exists, it is unneeded as the research to unlock the Smithy also unlocks this item._
