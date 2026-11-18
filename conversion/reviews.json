@@ -258,6 +258,78 @@
     "wolves": {
       "formatCheck": "scripts/factions/verify.mjs",
       "editorialReview": "conversion/animals/review.json"
+    },
+    "leviathan": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "megacrab": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "megaraptor": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "mountain-dog": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "mr-gigantus": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "pack-beast": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "river-raptor": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "security-spider": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "security-spider-ii": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "settlers-pup": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "skimmer": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "skin-spider": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "swamp-raptor": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "swamp-turtle": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "the-crabinator": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "titus": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "war-gorillo": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
+    },
+    "wild-bull": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/animals/review.json"
     }
   },
   "mediaGaps": [

@@ -420,6 +420,17 @@
       }
     },
     {
+      "id": "availability:/barnabus",
+      "kind": "availability",
+      "target": "/barnabus",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/barnabus"
+      }
+    },
+    {
       "id": "availability:/barrier-tower",
       "kind": "availability",
       "target": "/barrier-tower",
@@ -450,6 +461,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/bast-zone"
+      }
+    },
+    {
+      "id": "availability:/beak-thing",
+      "kind": "availability",
+      "target": "/beak-thing",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/beak-thing"
+      }
+    },
+    {
+      "id": "availability:/beloved-goat",
+      "kind": "availability",
+      "target": "/beloved-goat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/beloved-goat"
       }
     },
     {
@@ -538,6 +571,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/black-dragon-ninjas"
+      }
+    },
+    {
+      "id": "availability:/black-gorillo",
+      "kind": "availability",
+      "target": "/black-gorillo",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/black-gorillo"
       }
     },
     {
@@ -640,6 +684,17 @@
       }
     },
     {
+      "id": "availability:/blood-spider",
+      "kind": "availability",
+      "target": "/blood-spider",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/blood-spider"
+      }
+    },
+    {
       "id": "availability:/bloodraiders",
       "kind": "availability",
       "target": "/bloodraiders",
@@ -651,6 +706,17 @@
       }
     },
     {
+      "id": "availability:/bonedog",
+      "kind": "availability",
+      "target": "/bonedog",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bonedog"
+      }
+    },
+    {
       "id": "availability:/bonefields",
       "kind": "availability",
       "target": "/bonefields",
@@ -659,6 +725,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/bonefields"
+      }
+    },
+    {
+      "id": "availability:/boneyard-wolf",
+      "kind": "availability",
+      "target": "/boneyard-wolf",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/boneyard-wolf"
       }
     },
     {
@@ -805,6 +882,17 @@
       }
     },
     {
+      "id": "availability:/cage-beast",
+      "kind": "availability",
+      "target": "/cage-beast",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cage-beast"
+      }
+    },
+    {
       "id": "availability:/cannibal-camp",
       "kind": "availability",
       "target": "/cannibal-camp",
@@ -915,6 +1003,17 @@
       }
     },
     {
+      "id": "availability:/category/animals",
+      "kind": "availability",
+      "target": "/category/animals",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/animals"
+      }
+    },
+    {
       "id": "availability:/category/locations",
       "kind": "availability",
       "target": "/category/locations",
@@ -1003,6 +1102,17 @@
       }
     },
     {
+      "id": "availability:/cleanser-unit",
+      "kind": "availability",
+      "target": "/cleanser-unit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cleanser-unit"
+      }
+    },
+    {
       "id": "availability:/clownsteady",
       "kind": "availability",
       "target": "/clownsteady",
@@ -1044,6 +1154,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/clownsteady/malnourished"
+      }
+    },
+    {
+      "id": "availability:/cornelius",
+      "kind": "availability",
+      "target": "/cornelius",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cornelius"
+      }
+    },
+    {
+      "id": "availability:/crab",
+      "kind": "availability",
+      "target": "/crab",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab"
       }
     },
     {
@@ -1132,6 +1264,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crabs"
+      }
+    },
+    {
+      "id": "availability:/crimper",
+      "kind": "availability",
+      "target": "/crimper",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crimper"
       }
     },
     {
@@ -1322,6 +1465,17 @@
       }
     },
     {
+      "id": "availability:/domesticated-bull",
+      "kind": "availability",
+      "target": "/domesticated-bull",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/domesticated-bull"
+      }
+    },
+    {
       "id": "availability:/dreg",
       "kind": "availability",
       "target": "/dreg",
@@ -1451,6 +1605,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/dust-king-tower"
+      }
+    },
+    {
+      "id": "availability:/elder-beak-thing",
+      "kind": "availability",
+      "target": "/elder-beak-thing",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/elder-beak-thing"
+      }
+    },
+    {
+      "id": "availability:/elder-blood-spider",
+      "kind": "availability",
+      "target": "/elder-blood-spider",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/elder-blood-spider"
+      }
+    },
+    {
+      "id": "availability:/elder-crab",
+      "kind": "availability",
+      "target": "/elder-crab",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/elder-crab"
       }
     },
     {
@@ -1638,6 +1825,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/farming-village"
+      }
+    },
+    {
+      "id": "availability:/fauna",
+      "kind": "availability",
+      "target": "/fauna",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fauna"
       }
     },
     {
@@ -1949,6 +2147,17 @@
       }
     },
     {
+      "id": "availability:/garru",
+      "kind": "availability",
+      "target": "/garru",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/garru"
+      }
+    },
+    {
       "id": "availability:/gatherer-village",
       "kind": "availability",
       "target": "/gatherer-village",
@@ -1971,6 +2180,17 @@
       }
     },
     {
+      "id": "availability:/goat",
+      "kind": "availability",
+      "target": "/goat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/goat"
+      }
+    },
+    {
       "id": "availability:/goat-herders-camp",
       "kind": "availability",
       "target": "/goat-herders-camp",
@@ -1979,6 +2199,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/goat-herders-camp"
+      }
+    },
+    {
+      "id": "availability:/gorillo",
+      "kind": "availability",
+      "target": "/gorillo",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gorillo"
       }
     },
     {
@@ -2059,6 +2290,17 @@
       }
     },
     {
+      "id": "availability:/great-white-gorillo",
+      "kind": "availability",
+      "target": "/great-white-gorillo",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/great-white-gorillo"
+      }
+    },
+    {
       "id": "availability:/greenbeach",
       "kind": "availability",
       "target": "/greenbeach",
@@ -2111,6 +2353,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/guard-outpost"
+      }
+    },
+    {
+      "id": "availability:/guide-to-animals",
+      "kind": "availability",
+      "target": "/guide-to-animals",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/guide-to-animals"
       }
     },
     {
@@ -2620,6 +2873,17 @@
       }
     },
     {
+      "id": "availability:/iron-spider",
+      "kind": "availability",
+      "target": "/iron-spider",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/iron-spider"
+      }
+    },
+    {
       "id": "availability:/iron-valleys",
       "kind": "availability",
       "target": "/iron-valleys",
@@ -2650,6 +2914,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/islands-of-none"
+      }
+    },
+    {
+      "id": "availability:/king",
+      "kind": "availability",
+      "target": "/king",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/king"
+      }
+    },
+    {
+      "id": "availability:/king-gorillo",
+      "kind": "availability",
+      "target": "/king-gorillo",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/king-gorillo"
       }
     },
     {
@@ -2686,6 +2972,17 @@
       }
     },
     {
+      "id": "availability:/landbat",
+      "kind": "availability",
+      "target": "/landbat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/landbat"
+      }
+    },
+    {
       "id": "availability:/last-stand",
       "kind": "availability",
       "target": "/last-stand",
@@ -2705,6 +3002,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/leaning-tower"
+      }
+    },
+    {
+      "id": "availability:/leviathan",
+      "kind": "availability",
+      "target": "/leviathan",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/leviathan"
       }
     },
     {
@@ -2851,6 +3159,28 @@
       }
     },
     {
+      "id": "availability:/megacrab",
+      "kind": "availability",
+      "target": "/megacrab",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/megacrab"
+      }
+    },
+    {
+      "id": "availability:/megaraptor",
+      "kind": "availability",
+      "target": "/megaraptor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/megaraptor"
+      }
+    },
+    {
       "id": "availability:/mercenary-camp",
       "kind": "availability",
       "target": "/mercenary-camp",
@@ -2950,6 +3280,17 @@
       }
     },
     {
+      "id": "availability:/mountain-dog",
+      "kind": "availability",
+      "target": "/mountain-dog",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mountain-dog"
+      }
+    },
+    {
       "id": "availability:/mourn",
       "kind": "availability",
       "target": "/mourn",
@@ -2958,6 +3299,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mourn"
+      }
+    },
+    {
+      "id": "availability:/mr-gigantus",
+      "kind": "availability",
+      "target": "/mr-gigantus",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mr-gigantus"
       }
     },
     {
@@ -3346,6 +3698,28 @@
       }
     },
     {
+      "id": "availability:/pack-beast",
+      "kind": "availability",
+      "target": "/pack-beast",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/pack-beast"
+      }
+    },
+    {
+      "id": "availability:/pack-bull",
+      "kind": "availability",
+      "target": "/pack-bull",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/pack-bull"
+      }
+    },
+    {
       "id": "availability:/police-barracks",
       "kind": "availability",
       "target": "/police-barracks",
@@ -3709,6 +4083,17 @@
       }
     },
     {
+      "id": "availability:/river-raptor",
+      "kind": "availability",
+      "target": "/river-raptor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/river-raptor"
+      }
+    },
+    {
       "id": "availability:/robots",
       "kind": "availability",
       "target": "/robots",
@@ -3885,6 +4270,28 @@
       }
     },
     {
+      "id": "availability:/security-spider",
+      "kind": "availability",
+      "target": "/security-spider",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/security-spider"
+      }
+    },
+    {
+      "id": "availability:/security-spider-ii",
+      "kind": "availability",
+      "target": "/security-spider-ii",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/security-spider-ii"
+      }
+    },
+    {
       "id": "availability:/settled-nomad-village",
       "kind": "availability",
       "target": "/settled-nomad-village",
@@ -3915,6 +4322,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/settled-nomads/slave-traders"
+      }
+    },
+    {
+      "id": "availability:/settlers-pup",
+      "kind": "availability",
+      "target": "/settlers-pup",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/settlers-pup"
       }
     },
     {
@@ -4204,6 +4622,17 @@
       }
     },
     {
+      "id": "availability:/skimmer",
+      "kind": "availability",
+      "target": "/skimmer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skimmer"
+      }
+    },
+    {
       "id": "availability:/skimmer-nest",
       "kind": "availability",
       "target": "/skimmer-nest",
@@ -4245,6 +4674,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skin-bandits"
+      }
+    },
+    {
+      "id": "availability:/skin-spider",
+      "kind": "availability",
+      "target": "/skin-spider",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skin-spider"
       }
     },
     {
@@ -4930,6 +5370,17 @@
       }
     },
     {
+      "id": "availability:/swamp-raptor",
+      "kind": "availability",
+      "target": "/swamp-raptor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-raptor"
+      }
+    },
+    {
       "id": "availability:/swamp-raptor-nest",
       "kind": "availability",
       "target": "/swamp-raptor-nest",
@@ -4938,6 +5389,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/swamp-raptor-nest"
+      }
+    },
+    {
+      "id": "availability:/swamp-turtle",
+      "kind": "availability",
+      "target": "/swamp-turtle",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-turtle"
       }
     },
     {
@@ -5026,6 +5488,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/the-black-desert"
+      }
+    },
+    {
+      "id": "availability:/the-crabinator",
+      "kind": "availability",
+      "target": "/the-crabinator",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-crabinator"
       }
     },
     {
@@ -5282,6 +5755,17 @@
       }
     },
     {
+      "id": "availability:/titus",
+      "kind": "availability",
+      "target": "/titus",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/titus"
+      }
+    },
+    {
       "id": "availability:/tower-of-abuse",
       "kind": "availability",
       "target": "/tower-of-abuse",
@@ -5513,6 +5997,17 @@
       }
     },
     {
+      "id": "availability:/war-gorillo",
+      "kind": "availability",
+      "target": "/war-gorillo",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/war-gorillo"
+      }
+    },
+    {
       "id": "availability:/watchers-rim",
       "kind": "availability",
       "target": "/watchers-rim",
@@ -5653,6 +6148,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/white-eyebrow-clan"
+      }
+    },
+    {
+      "id": "availability:/wild-bull",
+      "kind": "availability",
+      "target": "/wild-bull",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wild-bull"
       }
     },
     {
@@ -5909,6 +6415,66 @@
       }
     },
     {
+      "id": "media:/icons/items/42241-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42241-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "29a4b31034c7cedff4354a6024d5998303e69f463c5ce2f815ff3dcfbc153451",
+        "sourceSha256": "29a4b31034c7cedff4354a6024d5998303e69f463c5ce2f815ff3dcfbc153451"
+      }
+    },
+    {
+      "id": "media:/icons/items/42243-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42243-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "e3a4905325d4be6fb2b2f2cbcbb1ced63c392b58b7ec076cae3e621ba0f0672e",
+        "sourceSha256": "e3a4905325d4be6fb2b2f2cbcbb1ced63c392b58b7ec076cae3e621ba0f0672e"
+      }
+    },
+    {
+      "id": "media:/icons/items/42313-changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42313-changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "5b713f24628e2ac3ab2e55662cc3fbef9c2e998106067a4b419b3ab11da93fbb",
+        "sourceSha256": "5b713f24628e2ac3ab2e55662cc3fbef9c2e998106067a4b419b3ab11da93fbb"
+      }
+    },
+    {
+      "id": "media:/icons/items/42315-changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42315-changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "d5e3ff29b29bd8372d4c6b54445908c484f08d852430d890a16bde45c394b258",
+        "sourceSha256": "d5e3ff29b29bd8372d4c6b54445908c484f08d852430d890a16bde45c394b258"
+      }
+    },
+    {
+      "id": "media:/icons/items/42338-changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42338-changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "6c4f0efe512335f73a422555dc658d91a8b65746d84ffd12b5efac59f29a9d97",
+        "sourceSha256": "6c4f0efe512335f73a422555dc658d91a8b65746d84ffd12b5efac59f29a9d97"
+      }
+    },
+    {
       "id": "media:/icons/items/43948-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/43948-rebirth.mod.png",
@@ -6026,6 +6592,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "81990d3ac61780a86df9cf6ed1931b444da5c58425cf436bb00cc7ca63720cb0",
         "sourceSha256": "81990d3ac61780a86df9cf6ed1931b444da5c58425cf436bb00cc7ca63720cb0"
+      }
+    },
+    {
+      "id": "media:/icons/items/50567-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/50567-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "7518783b655a1b4d71620effed157550ae4bd923c379737646715a9b2fd7f477",
+        "sourceSha256": "7518783b655a1b4d71620effed157550ae4bd923c379737646715a9b2fd7f477"
       }
     },
     {
@@ -6385,6 +6963,18 @@
       "resolution": {
         "method": "local resource available; independently maintained contents",
         "sha256": "352816074ceeb7e91cc7e725bed8fbf45402eafdc5b680e834c3a0254242ccee",
+        "sourceSha256": "b385289390d87210d9fedaa535f11ee55230dc6ab3af61cc313ac1614647ae8d"
+      }
+    },
+    {
+      "id": "media:/notices/artwork.txt",
+      "kind": "media",
+      "target": "/notices/artwork.txt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/animals/acceptances.json#animal-siblings-2",
+      "resolution": {
+        "method": "local resource available; independently maintained contents",
+        "sha256": "0ec5184d61794a9ecce6cb2c80ff41aeba079b83f6bccb8f5fb0c162ba6209b6",
         "sourceSha256": "b385289390d87210d9fedaa535f11ee55230dc6ab3af61cc313ac1614647ae8d"
       }
     },

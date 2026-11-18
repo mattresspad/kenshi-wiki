@@ -1,0 +1,123 @@
+[
+  {
+    "name": "animal-pilots",
+    "newFindings": [],
+    "newlyResolved": [
+      "availability:/beak-thing",
+      "availability:/bonedog",
+      "availability:/category/animals",
+      "availability:/pack-bull"
+    ],
+    "reopened": [],
+    "open": 2557
+  },
+  {
+    "name": "animal-structures",
+    "newFindings": [],
+    "newlyResolved": [
+      "availability:/cage-beast",
+      "availability:/cleanser-unit",
+      "availability:/elder-beak-thing"
+    ],
+    "reopened": [],
+    "open": 2554
+  },
+  {
+    "name": "animal-overview-and-care",
+    "newFindings": [
+      "claim:animal-barnabus-scale",
+      "claim:animal-growth-fields",
+      "claim:animal-movement",
+      "claim:animal-beak-regions",
+      "claim:animal-damage-reload",
+      "claim:animal-elder-ages",
+      "claim:animal-flats-lagoon",
+      "claim:animal-gorillo-superlatives",
+      "claim:animal-conditional-spawns",
+      "claim:animal-feeding",
+      "claim:animal-cleanser-origin",
+      "claim:animal-robot-fields",
+      "claim:animal-named-interactions",
+      "claim:animal-malformed-coefficient",
+      "claim:animal-fauna-comparisons",
+      "claim:animal-fauna-media",
+      "claim:animal-garru-provocation",
+      "claim:animal-design-intent",
+      "claim:animal-guide-purchase"
+    ],
+    "newlyResolved": [
+      "media:/icons/items/42241-rebirth.mod.png",
+      "media:/icons/items/42243-rebirth.mod.png",
+      "media:/icons/items/42313-changes_otto.mod.png",
+      "media:/icons/items/42315-changes_otto.mod.png",
+      "media:/icons/items/42338-changes_otto.mod.png",
+      "media:/icons/items/50567-rebirth.mod.png",
+      "availability:/barnabus",
+      "availability:/fauna",
+      "availability:/guide-to-animals"
+    ],
+    "reopened": [],
+    "open": 2564
+  },
+  {
+    "name": "animal-siblings-1",
+    "newFindings": [
+      "claim:animal-blood-resistance",
+      "claim:animal-faction-semantics",
+      "claim:animal-leviathan-conditions",
+      "claim:animal-historical-interpretations",
+      "claim:animal-security-targets",
+      "claim:animal-special-variants",
+      "claim:animal-skimmer-conditions",
+      "claim:animal-turtle-conditions"
+    ],
+    "newlyResolved": [
+      "availability:/beloved-goat",
+      "availability:/black-gorillo",
+      "availability:/blood-spider",
+      "availability:/boneyard-wolf",
+      "availability:/cornelius",
+      "availability:/crab",
+      "availability:/crimper",
+      "availability:/domesticated-bull",
+      "availability:/elder-blood-spider",
+      "availability:/elder-crab",
+      "availability:/garru",
+      "availability:/goat",
+      "availability:/gorillo",
+      "availability:/great-white-gorillo",
+      "availability:/iron-spider",
+      "availability:/king",
+      "availability:/king-gorillo",
+      "availability:/landbat"
+    ],
+    "reopened": [],
+    "open": 2554
+  },
+  {
+    "name": "animal-siblings-2",
+    "newFindings": [],
+    "newlyResolved": [
+      "availability:/leviathan",
+      "availability:/megacrab",
+      "availability:/megaraptor",
+      "availability:/mountain-dog",
+      "availability:/mr-gigantus",
+      "availability:/pack-beast",
+      "availability:/river-raptor",
+      "availability:/security-spider",
+      "availability:/security-spider-ii",
+      "availability:/settlers-pup",
+      "availability:/skimmer",
+      "availability:/skin-spider",
+      "availability:/swamp-raptor",
+      "availability:/swamp-turtle",
+      "availability:/the-crabinator",
+      "availability:/titus",
+      "availability:/war-gorillo",
+      "availability:/wild-bull"
+    ],
+    "reopened": [],
+    "open": 2536
+  }
+]
