@@ -3205,6 +3205,398 @@
         "claim:item-quality-and-prices",
         "claim:item-source-media"
       ]
+    },
+    {
+      "id": "skeleton-mask",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Skeleton Mask is a Light Armour that is equipped in the Headgear slot. It cannot be bought from shops nor crafted by player characters. It is equipped by Broken Skeleton Bandits, Skeleton Bandits, Upgraded Skeleton Bandits, and Upgraded Skeleton Guards. Appearance The Skeleton Mask appears to be a face mask with large eyeholes. Stats Crafting Unlocked by",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-mask.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "255f853fd2a4a85a94bc877141c5cffbcd5fa290c5518a8b7effae3365edb617"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "sleeveless-dustcoat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Sleeveless Dustcoat is a Light Armour that is equipped in the Body Armour slot. It can be sold by the Armour King. This armour causes overlap on the Samurai Clothpants and Samurai Legplates. It is the sleeveless version of a Dustcoat. It is equipped by Anti-Slavers (unarmed), Grass Pirates, and Straw Lieutenants. It can also be randomly equipped by Holy ",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sleeveless-dustcoat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "333f59384785b09c84dfa515f4ba4d0f3d960f832003bb195306d30d474e4746"
+      },
+      "questions": [
+        "claim:item-blueprint-availability",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "sleeveless-longcoat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Sleeveless Longcoat is Light Armour that is equipped in the body armour slot. It is sold in Mongrel, Shek, Tech Hunter and Swamp armour shops. A version of this armour with sleeves also exists. It is the armour of choice of Hounds, Anti-Slaver and Human Mercenaries. It is also randomly worn by Anti-Slaver Jonins, Drifters, Holy Nation Robots, Skeleton Drifte",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sleeveless-longcoat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a04883aad35b864b4f698f19ea419221a44dacec8e2d20ea16289b2dd11bce9a"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "spiked-helmet",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Spiked Helmet is a Heavy Armour that is equipped in the Headgear slot. It can be bought in UC Armour Shops. It cannot be worn by Hive Worker Drones or its variants. It is equipped by Dust Bandits, Dust Bandit Bowmen, Dust Bosses, the Dust King, Sinklyde, and Prisoners. It is randomly equipped by Stone Rats and Territorial Thugs. This armour has inventory",
+      "organization": "Reviewed 4 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/spiked-helmet.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c7adb9701c7887b28c25e6ff8878147b20952b10dfda4e9c6b32661be37063a1"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "square-goggles",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Square Goggles are clothing that fall under the Headgear category. They do not belong to any Armour Class and can be purchased at Headgear Shops. Square Goggles are common headgear for Caravan Guards. Appearance Square Goggles are made up of two metal frames held in place by a fabric band. Crafting Unlocked by:Square Goggles blueprint: 12 hours at tech level",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/square-goggles.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e44882e78428ca47f1bf16f71034e4f80577a4ebc5d314159feb8b3b8d5eb6ce"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "stout-hessian-uniform",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Stout Hessian Uniform is a highly colourable piece of Clothing that is equipped in the Legwear slot. As it can be seen from image gallery the in-game coloration of this item is quite bland. This armour has inventory dimensions of 4x4. Appearance Source Locations Crafting Unlocked by:Stout Hessian Uniform blueprint: 12 hours at tech level 1; the blueprint",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stout-hessian-uniform.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ab49ee1ea6c277745dca489d5c50b80211c498dd3bd762959c051a27fdc778e7"
+      },
+      "questions": [
+        "claim:item-availability-and-maps",
+        "claim:item-crafting-and-research",
+        "claim:item-map-reveal-semantics",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "stout-hessian",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Stout Hessian is an article of clothing wearable as pants. It is available through looting or purchase from a Clothing Trader. It is very often seen in the game worn by various NPCs, a popular choice of leg-wear for soldiers and mercenaries. The Stout Hessian offers no protection, although it provides an aesthetic alternative to the base versions of Carg",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stout-hessian.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "10ecb38c64cc1e80b935dcc92b72103ea12305e2878d8ff938d710ed8239ddb2"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "straw-hat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Straw Hat is a clothing hat item. This hat has 40% protections from Acid weather. This hat is an alternative to Sandogosa. This armour has inventory dimensions of 3x3. Appearance The Straw Hat is a simple cone shaped hat with a very wide brim to protect the character from the sun. It is made by several pieces of straw cloth sewn together. The hat is held",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/straw-hat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bab1fee79dc9ba25f1d4cb2b35d2aaedf67637695581c95420d2bd5a23fec330"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "swamp-ninja-mask",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Swamp Ninja Mask is a Light Armour that is equipped in the Headgear slot. It is equipped by Shinobi Guards (randomly), and, true to the description, it is also used by Shade, Swamp Ninja Chunins and Swamp Ninja Genins. Despite similar appearance, it is different from and should not be confused with a Fog Mask. This armour has inventory dimensions of 3x3.",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamp-ninja-mask.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "293b9901b2fc3c52532cf381b80f664138f61b55b7c98caac8de4a4140ffac74"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "swamp-ninja-rags",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Swamp Ninja Rags is a type of armour in Kenshi. It belongs to the Light Armour Class and can be crafted using the Leather Armour Crafting Bench. It can also be dyed. Appearance The Ninja Rags are depicted as brown leather strips that wrap around the torso and arms with ",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamp-ninja-rags.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7b152a5d22640fabc7c413b33dc7ae7b8719970f5caa1f1898654ca0d1a6026e"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "tagelmust",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Tagelmust is a Light Armour Class Hat item. It can be made by using a Clothing Bench. This armour can be dyed. It also has a chainmail blackened and rusted version. This armour has inventory dimensions of 3x3. Appearance Made from what looks like one sheet of cloth, the Tagelmust is wrapped around the character’s head in a manner that leaves the face exp",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tagelmust.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ee8adf1ca70e370424aa9ae240b560785635c47e042cc0e309529f29f5bcab34"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "tin-can",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Tin Can is a Heavy Armour that is equipped in the Headgear slot. It is sold by UC and HN Armour Vendors as well as HN and Ronin Hat Vendors. It is the defining helmet of Mighty Canhead. It is randomly equipped by City Heroes, Hero Bosses, Territorial Thugs, United Heroes, and Yabuta Outlaws. This armour has inventory dimensions of 3x3. Appearance Simple ",
+      "organization": "Reviewed 5 section bookmarks and 3 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tin-can.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "22672465e924d1473bc1f8b4d4ccfd9940bdb3c23a5d85d78fd754a7603e739c"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-hidden-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "traders-leathers",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Traders Leathers are Light Armour that is equipped in the Body Armour slot. This item is the uniform of the traders of Traders Guild, as such most vendors and traders in the world equip this armour. It is also the armour of choice of Machinists. Slavers, Slaver Caravan Guards, and Slaver Caravan Bosses. It can be randomly worn by Drifters, Tech Hunters, and ",
+      "organization": "Reviewed 5 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/traders-leathers.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4529ee228ca77d71fda4194fc3bed48c04d4abb4f386070bef18014ca5e84cfc"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "tricorn-hat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Tricorn Hat is a Light Armour equipped in the Headgear slot. It can be sold by Ronin Hat Vendors. it is randomly equipped by Anti-Slaver Jonins, Anti-Slavers (unarmed), Drifters, Hounds, Human Mercenaries, Outlaws, Smugglers, Swamper Gate Guards, Tech Hunters, and Tech Hunter Ruins. This armour has inventory dimensions of 3x3. Appearance Headgear of a by",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tricorn-hat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ddb0a3e0bbc74129209940fc44945855d258c4d2ed2a8644bff62fd2fe5d04ea"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "turban",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Turban is a Light Armour that is equipped in the Headgear slot. It can be bought from Hat Vendors. It is equipped by Holy Farm Leaders, Holy Farmers, Slaver Guards, and Slaver Heavy Guards. It can be randomly equipped by Bar Fishermen, Bar Thugs, Drifters, Goat Men, Outlaws, Slavers, Slaver Caravan Bosses, Slaver Caravan Guards, Tech Hunters, Tech Hunter",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/turban.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "14154c90964c4869d75eadf7f1bdb9d5c056e184817032136a96e51f2a8aa1c7"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "turtleneck",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Turtleneck is worn in the shirt armour slot. It does not provide any armour or stat buffs/debuffs. There is also a short-sleeved and no-sleeved version of this, which are Cloth Shirt and White Vest, respectively. A differently named version of this armour can be dyed. This armour has inventory dimensions of 2x4. Appearance A plain, fully sleeved white sh",
+      "organization": "Reviewed 3 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/turtleneck.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cb417cc56b28fde4be4468dd3e3d3bfa0415dcf0fca5393251a4a58367a2ad49"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "unholy-chest-plate",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Unholy Chest Plate is a Heavy Armour that is equipped in the Body Armour slot. It can be obtained at the Bookshop in Black Scratch, rarely at a smithy in Shark, at a Tech Hunter shop in Flats Lagoon or World’s End, at Shek armor shops in Admag and any HN town that has been taken over by Shek, and the Mongrel armor shop. It can be randomly equipped by Tec",
+      "organization": "Reviewed 4 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/unholy-chest-plate.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "661773d41885f162135968b3113181bd975af8b2e450d66b914f32601c5d4a0c"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "visored-helmet",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Visored Helmet is a Medium Armour that is equipped in the Headgear slot. It is sold by HN and UC Armour Vendors, and by HN and Ronin Hat Vendors. This armour can be dyed. It is equipped by Samurai Police and Slavemongers. It is randomly equipped by Bounty Hunters. This armour has inventory dimensions of 3x3. Appearance The Visored Helmet is made up of tw",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/visored-helmet.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0f1bcddedb9b785d0b4709eea7a5f1f24d3bbdc1b30c92ed7f5ba5c3b4f15f7b"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "white-plate-jacket",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The White Plate Jacket is a leather armour that is equipped in the Body Armour slot. It can be sometimes found sold in Mongrel, Shek, and Tech Hunter armour shops. It is one of the only body armours that covers 100% of the entire upper body. There is also plain and black variant of this armour. It has the highest Stealth penalty compared to its other variant",
+      "organization": "Reviewed 3 section bookmarks and 2 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/white-plate-jacket.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cf1dbe72d804c98f8c54e3f756fa9e39c74a1aaa2950c60a5639169432a64671"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-damage-and-modifiers",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "white-vest",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The White Vest is clothing worn in the shirt slot. It provides no statistical bonuses or penalties. It can be found on some Unique Recruits such as Miu, Izumi, Lumi and randomly on many others, such as Hobbs or the Gunner Recruit. They are a common clothes item for many Rebel Farmers, farmers and citizens in general, several United Cities military (randomly ",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/white-vest.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "12565b35fd816892922c9f55ac9d67b5ffbe801be585557c8aeeef08bb5ad8df"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "wooden-sandals",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Wooden Sandals are armour that is equipped in the Boots slot. They can be bought from a Boot Trader or looted off of Bandits. They provide no protection, but increase the wearer’s effective Athletics skill, allowing them to run faster. Asides from that, they also provide a slight bonus to Combat speed effect. This footwear has inventory dimensions of 2x4. Ap",
+      "organization": "Reviewed 3 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wooden-sandals.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7a8677115101e72e89f6a39ceb2149883a3ede6657b2dad551ff1155de5049db"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-interpretive-lore",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "wool-hat",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Wool Hat is a hat which has almost no benefits. Players might choose to wear this item if they are concerned about their “looks like a slave” stat soon after escaping slavery. This armour has inventory dimensions of 3x3. Appearance The Wool Hat is a simple beanie made out of what looks like the leftover material from a Wheatstraw bag. Crafting Unlocked b",
+      "organization": "Reviewed 2 section bookmarks and 1 source tables; Caption line breaks and image preserved. Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wool-hat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3072775c6076869451e13f40f53964b51ec9f9b76f397e1fb9b7b37eab2e17d5"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
+    },
+    {
+      "id": "worn-out-shorts",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Narrative and qualifications reviewed: Worn-out Shorts are a clothing item that is wearable as pants. They can be looted, purchased from a Clothing Trader. Worn-out Shorts are the only shorts in game. These shorts are most notably the outfit of the allegedly dangerous criminal Razor. This armour has inventory dimensions of 4x4. Appearance Worn-out Shorts are a brown pair of leather shorts. The le",
+      "organization": "Reviewed 3 section bookmarks and 1 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/worn-out-shorts.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1403d3d309dbe78492edaa750aa1fd76085d48e06bfc6f901c9c544ff03aa6d1"
+      },
+      "questions": [
+        "claim:item-crafting-and-research",
+        "claim:item-quality-and-prices",
+        "claim:item-source-media"
+      ]
     }
   ],
   "editorialChanges": [

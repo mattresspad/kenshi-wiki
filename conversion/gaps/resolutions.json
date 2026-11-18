@@ -10441,6 +10441,17 @@
       }
     },
     {
+      "id": "availability:/skeleton-mask",
+      "kind": "availability",
+      "target": "/skeleton-mask",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-mask"
+      }
+    },
+    {
       "id": "availability:/skeleton-mkii-screamer",
       "kind": "availability",
       "target": "/skeleton-mkii-screamer",
@@ -11024,6 +11035,28 @@
       }
     },
     {
+      "id": "availability:/sleeveless-dustcoat",
+      "kind": "availability",
+      "target": "/sleeveless-dustcoat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sleeveless-dustcoat"
+      }
+    },
+    {
+      "id": "availability:/sleeveless-longcoat",
+      "kind": "availability",
+      "target": "/sleeveless-longcoat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sleeveless-longcoat"
+      }
+    },
+    {
       "id": "availability:/small-backpack",
       "kind": "availability",
       "target": "/small-backpack",
@@ -11332,6 +11365,17 @@
       }
     },
     {
+      "id": "availability:/spiked-helmet",
+      "kind": "availability",
+      "target": "/spiked-helmet",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/spiked-helmet"
+      }
+    },
+    {
       "id": "availability:/spine-canyon",
       "kind": "availability",
       "target": "/spine-canyon",
@@ -11362,6 +11406,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/spring-bat"
+      }
+    },
+    {
+      "id": "availability:/square-goggles",
+      "kind": "availability",
+      "target": "/square-goggles",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/square-goggles"
       }
     },
     {
@@ -11662,6 +11717,28 @@
       }
     },
     {
+      "id": "availability:/stout-hessian",
+      "kind": "availability",
+      "target": "/stout-hessian",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stout-hessian"
+      }
+    },
+    {
+      "id": "availability:/stout-hessian-uniform",
+      "kind": "availability",
+      "target": "/stout-hessian-uniform",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stout-hessian-uniform"
+      }
+    },
+    {
       "id": "availability:/strange-camp",
       "kind": "availability",
       "target": "/strange-camp",
@@ -11670,6 +11747,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/strange-camp"
+      }
+    },
+    {
+      "id": "availability:/straw-hat",
+      "kind": "availability",
+      "target": "/straw-hat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/straw-hat"
       }
     },
     {
@@ -11791,6 +11879,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/swamp-ninja-jonin"
+      }
+    },
+    {
+      "id": "availability:/swamp-ninja-mask",
+      "kind": "availability",
+      "target": "/swamp-ninja-mask",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-ninja-mask"
+      }
+    },
+    {
+      "id": "availability:/swamp-ninja-rags",
+      "kind": "availability",
+      "target": "/swamp-ninja-rags",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-ninja-rags"
       }
     },
     {
@@ -11934,6 +12044,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/sword-for-hire"
+      }
+    },
+    {
+      "id": "availability:/tagelmust",
+      "kind": "availability",
+      "target": "/tagelmust",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tagelmust"
       }
     },
     {
@@ -12443,6 +12564,17 @@
       }
     },
     {
+      "id": "availability:/tin-can",
+      "kind": "availability",
+      "target": "/tin-can",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tin-can"
+      }
+    },
+    {
       "id": "availability:/tinfist",
       "kind": "availability",
       "target": "/tinfist",
@@ -12685,6 +12817,17 @@
       }
     },
     {
+      "id": "availability:/traders-leathers",
+      "kind": "availability",
+      "target": "/traders-leathers",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/traders-leathers"
+      }
+    },
+    {
       "id": "availability:/traitorous-bar-thug",
       "kind": "availability",
       "target": "/traitorous-bar-thug",
@@ -12693,6 +12836,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/traitorous-bar-thug"
+      }
+    },
+    {
+      "id": "availability:/tricorn-hat",
+      "kind": "availability",
+      "target": "/tricorn-hat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tricorn-hat"
+      }
+    },
+    {
+      "id": "availability:/turban",
+      "kind": "availability",
+      "target": "/turban",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/turban"
+      }
+    },
+    {
+      "id": "availability:/turtleneck",
+      "kind": "availability",
+      "target": "/turtleneck",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/turtleneck"
       }
     },
     {
@@ -12803,6 +12979,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/unfortunate-recruit"
+      }
+    },
+    {
+      "id": "availability:/unholy-chest-plate",
+      "kind": "availability",
+      "target": "/unholy-chest-plate",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/unholy-chest-plate"
       }
     },
     {
@@ -12946,6 +13133,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/vigilante-chief"
+      }
+    },
+    {
+      "id": "availability:/visored-helmet",
+      "kind": "availability",
+      "target": "/visored-helmet",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/visored-helmet"
       }
     },
     {
@@ -13213,6 +13411,28 @@
       }
     },
     {
+      "id": "availability:/white-plate-jacket",
+      "kind": "availability",
+      "target": "/white-plate-jacket",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/white-plate-jacket"
+      }
+    },
+    {
+      "id": "availability:/white-vest",
+      "kind": "availability",
+      "target": "/white-vest",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/white-vest"
+      }
+    },
+    {
       "id": "availability:/wild-bull",
       "kind": "availability",
       "target": "/wild-bull",
@@ -13257,6 +13477,28 @@
       }
     },
     {
+      "id": "availability:/wooden-sandals",
+      "kind": "availability",
+      "target": "/wooden-sandals",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wooden-sandals"
+      }
+    },
+    {
+      "id": "availability:/wool-hat",
+      "kind": "availability",
+      "target": "/wool-hat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wool-hat"
+      }
+    },
+    {
       "id": "availability:/workshop-complex",
       "kind": "availability",
       "target": "/workshop-complex",
@@ -13298,6 +13540,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/worlds-end"
+      }
+    },
+    {
+      "id": "availability:/worn-out-shorts",
+      "kind": "availability",
+      "target": "/worn-out-shorts",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/items/acceptances.json#armour-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/worn-out-shorts"
       }
     },
     {

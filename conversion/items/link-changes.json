@@ -403,5 +403,37 @@
       "/side-angle-hachigane"
     ],
     "introduced": []
+  },
+  {
+    "name": "armour-6",
+    "resolved": [
+      "/skeleton-mask",
+      "/sleeveless-dustcoat",
+      "/sleeveless-longcoat",
+      "/spiked-helmet",
+      "/square-goggles",
+      "/stout-hessian",
+      "/stout-hessian-uniform",
+      "/straw-hat",
+      "/swamp-ninja-mask",
+      "/swamp-ninja-rags",
+      "/tagelmust",
+      "/tin-can",
+      "/traders-leathers",
+      "/tricorn-hat",
+      "/turban",
+      "/turtleneck",
+      "/unholy-chest-plate",
+      "/visored-helmet",
+      "/white-plate-jacket",
+      "/white-vest",
+      "/wooden-sandals",
+      "/wool-hat",
+      "/worn-out-shorts"
+    ],
+    "introduced": [
+      "/bookshop",
+      "/leather-armour-crafting-tech"
+    ]
   }
 ]
