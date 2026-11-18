@@ -172,6 +172,24 @@
       "questions": [
         "claim:character-fcs-statistics"
       ]
+    },
+    {
+      "id": "crow-face",
+      "existence": "Permanent ID, canonical path, source revision/checksum, category membership and unique editable home checked.",
+      "content": "Historical 0.93.14 availability and removal notice precede recruitment description; not presented as a current recruit.",
+      "organization": "Reviewed 11 section bookmarks and 19 source tables; Section order, quotations, linked names and numerical table fingerprints retained.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crow-face.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1c7b7dc34efbbdc8578a051c7cefcd43882c4bcfae46bd755071bf7035852821"
+      },
+      "questions": [
+        "claim:character-equipment-probability",
+        "claim:character-fcs-statistics",
+        "claim:character-historical-lore",
+        "claim:character-recruitment",
+        "claim:character-removed-content"
+      ]
     }
   ],
   "editorialChanges": [
