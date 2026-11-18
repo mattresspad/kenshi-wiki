@@ -213,3 +213,18 @@
 @media print { .race .table-scroll .race-comparison { min-width:0; width:100%; font-size:7pt } }
 
 .race .table-scroll { scroll-margin-top:calc(2 * var(--bar) + 12px) }
+
+/* Animal profiles: the original values and age qualifications stay together. */
+.animal .creature-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr)); gap:14px; max-width:58rem; clear:both }
+.animal .creature-stats > * { min-width:0 }
+.animal .creature-stats table, .animal .creature-drops table { width:100%; min-width:0; margin-top:0 }
+.animal .creature-drops { max-width:42rem }
+.animal .creature-table caption { padding:6px 9px; border:1px solid var(--edge); border-bottom:0; background:var(--cell); font-size:1em }
+.animal .creature-table-note { font-size:.9em; color:var(--quiet); max-width:88ch }
+.animal .table-scroll { scroll-margin-top:calc(2 * var(--bar) + 12px) }
+.animal .fauna-comparison { width:100%; min-width:48rem; max-width:none }
+.animal .fauna-comparison th:first-child { min-width:9rem }
+.animal .fauna-comparison img { width:48px; height:48px; object-fit:contain }
+.animal .fauna-comparison td:last-child { min-width:20rem }
+.animal .historical-notice { max-width:88ch }
+@media print { .animal .fauna-comparison { min-width:0; font-size:8pt } .animal .fauna-comparison td:last-child { min-width:0 } }

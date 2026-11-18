@@ -28,6 +28,8 @@ for (const gap of review.mediaGaps) if (!atlas.byId.has(gap.articleId)) throw Er
 const geography = verifyGeography(atlas, assetRedirects);
 const factions=verifyFactions(atlas,assetRedirects);
 const races=verifyFamily('races',atlas,assetRedirects),raceIds=selectedIds('races');
+const animals=verifyFamily('animals',atlas,assetRedirects),animalIds=selectedIds('animals');
+const animalSources=JSON.parse(readFileSync('conversion/animals/reference.json')).articles;
 const geographicalSources=frozenEvidence().articles;
 const factionSources=factionEvidence().articles;
 const emptyGalleryIds=new Set([...geography.emptyGalleries,...review.mediaGaps.filter(gap=>gap.section==='Gallery').map(gap=>gap.articleId)]);
@@ -65,11 +67,11 @@ for (const a of atlas.byId.values()) {
       label:$(el).text(), href:new URL($(el).attr('href'),origin+a.path).href
     }));
   }
-  const checks = {...(includedIds.has(a.id) ? {formatCheck:'scripts/geography/verify.mjs'} : {}), ...(factionIds.has(a.id) ? {formatCheck:'scripts/factions/verify.mjs'} : {}), ...(raceIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...review.articles[a.id]};
-  const media=a.filePath && (geographyIds.has(a.id) || factionIds.has(a.id) || raceIds.has(a.id)) ? {
+  const checks = {...(includedIds.has(a.id) ? {formatCheck:'scripts/geography/verify.mjs'} : {}), ...(factionIds.has(a.id) ? {formatCheck:'scripts/factions/verify.mjs'} : {}), ...(raceIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(animalIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...review.articles[a.id]};
+  const media=a.filePath && (geographyIds.has(a.id) || factionIds.has(a.id) || raceIds.has(a.id) || animalIds.has(a.id)) ? {
     originalMediaComparison:'unassessed',
     emptyImportedGallery:emptyGalleryIds.has(a.id) || factions.emptyGalleries.includes(a.id),
-    verifiedBodyItemIcons:[...new Set(((geographicalSources[a.id] ?? factionSources[a.id])?.images ?? []).map(([url])=>url))]
+    verifiedBodyItemIcons:[...new Set(((geographicalSources[a.id] ?? factionSources[a.id] ?? animalSources[a.id])?.images ?? []).map(([url])=>url))]
   } : undefined;
   record('article',a.path,{id:a.id,media, editableFile:a.filePath, sourceFile:a.sourceFile, sourceRevision:a.sourceRevision,
     credit:a.credit, license:a.license, source:a.source, contributor:a.contributor, evidence, articleSources, correction:correctionLink(origin+a.path),
@@ -109,7 +111,7 @@ if(duplicateCheck.size!==snapshot.articles.length+initial.categories.size+snapsh
 const temporaryLinks=Array.from(external,([from,urls])=>({from,to:[...urls].sort()}));
 const articlesAt = state => routes.filter(row=>row.kind==='article' && row[state]).map(row=>row.path);
 const gaps=reportGaps(atlas,review.articles);
-const report={gaps,races,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
+const report={gaps,races,animals,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
   aliases:policy.aliases,exclusions,temporaryLinks,assetRedirects,blenderChange,routes};
 mkdirSync('reports',{recursive:true});
 writeFileSync('reports/routes.json',JSON.stringify(report,null,2)+'\n');
@@ -140,6 +142,7 @@ const lines=['# Restoration route report','','Frozen source '+snapshot.revision+
   factions.emptyGalleries.length+' empty imported galleries, '+factions.fragmentExceptions.length+' missing local fragments and '+factions.unregisteredDestinations.length+' unregistered destinations are recorded in routes.json. Other media coverage is unassessed.','',
   ...Object.entries(factionNotes).map(([id,note])=>'- '+atlas.byId.get(id).title+' — '+note),'',
   '## Races','',races.verified+' race and supporting articles checked, '+races.headings+' headings and '+races.citationTargets+' citation targets.','',
+  '## Animals','',animals.verified+' new animal and supporting articles checked, '+animals.headings+' headings, '+animals.assets+' referenced item icons. Five existing faction articles are reused without duplicate files.','',
   '## Gap register','',gaps.sourceArticles+' source articles audited. '+gaps.findings+' deduplicated records include pending conversions, inherited defects and claim questions. See gaps/index.html and gaps/register.json for every occurrence. '+gaps.introduced+' introduced regressions.','',
   '## Media restoration','',
   'The original importer omitted images. Coverage is unassessed unless there is separate evidence.','',

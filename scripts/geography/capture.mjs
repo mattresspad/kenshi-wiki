@@ -8,6 +8,11 @@ export async function captureBatch(base, batch, output, family='geography') {
   const {roster}=families[family];
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
   const extra={
+    'animal-pilots':['bonedog#stats','pack-bull#anatomy','beak-thing#movement'],
+    'animal-structures':['elder-beak-thing','cleanser-unit','cage-beast'],
+    'animal-overview-and-care':['fauna#aggressive','guide-to-animals#purchasable-animals','barnabus'],
+    'animal-siblings-1':['crab#anatomy','garru','king'],
+    'animal-siblings-2':['swamp-turtle','titus','category/animals'],
     'race-pilots':['greenlander#anatomy','hive-worker-drone#anatomy','skeleton-race#experience-multipliers'],
     'race-structures':['races','how-to-make-a-new-race','whistler'],
     'race-siblings-1':['hive#cite_note-1','hive-queen','deadhive-prince'],
@@ -70,6 +75,10 @@ export async function captureBatch(base, batch, output, family='geography') {
           const file=sample.replaceAll('/','--').replace('#','-')+'-'+device+'-'+theme+'.png';
           await page.screenshot({path:join(output,file),animations:'disabled'});
           shots.push({id,anchor,device,theme,file});
+          if(id==='fauna' && device==='phone') {
+            const region=page.locator('.fauna-comparison').first().locator('..');await region.scrollIntoViewIfNeeded();await region.focus();await page.keyboard.press('End');
+            const right='fauna-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});
+          }
           if(id==='races' && device==='phone') {
             const region=page.locator('table.race-comparison').locator('..');await region.focus();await page.keyboard.press('End');
             const right='race-comparison-right-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});

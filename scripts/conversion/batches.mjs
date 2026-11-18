@@ -7,10 +7,14 @@ import factionCheckpoint from '../../conversion/factions/checkpoint.json' with {
 import raceRoster from '../../conversion/races/roster.json' with {type:'json'};
 import raceCheckpoint from '../../conversion/races/checkpoint.json' with {type:'json'};
 
+import animalRoster from '../../conversion/animals/roster.json' with {type:'json'};
+import animalCheckpoint from '../../conversion/animals/checkpoint.json' with {type:'json'};
+
 export const families = {
   geography: {roster:geographyRoster, checkpoint:geographyCheckpoint},
   factions: {roster:factionRoster, checkpoint:factionCheckpoint},
-  races: {roster:raceRoster, checkpoint:raceCheckpoint}
+  races: {roster:raceRoster, checkpoint:raceCheckpoint},
+  animals: {roster:animalRoster, checkpoint:animalCheckpoint}
 };
 export function selectedIds(family) {
   const {roster, checkpoint} = families[family];

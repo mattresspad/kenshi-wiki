@@ -1,4 +1,5 @@
 import {load} from 'cheerio';
+import {normalizeAnimalTables} from './animal-tables.mjs';
 import {normalizeRaceTables} from './race-tables.mjs';
 import {normalizeFactionTables} from './faction-tables.mjs';
 
@@ -13,7 +14,8 @@ export function prepareArticle(html, data, href) {
   }
   if (data.layout === 'faction') normalizeFactionTables($);
   if (data.layout === 'race') normalizeRaceTables($);
-  const imported = ['geography','faction','race'].includes(data.layout);
+  if (data.layout === 'animal') normalizeAnimalTables($);
+  const imported = ['geography','faction','race','animal'].includes(data.layout);
   const outline = [];
   const parents = [];
   for (const heading of $('h2,h3,h4,h5,h6').toArray()) {
@@ -56,7 +58,10 @@ export function prepareArticle(html, data, href) {
         el.replaceWith(notice);
         continue;
       }
-      const label = el.prevAll('h2,h3,h4,h5,h6').first().text() || data.title;
+      if(data.layout==='animal' && el.find('tr').length===1 && el.find('td').length===1 && el.text().trim().startsWith('This article has been updated')){
+        el.attr("role","presentation").wrap('<aside class="historical-notice" role="note"></aside>');continue;
+      }
+      const label = el.find('caption').first().text() || el.prevAll('h2,h3,h4,h5,h6').first().text() || data.title;
       el.wrap($('<div class="table-scroll" role="region" tabindex="0"></div>').attr('aria-label', label + ' table'));
       const first = el.children('tbody').children('tr').first();
       if (el.is('.sortable') && first.children().length && !first.children(':not(th)').length && !first.children('[rowspan]').length) {
