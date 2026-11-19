@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "name": "technology-pilots",
+    "resolved": [
+      "/robotics-tech",
+      "/small-house-tech",
+      "/tech-level-tech",
+      "/technology"
+    ],
+    "introduced": [
+      "/advanced-battery-capacity-tech",
+      "/advanced-battery-power-tech",
+      "/advanced-harpoonery-tech",
+      "/advanced-training-dummies-tech",
+      "/advanced-weapon-grades-tech",
+      "/better-training-dummies-tech",
+      "/composite-runners-tech",
+      "/core-tech",
+      "/corpse-disposal-tech",
+      "/defense-tech",
+      "/electrics-tech",
+      "/harpoon-turret-spotlight-fitting-tech",
+      "/heavy-building-foundations-tech",
+      "/industry-tech",
+      "/light-post-efficiency-tech",
+      "/ore-drill-tech",
+      "/semi-automatic-ore-drill-tech",
+      "/skills"
+    ]
+  }
+]

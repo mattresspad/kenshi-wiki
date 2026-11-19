@@ -56,3 +56,7 @@ The [gap register](gaps/README.md) audits all 2,184 pinned articles and keeps in
 ## Characters local handoff
 
 The 504-member Characters family is recorded in [characters/README.md](characters/README.md): 461 new articles and 43 reused identities, with 23 batch acceptances, individual reviews and source qualifications. The local preview totals 1,021 articles and 1,033 HTML pages. The next-family assessment proposes Items and equipment without authorizing a new transfer. Public restoration and production cutover remain separate milestones.
+
+## Crafting and Technology
+
+Crafting/Construction and Technology retain separate rosters and editorial homes under gameplay/. See [the research conversion conventions](technology/README.md). The following shops/residents/traders roster is frozen separately in [following-shops.json](following-shops.json); later design and technical ideas remain in [later-work.md](later-work.md).

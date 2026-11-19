@@ -38,10 +38,90 @@
   ],
   [
     "technology-tier-order",
-    null,
+    [
+      "advanced-battery-capacity-tech",
+      "advanced-battery-power-tech",
+      "battery-capacity-tech",
+      "battery-power-tech",
+      "amplified-generators-tech",
+      "upgraded-small-generators-tech"
+    ],
     "Advanced Battery Capacity|Power capacity|Efficiency|tech level|Tech Level",
     "Repeated research levels contain imported costs, times and effect wording whose incremental versus cumulative meanings remain unverified.",
     "Check exact level records and transformations before combining values; keep each imported level separately addressable.",
     "Source order and numerical signs are preserved without interpreting cumulative effects."
+  ],
+  [
+    "technology-composite-runners-reload",
+    [
+      "composite-runners-tech",
+      "crossbow-turret-strings-tech"
+    ],
+    "5%|10%|1\\.1|reload|save/load",
+    "Composite Runners describes order-dependent turret damage modifiers and a save/reload overwrite, with an empty References section.",
+    "Reproduce both research orders and reload on a recorded unmodded version, preserving source values until then.",
+    "The bug and modding experiment remain imported observations without a verified test record."
+  ],
+  [
+    "technology-hydroponics-cost-discrepancy",
+    [
+      "hydroponics-tech",
+      "hydroponics"
+    ],
+    "2 \\[Ancient|4 \\[Ancient|4 Ancient|Hydroponic Wheatstraw",
+    "The research article lists Hydroponic Wheatstraw at two Ancient Science Books, while the building overview describes crop-specific research as four each.",
+    "Compare the exact crop research records and source versions before correcting either claim.",
+    "Generalized building prose may conflict with the specific research cost."
+  ],
+  [
+    "technology-iron-plates-self-edge",
+    [
+      "iron-plates-tech"
+    ],
+    "Iron Plates IV|Required For",
+    "Iron Plates IV lists itself under Required For while the following section describes Iron Plates V.",
+    "Inspect the underlying research ID and prerequisites before editing the edge or adding a link.",
+    "Possible inherited label error; preserve the original level wording."
+  ],
+  [
+    "technology-hiver-first-research",
+    [
+      "hiver-skeleton-legs-tech",
+      "robotics-tech"
+    ],
+    "first research|starting with|Hiver Skeleton",
+    "Hiver Skeleton Legs calls itself the first limb research, while Robotics says limb research starts with Hiver Skeleton Arms.",
+    "Verify the ordered prerequisite records; keep limbs, station unlocks and blueprints distinct.",
+    "The imported descriptions disagree about the entry point."
+  ],
+  [
+    "technology-weapon-smithing-legacy",
+    [
+      "weapon-smithing-tech"
+    ],
+    "Work in Progress|Industrial|Edge Type 5|Meitou|critical success",
+    "The WIP Weapon Smithing article mixes legacy Industrial/numbered models and an Edge Type 5 level with later claims about critical successes and craftable limits.",
+    "Identify the game versions behind each tier and compare to current Basic/Advanced Weapon Grades records.",
+    "The imported article is not a verified current research progression."
+  ],
+  [
+    "technology-ore-drill-legacy",
+    [
+      "ore-drill-tech"
+    ],
+    "version 1\\.0|removed|Pointless|still finding",
+    "Ore Drill retains qualified reports of a removed or nonfunctional second research still visible to some players.",
+    "Separate save/import, game version and mod state in a reproduction before changing the description.",
+    "A surviving research entry does not prove that it unlocks a building."
+  ],
+  [
+    "technology-turret-power",
+    [
+      "harpoon-turrets-tech"
+    ],
+    "not reliant on power|standalone",
+    "Harpoon Turrets says turrets do not rely on power; the qualification may not cover every named upgrade.",
+    "Check power requirements for each turret variant and compare with its building article.",
+    "Do not generalize the quote for mounted crossbows to all harpoon models."
   ]
 ]

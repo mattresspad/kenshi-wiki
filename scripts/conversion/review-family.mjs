@@ -13,7 +13,7 @@ const definitions=[];
 
 definitions.push(...get('conversion/'+family+'/questions.json').map(([key,only,pattern,...rest])=>[key,only,new RegExp(pattern,'i'),...rest]));
 const texts=new Map();
-for(const id of ids){const original=sources.get(id);let text=readFileSync('reports/geography-work/reference-83abc179/'+original.sourceFile,'utf8').replaceAll('\r\n','\n');assert.equal(createHash('sha256').update(text).digest('hex'),original.sourceSha256,id+' source');texts.set(id,text.split('\n'));}
+for(const id of new Set([...ids,...definitions.flatMap(d=>d[1]??[])])){const original=sources.get(id);let text=readFileSync('reports/geography-work/reference-83abc179/'+original.sourceFile,'utf8').replaceAll('\r\n','\n');assert.equal(createHash('sha256').update(text).digest('hex'),original.sourceSha256,id+' source');texts.set(id,text.split('\n'));}
 for(const [key,only,pattern,finding,resolution,uncertainty] of definitions){
  const occurrences=[],evidence=[];
  for(const id of only??ids){const lines=texts.get(id);if(!lines)continue;const hits=lines.flatMap((line,i)=>pattern.test(line.trim())?[{line:i+1,literal:line}]:[]).slice(0,12);if(!hits.length)continue;
@@ -25,6 +25,7 @@ for(const [key,only,pattern,finding,resolution,uncertainty] of definitions){
  const merge=(a,b,identity)=>[...new Map([...a,...b].map(x=>[identity(x),x])).values()];
  const row={id:'claim:'+key,kind:'claim',target:records.get(first).path,classification:'unresolved',origin:'inherited',priority:'P2',verification:'pinned imported claim identified; gameplay and technical semantics unverified',status:'open',finding,proposedResolution:resolution,uncertainty,postCutover:'Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.',...old,
  evidence:merge(old?.evidence??[],evidence,x=>x.articleId),occurrences:merge(old?.occurrences??[],occurrences,x=>x.pageId+':'+(x.line??x.section)+':'+x.label)};
+ if(key==='technology-tree-missing-diagram'){row.classification='incomplete import';row.verification='Pinned Markdown and rendered source inspected; diagram absent, original media not yet assessed';row.postCutover='Serve the text article with its original credits and qualified totals; missing diagram remains restoration work.';}
  if(old)register.findings[register.findings.indexOf(old)]=row;else register.findings.push(row);
 }
 const detected=discover(baseline,new Set(baseline.registeredRoutes),new Map(baseline.redirects.map(r=>[r.from,r.to])));

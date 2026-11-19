@@ -2554,6 +2554,17 @@
       }
     },
     {
+      "id": "availability:/category/technology",
+      "kind": "availability",
+      "target": "/category/technology",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/technology"
+      }
+    },
+    {
       "id": "availability:/category/zones",
       "kind": "availability",
       "target": "/category/zones",
@@ -11838,6 +11849,17 @@
       }
     },
     {
+      "id": "availability:/robotics-tech",
+      "kind": "availability",
+      "target": "/robotics-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/robotics-tech"
+      }
+    },
+    {
       "id": "availability:/robots",
       "kind": "availability",
       "target": "/robots",
@@ -14027,6 +14049,17 @@
       }
     },
     {
+      "id": "availability:/small-house-tech",
+      "kind": "availability",
+      "target": "/small-house-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/small-house-tech"
+      }
+    },
+    {
       "id": "availability:/small-research-bench",
       "kind": "availability",
       "target": "/small-research-bench",
@@ -15652,6 +15685,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/tech-hunters-map"
+      }
+    },
+    {
+      "id": "availability:/tech-level-tech",
+      "kind": "availability",
+      "target": "/tech-level-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-level-tech"
+      }
+    },
+    {
+      "id": "availability:/tech-tree",
+      "kind": "availability",
+      "target": "/tech-tree",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-tree"
+      }
+    },
+    {
+      "id": "availability:/technology",
+      "kind": "availability",
+      "target": "/technology",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/technology"
       }
     },
     {

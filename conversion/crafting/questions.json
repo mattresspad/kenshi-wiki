@@ -4,7 +4,7 @@
     [
       "construction"
     ],
-    "0\\.24|0\\.26|0\\.47|unknown|blueprint",
+    "patch|version|blueprint",
     "Construction combines several historic patches and an unknown version with present-tense placement, blueprint and repair instructions.",
     "Test a current unmodded construction/repair workflow and retain the historical statements separately.",
     "Patch-specific statements do not establish current mechanics."
@@ -28,5 +28,16 @@
     "Crafting describes smelting weapons into Raw Iron; verify the product against the furnace article and game.",
     "Compare the original wording, Item Furnace output and versioned game behavior before correcting it.",
     "Material identity may reflect an outdated instruction."
+  ],
+  [
+    "crafting-robotics-skill-conflict",
+    [
+      "crafting",
+      "robotics-bench"
+    ],
+    "Science|Robotics",
+    "Crafting assigns Robotics Bench work to Science while the building article describes the Robotics stat.",
+    "Compare the exact crafting station and skill record on a pinned version before changing either page.",
+    "The imported practical advice and building description disagree."
   ]
 ]

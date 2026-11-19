@@ -4410,6 +4410,26 @@
     "construction": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/crafting/review.json"
+    },
+    "technology": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "tech-tree": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "tech-level-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "small-house-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "robotics-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
     }
   },
   "mediaGaps": [
