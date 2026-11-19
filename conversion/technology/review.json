@@ -1378,6 +1378,322 @@
         "claim:technology-import-version-time",
         "claim:technology-research-unlocks-blueprints"
       ]
+    },
+    {
+      "id": "lockpick-training-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Lockpick Training II Details Estimated Time 3 Hours Tech Level 2 Costs 4 Books Requirements Lockpick Training Results New Building(s) Locksmith Training Box II Required For Lockpick Training III Lockpick Training III Details Estimated Time 4 Hours Tech Level 4 Costs 6 Books Requirements Lockpick Training II Results New Building(s) Locksmith Training Box III Learning to picklocks is hard to get started in. It's too late to learn once you're locked in a cage, training is needed to get your foot on the ladder.In-game Description",
+      "organization": "Reviewed 17 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lockpick-training-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "83c7479c86e7e77ee035e7333ba358a52fa2504bdacfff18969df2b4b49ea3a1"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "makeshift-walls-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Defensive walls that would keep all those bastard bandits out.In-game description Makeshift Walls are Defense Tech which allows the player to construct Makeshift Walls and gates. These buildings can be replaced by better walls after further research.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/makeshift-walls-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a42cbd99e81921e0928e208cfc927108c4aa32f091e45c06c62d06cb0ae0ff63"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "medicine-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Better first aid kits would last longer and save more lives.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/medicine-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d0525ccf12c9b3a992e7d7f1bf7bd36884951a76152ec5abc0a925820121d05f"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "medium-building-shells-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bigger buildings with more space.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/medium-building-shells-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "523f890f87b433aa2acbb83c5554cfd79da2fa9c4301e280294aba2d83e729df"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "mounted-crossbows-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Mounted Crossbows II Details Estimated Time 4 Hours Tech Level 3 Costs 1 Ancient Science Book Requirements Mounted Crossbows Results New Building(s) Mounted Crossbow mkII Required For Crossbow Turret Spotlight Fitting Heavy ranged weapons could defend the walls and keep bandits off our gates. Mounting on the walls would be best, because once an enemy gets too close you would be vulnerable to attack.In-game description",
+      "organization": "Reviewed 9 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mounted-crossbows-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dfbd5fccef28bd8d37f3ea74d7050dada4823db5f97d9f56838934faa981b13d"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "ore-drill-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Since version 1.0 it seems the Ore Drill 2 has been removed from the FCS. There is now only Ore Drill (Ore Drill I), Semi-automatic Ore Drill (Ore Drill II) and Fully Automatic Ore Drill (Ore Drill III (Automated)). Some players are still finding the Ore Drill 2 research on their research list, though. Ore Drill 2 (Pointless) Details Estimated Time 4 Hours Tech Level 3 Costs 3 Ancient Science Books Requirements Ore Drill This would speed up mining a great dealIn-game Description Level 2 of this tech is pointless since it does not unlock or upgrade anything.",
+      "organization": "Reviewed 6 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ore-drill-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b40c524fc52b1ff4991aa99f1d806d4cd9c5844373f58bf24731af1dc0cf3363"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-ore-drill-legacy",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "outpost-type-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Outpost Type IV Details Estimated Time 4 Hours Tech Level 4 Costs 2 Engineering Research Requirements Outpost Type III, Heavy Building Foundations Results New Building(s) Outpost s-IV Outpost Type Tech allows the player to build Outpost Type structures, Outpost s-III and Outpost s-IV. This tech is not available with the Research Bench only: you must obtain Advanced Outpost Blueprints and use it to unlock this research tree.",
+      "organization": "Reviewed 8 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outpost-type-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "722854c51dc6464b8e90e7573a50e4c08a21a3261eda3f4eed2dad9ade48c224"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "plate-armour-crafting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Serious armour needs solid buggerin' plates of steel stuck on to it.In-game Description Plate Armour Crafting is Smithing Tech which allows the player to construct a Heavy Armour Smithy and a Plate Beating Station.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/plate-armour-crafting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f32e1b09604620fa85c78d8061e3316b51ad84198d0a86c28be7bc03d7bc31ff"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "powered-stone-refinery-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Stone Processor requires too much manpower, we need to improve the design so we can get more output with less workers, but it's going to need to be powered by a generator.In-game description Powered Stone Refinery is Industry Tech which allows players to construct Stone Processor II. This research is a stepping stone to further building upgrades and eventually Hybrid Stone Mine. The building this research unlocks is beneficial to players who frequently create Building Materials.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/powered-stone-refinery-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ee82799a4af55e4692f94a1656ab2d8d1a4bf30c6ea996f6fe7cca9b22cf9cb6"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "public-sales-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: It would save us a lot of running around to sell goods if we could get the customers to come to us.In-game description Public Sales is Core Tech which allows players to construct Shop Counters. Players who are interested in making some money through trading may want to complete this research. However, characters will only buy items which are on their shopping list, making this only a reliable way to sell vices and first aid kits.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/public-sales-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "16d19d88ccda862a66e711b7c408e6ce4cb60d17159a3e1aff3586d0f8498d45"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "rain-collector-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Placing these on the roofs of buildings can collect the rainwater in areas where wells can't be used.In-game Description Rain Collectors create Water items based on the current weather. This research is a must-have for players who have Hydroponics in rainy Zones.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rain-collector-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7df190aa4dae635629bef96c64f2f0582d8e69cadfb41362c87d94a315c83156"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "revolving-barrel-harpoon-turret-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This crazy design could fire 6 shots in rapid succession, although it would probably sacrifice some power and accuracy.In-game description Revolving-Barrel Harpoon Turret is Defense Tech which unlocks the ability to construct a new type of Turret.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/revolving-barrel-harpoon-turret-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d966eb25831fbee730b2a89c4e5405fac202382039b68083d1661e80f59ace71"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "riceweed-farming-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A common crop in the swampsIn-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/riceweed-farming-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a1db711f3207f37597de286323fc399e824763e33dfe658df3e4872dd5b2c7cb"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "rum-brewing-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: If we have water, and we have cactus, then we could brew rum...In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rum-brewing-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "904656af45d75f96f071d2eb980c40647a298cf36a99628f7f7616afe03087b5"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "sake-distillation-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Sake is a traditional Swamper's drink, but also very popular in the United Cities. Alcohol production is often a good source of income.In-Game Description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sake-distillation-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "123cd1df922c3706367d6699b6a7bd663deb46b62807e0658b585ec220d33473"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "search-lights-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A powerful searchlight for mounting on gates and wallsIn-game description Search Lights is Electrics Tech which unlocks the ability to construct Searchlights on the sides of walls and gates. Searchlights provide light to larger areas than Torch Posts and Electrical Torch Posts. They can almost cover an entire farm, which can greatly increase farm yields by decreasing the ‘working in darkness’ stat drain.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/search-lights-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "65f6e2b8c11f8354ed6f21b0f236a47146571a6f397b235f1eb158ef1ac2dc76"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "semi-automatic-ore-drill-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A semi-automatic drilling machine that only needs a single operatorIn-game Description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/semi-automatic-ore-drill-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "802deb2ebf1992b7c31e032319f2f5cb5dbda88941c6bacdc0f079f915ddc759"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "simple-clothing-types-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: More types of clothing available to craft.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/simple-clothing-types-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d95fcdd20caa6b8c70411ae31d2c3a94574711c806bfef83ec0b31edf6ce3857"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "simple-training-dummies-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Damn rookies are useless. Keep getting beat up because they can't hit anything. A basic training dummy would let them train their attack skills up to about level 5.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/simple-training-dummies-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "92db572d53376ced47de0729b7ce062ca94ede3cb1fc3d19d52632bae4b501fb"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "skeleton-arms-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced high-tech arms like what the skeletons have.Research menu",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-arms-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e61696ae34ee42fa0b70d9c068ea33380b6cc0a910148850b32da0f749e59c00"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "skeleton-legs-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced high-tech legs like what the skeletons have.Research menu Skeleton Legs is Crafting Tech which unlocks the ability to craft the Robot Limbs named “Skeleton Leg”. This research is needed to unlock the rest of the craftable legs, except for Economy Legs which are unlocked in the prerequisite.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-legs-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1677cdaf2bb80fd7577cb0b65d38fe6f589f0b3ca1998c3f7f673e554e09437d"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
     }
   ],
   "editorialChanges": [

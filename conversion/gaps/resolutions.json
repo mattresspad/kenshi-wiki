@@ -9550,6 +9550,17 @@
       }
     },
     {
+      "id": "availability:/lockpick-training-tech",
+      "kind": "availability",
+      "target": "/lockpick-training-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lockpick-training-tech"
+      }
+    },
+    {
       "id": "availability:/locksmith-training-box",
       "kind": "availability",
       "target": "/locksmith-training-box",
@@ -9869,6 +9880,17 @@
       }
     },
     {
+      "id": "availability:/makeshift-walls-tech",
+      "kind": "availability",
+      "target": "/makeshift-walls-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/makeshift-walls-tech"
+      }
+    },
+    {
       "id": "availability:/manhunter",
       "kind": "availability",
       "target": "/manhunter",
@@ -10155,6 +10177,17 @@
       }
     },
     {
+      "id": "availability:/medicine-tech",
+      "kind": "availability",
+      "target": "/medicine-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/medicine-tech"
+      }
+    },
+    {
       "id": "availability:/medicrate",
       "kind": "availability",
       "target": "/medicrate",
@@ -10185,6 +10218,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/medium-backpack"
+      }
+    },
+    {
+      "id": "availability:/medium-building-shells-tech",
+      "kind": "availability",
+      "target": "/medium-building-shells-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/medium-building-shells-tech"
       }
     },
     {
@@ -10570,6 +10614,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mounted-crossbow-mkii"
+      }
+    },
+    {
+      "id": "availability:/mounted-crossbows-tech",
+      "kind": "availability",
+      "target": "/mounted-crossbows-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mounted-crossbows-tech"
       }
     },
     {
@@ -11299,6 +11354,17 @@
       }
     },
     {
+      "id": "availability:/ore-drill-tech",
+      "kind": "availability",
+      "target": "/ore-drill-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ore-drill-tech"
+      }
+    },
+    {
       "id": "availability:/oron",
       "kind": "availability",
       "target": "/oron",
@@ -11508,6 +11574,17 @@
       }
     },
     {
+      "id": "availability:/outpost-type-tech",
+      "kind": "availability",
+      "target": "/outpost-type-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outpost-type-tech"
+      }
+    },
+    {
       "id": "availability:/p4-unit",
       "kind": "availability",
       "target": "/p4-unit",
@@ -11714,6 +11791,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/plastic-surgeon"
+      }
+    },
+    {
+      "id": "availability:/plate-armour-crafting-tech",
+      "kind": "availability",
+      "target": "/plate-armour-crafting-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/plate-armour-crafting-tech"
       }
     },
     {
@@ -11959,6 +12047,17 @@
       }
     },
     {
+      "id": "availability:/powered-stone-refinery-tech",
+      "kind": "availability",
+      "target": "/powered-stone-refinery-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/powered-stone-refinery-tech"
+      }
+    },
+    {
       "id": "availability:/preacher-cult",
       "kind": "availability",
       "target": "/preacher-cult",
@@ -12058,6 +12157,17 @@
       }
     },
     {
+      "id": "availability:/public-sales-tech",
+      "kind": "availability",
+      "target": "/public-sales-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/public-sales-tech"
+      }
+    },
+    {
       "id": "availability:/purple-sands",
       "kind": "availability",
       "target": "/purple-sands",
@@ -12154,6 +12264,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/rain-collector"
+      }
+    },
+    {
+      "id": "availability:/rain-collector-tech",
+      "kind": "availability",
+      "target": "/rain-collector-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rain-collector-tech"
       }
     },
     {
@@ -12685,6 +12806,17 @@
       }
     },
     {
+      "id": "availability:/revolving-barrel-harpoon-turret-tech",
+      "kind": "availability",
+      "target": "/revolving-barrel-harpoon-turret-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/revolving-barrel-harpoon-turret-tech"
+      }
+    },
+    {
       "id": "availability:/rhinobot",
       "kind": "availability",
       "target": "/rhinobot",
@@ -12726,6 +12858,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/riceweed-farm"
+      }
+    },
+    {
+      "id": "availability:/riceweed-farming-tech",
+      "kind": "availability",
+      "target": "/riceweed-farming-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/riceweed-farming-tech"
       }
     },
     {
@@ -12993,6 +13136,17 @@
       }
     },
     {
+      "id": "availability:/rum-brewing-tech",
+      "kind": "availability",
+      "target": "/rum-brewing-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rum-brewing-tech"
+      }
+    },
+    {
       "id": "availability:/rum-still",
       "kind": "availability",
       "target": "/rum-still",
@@ -13100,6 +13254,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/sake-barrels"
+      }
+    },
+    {
+      "id": "availability:/sake-distillation-tech",
+      "kind": "availability",
+      "target": "/sake-distillation-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sake-distillation-tech"
       }
     },
     {
@@ -13532,6 +13697,17 @@
       }
     },
     {
+      "id": "availability:/search-lights-tech",
+      "kind": "availability",
+      "target": "/search-lights-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/search-lights-tech"
+      }
+    },
+    {
       "id": "availability:/searchlight",
       "kind": "availability",
       "target": "/searchlight",
@@ -13606,6 +13782,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/security-spider-ii"
+      }
+    },
+    {
+      "id": "availability:/semi-automatic-ore-drill-tech",
+      "kind": "availability",
+      "target": "/semi-automatic-ore-drill-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/semi-automatic-ore-drill-tech"
       }
     },
     {
@@ -14093,6 +14280,17 @@
       }
     },
     {
+      "id": "availability:/simple-clothing-types-tech",
+      "kind": "availability",
+      "target": "/simple-clothing-types-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/simple-clothing-types-tech"
+      }
+    },
+    {
       "id": "availability:/simple-rug",
       "kind": "availability",
       "target": "/simple-rug",
@@ -14101,6 +14299,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/simple-rug"
+      }
+    },
+    {
+      "id": "availability:/simple-training-dummies-tech",
+      "kind": "availability",
+      "target": "/simple-training-dummies-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/simple-training-dummies-tech"
       }
     },
     {
@@ -14167,6 +14376,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skeleton-arm-right"
+      }
+    },
+    {
+      "id": "availability:/skeleton-arms-tech",
+      "kind": "availability",
+      "target": "/skeleton-arms-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-arms-tech"
       }
     },
     {
@@ -14288,6 +14508,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skeleton-legion"
+      }
+    },
+    {
+      "id": "availability:/skeleton-legs-tech",
+      "kind": "availability",
+      "target": "/skeleton-legs-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-legs-tech"
       }
     },
     {
