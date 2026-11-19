@@ -1694,6 +1694,321 @@
         "claim:technology-import-version-time",
         "claim:technology-research-unlocks-blueprints"
       ]
+    },
+    {
+      "id": "skeleton-repair-beds-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: As skeletons get constantly damaged and repaired their bodies start to wear down. When this wear becomes too much it can be repaired at a repair bed.In-game Description By researching Skeleton Repair Beds, players unlock the ability to construct a Skeleton Repair Bed. This research is a must-have for players who have a lot of Skeleton player characters or characters who are equipped with many Robot Limbs.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-repair-beds-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fd9710421f5229a994c1f80eb4e0d6c914017059cf9aafb601f10c099010eec4"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "sleeping-bags-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Useful things for any traveller.In-game Description Sleeping Bags is Crafting Tech which allows the player to craft a Sleeping Bag on a Medical Workbench. Sleeping Bag items can be used to construct Camp Beds.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sleeping-bags-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b4def669ac54da2fb1ecde00385e699c79a9daf4d00e31111f83d3f267b8acdc"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "smithing-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: It takes at least four smiths and at least twenty nights to forge a fine blade worthy of a warrior...Catun Scrapmaster < Back to Technology. Tech Level 1 Hats and Headgear Clothing Manufacture Basic Weapon Grades 1 Basic Weapon Smithing Simple Clothing Types Tech Level 2 Basic Weapon Grades 2-4 Crossbow Bolts Weapon Melting Leather Armor Crafting Heavy Weapons Tech Level 3 Advanced Weapon Smithing 1 Basic Weapon Grades 5 Medicine Plate Armour Crafting Splints Crossbow Crafting Tech Level 4 Advanced Medicine Advanced Splints Advanced Weapon Grades 1-2 Chain Armour Crafting Tech Level 5 Advanced Weapon Grades 3-5 Advanced Weapon Smithing 2 Tech Level 6 Edgewalkers",
+      "organization": "Reviewed 6 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/smithing-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "205725dc655144e438e0eda69821f236c00d332b116d7f26e2c395950160fb1d"
+      },
+      "questions": [
+        "claim:technology-import-version-time"
+      ]
+    },
+    {
+      "id": "splints-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Splint kits would allow medics to add support to leg injuries, helping you out-run cannibals and stuff.In-game Description Splints is Smithing Tech which unlocks the ability to craft Splint Kits on a Medical Workbench. Players who use Splint Kits often to improve damaged limb functionality should consider researching this technology.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/splints-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "39d4a6ea9ec720c7aceb3e054c9365a96af9ae64441ffc67d3cae2c2d0561321"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "stealth-legs-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced high-tech legs like what the skeletons have.Research menu",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stealth-legs-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fafcacfe8cd5304d11823b161441920d5265b2de69817d3dac595e1e9c98935d"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "steel-bars-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Steel Bars 2 Details Estimated Time 6 Hours Tech Level 4 Costs 2 Ancient Science Books Requirements Steel Bars Results New Building(s) Steel Refinery II Required For Steel Bars 3 Steel Bars 3 Details Estimated Time 12 Hours Tech Level 6 Costs 3 Ancient Science Books Requirements Steel Bars 2 Results New Building(s) Steel Refinery III Steel bars are used to craft advanced weapons and gear, we can refine them from raw iron ore.In-game description Steel Bars is Industry Tech which unlocks the ability for the player to construct and use a Steel Refinery.",
+      "organization": "Reviewed 17 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/steel-bars-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e561f1d387b880429955254bbadd1fcd69b1bf29c87707d388464b33142b9934"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "stone-refinery-upgrade-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Stone Refinery Upgrade 2 Details Estimated Time 6 Hours Tech Level 4 Costs 5 Books Requirements Powered Stone Refinery, Stone Refinery Upgrade Results New Building(s) Stone Processor IV Required For Stone Refinery Upgrade 3 Stone Refinery Upgrade 3 Details Estimated Time 6 Hours Tech Level 4 Costs 6 Books Requirements Powered Stone Refinery, Stone Refinery Upgrade 2 Results New Building(s) Stone Processor V The Stone Processor requires too much manpower, we need to improve the design so we can get more output with less workers.In-game description Stone Refinery Upgrade is Industry Tech which unlocks some improved versions of the Stone Processor. Players who create a lot of Building Materials, either for construction or trade, should consider doing this research for their outposts.",
+      "organization": "Reviewed 17 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stone-refinery-upgrade-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d6361fed80bb170eeaa027c1355f243d1d99f96b56201ad0d94e7b7d924833e2"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "storage-boxes-crafting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Things will go a lot smoother if we organise an efficient method to store and distribute our raw materials. Otherwise things are going to get jammed up.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-boxes-crafting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "69c3e2e0661e428af346692c31627beb8eb37b4ef3ca6e20bca9cad1f7a4014c"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "storage-boxes-farming-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Farms by nature take a long time to grow, then suddenly harvest season comes and you have mountains of crops everywhere and nowhere to put them. Storage is important, be ready for harvest.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-boxes-farming-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "28aa7782d0625ce303b7b07bb4c921116805f350053deb4366e99bff6118ef7f"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "storage-boxes-ore-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Things will go a lot smoother if we organise an efficient method to store and distribute our raw materials. Otherwise things are going to get jammed up. In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-boxes-ore-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "414c54471e2317210910f033cd77dd4f3ada666c36bf9fa64066dcf41e295dec"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "storage-boxes-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Things will go a lot smoother if we organize an efficient method to store and distribute our raw materials. Otherwise things are going to get jammed up. If a dude wants to haul a load of raw stone to the stone processor, and his inventory is full of iron ore, what's he gonna do? Exactly. He needs some kind of storage box. Geez!In-game description Storage Boxes is Industry Tech which allows the player to build two new item-specific Storage buildings. These buildings store Raw Stone and Building Materials. This research pairs well with research into Stone Mine and Stone Processor buildings.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-boxes-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c667074526f8200e05e52621bd01219f7096efc8b4821ee77564fff57dfe3f92"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "strong-defensive-walls-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Allows you to build the Tier IV walls and gates. Note that you will not be able to Upgrade existing Defensive Walls to subsequent higher levels; you will have to dismantle your existing walls and replace them.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/strong-defensive-walls-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c71328a2fc7afc025b0ef7b3c110395a031120128d46c0aa6cc33c20952b0233"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "thievery-training-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Thievery Training II Details Estimated Time 4 Hours Tech Level 3 Costs 4 Books Requirements Thievery Training Results New Building(s) Thief Training Boxes II Required For Thievery Training III Thievery Training III Details Estimated Time 4 Hours Tech Level 4 Costs 8 Books Requirements Thievery Training II Results New Building(s) Thief Training Boxes III Learning to pick locks is hard to get started in. It's too late to learn once you're locked in a cage, training is needed to get your foot on the ladder.In-game description",
+      "organization": "Reviewed 17 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thievery-training-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8f6ee0eaed79cc934291d7bd43f2ed2463ab362b7925fc16148245539264a605"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "training-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: [...] I'll hum some tunes, squat some hunter grandads and punch some monster bones. I'll be trained up ready come next week, just watch me.Chad, before being hired < Back to Technology. Tech Level 1 Simple Training Dummies Lockpick Training Tech Level 2 Turret Training Better Training Dummies Lockpick Training II Turret Training II Assassin Training Thievery Training Tech Level 3 Advanced Training Dummies Assassin Training II Turret Training III Thievery Training II Tech Level 4 Assassin Training III Lockpick Training III Thievery Training III Tech Level 5 None Tech Level 6 None",
+      "organization": "Reviewed 6 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/training-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "731ce2012846736e2c375b8f266bcfebb1283041ba9c0253df32550265785300"
+      },
+      "questions": [
+        "claim:technology-import-version-time"
+      ]
+    },
+    {
+      "id": "turret-training-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A practice turret would be a quick way to train up some basic competence in the use of mounted turret weaponsIn-game description Turret Training II Details Estimated Time 4 hours Tech Level 2 Costs 2 Books Requirements Turret Training Results New Building(s) Training Turret MkII Required For Turret Training III Turret Training III Details Estimated Time 5 Hours Tech Level 3 Costs 4 Books Requirements Turret Training II Results New Building(s) Training Turret MkIII",
+      "organization": "Reviewed 17 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/turret-training-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "02631d21bf64fbf3b1dc95e1881743e1331bec288e2977a13829657d0c446a70"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "upgraded-small-generators-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Upgraded Small Generators 2 Details Estimated Time 4 hours Tech Level 3 Costs 4 Books Requirements Upgraded Small Generators Results Improvements 15w upgrade to Small Generator A further 15w upgrade to all small generators.In-game description",
+      "organization": "Reviewed 8 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/upgraded-small-generators-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7f66e34736e7d15f52c4c620350c99ff84c55007027cc7f35bd8158ef793db24"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints",
+        "claim:technology-tier-order"
+      ]
+    },
+    {
+      "id": "weapon-melting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A big furnace that could melt down old metal weapons and armour back into raw iron.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/weapon-melting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "17e2dff8ce7dcb7c814242990ad1e3fd57f47daa219df4df3d6d585e34c576a1"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "weapon-smithing-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. One day we will have the greatest swordsmiths in the world and blades that can cut a man clean in half with a single cut. Today though, we will have generic rubbish.In-game description Weapon Smithing 2 Details Estimated Time 3 Hours Tech Level 2 Costs - Requirements Weapon Smithing Results New Item(s) Heavy Iron Club Improvements Grade: Model #003 Required For Weapon Smithing III Weapon Smithing 3 Details Estimated Time 3 Hours Tech Level 2 Costs - Requirements Weapon Smithing II Results Improvements Grade: Industrial 004 Weapon Smithing 4 Details Estimated Time 5 Hours Tech Level 3 Results Improvements Grade: Catun No. 1 Grade: Industrial 005 Weapon Smithing 5 Details Estimated Time 6 Hours Tech Level 3 Results New Item(s) Grade: Catun No. 2 Grade: Industrial 007 Weapon Smithing 6 Details Estimated Time 7 Hours Tech Level 3 Results Improvements Grade Catun No. 3 Grade: Industrial 008 Weapon Smithing 7 Details Estimated Time 9 Hours Tech Level 3 Results Improvements Grade: Catun No. 4 Weapon Smithing 8 Details Estimated Time 14 Hours Tech Level 4 Results Improvements Grade: MkIII Weapon Smithing 9 Details Estimated Time 17 Hours Tech Level 4 Results Improvements Grade: MkIV Weapon Smithing 10 Details Estimated Time 27 Hours Tech Level 5 Results Improvements Grade: MkV Weapon Smithing 11 Details Estimated Time 34 Hours Tech Level 5 Results Improvements Grade: MkVI Weapon Smithing 12 Details Estimated Time 55 Hours Tech Level 6 Results Improvements Grade: Edge Type 1 For a list of all the weapons that can be crafted through smithing, click here: List of Player Made Weapons Models These weapon models unlock at separate versions of this tech, listed below. Rusted Junk Rusting Blade Mid-Grade Salvage Old Refitted Blade Refitted Blade Catun No.1 Catun No.2 Catun No.3 Mk I Mk II Mk III Edge Type 1 Edge Type 2* *Note that Edge Type 2 weapons may only be crafted via a “critical success” from your smith. Currently, there is no vanilla method to craft Edge Type 3 or Meitou weapons yourself. Weapon Smithing 14 Details Estimated Time 87 Hours Tech Level 6 Results Improvements Grade: Edge Type 5",
+      "organization": "Reviewed 79 headings and 0 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/weapon-smithing-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1c55d7a97ae3c4385f50fa746e65062d0b45551859deed87b421b094df736c11"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints",
+        "claim:technology-weapon-smithing-legacy"
+      ]
+    },
+    {
+      "id": "wells-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Wells III Details Estimated Time 5 Hours Tech Level 3 Costs 1 Ancient Science Book Requirements Wells II Results New Building(s) Well III Upgrading our wells to reach deeper and access more water.In-game description Wells is Industry Tech which allows the player to construct Well buildings. This technology leads to Rain Collector, technology which unlocks another building that generates Water items. Players who have built an outpost in a Zone which does not have rain may find this research useful. Players who make use of Hydroponics should also research wells.",
+      "organization": "Reviewed 8 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wells-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a20e03fbbd27a506934b3e15cecae287a48831bcfe51ae4737d442e64f0a87ef"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "wheatstraw-farming-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A good all-round sturdy crop, though it needs grinding before you can make food.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wheatstraw-farming-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6cc64791a35fccfaa57d74e9baf86d2c7dec073154ff175caea4db7fc5c884ba"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "wind-generator-theory-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Wind generators can generate power out of nothing! Free energy! At this stage we will have to buy the components needed to build it with.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wind-generator-theory-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8beca40c62f1bd5ec2482f272920bca7c5ad31184fc22b6e91c9d642b6b95dfc"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
     }
   ],
   "editorialChanges": [

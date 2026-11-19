@@ -179,5 +179,37 @@
       "/skeleton-legs-tech"
     ],
     "introduced": []
+  },
+  {
+    "name": "technology-siblings-6",
+    "resolved": [
+      "/skeleton-repair-beds-tech",
+      "/sleeping-bags-tech",
+      "/smithing-tech",
+      "/splints-tech",
+      "/stealth-legs-tech",
+      "/steel-bars-tech",
+      "/stone-refinery-upgrade-tech",
+      "/storage-boxes-crafting",
+      "/storage-boxes-crafting-tech",
+      "/storage-boxes-farming-tech",
+      "/storage-boxes-ore-tech",
+      "/storage-boxes-tech",
+      "/strong-defensive-walls",
+      "/strong-defensive-walls-tech",
+      "/thievery-training-tech",
+      "/training-tech",
+      "/turret-training-tech",
+      "/upgraded-small-generators-tech",
+      "/weapon-melting",
+      "/weapon-melting-tech",
+      "/weapon-smithing-tech",
+      "/wells-tech",
+      "/wheatstraw-farming-tech",
+      "/wind-generator-theory-tech"
+    ],
+    "introduced": [
+      "/heavy-iron-club"
+    ]
   }
 ]

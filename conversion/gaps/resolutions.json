@@ -14632,6 +14632,17 @@
       }
     },
     {
+      "id": "availability:/skeleton-repair-beds-tech",
+      "kind": "availability",
+      "target": "/skeleton-repair-beds-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-repair-beds-tech"
+      }
+    },
+    {
       "id": "availability:/skeleton-repair-kit",
       "kind": "availability",
       "target": "/skeleton-repair-kit",
@@ -15182,6 +15193,17 @@
       }
     },
     {
+      "id": "availability:/sleeping-bags-tech",
+      "kind": "availability",
+      "target": "/sleeping-bags-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sleeping-bags-tech"
+      }
+    },
+    {
       "id": "availability:/sleeveless-dustcoat",
       "kind": "availability",
       "target": "/sleeveless-dustcoat",
@@ -15300,6 +15322,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/small-wind-generator"
+      }
+    },
+    {
+      "id": "availability:/smithing-tech",
+      "kind": "availability",
+      "target": "/smithing-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/smithing-tech"
       }
     },
     {
@@ -15633,6 +15666,17 @@
       }
     },
     {
+      "id": "availability:/splints-tech",
+      "kind": "availability",
+      "target": "/splints-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/splints-tech"
+      }
+    },
+    {
       "id": "availability:/spotlight",
       "kind": "availability",
       "target": "/spotlight",
@@ -15864,6 +15908,17 @@
       }
     },
     {
+      "id": "availability:/stealth-legs-tech",
+      "kind": "availability",
+      "target": "/stealth-legs-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stealth-legs-tech"
+      }
+    },
+    {
       "id": "availability:/steel-bars",
       "kind": "availability",
       "target": "/steel-bars",
@@ -15872,6 +15927,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/steel-bars"
+      }
+    },
+    {
+      "id": "availability:/steel-bars-tech",
+      "kind": "availability",
+      "target": "/steel-bars-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/steel-bars-tech"
       }
     },
     {
@@ -16073,6 +16139,17 @@
       }
     },
     {
+      "id": "availability:/stone-refinery-upgrade-tech",
+      "kind": "availability",
+      "target": "/stone-refinery-upgrade-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stone-refinery-upgrade-tech"
+      }
+    },
+    {
       "id": "availability:/storage",
       "kind": "availability",
       "target": "/storage",
@@ -16092,6 +16169,50 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/storage-armour-plate"
+      }
+    },
+    {
+      "id": "availability:/storage-boxes-crafting-tech",
+      "kind": "availability",
+      "target": "/storage-boxes-crafting-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-boxes-crafting-tech"
+      }
+    },
+    {
+      "id": "availability:/storage-boxes-farming-tech",
+      "kind": "availability",
+      "target": "/storage-boxes-farming-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-boxes-farming-tech"
+      }
+    },
+    {
+      "id": "availability:/storage-boxes-ore-tech",
+      "kind": "availability",
+      "target": "/storage-boxes-ore-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-boxes-ore-tech"
+      }
+    },
+    {
+      "id": "availability:/storage-boxes-tech",
+      "kind": "availability",
+      "target": "/storage-boxes-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-boxes-tech"
       }
     },
     {
@@ -16444,6 +16565,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/strayed-paladin"
+      }
+    },
+    {
+      "id": "availability:/strong-defensive-walls-tech",
+      "kind": "availability",
+      "target": "/strong-defensive-walls-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/strong-defensive-walls-tech"
       }
     },
     {
@@ -17327,6 +17459,17 @@
       }
     },
     {
+      "id": "availability:/thievery-training-tech",
+      "kind": "availability",
+      "target": "/thievery-training-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/thievery-training-tech"
+      }
+    },
+    {
       "id": "availability:/thieves-backpack",
       "kind": "availability",
       "target": "/thieves-backpack",
@@ -17734,6 +17877,17 @@
       }
     },
     {
+      "id": "availability:/training-tech",
+      "kind": "availability",
+      "target": "/training-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/training-tech"
+      }
+    },
+    {
       "id": "availability:/training-turret",
       "kind": "availability",
       "target": "/training-turret",
@@ -17775,6 +17929,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/turban"
+      }
+    },
+    {
+      "id": "availability:/turret-training-tech",
+      "kind": "availability",
+      "target": "/turret-training-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/turret-training-tech"
       }
     },
     {
@@ -17995,6 +18160,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/upgraded-skeleton-guard"
+      }
+    },
+    {
+      "id": "availability:/upgraded-small-generators-tech",
+      "kind": "availability",
+      "target": "/upgraded-small-generators-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/upgraded-small-generators-tech"
       }
     },
     {
@@ -18317,6 +18493,17 @@
       }
     },
     {
+      "id": "availability:/weapon-melting-tech",
+      "kind": "availability",
+      "target": "/weapon-melting-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/weapon-melting-tech"
+      }
+    },
+    {
       "id": "availability:/weapon-smithing-bench",
       "kind": "availability",
       "target": "/weapon-smithing-bench",
@@ -18325,6 +18512,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/weapon-smithing-bench"
+      }
+    },
+    {
+      "id": "availability:/weapon-smithing-tech",
+      "kind": "availability",
+      "target": "/weapon-smithing-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/weapon-smithing-tech"
       }
     },
     {
@@ -18394,6 +18592,17 @@
       }
     },
     {
+      "id": "availability:/wells-tech",
+      "kind": "availability",
+      "target": "/wells-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wells-tech"
+      }
+    },
+    {
       "id": "availability:/wend",
       "kind": "availability",
       "target": "/wend",
@@ -18446,6 +18655,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/wheatstraw"
+      }
+    },
+    {
+      "id": "availability:/wheatstraw-farming-tech",
+      "kind": "availability",
+      "target": "/wheatstraw-farming-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wheatstraw-farming-tech"
       }
     },
     {
@@ -18545,6 +18765,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/wind-generator"
+      }
+    },
+    {
+      "id": "availability:/wind-generator-theory-tech",
+      "kind": "availability",
+      "target": "/wind-generator-theory-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wind-generator-theory-tech"
       }
     },
     {
