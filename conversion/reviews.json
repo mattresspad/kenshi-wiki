@@ -4314,6 +4314,94 @@
     "storage-steel-bars": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-stones": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-wheatstraw": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storm-house": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "swamp-dome": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "swamp-house": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "swamp-shack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "swamp-store": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "thief-training-boxes": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "torch-post": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "training-dummy": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "training-turret": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "training": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "turrets": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "vegetable-farm": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "watchtower": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "water-tank": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "water-tower": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "weapon-cabinet": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "weapon-stand": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "well": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "wheat-farm": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "y-house": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
     }
   },
   "mediaGaps": [

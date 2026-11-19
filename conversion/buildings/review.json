@@ -2212,6 +2212,337 @@
         "claim:building-environment-and-automation",
         "claim:building-recipes-and-capacity"
       ]
+    },
+    {
+      "id": "storage-stones",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Stones is a storage container which can hold up to 100 Raw Stone.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-stones.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9d6ff4e506f3d1d60e031c2266a298064caf4773f094577412b09daf00504cf7"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-wheatstraw",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Wheatstraw is a Storage building which exclusively stores Wheatstraw. This storage container was introduced in version 0.67.0 and can be constructed after researching Wheatstraw Farming. This storage container can be constructed inside and outside structures. Details Power Consumption - 0 Efficiency - 1x Storage - Wheatstraw",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-wheatstraw.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "68ec2010809c9ca8382e1a78ec993eff58fc2927f6a3ccb1e3378200d45f3357"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storm-house",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Storm House a relatively big and cheap early-game building players can construct. It is slightly more than 3x expensive compared to the Small Shack, yet features a very open first and second floor, of which more than doubles the floor-space of the structure. If one is concerned if the materials spent is worth the extra space, rest assured the Storm House yields 4-5 times the useable floor-space of The Small Shack. It also has an open-top second floor which allows the use of some external constructs as well, such as Small Wind Generators, Rain Collectors and is defensible with a rather absurd number of Mounted Crossbow emplacement points, of which have limitless ammunition. It is a great starting structure for newer players and can be made relatively cheaply so long as a meager supply chain for Raw Stone and Building Material is established. As for more seasoned players, it makes a good, cheap and quickly build general purpose structure. The storm house requires the research Small House to build. Old Storm House In some towns such as The Hub, Old Storm Houses may be available for purchase. There is little difference between them, aside from a higher cost for the older buildings and their slightly worn look. Lagoon Storm House In the central southeast, there are some instances of Storm Houses which have external metal beams. These can be found specifically in Flats Lagoon and Secret Drug Farm. Storm House Building Info Building Condition - 16 Door Condition - 16 Door Lock - lvl15",
+      "organization": "Reviewed 3 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storm-house.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "11e28dd7dfab5bac83bdfd140dc009e51c45c5e8be0ed8ebe8fb2cd60050ec5b"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "swamp-dome",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Swamp Dome is a large structure in Kenshi that cannot be constructed by the player, though it can be purchased in specific locations such as Mud Town. Usually found throughout the The Swamp, it is utilized by several factions as Bars and even sometimes as a Faction HQ. The Dancing Skeleton in Shark is a Swamp Dome.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamp-dome.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f9cc0ba7f9fb6eebf1d76dd7cf20733bde4fee1cd82947985e7fbae8b853c17c"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency"
+      ]
+    },
+    {
+      "id": "swamp-house",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A small house similar in size to a Small Shack. They can be found in Bark for c16,000 alongside the Swamp Shack and Swamp Store. Like the Swamp Store, buildings can only be placed inside and not on the porch. Additionally, there is a slope in the middle of the house, where buildings cannot be placed. They are significantly smaller than a Storm House along with having an inconvenient slope and being more expensive, so it’s far better to just opt for a Storm House or even a Small Shack instead.",
+      "organization": "Reviewed 0 headings and 0 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamp-house.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d7af101a2fa00593325274c5d29ac8321ce0c7e817b99cb02560aafd8d40b10b"
+      },
+      "questions": []
+    },
+    {
+      "id": "swamp-shack",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A small, irregularly shaped shack. They can be found in Bark for c4,000 alongside the Swamp House and Swamp Store. They are smaller than a Small Shack and cost the same, so it’s better to just opt for the Small Shack instead.",
+      "organization": "Reviewed 0 headings and 0 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamp-shack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d10f391fd496fdb658ffba414073842bf8ba3f651c984ebc2dcfa25666fea49a"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency"
+      ]
+    },
+    {
+      "id": "swamp-store",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A very small shack. They can be found in Bark for c6,400 alongside the Swamp House and Swamp Shack. Like the Swamp House, buildings can only be placed inside and not on the porch. This is probably the worst building in the game - it is more expensive than either a Small Shack or a Swamp Shack, while being smaller than both of them.",
+      "organization": "Reviewed 0 headings and 0 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamp-store.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e1d3318700a88e888f42cfdb1604e29ed884ca44e9e8d1d7fa96920ae48613aa"
+      },
+      "questions": []
+    },
+    {
+      "id": "thief-training-boxes",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Thief Training Boxes are a training objects that can be built inside of player constructed buildings after researching the appropriate technology. The Thief Training Box’s primary purpose is to improve the character’s Thievery statistic, without the dangers of practicing on the belongings of others. Similarly to other training equipment, a character may train only to a certain level, beyond which your character will still “train”, but no progress will be made to the next level. It is suggested to never waste time building these boxes as you can simply “steal” from bandits who are playing dead to reach high levels of thievery in seconds. Building Upgrades",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thief-training-boxes.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5bc5d607cefb16a1697d31b2d2585a669e925c16a3aea1d6fa555dfcfc12b4b8"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "torch-post",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Torch Post is a lighting building which can be constructed by the player with no research. It requires no power and can be placed both inside and outside. It is a good lighting alternative for avoiding production penalties at bases that might periodically run out of power.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/torch-post.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b5316063e5efbeafdd1ab8b4e73c480b2ce713fb672b014809acacbb5b21650a"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "training-dummy",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Training Dummies are training buildings which can be used to level up a character’s Melee Attack stat. Players can construct this building after researching Simple Training Dummies. Training Dummy MkI’s can also be found in police stations within towns. Using training dummies within certain NPC buildings may cause certain NPCs inside the building to become hostile after some dialogue warning you to stop. Upgrades",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/training-dummy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2b6d2b9d68d6a8c3ff35463c90ab3d196856e85b944171c898913df53bd91a05"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "training-turret",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Training Turrets are training buildings which players can construct after researching Turret Training. Characters can interact with this building to train the Turrets stat. Upgrades",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/training-turret.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f5c2809a2ac4f4101dbed86db950f29f0e6e90550b53d00086045c3c3ba7d478"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "training",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Training buildings are an easy way to level stats without risk. Players can construct these after researching Training Tech. Often, these buildings can be found in barracks. Many of these buildings are found in Thieves Guild. Training",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/training.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c01d11af3d699c0759da5f7e9430cedf8b4da1d404918af2c0e499ea8b815606"
+      },
+      "questions": [
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "turrets",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Turrets is a ranged weapon stat that affects the character’s ability to use defensive weapon turrets. The only way to train this skill is by using turrets or training turret. Turrets are buildings and do not require ammunition. They, like crossbows, can deal damage to friendly units. Racial Experience Multipliers Stats Affected The level of a character’s Turrets skill improves their accuracy, rate of fire and friendly fire avoidance. Accuracy: this affects the character’s likelihood of hitting their target. The default value for a character with a skill of 0 is 25% and will max at 125%. Rate of fire: this affects the amount of time it takes for a character to reload an arrow or harpoon on a turret. The default value for a skill of 0 is 25% and will max at 125%. Friendly fire avoidance: this will lower the chance that a character will shoot a friendly character while operating a turret. At level 0 the character will have a 0% chance to avoid shooting friendlies but will have a 100% chance from committing friendly fire when the skill reaches level 50. Loading screen tip: Mounted crossbow turrets don't need any power supply, this means they can be built anywhere out in the wilds. Buildings The following structures use and train the Turrets skill of the worker: Double-Barrel Harpoon Turret Harpoon Turret Harpoon Turret MkII Multi-Barrel Harpoon Turret Mounted Crossbow Mounted Crossbow mkII Training Turret",
+      "organization": "Reviewed 2 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/turrets.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "038aa182b91f6415ddea29f39387de7a1efe5bd2c3698e7eb76e50f53ca59d0a"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-turret-and-placement"
+      ]
+    },
+    {
+      "id": "vegetable-farm",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Vegetable Farm produces Greenfruit. It can be farmed most efficiently in areas with the Green Environment. Greenfruit can also be grown inside an Arid or Swamp environment, as long as there is more than 0% of Green environment there as well. This building requires no research in order to construct it. Vegetable Farm Farm Info & Building Requirements There are three different sizes of Vegetable Farm, Vegetable Farm S, Vegetable Farm M, and Vegetable Farm L. Each level of Vegetable Farm can be upgraded to the next without having to remove and replant the field. You will, however, lose all growth progress on the current crop. There are currently no building options for a Vegetable Farm XL. Vegetable Farm S Costs 10 greenfruit to build Each farm contains 20 plants Takes 23.33 in-game hours to fully grow at 100% fertility Must be harvested within 18 in-game hours of reaching 100% growth Uses 10 buckets of Water per day, assuming no rain and default usage multiplier. Vegetable Farm M Upgrade cost from Vegetable Farm S is 15 greenfruit Costs 25 greenfruit to build. Each farm contains 30 plants Takes 23.33 in game hours to fully grow at 100% fertility Must be harvested within 18 in-game hours of reaching 100% growth Uses 10 buckets of Water per day, assuming no rain and default usage multiplier. Vegetable Farm L Upgrade cost from Vegetable Farm M is 15 greenfruit Costs 40 greenfruit to build Each farm contains 49 plants Takes 23.33 in game hours to fully grow at 100% fertility Must be harvested within 18 in-game hours of reaching 100% growth Uses 10 buckets of Water per day, assuming no rain and default usage multiplier.",
+      "organization": "Reviewed 4 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/vegetable-farm.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "67c531f2b97c1ed7e01aadf171975abd530b3e026cc9a6209c7afbcdf3bedf04"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-farm-time-qualification",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "watchtower",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Watchtower is a tall building shell that has 4 floors including the roof and can be equipped with both Turrets and Harpoon Turrets on the roof. It is commonly used for base defense due to the large height bonus it provides to turrets. Due to the nature of its design, it can be implanted into otherwise completely unusable terrain, such as cliff-sides or even consuming entire natural formations that other structures straight-up cannot be built on, near or around, making it a spatially conscious structure in tight or uninhabitable terrain. It is also considerably more expensive than all other structures, some by more than double, save for the Outpost structures. If resources are scarce, building cheaper, larger, flatter structures in open terrain may be preferable if available. Players can construct this building after researching Large Building Shells. Not that it matters in game, but the Watchtower has the highest building condition of all the Building types. It would have made perfect sense had engines of war been introduced to Kenshi. Bugs From the Build Menu, selecting Watchtower Blueprint and setting the Floor to (roof height), you can slide it off of an already made structure until it suddenly “snaps” to the ground and provides an extremely brief window in which the Watchtower can be placed anywhere regardless of collision from any angle. However, the entrance will typically fall a minimum of one-floor below ground, making it impossible to enter. Watchtower Building Info Building Condition - 70 Door Condition - 16 Door Lock - lvl15",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/watchtower.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f358d6aefbf28df11652a1d4f16fe27f6db39fd6629ee7db90939bf2bddf145f"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity",
+        "claim:building-turret-and-placement"
+      ]
+    },
+    {
+      "id": "water-tank",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Water Tank is a storage building that holds Water. It can be constructed after researching Storage Boxes: Farming. Although it is labeled “Exterior,” it can also be built indoors. Storage Stores up to 100x water.",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/water-tank.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "09552c262830bf3a8b5f3ed6ec28a7a0c099730b33440b912e2a70575c0c56ff"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "water-tower",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Water Tower is a storage area dedicated specifically to Water. Water towers can be found in Black Scratch and Flats Lagoon. For the player constructed version, see Water Tank. Storage Storage - Water Capacity 1000 units",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/water-tower.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "33d83fa616a31d1d834398ed721984becdd85681e0912794ca64f7cb8ed08745"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation"
+      ]
+    },
+    {
+      "id": "weapon-cabinet",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Weapon Cabinet is a Storage building which contains Weapons. It can be constructed after researching Gear Storage (Tech). Details This chest has a storage space of 18x18 squares. Mechanically, this building is identical to Weapon Stand, the only difference being cosmetics.",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/weapon-cabinet.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b103454839458e145b7200040064ff24d4bba8fa13da81afcc061f6bd4bc9e65"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "weapon-stand",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Weapon Stands are containers that can be built in player constructed buildings. They are used to store weapons, and can only hold those types of items. The Weapon Stand and Weapon Cabinet both have the same storage capacity and the same material cost. Details Power Consumption - 0 Efficiency - 1x Storage - Weapons Storage Space - 18x18",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/weapon-stand.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "42c9958196a3d2b1a932537d6b092aefbf236307be0ccb4a7ac3d8232584c1ff"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "well",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Well is a structure for drawing Water from the ground. The output of your wells will depend on location, Prospecting should be used to find a suitable area to build, generally near bodies of water. Watering can be automated by selecting a worker, press Shift+RMouse on the Well/I, II, III, then release on the inventory button. This will create jobs allowing you to arrange order of the assigned jobs so you can bring water to the farm from your well or water tanks. Always look at your jobs to see what was assigned after Shift+RMouse to make sure your character(s) are doing the work in the correct order or desired order. Well Upgrades Groundwater",
+      "organization": "Reviewed 2 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/well.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d36b946ff9fbd20646929e49a125ac5c19bac7f6173fe193f0449600722a96e0"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-incomplete-details",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "wheat-farm",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A wheat farm produces Wheatstraw, it can be farmed in Arid Environments at 60% efficiency and green biomes at 100% efficiency. It takes ten wheatstraw to make one strawflour, if you’re going to survive on bread then you will need to make it a priority to get a lot of wheat farms up and running. Wheat Farm Research Requirements Wheatstraw Farming Wheat Farm S Costs 10 Wheatstraw to build Each farm contains 25 plants Takes 24 in game hours to fully grow at 100% fertility Must be harvested within 48 in game hours Wheat Farm M Costs 25 Wheatstraw to build, 15 to upgrade from Wheat Farm S Each farm contains 49 plants Takes 24 in game hours to fully grow at 100% fertility Must be harvested within 48 in game hours Wheat Farm L Costs 40 Wheatstraw to build, 15 to upgrade from Wheat Farm M Each farm contains 72 plants Takes 24 in game hours to fully grow at 100% fertility Must be harvested within 48 in game hours Wheat Farm XL Costs 60 Wheatstraw to build, 20 to upgrade from Wheat Farm L Each farm contains 100 plants Takes 24 (25?) in game hours to fully grow Takes ~2.4 in game minutes for each plant to harvest, so ~4 hours for a full farm, not considering moving of the farmer",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wheat-farm.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "905e8feba0778e295fc9226265f76daea9ae5c78a877acdb55a162af4b062b2d"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-farm-time-qualification",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "y-house",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Requires Large Building Shells tech to build. At 35 Building Material it is a moderately expensive structure that nearly doubles its floor space with its exposed roof. The central dome is impassable and therefore cannot be built upon, but the arms of the structure provide a very decent floor space. The Y-House can be purchased in the following cities and towns: Black Scratch - 28,000 cats Clownsteady - 28,000 cats Mongrel - 14,000 cats Stoat - 28,000 cats Comparison to similar buildings There are two other buildings which cost the same number of building materials but with different floorplans: Bughouse L-House Both of them offer less interior space. When also taking into consideration that each building adds a deadzone around it (once its placement is confirmed), the Y-House interior actually ends up being much more arrangeable than the other two, as their condensed area ends up working against you. It is worth noting however that it can be hard to place other building shells near the Y-House due to its shape and buffer zones. If exterior space is a concern, the other options might be more friendly. Notably, the Y-House it is pretty much a straight upgrade of the Longhouse. Due to the aforementioned deadzones, the increase in usable space is bigger than the increase in “raw” floor space. Additionally, the rooftop tower on Longhouses takes away more usable space than the dome on the Y-House. However, it is worth noting that the tower is a good turret mount point due to its height bonus. Y-House Building Info Building Condition - 35 Door Condition - 16 Door Lock - lvl15",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/y-house.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e9b0b76ebd6d6ce598f920cec1ae8bc5cf0238696c7d9cd72118917916335008"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-turret-and-placement"
+      ]
     }
   ],
   "editorialChanges": [

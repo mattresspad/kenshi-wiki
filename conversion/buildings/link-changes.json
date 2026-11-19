@@ -290,5 +290,40 @@
       "/improved-stone-mining-tech",
       "/storage-boxes-crafting"
     ]
+  },
+  {
+    "name": "building-siblings-7",
+    "resolved": [
+      "/storage-stones",
+      "/storage-wheatstraw",
+      "/storm-house",
+      "/swamp-dome",
+      "/swamp-house",
+      "/swamp-shack",
+      "/swamp-store",
+      "/thief-training-boxes",
+      "/torch-post",
+      "/training",
+      "/training-dummy",
+      "/training-turret",
+      "/turrets",
+      "/vegetable-farm",
+      "/watchtower",
+      "/water-tank",
+      "/water-tower",
+      "/weapon-cabinet",
+      "/weapon-stand",
+      "/well",
+      "/wheat-farm",
+      "/y-house"
+    ],
+    "introduced": [
+      "/simple-training-dummies-tech",
+      "/small-house-tech",
+      "/thievery-training-tech",
+      "/training-tech",
+      "/turret-training-tech",
+      "/wells-tech"
+    ]
   }
 ]

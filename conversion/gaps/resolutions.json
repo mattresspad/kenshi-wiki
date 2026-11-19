@@ -15072,6 +15072,39 @@
       }
     },
     {
+      "id": "availability:/storage-stones",
+      "kind": "availability",
+      "target": "/storage-stones",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-stones"
+      }
+    },
+    {
+      "id": "availability:/storage-wheatstraw",
+      "kind": "availability",
+      "target": "/storage-wheatstraw",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-wheatstraw"
+      }
+    },
+    {
+      "id": "availability:/storm-house",
+      "kind": "availability",
+      "target": "/storm-house",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storm-house"
+      }
+    },
+    {
       "id": "availability:/stormgap-coast",
       "kind": "availability",
       "target": "/stormgap-coast",
@@ -15226,6 +15259,28 @@
       }
     },
     {
+      "id": "availability:/swamp-dome",
+      "kind": "availability",
+      "target": "/swamp-dome",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-dome"
+      }
+    },
+    {
+      "id": "availability:/swamp-house",
+      "kind": "availability",
+      "target": "/swamp-house",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-house"
+      }
+    },
+    {
       "id": "availability:/swamp-ninja-base",
       "kind": "availability",
       "target": "/swamp-ninja-base",
@@ -15322,6 +15377,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/swamp-raptor-nest"
+      }
+    },
+    {
+      "id": "availability:/swamp-shack",
+      "kind": "availability",
+      "target": "/swamp-shack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-shack"
+      }
+    },
+    {
+      "id": "availability:/swamp-store",
+      "kind": "availability",
+      "target": "/swamp-store",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-store"
       }
     },
     {
@@ -15952,6 +16029,17 @@
       }
     },
     {
+      "id": "availability:/thief-training-boxes",
+      "kind": "availability",
+      "target": "/thief-training-boxes",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/thief-training-boxes"
+      }
+    },
+    {
       "id": "availability:/thiefs-arm-right",
       "kind": "availability",
       "target": "/thiefs-arm-right",
@@ -16103,6 +16191,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/tora-the-fearless"
+      }
+    },
+    {
+      "id": "availability:/torch-post",
+      "kind": "availability",
+      "target": "/torch-post",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/torch-post"
       }
     },
     {
@@ -16337,6 +16436,39 @@
       }
     },
     {
+      "id": "availability:/training",
+      "kind": "availability",
+      "target": "/training",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/training"
+      }
+    },
+    {
+      "id": "availability:/training-dummy",
+      "kind": "availability",
+      "target": "/training-dummy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/training-dummy"
+      }
+    },
+    {
+      "id": "availability:/training-turret",
+      "kind": "availability",
+      "target": "/training-turret",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/training-turret"
+      }
+    },
+    {
       "id": "availability:/traitorous-bar-thug",
       "kind": "availability",
       "target": "/traitorous-bar-thug",
@@ -16367,6 +16499,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/turban"
+      }
+    },
+    {
+      "id": "availability:/turrets",
+      "kind": "availability",
+      "target": "/turrets",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/turrets"
       }
     },
     {
@@ -16634,6 +16777,17 @@
       }
     },
     {
+      "id": "availability:/vegetable-farm",
+      "kind": "availability",
+      "target": "/vegetable-farm",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/vegetable-farm"
+      }
+    },
+    {
       "id": "availability:/venge",
       "kind": "availability",
       "target": "/venge",
@@ -16722,6 +16876,17 @@
       }
     },
     {
+      "id": "availability:/watchtower",
+      "kind": "availability",
+      "target": "/watchtower",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/watchtower"
+      }
+    },
+    {
       "id": "availability:/watchtower-town",
       "kind": "availability",
       "target": "/watchtower-town",
@@ -16752,6 +16917,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/water-jug"
+      }
+    },
+    {
+      "id": "availability:/water-tank",
+      "kind": "availability",
+      "target": "/water-tank",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/water-tank"
+      }
+    },
+    {
+      "id": "availability:/water-tower",
+      "kind": "availability",
+      "target": "/water-tower",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/water-tower"
       }
     },
     {
@@ -16843,6 +17030,17 @@
       }
     },
     {
+      "id": "availability:/weapon-cabinet",
+      "kind": "availability",
+      "target": "/weapon-cabinet",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/weapon-cabinet"
+      }
+    },
+    {
       "id": "availability:/weapon-smithing-bench",
       "kind": "availability",
       "target": "/weapon-smithing-bench",
@@ -16851,6 +17049,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/weapon-smithing-bench"
+      }
+    },
+    {
+      "id": "availability:/weapon-stand",
+      "kind": "availability",
+      "target": "/weapon-stand",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/weapon-stand"
       }
     },
     {
@@ -16898,6 +17107,17 @@
       }
     },
     {
+      "id": "availability:/well",
+      "kind": "availability",
+      "target": "/well",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/well"
+      }
+    },
+    {
       "id": "availability:/wend",
       "kind": "availability",
       "target": "/wend",
@@ -16928,6 +17148,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/western-hive-location"
+      }
+    },
+    {
+      "id": "availability:/wheat-farm",
+      "kind": "availability",
+      "target": "/wheat-farm",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wheat-farm"
       }
     },
     {
@@ -17170,6 +17401,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/wrench"
+      }
+    },
+    {
+      "id": "availability:/y-house",
+      "kind": "availability",
+      "target": "/y-house",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-7",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/y-house"
       }
     },
     {

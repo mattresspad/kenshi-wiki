@@ -1,0 +1,2671 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "articles": [
+    {
+      "id": "small-shack",
+      "sourceFile": "src/content/wiki/small-shack.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "965b82aa10f2a5056a54e5b4a61a2b26f42ad3b6ee44b55c224b794a2e45f6d8",
+      "renderedSourceSha256": "8485b58bbf2aa8655a0b33edb1ed2bd5c15e6fd32f5f520d1302d503d3c29fae",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Small Shack"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "stone-processor",
+      "sourceFile": "src/content/wiki/stone-processor.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "03dffe59a26c03065447181134b16508909ecd1bcc7fc5eb1e6b2fffd71c79b6",
+      "renderedSourceSha256": "b71b594c9c09064d42822516fff13b7cca3f8ea031199a9c5b4e477af9c86cee",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 3,
+      "captions": [
+        "Manual Stone Processor"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "weapon-smithing-bench",
+      "sourceFile": "src/content/wiki/weapon-smithing-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "8ce3a9d6c48a73c595573bfb097e5c38448bebcdf17048924d6798ade6e41316",
+      "renderedSourceSha256": "53b13c1e9cefa802d42b448ca3cfc8709d6fa2e79aa8844a1c3345019cef8123",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Weapon Smith"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "wind-generator",
+      "sourceFile": "src/content/wiki/wind-generator.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "62f28ea9c98d879e69eba1ed12905b83fb203459cc61e954d619c44b855a2db1",
+      "renderedSourceSha256": "3bf43bb1bffa17486d9706f408df36b66ec3f7a5e3ce1a8bfebcf01c6564e097",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 5,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Wind Generator",
+        "Wind Generator II"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "medical-workbench",
+      "sourceFile": "src/content/wiki/medical-workbench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "fd5f0c247f3944cb1855fc83be1ec4489b55fcdd4a42145fa84bef1dc25f9486",
+      "renderedSourceSha256": "8956387a09787a59a0700ccb7d0e700cfbe49f25ddf8c674ed4b3b2dd9a12fe5",
+      "transformations": [
+        "nested property wrapper",
+        "recipe output wrappers"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 13,
+      "normalizedTableCount": 4,
+      "lineBreaksPreserved": 4,
+      "captions": [
+        "Medical Workbench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "fabric-loom-cotton",
+      "sourceFile": "src/content/wiki/fabric-loom-cotton.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "c1ec4e6c67ad3a94345cf09c4cd0ab2a2855035d5c2f43ecc579144b5ef44c4d",
+      "renderedSourceSha256": "7683897d76259a7408f6124cb4500c220b40e380d0f85a65c5cee1e542fd98c2",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 2,
+      "captions": [
+        "Fabric Loom (cotton)",
+        "Cotton Auto-Loom"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "cactus-farm",
+      "sourceFile": "src/content/wiki/cactus-farm.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "abfb6f056b79ba2dc761e160a8fefb94308b88014e6dbde3d18ffd2fff5507df",
+      "renderedSourceSha256": "c4d246b3c56b8784a51970e9ebf102c23519d7d4b7b940c18e1bf83edc6f5c84",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Cactus Farm S"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "food-store",
+      "sourceFile": "src/content/wiki/food-store.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "b589bb82e7fe0c186f1ee592c4d209a1747c9a8d41f61e69738780a47d7a1d23",
+      "renderedSourceSha256": "735bfa48ed36f6c2bd43d2f6cac4e2b03a8f2317f64290899c5903eaded1fb39",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Food Store"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "oil-drill",
+      "sourceFile": "src/content/wiki/oil-drill.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "f1ce5605b95c22e1cc36bb07da290a0206bac50b89d2b3688bb10d4b1a2ecdc0",
+      "renderedSourceSha256": "b3128acd4eb9938534afb382345a7755cacdb82978dfa258133e398e499d64f4",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 4,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Oil Drill"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "buildings-list",
+      "sourceFile": "src/content/wiki/buildings-list.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "abfcc51cc09870d65740e062cd813202580e13f13f3c8df43fa506059c0ebffe",
+      "renderedSourceSha256": "49772701a63dd456b1573c29121b910cf04100a82911b9c2804a71716a2c352f",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 15,
+      "normalizedTableCount": 15,
+      "lineBreaksPreserved": 121,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage",
+      "sourceFile": "src/content/wiki/storage.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "b128f9f3b636e92806ed04ad4313bc9b6227f94851f72697d2a72a53f3d14c3a",
+      "renderedSourceSha256": "46f7ff520396bd905bda0fbb0d12ecce79753741f125a6bae1cc72a738f7bd71",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 3,
+      "captions": [
+        ""
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "clothing-bench",
+      "sourceFile": "src/content/wiki/clothing-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "878a663294d663ac22a5573f1cc0fc20c2ae4f53e7a8c20ddb961c197076b2f5",
+      "renderedSourceSha256": "04faa548087e15229e093507f312ed778f4329c63739b95bb595474b49439994",
+      "transformations": [
+        "recipe output wrappers"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 49,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 5,
+      "captions": [
+        "Clothing Bench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "animal-feeder",
+      "sourceFile": "src/content/wiki/animal-feeder.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "62f40f90db8d937f561bd57216b7db05c43ae31df334c1a854eb244ff1545969",
+      "renderedSourceSha256": "9c64bd2cec21997bdb2efa4b2d2ab749a0bf8b8d6aef13d3279d9d2ae23780a0",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Animal Feeder"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "armour-storage",
+      "sourceFile": "src/content/wiki/armour-storage.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "32d9753d76c514aad8b4036e14835ea4db25999315d27c5f262c2a5923b7fdbf",
+      "renderedSourceSha256": "c1b157f4547aabfc4889e27428a2a9b9cdf1cbcf289626fc9d364729de0b2d1b",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Armour Storage"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "arrow-making-bench",
+      "sourceFile": "src/content/wiki/arrow-making-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "76059540f050ad0f872b0cd02c8036a7ff4d71de742e8ac5cc7c76be20c27a4d",
+      "renderedSourceSha256": "4f3ca3367532174e408382d00ba21f75687b29ba15a2727dcbf4489b122b391e",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Arrow Making Bench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "assassination-dummy",
+      "sourceFile": "src/content/wiki/assassination-dummy.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "dce31b46c6501e06a49aac9da02c18f8329e947bb7fc9d6ba655ab80f870dba5",
+      "renderedSourceSha256": "b36eb2f37b8d94aa4acee8f314511b2dccb062f4aafda089f911e845626b20dd",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 3,
+      "captions": [
+        "Assassination Dummy"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "battery-bank",
+      "sourceFile": "src/content/wiki/battery-bank.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "ab7bf9e974cd51dc059c8dc4065d27a0d6e2b942fd1fab3a3b12e4266e671a2b",
+      "renderedSourceSha256": "953c8bbc0a428b00f89ac34bac2848564642555525825af71d3fc904fad8da91",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Battery Bank"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "bed",
+      "sourceFile": "src/content/wiki/bed.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "03316434e4809707a9efab3513e5d602068f29cbc75fcebd6c4a2eaa4b42b050",
+      "renderedSourceSha256": "8ca249eee31499d9d32ef04ca406694611bf2b6193dfacf85dcd329c5e0cbd07",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Bed"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "biofuel-distillery-greenfruit",
+      "sourceFile": "src/content/wiki/biofuel-distillery-greenfruit.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "f095cc43960fa1b84ba1cc38a52b40abad4c6e8a427983cecb990ae1fb1d6b7d",
+      "renderedSourceSha256": "73a2348a247675d93eafd1bc55350b33c9e3025753e02e87a0eb0570b3c17c20",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Biofuel Distillery (Greenfruit)"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "biofuel-distillery-hemp",
+      "sourceFile": "src/content/wiki/biofuel-distillery-hemp.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "a78e063a590379f5f6e685452c7d46a630110cb31aaab1b3634a468d30530a8b",
+      "renderedSourceSha256": "1b555149884ff3e7d6310411333eb75afff12674050dc1169aa1f52b51bcebd0",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Biofuel Distillery (Hemp)"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "biofuel-distillery-wheatstraw",
+      "sourceFile": "src/content/wiki/biofuel-distillery-wheatstraw.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "0b6763ad7f6856c78040fda96c508a466bbd16d46981e7d99273f9ab13a0e957",
+      "renderedSourceSha256": "dcb42ca6150ba8cd9e5b6b271df2fd62ce22c9a0f7e2600fff8e0d3235921a8f",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Biofuel Distillery (Wheatstraw)"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "biofuel-distillery",
+      "sourceFile": "src/content/wiki/biofuel-distillery.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "fa0797511487ca4e28fd838965271a9a12f2b3c1ee202273ee5be94b1dcbfbc3",
+      "renderedSourceSha256": "eb4399be51fd834812044f968992b153313b2f5818cc729a0b69eb57520fa4d4",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "boltbox",
+      "sourceFile": "src/content/wiki/boltbox.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "10845680e4a1fe719f984ff750f4f24f74820a42680b04cb456f9965972b2813",
+      "renderedSourceSha256": "cbc651638a6d740baa9d0b931c004ae3e97af58592496597153212d55f6ebd76",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Boltbox"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "bread-basket",
+      "sourceFile": "src/content/wiki/bread-basket.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "2e10416e36d22a482ba14808699744a079306e61fa8e0eb125aaed03d8ee1d9a",
+      "renderedSourceSha256": "ac35755ff5fccd681f43291d08318bd6ab8117045ff50c47eb413d43f1d4c354",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Bread Basket"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "bread-oven",
+      "sourceFile": "src/content/wiki/bread-oven.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "f021a31cc6e38c3676726ad6b763a851f46eccac16643c74d722625fd1ae4b27",
+      "renderedSourceSha256": "61733cd2f594852e889b6ffdb6233ed1f5f9d025768bd7794d02861356139d57",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Bread Oven"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "bughouse",
+      "sourceFile": "src/content/wiki/bughouse.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "576d758cd2e1e570ad7bc561b11f43760777fc2aa81f188ae9d35ee33f89c03a",
+      "renderedSourceSha256": "4c5f5ec64bdaee9682d43f9455b63140aa3423a0dacccfe32a9b97374d4e6cf3",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Bughouse"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "camp-bed",
+      "sourceFile": "src/content/wiki/camp-bed.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "9d95d12b09a47e6a420d194794dff120c8b1926595fccef1ca224e2097f68a11",
+      "renderedSourceSha256": "6d2d3836966baad0a48db91d3f5200cb08052a03324146b0439d1d402ae157f8",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Camp Bed"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "campfire",
+      "sourceFile": "src/content/wiki/campfire.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "79127dde7b788def8839367602dd85adc72bbb590c5781c5b77bc84321630dfe",
+      "renderedSourceSha256": "badfcaed785e51116c785b22e2420fba86a35988434ca307c92b2fe799ba4dc7",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Campfire"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "camping",
+      "sourceFile": "src/content/wiki/camping.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "88183ce1164be58d7b4f2fdbd3745fcf5640a243d2bdb6e575484f0524a6c02a",
+      "renderedSourceSha256": "9dd975431045310b5eae42bd30a63750fc05ca34ad0c04c5002d8797c692fde1",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 3,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "ceiling-fan-lamp",
+      "sourceFile": "src/content/wiki/ceiling-fan-lamp.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "aa6aa41593b537f63af742f14a2a9d9f7f31b4e6bd78d1f9e0c49466023c898e",
+      "renderedSourceSha256": "d5e9332e98de7c72d81a1bba982e18d4a1f6ae7b4a0d0fbb9c1ffe778fbcc75a",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Ceiling Fan Lamp"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "ceiling-lamp",
+      "sourceFile": "src/content/wiki/ceiling-lamp.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "a0c54401b7fa80a33e1b71e9f9629ddf13776c757735216d4335525db4c1a202",
+      "renderedSourceSha256": "178c59b1015ddecc2379a9482e252992e54197f0602aca06fc57906700295d4b",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Ceiling Lamp"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "chain-armour-crafting-bench",
+      "sourceFile": "src/content/wiki/chain-armour-crafting-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "2fd3db4710b44e4a84374bb62293d2b60040b97b2dfd1e47f44e248916f2fcd0",
+      "renderedSourceSha256": "85436a89d310288ca0f7f486fc6a153b94c9441183ebc2f68c87392768fae422",
+      "transformations": [
+        "recipe output wrappers"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 21,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 5,
+      "captions": [
+        "Chain Armour Crafting Bench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "chainmail-sheet-fabrication-bench",
+      "sourceFile": "src/content/wiki/chainmail-sheet-fabrication-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "72a3f49282afc4fe27cfaa6d48f8319c814df6f3ef11f536c7a7a443e8700da5",
+      "renderedSourceSha256": "a2f30f08741a7c5c0bdb3dbc21e0ef8dcbac77cfb2af60fdfb96cdb2c81580c7",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Chainmail Sheet Fabrication Bench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "cooking-pit",
+      "sourceFile": "src/content/wiki/cooking-pit.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "03ba51b231bf09b4654c727052ac0225513d24319b96dbe867753522524467a2",
+      "renderedSourceSha256": "d1c507ec162866b020395179fe0ed1aebaca4c8a1bd72b5eb9c5cb07af2c7680",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Cooking Pit"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "cooking-stove",
+      "sourceFile": "src/content/wiki/cooking-stove.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "330e0a77dfe3d3741238be3b6a716690181860ecc8baa062d7e8fb2015b33d1f",
+      "renderedSourceSha256": "4e609de201539866e266f44f5ba3afb3cebe7d1d775584eafa3420129a5d2fb8",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Cooking Stove"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "copper-alloy-bench",
+      "sourceFile": "src/content/wiki/copper-alloy-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "c0532222ddb5ec1f899c5aeff1de48592d8a6fcc375cc4a5660b6671038dff5e",
+      "renderedSourceSha256": "41d4dbf281b2868c76d522269fb45cedd59c9a0a56549875029cf3cdc851b7ce",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Copper Alloy Bench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "corpse-furnace",
+      "sourceFile": "src/content/wiki/corpse-furnace.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "fe61eabc3bdc47c572d761d7e0dab81ff9313c49410a907ecdf4e21e0c64b9e1",
+      "renderedSourceSha256": "551358ebfa1df39ac5a8974e45900f5d2643788ca1252a96c3f74dbabeeb706c",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Corpse Furnace"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "cotton-farm",
+      "sourceFile": "src/content/wiki/cotton-farm.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "be27254cf88954ec2c63b6af816a4d03b44375b0c0dd316a797405d1a501f80d",
+      "renderedSourceSha256": "69d71f9228013445c9564818fea9facfe065f9ad75f076d890b4a482f8de12aa",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Cotton Farm S"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "crossbow-crafting-bench",
+      "sourceFile": "src/content/wiki/crossbow-crafting-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "96af4a57f1331f553a5b910208f673bfce6aef8973fbce30ef1f0c6b16b61699",
+      "renderedSourceSha256": "ce5acdcdabe2007d806cec667ccda37930a16581068d575db476f093648502e3",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Crossbow Crafting Bench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "crossbow-locker",
+      "sourceFile": "src/content/wiki/crossbow-locker.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "e116e5d5b04e9d0f62ad8527d914cfde48e5f1aa77c4d76d29796cf4cb5459a1",
+      "renderedSourceSha256": "5435b12945995ac473b6cf2d5b21b555746d38b8d96397a1b2d4e2c1ffeb5501",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Crossbow Locker"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "defensive-gates",
+      "sourceFile": "src/content/wiki/defensive-gates.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "1bfdc92b8ee4e23b24f5c6ce26c96ee24d24404070531cc43a54834967420f70",
+      "renderedSourceSha256": "a0f50c205c91f885c0719d6e24d50b673fa66ad8a17ae090a9875f6fdf32cd3e",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Makeshift Gate"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "defensive-structures",
+      "sourceFile": "src/content/wiki/defensive-structures.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "1f3a8c811873cd571b6ff0d58da170e0a121cf9aea116c44b86c5d3c043d5c2a",
+      "renderedSourceSha256": "14d8ce79a56e54b1d968f8e2808d1b1a3e4d9dab9575fee071bd299158ebfdbe",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 6,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "defensive-walls",
+      "sourceFile": "src/content/wiki/defensive-walls.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "d54f151faf89fa125b12e0fb736b5e580a2b274f696d6d5d60a1c0ae53bbf000",
+      "renderedSourceSha256": "eb65e27b345441a289846a2b708b5475556ceb3f0bfcd88e5132374e3f304b56",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Makeshift Wall"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "display-stand",
+      "sourceFile": "src/content/wiki/display-stand.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "94a804f69a9e794c196c2350c4c62cb2ed5a3ffb8a1a69a4326418c6788d36e9",
+      "renderedSourceSha256": "edbbb1ae5bfd29087c7fdad6153d4048ebd8a842e70a61b7ee0b9fdf04c0860b",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Display Stand"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "double-barrel-harpoon-turret",
+      "sourceFile": "src/content/wiki/double-barrel-harpoon-turret.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "ce3c28e8f6c02a8447692ef98325fa2ff1c3d94cade69effcac3d0ff6afacc59",
+      "renderedSourceSha256": "ab0d527c298bb4d46af808a5233f64f7ec7a67a1ea111ac7ea84cd9d28f48a18",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 2,
+      "captions": [
+        "Double-Barrel Harpoon Turret",
+        "Double-Barrel Harpoon Turret [light]"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "electrical-torch-post",
+      "sourceFile": "src/content/wiki/electrical-torch-post.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "68d08c2fd8a114b3645663e401f0fa45ca643266d0617d01e24ebd167ee16030",
+      "renderedSourceSha256": "c62edf1ab7176e5304280104adb24b8090fdbfef689e1dee497eec13cd097fb9",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Electrical Torch Post"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "electrical-workbench",
+      "sourceFile": "src/content/wiki/electrical-workbench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "54ac7f6330dee10cf99b49396491032f8d1a4a60cd0bc8fbff2bc96c92362b08",
+      "renderedSourceSha256": "f07ac115760230ddf50fd7fe4a0a0dba769c2278bcfe97658a092983fc27445d",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Electrical Workbench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "fabric-chest",
+      "sourceFile": "src/content/wiki/fabric-chest.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "318acfe052ea071fb7ee34c782e8cad9043003a792d8e749d680e8c20319859c",
+      "renderedSourceSha256": "74adfc1d3609dd5c302fd0d4f5de86bed6d1f1fd79807e2b92e30382b1e1be3d",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Fabric Chest"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "fabric-loom-hemp",
+      "sourceFile": "src/content/wiki/fabric-loom-hemp.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "3ada37a798c4e34be48435122995e9c9de3f20e7eab9eb3b6428176dbb2c9f6b",
+      "renderedSourceSha256": "e8eaeaa3a3ed343b41d1a01a3c65f7d6d6c85edf0bbb4694168fe69e9f79865c",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 2,
+      "captions": [
+        "Fabric Loom (hemp)",
+        "Hemp Auto-Loom"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "fabric-looms",
+      "sourceFile": "src/content/wiki/fabric-looms.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "06a600b9a3d4dbe1db5c9451798d206b06ded8c5141d432c1aff062aff97fb80",
+      "renderedSourceSha256": "bceb1223e1d28af17db125c7990a474b5e739471e1e0082bd84488ef1dbd9eb5",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 0,
+      "normalizedTableCount": 0,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "flat-shelter",
+      "sourceFile": "src/content/wiki/flat-shelter.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "fe12dd958802a64e16d7f46f877c68d8066ac6a09ea36b41e26b81d884f46648",
+      "renderedSourceSha256": "5690f201aab55908020a3090fa420cf58abab9922334e04cf82820f2714332a2",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Flat Shelter"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "flour-storage",
+      "sourceFile": "src/content/wiki/flour-storage.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "4fece1df34f808aeeb94a4650661f2d8646ba65fb8796efa619de12b042dbdc6",
+      "renderedSourceSha256": "378b04b57d16a4dbad82836bd473cccda654ee3a2660fdbb38a096fd8ce6d2e9",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Flour Storage"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "general-storage-boxes",
+      "sourceFile": "src/content/wiki/general-storage-boxes.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "59b0e13c2d2f89ab72e80e92fb4fe195413d4b772ab6a435608de4524b2bb661",
+      "renderedSourceSha256": "bdec7805964b133a5f92fbfb5336adb9c1029587689b769a40b5c23a51f8e6fe",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "General Storage Boxes"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "general-storage-chest",
+      "sourceFile": "src/content/wiki/general-storage-chest.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "603dc1860615d1a3b48c9b07b41a340a492c20954b3f53df5f26acb3f238163f",
+      "renderedSourceSha256": "c196afcf77062bcd84ce0b8aaf9da5ea0768e9f651c86b7565f974cb7a2bfc72",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "General Storage Chest"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "generator-ii",
+      "sourceFile": "src/content/wiki/generator-ii.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "543ec6c7e30bc95a9826e583011a6ec4b98c9fe50542ece9c79f2357a964e65d",
+      "renderedSourceSha256": "28f1fb66c33382d0d9b1900bc7994700a49aafc2a57cff55e1fb5c0d18b4492d",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Generator II"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "grain-silo",
+      "sourceFile": "src/content/wiki/grain-silo.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "ef50bd6b10546202e3c9d041ef92f902360ad1a78b50022ba2982de2659abd90",
+      "renderedSourceSha256": "819d55d600d097549019a4deeb01a43c80d3ed5b27cb3f9ea72fd1bb31c81843",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Grain Silo"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "grog-barrels",
+      "sourceFile": "src/content/wiki/grog-barrels.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "8595b8249626feaa472b37c9b89874739a17bd80e3015319c51db0254b3dc08e",
+      "renderedSourceSha256": "0940a134e52412a5e60abeecd8c154559f711cb434a081d0f39ee069cd6b93ae",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Grog Barrels"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "grog-machine",
+      "sourceFile": "src/content/wiki/grog-machine.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "2d48ba257a277504918c31045306364b1d06337143c0e50c02e56c9fed87f6e0",
+      "renderedSourceSha256": "c16c56d78d2a3f9d25384a2b27259b11f968d292ca61fe0ab898897cf18e1f23",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Grog Machine"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "harpoon-turret",
+      "sourceFile": "src/content/wiki/harpoon-turret.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "3fd55686f5f66a714f2a2358084eec2976656a330379331493381408682b8dbe",
+      "renderedSourceSha256": "311cb40768085f970286690a4baafb110892a7aa73975df94272c3e9e9af9483",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 4,
+      "normalizedTableCount": 4,
+      "lineBreaksPreserved": 2,
+      "captions": [
+        "Harpoon Turret",
+        "Harpoon Turret MkII"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "heavy-armour-smithy",
+      "sourceFile": "src/content/wiki/heavy-armour-smithy.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "af2bab379429aa28c773ccf088068b22ed59564ba9915f92f8e86decbd0f5bd2",
+      "renderedSourceSha256": "cceb8886100c75a986fbc7e68fb6f937787db8ba31b7eaf491bcccf0acb71401",
+      "transformations": [
+        "recipe output wrappers"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 35,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 5,
+      "captions": [
+        "Heavy Armour Smithy"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "hemp-farm",
+      "sourceFile": "src/content/wiki/hemp-farm.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "15ed27d1fc012c373d5ea123f42938e66ee971545201d0b6c2e2264b72bff656",
+      "renderedSourceSha256": "b2df1212f6685a34191e581724bde6f519921294779def27eacbd7c6a70476bd",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Hemp Farm S"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "hemp-processor",
+      "sourceFile": "src/content/wiki/hemp-processor.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "908906f8bf4e61bbb349c4b81b5cd0aca211db5e6165a9919d5aac63db959ded",
+      "renderedSourceSha256": "6f97443cf5b90f2fa20fb4a5e134b73f387567a89126f9e476129cee5b789d71",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Hemp Processor"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "hydroponic-hemp",
+      "sourceFile": "src/content/wiki/hydroponic-hemp.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "c4cd63ee5dd29eeb3f9bd1a5aa10ec1bcc3644dfa1843c7ca45ca3e59cfb22cd",
+      "renderedSourceSha256": "e848a11959f12c2d993b6a4311773cbe89db281e74c5ba11bd2385596309d82d",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 4,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Hydroponic Hemp"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "hydroponic-riceweed",
+      "sourceFile": "src/content/wiki/hydroponic-riceweed.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "b01ce0ae6c7dd0177d8badd936e583a5647a545979587f73cf824c98748235da",
+      "renderedSourceSha256": "3ea10c7031c7552c822d218eb35d312b8bbebf963d90ce45ed720db9595e9a0c",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 4,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Hydroponic Riceweed"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "hydroponic-vegetables",
+      "sourceFile": "src/content/wiki/hydroponic-vegetables.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "453599827f2404a1422e5102f8b4eb0b9a39f6610a56c747addbbc223aefd950",
+      "renderedSourceSha256": "295caa7ff9bd83b1363113adc69be024bc902bf32760c800c98d460542eb86dd",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 4,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Hydroponic Vegetables"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "hydroponic-wheatstraw",
+      "sourceFile": "src/content/wiki/hydroponic-wheatstraw.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "18715b35d00364e87a7948c02cc48745e5e2736d9ec8180a93b5f52023b4a3be",
+      "renderedSourceSha256": "0884a4bbb2348123ec6fc3bda0f13b2b043b29f9d41ec218639ce66f41f98cc9",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Hydroponic Wheatstraw"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "hydroponics",
+      "sourceFile": "src/content/wiki/hydroponics.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "736581ebe00a5ecb2349bf3dfc948d16a9fb37c65b3e9e83e32321c265fab130",
+      "renderedSourceSha256": "7dbfe0502d3570b26aed2ece2953b9e8690798c6a4dd36e0bbaf22185b43036e",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 0,
+      "normalizedTableCount": 0,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "iron-refinery",
+      "sourceFile": "src/content/wiki/iron-refinery.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "fc2cc2c633c722317c7c86f88f049bd1a04412ffe664bcccc5ab41bb6a83f1a9",
+      "renderedSourceSha256": "06688fb60fe4da6dd699b62b1fc5f3a3e7defb9ba77a6750a8486827f913877e",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Iron Refinery"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "item-furnace",
+      "sourceFile": "src/content/wiki/item-furnace.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "3eeeaa945e247292e7fb50c952b919c1b26dac6c91a12d4dceddbf94085124b9",
+      "renderedSourceSha256": "80cba1dbbcc428b1563c780e6d4a29c8042f130f06c5ed0957b430582b54f40d",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Item Furnace"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "l-house",
+      "sourceFile": "src/content/wiki/l-house.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "4a2dedba92cf7cf8c83246e6a9041ca15b02221e980d5c4a4868a213ccf0f5b1",
+      "renderedSourceSha256": "79a136cd87af9ec1018f377a69a986f07876b7502ff36dc6ce03d86e9b4d5af6",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "L-House"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "leather-armour-crafting-bench",
+      "sourceFile": "src/content/wiki/leather-armour-crafting-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "5e18dc727080daa3212fa32a5ae9e3ca76ac15ac0aadb92518f45ff01fa8914e",
+      "renderedSourceSha256": "61d9ba47181102a740d2f90b8d5e0c665e453c4d38254cd8d70e9a578c2b9f18",
+      "transformations": [
+        "recipe output wrappers"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 31,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 5,
+      "captions": [
+        "Leather Armour Crafting Bench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "leather-tanning-bench",
+      "sourceFile": "src/content/wiki/leather-tanning-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "d1bf9581cfa1277e4b48674958ca0e365819870d13d1e82cd06db0efe0b56c3b",
+      "renderedSourceSha256": "90cefc0d275cc4393437589dc559a6a2bbf16049db55562ad87fe456eca56bcb",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Leather Tanning Bench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "light-post",
+      "sourceFile": "src/content/wiki/light-post.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "556bed3ceeae205ec6c376697f611e919ed0112e6ff9826edc0e3370198523f3",
+      "renderedSourceSha256": "11eee1b9cf5e541b3b19c58e6449eb5b3bd0b8c6f3b2e4f9ea20ad9516cf9652",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Light Post"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "lighting",
+      "sourceFile": "src/content/wiki/lighting.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "487305cfe13260d599d397bbad46223a8cd4caf6a100017f1affffaae1ff7888",
+      "renderedSourceSha256": "0997a5f57bcd6cc466bc3c70b8270a5e60470e28e69529ae95864d40f71fbb6b",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 5,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "locksmith-training-box",
+      "sourceFile": "src/content/wiki/locksmith-training-box.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "2a1b17f2699060864ce9eeef166ff989ad50f8013c3e63eb19be9c4910acdafa",
+      "renderedSourceSha256": "f58d125d36c86d2f13febd790984cbb46a3b7ca5f9abda38b3abb7522ac1afe0",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Locksmith Training Box"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "longhouse",
+      "sourceFile": "src/content/wiki/longhouse.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "bf9f02eb8e69fb65320f4c0a1ed61b3e0331d0caeb1c8c235dbdccfef2b5f49d",
+      "renderedSourceSha256": "915a1ae59150bc9e846d53dd91d93cec7f4fe0d77bba60986ad12ab9c49872d8",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Longhouse"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "makeshift-gate",
+      "sourceFile": "src/content/wiki/makeshift-gate.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "cbfbb6e18436a7caa4f3f9dfcd851c6dbba437e36098dd20d14a17ba744a935a",
+      "renderedSourceSha256": "4eae44206e26962fef2dd7212f20fdd82e715ddbaea1a53d2c18a05ee3da3af8",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Makeshift Gate"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "manual-iron-refinery",
+      "sourceFile": "src/content/wiki/manual-iron-refinery.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "8597874c7e813c71aa991323bd9a7ede184dd0869f7e67dff8d2bd12a571c06b",
+      "renderedSourceSha256": "4e6b6550749645f1f0b171c2491628bdc2d30bbb4214e9ebd739ff4f64762923",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Manual Iron Refinery"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "manual-oil-drill",
+      "sourceFile": "src/content/wiki/manual-oil-drill.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "6d0a9d4f302ab6b853a8701972efc7b57dbb9d0d513ba285ff8043d0efb26d66",
+      "renderedSourceSha256": "7d5e92b0a5ebfc5aaefc9af1a3fae128df5851c446df912916a45b1287813e1a",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "medicrate",
+      "sourceFile": "src/content/wiki/medicrate.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "2402f4b190ca9aeed25f3a99175f743ca370fcefc1285fb0f8864516de2f014f",
+      "renderedSourceSha256": "4b549d5614706121a118f460d2f35d0a0fd53dc0061aa2e8483ff452e5cd4428",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Medicrate"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "mercenary-tent",
+      "sourceFile": "src/content/wiki/mercenary-tent.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "ce6552c7609933f4285b9cf00a05c56a625074d39d9dde3c03b6c810c5f37cfc",
+      "renderedSourceSha256": "3376bf6ae55806d69ef1a4fd57256ec5e7d71c428bf6241ade1799eb018a2fe0",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Mercenary Tent"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "metal-chest",
+      "sourceFile": "src/content/wiki/metal-chest.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "0e0cb4bc669e1214ddf157e04067b3beabca2777b5b53ecd537f52bd1e89e402",
+      "renderedSourceSha256": "8e4de5f3740a11e4d621e7e8e3d41c6238143a79be2ccb5f91e643828f32f596",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Metal Chest"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "metal-wallhouse",
+      "sourceFile": "src/content/wiki/metal-wallhouse.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "a1497905bbd4813306af6cf23548a8640ec4a704634a341ef9a1abcbd48742b6",
+      "renderedSourceSha256": "f5ba92b8993288267991caabdaaf23de4ed062deef8a53f77072549e3383871d",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Metal Wallhouse"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "mounted-crossbow-mkii",
+      "sourceFile": "src/content/wiki/mounted-crossbow-mkii.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "a748d409101ca256d7487c48d4c1efdcb8a9faf4e16a3d7592a530b329d0cee0",
+      "renderedSourceSha256": "30888509c408e57320b7503ecf5dec7ee49a766c79826f4fecd6a45ef6a20fcc",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 2,
+      "captions": [
+        "Mounted Crossbow mkII",
+        "Mounted Crossbow mkII [light]"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "mounted-crossbow",
+      "sourceFile": "src/content/wiki/mounted-crossbow.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "ca0cba2cd242de6d344d39618619b631d784f263a841f22bbc736ba5eee88f7e",
+      "renderedSourceSha256": "04308e69cdbde454ce8ba1c54191d877d7f794f5fd0e977aef21128b7cc05fe2",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Mounted Crossbow"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "multi-barrel-harpoon-turret",
+      "sourceFile": "src/content/wiki/multi-barrel-harpoon-turret.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "14eff5669034bb46340540b01ff6f844e5cfca8404707277a308c424883254e3",
+      "renderedSourceSha256": "a9def3804e51f6f50c3e32f04ff588cac6f7d908146f64db30e6a2a57719d5f2",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Multi-Barrel Harpoon Turret"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "oil-refinery",
+      "sourceFile": "src/content/wiki/oil-refinery.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "a7c58dd1ba40e1f9d1e70c0ddea485e190f030b23537952603876540b6bb7c98",
+      "renderedSourceSha256": "5b21b8cf556751065ceb84dc70b7477a2c781ccc24165c848d302b044b8e43ea",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "oil-silo",
+      "sourceFile": "src/content/wiki/oil-silo.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "352900e0c67761289f52aa7bfc08851409b5918e571ff8d5a8f3cf3659c9bbb7",
+      "renderedSourceSha256": "55ec1f7e3c15815e6fdd0bcda079067848fbb71975703a10526adbe349659139",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "ore-drill",
+      "sourceFile": "src/content/wiki/ore-drill.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "d9cd4e4ce57d5d9fcb2f06bed6bd9d91d636005d1613c4be4c225208d2170ac6",
+      "renderedSourceSha256": "6a433f8438910f3c535695fb361dcd8b651fb5d2e5c1fed58df6f10bc5fa1bd9",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Ore Drill"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "outhouse",
+      "sourceFile": "src/content/wiki/outhouse.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "8620679b455bfe17f2fa5b54c159f9ce7e8ee4ddb9a3afeca1f992a33ececbb3",
+      "renderedSourceSha256": "f0fa2a7e7a3640e1702b72562b3e22e9da641e899f5cc6b4de278cc9111f3e67",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Outhouse"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "outpost-s-i",
+      "sourceFile": "src/content/wiki/outpost-s-i.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "327c9abb8ff0533654b7a3299c6316612bdbdfd58b166573edd81acb9a9e6fa5",
+      "renderedSourceSha256": "0023a2cb9867f7d39b17a56dc3fddb54b72ad82a202ce3ec571785ec0a2fcc8c",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 0,
+      "normalizedTableCount": 0,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "outpost-s-ii",
+      "sourceFile": "src/content/wiki/outpost-s-ii.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "0f5053a33e3a6ca323439587cb66f329f6044c9a4f9afc21f1c85bb5e94c4c6b",
+      "renderedSourceSha256": "af05dadede8c283c67d7a372fa0aedca6f1b90207b3344a92e82b85e6736cbbc",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 0,
+      "normalizedTableCount": 0,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "outpost-s-iii",
+      "sourceFile": "src/content/wiki/outpost-s-iii.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "97beeb8480d4236ddfc30325d587161ed6158a693bf39949e7ff811292ce2164",
+      "renderedSourceSha256": "7e464846717b21d517f28a922f6d008302c423d6f720cc3e0b971f3a24d629a7",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Outpost s-III"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "outpost-s-iv",
+      "sourceFile": "src/content/wiki/outpost-s-iv.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "275b61a25c126ca10ae471bcd4726485bf79390e1ff57ab291cbd19a576bc6d4",
+      "renderedSourceSha256": "8d8ed9c56633ce233fb77d074919e8eebe22b1ff6642654e4fea131bb30f3463",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Outpost s-IV"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "outpost-s-v",
+      "sourceFile": "src/content/wiki/outpost-s-v.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "268ab91df077ab16dfbc3c1e36f04108772b9a19463ac3d066e5756edfc15c45",
+      "renderedSourceSha256": "d44ff18992b95a0152e08163aafeb3b3a3c22ba9bd89dff5032e2970700c049f",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 0,
+      "normalizedTableCount": 0,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "peeler-machine",
+      "sourceFile": "src/content/wiki/peeler-machine.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "d548e7cc290ea5e2f9e468eeb5a616c2d84abdc8a5fd25e63d6f5f407b66a1b7",
+      "renderedSourceSha256": "50dd22f9c4f6269b5b3577e7f99a60597d7714f669eea1f87350655e57d94bae",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Peeler Machine"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "plate-beating-station",
+      "sourceFile": "src/content/wiki/plate-beating-station.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "ae4b0b2f90085a7f3f41d76b74d2a3a1a37698f5d9e5ce344853f17f30e538a5",
+      "renderedSourceSha256": "066ae3371124e631ca87ceba6a2d5aabecacd6b6115b8b7da8b074d03fb2d373",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Plate Beating Station"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "power",
+      "sourceFile": "src/content/wiki/power.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "c87c5bf3949a70eb7ba11351e922cfc30bb30fcc52aa9419b3b32e7a084066c4",
+      "renderedSourceSha256": "afec80bad3675d19839fa2b2cb6481a5a6ab25c16040355f125bdca1a46ca89f",
+      "transformations": [
+        "Power overview layout wrapper"
+      ],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 6,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "prisoner-cage",
+      "sourceFile": "src/content/wiki/prisoner-cage.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "e5c0d6f8bb2a90dc3a9e95d75c2a77c67018bc1b54f13fe9bd8699967e39f5b2",
+      "renderedSourceSha256": "2004d62e0072002cd16a1c3dd1f1bc945a2966fd2c792b739e920e21c448b76b",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Prisoner Cage"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "prisoner-pole",
+      "sourceFile": "src/content/wiki/prisoner-pole.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "5a154bc00d5c0b24b20830f75e12f5d99fb93c3787cc7ebf6739ab2723df0dd2",
+      "renderedSourceSha256": "713ae7fc24418a9766cec7877d1db759e90a3ba17521db5dc9fb608400b05ca7",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 0,
+      "normalizedTableCount": 0,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "rain-collector",
+      "sourceFile": "src/content/wiki/rain-collector.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "8ddf04884db5e1956fad2ab3bf94565679e8ef02b642c71ffcf0dd006ec484c6",
+      "renderedSourceSha256": "8f52ad34e6d28270129226c79193cec04c3da7f69ac5a902b6be463fe76a160c",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 4,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Rain Collector"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "ramps",
+      "sourceFile": "src/content/wiki/ramps.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "cbbd577160455eaec22f626294b2a6b55c40d131b62d6d07f9bdbb09fb2b23c9",
+      "renderedSourceSha256": "c09ad513257103149a4119fa8444854292975e64af2957fc1a24e19a7eafe716",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 0,
+      "normalizedTableCount": 0,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "research-bench",
+      "sourceFile": "src/content/wiki/research-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "aae897c67c5bb5a5b6c501b7ebb81b87d8cc31b61b6e07340257c2014c2cbb92",
+      "renderedSourceSha256": "4a1a1175afbab00962dac432edbc146a904d6ae6fb7eef2b6e3b79f0d57ddfdc",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Research Bench II"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "riceweed-farm",
+      "sourceFile": "src/content/wiki/riceweed-farm.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "11306d06dedd8b02048858a8bd1b145cb9909c228128344036cf3772bcb66551",
+      "renderedSourceSha256": "08dd9482612b7085648df75bb7a3be92f7d0513dca47ccc8bff6d4c968587688",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Riceweed Farm S"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "robotics-bench",
+      "sourceFile": "src/content/wiki/robotics-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "2855e64761a01ed551846532809fa41b53f725ec9efe8ca52c9d5ee02aae4916",
+      "renderedSourceSha256": "ca31d87ec109a65e9c34447ec0866cc2ab6ce5e5fc81a18b6c68cf4fa42d6272",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Robotics Bench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "rum-barrels",
+      "sourceFile": "src/content/wiki/rum-barrels.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "25fb2de6dc3c44d8253b4814a68e29a949751e146d29e750c1065047ffc1ad75",
+      "renderedSourceSha256": "569a4848454e834f454d74c81e55c6519f544d61e6c12a3753aec9174f8e415d",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Rum Barrels"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "rum-still",
+      "sourceFile": "src/content/wiki/rum-still.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "0e1172f0b4ece378f37b75f0c067094a06aba78f4758afbb0d97b55977239a9d",
+      "renderedSourceSha256": "80d5400d1673c5d2af4942683c847984599da8c5e9bd43e08be259015ef7b2d3",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Rum Still"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "sake-barrels",
+      "sourceFile": "src/content/wiki/sake-barrels.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "911766f8329d499ecb529256aee55088f16674ecae986a23f9b97ac6aac961bd",
+      "renderedSourceSha256": "a7426c4f161c569966a2a3cfcc94da258de636bd07744a66fbb9ca24222b29ae",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Sake Barrels"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "sake-still",
+      "sourceFile": "src/content/wiki/sake-still.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "832d5f2af3731e7a3c3e2d66bcaf92bc9828d20aa4e8a1900255544fb6ba61ef",
+      "renderedSourceSha256": "b8260bfa0a20a1604c64179f58f7200f93cd854ac3970998131e7d00d3dc104a",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Sake Still"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "scrap-tent",
+      "sourceFile": "src/content/wiki/scrap-tent.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "293ea42bd4268eb744e89aea95564ceed4e0ca96a826e15e022ae66f8e00f5f7",
+      "renderedSourceSha256": "25ac5516d42368c7ebd3335820f3b4c9d635520313588071f1c799170e270d36",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Scrap Tent"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "searchlight",
+      "sourceFile": "src/content/wiki/searchlight.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "a4dfbe42871cd3b402dd2106a7c00966caeffa0dd58509edcba8991a39567b47",
+      "renderedSourceSha256": "9134e56a80f8ee3a0df39f9d4fc7ac165f9411c70ef6987ef8f2319d98deffc3",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Searchlight"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "shop-counter",
+      "sourceFile": "src/content/wiki/shop-counter.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "3d7ce26a8bdffa482afaba453e605e82142781b6cc92b863d33533245ea7fd92",
+      "renderedSourceSha256": "10cd45c49b41087371da261d4ef27259ed0ab698035ed3d3da63e9c8cca61bf8",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Shop Counter"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "skeleton-limb-bench",
+      "sourceFile": "src/content/wiki/skeleton-limb-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "7779733e060e9e2c05b292b7d16f4ec66be9521fb042f09fd9e90b23eee2a1ef",
+      "renderedSourceSha256": "a30b46ee55e468cea142d0c6e08515c8760b8e5608af18c07a590ff7d3e78539",
+      "transformations": [
+        "recipe output wrappers"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 24,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 5,
+      "captions": [
+        "Skeleton Limb Bench",
+        "Skeleton Limb Grades by Level"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "skeleton-repair-bed",
+      "sourceFile": "src/content/wiki/skeleton-repair-bed.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "fd46f487cee2367f12a1108e35856b45402534a2c60b8ce50b480dabf0798bba",
+      "renderedSourceSha256": "7a27afa8843ab418ee174a8b34dd869a8fae6cf183564375aaa9905c29dcb37e",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Skeleton Repair Bed"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "small-generator",
+      "sourceFile": "src/content/wiki/small-generator.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "928a6fa96fc0f8eda21956fd7552d11b7db64f8360fd927cc7bdacb5221cf4ed",
+      "renderedSourceSha256": "7ec89cbf84c4dfcc9a611c4fa561d774c8f4d048e74943529717836d9f64e4f8",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Small Generator"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "small-research-bench",
+      "sourceFile": "src/content/wiki/small-research-bench.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "d8728bb4119fc51e1db9054a258e4f86e94202feaa216284e208faba0c716cad",
+      "renderedSourceSha256": "691aecf5be289b3563cdf2060ea99cc03b59b548bebd26e66c34466e6dd4c8f0",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Small Research Bench"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "small-wind-generator",
+      "sourceFile": "src/content/wiki/small-wind-generator.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "0c9e91dc0721383e8902e3c5c58d37e7830fbbb7aee8425877ece6e11ef80848",
+      "renderedSourceSha256": "787961f3fa6237b64fb51b7472be13bead593f71e1b0b9968754f82781c768b7",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Small Wind Generator"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "snailhouse",
+      "sourceFile": "src/content/wiki/snailhouse.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "1ed622ceb3933e3954d49790bc1cebfc3cdc7804cfa49a856df97b14aed76296",
+      "renderedSourceSha256": "f05be99190957ce4abec6d34ef49b2b1810b4f17289687d2d6a6db327b8ec4b8",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Snailhouse"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "spotlight",
+      "sourceFile": "src/content/wiki/spotlight.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "507d0544dd84b584daf341a2685375093aa8b3a93352eb8f12c7725481f8da80",
+      "renderedSourceSha256": "f6c73219619989091ab6f25c7d41bc8140074562262625cc1595c4efd92aac69",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Spotlight"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "stationhouse",
+      "sourceFile": "src/content/wiki/stationhouse.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "52492baedc3166a26ea0d60cc4eef3e4af2a41a125d84f0e92617e4d7216ce21",
+      "renderedSourceSha256": "0d0f3714d4b2fd2311dcde35e2704789cdce0a3ebe5ca1b6288a34aee64946ca",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Stationhouse"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "steel-refinery",
+      "sourceFile": "src/content/wiki/steel-refinery.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "ebbf2122714cf4b09b3f26f024244a18b437e2f51ca7d075d47fc547cab5c1ee",
+      "renderedSourceSha256": "af5d21493afc7eaf375f3b18007f20d2321827e409be6d0371c26059ca268fa4",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 3,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Steel Refinery"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "stephouse",
+      "sourceFile": "src/content/wiki/stephouse.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "0875481f989403c5969eea93a22c3453140fbad00c9f352706e14494bb28865d",
+      "renderedSourceSha256": "1b37d8d49b9820ebc12e7a83a6448537f24a32872c3560516dccec78b2d60a29",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Stephouse"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "stone-mine",
+      "sourceFile": "src/content/wiki/stone-mine.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "6bd5318d471d2075087d64306bb0f9a84940fbd18fd010a23092f94b289d14d0",
+      "renderedSourceSha256": "5e2b45ea63e20efc9d38997274b83377593527b678faa83eaa87b3fd903fc908",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Stone Mine"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-armour-plate",
+      "sourceFile": "src/content/wiki/storage-armour-plate.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "76c9b108a984019f4591b2eb8572b15463294b42b9f7185dc8640544eda7bb0e",
+      "renderedSourceSha256": "69065d8ba6471bc55706a8ab98221076c9c94ab29c8514d6f754092ad05ff225",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Armour Plate"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-building-materials",
+      "sourceFile": "src/content/wiki/storage-building-materials.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "b0aeaa74c67a4ea372bffe693c24add87cdbb1dc16fa1488aba384c0cbc1da0e",
+      "renderedSourceSha256": "b020169eb61e37490b5c70ed99a009b317836654e01bef215d2a4a25d4f69030",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Building Materials"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-cactus",
+      "sourceFile": "src/content/wiki/storage-cactus.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "3ea746fb8edd7e060a23981069c048e51ba25a5eba370df09924f90bd96b2ec8",
+      "renderedSourceSha256": "b625074bc8e611466b4bd3b41784a598b043f27a6a8551812cccd5ed2733a4f0",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Storage: Cactus"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-chainmail",
+      "sourceFile": "src/content/wiki/storage-chainmail.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "149f04b995704b0acbb89bd9b1ce6451dfe364f5fdccbd740f227e54258aabe3",
+      "renderedSourceSha256": "2fbd38d134c76f4e9f9f7e330271dd1cc73ebad2537913c3d4a5642af957f0a2",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Chainmail"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-copper-alloys",
+      "sourceFile": "src/content/wiki/storage-copper-alloys.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "c9035f1f5fe0961fa954f93d50478f0cee3e2859ec1bd54ea9255453a86d2f73",
+      "renderedSourceSha256": "2058f2e2f14d72d66e8256aefb2d528b65cd689a453f03c8bb0310ed41e5f7d2",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Copper Alloys"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-copper",
+      "sourceFile": "src/content/wiki/storage-copper.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "0cdcc25221b8d138d39da1a3076e01a8a33510d76bbcd5da010f6a0ae470a407",
+      "renderedSourceSha256": "997c52935d6d63d08a8dd8d232191817ade9ad0f84a9dbd21a0add33e3cc13b5",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Copper"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-cotton",
+      "sourceFile": "src/content/wiki/storage-cotton.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "eba0a5e007d68c7aa7185ac71ef88bb7f1fa053df6225be47cb736b8a308ad0f",
+      "renderedSourceSha256": "95099faa128801baf80bb82f613b919943a3deb485cbcea405f1bfefcea9ceb3",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 2,
+      "captions": [
+        "Storage: Cotton"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-crossbow-parts",
+      "sourceFile": "src/content/wiki/storage-crossbow-parts.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "289c40f2e50a4a118528ac5be177ca9668da97ea2cd0f2fa9363dee1e416b2e7",
+      "renderedSourceSha256": "8e456220bc04179227ab6fbcce801836f40a914b7a64989dd061da38062f08f8",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Crossbow Parts"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-electricals",
+      "sourceFile": "src/content/wiki/storage-electricals.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "848dbc506e75eedae4ba65b1d66a5c04fe2d765d4fefe1bf509eb7ccc5e03d2e",
+      "renderedSourceSha256": "0a71f6928e9eca50ae1bb074e77d1d3d6948a284a537b840ef2904b4f5ebe7af",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Electricals"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-fuel",
+      "sourceFile": "src/content/wiki/storage-fuel.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "8ce129fd66cbb205c3e93887f0dc6bd0da70484daa508ff6f0d304eef5ef4431",
+      "renderedSourceSha256": "778bc21367c8dfb927271505aac90a1a7957a439e4dba3e880784f77ea3ef82c",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Storage: Fuel"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-greenfruit",
+      "sourceFile": "src/content/wiki/storage-greenfruit.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "cf5f224e3dfdcd12907f0241cf9e107a83d62f483ff6b8dfd890a59ab55ae9ef",
+      "renderedSourceSha256": "d1ddda7fc623196f65d1b483a31fd188da94bbe80fa6753414baa2c901c25ae7",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Storage: Greenfruit"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-hashish",
+      "sourceFile": "src/content/wiki/storage-hashish.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "70b8b66decae8cc6c69d73036ace3de06fcb73f06d0cd0519355e89bf58d1a58",
+      "renderedSourceSha256": "79357bc2283978ee3153d1eab1bc44674510610b72bea77dd4a214f892d47a76",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Hashish"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-hemp",
+      "sourceFile": "src/content/wiki/storage-hemp.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "eeda890c07c1a8a6803494852d337c14e697d056ef1af7997481f7b0aaafffd4",
+      "renderedSourceSha256": "b58ec8a017a00d4d7ebfe6b8862d95c0f5491cd1eb922575f53f7472544b01c3",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Hemp"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-iron-plates",
+      "sourceFile": "src/content/wiki/storage-iron-plates.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "393b94b93f6c42265aaaf3ab6b2b33eee51e3fe2a02970a8aca6160ef519a573",
+      "renderedSourceSha256": "725bc442fca20d83acb5439252ffc00fd61878c640bfa43cb2fcc5a85ac40797",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Iron Plates"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-leather",
+      "sourceFile": "src/content/wiki/storage-leather.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "6893352aa89c27a443e8b0effa763ac1bbacab218dcfdb72cd7a858c56e57131",
+      "renderedSourceSha256": "18f50bb7f107d51c36a62f6a41f4c17aea3f99be546aa601336a51fcb95c25e7",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Leather"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-meat",
+      "sourceFile": "src/content/wiki/storage-meat.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "feb6005dea37dcc9d82f6693e4d59ce32b21663731c7984223f596bfd06fa60e",
+      "renderedSourceSha256": "2e9814959a06e45494701c04769f1ca4475d2049a1afc2994606333eb84698cd",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Meat"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-ore",
+      "sourceFile": "src/content/wiki/storage-ore.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "7707f75cd336bd17cde29879cc6dc09b227623398ea132c53a726a30c9c71bc6",
+      "renderedSourceSha256": "81d774326f664acfc07ec5dd67d46bdea5ab07992f2873ec4a580168f9aa72c3",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Ore"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-riceweed",
+      "sourceFile": "src/content/wiki/storage-riceweed.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "161acb906806f68da2be1e0d1f84e7625833927f061ac54b7fea2a7746d878f8",
+      "renderedSourceSha256": "4802ac8214de03818149efacdbded0fd73f71e6925af513265d262e6efba6938",
+      "transformations": [
+        "nested property wrapper"
+      ],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 3,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 0,
+      "captions": [
+        "Storage: Riceweed"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-robotics",
+      "sourceFile": "src/content/wiki/storage-robotics.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "61bcce39b898edb5201bb3e99c3c733ab825e7c80e6bf95ca4100824fb57974b",
+      "renderedSourceSha256": "d3fc0b21563006950375a88a647426e51e77a7b82b630a4e0f667859e3eb003c",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Robotics"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-skins",
+      "sourceFile": "src/content/wiki/storage-skins.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "fa7887e8659f58bd0cc2968d7c72664a068b952afae222a2ec1a03545f0ccfbb",
+      "renderedSourceSha256": "883cb6bec32aabd2088c864e1827e9efe995db595f473d5e3ecd52ee5b25e04d",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Skins"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-steel-bars",
+      "sourceFile": "src/content/wiki/storage-steel-bars.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "54a4e69bb7b582a53e8ee1e338e1eb6e0d8538b7b25548fda3612dc7d1ce5a71",
+      "renderedSourceSha256": "451fc2b8c0e0f32777ffaa097498a4d6fee71b891e36706200f044063d651960",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Steel Bars"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-stones",
+      "sourceFile": "src/content/wiki/storage-stones.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "9d6ff4e506f3d1d60e031c2266a298064caf4773f094577412b09daf00504cf7",
+      "renderedSourceSha256": "783e69555088ce661c3d03ac69fb143bc4836e82b3da2cd0a9c0acf5f0ce9591",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Stones"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storage-wheatstraw",
+      "sourceFile": "src/content/wiki/storage-wheatstraw.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "68ec2010809c9ca8382e1a78ec993eff58fc2927f6a3ccb1e3378200d45f3357",
+      "renderedSourceSha256": "4a5c0fae21603dd7fd76e5209253dd7174195b694e90192f221c26c0dee43144",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storage: Wheatstraw"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "storm-house",
+      "sourceFile": "src/content/wiki/storm-house.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "11e28dd7dfab5bac83bdfd140dc009e51c45c5e8be0ed8ebe8fb2cd60050ec5b",
+      "renderedSourceSha256": "3760239b049c8806faee44c100758a33338fb55bc3fe976e9815c196a92a5d69",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Storm House"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "swamp-dome",
+      "sourceFile": "src/content/wiki/swamp-dome.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "f9cc0ba7f9fb6eebf1d76dd7cf20733bde4fee1cd82947985e7fbae8b853c17c",
+      "renderedSourceSha256": "4f579ad7d7edf30e8b779829587afc20408f726cf32e3cf923429475b3ec9c73",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Swamp Dome"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "swamp-house",
+      "sourceFile": "src/content/wiki/swamp-house.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "d7af101a2fa00593325274c5d29ac8321ce0c7e817b99cb02560aafd8d40b10b",
+      "renderedSourceSha256": "6a11bde63ea8107aaacfcdcee72403e8dc8d08a77a806410fb809f49f843081b",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 0,
+      "normalizedTableCount": 0,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "swamp-shack",
+      "sourceFile": "src/content/wiki/swamp-shack.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "d10f391fd496fdb658ffba414073842bf8ba3f651c984ebc2dcfa25666fea49a",
+      "renderedSourceSha256": "632d1e2086d434652c7b6f2081ac63ae62c15b8f112fbe21e4839abd272e1712",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 0,
+      "normalizedTableCount": 0,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "swamp-store",
+      "sourceFile": "src/content/wiki/swamp-store.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "e1d3318700a88e888f42cfdb1604e29ed884ca44e9e8d1d7fa96920ae48613aa",
+      "renderedSourceSha256": "970dd276a145b7a9ea68d6006ef7bc15a5f895ad0dbc06bad9cb988b5591f941",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 0,
+      "normalizedTableCount": 0,
+      "lineBreaksPreserved": 0,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "thief-training-boxes",
+      "sourceFile": "src/content/wiki/thief-training-boxes.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "5bc5d607cefb16a1697d31b2d2585a669e925c16a3aea1d6fa555dfcfc12b4b8",
+      "renderedSourceSha256": "317821e804ef463dcceb3f8e57dd54ab14f55de38cd08854e63b287fe1130c4f",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Thief Training Boxes"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "torch-post",
+      "sourceFile": "src/content/wiki/torch-post.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "b5316063e5efbeafdd1ab8b4e73c480b2ce713fb672b014809acacbb5b21650a",
+      "renderedSourceSha256": "cd5d1773e2bc4b9e961a839b4f41faa8f47983420f75c9482c79d57ea1823af9",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Torch Post"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "training-dummy",
+      "sourceFile": "src/content/wiki/training-dummy.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "2b6d2b9d68d6a8c3ff35463c90ab3d196856e85b944171c898913df53bd91a05",
+      "renderedSourceSha256": "e6991390945be662b6ead01e777deadd7bfc7f09a13bfb4421ebcd9aabb6bfcb",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 3,
+      "captions": [
+        "Training Dummy"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "training-turret",
+      "sourceFile": "src/content/wiki/training-turret.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "f5c2809a2ac4f4101dbed86db950f29f0e6e90550b53d00086045c3c3ba7d478",
+      "renderedSourceSha256": "7c95814838e1a4ed88d614a35ab63465870a09b3f1ed503ae8be1710588572d5",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 2,
+      "captions": [
+        "Training Turret"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "training",
+      "sourceFile": "src/content/wiki/training.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "c01d11af3d699c0759da5f7e9430cedf8b4da1d404918af2c0e499ea8b815606",
+      "renderedSourceSha256": "1b37a1684052beb627bd02ae74f65dd2e08949e258b4794ea8d93e63f50b88fe",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 4,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "turrets",
+      "sourceFile": "src/content/wiki/turrets.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "038aa182b91f6415ddea29f39387de7a1efe5bd2c3698e7eb76e50f53ca59d0a",
+      "renderedSourceSha256": "3e60ed66225234bfd9ca8a06439556bf7a1761ff2a5f2c515900cd805c0d6464",
+      "transformations": [],
+      "leadingPanelMoved": false,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 9,
+      "captions": [],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "vegetable-farm",
+      "sourceFile": "src/content/wiki/vegetable-farm.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "67c531f2b97c1ed7e01aadf171975abd530b3e026cc9a6209c7afbcdf3bedf04",
+      "renderedSourceSha256": "e4a6455185e7e567fb2db2ff9019910a67b15c5d441cd90d882f6fc129323d63",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Vegetable Farm S"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "watchtower",
+      "sourceFile": "src/content/wiki/watchtower.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "f358d6aefbf28df11652a1d4f16fe27f6db39fd6629ee7db90939bf2bddf145f",
+      "renderedSourceSha256": "9544efb4a59a10b2be43d3329c6ffae2fe4c5d422870af9996890545031c1869",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Watchtower"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "water-tank",
+      "sourceFile": "src/content/wiki/water-tank.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "09552c262830bf3a8b5f3ed6ec28a7a0c099730b33440b912e2a70575c0c56ff",
+      "renderedSourceSha256": "57aba8280e3a100d4665e829b141accbfebf92752b614888a789b6f22a7ae000",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Water Tank"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "water-tower",
+      "sourceFile": "src/content/wiki/water-tower.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "33d83fa616a31d1d834398ed721984becdd85681e0912794ca64f7cb8ed08745",
+      "renderedSourceSha256": "3f5557b56b0d41a98e577238ed3da14f631fe4670e77ab96c6342d07ce170ec7",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Water Tower"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "weapon-cabinet",
+      "sourceFile": "src/content/wiki/weapon-cabinet.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "b103454839458e145b7200040064ff24d4bba8fa13da81afcc061f6bd4bc9e65",
+      "renderedSourceSha256": "c81fc515476ed8fbec76c8255fa50eb1dd941dc90e4bb2c5fd82eb4b6eff1418",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Weapon Cabinet"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "weapon-stand",
+      "sourceFile": "src/content/wiki/weapon-stand.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "42c9958196a3d2b1a932537d6b092aefbf236307be0ccb4a7ac3d8232584c1ff",
+      "renderedSourceSha256": "cc387750f695142663958ff13ae54522dfb7c67c9ce45046e2f10338f60a37d6",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Weapon Stand"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "well",
+      "sourceFile": "src/content/wiki/well.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "d36b946ff9fbd20646929e49a125ac5c19bac7f6173fe193f0449600722a96e0",
+      "renderedSourceSha256": "775c0b1eb05737ec2c1a0fa4cd957956a6049fa579fbde64f6fd387796cfd3a7",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Well"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "wheat-farm",
+      "sourceFile": "src/content/wiki/wheat-farm.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "905e8feba0778e295fc9226265f76daea9ae5c78a877acdb55a162af4b062b2d",
+      "renderedSourceSha256": "26d83d54ed0f916b5bfea8294b23172269c647c88023eb95351ba1be0e89f8c3",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 2,
+      "normalizedTableCount": 2,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Wheat Farm S"
+      ],
+      "repeatedNormalization": "unchanged"
+    },
+    {
+      "id": "y-house",
+      "sourceFile": "src/content/wiki/y-house.md",
+      "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "sourceSha256": "e9b0b76ebd6d6ce598f920cec1ae8bc5cf0238696c7d9cd72118917916335008",
+      "renderedSourceSha256": "8b0ca5c1bbc9e4842c1bc0fbfbaf9c60254bcb520ce854b50a3305bc99def4f7",
+      "transformations": [],
+      "leadingPanelMoved": true,
+      "sourceTableCount": 1,
+      "normalizedTableCount": 1,
+      "lineBreaksPreserved": 1,
+      "captions": [
+        "Y-House"
+      ],
+      "repeatedNormalization": "unchanged"
+    }
+  ]
+}
