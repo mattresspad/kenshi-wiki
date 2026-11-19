@@ -3750,6 +3750,18 @@
     "weapon-smithing-bench": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/buildings/review.json"
+    },
+    "wind-generator": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "medical-workbench": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "fabric-loom-cotton": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
     }
   },
   "mediaGaps": [

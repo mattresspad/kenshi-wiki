@@ -22,5 +22,20 @@
       "/smithing-tech",
       "/stone-refinery-upgrade-tech"
     ]
+  },
+  {
+    "name": "building-variants",
+    "resolved": [
+      "/fabric-loom-cotton",
+      "/medical-workbench",
+      "/wind-generator"
+    ],
+    "introduced": [
+      "/advanced-wind-generator-theory-tech",
+      "/automatic-loom-cotton-tech",
+      "/category/power",
+      "/fabric-manufacture-tech",
+      "/wind-generator-theory-tech"
+    ]
   }
 ]

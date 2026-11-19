@@ -75,5 +75,130 @@
     "Wind Generator mixes wind-percent output, mph thresholds and a cheaper upgrade path.",
     "Trace wind curves, power units and upgrade costs with versioned source evidence.",
     "Do not infer that mph thresholds and percentage display are directly interchangeable."
+  ],
+  [
+    "building-wind-threshold-conflict",
+    [
+      "small-wind-generator",
+      "wind-generator"
+    ],
+    "1.12|0.89|mph",
+    "Small Wind Generator says 1.12 mph minimum; Wind Generator lists 0.89 mph for the small variant.",
+    "Compare the same wind unit and generator version against records and observed output.",
+    "Neither imported threshold is selected as correct."
+  ],
+  [
+    "building-storage-food-conflict",
+    [
+      "general-storage-boxes",
+      "general-storage-chest"
+    ],
+    "food|0.93.5",
+    "General storage pages give conflicting food-pickup claims associated with v0.93.5.",
+    "Identify container types, versions, food acceptance and automatic squad feeding independently.",
+    "Preserve both statements until their contexts are established."
+  ],
+  [
+    "building-storage-size-conflict",
+    [
+      "storage-robotics",
+      "general-storage-chest"
+    ],
+    "12x12|18x18|same",
+    "Storage: Robotics compares its 12x12 space to General Storage Chest, whose page states 18x18.",
+    "Inspect exact inventory records and compare the intended containers.",
+    "Do not silently change either dimension or comparison."
+  ],
+  [
+    "building-gate-condition-conflict",
+    [
+      "makeshift-gate",
+      "defensive-gates"
+    ],
+    "Condition|Door|MakeShift|Makeshift",
+    "Makeshift Gate and Defensive Gates disagree on the structure/door condition values.",
+    "Verify the exact gate records and source versions for the two tables.",
+    "Keep the separate imported values rather than merging them."
+  ],
+  [
+    "building-riceweed-label",
+    [
+      "hydroponic-riceweed"
+    ],
+    "Hydroponic Vegetables|1.0.68|54",
+    "Hydroponic Riceweed opens with the label Hydroponic Vegetables; the yield note is version-qualified.",
+    "Check the intended crop and source record before correcting the opening label.",
+    "The misleading label is preserved as an inherited content issue."
+  ],
+  [
+    "building-care-and-detention",
+    null,
+    "8x|4x|1.25|64614-rebirth|degeneration|24 hour|prison|despawn|save|reload|peeler",
+    "Beds, repair beds, detention and reload workarounds include precise but unverified behavior claims.",
+    "Retain cited evidence and test the stated version, ownership, power and save-state conditions separately.",
+    "Availability restoration does not validate healing rates, relationship effects or persistence workarounds."
+  ],
+  [
+    "building-turret-and-placement",
+    null,
+    "height bonus|height difference|friendly fire|collision|deadzone|Shift.F12|125%",
+    "Turret modifiers, placement limits and repair workarounds are conditional gameplay claims.",
+    "Verify the relevant skill, geometry, lighting and build conditions with exact records and reproducible trials.",
+    "Descriptions of bugs or suggested workarounds are not guaranteed behavior."
+  ],
+  [
+    "building-unavailable-blueprints",
+    null,
+    "no blueprint|not craftable|cannot be crafted|possibly|Holy Chest Plate|Skeleton Mask|Hack Stopper|Sleeveless Dustcoat",
+    "Several production pages distinguish station outputs from recipes or blueprints unavailable in vanilla.",
+    "Check item recipes, blueprint availability, research and version separately.",
+    "A listed output is not proof a vanilla player can craft it."
+  ],
+  [
+    "building-furnace-and-quality",
+    [
+      "item-furnace",
+      "skeleton-limb-bench"
+    ],
+    "62.5|round|fraction|stolen|critical|quality|chance",
+    "Salvage rounding and limb-quality chances need technical evidence independent of the imported description.",
+    "Record exact formula inputs, rounding and crafting-quality rules, then compare observed output.",
+    "Retain estimates and qualifications, including untested item coverage."
+  ],
+  [
+    "building-incomplete-details",
+    [
+      "shop-counter",
+      "ramps",
+      "well",
+      "corpse-furnace",
+      "prisoner-cage"
+    ],
+    "Capacity|Storage Space|Materials Needed|Groundwater|Gallery|Town",
+    "Blank details, missing material quantities and empty sections remain incomplete content.",
+    "Compare pinned article history and source media before filling fields or removing headings.",
+    "Empty sections and absent quantities are not zero values; galleries remain restoration work."
+  ],
+  [
+    "building-farm-time-qualification",
+    [
+      "wheat-farm",
+      "vegetable-farm",
+      "hydroponic-wheatstraw"
+    ],
+    "25\\?|23.33|24|testing|harvest",
+    "Farm timing, harvest windows and hydroponic efficiency retain estimates and explicit lack-of-testing qualifications.",
+    "Verify crop size, fertility, rain, usage multiplier and version before comparing production.",
+    "The Wheat Farm XL 24 (25?) hour uncertainty remains visible."
+  ],
+  [
+    "building-grain-silo-automation",
+    [
+      "grain-silo"
+    ],
+    "Automatic|Workers|Power",
+    "Grain Silo is described as automatic while its imported worker field remains populated.",
+    "Determine whether automatic means powered processing, hauling, or zero-worker operation for the exact record.",
+    "Do not replace the worker count based on the descriptive label."
   ]
 ]

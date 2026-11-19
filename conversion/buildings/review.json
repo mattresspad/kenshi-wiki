@@ -47,6 +47,56 @@
         "claim:building-recipes-and-capacity",
         "claim:building-smith-quality"
       ]
+    },
+    {
+      "id": "wind-generator",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Wind Generator is an energy production building that generates Power based on the current wind speed, which can be seen in the Prospecting information screen or by clicking on the wind generator. Wind power is tied to weather and is not a consistent resource. A Wind Generator II can produce +1 power for every 1% of wind in the area, meaning it can generate up to a maximum of 100 power. If upgrading a Wind Generator instead of building a Wind Generator II from scratch, the building cost is only 8 Electrical Components and the Iron Plates are waived. Functionality",
+      "organization": "Reviewed 1 headings and 5 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wind-generator.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "62f28ea9c98d879e69eba1ed12905b83fb203459cc61e954d619c44b855a2db1"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity",
+        "claim:building-wind-threshold-conflict",
+        "claim:building-wind-upgrade"
+      ]
+    },
+    {
+      "id": "medical-workbench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Medical Workbench is used to produce first aid kits and other Medical Items such as splints. It can be used to craft medical supplies while training the Field Medic skill. Medical Workbench",
+      "organization": "Reviewed 0 headings and 13 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/medical-workbench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fd5f0c247f3944cb1855fc83be1ec4489b55fcdd4a42145fa84bef1dc25f9486"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "fabric-loom-cotton",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Fabric Loom (cotton) is a crafting building which converts cotton into fabrics. A fabric loom produces fabrics, which can be used in the production of armour, clothing, and weapons. Players can construct this building after researching Fabric Manufacture. Using the Fabric Loom makes use of and improves the labouring stat. Fabric Loom (cotton) Fabric Loom (cotton) can be upgraded to Cotton Auto-Loom after researching Automatic Loom (Cotton). There’s a similar building utilising a different plant - Fabric Loom (hemp).",
+      "organization": "Reviewed 0 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fabric-loom-cotton.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c1ec4e6c67ad3a94345cf09c4cd0ab2a2855035d5c2f43ecc579144b5ef44c4d"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
     }
   ],
   "editorialChanges": [

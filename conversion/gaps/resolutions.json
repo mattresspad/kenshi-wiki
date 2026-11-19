@@ -4281,6 +4281,17 @@
       }
     },
     {
+      "id": "availability:/fabric-loom-cotton",
+      "kind": "availability",
+      "target": "/fabric-loom-cotton",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-variants",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fabric-loom-cotton"
+      }
+    },
+    {
       "id": "availability:/fabrics",
       "kind": "availability",
       "target": "/fabrics",
@@ -8359,6 +8370,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/medical-supplies"
+      }
+    },
+    {
+      "id": "availability:/medical-workbench",
+      "kind": "availability",
+      "target": "/medical-workbench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-variants",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/medical-workbench"
       }
     },
     {
@@ -15487,6 +15509,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/wildlife"
+      }
+    },
+    {
+      "id": "availability:/wind-generator",
+      "kind": "availability",
+      "target": "/wind-generator",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-variants",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wind-generator"
       }
     },
     {
