@@ -308,3 +308,7 @@
 .technology .research-properties th[scope=row]{text-align:left;width:11rem}
 .technology .research-properties .research-band{background:var(--cell);font-weight:650}
 .crafting .article-body,.crafting .lead-text{max-width:90ch}
+
+.technology figure.quote figcaption a{display:inline}
+.technology .table-scroll .research-properties{width:100%;min-width:0;max-width:48rem}
+.technology .research-properties :is(th,td){white-space:normal;overflow-wrap:anywhere}

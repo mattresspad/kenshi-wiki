@@ -36,5 +36,32 @@
       "/crafting-tech"
     ],
     "introduced": []
+  },
+  {
+    "name": "technology-siblings-1",
+    "resolved": [
+      "/advanced-battery-power-tech",
+      "/advanced-cooking-tech",
+      "/advanced-harpoonery-tech",
+      "/advanced-medicine-tech",
+      "/advanced-splints-tech",
+      "/advanced-stone-mining-tech",
+      "/advanced-training-dummies-tech",
+      "/advanced-weapon-grades-tech",
+      "/advanced-weapon-smithing-tech",
+      "/advanced-wind-generator-theory-tech",
+      "/amplified-generators-tech",
+      "/assassin-training-tech",
+      "/automated-hybrid-mine-tech",
+      "/automated-mining-tech-tech",
+      "/automatic-flour-grinding-tech",
+      "/automatic-loom-cotton-tech",
+      "/automatic-loom-hemp-tech",
+      "/baking-tech",
+      "/basic-exterior-lighting-tech",
+      "/basic-first-aid-kits-tech",
+      "/basic-weapon-grades-tech"
+    ],
+    "introduced": []
   }
 ]

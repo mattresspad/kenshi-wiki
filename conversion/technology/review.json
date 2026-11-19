@@ -123,6 +123,323 @@
         "claim:technology-import-version-time",
         "claim:technology-research-unlocks-blueprints"
       ]
+    },
+    {
+      "id": "advanced-battery-power-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced Battery Power 2 Details Estimated Time 7 Hours Tech Level 5 Costs 2 Ancient Science Books Requirements Batteries, Advanced Battery Power Results Improvements +10 Power to Battery Bank Required For Advanced Battery Power 3 Advanced Battery Power 3 Details Estimated Time 14 Hours Tech Level 5 Costs 3 Ancient Science Books Requirements Batteries, Advanced Battery Power 2 Results Improvements +10 Power to Battery Bank Required For Advanced Battery Power 4 Advanced Battery Power 4 Details Estimated Time 28 Hours Tech Level 5 Costs 4 Ancient Science Books Requirements Batteries, Advanced Battery Power 3 Results Improvements +10 Power to Battery Bank Required For Advanced Battery Power 5 Advanced Battery Power 5 Details Estimated Time 55 Hours Tech Level 5 Costs 8 Ancient Science Books Requirements Batteries, Advanced Battery Power 4 Results Improvements +10 Power to Battery Bank Required For Advanced Battery Power 6 Advanced Battery Power 6 Details Estimated Time 110 Hours Tech Level 5 Costs 16 Ancient Science Books Requirements Batteries, Advanced Battery Power 5 Results Improvements +10 Power to Battery Bank A potential 10kw increase to battery output powerIn-game description Advanced Battery Power is Electrics Tech which upgrades the Battery Bank building. This research is instantly applied to the player’s outposts and does not require building upgrades to be in effect.",
+      "organization": "Reviewed 44 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-battery-power-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7921109334320fe41a197162564e100c033b48d505a2849aa15703d06938d5d1"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints",
+        "claim:technology-tier-order"
+      ]
+    },
+    {
+      "id": "advanced-cooking-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Better food can be made if more ingredients are availableIn-game description Advanced Cooking is Tech which unlocks the ability to cook high quality food.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-cooking-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d86f4cda44f6499dc90d76359f920f74e3c436f7a7c84570482902b345863ead"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "advanced-harpoonery-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Contains theories for ridiculous looking, advanced harpoon turret designs that can supposedly fire multiple shots.In-game description Advanced Harpoonery is Defense Tech which unlocks the ability to research new types of Turrets.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-harpoonery-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "874e0eaf15a03794f3495faf4ed01030ff572ff7b65805359cbcac59520ac507"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "advanced-medicine-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced first aid kits would last longer and save more lives.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-medicine-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "509492ce4ab0edb4e6d4f8c0d95d714634558b0729001a704ee44b71eaac98d4"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "advanced-splints-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Splint kits would allow medics to add support to leg injuries, helping you out-run cannibals and stuff.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-splints-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f175a9016deabbd6d6dfc5f5588d60011f1827b691f9035a8d9b7f1de1cd5c09"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "advanced-stone-mining-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced Stone Mining 2 Details Estimated Time 6 Hours Tech Level 4 Costs 2 Ancient Science Book Requirements Improved Stone Mining, Automated Mining Tech, Advanced Stone Mining Results New Building(s) Stone Mine VI Required For Hybrid Stone Mine Advanced Stone Mining is Industry Tech required to unlock higher level Stone Mines.",
+      "organization": "Reviewed 9 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-stone-mining-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "787222b7a30943f3f6e439d5b3a9af1603575529c15f725959e3f43aeef3882b"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "advanced-training-dummies-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A specially made training dummy, its pretty clever. It will let rookies train their attack skills up to level 15. There's no way a rookie can take his training any further than this without facing real combat.In-game description Advanced Training Dummies is Training Tech.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-training-dummies-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "394a773653516f767bd6875cced24867053f85ec6453e42ab13d08e8f64af698"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "advanced-weapon-grades-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced Weapon Grades 2 Details Estimated Time 3 Hours Tech Level 4 Costs 2 Ancient Science Books Requirements Basic Weapon Grades, Advanced Weapon Grades Results Improvements Allow Crafting Weapon Model: Catun No.3 Required For Advanced Weapon Grades 3 One day we will have the greatest swordsmiths in the world and blades that can cut a man clean in half with a single cut. Today though, we will have generic rubbish.In-game Description Advanced Weapon Grades 3 Details Estimated Time 4 Hours Tech Level 5 Costs 3 Ancient Science Books Requirements Basic Weapon Grades, Advanced Weapon Grades 2 Results Improvements Allow Crafting Weapon Model: Mk I Required For Advanced Weapon Grades 4 Advanced Weapon Grades 4 Details Estimated Time 4 Hours Tech Level 5 Costs 4 Ancient Science Books Requirements Basic Weapon Grades, Advanced Weapon Grades 3 Results Improvements Allow Crafting Weapon Model: Mk II Required For Advanced Weapon Grades 5 Advanced Weapon Grades 5 Details Estimated Time 5 Hours Tech Level 5 Costs 5 Ancient Science Books Requirements Basic Weapon Grades, Advanced Weapon Grades 4 Results Improvements Allow Crafting Weapon Model: Mk III",
+      "organization": "Reviewed 35 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-weapon-grades-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e627912d111d917cb204f8cea6291fc1e9d4f0f4bbd0ae89c38fb05f963bfdca"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "advanced-weapon-smithing-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced Weapon Smithing 2 Details Estimated Time 4 hours Tech Level 5 Costs 2 Ancient Science Books Requirements Advanced Weapon Smithing Results New Building(s) Weapon Smith III A better bench is needed to make the higher level stuff.In-game description For a list of all the weapons that can be smithed click here: List of Player Made Weapons.",
+      "organization": "Reviewed 8 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-weapon-smithing-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "70b10306e81b4c740683ad89e051bf21ccd77926cbdd001cb8b2502bd16fa1b3"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "advanced-wind-generator-theory-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A more powerful large wind generator, with double the potential output.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-wind-generator-theory-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c055b2e8550664982b4bd3f3256eecfe14138d24bf96540369f800f63133d5b9"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "amplified-generators-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Amplified Generators 2 Details Estimated Time 6 Hours Tech Level 5 Costs 2 Ancient Science Books Requirements Fuel Generator Theory, Amplified Generators Results Improvements +15 Power to Generator II A further 15kw upgrade to all generators.In-game description Amplified Generators are Electrics Tech which instantly upgrades Power generators for all of the player’s outposts. Contrary to the description, this upgrade only applies towards the 2nd version of fuel generator.",
+      "organization": "Reviewed 8 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/amplified-generators-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d6ac61324302aa4d241be97a9e16e7fc0a562211421f340b20460c0a7cf4615b"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints",
+        "claim:technology-tier-order"
+      ]
+    },
+    {
+      "id": "assassin-training-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Assassin Training II Details Estimated Time 3 Hours Tech Level 3 Costs 4 Books Requirements Assassin Training Results New Building(s) Assassination Dummy II Required For Assassin Training III Assassin Training III Details Estimated Time 4 Hours Tech Level 4 Costs 6 Books Requirements Assassin Training II Results New Building(s) Assassination Dummy III Train like a ninja and learn to knock people out from behind.In-game description",
+      "organization": "Reviewed 17 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/assassin-training-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "02ecba47172b4de7a45b4476c17b39d94235b505b59d2ff20ac4818b78e4efd8"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "automated-hybrid-mine-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Table-only source reviewed; values, labels, units and links retained.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/automated-hybrid-mine-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5612e936b79740d1a78a9c28ed93d4b8e66386ebc6a8324e953322631998df62"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "automated-mining-tech-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: We're not going to get any further mining resources by hand. It's time to take it to the next level!In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/automated-mining-tech-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8c8e92d13e884951746ed1805628e5cb946b62b73069dab713a8d781602d52e9"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "automatic-flour-grinding-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Automatic Flour Grinding is Farming Tech which allows the player to construct an Automatic Grain Silo. This research makes turning Wheatstraw into Strawflour more convenient. Players who plan on Cooking Bread often should consider completing this research.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/automatic-flour-grinding-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "48ef951fb8b4acc234accad1010fbb3de1bf5a1dac27097e9057396e279cdeb0"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "automatic-loom-cotton-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: An automatic version of the loom that requires minimal human workIn-game Description Automatic Loom (cotton) is Crafting Tech research which allows the player to construct a Cotton Auto-Loom. This is the cotton equivalent of Automatic Loom (Hemp). This research can be helpful for players who craft a lot of armour and create Fabrics from Cotton.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/automatic-loom-cotton-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f80467f03431fa4149a5cbe044bd28d61dfa4e86c3734105db6233b05d1f4d62"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "automatic-loom-hemp-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: An automatic version of the loom that requires minimal human workIn-game Description Automatic Loom (Hemp) is Crafting Tech research which allows the player to construct a Hemp Auto-Loom. This is the Hemp equivalent of Automatic Loom (Cotton). This research can be helpful for players who craft a lot of armour and create Fabrics from Hemp. Though caution should be taken as Hemp is considered to be Illegal by the United Cities.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/automatic-loom-hemp-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "58ebebac24034a63f28c2f908a5e84d11964b53053d853dc60341b37147cf6cd"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "baking-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Wheatstraw isn't edible until you bake it into bread.In-game description Baking is Farming Tech which allows the player to construct buildings related to Strawflour and Bread.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/baking-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "39f675cbde0b000d87e23590ced333ac986dbf28a8b5dfb3ae8540bab1f8a543"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "basic-exterior-lighting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Some basic lighting so we're not working in the darknessIn-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/basic-exterior-lighting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b3329ef8745c09c92fced42f5b48e68e5e984fe79eb0d31c459cc6db0a09478c"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "basic-first-aid-kits-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: First aid kits save lives, we need to look at being able to create our own.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/basic-first-aid-kits-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2c1b61a64c0c6079bd348efa9b937049bbe864af2754903308a84c91dc916479"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "basic-weapon-grades-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: One day we will have the greatest swordsmiths in the world and blades that can cut a man clean in half with a single cut. Today though, we will have rusted junk.In-game Description Basic Weapon Grades is Smithing Tech which unlocks better craftable grades. After researching this, these weapon models are automatically craftable to any characters with the required levels. Weapon Smithing is the only type of crafting which requires additional research to improve output. Basic Weapon Grades (2) Details Estimated Time 2 Hours Tech Level 2 Costs 3 Books Requirements Basic Weapon Grades, Basic Weapon Smithing Results Improvements Allow Crafting Weapon Model: Mid-Grade Salvage Required For Basic Weapon Grades (3) Basic Weapon Grades (3) Details Estimated Time 3 Hours Tech Level 2 Costs 4 Books Requirements Basic Weapon Grades (2), Basic Weapon Smithing Results Improvements Allow Crafting Weapon Model: Old Refitted Blade Required For Basic Weapon Grades (4) Basic Weapon Grades (4) Details Estimated Time 3 Hours Tech Level 2 Costs 5 Books Requirements Basic Weapon Grades (3) Results Improvements Allow Crafting Weapon Model: Refitted Blade Required For Basic Weapon Grades (5) Basic Weapon Grades (5) Details Estimated Time 7 Hours Tech Level 3 Costs 6 Books Requirements Basic Weapon Grades (4) Results Improvements Allow Crafting Weapon Model: Catun No.1 Required For Advanced Weapon Grades",
+      "organization": "Reviewed 36 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/basic-weapon-grades-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "aa12a1e1b9812d555cdcd965da6767d3c349c1e945dce10c22fc897e47e7037c"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
     }
   ],
   "editorialChanges": [

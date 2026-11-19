@@ -27,3 +27,5 @@ Article reviews live in each family's review.json and the central reviews.json. 
 All previews remain local. Public restoration, licensing, branch replacement, production approval and technical-data integration are separate milestones.
 
 The first pilot browser attempt exposed a test selector that assumed Steel Bars research was already local. The test now recognizes both its pending absolute URL and subsequent local URL; failed-attempt logs are retained beside the passing rerun. No source link was changed to satisfy the test.
+
+The first larger research batch encountered Chromium ERR_NETWORK_CHANGED on a loopback building navigation (139 other browser checks passed). Its failed log is retained and the full suite is rerun without weakening that test. Screenshot review also prompted scoped inline quote-credit links and wrapping two-column research properties.

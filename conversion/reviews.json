@@ -4442,6 +4442,90 @@
     "basic-weapon-smithing-tech": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-battery-power-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-cooking-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-harpoonery-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-medicine-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-splints-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-stone-mining-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-training-dummies-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-weapon-grades-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-weapon-smithing-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-wind-generator-theory-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "amplified-generators-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "assassin-training-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "automated-hybrid-mine-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "automated-mining-tech-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "automatic-flour-grinding-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "automatic-loom-cotton-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "automatic-loom-hemp-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "baking-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "basic-exterior-lighting-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "basic-first-aid-kits-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "basic-weapon-grades-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
     }
   },
   "mediaGaps": [

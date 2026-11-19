@@ -68,6 +68,28 @@
       }
     },
     {
+      "id": "availability:/advanced-battery-power-tech",
+      "kind": "availability",
+      "target": "/advanced-battery-power-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/advanced-battery-power-tech"
+      }
+    },
+    {
+      "id": "availability:/advanced-cooking-tech",
+      "kind": "availability",
+      "target": "/advanced-cooking-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/advanced-cooking-tech"
+      }
+    },
+    {
       "id": "availability:/advanced-first-aid-kit",
       "kind": "availability",
       "target": "/advanced-first-aid-kit",
@@ -79,6 +101,28 @@
       }
     },
     {
+      "id": "availability:/advanced-harpoonery-tech",
+      "kind": "availability",
+      "target": "/advanced-harpoonery-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/advanced-harpoonery-tech"
+      }
+    },
+    {
+      "id": "availability:/advanced-medicine-tech",
+      "kind": "availability",
+      "target": "/advanced-medicine-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/advanced-medicine-tech"
+      }
+    },
+    {
       "id": "availability:/advanced-splint-kit",
       "kind": "availability",
       "target": "/advanced-splint-kit",
@@ -87,6 +131,72 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/advanced-splint-kit"
+      }
+    },
+    {
+      "id": "availability:/advanced-splints-tech",
+      "kind": "availability",
+      "target": "/advanced-splints-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/advanced-splints-tech"
+      }
+    },
+    {
+      "id": "availability:/advanced-stone-mining-tech",
+      "kind": "availability",
+      "target": "/advanced-stone-mining-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/advanced-stone-mining-tech"
+      }
+    },
+    {
+      "id": "availability:/advanced-training-dummies-tech",
+      "kind": "availability",
+      "target": "/advanced-training-dummies-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/advanced-training-dummies-tech"
+      }
+    },
+    {
+      "id": "availability:/advanced-weapon-grades-tech",
+      "kind": "availability",
+      "target": "/advanced-weapon-grades-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/advanced-weapon-grades-tech"
+      }
+    },
+    {
+      "id": "availability:/advanced-weapon-smithing-tech",
+      "kind": "availability",
+      "target": "/advanced-weapon-smithing-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/advanced-weapon-smithing-tech"
+      }
+    },
+    {
+      "id": "availability:/advanced-wind-generator-theory-tech",
+      "kind": "availability",
+      "target": "/advanced-wind-generator-theory-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/advanced-wind-generator-theory-tech"
       }
     },
     {
@@ -153,6 +263,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/amateur-recruit"
+      }
+    },
+    {
+      "id": "availability:/amplified-generators-tech",
+      "kind": "availability",
+      "target": "/amplified-generators-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/amplified-generators-tech"
       }
     },
     {
@@ -673,6 +794,17 @@
       }
     },
     {
+      "id": "availability:/assassin-training-tech",
+      "kind": "availability",
+      "target": "/assassin-training-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/assassin-training-tech"
+      }
+    },
+    {
       "id": "availability:/assassination-dummy",
       "kind": "availability",
       "target": "/assassination-dummy",
@@ -714,6 +846,61 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/authentic-skeleton-repair-kit"
+      }
+    },
+    {
+      "id": "availability:/automated-hybrid-mine-tech",
+      "kind": "availability",
+      "target": "/automated-hybrid-mine-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/automated-hybrid-mine-tech"
+      }
+    },
+    {
+      "id": "availability:/automated-mining-tech-tech",
+      "kind": "availability",
+      "target": "/automated-mining-tech-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/automated-mining-tech-tech"
+      }
+    },
+    {
+      "id": "availability:/automatic-flour-grinding-tech",
+      "kind": "availability",
+      "target": "/automatic-flour-grinding-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/automatic-flour-grinding-tech"
+      }
+    },
+    {
+      "id": "availability:/automatic-loom-cotton-tech",
+      "kind": "availability",
+      "target": "/automatic-loom-cotton-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/automatic-loom-cotton-tech"
+      }
+    },
+    {
+      "id": "availability:/automatic-loom-hemp-tech",
+      "kind": "availability",
+      "target": "/automatic-loom-hemp-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/automatic-loom-hemp-tech"
       }
     },
     {
@@ -802,6 +989,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/baker"
+      }
+    },
+    {
+      "id": "availability:/baking-tech",
+      "kind": "availability",
+      "target": "/baking-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/baking-tech"
       }
     },
     {
@@ -970,6 +1168,17 @@
       }
     },
     {
+      "id": "availability:/basic-exterior-lighting-tech",
+      "kind": "availability",
+      "target": "/basic-exterior-lighting-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/basic-exterior-lighting-tech"
+      }
+    },
+    {
       "id": "availability:/basic-first-aid-kit",
       "kind": "availability",
       "target": "/basic-first-aid-kit",
@@ -978,6 +1187,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/basic-first-aid-kit"
+      }
+    },
+    {
+      "id": "availability:/basic-first-aid-kits-tech",
+      "kind": "availability",
+      "target": "/basic-first-aid-kits-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/basic-first-aid-kits-tech"
+      }
+    },
+    {
+      "id": "availability:/basic-weapon-grades-tech",
+      "kind": "availability",
+      "target": "/basic-weapon-grades-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/basic-weapon-grades-tech"
       }
     },
     {
