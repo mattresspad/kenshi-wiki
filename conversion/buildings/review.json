@@ -1552,6 +1552,349 @@
       "questions": [
         "claim:building-care-and-detention"
       ]
+    },
+    {
+      "id": "rain-collector",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Rain Collector is a building which collects Water when it is raining. It can be constructed after researching Rain Collector. It cannot convert Acid Rain into useable Water. Despite the red-hued rain of Vain being understandably dubious, it is harmless and can be collected whereas places like the Deadlands or The Unwanted Zone’s Acid Rain is hazardous and uncollectable. The Litmus test should be “Is the colored/acid rain deadly to an unprotected Human?” If no, harvestable. If yes, uncollectable. Rain Collectors are the only water source which can be built in Player-Owned Buildings in Town. This building is fully automated and does not require any workers nor use any power. Differences to the well Not based on the water table (prospecting water value), but rather a hidden rain value No upgraded version Does not use power",
+      "organization": "Reviewed 1 headings and 4 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rain-collector.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8ddf04884db5e1956fad2ab3bf94565679e8ef02b642c71ffcf0dd006ec484c6"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "ramps",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Tier II defensive wall ramp that allow access to your walls for turret usage. Requires Defensive Walls research to be built. Materials Needed to Create Building Materials Ramps Type Defense place Exterior Tier III defensive wall ramp that allow access to your walls for turret usage. Requires Large Defensive Walls research to be built. Materials Needed to Create Building Materials Ramps Type Defense place Exterior Tier IV defensive wall ramp that allow access to your walls for turret usage. Requires Strong Defensive Walls research to be built. Materials Needed to Create Building Materials",
+      "organization": "Reviewed 9 headings and 0 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ramps.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cbbd577160455eaec22f626294b2a6b55c40d131b62d6d07f9bdbb09fb2b23c9"
+      },
+      "questions": [
+        "claim:building-incomplete-details",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "research-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Research Bench is a work station where a science oriented party member can study new technologies. At each increase in Tech Level players gain access to a new level of research bench capable of researching higher technologies. Any bench starting at level 2 and above can be upgraded to the next level by clicking and hitting upgrade button. There is no need to remove the old bench and build from scratch. Researching from multiple benches is possible and gives diminishing returns on the speed of research with every new bench used in the process. Upgrades See also Small Research Bench",
+      "organization": "Reviewed 2 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/research-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "aae897c67c5bb5a5b6c501b7ebb81b87d8cc31b61b6e07340257c2014c2cbb92"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "riceweed-farm",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Riceweed Farm is a farm used to grow Riceweed. Players can construct all three sizes after researching Riceweed Farming. Riceweed Farm Details Number of people - 4 Each farm contains 81 plants Takes 14 in game hours to grow at 100% fertility Must be harvested within 24 in game hours",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/riceweed-farm.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "11306d06dedd8b02048858a8bd1b145cb9909c228128344036cf3772bcb66551"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "robotics-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Robotics Bench is a crafting building which makes use of a character’s Robotics stat in order to create robotics materials from Electrical Components, Iron Plates, and Steel Bars. It can be built after researching Robotics. Production The bench can be used to produce the following items: Hinge Motor Press Robotics Components Skeleton Muscle Skeleton Repair Kit Power Power Consumption: -5 Efficiency: 100%",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/robotics-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2855e64761a01ed551846532809fa41b53f725ec9efe8ca52c9d5ee02aae4916"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "rum-barrels",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Rum Barrels are a storage container which exclusively contains Cactus Rum. This container can hold a total of 25 bottles. Having Rum Barrels is recommended for outposts with Rum Stills.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rum-barrels.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "25fb2de6dc3c44d8253b4814a68e29a949751e146d29e750c1065047ffc1ad75"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "rum-still",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Rum Still converts Cacti into Cactus Rum. Using the Rum Still trains the Cooking stat, and is affected by the cooking time reduction multiplier that a higher Cooking level brings. NB This building does not require Empty Rum Bottles to store the Rum. Rum Still Details Power Consumption - -5 Efficiency - 1x Workers - 1",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rum-still.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0e1172f0b4ece378f37b75f0c067094a06aba78f4758afbb0d97b55977239a9d"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "sake-barrels",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Sake Barrels are a storage container which exclusively contains Sake. Players can construct this building after researching Sake Distillation (Tech). This container can hold a total of 25 bottles. Having Sake Barrels is recommended for outposts with Sake Stills.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sake-barrels.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "911766f8329d499ecb529256aee55088f16674ecae986a23f9b97ac6aac961bd"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "sake-still",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Sake Still creates Sake from Riceweed. It can be constructed after researching Sake Distillation and requires a worker to operate. Processing Riceweed into Sake trains a party member’s Cooking stat, and as such brewing time is affected by the Cooking multiplier. Sake Still",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sake-still.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "832d5f2af3731e7a3c3e2d66bcaf92bc9828d20aa4e8a1900255544fb6ba61ef"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "scrap-tent",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Scrap Tents are camping buildings which the player can construct anywhere after learning the blueprint. They require very few materials in order to construct and do not result in the creation of a player town. Camps can be used as a quick shelter from weather effects, specifically acid rain and burning. Scrap Tents may be the easier choice to build in the wilderness, as its construction materials can be looted from animals. Players hoping to construct other tents should think ahead and carry fabrics for their construction. The blueprint can be purchased from any of these locations: Adventurer Bar Flats Lagoon Bar Shark Travel Shop Tech Hunter Shop Travel and Repairs Shop Travel Gear",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/scrap-tent.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "293ea42bd4268eb744e89aea95564ceed4e0ca96a826e15e022ae66f8e00f5f7"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "searchlight",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Searchlight is a lighting building which must be constructed mounted to a different building. Players can construct this building after researching Search Lights.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/searchlight.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a4dfbe42871cd3b402dd2106a7c00966caeffa0dd58509edcba8991a39567b47"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "shop-counter",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Shop Counter is a storage building which non-player characters can purchase items from. A shop cannot function without a counter. Items that customers buy are dictated by their NPC Shopping Behavior. Details Power Consumption - 0 Efficiency - 1x Storage - Items for Sale Capacity - Storage Space - History Old versions of the shop counter.",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shop-counter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3d7ce26a8bdffa482afaba453e605e82142781b6cc92b863d33533245ea7fd92"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-incomplete-details",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "skeleton-limb-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: ​The Skeleton Limb Bench is a crafting Building. This crafting station allows players to craft Robot Limbs to replace any lost appendages. It is unlocked with the Hiver Skeleton Legs research. ​ Skeleton Limb Bench Details Power Consumption - 10 Efficiency - 100% Produces - Robot Limbs Requires - Electrical Components, Iron Plate, Steel Bar, Robotic Component Workers - 1 Skill Levels The quality outcome for any crafted limbs is based on crafter’s robotics level. Just like armour and weapon smithing, it is possible to crit a higher grade level. Although the chance does not display in the queue window. Trivia The Skeleton Limb Bench was introduced in version 0.98.4X.",
+      "organization": "Reviewed 3 headings and 24 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-limb-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7779733e060e9e2c05b292b7d16f4ec66be9521fb042f09fd9e90b23eee2a1ef"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-furnace-and-quality",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "skeleton-repair-bed",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: As Skeletons get constantly damaged and repaired, their bodies start to wear down. When this wear becomes too much, it can be repaired at a Skeleton Repair Bed. This wear also occurs on skeleton limbs worn by non-skeleton characters and can be repaired by a repair bed. These beds can also patch up organic body parts in the same way bandages do but does not multiply the rate at which they heal. Robotic body parts heal 8x faster, and blood/oil twice as fast when resting in a Skeleton Repair Bed. Skeleton Repair Beds For Rent Technical Info Healing: about 1.25 HP per second per limb at normal game speed. Wear (lost maximum HP) is repaired first, with HP rising alongside it; then untreated damage heals at the same rate until the limb is full. No repair kit is needed.[1] Power: the bed draws 10 power.[2] A town’s bed works only when the town has a generator, such as Black Desert City, Burn’s Tower and Skinhouse HQ. In the Island Lab (batteries only) and the Reprogramming Workshop (no power at all) it refuses with “This bed needs power to operate.” The owner faction makes no difference.[3] String ID 64614-rebirth.mod References",
+      "organization": "Reviewed 4 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-repair-bed.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fd46f487cee2367f12a1108e35856b45402534a2c60b8ce50b480dabf0798bba"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "small-generator",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Small Generator is a building which turns Fuel into power. It can be constructed after researching Fuel Generator Theory and upgraded through research into Upgraded Small Generators. This upgrade can be repeated for a total output of 70. Fuel can be made with a Biofuel Distillery (using Wheatstraw, Greenfruit, or Hemp) or found in some Construction Shops. Details Power output: 40 Efficiency: 100%",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/small-generator.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "928a6fa96fc0f8eda21956fd7552d11b7db64f8360fd927cc7bdacb5221cf4ed"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "small-research-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Small Research Bench is the starting point for those wanting to access new types of technologies and buildings. While quickly replaced, it is necessary to advance your factions technology level (e.g. Tech Level II) which will unlock other better Research Benches. Researching from multiple benches is possible and gives diminishing returns on the speed of research with every new bench used in the process. Note: The Small Research Bench cannot be upgraded into Research Bench II.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/small-research-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d8728bb4119fc51e1db9054a258e4f86e94202feaa216284e208faba0c716cad"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "small-wind-generator",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Small Wind Generator is a building which produces power via wind. After the initial cost of construction, Small Wind Generators generate power without any additional resource cost. Small Wind Generators currently produce +0.25 power for every 1% of wind in the area, meaning a Small Wind Generator can generate up to a maximum of 25 power generated. Unlike the Wind Generator, the Small Wind Generator has an arbitrary number as a minimum amount of a wind required (1.12 mph) and is able to produce power nearly 100% of the time. The drawback to its reliability is that it has half the potential power output of the Wind Generator and a mere quarter of the upgraded Wind Generator II. Also unlike the Wind Generator, the Small Wind Generator may be built on the roof of Player-Owned Buildings in Town, which might help if a town has a weak power grid, or the if player is planning to use a lot of power. Details Power Output: +25 Efficiency: 100%",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/small-wind-generator.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0c9e91dc0721383e8902e3c5c58d37e7830fbbb7aee8425877ece6e11ef80848"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-wind-threshold-conflict"
+      ]
+    },
+    {
+      "id": "snailhouse",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Snailhouse is a building in Kenshi which can be constructed or purchased by the player. It can be constructed after researching Large Building Shells. It is a considerably large structure, costing the same resources to build as the Stationhouse. Black Dog HQ is a Snailhouse. Unique characteristics The Snailhouse’s curvy shape makes it less arrangeable than the Stationhouse, while also being smaller in general. However, it offers a mostly roofed second floor, which has both advantages and drawbacks: It offers a lot of interior floor space protected from the environment while having a relatively small footprint (e.g. compared to Stationhouse), making it a potentially good choice for compact bases. Conversely, it is a bad choice for town living due to the severely limited area for placing Small Wind Generators and Rain Collectors. The small exposed portion on the second floor can have turrets. However they can only cover the area near the entrance, which makes this building a much worse option if the player wants to utilize buildings as a second layer of defense (first one being Defensive Walls). Snailhouse Building Info Building Condition - 40 Door condition - 16 Door Lock - lvl15",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/snailhouse.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1ed622ceb3933e3954d49790bc1cebfc3cdc7804cfa49a856df97b14aed76296"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "spotlight",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Spotlights are mounted exterior lights. Players must research Basic Exterior Lighting in order to unlock this building.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/spotlight.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "507d0544dd84b584daf341a2685375093aa8b3a93352eb8f12c7725481f8da80"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "stationhouse",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Stationhouse is a big structure that requires Large Building Shells tech and 40 Building Materials to build, same as the Snailhouse. It provides the biggest amount of usable floor space out of the buildings shells which can be built by the player. Stationhouses can usually be found in larger cities and commonly functions as HQ, for example for Esata the Stone Golem and Holy Lord Phoenix. Defenses While it may seem that the ramp leading to the entrance of the building could be useful as a defensible choke point, the Stationhouse has the same measly 16 door durability as a Storm House, severely reducing its use as a bunker. In fact, it is slightly less defensible than the Storm House, because the latter’s stairs somewhat restrict the number of enemies who simultaneously can bash at the door, while the Stationhouse provides a large platform for everyone to fit by the door. If the player is looking for a bunker-style building, Outpost s-IV is the only significant improvement over the regular buildings with its 50 door condition and turret points right over the door (Outpost s-III has 40 door condition but doesn’t allow shooting turrets from the inside). Comparison to Snailhouse Main article: Snailhouse Asides from being simply bigger, the Stationhouse is a much more standard and utilitarian building than the Snailhouse, but this has more to do with the limitations of the Snailhouse than Stationhouse having specific advantages. Stationhouse Building Info Building Condition - 40 Door Condition - 16 Door Lock - lvl15",
+      "organization": "Reviewed 3 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stationhouse.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "52492baedc3166a26ea0d60cc4eef3e4af2a41a125d84f0e92617e4d7216ce21"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency"
+      ]
+    },
+    {
+      "id": "steel-refinery",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Steel Refinery refines Iron Plates into Steel Bars for use in weapon and armour smithing. This machine uses and increases a character’s Labouring stat. Steel Refinery Upgrades By default settings, Steel Refinery III requires 28 Kenshi minutes to produce 1 Steel Bar.",
+      "organization": "Reviewed 1 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/steel-refinery.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ebbf2122714cf4b09b3f26f024244a18b437e2f51ca7d075d47fc547cab5c1ee"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "stephouse",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Stephouse is one of the large buildings that can be constructed by the player. It requires the Large Building Shells research to build. It is the only structure costing 30 Building Materials and falls between numerous buildings in cost, meaning it has no direct comparisons or counterparts. Below are listed its neighbors in comparison: At 24 Building Materials is the Longhouse which yields a narrower and modestly smaller total floor-space. Both of them have elevated segments on their roof-areas that allow for considerable height advantages when using Mounted Crossbows and other defensive weaponry. It is recommended to build both structures with the backs or elevated platforms pointed in the direction of potential encroaching foes. It is considerably large in size, being roughly equal to the 35 Building Material Y-House in total useable floor-space, due to the Y-House’s obstructive central roof-dome. The L-House at 35 Building Material is slightly more expensive and smaller, but has a straighter and unobstructed second floor, making construction on it logistically easier than the segmented second floor of the Stephouse. The Stephouse is considerably larger than the more expensive Bughouse at 35 Building Material, which is known to have logistical issues with defensive emplacements on its roof near the dome and thus leaves a portion of the structure indefensible. Its second segmented roof section is taller than all other structures with an open roof save for the Watchtower, which is more than twice as expensive at a 60 Building Materials and 10 Iron Plates. Like the L-House, its ceiling and roof are separated into two parts. The two levels of the ceiling are connected by a ladder. Lights placed on the higher ceiling of this building will not illuminate the floor directly under them, forcing the player to use either torches or ground-based lamps for lighting. This building can be purchased in the following cities and towns: Stoat Brink Mourn … Stephouse Building Info Building Condition - 30 Door Condition - 16 Door Lock - lvl15",
+      "organization": "Reviewed 1 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stephouse.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0875481f989403c5969eea93a22c3453140fbad00c9f352706e14494bb28865d"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
     }
   ],
   "editorialChanges": [

@@ -11156,6 +11156,28 @@
       }
     },
     {
+      "id": "availability:/rain-collector",
+      "kind": "availability",
+      "target": "/rain-collector",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rain-collector"
+      }
+    },
+    {
+      "id": "availability:/ramps",
+      "kind": "availability",
+      "target": "/ramps",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ramps"
+      }
+    },
+    {
       "id": "availability:/rane-the-giant",
       "kind": "availability",
       "target": "/rane-the-giant",
@@ -11651,6 +11673,17 @@
       }
     },
     {
+      "id": "availability:/research-bench",
+      "kind": "availability",
+      "target": "/research-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/research-bench"
+      }
+    },
+    {
       "id": "availability:/reva",
       "kind": "availability",
       "target": "/reva",
@@ -11692,6 +11725,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/riceweed"
+      }
+    },
+    {
+      "id": "availability:/riceweed-farm",
+      "kind": "availability",
+      "target": "/riceweed-farm",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/riceweed-farm"
       }
     },
     {
@@ -11747,6 +11791,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/robot-limbs"
+      }
+    },
+    {
+      "id": "availability:/robotics-bench",
+      "kind": "availability",
+      "target": "/robotics-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/robotics-bench"
       }
     },
     {
@@ -11926,6 +11981,28 @@
       }
     },
     {
+      "id": "availability:/rum-barrels",
+      "kind": "availability",
+      "target": "/rum-barrels",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rum-barrels"
+      }
+    },
+    {
+      "id": "availability:/rum-still",
+      "kind": "availability",
+      "target": "/rum-still",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rum-still"
+      }
+    },
+    {
       "id": "availability:/rusted-hive-shirt",
       "kind": "availability",
       "target": "/rusted-hive-shirt",
@@ -12011,6 +12088,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/sake"
+      }
+    },
+    {
+      "id": "availability:/sake-barrels",
+      "kind": "availability",
+      "target": "/sake-barrels",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sake-barrels"
+      }
+    },
+    {
+      "id": "availability:/sake-still",
+      "kind": "availability",
+      "target": "/sake-still",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sake-still"
       }
     },
     {
@@ -12355,6 +12454,17 @@
       }
     },
     {
+      "id": "availability:/scrap-tent",
+      "kind": "availability",
+      "target": "/scrap-tent",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/scrap-tent"
+      }
+    },
+    {
       "id": "availability:/scraphouse",
       "kind": "availability",
       "target": "/scraphouse",
@@ -12418,6 +12528,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/screamy"
+      }
+    },
+    {
+      "id": "availability:/searchlight",
+      "kind": "availability",
+      "target": "/searchlight",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/searchlight"
       }
     },
     {
@@ -12861,6 +12982,17 @@
       }
     },
     {
+      "id": "availability:/shop-counter",
+      "kind": "availability",
+      "target": "/shop-counter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shop-counter"
+      }
+    },
+    {
       "id": "availability:/shop-guard",
       "kind": "availability",
       "target": "/shop-guard",
@@ -13158,6 +13290,17 @@
       }
     },
     {
+      "id": "availability:/skeleton-limb-bench",
+      "kind": "availability",
+      "target": "/skeleton-limb-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-limb-bench"
+      }
+    },
+    {
       "id": "availability:/skeleton-log-head-mkii",
       "kind": "availability",
       "target": "/skeleton-log-head-mkii",
@@ -13243,6 +13386,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skeleton-recruit"
+      }
+    },
+    {
+      "id": "availability:/skeleton-repair-bed",
+      "kind": "availability",
+      "target": "/skeleton-repair-bed",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-repair-bed"
       }
     },
     {
@@ -13840,6 +13994,28 @@
       }
     },
     {
+      "id": "availability:/small-generator",
+      "kind": "availability",
+      "target": "/small-generator",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/small-generator"
+      }
+    },
+    {
+      "id": "availability:/small-research-bench",
+      "kind": "availability",
+      "target": "/small-research-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/small-research-bench"
+      }
+    },
+    {
       "id": "availability:/small-shack",
       "kind": "availability",
       "target": "/small-shack",
@@ -13873,6 +14049,17 @@
       }
     },
     {
+      "id": "availability:/small-wind-generator",
+      "kind": "availability",
+      "target": "/small-wind-generator",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/small-wind-generator"
+      }
+    },
+    {
       "id": "availability:/smuggler",
       "kind": "availability",
       "target": "/smuggler",
@@ -13892,6 +14079,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/smugglers-bar"
+      }
+    },
+    {
+      "id": "availability:/snailhouse",
+      "kind": "availability",
+      "target": "/snailhouse",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/snailhouse"
       }
     },
     {
@@ -14192,6 +14390,17 @@
       }
     },
     {
+      "id": "availability:/spotlight",
+      "kind": "availability",
+      "target": "/spotlight",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/spotlight"
+      }
+    },
+    {
       "id": "availability:/spring",
       "kind": "availability",
       "target": "/spring",
@@ -14368,6 +14577,17 @@
       }
     },
     {
+      "id": "availability:/stationhouse",
+      "kind": "availability",
+      "target": "/stationhouse",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stationhouse"
+      }
+    },
+    {
       "id": "availability:/steady-arm-left",
       "kind": "availability",
       "target": "/steady-arm-left",
@@ -14412,6 +14632,17 @@
       }
     },
     {
+      "id": "availability:/steel-refinery",
+      "kind": "availability",
+      "target": "/steel-refinery",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/steel-refinery"
+      }
+    },
+    {
       "id": "availability:/stenn-desert",
       "kind": "availability",
       "target": "/stenn-desert",
@@ -14420,6 +14651,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/stenn-desert"
+      }
+    },
+    {
+      "id": "availability:/stephouse",
+      "kind": "availability",
+      "target": "/stephouse",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stephouse"
       }
     },
     {

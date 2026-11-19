@@ -132,7 +132,15 @@
   ],
   [
     "building-care-and-detention",
-    null,
+    [
+      "bed",
+      "camp-bed",
+      "skeleton-repair-bed",
+      "prisoner-cage",
+      "prisoner-pole",
+      "peeler-machine",
+      "mercenary-tent"
+    ],
     "8x|4x|1.25|64614-rebirth|degeneration|24 hour|prison|despawn|save|reload|peeler",
     "Beds, repair beds, detention and reload workarounds include precise but unverified behavior claims.",
     "Retain cited evidence and test the stated version, ownership, power and save-state conditions separately.",
@@ -140,7 +148,27 @@
   ],
   [
     "building-turret-and-placement",
-    null,
+    [
+      "bughouse",
+      "defensive-gates",
+      "defensive-walls",
+      "double-barrel-harpoon-turret",
+      "harpoon-turret",
+      "l-house",
+      "longhouse",
+      "mounted-crossbow-mkii",
+      "mounted-crossbow",
+      "multi-barrel-harpoon-turret",
+      "outpost-s-i",
+      "outpost-s-ii",
+      "outpost-s-iii",
+      "outpost-s-iv",
+      "outpost-s-v",
+      "training-turret",
+      "turrets",
+      "watchtower",
+      "y-house"
+    ],
     "height bonus|height difference|friendly fire|collision|deadzone|Shift.F12|125%",
     "Turret modifiers, placement limits and repair workarounds are conditional gameplay claims.",
     "Verify the relevant skill, geometry, lighting and build conditions with exact records and reproducible trials.",
@@ -148,7 +176,13 @@
   ],
   [
     "building-unavailable-blueprints",
-    null,
+    [
+      "heavy-armour-smithy",
+      "leather-armour-crafting-bench",
+      "clothing-bench",
+      "chain-armour-crafting-bench",
+      "skeleton-limb-bench"
+    ],
     "no blueprint|not craftable|cannot be crafted|possibly|Holy Chest Plate|Skeleton Mask|Hack Stopper|Sleeveless Dustcoat",
     "Several production pages distinguish station outputs from recipes or blueprints unavailable in vanilla.",
     "Check item recipes, blueprint availability, research and version separately.",

@@ -37983,7 +37983,7 @@
     {
       "id": "claim:building-care-and-detention",
       "kind": "claim",
-      "target": "/medical-workbench",
+      "target": "/bed",
       "classification": "unresolved",
       "origin": "inherited",
       "priority": "P2",
@@ -37994,34 +37994,6 @@
       "uncertainty": "Availability restoration does not validate healing rates, relationship effects or persistence workarounds.",
       "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
       "evidence": [
-        {
-          "articleId": "medical-workbench",
-          "sourceFile": "src/content/wiki/medical-workbench.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "fd5f0c247f3944cb1855fc83be1ec4489b55fcdd4a42145fa84bef1dc25f9486",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/medical-workbench.md"
-        },
-        {
-          "articleId": "food-store",
-          "sourceFile": "src/content/wiki/food-store.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "b589bb82e7fe0c186f1ee592c4d209a1747c9a8d41f61e69738780a47d7a1d23",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/food-store.md"
-        },
-        {
-          "articleId": "buildings-list",
-          "sourceFile": "src/content/wiki/buildings-list.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "abfcc51cc09870d65740e062cd813202580e13f13f3c8df43fa506059c0ebffe",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/buildings-list.md"
-        },
-        {
-          "articleId": "animal-feeder",
-          "sourceFile": "src/content/wiki/animal-feeder.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "62f40f90db8d937f561bd57216b7db05c43ae31df334c1a854eb244ff1545969",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/animal-feeder.md"
-        },
         {
           "articleId": "bed",
           "sourceFile": "src/content/wiki/bed.md",
@@ -38037,81 +38009,11 @@
           "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/camp-bed.md"
         },
         {
-          "articleId": "cooking-pit",
-          "sourceFile": "src/content/wiki/cooking-pit.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "03ba51b231bf09b4654c727052ac0225513d24319b96dbe867753522524467a2",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/cooking-pit.md"
-        },
-        {
-          "articleId": "cooking-stove",
-          "sourceFile": "src/content/wiki/cooking-stove.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "330e0a77dfe3d3741238be3b6a716690181860ecc8baa062d7e8fb2015b33d1f",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/cooking-stove.md"
-        },
-        {
-          "articleId": "crossbow-locker",
-          "sourceFile": "src/content/wiki/crossbow-locker.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "e116e5d5b04e9d0f62ad8527d914cfde48e5f1aa77c4d76d29796cf4cb5459a1",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/crossbow-locker.md"
-        },
-        {
-          "articleId": "display-stand",
-          "sourceFile": "src/content/wiki/display-stand.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "94a804f69a9e794c196c2350c4c62cb2ed5a3ffb8a1a69a4326418c6788d36e9",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/display-stand.md"
-        },
-        {
-          "articleId": "double-barrel-harpoon-turret",
-          "sourceFile": "src/content/wiki/double-barrel-harpoon-turret.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "ce3c28e8f6c02a8447692ef98325fa2ff1c3d94cade69effcac3d0ff6afacc59",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/double-barrel-harpoon-turret.md"
-        },
-        {
-          "articleId": "general-storage-boxes",
-          "sourceFile": "src/content/wiki/general-storage-boxes.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "59b0e13c2d2f89ab72e80e92fb4fe195413d4b772ab6a435608de4524b2bb661",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/general-storage-boxes.md"
-        },
-        {
-          "articleId": "harpoon-turret",
-          "sourceFile": "src/content/wiki/harpoon-turret.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "3fd55686f5f66a714f2a2358084eec2976656a330379331493381408682b8dbe",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/harpoon-turret.md"
-        },
-        {
           "articleId": "mercenary-tent",
           "sourceFile": "src/content/wiki/mercenary-tent.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
           "sha256": "ce6552c7609933f4285b9cf00a05c56a625074d39d9dde3c03b6c810c5f37cfc",
           "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/mercenary-tent.md"
-        },
-        {
-          "articleId": "mounted-crossbow-mkii",
-          "sourceFile": "src/content/wiki/mounted-crossbow-mkii.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "a748d409101ca256d7487c48d4c1efdcb8a9faf4e16a3d7592a530b329d0cee0",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/mounted-crossbow-mkii.md"
-        },
-        {
-          "articleId": "mounted-crossbow",
-          "sourceFile": "src/content/wiki/mounted-crossbow.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "ca0cba2cd242de6d344d39618619b631d784f263a841f22bbc736ba5eee88f7e",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/mounted-crossbow.md"
-        },
-        {
-          "articleId": "multi-barrel-harpoon-turret",
-          "sourceFile": "src/content/wiki/multi-barrel-harpoon-turret.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "14eff5669034bb46340540b01ff6f844e5cfca8404707277a308c424883254e3",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/multi-barrel-harpoon-turret.md"
         },
         {
           "articleId": "peeler-machine",
@@ -38135,103 +38037,14 @@
           "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/prisoner-pole.md"
         },
         {
-          "articleId": "rain-collector",
-          "sourceFile": "src/content/wiki/rain-collector.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "8ddf04884db5e1956fad2ab3bf94565679e8ef02b642c71ffcf0dd006ec484c6",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/rain-collector.md"
-        },
-        {
-          "articleId": "skeleton-limb-bench",
-          "sourceFile": "src/content/wiki/skeleton-limb-bench.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "7779733e060e9e2c05b292b7d16f4ec66be9521fb042f09fd9e90b23eee2a1ef",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/skeleton-limb-bench.md"
-        },
-        {
           "articleId": "skeleton-repair-bed",
           "sourceFile": "src/content/wiki/skeleton-repair-bed.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
           "sha256": "fd46f487cee2367f12a1108e35856b45402534a2c60b8ce50b480dabf0798bba",
           "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/skeleton-repair-bed.md"
-        },
-        {
-          "articleId": "stephouse",
-          "sourceFile": "src/content/wiki/stephouse.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "0875481f989403c5969eea93a22c3453140fbad00c9f352706e14494bb28865d",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/stephouse.md"
-        },
-        {
-          "articleId": "turrets",
-          "sourceFile": "src/content/wiki/turrets.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "038aa182b91f6415ddea29f39387de7a1efe5bd2c3698e7eb76e50f53ca59d0a",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/turrets.md"
-        },
-        {
-          "articleId": "watchtower",
-          "sourceFile": "src/content/wiki/watchtower.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "f358d6aefbf28df11652a1d4f16fe27f6db39fd6629ee7db90939bf2bddf145f",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/watchtower.md"
-        },
-        {
-          "articleId": "weapon-cabinet",
-          "sourceFile": "src/content/wiki/weapon-cabinet.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "b103454839458e145b7200040064ff24d4bba8fa13da81afcc061f6bd4bc9e65",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/weapon-cabinet.md"
-        },
-        {
-          "articleId": "weapon-stand",
-          "sourceFile": "src/content/wiki/weapon-stand.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "42c9958196a3d2b1a932537d6b092aefbf236307be0ccb4a7ac3d8232584c1ff",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/weapon-stand.md"
         }
       ],
       "occurrences": [
-        {
-          "pageId": "medical-workbench",
-          "label": "<table class=\"wikitable\"><tbody><tr><th>Name</th><th colspan=\"2\">Image</th><th>Ingredients</th><th>Requirement</th></tr><tr><td><a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a></td><td></td><td></td><td>1x Fabrics</td><td>Basic Medical Workbench</td></tr><tr><td><a href=\"/sleeping-bag\">Sleeping Bag</a></td><td></td><td></td><td>8x Fabrics</td><td>Basic Medical Workbench</td></tr><tr><td><a href=\"/standard-first-aid-kit\">Standard First Aid Kit</a></td><td></td><td></td><td>1x Fabrics<p>1x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/advanced-first-aid-kit\">Advanced First Aid Kit</a></td><td></td><td></td><td>1.5x Fabrics<p>2x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/splint-kit\">Splint Kit</a></td><td></td><td></td><td>2.5x Fabrics<p>1x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/advanced-splint-kit\">Advanced Splint Kit</a></td><td></td><td></td><td>3.5x Fabrics<p>2x Hemp</p></td><td>Medical Workbench</td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><th>Name</th><th colspan=\"2\">Image</th><th>Ingredients</th><th>Requirement</th></tr><tr><td><a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a></td><td></td><td></td><td>1x Fabrics</td><td>Basic Medical Workbench</td></tr><tr><td><a href=\"/sleeping-bag\">Sleeping Bag</a></td><td></td><td></td><td>8x Fabrics</td><td>Basic Medical Workbench</td></tr><tr><td><a href=\"/standard-first-aid-kit\">Standard First Aid Kit</a></td><td></td><td></td><td>1x Fabrics<p>1x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/advanced-first-aid-kit\">Advanced First Aid Kit</a></td><td></td><td></td><td>1.5x Fabrics<p>2x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/splint-kit\">Splint Kit</a></td><td></td><td></td><td>2.5x Fabrics<p>1x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/advanced-splint-kit\">Advanced Splint Kit</a></td><td></td><td></td><td>3.5x Fabrics<p>2x Hemp</p></td><td>Medical Workbench</td></tr></tbody></table>",
-          "line": 20,
-          "sourceFile": "src/content/wiki/medical-workbench.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "food-store",
-          "label": "This container has a storage space of **18x18** squares and a stacking multiplier of 4.",
-          "literal": "This container has a storage space of **18x18** squares and a stacking multiplier of 4.",
-          "line": 16,
-          "sourceFile": "src/content/wiki/food-store.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "buildings-list",
-          "label": "<details class=\"collapsible\" open=\"\"><summary>Interior</summary><table class=\"wikitable\"><tbody><tr><td>Functional</td><td>Decorative</td></tr><tr><td><p><a href=\"/bed\"><span>Bed</span></a><br><span class=\"new\" title=\"Bench (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmVuY2g/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Bench</span></span><br><a href=\"/display-stand\"><span>Display Stand</span></a><br><a href=\"/prisoner-cage\"><span>Prisoner Cage</span></a><br><span class=\"new\" title=\"Sitting Box (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2l0dGluZ19Cb3g/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Sitting Box</span></span><br><span class=\"new\" title=\"Sitting Pillow (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2l0dGluZ19QaWxsb3c/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Sitting Pillow</span></span><br><a href=\"/skeleton-repair-bed\"><span>Skeleton Repair Bed</span></a><br><span class=\"new\" title=\"Stool (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU3Rvb2w/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Stool</span></span></p></td><td><p><span class=\"new\" title=\"Interior Walls (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSW50ZXJpb3JfV2FsbHM/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Interior Walls</span></span><br>Metal Table<br>Round Bar Table<br>Round Table<br>Rusty Sink<br>Shelf<br>Small Table<br>Support Beams<br>Table</p></td></tr></tbody></table></details>",
-          "literal": "<details class=\"collapsible\" open=\"\"><summary>Interior</summary><table class=\"wikitable\"><tbody><tr><td>Functional</td><td>Decorative</td></tr><tr><td><p><a href=\"/bed\"><span>Bed</span></a><br><span class=\"new\" title=\"Bench (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmVuY2g/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Bench</span></span><br><a href=\"/display-stand\"><span>Display Stand</span></a><br><a href=\"/prisoner-cage\"><span>Prisoner Cage</span></a><br><span class=\"new\" title=\"Sitting Box (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2l0dGluZ19Cb3g/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Sitting Box</span></span><br><span class=\"new\" title=\"Sitting Pillow (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2l0dGluZ19QaWxsb3c/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Sitting Pillow</span></span><br><a href=\"/skeleton-repair-bed\"><span>Skeleton Repair Bed</span></a><br><span class=\"new\" title=\"Stool (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU3Rvb2w/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Stool</span></span></p></td><td><p><span class=\"new\" title=\"Interior Walls (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSW50ZXJpb3JfV2FsbHM/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Interior Walls</span></span><br>Metal Table<br>Round Bar Table<br>Round Table<br>Rusty Sink<br>Shelf<br>Small Table<br>Support Beams<br>Table</p></td></tr></tbody></table></details>",
-          "line": 38,
-          "sourceFile": "src/content/wiki/buildings-list.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "buildings-list",
-          "label": "<details class=\"collapsible\" open=\"\"><summary>Labs</summary><table class=\"wikitable\"><tbody><tr><td><p><a href=\"/peeler-machine\"><span>Peeler Machine</span></a></p></td></tr></tbody></table></details>",
-          "literal": "<details class=\"collapsible\" open=\"\"><summary>Labs</summary><table class=\"wikitable\"><tbody><tr><td><p><a href=\"/peeler-machine\"><span>Peeler Machine</span></a></p></td></tr></tbody></table></details>",
-          "line": 74,
-          "sourceFile": "src/content/wiki/buildings-list.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "animal-feeder",
-          "label": "The **Animal Feeder** can store [food](/food) items so if [animal](/fauna) player characters are nearby they can get their [food](/food) automatically. Non-animal player characters will also eat from the Animal Feeder if it is nearby. This building has an **18x18** size inventory.",
-          "literal": "The **Animal Feeder** can store [food](/food) items so if [animal](/fauna) player characters are nearby they can get their [food](/food) automatically. Non-animal player characters will also eat from the Animal Feeder if it is nearby. This building has an **18x18** size inventory.",
-          "line": 14,
-          "sourceFile": "src/content/wiki/animal-feeder.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
         {
           "pageId": "bed",
           "label": "-   A bed heals the organic health of a unit at 8x the normal [healing rate](/guide-to-health), twice as much as a [Camp Bed](/camp-bed).",
@@ -38257,163 +38070,11 @@
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         },
         {
-          "pageId": "cooking-pit",
-          "label": "description: \"Cooking Pit usually found in Cannibals camps, also with some of the Prisoner Pole beside it. The function of Cooking Pit is to cook the prisoner or the victi…\"",
-          "literal": "description: \"Cooking Pit usually found in Cannibals camps, also with some of the Prisoner Pole beside it. The function of Cooking Pit is to cook the prisoner or the victi…\"",
-          "line": 3,
-          "sourceFile": "src/content/wiki/cooking-pit.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "cooking-pit",
-          "label": "**Cooking Pit** usually found in [Cannibals](/cannibals) camps, also with some of the Prisoner Pole beside it. The function of Cooking Pit is to cook the prisoner or the victim of cannibals, but it also functions as [Corpse Furnace](/corpse-furnace).",
-          "literal": "**Cooking Pit** usually found in [Cannibals](/cannibals) camps, also with some of the Prisoner Pole beside it. The function of Cooking Pit is to cook the prisoner or the victim of cannibals, but it also functions as [Corpse Furnace](/corpse-furnace).",
-          "line": 14,
-          "sourceFile": "src/content/wiki/cooking-pit.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "cooking-stove",
-          "label": "<table class=\"wikitable\"><tbody><tr><th colspan=\"2\">Item</th><th colspan=\"2\">Ingredients</th></tr><tr><td></td><td><a href=\"/dried-meat\">Dried Meat</a></td><td></td><td>1x Raw Meat</td></tr><tr><td></td><td><a href=\"/chewsticks\">Chewsticks</a></td><td></td><td>.25x Water<p>8x Cactus</p></td></tr><tr><td></td><td><a href=\"/cooked-vegetables\">Cooked Vegetables</a></td><td></td><td>1x Water<p>8x Greenfruit</p></td></tr><tr><td></td><td><a href=\"/rice-bowl\">Rice Bowl</a></td><td></td><td>1x Water<p>10x Rice</p></td></tr><tr><td></td><td><a href=\"/dustwich\">Dustwich</a></td><td></td><td>1x Bread<p>8x Cactus</p></td></tr><tr><td></td><td><a href=\"/foodcube\">Foodcube</a></td><td></td><td>1x Bread<p>8x Greenfruit</p></td></tr><tr><td></td><td><a href=\"/gohan\">Gohan</a></td><td></td><td>8x Greenfruit<p>10x Riceweed</p></td></tr><tr><td></td><td><a href=\"/meatwrap\">Meatwrap</a></td><td></td><td>1x Bread<p>1x Raw Meat</p></td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><th colspan=\"2\">Item</th><th colspan=\"2\">Ingredients</th></tr><tr><td></td><td><a href=\"/dried-meat\">Dried Meat</a></td><td></td><td>1x Raw Meat</td></tr><tr><td></td><td><a href=\"/chewsticks\">Chewsticks</a></td><td></td><td>.25x Water<p>8x Cactus</p></td></tr><tr><td></td><td><a href=\"/cooked-vegetables\">Cooked Vegetables</a></td><td></td><td>1x Water<p>8x Greenfruit</p></td></tr><tr><td></td><td><a href=\"/rice-bowl\">Rice Bowl</a></td><td></td><td>1x Water<p>10x Rice</p></td></tr><tr><td></td><td><a href=\"/dustwich\">Dustwich</a></td><td></td><td>1x Bread<p>8x Cactus</p></td></tr><tr><td></td><td><a href=\"/foodcube\">Foodcube</a></td><td></td><td>1x Bread<p>8x Greenfruit</p></td></tr><tr><td></td><td><a href=\"/gohan\">Gohan</a></td><td></td><td>8x Greenfruit<p>10x Riceweed</p></td></tr><tr><td></td><td><a href=\"/meatwrap\">Meatwrap</a></td><td></td><td>1x Bread<p>1x Raw Meat</p></td></tr></tbody></table>",
-          "line": 25,
-          "sourceFile": "src/content/wiki/cooking-stove.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "crossbow-locker",
-          "label": "This container has a storage space of **18x18** squares.",
-          "literal": "This container has a storage space of **18x18** squares.",
-          "line": 18,
-          "sourceFile": "src/content/wiki/crossbow-locker.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "display-stand",
-          "label": "**Display Stand** is a [building](/buildings-list). Players can construct it after learning a [blueprint](/blueprints). This building can be found in the 'Interior' category of the Build Menu. If things are dropped near it, they might land on this small shelf. Despite being a \"display\" stand, it will not display any of items dropped into its inventory to be actually seen in game. The stand, however, can be used and accessed as any other storage and has dimensions of 4x4.",
-          "literal": "**Display Stand** is a [building](/buildings-list). Players can construct it after learning a [blueprint](/blueprints). This building can be found in the 'Interior' category of the Build Menu. If things are dropped near it, they might land on this small shelf. Despite being a \"display\" stand, it will not display any of items dropped into its inventory to be actually seen in game. The stand, however, can be used and accessed as any other storage and has dimensions of 4x4.",
-          "line": 13,
-          "sourceFile": "src/content/wiki/display-stand.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "double-barrel-harpoon-turret",
-          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Double-Barrel Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>80</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>6s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 2 shots.</td></tr><tr><td>-Range:</td><td>75m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Double-Barrel Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>80</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>6s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 2 shots.</td></tr><tr><td>-Range:</td><td>75m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "line": 12,
-          "sourceFile": "src/content/wiki/double-barrel-harpoon-turret.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "general-storage-boxes",
-          "label": "-   grid size 18x18",
-          "literal": "-   grid size 18x18",
-          "line": 19,
-          "sourceFile": "src/content/wiki/general-storage-boxes.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "harpoon-turret",
-          "label": "<table class=\"wikitable imported-property-table\"><caption>Harpoon Turret</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/copper\">Copper</a></td><td>3</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>7</td></tr><tr><td><a href=\"/steel-bars\">Steel Bars</a></td><td>3</td></tr><tr><td>Estimated build time:</td><td>13 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">Just as powerful as an advanced crossbow, but easier to use and faster to reload. The downside is that it needs electricity to operate, leaving a potential vulnerability.<br></td></tr></tfoot></table>",
-          "literal": "<table class=\"wikitable imported-property-table\"><caption>Harpoon Turret</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/copper\">Copper</a></td><td>3</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>7</td></tr><tr><td><a href=\"/steel-bars\">Steel Bars</a></td><td>3</td></tr><tr><td>Estimated build time:</td><td>13 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">Just as powerful as an advanced crossbow, but easier to use and faster to reload. The downside is that it needs electricity to operate, leaving a potential vulnerability.<br></td></tr></tfoot></table>",
-          "line": 10,
-          "sourceFile": "src/content/wiki/harpoon-turret.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "harpoon-turret",
-          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>75</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>3 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>4s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>120m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>75</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>3 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>4s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>120m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "line": 12,
-          "sourceFile": "src/content/wiki/harpoon-turret.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "harpoon-turret",
-          "label": "They train a user's [Perception](/perception) and [Turrets](/turrets) skill when used. Reloading trains [Dexterity](/dexterity) and shooting an ally trains their [Precision Shooting](/precision-shooting).",
-          "literal": "They train a user's [Perception](/perception) and [Turrets](/turrets) skill when used. Reloading trains [Dexterity](/dexterity) and shooting an ally trains their [Precision Shooting](/precision-shooting).",
-          "line": 19,
-          "sourceFile": "src/content/wiki/harpoon-turret.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "harpoon-turret",
-          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Harpoon Turret MkII</td></tr><tr><td>-Pierce Damage:</td><td>90</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>3 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>4s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>120m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Harpoon Turret MkII</td></tr><tr><td>-Pierce Damage:</td><td>90</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>3 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>4s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>120m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "line": 31,
-          "sourceFile": "src/content/wiki/harpoon-turret.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "harpoon-turret",
-          "label": "-   4x [Copper](/copper)",
-          "literal": "-   4x [Copper](/copper)",
-          "line": 45,
-          "sourceFile": "src/content/wiki/harpoon-turret.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
           "pageId": "mercenary-tent",
           "label": "They can also be placed, for decoration, on the roof of the buildings you own. If placed and then destroyed, a reload is required to be able to place them on the roof again.",
           "literal": "They can also be placed, for decoration, on the roof of the buildings you own. If placed and then destroyed, a reload is required to be able to place them on the roof again.",
           "line": 15,
           "sourceFile": "src/content/wiki/mercenary-tent.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "mounted-crossbow-mkii",
-          "label": "<table class=\"wikitable imported-property-table\"><caption>Mounted Crossbow mkII</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">The Mark II has an advanced draw mechanism, which speeds up reload time, range and power.<br></td></tr></tfoot></table>",
-          "literal": "<table class=\"wikitable imported-property-table\"><caption>Mounted Crossbow mkII</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">The Mark II has an advanced draw mechanism, which speeds up reload time, range and power.<br></td></tr></tfoot></table>",
-          "line": 10,
-          "sourceFile": "src/content/wiki/mounted-crossbow-mkii.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "mounted-crossbow-mkii",
-          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Mounted Crossbow mkII</td></tr><tr><td>-Pierce Damage:</td><td>75</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>6s</td></tr><tr><td>-Min reload time:</td><td>1.5s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>100m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>70</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Mounted Crossbow mkII</td></tr><tr><td>-Pierce Damage:</td><td>75</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>6s</td></tr><tr><td>-Min reload time:</td><td>1.5s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>100m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>70</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "line": 12,
-          "sourceFile": "src/content/wiki/mounted-crossbow-mkii.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "mounted-crossbow-mkii",
-          "label": "<table class=\"wikitable imported-property-table\"><caption>Mounted Crossbow mkII [light]</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/electrical-components\">Electrical Components</a></td><td>1</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">The Mark II has an advanced draw mechanism, which speeds up reload time, range and power. With added spotlight fitted.<br></td></tr></tfoot></table>",
-          "literal": "<table class=\"wikitable imported-property-table\"><caption>Mounted Crossbow mkII [light]</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/electrical-components\">Electrical Components</a></td><td>1</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">The Mark II has an advanced draw mechanism, which speeds up reload time, range and power. With added spotlight fitted.<br></td></tr></tfoot></table>",
-          "line": 18,
-          "sourceFile": "src/content/wiki/mounted-crossbow-mkii.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "mounted-crossbow",
-          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Mounted Crossbow</td></tr><tr><td>-Pierce Damage:</td><td>55</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>0.7</td></tr><tr><td>-Max reload time:</td><td>8s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>65m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>70</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Mounted Crossbow</td></tr><tr><td>-Pierce Damage:</td><td>55</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>0.7</td></tr><tr><td>-Max reload time:</td><td>8s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>65m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>70</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "line": 12,
-          "sourceFile": "src/content/wiki/mounted-crossbow.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "mounted-crossbow",
-          "label": "The accuracy, and speed of reloading a turret is modified by the operator's related skills and the height difference between the turret and its target impacts the accuracy, range and damage. Turrets will be more effective if fired from above, less effective if fired from below a target.",
-          "literal": "The accuracy, and speed of reloading a turret is modified by the operator's related skills and the height difference between the turret and its target impacts the accuracy, range and damage. Turrets will be more effective if fired from above, less effective if fired from below a target.",
-          "line": 16,
-          "sourceFile": "src/content/wiki/mounted-crossbow.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "multi-barrel-harpoon-turret",
-          "label": "<table class=\"wikitable imported-property-table\"><caption>Multi-Barrel Harpoon Turret</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/copper-alloy-plates\">Copper Alloy Plates</a></td><td>8</td></tr><tr><td><a href=\"/electrical-components\">Electrical Components</a></td><td>8</td></tr><tr><td><a href=\"/steel-bars\">Steel Bars</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">Man does this crazy beast chuck out some 'poons. Not as powerful as other turrets however, and accuracy and reload times are terrible unless used by a skillful gunner.<br></td></tr></tfoot></table>",
-          "literal": "<table class=\"wikitable imported-property-table\"><caption>Multi-Barrel Harpoon Turret</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/copper-alloy-plates\">Copper Alloy Plates</a></td><td>8</td></tr><tr><td><a href=\"/electrical-components\">Electrical Components</a></td><td>8</td></tr><tr><td><a href=\"/steel-bars\">Steel Bars</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">Man does this crazy beast chuck out some 'poons. Not as powerful as other turrets however, and accuracy and reload times are terrible unless used by a skillful gunner.<br></td></tr></tfoot></table>",
-          "line": 10,
-          "sourceFile": "src/content/wiki/multi-barrel-harpoon-turret.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "multi-barrel-harpoon-turret",
-          "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Multi-Barrel Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>50</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>10 degrees</td></tr><tr><td>-Max reload time:</td><td>12s</td></tr><tr><td>-Min reload time:</td><td>2.5s</td></tr><tr><td colspan=\"2\">Reload after 6 shots.</td></tr><tr><td>-Range:</td><td>65m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>95</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Multi-Barrel Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>50</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>10 degrees</td></tr><tr><td>-Max reload time:</td><td>12s</td></tr><tr><td>-Min reload time:</td><td>2.5s</td></tr><tr><td colspan=\"2\">Reload after 6 shots.</td></tr><tr><td>-Range:</td><td>65m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>95</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
-          "line": 12,
-          "sourceFile": "src/content/wiki/multi-barrel-harpoon-turret.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         },
         {
@@ -38641,22 +38302,6 @@
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         },
         {
-          "pageId": "rain-collector",
-          "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Building</th><th scope=\"col\">Material cost</th><th scope=\"col\">Output</th><th scope=\"col\">Efficiency</th></tr><tr><td>Rain Collector</td><td>4x <a href=\"/iron-plates\">Iron Plates</a></td><td>Max. 10 <a href=\"/water\">Water Barrels</a></td><td>100%</td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Building</th><th scope=\"col\">Material cost</th><th scope=\"col\">Output</th><th scope=\"col\">Efficiency</th></tr><tr><td>Rain Collector</td><td>4x <a href=\"/iron-plates\">Iron Plates</a></td><td>Max. 10 <a href=\"/water\">Water Barrels</a></td><td>100%</td></tr></tbody></table>",
-          "line": 20,
-          "sourceFile": "src/content/wiki/rain-collector.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "skeleton-limb-bench",
-          "label": "The Skeleton Limb Bench was introduced in version 0.98.4X.",
-          "literal": "The Skeleton Limb Bench was introduced in version 0.98.4X.",
-          "line": 38,
-          "sourceFile": "src/content/wiki/skeleton-limb-bench.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
           "pageId": "skeleton-repair-bed",
           "label": "This wear also occurs on skeleton limbs worn by non-skeleton characters and can be repaired by a repair bed. These beds can also patch up organic body parts in the same way bandages do but does not multiply the rate at which they heal. Robotic body parts heal 8x faster, and blood/oil twice as fast when resting in a Skeleton Repair Bed.",
           "literal": "This wear also occurs on skeleton limbs worn by non-skeleton characters and can be repaired by a repair bed. These beds can also patch up organic body parts in the same way bandages do but does not multiply the rate at which they heal. Robotic body parts heal 8x faster, and blood/oil twice as fast when resting in a Skeleton Repair Bed.",
@@ -38695,62 +38340,427 @@
           "line": 34,
           "sourceFile": "src/content/wiki/skeleton-repair-bed.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
+        }
+      ],
+      "investigationNotes": [
         {
-          "pageId": "stephouse",
-          "label": "Its second segmented roof section is taller than all other structures with an open roof save for the [Watchtower](/watchtower), which is more than twice as expensive at a 60 Building Materials and 10 [Iron Plates](/iron-plates).",
-          "literal": "Its second segmented roof section is taller than all other structures with an open roof save for the [Watchtower](/watchtower), which is more than twice as expensive at a 60 Building Materials and 10 [Iron Plates](/iron-plates).",
-          "line": 24,
-          "sourceFile": "src/content/wiki/stephouse.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "turrets",
-          "label": "<table class=\"wikitable\"><tbody><tr><td>Stats Affected:</td><td rowspan=\"4\"><span>Description:</span><br>Skill at shooting defensive weapon turrets. Affects accuracy, reload speed, target acquisition, and the ability to avoid friendly fire.</td></tr><tr><td>-Accuracy<br>-Rate of fire<br>-Reload speed</td></tr><tr><td>Ways to Train:</td></tr><tr><td>-Using harpoon and crossbow turrets</td></tr><tr><td colspan=\"2\"><a href=\"/statistics\"><span>-Ranged-</span></a></td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><td>Stats Affected:</td><td rowspan=\"4\"><span>Description:</span><br>Skill at shooting defensive weapon turrets. Affects accuracy, reload speed, target acquisition, and the ability to avoid friendly fire.</td></tr><tr><td>-Accuracy<br>-Rate of fire<br>-Reload speed</td></tr><tr><td>Ways to Train:</td></tr><tr><td>-Using harpoon and crossbow turrets</td></tr><tr><td colspan=\"2\"><a href=\"/statistics\"><span>-Ranged-</span></a></td></tr></tbody></table>",
-          "line": 10,
-          "sourceFile": "src/content/wiki/turrets.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "turrets",
-          "label": "<details class=\"collapsible\" open=\"\"><summary>Racial Experience Multipliers</summary><table class=\"wikitable\"><tbody><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href=\"/deadhive-worker\"><span>Deadhive Worker</span></a><br>-<a href=\"/hive-worker-drone\"><span>Hive Worker Drone</span></a><br>-<a href=\"/screamer-mki\"><span>Screamer MkI</span></a><br>-<a href=\"/skeleton-race\"><span>Skeleton (Race)</span></a><br>-<a href=\"/southern-hive-worker-drone\"><span>Southern Hive Worker Drone</span></a></td></tr><tr><td colspan=\"2\">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>",
-          "literal": "<details class=\"collapsible\" open=\"\"><summary>Racial Experience Multipliers</summary><table class=\"wikitable\"><tbody><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href=\"/deadhive-worker\"><span>Deadhive Worker</span></a><br>-<a href=\"/hive-worker-drone\"><span>Hive Worker Drone</span></a><br>-<a href=\"/screamer-mki\"><span>Screamer MkI</span></a><br>-<a href=\"/skeleton-race\"><span>Skeleton (Race)</span></a><br>-<a href=\"/southern-hive-worker-drone\"><span>Southern Hive Worker Drone</span></a></td></tr><tr><td colspan=\"2\">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>",
-          "line": 16,
-          "sourceFile": "src/content/wiki/turrets.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "turrets",
-          "label": "-   Rate of fire: this affects the amount of time it takes for a character to reload an arrow or harpoon on a turret. The default value for a skill of 0 is 25% and will max at 125%.",
-          "literal": "-   Rate of fire: this affects the amount of time it takes for a character to reload an arrow or harpoon on a turret. The default value for a skill of 0 is 25% and will max at 125%.",
-          "line": 23,
-          "sourceFile": "src/content/wiki/turrets.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "watchtower",
-          "label": "It is also considerably more expensive than all other structures, some by more than double, save for the [Outpost](/outpost-type-tech) structures. If resources are scarce, building cheaper, larger, flatter structures in open terrain may be preferable if available.",
-          "literal": "It is also considerably more expensive than all other structures, some by more than double, save for the [Outpost](/outpost-type-tech) structures. If resources are scarce, building cheaper, larger, flatter structures in open terrain may be preferable if available.",
-          "line": 16,
-          "sourceFile": "src/content/wiki/watchtower.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "weapon-cabinet",
-          "label": "-   This chest has a storage space of **18x18** squares.",
-          "literal": "-   This chest has a storage space of **18x18** squares.",
-          "line": 16,
-          "sourceFile": "src/content/wiki/weapon-cabinet.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
-          "pageId": "weapon-stand",
-          "label": "-   Storage Space - 18x18",
-          "literal": "-   Storage Space - 18x18",
-          "line": 21,
-          "sourceFile": "src/content/wiki/weapon-stand.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+          "action": "Refine claim scope",
+          "reason": "Broad keyword matching included unrelated uses such as generic efficiency percentages. Retain the extraction history here; only relevant article claims remain active.",
+          "removedOccurrences": [
+            {
+              "pageId": "medical-workbench",
+              "label": "<table class=\"wikitable\"><tbody><tr><th>Name</th><th colspan=\"2\">Image</th><th>Ingredients</th><th>Requirement</th></tr><tr><td><a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a></td><td></td><td></td><td>1x Fabrics</td><td>Basic Medical Workbench</td></tr><tr><td><a href=\"/sleeping-bag\">Sleeping Bag</a></td><td></td><td></td><td>8x Fabrics</td><td>Basic Medical Workbench</td></tr><tr><td><a href=\"/standard-first-aid-kit\">Standard First Aid Kit</a></td><td></td><td></td><td>1x Fabrics<p>1x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/advanced-first-aid-kit\">Advanced First Aid Kit</a></td><td></td><td></td><td>1.5x Fabrics<p>2x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/splint-kit\">Splint Kit</a></td><td></td><td></td><td>2.5x Fabrics<p>1x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/advanced-splint-kit\">Advanced Splint Kit</a></td><td></td><td></td><td>3.5x Fabrics<p>2x Hemp</p></td><td>Medical Workbench</td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><th>Name</th><th colspan=\"2\">Image</th><th>Ingredients</th><th>Requirement</th></tr><tr><td><a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a></td><td></td><td></td><td>1x Fabrics</td><td>Basic Medical Workbench</td></tr><tr><td><a href=\"/sleeping-bag\">Sleeping Bag</a></td><td></td><td></td><td>8x Fabrics</td><td>Basic Medical Workbench</td></tr><tr><td><a href=\"/standard-first-aid-kit\">Standard First Aid Kit</a></td><td></td><td></td><td>1x Fabrics<p>1x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/advanced-first-aid-kit\">Advanced First Aid Kit</a></td><td></td><td></td><td>1.5x Fabrics<p>2x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/splint-kit\">Splint Kit</a></td><td></td><td></td><td>2.5x Fabrics<p>1x Hemp</p></td><td>Medical Workbench</td></tr><tr><td><a href=\"/advanced-splint-kit\">Advanced Splint Kit</a></td><td></td><td></td><td>3.5x Fabrics<p>2x Hemp</p></td><td>Medical Workbench</td></tr></tbody></table>",
+              "line": 20,
+              "sourceFile": "src/content/wiki/medical-workbench.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "food-store",
+              "label": "This container has a storage space of **18x18** squares and a stacking multiplier of 4.",
+              "literal": "This container has a storage space of **18x18** squares and a stacking multiplier of 4.",
+              "line": 16,
+              "sourceFile": "src/content/wiki/food-store.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "buildings-list",
+              "label": "<details class=\"collapsible\" open=\"\"><summary>Interior</summary><table class=\"wikitable\"><tbody><tr><td>Functional</td><td>Decorative</td></tr><tr><td><p><a href=\"/bed\"><span>Bed</span></a><br><span class=\"new\" title=\"Bench (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmVuY2g/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Bench</span></span><br><a href=\"/display-stand\"><span>Display Stand</span></a><br><a href=\"/prisoner-cage\"><span>Prisoner Cage</span></a><br><span class=\"new\" title=\"Sitting Box (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2l0dGluZ19Cb3g/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Sitting Box</span></span><br><span class=\"new\" title=\"Sitting Pillow (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2l0dGluZ19QaWxsb3c/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Sitting Pillow</span></span><br><a href=\"/skeleton-repair-bed\"><span>Skeleton Repair Bed</span></a><br><span class=\"new\" title=\"Stool (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU3Rvb2w/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Stool</span></span></p></td><td><p><span class=\"new\" title=\"Interior Walls (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSW50ZXJpb3JfV2FsbHM/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Interior Walls</span></span><br>Metal Table<br>Round Bar Table<br>Round Table<br>Rusty Sink<br>Shelf<br>Small Table<br>Support Beams<br>Table</p></td></tr></tbody></table></details>",
+              "literal": "<details class=\"collapsible\" open=\"\"><summary>Interior</summary><table class=\"wikitable\"><tbody><tr><td>Functional</td><td>Decorative</td></tr><tr><td><p><a href=\"/bed\"><span>Bed</span></a><br><span class=\"new\" title=\"Bench (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmVuY2g/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Bench</span></span><br><a href=\"/display-stand\"><span>Display Stand</span></a><br><a href=\"/prisoner-cage\"><span>Prisoner Cage</span></a><br><span class=\"new\" title=\"Sitting Box (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2l0dGluZ19Cb3g/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Sitting Box</span></span><br><span class=\"new\" title=\"Sitting Pillow (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2l0dGluZ19QaWxsb3c/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Sitting Pillow</span></span><br><a href=\"/skeleton-repair-bed\"><span>Skeleton Repair Bed</span></a><br><span class=\"new\" title=\"Stool (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU3Rvb2w/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Stool</span></span></p></td><td><p><span class=\"new\" title=\"Interior Walls (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSW50ZXJpb3JfV2FsbHM/YWN0aW9uPWVkaXQmcmVkbGluaz0x\"><span>Interior Walls</span></span><br>Metal Table<br>Round Bar Table<br>Round Table<br>Rusty Sink<br>Shelf<br>Small Table<br>Support Beams<br>Table</p></td></tr></tbody></table></details>",
+              "line": 38,
+              "sourceFile": "src/content/wiki/buildings-list.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "buildings-list",
+              "label": "<details class=\"collapsible\" open=\"\"><summary>Labs</summary><table class=\"wikitable\"><tbody><tr><td><p><a href=\"/peeler-machine\"><span>Peeler Machine</span></a></p></td></tr></tbody></table></details>",
+              "literal": "<details class=\"collapsible\" open=\"\"><summary>Labs</summary><table class=\"wikitable\"><tbody><tr><td><p><a href=\"/peeler-machine\"><span>Peeler Machine</span></a></p></td></tr></tbody></table></details>",
+              "line": 74,
+              "sourceFile": "src/content/wiki/buildings-list.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "animal-feeder",
+              "label": "The **Animal Feeder** can store [food](/food) items so if [animal](/fauna) player characters are nearby they can get their [food](/food) automatically. Non-animal player characters will also eat from the Animal Feeder if it is nearby. This building has an **18x18** size inventory.",
+              "literal": "The **Animal Feeder** can store [food](/food) items so if [animal](/fauna) player characters are nearby they can get their [food](/food) automatically. Non-animal player characters will also eat from the Animal Feeder if it is nearby. This building has an **18x18** size inventory.",
+              "line": 14,
+              "sourceFile": "src/content/wiki/animal-feeder.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "cooking-pit",
+              "label": "description: \"Cooking Pit usually found in Cannibals camps, also with some of the Prisoner Pole beside it. The function of Cooking Pit is to cook the prisoner or the victi…\"",
+              "literal": "description: \"Cooking Pit usually found in Cannibals camps, also with some of the Prisoner Pole beside it. The function of Cooking Pit is to cook the prisoner or the victi…\"",
+              "line": 3,
+              "sourceFile": "src/content/wiki/cooking-pit.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "cooking-pit",
+              "label": "**Cooking Pit** usually found in [Cannibals](/cannibals) camps, also with some of the Prisoner Pole beside it. The function of Cooking Pit is to cook the prisoner or the victim of cannibals, but it also functions as [Corpse Furnace](/corpse-furnace).",
+              "literal": "**Cooking Pit** usually found in [Cannibals](/cannibals) camps, also with some of the Prisoner Pole beside it. The function of Cooking Pit is to cook the prisoner or the victim of cannibals, but it also functions as [Corpse Furnace](/corpse-furnace).",
+              "line": 14,
+              "sourceFile": "src/content/wiki/cooking-pit.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "cooking-stove",
+              "label": "<table class=\"wikitable\"><tbody><tr><th colspan=\"2\">Item</th><th colspan=\"2\">Ingredients</th></tr><tr><td></td><td><a href=\"/dried-meat\">Dried Meat</a></td><td></td><td>1x Raw Meat</td></tr><tr><td></td><td><a href=\"/chewsticks\">Chewsticks</a></td><td></td><td>.25x Water<p>8x Cactus</p></td></tr><tr><td></td><td><a href=\"/cooked-vegetables\">Cooked Vegetables</a></td><td></td><td>1x Water<p>8x Greenfruit</p></td></tr><tr><td></td><td><a href=\"/rice-bowl\">Rice Bowl</a></td><td></td><td>1x Water<p>10x Rice</p></td></tr><tr><td></td><td><a href=\"/dustwich\">Dustwich</a></td><td></td><td>1x Bread<p>8x Cactus</p></td></tr><tr><td></td><td><a href=\"/foodcube\">Foodcube</a></td><td></td><td>1x Bread<p>8x Greenfruit</p></td></tr><tr><td></td><td><a href=\"/gohan\">Gohan</a></td><td></td><td>8x Greenfruit<p>10x Riceweed</p></td></tr><tr><td></td><td><a href=\"/meatwrap\">Meatwrap</a></td><td></td><td>1x Bread<p>1x Raw Meat</p></td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><th colspan=\"2\">Item</th><th colspan=\"2\">Ingredients</th></tr><tr><td></td><td><a href=\"/dried-meat\">Dried Meat</a></td><td></td><td>1x Raw Meat</td></tr><tr><td></td><td><a href=\"/chewsticks\">Chewsticks</a></td><td></td><td>.25x Water<p>8x Cactus</p></td></tr><tr><td></td><td><a href=\"/cooked-vegetables\">Cooked Vegetables</a></td><td></td><td>1x Water<p>8x Greenfruit</p></td></tr><tr><td></td><td><a href=\"/rice-bowl\">Rice Bowl</a></td><td></td><td>1x Water<p>10x Rice</p></td></tr><tr><td></td><td><a href=\"/dustwich\">Dustwich</a></td><td></td><td>1x Bread<p>8x Cactus</p></td></tr><tr><td></td><td><a href=\"/foodcube\">Foodcube</a></td><td></td><td>1x Bread<p>8x Greenfruit</p></td></tr><tr><td></td><td><a href=\"/gohan\">Gohan</a></td><td></td><td>8x Greenfruit<p>10x Riceweed</p></td></tr><tr><td></td><td><a href=\"/meatwrap\">Meatwrap</a></td><td></td><td>1x Bread<p>1x Raw Meat</p></td></tr></tbody></table>",
+              "line": 25,
+              "sourceFile": "src/content/wiki/cooking-stove.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "crossbow-locker",
+              "label": "This container has a storage space of **18x18** squares.",
+              "literal": "This container has a storage space of **18x18** squares.",
+              "line": 18,
+              "sourceFile": "src/content/wiki/crossbow-locker.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "display-stand",
+              "label": "**Display Stand** is a [building](/buildings-list). Players can construct it after learning a [blueprint](/blueprints). This building can be found in the 'Interior' category of the Build Menu. If things are dropped near it, they might land on this small shelf. Despite being a \"display\" stand, it will not display any of items dropped into its inventory to be actually seen in game. The stand, however, can be used and accessed as any other storage and has dimensions of 4x4.",
+              "literal": "**Display Stand** is a [building](/buildings-list). Players can construct it after learning a [blueprint](/blueprints). This building can be found in the 'Interior' category of the Build Menu. If things are dropped near it, they might land on this small shelf. Despite being a \"display\" stand, it will not display any of items dropped into its inventory to be actually seen in game. The stand, however, can be used and accessed as any other storage and has dimensions of 4x4.",
+              "line": 13,
+              "sourceFile": "src/content/wiki/display-stand.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "double-barrel-harpoon-turret",
+              "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Double-Barrel Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>80</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>6s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 2 shots.</td></tr><tr><td>-Range:</td><td>75m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Double-Barrel Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>80</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>6s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 2 shots.</td></tr><tr><td>-Range:</td><td>75m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "line": 12,
+              "sourceFile": "src/content/wiki/double-barrel-harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "general-storage-boxes",
+              "label": "-   grid size 18x18",
+              "literal": "-   grid size 18x18",
+              "line": 19,
+              "sourceFile": "src/content/wiki/general-storage-boxes.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "harpoon-turret",
+              "label": "<table class=\"wikitable imported-property-table\"><caption>Harpoon Turret</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/copper\">Copper</a></td><td>3</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>7</td></tr><tr><td><a href=\"/steel-bars\">Steel Bars</a></td><td>3</td></tr><tr><td>Estimated build time:</td><td>13 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">Just as powerful as an advanced crossbow, but easier to use and faster to reload. The downside is that it needs electricity to operate, leaving a potential vulnerability.<br></td></tr></tfoot></table>",
+              "literal": "<table class=\"wikitable imported-property-table\"><caption>Harpoon Turret</caption><tbody><tr><td>Type:</td><td>Exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/copper\">Copper</a></td><td>3</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>7</td></tr><tr><td><a href=\"/steel-bars\">Steel Bars</a></td><td>3</td></tr><tr><td>Estimated build time:</td><td>13 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">Just as powerful as an advanced crossbow, but easier to use and faster to reload. The downside is that it needs electricity to operate, leaving a potential vulnerability.<br></td></tr></tfoot></table>",
+              "line": 10,
+              "sourceFile": "src/content/wiki/harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "harpoon-turret",
+              "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>75</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>3 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>4s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>120m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>75</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>3 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>4s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>120m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "line": 12,
+              "sourceFile": "src/content/wiki/harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "harpoon-turret",
+              "label": "They train a user's [Perception](/perception) and [Turrets](/turrets) skill when used. Reloading trains [Dexterity](/dexterity) and shooting an ally trains their [Precision Shooting](/precision-shooting).",
+              "literal": "They train a user's [Perception](/perception) and [Turrets](/turrets) skill when used. Reloading trains [Dexterity](/dexterity) and shooting an ally trains their [Precision Shooting](/precision-shooting).",
+              "line": 19,
+              "sourceFile": "src/content/wiki/harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "harpoon-turret",
+              "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Harpoon Turret MkII</td></tr><tr><td>-Pierce Damage:</td><td>90</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>3 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>4s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>120m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Harpoon Turret MkII</td></tr><tr><td>-Pierce Damage:</td><td>90</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>3 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>4s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>120m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>80</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "line": 31,
+              "sourceFile": "src/content/wiki/harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "harpoon-turret",
+              "label": "-   4x [Copper](/copper)",
+              "literal": "-   4x [Copper](/copper)",
+              "line": 45,
+              "sourceFile": "src/content/wiki/harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "mounted-crossbow-mkii",
+              "label": "<table class=\"wikitable imported-property-table\"><caption>Mounted Crossbow mkII</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">The Mark II has an advanced draw mechanism, which speeds up reload time, range and power.<br></td></tr></tfoot></table>",
+              "literal": "<table class=\"wikitable imported-property-table\"><caption>Mounted Crossbow mkII</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">The Mark II has an advanced draw mechanism, which speeds up reload time, range and power.<br></td></tr></tfoot></table>",
+              "line": 10,
+              "sourceFile": "src/content/wiki/mounted-crossbow-mkii.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "mounted-crossbow-mkii",
+              "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Mounted Crossbow mkII</td></tr><tr><td>-Pierce Damage:</td><td>75</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>6s</td></tr><tr><td>-Min reload time:</td><td>1.5s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>100m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>70</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Mounted Crossbow mkII</td></tr><tr><td>-Pierce Damage:</td><td>75</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>1</td></tr><tr><td>-Max reload time:</td><td>6s</td></tr><tr><td>-Min reload time:</td><td>1.5s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>100m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>70</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "line": 12,
+              "sourceFile": "src/content/wiki/mounted-crossbow-mkii.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "mounted-crossbow-mkii",
+              "label": "<table class=\"wikitable imported-property-table\"><caption>Mounted Crossbow mkII [light]</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/electrical-components\">Electrical Components</a></td><td>1</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">The Mark II has an advanced draw mechanism, which speeds up reload time, range and power. With added spotlight fitted.<br></td></tr></tfoot></table>",
+              "literal": "<table class=\"wikitable imported-property-table\"><caption>Mounted Crossbow mkII [light]</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/electrical-components\">Electrical Components</a></td><td>1</td></tr><tr><td><a href=\"/iron-plates\">Iron Plates</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">The Mark II has an advanced draw mechanism, which speeds up reload time, range and power. With added spotlight fitted.<br></td></tr></tfoot></table>",
+              "line": 18,
+              "sourceFile": "src/content/wiki/mounted-crossbow-mkii.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "mounted-crossbow",
+              "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Mounted Crossbow</td></tr><tr><td>-Pierce Damage:</td><td>55</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>0.7</td></tr><tr><td>-Max reload time:</td><td>8s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>65m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>70</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Mounted Crossbow</td></tr><tr><td>-Pierce Damage:</td><td>55</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>5 degrees</td></tr><tr><td>-Rotation speed:</td><td>0.7</td></tr><tr><td>-Max reload time:</td><td>8s</td></tr><tr><td>-Min reload time:</td><td>2s</td></tr><tr><td colspan=\"2\">Reload after 1 shots.</td></tr><tr><td>-Range:</td><td>65m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>70</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "line": 12,
+              "sourceFile": "src/content/wiki/mounted-crossbow.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "mounted-crossbow",
+              "label": "The accuracy, and speed of reloading a turret is modified by the operator's related skills and the height difference between the turret and its target impacts the accuracy, range and damage. Turrets will be more effective if fired from above, less effective if fired from below a target.",
+              "literal": "The accuracy, and speed of reloading a turret is modified by the operator's related skills and the height difference between the turret and its target impacts the accuracy, range and damage. Turrets will be more effective if fired from above, less effective if fired from below a target.",
+              "line": 16,
+              "sourceFile": "src/content/wiki/mounted-crossbow.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "multi-barrel-harpoon-turret",
+              "label": "<table class=\"wikitable imported-property-table\"><caption>Multi-Barrel Harpoon Turret</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/copper-alloy-plates\">Copper Alloy Plates</a></td><td>8</td></tr><tr><td><a href=\"/electrical-components\">Electrical Components</a></td><td>8</td></tr><tr><td><a href=\"/steel-bars\">Steel Bars</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">Man does this crazy beast chuck out some 'poons. Not as powerful as other turrets however, and accuracy and reload times are terrible unless used by a skillful gunner.<br></td></tr></tfoot></table>",
+              "literal": "<table class=\"wikitable imported-property-table\"><caption>Multi-Barrel Harpoon Turret</caption><tbody><tr><td>Type:</td><td>Interior/exterior</td></tr><tr><td colspan=\"2\">Materials cost:</td></tr><tr><td><a href=\"/copper-alloy-plates\">Copper Alloy Plates</a></td><td>8</td></tr><tr><td><a href=\"/electrical-components\">Electrical Components</a></td><td>8</td></tr><tr><td><a href=\"/steel-bars\">Steel Bars</a></td><td>8</td></tr><tr><td>Estimated build time:</td><td>0 hrs</td></tr></tbody><tfoot><tr><td colspan=\"2\">Man does this crazy beast chuck out some 'poons. Not as powerful as other turrets however, and accuracy and reload times are terrible unless used by a skillful gunner.<br></td></tr></tfoot></table>",
+              "line": 10,
+              "sourceFile": "src/content/wiki/multi-barrel-harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "multi-barrel-harpoon-turret",
+              "label": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Multi-Barrel Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>50</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>10 degrees</td></tr><tr><td>-Max reload time:</td><td>12s</td></tr><tr><td>-Min reload time:</td><td>2.5s</td></tr><tr><td colspan=\"2\">Reload after 6 shots.</td></tr><tr><td>-Range:</td><td>65m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>95</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><td colspan=\"2\" align=\"left\">Multi-Barrel Harpoon Turret</td></tr><tr><td>-Pierce Damage:</td><td>50</td></tr><tr><td>-Accuracy deviation at 0 skill:</td><td>10 degrees</td></tr><tr><td>-Max reload time:</td><td>12s</td></tr><tr><td>-Min reload time:</td><td>2.5s</td></tr><tr><td colspan=\"2\">Reload after 6 shots.</td></tr><tr><td>-Range:</td><td>65m</td></tr><tr><td>-Velocity:</td><td>100m/s</td></tr><tr><td>-Accuracy perfect at level:</td><td>95</td></tr><tr><td colspan=\"2\">These stats are based on a turret at ground level.</td></tr></tbody></table>",
+              "line": 12,
+              "sourceFile": "src/content/wiki/multi-barrel-harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "rain-collector",
+              "label": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Building</th><th scope=\"col\">Material cost</th><th scope=\"col\">Output</th><th scope=\"col\">Efficiency</th></tr><tr><td>Rain Collector</td><td>4x <a href=\"/iron-plates\">Iron Plates</a></td><td>Max. 10 <a href=\"/water\">Water Barrels</a></td><td>100%</td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><th scope=\"col\">Building</th><th scope=\"col\">Material cost</th><th scope=\"col\">Output</th><th scope=\"col\">Efficiency</th></tr><tr><td>Rain Collector</td><td>4x <a href=\"/iron-plates\">Iron Plates</a></td><td>Max. 10 <a href=\"/water\">Water Barrels</a></td><td>100%</td></tr></tbody></table>",
+              "line": 20,
+              "sourceFile": "src/content/wiki/rain-collector.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "skeleton-limb-bench",
+              "label": "The Skeleton Limb Bench was introduced in version 0.98.4X.",
+              "literal": "The Skeleton Limb Bench was introduced in version 0.98.4X.",
+              "line": 38,
+              "sourceFile": "src/content/wiki/skeleton-limb-bench.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "stephouse",
+              "label": "Its second segmented roof section is taller than all other structures with an open roof save for the [Watchtower](/watchtower), which is more than twice as expensive at a 60 Building Materials and 10 [Iron Plates](/iron-plates).",
+              "literal": "Its second segmented roof section is taller than all other structures with an open roof save for the [Watchtower](/watchtower), which is more than twice as expensive at a 60 Building Materials and 10 [Iron Plates](/iron-plates).",
+              "line": 24,
+              "sourceFile": "src/content/wiki/stephouse.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "turrets",
+              "label": "<table class=\"wikitable\"><tbody><tr><td>Stats Affected:</td><td rowspan=\"4\"><span>Description:</span><br>Skill at shooting defensive weapon turrets. Affects accuracy, reload speed, target acquisition, and the ability to avoid friendly fire.</td></tr><tr><td>-Accuracy<br>-Rate of fire<br>-Reload speed</td></tr><tr><td>Ways to Train:</td></tr><tr><td>-Using harpoon and crossbow turrets</td></tr><tr><td colspan=\"2\"><a href=\"/statistics\"><span>-Ranged-</span></a></td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><td>Stats Affected:</td><td rowspan=\"4\"><span>Description:</span><br>Skill at shooting defensive weapon turrets. Affects accuracy, reload speed, target acquisition, and the ability to avoid friendly fire.</td></tr><tr><td>-Accuracy<br>-Rate of fire<br>-Reload speed</td></tr><tr><td>Ways to Train:</td></tr><tr><td>-Using harpoon and crossbow turrets</td></tr><tr><td colspan=\"2\"><a href=\"/statistics\"><span>-Ranged-</span></a></td></tr></tbody></table>",
+              "line": 10,
+              "sourceFile": "src/content/wiki/turrets.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "turrets",
+              "label": "<details class=\"collapsible\" open=\"\"><summary>Racial Experience Multipliers</summary><table class=\"wikitable\"><tbody><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href=\"/deadhive-worker\"><span>Deadhive Worker</span></a><br>-<a href=\"/hive-worker-drone\"><span>Hive Worker Drone</span></a><br>-<a href=\"/screamer-mki\"><span>Screamer MkI</span></a><br>-<a href=\"/skeleton-race\"><span>Skeleton (Race)</span></a><br>-<a href=\"/southern-hive-worker-drone\"><span>Southern Hive Worker Drone</span></a></td></tr><tr><td colspan=\"2\">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>",
+              "literal": "<details class=\"collapsible\" open=\"\"><summary>Racial Experience Multipliers</summary><table class=\"wikitable\"><tbody><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href=\"/deadhive-worker\"><span>Deadhive Worker</span></a><br>-<a href=\"/hive-worker-drone\"><span>Hive Worker Drone</span></a><br>-<a href=\"/screamer-mki\"><span>Screamer MkI</span></a><br>-<a href=\"/skeleton-race\"><span>Skeleton (Race)</span></a><br>-<a href=\"/southern-hive-worker-drone\"><span>Southern Hive Worker Drone</span></a></td></tr><tr><td colspan=\"2\">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>",
+              "line": 16,
+              "sourceFile": "src/content/wiki/turrets.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "turrets",
+              "label": "-   Rate of fire: this affects the amount of time it takes for a character to reload an arrow or harpoon on a turret. The default value for a skill of 0 is 25% and will max at 125%.",
+              "literal": "-   Rate of fire: this affects the amount of time it takes for a character to reload an arrow or harpoon on a turret. The default value for a skill of 0 is 25% and will max at 125%.",
+              "line": 23,
+              "sourceFile": "src/content/wiki/turrets.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "watchtower",
+              "label": "It is also considerably more expensive than all other structures, some by more than double, save for the [Outpost](/outpost-type-tech) structures. If resources are scarce, building cheaper, larger, flatter structures in open terrain may be preferable if available.",
+              "literal": "It is also considerably more expensive than all other structures, some by more than double, save for the [Outpost](/outpost-type-tech) structures. If resources are scarce, building cheaper, larger, flatter structures in open terrain may be preferable if available.",
+              "line": 16,
+              "sourceFile": "src/content/wiki/watchtower.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "weapon-cabinet",
+              "label": "-   This chest has a storage space of **18x18** squares.",
+              "literal": "-   This chest has a storage space of **18x18** squares.",
+              "line": 16,
+              "sourceFile": "src/content/wiki/weapon-cabinet.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "weapon-stand",
+              "label": "-   Storage Space - 18x18",
+              "literal": "-   Storage Space - 18x18",
+              "line": 21,
+              "sourceFile": "src/content/wiki/weapon-stand.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            }
+          ],
+          "removedEvidence": [
+            {
+              "articleId": "medical-workbench",
+              "sourceFile": "src/content/wiki/medical-workbench.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "fd5f0c247f3944cb1855fc83be1ec4489b55fcdd4a42145fa84bef1dc25f9486",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/medical-workbench.md"
+            },
+            {
+              "articleId": "food-store",
+              "sourceFile": "src/content/wiki/food-store.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "b589bb82e7fe0c186f1ee592c4d209a1747c9a8d41f61e69738780a47d7a1d23",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/food-store.md"
+            },
+            {
+              "articleId": "buildings-list",
+              "sourceFile": "src/content/wiki/buildings-list.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "abfcc51cc09870d65740e062cd813202580e13f13f3c8df43fa506059c0ebffe",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/buildings-list.md"
+            },
+            {
+              "articleId": "animal-feeder",
+              "sourceFile": "src/content/wiki/animal-feeder.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "62f40f90db8d937f561bd57216b7db05c43ae31df334c1a854eb244ff1545969",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/animal-feeder.md"
+            },
+            {
+              "articleId": "cooking-pit",
+              "sourceFile": "src/content/wiki/cooking-pit.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "03ba51b231bf09b4654c727052ac0225513d24319b96dbe867753522524467a2",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/cooking-pit.md"
+            },
+            {
+              "articleId": "cooking-stove",
+              "sourceFile": "src/content/wiki/cooking-stove.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "330e0a77dfe3d3741238be3b6a716690181860ecc8baa062d7e8fb2015b33d1f",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/cooking-stove.md"
+            },
+            {
+              "articleId": "crossbow-locker",
+              "sourceFile": "src/content/wiki/crossbow-locker.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "e116e5d5b04e9d0f62ad8527d914cfde48e5f1aa77c4d76d29796cf4cb5459a1",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/crossbow-locker.md"
+            },
+            {
+              "articleId": "display-stand",
+              "sourceFile": "src/content/wiki/display-stand.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "94a804f69a9e794c196c2350c4c62cb2ed5a3ffb8a1a69a4326418c6788d36e9",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/display-stand.md"
+            },
+            {
+              "articleId": "double-barrel-harpoon-turret",
+              "sourceFile": "src/content/wiki/double-barrel-harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "ce3c28e8f6c02a8447692ef98325fa2ff1c3d94cade69effcac3d0ff6afacc59",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/double-barrel-harpoon-turret.md"
+            },
+            {
+              "articleId": "general-storage-boxes",
+              "sourceFile": "src/content/wiki/general-storage-boxes.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "59b0e13c2d2f89ab72e80e92fb4fe195413d4b772ab6a435608de4524b2bb661",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/general-storage-boxes.md"
+            },
+            {
+              "articleId": "harpoon-turret",
+              "sourceFile": "src/content/wiki/harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "3fd55686f5f66a714f2a2358084eec2976656a330379331493381408682b8dbe",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/harpoon-turret.md"
+            },
+            {
+              "articleId": "mounted-crossbow-mkii",
+              "sourceFile": "src/content/wiki/mounted-crossbow-mkii.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "a748d409101ca256d7487c48d4c1efdcb8a9faf4e16a3d7592a530b329d0cee0",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/mounted-crossbow-mkii.md"
+            },
+            {
+              "articleId": "mounted-crossbow",
+              "sourceFile": "src/content/wiki/mounted-crossbow.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "ca0cba2cd242de6d344d39618619b631d784f263a841f22bbc736ba5eee88f7e",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/mounted-crossbow.md"
+            },
+            {
+              "articleId": "multi-barrel-harpoon-turret",
+              "sourceFile": "src/content/wiki/multi-barrel-harpoon-turret.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "14eff5669034bb46340540b01ff6f844e5cfca8404707277a308c424883254e3",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/multi-barrel-harpoon-turret.md"
+            },
+            {
+              "articleId": "rain-collector",
+              "sourceFile": "src/content/wiki/rain-collector.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "8ddf04884db5e1956fad2ab3bf94565679e8ef02b642c71ffcf0dd006ec484c6",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/rain-collector.md"
+            },
+            {
+              "articleId": "skeleton-limb-bench",
+              "sourceFile": "src/content/wiki/skeleton-limb-bench.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "7779733e060e9e2c05b292b7d16f4ec66be9521fb042f09fd9e90b23eee2a1ef",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/skeleton-limb-bench.md"
+            },
+            {
+              "articleId": "stephouse",
+              "sourceFile": "src/content/wiki/stephouse.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "0875481f989403c5969eea93a22c3453140fbad00c9f352706e14494bb28865d",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/stephouse.md"
+            },
+            {
+              "articleId": "turrets",
+              "sourceFile": "src/content/wiki/turrets.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "038aa182b91f6415ddea29f39387de7a1efe5bd2c3698e7eb76e50f53ca59d0a",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/turrets.md"
+            },
+            {
+              "articleId": "watchtower",
+              "sourceFile": "src/content/wiki/watchtower.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "f358d6aefbf28df11652a1d4f16fe27f6db39fd6629ee7db90939bf2bddf145f",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/watchtower.md"
+            },
+            {
+              "articleId": "weapon-cabinet",
+              "sourceFile": "src/content/wiki/weapon-cabinet.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "b103454839458e145b7200040064ff24d4bba8fa13da81afcc061f6bd4bc9e65",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/weapon-cabinet.md"
+            },
+            {
+              "articleId": "weapon-stand",
+              "sourceFile": "src/content/wiki/weapon-stand.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "42c9958196a3d2b1a932537d6b092aefbf236307be0ccb4a7ac3d8232584c1ff",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/weapon-stand.md"
+            }
+          ]
         }
       ]
     },
@@ -49280,13 +49290,6 @@
           "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/multi-barrel-harpoon-turret.md"
         },
         {
-          "articleId": "ore-drill",
-          "sourceFile": "src/content/wiki/ore-drill.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "d9cd4e4ce57d5d9fcb2f06bed6bd9d91d636005d1613c4be4c225208d2170ac6",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/ore-drill.md"
-        },
-        {
           "articleId": "turrets",
           "sourceFile": "src/content/wiki/turrets.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
@@ -49299,13 +49302,6 @@
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
           "sha256": "f358d6aefbf28df11652a1d4f16fe27f6db39fd6629ee7db90939bf2bddf145f",
           "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/watchtower.md"
-        },
-        {
-          "articleId": "well",
-          "sourceFile": "src/content/wiki/well.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "d36b946ff9fbd20646929e49a125ac5c19bac7f6173fe193f0449600722a96e0",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/well.md"
         },
         {
           "articleId": "y-house",
@@ -49365,14 +49361,6 @@
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         },
         {
-          "pageId": "ore-drill",
-          "label": "<table class=\"wikitable\"><tbody><tr><th>Building Level</th><th>Workers</th><th>Material Cost</th><th>Power Consumption</th><th>Efficiency</th></tr><tr><td>Ore Drill</td><td>2</td><td>25 × <a href=\"/building-materials\">Building Materials</a></td><td>20</td><td>125%</td></tr><tr><td>Ore Drill II</td><td>1</td><td>30 × <a href=\"/building-materials\">Building Materials</a><p>10 × <a href=\"/iron-plates\">Iron Plates</a></p></td><td>25</td><td>140%</td></tr><tr><td>Ore Drill III<p>(Automated)</p></td><td>0</td><td>15 × <a href=\"/building-materials\">Building Materials</a><p>20 × <a href=\"/iron-plates\">Iron Plates</a></p><p>10 × <a href=\"/electrical-components\">Electrical Components</a></p></td><td>35</td><td>140%</td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><th>Building Level</th><th>Workers</th><th>Material Cost</th><th>Power Consumption</th><th>Efficiency</th></tr><tr><td>Ore Drill</td><td>2</td><td>25 × <a href=\"/building-materials\">Building Materials</a></td><td>20</td><td>125%</td></tr><tr><td>Ore Drill II</td><td>1</td><td>30 × <a href=\"/building-materials\">Building Materials</a><p>10 × <a href=\"/iron-plates\">Iron Plates</a></p></td><td>25</td><td>140%</td></tr><tr><td>Ore Drill III<p>(Automated)</p></td><td>0</td><td>15 × <a href=\"/building-materials\">Building Materials</a><p>20 × <a href=\"/iron-plates\">Iron Plates</a></p><p>10 × <a href=\"/electrical-components\">Electrical Components</a></p></td><td>35</td><td>140%</td></tr></tbody></table>",
-          "line": 18,
-          "sourceFile": "src/content/wiki/ore-drill.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
           "pageId": "turrets",
           "label": "<table class=\"wikitable\"><tbody><tr><td>Stats Affected:</td><td rowspan=\"4\"><span>Description:</span><br>Skill at shooting defensive weapon turrets. Affects accuracy, reload speed, target acquisition, and the ability to avoid friendly fire.</td></tr><tr><td>-Accuracy<br>-Rate of fire<br>-Reload speed</td></tr><tr><td>Ways to Train:</td></tr><tr><td>-Using harpoon and crossbow turrets</td></tr><tr><td colspan=\"2\"><a href=\"/statistics\"><span>-Ranged-</span></a></td></tr></tbody></table>",
           "literal": "<table class=\"wikitable\"><tbody><tr><td>Stats Affected:</td><td rowspan=\"4\"><span>Description:</span><br>Skill at shooting defensive weapon turrets. Affects accuracy, reload speed, target acquisition, and the ability to avoid friendly fire.</td></tr><tr><td>-Accuracy<br>-Rate of fire<br>-Reload speed</td></tr><tr><td>Ways to Train:</td></tr><tr><td>-Using harpoon and crossbow turrets</td></tr><tr><td colspan=\"2\"><a href=\"/statistics\"><span>-Ranged-</span></a></td></tr></tbody></table>",
@@ -49429,14 +49417,6 @@
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         },
         {
-          "pageId": "well",
-          "label": "<table class=\"wikitable\"><tbody><tr><th>Building Level</th><th>Required Research</th><th>Material Cost</th><th>Workers</th><th>Power Consumption</th><th>Efficiency</th></tr><tr><td>Well</td><td>Default</td><td>5 x <a href=\"/building-materials\">Building Materials</a></td><td>1</td><td>0</td><td>75%</td></tr><tr><td>Well II</td><td><a href=\"/wells-tech\">Wells 2</a></td><td>6 x <a href=\"/building-materials\">Building Materials</a>, 4 <a href=\"/iron-plates\">Iron Plates</a></td><td>0</td><td>8</td><td>100%</td></tr><tr><td>Well III</td><td><a href=\"/wells-tech\">Wells 3</a></td><td>9 x <a href=\"/building-materials\">Building Materials</a>, 6 <a href=\"/iron-plates\">Iron Plates</a></td><td>0</td><td>10</td><td>125%</td></tr></tbody></table>",
-          "literal": "<table class=\"wikitable\"><tbody><tr><th>Building Level</th><th>Required Research</th><th>Material Cost</th><th>Workers</th><th>Power Consumption</th><th>Efficiency</th></tr><tr><td>Well</td><td>Default</td><td>5 x <a href=\"/building-materials\">Building Materials</a></td><td>1</td><td>0</td><td>75%</td></tr><tr><td>Well II</td><td><a href=\"/wells-tech\">Wells 2</a></td><td>6 x <a href=\"/building-materials\">Building Materials</a>, 4 <a href=\"/iron-plates\">Iron Plates</a></td><td>0</td><td>8</td><td>100%</td></tr><tr><td>Well III</td><td><a href=\"/wells-tech\">Wells 3</a></td><td>9 x <a href=\"/building-materials\">Building Materials</a>, 6 <a href=\"/iron-plates\">Iron Plates</a></td><td>0</td><td>10</td><td>125%</td></tr></tbody></table>",
-          "line": 23,
-          "sourceFile": "src/content/wiki/well.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
           "pageId": "y-house",
           "label": "Both of them offer less interior space. When also taking into consideration that each building adds a deadzone around it (once its placement is confirmed), the Y-House interior actually ends up being much more arrangeable than the other two, as their condensed area ends up working against you.",
           "literal": "Both of them offer less interior space. When also taking into consideration that each building adds a deadzone around it (once its placement is confirmed), the Y-House interior actually ends up being much more arrangeable than the other two, as their condensed area ends up working against you.",
@@ -49451,6 +49431,46 @@
           "line": 33,
           "sourceFile": "src/content/wiki/y-house.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ],
+      "investigationNotes": [
+        {
+          "action": "Refine claim scope",
+          "reason": "Broad keyword matching included unrelated uses such as generic efficiency percentages. Retain the extraction history here; only relevant article claims remain active.",
+          "removedOccurrences": [
+            {
+              "pageId": "ore-drill",
+              "label": "<table class=\"wikitable\"><tbody><tr><th>Building Level</th><th>Workers</th><th>Material Cost</th><th>Power Consumption</th><th>Efficiency</th></tr><tr><td>Ore Drill</td><td>2</td><td>25 × <a href=\"/building-materials\">Building Materials</a></td><td>20</td><td>125%</td></tr><tr><td>Ore Drill II</td><td>1</td><td>30 × <a href=\"/building-materials\">Building Materials</a><p>10 × <a href=\"/iron-plates\">Iron Plates</a></p></td><td>25</td><td>140%</td></tr><tr><td>Ore Drill III<p>(Automated)</p></td><td>0</td><td>15 × <a href=\"/building-materials\">Building Materials</a><p>20 × <a href=\"/iron-plates\">Iron Plates</a></p><p>10 × <a href=\"/electrical-components\">Electrical Components</a></p></td><td>35</td><td>140%</td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><th>Building Level</th><th>Workers</th><th>Material Cost</th><th>Power Consumption</th><th>Efficiency</th></tr><tr><td>Ore Drill</td><td>2</td><td>25 × <a href=\"/building-materials\">Building Materials</a></td><td>20</td><td>125%</td></tr><tr><td>Ore Drill II</td><td>1</td><td>30 × <a href=\"/building-materials\">Building Materials</a><p>10 × <a href=\"/iron-plates\">Iron Plates</a></p></td><td>25</td><td>140%</td></tr><tr><td>Ore Drill III<p>(Automated)</p></td><td>0</td><td>15 × <a href=\"/building-materials\">Building Materials</a><p>20 × <a href=\"/iron-plates\">Iron Plates</a></p><p>10 × <a href=\"/electrical-components\">Electrical Components</a></p></td><td>35</td><td>140%</td></tr></tbody></table>",
+              "line": 18,
+              "sourceFile": "src/content/wiki/ore-drill.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            },
+            {
+              "pageId": "well",
+              "label": "<table class=\"wikitable\"><tbody><tr><th>Building Level</th><th>Required Research</th><th>Material Cost</th><th>Workers</th><th>Power Consumption</th><th>Efficiency</th></tr><tr><td>Well</td><td>Default</td><td>5 x <a href=\"/building-materials\">Building Materials</a></td><td>1</td><td>0</td><td>75%</td></tr><tr><td>Well II</td><td><a href=\"/wells-tech\">Wells 2</a></td><td>6 x <a href=\"/building-materials\">Building Materials</a>, 4 <a href=\"/iron-plates\">Iron Plates</a></td><td>0</td><td>8</td><td>100%</td></tr><tr><td>Well III</td><td><a href=\"/wells-tech\">Wells 3</a></td><td>9 x <a href=\"/building-materials\">Building Materials</a>, 6 <a href=\"/iron-plates\">Iron Plates</a></td><td>0</td><td>10</td><td>125%</td></tr></tbody></table>",
+              "literal": "<table class=\"wikitable\"><tbody><tr><th>Building Level</th><th>Required Research</th><th>Material Cost</th><th>Workers</th><th>Power Consumption</th><th>Efficiency</th></tr><tr><td>Well</td><td>Default</td><td>5 x <a href=\"/building-materials\">Building Materials</a></td><td>1</td><td>0</td><td>75%</td></tr><tr><td>Well II</td><td><a href=\"/wells-tech\">Wells 2</a></td><td>6 x <a href=\"/building-materials\">Building Materials</a>, 4 <a href=\"/iron-plates\">Iron Plates</a></td><td>0</td><td>8</td><td>100%</td></tr><tr><td>Well III</td><td><a href=\"/wells-tech\">Wells 3</a></td><td>9 x <a href=\"/building-materials\">Building Materials</a>, 6 <a href=\"/iron-plates\">Iron Plates</a></td><td>0</td><td>10</td><td>125%</td></tr></tbody></table>",
+              "line": 23,
+              "sourceFile": "src/content/wiki/well.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            }
+          ],
+          "removedEvidence": [
+            {
+              "articleId": "ore-drill",
+              "sourceFile": "src/content/wiki/ore-drill.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "d9cd4e4ce57d5d9fcb2f06bed6bd9d91d636005d1613c4be4c225208d2170ac6",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/ore-drill.md"
+            },
+            {
+              "articleId": "well",
+              "sourceFile": "src/content/wiki/well.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "d36b946ff9fbd20646929e49a125ac5c19bac7f6173fe193f0449600722a96e0",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/well.md"
+            }
+          ]
         }
       ]
     },
@@ -49481,13 +49501,6 @@
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
           "sha256": "af2bab379429aa28c773ccf088068b22ed59564ba9915f92f8e86decbd0f5bd2",
           "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/heavy-armour-smithy.md"
-        },
-        {
-          "articleId": "item-furnace",
-          "sourceFile": "src/content/wiki/item-furnace.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-          "sha256": "3eeeaa945e247292e7fb50c952b919c1b26dac6c91a12d4dceddbf94085124b9",
-          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/item-furnace.md"
         },
         {
           "articleId": "leather-armour-crafting-bench",
@@ -49523,14 +49536,6 @@
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         },
         {
-          "pageId": "item-furnace",
-          "label": "Iron Plates, Bolts, Authentic Skeleton Repair Kits, Generator Cores (Generator Cores cannot be crafted but have Copper Alloy Plates as an ingredient in FCS which has Iron Plates as an ingredient which has Raw Iron as an ingredient) will each give 0.5 Raw Iron.",
-          "literal": "Iron Plates, Bolts, Authentic Skeleton Repair Kits, Generator Cores (Generator Cores cannot be crafted but have Copper Alloy Plates as an ingredient in FCS which has Iron Plates as an ingredient which has Raw Iron as an ingredient) will each give 0.5 Raw Iron.",
-          "line": 26,
-          "sourceFile": "src/content/wiki/item-furnace.md",
-          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
-        },
-        {
           "pageId": "leather-armour-crafting-bench",
           "label": "<details class=\"collapsible\" open=\"\"><summary>Leather Armour Crafting Bench</summary><table class=\"wikitable\"><tbody><tr><td>INPUTS</td><td>ITEMS</td></tr><tr><td><a href=\"/fabrics\"><span>Fabrics</span></a><p><br></p><p><br>(holds 5)</p></td><td rowspan=\"2\"><table class=\"wikitable\"><tbody><tr><td><div><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/55393-rebirth.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/ashland-hat\">Ashland Hat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/55395-rebirth.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/ashlander-stormgoggles\">Ashlander Stormgoggles</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2154-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/assassins-rags\">Assassin's Rags</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/56042-rebirth.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/conscript-leather-armour\">Conscript Leather Armour</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2214-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/dark-leather-shirt\">Dark Leather Shirt</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2306-clothes_v1.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/drifters-boots\">Drifter's Boots</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2304-clothes_v1.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/drifters-leather-jacket\">Drifter's Leather Jacket</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2305-clothes_v1.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/drifters-leather-pants\">Drifter's Leather Pants</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/3061-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/dustcoat\">Dustcoat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/64906-Newwworld.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/hack-stopper-jacket\">Hack Stopper Jacket</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/64907-Newwworld.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/hack-stopper-pants\">Hack Stopper Pants</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/1534050-Newwworld.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/leather-hive-vest\">Leather Hive Vest</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/1169-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/leather-shirt\">Leather Shirt</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2213-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/leather-turtleneck\">Leather Turtleneck</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2212-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/leather-vest\">Leather Vest</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2165-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/longcoat\">Longcoat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2283-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/mercenary-leather-armour\">Mercenary Leather Armour</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2221-chris_r.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/ninja-mask\">Ninja Mask</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2151-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/ninja-rags\">Ninja Rags</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2185-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/rattan-hat\">Rattan Hat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2159-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/samurai-clothpants\">Samurai Clothpants</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/62178-rebirth.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/sleeveless-dustcoat\">Sleeveless Dustcoat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/684-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/sleeveless-longcoat\">Sleeveless Longcoat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2168-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/square-goggles\">Square Goggles</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/51640-rebirth.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/swamp-ninja-rags\">Swamp Ninja Rags</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2163-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/traders-leathers\">Trader's Leathers</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/1415-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/tricorn-hat\">Tricorn Hat</a></td></tr></tbody></table></div></td><td></td></tr></tbody></table></td></tr><tr><td><a href=\"/leather\"><span>Leather</span></a><p><br></p><p><br>(holds 5)</p></td></tr></tbody></table></details>",
           "literal": "<details class=\"collapsible\" open=\"\"><summary>Leather Armour Crafting Bench</summary><table class=\"wikitable\"><tbody><tr><td>INPUTS</td><td>ITEMS</td></tr><tr><td><a href=\"/fabrics\"><span>Fabrics</span></a><p><br></p><p><br>(holds 5)</p></td><td rowspan=\"2\"><table class=\"wikitable\"><tbody><tr><td><div><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/55393-rebirth.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/ashland-hat\">Ashland Hat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/55395-rebirth.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/ashlander-stormgoggles\">Ashlander Stormgoggles</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2154-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/assassins-rags\">Assassin's Rags</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/56042-rebirth.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/conscript-leather-armour\">Conscript Leather Armour</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2214-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/dark-leather-shirt\">Dark Leather Shirt</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2306-clothes_v1.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/drifters-boots\">Drifter's Boots</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2304-clothes_v1.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/drifters-leather-jacket\">Drifter's Leather Jacket</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2305-clothes_v1.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/drifters-leather-pants\">Drifter's Leather Pants</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/3061-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/dustcoat\">Dustcoat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/64906-Newwworld.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/hack-stopper-jacket\">Hack Stopper Jacket</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/64907-Newwworld.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/hack-stopper-pants\">Hack Stopper Pants</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/1534050-Newwworld.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/leather-hive-vest\">Leather Hive Vest</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/1169-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/leather-shirt\">Leather Shirt</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2213-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/leather-turtleneck\">Leather Turtleneck</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2212-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/leather-vest\">Leather Vest</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2165-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/longcoat\">Longcoat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2283-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/mercenary-leather-armour\">Mercenary Leather Armour</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2221-chris_r.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/ninja-mask\">Ninja Mask</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2151-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/ninja-rags\">Ninja Rags</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2185-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/rattan-hat\">Rattan Hat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2159-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/samurai-clothpants\">Samurai Clothpants</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/62178-rebirth.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/sleeveless-dustcoat\">Sleeveless Dustcoat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/684-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/sleeveless-longcoat\">Sleeveless Longcoat</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2168-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/square-goggles\">Square Goggles</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/51640-rebirth.mod.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/swamp-ninja-rags\">Swamp Ninja Rags</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/2163-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/traders-leathers\">Trader's Leathers</a></td></tr></tbody></table><table class=\"wikitable\"><tbody><tr><td><img class=\"item-icon\" src=\"/icons/items/1415-gamedata.base.png\" alt=\"\" width=\"40\" height=\"40\"> <a href=\"/tricorn-hat\">Tricorn Hat</a></td></tr></tbody></table></div></td><td></td></tr></tbody></table></td></tr><tr><td><a href=\"/leather\"><span>Leather</span></a><p><br></p><p><br>(holds 5)</p></td></tr></tbody></table></details>",
@@ -49545,6 +49550,31 @@
           "line": 18,
           "sourceFile": "src/content/wiki/leather-armour-crafting-bench.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ],
+      "investigationNotes": [
+        {
+          "action": "Refine claim scope",
+          "reason": "Broad keyword matching included unrelated uses such as generic efficiency percentages. Retain the extraction history here; only relevant article claims remain active.",
+          "removedOccurrences": [
+            {
+              "pageId": "item-furnace",
+              "label": "Iron Plates, Bolts, Authentic Skeleton Repair Kits, Generator Cores (Generator Cores cannot be crafted but have Copper Alloy Plates as an ingredient in FCS which has Iron Plates as an ingredient which has Raw Iron as an ingredient) will each give 0.5 Raw Iron.",
+              "literal": "Iron Plates, Bolts, Authentic Skeleton Repair Kits, Generator Cores (Generator Cores cannot be crafted but have Copper Alloy Plates as an ingredient in FCS which has Iron Plates as an ingredient which has Raw Iron as an ingredient) will each give 0.5 Raw Iron.",
+              "line": 26,
+              "sourceFile": "src/content/wiki/item-furnace.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+            }
+          ],
+          "removedEvidence": [
+            {
+              "articleId": "item-furnace",
+              "sourceFile": "src/content/wiki/item-furnace.md",
+              "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+              "sha256": "3eeeaa945e247292e7fb50c952b919c1b26dac6c91a12d4dceddbf94085124b9",
+              "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/item-furnace.md"
+            }
+          ]
         }
       ]
     },

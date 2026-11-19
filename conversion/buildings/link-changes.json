@@ -224,5 +224,39 @@
       "/crossbow-turret-strings-tech",
       "/imprisonment-tech"
     ]
+  },
+  {
+    "name": "building-siblings-5",
+    "resolved": [
+      "/rain-collector",
+      "/ramps",
+      "/research-bench",
+      "/riceweed-farm",
+      "/robotics-bench",
+      "/rum-barrels",
+      "/rum-still",
+      "/sake-barrels",
+      "/sake-still",
+      "/scrap-tent",
+      "/searchlight",
+      "/shop-counter",
+      "/skeleton-limb-bench",
+      "/skeleton-repair-bed",
+      "/small-generator",
+      "/small-research-bench",
+      "/small-wind-generator",
+      "/snailhouse",
+      "/spotlight",
+      "/stationhouse",
+      "/steel-refinery",
+      "/stephouse"
+    ],
+    "introduced": [
+      "/basic-exterior-lighting-tech",
+      "/rain-collector-tech",
+      "/search-lights-tech",
+      "/skeleton-repair-beds-tech",
+      "/upgraded-small-generators-tech"
+    ]
   }
 ]

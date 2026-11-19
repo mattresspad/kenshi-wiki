@@ -4138,6 +4138,94 @@
     "prisoner-pole": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/buildings/review.json"
+    },
+    "rain-collector": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "ramps": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "research-bench": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "riceweed-farm": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "robotics-bench": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "rum-barrels": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "rum-still": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "sake-barrels": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "sake-still": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "scrap-tent": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "searchlight": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "shop-counter": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "skeleton-limb-bench": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "skeleton-repair-bed": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "small-generator": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "small-research-bench": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "small-wind-generator": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "snailhouse": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "spotlight": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "stationhouse": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "steel-refinery": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "stephouse": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
     }
   },
   "mediaGaps": [
