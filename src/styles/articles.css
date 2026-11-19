@@ -274,7 +274,7 @@
  :is(.item,.building).with-facts .opening{display:contents}
  :is(.item,.building).with-facts .article-head{grid-column:1;grid-row:1}
  :is(.item,.building).with-facts .opening-copy{grid-column:1;grid-row:2}
- :is(.item,.building).with-facts :is(.factbox,.building-facts){grid-column:2;grid-row:1 / 4}
+ :is(.item,.building).with-facts :is(.factbox,.building-facts,.building-facts-stack){grid-column:2;grid-row:1 / 4}
  :is(.item,.building).with-facts .article-body{grid-column:1;grid-row:3;min-width:0}
  :is(.item,.building).with-facts > article > :not(.opening):not(.article-body){grid-column:1 / -1}
 }
@@ -294,3 +294,6 @@
 .building .building-power-note {border:1px solid var(--edge);padding:10px;max-width:80ch}
 @media(max-width:760px){.building-facts {margin:11px 0 16px}.building .building-products {grid-template-columns:1fr}}
 @media print {.building .building-comparison {min-width:0;font-size:8pt}.building-facts {max-width:29rem}}
+
+.building-facts-stack {min-width:0}
+.building-facts-stack .factbox {margin:0 0 12px}

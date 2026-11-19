@@ -2950,6 +2950,17 @@
       }
     },
     {
+      "id": "availability:/cooking-stove",
+      "kind": "availability",
+      "target": "/cooking-stove",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cooking-stove"
+      }
+    },
+    {
       "id": "availability:/copper",
       "kind": "availability",
       "target": "/copper",
@@ -2958,6 +2969,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/copper"
+      }
+    },
+    {
+      "id": "availability:/copper-alloy-bench",
+      "kind": "availability",
+      "target": "/copper-alloy-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/copper-alloy-bench"
       }
     },
     {
@@ -2983,6 +3005,17 @@
       }
     },
     {
+      "id": "availability:/corpse-furnace",
+      "kind": "availability",
+      "target": "/corpse-furnace",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/corpse-furnace"
+      }
+    },
+    {
       "id": "availability:/cotton",
       "kind": "availability",
       "target": "/cotton",
@@ -2991,6 +3024,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cotton"
+      }
+    },
+    {
+      "id": "availability:/cotton-farm",
+      "kind": "availability",
+      "target": "/cotton-farm",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cotton-farm"
       }
     },
     {
@@ -3324,6 +3368,28 @@
       }
     },
     {
+      "id": "availability:/crossbow-crafting-bench",
+      "kind": "availability",
+      "target": "/crossbow-crafting-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crossbow-crafting-bench"
+      }
+    },
+    {
+      "id": "availability:/crossbow-locker",
+      "kind": "availability",
+      "target": "/crossbow-locker",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crossbow-locker"
+      }
+    },
+    {
       "id": "availability:/crossbow-parts",
       "kind": "availability",
       "target": "/crossbow-parts",
@@ -3577,6 +3643,39 @@
       }
     },
     {
+      "id": "availability:/defensive-gates",
+      "kind": "availability",
+      "target": "/defensive-gates",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/defensive-gates"
+      }
+    },
+    {
+      "id": "availability:/defensive-structures",
+      "kind": "availability",
+      "target": "/defensive-structures",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/defensive-structures"
+      }
+    },
+    {
+      "id": "availability:/defensive-walls",
+      "kind": "availability",
+      "target": "/defensive-walls",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/defensive-walls"
+      }
+    },
+    {
       "id": "availability:/desert-sabre",
       "kind": "availability",
       "target": "/desert-sabre",
@@ -3618,6 +3717,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/disheartened-skeleton"
+      }
+    },
+    {
+      "id": "availability:/display-stand",
+      "kind": "availability",
+      "target": "/display-stand",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/display-stand"
       }
     },
     {
@@ -3695,6 +3805,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/domesticated-bull"
+      }
+    },
+    {
+      "id": "availability:/double-barrel-harpoon-turret",
+      "kind": "availability",
+      "target": "/double-barrel-harpoon-turret",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/double-barrel-harpoon-turret"
       }
     },
     {
@@ -4171,6 +4292,28 @@
       }
     },
     {
+      "id": "availability:/electrical-torch-post",
+      "kind": "availability",
+      "target": "/electrical-torch-post",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/electrical-torch-post"
+      }
+    },
+    {
+      "id": "availability:/electrical-workbench",
+      "kind": "availability",
+      "target": "/electrical-workbench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/electrical-workbench"
+      }
+    },
+    {
       "id": "availability:/elite-droneguard",
       "kind": "availability",
       "target": "/elite-droneguard",
@@ -4556,6 +4699,17 @@
       }
     },
     {
+      "id": "availability:/fabric-chest",
+      "kind": "availability",
+      "target": "/fabric-chest",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fabric-chest"
+      }
+    },
+    {
       "id": "availability:/fabric-loom-cotton",
       "kind": "availability",
       "target": "/fabric-loom-cotton",
@@ -4564,6 +4718,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fabric-loom-cotton"
+      }
+    },
+    {
+      "id": "availability:/fabric-loom-hemp",
+      "kind": "availability",
+      "target": "/fabric-loom-hemp",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fabric-loom-hemp"
+      }
+    },
+    {
+      "id": "availability:/fabric-looms",
+      "kind": "availability",
+      "target": "/fabric-looms",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fabric-looms"
       }
     },
     {
@@ -4853,6 +5029,17 @@
       }
     },
     {
+      "id": "availability:/flat-shelter",
+      "kind": "availability",
+      "target": "/flat-shelter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flat-shelter"
+      }
+    },
+    {
       "id": "availability:/flats-lagoon",
       "kind": "availability",
       "target": "/flats-lagoon",
@@ -5004,6 +5191,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/flotsam-village/cannibals"
+      }
+    },
+    {
+      "id": "availability:/flour-storage",
+      "kind": "availability",
+      "target": "/flour-storage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flour-storage"
       }
     },
     {
@@ -5392,6 +5590,28 @@
       }
     },
     {
+      "id": "availability:/general-storage-boxes",
+      "kind": "availability",
+      "target": "/general-storage-boxes",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/general-storage-boxes"
+      }
+    },
+    {
+      "id": "availability:/general-storage-chest",
+      "kind": "availability",
+      "target": "/general-storage-chest",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/general-storage-chest"
+      }
+    },
+    {
       "id": "availability:/generator-core",
       "kind": "availability",
       "target": "/generator-core",
@@ -5400,6 +5620,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/generator-core"
+      }
+    },
+    {
+      "id": "availability:/generator-ii",
+      "kind": "availability",
+      "target": "/generator-ii",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/generator-ii"
       }
     },
     {
@@ -5576,6 +5807,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/gorrillo"
+      }
+    },
+    {
+      "id": "availability:/grain-silo",
+      "kind": "availability",
+      "target": "/grain-silo",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/grain-silo"
       }
     },
     {

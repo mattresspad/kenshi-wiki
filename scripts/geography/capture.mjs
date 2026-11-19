@@ -9,6 +9,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
   const extra={
     'building-pilots':batch.ids,
+    'building-siblings-2':['cooking-stove','defensive-gates','defensive-walls'],
     'building-variants':batch.ids,
     'building-conditions':batch.ids,
     'building-overviews':batch.ids,

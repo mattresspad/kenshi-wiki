@@ -528,6 +528,350 @@
         "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency"
       ]
+    },
+    {
+      "id": "cooking-stove",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Cooking Stove allows you to cook a number of recipes in the game as listed below. Using the stove trains the Cooking skill. Power Power Consumption - -2 Efficiency - 1x Workers - 1 Crafting",
+      "organization": "Reviewed 2 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cooking-stove.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "330e0a77dfe3d3741238be3b6a716690181860ecc8baa062d7e8fb2015b33d1f"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "copper-alloy-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Copper Alloy Bench is a building which converts Copper and Iron Plates into Copper Alloy Plates. It can be constructed after researching Copper Alloys. This building uses and trains the Engineer stat. Copper Alloy Bench",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/copper-alloy-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c0532222ddb5ec1f899c5aeff1de48592d8a6fcc375cc4a5660b6671038dff5e"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "corpse-furnace",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Corpse Furnace is a building which can be used to dispose of dead characters. Corpse Furnaces are found in the power category in the Build Mode menu. It can be built after players research Corpse Disposal. Characters which are carrying a corpse can use this machine to destroy the corpse as well as all items which were held by the corpse. Locations Towns",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/corpse-furnace.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fe61eabc3bdc47c572d761d7e0dab81ff9313c49410a907ecdf4e21e0c64b9e1"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-incomplete-details",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "cotton-farm",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Cotton Farm produces cotton, which can be used to make fabric. It can be farmed most efficiently in areas with the Green Environment. Contrary to the description, cotton can also be grown inside an Arid or Swamp environment, as long as there is more than 0% of Green environment there as well. Research Requirements Tech Level 1 2 cotton and 2 books Farming Plots Cotton Farm S Requires 10 crops to build Produces 30 crops Takes 30 in game hours to fully grow at 100% fertility Must be harvested within 20 in-game hours Uses 6 buckets of water per day, assuming no rain. Cotton Farm M Requires 25 crops to build Produces 56 crops Takes 30 in-game hours to fully grow at 100% fertility Must be harvested within 20 in-game hours Uses 6 buckets of water per day, assuming no rain. Cotton Farm L Requires 40 crops to build Produces 90 crops Takes 30 in-game hours to fully grow at 100% fertility Must be harvested within 20 in-game hours Uses 6 buckets of water per day, assuming no rain. Cotton Farm XL Requires 60 crops to build Produces 121 crops Takes 30 in-game hours to fully grow at 100% fertility Must be harvested within 20 in-game hours Uses 6 buckets of water per day, assuming no rain.",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cotton-farm.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "be27254cf88954ec2c63b6af816a4d03b44375b0c0dd316a797405d1a501f80d"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "crossbow-crafting-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Crossbow Crafting Bench is a crafting building which players can craft Crossbows using Steel Bars, Spring Steel, Hinges and Crossbow Parts. It can be constructed after researching Crossbow Crafting. The Crossbow Smith skill determines the speed and quality of the final products at this bench. Only Junkbows can be crafted without using Blueprints.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crossbow-crafting-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "96af4a57f1331f553a5b910208f673bfce6aef8973fbce30ef1f0c6b16b61699"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "crossbow-locker",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Crossbow Locker is as Storage container visually identical to the Weapon Cabinet. The crossbow locker can only be used to store Crossbows. Details This container has a storage space of 18x18 squares. Notes As of patch 1.0.19, a bug exists with the crossbow locker allowing any item to be placed inside. Additionally, removes the stolen tag from any item placed inside.",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crossbow-locker.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e116e5d5b04e9d0f62ad8527d914cfde48e5f1aa77c4d76d29796cf4cb5459a1"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency"
+      ]
+    },
+    {
+      "id": "defensive-gates",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Gates are structures used to allow free passage across other static defences such as defensive walls. There are four tiers available, each requiring its own technology to unlock it and additional resources to build. Similar to walls, during construction the blue arrow should point towards the outside of your city. Makeshift Gate Makeshift Gates are the first type of gates which players can construct. Players must research Makeshift Walls in order to build. Once Defensive Walls is researched, it can be upgraded to the next tier. These gates are made of scrap metal sheets and have barb wire strands across the top. Unlike gates in previous versions of Kenshi, the Makeshift Gate has a raised platform where a cylinder shaped gate house is located. Details Material cost: 5 building materials Condition: 5 Door Condition: 15 Defensive Gates II Defensive Gates have a metal portcullis and allows for Spotlights to be mounted on them. They are the upgraded version of the Makeshift Gate and can be constructed after completing the Defensive Walls research. After the research is completed, previously built Makeshift Gates can be upgraded to a Defensive Gate by clicking the “upgrade” button in the building information pane. Construction Info Material cost: 10 Building Materials Estimated build time: 12 Hours Condition: 10 Door Condition: 30 Defensive Gates III Defensive Gates Type Defense place Exterior Tier III defensive gate that allows Spotlights to be mounted on it. The gate itself has 60 max condition. Unlike the other defensive gate tiers, Defensive Gate III can be upgraded directly to Defensive Gate IV. Requires Large Defensive Walls research to be built. Construction Info Material cost: 15 Building Materials Estimated build time: 15 Hours Condition: 15 Door Condition: 60 Defensive Gates IV Defensive Gates Type Defense place Exterior Tier IV defensive gate that allows Spotlights to be mounted on it. The gate itself has 90 max condition. Requires Strong Defensive Walls research to be built. Construction Info Material cost: 20 Building Materials Estimated build time: 20 Hours Condition: 20 Door Condition: 90 History The Defensive Gate was added to the game in version 0.65.0 as a new type of defensive gate.",
+      "organization": "Reviewed 15 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/defensive-gates.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1bfdc92b8ee4e23b24f5c6ce26c96ee24d24404070531cc43a54834967420f70"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-gate-condition-conflict",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "defensive-structures",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Defensive Structures are buildings which can be constructed by the player for the purpose of defending their outpost. These structures include walls and turrets. For best defense, players should construct turrets on top of walls and ensure adequate lighting throughout. Defensive Structures",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/defensive-structures.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1f3a8c811873cd571b6ff0d58da170e0a121cf9aea116c44b86c5d3c043d5c2a"
+      },
+      "questions": []
+    },
+    {
+      "id": "defensive-walls",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Walls are defensive structures used to keep potential threats at bay. There are four tiers available, each requiring its own technology to unlock it and additional resources to build. For construction, select a wall from the buildings menu and click on the ground. This spot will mark the beginning of your wall. You can now drag the wall from its initial spot further. Note that the blue arrows pointing from the wall silhouette should be facing the outside. By clicking on the ground after that you would mark spots where a wall would “fix itself” to the ground, similar to sailing points. You can do so as many times as necessary. Once you are happy with your wall you can right-click to stop wall placement. If you want to continue your wall, you can do so at any time by hovering over an end point of your wall and clicking to place your wall again. Security of an outpost completely surrounded by walls should be tested as enemies could glitch through them. To test this, the player should close the gates and order their characters to move to an area outside the walls to visualize the pathways their characters could take. No movement should indicate the walls are complete. Though the player’s outpost may pass this test, enemies could still penetrate inside of a walled area if the walls are connected to elements of the world such as big rocks or mountain ranges. This is because constructed walls might not be completely connected to them. There is no way to safeguard these pathways except by pressing Shift+F12 to activate the game editor menu and by then constructing walls inside those “natural obstacles”. Makeshift Walls Makeshift Walls are the first type of walls which players can construct. Players must research Makeshift Walls in order to build. Once Defensive Walls is researched, it can be upgraded to the next tier. These walls are made up of scrap metal sheets with barb wire strands across the top. Makeshift Walls are considerably taller than the in-game walls from prior versions. It’s not possible to place anything on this wall, nor can anyone circulate over it. Makeshift walls are used in game locations such as Fort Simion and Slave Markets. Defensive Wall II This model allows the placement of turrets on it, as well as free circulation of the defenders across it. It’s a direct improvement over the Makeshift Walls and requires the tier II Defensive Walls research in order to be built. It offers little protection to characters that remain vulnerable to enemy crossbows. It cannot be upgraded to a higher tier wall type directly. Construction Info Material cost: 2 Building Materials Estimated build time: 2 Hours Power consumption: 0 Bonus to mounted turrets: 0% Defensive Wall III Defensive Walls Type Defense place Exterior It inherits the ability of placing turrets and pathing of the previous one, requiring the tier 5 technology Large Defensive Walls in order to be built. Defensive merlon structures on top offer some protection from enemy fire. Once Strong Defensive Walls is researched, it can be directly upgraded to Defensive Wall IV. Construction Info Material Cost: 3 Building Materials Estimated build time: 3 hours Power consumption: 0 Bonus to mounted turrets: 10% Defensive Wall IV Defensive Walls Type Defense place Exterior It inherits the ability of placing turrets and pathing of the previous one, requiring the tier 6 technology Strong Defensive Walls in order to be build. Defensive embrasures on top offer significant protection from enemy fire as well as a fixed place to install the mounted crossbows. While FCS does list an upgrade to these, it can’t be achieved during normal gameplay. When constructing these walls, pay attention to how the loopholes are placed. Once the wall is long enough, four embrasures will be placed in a row, and another set of embrasures will begin with a new section. Placing a shorter section of the wall will result in no loopholes placed. While sometimes this may be necessary, there is no reason not to have all your walls have all the combat stations necessary. Construction Info Material Cost: 4 Building Materials Estimated build time: 4 hours Power consumption: 0 Bonus to mounted turrets: 20% History Defensive Walls have been a part of Kenshi since version 0.40 but received a visual and stat change with version 0.65.0. The new version of the Defensive Wall is constructed with pieces of metal and a railed off walkway. While there is no way to build the older version of the wall through the game’s build menu. It is possible to place them through the in-game editor.",
+      "organization": "Reviewed 14 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/defensive-walls.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d54f151faf89fa125b12e0fb736b5e580a2b274f696d6d5d60a1c0ae53bbf000"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-turret-and-placement"
+      ]
+    },
+    {
+      "id": "display-stand",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Display Stand is a building. Players can construct it after learning a blueprint. This building can be found in the ‘Interior’ category of the Build Menu. If things are dropped near it, they might land on this small shelf. Despite being a “display” stand, it will not display any of items dropped into its inventory to be actually seen in game. The stand, however, can be used and accessed as any other storage and has dimensions of 4x4. This building is commonly used as visual storage for items in shops and other buildings in town. It can also be found in Lost Libraries. Blueprint Random Furniture blueprints, that contain this building, can be found at both Travel and Adventure shops.",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/display-stand.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "94a804f69a9e794c196c2350c4c62cb2ed5a3ffb8a1a69a4326418c6788d36e9"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "double-barrel-harpoon-turret",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Double-Barrel Harpoon Turret is a Defence building. Players can construct this building after researching Double-Barrel Harpoon Turret. They can be built on the ground or on top of Defensive Walls. The range, accuracy, and speed of a turret is modified by the operator’s related skills. The previously mentioned stats as well as the damage of the turret is affected by the height difference between the turret and its target. Turrets, like all ranged weapons will be more effective if fired from above. Double-Barrel Harpoon Turrets can be upgraded to Double-Barrel Harpoon Turret [light] after researching Double-Barrel Turret Spotlight Fitting. The stats for an unlighted Double-Barrel Harpoon Turret are the same as a lighted one, disregarding the negative effects of working in darkness.",
+      "organization": "Reviewed 0 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/double-barrel-harpoon-turret.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ce3c28e8f6c02a8447692ef98325fa2ff1c3d94cade69effcac3d0ff6afacc59"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-turret-and-placement"
+      ]
+    },
+    {
+      "id": "electrical-torch-post",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Electrical Torch Post is a Lighting building. It is similar to a standard Torch Post, except it requires power. It can be constructed after researching Indoor Lighting. Details Power usage -1 Efficiency 100%",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/electrical-torch-post.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "68d08c2fd8a114b3645663e401f0fa45ca643266d0617d01e24ebd167ee16030"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "electrical-workbench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Electrical Workbench is a Crafting station which converts Copper into Electrical Components, at a one-to-one ratio. This station uses and trains the Science stat of its worker. Players can construct this building after researching Electrical Crafting. Electrical Workbench Details Consumes 10 Power 1 Worker",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/electrical-workbench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "54ac7f6330dee10cf99b49396491032f8d1a4a60cd0bc8fbff2bc96c92362b08"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "fabric-chest",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Fabric Chest is a storage container which exclusively contains Fabrics. This container can hold a total of 50 items. Players can construct this building after researching one of the following technologies: Fabric Manufacture (Tech) Hemp-Based Fabric (Tech) Storage Boxes: Crafting (Tech).",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fabric-chest.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "318acfe052ea071fb7ee34c782e8cad9043003a792d8e749d680e8c20319859c"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "fabric-loom-hemp",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Fabric Loom (hemp) is a crafting building which converts hemp into fabrics. A fabric loom produces fabrics, which can be used in the production of armour, clothing, and weapons. Players can construct this building after researching Hemp-Based Fabric. Using the Fabric Loom improves the labouring skill. Fabric Loom (hemp) Fabric Loom (hemp) can be upgraded to Hemp Auto-Loom after researching Automatic Loom (Hemp). There’s a similar building utilising a different plant - Fabric Loom (cotton).",
+      "organization": "Reviewed 0 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fabric-loom-hemp.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3ada37a798c4e34be48435122995e9c9de3f20e7eab9eb3b6428176dbb2c9f6b"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "fabric-looms",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Fabric Loom is a Crafting building which converts a crop into Fabrics. There are two separate versions of this building, both of which require specific research. Later iterations can be automated. Fabric Loom (cotton) Fabric Loom (hemp)",
+      "organization": "Reviewed 0 headings and 0 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fabric-looms.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "06a600b9a3d4dbe1db5c9451798d206b06ded8c5141d432c1aff062aff97fb80"
+      },
+      "questions": [
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "flat-shelter",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Flat Shelters are camping buildings which the player can construct anywhere after learning the blueprint. They require very few materials in order to construct and do not result in the creation of a player town. Camps can be used as a quick shelter from acid rain. If you so wish, this tent can fit inside most buildings and also be constructed on top of them. The blueprint can be purchased from any of these locations: Adventurer Bar Flats Lagoon Bar Shark Travel Shop Tech Hunter Shop Travel and Repairs Shop Travel Gear",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flat-shelter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fe12dd958802a64e16d7f46f877c68d8066ac6a09ea36b41e26b81d884f46648"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "flour-storage",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Flour Storage is a storage container for storing Strawflour with a capacity of up to 50 items. History",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flour-storage.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4fece1df34f808aeeb94a4650661f2d8646ba65fb8796efa619de12b042dbdc6"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "general-storage-boxes",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: General Storage Boxes are a basic storage container. Players can construct this building after researching Item Storage. It has the same storage capacity as a General Storage Chest and requires more space, making it a less attractive option unless the appearance is preferred. Info grid size 18x18 stacking storage NOTE: Characters will not pick up food from the container when they are hungry. [V 0.93.5]",
+      "organization": "Reviewed 2 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/general-storage-boxes.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "59b0e13c2d2f89ab72e80e92fb4fe195413d4b772ab6a435608de4524b2bb661"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-storage-food-conflict"
+      ]
+    },
+    {
+      "id": "general-storage-chest",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The General Storage Chest is a container for storing any item. Players can construct this building after researching Item Storage. NOTE: Characters will pick up food from the container when they are hungry but wont leave the chest afterwards. [V 0.93.5] Details This chest has a storage space of 18 x 18 squares and a stacking multiplier of 5.",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/general-storage-chest.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "603dc1860615d1a3b48c9b07b41a340a492c20954b3f53df5f26acb3f238163f"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-storage-food-conflict",
+        "claim:building-storage-size-conflict"
+      ]
+    },
+    {
+      "id": "generator-ii",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Generator produces power by burning Fuel. Power output can be increased by 15 by researching Amplified Generators. This can be done twice for a full power output of 130. With the existence of Wind Generators, some of which produce similar or greater power than Fuel-based Generators, one might question the need for them. The answer is simple: Some regions of Kenshi have very low wind speeds or are wind-dead. Because of this the only functional or reliable energy source would be Fuel-based Generators. Comparably, wind farms will eventually require gargantuan amounts of space to power well-developed mid/late game bases and will need numerous Battery Banks to ensure reliability during drops in wind-speed. On the other hand, all a vast array of Generators requires is a meager infrastructure of Biofuel Distilleries, which can be drawn from food-crops or Hemp which is more preferable due to the massive production-speed increase. If space is a concern yet more power required, 4 Small Generators can be used in the same space as the Generator II. Fully upgraded, the 4 Small Generators will massively outclass the Generator II, yet will yield HORRENDOUS Fuel-efficiency as a result. Details Power Output: 100 Generator II will burn 1 fuel in 220 in game minutes at 100% load, or ~6.55 Fuel per day, regardless of anything else.",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/generator-ii.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "543ec6c7e30bc95a9826e583011a6ec4b98c9fe50542ece9c79f2357a964e65d"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "grain-silo",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Grain silos grind Wheatstraw to produce Strawflour, which is solely used to bake Bread. The non-automatic grain silo trains the Farming skill of the operator. Grain Silo Details Power Consumption - -4 Efficiency - 1x Workers - 1 Automatic Grain Silo WIP Automatic Grain Silo Construction Info Type - Exterior Requires Automatic Flour Grinding researched 4 Building Materials Estimated Build Time - 6 Hours Power Consumption - -4 Efficiency - 1x Produces - Strawflour Automatic Grain Silo Building Info Requires - Wheatstraw Workers - 1",
+      "organization": "Reviewed 4 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/grain-silo.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ef50bd6b10546202e3c9d041ef92f902360ad1a78b50022ba2982de2659abd90"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-grain-silo-automation",
+        "claim:building-recipes-and-capacity"
+      ]
     }
   ],
   "editorialChanges": [
@@ -555,6 +899,11 @@
       "id": "fabrics-building-cross-reference",
       "change": "Add a separately marked Station details link before Fabrics’ existing Clothing Bench recipe disclosure so the requested item-to-station journey works. Retain every original recipe and label.",
       "evidence": "src/content/articles/items/fabrics.md"
+    },
+    {
+      "id": "building-structured-facts",
+      "change": "Preserve the six existing structured infoboxes as typed facts. Where an article also has a leading property table, stack both in the same desktop facts column and after the phone introduction.",
+      "evidence": "src/pages/[...article].astro"
     }
   ]
 }

@@ -113,5 +113,46 @@
       "/hemp-oil-biofuel-tech",
       "/indoor-lighting-tech"
     ]
+  },
+  {
+    "name": "building-siblings-2",
+    "resolved": [
+      "/cooking-stove",
+      "/copper-alloy-bench",
+      "/corpse-furnace",
+      "/cotton-farm",
+      "/crossbow-crafting-bench",
+      "/crossbow-locker",
+      "/defensive-gates",
+      "/defensive-structures",
+      "/defensive-walls",
+      "/display-stand",
+      "/double-barrel-harpoon-turret",
+      "/electrical-torch-post",
+      "/electrical-workbench",
+      "/fabric-chest",
+      "/fabric-loom-hemp",
+      "/fabric-looms",
+      "/flat-shelter",
+      "/flour-storage",
+      "/general-storage-boxes",
+      "/general-storage-chest",
+      "/generator-ii",
+      "/grain-silo"
+    ],
+    "introduced": [
+      "/amplified-generators-tech",
+      "/automatic-flour-grinding-tech",
+      "/automatic-loom-hemp-tech",
+      "/corpse-disposal",
+      "/defensive-walls-tech",
+      "/double-barrel-turret-spotlight-fitting-tech",
+      "/heavy-generator-theory-tech",
+      "/large-defensive-walls",
+      "/large-defensive-walls-tech",
+      "/makeshift-walls-tech",
+      "/mounted-crossbows-tech",
+      "/strong-defensive-walls"
+    ]
   }
 ]

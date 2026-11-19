@@ -129,10 +129,12 @@ test('long letters retain keyboard access, focus and a flowing phone and print l
   }finally{await ctx.close()}
 });
 test('all locally accepted canonical pages and the sitemap agree; excluded and pending routes return 404 locally',async({request})=>{
+  // This corpus-wide check grows with each accepted family, beyond a single-page test.
+  test.setTimeout(120000);
   const paths=[...expectedRoutes()];
   const xml=await (await request.get('/sitemap-0.xml')).text();
   const urls=Array.from(xml.matchAll(/<loc>([^<]+)<\/loc>/g),m=>m[1]);expect(urls.sort()).toEqual(paths.map(p=>origin+p).sort());
-  for(const p of paths){const html=await(await request.get(p)).text();const tags=load(html)('link[rel=canonical]');expect(tags.length).toBe(1);expect(tags.attr('href')).toBe(origin+p);}
+  for(const p of paths){const response=await request.get(p);try{expect(response.status(),p).toBe(200);const tags=load(await response.text())('link[rel=canonical]');expect(tags.length).toBe(1);expect(tags.attr('href')).toBe(origin+p);}finally{await response.dispose();}}
   expect(await(await request.get('/robots.txt')).text()).toContain(origin+'/sitemap-index.xml');
   for(const p of ['/category/pages-with-non-numeric-formatnum-arguments','/unreviewed-test-path'])expect((await request.get(p)).status()).toBe(404);
   const config=JSON.parse(readFileSync('.cloudflare/output/v0/workers/default/worker.config.json','utf8'));
