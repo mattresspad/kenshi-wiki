@@ -258,5 +258,37 @@
       "/skeleton-repair-beds-tech",
       "/upgraded-small-generators-tech"
     ]
+  },
+  {
+    "name": "building-siblings-6",
+    "resolved": [
+      "/stone-mine",
+      "/storage-armour-plate",
+      "/storage-building-materials",
+      "/storage-cactus",
+      "/storage-chainmail",
+      "/storage-copper",
+      "/storage-copper-alloys",
+      "/storage-cotton",
+      "/storage-crossbow-parts",
+      "/storage-electricals",
+      "/storage-fuel",
+      "/storage-greenfruit",
+      "/storage-hashish",
+      "/storage-hemp",
+      "/storage-iron-plates",
+      "/storage-leather",
+      "/storage-meat",
+      "/storage-ore",
+      "/storage-riceweed",
+      "/storage-robotics",
+      "/storage-skins",
+      "/storage-steel-bars"
+    ],
+    "introduced": [
+      "/advanced-stone-mining-tech",
+      "/improved-stone-mining-tech",
+      "/storage-boxes-crafting"
+    ]
   }
 ]

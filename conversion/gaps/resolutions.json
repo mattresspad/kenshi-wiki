@@ -14775,6 +14775,17 @@
       }
     },
     {
+      "id": "availability:/stone-mine",
+      "kind": "availability",
+      "target": "/stone-mine",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stone-mine"
+      }
+    },
+    {
       "id": "availability:/stone-processor",
       "kind": "availability",
       "target": "/stone-processor",
@@ -14827,6 +14838,237 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/storage"
+      }
+    },
+    {
+      "id": "availability:/storage-armour-plate",
+      "kind": "availability",
+      "target": "/storage-armour-plate",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-armour-plate"
+      }
+    },
+    {
+      "id": "availability:/storage-building-materials",
+      "kind": "availability",
+      "target": "/storage-building-materials",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-building-materials"
+      }
+    },
+    {
+      "id": "availability:/storage-cactus",
+      "kind": "availability",
+      "target": "/storage-cactus",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-cactus"
+      }
+    },
+    {
+      "id": "availability:/storage-chainmail",
+      "kind": "availability",
+      "target": "/storage-chainmail",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-chainmail"
+      }
+    },
+    {
+      "id": "availability:/storage-copper",
+      "kind": "availability",
+      "target": "/storage-copper",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-copper"
+      }
+    },
+    {
+      "id": "availability:/storage-copper-alloys",
+      "kind": "availability",
+      "target": "/storage-copper-alloys",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-copper-alloys"
+      }
+    },
+    {
+      "id": "availability:/storage-cotton",
+      "kind": "availability",
+      "target": "/storage-cotton",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-cotton"
+      }
+    },
+    {
+      "id": "availability:/storage-crossbow-parts",
+      "kind": "availability",
+      "target": "/storage-crossbow-parts",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-crossbow-parts"
+      }
+    },
+    {
+      "id": "availability:/storage-electricals",
+      "kind": "availability",
+      "target": "/storage-electricals",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-electricals"
+      }
+    },
+    {
+      "id": "availability:/storage-fuel",
+      "kind": "availability",
+      "target": "/storage-fuel",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-fuel"
+      }
+    },
+    {
+      "id": "availability:/storage-greenfruit",
+      "kind": "availability",
+      "target": "/storage-greenfruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-greenfruit"
+      }
+    },
+    {
+      "id": "availability:/storage-hashish",
+      "kind": "availability",
+      "target": "/storage-hashish",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-hashish"
+      }
+    },
+    {
+      "id": "availability:/storage-hemp",
+      "kind": "availability",
+      "target": "/storage-hemp",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-hemp"
+      }
+    },
+    {
+      "id": "availability:/storage-iron-plates",
+      "kind": "availability",
+      "target": "/storage-iron-plates",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-iron-plates"
+      }
+    },
+    {
+      "id": "availability:/storage-leather",
+      "kind": "availability",
+      "target": "/storage-leather",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-leather"
+      }
+    },
+    {
+      "id": "availability:/storage-meat",
+      "kind": "availability",
+      "target": "/storage-meat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-meat"
+      }
+    },
+    {
+      "id": "availability:/storage-ore",
+      "kind": "availability",
+      "target": "/storage-ore",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-ore"
+      }
+    },
+    {
+      "id": "availability:/storage-riceweed",
+      "kind": "availability",
+      "target": "/storage-riceweed",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-riceweed"
+      }
+    },
+    {
+      "id": "availability:/storage-robotics",
+      "kind": "availability",
+      "target": "/storage-robotics",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-robotics"
+      }
+    },
+    {
+      "id": "availability:/storage-skins",
+      "kind": "availability",
+      "target": "/storage-skins",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-skins"
+      }
+    },
+    {
+      "id": "availability:/storage-steel-bars",
+      "kind": "availability",
+      "target": "/storage-steel-bars",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-6",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage-steel-bars"
       }
     },
     {

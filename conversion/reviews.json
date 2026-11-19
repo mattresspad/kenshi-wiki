@@ -4226,6 +4226,94 @@
     "stephouse": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/buildings/review.json"
+    },
+    "stone-mine": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-armour-plate": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-building-materials": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-cactus": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-chainmail": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-copper-alloys": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-copper": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-cotton": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-crossbow-parts": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-electricals": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-fuel": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-greenfruit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-hashish": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-hemp": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-iron-plates": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-leather": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-meat": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-ore": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-riceweed": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-robotics": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-skins": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "storage-steel-bars": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
     }
   },
   "mediaGaps": [

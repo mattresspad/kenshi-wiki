@@ -77,7 +77,6 @@
         "sha256": "fd5f0c247f3944cb1855fc83be1ec4489b55fcdd4a42145fa84bef1dc25f9486"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-recipes-and-capacity"
       ]
@@ -125,7 +124,6 @@
         "sha256": "b589bb82e7fe0c186f1ee592c4d209a1747c9a8d41f61e69738780a47d7a1d23"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-environment-and-automation",
         "claim:building-food-store",
@@ -158,7 +156,6 @@
         "sha256": "abfcc51cc09870d65740e062cd813202580e13f13f3c8df43fa506059c0ebffe"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-environment-and-automation",
         "claim:building-recipes-and-capacity"
@@ -207,7 +204,6 @@
         "sha256": "62f40f90db8d937f561bd57216b7db05c43ae31df334c1a854eb244ff1545969"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-environment-and-automation"
       ]
@@ -525,7 +521,6 @@
         "sha256": "03ba51b231bf09b4654c727052ac0225513d24319b96dbe867753522524467a2"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency"
       ]
     },
@@ -540,7 +535,6 @@
         "sha256": "330e0a77dfe3d3741238be3b6a716690181860ecc8baa062d7e8fb2015b33d1f"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-environment-and-automation",
         "claim:building-recipes-and-capacity"
@@ -619,7 +613,6 @@
         "sha256": "e116e5d5b04e9d0f62ad8527d914cfde48e5f1aa77c4d76d29796cf4cb5459a1"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency"
       ]
     },
@@ -678,7 +671,6 @@
         "sha256": "94a804f69a9e794c196c2350c4c62cb2ed5a3ffb8a1a69a4326418c6788d36e9"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-recipes-and-capacity"
       ]
@@ -694,7 +686,6 @@
         "sha256": "ce3c28e8f6c02a8447692ef98325fa2ff1c3d94cade69effcac3d0ff6afacc59"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-recipes-and-capacity",
         "claim:building-turret-and-placement"
@@ -817,7 +808,6 @@
         "sha256": "59b0e13c2d2f89ab72e80e92fb4fe195413d4b772ab6a435608de4524b2bb661"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-recipes-and-capacity",
         "claim:building-storage-food-conflict"
@@ -915,7 +905,6 @@
         "sha256": "3fd55686f5f66a714f2a2358084eec2976656a330379331493381408682b8dbe"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-turret-and-placement"
       ]
@@ -1079,8 +1068,7 @@
       "questions": [
         "claim:building-costs-and-efficiency",
         "claim:building-furnace-and-quality",
-        "claim:building-recipes-and-capacity",
-        "claim:building-unavailable-blueprints"
+        "claim:building-recipes-and-capacity"
       ]
     },
     {
@@ -1307,7 +1295,6 @@
         "sha256": "a748d409101ca256d7487c48d4c1efdcb8a9faf4e16a3d7592a530b329d0cee0"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-recipes-and-capacity",
         "claim:building-turret-and-placement"
@@ -1324,7 +1311,6 @@
         "sha256": "ca0cba2cd242de6d344d39618619b631d784f263a841f22bbc736ba5eee88f7e"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-recipes-and-capacity",
         "claim:building-turret-and-placement"
@@ -1341,7 +1327,6 @@
         "sha256": "14eff5669034bb46340540b01ff6f844e5cfca8404707277a308c424883254e3"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-recipes-and-capacity",
         "claim:building-turret-and-placement"
@@ -1389,8 +1374,7 @@
       },
       "questions": [
         "claim:building-costs-and-efficiency",
-        "claim:building-environment-and-automation",
-        "claim:building-turret-and-placement"
+        "claim:building-environment-and-automation"
       ]
     },
     {
@@ -1564,7 +1548,6 @@
         "sha256": "8ddf04884db5e1956fad2ab3bf94565679e8ef02b642c71ffcf0dd006ec484c6"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-environment-and-automation",
         "claim:building-recipes-and-capacity"
@@ -1750,7 +1733,6 @@
         "sha256": "7779733e060e9e2c05b292b7d16f4ec66be9521fb042f09fd9e90b23eee2a1ef"
       },
       "questions": [
-        "claim:building-care-and-detention",
         "claim:building-costs-and-efficiency",
         "claim:building-environment-and-automation",
         "claim:building-furnace-and-quality",
@@ -1890,7 +1872,342 @@
         "sha256": "0875481f989403c5969eea93a22c3453140fbad00c9f352706e14494bb28865d"
       },
       "questions": [
-        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "stone-mine",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Stone Mines are resource production buildings that generate the raw material Raw Stone and directly Building Materials at higher upgrade levels. Stone mines use and level up the Labouring skill of miners. The Hybrid Stone Mine II, at the end of the tech tree, completely removes the need for manual labour. The amount and rate of stone gathered will be dependent on where the mine is built. A character should use Prospecting to find a suitable location. Upgrades",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stone-mine.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6bd5318d471d2075087d64306bb0f9a84940fbd18fd010a23092f94b289d14d0"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-armour-plate",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Armour Plate is a storage container which exclusively contains Armour Plating. Players can construct this building after researching Storage Boxes: Crafting (Tech). This container can hold a total of 25 plates. Having Storage: Armour Plate is recommended for outposts with Armour Smiths.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-armour-plate.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "76c9b108a984019f4591b2eb8572b15463294b42b9f7185dc8640544eda7bb0e"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-building-materials",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Building Materials is a storage container which exclusively contains Building Materials. This container can hold a total of 100 items.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-building-materials.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b0aeaa74c67a4ea372bffe693c24add87cdbb1dc16fa1488aba384c0cbc1da0e"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-cactus",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Cactus is a single-item Storage container which holds Cactus. It can be constructed after researching Cactus Farming. Characters will pick up the Cactus from the Storage for Chewsticks and Rum crafting automatically. NOTE: The characters will auto-haul into the storage when they assigned to care for a farm. Make sure when you set multiple tasks for a character, hauling into the storage is the last thing on they list, or at least hauling into a storage is after they put the material into machines. Otherwise they will go back-and-forth between the two building.",
+      "organization": "Reviewed 0 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-cactus.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3ea746fb8edd7e060a23981069c048e51ba25a5eba370df09924f90bd96b2ec8"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-chainmail",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Chainmail is a storage container which exclusively contains Chainmail Sheets. Players can construct this building after researching Storage Boxes: Crafting. It is the only type of storage of industrial materials that must be placed inside a building. This is perhaps an oversight or a tribute to the delicate nature of the chainmail. This container can hold a total of 25 Chainmail Sheets. History This storage container was introduced in version 0.67.0. It shares the exact same model in-game as Storage: Armour Plate. When it was added, Storage: Leather also shared the same model.",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-chainmail.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "149f04b995704b0acbb89bd9b1ce6451dfe364f5fdccbd740f227e54258aabe3"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-copper-alloys",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Copper Alloys is a storage container which exclusively contains Copper Alloy Plates. Players can construct this building after researching Copper Alloys (Tech). This container can hold a total of 50 items.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-copper-alloys.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c9035f1f5fe0961fa954f93d50478f0cee3e2859ec1bd54ea9255453a86d2f73"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-copper",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Copper is a storage container which exclusively contains Copper. Players can construct this building after researching Storage Boxes: Ore (Tech). This container can hold a total of 100 items. NOTE: The characters will auto-haul into the storage when they assigned to care for a Mine. Make sure when you set multiple tasks for a character, hauling into the storage is the last thing on they list, or at least hauling into a storage is after they put the material into machines. Otherwise they will go back-and-forth between the two buildings.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-copper.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0cdcc25221b8d138d39da1a3076e01a8a33510d76bbcd5da010f6a0ae470a407"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-cotton",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Cotton is a storage container which exclusively contains Cotton. Players can construct this building after researching Cotton Farming. This container can hold a total of 100 Cotton.",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-cotton.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "eba0a5e007d68c7aa7185ac71ef88bb7f1fa053df6225be47cb736b8a308ad0f"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-crossbow-parts",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Crossbow Parts is a storage container which exclusively contains Crossbow Smithing parts. Players can construct this building after researching Crossbow Crafting (Tech). This container has a storage space of 6x6 squares and a stacking multiplier of 25. Compatible items Crossbow Parts Hinge Spring Steel",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-crossbow-parts.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "289c40f2e50a4a118528ac5be177ca9668da97ea2cd0f2fa9363dee1e416b2e7"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-electricals",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Electricals is a storage container which exclusively contains Electrical Components. Players can construct this building after researching Electrical Crafting. This container can hold a total of 25 Electrical Components.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-electricals.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "848dbc506e75eedae4ba65b1d66a5c04fe2d765d4fefe1bf509eb7ccc5e03d2e"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-fuel",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Fuel is a storage container which exclusively contains Fuel. Players can construct this building after researching Biofuel. This container can hold a total of 100 Fuel.",
+      "organization": "Reviewed 0 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-fuel.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8ce129fd66cbb205c3e93887f0dc6bd0da70484daa508ff6f0d304eef5ef4431"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-greenfruit",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Greenfruit is a storage container which exclusively contains Greenfruit. Players can construct this building after researching Storage Boxes: Farming (Tech). This container can hold a total of 250 items.",
+      "organization": "Reviewed 0 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-greenfruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cf5f224e3dfdcd12907f0241cf9e107a83d62f483ff6b8dfd890a59ab55ae9ef"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-hashish",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Hashish is a storage container which exclusively contains Hashish. Players can construct this building after researching Hashish Production (Tech). This container can hold a total of 50 items.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-hashish.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "70b8b66decae8cc6c69d73036ace3de06fcb73f06d0cd0519355e89bf58d1a58"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-hemp",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Hemp is a storage container which exclusively contains Hemp. Players can construct this building after researching Hemp Farming (Tech). This container can hold a total of 250 items. Trivia When this storage container was introduced in version 0.67.0, it used to look like the storage building for Stones.",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-hemp.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "eeda890c07c1a8a6803494852d337c14e697d056ef1af7997481f7b0aaafffd4"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-iron-plates",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Iron Plates is a storage container which exclusively contains Iron Plates. Players can construct this building after researching Storage Boxes: Ore (Tech). This container can hold a total of 50 items.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-iron-plates.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "393b94b93f6c42265aaaf3ab6b2b33eee51e3fe2a02970a8aca6160ef519a573"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-leather",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Leather is a storage container which exclusively contains Leather. Players can construct this building after researching Storage Boxes: Crafting. This container can hold a total of 50 Leather. History This storage container was introduced in version 0.67.0 and it initially shared the exact same model in-game as Storage: Chainmail and Storage: Armour Plate.",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-leather.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6893352aa89c27a443e8b0effa763ac1bbacab218dcfdb72cd7a858c56e57131"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-meat",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Meat is a storage container which exclusively contains Raw Meat. Players can construct this building after researching Storage Boxes: Crafting (Tech). This container can hold a total of 100 items and is visually smaller than many other barrels used to store various types of food.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-meat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "feb6005dea37dcc9d82f6693e4d59ce32b21663731c7984223f596bfd06fa60e"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-ore",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Ore is a storage container which can hold up to 100 Raw Iron.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-ore.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7707f75cd336bd17cde29879cc6dc09b227623398ea132c53a726a30c9c71bc6"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-riceweed",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Riceweed is a type of storage container. Shaped like a barrel, it stores Riceweed and is unlocked after Riceweed Farming has been researched. Efficiency - 100%",
+      "organization": "Reviewed 0 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-riceweed.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "161acb906806f68da2be1e0d1f84e7625833927f061ac54b7fea2a7746d878f8"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-robotics",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Robotics is a Storage container mainly for storing Robotics and Technology items. Players can construct this building after researching Robotics (Tech). Details This chest has a storage space of 12x12 squares and a stacking multiplier of 5, which is the same as General Storage Chest. As such, the main use case for this storage box is for robotics crafting jobs. Compatible items Skeleton Eye Skeleton Muscle Skeleton Repair Kit Robotics Components Motor Press Gears Capacitor Tools Hinge Authentic Skeleton Repair Kit Notably, robotic trade junk like CPU Units or Power Cores are not compatible.",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-robotics.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "61bcce39b898edb5201bb3e99c3c733ab825e7c80e6bf95ca4100824fb57974b"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-storage-size-conflict"
+      ]
+    },
+    {
+      "id": "storage-skins",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Storage: Skins is a storage container which exclusively contains Animal Skin. Players can construct this building after researching Storage Boxes: Crafting (Tech). This container can hold a total of 100 items.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-skins.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fa7887e8659f58bd0cc2968d7c72664a068b952afae222a2ec1a03545f0ccfbb"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage-steel-bars",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage: Steel Bars is a storage container which exclusively contains Steel Bars. Players can construct this building after researching Storage Boxes: Ore. This container can hold a total of 25 Steel Bars. History This storage container was introduced in version 0.59.1 of Kenshi. Prior to that update the only way to store steel bars was to place them in a Storage Chest. This made automation of crafting more difficult because the player would have had to micromanage the input of steel bars or rely on the slow production of a Steel Refinery. Initially the description for Storage: Steel Bars was the same as for the Storage: Ore. Back in version 0.59.1 there was no maximum capacity of steel bars that could be stored, but it was introduced later.",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage-steel-bars.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "54a4e69bb7b582a53e8ee1e338e1eb6e0d8538b7b25548fda3612dc7d1ce5a71"
+      },
+      "questions": [
         "claim:building-costs-and-efficiency",
         "claim:building-environment-and-automation",
         "claim:building-recipes-and-capacity"
