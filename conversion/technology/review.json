@@ -1063,6 +1063,321 @@
         "claim:technology-import-version-time",
         "claim:technology-research-unlocks-blueprints"
       ]
+    },
+    {
+      "id": "heavy-weapons-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Heavy weapons. Ridiculed by many and often hailed as \"cock extensions\", nothing is more amusing than watching some idiot try to fight with a weapon he can barely lift. But, if you work very, very hard, if you master it and build the necessary strength... maybe, just maybe you could become something very dangerous...In-game Description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heavy-weapons-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4d543edae21f0d99826ef2e35a3b433fd3a872d0f09b2b04825b31793c69b1f4"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "hemp-based-fabric-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: An alternative source of fabric manufacture, much more efficient but may be illegal in some parts.In-game description Hemp-Based Fabric is Crafting Tech which unlocks a Fabric Loom that converts Hemp into Fabrics. This technology is not required for Fabric Manufacture, which unlocks the Cotton version of this building. Players planning on making hemp-based fabrics should construct their base in a Swamp Environment or invest in Hydroponic Hemp farming technology. While hemp is faster at generating fabrics, hemp is also an illegal item in many factions. Players should be aware of that before constructing a hemp farm in territory controlled by the United Cities.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hemp-based-fabric-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "87d894cc7b72b16f28219d28dc22883e97a2732eb68d21186e4dbc011404336f"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "hemp-farming-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hemp is a much more efficient source of fabrics, and can also be used for narcotics or medicineIn-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hemp-farming-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4eef6935938f8c7de85cb603b08f96ce65f85cfeb6b9514f4d3887d781b31d9e"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "hemp-oil-biofuel-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Refining of hemp oil for an alternative method of biofuel production.In-game Description Hemp Oil Biofuel is Electrics Tech which allows players to construct a Biofuel Distillery which can convert Hemp into Fuel. This research is a great choice for players building bases in The Swamp, where Hemp is plentiful and wind is not.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hemp-oil-biofuel-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b4797ca6fe375378f108af23b2349eb11f79f3d3b06116e70d3e86bb9309f1e9"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "high-speed-legs-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced high-tech legs like what the skeletons have.Research menu High-Speed Legs is Crafting Tech which unlocks the ability to craft the Robot Limbs named “Scout Leg”.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/high-speed-legs-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "438559681af010f303afbe6a91d330297bef15a6f7b1004093417725397e2249"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "hiver-skeleton-arms-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A copy of the Hiver's \"Economy Arms\" technology.- Research menu",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hiver-skeleton-arms-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c277cc7963ba6fb2f488403cddf9eaa8e9f9f830cea7bda12af2e3e2e532424e"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "hiver-skeleton-legs-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A copy of the Hiver's \"Economy Legs\" technology, this will be the steppingstone to replacement limb production.- Research menu Hiver Skeleton Legs is Crafting Tech and the first research into crafting Robot Limbs.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hiver-skeleton-legs-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "acafa2f82316a1ca2c19a4a991bde88a604557c64c229de3758b61650358d3df"
+      },
+      "questions": [
+        "claim:technology-hiver-first-research",
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "hybrid-stone-mine-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Why bother with 2 machines that could be combined into one? A stone mine that immediately produces building materialsIn-game description Hybrid Stone Mine is Industry Tech research which players can complete to combine Stone Mine buildings with Stone Processors. This technology isn’t available until Tech Level 5, and typically by that level construction of most Buildings is more reliant on Iron Plates than it is on Building Materials.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hybrid-stone-mine-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "998f5d2ce8f4f1ee0decccd60570bba21a1cc3b32841e1d83f16371be44499f8"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "hydroponics-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hydroponic Hemp Details Estimated Time 6 Hours Tech Level 5 Costs 4 Ancient Science Books Requirements Hemp Farming, Hydroponics Results New Building(s) Hydroponic Hemp Hydroponic Riceweed Details Estimated Time 6 Hours Tech Level 5 Costs 4 Ancient Science Books Requirements Riceweed Farming, Hydroponics Results New Building(s) Hydroponic Riceweed Hydroponic Vegetables Details Estimated Time 6 Hours Tech Level 5 Costs 4 Ancient Science Books Requirements Hydroponics Results New Building(s) Hydroponic Vegetables Hydroponic Wheatstraw Details Estimated Time 6 Hours Tech Level 5 Costs 2 Ancient Science Books Requirements Wheatstraw Farming, Hydroponics Results New Building(s) Hydroponic Wheatstraw A way to reliably grow crops indoors would be the ultimate advantage for survival outposts deep in inhospitable zones where food can not normally be grown.In-game description After researching Hydroponics, characters can research how to make hydroponic growing stations for four different types of crops. Only Hemp, Riceweed, Greenfruit, and Wheatstraw can be grown with hydroponics. Hydroponics Bays are smaller than outdoor farms but can allow for bases to be built in any area without concern for what Environment it is. Hydroponic farms require Water and Power to grow. If there is not enough power, farms can pause growth or grow at a decreased rate. After completing all the research, characters can build Hydroponics with 4 Iron Plates, 2 Electrical Components, and 10 of their desired crop.",
+      "organization": "Reviewed 32 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hydroponics-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "35e58180685d812e07a0f44f462c5210e56f23ba44b489bc971dfe9c41043c85"
+      },
+      "questions": [
+        "claim:technology-hydroponics-cost-discrepancy",
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "imprisonment-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: We could build cages. This would allow us to capture and interrogate certain people, temporarily store bounties, or even keep hostages for ransom. Actually this is starting to sound pretty wrong, be careful we don't end up going down the wrong path. Imprisonment is a Defense Tech which allows the player to construct their own Prisoner Cages. This research is important to players who like to capture characters and use them for combat training, or to stockpile multiple bounties to turn them in at a later date.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/imprisonment-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7521ac2b7bb31a3da827b9c6c91da758d8e9ce08648150fed1ce90dfcbf69445"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "improved-stone-mining-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Improved Stone Mining (2) Details Estimated Time 2 Hours Tech Level 2 Costs 4 Books Requirements Improved Stone Mining Results New Building(s) Stone Mine III Required For Improved Stone Mining (3) Improved Stone Mining (3) Details Estimated Time 4 Hours Tech Level 3 Costs 5 Books Requirements Improved Stone Mining (2) Results New Building(s) Stone Mine IV",
+      "organization": "Reviewed 17 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/improved-stone-mining-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "adb3fefe5cceed37f8e52aa866fd0f87ec10759b79ab124c14b03767730f58a8"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "indoor-lighting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Some basic lighting so we're not working in the darknessIn-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/indoor-lighting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5f4b0983b8130490bbc4da7df67fdec7394f4e783d2c315c05ad94ac19c320f7"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "industry-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Machines building more machines to build more machines with...Skeleton character, talking about Floodlands Industry Tech is a Technology branch which includes research into mining and refineries. < Back to Technology. Tech Level 1 Iron Plates Improved Stone Mining Storage Boxes: Farming Storage Boxes Storage Boxes: Ore Tech Level 2 Iron Plates 2 Improved Stone Mining 2 Powered Stone Refinery Storage Boxes: Crafting Wells II Tech Level 3 Automated Mining Tech Improved Stone Mining 3 Iron Plates 3 Ore Drill Rain Collector Steel Bars Stone Refinery Upgrade Wells III Tech Level 4 Advanced Stone Mining 1-2 Iron Plates 4 Steel Bars 2 Stone Refinery Upgrade 2-3 Semi-Automatic Ore Drill Tech Level 5 Fully Automatic Ore Drill Hybrid Stone Mine Iron Plates 5 Tech Level 6 Automated Hybrid Mine Steel Bars 3",
+      "organization": "Reviewed 6 headings and 0 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/industry-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f5f971fb6342526d6a06eddb808178c7903cf2a48ed51a882f27dff5e3ba0910"
+      },
+      "questions": []
+    },
+    {
+      "id": "iron-plates-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Iron plates are a fundamental building material for machinery. It's vital that we can make our own.In-game description Iron Plates II Details Estimated Time 4 Hours Tech Level 2 Costs 2 Books Requirements Iron Plates Results New Building(s) Iron Refinery Required For Iron Plates (3) Iron Plates III Details Estimated Time 6 Hours Tech Level 3 Costs 3 Books Requirements Iron Plates (2) Results New Building(s) Iron Refinery II Required For Iron Plates (4) Iron Plates IV Details Estimated Time 8 Hours Tech Level 4 Costs 4 Books Requirements Iron Plates (3) Results New Building(s) Iron Refinery III Required For Iron Plates IV Iron Plates V Details Estimated Time 6 Hours Tech Level 5 Costs 4 Ancient Science Books Requirements Iron Plates (4) Results New Building(s) Iron Refinery IV",
+      "organization": "Reviewed 35 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/iron-plates-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e1bab5586485af7cd3781bd92b13c8538837d389e10e75fc378bc8cabcc9b6d1"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-iron-plates-self-edge",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "item-storage-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Item Storage is a Crafting Tech which gives players the ability to construct general Storage containers as well as Food-specific containers. This research is free and quick and should be done by all players. General Storage Chest and Boxes are convenient for use when players only have a couple of a specific item and don’t want to construct a specific storage container. Food Store and Animal Feeders hold all types of food and characters will run to take from them whenever they’re hungry enough to eat.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/item-storage-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f39443a830f5f6df4cef7cd670e43df31d18f73ad271e88f991abc96016557bd"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "large-building-shells-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Much larger building shells with more secure workspaceIn-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/large-building-shells-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e8652c8cef0ece525cc4019c98713c334557af9cf20776e565d4d796da669bec"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "large-defensive-walls-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: To make our walls any bigger we would need to rebuild them with stronger foundations.In-game description Note that you will not be able to Upgrade existing Defensive Walls to subsequent higher levels; you will have to dismantle your existing walls and replace them.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/large-defensive-walls-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a54daf624349d3a1e6e34805b11ce230117af4395f715b921a48245c34ceee23"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "leather-armour-crafting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: With this we would have the basis to make our own clothing and light armour. The same equipment could also be used to make under-armour and bandagesIn-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/leather-armour-crafting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fbe7361169382895f37119d14e302b47d03a03ce9178e4c96d719a1e82bc7820"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "light-post-efficiency-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A more energy-efficient light postIn-game description Light Post Efficiency is Electrics Tech which unlocks the ability to construct upgraded Light Posts.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/light-post-efficiency-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "79225c6fe64c06b88324407c8799ba440904091c4f438f73340c502a7feb884f"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "light-post-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A stand-alone electrical light. On a post.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/light-post-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b2c138edc4d06ecdd2810c8a54245d3c8ab0729e72c5b96c687f02d2b5455275"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "light-wind-generator-theory-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Smaller lighter generators would work better in environments with low wind, or provide more consistent power where weather is erratic.In-game description Light Wind Generator Theory is Electrics Tech which allows the player to construct Small Wind Generators. Wind generators rely on weather. Players should prospect their surroundings before constructing a wind generator in their Outpost or on the roof of a Player-Owned Building in Town.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/light-wind-generator-theory-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "80a4db2205fa906f29b9a4be226cc0663e9703aee5bbcd5fc4ea3ed51fde465c"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
     }
   ],
   "editorialChanges": [

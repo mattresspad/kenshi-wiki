@@ -4694,6 +4694,90 @@
     "heavy-generator-theory-tech": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/technology/review.json"
+    },
+    "heavy-weapons-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "hemp-based-fabric-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "hemp-farming-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "hemp-oil-biofuel-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "high-speed-legs-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "hiver-skeleton-arms-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "hiver-skeleton-legs-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "hybrid-stone-mine-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "hydroponics-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "imprisonment-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "improved-stone-mining-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "indoor-lighting-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "industry-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "iron-plates-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "item-storage-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "large-building-shells-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "large-defensive-walls-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "leather-armour-crafting-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "light-post-efficiency-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "light-post-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "light-wind-generator-theory-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
     }
   },
   "mediaGaps": [
