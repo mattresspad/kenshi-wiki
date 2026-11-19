@@ -1,0 +1,1296 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "status": "Assessment only; no following-family transfer included.",
+  "craftingConstruction": {
+    "members": [
+      {
+        "id": "crafting",
+        "title": "Crafting",
+        "path": "/crafting",
+        "categories": [
+          "Guides"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "construction",
+        "title": "Construction",
+        "path": "/construction",
+        "categories": [
+          "Guides"
+        ],
+        "editableFile": null
+      }
+    ],
+    "pilots": [
+      "construction",
+      "crafting"
+    ],
+    "checks": [
+      "Keep the practical building/repair workflow separate from production and research unlocks.",
+      "Preserve material quantities, job instructions and qualifications; follow links into the restored buildings."
+    ]
+  },
+  "technology": {
+    "members": [
+      {
+        "id": "advanced-battery-capacity-tech",
+        "title": "Advanced Battery Capacity (Tech)",
+        "path": "/advanced-battery-capacity-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "advanced-battery-power-tech",
+        "title": "Advanced Battery Power (Tech)",
+        "path": "/advanced-battery-power-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "advanced-cooking-tech",
+        "title": "Advanced Cooking (Tech)",
+        "path": "/advanced-cooking-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "advanced-harpoonery-tech",
+        "title": "Advanced Harpoonery (Tech)",
+        "path": "/advanced-harpoonery-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "advanced-medicine-tech",
+        "title": "Advanced Medicine (Tech)",
+        "path": "/advanced-medicine-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "advanced-splints-tech",
+        "title": "Advanced Splints (Tech)",
+        "path": "/advanced-splints-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "advanced-stone-mining-tech",
+        "title": "Advanced Stone Mining (Tech)",
+        "path": "/advanced-stone-mining-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "advanced-training-dummies-tech",
+        "title": "Advanced Training Dummies (Tech)",
+        "path": "/advanced-training-dummies-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "advanced-weapon-grades-tech",
+        "title": "Advanced Weapon Grades (Tech)",
+        "path": "/advanced-weapon-grades-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "advanced-weapon-smithing-tech",
+        "title": "Advanced Weapon Smithing (Tech)",
+        "path": "/advanced-weapon-smithing-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "advanced-wind-generator-theory-tech",
+        "title": "Advanced Wind Generator Theory (Tech)",
+        "path": "/advanced-wind-generator-theory-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "amplified-generators-tech",
+        "title": "Amplified Generators (Tech)",
+        "path": "/amplified-generators-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "assassin-training-tech",
+        "title": "Assassin Training (Tech)",
+        "path": "/assassin-training-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "automated-hybrid-mine-tech",
+        "title": "Automated Hybrid Mine (Tech)",
+        "path": "/automated-hybrid-mine-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "automated-mining-tech-tech",
+        "title": "Automated Mining Tech (Tech)",
+        "path": "/automated-mining-tech-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "automatic-flour-grinding-tech",
+        "title": "Automatic Flour Grinding (Tech)",
+        "path": "/automatic-flour-grinding-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "automatic-loom-cotton-tech",
+        "title": "Automatic Loom (Cotton) (Tech)",
+        "path": "/automatic-loom-cotton-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "automatic-loom-hemp-tech",
+        "title": "Automatic Loom (Hemp) (Tech)",
+        "path": "/automatic-loom-hemp-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "baking-tech",
+        "title": "Baking (Tech)",
+        "path": "/baking-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "basic-exterior-lighting-tech",
+        "title": "Basic Exterior Lighting (Tech)",
+        "path": "/basic-exterior-lighting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "basic-first-aid-kits-tech",
+        "title": "Basic First Aid Kits (Tech)",
+        "path": "/basic-first-aid-kits-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "basic-weapon-grades-tech",
+        "title": "Basic Weapon Grades (Tech)",
+        "path": "/basic-weapon-grades-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "basic-weapon-smithing-tech",
+        "title": "Basic Weapon Smithing (Tech)",
+        "path": "/basic-weapon-smithing-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "batteries-tech",
+        "title": "Batteries (Tech)",
+        "path": "/batteries-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "battery-capacity-tech",
+        "title": "Battery Capacity (Tech)",
+        "path": "/battery-capacity-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "battery-power-tech",
+        "title": "Battery Power (Tech)",
+        "path": "/battery-power-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "beds-tech",
+        "title": "Beds (Tech)",
+        "path": "/beds-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "better-training-dummies-tech",
+        "title": "Better Training Dummies (Tech)",
+        "path": "/better-training-dummies-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "biofuel-tech",
+        "title": "Biofuel (Tech)",
+        "path": "/biofuel-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "cactus-farming-tech",
+        "title": "Cactus Farming (Tech)",
+        "path": "/cactus-farming-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "chain-armour-crafting-tech",
+        "title": "Chain Armour Crafting (Tech)",
+        "path": "/chain-armour-crafting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "clothing-manufacture-tech",
+        "title": "Clothing Manufacture (Tech)",
+        "path": "/clothing-manufacture-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "composite-runners-tech",
+        "title": "Composite Runners (Tech)",
+        "path": "/composite-runners-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "cooking-tech",
+        "title": "Cooking (Tech)",
+        "path": "/cooking-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "copper-alloys-tech",
+        "title": "Copper Alloys (Tech)",
+        "path": "/copper-alloys-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "core-tech",
+        "title": "Core Tech",
+        "path": "/core-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "corpse-disposal-tech",
+        "title": "Corpse Disposal (Tech)",
+        "path": "/corpse-disposal-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "cotton-farming-tech",
+        "title": "Cotton Farming (Tech)",
+        "path": "/cotton-farming-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "crafting-tech",
+        "title": "Crafting Tech",
+        "path": "/crafting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "crossbow-bolts-tech",
+        "title": "Crossbow Bolts (Tech)",
+        "path": "/crossbow-bolts-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "crossbow-crafting-tech",
+        "title": "Crossbow Crafting (Tech)",
+        "path": "/crossbow-crafting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "crossbow-turret-spotlight-fitting-tech",
+        "title": "Crossbow Turret Spotlight Fitting (Tech)",
+        "path": "/crossbow-turret-spotlight-fitting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "crossbow-turret-strings-tech",
+        "title": "Crossbow Turret Strings (Tech)",
+        "path": "/crossbow-turret-strings-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "defense-tech",
+        "title": "Defense Tech",
+        "path": "/defense-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "defensive-walls-tech",
+        "title": "Defensive Walls (Tech)",
+        "path": "/defensive-walls-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "desert-cooking-tech",
+        "title": "Desert Cooking (Tech)",
+        "path": "/desert-cooking-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "double-barrel-harpoon-turret-tech",
+        "title": "Double-Barrel Harpoon Turret (Tech)",
+        "path": "/double-barrel-harpoon-turret-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "double-barrel-turret-spotlight-fitting-tech",
+        "title": "Double-Barrel Turret Spotlight Fitting (Tech)",
+        "path": "/double-barrel-turret-spotlight-fitting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "durable-arms-tech",
+        "title": "Durable Arms (Tech)",
+        "path": "/durable-arms-tech",
+        "categories": [
+          "Technology",
+          "Robot Limbs"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "edgewalkers-tech",
+        "title": "Edgewalkers (Tech)",
+        "path": "/edgewalkers-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "electrical-crafting-tech",
+        "title": "Electrical Crafting (Tech)",
+        "path": "/electrical-crafting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "electrics-tech",
+        "title": "Electrics Tech",
+        "path": "/electrics-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "extra-durable-legs-tech",
+        "title": "Extra Durable Legs (Tech)",
+        "path": "/extra-durable-legs-tech",
+        "categories": [
+          "Technology",
+          "Robot Limbs"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "extra-strong-arms-tech",
+        "title": "Extra Strong Arms (Tech)",
+        "path": "/extra-strong-arms-tech",
+        "categories": [
+          "Technology",
+          "Robot Limbs"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "fabric-manufacture-tech",
+        "title": "Fabric Manufacture (Tech)",
+        "path": "/fabric-manufacture-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "farming-tech",
+        "title": "Farming Tech",
+        "path": "/farming-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "fuel-generator-theory-tech",
+        "title": "Fuel Generator Theory (Tech)",
+        "path": "/fuel-generator-theory-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "fully-automatic-ore-drill-tech",
+        "title": "Fully Automatic Ore Drill (Tech)",
+        "path": "/fully-automatic-ore-drill-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "gear-storage-tech",
+        "title": "Gear Storage (Tech)",
+        "path": "/gear-storage-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "grog-distillation-tech",
+        "title": "Grog Distillation (Tech)",
+        "path": "/grog-distillation-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "harpoon-turret-spotlight-fitting-tech",
+        "title": "Harpoon Turret Spotlight Fitting (Tech)",
+        "path": "/harpoon-turret-spotlight-fitting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "harpoon-turrets-tech",
+        "title": "Harpoon Turrets (Tech)",
+        "path": "/harpoon-turrets-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "hashish-production-tech",
+        "title": "Hashish Production (Tech)",
+        "path": "/hashish-production-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "hats-and-headgear-tech",
+        "title": "Hats and Headgear (Tech)",
+        "path": "/hats-and-headgear-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "heavy-building-foundations-tech",
+        "title": "Heavy Building Foundations (Tech)",
+        "path": "/heavy-building-foundations-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "heavy-generator-theory-tech",
+        "title": "Heavy Generator Theory (Tech)",
+        "path": "/heavy-generator-theory-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "heavy-weapons-tech",
+        "title": "Heavy Weapons (Tech)",
+        "path": "/heavy-weapons-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "hemp-based-fabric-tech",
+        "title": "Hemp-Based Fabric (Tech)",
+        "path": "/hemp-based-fabric-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "hemp-farming-tech",
+        "title": "Hemp Farming (Tech)",
+        "path": "/hemp-farming-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "hemp-oil-biofuel-tech",
+        "title": "Hemp Oil Biofuel (Tech)",
+        "path": "/hemp-oil-biofuel-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "high-speed-legs-tech",
+        "title": "High-Speed Legs (Tech)",
+        "path": "/high-speed-legs-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "hiver-skeleton-arms-tech",
+        "title": "Hiver Skeleton Arms (Tech)",
+        "path": "/hiver-skeleton-arms-tech",
+        "categories": [
+          "Technology",
+          "Robot Limbs"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "hiver-skeleton-legs-tech",
+        "title": "Hiver Skeleton Legs (Tech)",
+        "path": "/hiver-skeleton-legs-tech",
+        "categories": [
+          "Technology",
+          "Robot Limbs"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "hybrid-stone-mine-tech",
+        "title": "Hybrid Stone Mine (Tech)",
+        "path": "/hybrid-stone-mine-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "hydroponics-tech",
+        "title": "Hydroponics (Tech)",
+        "path": "/hydroponics-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "imprisonment-tech",
+        "title": "Imprisonment (Tech)",
+        "path": "/imprisonment-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "improved-stone-mining-tech",
+        "title": "Improved Stone Mining (Tech)",
+        "path": "/improved-stone-mining-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "indoor-lighting-tech",
+        "title": "Indoor Lighting (Tech)",
+        "path": "/indoor-lighting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "industry-tech",
+        "title": "Industry Tech",
+        "path": "/industry-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "iron-plates-tech",
+        "title": "Iron Plates (Tech)",
+        "path": "/iron-plates-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "item-storage-tech",
+        "title": "Item Storage (Tech)",
+        "path": "/item-storage-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "large-building-shells-tech",
+        "title": "Large Building Shells (Tech)",
+        "path": "/large-building-shells-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "large-defensive-walls-tech",
+        "title": "Large Defensive Walls (Tech)",
+        "path": "/large-defensive-walls-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "leather-armour-crafting-tech",
+        "title": "Leather Armour Crafting (Tech)",
+        "path": "/leather-armour-crafting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "light-post-efficiency-tech",
+        "title": "Light Post Efficiency (Tech)",
+        "path": "/light-post-efficiency-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "light-post-tech",
+        "title": "Light Post (Tech)",
+        "path": "/light-post-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "light-wind-generator-theory-tech",
+        "title": "Light Wind Generator Theory (Tech)",
+        "path": "/light-wind-generator-theory-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "lockpick-training-tech",
+        "title": "Lockpick Training (Tech)",
+        "path": "/lockpick-training-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "makeshift-walls-tech",
+        "title": "Makeshift Walls (Tech)",
+        "path": "/makeshift-walls-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "medicine-tech",
+        "title": "Medicine (Tech)",
+        "path": "/medicine-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "medium-building-shells-tech",
+        "title": "Medium Building Shells (Tech)",
+        "path": "/medium-building-shells-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "mounted-crossbows-tech",
+        "title": "Mounted Crossbows (Tech)",
+        "path": "/mounted-crossbows-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "ore-drill-tech",
+        "title": "Ore Drill (Tech)",
+        "path": "/ore-drill-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "outpost-type-tech",
+        "title": "Outpost Type (Tech)",
+        "path": "/outpost-type-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "plate-armour-crafting-tech",
+        "title": "Plate Armour Crafting (Tech)",
+        "path": "/plate-armour-crafting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "powered-stone-refinery-tech",
+        "title": "Powered Stone Refinery (Tech)",
+        "path": "/powered-stone-refinery-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "public-sales-tech",
+        "title": "Public Sales (Tech)",
+        "path": "/public-sales-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "rain-collector-tech",
+        "title": "Rain Collector (Tech)",
+        "path": "/rain-collector-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "revolving-barrel-harpoon-turret-tech",
+        "title": "Revolving-Barrel Harpoon Turret (Tech)",
+        "path": "/revolving-barrel-harpoon-turret-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "riceweed-farming-tech",
+        "title": "Riceweed Farming (Tech)",
+        "path": "/riceweed-farming-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "robotics-tech",
+        "title": "Robotics (Tech)",
+        "path": "/robotics-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "rum-brewing-tech",
+        "title": "Rum Brewing (Tech)",
+        "path": "/rum-brewing-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "sake-distillation-tech",
+        "title": "Sake Distillation (Tech)",
+        "path": "/sake-distillation-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "search-lights-tech",
+        "title": "Search Lights (Tech)",
+        "path": "/search-lights-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "semi-automatic-ore-drill-tech",
+        "title": "Semi-Automatic Ore Drill (Tech)",
+        "path": "/semi-automatic-ore-drill-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "simple-clothing-types-tech",
+        "title": "Simple Clothing Types (Tech)",
+        "path": "/simple-clothing-types-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "simple-training-dummies-tech",
+        "title": "Simple Training Dummies (Tech)",
+        "path": "/simple-training-dummies-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "skeleton-arms-tech",
+        "title": "Skeleton Arms (Tech)",
+        "path": "/skeleton-arms-tech",
+        "categories": [
+          "Technology",
+          "Robot Limbs"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "skeleton-legs-tech",
+        "title": "Skeleton Legs (Tech)",
+        "path": "/skeleton-legs-tech",
+        "categories": [
+          "Technology",
+          "Robot Limbs"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "skeleton-repair-beds-tech",
+        "title": "Skeleton Repair Beds (Tech)",
+        "path": "/skeleton-repair-beds-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "sleeping-bags-tech",
+        "title": "Sleeping Bags (Tech)",
+        "path": "/sleeping-bags-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "small-house-tech",
+        "title": "Small House (Tech)",
+        "path": "/small-house-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "smithing-tech",
+        "title": "Smithing Tech",
+        "path": "/smithing-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "splints-tech",
+        "title": "Splints (Tech)",
+        "path": "/splints-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "stealth-legs-tech",
+        "title": "Stealth Legs (Tech)",
+        "path": "/stealth-legs-tech",
+        "categories": [
+          "Technology",
+          "Robot Limbs"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "steel-bars-tech",
+        "title": "Steel Bars (Tech)",
+        "path": "/steel-bars-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "stone-refinery-upgrade-tech",
+        "title": "Stone Refinery Upgrade (Tech)",
+        "path": "/stone-refinery-upgrade-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "storage-boxes-crafting-tech",
+        "title": "Storage Boxes: Crafting (Tech)",
+        "path": "/storage-boxes-crafting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "storage-boxes-farming-tech",
+        "title": "Storage Boxes: Farming (Tech)",
+        "path": "/storage-boxes-farming-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "storage-boxes-ore-tech",
+        "title": "Storage Boxes: Ore (Tech)",
+        "path": "/storage-boxes-ore-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "storage-boxes-tech",
+        "title": "Storage Boxes (Tech)",
+        "path": "/storage-boxes-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "strong-defensive-walls-tech",
+        "title": "Strong Defensive Walls (Tech)",
+        "path": "/strong-defensive-walls-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "tech-level-tech",
+        "title": "Tech Level (Tech)",
+        "path": "/tech-level-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "tech-tree",
+        "title": "Tech tree",
+        "path": "/tech-tree",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "technology",
+        "title": "Technology",
+        "path": "/technology",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "thievery-training-tech",
+        "title": "Thievery Training (Tech)",
+        "path": "/thievery-training-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "training-tech",
+        "title": "Training Tech",
+        "path": "/training-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "turret-training-tech",
+        "title": "Turret Training (Tech)",
+        "path": "/turret-training-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "upgraded-small-generators-tech",
+        "title": "Upgraded Small Generators (Tech)",
+        "path": "/upgraded-small-generators-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "weapon-melting-tech",
+        "title": "Weapon Melting (Tech)",
+        "path": "/weapon-melting-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "weapon-smithing-tech",
+        "title": "Weapon Smithing (Tech)",
+        "path": "/weapon-smithing-tech",
+        "categories": [
+          "WIP",
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "wells-tech",
+        "title": "Wells (Tech)",
+        "path": "/wells-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "wheatstraw-farming-tech",
+        "title": "Wheatstraw Farming (Tech)",
+        "path": "/wheatstraw-farming-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      },
+      {
+        "id": "wind-generator-theory-tech",
+        "title": "Wind Generator Theory (Tech)",
+        "path": "/wind-generator-theory-tech",
+        "categories": [
+          "Technology"
+        ],
+        "editableFile": null
+      }
+    ],
+    "suggestedPilots": [
+      "technology",
+      "tech-tree",
+      "tech-level-tech",
+      "small-house-tech",
+      "robotics-tech"
+    ],
+    "checks": [
+      "Keep the overview and research tree distinct from individual research records.",
+      "Preserve costs, prerequisite edges, unlocks, tech levels, times, units and source order.",
+      "Include the eight Robot Limbs research articles deferred during Items.",
+      "Do not infer blueprint availability or ordinary crafting limits from a research unlock alone."
+    ]
+  },
+  "modding": [
+    {
+      "id": "building-making-tutorial",
+      "title": "Building making tutorial",
+      "path": "/building-making-tutorial",
+      "categories": [
+        "Modding",
+        "Buildings",
+        "WIP"
+      ],
+      "editableFile": null
+    },
+    {
+      "id": "interior-walls-and-doors",
+      "title": "Interior Walls and Doors",
+      "path": "/interior-walls-and-doors",
+      "categories": [
+        "WIP",
+        "Building Meshes",
+        "Modding"
+      ],
+      "editableFile": null
+    }
+  ],
+  "remainingArticles": 607,
+  "constraints": [
+    "One permanent ID and editable home per article.",
+    "Crafting/Construction and Technology remain independent rosters.",
+    "KDT-backed sourcing, software licensing, public restoration, branch replacement and production retain separate milestones."
+  ]
+}
