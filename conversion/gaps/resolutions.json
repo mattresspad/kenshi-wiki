@@ -6063,6 +6063,28 @@
       }
     },
     {
+      "id": "availability:/grog-barrels",
+      "kind": "availability",
+      "target": "/grog-barrels",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/grog-barrels"
+      }
+    },
+    {
+      "id": "availability:/grog-machine",
+      "kind": "availability",
+      "target": "/grog-machine",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/grog-machine"
+      }
+    },
+    {
       "id": "availability:/guard-outpost",
       "kind": "availability",
       "target": "/guard-outpost",
@@ -6360,6 +6382,17 @@
       }
     },
     {
+      "id": "availability:/harpoon-turret",
+      "kind": "availability",
+      "target": "/harpoon-turret",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/harpoon-turret"
+      }
+    },
+    {
       "id": "availability:/hashish",
       "kind": "availability",
       "target": "/hashish",
@@ -6423,6 +6456,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/heavy-armour"
+      }
+    },
+    {
+      "id": "availability:/heavy-armour-smithy",
+      "kind": "availability",
+      "target": "/heavy-armour-smithy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/heavy-armour-smithy"
       }
     },
     {
@@ -6511,6 +6555,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hemp"
+      }
+    },
+    {
+      "id": "availability:/hemp-farm",
+      "kind": "availability",
+      "target": "/hemp-farm",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hemp-farm"
+      }
+    },
+    {
+      "id": "availability:/hemp-processor",
+      "kind": "availability",
+      "target": "/hemp-processor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hemp-processor"
       }
     },
     {
@@ -7548,6 +7614,61 @@
       }
     },
     {
+      "id": "availability:/hydroponic-hemp",
+      "kind": "availability",
+      "target": "/hydroponic-hemp",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hydroponic-hemp"
+      }
+    },
+    {
+      "id": "availability:/hydroponic-riceweed",
+      "kind": "availability",
+      "target": "/hydroponic-riceweed",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hydroponic-riceweed"
+      }
+    },
+    {
+      "id": "availability:/hydroponic-vegetables",
+      "kind": "availability",
+      "target": "/hydroponic-vegetables",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hydroponic-vegetables"
+      }
+    },
+    {
+      "id": "availability:/hydroponic-wheatstraw",
+      "kind": "availability",
+      "target": "/hydroponic-wheatstraw",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hydroponic-wheatstraw"
+      }
+    },
+    {
+      "id": "availability:/hydroponics",
+      "kind": "availability",
+      "target": "/hydroponics",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hydroponics"
+      }
+    },
+    {
       "id": "availability:/idad",
       "kind": "availability",
       "target": "/idad",
@@ -7702,6 +7823,17 @@
       }
     },
     {
+      "id": "availability:/iron-refinery",
+      "kind": "availability",
+      "target": "/iron-refinery",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/iron-refinery"
+      }
+    },
+    {
       "id": "availability:/iron-spider",
       "kind": "availability",
       "target": "/iron-spider",
@@ -7754,6 +7886,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/islands-of-none"
+      }
+    },
+    {
+      "id": "availability:/item-furnace",
+      "kind": "availability",
+      "target": "/item-furnace",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/item-furnace"
       }
     },
     {
@@ -8054,6 +8197,17 @@
       }
     },
     {
+      "id": "availability:/l-house",
+      "kind": "availability",
+      "target": "/l-house",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/l-house"
+      }
+    },
+    {
       "id": "availability:/lab-ruin",
       "kind": "availability",
       "target": "/lab-ruin",
@@ -8219,6 +8373,17 @@
       }
     },
     {
+      "id": "availability:/leather-armour-crafting-bench",
+      "kind": "availability",
+      "target": "/leather-armour-crafting-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/leather-armour-crafting-bench"
+      }
+    },
+    {
       "id": "availability:/leather-hive-vest",
       "kind": "availability",
       "target": "/leather-hive-vest",
@@ -8238,6 +8403,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/leather-shirt"
+      }
+    },
+    {
+      "id": "availability:/leather-tanning-bench",
+      "kind": "availability",
+      "target": "/leather-tanning-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/leather-tanning-bench"
       }
     },
     {
@@ -8362,6 +8538,39 @@
       }
     },
     {
+      "id": "availability:/light-post",
+      "kind": "availability",
+      "target": "/light-post",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/light-post"
+      }
+    },
+    {
+      "id": "availability:/lighting",
+      "kind": "availability",
+      "target": "/lighting",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lighting"
+      }
+    },
+    {
+      "id": "availability:/locksmith-training-box",
+      "kind": "availability",
+      "target": "/locksmith-training-box",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/locksmith-training-box"
+      }
+    },
+    {
       "id": "availability:/long-cleaver",
       "kind": "availability",
       "target": "/long-cleaver",
@@ -8392,6 +8601,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/longen"
+      }
+    },
+    {
+      "id": "availability:/longhouse",
+      "kind": "availability",
+      "target": "/longhouse",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/longhouse"
       }
     },
     {
@@ -8648,6 +8868,17 @@
       }
     },
     {
+      "id": "availability:/makeshift-gate",
+      "kind": "availability",
+      "target": "/makeshift-gate",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/makeshift-gate"
+      }
+    },
+    {
       "id": "availability:/manhunter",
       "kind": "availability",
       "target": "/manhunter",
@@ -8700,6 +8931,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mani"
+      }
+    },
+    {
+      "id": "availability:/manual-iron-refinery",
+      "kind": "availability",
+      "target": "/manual-iron-refinery",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/manual-iron-refinery"
       }
     },
     {

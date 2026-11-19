@@ -872,6 +872,352 @@
         "claim:building-grain-silo-automation",
         "claim:building-recipes-and-capacity"
       ]
+    },
+    {
+      "id": "grog-barrels",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Grog Barrels are a storage container which exclusively contains Grog. Players can construct this building after researching Grog Distillation (Tech). This container can hold a total of 25 bottles. Having Grog Barrels is recommended for outposts with Grog Machines.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/grog-barrels.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8595b8249626feaa472b37c9b89874739a17bd80e3015319c51db0254b3dc08e"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "grog-machine",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Grog Machine converts Wheatstraw and Water into Grog. It can be constructed after researching Grog Distillation at Tech Level 2. It requires a worker to operate. It uses 20 Wheatstraw and 1 Water per unit of Grog. Using the Grog Machine trains the Cooking stat and is affected by the cooking time reduction multiplier that a higher Cooking level brings. Be aware, for most settlements assigning your chef to make Grog as an automatic job will swiftly drain your supplies of Wheatstraw. Grog Machine",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/grog-machine.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2d48ba257a277504918c31045306364b1d06337143c0e50c02e56c9fed87f6e0"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "harpoon-turret",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Harpoon Turret is a building under the Defence category. It requires the Harpoon Turrets tech line to build. Like the Mounted Crossbow it is primarily used to guard an outpost or a building. It can be attached on the edges of buildings and walls at certain nodes or placed freely. They train a user’s Perception and Turrets skill when used. Reloading trains Dexterity and shooting an ally trains their Precision Shooting. The range, accuracy, and speed of a turret is modified by the operator’s related skills. The previously mentioned attributes as well as damage is affected based off the height difference between the turret and its target. Turrets will be more effective if fired from above, and less effective when fired from below. Details Power Consumption: 3 Pierce: 75 Upgrades to Harpoon Turret MkII The Harpoon Turret MkII is the upgrade to the Harpoon Turret. It is stronger and can be outfitted with a spotlight for night-time raids. The stats for an unlighted Harpoon Turret are the same as a lighted one, disregarding the negative effects of working in darkness. Details Power Consumption: 5 Upgrades to Harpoon Turret MkII [light] Harpoon Turret MkII [light] Details Type - Exterior 3x Steel Bars 10x Iron Plates 4x Copper 1x Electrical Components Estimated Build Time: 16 hours Power Consumption: 9",
+      "organization": "Reviewed 3 headings and 4 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/harpoon-turret.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3fd55686f5f66a714f2a2358084eec2976656a330379331493381408682b8dbe"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-turret-and-placement"
+      ]
+    },
+    {
+      "id": "heavy-armour-smithy",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Heavy Armour Smithy is a crafting building type introduced in patch 0.50. This crafting station allows players to craft metal plate-based armour by hand. It is unlocked by finishing the Plate Armour Crafting (Tech) research. Heavy Armour Smithy N.B. Armoured Rags and Armoured Rag Skirt have coloured variants that can also be crafted at the Heavy Armour Smithy. Holy Chest Plate and Skeleton Mask, however, cannot be made without a blueprint which is absent in the vanilla game. Details Power Consumption - 10 Efficiency - 100% Produces - Armours Can’t be upgraded Workers - 1",
+      "organization": "Reviewed 1 headings and 35 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heavy-armour-smithy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "af2bab379429aa28c773ccf088068b22ed59564ba9915f92f8e86decbd0f5bd2"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-unavailable-blueprints"
+      ]
+    },
+    {
+      "id": "hemp-farm",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Hemp Farm produces hemp, which can be made into fabrics, biofuel, and for the daring, Hashish. Growing hemp is illegal in the United Cities. Hemp farms can be found in Shark, Mud Town, Rot, and all Swamp Villages. Details Hemp Farm S Type - Exterior Cost - 10 Hemp Power Consumption - 0 Efficiency - 1x Produces - Hemp Number of Plants - 25 Hemp Farm M Type - Exterior Cost - 20 Hemp, 10 if upgrading from S Power Consumption - 0 Efficiency - 1x Produces - Hemp Number of Plants - 36 Hemp Farm L Type - Exterior Cost - 30 Hemp, 10 if upgrading from M Power Consumption - 0 Efficiency - 1x Produces - Hemp Number of Plants - 64 Hemp Farm Operation Hemp Farm Workers - 1 - 4",
+      "organization": "Reviewed 5 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hemp-farm.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "15ed27d1fc012c373d5ea123f42938e66ee971545201d0b6c2e2264b72bff656"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "hemp-processor",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Hemp Processor turns Hemp into Hashish. It can be constructed after researching Hashish Production. It has a power consumption of 20 and it requires five bundles of hemp and one barrel of Water to produce one unit of hashish. Using the Hemp Processor trains the Science stat, and higher levels might result in faster production times. Many Hemp Processors can be found in the Secret Drug Farm. Hemp Processor",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hemp-processor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "908906f8bf4e61bbb349c4b81b5cd0aca211db5e6165a9919d5aac63db959ded"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "hydroponic-hemp",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hydroponic Hemp is a farming building which grows Hemp. It can be constructed after researching Hydroponic Hemp. This building uses and levels characters’ Farming stat. It requires inputs of Power (10 used) and Water to grow. Despite being an “indoor only” placement, Hydroponics can be placed on the roofs of buildings. Hydroponic Hemp farms can be found inside the buildings in Secret Drug Farm. Hydroponic Hemp Tips If used to create biofuel, it can be grown self-sufficiently.",
+      "organization": "Reviewed 1 headings and 4 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hydroponic-hemp.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c4cd63ee5dd29eeb3f9bd1a5aa10ec1bcc3644dfa1843c7ca45ca3e59cfb22cd"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "hydroponic-riceweed",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hydroponic Vegetables is a Hydroponics bay which grows Riceweed. It can be constructed after researching Hydroponic Riceweed. This building uses and levels characters’ Farming stat. It requires inputs of Power (10 used) and Water to grow. Despite being an “interior” building, Hydroponics can be placed on the roofs of buildings. Each growth cycle it produces 18 plants, but each plant harvests for 3 Riceweed, for a total of 54 Riceweed (assuming 100% harvest chance)as of v1.0.68 Hydroponic Riceweed",
+      "organization": "Reviewed 0 headings and 4 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hydroponic-riceweed.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b01ce0ae6c7dd0177d8badd936e583a5647a545979587f73cf824c98748235da"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity",
+        "claim:building-riceweed-label"
+      ]
+    },
+    {
+      "id": "hydroponic-vegetables",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hydroponic Vegetables is a Hydroponics bay which grows Greenfruit. It can be constructed after researching Hydroponics Vegetables. This building uses and levels characters’ Farming stat. It requires inputs of Power (10 used) and Water to grow. Despite being an “interior” building, Hydroponics can be placed on the roofs of buildings. Hydroponic Vegetables Details Condition: 16 Power: 10 Plants Produced: 18 (2 plants per harvest at 100% harvest chance, for a total of 36 Greenfruit per cycle) Maturation Time: ~17.5 Hours Workers: 1",
+      "organization": "Reviewed 1 headings and 4 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hydroponic-vegetables.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "453599827f2404a1422e5102f8b4eb0b9a39f6610a56c747addbbc223aefd950"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "hydroponic-wheatstraw",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hydroponic Wheatstraw is a Hydroponics bay which grows Wheat. It can be constructed after researching Hydroponic Wheatstraw. This building uses and levels characters’ Farming stat. It requires inputs of Power (10 used) and Water to grow. Despite being an “indoor only” placement, Hydroponics can be placed on the roofs of buildings. Compared to normal wheat farms, output seems low at first glance. However, as each plant produces 2 crops on harvesting, potential output is doubled. Maturation time is less than in a normal farm, so output per in game time gets to roughly half of an XL farm. More important, harvesting is much quicker for the Hydroponic, combined with less plants/more yield per plant, this results in a highly more efficient labour/output relationship, so are definitely recommendable for mid/endgame, if power is not a significant bottleneck. If Generators/Biofuel has to be used to power them, efficiency might be inferior, but no testing is done for this so far. Hydroponic Wheatstraw Details Condition: 16 Power: 10 Plants Produced: 18 (note that each plant produces 2 Wheatstraw on harvesting) Maturation Time: ~20 Hours Harvest time: ~1.7 minutes per plant. Workers: 1",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hydroponic-wheatstraw.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "18715b35d00364e87a7948c02cc48745e5e2736d9ec8180a93b5f52023b4a3be"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-farm-time-qualification",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "hydroponics",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hydroponics are farming buildings which can be constructed after farming tech research in tech level 5. Initial research into Hydroponics concepts costs an AI Core and research into crop-specific hydroponics require 4 Ancient Science Books each. These buildings do not rely on environment for crop yields, allowing them to be constructed in all zones as well as indoors. Unlike Rain Collectors plants can be watered by acid rain meaning that even in normally “DEAD” zones you can still grow crops on the top of your buildings. Hydroponic farms can grow the following crops: Greenfruit, Hemp, Riceweed, and Wheatstraw. Hydroponic Hemp Hydroponic Riceweed Hydroponic Vegetables Hydroponic Wheatstraw Hydroponic farms require Water and Power to grow. If there is not enough power, farms can pause growth or grow at a decreased rate. After completing all the research, characters can build Hydroponics with 4 Iron Plates, 2 Electrical Components, and 10 of their related crop.",
+      "organization": "Reviewed 0 headings and 0 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hydroponics.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "736581ebe00a5ecb2349bf3dfc948d16a9fb37c65b3e9e83e32321c265fab130"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "iron-refinery",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Iron refineries are necessary for the processing of Raw Iron into Iron Plates. A non-upgradable, unpowered manual version can be constructed after researching Iron Plates. All of the Iron Refinery buildings require electricity and can be constructed after research in Iron Plates II, Iron Plates III, etc. Iron Refinery III, Iron Refinery IV buildings are not fully automated as you will still require at least one worker to keep load them with ore. Iron Refinery Refinery Upgrades See also Manual Iron Refinery",
+      "organization": "Reviewed 2 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/iron-refinery.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fc2cc2c633c722317c7c86f88f049bd1a04412ffe664bcccc5ab41bb6a83f1a9"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "item-furnace",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Players can construct this building. After researching Weapon Melting it will appear in the Crafting category in the Build Mode menu. All items can be burned but only some types produce Raw Iron, mainly melee weapons. The stack of produced iron can go as high as 2,000. This building can only be constructed on the ground, so it is impossible to build one in a bought house. Amount of Raw Iron produced If the item is a weapon, it will give Raw Iron equal to the weight of the weapon/5. This has a minimum of 0.5 and a Maximum of 5. This cap only applies to weapons. As you cannot be given half of an item, any fraction of ore it says you will get will be lost. Armour gives Raw Iron (As long as it is made of Chain or Armour Plating) based off the coverage of the item. The amount of Raw Iron given is equal to (Chest Coverage/62.5(2/3)) + (Remaining coverage/62.5) If we use Samurai Armour as an example which has 100% Chest coverage and 85% Left arm, 85% Right Arm and 85% Stomach coverage it would result in (100/62.5(2/3)) + (255/62.5) = 2.4 + 4.08 = 6.48 Raw Iron. Which in game will show as 6.4. If you add another Samurai Armour into the furnace it will display as 12.9 Raw Iron (12.96). Many items which have Raw Iron listed as an ingredient somewhere along the production chain can also give Raw Iron when put into an Item Furnace. Iron Plates, Bolts, Authentic Skeleton Repair Kits, Generator Cores (Generator Cores cannot be crafted but have Copper Alloy Plates as an ingredient in FCS which has Iron Plates as an ingredient which has Raw Iron as an ingredient) will each give 0.5 Raw Iron. Skeleton Muscles give 1.0 Raw Iron each. Robotic Components give 1.5 Raw Iron each. Skeleton Repair Kits give 2.0 Raw Iron each. Trivia An ulterior use of the Item Furnace is laundering stolen goods. Any items put in and then removed will lose their stolen status and stack properly. Although Robotic limbs require Iron ore at some point in their materials to be made, they give no Raw Iron when smelted. As Robotic limbs fill a “slot” similar to what clothing does the game might try to use the “coverage” to determine the materials given which limbs cannot have resulting in 0 Raw Iron.",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/item-furnace.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3eeeaa945e247292e7fb50c952b919c1b26dac6c91a12d4dceddbf94085124b9"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-furnace-and-quality",
+        "claim:building-recipes-and-capacity",
+        "claim:building-unavailable-blueprints"
+      ]
+    },
+    {
+      "id": "l-house",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The L-House is one of the medium sized buildings and can be constructed by the player. To be able to build the L-House you need first to research the Medium Building Shells. Besides the interior of the building, you have access to a roof as well. L-House Building Info Building Condition - 35 Door condition - 16 Door Lock - lvl15",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/l-house.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4a2dedba92cf7cf8c83246e6a9041ca15b02221e980d5c4a4868a213ccf0f5b1"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "leather-armour-crafting-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Leather Armour Crafting Bench is a crafting building type introduced in patch 0.50. This crafting station allows characters to craft both leather-based armour and clothing by hand. Prior to version 0.67.2 the Leather Armour Crafting Bench used Fabric rather than Leather to make armour. Leather Armour Crafting Bench N.B. Hack Stopper Jacket, Hack Stopper Pants and Sleeveless Dustcoat are not possible to craft without modding. Power Power Consumption - 5 Efficiency - 1x Workers - 1 Armour and Clothing Produced",
+      "organization": "Reviewed 2 headings and 31 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/leather-armour-crafting-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5e18dc727080daa3212fa32a5ae9e3ca76ac15ac0aadb92518f45ff01fa8914e"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-unavailable-blueprints"
+      ]
+    },
+    {
+      "id": "leather-tanning-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Leather Tanning Bench is a crafting building type introduced in version 0.67.0. This crafting station allows players to craft Leather, which is used by the Leather Armour Crafting Bench. The Leather Tanning Bench uses Animal Skin to create Leather. It is unlocked with the Leather Armour Crafting Research. Using the Leather Tanning Bench improves the Armour Smith skill. Leather Tanning Bench Construction Info Power Consumption - 4 Efficiency - 100%",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/leather-tanning-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d1bf9581cfa1277e4b48674958ca0e365819870d13d1e82cd06db0efe0b56c3b"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "light-post",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Light Post is a Lighting building which can be constructed by the player. It is unlocked through research of Light Post. There are Light Posts type I and III. Since they are found in a list BUILD menu, similar to Walls, Type III might be easy to miss as a viable construction option. Details Power Usage -4 Efficiency 100%",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/light-post.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "556bed3ceeae205ec6c376697f611e919ed0112e6ff9826edc0e3370198523f3"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "lighting",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: In the world of Kenshi, much like the real world, lighting plays more than an aesthetic role and is a small but important factor to take into account when doing anything from collecting resources to waging war. Characters suffer a penalty when performing jobs without sufficient lighting, this applies to working a mine, a craft bench, or fighting, among other activities. It may seem like a small consideration, but if you are trying to craft high quality equipment you may find your character struggles during the night or take a penalty to their stats once the light fades away. Loading screen tip: Working in the dark is less efficient. Build some lights in your base. To combat this there are several ways to provide a light source during the night, these range from lower tier solutions such as the torch post, to higher tier constructions like interior lighting and light posts, which run off of electricity. All the lighting options that are currently in-game can be found in the research bench, and then in the lighting section of the build menu. It is important to note that, it is unclear right now if campfires and torches remove the penalty (partially or completely) and if they don’t, whether this is an intended feature or not. However, the higher tier lighting options do impact effectiveness which should be displayed on your characters statistics in-game. Lights",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lighting.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "487305cfe13260d599d397bbad46223a8cd4caf6a100017f1affffaae1ff7888"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "locksmith-training-box",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Locksmith Training Boxes are training buildings. Players can construct this building after researching Lockpick Training. The Locksmith Training Box’s primary purpose is to improve the character’s Lockpicking statistic, without the dangers of practicing on the belongings of others. Similarly to other training equipment, a character may train only to a certain level, beyond which your character will still “train”, but no progress will be made to the next level. Lock Box Upgrades",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/locksmith-training-box.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2a1b17f2699060864ce9eeef166ff989ad50f8013c3e63eb19be9c4910acdafa"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "longhouse",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Longhouse is one of the medium sized buildings and can be constructed by the player. To be able to build the Longhouse you need first to research the Medium Building Shells. Besides the interior of the building, the player has access to the roof, which is divided into lower and upper floors. It is an unassuming structure, being in the same class as the Bughouse and L-House but costing significantly less materials than both and surprisingly nearly matching their total floor space. Though its rival structures boast larger continuous open spaces, the Longhouse provides, unsurprisingly, a longer and by some measures larger yet thinner structure. This makes it an excellent cost-effective utilitarian structure. To put into perspective: When all is tallied and accounted for, the Longhouse is nearly equal to its class competitors, yet for the cost of 2 of any other medium structures, 3 Longhouses can be built, which will provide far greater total useable interior and roof-access space. It is a space-hungry structure though, creating small dead-zones around the building that make it difficult to build near it. Because of this, if space is tight, one should beware the spatial requirements of the structure. Details Building Condition - 24 Door condition - 16 Door Lock - lvl15",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/longhouse.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bf9f02eb8e69fb65320f4c0a1ed61b3e0331d0caeb1c8c235dbdccfef2b5f49d"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "makeshift-gate",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. The Makeshift Gate was added to the game in version 0.65.0. These gates are made of scrap metal sheets and have barb wire strands across the top. Unlike gates in previous versions of Kenshi, the Makeshift Gate has a raised platform where a cylinder-shaped gate house is located. Details Power consumption: 0 Efficiency: 1x Condition: 6 Door Condition: 30",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/makeshift-gate.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cbfbb6e18436a7caa4f3f9dfcd851c6dbba437e36098dd20d14a17ba744a935a"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-gate-condition-conflict"
+      ]
+    },
+    {
+      "id": "manual-iron-refinery",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Manual Iron Refinery is an Industry Building where players can convert Raw Iron into Iron Plates. This is the first of many buildings which can perform this task. It requires one to three workers to operate. Players can construct this building after researching Iron Plates. The Manual Iron Refinery cannot be upgraded into the Iron Refinery for some reason. This building is still desirable, as it does not require electricity to operate. Manual Iron Refinery",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/manual-iron-refinery.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8597874c7e813c71aa991323bd9a7ede184dd0869f7e67dff8d2bd12a571c06b"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
     }
   ],
   "editorialChanges": [

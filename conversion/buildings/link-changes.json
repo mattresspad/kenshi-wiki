@@ -154,5 +154,42 @@
       "/mounted-crossbows-tech",
       "/strong-defensive-walls"
     ]
+  },
+  {
+    "name": "building-siblings-3",
+    "resolved": [
+      "/grog-barrels",
+      "/grog-machine",
+      "/harpoon-turret",
+      "/heavy-armour-smithy",
+      "/hemp-farm",
+      "/hemp-processor",
+      "/hydroponic-hemp",
+      "/hydroponic-riceweed",
+      "/hydroponic-vegetables",
+      "/hydroponic-wheatstraw",
+      "/hydroponics",
+      "/iron-refinery",
+      "/item-furnace",
+      "/l-house",
+      "/leather-armour-crafting-bench",
+      "/leather-tanning-bench",
+      "/light-post",
+      "/lighting",
+      "/locksmith-training-box",
+      "/longhouse",
+      "/makeshift-gate",
+      "/manual-iron-refinery"
+    ],
+    "introduced": [
+      "/biofuel",
+      "/farming-tech",
+      "/iron-plates-iv",
+      "/iron-plates-tech",
+      "/leather-armour-crafting",
+      "/light-post-tech",
+      "/lockpick-training-tech",
+      "/weapon-melting"
+    ]
   }
 ]
