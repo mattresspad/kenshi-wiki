@@ -76,6 +76,53 @@
         "claim:technology-research-unlocks-blueprints",
         "claim:technology-robotics-duration-conflict"
       ]
+    },
+    {
+      "id": "advanced-battery-capacity-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced Battery Capacity 2 Details Estimated Time 7 Hours Tech Level 5 Costs 2 Ancient Science Books Requirements Batteries, Advanced Battery Capacity Results Improvements +60 Power capacity to Battery Bank Required For Advanced Battery Capacity 3 Advanced Battery Capacity 3 Details Estimated Time 11 Hours Tech Level 5 Costs 3 Ancient Science Books Requirements Batteries, Advanced Battery Capacity 2 Results Improvements +60 Power capacity to Battery Bank Required For Advanced Battery Capacity 4 Advanced Battery Capacity 4 Details Estimated Time 16 Hours Tech Level 5 Costs 4 Ancient Science Books Requirements Batteries, Advanced Battery Capacity 3 Results Improvements +60 Power capacity to Battery Bank Required For Advanced Battery Capacity 5 Advanced Battery Capacity 5 Details Estimated Time 24 Hours Tech Level 5 Costs 5 Ancient Science Books Requirements Batteries, Advanced Battery Capacity 4 Results Improvements +60 Power capacity to Battery Bank Required For Advanced Battery Capacity 6 Advanced Battery Capacity 6 Details Estimated Time 35 Hours Tech Level 5 Costs 6 Ancient Science Books Requirements Batteries, Advanced Battery Capacity 5 Results Improvements +60 Power capacity to Battery Bank Each advancement in this study can increase battery capacity by 60In-game description Advanced Battery Capacity are Electrics Tech upgrades to player outposts. This technology does not require any building upgrades, instead instantly changing the values already in place.",
+      "organization": "Reviewed 44 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/advanced-battery-capacity-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f0476dfa1cd2f98196cdd1aed5dbdc79631904acb605f34943c79f2b031cbdb3"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints",
+        "claim:technology-tier-order"
+      ]
+    },
+    {
+      "id": "crafting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Well, I guess we'll be crafting our own gear from now on then... Since it's gonna cost a POOBILLION Cats to buy a stinkin' loaf of bread now!Hobbs, if Longen is not alive Crafting Tech is one of the Technology branches. This tech category primarily involves the creation of Fabrics and Robot Limbs. A lot of research which the player might consider to be crafting (Splints, Clothing Manufacture, etc.) are actually contained in the Smithing Tech branch. Tech Level 1 Tech Level 2 Tech Level 3 Tech Level 4 Tech Level 5 Tech Level 6",
+      "organization": "Reviewed 6 headings and 16 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crafting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "95c0dd3b46ad2cc55b5028fa0b8528e1091eb4f42de71ec1c61a1d4e8b6443c7"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints",
+        "claim:technology-robotics-duration-conflict"
+      ]
+    },
+    {
+      "id": "basic-weapon-smithing-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The starting point of crafting our own weapons.In-game Description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/basic-weapon-smithing-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "de3d7d5a4a7bb229391fd592b166c0a9d933223462086dd9e19cb1b07385e8ac"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
     }
   ],
   "editorialChanges": [

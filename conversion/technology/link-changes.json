@@ -27,5 +27,14 @@
       "/semi-automatic-ore-drill-tech",
       "/skills"
     ]
+  },
+  {
+    "name": "technology-structures",
+    "resolved": [
+      "/advanced-battery-capacity-tech",
+      "/basic-weapon-smithing-tech",
+      "/crafting-tech"
+    ],
+    "introduced": []
   }
 ]

@@ -4430,6 +4430,18 @@
     "robotics-tech": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/technology/review.json"
+    },
+    "advanced-battery-capacity-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "crafting-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "basic-weapon-smithing-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
     }
   },
   "mediaGaps": [
