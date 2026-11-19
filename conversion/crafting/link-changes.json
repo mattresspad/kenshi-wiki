@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "name": "crafting-construction",
+    "resolved": [
+      "/buildings",
+      "/construction",
+      "/crafting"
+    ],
+    "introduced": [
+      "/laboring",
+      "/robotics-skill",
+      "/weapon-melting-tech"
+    ]
+  }
+]

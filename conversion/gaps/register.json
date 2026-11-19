@@ -101300,6 +101300,225 @@
       ]
     },
     {
+      "id": "claim:construction-legacy-workflow",
+      "kind": "claim",
+      "target": "/construction",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Construction combines several historic patches and an unknown version with present-tense placement, blueprint and repair instructions.",
+      "proposedResolution": "Test a current unmodded construction/repair workflow and retain the historical statements separately.",
+      "uncertainty": "Patch-specific statements do not establish current mechanics.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "construction",
+          "sourceFile": "src/content/wiki/construction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c57138d9ebcf8d88c79b0725d81b26c7227ccaed182f2ee4f029fff6e475739a",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/construction.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "construction",
+          "label": "As of patch .47.0, all buildings will require the player to purchase blueprints.  Some blueprints, such as the base starter blueprint, will give the player multiple buildings to construct, while others are specific only to one building type.",
+          "literal": "As of patch .47.0, all buildings will require the player to purchase blueprints.  Some blueprints, such as the base starter blueprint, will give the player multiple buildings to construct, while others are specific only to one building type.",
+          "line": 12,
+          "sourceFile": "src/content/wiki/construction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "construction",
+          "label": "As of version (¿?) you can only place a small shack as a starter building, then you have to research the next levels in a Research bench, also, some advanced forms of buildings require certain special items and blueprints. You can place the buildings when in building mode to see the location of your buildings but note that you won't be able to build them if you don't have enough building materials.",
+          "literal": "As of version (¿?) you can only place a small shack as a starter building, then you have to research the next levels in a Research bench, also, some advanced forms of buildings require certain special items and blueprints. You can place the buildings when in building mode to see the location of your buildings but note that you won't be able to build them if you don't have enough building materials.",
+          "line": 14,
+          "sourceFile": "src/content/wiki/construction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:crafting-raw-iron-furnace",
+      "kind": "claim",
+      "target": "/crafting",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Crafting describes smelting weapons into Raw Iron; verify the product against the furnace article and game.",
+      "proposedResolution": "Compare the original wording, Item Furnace output and versioned game behavior before correcting it.",
+      "uncertainty": "Material identity may reflect an outdated instruction.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "crafting",
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "02391a5354b9207ec7c4f05c0815d10562dafa51f59b8b2646e173cec7fcafa8",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/crafting.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "crafting",
+          "label": "In order to create [Chainmail Sheets](/chainmail-sheet), characters must build a [Chainmail Sheet Fabrication Bench](/chainmail-sheet-fabrication-bench). These benches turn [Raw Iron](/raw-iron) into chainmail. Creating Chainmail Sheets alone can be a good source of money since Iron is easily available in many regions. Selling Chainmail Sheets can be a good way to level up [Armour Smith](/armour-smith) before purchasing blueprints for chain armour. Chain armour can be created on a [Chain Armour Crafting Bench](/chain-armour-crafting-bench).",
+          "literal": "In order to create [Chainmail Sheets](/chainmail-sheet), characters must build a [Chainmail Sheet Fabrication Bench](/chainmail-sheet-fabrication-bench). These benches turn [Raw Iron](/raw-iron) into chainmail. Creating Chainmail Sheets alone can be a good source of money since Iron is easily available in many regions. Selling Chainmail Sheets can be a good way to level up [Armour Smith](/armour-smith) before purchasing blueprints for chain armour. Chain armour can be created on a [Chain Armour Crafting Bench](/chain-armour-crafting-bench).",
+          "line": 59,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "### Furnace",
+          "literal": "### Furnace",
+          "line": 85,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "While furnaces do not affect the Weapon Smith level of characters, it is convenient to have one while beginning Weapon Smithing. Characters can use a [Furnace](/furnace) to melt down low quality weapons and regain their [Raw Iron](/raw-iron). This allows players to continue smithing even if their iron gathering is less efficient. However, players must add each weapon to the furnace, making it require more attention than iron gathering, which can be added to a character's jobs.",
+          "literal": "While furnaces do not affect the Weapon Smith level of characters, it is convenient to have one while beginning Weapon Smithing. Characters can use a [Furnace](/furnace) to melt down low quality weapons and regain their [Raw Iron](/raw-iron). This allows players to continue smithing even if their iron gathering is less efficient. However, players must add each weapon to the furnace, making it require more attention than iron gathering, which can be added to a character's jobs.",
+          "line": 87,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "Furnaces can be unlocked through researching [Weapon Melting](/weapon-melting-tech).",
+          "literal": "Furnaces can be unlocked through researching [Weapon Melting](/weapon-melting-tech).",
+          "line": 89,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:crafting-station-blueprint-skills",
+      "kind": "claim",
+      "target": "/crafting",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The incomplete Crafting overview mixes station unlocks, blueprints and skill/quality rules.",
+      "proposedResolution": "Check each workflow against the named station and recipe; record game version, skill and blueprint state.",
+      "uncertainty": "Research unlocks alone do not establish craftability or maximum quality.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "crafting",
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "02391a5354b9207ec7c4f05c0815d10562dafa51f59b8b2646e173cec7fcafa8",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/crafting.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "crafting",
+          "label": "After [Building An Outpost](/guide-to-building-an-outpost) or purchasing a [Building in Town](/player-owned-buildings-in-town), **crafting** can be started. Technology must be researched in order to build all crafting stations. Aside from in [Weapon Smithing](/weapon-smith), the quality of crafted materials or speed of crafting is solely dependent on the crafter's level in the related skill.",
+          "literal": "After [Building An Outpost](/guide-to-building-an-outpost) or purchasing a [Building in Town](/player-owned-buildings-in-town), **crafting** can be started. Technology must be researched in order to build all crafting stations. Aside from in [Weapon Smithing](/weapon-smith), the quality of crafted materials or speed of crafting is solely dependent on the crafter's level in the related skill.",
+          "line": 12,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "## Armour Smithing",
+          "literal": "## Armour Smithing",
+          "line": 35,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "A great way to make [Cats](/cats) without having to use up rarer [Research Artifacts](/research-artifacts) is by crafting [Armour](/armour). Armour quality and crafting speed are only influenced by the [Armour Smith](/armour-smith) statistic. Characters can also gain experience in Armour Smithing while crafting Leather, Chainmail Sheets, and Armour Plating. Armour crafting is split into several different categories, and in order to craft everything the following benches and smithies must be built:",
+          "literal": "A great way to make [Cats](/cats) without having to use up rarer [Research Artifacts](/research-artifacts) is by crafting [Armour](/armour). Armour quality and crafting speed are only influenced by the [Armour Smith](/armour-smith) statistic. Characters can also gain experience in Armour Smithing while crafting Leather, Chainmail Sheets, and Armour Plating. Armour crafting is split into several different categories, and in order to craft everything the following benches and smithies must be built:",
+          "line": 37,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "The best way to level up a character's Armour Smithing skill at first is through a [Clothing Bench](/clothing-bench). Clothing Benches turn [Fabrics](/fabrics) into either [Clothing](/clothing) or [Light Armour](/light-armour).",
+          "literal": "The best way to level up a character's Armour Smithing skill at first is through a [Clothing Bench](/clothing-bench). Clothing Benches turn [Fabrics](/fabrics) into either [Clothing](/clothing) or [Light Armour](/light-armour).",
+          "line": 41,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "The related technology for this crafting is [Leather Armour Crafting](/leather-armour-crafting-tech). In order to make most leather armour, [Blueprints](/blueprints) are needed as well.",
+          "literal": "The related technology for this crafting is [Leather Armour Crafting](/leather-armour-crafting-tech). In order to make most leather armour, [Blueprints](/blueprints) are needed as well.",
+          "line": 55,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "In order to create [Chainmail Sheets](/chainmail-sheet), characters must build a [Chainmail Sheet Fabrication Bench](/chainmail-sheet-fabrication-bench). These benches turn [Raw Iron](/raw-iron) into chainmail. Creating Chainmail Sheets alone can be a good source of money since Iron is easily available in many regions. Selling Chainmail Sheets can be a good way to level up [Armour Smith](/armour-smith) before purchasing blueprints for chain armour. Chain armour can be created on a [Chain Armour Crafting Bench](/chain-armour-crafting-bench).",
+          "literal": "In order to create [Chainmail Sheets](/chainmail-sheet), characters must build a [Chainmail Sheet Fabrication Bench](/chainmail-sheet-fabrication-bench). These benches turn [Raw Iron](/raw-iron) into chainmail. Creating Chainmail Sheets alone can be a good source of money since Iron is easily available in many regions. Selling Chainmail Sheets can be a good way to level up [Armour Smith](/armour-smith) before purchasing blueprints for chain armour. Chain armour can be created on a [Chain Armour Crafting Bench](/chain-armour-crafting-bench).",
+          "line": 59,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "The related technology for this crafting is [Chain Armour Crafting](/chain-armour-crafting-tech). In order to make most chain armour, [Blueprints](/blueprints) are needed as well.",
+          "literal": "The related technology for this crafting is [Chain Armour Crafting](/chain-armour-crafting-tech). In order to make most chain armour, [Blueprints](/blueprints) are needed as well.",
+          "line": 61,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "In order to use a [Heavy Armour Smithy](/heavy-armour-smithy), characters need [Armour Plating](/armour-plating). Heavy armour smithing is roughly the same as chain armour smithing, although there are more armour options. The Heavy Armour Smithy also makes lighter armour which requires Amour Plating, such as [Heart Protectors](/heart-protector).",
+          "literal": "In order to use a [Heavy Armour Smithy](/heavy-armour-smithy), characters need [Armour Plating](/armour-plating). Heavy armour smithing is roughly the same as chain armour smithing, although there are more armour options. The Heavy Armour Smithy also makes lighter armour which requires Amour Plating, such as [Heart Protectors](/heart-protector).",
+          "line": 65,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "The related technology for this crafting is [Plate Armour Crafting](/plate-armour-crafting-tech). In order to make most heavy armour, [Blueprints](/blueprints) are needed as well.",
+          "literal": "The related technology for this crafting is [Plate Armour Crafting](/plate-armour-crafting-tech). In order to make most heavy armour, [Blueprints](/blueprints) are needed as well.",
+          "line": 67,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "## Crossbow Smithing",
+          "literal": "## Crossbow Smithing",
+          "line": 69,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "After researching [Crossbow Bolts](/crossbow-bolts-tech), characters can build an Arrow Making Bench and being making [Bolts Toothpicks](/bolts-toothpicks). All other types of Bolts must be learned through a [Blueprint](/blueprints).",
+          "literal": "After researching [Crossbow Bolts](/crossbow-bolts-tech), characters can build an Arrow Making Bench and being making [Bolts Toothpicks](/bolts-toothpicks). All other types of Bolts must be learned through a [Blueprint](/blueprints).",
+          "line": 77,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crafting",
+          "label": "## Weapon Smithing",
+          "literal": "## Weapon Smithing",
+          "line": 81,
+          "sourceFile": "src/content/wiki/crafting.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:item-ancient-book-respawn",
       "kind": "claim",
       "target": "/ancient-science-book",

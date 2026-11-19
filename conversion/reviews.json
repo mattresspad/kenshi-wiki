@@ -4402,6 +4402,14 @@
     "y-house": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/buildings/review.json"
+    },
+    "crafting": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/crafting/review.json"
+    },
+    "construction": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/crafting/review.json"
     }
   },
   "mediaGaps": [

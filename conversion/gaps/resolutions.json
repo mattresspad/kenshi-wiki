@@ -2917,6 +2917,17 @@
       }
     },
     {
+      "id": "availability:/construction",
+      "kind": "availability",
+      "target": "/construction",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/crafting/acceptances.json#crafting-construction",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/construction"
+      }
+    },
+    {
       "id": "availability:/cook-recruit",
       "kind": "availability",
       "target": "/cook-recruit",
@@ -3332,6 +3343,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crabsmith"
+      }
+    },
+    {
+      "id": "availability:/crafting",
+      "kind": "availability",
+      "target": "/crafting",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/crafting/acceptances.json#crafting-construction",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crafting"
       }
     },
     {
