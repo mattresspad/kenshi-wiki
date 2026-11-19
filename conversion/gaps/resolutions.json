@@ -8945,6 +8945,17 @@
       }
     },
     {
+      "id": "availability:/manual-oil-drill",
+      "kind": "availability",
+      "target": "/manual-oil-drill",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/manual-oil-drill"
+      }
+    },
+    {
       "id": "availability:/map-of-the-ashlands",
       "kind": "availability",
       "target": "/map-of-the-ashlands",
@@ -9154,6 +9165,17 @@
       }
     },
     {
+      "id": "availability:/medicrate",
+      "kind": "availability",
+      "target": "/medicrate",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/medicrate"
+      }
+    },
+    {
       "id": "availability:/medium-armour",
       "kind": "availability",
       "target": "/medium-armour",
@@ -9327,6 +9349,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mercenary-plate"
+      }
+    },
+    {
+      "id": "availability:/mercenary-tent",
+      "kind": "availability",
+      "target": "/mercenary-tent",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mercenary-tent"
+      }
+    },
+    {
+      "id": "availability:/metal-chest",
+      "kind": "availability",
+      "target": "/metal-chest",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/metal-chest"
+      }
+    },
+    {
+      "id": "availability:/metal-wallhouse",
+      "kind": "availability",
+      "target": "/metal-wallhouse",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/metal-wallhouse"
       }
     },
     {
@@ -9506,6 +9561,28 @@
       }
     },
     {
+      "id": "availability:/mounted-crossbow",
+      "kind": "availability",
+      "target": "/mounted-crossbow",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mounted-crossbow"
+      }
+    },
+    {
+      "id": "availability:/mounted-crossbow-mkii",
+      "kind": "availability",
+      "target": "/mounted-crossbow-mkii",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mounted-crossbow-mkii"
+      }
+    },
+    {
       "id": "availability:/mourn",
       "kind": "availability",
       "target": "/mourn",
@@ -9569,6 +9646,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mukai-the-mountain"
+      }
+    },
+    {
+      "id": "availability:/multi-barrel-harpoon-turret",
+      "kind": "availability",
+      "target": "/multi-barrel-harpoon-turret",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/multi-barrel-harpoon-turret"
       }
     },
     {
@@ -9913,6 +10001,28 @@
       }
     },
     {
+      "id": "availability:/oil-refinery",
+      "kind": "availability",
+      "target": "/oil-refinery",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/oil-refinery"
+      }
+    },
+    {
+      "id": "availability:/oil-silo",
+      "kind": "availability",
+      "target": "/oil-silo",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/oil-silo"
+      }
+    },
+    {
       "id": "availability:/okrans-fist",
       "kind": "availability",
       "target": "/okrans-fist",
@@ -10188,6 +10298,17 @@
       }
     },
     {
+      "id": "availability:/ore-drill",
+      "kind": "availability",
+      "target": "/ore-drill",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ore-drill"
+      }
+    },
+    {
       "id": "availability:/oron",
       "kind": "availability",
       "target": "/oron",
@@ -10207,6 +10328,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/other-locations"
+      }
+    },
+    {
+      "id": "availability:/outhouse",
+      "kind": "availability",
+      "target": "/outhouse",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outhouse"
       }
     },
     {
@@ -10328,6 +10460,61 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/outpost-items"
+      }
+    },
+    {
+      "id": "availability:/outpost-s-i",
+      "kind": "availability",
+      "target": "/outpost-s-i",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outpost-s-i"
+      }
+    },
+    {
+      "id": "availability:/outpost-s-ii",
+      "kind": "availability",
+      "target": "/outpost-s-ii",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outpost-s-ii"
+      }
+    },
+    {
+      "id": "availability:/outpost-s-iii",
+      "kind": "availability",
+      "target": "/outpost-s-iii",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outpost-s-iii"
+      }
+    },
+    {
+      "id": "availability:/outpost-s-iv",
+      "kind": "availability",
+      "target": "/outpost-s-iv",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outpost-s-iv"
+      }
+    },
+    {
+      "id": "availability:/outpost-s-v",
+      "kind": "availability",
+      "target": "/outpost-s-v",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/outpost-s-v"
       }
     },
     {
@@ -10496,6 +10683,17 @@
       }
     },
     {
+      "id": "availability:/peeler-machine",
+      "kind": "availability",
+      "target": "/peeler-machine",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/peeler-machine"
+      }
+    },
+    {
       "id": "availability:/pia",
       "kind": "availability",
       "target": "/pia",
@@ -10526,6 +10724,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/plastic-surgeon"
+      }
+    },
+    {
+      "id": "availability:/plate-beating-station",
+      "kind": "availability",
+      "target": "/plate-beating-station",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/plate-beating-station"
       }
     },
     {
@@ -10738,6 +10947,17 @@
       }
     },
     {
+      "id": "availability:/power",
+      "kind": "availability",
+      "target": "/power",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/power"
+      }
+    },
+    {
       "id": "availability:/power-core",
       "kind": "availability",
       "target": "/power-core",
@@ -10790,6 +11010,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/prisoner"
+      }
+    },
+    {
+      "id": "availability:/prisoner-cage",
+      "kind": "availability",
+      "target": "/prisoner-cage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/prisoner-cage"
+      }
+    },
+    {
+      "id": "availability:/prisoner-pole",
+      "kind": "availability",
+      "target": "/prisoner-pole",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/prisoner-pole"
       }
     },
     {

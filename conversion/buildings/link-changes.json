@@ -191,5 +191,38 @@
       "/lockpick-training-tech",
       "/weapon-melting"
     ]
+  },
+  {
+    "name": "building-siblings-4",
+    "resolved": [
+      "/manual-oil-drill",
+      "/medicrate",
+      "/mercenary-tent",
+      "/metal-chest",
+      "/metal-wallhouse",
+      "/mounted-crossbow",
+      "/mounted-crossbow-mkii",
+      "/multi-barrel-harpoon-turret",
+      "/oil-refinery",
+      "/oil-silo",
+      "/ore-drill",
+      "/outhouse",
+      "/outpost-s-i",
+      "/outpost-s-ii",
+      "/outpost-s-iii",
+      "/outpost-s-iv",
+      "/outpost-s-v",
+      "/peeler-machine",
+      "/plate-beating-station",
+      "/power",
+      "/prisoner-cage",
+      "/prisoner-pole"
+    ],
+    "introduced": [
+      "/composite-runners",
+      "/crossbow-turret-spotlight-fitting-tech",
+      "/crossbow-turret-strings-tech",
+      "/imprisonment-tech"
+    ]
   }
 ]

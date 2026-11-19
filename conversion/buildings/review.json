@@ -1218,6 +1218,340 @@
         "claim:building-costs-and-efficiency",
         "claim:building-recipes-and-capacity"
       ]
+    },
+    {
+      "id": "manual-oil-drill",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. As of version 0.62.0 the Manual Oil Drill is currently not implemented in the base game. It is however possible to access and build the Manual Oil Drill by using the in-game editor (Shift + F12). This building can be found under the ‘Mining’ section of buildings. Though currently not part of the game, it has been said that certain building types like the Generator will require fuel in the future. The Manual Oil Drill will most likely be used to draw up fuel or some other form of crude oil from the ground. Since there is also an Oil Drill this will most likely be a character operated building. Oil Drill Construction Info Type - Exterior 1 Building Materials Estimated Build Time - 1 Hours Power Consumption - -1 Efficiency - 1x Related Buildings Manual Oil Drill Oil Drill Oil Refinery Oil Silo",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/manual-oil-drill.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6d0a9d4f302ab6b853a8701972efc7b57dbb9d0d513ba285ff8043d0efb26d66"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-removed-oil"
+      ]
+    },
+    {
+      "id": "medicrate",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Medicrate is a storage container for Medical Items such as First Aid Kits and Splint Kits. Items stored in the Medicrate can be stacked in groups of five. The ability to construct this building is unlocked after researching Basic First Aid Kits. This container does not store Skeleton Repair Kits. Details Power Consumption - 0 Efficiency - 1x",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/medicrate.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2402f4b190ca9aeed25f3a99175f743ca370fcefc1285fb0f8864516de2f014f"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "mercenary-tent",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Mercenary Tents are camping buildings which the player can construct anywhere after learning the blueprint. They require very few materials in order to construct and do not result in the creation of a player town. Camps can be used as a quick shelter from acid rain. They can also be placed, for decoration, on the roof of the buildings you own. If placed and then destroyed, a reload is required to be able to place them on the roof again. The blueprint can be purchased from any of these locations: Adventurer Bar Flats Lagoon Bar Shark Travel Shop Tech Hunter Shop Travel and Repairs Shop Travel Gear",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mercenary-tent.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ce6552c7609933f4285b9cf00a05c56a625074d39d9dde3c03b6c810c5f37cfc"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "metal-chest",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Metal Chest is a Storage container for storing any item. Players can construct this building after researching Item Storage (Tech). Details This chest has a storage space of 12x12 squares. Unlike General Storage Chest, it does not have stacking capabilities.",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/metal-chest.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0e0cb4bc669e1214ddf157e04067b3beabca2777b5b53ecd537f52bd1e89e402"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "metal-wallhouse",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Metal Wallhouse is a three floored building connected by stairs and appears to be made from scrap. This type of building cannot be constructed by the player, though it can be purchased at specific locations. The very top level under an open sky is big enough to fit a Research Bench level II+. The roof has enough room to build a Small Wind Generator. Building Info Building Condition - 10 Door condition - 20",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/metal-wallhouse.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a1497905bbd4813306af6cf23548a8640ec4a704634a341ef9a1abcbd48742b6"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "mounted-crossbow-mkii",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Mounted Crossbow mkII is a Defence building. Players can construct this building after researching Mounted Crossbows II. They can be built on the ground or on top of Defensive Walls. The range, accuracy, and speed of a turret is modified by the operator’s related skills as well as the height difference between the turret and its target. The damage is also affected by height difference. Turrets will be more effective if fired from above, and less effective when fired from below. Mounted Crossbow mkII can be upgraded to Mounted Crossbow mkII [light] after researching Crossbow Turret Spotlight Fitting. The stats for an unlighted Mounted Crossbow mkII are the same as a lighted one, disregarding the negative effects of working in darkness. This crossbow uses 0 power, except when upgraded with the light, which requires 4 power.",
+      "organization": "Reviewed 0 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mounted-crossbow-mkii.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a748d409101ca256d7487c48d4c1efdcb8a9faf4e16a3d7592a530b329d0cee0"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-turret-and-placement"
+      ]
+    },
+    {
+      "id": "mounted-crossbow",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Mounted Crossbow is a type of defensive turret. It can be built on the ground or on top of Defensive Walls. By researching Crossbow Turret Strings and Composite Runners you can increase the damage of your Mounted Crossbows. The accuracy, and speed of reloading a turret is modified by the operator’s related skills and the height difference between the turret and its target impacts the accuracy, range and damage. Turrets will be more effective if fired from above, less effective if fired from below a target. This building cannot be upgraded to Mounted Crossbow MkII. In order to switch a mounted crossbow to an improved mounted crossbow, players must dismantle their existing mounted crossbow, then build the desired one. This crossbow uses 0 power, except when upgraded with the light, which requires 4 more power.",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mounted-crossbow.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ca0cba2cd242de6d344d39618619b631d784f263a841f22bbc736ba5eee88f7e"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-turret-and-placement"
+      ]
+    },
+    {
+      "id": "multi-barrel-harpoon-turret",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Multi-Barrel Harpoon Turret is a Defence building. Players can construct this building after researching Revolving-Barrel Harpoon Turret. Unlike other improved turrets, this style of turret cannot be upgraded to contain a light. It uses 10 power. The range, accuracy, and speed of a turret is modified by the operator’s related skills. The previously mentioned stats as well as the damage of the turret is affected by the height difference between the turret and its target. Turrets will be more effective if fired from above.",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/multi-barrel-harpoon-turret.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "14eff5669034bb46340540b01ff6f844e5cfca8404707277a308c424883254e3"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-turret-and-placement"
+      ]
+    },
+    {
+      "id": "oil-refinery",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: As of version 1.0.10 the Oil Refinery is currently not implemented in the base game (except for three found at Mongrel). It is however possible to access and build the Oil Refinery by using the in-game editor (Shift + F12). This building can be found under the ‘Mining’ section of the build menu. Despite there currently being at least three Oil Refineries in the game, they currently serve very little purpose. Oil Refineries can act as a storage container for Fuel, holding 100 Fuel. Other than this, they do nothing, despite their 100% efficiency. Oil Drill Construction Info Type - Exterior 1 Building Materials Estimated Build Time - 1 Hours Power Consumption - -1 Efficiency - 1x Related Buildings Manual Oil Drill Oil Drill Oil Refinery Oil Silo",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/oil-refinery.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a7c58dd1ba40e1f9d1e70c0ddea485e190f030b23537952603876540b6bb7c98"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-removed-oil"
+      ]
+    },
+    {
+      "id": "oil-silo",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. As of version 1.0.0 the Oil Silo is currently not implemented in the base game. It is however possible to access and build the Oil Silo by using the in-game editor (Shift + F12). This building can be found under the ‘Mining’ section in the build menu. Although certain building types like the Generator require fuel, the Oil Silo is not used in the process. Oil Drill Construction Info Type - Exterior 1 Building Materials Estimated Build Time - 1 Hours Power Consumption - -1 Efficiency - 1x Related Buildings Manual Oil Drill Oil Drill Oil Refinery Oil Silo",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/oil-silo.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "352900e0c67761289f52aa7bfc08851409b5918e571ff8d5a8f3cf3659c9bbb7"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-removed-oil"
+      ]
+    },
+    {
+      "id": "ore-drill",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Ore Drill produces Raw Iron. Efficiency and rate at which the ore is gathered depends on where it is built and prospecting should be used to find the best placement. Player characters will go to the console which is not visible in the BUILD menu to operate the machine. It is located on the opposite end of the crane arm.",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ore-drill.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d9cd4e4ce57d5d9fcb2f06bed6bd9d91d636005d1613c4be4c225208d2170ac6"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-turret-and-placement"
+      ]
+    },
+    {
+      "id": "outhouse",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: An Outhouse is a building type available from the “Buildings” category of the Build Menu. It requires 1 Building Material to construct and has to be placed outside as it is still a type of building (a slight hint may be found its name). It allows your character to sit in it (by assigning a “worker” to it), presumably acting like any other chair in the game - reducing the hunger rate of said character. It is researched with a Random Furniture blueprint. Outhouse Building Info Building Condition - 1 Door Condition - always open",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outhouse.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8620679b455bfe17f2fa5b54c159f9ce7e8ee4ddb9a3afeca1f992a33ececbb3"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "outpost-s-i",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Outpost s-I is a seemingly older variant of Outpost s-III. Asides from its more dilapidated texture, the structure of the building is identical. This building cannot be constructed by the player. The only confirmed instance of this building is the Lost Armour Store. Building stats Door condition: 40 Building condition: 40",
+      "organization": "Reviewed 1 headings and 0 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outpost-s-i.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "327c9abb8ff0533654b7a3299c6316612bdbdfd58b166573edd81acb9a9e6fa5"
+      },
+      "questions": []
+    },
+    {
+      "id": "outpost-s-ii",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Outpost s-II is a seemingly older variant of Outpost s-IV. It cannot be constructed by the player. They can be found in Hiver-Claimed Armouries.",
+      "organization": "Reviewed 0 headings and 0 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outpost-s-ii.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0f5053a33e3a6ca323439587cb66f329f6044c9a4f9afc21f1c85bb5e94c4c6b"
+      },
+      "questions": []
+    },
+    {
+      "id": "outpost-s-iii",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Outpost s-III are large building models that require appropriate technologies to be researched in order to be built. As the in-game description suggests, these building types construct well on awkward or uneven terrain. The outside ramp prevents characters from walking under them, therefore avoiding an issue present in exterior stairs of buildings like Storm Houses and Stephouses where characters get stuck underneath when the building protrudes from the ground too much. Outpost s-III can be purchased in the following cities and towns: Catun Mourn Interior limitations Due to a low ceiling, not every interior building can fit inside. For example, a Heavy Armour Smithy is impossible to fit on the first floor due to its height. Ceiling lamps on the first floor will hang low to the floor, limiting their light cone. Interior buildings cannot be constructed on the exterior “ring” walkway of the Outpost s-III tower because that space is qualified as “outside”. This building has no mount points for turrets_[clarify]. However, they can be built as freely standing on the outer ring[clarify]_. The similarly shaped and sized Outpost s-IV gives the player more flexibility in furnishing. Outpost s-III Building Info Building Condition - 40 Door Condition - 40 Door Lock - lvl15 Trivia The Outpost s-III types can technically be placed on top of Stationhouses. This could have been an amazing opportunity to create spacious palace-like structures. It is however impossible to regulate the height of the new construction, leaving the outpost uselessly hanging above the Stationhouse structure. Using the FCS might help you to construct one building on top of another correctly. This type of building has visual variants which cannot be built by the player: Outpost s-I and Outpost s-V.",
+      "organization": "Reviewed 3 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outpost-s-iii.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "97beeb8480d4236ddfc30325d587161ed6158a693bf39949e7ff811292ce2164"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "outpost-s-iv",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Outpost s-IV are large building models that require appropriate technologies to be researched in order to be built. This building type constructs well on awkward or uneven terrain. The outside ramp prevents characters from walking under them, therefore avoiding an issue present in exterior stairs of buildings like Storm Houses and Stephouses where characters get stuck underneath when the building protrudes from the ground too much. The second floor’s exterior walkway is technically considered to be an “interior” zone, allowing the placement of interior-type buildings such as beds or even small research benches in that area. Unlike with furnishing of the Outpost s-III, this allows for placement of mounted turrets on that walkway, greatly contributing to defensibility of the building. Outpost s-IV can be purchased in the following cities and towns: Heft Mourn Outpost s-IV Building Info Building Condition - 60 Door Condition - 50 Door Lock - lvl 100 Trivia The Outpost s-IV types can technically be placed on top of Stationhouses. This could have been an amazing opportunity to create spacious palace-like structures. It is however impossible to regulate the height of the new construction, leaving the outpost uselessly hanging above the Stationhouse structure. Using the FCS might help you to construct one building on top of another correctly. The description of the structure states “The ultimate building. Large, spacious, and tough.” The durability of structures is not worth mention due to it having no actual impact on the game. It is likely referring to the Door Condition, of which is the highest of all buildings in the game. This type of building has a visual variant which cannot be built by the player: Outpost s-II.",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outpost-s-iv.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "275b61a25c126ca10ae471bcd4726485bf79390e1ff57ab291cbd19a576bc6d4"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "outpost-s-v",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Outpost s-V is a building shell similar to Outpost s-III. It cannot be constructed by the player. They can be found in Sniper Valley Police Barracks and in the Black Desert City, which might mean they originated in the Second Empire.",
+      "organization": "Reviewed 0 headings and 0 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/outpost-s-v.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "268ab91df077ab16dfbc3c1e36f04108772b9a19463ac3d066e5756edfc15c45"
+      },
+      "questions": []
+    },
+    {
+      "id": "peeler-machine",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This nasty machine is something the player should avoid. Owned by the Skin Bandits, they will use it to skin alive Humans that they have captured and taken to one of their Skinhouses. Aside from damaging the character inside of it, the Peeler Machine functions exactly like a Prisoner Cage. This means that placing any characters into them will count as imprisoning them, and any effects for imprisoning a character in a Prisoner Cage (such as faction relationship changes) will also occur. However, if a character of any faction dies in a peeler machine, faction relations will not be affected any further. The Peeler Machine also produces Animal Skins (somehow even from skeletons). The Peeler Machine works through 3 stages of its victim before it becomes inactive, if there is any clothing worn on the character, they will be destroyed by the peeler over time, after which the peeler will begin to deal cut damage to the victim’s limbs. Once all limbs have fallen below 0 health it begins to deal damage to the characters vitals. It does not require the victim to be alive for this machine to work. Occasionally a peeler machine may bug and not damage a character’s vitals even with all limbs below 0 health, and will stop damaging the vitals of a character if they are low enough. As of update 0.99.5 (experimental) it is possible to acquire the blueprint of this from Savant. Trivia Running into a player owned peeler machine will sometimes cause your character to take damage as if they were inside the machine itself. This can cause your armour to be destroyed if you react too slowly. This continues until your legs are crippled. (Bug) Rarely sometimes characters are able to attack others while inside a peeler. (Bug) In extremely rare cases a character may have their model changed to appear flayed, while still alive. If a character has their leg health drop below their KO point (And their arms are above 0 health) they are able to bandage/repair themselves while inside of a peeler machine. Characters can still be damaged by attacks while inside a Peeler machine. If you attack another character and your attack connects with the unit inside the peeler machine they will be hit as well. This machine does not require any power to use. In the final stage of peeling, when a character has reached a point that their texture is altered to show only muscular tissue, peeled characters may no longer be able to be picked up or looted. This is a minor bug, and these bodies will eventually despawn. The peeler will show their body within itself but continue to function normally for subsequent characters. Skeletons have a different dialogue pack when they are being peeled. Instead of screaming, they will just mope on about how their parts are being damaged with lines such as “Nooo…”, “No, don’t– *crack*” and “No, that’s my– *snap*” Characters put into a peeler machine will normally scream/yell even when knocked unconscious/in recovery coma.",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/peeler-machine.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d548e7cc290ea5e2f9e468eeb5a616c2d84abdc8a5fd25e63d6f5f407b66a1b7"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "plate-beating-station",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Plate Beating Station is a crafting building type introduced in patch 0.50. This crafting station allows players to craft Armour Plating from Raw Iron. Armour Plating is later used to construct plate based armour at the Heavy Armour Smithy. The station requires no power to run, but does require manual labour of a worker. Using it improves the Armour Smithing skill. Plate Beating Station Power Power Consumption - 0 Efficiency - 100% Trivia Some worker drones can be seen working at these stations in Western Hive Villages. Using a Plate beating station in a shop produces armor plates that are ‘owned’ by the shop. The output will have to be stolen.",
+      "organization": "Reviewed 2 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/plate-beating-station.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ae4b0b2f90085a7f3f41d76b74d2a3a1a37698f5d9e5ce344853f17f30e538a5"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "power",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Power is the amount of electricity required to run and operate many buildings. It is necessary for most if not all automated production buildings as well as most research benches. Various Technologies can be researched to improve the production and Storage capacity of this resource.",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/power.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c87c5bf3949a70eb7ba11351e922cfc30bb30fcc52aa9419b3b32e7a084066c4"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "prisoner-cage",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Prisoner Cages are buildings used to hold a single character. Prisoner Cages which are not owned by the player can result in characters being instantly enslaved after ‘getting in’ or being ‘put in’ the cage, however that would require them to have the ex-slave or escaped slave status beforehand, otherwise they would need slavers to enslave them for them to have the status. The faction which they are enslaved to will be changed to the faction owning the prisoner cage (this may cause some odd instances where characters are slaves to factions who don’t practice slavery, such as the Shek Kingdom). As of version 0.61.1 Prisoner Cages can be constructed outside of buildings. To date all Prisoner Cages built by the player are at level 15 Lockpicking skill. The building is unlockable at research level 3 in the category imprisonment. Imprisoning a Character A selected player character can enter a prisoner cage by selecting the ‘get in’ option in the right-click-hold menu. To imprison a character which is not the selected player character, first pick up the target by opening the right-click-hold menu for the target and selecting ‘pick up’. Carry the target to the cage and either place them inside it through right clicking the cage or use the right-click-hold menu for the cage and select ‘put in’. The person will be dropped in the cage remain there until the cage is unlocked. Upon talking to the imprisoned character your relationship with his or her faction will drop by one. Freeing a Character The fastest way for an imprisoned player character to exit a prisoner cage is through selecting ‘escape’ in the character’s right-click-hold menu. This will initiate lockpicking and the character will exit the cage as soon as they are able. The other option to exit a prisoner cage is by first unlocking the cage and then leaving the cage. Escaped prisoners and Escaping slaves will likely choose this system as it allows the player to wait until an opportune moment to exit the cage. When unlocking the cage of a non-player character, the character will likely escape immediately and run away from the location which they were held in. Depending on the character’s personality, they may choose to remain in their cage. Some characters, specifically Unique Recruits, will instantly join the player faction upon freedom from their cage. Losing an Imprisoned Character It is possible to lose imprisoned characters through an unintended bug. It seems that once the zone that contained your prisoners has not been loaded for a while your prisoners will disappear from their cages. It is especially true if saves have been made in zones that are not the zone in which prisoners are kept. There’s a way to counter this bug if it occurs to you. In order to keep your precious prisoners, it is important that you have a character that keeps your prisoners in sight the entire time (even in an unloaded zone). This somehow prevents them from being de-spawned. If you have not loaded your location with prisoners for a while and saved while being in other zones, you still have a way to get your captives back if they have de-spawned. Simply load a save where you are in the zone with prisoners and where you have your special character watching them. Loading your newer save after this should bring your prisoners back in that newer save. NB. As it is hard to have a character have your captives in sight all the time, it is suggested to use a skeleton for this prison guard role. Raiders from base assaults will always attempt to free prisoners regardless of their relation to the prisoner’s faction. Even if you don’t lose to the raiders, some might run off to sneakily free the prisoners while you are distracted fighting the others. To prevent this you could place prison cages in a locked building or a fenced off area. Details Power Consumption - 0 Efficiency - 1x Gallery Alpha",
+      "organization": "Reviewed 5 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/prisoner-cage.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e5c0d6f8bb2a90dc3a9e95d75c2a77c67018bc1b54f13fe9bd8699967e39f5b2"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-incomplete-details",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "prisoner-pole",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Prisoner Poles are capturing devices used by Cannibals, Fogmen and Gurglers. The Holy Nation also utilizes them in Rebirth. When a recruit/NPC is captured nearby a prisoner pole they are locked in and eaten alive by the nearest enemies. This process can take anywhere from a few seconds to minutes, allowing for escape. They work a lot like Prisoner Cages but with separate animations. They are also used by the Southern Hive. When tied up on a pole a character can medic themselves (Provided the job is set) once their legs reach a certain threshold. When eaten alive in Kenshi, cut damage as well as negative bandaged health is applied. You’ll need to patch up that damage or your character will be crippled even with a full health robotic limb.",
+      "organization": "Reviewed 0 headings and 0 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/prisoner-pole.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5a154bc00d5c0b24b20830f75e12f5d99fb93c3787cc7ebf6739ab2723df0dd2"
+      },
+      "questions": [
+        "claim:building-care-and-detention"
+      ]
     }
   ],
   "editorialChanges": [
