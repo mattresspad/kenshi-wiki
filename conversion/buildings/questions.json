@@ -104,10 +104,10 @@
       "storage-robotics",
       "general-storage-chest"
     ],
-    "12x12|18x18|same",
-    "Storage: Robotics compares its 12x12 space to General Storage Chest, whose page states 18x18.",
-    "Inspect exact inventory records and compare the intended containers.",
-    "Do not silently change either dimension or comparison."
+    "12\\s*x\\s*12|18\\s*x\\s*18|same",
+    "Storage: Robotics lists 12x12 and compares itself to General Storage Chest, which lists 18 x 18; the wording may refer only to the shared stacking multiplier.",
+    "Clarify which property the comparison refers to; verify both inventory sizes and stacking multipliers against their records.",
+    "Do not treat the comparison as an established contradiction or change either size without evidence."
   ],
   [
     "building-gate-condition-conflict",

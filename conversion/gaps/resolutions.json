@@ -1927,6 +1927,17 @@
       }
     },
     {
+      "id": "availability:/cactus-farm",
+      "kind": "availability",
+      "target": "/cactus-farm",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-conditions",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cactus-farm"
+      }
+    },
+    {
       "id": "availability:/cactus-rum",
       "kind": "availability",
       "target": "/cactus-rum",
@@ -4839,6 +4850,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/food"
+      }
+    },
+    {
+      "id": "availability:/food-store",
+      "kind": "availability",
+      "target": "/food-store",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-conditions",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/food-store"
       }
     },
     {
@@ -9129,6 +9151,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/obedience"
+      }
+    },
+    {
+      "id": "availability:/oil-drill",
+      "kind": "availability",
+      "target": "/oil-drill",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-conditions",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/oil-drill"
       }
     },
     {

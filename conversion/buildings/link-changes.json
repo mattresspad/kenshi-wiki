@@ -37,5 +37,20 @@
       "/fabric-manufacture-tech",
       "/wind-generator-theory-tech"
     ]
+  },
+  {
+    "name": "building-conditions",
+    "resolved": [
+      "/cactus-farm",
+      "/food-store",
+      "/oil-drill"
+    ],
+    "introduced": [
+      "/buildings",
+      "/cactus-farming-tech",
+      "/category/storage",
+      "/item-storage-tech",
+      "/jobs"
+    ]
   }
 ]

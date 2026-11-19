@@ -49184,9 +49184,9 @@
       "priority": "P2",
       "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
       "status": "open",
-      "finding": "Storage: Robotics compares its 12x12 space to General Storage Chest, whose page states 18x18.",
-      "proposedResolution": "Inspect exact inventory records and compare the intended containers.",
-      "uncertainty": "Do not silently change either dimension or comparison.",
+      "finding": "Storage: Robotics lists 12x12 and compares itself to General Storage Chest, which lists 18 x 18; the wording may refer only to the shared stacking multiplier.",
+      "proposedResolution": "Clarify which property the comparison refers to; verify both inventory sizes and stacking multipliers against their records.",
+      "uncertainty": "Do not treat the comparison as an established contradiction or change either size without evidence.",
       "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
       "evidence": [
         {

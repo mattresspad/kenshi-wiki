@@ -97,6 +97,55 @@
         "claim:building-environment-and-automation",
         "claim:building-recipes-and-capacity"
       ]
+    },
+    {
+      "id": "cactus-farm",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cactus Farms are Buildings for growing Cactus. Once built, they require water to grow, but no further manpower is needed until harvest time. After harvesting, the farm will continue to produce as long as it has water. When upgrading a farm, any water that was in the farm will remain upon completion of the upgrade. Further, the cactus material cost will only increase by 10 per upgrade. The table shows the amount required to build a farm outright. The “time left to harvest” column only begins to tick down once the crops are ready for harvest. Research required - Cactus Farming Cactus Farm Upgrades",
+      "organization": "Reviewed 1 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cactus-farm.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "abfb6f056b79ba2dc761e160a8fefb94308b88014e6dbde3d18ffd2fff5507df"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "food-store",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Food Store is a storage container which exclusively contains Food items. Players can construct this building after researching Item Storage (Tech). It can be used to automate the Hunger management of the units inside a player-owned outpost or building in town. This container has a storage space of 18x18 squares and a stacking multiplier of 4. This structure is one of several storage containers that player characters can be assigned to auto-haul resources into, though sometimes with mixed results. Hungry player characters will automatically move to this storage and take the food items for consumption; a trait shared with the Bread Basket. Unlike the bread basket, this container cannot hold bread, though characters can still store almost every other food item. Humorously enough, characters will sometimes still prioritize eating out of the food store over their current task - even if their hunger stat is more than fully satisfied. This can cause minor problems for players utilizing automation in their outposts and living spaces, especially if their squad is munching on food faster than they can stockpile it.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/food-store.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b589bb82e7fe0c186f1ee592c4d209a1747c9a8d41f61e69738780a47d7a1d23"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-food-store",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "oil-drill",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: As of version 1.0.10 the Oil Drill is currently not implemented in the base game (Except for one that appears in Mongrel). It is however possible to access and build the Oil Drill by using the in-game editor (Shift + F12). This building can be found under the ‘Mining’ section of buildings. Despite the fact that there is already at least one Oil Drill placed in the game, they are currently only a decoration. They do not produce Fuel or any other item. Details Power Consumption - -1 Efficiency - 1x Related Buildings Manual Oil Drill Oil Drill Oil Refinery Oil Silo",
+      "organization": "Reviewed 2 headings and 4 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/oil-drill.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f1ce5605b95c22e1cc36bb07da290a0206bac50b89d2b3688bb10d4b1a2ecdc0"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-removed-oil"
+      ]
     }
   ],
   "editorialChanges": [
