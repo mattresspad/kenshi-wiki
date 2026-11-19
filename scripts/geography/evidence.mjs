@@ -1,4 +1,5 @@
 import {normalizeBuildingTables,takeLeadingBuildingPanel} from '../../src/lib/building-tables.mjs';
+import {normalizeShopTables} from '../../src/lib/shop-tables.mjs';
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import {removeImportedChecklist} from '../../src/lib/character-tables.mjs';
@@ -38,9 +39,10 @@ export function articleEvidence(html, frozen, faction = false) {
     const p=load(panel??'',{},false);
     buildingPanel={text:text(p.root().text()),links:p('a[href]').toArray().map(e=>[text(p(e).text()),destination(e.attribs.href)]),cells:p('tr').toArray().map(r=>p(r).children('th,td').toArray().map(c=>[text(p(c).text()),c.attribs.colspan??'1',c.attribs.rowspan??'1'])),ids:p('[id]').toArray().map(e=>e.attribs.id)};
   }
+  if(faction==='shop')normalizeShopTables($);
   if (faction === 'character' || faction === 'item') removeImportedChecklist($);
   else if (faction === 'race') normalizeRaceTables($);
-  else if (faction && faction !== 'item' && faction !== 'building') normalizeFactionTables($);
+  else if (faction && faction !== 'item' && faction !== 'building' && faction !== 'shop') normalizeFactionTables($);
   // This separately checked editorial note qualifies the original imported words.
   $('.source-qualification').remove();
   const headings = $('h2,h3,h4,h5,h6').toArray().map(el => [el.name,$(el).attr('id') ?? null,text($(el).text())]);

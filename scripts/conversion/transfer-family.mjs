@@ -1,12 +1,12 @@
 import assert from 'node:assert/strict';import {readFileSync,writeFileSync,mkdirSync,existsSync} from 'node:fs';import {dirname,join} from 'node:path';import {stringify} from 'yaml';
 import {snapshot} from '../../src/lib/catalog.mjs';import {openSource,factParts} from './source.mjs';import {articleFiles} from '../article-files.mjs';import {hash} from '../geography/evidence.mjs';
-const [family,name]=process.argv.slice(2);assert.ok(['crafting','technology'].includes(family));const root='conversion/'+family,source=openSource('D:/THE-ONLY-KENSHI-WIKI-CHECKOUT-FOLDER-LOCATION/homepage-polish','reports/geography-work/reference-83abc179'),records=new Map(snapshot.articles.map(a=>[a.id,a]));
+const [family,name]=process.argv.slice(2);assert.ok(['crafting','technology','shops'].includes(family));const root='conversion/'+family,source=openSource('D:/THE-ONLY-KENSHI-WIKI-CHECKOUT-FOLDER-LOCATION/homepage-polish','reports/geography-work/reference-83abc179'),records=new Map(snapshot.articles.map(a=>[a.id,a]));
 const save=(p,s)=>{mkdirSync(dirname(p),{recursive:true});writeFileSync(p,s)},json=(n,x)=>save(join(root,n),JSON.stringify(x,null,2)+'\n');
  const get=p=>JSON.parse(readFileSync(p)),roster=get(root+'/roster.json'),checkpoint=get(root+'/checkpoint.json'),fixture=get(root+'/reference.json'),batch=roster.batches[checkpoint.included];assert.equal(batch?.name,name);
  const existing=new Set(articleFiles().map(a=>a.data.articleId));
- const prepared=batch.ids.map(id=>{const {front,body}=source.document(id),data={articleId:id,title:front.title,description:front.description??'',categories:front.categories??[],layout:family};
+ const prepared=batch.ids.map(id=>{const {front,body}=source.document(id),data={articleId:id,title:front.title,description:front.description??'',categories:front.categories??[],layout:family==='shops'?'shop':family};
  if(front.infobox){assert.ok(!front.infobox.image&&!front.infobox.caption,'Unassessed building fact media '+id);data.factTitle=front.infobox.title;data.factGroups=front.infobox.groups.map(g=>({heading:g.heading??null,rows:g.rows.map(([label,value])=>[label,...factParts(value)])}));}
- const file='src/content/articles/'+roster.home+'/'+records.get(id).sourceFile.slice('src/content/wiki/'.length),output='---\n'+stringify(data,{lineWidth:0}).trimEnd()+'\n---\n\n'+body+'\n';
+ const file='src/content/articles/'+(roster.homes?.[id]??roster.home)+'/'+records.get(id).sourceFile.slice('src/content/wiki/'.length),output='---\n'+stringify(data,{lineWidth:0}).trimEnd()+'\n---\n\n'+body+'\n';
  if(existing.has(id)){assert.ok(existsSync(file),'Different editable home '+id);assert.equal(readFileSync(file,'utf8').replaceAll('\r\n','\n'),output,'Refuse to overwrite edited partial transfer '+id);}else assert.ok(!existsSync(file));
  for(const [url]of fixture.articles[id].images){assert.equal(hash(source.pinned('public'+url)),fixture.assets[url]);assert.equal(hash(readFileSync('public'+url)),fixture.assets[url]);}
  return {file,output};});

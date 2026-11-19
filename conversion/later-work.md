@@ -10,3 +10,7 @@ These are a scratchpad, not acceptance requirements or implementation commitment
 - Versioned graph/DataFlows maintenance companion.
 
 The following shops/residents/traders family is frozen in following-shops.json: 125 pending IDs, with existing IDs reused. Plan its pilots after this review. Public restoration, software licensing, branch replacement and production cutover retain separate approvals.
+
+## Post-conversion Robotics / limb-research pilot — record only
+
+Use the KDT backup at `D:\56b5eb802ac4d395b67ae10da0a79c4781853aaca11fc8b76a3ec9215f809411`, alongside the earlier technical-data recommendation. First establish snapshot checksums, producer/game/mod provenance, units, defaults and calculation assumptions. Then explore a versioned editor lookup for exact record IDs, names, values, categorized references and referrers; an article discrepancy report; and one explicitly sourced research panel only after meanings are established. Cover prerequisites, costs, unlocks, reverse references and article-to-record mappings. Robotics' exported time 8 versus the article's 5 Hours is an investigation, not a correction. No KDT/KDC architecture, integration, map/viewer or graph work is committed by this conversion.

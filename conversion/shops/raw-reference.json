@@ -1,0 +1,5627 @@
+{
+  "articles": {
+    "adventurer-bar": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "blueprints",
+          "Blueprints"
+        ],
+        [
+          "h2",
+          "maps",
+          "Maps"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "blueprints",
+        "maps"
+      ],
+      "text": "1f5485dad5d66e1153568d416bf5e9449b48aa6a8beaae656967360d29f16ad5",
+      "links": "a29dc7babd8d29c5cf8a6715dafc2d5a1a9fd79f961a83ddcae6da4363fcf1ea",
+      "tables": "5bdbf25641dbbf4067b3a10a7d65eaa650ab58346e457e78156a8ea8eff107f7",
+      "facts": "a65f28b88dc48544637889455d44e6d70ccc9b8d0c69219b5b0862c6ba3fb5ff",
+      "images": [],
+      "emptyGallery": false
+    },
+    "adventurer-mechanical-shop": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "residents"
+      ],
+      "text": "d6ce8e0bdce8a2262660f40da2719e04eae825fd94bd9ff982816786b45dfc09",
+      "links": "8fb93067a7e677dd09db1c4a231f5ca3531e1c2f9ec9b00d86b53595e2c61599",
+      "tables": "502bb809edc23fe5e7e5bc7c3d63e0060a177aa209e8d68de9ac6e57a9f6ef7b",
+      "facts": "48ce286bd7a4e488f1bea12bfd4445ecea6cafbe8932ced38707b54f1d13292c",
+      "images": [],
+      "emptyGallery": false
+    },
+    "adventurer-ranger-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "1d26e1c32ce52662654a08464b0657a0e34c920665a90caeb57859ecd53a73a9",
+      "links": "030ec8cd6d96b386cdcdc176f2c476752fa79b2f2870c87ea0197828c5c0b4b0",
+      "tables": "ad849cf5dbef26ed59b3afd90666bd5b765649b2aacb9a310e87cf2d43b05609",
+      "facts": "85c348a54204a2bdd52f9c5e199af5cc03d80a6ba168fa724c27222e15239ea9",
+      "images": [
+        [
+          "/icons/items/66290-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/65870-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/53643-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66169-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/95764-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66534-Newwworld.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "anti-slaver-hq": {
+      "headings": [
+        [
+          "h2",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "interior",
+          "Interior"
+        ],
+        [
+          "h2",
+          "item-spawns",
+          "Item Spawns"
+        ],
+        [
+          "h2",
+          "trivia",
+          "Trivia"
+        ]
+      ],
+      "ids": [
+        "residents",
+        "interior",
+        "item-spawns",
+        "trivia"
+      ],
+      "text": "a05032463d63c59629d4e2b8be3885b21c4d497d97c213caa2f531f6dcdc0605",
+      "links": "29debe4f204d5384d686474f0812b5619d1e459daafa21ddddaf631453dc7e48",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "9733c6a464673235fceb56c59f94ac73bebc79e8e2249e260de49c23f14809f3",
+      "images": [],
+      "emptyGallery": false
+    },
+    "armour-kings-shop": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "artifacts-spawned",
+          "Artifacts spawned"
+        ],
+        [
+          "h2",
+          "vendor-list",
+          "Vendor List"
+        ]
+      ],
+      "ids": [
+        "residents",
+        "artifacts-spawned",
+        "vendor-list"
+      ],
+      "text": "82bd1b83fd43c33314c82b58767ce4908f1cc8aaecf730ada9596c01b0007868",
+      "links": "1b64d8f001d7d1dffd3a61f107675b1da3c10df805044ec8782f20fff6e7b483",
+      "tables": "010602bebd286c85ebcfa5e216139d0b911eeb0176bde5467c365cb297dd351e",
+      "facts": "fe0d6ca8e49a0fe48fd7db7c0df721992156606b9a5d6062a9d40185b172306b",
+      "images": [
+        [
+          "/icons/items/2200-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2154-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1533852-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1534061-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/577-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/53299-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/544-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2214-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/3061-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534053-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2227-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2228-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2229-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1534050-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1169-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2213-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2165-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2283-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2148-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2180-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/556-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2182-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2180-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/18018-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2122-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/549-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2159-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2145-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2150-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2223-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/62178-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/684-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2149-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2202-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/53301-rebirth.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "ashland-trade-culture": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ]
+      ],
+      "ids": [
+        "locations"
+      ],
+      "text": "98b6a55ed0b879fe865911beed10b7438eb80c0755387863455aec0b2c848137",
+      "links": "4bed48e399311048a6f409d87232dec6a3a66cc012ac2567730223e5b1fd6ffb",
+      "tables": "d990b4667413d409ec39741c65233d58b0d64dbf3fd506f77f7f2fbc1443d98e",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "bakery": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "91b8572ce77b92facd1ca47e0f1d4b69273bc26cad4fee7ec06a19d22ea1805d",
+      "links": "f996fb4a17dd93b797719c2eceeb0dbb4ff7067be764b1be6baa3ae8ed013c40",
+      "tables": "92ff8bcda79f1e0a7c4a4c33c0b0e1fc16c002cf00861390f401cdb40c7eb5ba",
+      "facts": "ed181091064ec5dd87bbdcff28ff64a0f3ddfe58e5abf058dd1d18de6ba7ba6f",
+      "images": [],
+      "emptyGallery": false
+    },
+    "bank": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "b9770d2e810d4636ed541ec067d011a342e36e1967fadf8d59c570481a0ed032",
+      "links": "ba573d4c82375eee6ebe0ef434f26e35855ac9f6a8fb14496556e388b96b9582",
+      "tables": "16426925d066672a1e0f7713c115fa8de9b5ce7f5363930003023f959baa960c",
+      "facts": "f3148cce02990d4b3499f325ee70d55e29679cbfc3c478c3961a7fcc84500493",
+      "images": [],
+      "emptyGallery": false
+    },
+    "bar-of-mourn": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "possible-stock",
+          "Possible Stock"
+        ]
+      ],
+      "ids": [
+        "residents",
+        "possible-stock"
+      ],
+      "text": "629740ae4d2e04f788da363c512e07b8f26d80c3cd0bd5efc444b112076cca64",
+      "links": "8128c38a3b6a96ec81bfa751418a4921dae5afeff4b7a3a4476e9cac56f52ee8",
+      "tables": "c0697f20ac5176bc2970562ea9b3c1c7ac7899eca41db0c0aa806724106bf1d0",
+      "facts": "c197a951a9c3ba6c99e6d3b6c38d1a112b738e57772345848a793598c797b882",
+      "images": [],
+      "emptyGallery": false
+    },
+    "bars": {
+      "headings": [
+        [
+          "h3",
+          "specific-bars",
+          "Specific Bars"
+        ],
+        [
+          "h3",
+          "bakeries",
+          "Bakeries"
+        ]
+      ],
+      "ids": [
+        "specific-bars",
+        "bakeries"
+      ],
+      "text": "56edf525b6852bc57bfada59a01c1d5d715b17a4b34e4b29b46841b181ff11e7",
+      "links": "88186184fb410bb369765207ca003e90827a9af77b6341e2cb31ae3e2bb6ecaa",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "battery-station": {
+      "headings": [],
+      "ids": [],
+      "text": "080445f85c850431156b515f7a1fd3111acc774f7dd082d1fd3af1ad9b29097f",
+      "links": "14d7388ec54695242465159a0eccc2fef25f3dff152887ab4a6d0071d350c21a",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "black-market-bar": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "03e14db25f8e20908fae3e73b17e111e7b52b22d09880abd4b2611912825c7d8",
+      "links": "fdc33c4cff54c220d9195ac06f35551d6074b123ec0d01330999d580cbb2746e",
+      "tables": "2cdb1fb64ed44a7a6dd19c72e67b57ecb48e6d49517f06e7c52b891510d1135c",
+      "facts": "77e5f898c1dfa5179227de4b36c364ff8a5de5f9ee498f8bddcd618b0c6aae5f",
+      "images": [
+        [
+          "/icons/items/52292-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52306-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/923-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52307-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52287-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/475-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52295-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52303-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/476-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52308-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52309-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/922-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/924-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/902-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52301-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/903-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52302-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1020-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/95724-Dialogue.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66169-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/95764-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66534-Newwworld.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "blackshifter-casino-bar": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "201648f07250cb77149d4d0247a0a976b209d836ab7b571dd7b610ac069010a5",
+      "links": "5f0a0a715d587cc57ba095c34a3e41da2195135200ab95032f4811f6c6d0eb55",
+      "tables": "5710082e8767a2bfbcdbb1e3baff0d4187ca435e11d8b18dd1d4f38375158184",
+      "facts": "35f95ad84d36fdb08bc579b57625a2139287e3dbec0c1a2d435b3d663980c977",
+      "images": [],
+      "emptyGallery": false
+    },
+    "boot-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "c354053010669b150eaf421332e5c27879ea1164f96a6ca57f792ef919baf1c4",
+      "links": "de75557d085a41f2b588dda3e6744e1ceb510e05b395cafb46be3a396a89dada",
+      "tables": "b8b8b07470234708d40e9d5547ec711434662d9a3106e8dec5f6e4c9bea7aed2",
+      "facts": "8a186d8083505826094079a9f2bc6f349059f1eca681dffd61775a5e977f10a3",
+      "images": [
+        [
+          "/icons/items/2306-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/556-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/549-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/557-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "catun-scrapmasters": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "431bf32ea2e2375bef1a0a2ef5371d1d7a410e784be71505fa87ca4088724f20",
+      "links": "63d5df3690f747e9759f1d37ea731cfe1f067061a070967a301df272ba8ca6ca",
+      "tables": "f797c130687f49a8775dcbe8cfef678dbe8806c66fba96044adb363e7c3cdea1",
+      "facts": "49b48caeb51372b4253e94e41dbc5e0915b1315f0efaaf3417e8635e721a265d",
+      "images": [
+        [
+          "/icons/items/52305-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52304-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/923-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52290-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52287-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/475-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52303-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/476-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/901-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2110-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52308-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52309-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/924-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/922-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/902-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/903-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52302-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/474-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1020-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "clothes-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "gallery"
+      ],
+      "text": "1cb3c901a25c3cc087363d4d4143be7ab4659b464d60e0a3b3c3b9880d3a064f",
+      "links": "0faf9f4d7d874f39507b59b8dbafb02e6b67f849d4cdbd6ddea88f68e7e06c4d",
+      "tables": "14285b5413c60d21212b05afdc7a9d5913879b9736dc9e554f6070b9a988bd83",
+      "facts": "8a2e2a11cdbddc04a1a855f0053e7a2aee9bfa04fefbd4c8f1f1cb5968e08ec4",
+      "images": [
+        [
+          "/icons/items/1394-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1393-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1392-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/544-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2210-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2306-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2304-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2305-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/554-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1311-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1395-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1169-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2213-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2212-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2151-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/18018-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/18019-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1532828-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2159-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2163-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/550-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1168-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/564-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2193-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/551-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2197-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2194-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534055-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/543-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2158-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": true
+    },
+    "clothing-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "a81855be8b446dbfbfb12deaaa21d4df99c2741421b827104c08b3fe39c02e8f",
+      "links": "12907ba1168dbb08d66a5e5180c68716b3ea9f5719a3e6ce67a90809c5a557f4",
+      "tables": "14285b5413c60d21212b05afdc7a9d5913879b9736dc9e554f6070b9a988bd83",
+      "facts": "0c1bceb23dd96682e78b1bac58b89c004dbc6c2ba32e0dd1ccc240271e07fa2a",
+      "images": [
+        [
+          "/icons/items/1394-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1393-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1392-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/544-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2210-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2306-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2304-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2305-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/554-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1311-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1395-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1169-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2213-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2212-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2151-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/18018-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/18019-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1532828-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2159-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2163-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/550-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1168-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/564-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2193-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/551-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2197-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2194-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534055-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/543-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2158-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "crab-bar": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "0e3fa091d298a29284473994564c0f9353da76c7d426b8e0bfdea059045efdc2",
+      "links": "50a36b7c41d2921dac1740cdff6bf426589f573c4ce50208af27f6f5e8fe5d9c",
+      "tables": "eb041a0e7cd44ac211baf0c387fad023161b4b3efba8c52f2e1e731f9ed1af4c",
+      "facts": "2ce7f03358e6f7353511b87f3c17d9c0a40e8efdcbb71027b5b80ace8097f208",
+      "images": [],
+      "emptyGallery": false
+    },
+    "crab-shop": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "d2bb3f01eba3b96ad08a3b2cff371a2fa8fc522e69e7c14bb1c5e8548c8710b2",
+      "links": "e2f5000cb121c4c262298e95a35de992525db9d0d8058dfb47490aafcac14170",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "5e87f01ddbc56a06e8544c3883b672a34d1c5b67f38ecf1592d4d0f8a0922528",
+      "images": [],
+      "emptyGallery": false
+    },
+    "crab-smithy": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "c60017423de60be88a9315c8945e2a29f6ddc65a0e804b748d5ce1a20e13dfdb",
+      "links": "7318574a4c3c888a75e4689250b1e872bea5f280bd99573aa541b0a4a677c9e0",
+      "tables": "c9aff14f662ea84913c17554a1acccef07b04ab3bfc9d6a16da6f1f3de825382",
+      "facts": "2607a62db4c8813cd6992131621b633c3248c06718ed14682d07891fc347cffd",
+      "images": [
+        [
+          "/icons/items/2211-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/577-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/64892-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/64888-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/64890-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/64891-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/18019-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/18018-small_changes_otto.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "deadcat-bar": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "ff62fde545786fb10d035ce6bd4b6485cc5e535fe7fc66cf57e4bd7575224d10",
+      "links": "fa74d850eb5cbde2ca27ba034c628969e260c8211c6cfaa692d98e9a23aed126",
+      "tables": "f98405303f5c652295cdf1c429a821aa38d121c0ed96e8f2f80a280a32b236f8",
+      "facts": "7b5888d5892a5c4678ddfcc267ca5b46588366602e9bba60aaa83df8465d2c75",
+      "images": [],
+      "emptyGallery": false
+    },
+    "deadcat-big-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "853cf17c37bfd4f53bab2a6f2d44df64c9e0ef387ecf7e3b983202d08cc261c3",
+      "links": "527e9f7f451f8b4c1d6b77839a89d1becc6697415376f260481513add7b22c8c",
+      "tables": "0a52d0e123a35be3c25227f6d058c4c60b4edfaee3c60631af3fbbb4827ecb1e",
+      "facts": "47091ee52962da31d91dd3245ecd5819130f9afb9b74ad432629c89b5b79b65c",
+      "images": [
+        [
+          "/icons/items/2200-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2222-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/98563-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2224-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2227-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2201-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2185-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2223-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2220-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1415-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2149-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2202-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534055-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2168-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/575-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2164-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "drifters-last-general-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "adf37a6fb8aaf2b70f0da0c4bae7e353a7a04bd488999544c2303bb016431532",
+      "links": "0221926d54f584a20ced4d0b7c664344c76e40bd7d1289b93ac35499d218996e",
+      "tables": "7da9b0e526e2c16e1cddedf7fc92aa18ff41e2393e45412c0ec459ed918c4139",
+      "facts": "39377383bb6a1537313bbce95612948d880d50977e6e067222add29aeba0ce6a",
+      "images": [
+        [
+          "/icons/items/2222-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/98563-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2224-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2228-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2229-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2201-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2185-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/98562-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2223-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2220-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2219-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/45556-changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534055-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/575-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2306-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/556-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/549-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/557-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "empire-armor-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "34813065af15cdd742aefe730ecb46152c0f9c055fe5e229048fce2a1d0d57e3",
+      "links": "69da61c9d8304c66c807ac1ba935ad9f93f630462decf4ce3544de74ad128705",
+      "tables": "edaa6587df3c2240ad35c7267b899e672dc39c80a4c1e34ebd9879e20c4fdd4b",
+      "facts": "3cda631acb1d2217b19927d1ea4734a1e11051fb5c9fa85265a7e0a8c162f24c",
+      "images": [
+        [
+          "/icons/items/18962-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2200-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2198-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2224-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2156-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2227-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2201-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2283-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2148-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2182-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/556-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2180-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2122-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/549-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2145-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2150-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2223-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2202-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "empire-armory": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "926ee7d43c0b46b0e32b80eba2c9d4358c8f2420f13b25170eea8cd0e9720efb",
+      "links": "a60e9c6452bf785e7e900b378d0866bd0c7cbb9c9679f2a110789f781b42edc2",
+      "tables": "edaa6587df3c2240ad35c7267b899e672dc39c80a4c1e34ebd9879e20c4fdd4b",
+      "facts": "02134fdeaf6fb56e051f349ce9f6e04b40fde785e57bf002eab30045276b4dca",
+      "images": [
+        [
+          "/icons/items/18962-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2200-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2198-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2224-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2156-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2227-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2201-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2283-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2148-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2182-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/556-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2180-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2122-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/549-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2145-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2150-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2223-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2202-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "empire-bakery": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "13414e6d5ed59f2bfa48c8f1970c0d06b6656c711c4c2c0c9c068032c08dae23",
+      "links": "4773aa308773d14dc0338fa7ef4bff48619c9596791a5a2eef424b6c5874f5bd",
+      "tables": "76016137951e807ddd0493cb93453d2f9604894a880eeef553e02c62e6992172",
+      "facts": "9ffb332b753b8de469b3f14ed4f4a4dc364f9adcc80b992454eb5c48df2295d9",
+      "images": [],
+      "emptyGallery": false
+    },
+    "empire-bar": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "wanted-posters",
+          "Wanted Posters"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "wanted-posters"
+      ],
+      "text": "d6b8ffd677817adb14cf5f7a46cb99ded3a4de76ecb0546ac86cafe238b036cc",
+      "links": "96a0793f85a05fbcf6e921eea2a1621d583da586a557d9a7229e6de46de48722",
+      "tables": "eb041a0e7cd44ac211baf0c387fad023161b4b3efba8c52f2e1e731f9ed1af4c",
+      "facts": "43fc182de7de2be7f975b9ceff90d7bd95e4110a6c9109816d93c4d8e3280488",
+      "images": [],
+      "emptyGallery": false
+    },
+    "empire-big-bar": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "wanted-posters",
+          "Wanted Posters"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "wanted-posters"
+      ],
+      "text": "a23db8d0896ce4ee8a66bd1bc748da48c9202fe63b2cb11ae44aa99921bdb593",
+      "links": "d8e32244c631a1209b5233b7bb22699bdbd83a2af01aa6ceee867dcc5c2becf1",
+      "tables": "eb041a0e7cd44ac211baf0c387fad023161b4b3efba8c52f2e1e731f9ed1af4c",
+      "facts": "2b26e3d4e896e9472d9d21044d3c7c76e0170069945b0bda92a31e26511e413c",
+      "images": [],
+      "emptyGallery": false
+    },
+    "empire-general-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "df5111f69f5e62eef5471b465bb95d70d2ae47d82400517c45488d1716a319d5",
+      "links": "2e4cae97e32394309cc5096ec1399c07e13647a14c94fe38638a668a84879f28",
+      "tables": "5247969fdcd0892334a4548a6d85c23de184662186b7b56c836fa2fe23d530eb",
+      "facts": "3235d2bd017de670f9b4e6c6b94d2522ec83618457d23a2a99cc55b96cd6abe2",
+      "images": [],
+      "emptyGallery": false
+    },
+    "empire-general-storage": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "e595f7adeb4a2a95946a01dc65d2c2bc4a50c0f630d1e0371bb510594e1ec4fc",
+      "links": "6c94d1d756abd677c3b34463a28dcce3abfc50c2fc30d8c9c93dcd805bafd5e0",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "5f65faea9243b212ce721f68c93c85be3a883fbde1dc0bebad56985e50fa5bb6",
+      "images": [],
+      "emptyGallery": false
+    },
+    "empire-lawless-trade-culture": {
+      "headings": [],
+      "ids": [],
+      "text": "24201ad646704752afa27ef4c6da02794a0f97bf141dc19cb19935892c1e02cb",
+      "links": "926b877eb4be6344ae84d849d6f065e54ed91ff5a101dad59640ba2d699c38bf",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "empire-mechanical-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "676c20907d834a7ebf7f3e7a8f855d4c4576833b1e5803d68993fb58556653b5",
+      "links": "967dbdf7b73ef709daaddc91441e4ca898513d6cfc5b9a8f0f5c471840184693",
+      "tables": "7b0410eb145fc1cea92603b1bb17ee25c9f2989bb6115fbeacccc928c5298326",
+      "facts": "d7b0e51ed39407152694987064289982a07a68387e7349cd467558058b778181",
+      "images": [],
+      "emptyGallery": false
+    },
+    "empire-ranger-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "c1103907556c03a83e3390fbae9e836784e4d9e2f0d06d1eb0c2d6656cd1e491",
+      "links": "e0271c9ac58aa8911b333802ee3f3b27c2ea27f9d03efc8ee7bb9df7cc30ce28",
+      "tables": "c1a675bc33f988221849731b1086f4f7fe4a6c3c180f38e22634b45f9395670e",
+      "facts": "34c9a46a50093fae8144dd17870248afd91ad465a82d6c996889f9e07b4e3a57",
+      "images": [
+        [
+          "/icons/items/66290-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/65870-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/53643-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66169-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/95764-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66534-Newwworld.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "empire-southwest-trade-culture": {
+      "headings": [],
+      "ids": [],
+      "text": "7fb34652da83d05dbaee8a1987b926d9802f1f58a2d7ecac3a20a09ca2240135",
+      "links": "5cc4e018d4f0dc9e7dc888ab911de47a751a2ea611a102b31cd10b8f85e8cdad",
+      "tables": "203deacc3cd1a40c9a3a6563e7658725c24cbe26e645af92f3bc9eee340d6fd5",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "empire-trade-culture": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "illegal",
+          "Illegal"
+        ],
+        [
+          "h2",
+          "trivia",
+          "Trivia"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "illegal",
+        "trivia"
+      ],
+      "text": "639ce2be7b3083f3b3179f659c684f7a134c7d241ff3bc3d7e595af511eff3c4",
+      "links": "7b45842f29406ba9b9c98c2d3b37e8f98b6e129820f3a90e0cd8e94d602c1911",
+      "tables": "045b99ef276650f9c38448eaed84f4780b649d6d7fe6c05abbad33412fdd6822",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "empire-weapon-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "c09e9a8fb303651e8870bbe94a35886194d856577b8586dd4e61b39e3a7beb67",
+      "links": "86b99d8573b5770e068abbba9dbcb3fb54aead0327a52eaca6cc9dae01defa18",
+      "tables": "da01d85d0a5b5858dbfbe3774a088b12e86bcb3ecd0968f91d83d6d0c3366cf6",
+      "facts": "d225925999ac40d3f34723079746689b2a695aa1064665909ba71a519097e201",
+      "images": [
+        [
+          "/icons/items/52305-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52304-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/923-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52290-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52287-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/475-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52303-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/476-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/901-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2110-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52308-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52309-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/924-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/922-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/902-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/903-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52302-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1020-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "equipment-shops": {
+      "headings": [
+        [
+          "h2",
+          "armour-shops",
+          "Armour Shops"
+        ],
+        [
+          "h3",
+          "clothing-shops",
+          "Clothing Shops"
+        ],
+        [
+          "h3",
+          "headgear-shops",
+          "Headgear Shops"
+        ],
+        [
+          "h3",
+          "footwear-shops",
+          "Footwear Shops"
+        ],
+        [
+          "h2",
+          "weapon-shops",
+          "Weapon Shops"
+        ],
+        [
+          "h3",
+          "specific-weapon-shops",
+          "Specific Weapon Shops"
+        ],
+        [
+          "h3",
+          "ranger-shops",
+          "Ranger Shops"
+        ],
+        [
+          "h2",
+          "other-equipment",
+          "Other Equipment"
+        ]
+      ],
+      "ids": [
+        "armour-shops",
+        "clothing-shops",
+        "headgear-shops",
+        "footwear-shops",
+        "weapon-shops",
+        "specific-weapon-shops",
+        "ranger-shops",
+        "other-equipment"
+      ],
+      "text": "4459851ad4b2c684e3a120095c22f7cc3682d1c4222a097c2fb0fd5a97d7931f",
+      "links": "c7c0f83e19a1d0b956fbc7f0974c398b796184618a71bb424bb785533cb2f024",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "farm-shop": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "residents"
+      ],
+      "text": "aa4a095a3773b93d24e0602f14a6f88c434a61c93c46967b2d26352ebc79de5b",
+      "links": "0ad50515e495d25959db0943e286b18b8bfcdf150739c3c64adb694023281f7a",
+      "tables": "83a7aa0e0c37af5ef57eb7de64700ef28d8e4142c47998da17c46b3c3e33ce84",
+      "facts": "3473a4a5dfc3c6b434608fbbf192794a5084975036edd73938b1aa9bd24ac0bc",
+      "images": [],
+      "emptyGallery": false
+    },
+    "fish-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "d1b7dc0bc65303c6a5c8e0a18b8206de9be6e17230c4953f684a226d7f999bec",
+      "links": "f9e91e3ba354bfb69859b34abdd20442448481e97f094db9279bfb725b214710",
+      "tables": "cebc7c6e4eb504fc5005f87d423ebbaa182c9a90d89126a456d6c9d04e7730b1",
+      "facts": "194c9bc9735fe6772a3570f089d9c79231c312bb853296aa430e116f1339b1bb",
+      "images": [],
+      "emptyGallery": false
+    },
+    "flats-lagoon-bar": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "40a398e56068ee4cfbdd7bc69ac8d38326f45b7acb9ec2b49cffaa2f498ad7a1",
+      "links": "72855e2db1093ae45fadb05bbf2cd8a5a14806d0154dfef594671a047ee2602d",
+      "tables": "164c81eface7f3edcf7aee1512f17f8054e26224d6ccb504ed86f50d4f849cb6",
+      "facts": "d7b9a120e38612afc9cbf37b751052dc1111365dd8fa113740782340e2df94fc",
+      "images": [],
+      "emptyGallery": false
+    },
+    "flophouse": {
+      "headings": [],
+      "ids": [],
+      "text": "342949c38ef29ab21ef8946fe202a823758ced40d2fb0f5e533b484fb8836b59",
+      "links": "a0fd810208dab8ee495e8a6a8a04fd35510855552ca41a4c2b0202b1bb2362a7",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "flotsam-armory": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "b4b53521716766a84ec58671168788235f8e4606a23ed6402a49a4258b77da37",
+      "links": "9871116ab2a790025d57d2586cb9dfa203c5eb28decad6675bd59c35ed30ea9c",
+      "tables": "a1f5140052df9906471a2fc08091b823169d256e28892fe80acd4e79d784f090",
+      "facts": "684836c008d1a866e33632082e4c6ee5d47c0e8da479c925202ce7b88a444f55",
+      "images": [
+        [
+          "/icons/items/52292-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52306-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/923-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52307-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52287-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/475-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52295-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52303-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/476-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52308-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52309-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/924-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/922-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/902-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52301-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/903-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52302-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1020-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/66290-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/65870-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/53643-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66169-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/95764-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66534-Newwworld.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "flotsam-bar": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "4c8b885c5b40235f281f3eb24f9c14d65aa4c07db80bb2088a23b696e67b1fbf",
+      "links": "2bf7d538005edb1635d478d18d7a21e87c26e63c47f11d8a37ea659957c3a93f",
+      "tables": "a55ee74a94e9ebac50d445e4ee74b5ecf8a56b937264e43c1a16144b5af324a2",
+      "facts": "cb51b98fc96f93503c0d18cf6cdb1e1e2a6757502d2b86528df6765f4f2b205a",
+      "images": [],
+      "emptyGallery": false
+    },
+    "free-traders-trade-culture": {
+      "headings": [],
+      "ids": [],
+      "text": "bb2c36f1a4ab9a8599c7e06eba983fb791010d3c53ba6e8c280696380490da38",
+      "links": "1128a79a68d7e5d7b674bd4613c98dc41f4ed158c6d4a5b1b5a929d2c963d715",
+      "tables": "205b44712e6e44cd305dfc39f2349021f04f095ab7edc6656c57f1e7daea5892",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "general-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "2b050f189254c7714a23c51e966232422168f925ad7a40562eea59765f8114d9",
+      "links": "f36bb5f527e85990631fe59920097e33d3756f0981943b7d3b25e4ff3f9f8332",
+      "tables": "4ddc1f797d1f64a3d0bcceb3d018e33a0f89a6ecbe8c122f5cc281836ed96bb9",
+      "facts": "34b8f2acd66c3402471b763058c4f827125e72e2ed1a04f2136502d5e8509b79",
+      "images": [],
+      "emptyGallery": false
+    },
+    "headgear-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "80eace59e6b936e7dc29dd588ea5cdbab3d05d1b7bda77773c87829d74330ae1",
+      "links": "448b5270ab19001520c59b125820c3f2d3e9a829c892fe182af28240670006ec",
+      "tables": "5482aace5bf88702a7f21c08232269f9c688eec8c9bc066cde63c7739c5bdd4b",
+      "facts": "c45d98dfd104319a448dde082f593f8a67ee564ac4e66428070747b69a6ea704",
+      "images": [
+        [
+          "/icons/items/2200-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2222-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/98563-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2224-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2227-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2201-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2185-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2223-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2220-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1415-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2149-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2202-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534055-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2168-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/575-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2164-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "heft-armory": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "6e4b4bdfeaac27b8fd6b3b40bbc4ce6d0190c42d904a2877eb9acd06f6131155",
+      "links": "0cd1accf5efb14d4eaf84c003e01ad5a4c01300ac34bb5a1cec30d7e51b364d2",
+      "tables": "38aa9ab336f7c4abdf7264acc54a7611328866c4013c92726197cce06029240b",
+      "facts": "55a47c164c7690a100bcabdc3ba59b2b7b148856f344bd7b9176c10c2438967b",
+      "images": [
+        [
+          "/icons/items/18962-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2200-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/53299-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2225-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2198-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2224-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2156-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2227-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2201-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2283-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2148-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2182-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/556-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2180-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2122-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/549-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2145-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2150-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2223-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2203-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2149-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2202-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "hive-robotics-shop": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "residents"
+      ],
+      "text": "fb691ebefb7d7dda7b3dd4e1e441dcae4b29a6595b32188f5439a0db73cdecfe",
+      "links": "9edbe055df33ad57c773dd216a718479921e4996bc820ce171671845fb73afae",
+      "tables": "be4fd05042dd63ac935cc290e9b43ebef3f9f0c4c896d042c0d1c20dcb572163",
+      "facts": "424346160ccb983021fc2be54999f3e6eb55d84b3d09ecaf81bc5915658fbde1",
+      "images": [],
+      "emptyGallery": false
+    },
+    "hive-trader": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h3",
+          "blueprints",
+          "Blueprints"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "blueprints"
+      ],
+      "text": "58b2a17c5cc1684c6d5e2a7faaafbf58aa93fc5882276100dc5d8c7f5083e462",
+      "links": "2639f385155a8706446603f3f824dbe3930b127de5771d368eac22961cde4c3f",
+      "tables": "a77a98ac4a95966512cdf344c3b41296bcc137e9c42e84b1d47c2cec8a48dfa5",
+      "facts": "161fde406d395e1e3e7177b2e658de9a6601be3b673c59025cb458b62dfa6b40",
+      "images": [
+        [
+          "/icons/items/1534061-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1534053-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1534050-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1532813-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1534062-Newwworld_Plus.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "hiver-merchant-caravan": {
+      "headings": [
+        [
+          "h3",
+          "characters",
+          "Characters"
+        ],
+        [
+          "h3",
+          "zones",
+          "Zones"
+        ]
+      ],
+      "ids": [
+        "characters",
+        "zones"
+      ],
+      "text": "c92a7edbace450916d695542d7960f1babbd88abab5faa03a71febb5952c9ace",
+      "links": "c52a99afbd615e2234e4c1a81be0d6d1bc6b3e71016dee8833a34a8154784c4f",
+      "tables": "76e538860df6a837ce56001931f7e364f292b687670c61ec21d365146fe75bdc",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "hiver-trader-caravan": {
+      "headings": [],
+      "ids": [],
+      "text": "cd0f4b7a4d9713fbc53a7261875c3194e7d2fcf00416c31a73126697794cebb8",
+      "links": "fb992eb33930ff0c0363147d2da2c3d893b7715df67d6a763380dc994bc40c0a",
+      "tables": "715d2e529a12f36a2197aac8ab22cced0435892a82e40498250fbe15f480f2c1",
+      "facts": "8f77b8fe3ca109b207916b7963881cb4c4d7b6825c7ea2657a3fa29940892d97",
+      "images": [],
+      "emptyGallery": false
+    },
+    "holy-armor-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "gallery"
+      ],
+      "text": "5c6a9ef62ee81b1d2328f92f2ecb325f71c054b4eb7f71855ef54df95340deb1",
+      "links": "2ef9da0afc88263e737add23c5d99b15c9000e1acc1f6fad648e3d452be48e40",
+      "tables": "8ed1dd4ddfa8cf9a15cdc052c0e5698d08926b058f828a1130b11f70098322e6",
+      "facts": "aa55a9a5110887b72c10e2d57dd29374bec456bfe48f0ef4eadd07d90a94f7c1",
+      "images": [
+        [
+          "/icons/items/2210-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/544-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2306-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2156-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2166-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1169-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2213-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2212-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2201-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/556-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/18019-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/18018-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2149-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2163-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2202-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": true
+    },
+    "holy-armory": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "gallery"
+      ],
+      "text": "b6595d34eca4ad8a0c16c91fe314c30da6306daf44619c0979279548c540931d",
+      "links": "66f2e7b1a5bc5eb2276422be02526cbf4e08d536bf22dd5550d674911d1b3bf5",
+      "tables": "8ed1dd4ddfa8cf9a15cdc052c0e5698d08926b058f828a1130b11f70098322e6",
+      "facts": "915d201bd55bf8ebea010dcbc69d6a61bd343cee27684866d72dab4a0a0d7363",
+      "images": [
+        [
+          "/icons/items/2210-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/544-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2306-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2156-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2166-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1169-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2213-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2212-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2201-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/556-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/18019-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/18018-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2149-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2163-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2202-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": true
+    },
+    "holy-bakery": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "gallery"
+      ],
+      "text": "16492a6415a9173744a89c8210f7797120dc418d18a924e4ba695d7d46d1ddb6",
+      "links": "3980b4d9c7b6a1b941a2142baa3ec4d0f3466430055ff426278caf556f4321bc",
+      "tables": "c0697f20ac5176bc2970562ea9b3c1c7ac7899eca41db0c0aa806724106bf1d0",
+      "facts": "cdd96f2c9ba59bdb1b80d47435aa6799d51365bdb446094c2ad56e27272ab147",
+      "images": [],
+      "emptyGallery": true
+    },
+    "holy-boot-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "gallery"
+      ],
+      "text": "76641dc1c67242209f0b039741c82268b8544f529c822200e8fee54e0d44c111",
+      "links": "58e858dda32c0277da36a28191155e9b341db6a122c44a932144aa5045e0da26",
+      "tables": "9909654b250e3a2927a705ee9f33e17f35ece73c664b6a9882f7c8caeededace",
+      "facts": "14daa18c758bd36bde4ee2e39cf96528b421cb278d1be7b336312cef748b19f2",
+      "images": [
+        [
+          "/icons/items/2306-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/556-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/549-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/557-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": true
+    },
+    "holy-general-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "23a47dcae9d110e54a2955822954dd12083b884c924b7c9dcec49b64c7e31b9d",
+      "links": "7a5455db9060b24f9916748bc39c10047c37086e0c76d0311bd416bbe061af5f",
+      "tables": "2e34807a39a885934c3525aa0951ff2f6b1fc720c5f94cbae59ab591f611931c",
+      "facts": "a75d8e6a58c23045030fa2d1353f05a8101267f2e6be242141d31c4cb3de3af6",
+      "images": [],
+      "emptyGallery": false
+    },
+    "holy-general-storage": {
+      "headings": [
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "gallery"
+      ],
+      "text": "2f0fad8a10726b9bd928597d6a5cc9c98737468d9cc3109e1486dbf4349ec2ad",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": true
+    },
+    "holy-headgear-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "gallery"
+      ],
+      "text": "acc1da4b62d393c1b7a01fa44df70ff5b87a4670a42008fe235e9cc6a4389880",
+      "links": "0b22c716961fa519f60d6e9bcb17e95691967224d34ae673f23fddd1fd418b4e",
+      "tables": "6d33d774773741ab09fd7efb9c6489ea220e20b5cfec00cfc814503c3a408457",
+      "facts": "6d7c4919311103afbf9e24b241ec200106992f9df81279c50482e0324a763c28",
+      "images": [
+        [
+          "/icons/items/2225-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2198-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2228-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2229-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2149-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2219-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2202-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2164-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": true
+    },
+    "holy-hospital": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "9132166968e6248a2d20076412030ef79f97fbae732ab2d74bb5999db1eea63b",
+      "links": "e9ca7ef61d196a500c8794259f6aa322ebf51f50cea0282769bc3b9e102f7f13",
+      "tables": "9df9f5ea302a1f8ced5a2253d8e7b47739275cd9463e7556da1ff3dd084269d7",
+      "facts": "5a9568435092e8d872c87c69c864f875ad774b73e09febf0ae3d2045c6c60124",
+      "images": [],
+      "emptyGallery": false
+    },
+    "holy-mechanical-shop": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "residents",
+        "gallery"
+      ],
+      "text": "5b453ae6438253473fb0cd9a35f1e05e5e29401f4ffa31df277c6ab92fa14050",
+      "links": "6c64e7e0c5d7c929af6f32fbaed6a1422f8799b2ad307d79a39f2e346cc875f6",
+      "tables": "f27b772464ecbe1059c20b0e93f7d380fa322264cd539f6955e91e2c90bceb73",
+      "facts": "43304173427366d2454b82ca3064c722dea1453c1402c16e99c6ce08c1228b1e",
+      "images": [
+        [
+          "/icons/items/49052-Dialogue.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/49050-Dialogue.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/49051-Dialogue.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/48298-Dialogue.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": true
+    },
+    "holy-nation-bar": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "wanted-posters",
+          "Wanted Posters"
+        ],
+        [
+          "h2",
+          "galley",
+          "Galley"
+        ],
+        [
+          "h3",
+          "l-house",
+          "L House"
+        ],
+        [
+          "h3",
+          "bughouse",
+          "Bughouse"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "wanted-posters",
+        "galley",
+        "l-house",
+        "bughouse"
+      ],
+      "text": "44d35bd35ff0be90f9cc6388556dbfe1ce4154cf4645eadeb968afb3bad21b0b",
+      "links": "68a1b18b1c4b0cb770b86a1c17ed3d20d8964adcc9e68bdb6f8e1b4066acedd2",
+      "tables": "0076b027b298af7873c588d0c5524eea46e6925cbc881085c44b3cbc63fcabd1",
+      "facts": "fe121c15d56ec9be3f3423d8a3ea190a163ae17e3316dff57a33fe92ec9dfefa",
+      "images": [
+        [
+          "/icons/items/49052-Dialogue.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/49050-Dialogue.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/49051-Dialogue.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/48298-Dialogue.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/42322-changes_otto.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "holy-nation-barracks": {
+      "headings": [
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "gallery"
+      ],
+      "text": "64de054d82f4f95b5ae03c27ff8585ac2db77c4e30676f6e8bca7328c7862963",
+      "links": "1fdda279debd8d51b7a8671179a9d799d04781a13b635212a319d949521c39f9",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": true
+    },
+    "holy-nation-police-station": {
+      "headings": [
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "gallery"
+      ],
+      "text": "994cd6c5dec342cf6d072adb60053810140118ca9f12cf64afabde2f5ed04e4a",
+      "links": "233d38492734543a806a720dbc10d86c69b0f6f92ffd71d1fa6e0862475cb75f",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": true
+    },
+    "holy-nation-power-station": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "gallery"
+      ],
+      "text": "76a2eaf75e10d508e81326fb671128f808b476f6c8cb7898159dac9bee02f3a6",
+      "links": "b2a3fa80612cc3e23ff1ba34689ac4153b09d22460a4aef5fa04a5b199252ef7",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": true
+    },
+    "holy-throne": {
+      "headings": [
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "gallery"
+      ],
+      "text": "7110fb10ded6793dcf849808cbd9ad965e30885b93b4743daabbc22eb60c5ac0",
+      "links": "63cff084460d96a514c1b222dfe3ac1f42490de31c89d1ecc6143f2ad99ae97b",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": true
+    },
+    "holy-weapon-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "gallery"
+      ],
+      "text": "c81bd188063bb155b38df4758c84c864d943d37c41917ffc14870154e5a534d0",
+      "links": "0492beacbb68560ddca824efa3f3650a4568703171ee02f224af1231060fa259",
+      "tables": "564636949204e7e6a96f6568582b0eadd49859abd82f86856924d923e3ad5c5a",
+      "facts": "8e0583eeba65889c1376438d9df57632ebedef36ad87fb334df040963388ccaa",
+      "images": [
+        [
+          "/icons/items/52292-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2606-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/477-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52287-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/475-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52295-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/478-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2110-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52299-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/903-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/65260-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52297-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52302-rebirth.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": true
+    },
+    "hospital": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h3",
+          "blueprints",
+          "Blueprints"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "blueprints"
+      ],
+      "text": "2c237818d811bbb06f4a7ee67a53fa0b9a3d73da16d502c5d7816d84c0a42d18",
+      "links": "89ed10732173aa156b7ab6fee7b338aac6c9d7a9b61f59db0f86cdc5b5bbb898",
+      "tables": "9df9f5ea302a1f8ced5a2253d8e7b47739275cd9463e7556da1ff3dd084269d7",
+      "facts": "665412f579779d4c25ae6b25f6661be63a4b6863d9cbeb570d6ad4d05ad42bc9",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-a-npc-bed-available-for-the-player-to-sleep-on": {
+      "headings": [],
+      "ids": [],
+      "text": "404c01f511715bd416cc20754f1af1702bb7af1c2b347679c850469c834dcb0d",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide": {
+      "headings": [
+        [
+          "h2",
+          "how-the-vendor-lists-work",
+          "How the vendor lists work:"
+        ],
+        [
+          "h2",
+          "simplest-way-to-add-desired-items-to-an-existing-inventory-of-an-existing-shop",
+          "Simplest way to add desired items to an existing inventory of an existing shop:"
+        ],
+        [
+          "h2",
+          "in-detail",
+          "In detail:"
+        ],
+        [
+          "h4",
+          "creating-a-vendor-list",
+          "Creating a vendor list"
+        ],
+        [
+          "h4",
+          "adding-a-list-to-a-seller",
+          "Adding a list to a seller"
+        ],
+        [
+          "h3",
+          "if-you-want-to-add-something-to-only-one-specific-shop-in-one-specific-town-resident",
+          "If you want to add something to only one specific shop in one specific town (resident)"
+        ],
+        [
+          "h4",
+          "blueprints-in-shops",
+          "Blueprints in shops"
+        ]
+      ],
+      "ids": [
+        "how-the-vendor-lists-work",
+        "simplest-way-to-add-desired-items-to-an-existing-inventory-of-an-existing-shop",
+        "in-detail",
+        "creating-a-vendor-list",
+        "adding-a-list-to-a-seller",
+        "if-you-want-to-add-something-to-only-one-specific-shop-in-one-specific-town-resident",
+        "blueprints-in-shops"
+      ],
+      "text": "22c86ecc4a9850f22deae4fd617b08cd0ac300b8aabd90f000dd526edf8ed4fb",
+      "links": "cfaf2ec286d5fff643408b47556c158cc0326138305a8b957c666915560c01ed",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "independent-bar": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "125c35b6240ee6b168301afb5f184361bc7c5812c31756a411e196c321866d06",
+      "links": "8f80433cfee579e610940126bc5ed09344420f93ff1807b008226dac6162cbb4",
+      "tables": "d4c7d82113784b065928c256cf8c7a0da4350d08f49668938cebb29605fc5c90",
+      "facts": "14d87207c40e8b3c3af2ed60b0e79df8a08a712fe088981f8966e6377635aeef",
+      "images": [],
+      "emptyGallery": false
+    },
+    "mercenary-smithy": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "10a11f4f3dc3a164aaf2e3b92f58754d31d75c07d86595310a1cf0771ba3f03d",
+      "links": "2cccd3a0f60e18c6db4dab31940d72c0b63956730bdfa29aae51a0a097329fac",
+      "tables": "099ace5579c92ccce96e7bb4983da0d07ef878ab07719f0848eadc59bbf80f4c",
+      "facts": "29a6b950b6a1a43b6db99b007ab175a5c70a3a730e49739edf96684f244387b8",
+      "images": [
+        [
+          "/icons/items/95724-Dialogue.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66169-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/95764-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66534-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52305-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/923-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52287-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/475-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2110-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/924-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/903-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52297-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52302-rebirth.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "mercenary-travel-gear": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "d3fe26d88953e81307e650491b39268d6d85753f36daa84e2434ffab01ea1e67",
+      "links": "ffd761e2af6540e98afe2f06f94d74ea91d43b969fc5655875d04b9d8c8278bc",
+      "tables": "7901985e8abf394ad4ec67eea11c6162b5308ff21ae4e8174dd6cfae190f33a1",
+      "facts": "966571da72c4200ff388fd61311b57ddc6fdc3088c37ed8f65deab305829255f",
+      "images": [],
+      "emptyGallery": false
+    },
+    "mongrel-armor-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h3",
+          "armour-blueprints",
+          "Armour Blueprints"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "armour-blueprints"
+      ],
+      "text": "ba199f415d8091e0f3d27fb0b4d26cb1301118c173f8fc99fd411b9b83bd8df9",
+      "links": "185f7fcfb25773ff7b9d6896018f10140e40813b7c2f759920a483db6ac5291d",
+      "tables": "1afca17b47001a09332d5dfcc1751f325ac1b47da7438a2804cd81f0a71410aa",
+      "facts": "22cc3cbe835eaad9b97fd7fd96c7d1d38b38991c8a9a46e9ca5f11fcaf7b1416",
+      "images": [
+        [
+          "/icons/items/18962-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2200-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2307-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/5346-armor_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/55393-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/55395-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1533852-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/53299-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2214-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/3061-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2156-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2213-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2283-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2148-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1532828-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2159-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2150-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2182-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/53301-rebirth.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "mongrel-clothes-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "ba714358eebef340c11d50b2042aeb49eeda798e96d3c4c7407105bb13464234",
+      "links": "f0ff72957fd46736944d0e4715bf2ce1b56ebe1be60a0d31e3ade49d33283f8e",
+      "tables": "14285b5413c60d21212b05afdc7a9d5913879b9736dc9e554f6070b9a988bd83",
+      "facts": "9efd0c3f738281a1b6ccdeefc692a26e95ee11daf44e91cbbcd696302c2a296b",
+      "images": [
+        [
+          "/icons/items/1394-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1393-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1392-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/544-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2210-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2306-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2304-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2305-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/554-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1311-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1395-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1169-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2213-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2212-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2151-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/18018-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/18019-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1532828-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2159-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2163-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/550-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1168-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/564-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2193-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/551-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2197-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2194-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534055-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/543-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2158-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "mongrel-hq": {
+      "headings": [
+        [
+          "h2",
+          "special-items",
+          "Special Items"
+        ]
+      ],
+      "ids": [
+        "special-items"
+      ],
+      "text": "2065f900a564b291d44631a8debcd7846bb87b3c6a4bc963614ec3309095428b",
+      "links": "63802b45d6d2c75f2edc337fa5e7b95883a4bacf731e413c89a728cfe7c8083e",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "77d0a0358d54dcf3230c861d6223e419ec2578cc23f9a1ace53e1a4381b1f137",
+      "images": [],
+      "emptyGallery": false
+    },
+    "mongrel-robotics-workshop": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "residents"
+      ],
+      "text": "8c0e9b5128c53c6c05da828203440b2df8f6d5a77bf96cbc95b2e383e4de6888",
+      "links": "0b251da882578a8597d322c0bbfef83fc63152cdd626fdef0eca8bc76647d8d6",
+      "tables": "07aa5d460417aa564c84ed7d55d6b0221ac95528e4703cb4b1571a57149ef4d3",
+      "facts": "30c63fb7f3da2212acb513934ca82a0b46a036e1678d9ee3ea3e43008de5f59e",
+      "images": [],
+      "emptyGallery": false
+    },
+    "mongrel-tech-workshop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "2e1826e22a5a51f3c7db50af47b3e76b635f5c54fcaf50f6c6da9f2c667ad18e",
+      "links": "109b2aa7a845e9022d2a0762a78ced9b4c4250f88a46860ef648fc36ef434fc0",
+      "tables": "66a7eb1a551b3b5ff0a47350f5a0426719128e8941a985f704d30b6e16f4fd8a",
+      "facts": "6636b6bdd52c52fc4e3b26b48401329ac03b69e77b8914b6b29b5014825fd199",
+      "images": [],
+      "emptyGallery": false
+    },
+    "mongrel-weapon-shop": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "c238b5763345977675c9bec75d39a2bcba0ae793c1e9eb6e8527c65911b103ea",
+      "links": "c98ceae81935f0efdb8495ef1219a0349b5e239a081107c309d65b795a0945cd",
+      "tables": "f84e543badf109bc2dad8f605ac610e91bbde5f431ce73a887802c51a8f8b54b",
+      "facts": "810c1607c5e86380aa761397887bc676a20c4ff43116da9c1bf79ba76beda543",
+      "images": [
+        [
+          "/icons/items/52292-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52305-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52306-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52304-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/923-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52287-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/475-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/476-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2110-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52300-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52308-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/924-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/902-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/903-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52297-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52302-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1020-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "narkos-evil-tower": {
+      "headings": [],
+      "ids": [],
+      "text": "734d1561e4c11cd477e8fa07022d144fde907d18906d8852beeb7589d72a3aa6",
+      "links": "1875c5dfc69edc792ea887c5cc8922c17709ef22635636419a9e7f4f335d5605",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "noble-house": {
+      "headings": [
+        [
+          "h2",
+          "locations--residents",
+          "Locations & Residents"
+        ],
+        [
+          "h3",
+          "stoat",
+          "Stoat"
+        ],
+        [
+          "h3",
+          "drifters-last",
+          "Drifter’s Last²"
+        ],
+        [
+          "h3",
+          "sho-battai",
+          "Sho-Battai¹"
+        ],
+        [
+          "h3",
+          "heft",
+          "Heft"
+        ],
+        [
+          "h3",
+          "bark",
+          "Bark"
+        ],
+        [
+          "h3",
+          "catun",
+          "Catun²"
+        ],
+        [
+          "h3",
+          "brink",
+          "Brink"
+        ],
+        [
+          "h3",
+          "heng",
+          "Heng³"
+        ],
+        [
+          "h3",
+          "eyesocket",
+          "Eyesocket"
+        ],
+        [
+          "h3",
+          "slave-markets",
+          "Slave Markets"
+        ],
+        [
+          "h3",
+          "port-south",
+          "Port South"
+        ],
+        [
+          "h3",
+          "port-north",
+          "Port North"
+        ],
+        [
+          "h3",
+          "slave-farm-south",
+          "Slave Farm South"
+        ],
+        [
+          "h3",
+          "slave-farm",
+          "Slave Farm"
+        ],
+        [
+          "h3",
+          "stone-camp",
+          "Stone Camp"
+        ],
+        [
+          "h3",
+          "south-stone-camp",
+          "South Stone Camp"
+        ]
+      ],
+      "ids": [
+        "locations--residents",
+        "stoat",
+        "drifters-last",
+        "sho-battai",
+        "heft",
+        "bark",
+        "catun",
+        "brink",
+        "heng",
+        "eyesocket",
+        "slave-markets",
+        "port-south",
+        "port-north",
+        "slave-farm-south",
+        "slave-farm",
+        "stone-camp",
+        "south-stone-camp"
+      ],
+      "text": "012843d582223b92ccbef09d161aa9e415f1166f3ae87b10aec4e6f0388373ef",
+      "links": "6425b6e5563d5c8548ec0f1f2ddb46237b9e2bcdf85267d4644ce7cdc5b2dc46",
+      "tables": "783ca2932f3e0ed102fc14b069ba9f6d3e39393c8eb13c4cc060fe23441f6397",
+      "facts": "6389a15abf81f298d80acd50ec5c50c75103f14a4b76628c1c6505fb1140d3ab",
+      "images": [],
+      "emptyGallery": false
+    },
+    "palace-of-the-crab-queen": {
+      "headings": [],
+      "ids": [],
+      "text": "3fce928c8b2c8b3f32b83fa695a7d9b31ab22a048d89742ac566e7c35e1f2c84",
+      "links": "56c712be20f898d1f1c288fd5ddeb8df2965acc7620b575be7524fdf41cb2271",
+      "tables": "fd0a222d14dd8a3bf895fafeb3d1f8c7fc88ce9e4243303d822e38ea3cdb756a",
+      "facts": "55b6209344b39f77513108aa259820a96dab35e6e757117528f832296bc682a5",
+      "images": [],
+      "emptyGallery": false
+    },
+    "police-station": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h4",
+          "united-cities",
+          "United Cities"
+        ],
+        [
+          "h4",
+          "shek-kingdom",
+          "Shek Kingdom"
+        ],
+        [
+          "h4",
+          "the-holy-nation-see-police-station",
+          "The Holy Nation (See Police Station)"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h4",
+          "united-cities-1",
+          "United Cities"
+        ],
+        [
+          "h4",
+          "shek-kingdom-1",
+          "Shek Kingdom"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "united-cities",
+        "shek-kingdom",
+        "the-holy-nation-see-police-station",
+        "residents",
+        "united-cities-1",
+        "shek-kingdom-1"
+      ],
+      "text": "34dd2342886dd5c3d92cabbd87aac206f7d8432f10ef47e8fa12d8550d88b168",
+      "links": "76deaba4d698039bda9058c5428211f01e87e557e1fb5aaa32d39bbb1f3f19a7",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "f1dbc767d0a86d344cfd7e1eb907e6f0aaaf4942697718b5bf785bbd122917e2",
+      "images": [],
+      "emptyGallery": false
+    },
+    "ranger-shop": {
+      "headings": [],
+      "ids": [],
+      "text": "53561d820d35c67b4282c571d0665e745d1bb7f955469d07cb0addfb460b2185",
+      "links": "d7e8bebfdaf56522cf90aad984994e7866f497b4907256c2a37fc4c6b1030297",
+      "tables": "b1d6487310ad812fc41982ed1e5928a739e113f1df44c4129497e8a3479536d8",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "robotics-shop": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "residents"
+      ],
+      "text": "f60af4ea00caa15510a1958729daa03529298be3dc600022cf74d0358ff3fced",
+      "links": "bf3a4ce53d17aaa5b1f48cfe400c2b4b630df8026689711062b398e9d855c818",
+      "tables": "4adc9e062dd831ef67524df542dc2a30c90a8654a230abdaf6a58edfaf827d8f",
+      "facts": "17c8156034234f4335d4c4fc09d723a334e643f08a9de43778855394cb6e717d",
+      "images": [],
+      "emptyGallery": false
+    },
+    "robotics-workshop": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "residents"
+      ],
+      "text": "e4dccff3e87922d250280c32f2e1cbecff075beb498907eb49224de12a16cd3f",
+      "links": "86c3859f6bb7132fddf4311f9fbf10527fa96987a9ceb48cd16e585101acdc5b",
+      "tables": "a9d05c1caa4c4bb65fc29ccbcbc1ebae5c6d1b71f047f6876feaa5e3f29506f3",
+      "facts": "0e0afec067d5fe0aa6e7e58bc85fafd739733e73ac6de7f8c85ab43f5d7e8eb4",
+      "images": [],
+      "emptyGallery": false
+    },
+    "ronin-armor-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h3",
+          null,
+          "Blueprints"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "Blueprints"
+      ],
+      "text": "a10dfd634dd42ffe3337ec6dcd94eaf5f7e5d3daf07f3258cfe65ffc86b0a601",
+      "links": "0df4d842787471029b44ae6fb378ed514d4807dd4d957dd6d0f9d9cb0e0374e3",
+      "tables": "5901b71747103b66c58ef4ff974abaf374ad8565ad45ca9427bf4154a571342e",
+      "facts": "0a49d0a6860061908cfa712902b7c0fed10fe17a4ad1530271bf20867dc9f20a",
+      "images": [
+        [
+          "/icons/items/18962-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2200-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/5346-armor_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2307-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/53299-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1533852-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2304-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2305-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2156-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1169-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2212-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2283-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2148-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2182-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1532813-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/556-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1532828-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2122-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/549-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2159-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2150-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1533849-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/53301-rebirth.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "ronin-mechanical-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "183445571616b1304eb76ae68175fb9e30a42346ee110eab65a8497f96dfb36b",
+      "links": "55dbec7f38b503ca3abc5ef8890f01e3423a7abe4a54d5470430d656f9d1964f",
+      "tables": "66a7eb1a551b3b5ff0a47350f5a0426719128e8941a985f704d30b6e16f4fd8a",
+      "facts": "d737b9b55335de552f2da703f8aba53edbc6e045d92973618085f0006b3efb32",
+      "images": [],
+      "emptyGallery": false
+    },
+    "ronin-weapon-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "6053a2ea291d916213fa74f5c254f9b1feac8ef45a32a72206557950755c706e",
+      "links": "7d0c04833dd46ae07f122c615ae9391daa4608c281818b1356906f76a7c06c74",
+      "tables": "8f280888679f2a28c7faa00dc32fafb705a4778d51ecc8fd44d7b94c7805ed3e",
+      "facts": "fcbf4b385cdf710897b46229e6252966cd3f3aaeae5d3fef31c335dc68034b38",
+      "images": [
+        [
+          "/icons/items/52292-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52306-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/923-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52307-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52287-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/475-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52295-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52303-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/476-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52308-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52309-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/924-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/922-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/902-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52301-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/903-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52302-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1020-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "rot-big-shop": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "c68eab53313b9887ac800d4b3b0c292ae8fb7250cacfdb97dc001d07564f81e4",
+      "links": "f2dfee7e44e858997ec21b0654ee3efe5ea0fb51e21da87a05b9e50562dff1ac",
+      "tables": "0a52d0e123a35be3c25227f6d058c4c60b4edfaee3c60631af3fbbb4827ecb1e",
+      "facts": "8dcc4b48620e4e74522123f9d33c813be8884701a7c920eb6b7cc0560c151201",
+      "images": [
+        [
+          "/icons/items/2200-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2222-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/98563-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2224-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2227-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2201-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2185-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2223-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2220-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1415-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2149-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2202-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534055-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2168-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/575-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2164-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "shark-big-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "7e1b3d20808bffd14b9ba639f442026475fefb463720feb49aabc2db9ed2e27f",
+      "links": "e46f1e346e7fdd3037f44debe0b7839fedebfa1cf1fea619570f58162c60fd78",
+      "tables": "66a7eb1a551b3b5ff0a47350f5a0426719128e8941a985f704d30b6e16f4fd8a",
+      "facts": "9e58f29294c0267f09008233088c3090013ad03ab30eeb583ad842c9393589bb",
+      "images": [],
+      "emptyGallery": false
+    },
+    "shark-smithy": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "bd2ffeea0d051d2b1d06e8e8e01e1600d0cac06a638b743b3e3da8367e547304",
+      "links": "46de4aad1043403f07d9e3fc4373eb67072b9aa81e156884673846c928f9d776",
+      "tables": "099ace5579c92ccce96e7bb4983da0d07ef878ab07719f0848eadc59bbf80f4c",
+      "facts": "dcc63f290cece76e1c369200ec31ef761a49823a541ea0e67c6d1c674b0c19c7",
+      "images": [
+        [
+          "/icons/items/95724-Dialogue.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66169-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/95764-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/66534-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52305-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/923-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52287-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/475-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2110-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/924-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/903-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52297-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/52302-rebirth.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "shark-travel-shop": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "67fbe5606f2c62bf6927db6a373fbdd36d7c4ebe2792cadfbe30fb0155642106",
+      "links": "1a1d2bd3a7c724437faaba9aee4871386697db7afa9bcf0dad7983d7bcd05e56",
+      "tables": "37cf66ee98b0410380517e056910aa684ec85ca850de50e8af427650b178f856",
+      "facts": "9eab742ba1c8ff22e3a2b6b106a6e2f9e2b68c99bbf7e48f3bf83b2a395d4f13",
+      "images": [
+        [
+          "/icons/items/2222-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/98563-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/554-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1311-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1169-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2213-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2212-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2165-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2221-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2151-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/98562-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/684-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/18033-small_changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/51640-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1415-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1168-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2197-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2168-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2164-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2158-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "shek-armor-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "5157198b7b6df9c1d673257042d52edfd1bfea67772858da2ab4c714fe8b2362",
+      "links": "40a5dc6c78b79bf5ca211bd2a5fdf9e275d0546a49167d9606927309f8a07fcb",
+      "tables": "d7d313ca44877378488b7c63b37bb57757bd226c8e168c3821ddef4ecde998ba",
+      "facts": "15f5ba014fb2a57dd586218ae92bd7877bbc36e176a2161203b757bd12d0972b",
+      "images": [
+        [
+          "/icons/items/18962-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2200-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2307-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/5346-armor_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2156-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2283-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2148-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1532828-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2182-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1532813-Newwworld.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/53301-rebirth.mod.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "shek-bar": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "aaefa5cac8a70fbb0a57c9d043d6bd898968bed9eb6753bfc4cea43580b5b5a0",
+      "links": "94c37b16b7cd63d2b72b8f018fd0c5820485d263eb457bf2e0a7ddd856b5372c",
+      "tables": "f12316ee985e0d2c41f8973db196b38c8d4746706774c34a68ecfa7ede5e48ea",
+      "facts": "9e47d935eacd1cad79eb326514cf96a96b86981b42837e4c8a5a382beccd20fd",
+      "images": [],
+      "emptyGallery": false
+    },
+    "shek-kingdom-trade-culture": {
+      "headings": [],
+      "ids": [],
+      "text": "20ad93967f9ccdc16643e13eda90026c4969a726f221799cc6b9c1b0f390742a",
+      "links": "61e0c6af2664dae360e853d311ca8f5848e0fbad346fdd4bf1d9bc19ba192239",
+      "tables": "64b664bfbc226ea0e6d523fda1efd8887eb882ba193e0fb8ad8397ad41598b53",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "shek-police-station": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h3",
+          "housemates",
+          "Housemates"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "housemates"
+      ],
+      "text": "9b201925f92320a2f989dd3cce97beb35e38e26ff88f2a37c08d9ecc774b16eb",
+      "links": "8bdd196b46a6da339eceab3b50b49c23075cb06558258825e8bd5e97574cee53",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "65b984fa1a51641c76c272e7bcccb2d472cf9754d51ca4beb6a94c2a6405e198",
+      "images": [],
+      "emptyGallery": false
+    },
+    "shek-weapon-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "5d50c504f31874aa7a49988b29ac6f9dd770cf4f7a45eb105137c9485bbd7e55",
+      "links": "19b46c16ea13d5c9d8b2ef1ebaf5d4843895b69258be596ad774fa07d4785718",
+      "tables": "0b7a197fbcf563757a47ffe13eb46d6e95431997da601d0cbcb8f5b39d8f404d",
+      "facts": "ebe8c65f6163200fadd2dd8884022f7409cb2afc09bdc1ec534afc1631450be3",
+      "images": [
+        [
+          "/icons/items/52306-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/477-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/478-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/902-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "sho-battai-headgear-shop": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "4fb190d6dafaaf31fd8fbb33d017be7c517dbff595ac54f47d3b71605196a3e9",
+      "links": "d82e1d3d46d4a8e295d19cdb622113b79c67dc93968e10f3fdee09ae8819f968",
+      "tables": "bd6fd34f78fa9d3d3ffcd429fce955c71ba697a4e14b3bc916a02c1f39cefe8d",
+      "facts": "b5dd583382779095797eea1b16390427eeca1e4552004dc0b15a6e6bf7c9994b",
+      "images": [
+        [
+          "/icons/items/2222-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/98563-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2224-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2228-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2229-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2201-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2185-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/98562-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2223-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2220-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2219-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/45556-changes_otto.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534055-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/575-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "skeleton-bar": {
+      "headings": [
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "residents"
+      ],
+      "text": "a6c3a2df2638664669dc77d391a495066f59e287cbbb2caaf5e22f9786f22a1d",
+      "links": "321a72c6b5d0d184318836c6838a94aa1793f260b62e38a24ccf91864cf99078",
+      "tables": "c258e53b063b2d5701daf385f610fd4d95a5940ee2fde442f25db920a156de8d",
+      "facts": "71d701f116e501fa901614a489fada1ad05c23b91ce905d76ff95b291b070b5b",
+      "images": [],
+      "emptyGallery": false
+    },
+    "skeletons-trade-culture": {
+      "headings": [
+        [
+          "h2",
+          "factions",
+          "Factions"
+        ],
+        [
+          "h2",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h2",
+          "forbidden-items",
+          "Forbidden items"
+        ]
+      ],
+      "ids": [
+        "factions",
+        "locations",
+        "forbidden-items"
+      ],
+      "text": "d83a9ad3563a3e5ab3e53ad7d7152219a875d54f1f85d6d386d798377287f621",
+      "links": "da18fe7622dd4611501a7e1c71488ed121b874b34504f44d897bf83d21a34cc0",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "slave-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "10177674c11e3eb76c43c2e700a79e49f4086869d9008a74df28960e55d69c20",
+      "links": "c11ca2a216319a4fd18a6c012c44953c3a07053d39f64db1e6567c558821a537",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "slaver-barracks": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h3",
+          "housemates",
+          "Housemates"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "housemates"
+      ],
+      "text": "8fc280b18a50e20b6e824836f564b99b67e3fb8eba9b68e69c6a32240bb8188b",
+      "links": "4710e5bd9ef67326d465f8d633c47d3003f5717c3819e1d0ed1b6324d490ad44",
+      "tables": "614c8e93003740543ebc744d078db23684a33e9f58f3b3a73bb969e4f2561c49",
+      "facts": "8ff09c9a75d23f791fe7ba487846cc62e7d8939c707441e0e7ef094598e7b368",
+      "images": [],
+      "emptyGallery": false
+    },
+    "slavers-trade-culture": {
+      "headings": [],
+      "ids": [],
+      "text": "9a17508ef715d38e6f3bdf7caed55d133e72139646d165c27a651ebb40ba378b",
+      "links": "6d7806d1c9d00838cafe2dcef158e1126980094780a55673db4c35ccd307372b",
+      "tables": "085ebff44e089d9a3a18eb117d52a471a760cdc77cbf4cc19bc235029a3c83a5",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "small-empire-bar": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "wanted-posters",
+          "Wanted Posters"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "wanted-posters"
+      ],
+      "text": "8ef2af4689f0b1c1e1b081ef67010f1a732c9074ae4e45f6722bb7c32b5c2187",
+      "links": "0996175dc42f7fb274e7f0a5a27ac8172e47a8a37853487a89e5dfacb2df6880",
+      "tables": "eb041a0e7cd44ac211baf0c387fad023161b4b3efba8c52f2e1e731f9ed1af4c",
+      "facts": "968f689d79f878af93c22c5680f5faaf1cdbc17130a3df8a6ab99e6cab8f7239",
+      "images": [],
+      "emptyGallery": false
+    },
+    "small-empire-weapon-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "08ed710e6a75931233454dce9b9cb042c5afe302b26da8565e01cb1f00236d67",
+      "links": "89dd352ded4d5957765c13445375ff79416a629c102df591ace9136a827183f5",
+      "tables": "a640210cd0329b17b2589b5d3f1a779e0c5b7ef35e067a08a64466769b65bf94",
+      "facts": "65f82d8562551eb64d37531c39ff8ab76fa6c22130e0926cc725a22db9afc53f",
+      "images": [
+        [
+          "/icons/items/52287-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/475-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/476-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/901-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2110-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52308-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/924-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/902-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/903-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/52302-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/1020-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "southeast-trade-culture": {
+      "headings": [],
+      "ids": [],
+      "text": "861a8dc634bf5a9bb8e0939c1a58f0d5c16db5a4c4517741a41a0698126641d6",
+      "links": "a2649fae8df0800968650dbc0af45c5382ab61d4c6b36667949961b109529e27",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "swamp-general-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "4755276a49cdeb8a74111d2a8833947983f670e2ae5661172942ba66e5e62779",
+      "links": "c901d740bc861b7523258e0904829e5e711aa28647679578f6063541f6c66d1f",
+      "tables": "f827ee30b823351b04206f4389983c0f174fdf260dca7dfdd97892d0aa72d91c",
+      "facts": "2eca65398d29731eac8924cee4d9eec89df9138794557f7d5c6901dfc8f979e1",
+      "images": [],
+      "emptyGallery": false
+    },
+    "swamper-trade-culture": {
+      "headings": [],
+      "ids": [],
+      "text": "475dcf20be8f7b3bf43bc990382d4153cb98f1b2a46cd260272fa96ad4a3c8bf",
+      "links": "b183ea3bc93a4659748ed515beb39d4667fcfd2ad94b22de81180ae96b5f4775",
+      "tables": "8a566aa1dc281e54b9c446b4a2eed2f28c1db67ee8e67fcbb7ebabb753d419ac",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "tech-hunter-bar": {
+      "headings": [
+        [
+          "h3",
+          "location",
+          "Location"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "trivia",
+          "Trivia"
+        ]
+      ],
+      "ids": [
+        "location",
+        "residents",
+        "trivia"
+      ],
+      "text": "36c12880f387d5dd8ef49d1927950a53774a7b1ccedc4d850b90de2d16f3d2d4",
+      "links": "85b98b825d9d81098c2b536ac04fb65ef01996a78047f33cd8d3347d7a0e58b4",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "db7fc58bac6981e23921c187f587f0b54273ea4711a67de748d8f9c8d79ee065",
+      "images": [],
+      "emptyGallery": false
+    },
+    "tech-hunter-shop": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "residents"
+      ],
+      "text": "a7b1051f204f634f5a1a8c8b4f1b3abbba649234a44c64fd04f10b57c62592c7",
+      "links": "6deee363ca7a686a1c78e92d4172cf7e9115bf5e798c4f157902fcdf49b1dbf1",
+      "tables": "cd8cd29ace7d5e44fee0296eff746e20a0652d36849349dcf075684bb00a634a",
+      "facts": "bb5a46fd98a108d2224c9f00958cf642141b954d2eda3b40998e917225095a54",
+      "images": [
+        [
+          "/icons/items/55393-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/55395-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2154-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534061-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/577-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2211-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/53299-rebirth.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2214-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/3061-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2221-chris_r.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2151-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "temple": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents",
+        "gallery"
+      ],
+      "text": "292464a4326c8a3b81e329bd93e982aaf0f005004acd2259f4db103d02f4101a",
+      "links": "c621db81691379b2c46b22a0b98501ba1a97ad835ea5d68b7c13f98ba0686733",
+      "tables": "539ed46b60cddebb1c0a94ee98cad893549860e456c11873d1e13936eb7cf8a8",
+      "facts": "5bfc3715e032ab1f146118c9c1b04c33361b26d6401140f300207315087cbff2",
+      "images": [],
+      "emptyGallery": true
+    },
+    "the-dancing-skeleton": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "df8a8fc7d12c7b4f3578def8758b1932afbfda481c336c8aceb6d120dc99d044",
+      "links": "86f9e36b6d611ce5a542e3720443397ac94ac50e1bcee32a840c88d9a4942421",
+      "tables": "a108d0ba96a70ab3c11726a533ef1cf13f6d48f3d5fa3142434cf8f1e4a919f9",
+      "facts": "22778d46b59b820e3ef3ef36591a000cb2b04ceae256407a6b9839d47a166b1b",
+      "images": [],
+      "emptyGallery": false
+    },
+    "the-great-library": {
+      "headings": [
+        [
+          "h3",
+          "location",
+          "Location"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "location",
+        "residents"
+      ],
+      "text": "e544ce14fc0f4a0f30c5eabae60e70309e9903e7d1be5ad283fa78219a217d60",
+      "links": "bb5b237080ee0443c0b8f973514d9b56513ec4839582426f56adf6049c90a9d9",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "f66231f9f74659c4d485539db96e9305b90e23d0926215d5c3c5084b10ea5538",
+      "images": [],
+      "emptyGallery": false
+    },
+    "the-holy-nation-trade-culture": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "illegal",
+          "Illegal"
+        ],
+        [
+          "h2",
+          "note",
+          "Note"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "illegal",
+        "note"
+      ],
+      "text": "5cee3f909cec6b370d69d8b878dabea912b811ce8af7ba28cd0ad409ea6210ee",
+      "links": "213d7012479a18138dac05a512a6a688ac4d7d669a27ad6b81a3950e024ab042",
+      "tables": "d5878f0785722ba4328c3e8a3f52fa7553bf0cabb79c91ac81b92421f198bf15",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "thieves-guild": {
+      "headings": [
+        [
+          "h2",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h2",
+          "blueprints",
+          "Blueprints"
+        ],
+        [
+          "h2",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h2",
+          "gallery",
+          "Gallery"
+        ]
+      ],
+      "ids": [
+        "residents",
+        "blueprints",
+        "locations",
+        "gallery"
+      ],
+      "text": "b353c0dc81cc0079bc6242e9c4b29355c181a2b2a55c49eca05753784acc0025",
+      "links": "e21c1a232f1a39ad60d5a9846fde2026703bc4491fe119aa90712c74a1fc68ee",
+      "tables": "8791efa1a6fe7bd89cdcade461be7faf2719fee2ed71ccc3873eb9f7aa7d389b",
+      "facts": "7862a767b0b7577b22f353db9eaadc561b0c34cebc827487cd61031fae2615c8",
+      "images": [
+        [
+          "/icons/items/923-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/476-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/924-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/922-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1020-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": true
+    },
+    "trade-goods-trader-generic": {
+      "headings": [
+        [
+          "h3",
+          "possible-stock",
+          "Possible Stock"
+        ]
+      ],
+      "ids": [
+        "possible-stock"
+      ],
+      "text": "21562266e978649d25d6a80b8e1538deb85b9ebb9da26521cb60f6e9086ae1d1",
+      "links": "c231fc426a8182a53e6bbc9bfdce7e6a5cbe032f396da6cae1e8c19ada3889c3",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "9e85b02c2678019c7b46c7df904d9374a3c67a53b3642d6f82f91ebbf16881fb",
+      "images": [],
+      "emptyGallery": false
+    },
+    "trade-goods-trader": {
+      "headings": [
+        [
+          "h3",
+          "specific-shops",
+          "Specific Shops"
+        ]
+      ],
+      "ids": [
+        "specific-shops"
+      ],
+      "text": "8acc3f08395e30b5bdfcdc0bd7e23d9e0d20a3fc39d181494d1179c39281e57d",
+      "links": "52e5cd41783b8667fdd83e16b4307442a99c915c08eb336e8062652f3fbcfcf9",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "traders-guild-hq": {
+      "headings": [],
+      "ids": [],
+      "text": "40facf8578abe6c7daaf08c3ff076839d2c27969c6b4bda426f9fa2dcf392a03",
+      "links": "f78976a1127e34fded2d159f8d91c1eeff97398fbfa7519966bb305a519adcfa",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "traders": {
+      "headings": [
+        [
+          "h2",
+          "types-of-traders",
+          "Types of Traders"
+        ],
+        [
+          "h2",
+          "trade-cultures",
+          "Trade Cultures"
+        ],
+        [
+          "h2",
+          "trading-with-an-unconscious-squad-member",
+          "Trading with an unconscious squad member"
+        ]
+      ],
+      "ids": [
+        "types-of-traders",
+        "trade-cultures",
+        "trading-with-an-unconscious-squad-member",
+        "cite_ref-1",
+        "cite_note-1"
+      ],
+      "text": "a873b61c279901576c38baf2db1bed06877f30f66f9970c966ede0a3d69cc95f",
+      "links": "e12b7f70112e9dcbe1b57fb03f50eef42860d9e4ff6d4ed94ad6dd961120daba",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "travel-and-repairs-shop": {
+      "headings": [
+        [
+          "h3",
+          "locations",
+          "Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "locations",
+        "residents"
+      ],
+      "text": "4cf0ecc2919be1e1bff8666c7cafb5793433730760db331dcc81ecb6e4c60433",
+      "links": "ea3b36b16ee99491586c342b57d7d405d75fd0cfc8dc1d03772aaf01ac0a61d1",
+      "tables": "57f0c5520d26212534c612b6273926250f8617288db152a15c52fb28d7b191a2",
+      "facts": "a2f77fa23a0d32516ae820c12c37c718764f33dbc9d3a92f1be3fa17f490606d",
+      "images": [],
+      "emptyGallery": false
+    },
+    "travel-gear": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "a46b90222d0afd6b5f4cf22a17a07b88d389b4380c1e19300d8368962c50f641",
+      "links": "4d20da893fd9dbe941d0773fb62fabbe70d72728ad2cb6a8d257c0c123219233",
+      "tables": "1825c3544e042654221897229eaad1f002a3e574670472e9e49dd3971574e67a",
+      "facts": "53e883e4ce48f2271e6fe3fa40f90be205a77778086ac2ecfedf2982453161b5",
+      "images": [],
+      "emptyGallery": false
+    },
+    "travel-supplies-shops": {
+      "headings": [
+        [
+          "h3",
+          "specific-shops",
+          "Specific Shops"
+        ],
+        [
+          "h2",
+          "sub-types-of-item-trader",
+          "Sub-Types of Item Trader"
+        ]
+      ],
+      "ids": [
+        "specific-shops",
+        "sub-types-of-item-trader"
+      ],
+      "text": "4d6444ee9957dfef4ca12660bbdaa714277da11adf4e2801b173ed17baf67907",
+      "links": "49c55d70db52270aff8a12ee036dbbb51fdf6511371e3481541cf94c1bd1dec8",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "used-clothing-shop": {
+      "headings": [
+        [
+          "h3",
+          "possible-locations",
+          "Possible Locations"
+        ],
+        [
+          "h3",
+          "residents",
+          "Residents"
+        ]
+      ],
+      "ids": [
+        "possible-locations",
+        "residents"
+      ],
+      "text": "154882ef004a8904c83ec6d193632373a64724698e9d9389a9416f2a044f71b5",
+      "links": "fc2c3b754921b071f7b526f3758ee45cabf8db30529e5dd7fce79a1f9400d3e6",
+      "tables": "310d25f9a1520a9e6c40672ebfe4b803cb81f92cc5a2b6d670da70aad1dc6a60",
+      "facts": "a2730f7a0b4bc45600f9ed55278e9c2254a0865f2e4267c4fd599bd1dde262bf",
+      "images": [
+        [
+          "/icons/items/1394-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1393-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1392-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2306-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2304-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/2305-clothes_v1.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/554-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1311-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1395-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1169-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2213-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2212-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2151-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2159-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2163-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/550-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1168-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/564-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2193-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/551-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2197-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2194-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1534055-Newwworld_Plus.mod.png",
+          ""
+        ],
+        [
+          "/icons/items/543-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/1167-gamedata.base.png",
+          ""
+        ],
+        [
+          "/icons/items/2158-gamedata.base.png",
+          ""
+        ]
+      ],
+      "emptyGallery": false
+    },
+    "wandering-trader": {
+      "headings": [],
+      "ids": [],
+      "text": "517c57cb574c8a9065cafc85b35348d71493a81f1e370061cbfb2d125b0eaff4",
+      "links": "d7a34518a052fba19b72dd09e45581fd884756de530ec394f7353632ba748e1d",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "7840b5d6b8e03297717fd166b776930ffc3f933f84f38af0f5a495274347513f",
+      "images": [],
+      "emptyGallery": false
+    },
+    "worker-hut": {
+      "headings": [],
+      "ids": [],
+      "text": "d43d1249d9f4efa4cdc17752ec1c143a56fe1657a721e3ad065cf19ad0c7ad8f",
+      "links": "2017d3087e0fa7ce36cd9208c358d33fdb3cd381c42dd29561f2813c885c695f",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    }
+  }
+}

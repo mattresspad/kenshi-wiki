@@ -151,9 +151,9 @@
   border: 0; padding: 2px; font: inherit; color: inherit; background: transparent; cursor: pointer; text-align: inherit;
 }
 .equipment-comparison button:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px }
-.sort-mark::after { content: '↕'; color: var(--quiet); margin-inline-start: 2px; font-size: .82em }
-[aria-sort=ascending] .sort-mark::after { content: '↑'; color: var(--link) }
-[aria-sort=descending] .sort-mark::after { content: '↓'; color: var(--link) }
+.sort-mark::after { content: 'â†•'; color: var(--quiet); margin-inline-start: 2px; font-size: .82em }
+[aria-sort=ascending] .sort-mark::after { content: 'â†‘'; color: var(--link) }
+[aria-sort=descending] .sort-mark::after { content: 'â†“'; color: var(--link) }
 @media (max-width: 760px) {
   .table-scroll { container-type: inline-size }
   .article-sheet table.equipment-comparison {
@@ -270,13 +270,13 @@
 
 /* Keep item text and its first sections beside long facts panels. */
 @media(min-width:761px){
- :is(.item,.building,.technology).with-facts > article{display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);gap:0 18px;align-items:start}
- :is(.item,.building,.technology).with-facts .opening{display:contents}
- :is(.item,.building,.technology).with-facts .article-head{grid-column:1;grid-row:1}
- :is(.item,.building,.technology).with-facts .opening-copy{grid-column:1;grid-row:2}
- :is(.item,.building,.technology).with-facts :is(.factbox,.building-facts,.building-facts-stack){grid-column:2;grid-row:1 / 4}
- :is(.item,.building,.technology).with-facts .article-body{grid-column:1;grid-row:3;min-width:0}
- :is(.item,.building,.technology).with-facts > article > :not(.opening):not(.article-body){grid-column:1 / -1}
+ :is(.item,.building,.technology,.shop).with-facts > article{display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);gap:0 18px;align-items:start}
+ :is(.item,.building,.technology,.shop).with-facts .opening{display:contents}
+ :is(.item,.building,.technology,.shop).with-facts .article-head{grid-column:1;grid-row:1}
+ :is(.item,.building,.technology,.shop).with-facts .opening-copy{grid-column:1;grid-row:2}
+ :is(.item,.building,.technology,.shop).with-facts :is(.factbox,.building-facts,.building-facts-stack){grid-column:2;grid-row:1 / 4}
+ :is(.item,.building,.technology,.shop).with-facts .article-body{grid-column:1;grid-row:3;min-width:0}
+ :is(.item,.building,.technology,.shop).with-facts > article > :not(.opening):not(.article-body){grid-column:1 / -1}
 }
 
 /* Building summaries retain their source data; their wrappers are independently authored. */
@@ -312,3 +312,12 @@
 .technology figure.quote figcaption a{display:inline}
 .technology .table-scroll .research-properties{width:100%;min-width:0;max-width:48rem}
 .technology .research-properties :is(th,td){white-space:normal;overflow-wrap:anywhere}
+
+.shop figure.quote figcaption a{display:inline}
+.shop .shop-record-id{font:12px/1.5 ui-monospace,monospace;color:var(--quiet);overflow-wrap:anywhere}
+.shop .shop-stock{min-width:34rem;width:100%;max-width:none}
+.shop .shop-stock :is(th,td){white-space:normal}
+.shop .shop-stock th[scope=row]{font-weight:400;text-align:left}
+.shop .shop-stock th[scope=colgroup]{text-align:left}
+.shop .shop-stock tbody tr:has(th[scope=col]){border-top:2px solid var(--edge)}
+.shop details{min-width:0}

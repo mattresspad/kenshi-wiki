@@ -31,6 +31,8 @@ const races=verifyFamily('races',atlas,assetRedirects),raceIds=selectedIds('race
 const animals=verifyFamily('animals',atlas,assetRedirects),animalIds=selectedIds('animals');
 const characters=verifyFamily('characters',atlas,assetRedirects),characterIds=selectedIds('characters');
 const crafting=verifyFamily('crafting',atlas,assetRedirects),craftingIds=selectedIds('crafting');
+const shops=verifyFamily('shops',atlas,assetRedirects),shopIds=selectedIds('shops');
+const shopSources=JSON.parse(readFileSync('conversion/shops/reference.json')).articles;
 const technology=verifyFamily('technology',atlas,assetRedirects),technologyIds=selectedIds('technology');
 const technologySources=JSON.parse(readFileSync('conversion/technology/reference.json')).articles;
 const craftingSources=JSON.parse(readFileSync('conversion/crafting/reference.json')).articles;
@@ -77,12 +79,12 @@ for (const a of atlas.byId.values()) {
       label:$(el).text(), href:new URL($(el).attr('href'),origin+a.path).href
     }));
   }
-  const checks = {...(includedIds.has(a.id) ? {formatCheck:'scripts/geography/verify.mjs'} : {}), ...(factionIds.has(a.id) ? {formatCheck:'scripts/factions/verify.mjs'} : {}), ...(raceIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(animalIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(characterIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(itemIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(buildingIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(craftingIds.has(a.id)||technologyIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...review.articles[a.id]};
-  const media=a.filePath && (geographyIds.has(a.id) || factionIds.has(a.id) || raceIds.has(a.id) || animalIds.has(a.id) || characterIds.has(a.id) || itemIds.has(a.id) || buildingIds.has(a.id) || craftingIds.has(a.id) || technologyIds.has(a.id)) ? {
+  const checks = {...(includedIds.has(a.id) ? {formatCheck:'scripts/geography/verify.mjs'} : {}), ...(factionIds.has(a.id) ? {formatCheck:'scripts/factions/verify.mjs'} : {}), ...(raceIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(animalIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(characterIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(itemIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(buildingIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(craftingIds.has(a.id)||technologyIds.has(a.id)||shopIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...review.articles[a.id]};
+  const media=a.filePath && (geographyIds.has(a.id) || factionIds.has(a.id) || raceIds.has(a.id) || animalIds.has(a.id) || characterIds.has(a.id) || itemIds.has(a.id) || buildingIds.has(a.id) || craftingIds.has(a.id) || technologyIds.has(a.id) || shopIds.has(a.id)) ? {
     originalMediaComparison:'unassessed',
-    emptyImportedGallery:emptyGalleryIds.has(a.id) || factions.emptyGalleries.includes(a.id) || animals.emptyGalleries.includes(a.id) || characters.emptyGalleries.includes(a.id) || items.emptyGalleries.includes(a.id) || buildings.emptyGalleries.includes(a.id),
+    emptyImportedGallery:emptyGalleryIds.has(a.id) || factions.emptyGalleries.includes(a.id) || animals.emptyGalleries.includes(a.id) || characters.emptyGalleries.includes(a.id) || items.emptyGalleries.includes(a.id) || buildings.emptyGalleries.includes(a.id) || shops.emptyGalleries.includes(a.id),
     verifiedInfoboxImages:itemSources[a.id]?.factMedia?.images??[],
-    verifiedBodyItemIcons:[...new Set(((geographicalSources[a.id] ?? factionSources[a.id] ?? animalSources[a.id] ?? characterSources[a.id] ?? itemSources[a.id] ?? buildingSources[a.id] ?? craftingSources[a.id] ?? technologySources[a.id])?.images ?? []).map(([url])=>url))]
+    verifiedBodyItemIcons:[...new Set(((geographicalSources[a.id] ?? factionSources[a.id] ?? animalSources[a.id] ?? characterSources[a.id] ?? itemSources[a.id] ?? buildingSources[a.id] ?? craftingSources[a.id] ?? technologySources[a.id] ?? shopSources[a.id])?.images ?? []).map(([url])=>url))]
   } : undefined;
   record('article',a.path,{id:a.id,media, editableFile:a.filePath, sourceFile:a.sourceFile, sourceRevision:a.sourceRevision,
     credit:a.credit, license:a.license, source:a.source, contributor:a.contributor, evidence, articleSources, correction:correctionLink(origin+a.path),
@@ -122,7 +124,7 @@ if(duplicateCheck.size!==snapshot.articles.length+initial.categories.size+snapsh
 const temporaryLinks=Array.from(external,([from,urls])=>({from,to:[...urls].sort()}));
 const articlesAt = state => routes.filter(row=>row.kind==='article' && row[state]).map(row=>row.path);
 const gaps=reportGaps(atlas,review.articles);
-const report={gaps,races,animals,characters,items,buildings,crafting,technology,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
+const report={shops,gaps,races,animals,characters,items,buildings,crafting,technology,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
   aliases:policy.aliases,exclusions,temporaryLinks,assetRedirects,blenderChange,routes};
 mkdirSync('reports',{recursive:true});
 writeFileSync('reports/routes.json',JSON.stringify(report,null,2)+'\n');
@@ -158,6 +160,7 @@ const lines=['# Restoration route report','','Frozen source '+snapshot.revision+
   '## Equipment and Items','',items.verified+' new item articles checked, '+items.headings+' headings, '+items.citationTargets+' citation targets and '+items.assets+' referenced images. Infobox image identity and caption line breaks are checked separately. Existing Backpacks retains its home and review evidence; Technology deferrals are tracked separately from the three Modding records.','',
   '## Buildings','',buildings.verified+' new building articles checked, '+buildings.headings+' headings, '+buildings.citationTargets+' citation targets and '+buildings.assets+' existing item icons verified. Property panels and recipe wrappers preserve their contents. Building making tutorial remains deferred to Modding; Crafting/Construction and Technology retain separate conversion rosters.','',
   '## Crafting / Construction','',crafting.verified+' practical articles checked; '+crafting.headings+' headings preserved.','',
+  '## Shops, Residents and Traders','',shops.verified+' new articles checked; '+shops.headings+' headings, '+shops.citationTargets+' citation targets and '+shops.assets+' pinned item icons preserved. Availability is distinct from verified trading behavior.','',
   '## Technology','',technology.verified+' research articles checked; '+technology.headings+' headings and '+technology.redirects.length+' redirects preserved. Costs, prerequisites and unlocks remain imported claims, not gameplay validation.','',
   '## Gap register','',gaps.sourceArticles+' source articles audited. '+gaps.findings+' deduplicated records include pending conversions, inherited defects and claim questions. See gaps/index.html and gaps/register.json for every occurrence. '+gaps.introduced+' introduced regressions.','',
   '## Media restoration','',

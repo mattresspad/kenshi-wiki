@@ -21,6 +21,8 @@ import craftingRoster from '../../conversion/crafting/roster.json' with {type:'j
 import craftingCheckpoint from '../../conversion/crafting/checkpoint.json' with {type:'json'};
 import technologyRoster from '../../conversion/technology/roster.json' with {type:'json'};
 import technologyCheckpoint from '../../conversion/technology/checkpoint.json' with {type:'json'};
+import shopRoster from '../../conversion/shops/roster.json' with {type:'json'};
+import shopCheckpoint from '../../conversion/shops/checkpoint.json' with {type:'json'};
 export const families = {
   geography: {roster:geographyRoster, checkpoint:geographyCheckpoint},
   factions: {roster:factionRoster, checkpoint:factionCheckpoint},
@@ -30,7 +32,8 @@ export const families = {
   items: {roster:itemRoster, checkpoint:itemCheckpoint},
   buildings:{roster:buildingRoster,checkpoint:buildingCheckpoint},
   crafting:{roster:craftingRoster,checkpoint:craftingCheckpoint},
-  technology:{roster:technologyRoster,checkpoint:technologyCheckpoint}
+  technology:{roster:technologyRoster,checkpoint:technologyCheckpoint},
+  shops:{roster:shopRoster,checkpoint:shopCheckpoint}
 };
 export function selectedIds(family) {
   const {roster, checkpoint} = families[family];

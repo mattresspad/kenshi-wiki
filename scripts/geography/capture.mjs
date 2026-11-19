@@ -8,6 +8,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   const {roster}=families[family];
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
   const extra={
+    'shop-pilots':batch.ids,'shop-structures':batch.ids,'historical-vendors':batch.ids,'vendor-tutorials':batch.ids,'trading-directories':batch.ids,
     'crafting-construction':batch.ids,
     'technology-pilots':batch.ids,
     'technology-structures':batch.ids,
@@ -50,6 +51,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   if(family==='items' && batch.name===roster.batches.at(-1).name)samples.push('category/items','katana','samurai-armour','economy-arm-left','robot-limbs','light-armour','map-of-the-united-cities-extended-territories','weapons/damage','weapons/modifiers','fabrics#used-in','robotics-components#used-in');
   if(family==='buildings' && batch.name===roster.batches.at(-1).name)samples.push('category/buildings','small-shack','stone-processor','weapon-smithing-bench','wind-generator','medical-workbench','cactus-farm','oil-drill','storage','clothing-bench');
   if(family==='technology'&&batch.name===roster.batches.at(-1).name)samples.push('category/technology','technology','tech-tree','tech-level-tech','crafting-tech','basic-weapon-smithing-tech','hiver-skeleton-arms-tech','advanced-battery-capacity-tech#advanced-battery-capacity-6');
+  if(family==='shops'&&batch.name===roster.batches.at(-1).name)samples.push('category/town-residents','category/traders','category/vendors','adventurer-bar','armour-kings-shop#vendor-list','bakery','holy-nation-bar','hiver-merchant-caravan','traders#trading-with-an-unconscious-squad-member');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {
@@ -95,6 +97,7 @@ export async function captureBatch(base, batch, output, family='geography') {
           const file=sample.replaceAll('/','--').replace('#','-')+'-'+device+'-'+theme+'.png';
           await page.screenshot({path:join(output,file),animations:'disabled'});
           shots.push({id,anchor,device,theme,file});
+          if(family==='shops'&&['adventurer-bar','armour-kings-shop','holy-nation-bar','hiver-merchant-caravan'].includes(id)&&device==='phone'){const region=page.locator('.shop-stock').first().locator('..');await region.scrollIntoViewIfNeeded();await region.focus();await page.keyboard.press('End');const right=id+'-stock-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}
           if(family==='buildings' && ['weapon-smithing-bench','storage'].includes(id) && device==='phone'){const region=page.locator('.building-comparison').first().locator('..');await region.scrollIntoViewIfNeeded();await region.focus();await page.keyboard.press('End');const right=id+'-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}
           if(family==='items' && ['robot-limbs','light-armour','weapons/damage','weapons/modifiers'].includes(id) && device==='phone'){const region=page.locator('.item-comparison').first().locator('..');await region.scrollIntoViewIfNeeded();await region.focus();await page.keyboard.press('End');const right=id.replaceAll('/','--')+'-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}
           if(id==='unique-recruits' && device==='phone') {

@@ -1,5 +1,6 @@
 import {normalizeBuildingTables,takeLeadingBuildingPanel} from './building-tables.mjs';
 import {normalizeResearchTables} from './research-tables.mjs';
+import {normalizeShopTables} from './shop-tables.mjs';
 import {load} from 'cheerio';
 import {normalizeItemTables} from './item-tables.mjs';
 import {normalizeCharacterTables} from './character-tables.mjs';
@@ -17,6 +18,7 @@ export function prepareArticle(html, data, href) {
     if (target.startsWith('/') && !/^\/(?:images|notices)\//.test(target)) el.attr('href', href(target));
   }
   let buildingPanel='';
+  if(data.layout==='shop')normalizeShopTables($);
   if(data.layout==='building'){normalizeBuildingTables($);buildingPanel=takeLeadingBuildingPanel($);}
   if (data.layout === 'technology') normalizeResearchTables($);
   if (data.layout === 'faction') normalizeFactionTables($);
@@ -24,7 +26,7 @@ export function prepareArticle(html, data, href) {
   if (data.layout === 'animal') normalizeAnimalTables($);
   if (data.layout === 'item') normalizeItemTables($);
   if (data.layout === 'character') normalizeCharacterTables($);
-  const imported = ['geography','faction','race','animal','character','item','building','crafting','technology'].includes(data.layout);
+  const imported = ['geography','faction','race','animal','character','item','building','crafting','technology','shop'].includes(data.layout);
   const outline = [];
   const parents = [];
   for (const heading of $('h2,h3,h4,h5,h6').toArray()) {

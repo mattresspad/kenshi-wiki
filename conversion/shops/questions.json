@@ -1,0 +1,137 @@
+[
+  [
+    "shops-stock-limits-and-restocking",
+    null,
+    "Maximum Stock|Restock Time|Public Day|Public Night",
+    "Imported vendor limits, restock hours and access flags require versioned interpretation.",
+    "Check exact squad/vendor records and observe stock refresh and opening behavior.",
+    "A displayed limit or flag does not alone prove effective in-game inventory or accessibility."
+  ],
+  [
+    "shops-bakery-zero-stock",
+    [
+      "bakery"
+    ],
+    "0 items|Possible Stock|Trade Cultures",
+    "Bakery reports zero maximum items while listing possible stock.",
+    "Compare the exact vendor and squad records, trade-culture filters and an observed override spawn.",
+    "Zero might describe a configuration field rather than the absence of a shop inventory."
+  ],
+  [
+    "shops-armour-king-quality-weights",
+    [
+      "armour-kings-shop"
+    ],
+    "Relative Armour Quality|Standard =|High =|Specialist =|Masterwork =|Police Helmet",
+    "Armour King quality weights and repeated stock entries are retained without interpreting them as percentages.",
+    "Trace grade selection and stock-list semantics at the pinned game version; verify duplicate Police Helmet entries.",
+    "Relative weights, rarity and actual stock probabilities may describe different stages."
+  ],
+  [
+    "shops-stock-prices-and-rarity",
+    null,
+    "Average Price|Chance|vendor money|randomized per game",
+    "Stock tables mix prices, qualitative rarity and numerical chance values. Blank values remain unknown.",
+    "Verify base price, local markup and rarity/weight semantics separately; keep units and game version.",
+    "Neither a chance of 100 nor an average price guarantees a particular purchase opportunity."
+  ],
+  [
+    "shops-missing-stock-cells",
+    [
+      "armour-kings-shop",
+      "hiver-merchant-caravan",
+      "holy-nation-bar",
+      "empire-trade-culture"
+    ],
+    "c\\.</td>|c.Missing data|Grades|Scripture|Guiding Light",
+    "Imported stock tables include blank prices or grades, missing data labels, and an extra empty cell in Holy Nation Bar.",
+    "Recover the omitted source information and establish whether the extra cell is layout debris before changing data cells.",
+    "Blank cells are not zero and remain visible rather than guessed."
+  ],
+  [
+    "shops-trade-culture-effects",
+    null,
+    "Trade Culture|trade culture|Illegal|illegal|forbid",
+    "Trade-culture restrictions, illegal-item lists and price multipliers remain qualified imported claims.",
+    "Compare faction and regional culture selection, stock filtering, enforcement and modifiers independently.",
+    "Stock suppression, illegality and trade prices are not interchangeable."
+  ],
+  [
+    "shops-world-state-residents",
+    null,
+    "World States|override|Housemates|Public Night|24 hours|48 hours",
+    "Shop presence, resident counts and opening or restock conditions depend on world state and squad setup.",
+    "Trace the relevant town overrides and squads, then test the stated condition.",
+    "A list of possible locations does not establish unconditional spawning."
+  ],
+  [
+    "shops-caravan-variants",
+    [
+      "hiver-merchant-caravan",
+      "hiver-trader-caravan"
+    ],
+    "Flats Lagoon|Heng|vendor|patrols|Pack Beast",
+    "The two Hiver caravan articles differ in stock descriptions and town-versus-zone link destinations.",
+    "Identify the respective squad records and patrol regions; retain both articles until their relationship is verified.",
+    "These may describe distinct templates or incomplete descriptions; no merge or destination correction is assumed."
+  ],
+  [
+    "shops-vendor-tutorial-mechanics",
+    [
+      "how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide"
+    ],
+    "0 are treated|400%|0.5%|0.8x|25000|only one|only ONCE|chance|items count",
+    "The vendor tutorial contains strong claims about chance, item limits, ordering, money caps and blueprint repetition.",
+    "Reproduce each claim on a recorded game version using copied FCS records and isolated tests.",
+    "Imported author advice is preserved; conversion does not newly validate these mechanics."
+  ],
+  [
+    "shops-bed-access-instructions",
+    [
+      "how-to-make-a-npc-bed-available-for-the-player-to-sleep-on"
+    ],
+    "public|squad",
+    "The short NPC-bed tutorial states access flags but omits a version, worked example and observed test.",
+    "Document a minimal squad/building setup and day/night bed-access test.",
+    "Keep the original instruction while its context and applicability remain unverified."
+  ],
+  [
+    "shops-removed-vendors",
+    [
+      "flophouse",
+      "wandering-trader"
+    ],
+    "removed|never been implemented|Flophouse|Wandering Traders",
+    "Historical vendors retain removed-content notices and surviving references.",
+    "Establish the version and distinction between an unused record, dialogue reference and reachable vendor.",
+    "A retained record or dialogue mention does not prove current availability."
+  ],
+  [
+    "shops-unassessed-media",
+    null,
+    "Gallery|Galley|L House|Bughouse",
+    "Empty galleries and image-oriented headings survive without evidence of complete media restoration.",
+    "Compare the pinned Fandom revisions and credited media before selecting images.",
+    "The verified item icons do not cover shop exteriors, interiors or guide screenshots."
+  ],
+  [
+    "shops-generic-trader-identity",
+    [
+      "trade-goods-trader-generic"
+    ],
+    "Row1|Trade Goods Trader|Possible Stock",
+    "Trade Goods Trader - Generic has an unclear record identity and placeholder infobox row label.",
+    "Identify the underlying squad, vendor or NPC record and compare with the trade-goods overview.",
+    "Store under reference/trading pending classification; preserve existing URL and categories."
+  ],
+  [
+    "shops-scraphouse-inventory",
+    [
+      "scraphouse"
+    ],
+    "stock|weapons|quality|Dack|Quin",
+    "Scraphouse availability and stock descriptions remain imported claims with separate record and gameplay semantics.",
+    "Compare shop records and observed stock behavior while retaining existing geographic history.",
+    "Completing the editorial review does not independently verify its inventory rules."
+  ]
+]
