@@ -3738,6 +3738,18 @@
     "tech-hunters-map": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/items/review.json"
+    },
+    "small-shack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "stone-processor": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
+    },
+    "weapon-smithing-bench": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/buildings/review.json"
     }
   },
   "mediaGaps": [

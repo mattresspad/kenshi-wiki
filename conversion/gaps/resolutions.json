@@ -2268,6 +2268,17 @@
       }
     },
     {
+      "id": "availability:/category/buildings",
+      "kind": "availability",
+      "target": "/category/buildings",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/buildings"
+      }
+    },
+    {
       "id": "availability:/category/characters",
       "kind": "availability",
       "target": "/category/characters",
@@ -12784,6 +12795,17 @@
       }
     },
     {
+      "id": "availability:/small-shack",
+      "kind": "availability",
+      "target": "/small-shack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/small-shack"
+      }
+    },
+    {
       "id": "availability:/small-thieves-backpack",
       "kind": "availability",
       "target": "/small-thieves-backpack",
@@ -13463,6 +13485,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/stone-camp"
+      }
+    },
+    {
+      "id": "availability:/stone-processor",
+      "kind": "availability",
+      "target": "/stone-processor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stone-processor"
       }
     },
     {
@@ -15267,6 +15300,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/weak-thrall"
+      }
+    },
+    {
+      "id": "availability:/weapon-smithing-bench",
+      "kind": "availability",
+      "target": "/weapon-smithing-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/weapon-smithing-bench"
       }
     },
     {

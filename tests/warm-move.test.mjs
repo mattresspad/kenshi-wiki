@@ -27,6 +27,7 @@ test('a byte-identical file move updates the warm Astro build; a separate canoni
   writeFileSync(join(root,'conversion/animals/checkpoint.json'),JSON.stringify({included:0}));
   writeFileSync(join(root,'conversion/characters/checkpoint.json'),JSON.stringify({included:0}));
   writeFileSync(join(root,'conversion/items/checkpoint.json'),JSON.stringify({included:0}));
+  writeFileSync(join(root,'conversion/buildings/checkpoint.json'),JSON.stringify({included:0}));
   const reviewFile=join(root,'conversion/reviews.json'), review=JSON.parse(readFileSync(reviewFile));
   review.articles=Object.fromEntries(Object.entries(review.articles).filter(([id])=>pilot.has(id)));
   writeFileSync(reviewFile,JSON.stringify(review));

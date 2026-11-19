@@ -16,8 +16,8 @@ export async function getStaticPaths() {
 const {entry,article}=Astro.props;
 const {href}=await readWiki();
 const data=entry.data;
-const {intro,body,outline}=prepareArticle(entry.rendered?.html,data,href);
-const importedGeography = ['geography','faction','race','animal','character','item'].includes(data.layout);
+const {intro,body,outline,buildingPanel}=prepareArticle(entry.rendered?.html,data,href);
+const importedGeography = ['geography','faction','race','animal','character','item','building'].includes(data.layout);
 if (importedGeography) outline.push({id:'source-history', label:'Sources and history', children:[]});
 const categories=displayCategories(data.categories);
 const source=recordedSource(article.sourceFile, article.sourceRevision, snapshot.revision);
@@ -25,7 +25,7 @@ const history=source.history;
 const correction=correctionLink(origin+article.path);
 ---
 <Frame kind="article" publicPath={article.path} title={data.title} description={data.description} {categories} {outline} {href} editableFile={article.filePath} {history}>
-  <div id="content" class:list={['article-sheet',data.layout,{'with-facts':data.facts || data.factGroups, imported:importedGeography}]}><article id="bodyContent" data-article-id={article.id} aria-labelledby="firstHeading">
+  <div id="content" class:list={['article-sheet',data.layout,{'with-facts':data.facts || data.factGroups || buildingPanel, imported:importedGeography}]}><article id="bodyContent" data-article-id={article.id} aria-labelledby="firstHeading">
     <div class="opening">
       <header class="article-head"><h1 id="firstHeading" tabindex="-1">{data.title}</h1></header>
       <div class="opening-copy">
@@ -34,6 +34,7 @@ const correction=correctionLink(origin+article.path);
         <nav class="article-actions" aria-label="Article sources and corrections"><a href="#source-history">Sources and history</a><a href={correction}>Suggest a correction</a>
         {data.layout==='recipe' && <a href="#turn-save-and-reload">Jump to the player test</a>}</nav>
       </div>
+      {buildingPanel && <aside class="building-facts" aria-label={data.title+' building properties'} set:html={buildingPanel}/>}
       {data.factGroups && <GeographyFacts title={data.factTitle ?? data.title} groups={data.factGroups} image={data.factImage} caption={data.factCaption} {href}/>}
       {data.facts && <aside class="factbox" aria-label={data.title+' facts'}>
         <h2>{data.title}</h2><dl>{data.facts.map(([key,...parts])=><><dt>{key}</dt><dd>{parts.map(part=>Array.isArray(part)?<a href={href(part[1])}>{part[0]}</a>:part)}</dd></>)}</dl>

@@ -1,0 +1,74 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "articles": [
+    {
+      "id": "small-shack",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Small Shack is the smallest and cheapest building players can construct. Small shacks require no research in order to build. They take very little time to build and can contain only the Small Research Bench level I, making this building a perfect starting platform for early-game research. Purchasable Small Shack can be located almost around the entirety of maps, usually appearing in big or major cities. Small House Building Info Building Condition - 5 Door Condition - 12 Door Lock - lvl15 Trivia For purchasable Small Shacks located in towns, before player bought them, they are usually private and host actual NPC residents. Entering these private shacks will trigger dialogues, and if the player remains in these private shacks, they will be attacked by the original residents. Also, after purchasing these Small Shack, the original interior will disappear.",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/small-shack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "965b82aa10f2a5056a54e5b4a61a2b26f42ad3b6ee44b55c224b794a2e45f6d8"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "stone-processor",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Stone Processors are Industry Buildings which turn Raw Stone into Building Materials. The partially automated Stone Processors can be constructed after researching Powered Stone Refinery and upgraded with the Stone Refinery Upgrades. Stone Processors use and level up the Labouring stat of its workers, always requiring at least one worker to operate. Hybrid Stone Mines remove the need for a separate Stone Processor and, eventually, of a manual labour requirement. Stone Processor Upgrades",
+      "organization": "Reviewed 1 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stone-processor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "03dffe59a26c03065447181134b16508909ecd1bcc7fc5eb1e6b2fffd71c79b6"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "weapon-smithing-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: In game this structure is named “Weapon Smith” but for the purposes of this wiki we will refer it to as the “Weapon Smithing Bench” to avoid confusion with the Weapon Smith skill. Each level of this building allows crafting of higher quality weapons at the expense of more valuable raw materials. As input the first level uses iron plates, the second level uses iron plates and fabric, and the third level uses steel bars and fabric. Each level takes progressively more raw materials to build and requires more research for its construction. *As listed by FCS. In practice and sans mods, the maximum quality able to be crafted by the player is Edge Type 2 with a critical success and Edge Type 1 without it.",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/weapon-smithing-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8ce3a9d6c48a73c595573bfb097e5c38448bebcdf17048924d6798ade6e41316"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-smith-quality"
+      ]
+    }
+  ],
+  "editorialChanges": [
+    {
+      "id": "building-property-wrappers",
+      "change": "Recognized title/body property wrappers become one semantic table; the leading table is beside desktop prose and after phone introduction. Additional variants stay in place.",
+      "evidence": "src/lib/building-tables.mjs"
+    },
+    {
+      "id": "building-recipe-wrappers",
+      "change": "Repeated single-cell product wrappers become lists inside existing disclosures, retaining every link, image, label, capacity and quantity in order.",
+      "evidence": "src/lib/building-tables.mjs"
+    },
+    {
+      "id": "building-storage-order",
+      "change": "Storage retains its 42 rows and eight columns in original order. Its sortable marker is removed while implicit accepted-item group labels and blank Reset Stolen cells remain unresolved.",
+      "evidence": "src/lib/building-tables.mjs"
+    },
+    {
+      "id": "building-power-layout",
+      "change": "The recognized Power overview layout table becomes a bordered block retaining its disclosure and legend.",
+      "evidence": "src/lib/building-tables.mjs"
+    }
+  ]
+}

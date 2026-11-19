@@ -8,7 +8,7 @@
     "build": "node scripts/check-articles.mjs && astro build && node scripts/package.mjs && node scripts/report.mjs",
     "preview": "node scripts/preview.mjs",
     "test": "playwright test",
-    "test:catalog": "node --test tests/catalog.test.mjs tests/faction-format.test.mjs tests/race-format.test.mjs tests/gaps.test.mjs tests/warm-move.test.mjs tests/animal-format.test.mjs tests/character-format.test.mjs tests/item-format.test.mjs",
+    "test:catalog": "node --test tests/catalog.test.mjs tests/faction-format.test.mjs tests/race-format.test.mjs tests/gaps.test.mjs tests/warm-move.test.mjs tests/animal-format.test.mjs tests/character-format.test.mjs tests/item-format.test.mjs tests/building-format.test.mjs",
     "package:check": "cf workers versions create --prebuilt --dry-run",
     "inventory": "node scripts/inventory.mjs",
     "report": "node scripts/report.mjs",
@@ -19,7 +19,8 @@
     "gaps:normalize": "node scripts/gaps/register.mjs",
     "animals:accept": "node scripts/conversion/accept.mjs animals",
     "characters:accept": "node scripts/conversion/accept.mjs characters",
-    "items:accept": "node scripts/conversion/accept.mjs items"
+    "items:accept": "node scripts/conversion/accept.mjs items",
+    "buildings:accept": "node scripts/conversion/accept.mjs buildings"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",

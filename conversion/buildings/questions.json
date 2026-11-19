@@ -1,0 +1,79 @@
+[
+  [
+    "building-costs-and-efficiency",
+    null,
+    "cost|upgrade|Efficiency|Power|Workers|build time",
+    "Construction costs, upgrade costs, times, worker counts and efficiency retain their source assumptions.",
+    "Verify exact building/research records and separate fresh construction from upgrade costs and skill-dependent times.",
+    "Displayed zero times and negative power are not independently verified mechanics."
+  ],
+  [
+    "building-recipes-and-capacity",
+    null,
+    "INPUTS|holds|recipe|blueprint|research|quality",
+    "Input capacity, recipe consumption and research or blueprint requirements are distinct.",
+    "Trace station recipe and inventory records, preserving each unit and quantity; test production separately.",
+    "A holds-N label describes imported capacity, not inferred per-product consumption."
+  ],
+  [
+    "building-environment-and-automation",
+    null,
+    "wind|harvest|water|yield|automat|haul|hunger",
+    "Environmental, farming and automation claims require versioned checks.",
+    "Check wind thresholds, fertility and water conditions, harvest timers and actual job behavior.",
+    "Imported explanations and tables are preserved without selecting a formula or gameplay result."
+  ],
+  [
+    "building-storage-groups",
+    [
+      "storage"
+    ],
+    "General Use|Accepted Items|Reset Stolen",
+    "Storage has blank accepted-item labels implying groups, and blank or unknown Reset Stolen cells.",
+    "Verify row associations and stolen-status behavior before enabling reorderable comparison rows.",
+    "Source row order is retained; blank cells are not filled by inference."
+  ],
+  [
+    "building-food-store",
+    [
+      "food-store"
+    ],
+    "bread|hunger|satisfied",
+    "Food Store gives specific bread exclusion and eating/automation claims that need verification.",
+    "Compare container acceptance and observed eating behavior in a pinned game version.",
+    "The imported behavior is retained, not promoted to a verified fix or universal rule."
+  ],
+  [
+    "building-smith-quality",
+    [
+      "weapon-smithing-bench"
+    ],
+    "Edge|critical|FCS|Tech Level",
+    "Weapon Smithing Bench distinguishes FCS Edge Type 3 from claimed vanilla Edge Type 2 critical success.",
+    "Check crafting quality caps and research associations independently of record maxima.",
+    "Keep the qualification adjacent to the upgrade table."
+  ],
+  [
+    "building-removed-oil",
+    [
+      "manual-oil-drill",
+      "oil-drill",
+      "oil-refinery",
+      "oil-silo"
+    ],
+    "1.0.10|removed|implemented|Fuel|Power Consumption",
+    "Oil structures retain removed/unimplemented and surviving-decoration qualifications.",
+    "Verify exact version, record availability and placed structures separately.",
+    "Decoration, editor access and ordinary production availability are different claims."
+  ],
+  [
+    "building-wind-upgrade",
+    [
+      "wind-generator"
+    ],
+    "mph|power|1%|waived|cost",
+    "Wind Generator mixes wind-percent output, mph thresholds and a cheaper upgrade path.",
+    "Trace wind curves, power units and upgrade costs with versioned source evidence.",
+    "Do not infer that mph thresholds and percentage display are directly interchangeable."
+  ]
+]

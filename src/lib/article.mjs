@@ -1,3 +1,4 @@
+import {normalizeBuildingTables,takeLeadingBuildingPanel} from './building-tables.mjs';
 import {load} from 'cheerio';
 import {normalizeItemTables} from './item-tables.mjs';
 import {normalizeCharacterTables} from './character-tables.mjs';
@@ -14,12 +15,14 @@ export function prepareArticle(html, data, href) {
     const target = el.attr('href');
     if (target.startsWith('/') && !/^\/(?:images|notices)\//.test(target)) el.attr('href', href(target));
   }
+  let buildingPanel='';
+  if(data.layout==='building'){normalizeBuildingTables($);buildingPanel=takeLeadingBuildingPanel($);}
   if (data.layout === 'faction') normalizeFactionTables($);
   if (data.layout === 'race') normalizeRaceTables($);
   if (data.layout === 'animal') normalizeAnimalTables($);
   if (data.layout === 'item') normalizeItemTables($);
   if (data.layout === 'character') normalizeCharacterTables($);
-  const imported = ['geography','faction','race','animal','character','item'].includes(data.layout);
+  const imported = ['geography','faction','race','animal','character','item','building'].includes(data.layout);
   const outline = [];
   const parents = [];
   for (const heading of $('h2,h3,h4,h5,h6').toArray()) {
@@ -84,5 +87,5 @@ export function prepareArticle(html, data, href) {
     intro.push($.html(el));
     $(el).remove();
   }
-  return {intro:intro.join('\n'), body:$.root().html(), outline};
+  return {buildingPanel,intro:intro.join('\n'), body:$.root().html(), outline};
 }

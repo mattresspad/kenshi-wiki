@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';import {readFileSync,writeFileSync,mkdirSync,existsSync} from 'node:fs';import {dirname,join} from 'node:path';import {stringify} from 'yaml';
+import {snapshot} from '../../src/lib/catalog.mjs';import {openSource} from '../conversion/source.mjs';import {articleFiles} from '../article-files.mjs';import {articleEvidence,hash} from '../geography/evidence.mjs';
+const [action,repository,directory,name]=process.argv.slice(2),source=openSource(repository,directory),root='conversion/buildings';
+const records=new Map(snapshot.articles.map(a=>[a.id,a]));
+const save=(p,s)=>{if(action==='verify-freeze')assert.equal(readFileSync(p,'utf8').replaceAll('\r\n','\n'),s,p);else{mkdirSync(dirname(p),{recursive:true});writeFileSync(p,s)}};
+const json=(n,x)=>save(join(root,n),JSON.stringify(x,null,2)+'\n');
+if(['freeze','verify-freeze'].includes(action)){
+ const members=snapshot.articles.filter(a=>a.categories.includes('Buildings')).map(a=>a.id),deferred=['building-making-tutorial'];assert.equal(members.length,167);
+ const batches=[{name:'building-pilots',ids:['small-shack','stone-processor','weapon-smithing-bench']},{name:'building-variants',ids:['wind-generator','medical-workbench','fabric-loom-cotton']},{name:'building-conditions',ids:['cactus-farm','food-store','oil-drill']},{name:'building-overviews',ids:['buildings-list','storage','clothing-bench']}];
+ const used=new Set([...deferred,...batches.flatMap(b=>b.ids)]),remaining=members.filter(id=>!used.has(id));assert.equal(remaining.length,154);
+ for(let i=0;i<7;i++)batches.push({name:'building-siblings-'+(i+1),ids:remaining.slice(i*22,(i+1)*22)});
+ const articles={},assets={};for(const id of batches.flatMap(b=>b.ids)){source.document(id);articles[id]=articleEvidence(source.html(id),true,'building');for(const [url]of articles[id].images)assets[url]=hash(source.pinned('public'+url));}
+ json('roster.json',{revision:snapshot.revision,baseRevision:'a4c4160',categories:['Buildings'],members,existing:[],deferred,batches,expected:{headings:187,citationTargets:10,assets:126,redirects:16}});
+ json('supporting-pages.json',{revision:snapshot.revision,ids:[]});json('reference.json',{articles,assets});
+ json('pending-rosters.json',{revision:snapshot.revision,craftingConstruction:['crafting','construction'],technology:snapshot.articles.filter(a=>a.categories.includes('Technology')).map(a=>a.id),modding:['building-making-tutorial','interior-walls-and-doors']});
+ console.log('Frozen 167 members, 166 transfers, 11 batches, '+Object.keys(assets).length+' existing images.');
+}else if(action==='transfer'){
+ const get=p=>JSON.parse(readFileSync(p)),roster=get(root+'/roster.json'),checkpoint=get(root+'/checkpoint.json'),fixture=get(root+'/reference.json'),batch=roster.batches[checkpoint.included];assert.equal(batch?.name,name);
+ const existing=new Set(articleFiles().map(a=>a.data.articleId));for(const id of batch.ids){assert.ok(!existing.has(id),'Already transferred '+id);const {front,body}=source.document(id);assert.ok(!front.infobox,'Unexpected building infobox '+id);const file='src/content/articles/buildings/'+records.get(id).sourceFile.slice('src/content/wiki/'.length);assert.ok(!existsSync(file));save(file,'---\n'+stringify({articleId:id,title:front.title,description:front.description??'',categories:front.categories??[],layout:'building'},{lineWidth:0}).trimEnd()+'\n---\n\n'+body+'\n');for(const [url]of fixture.articles[id].images){assert.equal(hash(source.pinned('public'+url)),fixture.assets[url]);assert.equal(hash(readFileSync('public'+url)),fixture.assets[url]);}}
+ const localPaths=new Set([...existing,...batch.ids].map(id=>records.get(id).path)),original=readFileSync('public/_redirects','utf8').split('# Restored redirects from the frozen inventory')[0].trimEnd(),covered=new Set(original.split(/\r?\n/).map(l=>l.split(/\s+/)[0]));save('public/_redirects',original+'\n\n# Restored redirects from the frozen inventory\n'+snapshot.redirects.filter(r=>localPaths.has(r.to)&&!covered.has(r.from)).map(r=>[r.from,r.to,r.status].join(' ')).join('\n')+'\n');
+ const policy=get('conversion/category-policy.json');policy.reviewedCategories=[...new Set([...policy.reviewedCategories,...roster.categories])];save('conversion/category-policy.json',JSON.stringify(policy,null,2)+'\n');json('checkpoint.json',{included:checkpoint.included+1});console.log('Transferred '+batch.name+' · '+batch.ids.length+' articles');
+}else throw Error('Expected freeze, verify-freeze or transfer');

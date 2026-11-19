@@ -29,7 +29,7 @@ export function verifyFamily(name, atlas, assetRedirects) {
   fragmentIndexes.set(atlas,otherLocalIds);}
   for(const id of actual) {
     const record=atlas.byId.get(id),html=readFileSync('dist'+record.path+'.html','utf8'),$=load(html);
-    const expected=fixture.articles[id],proof=articleEvidence(html,false,name==='items'?'item':false);
+    const expected=fixture.articles[id],proof=articleEvidence(html,false,name==='items'?'item':name==='buildings'?'building':false);
     for(const key of Object.keys(expected)) assert.deepEqual(proof[key],expected[key],id+' — '+key);
     assert.deepEqual(record.categories,original.get(id).categories,id+' categories');
     assert.equal($('link[rel=canonical]').attr('href'),'https://kenshi.wiki'+record.path);
@@ -39,7 +39,7 @@ export function verifyFamily(name, atlas, assetRedirects) {
     assert.ok($('.import-history p').text().includes(record.credit+', under CC BY-SA '+record.license),id+' attribution wording');
     for(const [url] of [...expected.images,...(expected.factMedia?.images??[])])assets.add(url);
     if(expected.emptyGallery)emptyGalleries.push(id);
-    for(const a of $('.lead-text a,.article-body a,.factbox a').toArray()) {
+    for(const a of $('.lead-text a,.article-body a,.factbox a,.building-facts a').toArray()) {
       const link=a.attribs.href;
       if(!link || !(link.startsWith('/') || link.startsWith('#') || link.startsWith('https://kenshi.wiki/')))continue;
       const target=new URL(link,'https://kenshi.wiki'+record.path);
