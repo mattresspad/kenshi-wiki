@@ -146,6 +146,55 @@
         "claim:building-costs-and-efficiency",
         "claim:building-removed-oil"
       ]
+    },
+    {
+      "id": "buildings-list",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This page lists all the buildings which the player can construct, organized into the building categories found in the Build Mode menu. For a strictly alphabetical list of these pages, please use Category:Buildings. Buildings Camping Crafting Defence Farming Food Interior Lights Mining Power Storage Tech Training Walls Labs",
+      "organization": "Reviewed 0 headings and 15 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/buildings-list.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "abfcc51cc09870d65740e062cd813202580e13f13f3c8df43fa506059c0ebffe"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "storage",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Storage Containers are buildings that can be built inside of Player-Owned Buildings in Town or at a Player Outpost. They come in varying shapes and sizes. Distinct types can be built for storing specific items. General use containers can be used to store all types of items. Specialised containers (such as the Animal Feeder or an Armour Storage) are limited to containing a certain type of item. Specialised containers are programmed to be used by labourers as input or output containers for various manufacturing processes. For example, a farmer might use the Fabric chest to store the Fabrics produced as output from crafting and a smith may use the same Fabrics chest to take the Fabrics to be used in clothes or armour production. Note that the specialised containers also clear the “Stolen” tag from items when such an item is stored in a player-owned container, no matter how briefly. Types of Storage Containers",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/storage.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b128f9f3b636e92806ed04ad4313bc9b6227f94851f72697d2a72a53f3d14c3a"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-storage-groups"
+      ]
+    },
+    {
+      "id": "clothing-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Clothing Bench is a crafting building type introduced in version 0.67.0. This crafting station allows players to craft cloth-based armour and clothing. Players can construct this building after researching Clothing Manufacture. Additional research and blueprints can be used to unlock more items to craft on this bench. Clothing Bench N.B. Ninja Mask and Samurai Clothpants can also be crafted at the Leather Armour Crafting Bench. The Rag Loincloth (Dyed) possibly cannot be crafted without modding due to a lack of blueprint in the game. Power Power Consumption - 4 Efficiency - 1x Workers - 1",
+      "organization": "Reviewed 1 headings and 49 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/clothing-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "878a663294d663ac22a5573f1cc0fc20c2ae4f53e7a8c20ddb961c197076b2f5"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity",
+        "claim:building-unavailable-blueprints"
+      ]
     }
   ],
   "editorialChanges": [
@@ -168,6 +217,11 @@
       "id": "building-power-layout",
       "change": "The recognized Power overview layout table becomes a bordered block retaining its disclosure and legend.",
       "evidence": "src/lib/building-tables.mjs"
+    },
+    {
+      "id": "fabrics-building-cross-reference",
+      "change": "Add a separately marked Station details link before Fabrics’ existing Clothing Bench recipe disclosure so the requested item-to-station journey works. Retain every original recipe and label.",
+      "evidence": "src/content/articles/items/fabrics.md"
     }
   ]
 }

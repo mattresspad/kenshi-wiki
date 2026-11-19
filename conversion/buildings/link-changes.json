@@ -52,5 +52,27 @@
       "/item-storage-tech",
       "/jobs"
     ]
+  },
+  {
+    "name": "building-overviews",
+    "resolved": [
+      "/buildings-list",
+      "/clothing-bench",
+      "/storage"
+    ],
+    "introduced": [
+      "/baking-tech",
+      "/cotton-farming-tech",
+      "/gear-storage-tech",
+      "/grog-distillation-tech",
+      "/hemp-based-fabric-tech",
+      "/hemp-farming-tech",
+      "/public-sales-tech",
+      "/rum-brewing-tech",
+      "/storage-boxes-crafting-tech",
+      "/storage-boxes-farming-tech",
+      "/storage-boxes-ore-tech",
+      "/storage-boxes-tech"
+    ]
   }
 ]

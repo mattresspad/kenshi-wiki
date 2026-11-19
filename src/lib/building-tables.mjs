@@ -47,7 +47,8 @@ export function normalizeBuildingTables($){
    const isRecipe=['INPUTS','OUTPUT','ITEMS'].includes(first.children().first().text().trim());
    if(isRecipe)first.children().each((_,c)=>{c.tagName='th';$(c).attr('scope','col');});
    if(first.children().length&&!first.children(':not(th)').length){first.children().attr('scope','col');first.appendTo($('<thead></thead>').prependTo(table));}
-   for(const row of table.children('tbody').children('tr').toArray()) {const cell=$(row).children().first();if(cell.is('td')&&!cell.attr('colspan')){cell[0].tagName='th';cell.attr('scope','row');}}
+   const storageNames=table.children('thead').find('th').eq(0).text().trim()==='Accepted Items' && table.children('thead').find('th').eq(1).text().trim()==='Name';
+   for(const row of table.children('tbody').children('tr').toArray()) {const cell=storageNames?$(row).children().eq(1):$(row).children().first();if(cell.is('td')&&!cell.attr('colspan')){cell[0].tagName='th';cell.attr('scope','row');}}
    if(table.children('thead').find('th').length>=5)table.addClass('building-comparison');
   }
   // Blank accepted-item labels rely on source ordering; do not detach them through sorting.

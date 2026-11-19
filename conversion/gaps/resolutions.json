@@ -1839,6 +1839,17 @@
       }
     },
     {
+      "id": "availability:/buildings-list",
+      "kind": "availability",
+      "target": "/buildings-list",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-overviews",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/buildings-list"
+      }
+    },
+    {
       "id": "availability:/bull-backpack",
       "kind": "availability",
       "target": "/bull-backpack",
@@ -2562,6 +2573,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/clothing"
+      }
+    },
+    {
+      "id": "availability:/clothing-bench",
+      "kind": "availability",
+      "target": "/clothing-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-overviews",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/clothing-bench"
       }
     },
     {
@@ -13584,6 +13606,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/stone-rats"
+      }
+    },
+    {
+      "id": "availability:/storage",
+      "kind": "availability",
+      "target": "/storage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-overviews",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/storage"
       }
     },
     {

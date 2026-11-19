@@ -49195,6 +49195,13 @@
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
           "sha256": "61bcce39b898edb5201bb3e99c3c733ab825e7c80e6bf95ca4100824fb57974b",
           "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/storage-robotics.md"
+        },
+        {
+          "articleId": "general-storage-chest",
+          "sourceFile": "src/content/wiki/general-storage-chest.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "603dc1860615d1a3b48c9b07b41a340a492c20954b3f53df5f26acb3f238163f",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/general-storage-chest.md"
         }
       ],
       "occurrences": [
@@ -49204,6 +49211,14 @@
           "literal": "This chest has a storage space of **12x12** squares and a stacking multiplier of 5, which is the same as [General Storage Chest](/general-storage-chest). As such, the main use case for this storage box is for robotics crafting jobs.",
           "line": 16,
           "sourceFile": "src/content/wiki/storage-robotics.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "general-storage-chest",
+          "label": "This chest has a storage space of 18 x 18 squares and a stacking multiplier of 5.",
+          "literal": "This chest has a storage space of 18 x 18 squares and a stacking multiplier of 5.",
+          "line": 20,
+          "sourceFile": "src/content/wiki/general-storage-chest.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
