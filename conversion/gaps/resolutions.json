@@ -277,6 +277,17 @@
       }
     },
     {
+      "id": "availability:/animal-feeder",
+      "kind": "availability",
+      "target": "/animal-feeder",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/animal-feeder"
+      }
+    },
+    {
       "id": "availability:/animal-horn",
       "kind": "availability",
       "target": "/animal-horn",
@@ -475,6 +486,17 @@
       }
     },
     {
+      "id": "availability:/armour-storage",
+      "kind": "availability",
+      "target": "/armour-storage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/armour-storage"
+      }
+    },
+    {
       "id": "availability:/armoured-face-plates",
       "kind": "availability",
       "target": "/armoured-face-plates",
@@ -538,6 +560,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/armoury-ruin"
+      }
+    },
+    {
+      "id": "availability:/arrow-making-bench",
+      "kind": "availability",
+      "target": "/arrow-making-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/arrow-making-bench"
       }
     },
     {
@@ -626,6 +659,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/ashlands"
+      }
+    },
+    {
+      "id": "availability:/assassination-dummy",
+      "kind": "availability",
+      "target": "/assassination-dummy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/assassination-dummy"
       }
     },
     {
@@ -959,6 +1003,17 @@
       }
     },
     {
+      "id": "availability:/battery-bank",
+      "kind": "availability",
+      "target": "/battery-bank",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/battery-bank"
+      }
+    },
+    {
       "id": "availability:/bayan",
       "kind": "availability",
       "target": "/bayan",
@@ -989,6 +1044,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/beak-thing-egg"
+      }
+    },
+    {
+      "id": "availability:/bed",
+      "kind": "availability",
+      "target": "/bed",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bed"
       }
     },
     {
@@ -1110,6 +1176,50 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/big-grim"
+      }
+    },
+    {
+      "id": "availability:/biofuel-distillery",
+      "kind": "availability",
+      "target": "/biofuel-distillery",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/biofuel-distillery"
+      }
+    },
+    {
+      "id": "availability:/biofuel-distillery-greenfruit",
+      "kind": "availability",
+      "target": "/biofuel-distillery-greenfruit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/biofuel-distillery-greenfruit"
+      }
+    },
+    {
+      "id": "availability:/biofuel-distillery-hemp",
+      "kind": "availability",
+      "target": "/biofuel-distillery-hemp",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/biofuel-distillery-hemp"
+      }
+    },
+    {
+      "id": "availability:/biofuel-distillery-wheatstraw",
+      "kind": "availability",
+      "target": "/biofuel-distillery-wheatstraw",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/biofuel-distillery-wheatstraw"
       }
     },
     {
@@ -1509,6 +1619,17 @@
       }
     },
     {
+      "id": "availability:/boltbox",
+      "kind": "availability",
+      "target": "/boltbox",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/boltbox"
+      }
+    },
+    {
       "id": "availability:/bolts-heavies",
       "kind": "availability",
       "target": "/bolts-heavies",
@@ -1685,6 +1806,28 @@
       }
     },
     {
+      "id": "availability:/bread-basket",
+      "kind": "availability",
+      "target": "/bread-basket",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bread-basket"
+      }
+    },
+    {
+      "id": "availability:/bread-oven",
+      "kind": "availability",
+      "target": "/bread-oven",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bread-oven"
+      }
+    },
+    {
       "id": "availability:/brink",
       "kind": "availability",
       "target": "/brink",
@@ -1803,6 +1946,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/bucket-zukin"
+      }
+    },
+    {
+      "id": "availability:/bughouse",
+      "kind": "availability",
+      "target": "/bughouse",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bughouse"
       }
     },
     {
@@ -1968,6 +2122,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cage-beast"
+      }
+    },
+    {
+      "id": "availability:/camp-bed",
+      "kind": "availability",
+      "target": "/camp-bed",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/camp-bed"
+      }
+    },
+    {
+      "id": "availability:/campfire",
+      "kind": "availability",
+      "target": "/campfire",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/campfire"
+      }
+    },
+    {
+      "id": "availability:/camping",
+      "kind": "availability",
+      "target": "/camping",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/camping"
       }
     },
     {
@@ -2433,6 +2620,28 @@
       }
     },
     {
+      "id": "availability:/ceiling-fan-lamp",
+      "kind": "availability",
+      "target": "/ceiling-fan-lamp",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ceiling-fan-lamp"
+      }
+    },
+    {
+      "id": "availability:/ceiling-lamp",
+      "kind": "availability",
+      "target": "/ceiling-lamp",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ceiling-lamp"
+      }
+    },
+    {
       "id": "availability:/ceramic-bowl",
       "kind": "availability",
       "target": "/ceramic-bowl",
@@ -2455,6 +2664,17 @@
       }
     },
     {
+      "id": "availability:/chain-armour-crafting-bench",
+      "kind": "availability",
+      "target": "/chain-armour-crafting-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/chain-armour-crafting-bench"
+      }
+    },
+    {
       "id": "availability:/chain-shirt",
       "kind": "availability",
       "target": "/chain-shirt",
@@ -2474,6 +2694,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/chainmail"
+      }
+    },
+    {
+      "id": "availability:/chainmail-sheet-fabrication-bench",
+      "kind": "availability",
+      "target": "/chainmail-sheet-fabrication-bench",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/chainmail-sheet-fabrication-bench"
       }
     },
     {
@@ -2705,6 +2936,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cooked-vegetables"
+      }
+    },
+    {
+      "id": "availability:/cooking-pit",
+      "kind": "availability",
+      "target": "/cooking-pit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cooking-pit"
       }
     },
     {
@@ -20147,6 +20389,18 @@
       "resolution": {
         "method": "local resource available; independently maintained contents",
         "sha256": "15f97d1186fe24cf7a02b21c66076e9e40223cced2238eaee4a629dd1cd3fd35",
+        "sourceSha256": "b385289390d87210d9fedaa535f11ee55230dc6ab3af61cc313ac1614647ae8d"
+      }
+    },
+    {
+      "id": "media:/notices/artwork.txt",
+      "kind": "media",
+      "target": "/notices/artwork.txt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/buildings/acceptances.json#building-siblings-1",
+      "resolution": {
+        "method": "local resource available; independently maintained contents",
+        "sha256": "1d2abd0bb6e8d59b4366489ffa8f3f668d9d51ad552f9646fab7d43093863ab5",
         "sourceSha256": "b385289390d87210d9fedaa535f11ee55230dc6ab3af61cc313ac1614647ae8d"
       }
     },

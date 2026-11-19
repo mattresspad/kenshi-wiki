@@ -195,6 +195,339 @@
         "claim:building-recipes-and-capacity",
         "claim:building-unavailable-blueprints"
       ]
+    },
+    {
+      "id": "animal-feeder",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Animal Feeder can store food items so if animal player characters are nearby they can get their food automatically. Non-animal player characters will also eat from the Animal Feeder if it is nearby. This building has an 18x18 size inventory. This building also has the same function as a Food Store. It will be used to store food if it is closer than a proper Food Store. This building is, however, less efficient as a storage building than the proper Food Store because it does not stack identical food items. Stores Chewsticks Cooked Vegetables Dried Fish Dried Meat Dustwich Foodcube Foul Raw Meat Gohan Grand Fish Meatwrap Raw Meat Thinfish Rice Bowl",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/animal-feeder.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "62f40f90db8d937f561bd57216b7db05c43ae31df334c1a854eb244ff1545969"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation"
+      ]
+    },
+    {
+      "id": "armour-storage",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Armour Storage are containers that can be built inside player buildings (constructed or bought). They cannot be placed anywhere else, unlike some other forms of storage that can be constructed both inside and outside. They are used to store both Armour and Clothing. When placing Armour Storage, consider that characters can get stuck in parallel rows of armour chests if they are placed as close as the BUILD mode allows. Experiment with placing these rows of chests so that they are apart by at least a length of a single individual chest, removing the possibility to get stuck. Placing stolen items in the Armour Storage container will clear them of their “stolen” tag. Details Power Consumption - 0 Efficiency - 1x Storage - Armour, Clothing Storage Space - 22x18 History",
+      "organization": "Reviewed 2 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armour-storage.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "32d9753d76c514aad8b4036e14835ea4db25999315d27c5f262c2a5923b7fdbf"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "arrow-making-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Arrow Making Bench is a crafting station. It is used to make crossbow parts (including hinges and spring steel) and various bolts. This station uses and trains the Crossbow Smith skill of its worker. Crafting",
+      "organization": "Reviewed 1 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/arrow-making-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "76059540f050ad0f872b0cd02c8036a7ff4d71de742e8ac5cc7c76be20c27a4d"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "assassination-dummy",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Assassination Dummy is a training dummy for use in training Assassination stat. It is definitely suggested to use this dummy before attempting stealth KOs, as failure to knock out a character undetected can result in a bounty and potential jail time. Players can construct this building after researching Assassin Training. Dummy Upgrades",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/assassination-dummy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dce31b46c6501e06a49aac9da02c18f8329e947bb7fc9d6ba655ab80f870dba5"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "battery-bank",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Battery Bank is a building which allows players to store Power. It can be constructed after researching Batteries. After that, it can be upgraded by researching Battery Capacity and Battery Power.",
+      "organization": "Reviewed 0 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/battery-bank.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ab7bf9e974cd51dc059c8dc4065d27a0d6e2b942fd1fab3a3b12e4266e671a2b"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "bed",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Beds are used for restoring the health of characters. Beds help organic characters heal their stun and bandaged health faster. Beds can be found in towns or constructed in player buildings. Key Points Only one person can sleep in a bed at a time. If you are carrying an injured person or NPC, you can lay them in a bed to stop wounds from degenerating. Placing incapacitated NPCs in a bed may result in a relation gain with their faction. A bed heals the organic health of a unit at 8x the normal healing rate, twice as much as a Camp Bed. Sleeping reduces hunger rate to 1/3. Beds can be rented in friendly towns or outposts from as little as c.50. Beds are rented for 24 hours so a healed character can always leave the bed to give place to their wounded comrade as long as the clock has not run out. Typically, barracks and other private buildings have beds that are forbidden to sleep in. This can be bypassed if the player is “Allied” with the faction that owns the building.",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bed.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "03316434e4809707a9efab3513e5d602068f29cbc75fcebd6c4a2eaa4b42b050"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "biofuel-distillery-greenfruit",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Biofuel Distillery is a power building which converts Greenfruit into Fuel. Fuel is used in Generator II and Small Generators. It requires a worker to operate. Biofuel Distillery (Greenfruit) See also: BiofuelDistillery (Hemp) Biofuel Distillery (Wheatstraw)",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/biofuel-distillery-greenfruit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f095cc43960fa1b84ba1cc38a52b40abad4c6e8a427983cecb990ae1fb1d6b7d"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "biofuel-distillery-hemp",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Biofuel Distillery is a power building which converts Hemp into Fuel. Fuel is used in Generator II and Small Generators. It requires a worker to operate. Biofuel Distillery (Hemp) See also: BiofuelDistillery (Greenfruit) BiofuelDistillery (Wheatstraw)",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/biofuel-distillery-hemp.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a78e063a590379f5f6e685452c7d46a630110cb31aaab1b3634a468d30530a8b"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "biofuel-distillery-wheatstraw",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Biofuel Distillery is a power building which converts Wheatstraw into Fuel. Fuel is used in Generator II and Small Generators. It requires a worker to operate. Biofuel Distillery (Wheatstraw) See also: Biofuel Distillery (Greenfruit) BiofuelDistillery (Hemp)",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/biofuel-distillery-wheatstraw.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0b6763ad7f6856c78040fda96c508a466bbd16d46981e7d99273f9ab13a0e957"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "biofuel-distillery",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Biofuel Distillery is a type of power building which converts crops into Fuel. Fuel is used in Generator II and Small Generators. Requires researching Biofuel to build and comes in three forms: Biofuel Distillery (Greenfruit) Biofuel Distillery (Wheatstraw) Biofuel Distillery (Hemp) - Requires additional Hemp Oil Biofuel research Hemp Biofuel Distillery is twice as effective as Greenfruit or Wheatstraw. Distillery Cost",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/biofuel-distillery.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fa0797511487ca4e28fd838965271a9a12f2b3c1ee202273ee5be94b1dcbfbc3"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "boltbox",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Boltbox is a Storage container that can be built inside player constructed buildings. They are used to store any type of crossbow bolts and can only store those items. Details This container has a storage space of 10x5.",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/boltbox.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "10845680e4a1fe719f984ff750f4f24f74820a42680b04cb456f9965972b2813"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "bread-basket",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Bread Basket is a Storage container for storing up to 50 Bread items. The ability to build this building is unlocked after researching Baking. It can be used to automate the Hunger management of the units inside a player-owned outpost or building in town. This container has a storage space of 6x6 that exclusively stores bread. This structure is one of several storage containers that player characters can be assigned to auto-haul resources into. Similar to the Food Store, hungry player characters will automatically move to this storage and take the bread for consumption. Humorously enough, characters will sometimes still prioritize eating out of the basket over their current task - even if their hunger stat is more than fully satisfied. This can cause minor problems for players utilizing automation in their outposts and living spaces, especially if their squad is munching on food faster than they can stockpile it.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bread-basket.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2e10416e36d22a482ba14808699744a079306e61fa8e0eb125aaed03d8ee1d9a"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "bread-oven",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Bread Oven is used to cook Bread. Players can construct this building after researching Baking. The process is automatic, only requires hauling to/from and does not require any skill to use. Bread Oven",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bread-oven.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f021a31cc6e38c3676726ad6b763a851f46eccac16643c74d722625fd1ae4b27"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-environment-and-automation",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "bughouse",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Bughouse is one of the Medium sized buildings and can be constructed by player. Players can construct this building after researching Medium Building Shells. Buildings can be placed on the interior of the building as well as the roof. Bughouse Building Info Building Condition - 35 Door Condition - 16 Door Lock - lvl15",
+      "organization": "Reviewed 1 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bughouse.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "576d758cd2e1e570ad7bc561b11f43760777fc2aa81f188ae9d35ee33f89c03a"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "camp-bed",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Camp Bed is a building that can be placed (via the “Build Menu”) anywhere outside the borders of towns or even in player owned buildings in town. It is used in the same way as a normal bed. Once you’ve rested, it can be deconstructed to be used over and over again. Like other camping buildings, its “construction” does not create a player outpost. When slept in your recover organic health 4x faster and blood/oil twice as fast as normal. Camp Bed is essentially an unfolded Sleeping Bag (an item).",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/camp-bed.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9d95d12b09a47e6a420d194794dff120c8b1926595fccef1ca224e2097f68a11"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency"
+      ]
+    },
+    {
+      "id": "campfire",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Campfires are camping buildings which the player can construct anywhere. They require very few materials to construct (none actually used in game terms) and do not result in the creation of a player town. Campfires can be used to cook raw meat into dried meat from the very beginning of the game. Campfire",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/campfire.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "79127dde7b788def8839367602dd85adc72bbb590c5781c5b77bc84321630dfe"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "camping",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Camping Camping structures are temporary buildings that can be set up while out travelling. These buildings do not create a player town and therefore do not result in events being drawn to the player. All of the tents require blueprints to be built; the Campfire and Camp Bed do not. Loading screen tip: You can build a tent out of fabrics to protect yourself from acid rain out in the wilds",
+      "organization": "Reviewed 0 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/camping.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "88183ce1164be58d7b4f2fdbd3745fcf5640a243d2bdb6e575484f0524a6c02a"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "ceiling-fan-lamp",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Requires Indoor Lighting Tech to build.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ceiling-fan-lamp.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "aa6aa41593b537f63af742f14a2a9d9f7f31b4e6bd78d1f9e0c49466023c898e"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency"
+      ]
+    },
+    {
+      "id": "ceiling-lamp",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Requires Indoor Lighting Tech to build.",
+      "organization": "Reviewed 0 headings and 1 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ceiling-lamp.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a0c54401b7fa80a33e1b71e9f9629ddf13776c757735216d4335525db4c1a202"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency"
+      ]
+    },
+    {
+      "id": "chain-armour-crafting-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Chain Armour Crafting Bench is a crafting station. It is used to make chain-based armour using chainmail sheets - obtainable from the Chainmail Sheet Fabrication Bench - and fabrics. Using this station trains the Armour Smithing skill. Chain Armour Crafting Bench Power Workers - 1 Armour Produced Armoured Hood Blackened Chain Shirt Blackened Chain Hive Shirt Blackened Chainmail Bucket Zukin Chain Shirt Chainmail Hiver Chain Shirt Karuta Zukin Kusari Zukin Rusty Chain Shirt Rusty Chainmail Rusty Chainmail Tagelmust",
+      "organization": "Reviewed 2 headings and 21 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chain-armour-crafting-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2fd3db4710b44e4a84374bb62293d2b60040b97b2dfd1e47f44e248916f2fcd0"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "chainmail-sheet-fabrication-bench",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Chainmail Sheet Fabrication Bench is a crafting building type introduced in patch 0.50. This crafting station allows players to craft Chainmail Sheets by hand. These sheets can then be fashioned into armour at a Chain Armour Crafting Bench, training the Armour Smithing skill. Chainmail Sheet Fabrication Bench Power Power Consumption - 8 Efficiency - 100% Workers - 1",
+      "organization": "Reviewed 1 headings and 2 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chainmail-sheet-fabrication-bench.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "72a3f49282afc4fe27cfaa6d48f8319c814df6f3ef11f536c7a7a443e8700da5"
+      },
+      "questions": [
+        "claim:building-costs-and-efficiency",
+        "claim:building-recipes-and-capacity"
+      ]
+    },
+    {
+      "id": "cooking-pit",
+      "existence": "Permanent ID, address, source checksum, categories and one buildings/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Cooking Pit usually found in Cannibals camps, also with some of the Prisoner Pole beside it. The function of Cooking Pit is to cook the prisoner or the victim of cannibals, but it also functions as Corpse Furnace. Trivia When disposing a corpse using the Cooking Pit, there will be a floating “Cooking” line as opposed to showing “Incinerating” when using a typical Corpse Furnace.",
+      "organization": "Reviewed 1 headings and 3 source tables. Recognized property and recipe wrappers are normalized with content invariants; source ordering, qualifications and empty sections remain explicit.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cooking-pit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "03ba51b231bf09b4654c727052ac0225513d24319b96dbe867753522524467a2"
+      },
+      "questions": [
+        "claim:building-care-and-detention",
+        "claim:building-costs-and-efficiency"
+      ]
     }
   ],
   "editorialChanges": [

@@ -74,5 +74,44 @@
       "/storage-boxes-ore-tech",
       "/storage-boxes-tech"
     ]
+  },
+  {
+    "name": "building-siblings-1",
+    "resolved": [
+      "/animal-feeder",
+      "/armour-storage",
+      "/arrow-making-bench",
+      "/assassination-dummy",
+      "/battery-bank",
+      "/bed",
+      "/biofuel-distillery",
+      "/biofuel-distillery-greenfruit",
+      "/biofuel-distillery-hemp",
+      "/biofuel-distillery-wheatstraw",
+      "/boltbox",
+      "/bread-basket",
+      "/bread-oven",
+      "/bughouse",
+      "/camp-bed",
+      "/campfire",
+      "/camping",
+      "/ceiling-fan-lamp",
+      "/ceiling-lamp",
+      "/chain-armour-crafting-bench",
+      "/chainmail-sheet-fabrication-bench",
+      "/cooking-pit",
+      "/tents"
+    ],
+    "introduced": [
+      "/assassin-training-tech",
+      "/batteries-tech",
+      "/battery-capacity-tech",
+      "/battery-power-tech",
+      "/beds-tech",
+      "/category/pages-using-duplicate-arguments-in-template-calls",
+      "/chain-armour-crafting-tech",
+      "/hemp-oil-biofuel-tech",
+      "/indoor-lighting-tech"
+    ]
   }
 ]
