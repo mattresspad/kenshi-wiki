@@ -4204,6 +4204,17 @@
       }
     },
     {
+      "id": "availability:/desert-cooking-tech",
+      "kind": "availability",
+      "target": "/desert-cooking-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/desert-cooking-tech"
+      }
+    },
+    {
       "id": "availability:/desert-sabre",
       "kind": "availability",
       "target": "/desert-sabre",
@@ -4344,6 +4355,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/double-barrel-harpoon-turret"
+      }
+    },
+    {
+      "id": "availability:/double-barrel-harpoon-turret-tech",
+      "kind": "availability",
+      "target": "/double-barrel-harpoon-turret-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/double-barrel-harpoon-turret-tech"
+      }
+    },
+    {
+      "id": "availability:/double-barrel-turret-spotlight-fitting-tech",
+      "kind": "availability",
+      "target": "/double-barrel-turret-spotlight-fitting-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/double-barrel-turret-spotlight-fitting-tech"
       }
     },
     {
@@ -4542,6 +4575,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/drunken-bar-thug"
+      }
+    },
+    {
+      "id": "availability:/durable-arms-tech",
+      "kind": "availability",
+      "target": "/durable-arms-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/durable-arms-tech"
       }
     },
     {
@@ -4765,6 +4809,17 @@
       }
     },
     {
+      "id": "availability:/edgewalkers-tech",
+      "kind": "availability",
+      "target": "/edgewalkers-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/edgewalkers-tech"
+      }
+    },
+    {
       "id": "availability:/elder",
       "kind": "availability",
       "target": "/elder",
@@ -4820,6 +4875,17 @@
       }
     },
     {
+      "id": "availability:/electrical-crafting-tech",
+      "kind": "availability",
+      "target": "/electrical-crafting-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/electrical-crafting-tech"
+      }
+    },
+    {
       "id": "availability:/electrical-torch-post",
       "kind": "availability",
       "target": "/electrical-torch-post",
@@ -4839,6 +4905,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/electrical-workbench"
+      }
+    },
+    {
+      "id": "availability:/electrics-tech",
+      "kind": "availability",
+      "target": "/electrics-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/electrics-tech"
       }
     },
     {
@@ -5183,6 +5260,28 @@
       }
     },
     {
+      "id": "availability:/extra-durable-legs-tech",
+      "kind": "availability",
+      "target": "/extra-durable-legs-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/extra-durable-legs-tech"
+      }
+    },
+    {
+      "id": "availability:/extra-strong-arms-tech",
+      "kind": "availability",
+      "target": "/extra-strong-arms-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/extra-strong-arms-tech"
+      }
+    },
+    {
       "id": "availability:/eyegore",
       "kind": "availability",
       "target": "/eyegore",
@@ -5268,6 +5367,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fabric-looms"
+      }
+    },
+    {
+      "id": "availability:/fabric-manufacture-tech",
+      "kind": "availability",
+      "target": "/fabric-manufacture-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fabric-manufacture-tech"
       }
     },
     {
@@ -5389,6 +5499,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/farmer-recruit"
+      }
+    },
+    {
+      "id": "availability:/farming-tech",
+      "kind": "availability",
+      "target": "/farming-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/farming-tech"
       }
     },
     {
@@ -6019,6 +6140,28 @@
       }
     },
     {
+      "id": "availability:/fuel-generator-theory-tech",
+      "kind": "availability",
+      "target": "/fuel-generator-theory-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fuel-generator-theory-tech"
+      }
+    },
+    {
+      "id": "availability:/fully-automatic-ore-drill-tech",
+      "kind": "availability",
+      "target": "/fully-automatic-ore-drill-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fully-automatic-ore-drill-tech"
+      }
+    },
+    {
       "id": "availability:/garret",
       "kind": "availability",
       "target": "/garret",
@@ -6082,6 +6225,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/gatwood-the-soft"
+      }
+    },
+    {
+      "id": "availability:/gear-storage-tech",
+      "kind": "availability",
+      "target": "/gear-storage-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gear-storage-tech"
       }
     },
     {
@@ -6602,6 +6756,17 @@
       }
     },
     {
+      "id": "availability:/grog-distillation-tech",
+      "kind": "availability",
+      "target": "/grog-distillation-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/grog-distillation-tech"
+      }
+    },
+    {
       "id": "availability:/grog-machine",
       "kind": "availability",
       "target": "/grog-machine",
@@ -6921,6 +7086,28 @@
       }
     },
     {
+      "id": "availability:/harpoon-turret-spotlight-fitting-tech",
+      "kind": "availability",
+      "target": "/harpoon-turret-spotlight-fitting-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/harpoon-turret-spotlight-fitting-tech"
+      }
+    },
+    {
+      "id": "availability:/harpoon-turrets-tech",
+      "kind": "availability",
+      "target": "/harpoon-turrets-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/harpoon-turrets-tech"
+      }
+    },
+    {
       "id": "availability:/hashish",
       "kind": "availability",
       "target": "/hashish",
@@ -6929,6 +7116,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hashish"
+      }
+    },
+    {
+      "id": "availability:/hashish-production-tech",
+      "kind": "availability",
+      "target": "/hashish-production-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hashish-production-tech"
+      }
+    },
+    {
+      "id": "availability:/hats-and-headgear-tech",
+      "kind": "availability",
+      "target": "/hats-and-headgear-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hats-and-headgear-tech"
       }
     },
     {
@@ -6995,6 +7204,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/heavy-armour-smithy"
+      }
+    },
+    {
+      "id": "availability:/heavy-building-foundations-tech",
+      "kind": "availability",
+      "target": "/heavy-building-foundations-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/heavy-building-foundations-tech"
+      }
+    },
+    {
+      "id": "availability:/heavy-generator-theory-tech",
+      "kind": "availability",
+      "target": "/heavy-generator-theory-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/heavy-generator-theory-tech"
       }
     },
     {

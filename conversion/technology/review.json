@@ -753,6 +753,316 @@
         "claim:technology-import-version-time",
         "claim:technology-research-unlocks-blueprints"
       ]
+    },
+    {
+      "id": "desert-cooking-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Food that can be produced in desert environmentsIn-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/desert-cooking-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0e382151cbb16e7cf3b9ebf24c6e617fb608dc270748f0ef8a2f2e7df6d8e0cb"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "double-barrel-harpoon-turret-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Two shots instead of one, how great would that be?In-game description Double-Barrel Harpoon Turret is Defense Tech which unlocks the Double-Barrel Harpoon Turret. Players intending on using this turret in the dark should consider researching Double-Barrel Turret Spotlight Fitting. DBHTs can be upgraded to the lighted version.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/double-barrel-harpoon-turret-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4fdf32d339dccf1cd58d512130c1b29b5a0e281f05ba8fb7a69b71b04e8915be"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "double-barrel-turret-spotlight-fitting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A spotlight fitting for the double-barrel harpoon turrets.In-game description Double-Barrel Turret Spotlight Fitting is Defense Tech which allows players to construct Double-Barrel Harpoon Turrets with Lighting. Having proper lighting at night improves accuracy when using ranged weapons.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/double-barrel-turret-spotlight-fitting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7921bcbb7ac2b7f1d093a2e01a03d20f1d7b98d69569294d070bf1c1015a46fd"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "durable-arms-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Table-only source reviewed; values, labels, units and links retained.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/durable-arms-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ffcf896f3000976dc87d2673f0032780f419cc89f0accf76c673b66ea47d1b50"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "edgewalkers-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Table-only source reviewed; values, labels, units and links retained.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/edgewalkers-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ff9aae9d42cb2219de2f42959a72168120d40920c102adff1e18074f4a2a01fa"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "electrical-crafting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Here we could craft fundamental electrical components and parts.In-game description Electrical Crafting is Electrics Tech which allows players to craft and store Electrical Components at the Electrical Workbench.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/electrical-crafting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0498a500d57cb31939aac8aa9b8d0df4a8cffc54e14fd61c9a8e10a204b52761"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "electrics-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Wind generators can generate power out of nothing! Free energy!Wind Generator Theory description < Back to Technology. Tech Level 1 Fuel Generator Theory Wind Generator Theory Indoor Lighting Tech Level 2 Biofuel Basic Exterior Lighting Light Wind Generator Theory Light Post Tech Level 3 Batteries Battery Capacity 1 - 4 Battery Power 1 - 4 Electrical Crafting Heavy Generator Theory Hemp Oil Biofuel Light Post Efficiency Search Lights Skeleton Repair Beds Upgraded Small Generators 1 - 2 Tech Level 4 Advanced Wind Generator Theory Tech Level 5 Advanced Battery Capacity 1-6 Advanced Battery Power 1-6 Amplified Generators 1-2 Tech Level 6 None",
+      "organization": "Reviewed 6 headings and 0 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/electrics-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "df0743cdebd968a1d079cbe5cbdb67125e4c23bc30b9e7bbcbbe81826d0bd5d1"
+      },
+      "questions": []
+    },
+    {
+      "id": "extra-durable-legs-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Advanced high-tech legs like what the skeletons have.Research menu",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/extra-durable-legs-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bca86c6bdd4cc735e192d7ea875d7a57a0803d211f85f1f254a0e88df864159e"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "extra-strong-arms-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Table-only source reviewed; values, labels, units and links retained.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/extra-strong-arms-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "19fe90351ef54118ad48e0281b5f6288c85a84dd754e010bbd557db14f403cb7"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "fabric-manufacture-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: If we can make our own fabric it makes clothing and armour crafting more cost-effective.In-game description Fabric Manufacture is Crafting Tech which unlocks a Fabric Loom that converts Cotton into Fabrics. This technology is not required for Hemp-Based Fabric, which unlocks the Hemp version of this building. Players planning on making cotton-based fabrics should construct their base in a Green Environment, as there is no Hydroponics building for Cotton.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fabric-manufacture-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e41c30dfcc388ad6254634f2d431faf2efe133d6687d5a7090f441fbcc5449aa"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "farming-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Lord Okran, grant my crops protection!Holy Citizen, after spotting a Raptor eating crops < Back to Technology. Tech Level 1 Cooking Cotton Farming Riceweed Farming Cactus Farming Wheatstraw Farming Baking Tech Level 2 Sake Distillation Grog Distillation Hemp Farming Rum Brewing Desert Cooking Advanced Cooking Tech Level 3 Hashish Production Tech Level 4 Automatic Flour Grinding Tech Level 5 Hydroponics Hydroponic Hemp Hydroponic Riceweed Hydroponic Vegetables Hydroponic Wheatstraw Tech Level 6 None",
+      "organization": "Reviewed 6 headings and 0 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/farming-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "715a6c95cf87492c5adb5e580bd8328d5d76dc1ce1539d998d990b2f200c5905"
+      },
+      "questions": []
+    },
+    {
+      "id": "fuel-generator-theory-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: An electricity generator that runs on fuel.In-game description Fuel Generator Theory is Electrics Tech which unlocks the ability to construct Small Generators. Generators consume Fuel to create Power.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fuel-generator-theory-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "242b3b2355b6e7b7678f47c989003fe2860776bf07aee1bc2466392bb9f098a4"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "fully-automatic-ore-drill-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Table-only source reviewed; values, labels, units and links retained.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fully-automatic-ore-drill-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5879cfbc4d60038ee62555d74a8fa0034d7338dcaa7afcd910fc1194311a631f"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "gear-storage-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Storage for various types of weapons and armourIn-game description Gear Storage is Core Tech which unlocks various weapon and armour Storage containers. This is free research which can be completed quickly early-game. Players who plan on doing Armour, Crossbow, and/or Weapon Smithing should complete this research.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/gear-storage-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "097a55205d9d4283f03555cca8dd0d3812234dab69a421ed452081ee046233d5"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "grog-distillation-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A very common alchoholic drink, it would be a good source of income if we could produce it.In-game Description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/grog-distillation-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c0dbeeb985a9501cec89365990936bbda41715a537232f6837162609eb81a000"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "harpoon-turret-spotlight-fitting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: An option to fit a spotlight to turrets for aiding against night attacks.In-game description",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/harpoon-turret-spotlight-fitting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "509033c999ef1fd133fd6d4b25dc8170921ba6c614de765e3611fb55ea6c4aed"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "harpoon-turrets-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Harpoon Turrets mkII Details Estimated Time 4 Hours Tech Level 4 Costs 2 Ancient Science Books Requirements Prototype Harpoon Turrets Results New Building(s) Harpoon Turret MkII Required For Advanced Harpoonery, Harpoon Turret Spotlight Fitting A new weapon technology that should be more powerful and accurate than crossbow technology can achieve.In-game description Harpoon Turrets is Defense Tech which allows players to construct basic turrets. There are many related research options which improve accuracy and speed. Turrets are not reliant on power or ammunition, so players can build them entirely standalone. Players may find them to be useful weapons against to use against large enemies like Leviathans or to fend off base raids. This is especially true when paired with other defenses, such as walls and gates. Turrets can be built mounted on walls and the roofs of many building types.",
+      "organization": "Reviewed 9 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/harpoon-turrets-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6ce13fba9237639adf3d61bb164166f058c1a324b8ab133b2031dd05c7acb4de"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints",
+        "claim:technology-turret-power"
+      ]
+    },
+    {
+      "id": "hashish-production-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The production of hashish is dangerous, but potentially the most profitable.In-game Description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hashish-production-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "921d6be258bad3cb58f2cbad506134a2b87c3ebf0a009ae29955e365568da9f8"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "hats-and-headgear-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A whole load of hats that could be crafted.In-game Description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hats-and-headgear-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "691c58821cf041a1a5d28eea21f986c6f2efb9bf8686f0d9eaf849f01991bd31"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "heavy-building-foundations-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This would solve a fundamental engineering problem and enable us to build larger, sturdier structures.In-game description Heavy Building Foundations is Core Tech which can be researched at Tech Level 3 on a Research Bench. This technology doesn’t unlock anything but does pave the way to more research into Buildings. This research is a must-have for players planning on constructing an unbeatable Outpost.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heavy-building-foundations-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "78b2501339c61b07f9354a0d9154d5eb950cc2e54af0f3301993d9c681081db7"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "heavy-generator-theory-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: An improved fuel generator. Larger and more powerful.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heavy-generator-theory-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c817539a08527faf60d3912fab9758ab6c4454de935bcda923d1e611e52749b0"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
     }
   ],
   "editorialChanges": [
