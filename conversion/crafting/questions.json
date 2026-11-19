@@ -1,0 +1,32 @@
+[
+  [
+    "construction-legacy-workflow",
+    [
+      "construction"
+    ],
+    "0\\.24|0\\.26|0\\.47|unknown|blueprint",
+    "Construction combines several historic patches and an unknown version with present-tense placement, blueprint and repair instructions.",
+    "Test a current unmodded construction/repair workflow and retain the historical statements separately.",
+    "Patch-specific statements do not establish current mechanics."
+  ],
+  [
+    "crafting-station-blueprint-skills",
+    [
+      "crafting"
+    ],
+    "blueprint|quality|Smithing|Science|Robotics|outdated",
+    "The incomplete Crafting overview mixes station unlocks, blueprints and skill/quality rules.",
+    "Check each workflow against the named station and recipe; record game version, skill and blueprint state.",
+    "Research unlocks alone do not establish craftability or maximum quality."
+  ],
+  [
+    "crafting-raw-iron-furnace",
+    [
+      "crafting"
+    ],
+    "Raw Iron|furnace",
+    "Crafting describes smelting weapons into Raw Iron; verify the product against the furnace article and game.",
+    "Compare the original wording, Item Furnace output and versioned game behavior before correcting it.",
+    "Material identity may reflect an outdated instruction."
+  ]
+]

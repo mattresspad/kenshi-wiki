@@ -270,13 +270,13 @@
 
 /* Keep item text and its first sections beside long facts panels. */
 @media(min-width:761px){
- :is(.item,.building).with-facts > article{display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);gap:0 18px;align-items:start}
- :is(.item,.building).with-facts .opening{display:contents}
- :is(.item,.building).with-facts .article-head{grid-column:1;grid-row:1}
- :is(.item,.building).with-facts .opening-copy{grid-column:1;grid-row:2}
- :is(.item,.building).with-facts :is(.factbox,.building-facts,.building-facts-stack){grid-column:2;grid-row:1 / 4}
- :is(.item,.building).with-facts .article-body{grid-column:1;grid-row:3;min-width:0}
- :is(.item,.building).with-facts > article > :not(.opening):not(.article-body){grid-column:1 / -1}
+ :is(.item,.building,.technology).with-facts > article{display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);gap:0 18px;align-items:start}
+ :is(.item,.building,.technology).with-facts .opening{display:contents}
+ :is(.item,.building,.technology).with-facts .article-head{grid-column:1;grid-row:1}
+ :is(.item,.building,.technology).with-facts .opening-copy{grid-column:1;grid-row:2}
+ :is(.item,.building,.technology).with-facts :is(.factbox,.building-facts,.building-facts-stack){grid-column:2;grid-row:1 / 4}
+ :is(.item,.building,.technology).with-facts .article-body{grid-column:1;grid-row:3;min-width:0}
+ :is(.item,.building,.technology).with-facts > article > :not(.opening):not(.article-body){grid-column:1 / -1}
 }
 
 /* Building summaries retain their source data; their wrappers are independently authored. */
@@ -297,3 +297,14 @@
 
 .building-facts-stack {min-width:0}
 .building-facts-stack .factbox {margin:0 0 12px}
+
+/* Research retains source order and separate unlock lists. */
+.factbox dd ul{padding-left:1.2em;margin:4px 0}
+.technology .historical-notice table{width:100%;min-width:0;max-width:100%;margin:0}
+.technology .historical-notice{max-width:80ch}
+.technology .article-body>h3{font-size:1rem;margin-block:14px 4px}
+.technology .article-body>h3+p{margin-top:4px}
+.technology .research-properties{min-width:0;width:100%;max-width:48rem}
+.technology .research-properties th[scope=row]{text-align:left;width:11rem}
+.technology .research-properties .research-band{background:var(--cell);font-weight:650}
+.crafting .article-body,.crafting .lead-text{max-width:90ch}

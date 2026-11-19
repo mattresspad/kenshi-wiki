@@ -8,6 +8,9 @@ export async function captureBatch(base, batch, output, family='geography') {
   const {roster}=families[family];
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
   const extra={
+    'crafting-construction':batch.ids,
+    'technology-pilots':batch.ids,
+    'technology-structures':batch.ids,
     'building-pilots':batch.ids,
     'building-siblings-2':['cooking-stove','defensive-gates','defensive-walls'],
     'building-variants':batch.ids,
@@ -46,6 +49,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   if(family==='characters' && batch.name===roster.batches.at(-1).name)samples.push('category/characters','unique-recruits#named-recruits','samurai#statistics','beep#statistics','armour-king#equipment','emperor-tengu#world-states','skeleton-bandit');
   if(family==='items' && batch.name===roster.batches.at(-1).name)samples.push('category/items','katana','samurai-armour','economy-arm-left','robot-limbs','light-armour','map-of-the-united-cities-extended-territories','weapons/damage','weapons/modifiers','fabrics#used-in','robotics-components#used-in');
   if(family==='buildings' && batch.name===roster.batches.at(-1).name)samples.push('category/buildings','small-shack','stone-processor','weapon-smithing-bench','wind-generator','medical-workbench','cactus-farm','oil-drill','storage','clothing-bench');
+  if(family==='technology'&&batch.name===roster.batches.at(-1).name)samples.push('category/technology','technology','tech-tree','tech-level-tech','crafting-tech','basic-weapon-smithing-tech','hiver-skeleton-arms-tech','advanced-battery-capacity-tech#advanced-battery-capacity-6');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {

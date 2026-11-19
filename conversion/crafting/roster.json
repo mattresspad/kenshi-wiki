@@ -1,0 +1,27 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "baseRevision": "372b9d3",
+  "home": "gameplay/guides",
+  "categories": [],
+  "members": [
+    "crafting",
+    "construction"
+  ],
+  "existing": [],
+  "deferred": [],
+  "batches": [
+    {
+      "name": "crafting-construction",
+      "ids": [
+        "crafting",
+        "construction"
+      ]
+    }
+  ],
+  "expected": {
+    "headings": 21,
+    "citationTargets": 0,
+    "assets": 0,
+    "redirects": 1
+  }
+}

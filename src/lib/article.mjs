@@ -1,4 +1,5 @@
 import {normalizeBuildingTables,takeLeadingBuildingPanel} from './building-tables.mjs';
+import {normalizeResearchTables} from './research-tables.mjs';
 import {load} from 'cheerio';
 import {normalizeItemTables} from './item-tables.mjs';
 import {normalizeCharacterTables} from './character-tables.mjs';
@@ -17,12 +18,13 @@ export function prepareArticle(html, data, href) {
   }
   let buildingPanel='';
   if(data.layout==='building'){normalizeBuildingTables($);buildingPanel=takeLeadingBuildingPanel($);}
+  if (data.layout === 'technology') normalizeResearchTables($);
   if (data.layout === 'faction') normalizeFactionTables($);
   if (data.layout === 'race') normalizeRaceTables($);
   if (data.layout === 'animal') normalizeAnimalTables($);
   if (data.layout === 'item') normalizeItemTables($);
   if (data.layout === 'character') normalizeCharacterTables($);
-  const imported = ['geography','faction','race','animal','character','item','building'].includes(data.layout);
+  const imported = ['geography','faction','race','animal','character','item','building','crafting','technology'].includes(data.layout);
   const outline = [];
   const parents = [];
   for (const heading of $('h2,h3,h4,h5,h6').toArray()) {
@@ -65,7 +67,7 @@ export function prepareArticle(html, data, href) {
         el.replaceWith(notice);
         continue;
       }
-      if(data.layout==='animal' && el.find('tr').length===1 && el.find('td').length===1 && el.text().trim().startsWith('This article has been updated')){
+      if(['animal','technology'].includes(data.layout) && el.find('tr').length===1 && el.find('td').length===1 && el.text().trim().startsWith('This article has been updated')){
         el.attr("role","presentation").wrap('<aside class="historical-notice" role="note"></aside>');continue;
       }
       if(data.layout==='animal' && el.hasClass('animal-note')){el.wrap('<aside class="animal-care-note" role="note"></aside>');continue;}

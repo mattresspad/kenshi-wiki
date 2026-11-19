@@ -1,0 +1,47 @@
+[
+  [
+    "technology-import-version-time",
+    null,
+    "Estimated Time|1\\.0\\.68|1\\.0\\.40",
+    "Research durations and version notices are imported; their speed/skill assumptions have not been independently established.",
+    "Record baseline Science, researcher count, bench and game/mod version when checking durations and effects.",
+    "Imported estimated hours are not a guaranteed elapsed time."
+  ],
+  [
+    "technology-tree-missing-diagram",
+    [
+      "tech-tree"
+    ],
+    "Skelliboi|FrankieWuzTaken|lines|material|counted",
+    "Tech tree describes a credited diagram and line conventions, but the pinned Markdown and rendered article contain no diagram. Its author also qualifies the totals.",
+    "Inspect the credited Fandom revision and original diagram, including permission and full media provenance; validate totals separately.",
+    "The text-only import is incomplete; no diagram or verified prerequisite graph has been reconstructed."
+  ],
+  [
+    "technology-robotics-duration-conflict",
+    [
+      "crafting-tech",
+      "robotics-tech"
+    ],
+    "8 hours|5 Hours|Estimated Time",
+    "Crafting Tech lists Robotics at 8 hours; the individual Robotics research panel lists 5 Hours.",
+    "Compare both pinned source revisions and a versioned research-duration test.",
+    "Preserve both imported values; no unsupported choice between them."
+  ],
+  [
+    "technology-research-unlocks-blueprints",
+    null,
+    "Blueprint|blueprint|Required For|Requirements|Prerequisites",
+    "Research prerequisites and unlocks do not alone prove blueprint availability, station recipes or crafting restrictions.",
+    "Validate individual edges and unlocks against versioned source records and recipe/blueprint requirements.",
+    "Forward and backward lists may omit conditions; do not infer missing edges."
+  ],
+  [
+    "technology-tier-order",
+    null,
+    "Advanced Battery Capacity|Power capacity|Efficiency|tech level|Tech Level",
+    "Repeated research levels contain imported costs, times and effect wording whose incremental versus cumulative meanings remain unverified.",
+    "Check exact level records and transformations before combining values; keep each imported level separately addressable.",
+    "Source order and numerical signs are preserved without interpreting cumulative effects."
+  ]
+]

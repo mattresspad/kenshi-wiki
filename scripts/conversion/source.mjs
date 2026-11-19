@@ -43,6 +43,12 @@ export function factParts(value) {
   function visit(node, strike = false) {
     if (node.type === 'text') { parts.push(strike ? {strike:true,text:node.data} : node.data); return; }
     if (node.name === 'a') { parts.push(strike ? {strike:true,text:$(node).text(),href:$(node).attr('href')} : [$(node).text(),$(node).attr('href')]); return; }
+    if (node.name === 'ul') {
+      assert.ok($(node).children().toArray().every(n=>n.name==='li'),'Unexpected fact list child');
+      const list=$(node).children('li').toArray().map(li=>factParts($(li).html()));
+      assert.ok(list.every(items=>items.every(p=>!p?.list)),'Nested fact lists require explicit support');
+      parts.push({list}); return;
+    }
     if (node.name === 'br') { lineBreak(); return; }
     assert.ok(['p','span','s'].includes(node.name),'Unexpected fact markup '+node.name);
     if (node.name === 'p') lineBreak();

@@ -1,0 +1,4 @@
+---
+const {parts,href}=Astro.props;
+---
+{parts.map(part => Array.isArray(part) ? <a href={href(part[1])}>{part[0]}</a> : typeof part === 'string' ? part : part.list ? <ul>{part.list.map(items=><li><Astro.self parts={items} {href}/></li>)}</ul> : part.strike ? <s>{part.href ? <a href={href(part.href)}>{part.text}</a> : part.text}</s> : <br/>)}

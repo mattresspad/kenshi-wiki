@@ -17,6 +17,10 @@ import itemRoster from '../../conversion/items/roster.json' with {type:'json'};
 import itemCheckpoint from '../../conversion/items/checkpoint.json' with {type:'json'};
 import buildingRoster from '../../conversion/buildings/roster.json' with {type:'json'};
 import buildingCheckpoint from '../../conversion/buildings/checkpoint.json' with {type:'json'};
+import craftingRoster from '../../conversion/crafting/roster.json' with {type:'json'};
+import craftingCheckpoint from '../../conversion/crafting/checkpoint.json' with {type:'json'};
+import technologyRoster from '../../conversion/technology/roster.json' with {type:'json'};
+import technologyCheckpoint from '../../conversion/technology/checkpoint.json' with {type:'json'};
 export const families = {
   geography: {roster:geographyRoster, checkpoint:geographyCheckpoint},
   factions: {roster:factionRoster, checkpoint:factionCheckpoint},
@@ -24,7 +28,9 @@ export const families = {
   animals: {roster:animalRoster, checkpoint:animalCheckpoint},
   characters: {roster:characterRoster, checkpoint:characterCheckpoint},
   items: {roster:itemRoster, checkpoint:itemCheckpoint},
-  buildings:{roster:buildingRoster,checkpoint:buildingCheckpoint}
+  buildings:{roster:buildingRoster,checkpoint:buildingCheckpoint},
+  crafting:{roster:craftingRoster,checkpoint:craftingCheckpoint},
+  technology:{roster:technologyRoster,checkpoint:technologyCheckpoint}
 };
 export function selectedIds(family) {
   const {roster, checkpoint} = families[family];
