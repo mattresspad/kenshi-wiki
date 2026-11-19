@@ -1,0 +1,16 @@
+---
+articleId: storage-building-materials
+title: "Storage: Building Materials"
+description: "The Storage: Building Materials is a storage container which exclusively contains Building Materials."
+categories:
+  - Storage
+  - Buildings
+layout: building
+---
+
+<table class="wikitable imported-property-table"><caption>Storage: Building Materials</caption><tbody><tr><td>Type:</td><td>Interior/Exterior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/iron-plates">Iron Plates</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr><tr><td>Prerequisite Research:</td><td><a href="/storage-boxes-tech">Storage Boxes</a></td></tr></tbody><tfoot><tr><td colspan="2">A handy storage point for Building Materials<br></td></tr></tfoot></table>
+
+
+The **Storage: Building Materials** is a [storage](/storage) container which exclusively contains [Building Materials](/building-materials).
+
+This container can hold a total of 100 items.
