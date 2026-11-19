@@ -29,3 +29,11 @@ All previews remain local. Public restoration, licensing, branch replacement, pr
 The first pilot browser attempt exposed a test selector that assumed Steel Bars research was already local. The test now recognizes both its pending absolute URL and subsequent local URL; failed-attempt logs are retained beside the passing rerun. No source link was changed to satisfy the test.
 
 The first larger research batch encountered Chromium ERR_NETWORK_CHANGED on a loopback building navigation (139 other browser checks passed). Its failed log is retained and the full suite is rerun without weakening that test. Screenshot review also prompted scoped inline quote-credit links and wrapping two-column research properties.
+
+## Completed local handoff
+
+All nine acceptances (one Crafting/Construction, eight Technology) passed. The final run passed 35 catalog checks and 140 browser checks, with the two existing conditional phone skips, plus the production build and Cloudflare package dry run. The preview now serves 1,713 articles and 1,736 HTML pages. All 136 new articles have individual editorial review records.
+
+Preservation covers 657 heading bookmarks and 69 redirects. The eight Robot Limbs research deferrals are restored. Sixteen new investigation findings remain explicit; 137 availability findings resolved without verifying their gameplay claims. There are 574 temporary destinations remaining across the preview. The curated register and resolution history survived both regeneration runs unchanged.
+
+The local gallery at http://127.0.0.1:4393/technology/ contains 96 desktop/phone captures, both palettes, acceptance logs, individual reviews, exceptions and the next roster. The wiki preview remains http://127.0.0.1:4392/. See handoff.json for exact counts and milestones. Gallery smoke checks verified 181 report destinations, both viewport widths and the technology/diagram gap filter.

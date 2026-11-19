@@ -1,0 +1,58 @@
+{
+  "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "baseRevision": "372b9d3",
+  "validatedContentRevision": "ebe80a8",
+  "scope": "Local review only",
+  "uniqueArticlesAdded": 136,
+  "localArticles": 1713,
+  "localHtmlPages": 1736,
+  "headingsPreserved": 657,
+  "citationTargets": 0,
+  "redirectsActivated": 69,
+  "deferredRobotLimbsRestored": [
+    "durable-arms-tech",
+    "extra-durable-legs-tech",
+    "extra-strong-arms-tech",
+    "hiver-skeleton-arms-tech",
+    "hiver-skeleton-legs-tech",
+    "skeleton-arms-tech",
+    "skeleton-legs-tech",
+    "stealth-legs-tech"
+  ],
+  "acceptances": 9,
+  "finalTests": {
+    "catalog": 35,
+    "browserPassed": 140,
+    "existingConditionalSkips": 2,
+    "productionBuild": "passed",
+    "cloudflarePackageDryRun": "passed"
+  },
+  "editorialReview": {
+    "added": 136,
+    "total": 1245,
+    "earlierLocalOutstanding": 468,
+    "untransferred": 471
+  },
+  "gapChanges": {
+    "opened": 16,
+    "availabilityResolutions": 137,
+    "introducedRegressions": 0
+  },
+  "temporaryDestinations": {
+    "resolved": 129,
+    "introduced": 4,
+    "remaining": 574
+  },
+  "screenshots": 96,
+  "followingRoster": {
+    "pending": 125,
+    "reused": 27,
+    "file": "conversion/following-shops.json"
+  },
+  "preview": "http://127.0.0.1:4392/",
+  "gallery": "http://127.0.0.1:4393/technology/",
+  "gapReport": "http://127.0.0.1:4393/gaps/",
+  "routeLedger": "http://127.0.0.1:4393/route-report.md",
+  "repeatability": "Both normalizations preserved curated fields and accepted resolution history; second output unchanged.",
+  "milestones": "Public restoration, licensing, branch replacement, production cutover and technical-data work remain separate."
+}
