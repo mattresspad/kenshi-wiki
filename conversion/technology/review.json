@@ -440,6 +440,319 @@
         "claim:technology-import-version-time",
         "claim:technology-research-unlocks-blueprints"
       ]
+    },
+    {
+      "id": "batteries-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Batteries can store excess power and keep things running during emergencies. They are especially important if you rely on wind power.In-game quote Batteries is Electrics Tech which unlocks the ability to construct Battery Banks. There are many research paths to upgrade these buildings after. Batteries are not built fully charged and need a power source as input.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/batteries-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0aae64e515ab020b0bdcf216e57c4ec1d2378ed06eafd44e724ae8544b617ed7"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "battery-capacity-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Battery Capacity 2 Details Estimated Time 5 Hours Tech Level 3 Costs 4 Books Requirements Battery Capacity Results Improvements +60 Power Capacity to Battery Bank Required For Battery Capacity 3 Battery Capacity 3 Details Estimated Time 7 Hours Tech Level 3 Costs 5 Books Requirements Battery Capacity 2 Results Improvements +60 Power Capacity to Battery Bank Required For Battery Capacity 4 Battery Capacity 4 Details Estimated Time 10 Hours Tech Level 3 Costs 6 Books Requirements Battery Capacity 3 Results Improvements +60 Power Capacity to Battery Bank Each advancement in this study can increase battery capacity by 60In-game quote",
+      "organization": "Reviewed 26 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/battery-capacity-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e97741c4c1df9ef50eeb2e6f1ab607b890bc3834958fc92e1e3d0600e5d89cc5"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints",
+        "claim:technology-tier-order"
+      ]
+    },
+    {
+      "id": "battery-power-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Battery Power 2 Details Estimated Time 5 Hours Tech Level 3 Costs 3 Books Requirements Batteries, Battery Power Results Improvements +10 Power to Battery Bank Required For Battery Power 3 Battery Power 3 Details Estimated Time 9 Hours Tech Level 3 Costs 4 Books Requirements Batteries, Battery Power 2 Results Improvements +10 Power to Battery Bank Required For Battery Power 4 Battery Power 4 Details Estimated Time 17 Hours Tech Level 3 Costs 8 Books Requirements Batteries, Battery Power 3 Results Improvements +10 Power to Battery Bank A potential 10kw increase to battery output powerIn-game description Battery Power is Electrics Tech which allows the player to upgrade their Battery Bank buildings. This research does not require the buildings to be rebuilt and will be implemented instantaneously. This research is good for players who have large bases or simply want to use more power without more generators.",
+      "organization": "Reviewed 26 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/battery-power-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "945295df45b4b1da618753f0ee4ea09956630893a422cd3b67996997e0f910e6"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints",
+        "claim:technology-tier-order"
+      ]
+    },
+    {
+      "id": "beds-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Somewhere to rest and heal faster.In-game description Beds is a Level II Core Tech which allows the player to construct Beds. This research is a must-have for all players, as even Skeleton characters can benefit from beds. Having player-owned beds can save a small number of Cats if built in town and can be the difference between life and death for players who have built a secluded outpost.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/beds-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b9302e1fd2306eeb321ab2023cd2f42f0c97c9baf32989e5901c428c83876797"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "better-training-dummies-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A better training dummy would let rookies train their attack skills up to about level 10.In-game description Better Training Dummies is Training Tech which allows the player to build upgraded Training Dummy buildings.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/better-training-dummies-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1bdc307d96a78ef033e65a84a539c6961ffa5b871bb40e3d02dddff2f8a5cfac"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "biofuel-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: An ancient way of turning crops into generator fuel. Choose between electricity or starvation!In-game description Biofuel is Electrics Tech which unlocks the ability to construct two types of Biofuel Distilleries. Research into the third type of distillery is available after completion of this research. In areas where Power cannot be adequately generated from the wind, Generators are necessary. Since large quantities of Fuel are generally not available in shops, players should research the generation of biofuel.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/biofuel-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "02a8b4ee314ea0dac626f91c699f6b85368e966c2aa2bc905e2a8523483235ba"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "cactus-farming-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A crop suitable for dry environments.In-game description Cactus Farming is Farming Tech which allows you to build a cactus farm. This research is very useful for players building outposts in dry environments. The cacti can be used as ingredients for Dustwiches or Chewsticks. With Rum Brewing researched players can also make Cactus Rum and sell it for a good profit.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cactus-farming-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8a6d1080961bee2cfa7d4c34509e46d3bed865c05e9f802146cd401ed9ec05f8"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "chain-armour-crafting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Chainmail eh? That's going to be bloody fiddly isn't it?In-game description Chain Armour Crafting is Smithing Tech which unlocks the ability to create Chainmail Sheets and construct a Chain Armour Crafting Bench. All Armour made from chainmail requires additional Blueprints to craft. Players should ensure that their outpost has a good source of Steel Bars and Fabrics, both of which are required for creating Chain Armour. Making Chainmail Sheets is a good way to train a character’s Armour Smith stat.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chain-armour-crafting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1b7257913cf9035090d305708436a423f9add3a6c9a7ab8fa196fd8788a6e820"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "clothing-manufacture-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: With this we could craft clothes and stuff. For wearing\"In-game description Clothing Manufacture is Smithing Tech which allows the player to construct a Clothing Bench and allows the crafting of a few items with that bench.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/clothing-manufacture-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bd5f081a87e542acfca51097412d124643b5b4438d5758211670e768a0bfec55"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "composite-runners-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Using a lower friction material for the slide of a crossbow could increase the power by another 5%In-game description Bugs This research is currently bugged and will not add an additional 5% damage to Mounted Crossbows or Mounted Crossbow MkII if done after Crossbow Turret Strings (Tech). If done prior to the 10% research, it will be overwritten by it later. If not after the Crossbow Turret Strings research, it will override the 10% bonus with the 5% one until you save/load the game at which point the Crossbow Turret Strings (Tech) multiplier of 1.1x will be used again making this research useless. Attempts at modding this research to give 1.15x instead of 1.05x will result in the same overwrite of 1.1x after reloading. References",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/composite-runners-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0f61162bc120243450182800e1ca905b78389a796a34ec9cfd238c482a1a424e"
+      },
+      "questions": [
+        "claim:technology-composite-runners-reload",
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "cooking-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This tech is the introduction of tech for cooking.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cooking-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c7dcbc653dd032975019ff9016fddae850a93456da0e4a029eee2be3d392e86e"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "copper-alloys-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Copper Alloy Plates are required for more high-tech engineering projects.In-game description This research, available with a level 4 research bench, allows the player to craft Copper Alloy Plates and storage for them, that are used in a variety of high end-game buildings and defenses.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/copper-alloys-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dea5f7b91d0ff68972780ea5f9db5d292da33eecec65000034f6df31a5af1ced"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "core-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Because knowledge is a valuable thing in this world. Someone has to try and protect it and spread it around.Bookshop Trader Tech Level 1 Gear Storage Item Storage Public Sales Small House Tech Level 2 Tech Level 2 Beds Medium Building Shells Tech Level 3 Tech Level 3 Heavy Building Foundations Large Building Shells Outpost Type III Tech Level 4 Tech Level 4 Copper Alloys Outpost Type IV Tech Level 5 Tech Level 5 Tech Level 6 Tech Level 6 None",
+      "organization": "Reviewed 6 headings and 0 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/core-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4fdb059785a43dee430f3a267178edf2c34e20e7254b98d590369ea4ba2d84ff"
+      },
+      "questions": []
+    },
+    {
+      "id": "corpse-disposal-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Corpses make a mess and attract scavengers and predators and all kinds of trouble. Incineration would be the most effective solution.In-game description Corpse Disposal is Defense Tech which unlocks the ability to construct a Corpse Furnace. Certain fauna, such as river raptors, consume corpses. If players do not wish to attract these animals, they should use a corpse furnace to incinerate dead bodies collected near their outpost.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/corpse-disposal-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f38e68a8fe5c34832bd8f6684d50ffb649a67d2d718fc5de91be662f851ebb40"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "cotton-farming-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: If we can farm cotton we can use it to manufacture fabrics.In-game description Cotton Farming is Farming Tech which allows the player to construct Cotton farms. This technology is good for players who have an outpost in a Zone which has a Green Environment. Cotton is a legal alternative to Hemp, and is used in the creation of Fabrics.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cotton-farming-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3daf5c1d771b691083649aadc09e86b58619ba5fe54efd2fef5b646094d00b4c"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "crossbow-bolts-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A bench that would enable us to craft ammunition for crossbowsIn-game Description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crossbow-bolts-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "372c7290e1fb4e2425bcd240d36af5ad37371a51b596c8d1c8b0842c34189373"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "crossbow-crafting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A bench where we could craft our own crossbowsIn-game Description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crossbow-crafting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "20eed3fd84826cefcfe2af9c095cb750a0b2bffcb72a82e75f2129a20e4e391b"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "crossbow-turret-spotlight-fitting-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A spotlight that can be fitted to the mounted crossbow to help against night attacks.In-game description Crossbow Turret Spotlight Fitting is Defense Tech which allows the player to construct Turrets with Lighting. This research is helpful to players who rely on Turrets for base defence, as working in the dark can negatively affect ranged combat stats.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crossbow-turret-spotlight-fitting-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f2bb0aa004a7b3e72f19dfbdb502807a4bc3d7d8df0d3893c61f233a387185c2"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "crossbow-turret-strings-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A fancier crossbow string technology that could increase the power of all mounted crossbows by 10%.In-game description",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crossbow-turret-strings-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "627d75072876236f0af7921fa725d9c409677a1fe970e84c82d7d6d3e175994f"
+      },
+      "questions": [
+        "claim:technology-composite-runners-reload",
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
+    },
+    {
+      "id": "defense-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Oh the sound of a harpoon slicing through skull, right on target. It's been too long...Headshot, after being hired < Back to Technology. Tech Level 1 Makeshift Walls Tech Level 2 Mounted Crossbows Corpse Disposal Crossbow Turret Strings Defensive Walls Tech Level 3 Composite Runners Crossbow Turret Spotlight Fitting Imprisonment Mounted Crossbows II Prototype Harpoon Turrets Tech Level 4 Advanced Harpoonery Double-Barrel Harpoon Turret Double-Barrel Turret Spotlight Fitting Harpoon Turret Spotlight Fitting Harpoon Turrets mkII Tech Level 5 Large Defensive Walls Revolving-Barrel Harpoon Turret Tech Level 6 Strong Defensive Walls",
+      "organization": "Reviewed 6 headings and 0 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/defense-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "04af2d008e6d5bf3281399314cbd6ebcb50c257cf642d731d06e814f81874fa4"
+      },
+      "questions": []
+    },
+    {
+      "id": "defensive-walls-tech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Solid walls that we can actually stand and build turrets on.In-game description Defensive Walls is Defense Tech which unlocks the ability to construct better walls, gates, and ramps. These walls are able to have turrets mounted on them.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; research versions, costs and unlocks are distinct from crafting/blueprint availability. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/defensive-walls-tech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cb956aef1edecd09ba538e7c869aa864920bbce76158ec0ca183beb67ce7a026"
+      },
+      "questions": [
+        "claim:technology-import-version-time",
+        "claim:technology-research-unlocks-blueprints"
+      ]
     }
   ],
   "editorialChanges": [
@@ -462,6 +775,11 @@
       "id": "tech-tree-missing-diagram",
       "change": "Add a reader-visible note identifying the absent imported diagram while retaining the authors and qualified totals.",
       "evidence": "src/content/articles/gameplay/technology/tech-tree.md"
+    },
+    {
+      "id": "research-phone-wrapping",
+      "change": "Keep linked quote credits inline and wrap narrow research-property panels on phones; retain all cells and source order.",
+      "evidence": "src/styles/articles.css"
     }
   ]
 }

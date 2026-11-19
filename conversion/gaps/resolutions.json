@@ -1256,6 +1256,17 @@
       }
     },
     {
+      "id": "availability:/batteries-tech",
+      "kind": "availability",
+      "target": "/batteries-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/batteries-tech"
+      }
+    },
+    {
       "id": "availability:/battery-bank",
       "kind": "availability",
       "target": "/battery-bank",
@@ -1264,6 +1275,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/battery-bank"
+      }
+    },
+    {
+      "id": "availability:/battery-capacity-tech",
+      "kind": "availability",
+      "target": "/battery-capacity-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/battery-capacity-tech"
+      }
+    },
+    {
+      "id": "availability:/battery-power-tech",
+      "kind": "availability",
+      "target": "/battery-power-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/battery-power-tech"
       }
     },
     {
@@ -1308,6 +1341,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/bed"
+      }
+    },
+    {
+      "id": "availability:/beds-tech",
+      "kind": "availability",
+      "target": "/beds-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/beds-tech"
       }
     },
     {
@@ -1374,6 +1418,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/berserkers"
+      }
+    },
+    {
+      "id": "availability:/better-training-dummies-tech",
+      "kind": "availability",
+      "target": "/better-training-dummies-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/better-training-dummies-tech"
       }
     },
     {
@@ -1473,6 +1528,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/biofuel-distillery-wheatstraw"
+      }
+    },
+    {
+      "id": "availability:/biofuel-tech",
+      "kind": "availability",
+      "target": "/biofuel-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/biofuel-tech"
       }
     },
     {
@@ -2356,6 +2422,17 @@
       }
     },
     {
+      "id": "availability:/cactus-farming-tech",
+      "kind": "availability",
+      "target": "/cactus-farming-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cactus-farming-tech"
+      }
+    },
+    {
       "id": "availability:/cactus-rum",
       "kind": "availability",
       "target": "/cactus-rum",
@@ -2939,6 +3016,17 @@
       }
     },
     {
+      "id": "availability:/chain-armour-crafting-tech",
+      "kind": "availability",
+      "target": "/chain-armour-crafting-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/chain-armour-crafting-tech"
+      }
+    },
+    {
       "id": "availability:/chain-shirt",
       "kind": "availability",
       "target": "/chain-shirt",
@@ -3082,6 +3170,17 @@
       }
     },
     {
+      "id": "availability:/clothing-manufacture-tech",
+      "kind": "availability",
+      "target": "/clothing-manufacture-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/clothing-manufacture-tech"
+      }
+    },
+    {
       "id": "availability:/cloud-ninja",
       "kind": "availability",
       "target": "/cloud-ninja",
@@ -3170,6 +3269,17 @@
       }
     },
     {
+      "id": "availability:/composite-runners-tech",
+      "kind": "availability",
+      "target": "/composite-runners-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/composite-runners-tech"
+      }
+    },
+    {
       "id": "availability:/conscript-leather-armour",
       "kind": "availability",
       "target": "/conscript-leather-armour",
@@ -3236,6 +3346,17 @@
       }
     },
     {
+      "id": "availability:/cooking-tech",
+      "kind": "availability",
+      "target": "/cooking-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cooking-tech"
+      }
+    },
+    {
       "id": "availability:/copper",
       "kind": "availability",
       "target": "/copper",
@@ -3269,6 +3390,28 @@
       }
     },
     {
+      "id": "availability:/copper-alloys-tech",
+      "kind": "availability",
+      "target": "/copper-alloys-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/copper-alloys-tech"
+      }
+    },
+    {
+      "id": "availability:/core-tech",
+      "kind": "availability",
+      "target": "/core-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/core-tech"
+      }
+    },
+    {
       "id": "availability:/cornelius",
       "kind": "availability",
       "target": "/cornelius",
@@ -3277,6 +3420,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cornelius"
+      }
+    },
+    {
+      "id": "availability:/corpse-disposal-tech",
+      "kind": "availability",
+      "target": "/corpse-disposal-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/corpse-disposal-tech"
       }
     },
     {
@@ -3310,6 +3464,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cotton-farm"
+      }
+    },
+    {
+      "id": "availability:/cotton-farming-tech",
+      "kind": "availability",
+      "target": "/cotton-farming-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cotton-farming-tech"
       }
     },
     {
@@ -3665,6 +3830,17 @@
       }
     },
     {
+      "id": "availability:/crossbow-bolts-tech",
+      "kind": "availability",
+      "target": "/crossbow-bolts-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crossbow-bolts-tech"
+      }
+    },
+    {
       "id": "availability:/crossbow-crafting-bench",
       "kind": "availability",
       "target": "/crossbow-crafting-bench",
@@ -3673,6 +3849,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crossbow-crafting-bench"
+      }
+    },
+    {
+      "id": "availability:/crossbow-crafting-tech",
+      "kind": "availability",
+      "target": "/crossbow-crafting-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crossbow-crafting-tech"
       }
     },
     {
@@ -3695,6 +3882,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crossbow-parts"
+      }
+    },
+    {
+      "id": "availability:/crossbow-turret-spotlight-fitting-tech",
+      "kind": "availability",
+      "target": "/crossbow-turret-spotlight-fitting-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crossbow-turret-spotlight-fitting-tech"
+      }
+    },
+    {
+      "id": "availability:/crossbow-turret-strings-tech",
+      "kind": "availability",
+      "target": "/crossbow-turret-strings-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crossbow-turret-strings-tech"
       }
     },
     {
@@ -3940,6 +4149,17 @@
       }
     },
     {
+      "id": "availability:/defense-tech",
+      "kind": "availability",
+      "target": "/defense-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/defense-tech"
+      }
+    },
+    {
       "id": "availability:/defensive-gates",
       "kind": "availability",
       "target": "/defensive-gates",
@@ -3970,6 +4190,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/defensive-walls"
+      }
+    },
+    {
+      "id": "availability:/defensive-walls-tech",
+      "kind": "availability",
+      "target": "/defensive-walls-tech",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/technology/acceptances.json#technology-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/defensive-walls-tech"
       }
     },
     {

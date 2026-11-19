@@ -4526,6 +4526,90 @@
     "basic-weapon-grades-tech": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/technology/review.json"
+    },
+    "batteries-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "battery-capacity-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "battery-power-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "beds-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "better-training-dummies-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "biofuel-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "cactus-farming-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "chain-armour-crafting-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "clothing-manufacture-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "composite-runners-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "cooking-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "copper-alloys-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "core-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "corpse-disposal-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "cotton-farming-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "crossbow-bolts-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "crossbow-crafting-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "crossbow-turret-spotlight-fitting-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "crossbow-turret-strings-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "defense-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
+    },
+    "defensive-walls-tech": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/technology/review.json"
     }
   },
   "mediaGaps": [

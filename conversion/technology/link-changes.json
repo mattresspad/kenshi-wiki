@@ -63,5 +63,36 @@
       "/basic-weapon-grades-tech"
     ],
     "introduced": []
+  },
+  {
+    "name": "technology-siblings-2",
+    "resolved": [
+      "/batteries-tech",
+      "/battery-capacity-tech",
+      "/battery-power-tech",
+      "/beds",
+      "/beds-tech",
+      "/better-training-dummies-tech",
+      "/biofuel",
+      "/biofuel-tech",
+      "/cactus-farming-tech",
+      "/chain-armour-crafting-tech",
+      "/clothing-manufacture-tech",
+      "/composite-runners",
+      "/composite-runners-tech",
+      "/cooking-tech",
+      "/copper-alloys-tech",
+      "/core-tech",
+      "/corpse-disposal",
+      "/corpse-disposal-tech",
+      "/cotton-farming-tech",
+      "/crossbow-bolts-tech",
+      "/crossbow-crafting-tech",
+      "/crossbow-turret-spotlight-fitting-tech",
+      "/crossbow-turret-strings-tech",
+      "/defense-tech",
+      "/defensive-walls-tech"
+    ],
+    "introduced": []
   }
 ]
