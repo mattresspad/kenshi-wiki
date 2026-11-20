@@ -24,6 +24,28 @@
       }
     },
     {
+      "id": "availability:/a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue",
+      "kind": "availability",
+      "target": "/a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue"
+      }
+    },
+    {
+      "id": "availability:/a-workaround-how-to-make-weapons-lootable-by-npcs",
+      "kind": "availability",
+      "target": "/a-workaround-how-to-make-weapons-lootable-by-npcs",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/a-workaround-how-to-make-weapons-lootable-by-npcs"
+      }
+    },
+    {
       "id": "availability:/abandoned-town",
       "kind": "availability",
       "target": "/abandoned-town",
@@ -35,6 +57,17 @@
       }
     },
     {
+      "id": "availability:/about-armor-textures-how-to-use-different-texture-maps",
+      "kind": "availability",
+      "target": "/about-armor-textures-how-to-use-different-texture-maps",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/about-armor-textures-how-to-use-different-texture-maps"
+      }
+    },
+    {
       "id": "availability:/acid-ground",
       "kind": "availability",
       "target": "/acid-ground",
@@ -43,6 +76,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/acid-ground"
+      }
+    },
+    {
+      "id": "availability:/adding-new-sounds-to-animations",
+      "kind": "availability",
+      "target": "/adding-new-sounds-to-animations",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/adding-new-sounds-to-animations"
       }
     },
     {
@@ -285,6 +329,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/ai-core"
+      }
+    },
+    {
+      "id": "availability:/ai-goals",
+      "kind": "availability",
+      "target": "/ai-goals",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ai-goals"
+      }
+    },
+    {
+      "id": "availability:/ai-packages",
+      "kind": "availability",
+      "target": "/ai-packages",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ai-packages"
       }
     },
     {
@@ -648,6 +714,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/arm-of-okran"
+      }
+    },
+    {
+      "id": "availability:/armor-stats",
+      "kind": "availability",
+      "target": "/armor-stats",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/armor-stats"
       }
     },
     {
@@ -2642,6 +2719,17 @@
       }
     },
     {
+      "id": "availability:/building-making-tutorial",
+      "kind": "availability",
+      "target": "/building-making-tutorial",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/building-making-tutorial"
+      }
+    },
+    {
       "id": "availability:/building-materials",
       "kind": "availability",
       "target": "/building-materials",
@@ -3577,6 +3665,17 @@
       }
     },
     {
+      "id": "availability:/changing-town-ownership",
+      "kind": "availability",
+      "target": "/changing-town-ownership",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/changing-town-ownership"
+      }
+    },
+    {
       "id": "availability:/character-customization",
       "kind": "availability",
       "target": "/character-customization",
@@ -3585,6 +3684,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/character-customization"
+      }
+    },
+    {
+      "id": "availability:/character-fcs",
+      "kind": "availability",
+      "target": "/character-fcs",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/character-fcs"
+      }
+    },
+    {
+      "id": "availability:/character-portrait-appearing-behind-other-character-portraits",
+      "kind": "availability",
+      "target": "/character-portrait-appearing-behind-other-character-portraits",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/character-portrait-appearing-behind-other-character-portraits"
       }
     },
     {
@@ -3805,6 +3926,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/coin"
+      }
+    },
+    {
+      "id": "availability:/collision-in-context-of-furniture-with-animations",
+      "kind": "availability",
+      "target": "/collision-in-context-of-furniture-with-animations",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/collision-in-context-of-furniture-with-animations"
+      }
+    },
+    {
+      "id": "availability:/colour-scheme",
+      "kind": "availability",
+      "target": "/colour-scheme",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/colour-scheme"
       }
     },
     {
@@ -4457,6 +4600,17 @@
       }
     },
     {
+      "id": "availability:/creating-a-new-game-start",
+      "kind": "availability",
+      "target": "/creating-a-new-game-start",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/creating-a-new-game-start"
+      }
+    },
+    {
       "id": "availability:/creating-a-rideable-animal/vehicle",
       "kind": "availability",
       "target": "/creating-a-rideable-animal/vehicle",
@@ -4465,6 +4619,50 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/creating-a-rideable-animal/vehicle"
+      }
+    },
+    {
+      "id": "availability:/creating-a-special-placeable/lootable-item-for-your-town",
+      "kind": "availability",
+      "target": "/creating-a-special-placeable/lootable-item-for-your-town",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/creating-a-special-placeable/lootable-item-for-your-town"
+      }
+    },
+    {
+      "id": "availability:/creating-an-animal-race",
+      "kind": "availability",
+      "target": "/creating-an-animal-race",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/creating-an-animal-race"
+      }
+    },
+    {
+      "id": "availability:/creating-custom-weapons",
+      "kind": "availability",
+      "target": "/creating-custom-weapons",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/creating-custom-weapons"
+      }
+    },
+    {
+      "id": "availability:/creating-new-towns",
+      "kind": "availability",
+      "target": "/creating-new-towns",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/creating-new-towns"
       }
     },
     {
@@ -4663,6 +4861,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cup"
+      }
+    },
+    {
+      "id": "availability:/custom-character-mesh-and-editor-sliders",
+      "kind": "availability",
+      "target": "/custom-character-mesh-and-editor-sliders",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/custom-character-mesh-and-editor-sliders"
+      }
+    },
+    {
+      "id": "availability:/custom-character-model-and-rigging-to-kenshi-armature",
+      "kind": "availability",
+      "target": "/custom-character-model-and-rigging-to-kenshi-armature",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/custom-character-model-and-rigging-to-kenshi-armature"
+      }
+    },
+    {
+      "id": "availability:/custom-character-race-and-normal-map-displacement-map",
+      "kind": "availability",
+      "target": "/custom-character-race-and-normal-map-displacement-map",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/custom-character-race-and-normal-map-displacement-map"
       }
     },
     {
@@ -4974,6 +5205,17 @@
       }
     },
     {
+      "id": "availability:/dialogue-events",
+      "kind": "availability",
+      "target": "/dialogue-events",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dialogue-events"
+      }
+    },
+    {
       "id": "availability:/dialogue-structure-overlook",
       "kind": "availability",
       "target": "/dialogue-structure-overlook",
@@ -4982,6 +5224,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/dialogue-structure-overlook"
+      }
+    },
+    {
+      "id": "availability:/dialogue-targeting",
+      "kind": "availability",
+      "target": "/dialogue-targeting",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dialogue-targeting"
       }
     },
     {

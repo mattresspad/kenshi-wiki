@@ -6310,6 +6310,98 @@
     "kenshi-unofficial-multiplayer-mod": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/modding/review.json"
+    },
+    "a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "a-workaround-how-to-make-weapons-lootable-by-npcs": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "about-armor-textures-how-to-use-different-texture-maps": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "adding-new-sounds-to-animations": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "ai-goals": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "ai-packages": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "armor-stats": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "building-making-tutorial": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "changing-town-ownership": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "character-fcs": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "character-portrait-appearing-behind-other-character-portraits": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "collision-in-context-of-furniture-with-animations": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "colour-scheme": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "creating-a-new-game-start": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "creating-a-special-placeable/lootable-item-for-your-town": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "creating-an-animal-race": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "creating-custom-weapons": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "creating-new-towns": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "custom-character-mesh-and-editor-sliders": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "custom-character-model-and-rigging-to-kenshi-armature": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "custom-character-race-and-normal-map-displacement-map": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "dialogue-events": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "dialogue-targeting": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
     }
   },
   "mediaGaps": [

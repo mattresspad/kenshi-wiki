@@ -52,5 +52,47 @@
     "introduced": [
       "/kenshi-dedicated-server-providers"
     ]
+  },
+  {
+    "name": "modding-siblings-1",
+    "resolved": [
+      "/a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue",
+      "/a-workaround-how-to-make-weapons-lootable-by-npcs",
+      "/about-armor-textures-how-to-use-different-texture-maps",
+      "/adding-new-sounds-to-animations",
+      "/ai-goals",
+      "/ai-packages",
+      "/armor-stats",
+      "/building-making-tutorial",
+      "/changing-town-ownership",
+      "/character-fcs",
+      "/character-portrait-appearing-behind-other-character-portraits",
+      "/collision-in-context-of-furniture-with-animations",
+      "/colour-scheme",
+      "/creating-a-new-game-start",
+      "/creating-a-special-placeable/lootable-item-for-your-town",
+      "/creating-an-animal-race",
+      "/creating-custom-weapons",
+      "/creating-new-towns",
+      "/custom-character-mesh-and-editor-sliders",
+      "/custom-character-model-and-rigging-to-kenshi-armature",
+      "/custom-character-race-and-normal-map-displacement-map",
+      "/dialogue-events",
+      "/dialogue-targeting"
+    ],
+    "introduced": [
+      "/category/blender",
+      "/category/character-customization",
+      "/category/character-mesh",
+      "/category/collision",
+      "/category/custom-character/race",
+      "/category/editor-data",
+      "/category/gggr",
+      "/category/give-item",
+      "/category/how-to-change-animation-strip-name",
+      "/category/mod-making",
+      "/category/props",
+      "/category/sliders"
+    ]
   }
 ]
