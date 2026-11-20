@@ -1,3 +1,5 @@
+import moddingRoster from '../../conversion/modding/roster.json' with {type:'json'};
+import moddingCheckpoint from '../../conversion/modding/checkpoint.json' with {type:'json'};
 import {snapshot, policy, categoryPath} from '../../src/lib/catalog.mjs';
 import geographyRoster from '../../conversion/geography/roster.json' with {type:'json'};
 import geographyCheckpoint from '../../conversion/geography/checkpoint.json' with {type:'json'};
@@ -42,7 +44,8 @@ export const families = {
   shops:{roster:shopRoster,checkpoint:shopCheckpoint},
   gameplay:{roster:gameplayRoster,checkpoint:gameplayCheckpoint},
   events:{roster:eventRoster,checkpoint:eventCheckpoint},
-  lore:{roster:loreRoster,checkpoint:loreCheckpoint}
+  lore:{roster:loreRoster,checkpoint:loreCheckpoint},
+  modding:{roster:moddingRoster,checkpoint:moddingCheckpoint}
 };
 export function selectedIds(family) {
   const {roster, checkpoint} = families[family];

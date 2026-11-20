@@ -31,6 +31,8 @@ const races=verifyFamily('races',atlas,assetRedirects),raceIds=selectedIds('race
 const animals=verifyFamily('animals',atlas,assetRedirects),animalIds=selectedIds('animals');
 const characters=verifyFamily('characters',atlas,assetRedirects),characterIds=selectedIds('characters');
 const crafting=verifyFamily('crafting',atlas,assetRedirects),craftingIds=selectedIds('crafting');
+const modding=verifyFamily('modding',atlas,assetRedirects),moddingIds=selectedIds('modding');
+const moddingSources=JSON.parse(readFileSync('conversion/modding/reference.json')).articles;
 const lore=verifyFamily('lore',atlas,assetRedirects),loreIds=selectedIds('lore');
 const loreSources=JSON.parse(readFileSync('conversion/lore/reference.json')).articles;
 const events=verifyFamily('events',atlas,assetRedirects),eventIds=selectedIds('events');
@@ -85,12 +87,12 @@ for (const a of atlas.byId.values()) {
       label:$(el).text(), href:new URL($(el).attr('href'),origin+a.path).href
     }));
   }
-  const checks = {...(includedIds.has(a.id) ? {formatCheck:'scripts/geography/verify.mjs'} : {}), ...(factionIds.has(a.id) ? {formatCheck:'scripts/factions/verify.mjs'} : {}), ...(raceIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(animalIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(characterIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(itemIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(buildingIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(craftingIds.has(a.id)||technologyIds.has(a.id)||shopIds.has(a.id)||gameplayIds.has(a.id)||eventIds.has(a.id)||loreIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...review.articles[a.id]};
-  const media=a.filePath && (geographyIds.has(a.id) || factionIds.has(a.id) || raceIds.has(a.id) || animalIds.has(a.id) || characterIds.has(a.id) || itemIds.has(a.id) || buildingIds.has(a.id) || craftingIds.has(a.id) || technologyIds.has(a.id) || shopIds.has(a.id) || gameplayIds.has(a.id) || eventIds.has(a.id) || loreIds.has(a.id)) ? {
+  const checks = {...(includedIds.has(a.id) ? {formatCheck:'scripts/geography/verify.mjs'} : {}), ...(factionIds.has(a.id) ? {formatCheck:'scripts/factions/verify.mjs'} : {}), ...(raceIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(animalIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(characterIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(itemIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(buildingIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...(craftingIds.has(a.id)||technologyIds.has(a.id)||shopIds.has(a.id)||gameplayIds.has(a.id)||eventIds.has(a.id)||loreIds.has(a.id)||moddingIds.has(a.id)?{formatCheck:'scripts/conversion/verify.mjs'}:{}), ...review.articles[a.id]};
+  const media=a.filePath && (geographyIds.has(a.id) || factionIds.has(a.id) || raceIds.has(a.id) || animalIds.has(a.id) || characterIds.has(a.id) || itemIds.has(a.id) || buildingIds.has(a.id) || craftingIds.has(a.id) || technologyIds.has(a.id) || shopIds.has(a.id) || gameplayIds.has(a.id) || eventIds.has(a.id) || loreIds.has(a.id) || moddingIds.has(a.id)) ? {
     originalMediaComparison:'unassessed',
-    emptyImportedGallery:emptyGalleryIds.has(a.id) || factions.emptyGalleries.includes(a.id) || animals.emptyGalleries.includes(a.id) || characters.emptyGalleries.includes(a.id) || items.emptyGalleries.includes(a.id) || buildings.emptyGalleries.includes(a.id) || shops.emptyGalleries.includes(a.id) || gameplay.emptyGalleries.includes(a.id) || events.emptyGalleries.includes(a.id) || lore.emptyGalleries.includes(a.id),
+    emptyImportedGallery:emptyGalleryIds.has(a.id) || factions.emptyGalleries.includes(a.id) || animals.emptyGalleries.includes(a.id) || characters.emptyGalleries.includes(a.id) || items.emptyGalleries.includes(a.id) || buildings.emptyGalleries.includes(a.id) || shops.emptyGalleries.includes(a.id) || gameplay.emptyGalleries.includes(a.id) || events.emptyGalleries.includes(a.id) || lore.emptyGalleries.includes(a.id) || modding.emptyGalleries.includes(a.id),
     verifiedInfoboxImages:itemSources[a.id]?.factMedia?.images??[],
-    verifiedBodyItemIcons:[...new Set(((geographicalSources[a.id] ?? factionSources[a.id] ?? animalSources[a.id] ?? characterSources[a.id] ?? itemSources[a.id] ?? buildingSources[a.id] ?? craftingSources[a.id] ?? technologySources[a.id] ?? shopSources[a.id] ?? gameplaySources[a.id] ?? eventSources[a.id] ?? loreSources[a.id])?.images ?? []).map(([url])=>url))]
+    verifiedBodyItemIcons:[...new Set(((geographicalSources[a.id] ?? factionSources[a.id] ?? animalSources[a.id] ?? characterSources[a.id] ?? itemSources[a.id] ?? buildingSources[a.id] ?? craftingSources[a.id] ?? technologySources[a.id] ?? shopSources[a.id] ?? gameplaySources[a.id] ?? eventSources[a.id] ?? loreSources[a.id] ?? moddingSources[a.id])?.images ?? []).map(([url])=>url))]
   } : undefined;
   record('article',a.path,{id:a.id,media, editableFile:a.filePath, sourceFile:a.sourceFile, sourceRevision:a.sourceRevision,
     credit:a.credit, license:a.license, source:a.source, contributor:a.contributor, evidence, articleSources, correction:correctionLink(origin+a.path),
@@ -130,7 +132,7 @@ if(duplicateCheck.size!==snapshot.articles.length+initial.categories.size+snapsh
 const temporaryLinks=Array.from(external,([from,urls])=>({from,to:[...urls].sort()}));
 const articlesAt = state => routes.filter(row=>row.kind==='article' && row[state]).map(row=>row.path);
 const gaps=reportGaps(atlas,review.articles);
-const report={lore,events,gameplay,shops,gaps,races,animals,characters,items,buildings,crafting,technology,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
+const report={modding,lore,events,gameplay,shops,gaps,races,animals,characters,items,buildings,crafting,technology,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
   aliases:policy.aliases,exclusions,temporaryLinks,assetRedirects,blenderChange,routes};
 mkdirSync('reports',{recursive:true});
 writeFileSync('reports/routes.json',JSON.stringify(report,null,2)+'\n');

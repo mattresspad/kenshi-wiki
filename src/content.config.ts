@@ -8,7 +8,7 @@ const articles = defineCollection({
   loader: glob({ base: './src/content/articles', pattern: '**/*.md', generateId: ({entry}) => entry }),
   schema: z.object({
     articleId: z.string().min(1), title: z.string(), description: z.string(), categories: z.array(z.string()),
-    layout: z.enum(['town', 'recipe', 'reference', 'geography', 'faction', 'race', 'animal', 'character', 'item', 'building', 'crafting', 'technology', 'shop', 'gameplay', 'event', 'lore']),
+    layout: z.enum(['town', 'recipe', 'reference', 'geography', 'faction', 'race', 'animal', 'character', 'item', 'building', 'crafting', 'technology', 'shop', 'gameplay', 'event', 'lore', 'modding']),
     bookmarks: z.record(z.string(), z.string()).default({}), headingIds: z.record(z.string(), z.string()).default({}),
     facts: z.array(z.tuple([z.string(), factPart]).rest(factPart)).optional(), recordId: z.string().optional(),
     factTitle: z.string().optional(), factImage:z.object({src:z.string(),alt:z.string()}).optional(), factCaption:z.string().optional(), recordedItemText:z.string().optional(), contentLanguage:z.enum(['en','tr']).default('en'),

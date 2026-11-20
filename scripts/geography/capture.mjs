@@ -8,6 +8,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   const {roster}=families[family];
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
   const extra={
+    'modding-fcs':batch.ids,'modding-structures':batch.ids,'modding-pr43':batch.ids,'modding-projects':batch.ids,
     'lore-pilots':batch.ids,'lore-structures':batch.ids,
     'event-pilots':batch.ids,'event-structures':batch.ids,'event-trade-stock':batch.ids,'event-overview-and-routes':['events','world-state-routes','flotsam-ninjas-route','united-cities-route'],
     'gameplay-pilots':['gameplay',...batch.ids], 'technical-structures':batch.ids, 'player-walkthroughs':['guides',...batch.ids], 'complex-comparisons':batch.ids, 'skill-siblings':['swimming','stronger-opponent-logic'], 'mechanics-and-guides-1':['guide-to-equipment','combat-speed'],
@@ -58,6 +59,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   if(family==='gameplay'&&batch.name===roster.batches.at(-1).name)samples.push('gameplay','guides','statistics','strength','jobs','science','wheatstraw-60-or-cactus-100','npc-shopping-behavior','guide-to-training-statistics','category/statistics','category/guides');
   if(family==='events'&&batch.name===roster.batches.at(-1).name)samples.push('category/events','events','prayer-day','tax-collector','bandit-demands','crab-tournament','elite-hunter-assault','base-assault','caravan-visit','farm-trader','materials-trader','world-state-routes','flotsam-ninjas-route','tribute-round#tips');
   if(family==='lore'&&batch.name===roster.batches.at(-1).name)samples.push('category/books','category/lore','letter-from-bad-teeth','ludins-reports','history-of-kenshi','history-of-kenshi/tr','wanted-posters','a-holy-purpose','birth-of-the-phoenix','flotsam-safehouse-note','the-holy-flame','the-little-boy-that-got-dismembered-by-skeletons','lore-books');
+  if(family==='modding'&&batch.name===roster.batches.at(-1).name)samples.push('modding','category/modding','forgotten-construction-set','using-the-fcs','modding/meitou','modding/meitou/porting-re-kenshi-mods','user-node-rotations-quarternions');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {

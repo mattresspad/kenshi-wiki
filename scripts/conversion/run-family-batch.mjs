@@ -1,9 +1,9 @@
 import fs from 'node:fs';import assert from 'node:assert/strict';import {execFileSync} from 'node:child_process';import {dirname,join,resolve} from 'node:path';
-const get=p=>JSON.parse(fs.readFileSync(p)),root=resolve('.'),[family,name]=process.argv.slice(2);assert.ok(['crafting','technology','shops','gameplay','events','lore'].includes(family));assert.equal(root.replaceAll('\\','/').toLowerCase(),'d:/neoecosystem/freshwiki/site');
+const get=p=>JSON.parse(fs.readFileSync(p)),root=resolve('.'),[family,name]=process.argv.slice(2);assert.ok(['crafting','technology','shops','gameplay','events','lore','modding'].includes(family));assert.equal(root.replaceAll('\\','/').toLowerCase(),'d:/neoecosystem/freshwiki/site');
 assert.ok(!fs.existsSync('reports/'+family+'/pause-before-next-batch'),'Paused at accepted boundary for presentation review');
 const roster=get('conversion/'+family+'/roster.json'),checkpoint=get('conversion/'+family+'/checkpoint.json'),accepted=get('conversion/'+family+'/acceptances.json');assert.equal(roster.batches[checkpoint.included]?.name,name);assert.equal(accepted.length,checkpoint.included);assert.ok(fs.existsSync('reports/'+family+'/reviews/'+name+'.json'));
 const run=(exe,args)=>execFileSync(exe,args,{cwd:root,stdio:'inherit',env:{...process.env,ASTRO_TELEMETRY_DISABLED:'1'}}),node=args=>run(process.execPath,args),git=args=>run('git',['-c','safe.directory='+root,...args]);assert.equal(execFileSync('git',['branch','--show-current'],{encoding:'utf8'}).trim(),'rebuild/restoration');
-function batchPaths(){return roster.batches[checkpoint.included].ids.map(id=>'src/content/articles/'+(roster.homes?.[id]??roster.home)+'/'+id+'.md');}
+function batchPaths(){return roster.batches[checkpoint.included].ids.map(id=>roster.files?.[id]??('src/content/articles/'+(roster.homes?.[id]??roster.home)+'/'+id+'.md'));}
 // Each family baseline starts from its actual prior accepted state.
 if(checkpoint.included===0){const report=get('reports/routes.json');fs.writeFileSync('conversion/'+family+'/baseline-links.json',JSON.stringify([...new Set(report.temporaryLinks.flatMap(r=>r.to))].sort(),null,2)+'\n');}
 node(['scripts/conversion/transfer-family.mjs',family,name]);git(['add',...batchPaths()]);git(['commit','-m','content('+family+'): transfer '+name+' from pinned source']);

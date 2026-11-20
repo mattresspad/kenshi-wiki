@@ -1,0 +1,64 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "contribution": "7c0a6547fdfd7868d976f1189b2889dad68f12ae",
+  "edits": [
+    {
+      "article": "/creating-a-rideable-animal/vehicle",
+      "oldBlob": "a3d0f36a597561bc5912e599255c18ca6c2f4516",
+      "newBlob": "66fb470e402756b223ac6c5fceb81d714f28f688",
+      "removed": [
+        "1)    Blender 4.0 (December 2024) with [Kenshi\\_IO\\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) (the official one is outdated)"
+      ],
+      "added": [
+        "1)    Blender 4.0 (December 2024) with [Kenshi\\_IO\\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) (the official one is outdated). For newer Blender versions, see [Blender plugins](/modding/blender-plugins)."
+      ],
+      "articleId": "creating-a-rideable-animal/vehicle",
+      "verifiedBlob": "66fb470e402756b223ac6c5fceb81d714f28f688",
+      "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+      "disposition": "Already in pinned baseline; transfer once, no patch replay."
+    },
+    {
+      "article": "/making-animations-basics",
+      "oldBlob": "89cf505a5515b3294da6893475c761b4a82042a7",
+      "newBlob": "0e0246cceb05dedfac21b2755ea02d3f411f0713",
+      "removed": [],
+      "added": [
+        "-   Re-exporting the game's existing animations through any current [Blender plugin](/modding/blender-plugins) shifts fast moves by a few degrees, and by 20 to 70 degrees in the worst cases. Make new animations rather than round-tripping vanilla ones you want to keep exact."
+      ],
+      "articleId": "making-animations-basics",
+      "verifiedBlob": "0e0246cceb05dedfac21b2755ea02d3f411f0713",
+      "sourceFile": "src/content/wiki/making-animations-basics.md",
+      "disposition": "Already in pinned baseline; transfer once, no patch replay."
+    },
+    {
+      "article": "/making-custom-ragdoll",
+      "oldBlob": "ef1329f789464c1f01a74094d6b57109b7dce15b",
+      "newBlob": "ec70888d059fa952b0dd93c5c696cede715030a8",
+      "removed": [
+        "1.  Export your skeleton using [Kenshi\\_IO\\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) for Blender (replaces Kenshi import/export plugin). You need Blender 4.0.  "
+      ],
+      "added": [
+        "1.  Export your skeleton using [Kenshi\\_IO\\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) for Blender (replaces Kenshi import/export plugin). You need Blender 4.0. For newer Blender versions, see [Blender plugins](/modding/blender-plugins).  "
+      ],
+      "articleId": "making-custom-ragdoll",
+      "verifiedBlob": "ec70888d059fa952b0dd93c5c696cede715030a8",
+      "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+      "disposition": "Already in pinned baseline; transfer once, no patch replay."
+    },
+    {
+      "article": "/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading",
+      "oldBlob": "7b4a394cfa323e078585014ef5d4ad2087c7bcdc",
+      "newBlob": "5f8a65ccf8f05d34650cea985d6fa882c89077da",
+      "removed": [
+        "WIP This tutorial is a sub page for the skin making page. DO NOTE: if you used the wrong Blender & plugin combination, it can also result a mesh not shading properly. Blender 4.0 and [Kindrad's plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) is recommended."
+      ],
+      "added": [
+        "WIP This tutorial is a sub page for the skin making page. DO NOTE: if you used the wrong Blender & plugin combination, it can also result a mesh not shading properly. Blender 4.0 and [Kindrad's plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) is recommended. For newer Blender versions, see [Blender plugins](/modding/blender-plugins)."
+      ],
+      "articleId": "why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading",
+      "verifiedBlob": "5f8a65ccf8f05d34650cea985d6fa882c89077da",
+      "sourceFile": "src/content/wiki/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading.md",
+      "disposition": "Already in pinned baseline; transfer once, no patch replay."
+    }
+  ]
+}

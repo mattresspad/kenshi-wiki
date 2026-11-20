@@ -46,7 +46,7 @@ export function articleEvidence(html, frozen, faction = false) {
   if(faction==='gameplay')normalizeGameplay($);
   if (faction === 'character' || faction === 'item') removeImportedChecklist($);
   else if (faction === 'race') normalizeRaceTables($);
-  else if (faction && faction !== 'item' && faction !== 'building' && faction !== 'shop' && faction !== 'gameplay' && faction !== 'event' && faction !== 'lore') normalizeFactionTables($);
+  else if (faction && faction !== 'item' && faction !== 'building' && faction !== 'shop' && faction !== 'gameplay' && faction !== 'event' && faction !== 'lore' && faction !== 'modding') normalizeFactionTables($);
   // This separately checked editorial note qualifies the original imported words.
   $('.source-qualification').remove();
   const headings = $('h2,h3,h4,h5,h6').toArray().map(el => [el.name,$(el).attr('id') ?? null,text($(el).text())]);
@@ -62,6 +62,6 @@ export function articleEvidence(html, frozen, faction = false) {
   ]);
   // Compare text nodes in order. Block/presentation wrappers may add whitespace but cannot replace words.
   const words = text($.root().text()).replace(/\s+/gu,'');
-  return {...(faction==='event'?{factEmphasis:facts.find('strong').toArray().map(e=>[text(doc(e).text()),doc(e).find('a').toArray().map(a=>destination(a.attribs.href))])}:{}),...(faction==='building'?{buildingPanel}:{}), headings, ids, text:hash(words), links:signature(links($.root())), tables:signature(inventory),
+  return {...(faction==='modding'?{code:$('pre').toArray().map(e=>$(e).text().replace(/\n$/, ''))}:{}),...(faction==='event'?{factEmphasis:facts.find('strong').toArray().map(e=>[text(doc(e).text()),doc(e).find('a').toArray().map(a=>destination(a.attribs.href))])}:{}),...(faction==='building'?{buildingPanel}:{}), headings, ids, text:hash(words), links:signature(links($.root())), tables:signature(inventory),
     facts:signature(factValues), images, emptyGallery:emptyGallery($), ...(['item','lore'].includes(faction) ? {factMedia:{images:facts.find('img[src]').toArray().map(el=>[el.attribs.src,el.attribs.alt??'']),caption:(frozen?facts.find('.infobox-caption'):doc('.fact-caption,.recorded-item-content')).text().replaceAll('\r\n','\n')}} : {})};
 }

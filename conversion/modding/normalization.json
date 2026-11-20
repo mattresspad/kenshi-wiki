@@ -1,0 +1,9 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "changes": [
+    "Shared imported article framing and native table scrolling; all instructional cells and source order retained.",
+    "Typed fact panels retain source labels and field values without inventing character statistics.",
+    "Code preservation compares the full text of all 67 blocks, normalizing only existing trailing-newline treatment."
+  ],
+  "editorial": "No substantive rewrite of imported tutorials; uncertainties remain in the register."
+}

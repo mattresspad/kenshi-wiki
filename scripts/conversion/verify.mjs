@@ -29,7 +29,7 @@ export function verifyFamily(name, atlas, assetRedirects) {
   fragmentIndexes.set(atlas,otherLocalIds);}
   for(const id of actual) {
     const record=atlas.byId.get(id),html=readFileSync('dist'+record.path+'.html','utf8'),$=load(html);
-    const expected=fixture.articles[id],proof=articleEvidence(html,false,name==='items'?'item':name==='buildings'?'building':name==='shops'?'shop':name==='gameplay'?'gameplay':name==='events'?'event':name==='lore'?'lore':false);
+    const expected=fixture.articles[id],proof=articleEvidence(html,false,name==='items'?'item':name==='buildings'?'building':name==='shops'?'shop':name==='gameplay'?'gameplay':name==='events'?'event':name==='lore'?'lore':name==='modding'?'modding':false);
     for(const key of Object.keys(expected)) assert.deepEqual(proof[key],expected[key],id+' — '+key);
     assert.deepEqual(record.categories,original.get(id).categories,id+' categories');
     assert.equal($('link[rel=canonical]').attr('href'),'https://kenshi.wiki'+record.path);
@@ -53,7 +53,7 @@ export function verifyFamily(name, atlas, assetRedirects) {
   for(const url of assets)assert.equal(hash(readFileSync('dist'+url)),fixture.assets[url],url);
   const existing=name==='geography'?['catun']:roster.existing;
   const familyPaths=new Set([...existing,...actual].map(id=>atlas.byId.get(id).path));
-  const redirects=snapshot.redirects.filter(rule=>(name==='lore'?new Set([...actual].map(id=>atlas.byId.get(id).path)):familyPaths).has(rule.to));
+  const redirects=snapshot.redirects.filter(rule=>(['lore','modding'].includes(name)?new Set([...actual].map(id=>atlas.byId.get(id).path)):familyPaths).has(rule.to));
   for(const rule of redirects)assert.ok(assetRedirects.some(live=>live.from===rule.from && live.to===rule.to && live.status===rule.status),rule.from);
   const proofs=[...actual].map(id=>fixture.articles[id]);
   const headings=proofs.reduce((n,p)=>n+p.headings.length,0);

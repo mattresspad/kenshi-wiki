@@ -1,0 +1,62 @@
+[
+  [
+    "modding-missing-media",
+    null,
+    "File:|screenshot|image|picture|diagram|attachment",
+    "Instructional screenshots, diagrams and attachment references were flattened or omitted by the import; retained text is not complete media coverage.",
+    "Preserve the imported instructions and qualifications. Verify against the named software/game version and an independently reproducible example before correcting.",
+    "Source descriptions and examples are not a new execution test; missing media may omit essential context."
+  ],
+  [
+    "modding-versions",
+    null,
+    "Blender|version|outdated|WIP|unfinished|deprecated",
+    "Tutorial versions, WIP statements and project compatibility remain as documented; do not imply validation against newer tools.",
+    "Preserve the imported instructions and qualifications. Verify against the named software/game version and an independently reproducible example before correcting.",
+    "Source descriptions and examples are not a new execution test; missing media may omit essential context."
+  ],
+  [
+    "modding-record-editing",
+    null,
+    "override|duplicat|delete|reference|save|import",
+    "FCS editing, shared records and save/import behavior require versioned record and runtime validation; retain field names and warnings.",
+    "Preserve the imported instructions and qualifications. Verify against the named software/game version and an independently reproducible example before correcting.",
+    "Source descriptions and examples are not a new execution test; missing media may omit essential context."
+  ],
+  [
+    "modding-dialogue",
+    null,
+    "condition|effect|trigger|chance|dialogue",
+    "Dialogue condition, probability, ownership and effect interpretations remain imported claims pending targeted tests.",
+    "Preserve the imported instructions and qualifications. Verify against the named software/game version and an independently reproducible example before correcting.",
+    "Source descriptions and examples are not a new execution test; missing media may omit essential context."
+  ],
+  [
+    "modding-assets",
+    null,
+    "skeleton|rig|bone|quaternion|rotation|mesh|material",
+    "Asset transforms, skeleton conventions and format constraints need preserved tool versions, sample assets and reproduction evidence.",
+    "Preserve the imported instructions and qualifications. Verify against the named software/game version and an independently reproducible example before correcting.",
+    "Source descriptions and examples are not a new execution test; missing media may omit essential context."
+  ],
+  [
+    "modding-scripts",
+    null,
+    "script|shader|mask|particle|code",
+    "Technical examples retain their exact source text; execution, rendering and failure behavior have not been newly tested.",
+    "Preserve the imported instructions and qualifications. Verify against the named software/game version and an independently reproducible example before correcting.",
+    "Source descriptions and examples are not a new execution test; missing media may omit essential context."
+  ],
+  [
+    "modding-project-status",
+    [
+      "modding/meitou",
+      "modding/meitou/porting-re-kenshi-mods",
+      "kenshi-unofficial-multiplayer-mod"
+    ],
+    "test|version|release|experimental|compatib",
+    "Project descriptions and compatibility observations are pinned historical evidence; availability is not current compatibility verification.",
+    "Preserve the imported instructions and qualifications. Verify against the named software/game version and an independently reproducible example before correcting.",
+    "Source descriptions and examples are not a new execution test; missing media may omit essential context."
+  ]
+]

@@ -1,0 +1,4246 @@
+{
+  "articles": {
+    "a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "how-to-give-maps-weapons-or-armor-via-dialogue",
+          "How to give maps, weapons or armor via dialogue"
+        ],
+        [
+          "h3",
+          "weapons",
+          "Weapons"
+        ],
+        [
+          "h3",
+          "what-object-types-are-compatible",
+          "What Object Types are compatible?"
+        ],
+        [
+          "h3",
+          "list-of-fcsdef-file-lines-where-you-can-use-this-workaround",
+          "List of FCS.def file lines where you can use this workaround"
+        ]
+      ],
+      "ids": [
+        "how-to-give-maps-weapons-or-armor-via-dialogue",
+        "weapons",
+        "what-object-types-are-compatible",
+        "list-of-fcsdef-file-lines-where-you-can-use-this-workaround"
+      ],
+      "text": "a8824b098be4c25326f5c6e56574020bdf9374d10def3e5095dcaa3de2d268c6",
+      "links": "ba62843bc0fe86c7ef73753d06c243b480c15cb70dd1ab168b479563e6927492",
+      "tables": "e8b87e5540b34ec3d601cca91f0ce163b66e13623eb0301d8fd4e35489f77ea2",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "a-workaround-how-to-make-weapons-lootable-by-npcs": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "you-can-make-weapons-lootable-by-bandits-by-making-kenshi-think-the-sword-is-bread",
+          "You can make weapons lootable by bandits by making Kenshi think the sword is bread."
+        ]
+      ],
+      "ids": [
+        "you-can-make-weapons-lootable-by-bandits-by-making-kenshi-think-the-sword-is-bread"
+      ],
+      "text": "3d886b5a1f44670a93ab8fb29d8e9d934ab1b2f8db71bdbb294e1ebc42db2508",
+      "links": "02ab595ed5d5fcbb3abe1c7244c8c1b172acbb8c9136c641da628408e3b67ee2",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "about-armor-textures-how-to-use-different-texture-maps": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "what-is-a-texture-map",
+          "What is a texture map"
+        ],
+        [
+          "h2",
+          "diffuse-map-aka-the-texture",
+          "Diffuse map aka the texture"
+        ],
+        [
+          "h3",
+          "defining-shininessroughness-on-the-diffuse-map",
+          "Defining shininess/roughness on the diffuse map"
+        ],
+        [
+          "h4",
+          "1-how-to-turn-specular-off",
+          "1: How to turn specular off"
+        ],
+        [
+          "h4",
+          "2-how-to-turn-the-diffuse-maptexture-100-alpha-in-gimp",
+          "2: How to turn the diffuse map/texture 100% alpha in Gimp"
+        ],
+        [
+          "h4",
+          "3-how-to-use-the-selection-and-eraser-tools-to-make-different-parts-of-the-image-to-have-different-alpha-values",
+          "3: How to use the selection and eraser tools to make different parts of the image to have different alpha values"
+        ],
+        [
+          "h4",
+          "4-how-to-use-the-eraser-tool-to-paint-variation-on-the-alpha-layer",
+          "4: How to use the eraser tool to paint variation on the alpha layer"
+        ],
+        [
+          "h4",
+          "5-how-to-use-a-roughness-map-in-gimp-for-kenshi",
+          "5: How to use a roughness map in Gimp for Kenshi"
+        ],
+        [
+          "h2",
+          "normal-map",
+          "Normal map"
+        ],
+        [
+          "h3",
+          "transparency-on-a-normal-map",
+          "Transparency on a normal map"
+        ],
+        [
+          "h2",
+          "color-map",
+          "Color Map"
+        ]
+      ],
+      "ids": [
+        "what-is-a-texture-map",
+        "diffuse-map-aka-the-texture",
+        "defining-shininessroughness-on-the-diffuse-map",
+        "1-how-to-turn-specular-off",
+        "2-how-to-turn-the-diffuse-maptexture-100-alpha-in-gimp",
+        "3-how-to-use-the-selection-and-eraser-tools-to-make-different-parts-of-the-image-to-have-different-alpha-values",
+        "4-how-to-use-the-eraser-tool-to-paint-variation-on-the-alpha-layer",
+        "5-how-to-use-a-roughness-map-in-gimp-for-kenshi",
+        "normal-map",
+        "transparency-on-a-normal-map",
+        "color-map"
+      ],
+      "text": "f0066968dbc63f7626b52038afab36d89fb1254274cfa77cfb4501a39def61b4",
+      "links": "f7e666aad5d39efd85ff216e03ea34c02f21f5f6eb2d43ee4796f471a85507c0",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "adding-new-sounds-to-animations": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "preparing-the-necessary-software",
+          "Preparing the necessary software"
+        ],
+        [
+          "h3",
+          "installing-re_kenshi",
+          "Installing RE_Kenshi"
+        ],
+        [
+          "h3",
+          "installing-wwise-version-201413",
+          "Installing Wwise version 2014.1.3"
+        ],
+        [
+          "h3",
+          "format",
+          "Format"
+        ],
+        [
+          "h3",
+          "get-the-sound-event-name",
+          "Get the sound event name"
+        ],
+        [
+          "h2",
+          "setting-up-fcs-and-adding-sound-events",
+          "Setting up FCS and adding sound events"
+        ],
+        [
+          "h2",
+          "sound-volume-attenuation-setting-based-on-camera-distance",
+          "Sound volume attenuation setting based on camera distance"
+        ],
+        [
+          "h2",
+          "switch-configuration",
+          "Switch Configuration"
+        ],
+        [
+          "h2",
+          "sound-event-name-list",
+          "Sound Event Name List"
+        ],
+        [
+          "h2",
+          "switch-list",
+          "Switch List"
+        ]
+      ],
+      "ids": [
+        "preparing-the-necessary-software",
+        "installing-re_kenshi",
+        "installing-wwise-version-201413",
+        "format",
+        "get-the-sound-event-name",
+        "setting-up-fcs-and-adding-sound-events",
+        "sound-volume-attenuation-setting-based-on-camera-distance",
+        "switch-configuration",
+        "sound-event-name-list",
+        "switch-list"
+      ],
+      "text": "3b852c4248b1c0c37b64f66c54cbfc8163ce82b0edbcbc520ca88536af88f755",
+      "links": "8c9b63de5af200397f8833cf617f3d8c4c667a7f794827a7a3552901450f8350",
+      "tables": "26d8a9c5d805c4772fbcc8adfd1fbaa35a87e0be0b0430963ab64ef76bea2663",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "ai-goals": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "ai-goals",
+          "AI Goals"
+        ],
+        [
+          "h2",
+          "classification",
+          "Classification"
+        ],
+        [
+          "h2",
+          "ending",
+          "Ending"
+        ],
+        [
+          "h2",
+          "targeting",
+          "Targeting"
+        ],
+        [
+          "h2",
+          "enums",
+          "Enums"
+        ],
+        [
+          "h2",
+          "ai-goals-and-their-weights",
+          "AI Goals and their Weights"
+        ]
+      ],
+      "ids": [
+        "ai-goals",
+        "classification",
+        "ending",
+        "targeting",
+        "enums",
+        "ai-goals-and-their-weights"
+      ],
+      "text": "b1e9283dc34823617b2bd6af5418b9ba7c227ae793308be91fb7cda922a73fc7",
+      "links": "90e59f0d8c8e403b4bcc7dc952fc3728aff68c4f0ba52a1589e48a99e6cd2b99",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "ai-packages": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "ai-packages",
+          "AI Packages"
+        ],
+        [
+          "h2",
+          "clears-existing-jobs",
+          "Clears Existing Jobs"
+        ],
+        [
+          "h2",
+          "signal-function",
+          "Signal Function"
+        ],
+        [
+          "h2",
+          "unloaded-function",
+          "Unloaded Function"
+        ]
+      ],
+      "ids": [
+        "ai-packages",
+        "clears-existing-jobs",
+        "signal-function",
+        "unloaded-function"
+      ],
+      "text": "22ddd818e197b4e51e63bdaee3b1c5eeb6b2be9417321f620b1dd175aaf9a6c7",
+      "links": "051b20c52867aaa6a85438dbea7a08b674db76752c3f6d9a4c057be23b6c6927",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "armor-stats": {
+      "code": [],
+      "headings": [],
+      "ids": [
+        "cite_ref-1",
+        "cite_note-1"
+      ],
+      "text": "4c9cdcf30f1576a1b167ad1f326bba6c4a3ba583ba2e0b714137ec1b6327d70b",
+      "links": "05c0f0f1cf7dc80a97615dda77841ec86f5bf74135aadd3bf8300d1bb46b68e8",
+      "tables": "3eb37a1d8ba3daba274e03bedac7a94f33d0b541d3fc2e2e4ba237845971cbd3",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "building-making-tutorial": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "basics",
+          "Basics"
+        ],
+        [
+          "h3",
+          "about-ceilings-and-floors",
+          "About ceilings and floors"
+        ],
+        [
+          "h3",
+          "doors",
+          "Doors"
+        ],
+        [
+          "h3",
+          "making-a-custom-collision",
+          "Making a custom collision"
+        ],
+        [
+          "h3",
+          "the-mask-mesh-and-mask-trigger",
+          "The Mask Mesh and Mask Trigger"
+        ],
+        [
+          "h3",
+          "the-black-and-black-upper",
+          "The Black and Black upper"
+        ],
+        [
+          "h3",
+          "what-part-on-which-level",
+          "What part on which level"
+        ],
+        [
+          "h3",
+          "troubleshooting",
+          "Troubleshooting"
+        ],
+        [
+          "h4",
+          "why-doesnt-my-game-load",
+          "Why doesn’t my game load?"
+        ],
+        [
+          "h4",
+          "why-does-my-walls-look-like-they-exploded--a-graphics-malfunction",
+          "Why does my walls look like they exploded ( a graphics malfunction)"
+        ],
+        [
+          "h4",
+          "why-does-the-game-crash",
+          "Why does the game crash?"
+        ],
+        [
+          "h4",
+          "why-does-my-character-sink-through-the-floor-or-walk-through-walls",
+          "Why does my character sink through the floor, or walk through walls?"
+        ],
+        [
+          "h4",
+          "why-cant-my-character-enter-the-building-i-made",
+          "Why can’t my character enter the building I made?"
+        ],
+        [
+          "h4",
+          "why-does-my-building-have-gaps-between-levels",
+          "Why does my building have gaps between levels?"
+        ],
+        [
+          "h4",
+          "why-is-there-an-invisible-thing-around-my-building-that-makes-the-ground-vanish",
+          "Why is there an invisible thing around my building that makes the ground vanish?"
+        ]
+      ],
+      "ids": [
+        "basics",
+        "about-ceilings-and-floors",
+        "doors",
+        "making-a-custom-collision",
+        "the-mask-mesh-and-mask-trigger",
+        "the-black-and-black-upper",
+        "what-part-on-which-level",
+        "troubleshooting",
+        "why-doesnt-my-game-load",
+        "why-does-my-walls-look-like-they-exploded--a-graphics-malfunction",
+        "why-does-the-game-crash",
+        "why-does-my-character-sink-through-the-floor-or-walk-through-walls",
+        "why-cant-my-character-enter-the-building-i-made",
+        "why-does-my-building-have-gaps-between-levels",
+        "why-is-there-an-invisible-thing-around-my-building-that-makes-the-ground-vanish"
+      ],
+      "text": "52190cb818ba7f2bf424e52a06ad82c058812d9991c1b5eed88e697d98fe92ec",
+      "links": "eb8705a9e38c2497a540bbdc83f33bf62443ac2b3f930860bc1673aef3a45e6e",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "changing-town-ownership": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "to-make-the-town-originally-of-another-faction",
+          "To make the town originally of another faction"
+        ],
+        [
+          "h2",
+          "to-make-the-town-change-ownership-mid-game-upon-player-interaction-using-world-states",
+          "To make the town change ownership mid game upon player interaction using World States"
+        ],
+        [
+          "h2",
+          "how-to-change-the-ownership-of-the-town-mid-game-manually-without-using-world-states",
+          "How to change the ownership of the town mid game manually without using World States"
+        ]
+      ],
+      "ids": [
+        "to-make-the-town-originally-of-another-faction",
+        "to-make-the-town-change-ownership-mid-game-upon-player-interaction-using-world-states",
+        "how-to-change-the-ownership-of-the-town-mid-game-manually-without-using-world-states"
+      ],
+      "text": "993b4c8d3d1fcf487a661b5359109aeec1a219de01cc2e01e121de913a81804e",
+      "links": "a91ea20e243f2b177651b3ecf4681d5275545c16e9968447bf865a1b8db679b3",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "character-fcs": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "attributes",
+          "Attributes"
+        ],
+        [
+          "h3",
+          "base",
+          "Base"
+        ],
+        [
+          "h3",
+          "bounty",
+          "Bounty"
+        ],
+        [
+          "h3",
+          "general",
+          "General"
+        ],
+        [
+          "h3",
+          "levels",
+          "Levels"
+        ],
+        [
+          "h3",
+          "money",
+          "Money"
+        ],
+        [
+          "h3",
+          "tags",
+          "Tags"
+        ],
+        [
+          "h3",
+          "type",
+          "Type"
+        ],
+        [
+          "h2",
+          "references",
+          "References"
+        ]
+      ],
+      "ids": [
+        "attributes",
+        "base",
+        "bounty",
+        "general",
+        "levels",
+        "money",
+        "tags",
+        "type",
+        "references"
+      ],
+      "text": "c693e4158f668200ec8fdf871ffb5c0e1054598fa760d05d8b99dbc184cb7bf3",
+      "links": "eb579c3bfcbaec2a016aff4b0cf96f6197856322afaae6579c594f31526a294a",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "character-portrait-appearing-behind-other-character-portraits": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "reason-no-additional-skeletonless-mesh",
+          "Reason: No additional skeletonless mesh"
+        ],
+        [
+          "h4",
+          "races-with-vanilla-armature",
+          "RACES WITH VANILLA ARMATURE"
+        ],
+        [
+          "h4",
+          "races-with-a-custom-armature",
+          "RACES WITH A CUSTOM ARMATURE"
+        ],
+        [
+          "h2",
+          "reason-skeleton-and-mesh-disjoint",
+          "Reason: skeleton and mesh disjoint"
+        ],
+        [
+          "h3",
+          "how-to-copy-animation-data",
+          "How to copy animation data"
+        ],
+        [
+          "h3",
+          "how-to-change-animation-strip-names-in-blender",
+          "How to change animation strip names in Blender"
+        ]
+      ],
+      "ids": [
+        "reason-no-additional-skeletonless-mesh",
+        "races-with-vanilla-armature",
+        "races-with-a-custom-armature",
+        "reason-skeleton-and-mesh-disjoint",
+        "how-to-copy-animation-data",
+        "how-to-change-animation-strip-names-in-blender"
+      ],
+      "text": "52bc47a20c734388396b94b5460cb96d62f616dd698b246c0f8fc743e89d54fb",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "collision-in-context-of-furniture-with-animations": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "55274cad82ed4615f868d6ff735695c83dc993aded567a7a0d9d3ebab0542a87",
+      "links": "f326181a5cb4192b3fcaddf52c5a717676cb5d30b3033a3022161b4bf7f18c8a",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "colour-scheme": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "dyeing-armour",
+          "Dyeing Armour"
+        ],
+        [
+          "h2",
+          "colour-compatible-armours",
+          "Colour Compatible Armours"
+        ],
+        [
+          "h2",
+          "colours",
+          "Colours"
+        ],
+        [
+          "h2",
+          "modding",
+          "Modding"
+        ],
+        [
+          "h2",
+          "history",
+          "History"
+        ],
+        [
+          "h3",
+          "unused-icons",
+          "Unused icons"
+        ]
+      ],
+      "ids": [
+        "dyeing-armour",
+        "colour-compatible-armours",
+        "colours",
+        "modding",
+        "history",
+        "unused-icons"
+      ],
+      "text": "bff3b61db13962a84c71b5495cd1c934df8f5e3b03b03af5061d35ba29519d3c",
+      "links": "c57f2712156342ec933637b04d7c148fc483c647334f7e862e66d253d7b13224",
+      "tables": "27d0af0ae1981ba4bc42db4582125ae2c4b2fbf29ae5e2e6f7bdb8125972fac3",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "creating-a-new-game-start": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "689dcbffbc7ce4209444f28010afbfdb919c2c4d3df2f433539bdd658af74d04",
+      "links": "e8571c0a83ab6c37335402373b92a95243e8a202d64f6a01d34062e951dfb3b8",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "creating-a-rideable-animal/vehicle": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "about-skeletons-and-portraits",
+          "About Skeletons and Portraits"
+        ],
+        [
+          "h2",
+          "rideable-animals-core-issue",
+          "Rideable animals’ core issue."
+        ],
+        [
+          "h3",
+          "whatthebull-why-so-many-problems-with-the-sage-steeds-bulls",
+          "Whatthebull? Why so many problems with the Sage Steeds bulls?"
+        ],
+        [
+          "h2",
+          "how-to-make-your-very-own-rideable-non-humanoid-skeleton",
+          "How to make your very own rideable non-humanoid skeleton"
+        ],
+        [
+          "h3",
+          "tips--facts",
+          "TIPS & FACTS"
+        ],
+        [
+          "h2",
+          "how-to-add-bones",
+          "How to add bones"
+        ],
+        [
+          "h3",
+          "the-bone-for-rider-on-the-toters-back",
+          "The bone for rider on the toter’s back"
+        ],
+        [
+          "h3",
+          "the-entire-linked-bone-chain-behind-a-male_skeleton-sept-2022",
+          "The entire linked bone-chain behind a male_skeleton (Sept 2022)"
+        ],
+        [
+          "h2",
+          "stumps-and-combat-anatomy",
+          "Stumps and Combat Anatomy"
+        ],
+        [
+          "h2",
+          "renaming-bones-mid-project",
+          "Renaming Bones Mid-Project"
+        ],
+        [
+          "h2",
+          "robotic-limbs",
+          "Robotic Limbs"
+        ],
+        [
+          "h2",
+          "shoes",
+          "Shoes"
+        ],
+        [
+          "h2",
+          "gear-icons",
+          "Gear Icons"
+        ],
+        [
+          "h2",
+          "animation",
+          "Animation"
+        ],
+        [
+          "h3",
+          "vanilla-animation-names-list",
+          "Vanilla Animation Names List"
+        ],
+        [
+          "h2",
+          "textures",
+          "Textures"
+        ],
+        [
+          "h2",
+          "troubleshooting",
+          "Troubleshooting"
+        ]
+      ],
+      "ids": [
+        "about-skeletons-and-portraits",
+        "rideable-animals-core-issue",
+        "whatthebull-why-so-many-problems-with-the-sage-steeds-bulls",
+        "how-to-make-your-very-own-rideable-non-humanoid-skeleton",
+        "tips--facts",
+        "how-to-add-bones",
+        "the-bone-for-rider-on-the-toters-back",
+        "the-entire-linked-bone-chain-behind-a-male_skeleton-sept-2022",
+        "stumps-and-combat-anatomy",
+        "renaming-bones-mid-project",
+        "robotic-limbs",
+        "shoes",
+        "gear-icons",
+        "animation",
+        "vanilla-animation-names-list",
+        "textures",
+        "troubleshooting",
+        "glossary"
+      ],
+      "text": "87a8d5729ac8da3582ae35aa498e589838b83a778362cad96ecd585a6f0f8047",
+      "links": "29d7953a291963325db555131b91cdfbbacf3436265c8ebab072cebc93e867b7",
+      "tables": "ea2bd902cf1ac3e47850175c7691489d3d27a15e4226f28f55ec149b1a1b145c",
+      "facts": "22e0a1531f761057af019058a3e6b9eb5093a87988d1a9f14333b4e8dbae32d4",
+      "images": [],
+      "emptyGallery": false
+    },
+    "creating-a-special-placeable/lootable-item-for-your-town": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "0f0b61aea7528445dab615557ad435c5d0988845a10a337110936cb419029d09",
+      "links": "021fef150bc485657e6a04a8c72127217436c5577c2dc6b49491d810f04d3411",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "creating-an-animal-race": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "race",
+          "Race"
+        ],
+        [
+          "h3",
+          "combat-anatomy",
+          "Combat Anatomy"
+        ],
+        [
+          "h2",
+          "ragdoll",
+          "Ragdoll"
+        ],
+        [
+          "h2",
+          "mesh-and-textures",
+          "Mesh and Textures"
+        ],
+        [
+          "h2",
+          "animations",
+          "Animations"
+        ],
+        [
+          "h2",
+          "animal-character",
+          "Animal Character"
+        ],
+        [
+          "h3",
+          "animal-attack",
+          "Animal attack"
+        ],
+        [
+          "h3",
+          "animal-weapon",
+          "Animal Weapon"
+        ],
+        [
+          "h2",
+          "spawning",
+          "Spawning"
+        ],
+        [
+          "h3",
+          "1-game-start-as-a-companion-to-a-human",
+          "1. Game start, as a companion to a human"
+        ],
+        [
+          "h3",
+          "2-animal-trader-in-game",
+          "2. Animal trader in game"
+        ],
+        [
+          "h3",
+          "3-spawning-in-nests-and-spawning-as-homeless-squads",
+          "3. Spawning in nests and Spawning as homeless squads"
+        ],
+        [
+          "h3",
+          "4-and-5-spawning-as-companions-or-residents",
+          "4 and 5. Spawning as companions or residents"
+        ]
+      ],
+      "ids": [
+        "race",
+        "combat-anatomy",
+        "ragdoll",
+        "mesh-and-textures",
+        "animations",
+        "animal-character",
+        "animal-attack",
+        "animal-weapon",
+        "spawning",
+        "1-game-start-as-a-companion-to-a-human",
+        "2-animal-trader-in-game",
+        "3-spawning-in-nests-and-spawning-as-homeless-squads",
+        "4-and-5-spawning-as-companions-or-residents"
+      ],
+      "text": "3ea691adc4213d1e29bcbd8b0e166e2f3310dfa850c0a25048a7a1576543c956",
+      "links": "f54cb1094ee849a8ef62f1a6268e33fd0bd02d3f31f3041f9592337646af9ccd",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "creating-custom-weapons": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "rules",
+          "Rules"
+        ],
+        [
+          "h2",
+          "how-to-set-up-the-melee-weapon-in-fcs",
+          "How to set up the melee weapon in FCS"
+        ],
+        [
+          "h3",
+          "requirements",
+          "Requirements"
+        ],
+        [
+          "h3",
+          "adding-the-weapon",
+          "Adding The Weapon"
+        ],
+        [
+          "h3",
+          "adding-a-mesh-to-the-weapon",
+          "Adding a mesh to the weapon"
+        ],
+        [
+          "h3",
+          "creating-a-new-research",
+          "Creating a new research"
+        ],
+        [
+          "h3",
+          "rules-1",
+          "Rules"
+        ],
+        [
+          "h3",
+          "projectile-aka-live-ammo",
+          "Projectile AKA Live Ammo"
+        ],
+        [
+          "h3",
+          "textures",
+          "Textures"
+        ],
+        [
+          "h3",
+          "animations",
+          "Animations"
+        ]
+      ],
+      "ids": [
+        "melee-weapons",
+        "rules",
+        "how-to-set-up-the-melee-weapon-in-fcs",
+        "requirements",
+        "adding-the-weapon",
+        "adding-a-mesh-to-the-weapon",
+        "creating-a-new-research",
+        "ranged-weapons",
+        "rules-1",
+        "projectile-aka-live-ammo",
+        "textures",
+        "animations"
+      ],
+      "text": "f1a80a706f345be324f2c02de6ea93ab332023e0320f7b03da741c01162528c6",
+      "links": "dc018830a231d34d85cf7fd6d3e4414c706ff5adc3dfeb66bf23d32b76820876",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "creating-new-towns": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "step-1-creating-the-mod-file",
+          "Step 1: Creating the mod file"
+        ],
+        [
+          "h2",
+          "step-2-modifying-the-newly-created-file",
+          "Step 2: Modifying the newly created file"
+        ],
+        [
+          "h2",
+          "step-3-making-the-town-while-ingame",
+          "Step 3: Making the town while ingame"
+        ],
+        [
+          "h2",
+          "step-4-interiors-and-exteriors",
+          "Step 4: Interiors and Exteriors"
+        ],
+        [
+          "h4",
+          "interiors",
+          "Interiors"
+        ],
+        [
+          "h4",
+          "exteriors",
+          "Exteriors"
+        ],
+        [
+          "h2",
+          "step-5-population",
+          "Step 5: Population"
+        ],
+        [
+          "h2",
+          "sometimes-it-happens-when-one-copies-a-town-file-one-of-the-squads-listed-in-faction-may-have-a-higher-priority-to-spawn-so-keep-this-in-mind",
+          "Sometimes it happens when one copies a town file, one of the squads listed in faction may have a higher priority to spawn, so keep this in mind."
+        ],
+        [
+          "h2",
+          "residents",
+          "Residents"
+        ],
+        [
+          "h3",
+          "housemates",
+          "Housemates"
+        ],
+        [
+          "h2",
+          "notes",
+          "Notes"
+        ]
+      ],
+      "ids": [
+        "step-1-creating-the-mod-file",
+        "step-2-modifying-the-newly-created-file",
+        "step-3-making-the-town-while-ingame",
+        "step-4-interiors-and-exteriors",
+        "interiors",
+        "exteriors",
+        "step-5-population",
+        "sometimes-it-happens-when-one-copies-a-town-file-one-of-the-squads-listed-in-faction-may-have-a-higher-priority-to-spawn-so-keep-this-in-mind",
+        "residents",
+        "housemates",
+        "notes"
+      ],
+      "text": "e89b46d2a52a308a4bd1888152fb5b0c3ed95366d5dcee470a4b72980e51b411",
+      "links": "710fdaed94ec255e3b9f6553676d1f2829c6be319d590212aad196e04d79066e",
+      "tables": "a23ce88216f4d1335f3e65cfe4f8ab8c78c1e6520b56ead93c70e65a3df6a15f",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "custom-character-mesh-and-editor-sliders": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "basic-how-to",
+          "Basic how to"
+        ],
+        [
+          "h3",
+          "slider-names",
+          "Slider names"
+        ]
+      ],
+      "ids": [
+        "basic-how-to",
+        "slider-names"
+      ],
+      "text": "5e7b96e0319a8875f5696a6d9db6a2580d008d1a0e81aa1bf6a6d768f0771580",
+      "links": "033181655e38208e79393f6abcf453dbe506684a8414068598f983b1ee3f6809",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "custom-character-model-and-rigging-to-kenshi-armature": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "cdd37a58e0be3b145361aec62791d5347fb24a03ba17d7f83abbd28eed2c29ed",
+      "links": "f1c8d79ebecad2230a6e43e0c6da0aae6225ae5c6c5c40a0af0a0191854c37b7",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "custom-character-race-and-normal-map-displacement-map": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "forewords",
+          "Forewords"
+        ],
+        [
+          "h2",
+          "how-to-convert-a-gggr-into-a-normal-map-reverse-engineering",
+          "How to convert a GGGR into a normal map (reverse engineering)"
+        ],
+        [
+          "h2",
+          "how-to-convert-a-normal-map-into-gggr-professional-image-editing-tool",
+          "How to convert a normal map into GGGR (Professional Image Editing tool)"
+        ],
+        [
+          "h2",
+          "how-to-convert-a-normal-map-into-gggr-map-using-only-gimp",
+          "How to convert a normal map into GGGR map using only Gimp"
+        ]
+      ],
+      "ids": [
+        "forewords",
+        "how-to-convert-a-gggr-into-a-normal-map-reverse-engineering",
+        "how-to-convert-a-normal-map-into-gggr-professional-image-editing-tool",
+        "how-to-convert-a-normal-map-into-gggr-map-using-only-gimp"
+      ],
+      "text": "5ac40b2f1601ae952902abfe2cd772f5fab2cb5b9ab5d05d1c07f730d5daa001",
+      "links": "07388982f47717adaad7c1a5f3333d95acccc7217e9ad3ea8722faba93dba5c3",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "dialogue-conditions-effects": {
+      "code": [],
+      "headings": [],
+      "ids": [
+        "conditions",
+        "dialogue-actions-aka-effects",
+        "editable-properties-aka-effect-conditions",
+        "cite_ref-1",
+        "cite_note-1"
+      ],
+      "text": "f1f705a769f07f4438aafc2f578e584a6ddcdf354593f32d943069100420f315",
+      "links": "0e2a5a917ace2675065680f451d7fe0650ac17f49097ba83df3952df96550667",
+      "tables": "5a2b5cb8745b9db450f90151997f453dcdd3314556f9ed923d2ecfd47f006815",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "dialogue-events": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "events",
+          "Events"
+        ]
+      ],
+      "ids": [
+        "events"
+      ],
+      "text": "169330ac7e3ba72d721d38a69c0a971d94f965fc7ae1921ce77c4b8192895a12",
+      "links": "876a133628ecd7171e714c6252896d5729e1de69c00a1f16cd9f07d23b7f2085",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "dialogue-structure-overlook": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "limitations",
+          "Limitations"
+        ],
+        [
+          "h3",
+          "features-aka-tips-what-you-can-do-in-the-dialogue-tree",
+          "Features (aka tips what you can do in the dialogue tree)"
+        ],
+        [
+          "h3",
+          "looking-for-a-specific-line-to-study-or-replace",
+          "Looking for a specific line to study or replace?"
+        ],
+        [
+          "h3",
+          "bar-talk-interjectors",
+          "Bar talk (interjectors)"
+        ],
+        [
+          "h3",
+          "conversation",
+          "Conversation"
+        ],
+        [
+          "h3",
+          "monologue",
+          "Monologue"
+        ],
+        [
+          "h3",
+          "interjectors",
+          "Interjectors"
+        ],
+        [
+          "h3",
+          "using-faction-reputations-as-boolean",
+          "Using Faction Reputations as Boolean"
+        ],
+        [
+          "h3",
+          "using-real-faction-relations-as-boolean",
+          "Using Real Faction Relations as Boolean"
+        ],
+        [
+          "h3",
+          "using-other-world-states-as-boolean-not-linked-to-faction-ally-status",
+          "Using Other World States as Boolean (not linked to faction ally status)"
+        ],
+        [
+          "h3",
+          "checking-against-items-in-inventory",
+          "Checking against items in inventory"
+        ],
+        [
+          "h3",
+          "using-fake-factions-and-faction-relations-world-states-as-boolean",
+          "Using Fake Factions and Faction Relations World States as Boolean"
+        ],
+        [
+          "h3",
+          "using-unlocking-and-locking-dialogues-as-boolean",
+          "Using Unlocking and Locking dialogues as Boolean"
+        ]
+      ],
+      "ids": [
+        "forewords",
+        "limitations",
+        "features-aka-tips-what-you-can-do-in-the-dialogue-tree",
+        "looking-for-a-specific-line-to-study-or-replace",
+        "dialogue-types",
+        "bar-talk-interjectors",
+        "conversation",
+        "monologue",
+        "interjectors",
+        "triggersevents",
+        "booleans",
+        "using-faction-reputations-as-boolean",
+        "using-real-faction-relations-as-boolean",
+        "using-other-world-states-as-boolean-not-linked-to-faction-ally-status",
+        "checking-against-items-in-inventory",
+        "using-fake-factions-and-faction-relations-world-states-as-boolean",
+        "using-unlocking-and-locking-dialogues-as-boolean",
+        "word-swaps",
+        "targeting",
+        "text-formatting",
+        "conditions-and-effects-dialogue-priority",
+        "glossary"
+      ],
+      "text": "0d1ecb870320194391458a911a2c656e6eb3ea0fdbbc7cf791c11f69af773ea4",
+      "links": "dda1f33a729afa5abed0f8f135a26b8eb2f29faa774b4120e460be8eebc6cdeb",
+      "tables": "2b4c2c8631c2ec8814e58c7a048034bdded75382fc497efcaf6203ea0afe16b6",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "dialogue-targeting": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "target-options-in-conditions",
+          "Target options in Conditions"
+        ],
+        [
+          "h4",
+          "t_me",
+          "T_ME"
+        ],
+        [
+          "h4",
+          "t_target",
+          "T_TARGET"
+        ],
+        [
+          "h4",
+          "t_target_if_player",
+          "T_TARGET_IF_PLAYER"
+        ],
+        [
+          "h4",
+          "t_interjector-123",
+          "T_INTERJECTOR (1,2,3)"
+        ]
+      ],
+      "ids": [
+        "target-options-in-conditions",
+        "t_me",
+        "t_target",
+        "t_target_if_player",
+        "t_interjector-123"
+      ],
+      "text": "8f99adca651e1e571a15ae14b4f0c9076b947db9798408a290777b2ad72477d3",
+      "links": "a47d8122c86e379282764413a3f7825e581d9e00b22d363d4b1835dbf41caf8a",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "dialogue-text-formatting-colors-italics-etc": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "creative-typing",
+          "Creative typing"
+        ],
+        [
+          "h3",
+          "color",
+          "Color"
+        ],
+        [
+          "h3",
+          "bold-and-italics",
+          "Bold and Italics"
+        ]
+      ],
+      "ids": [
+        "how-to-make-the-text-inside-the-dialogue-to-stand-out",
+        "creative-typing",
+        "color",
+        "bold-and-italics"
+      ],
+      "text": "b8bdee5d88db8c6d428c0f96326539dcdba3bf5987289643a5ca2560947bf193",
+      "links": "e56b4239b6e9bc52c806a9b0be2d0d3af843d455031c4ab9088a77bbc55d755e",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "dialogue-triggers-usage": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "38b2c57c1968cd6f2e5a269ad9f5b02d4871cfdcc25bcbea105d47339bb07e14",
+      "links": "b9d1cac67e0734926e97d3fcf67c4566f78aabb2f3a460b1c89cd835323ee0b1",
+      "tables": "1b97a4a65bd7fcf7d2f6f64b30e8cd3dbba0f3c0b3b9e0b556739c31a4c005d5",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "dialogue-word-swaps": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "3ede103aef2eb9e7c865b9dd232a4be13c4e383f58b9624e0c57b12259014cb4",
+      "links": "7d9638ab7f8c52fb3ee898b369bdf75194d0b74e7119f9767bd0dd6297155189",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "example-on-color-map-process": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "b6dfa6b04eb91133c1538991c8435921baaf7ded917f8f052ea5bd6e25da8ebc",
+      "links": "9b186978a8f63d483100f69ab69f19e32e6d57272531aae570ab8c390ef67b08",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "fcs-load-order-color-definitions": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "98d25e1ad90326c32ffd9d4a275fb344e6f5c42546c1c969b33b430845e5cc6c",
+      "links": "1bff5a23a3df2d4a3b237a7ae07e4c96bbff1f70ce0b7ffb4b0749cdb4587d68",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "fcs-new-abilities-on-version-1.0.65-onwards": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "939284e60d89f3f34e128529231b4af4a1a213b94aaaf5f916ef384f80cf0a25",
+      "links": "5a7e7994457d0082e10cd1fa2fd4876217aa2fb3c4c4fa358dd7bd037f40d241",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "fix-for-fcs-error-after-opting-out-from-experimental": {
+      "code": [],
+      "headings": [
+        [
+          "h4",
+          "heres-the-fix",
+          "Here’s the fix"
+        ]
+      ],
+      "ids": [
+        "heres-the-fix"
+      ],
+      "text": "03374dd63d7f3da90ee486269e9546ce6999bf99d0a742cd62ae1551cda0ab82",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "follow-player": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "option-a",
+          "Option A"
+        ],
+        [
+          "h3",
+          "option-b",
+          "Option B"
+        ]
+      ],
+      "ids": [
+        "option-a",
+        "option-b"
+      ],
+      "text": "3aeb212794d16f9e6edc8f7455efae6e27e389e2b64da68d9811784b09176d34",
+      "links": "3a560d68e0e5ac8152b6a7ea4d1e473e955078b29c0379c5cbd896ec5f29f9d4",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "forgotten-construction-set": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "creating-a-modification",
+          "Creating a Modification"
+        ],
+        [
+          "h4",
+          "making-a-new-mod-file",
+          "Making a new .mod file"
+        ],
+        [
+          "h4",
+          "editing-your-new-mod",
+          "Editing your new mod"
+        ],
+        [
+          "h2",
+          "translations",
+          "Translations"
+        ],
+        [
+          "h2",
+          "see-also",
+          "See also"
+        ],
+        [
+          "h2",
+          "external-links",
+          "External links"
+        ]
+      ],
+      "ids": [
+        "creating-a-modification",
+        "making-a-new-mod-file",
+        "editing-your-new-mod",
+        "translations",
+        "see-also",
+        "external-links"
+      ],
+      "text": "de8dc12fad8f24047f4ea548ee17ccd67243e6de69ccd9a58db5490fc6ea494c",
+      "links": "c8c2f697700038a871b3e7eaf389c4e6139b3ad86377e56f09a1fbd7f52d7165",
+      "tables": "b79ad5b3a0c72f85c6f10dd98a8711625f0424daacf35d1a7857a0d242b0b189",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "global-game-settings": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "wip",
+          "WIP"
+        ],
+        [
+          "h2",
+          "block-success",
+          "Block success"
+        ],
+        [
+          "h2",
+          "combat-balance",
+          "Combat balance"
+        ],
+        [
+          "h2",
+          "combat-damage",
+          "Combat damage"
+        ],
+        [
+          "h2",
+          "faction",
+          "Faction"
+        ],
+        [
+          "h2",
+          "game-speeds",
+          "GAME SPEEDS"
+        ],
+        [
+          "h2",
+          "general",
+          "General"
+        ],
+        [
+          "h2",
+          "global-balance",
+          "Global balance"
+        ],
+        [
+          "h2",
+          "hunger",
+          "Hunger"
+        ],
+        [
+          "h2",
+          "medic",
+          "Medic"
+        ],
+        [
+          "h2",
+          "medical",
+          "Medical"
+        ],
+        [
+          "h2",
+          "prices",
+          "Prices"
+        ],
+        [
+          "h2",
+          "weather",
+          "Weather"
+        ],
+        [
+          "h2",
+          "weight",
+          "Weight"
+        ],
+        [
+          "h2",
+          "xp",
+          "XP"
+        ]
+      ],
+      "ids": [
+        "wip",
+        "block-success",
+        "combat-balance",
+        "combat-damage",
+        "faction",
+        "game-speeds",
+        "general",
+        "global-balance",
+        "hunger",
+        "medic",
+        "medical",
+        "prices",
+        "weather",
+        "weight",
+        "xp"
+      ],
+      "text": "d84836ddb534f4b253fff60276a240753a0aa89214ed0427f9e05999e8585ac9",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-claim-town-ownership-cheat": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "option-1-mods",
+          "Option 1: Mods"
+        ],
+        [
+          "h3",
+          "option-2-using-the-in-game-editor",
+          "Option 2: Using the in-game editor:"
+        ],
+        [
+          "h3",
+          "option-3-fcs-or-save-editing-save-editing-101-by-shidan",
+          "Option 3: FCS or save editing: Save Editing 101 By Shidan"
+        ]
+      ],
+      "ids": [
+        "option-1-mods",
+        "option-2-using-the-in-game-editor",
+        "option-3-fcs-or-save-editing-save-editing-101-by-shidan"
+      ],
+      "text": "ed086c8ab9ce053988c276cf71f7450fe58c114cee64b0acb180db7f5694239d",
+      "links": "a15f95d7597a742ea714a6034cbc6c69eb0dbddbd4a5ca464c25aad918ae2371",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-find-a-specific-dialogue-line": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "heres-how",
+          "Here’s how:"
+        ]
+      ],
+      "ids": [
+        "heres-how"
+      ],
+      "text": "6822d26cfd578702a0cf84f099c3596935aa9973c6870cfaf7e74696de0d8261",
+      "links": "020e2349df0a565ead71f5f4d8c15c68c2c090a26b8e003d292ce5c269e7103f",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-kill-npcs-at-game-start": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "7ddaa7ef3ecf57796fb8076e398431c42948d7b5daa0da599c7b4f2745fb7dc0",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-a-bed-that-is-fast-healing": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "0dc7bfc466ce145fcd8e50c09df6f76d30de50feea09c93d7712232180388c70",
+      "links": "9599d35d8be4a8faeb57730f00c040aa752576ba28eb8555f1deb3158e3fa94f",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-a-color-map-for-your-armor": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "whatis-acolor-map",
+          "What is a color map?"
+        ],
+        [
+          "h2",
+          "facts",
+          "Facts"
+        ],
+        [
+          "h2",
+          "step-by-using-the-texture-as-a-reference",
+          "Step-by using the texture as a reference"
+        ],
+        [
+          "h2",
+          "step-by-using-the-uv-map-as-a-reference",
+          "Step-by using the UV map as a reference"
+        ],
+        [
+          "h2",
+          "glossary",
+          "Glossary"
+        ]
+      ],
+      "ids": [
+        "whatis-acolor-map",
+        "facts",
+        "step-by-using-the-texture-as-a-reference",
+        "step-by-using-the-uv-map-as-a-reference",
+        "glossary"
+      ],
+      "text": "d38b1cc94dda46e5edd849149b38b168e216aca1fa376c9a5af621f3c58cdf31",
+      "links": "c2761c784e850c61861e77a9b6f8ece6db3f4d290d8cbc5c1a411157f67b3064",
+      "tables": "23685eb865f33704bb469518fe21cc6330b63cdaed94845bc4b7188a54dea1d5",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-a-custom-appearance-for-a-npc-aka-how-to-make-a-bod2-file": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "pointers-when-making-a-custom-bod2-file-for-a-mod-you-are-going-to-publish",
+          "Pointers when making a custom bod2 file for a mod you are going to publish:"
+        ]
+      ],
+      "ids": [
+        "pointers-when-making-a-custom-bod2-file-for-a-mod-you-are-going-to-publish"
+      ],
+      "text": "4875c13bc3015d71eadb22479bac02411c96968c6ef688f979583a87b07d6f38",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-a-custom-name-database-for-a-custom-race": {
+      "code": [],
+      "headings": [],
+      "ids": [
+        "basics",
+        "how-to-generate-pseudo-random-names"
+      ],
+      "text": "1717481cfe2c2be4e8ab627ab96311e9b4d2f8938457d965084a6f35a0a98846",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-a-custom-start-mod-with-characters-from-other-mods": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "32e95ec0e590dff922bd846518043cbbb4e276ce6e2feb4190073488ce867cfa",
+      "links": "d155bebf1533eee247950cfa0c11666c9c3cf05f82c399b5d4d7663015729cfa",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-a-face/hair-patch-for-modded-and-vanilla-races": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "a772d3288dd6b9d99c18f9b63c6f61e17af421236dc7183e60de34d9551030fd",
+      "links": "6f89bf10779b4d4d9ecef198f48cd938cbc96ea6a00e6f7241bef56199bd966a",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-a-three-person-conversation-including-player": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "81edfcda9357cc83263edb6b40671e77f4104afad38bb549372043e57c4743ac",
+      "links": "222b1fe2322601193bb254d9f6444802a1650cdf4960d11ae224969346bb6ad1",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-a-two-person-chair-multiuser-animations": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "3f5e28adec22f74722fd35c65041768f49380c9f267c1d19c742b192a9103dc0",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-a-war-campaign-or-trader-visit-about-ai-campaigns": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "how-to-set-up-the-campaign",
+          "How to set up the campaign"
+        ]
+      ],
+      "ids": [
+        "how-to-set-up-the-campaign"
+      ],
+      "text": "89365de796f3bc50790eca54380707143fca4e215ef4170a2afb7b056d7a9bf2",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-an-animations/recruitment-patch-mod-for-your-modded-race/character": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "533bd091f76697111246e6a6e121a0b1dac8b223a4a3819f4a1ea0121b46a72a",
+      "links": "1d5d588f4b85a66449d01c88d02fcfd53e9eaa4fa6fc441bdddceda4ee8c4bbd",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-buildings-snap-together-fe-ramps-to-walls": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "snapping-with-nodes-light-node-turret-node",
+          "Snapping with nodes (light node, turret node)"
+        ],
+        [
+          "h2",
+          "snapping-with-origo-alignment-snaps-to",
+          "Snapping with Origo Alignment (snaps to)"
+        ],
+        [
+          "h3",
+          "step-by-step",
+          "Step by step"
+        ],
+        [
+          "h2",
+          "how-to-make-a-multiple-sitter-bench",
+          "How to make a multiple sitter bench"
+        ],
+        [
+          "h2",
+          "glossary",
+          "Glossary"
+        ]
+      ],
+      "ids": [
+        "snapping-with-nodes-light-node-turret-node",
+        "snapping-with-origo-alignment-snaps-to",
+        "step-by-step",
+        "how-to-make-a-multiple-sitter-bench",
+        "glossary"
+      ],
+      "text": "a33259a7b50fc41e262afb3eded46099025334f49b5f1b88ebfb6ead929f6fb7",
+      "links": "459b898f4d203a427b42c5c62ebedb6e7ec7dd85a51c12b64cfd126acab62c2f",
+      "tables": "03120ec8fd132b0fce224df3f58bbf1d8baa59f3355bf5d3e0aa9af6aa996769",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-custom-armour-mesh": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "video-guides",
+          "Video guides:"
+        ],
+        [
+          "h2",
+          "steps-for-a-completely-new-made-from-scratch-armor-mesh",
+          "Steps for a completely new, made from scratch armor mesh"
+        ]
+      ],
+      "ids": [
+        "video-guides",
+        "steps-for-a-completely-new-made-from-scratch-armor-mesh"
+      ],
+      "text": "7050500a42950639a5adb5c291ad96eebc3dbd4f46c7ee0c4284d376e7584ce8",
+      "links": "903554aed89a77036b02c378a73337de4a11024c128f1bec18f9ce1130c872af",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-custom-collision-for-buildings-navmesh": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "tips-by-boron",
+          "Tips by Boron"
+        ],
+        [
+          "h3",
+          "box-colliders",
+          "Box Colliders"
+        ],
+        [
+          "h3",
+          "mesh-colliders",
+          "Mesh Colliders"
+        ],
+        [
+          "h3",
+          "exporting-colliders",
+          "Exporting Colliders"
+        ],
+        [
+          "h3",
+          "doors",
+          "Doors"
+        ],
+        [
+          "h3",
+          "buildings",
+          "Buildings"
+        ],
+        [
+          "h3",
+          "masks",
+          "Masks"
+        ],
+        [
+          "h3",
+          "troubleshooting",
+          "Troubleshooting"
+        ],
+        [
+          "h3",
+          "complex-collisions",
+          "Complex Collisions"
+        ]
+      ],
+      "ids": [
+        "tips-by-boron",
+        "box-colliders",
+        "mesh-colliders",
+        "exporting-colliders",
+        "doors",
+        "buildings",
+        "masks",
+        "troubleshooting",
+        "complex-collisions"
+      ],
+      "text": "e1a6d3a7839f7f68b02e642acc2214b33edab176e559cf9b255c3fc7fc7fe867",
+      "links": "8e3c1029c3b256f08ead1e6d7d0149d5af148da3bd3b37a722e5dd29ce9d0572",
+      "tables": "bd6579ac9c8812102c5571a151b3ee331ba8a60d22be11fb72627649c784eed2",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-custom-hair": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "hair-mesh",
+          "Hair mesh"
+        ],
+        [
+          "h2",
+          "hair-textures",
+          "Hair textures"
+        ],
+        [
+          "h3",
+          "alpha-rejection",
+          "Alpha rejection"
+        ],
+        [
+          "h3",
+          "uv-layout-on-prim",
+          "UV layout on prim"
+        ],
+        [
+          "h2",
+          "hairbases",
+          "Hairbases"
+        ],
+        [
+          "h3",
+          "if-you-are-making-face-paint",
+          "If you are making face paint:"
+        ]
+      ],
+      "ids": [
+        "hair-mesh",
+        "hair-textures",
+        "alpha-rejection",
+        "uv-layout-on-prim",
+        "hairbases",
+        "if-you-are-making-face-paint"
+      ],
+      "text": "894f65e25527c49d385e818a360354c872180341ff19753c2bc8ba2cedbc1878",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-custom-robotic-limbs": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "tips",
+          "Tips"
+        ],
+        [
+          "h3",
+          "setting-up-the-file-in-fcs",
+          "Setting up the file in FCS"
+        ]
+      ],
+      "ids": [
+        "tips",
+        "setting-up-the-file-in-fcs"
+      ],
+      "text": "3e9884d8994073ca47399a4a5b286e15d8b7ad9b2ed16c187cd7386f0ec6826c",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-icons-for-kenshi": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "directory-setup",
+          "Directory setup"
+        ],
+        [
+          "h2",
+          "building-icons",
+          "Building icons"
+        ],
+        [
+          "h2",
+          "item-icons",
+          "Item icons"
+        ],
+        [
+          "h3",
+          "weapons",
+          "Weapons"
+        ],
+        [
+          "h3",
+          "clothing",
+          "Clothing"
+        ],
+        [
+          "h3",
+          "other-items",
+          "Other items"
+        ],
+        [
+          "h2",
+          "other-advice",
+          "Other advice"
+        ],
+        [
+          "h2",
+          "auto-generated-icons",
+          "Auto-Generated Icons"
+        ],
+        [
+          "h3",
+          "troubleshooting",
+          "Troubleshooting"
+        ]
+      ],
+      "ids": [
+        "directory-setup",
+        "building-icons",
+        "item-icons",
+        "weapons",
+        "clothing",
+        "other-items",
+        "other-advice",
+        "auto-generated-icons",
+        "troubleshooting"
+      ],
+      "text": "d02f03a27b2e41b754c98394670de764166eb06fc8187c6e8628f803b7865696",
+      "links": "3be7baed3a34371ce01d47577078a0d4822f85d07961aa2cd5d916af08f7e747",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-make-your-character-totally-invisible": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "eb05db9ff89939ce22ca6b3d27e3b1f7cf18b088dcf35a7912a581001acf402d",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-move-mods-from-workshop-to-kenshi/mods": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "6e0049f821114612b8fdafdb3d361e9a8d3f2f3f0e900d6bceaa2f93b411d195",
+      "links": "15c17f7125feaf7a9a481e3ba4ed526d7adebbe051e3f1364a44d426e1f4f710",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-regenerate-blendmap-files": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "how-to-edit-biomes-with-biomesplitter",
+          "How to edit biomes with BiomeSplitter"
+        ],
+        [
+          "h3",
+          "checklist",
+          "Checklist"
+        ],
+        [
+          "h2",
+          "original-conversation",
+          "Original conversation"
+        ]
+      ],
+      "ids": [
+        "how-to-edit-biomes-with-biomesplitter",
+        "checklist",
+        "original-conversation"
+      ],
+      "text": "fb6660f9902611d5544f95e61facfb4c4fde04ce70659805991a3682b3d6c992",
+      "links": "8911bc1a2e2047093c3dd1aefdebfa8304f30683a54669255d1061e9123dfe9f",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "how-to-use-the-part-map-aka-how-to-make-the-skin-invisible-under-clothes": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "what-is-a-part-map",
+          "What is a part map?"
+        ],
+        [
+          "h3",
+          "how-to-use-the-community-part-map",
+          "How to use the Community Part Map"
+        ],
+        [
+          "h3",
+          "how-to-set-up-the-colors-to-your-armor",
+          "How to set up the colors to your armor"
+        ],
+        [
+          "h2",
+          "faq",
+          "FAQ"
+        ],
+        [
+          "h4",
+          "q-do-i-need-to-use-the-part-map",
+          "Q: Do I need to use the part map?"
+        ],
+        [
+          "h4",
+          "q-why-does-clipping-happen-in-the-first-place",
+          "Q: Why does clipping happen in the first place?"
+        ],
+        [
+          "h4",
+          "q-why-people-do-not-just-add-more-colors-to-the-list",
+          "Q: Why people do not just add more colors to the list?"
+        ]
+      ],
+      "ids": [
+        "what-is-a-part-map",
+        "how-to-use-the-community-part-map",
+        "how-to-set-up-the-colors-to-your-armor",
+        "faq",
+        "q-do-i-need-to-use-the-part-map",
+        "q-why-does-clipping-happen-in-the-first-place",
+        "q-why-people-do-not-just-add-more-colors-to-the-list"
+      ],
+      "text": "b58ba3ed90115578b7414517042492fb39f87564b6af274811a2e9ff10ce70f4",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "b94e122d9966d8fdab6103ee9ac105e4abe0f95dc0d8dc3bcf99699bea9042b4",
+      "images": [],
+      "emptyGallery": false
+    },
+    "interior-walls-and-doors": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "how-to-add-interior-walls-and-doors-to-your-building",
+          "How to add interior walls and doors to your building"
+        ],
+        [
+          "h3",
+          "what-needs-to-be-done",
+          "What needs to be done:"
+        ],
+        [
+          "h3",
+          "fcs-setup",
+          "FCS setup"
+        ],
+        [
+          "h3",
+          "door-opening-values",
+          "Door opening values"
+        ]
+      ],
+      "ids": [
+        "how-to-add-interior-walls-and-doors-to-your-building",
+        "what-needs-to-be-done",
+        "fcs-setup",
+        "door-opening-values"
+      ],
+      "text": "644c669a89ef056f3da10de91335826e44d540412c873311b64d06e94583b3ee",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "introduction-to-modding": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "the-start-screen",
+          "The Start Screen"
+        ],
+        [
+          "h2",
+          "game-world",
+          "Game World"
+        ],
+        [
+          "h2",
+          "the-edit-menu",
+          "The Edit Menu"
+        ],
+        [
+          "h3",
+          "attributes",
+          "Attributes"
+        ],
+        [
+          "h3",
+          "references",
+          "References"
+        ],
+        [
+          "h2",
+          "the-toolbar",
+          "The Toolbar"
+        ],
+        [
+          "h2",
+          "other-menus",
+          "Other Menus"
+        ],
+        [
+          "h3",
+          "changes-menu",
+          "Changes Menu"
+        ],
+        [
+          "h3",
+          "assets-menu",
+          "Assets Menu"
+        ],
+        [
+          "h2",
+          "qol-features",
+          "QOL Features"
+        ]
+      ],
+      "ids": [
+        "the-start-screen",
+        "game-world",
+        "the-edit-menu",
+        "attributes",
+        "references",
+        "the-toolbar",
+        "other-menus",
+        "changes-menu",
+        "assets-menu",
+        "qol-features"
+      ],
+      "text": "b7744d5e75c89b5365ad17ebd1414cc8a531f0c5c48ce14b31fa6eb118299e6b",
+      "links": "37281d8e34187cf54ec3379f6e897ac97f0de6312a92a839c4d4f17949720f75",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "kenshi-unofficial-multiplayer-mod": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "overview",
+          "Overview"
+        ],
+        [
+          "h2",
+          "features",
+          "Features"
+        ],
+        [
+          "h3",
+          "multiplayer-connectivity",
+          "Multiplayer Connectivity"
+        ],
+        [
+          "h3",
+          "character--squad-synchronization",
+          "Character & Squad Synchronization"
+        ],
+        [
+          "h3",
+          "combat-synchronization",
+          "Combat Synchronization"
+        ],
+        [
+          "h3",
+          "world--base-building",
+          "World & Base Building"
+        ],
+        [
+          "h3",
+          "inventory--economy",
+          "Inventory & Economy"
+        ],
+        [
+          "h2",
+          "limitations",
+          "Limitations"
+        ],
+        [
+          "h2",
+          "installation",
+          "Installation"
+        ],
+        [
+          "h2",
+          "development",
+          "Development"
+        ],
+        [
+          "h2",
+          "community-reception",
+          "Community Reception"
+        ],
+        [
+          "h2",
+          "references",
+          "References"
+        ]
+      ],
+      "ids": [
+        "kenshi-unofficial-multiplayer-mod",
+        "overview",
+        "features",
+        "multiplayer-connectivity",
+        "character--squad-synchronization",
+        "combat-synchronization",
+        "world--base-building",
+        "inventory--economy",
+        "limitations",
+        "installation",
+        "development",
+        "community-reception",
+        "references",
+        "cite_ref-1",
+        "cite_note-1"
+      ],
+      "text": "66e38a4342d91b183934e03b717b37cd3c25851520c96613ff20de92cd26fcaf",
+      "links": "54f356aee95c35d3ca3d0f8b4718f49e9a87e02dd7035e12301eac7827d8448f",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "leveldata": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "interiorslevel",
+          "Interiors.level"
+        ],
+        [
+          "h2",
+          "leveldatalevel",
+          "Leveldata.level"
+        ],
+        [
+          "h2",
+          "zonezone",
+          "Zone.#.#.zone"
+        ]
+      ],
+      "ids": [
+        "interiorslevel",
+        "leveldatalevel",
+        "cite_ref-1",
+        "zonezone",
+        "cite_note-1"
+      ],
+      "text": "0b993616377e949c434f872315bf36e39e122b2b7bee4cd2b0807cb46d23430c",
+      "links": "d5eeeba588f4b3c9b0b00b173beaf67d75da2106c055d454afeb6bc1acfaa579",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "making-a-character-with-glowing-eyes-or-body": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "how-to-make-a-proper-head-mask",
+          "How to make a proper head mask"
+        ],
+        [
+          "h3",
+          "colors",
+          "Colors:"
+        ],
+        [
+          "h2",
+          "glowing-eyes",
+          "Glowing Eyes"
+        ],
+        [
+          "h2",
+          "glowing-bodythe-body-mask",
+          "Glowing Body/The Body Mask"
+        ],
+        [
+          "h3",
+          "colors-1",
+          "Colors:"
+        ]
+      ],
+      "ids": [
+        "how-to-make-a-proper-head-mask",
+        "colors",
+        "glowing-eyes",
+        "glowing-bodythe-body-mask",
+        "colors-1"
+      ],
+      "text": "55f6ad10e3e827cd875b0c4a4b7eb7d2ece891b29b659e844a203f22a531102b",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "making-a-custom-melee-weapon": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "tips-and-facts",
+          "Tips and Facts"
+        ],
+        [
+          "h2",
+          "texture-and-mesh-requirements",
+          "Texture and mesh requirements"
+        ],
+        [
+          "h2",
+          "icons",
+          "Icons"
+        ],
+        [
+          "h2",
+          "step-by-step",
+          "Step by step"
+        ],
+        [
+          "h3",
+          "10-a-how-to-make-the-weapon-lootable-from-ruins",
+          "10 a: how to make the weapon lootable from ruins"
+        ],
+        [
+          "h4",
+          "ruins-scattered-about-the-building-floor-no-interior-layout-no-storage-items",
+          "Ruins, scattered about the building floor (no interior layout, no storage items):"
+        ],
+        [
+          "h4",
+          "towns-ruins-with-storage-items",
+          "Towns, ruins with storage items:"
+        ],
+        [
+          "h3",
+          "10-b-how-to-make-the-weapon-purchasable-from-a-shop",
+          "10 b: how to make the weapon purchasable from a shop"
+        ],
+        [
+          "h3",
+          "10-c-how-to-make-the-weapon-craftable",
+          "10 c: how to make the weapon craftable"
+        ],
+        [
+          "h3",
+          "10-d-how-to-make-a-npc-to-give-a-weapon-to-the-player",
+          "10 d: how to make a NPC to give a weapon to the player"
+        ],
+        [
+          "h3",
+          "10-e-how-to-spawn-the-weapon-on-a-recruit-or-a-character",
+          "10 e: how to spawn the weapon on a recruit or a character"
+        ],
+        [
+          "h2",
+          "manufacturers-weapon-models-and-weapon-type-explained",
+          "Manufacturers, Weapon models and Weapon type explained"
+        ],
+        [
+          "h3",
+          "manufacturer",
+          "Manufacturer"
+        ],
+        [
+          "h4",
+          "manufacturer-explanation",
+          "Manufacturer, explanation"
+        ],
+        [
+          "h4",
+          "manufacturer-in-fcs",
+          "Manufacturer in FCS"
+        ],
+        [
+          "h3",
+          "weapon-models-fcs",
+          "Weapon Models (FCS)"
+        ],
+        [
+          "h3",
+          "weapon-type",
+          "Weapon Type"
+        ],
+        [
+          "h4",
+          "how-much-damage-does-my-weapon-do-aka-weapon-stats",
+          "How much damage does my weapon do? AKA Weapon Stats"
+        ]
+      ],
+      "ids": [
+        "tips-and-facts",
+        "texture-and-mesh-requirements",
+        "icons",
+        "step-by-step",
+        "10-a-how-to-make-the-weapon-lootable-from-ruins",
+        "ruins-scattered-about-the-building-floor-no-interior-layout-no-storage-items",
+        "towns-ruins-with-storage-items",
+        "10-b-how-to-make-the-weapon-purchasable-from-a-shop",
+        "10-c-how-to-make-the-weapon-craftable",
+        "10-d-how-to-make-a-npc-to-give-a-weapon-to-the-player",
+        "10-e-how-to-spawn-the-weapon-on-a-recruit-or-a-character",
+        "manufacturers-weapon-models-and-weapon-type-explained",
+        "manufacturer",
+        "manufacturer-explanation",
+        "manufacturer-in-fcs",
+        "weapon-models-fcs",
+        "weapon-type",
+        "how-much-damage-does-my-weapon-do-aka-weapon-stats"
+      ],
+      "text": "e5913d9c565953af068cbe9bdb841e8bddf114ea67f05d4883a001df6fce478f",
+      "links": "af14b4638e005b7294c2073e12d4a7453b61a902c8cd74c48a0c89acf718a018",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "making-a-custom-world-map-terrain-characters-walk-on-and-pois": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "what-making-a-custom-world-map-entails",
+          "What making a custom world map entails"
+        ],
+        [
+          "h3",
+          "fullmaptif",
+          "Fullmap.tif"
+        ],
+        [
+          "h3",
+          "color-maps",
+          "Color maps"
+        ],
+        [
+          "h3",
+          "base-textures",
+          "Base textures"
+        ],
+        [
+          "h3",
+          "splatmaps",
+          "Splatmaps"
+        ],
+        [
+          "h3",
+          "areasmap",
+          "Areasmap"
+        ],
+        [
+          "h3",
+          "biomemap",
+          "Biomemap"
+        ],
+        [
+          "h3",
+          "navtiles",
+          "Navtiles"
+        ],
+        [
+          "h3",
+          "blendmaps",
+          "Blendmaps"
+        ],
+        [
+          "h3",
+          "banding",
+          "Banding"
+        ],
+        [
+          "h2",
+          "terrain-textures",
+          "Terrain textures"
+        ]
+      ],
+      "ids": [
+        "what-making-a-custom-world-map-entails",
+        "fullmaptif",
+        "color-maps",
+        "base-textures",
+        "splatmaps",
+        "areasmap",
+        "biomemap",
+        "navtiles",
+        "blendmaps",
+        "banding",
+        "terrain-textures"
+      ],
+      "text": "d4713b2fbffc994254d939e95cab1d099ac6f0251ef1de351395c3b49240b475",
+      "links": "6c781c11ed374d39b1ee0f20d6516931ba1a1b7faf20fe4021da6bb45017519b",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "making-a-food-mod-nutrition-value": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "how-is-the-food-nutrition-value-determined",
+          "How is the food nutrition value determined?"
+        ],
+        [
+          "h2",
+          "how-is-food-value-determined",
+          "How is food value determined?"
+        ]
+      ],
+      "ids": [
+        "how-is-the-food-nutrition-value-determined",
+        "how-is-food-value-determined"
+      ],
+      "text": "446ca6e1278152c5abdca1111662a7002fcd85875cb9e31aa3d18ec9e51bbd4d",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "making-a-npc-shop-aka-how-to-set-up-vendors": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "can-i-have-multiple-vendors-in-the-same-shop",
+          "Can I have multiple vendors in the same shop?"
+        ]
+      ],
+      "ids": [
+        "can-i-have-multiple-vendors-in-the-same-shop"
+      ],
+      "text": "394d14490e078e7cabc1e8664e28b22e649f805efec1095295db7dc553f7e397",
+      "links": "e5fef27530c66ee229d1f1f977afa8c07af4272645cbf1d841162fd0ffa4f867",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "making-a-town-that-expands-and-grows-according-to-world-states": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "how-to-make-a-town-that-reacts-and-changes-throughout-the-game",
+          "How to make a town that reacts and changes throughout the game"
+        ],
+        [
+          "h3",
+          "getting-started-and-building-the-town",
+          "Getting started and building the town"
+        ],
+        [
+          "h3",
+          "setting-up-the-town-overrides-and-building-swaps",
+          "Setting up the town overrides and building swaps"
+        ]
+      ],
+      "ids": [
+        "how-to-make-a-town-that-reacts-and-changes-throughout-the-game",
+        "getting-started-and-building-the-town",
+        "setting-up-the-town-overrides-and-building-swaps"
+      ],
+      "text": "5c8c8165b43a3a00b10ef4512842080a69e50be8a9fe0caf99c97a13f6956d40",
+      "links": "f4a3d4fe2ebf63696b2d7d26c12166e713eee006e5e3129a78a42349ebf7144e",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "making-animations-basics": {
+      "code": [],
+      "headings": [
+        [
+          "h4",
+          "blender",
+          "Blender"
+        ],
+        [
+          "h4",
+          "fcs",
+          "FCS"
+        ]
+      ],
+      "ids": [
+        "blender",
+        "fcs"
+      ],
+      "text": "a532a21a8be20591f9d9438ca7ff07b683b5a530bd03f1408574e6b61af6a353",
+      "links": "a04e91de1f3b5062dddd45531cbc091b1d24a07556f274d35ea01436a540c599",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "making-custom-ragdoll": {
+      "code": [],
+      "headings": [],
+      "ids": [
+        "facts",
+        "how-to-make-the-actual-ragdoll-in-scythe",
+        "journal-of-my-process"
+      ],
+      "text": "24f29af30a6180b11c8ab45928f87cc34cfc508f50f2fc77027874f4f5a0b228",
+      "links": "15bae2a7aca4a596e85e8529f9b7d858f2bc6bc1712436e9dafe217d2765d5a1",
+      "tables": "6842e7c733c28d0aa8b8b8d48ee2d27edd9d7e709cc162b62b47dac19e47845b",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "making-teleports": {
+      "code": [],
+      "headings": [
+        [
+          "h4",
+          "this-is-just-a-collection-of-notes-from-my-testing-furniture-teleporting",
+          "This is just a collection of notes from my testing furniture-teleporting."
+        ]
+      ],
+      "ids": [
+        "this-is-just-a-collection-of-notes-from-my-testing-furniture-teleporting"
+      ],
+      "text": "b4860c584aacc5d61c971136f08cf81cfd370ba24f56eade795131921d38844e",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "map-biome-areas-region-correlation": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "biome-map",
+          "Biome Map"
+        ],
+        [
+          "h3",
+          "biome-color-table",
+          "Biome Color Table"
+        ],
+        [
+          "h2",
+          "resourcespawn-area-map-colors",
+          "Resource/Spawn Area Map Colors"
+        ],
+        [
+          "h3",
+          "resourcespawn-area-color-table",
+          "Resource/Spawn Area Color Table"
+        ]
+      ],
+      "ids": [
+        "biome-map",
+        "biome-color-table",
+        "resourcespawn-area-map-colors",
+        "resourcespawn-area-color-table"
+      ],
+      "text": "1d740dbababdb60ba9ed7eef849e7c168f5113787f59d6bff3f8ae8157117535",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "0f908be554c104e268e018e71118d305b90a6442718b64dc8f4b92c433d2051e",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "mask-trigger-collision-script": {
+      "code": [
+        "\t\t\t<density>0</density>\n\t\t\t<NxActorFlag id\\=\"flags\">\n\t\t\t\t<NX\\_AF\\_DISABLE\\_COLLISION>false</NX\\_AF\\_DISABLE\\_COLLISION>\n\t\t\t\t<NX\\_AF\\_DISABLE\\_RESPONSE>false</NX\\_AF\\_DISABLE\\_RESPONSE>\n\t\t\t\t<NX\\_AF\\_LOCK\\_COM>false</NX\\_AF\\_LOCK\\_COM>\n\t\t\t\t<NX\\_AF\\_FLUID\\_DISABLE\\_COLLISION>false</NX\\_AF\\_FLUID\\_DISABLE\\_COLLISION>\n\t\t\t\t<NX\\_AF\\_CONTACT\\_MODIFICATION>false</NX\\_AF\\_CONTACT\\_MODIFICATION>\n\t\t\t\t<NX\\_AF\\_FORCE\\_CONE\\_FRICTION>false</NX\\_AF\\_FORCE\\_CONE\\_FRICTION>\n\t\t\t\t<NX\\_AF\\_USER\\_ACTOR\\_PAIR\\_FILTERING>false</NX\\_AF\\_USER\\_ACTOR\\_PAIR\\_FILTERING>\n\t\t\t</NxActorFlag>\n\t\t\t<group>0</group>\n\t\t\t<compartment></compartment>\n\t\t\t<NxConvexShapeDesc meshData\\=\"ConvexMesh\\_0\">\n\t\t\t\t<NxMeshShapeFlag id\\=\"meshFlags\">\n\t\t\t\t\t<NX\\_MESH\\_SMOOTH\\_SPHERE\\_COLLISIONS>false</NX\\_MESH\\_SMOOTH\\_SPHERE\\_COLLISIONS>\n\t\t\t\t\t<NX\\_MESH\\_DOUBLE\\_SIDED>false</NX\\_MESH\\_DOUBLE\\_SIDED>\n\t\t\t\t</NxMeshShapeFlag>\n\t\t\t\t<NxShapeDesc userProperties\\=\"\" name=\"Storm\\_Shack\\_INTERIOR\\_TRIGGER\">\n\t\t\t\t\t<localPose>1 0 0  0 1 0  0 0 1  0 0 0</localPose>\n\t\t\t\t\t<NxShapeFlag id\\=\"shapeFlags\">\n\t\t\t\t\t\t<NX\\_TRIGGER\\_ON\\_ENTER>false</NX\\_TRIGGER\\_ON\\_ENTER>\n\t\t\t\t\t\t<NX\\_TRIGGER\\_ON\\_LEAVE>false</NX\\_TRIGGER\\_ON\\_LEAVE>\n\t\t\t\t\t\t<NX\\_TRIGGER\\_ON\\_STAY>false</NX\\_TRIGGER\\_ON\\_STAY>\n\t\t\t\t\t\t<NX\\_SF\\_VISUALIZATION>true</NX\\_SF\\_VISUALIZATION>\n\t\t\t\t\t\t<NX\\_SF\\_DISABLE\\_COLLISION>false</NX\\_SF\\_DISABLE\\_COLLISION>\n\t\t\t\t\t\t<NX\\_SF\\_FEATURE\\_INDICES>false</NX\\_SF\\_FEATURE\\_INDICES>\n\t\t\t\t\t\t<NX\\_SF\\_DISABLE\\_RAYCASTING>false</NX\\_SF\\_DISABLE\\_RAYCASTING>\n\t\t\t\t\t\t<NX\\_SF\\_POINT\\_CONTACT\\_FORCE>true</NX\\_SF\\_POINT\\_CONTACT\\_FORCE>\n\t\t\t\t\t\t<NX\\_SF\\_FLUID\\_DRAIN>false</NX\\_SF\\_FLUID\\_DRAIN>\n\t\t\t\t\t\t<NX\\_SF\\_FLUID\\_DISABLE\\_COLLISION>false</NX\\_SF\\_FLUID\\_DISABLE\\_COLLISION>\n\t\t\t\t\t\t<NX\\_SF\\_FLUID\\_TWOWAY>false</NX\\_SF\\_FLUID\\_TWOWAY>\n\t\t\t\t\t\t<NX\\_SF\\_DISABLE\\_RESPONSE>false</NX\\_SF\\_DISABLE\\_RESPONSE>\n\t\t\t\t\t\t<NX\\_SF\\_DYNAMIC\\_DYNAMIC\\_CCD>false</NX\\_SF\\_DYNAMIC\\_DYNAMIC\\_CCD>\n\t\t\t\t\t\t<NX\\_SF\\_DISABLE\\_SCENE\\_QUERIES>false</NX\\_SF\\_DISABLE\\_SCENE\\_QUERIES>\n\t\t\t\t\t\t<NX\\_SF\\_CLOTH\\_DRAIN>false</NX\\_SF\\_CLOTH\\_DRAIN>\n\t\t\t\t\t\t<NX\\_SF\\_CLOTH\\_DISABLE\\_COLLISION>false</NX\\_SF\\_CLOTH\\_DISABLE\\_COLLISION>\n\t\t\t\t\t\t<NX\\_SF\\_CLOTH\\_TWOWAY>true</NX\\_SF\\_CLOTH\\_TWOWAY>\n\t\t\t\t\t\t<NX\\_SF\\_SOFTBODY\\_DRAIN>false</NX\\_SF\\_SOFTBODY\\_DRAIN>\n\t\t\t\t\t\t<NX\\_SF\\_SOFTBODY\\_DISABLE\\_COLLISION>false</NX\\_SF\\_SOFTBODY\\_DISABLE\\_COLLISION>\n\t\t\t\t\t\t<NX\\_SF\\_SOFTBODY\\_TWOWAY>true</NX\\_SF\\_SOFTBODY\\_TWOWAY>\n\t\t\t\t\t</NxShapeFlag>\n\t\t\t\t\t<group>0</group>\n\t\t\t\t\t<materialIndex>1</materialIndex>\n\t\t\t\t\t<CCDSkeleton></CCDSkeleton>\n\t\t\t\t\t<shapeDensity>0</shapeDensity>\n\t\t\t\t\t<shapeMass>190.227828979</shapeMass>\n\t\t\t\t\t<skinWidth>0.100000001</skinWidth>\n\t\t\t\t\t<NxGroupsMask id\\=\"groupsMask\" bits0=\"1\" bits1=\"0\" bits2=\"1\" bits3=\"0\"/>\n\t\t\t\t\t<NxShapeCompartmentType id\\=\"nonInteractingCompartmentTypes\">\n\t\t\t\t\t\t<NX\\_COMPARTMENT\\_SW\\_RIGIDBODY>false</NX\\_COMPARTMENT\\_SW\\_RIGIDBODY>\n\t\t\t\t\t\t<NX\\_COMPARTMENT\\_HW\\_RIGIDBODY>false</NX\\_COMPARTMENT\\_HW\\_RIGIDBODY>\n\t\t\t\t\t\t<NX\\_COMPARTMENT\\_SW\\_FLUID>false</NX\\_COMPARTMENT\\_SW\\_FLUID>\n\t\t\t\t\t\t<NX\\_COMPARTMENT\\_HW\\_FLUID>false</NX\\_COMPARTMENT\\_HW\\_FLUID>\n\t\t\t\t\t\t<NX\\_COMPARTMENT\\_SW\\_CLOTH>false</NX\\_COMPARTMENT\\_SW\\_CLOTH>\n\t\t\t\t\t\t<NX\\_COMPARTMENT\\_HW\\_CLOTH>false</NX\\_COMPARTMENT\\_HW\\_CLOTH>\n\t\t\t\t\t\t<NX\\_COMPARTMENT\\_SW\\_SOFTBODY>false</NX\\_COMPARTMENT\\_SW\\_SOFTBODY>\n\t\t\t\t\t\t<NX\\_COMPARTMENT\\_HW\\_SOFTBODY>false</NX\\_COMPARTMENT\\_HW\\_SOFTBODY>\n\t\t\t\t\t</NxShapeCompartmentType>\n\t\t\t\t</NxShapeDesc>\n\t\t\t</NxConvexShapeDesc>\n\t\t\t<dominanceGroup>0</dominanceGroup>\n\t\t\t<contactReportFlags>0</contactReportFlags>\n\t\t\t<forceFieldMaterial>0</forceFieldMaterial>\n\t\t</NxActorDesc>\n\t\t<NxActorGroupPair group0\\=\"0\" group1=\"0\">\n\t\t\t<NxContactPairFlag id\\=\"flags\">\n\t\t\t\t<NX\\_IGNORE\\_PAIR>false</NX\\_IGNORE\\_PAIR>\n\t\t\t\t<NX\\_NOTIFY\\_ON\\_START\\_TOUCH>true</NX\\_NOTIFY\\_ON\\_START\\_TOUCH>\n\t\t\t\t<NX\\_NOTIFY\\_ON\\_END\\_TOUCH>true</NX\\_NOTIFY\\_ON\\_END\\_TOUCH>\n\t\t\t\t<NX\\_NOTIFY\\_ON\\_TOUCH>true</NX\\_NOTIFY\\_ON\\_TOUCH>\n\t\t\t\t<NX\\_NOTIFY\\_ON\\_IMPACT>false</NX\\_NOTIFY\\_ON\\_IMPACT>\n\t\t\t\t<NX\\_NOTIFY\\_ON\\_ROLL>false</NX\\_NOTIFY\\_ON\\_ROLL>\n\t\t\t\t<NX\\_NOTIFY\\_ON\\_SLIDE>false</NX\\_NOTIFY\\_ON\\_SLIDE>\n\t\t\t\t<NX\\_NOTIFY\\_FORCES>false</NX\\_NOTIFY\\_FORCES>\n\t\t\t\t<NX\\_NOTIFY\\_ON\\_START\\_TOUCH\\_FORCE\\_THRESHOLD>false</NX\\_NOTIFY\\_ON\\_START\\_TOUCH\\_FORCE\\_THRESHOLD>\n\t\t\t\t<NX\\_NOTIFY\\_ON\\_END\\_TOUCH\\_FORCE\\_THRESHOLD>false</NX\\_NOTIFY\\_ON\\_END\\_TOUCH\\_FORCE\\_THRESHOLD>\n\t\t\t\t<NX\\_NOTIFY\\_ON\\_TOUCH\\_FORCE\\_THRESHOLD>false</NX\\_NOTIFY\\_ON\\_TOUCH\\_FORCE\\_THRESHOLD>\n\t\t\t</NxContactPairFlag>\n\t\t</NxActorGroupPair>\n\t</NxSceneDesc>\n</NxuPhysicsCollection>"
+      ],
+      "headings": [
+        [
+          "h2",
+          "how-to-make-a-mask-trigger-collision-script",
+          "How to make a Mask Trigger Collision Script"
+        ]
+      ],
+      "ids": [
+        "how-to-make-a-mask-trigger-collision-script"
+      ],
+      "text": "2342e4280b6f1315dfbff29e4cccd1785b38141bc90c0212f3af30d00d430a0e",
+      "links": "0c0684fa0cc887449bd18ce49c842fc6aab7f78c3cf009df3eeece58eea1c382",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "modders-resource-logo-masks-for-main-factions": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "modders-resource-logo-masks",
+          "Modders Resource: Logo Masks"
+        ]
+      ],
+      "ids": [
+        "modders-resource-logo-masks"
+      ],
+      "text": "8cf1593210801fd96bd8cd7e090cb37fc426499a0f8561f89a6c976ca01dcd54",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "6eac38bdb7bae5c0db1517754f417669f5f2ce0c20bedc089c49e3c2035984ce",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "modding-enabling-to-craft-vanilla-armour": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "starting-fcs",
+          "Starting FCS"
+        ],
+        [
+          "h2",
+          "creating-new-research-for-the-vanilla-item",
+          "Creating New Research for the vanilla item"
+        ],
+        [
+          "h2",
+          "adding-new-blueprint-to-vendor-lists",
+          "Adding new blueprint to vendor lists"
+        ],
+        [
+          "h2",
+          "adding-a-new-crafting-option-for-the-correct-crafting-station",
+          "Adding a new crafting option for the correct crafting station"
+        ]
+      ],
+      "ids": [
+        "starting-fcs",
+        "creating-new-research-for-the-vanilla-item",
+        "adding-new-blueprint-to-vendor-lists",
+        "adding-a-new-crafting-option-for-the-correct-crafting-station"
+      ],
+      "text": "02a86199305c51720e4010b046ad737ce43dc79b40c113d201b9b7b9bb217405",
+      "links": "b5fc6ef179bb0870d423de8e484b84f4d56bf79548415c1cb274ac8bb63f951d",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "modding/meitou": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "browse-mods",
+          "Browse mods"
+        ],
+        [
+          "h3",
+          "execution",
+          "Execution"
+        ],
+        [
+          "h3",
+          "guild--quests",
+          "Guild & Quests"
+        ],
+        [
+          "h3",
+          "kenshi-ultimate-overhaul",
+          "Kenshi Ultimate Overhaul"
+        ],
+        [
+          "h3",
+          "landmark-banners",
+          "Landmark Banners"
+        ],
+        [
+          "h3",
+          "timelight-map",
+          "TimeLight Map"
+        ],
+        [
+          "h2",
+          "make-a-code-mod",
+          "Make a code mod"
+        ]
+      ],
+      "ids": [
+        "browse-mods",
+        "execution",
+        "guild--quests",
+        "kenshi-ultimate-overhaul",
+        "landmark-banners",
+        "timelight-map",
+        "make-a-code-mod"
+      ],
+      "text": "49a91183c9fdddc4a736a3a62bafa06d55a61e9da5fca7d9aebf6853422c29dc",
+      "links": "1076aa10efa979159f91500da0844f50af94b1b2403e185f92a776a2c29ad5b5",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "modding/meitou/porting-re-kenshi-mods": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "write-down-one-player-action",
+          "Write down one player action"
+        ],
+        [
+          "h2",
+          "decide-what-to-bring-across",
+          "Decide what to bring across"
+        ],
+        [
+          "h2",
+          "follow-a-right-click-order-in-execution",
+          "Follow a right-click order in Execution"
+        ],
+        [
+          "h2",
+          "two-field-notes-on-checking-a-result",
+          "Two field notes on checking a result"
+        ],
+        [
+          "h2",
+          "share-a-tested-port",
+          "Share a tested port"
+        ]
+      ],
+      "ids": [
+        "write-down-one-player-action",
+        "decide-what-to-bring-across",
+        "follow-a-right-click-order-in-execution",
+        "two-field-notes-on-checking-a-result",
+        "share-a-tested-port"
+      ],
+      "text": "d2fa7feae93fd2450233ae8dc59ffcbfcd9037122d333b46c377052a056235d0",
+      "links": "47ba2900e84721c790e8d8131536e07702e6e0daf285215b7749ec14de6fc1cc",
+      "tables": "6ffe2c3e48ce511cf6cb73283bd2d8209f7a5e45e05727fffeca8ed7ab4b844d",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "modifications": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "game-modifications",
+          "Game Modifications"
+        ],
+        [
+          "h2",
+          "adding-mods-to-kenshi",
+          "Adding Mods to Kenshi"
+        ],
+        [
+          "h3",
+          "subscribing-to-mods-on-steam",
+          "Subscribing to Mods on Steam"
+        ],
+        [
+          "h3",
+          "other-ways",
+          "Other ways"
+        ],
+        [
+          "h2",
+          "creating-mods",
+          "Creating Mods"
+        ]
+      ],
+      "ids": [
+        "game-modifications",
+        "adding-mods-to-kenshi",
+        "subscribing-to-mods-on-steam",
+        "other-ways",
+        "creating-mods"
+      ],
+      "text": "bc99d33a878df0d5e2ec605c46e95188ad9f1958def2184d7f642b02ebbce62e",
+      "links": "906d5b9ce20ab7ea026ca3308f53fb7a61cfaccee5f81695ff88b3c0bfd066d5",
+      "tables": "f746dc6cc6de4d1e89dc967d762e6a9cd1219092d4beb1d6470438a25cb2e474",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "mods": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "overview",
+          "Overview"
+        ],
+        [
+          "h2",
+          "steam-workshop",
+          "Steam Workshop"
+        ],
+        [
+          "h2",
+          "nexus-mods",
+          "Nexus Mods"
+        ],
+        [
+          "h2",
+          "installing-mods",
+          "Installing Mods"
+        ],
+        [
+          "h3",
+          "steam-workshop-1",
+          "Steam Workshop"
+        ],
+        [
+          "h3",
+          "vortex-mod-manager",
+          "Vortex Mod Manager"
+        ],
+        [
+          "h3",
+          "manual-installation",
+          "Manual Installation"
+        ],
+        [
+          "h2",
+          "load-order",
+          "Load Order"
+        ],
+        [
+          "h2",
+          "external-links",
+          "External links"
+        ]
+      ],
+      "ids": [
+        "mods",
+        "overview",
+        "steam-workshop",
+        "nexus-mods",
+        "installing-mods",
+        "steam-workshop-1",
+        "vortex-mod-manager",
+        "manual-installation",
+        "load-order",
+        "external-links"
+      ],
+      "text": "68a8ba21518f486a695ffc33dd71d41ca31f75ec3d1b214ec89b0d557d2b9168",
+      "links": "cc50f9809d89e5b602c2e90a6a266bb5a138cb0607f6938c986ff81daca1cc08",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "particle-effects": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "facts",
+          "Facts"
+        ],
+        [
+          "h2",
+          "folder-setup-for-custom-particle-effects",
+          "Folder setup for custom particle effects"
+        ],
+        [
+          "h2",
+          "important",
+          "Important"
+        ],
+        [
+          "h2",
+          "troubleshooting",
+          "Troubleshooting"
+        ],
+        [
+          "h2",
+          "particles-and-their-effect-on-fps",
+          "Particles and their effect on FPS"
+        ],
+        [
+          "h3",
+          "multiple-effects-on-the-root-or-multiple-parts-each-with-an-effect",
+          "Multiple effects on the root or multiple parts each with an effect?"
+        ],
+        [
+          "h2",
+          "experiments-and-sample-scripts",
+          "Experiments and Sample Scripts"
+        ],
+        [
+          "h2",
+          "glossary",
+          "Glossary"
+        ]
+      ],
+      "ids": [
+        "facts",
+        "folder-setup-for-custom-particle-effects",
+        "important",
+        "troubleshooting",
+        "particles-and-their-effect-on-fps",
+        "multiple-effects-on-the-root-or-multiple-parts-each-with-an-effect",
+        "experiments-and-sample-scripts",
+        "glossary"
+      ],
+      "text": "b0b76f4658df56c30e77f0e9b7fb638dc8ce7dc17e3598b047062edf14375004",
+      "links": "c8c9325caaedaeddea5dbb07e37ecda871004c8f4dd14d1b1b0ed9cd7f85ddf4",
+      "tables": "b7ca4db3c2ae7d3d33e8b96d7d8d2f218401820bad60caa0b7915d6a227fc680",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "particle-script-examples-and-experiments": {
+      "code": [
+        " {\n       scale_velocity                              0.03\n       scale                                       0.03 0.03 0.03\n       technique \n       {\n           visual_particle_quota                   1200\n           material                                FF_kenshi_light_point\n           default_particle_width                  300\n           default_particle_height                 300\n           default_particle_depth                  300\n           renderer                                Billboard\n           {\n               billboard_rotation_type             vertex\n           }\n           emitter                                 Circle \n           {\n               emission_rate                       dyn_random\n               {\n                   min                             4\n                   max                             6\n               }\n               velocity                            dyn_random\n               {\n                   min                             100\n                   max                             200\n               }\n               radius                              1200\n           }\n           affector                                Vortex Affector\n           {\n               position                            0 200 0\n               rotation_axis                       0 0 1\n               rotation_speed                      dyn_oscillate\n               {\n                   oscillate_frequency             0\n                   oscillate_phase                 1\n                   oscillate_base                  1\n                   oscillate_amplitude             -3\n                   oscillate_type                  sine\n               }\n           }\n           affector                                Gravity Affector\n           {\n               position                            0 200 0\n               mass_affector                       0\n               gravity                             0\n           }\n           affector                                Randomiser Affector\n           {\n               max_deviation_x                     12\n               max_deviation_y                     12\n               max_deviation_z                     12\n           }\n           affector                                Colour Affector\n           {\n               time_colour                         0    0 0 0 0\n               time_colour                         0.3 0.6    0.90 0.40 1\n               time_colour                         0.4 0.71 1 0.5 1\n               time_colour                         1    0 0 0 0\n           }\n       }\n   }",
+        "  {\n      category                                     kenshi_particles\n      //  Flame Source 1\n      technique\n      {\n          material                                 kenshi_fire_flame1\n          // make sure defaults are large enough\n          default_particle_width   1600\n          default_particle_height  1600\n          default_particle_depth   1600\n          renderer                                  Billboard { billboard_rotation_type vertex }\n          emitter                                 SphereSurface Flame1\n          {\n              emission_rate       300\n              angle               180\n              time_to_live        dyn_random { min 0.4 max 1.2 }\n              velocity            dyn_random { min 0 max 3 }\n              all_particle_dimensions dyn_random { min 4000 max 8000 }\n              start_colour_range  0.537255 0.14902 0.054902 1\n              end_colour_range    0.9 0.4 0.2 1\n              radius              0.2\n              position            5 0 5\n          }\n          affector LinearForce { force_vector 0 50 0 }\n      }\n      //  Flame Source 2\n      technique\n      {\n          material kenshi_fire_flame1\n          default_particle_width   1600\n          default_particle_height  1600\n          default_particle_depth   1600\n          renderer Billboard { billboard_rotation_type vertex }\n         emitter                                 SphereSurface Flame2\n          {\n              emission_rate       300\n              angle               180\n              time_to_live        dyn_random { min 0.4 max 1.2 }\n              velocity            dyn_random { min 0 max 3 }\n              all_particle_dimensions dyn_random { min 4000 max 8000 }\n              start_colour_range  0.537255 0.14902 0.054902 1\n              end_colour_range    0.9 0.4 0.2 1\n              radius              0.2\n              position            -5 0 5\n          }\n          affector LinearForce { force_vector 0 50 0 }\n      }\n      //  Flame Source 3\n      technique\n      {\n          material                                kenshi_fire_flame1\n          default_particle_width   1600\n          default_particle_height  1600\n          default_particle_depth   1600\n          renderer Billboard { billboard_rotation_type vertex }\n          emitter                                 SphereSurface Flame3\n          {\n              emission_rate       300\n              angle               180\n              time_to_live        dyn_random { min 0.4 max 1.2 }\n              velocity            dyn_random { min 0 max 3 }\n              all_particle_dimensions dyn_random { min 4000 max 8000 }\n              start_colour_range  0.537255 0.14902 0.054902 1\n              end_colour_range    0.9 0.4 0.2 1\n              radius              0.2\n              position            5 0 -5\n          }\n          affector LinearForce { force_vector 0 50 0 }\n      }\n  }\n "
+      ],
+      "headings": [
+        [
+          "h2",
+          "scripts-that-are-working-as-is",
+          "Scripts that are working as is"
+        ],
+        [
+          "h2",
+          "scripts-that-have-failed",
+          "Scripts that have failed"
+        ]
+      ],
+      "ids": [
+        "scripts-that-are-working-as-is",
+        "scripts-that-have-failed"
+      ],
+      "text": "471fb7475f98de8ce18bb9fcabc68409cc780afb8e77ff838947fece8b254c96",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "dbfccb9211de3801553072b222384897991953d3eec5839d94e7501d9ac8f4f6",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "re-kenshi-extra-extensions-modding-how-to-use-the-silent-world-states-and-variables": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "what-do-you-need-in-order-to-start-making-mods-with-re_kenshis-new-system-for-extra-extensions",
+          "What do you need in order to start making mods with Re_Kenshi’s new system (for extra extensions)"
+        ],
+        [
+          "h3",
+          "how-to-install",
+          "How to install"
+        ],
+        [
+          "h3",
+          "silent-variables",
+          "Silent Variables"
+        ],
+        [
+          "h4",
+          "the-usage",
+          "The usage"
+        ]
+      ],
+      "ids": [
+        "what-do-you-need-in-order-to-start-making-mods-with-re_kenshis-new-system-for-extra-extensions",
+        "how-to-install",
+        "silent-variables",
+        "the-usage"
+      ],
+      "text": "abe90aae9d992d924d03b941f2d5960a5de9185be551e23771949df551af269e",
+      "links": "567a867aa9140634e2b0bb1f8b00e5da4f60d8ec53f70c2a8123dff6a1fec97e",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "research-fcs": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "attributes",
+          "Attributes"
+        ],
+        [
+          "h3",
+          "base",
+          "Base"
+        ],
+        [
+          "h3",
+          "building-improvements",
+          "Building Improvements"
+        ],
+        [
+          "h3",
+          "general",
+          "General"
+        ],
+        [
+          "h3",
+          "repeats",
+          "Repeats"
+        ],
+        [
+          "h2",
+          "references",
+          "References"
+        ]
+      ],
+      "ids": [
+        "attributes",
+        "base",
+        "building-improvements",
+        "general",
+        "repeats",
+        "references"
+      ],
+      "text": "252ad7fc6359bd677e3e15944902636f7b5e26dc0d46f7b4edf78482cfcd2a80",
+      "links": "c3ac98cd340a5a138ccac29df2840b965c652c8b6b25af0e5ae27bfd910c5356",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "riding-npcs-how-to-spawn-a-npc-already-carrying-another-npc": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "how-to-spawn-an-npc-rider--toter-duo",
+          "How to spawn an NPC rider + toter duo"
+        ]
+      ],
+      "ids": [
+        "how-to-spawn-an-npc-rider--toter-duo"
+      ],
+      "text": "a5429baead42a765a4d8b5fee306365ffb4e4c95d1ca18d1b3b4d741a558b91e",
+      "links": "705e8b1f1b5b826f05e7dcc219a78c7e03818f1b89d86a5ce70c1cfb68292f28",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "script-library": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "332ec17c77723695d5ab1e133ea0a32f072f90581bfe2ef39659b142b871a6b5",
+      "links": "bf313436e901dc6c1409e2b10f829f6f39993553fdb79127e6c75ef654d1e334",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "scripting-aka-how-to-make-a-multi-threaded-conversation": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "9a7d4c1816acc0d784688d6f57103aa7d7e2d6d74991292871e7ebeda00b5f22",
+      "links": "a8ed09245b141a3429c245d1804b08453879ba21088e9e86cc44b23f5a13d7ae",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "skin-making-tutorial": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "to-make-a-custom-head-skin-texture-variations-for-the-existing-vanilla-mesh",
+          "To make a custom head skin texture variations for the existing vanilla mesh"
+        ],
+        [
+          "h4",
+          "step-1---create-head-variation-files-for-your-custom-race",
+          "STEP 1 - Create head variation files for your custom race"
+        ],
+        [
+          "h4",
+          "step-2---removing-transparency",
+          "STEP 2 - Removing transparency"
+        ],
+        [
+          "h4",
+          "step-3---edit-the-file-add-transparency-export-as-dds",
+          "STEP 3 - Edit the file, add transparency, export as .dds"
+        ],
+        [
+          "h4",
+          "step-4---correct-folder-path-for-the-file",
+          "STEP 4 - Correct folder path for the file"
+        ],
+        [
+          "h4",
+          "step-5---replace-each-variation-texture-map-path",
+          "STEP 5 - Replace each variation texture map path"
+        ]
+      ],
+      "ids": [
+        "to-make-a-custom-head-skin-texture-variations-for-the-existing-vanilla-mesh",
+        "step-1---create-head-variation-files-for-your-custom-race",
+        "step-2---removing-transparency",
+        "step-3---edit-the-file-add-transparency-export-as-dds",
+        "step-4---correct-folder-path-for-the-file",
+        "step-5---replace-each-variation-texture-map-path"
+      ],
+      "text": "48b1c50f5529f5e097297f0fb5de4d3102b3cfee266a256992a8929c30835b87",
+      "links": "eb5ec4e0f133114e7f78b756f1224de1624acbce91f10e573ea8ca8834f00e47",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "fb0f8081e11ea35f2da81258263d13a300aa8f81b14cb394d0805080d4e956e3",
+      "images": [],
+      "emptyGallery": false
+    },
+    "sound-editing-and-adding-new-sounds": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "facts-so-far-may-be-subject-to-change",
+          "Facts (so far, may be subject to change)"
+        ],
+        [
+          "h3",
+          "about-vanilla-file-editing",
+          "About vanilla file editing"
+        ],
+        [
+          "h2",
+          "how-to-get-rid-of-the-sound-at-the-start-of-the-game",
+          "How to get rid of the sound at the start of the game"
+        ],
+        [
+          "h2",
+          "how-to-adjust-sfx-volume-to-hear-when-zoomed-out",
+          "How to adjust sfx volume (to hear when zoomed out)"
+        ],
+        [
+          "h2",
+          "from-media-about-sounds-and-music-in-kenshi",
+          "From Media about sounds and music in Kenshi"
+        ],
+        [
+          "h2",
+          "quotes-on-sound-editing",
+          "Quotes on sound editing"
+        ],
+        [
+          "h3",
+          "august-2018-ama-chris-hunt-on-sounds",
+          "August 2018 AMA Chris Hunt on sounds"
+        ],
+        [
+          "h3",
+          "january-2023-paladin-and-boron-discuss-about-how-to-on-discord",
+          "January 2023 Paladin and Boron discuss about how to on Discord"
+        ]
+      ],
+      "ids": [
+        "facts-so-far-may-be-subject-to-change",
+        "about-vanilla-file-editing",
+        "how-to-get-rid-of-the-sound-at-the-start-of-the-game",
+        "how-to-adjust-sfx-volume-to-hear-when-zoomed-out",
+        "from-media-about-sounds-and-music-in-kenshi",
+        "quotes-on-sound-editing",
+        "august-2018-ama-chris-hunt-on-sounds",
+        "january-2023-paladin-and-boron-discuss-about-how-to-on-discord"
+      ],
+      "text": "f9dd344821b9175d54f6b039f46db838f2808aeda4ccf8631355f0aba724d2e3",
+      "links": "6ab21f783210ef4905bdca96a99fec045c7f1c67b75e08b17efa587fb0520150",
+      "tables": "bd6579ac9c8812102c5571a151b3ee331ba8a60d22be11fb72627649c784eed2",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "special-tools": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "making-a-special-tool",
+          "Making a Special Tool"
+        ],
+        [
+          "h3",
+          "about-textures",
+          "About textures"
+        ],
+        [
+          "h3",
+          "special-tool-and-animations-folder",
+          "Special tool and animations folder"
+        ],
+        [
+          "h3",
+          "furniture-function",
+          "Furniture Function"
+        ]
+      ],
+      "ids": [
+        "making-a-special-tool",
+        "about-textures",
+        "special-tool-and-animations-folder",
+        "furniture-function"
+      ],
+      "text": "a0814d54942d84e6d5096bd321de45a1623b13f35736dbb2c96ce4568bb048ce",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "translating-mods": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "how-to-make-a-translation-mod",
+          "How to make a translation mod"
+        ],
+        [
+          "h2",
+          "a-very-handy-3rd-party-tool",
+          "A very handy 3rd party tool"
+        ],
+        [
+          "h2",
+          "how-to-be-able-to-see-special-characters-such-as-accents-and-tremas",
+          "How to be able to see special characters such as accents and tremas"
+        ]
+      ],
+      "ids": [
+        "how-to-make-a-translation-mod",
+        "a-very-handy-3rd-party-tool",
+        "how-to-be-able-to-see-special-characters-such-as-accents-and-tremas"
+      ],
+      "text": "96aa16d3a2dc04ba394701a2eb9fdcc2236dfb8879755c6e0fd9da03e1578eca",
+      "links": "af283da1f138538f8e01c6ba77aa430cecceabfc56ac69f642bf0e64d39c908e",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "universal-wasteland-expansion-mod": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "overview",
+          "Overview"
+        ],
+        [
+          "h2",
+          "features",
+          "Features"
+        ],
+        [
+          "h5",
+          "expanded-world--lore",
+          "Expanded World & Lore"
+        ],
+        [
+          "h5",
+          "reworked-mechanics",
+          "Reworked Mechanics"
+        ],
+        [
+          "h5",
+          "gameplay-experience",
+          "Gameplay Experience"
+        ],
+        [
+          "h2",
+          "added-content",
+          "Added Content"
+        ],
+        [
+          "h2",
+          "integrated-mods",
+          "Integrated Mods"
+        ],
+        [
+          "h2",
+          "compatibility--patches",
+          "Compatibility & Patches"
+        ],
+        [
+          "h2",
+          "translations",
+          "Translations"
+        ],
+        [
+          "h2",
+          "installation--load-order",
+          "Installation & Load Order"
+        ],
+        [
+          "h2",
+          "development",
+          "Development"
+        ],
+        [
+          "h2",
+          "see-also",
+          "See Also"
+        ],
+        [
+          "h2",
+          "external-links",
+          "External Links"
+        ]
+      ],
+      "ids": [
+        "overview",
+        "features",
+        "expanded-world--lore",
+        "reworked-mechanics",
+        "gameplay-experience",
+        "added-content",
+        "integrated-mods",
+        "compatibility--patches",
+        "translations",
+        "installation--load-order",
+        "development",
+        "see-also",
+        "external-links"
+      ],
+      "text": "17ac362014d290dc4e8af2257300cb2c222bd5fd2c3a047353b9025ffeca3b14",
+      "links": "77760114df699496261992f4002cde614e8dbc8387b40db2f2a501b181cd5417",
+      "tables": "a5b946dda6992452477630bc0c12df126486c8840ac905c284a9782b5c4dc05f",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "user-node-rotations-quarternions": {
+      "code": [
+        "W 0,3556925",
+        "X -2,820028E-08",
+        "Y 0,9346039",
+        "Z -2,820028E-08",
+        "W 0,7155288",
+        "X -3,090637E-08",
+        "Y 0,6985834",
+        "Z-3,090637E-08",
+        "W 0,9082747",
+        "X -2,899485E-08",
+        "Y 0,418374",
+        "Z -2,899485E-08",
+        "W 0,009913659",
+        "X 2,163797E-08",
+        "Y -0,9999511",
+        "Z 2,163797E-08",
+        "W 0,999722",
+        "X -2,236551E-08",
+        "Y 0,02360464",
+        "Z -2,236551E-08",
+        "W 0,4143499",
+        "X 1,083535E-08",
+        "Y -0,9101182",
+        "Z 1,083535E-08",
+        "W 0,7163444",
+        "X -4,06438E-10",
+        "Y -0,6977479",
+        "Z -4,06438E-10",
+        "W 0,9379124",
+        "X -1,291757E-08",
+        "Y -0,3468742",
+        "Z -1,291757E-08",
+        "W 0,9379124",
+        "X -1,291757E-08",
+        "Y -0,3468742",
+        "Z -1,291757E-08",
+        "W 0,7163444",
+        "X -4,06438E-10",
+        "Y -0,6977479",
+        "Z -4,06438E-10",
+        "W 0,4143499",
+        "X 1,083535E-08",
+        "Y -0,9101182",
+        "Z 1,083535E-08",
+        "W 0,999722",
+        "X -2,236551E-08",
+        "Y 0,02360464",
+        "Z -2,236551E-08",
+        "W 0,009913659",
+        "X 2,163797E-08",
+        "Y -0,9999511",
+        "Z 2,163797E-08",
+        "W 0,9082747",
+        "X -2,899485E-08",
+        "Y 0,418374",
+        "Z -2,899485E-08",
+        "W 0,7155288",
+        "X -3,090637E-08",
+        "Y 0,6985834",
+        "Z-3,090637E-08",
+        "W 0,3556925",
+        "X -2,820028E-08",
+        "Y 0,9346039",
+        "Z -2,820028E-08"
+      ],
+      "headings": [
+        [
+          "h2",
+          "guide-for-setting-up-user-nodes-around-your-object",
+          "Guide for setting up user nodes around your object"
+        ],
+        [
+          "h3",
+          "rotations-towards-the-object-in-the-center-arrows-in",
+          "Rotations towards the object in the center (arrows in)"
+        ],
+        [
+          "h3",
+          "rotations-away-from-the-object-in-the-center-arrows-out",
+          "Rotations away from the object in the center (arrows out)"
+        ]
+      ],
+      "ids": [
+        "guide-for-setting-up-user-nodes-around-your-object",
+        "rotations-towards-the-object-in-the-center-arrows-in",
+        "rotations-away-from-the-object-in-the-center-arrows-out"
+      ],
+      "text": "618211fa32777255270b0b0bc74eb0d6f8ae5188e61a64da0b14d9dbfe742044",
+      "links": "8ec97c4650a2bba6e3ba67001b5f353482a7e993e02f076963c58a016b36884c",
+      "tables": "91691eddc43a45cd0c09151b8e6bad97ee13ea01d5b7223766a78bd410dc1ddf",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "using-faction-reputation-as-variable": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "using-faction-reputation-as-variable-storage",
+          "Using Faction Reputation as variable storage"
+        ],
+        [
+          "h3",
+          "limitations",
+          "Limitations"
+        ],
+        [
+          "h3",
+          "advantages",
+          "Advantages"
+        ],
+        [
+          "h3",
+          "things-to-note",
+          "Things to note"
+        ],
+        [
+          "h3",
+          "sample",
+          "Sample"
+        ]
+      ],
+      "ids": [
+        "using-faction-reputation-as-variable-storage",
+        "limitations",
+        "advantages",
+        "things-to-note",
+        "sample"
+      ],
+      "text": "0f25e9a7e8c33d849310f036e22a3a96e803c2efac1265bcc9ef99b99480ecfc",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "using-the-fcs": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "introduction",
+          "Introduction"
+        ],
+        [
+          "h3",
+          "whats-an-fcs",
+          "What’s an FCS?"
+        ],
+        [
+          "h3",
+          "where-can-i-find-the-fcs",
+          "Where can I find the FCS?"
+        ],
+        [
+          "h3",
+          "why-is-it-called-fcs",
+          "Why is it called FCS?"
+        ],
+        [
+          "h3",
+          "useful-non-official-guides",
+          "Useful non-official guides"
+        ],
+        [
+          "h2",
+          "layout",
+          "Layout"
+        ],
+        [
+          "h3",
+          "opening-a-mod",
+          "Opening a mod"
+        ],
+        [
+          "h3",
+          "navigating-and-locating-data",
+          "Navigating and locating data"
+        ],
+        [
+          "h4",
+          "the-game-world-window",
+          "The Game World window"
+        ],
+        [
+          "h4",
+          "colour-coding",
+          "Colour coding"
+        ],
+        [
+          "h4",
+          "custom-columns",
+          "Custom Columns"
+        ],
+        [
+          "h3",
+          "object-view",
+          "Object view"
+        ],
+        [
+          "h2",
+          "data-management-tools",
+          "Data management tools"
+        ],
+        [
+          "h3",
+          "searching-for-data",
+          "Searching for data"
+        ],
+        [
+          "h4",
+          "search-by-name-or-stringid",
+          "Search by Name or StringID"
+        ],
+        [
+          "h4",
+          "search-by-value",
+          "Search by value"
+        ],
+        [
+          "h5",
+          "equal-to",
+          "Equal to"
+        ],
+        [
+          "h5",
+          "not-equal-to",
+          "Not Equal to"
+        ],
+        [
+          "h5",
+          "greaterless-than",
+          "Greater/Less than"
+        ],
+        [
+          "h5",
+          "contains",
+          "Contains"
+        ],
+        [
+          "h5",
+          "does-not-contain",
+          "Does not contain"
+        ],
+        [
+          "h5",
+          "regex",
+          "Regex"
+        ],
+        [
+          "h4",
+          "combining-multiple-search-terms",
+          "Combining multiple search terms"
+        ],
+        [
+          "h4",
+          "special-properties",
+          "Special properties"
+        ],
+        [
+          "h4",
+          "recursive-reference-searching",
+          "Recursive reference searching"
+        ],
+        [
+          "h3",
+          "set-field",
+          "Set Field"
+        ],
+        [
+          "h3",
+          "find-and-replace",
+          "Find and Replace"
+        ],
+        [
+          "h3",
+          "spellcheck",
+          "Spellcheck"
+        ],
+        [
+          "h2",
+          "managing-your-mod",
+          "Managing your mod"
+        ],
+        [
+          "h3",
+          "item-colour-key",
+          "Item colour key"
+        ],
+        [
+          "h3",
+          "loading-your-mod-in-game",
+          "Loading your mod in game"
+        ],
+        [
+          "h3",
+          "merging-mods",
+          "Merging Mods"
+        ],
+        [
+          "h3",
+          "cleanup",
+          "Cleanup"
+        ],
+        [
+          "h3",
+          "uploading-your-mod-to-steam",
+          "Uploading your mod to Steam"
+        ],
+        [
+          "h2",
+          "errors",
+          "Errors"
+        ],
+        [
+          "h3",
+          "types-of-errors",
+          "Types of Errors"
+        ]
+      ],
+      "ids": [
+        "introduction",
+        "whats-an-fcs",
+        "where-can-i-find-the-fcs",
+        "why-is-it-called-fcs",
+        "useful-non-official-guides",
+        "layout",
+        "opening-a-mod",
+        "navigating-and-locating-data",
+        "the-game-world-window",
+        "colour-coding",
+        "custom-columns",
+        "object-view",
+        "data-management-tools",
+        "searching-for-data",
+        "search-by-name-or-stringid",
+        "search-by-value",
+        "equal-to",
+        "not-equal-to",
+        "greaterless-than",
+        "contains",
+        "does-not-contain",
+        "regex",
+        "combining-multiple-search-terms",
+        "special-properties",
+        "recursive-reference-searching",
+        "set-field",
+        "find-and-replace",
+        "spellcheck",
+        "managing-your-mod",
+        "item-colour-key",
+        "loading-your-mod-in-game",
+        "merging-mods",
+        "cleanup",
+        "uploading-your-mod-to-steam",
+        "errors",
+        "types-of-errors"
+      ],
+      "text": "a280f5e217c891b0ce1daa1add2d83587b8db8745bcdd4661a3cb9d3e21e0800",
+      "links": "9743b0365916ce826981d03d8145e1e3c04311615880f500dd3a010552775488",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "uwe-weapon/modifiers": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "work-in-progress-free-to-contribute",
+          "Work in progress. Free to contribute."
+        ]
+      ],
+      "ids": [
+        "work-in-progress-free-to-contribute"
+      ],
+      "text": "6d2e2a38970ff01d142216c7c358612475ca1f1b98fe243b0ff88e31cd8f3c0a",
+      "links": "32107fc833f0612aba05997ecb1f9025105d7c7146e70daf4182a8dde1e2b130",
+      "tables": "ab5591d96fc71cdf93290b39dd720f1a4e56179ee36a5c8f7a4db9951aa3fc93",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "uwe-weapons": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "overview",
+          "Overview"
+        ],
+        [
+          "h2",
+          "weapon-types",
+          "Weapon Types"
+        ],
+        [
+          "h2",
+          "acquisition",
+          "Acquisition"
+        ],
+        [
+          "h2",
+          "notable-changes-from-vanilla",
+          "Notable Changes from Vanilla"
+        ],
+        [
+          "h2",
+          "notes",
+          "Notes"
+        ],
+        [
+          "h2",
+          "see-also",
+          "See Also"
+        ]
+      ],
+      "ids": [
+        "overview",
+        "weapon-types",
+        "acquisition",
+        "notable-changes-from-vanilla",
+        "notes",
+        "see-also"
+      ],
+      "text": "c2a473efce448118d6ce9fbd71d7bb69fef0e36790a34a1ed35d8eb8a8888bd6",
+      "links": "2425cc7430e033b79de679d7e45d07eb992321082807f8d3692ee701f63f2463",
+      "tables": "f2fc1ea95f54b8b3e39a7a892b79e223ec52ecef55c69c7d929c2632f413a4b2",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "uwe-weapons/damage": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "426745484b6cd82d18c7a0f52686ee2575ce49a7d793f441ee8d81f7fbc6d156",
+      "links": "dc982193399394e5d3c4bcb086fd49ab34e3e90258639290b9382e6b780bbee8",
+      "tables": "bdf097d8493a2743d87bc93a770034c157e44ba0a23b38157b2d25c0458174f3",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "vanilla-animation-names": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "8824ff0418acb06d2c7f15a84f9ece5b5344b8aad8c194d96edbb03dca630fc4",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "weapons-fcs": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "weapons",
+          "Weapons"
+        ],
+        [
+          "h3",
+          "base",
+          "Base"
+        ],
+        [
+          "h3",
+          "craft",
+          "Craft"
+        ],
+        [
+          "h3",
+          "damage",
+          "Damage"
+        ],
+        [
+          "h3",
+          "files",
+          "Files"
+        ],
+        [
+          "h3",
+          "general",
+          "General"
+        ],
+        [
+          "h3",
+          "inventory",
+          "Inventory"
+        ],
+        [
+          "h3",
+          "inventory-icon",
+          "Inventory icon"
+        ],
+        [
+          "h2",
+          "mod",
+          "Mod"
+        ],
+        [
+          "h2",
+          "models",
+          "Models"
+        ],
+        [
+          "h2",
+          "manufacturers",
+          "Manufacturers"
+        ],
+        [
+          "h2",
+          "price-multipliers",
+          "Price multipliers"
+        ],
+        [
+          "h2",
+          "stat-generation-formulas",
+          "Stat generation formulas"
+        ]
+      ],
+      "ids": [
+        "weapons",
+        "base",
+        "craft",
+        "damage",
+        "files",
+        "general",
+        "inventory",
+        "inventory-icon",
+        "mod",
+        "models",
+        "manufacturers",
+        "price-multipliers",
+        "stat-generation-formulas"
+      ],
+      "text": "dc3445d3cb556d354dea6db686b88d6ea5ebf5072f93164651b8990d626d0965",
+      "links": "28a4fa523e42f7c6df6eb62095a7e5ebf3e4b6cdd7d9e2cfae5fcea2a03bbcf3",
+      "tables": "db61d2e85c512a8d20d3a8a73df4a8f461a8f5a2ed5b4c936c8dbb0d1679da4a",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "what-mod-my-race-comes-from": {
+      "code": [],
+      "headings": [],
+      "ids": [],
+      "text": "25629612324ef2062c9f07560e0a14c9f4f3dd170c2f295a0bbbb710c9a00729",
+      "links": "51692a1369320db5d57cc7071a74b67665ad5a14fa70ef38c0db39e8b55cf01b",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "what-possibilities-we-have-to-make-quests": {
+      "code": [],
+      "headings": [
+        [
+          "h5",
+          "currently-the-only-somewhat-working-system-not-elegant",
+          "Currently the only somewhat working system (not elegant)"
+        ],
+        [
+          "h5",
+          "cannot-make-a-house-sellable--with-a-function",
+          "Cannot make a house sellable & with a function"
+        ]
+      ],
+      "ids": [
+        "currently-the-only-somewhat-working-system-not-elegant",
+        "cannot-make-a-house-sellable--with-a-function"
+      ],
+      "text": "ae8d87f47db451b44a9d2f782a559e8d17278631636d516e3552289e2f7ac353",
+      "links": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading": {
+      "code": [],
+      "headings": [
+        [
+          "h2",
+          "analyzing-the-mesh-to-see-if-symmetry-is-the-cause-of-the-issue",
+          "Analyzing the mesh to see if symmetry is the cause of the issue"
+        ],
+        [
+          "h2",
+          "fixing-the-symmetrical-uvs-on-the-mesh-in-blender",
+          "Fixing the symmetrical UVs on the mesh in Blender"
+        ],
+        [
+          "h2",
+          "making-texture-atlases-using-gimp",
+          "Making texture atlases using Gimp"
+        ]
+      ],
+      "ids": [
+        "analyzing-the-mesh-to-see-if-symmetry-is-the-cause-of-the-issue",
+        "fixing-the-symmetrical-uvs-on-the-mesh-in-blender",
+        "making-texture-atlases-using-gimp"
+      ],
+      "text": "b76b13e5369898b09a44c5c1786525c3c44b379082a5d086e0836190abf2ee13",
+      "links": "cd030307972b58402f600505f0742841172bdb93cdfe814250157f17eb658035",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    },
+    "why-load-order-matters-and-other-faq-about-using-mods": {
+      "code": [],
+      "headings": [
+        [
+          "h3",
+          "why-load-order-matters",
+          "Why load order matters?"
+        ],
+        [
+          "h4",
+          "the-primary-issue",
+          "The primary issue"
+        ],
+        [
+          "h3",
+          "mod-terminology",
+          "Mod Terminology"
+        ],
+        [
+          "h4",
+          "safe-mods",
+          "Safe mods"
+        ],
+        [
+          "h4",
+          "addition-child-mods",
+          "Addition/ Child mods"
+        ],
+        [
+          "h4",
+          "collection--package-mods",
+          "Collection / Package mods"
+        ],
+        [
+          "h4",
+          "mod-collectionsmod-lists",
+          "Mod collections/Mod lists"
+        ],
+        [
+          "h4",
+          "patches",
+          "Patches"
+        ],
+        [
+          "h3",
+          "how-to-avoid-loading-order-issues",
+          "How to avoid loading order issues?"
+        ]
+      ],
+      "ids": [
+        "why-load-order-matters",
+        "the-primary-issue",
+        "mod-terminology",
+        "safe-mods",
+        "addition-child-mods",
+        "collection--package-mods",
+        "mod-collectionsmod-lists",
+        "patches",
+        "how-to-avoid-loading-order-issues"
+      ],
+      "text": "452abe938ce5bc2ba122233d5bac10a7668053a1a5c991b89c313308a242eb2c",
+      "links": "41ba8a1d4d07ad7dc30f3b3618dd43a5cb6ba2409275cce22cf651a1830ff7b3",
+      "tables": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "facts": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "images": [],
+      "emptyGallery": false
+    }
+  },
+  "assets": {}
+}
