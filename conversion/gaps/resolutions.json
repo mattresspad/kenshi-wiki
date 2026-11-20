@@ -9627,6 +9627,17 @@
       }
     },
     {
+      "id": "availability:/holy-nation-reinforcements",
+      "kind": "availability",
+      "target": "/holy-nation-reinforcements",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-reinforcements"
+      }
+    },
+    {
       "id": "availability:/holy-nation-robot",
       "kind": "availability",
       "target": "/holy-nation-robot",
@@ -9825,6 +9836,28 @@
       }
     },
     {
+      "id": "availability:/hound-check-in",
+      "kind": "availability",
+      "target": "/hound-check-in",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hound-check-in"
+      }
+    },
+    {
+      "id": "availability:/hound-reinforcements",
+      "kind": "availability",
+      "target": "/hound-reinforcements",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hound-reinforcements"
+      }
+    },
+    {
       "id": "availability:/hound-skeleton",
       "kind": "availability",
       "target": "/hound-skeleton",
@@ -9844,6 +9877,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hounds"
+      }
+    },
+    {
+      "id": "availability:/hounds-welcome",
+      "kind": "availability",
+      "target": "/hounds-welcome",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hounds-welcome"
       }
     },
     {
@@ -10221,6 +10265,17 @@
       }
     },
     {
+      "id": "availability:/invincible-vengeance",
+      "kind": "availability",
+      "target": "/invincible-vengeance",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/invincible-vengeance"
+      }
+    },
+    {
       "id": "availability:/iron-club",
       "kind": "availability",
       "target": "/iron-club",
@@ -10460,6 +10515,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/jobs"
+      }
+    },
+    {
+      "id": "availability:/jonin-assault",
+      "kind": "availability",
+      "target": "/jonin-assault",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/jonin-assault"
       }
     },
     {
@@ -12113,6 +12179,17 @@
       }
     },
     {
+      "id": "availability:/mighty-canhead-event",
+      "kind": "availability",
+      "target": "/mighty-canhead-event",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mighty-canhead-event"
+      }
+    },
+    {
       "id": "availability:/minor-outposts",
       "kind": "availability",
       "target": "/minor-outposts",
@@ -12663,6 +12740,17 @@
       }
     },
     {
+      "id": "availability:/ninja-raid",
+      "kind": "availability",
+      "target": "/ninja-raid",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ninja-raid"
+      }
+    },
+    {
       "id": "availability:/no-face",
       "kind": "availability",
       "target": "/no-face",
@@ -12737,6 +12825,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/nobles-trousers"
+      }
+    },
+    {
+      "id": "availability:/nobles-wrath",
+      "kind": "availability",
+      "target": "/nobles-wrath",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/nobles-wrath"
+      }
+    },
+    {
+      "id": "availability:/nobles-wrath-assault",
+      "kind": "availability",
+      "target": "/nobles-wrath-assault",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/nobles-wrath-assault"
       }
     },
     {
@@ -14159,6 +14269,17 @@
       }
     },
     {
+      "id": "availability:/raid",
+      "kind": "availability",
+      "target": "/raid",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/raid"
+      }
+    },
+    {
       "id": "availability:/raider-camp",
       "kind": "availability",
       "target": "/raider-camp",
@@ -14500,6 +14621,17 @@
       }
     },
     {
+      "id": "availability:/rebel-farmers-reinforcements",
+      "kind": "availability",
+      "target": "/rebel-farmers-reinforcements",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rebel-farmers-reinforcements"
+      }
+    },
+    {
       "id": "availability:/rebel-fighter",
       "kind": "availability",
       "target": "/rebel-fighter",
@@ -14687,6 +14819,17 @@
       }
     },
     {
+      "id": "availability:/red-sabre-raid",
+      "kind": "availability",
+      "target": "/red-sabre-raid",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/red-sabre-raid"
+      }
+    },
+    {
       "id": "availability:/red-sabres",
       "kind": "availability",
       "target": "/red-sabres",
@@ -14742,6 +14885,39 @@
       }
     },
     {
+      "id": "availability:/retribution-of-god",
+      "kind": "availability",
+      "target": "/retribution-of-god",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/retribution-of-god"
+      }
+    },
+    {
+      "id": "availability:/return-for-blood",
+      "kind": "availability",
+      "target": "/return-for-blood",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/return-for-blood"
+      }
+    },
+    {
+      "id": "availability:/return-for-tribute",
+      "kind": "availability",
+      "target": "/return-for-tribute",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/return-for-tribute"
+      }
+    },
+    {
       "id": "availability:/reva",
       "kind": "availability",
       "target": "/reva",
@@ -14750,6 +14926,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/reva"
+      }
+    },
+    {
+      "id": "availability:/revenge-of-the-hounds",
+      "kind": "availability",
+      "target": "/revenge-of-the-hounds",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/revenge-of-the-hounds"
       }
     },
     {
@@ -15688,6 +15875,17 @@
       }
     },
     {
+      "id": "availability:/scrawny-raid",
+      "kind": "availability",
+      "target": "/scrawny-raid",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/scrawny-raid"
+      }
+    },
+    {
       "id": "availability:/screamer-mki",
       "kind": "availability",
       "target": "/screamer-mki",
@@ -16026,6 +16224,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shek-barman"
+      }
+    },
+    {
+      "id": "availability:/shek-challenge",
+      "kind": "availability",
+      "target": "/shek-challenge",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-challenge"
+      }
+    },
+    {
+      "id": "availability:/shek-challengers-band-of-bones",
+      "kind": "availability",
+      "target": "/shek-challengers-band-of-bones",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-challengers-band-of-bones"
+      }
+    },
+    {
+      "id": "availability:/shek-challengers-shek-kingdom",
+      "kind": "availability",
+      "target": "/shek-challengers-shek-kingdom",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-challengers-shek-kingdom"
       }
     },
     {

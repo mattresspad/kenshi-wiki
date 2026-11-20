@@ -5890,6 +5890,90 @@
     "holy-nation-assault-minor": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/events/review.json"
+    },
+    "holy-nation-reinforcements": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "hound-check-in": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "hound-reinforcements": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "hounds-welcome": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "invincible-vengeance": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "jonin-assault": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "mighty-canhead-event": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "ninja-raid": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "nobles-wrath-assault": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "nobles-wrath": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "raid": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "rebel-farmers-reinforcements": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "red-sabre-raid": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "retribution-of-god": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "return-for-blood": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "return-for-tribute": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "revenge-of-the-hounds": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "scrawny-raid": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "shek-challenge": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "shek-challengers-band-of-bones": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "shek-challengers-shek-kingdom": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
     }
   },
   "mediaGaps": [

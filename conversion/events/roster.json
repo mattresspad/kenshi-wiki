@@ -322,8 +322,8 @@
         "jonin-assault",
         "mighty-canhead-event",
         "ninja-raid",
-        "nobles-wrath-assault",
         "nobles-wrath",
+        "nobles-wrath-assault",
         "raid",
         "rebel-farmers-reinforcements",
         "red-sabre-raid",
@@ -378,5 +378,6 @@
     1979,
     2000,
     2020
-  ]
+  ],
+  "siblingOrdering": "Frozen titles, English locale; permanent ID breaks title ties."
 }
