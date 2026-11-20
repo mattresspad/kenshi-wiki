@@ -5964,6 +5964,17 @@
       }
     },
     {
+      "id": "availability:/events",
+      "kind": "availability",
+      "target": "/events",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-overview-and-routes",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/events"
+      }
+    },
+    {
       "id": "availability:/ex-servant",
       "kind": "availability",
       "target": "/ex-servant",
@@ -6654,6 +6665,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/flotsam-ninjas"
+      }
+    },
+    {
+      "id": "availability:/flotsam-ninjas-route",
+      "kind": "availability",
+      "target": "/flotsam-ninjas-route",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-overview-and-routes",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flotsam-ninjas-route"
       }
     },
     {
@@ -15809,6 +15831,17 @@
       }
     },
     {
+      "id": "availability:/shek-kingdom-route",
+      "kind": "availability",
+      "target": "/shek-kingdom-route",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-overview-and-routes",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-kingdom-route"
+      }
+    },
+    {
       "id": "availability:/shek-kingdom-trade-culture",
       "kind": "availability",
       "target": "/shek-kingdom-trade-culture",
@@ -19384,6 +19417,17 @@
       }
     },
     {
+      "id": "availability:/the-holy-nation-route",
+      "kind": "availability",
+      "target": "/the-holy-nation-route",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-overview-and-routes",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-holy-nation-route"
+      }
+    },
+    {
       "id": "availability:/the-holy-nation-trade-culture",
       "kind": "availability",
       "target": "/the-holy-nation-trade-culture",
@@ -20066,6 +20110,17 @@
       }
     },
     {
+      "id": "availability:/traders-guild-route",
+      "kind": "availability",
+      "target": "/traders-guild-route",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-overview-and-routes",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/traders-guild-route"
+      }
+    },
+    {
       "id": "availability:/traders-leathers",
       "kind": "availability",
       "target": "/traders-leathers",
@@ -20382,6 +20437,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/united-cities"
+      }
+    },
+    {
+      "id": "availability:/united-cities-route",
+      "kind": "availability",
+      "target": "/united-cities-route",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-overview-and-routes",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/united-cities-route"
       }
     },
     {
@@ -21196,6 +21262,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/world-of-kenshi"
+      }
+    },
+    {
+      "id": "availability:/world-state-routes",
+      "kind": "availability",
+      "target": "/world-state-routes",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-overview-and-routes",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/world-state-routes"
       }
     },
     {

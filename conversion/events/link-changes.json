@@ -46,5 +46,18 @@
       "/materials-trader"
     ],
     "introduced": []
+  },
+  {
+    "name": "event-overview-and-routes",
+    "resolved": [
+      "/events",
+      "/flotsam-ninjas-route",
+      "/shek-kingdom-route",
+      "/the-holy-nation-route",
+      "/traders-guild-route",
+      "/united-cities-route",
+      "/world-state-routes"
+    ],
+    "introduced": []
   }
 ]
