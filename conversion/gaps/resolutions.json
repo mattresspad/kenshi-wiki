@@ -3137,6 +3137,17 @@
       }
     },
     {
+      "id": "availability:/category/books",
+      "kind": "availability",
+      "target": "/category/books",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/books"
+      }
+    },
+    {
       "id": "availability:/category/buildings",
       "kind": "availability",
       "target": "/category/buildings",
@@ -3211,6 +3222,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/category/locations"
+      }
+    },
+    {
+      "id": "availability:/category/lore",
+      "kind": "availability",
+      "target": "/category/lore",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/lore"
       }
     },
     {
@@ -8780,6 +8802,17 @@
       }
     },
     {
+      "id": "availability:/history-of-kenshi",
+      "kind": "availability",
+      "target": "/history-of-kenshi",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/history-of-kenshi"
+      }
+    },
+    {
       "id": "availability:/hive",
       "kind": "availability",
       "target": "/hive",
@@ -11090,6 +11123,17 @@
       }
     },
     {
+      "id": "availability:/letter-from-bad-teeth",
+      "kind": "availability",
+      "target": "/letter-from-bad-teeth",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/letter-from-bad-teeth"
+      }
+    },
+    {
       "id": "availability:/leviathan",
       "kind": "availability",
       "target": "/leviathan",
@@ -11461,6 +11505,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/lower-servant"
+      }
+    },
+    {
+      "id": "availability:/ludins-reports",
+      "kind": "availability",
+      "target": "/ludins-reports",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ludins-reports"
       }
     },
     {
@@ -22663,6 +22718,18 @@
       }
     },
     {
+      "id": "media:/icons/items/1533966-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/1533966-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "eadda51f8929aee6a5d92429c79433542c1e56354380027d9ddc2c8f2676c488",
+        "sourceSha256": "eadda51f8929aee6a5d92429c79433542c1e56354380027d9ddc2c8f2676c488"
+      }
+    },
+    {
       "id": "media:/icons/items/1534050-Newwworld.mod.png",
       "kind": "media",
       "target": "/icons/items/1534050-Newwworld.mod.png",
@@ -24595,6 +24662,54 @@
       }
     },
     {
+      "id": "media:/icons/items/48291-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/48291-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "a2b35357c82c12b5dddacb9ecd93b2209b595701689f7c7b4df9f4adce774c05",
+        "sourceSha256": "a2b35357c82c12b5dddacb9ecd93b2209b595701689f7c7b4df9f4adce774c05"
+      }
+    },
+    {
+      "id": "media:/icons/items/48292-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/48292-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "32b4d4ce850dd9cc505193600d9120851bdbfac25f2bc5b71533c393fee548be",
+        "sourceSha256": "32b4d4ce850dd9cc505193600d9120851bdbfac25f2bc5b71533c393fee548be"
+      }
+    },
+    {
+      "id": "media:/icons/items/48293-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/48293-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "8322ee9ca1a1a5c8892b068f3bdaaf6f52c055a42e43a3a15f2602feeb52fbf4",
+        "sourceSha256": "8322ee9ca1a1a5c8892b068f3bdaaf6f52c055a42e43a3a15f2602feeb52fbf4"
+      }
+    },
+    {
+      "id": "media:/icons/items/48294-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/48294-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "f9179104fb115c94a735bc20c03c929a2eb314c7231750c6420d8f354fdeecf2",
+        "sourceSha256": "f9179104fb115c94a735bc20c03c929a2eb314c7231750c6420d8f354fdeecf2"
+      }
+    },
+    {
       "id": "media:/icons/items/48298-Dialogue.mod.png",
       "kind": "media",
       "target": "/icons/items/48298-Dialogue.mod.png",
@@ -24667,6 +24782,66 @@
       }
     },
     {
+      "id": "media:/icons/items/49053-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49053-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49054-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49054-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49055-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49055-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49058-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49058-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "8cc4e810b051b4fd1d349e6561d81080cd25f5c6c5a231279fd0e083c36d98f5",
+        "sourceSha256": "8cc4e810b051b4fd1d349e6561d81080cd25f5c6c5a231279fd0e083c36d98f5"
+      }
+    },
+    {
+      "id": "media:/icons/items/49197-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49197-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
       "id": "media:/icons/items/49358-rebirth.mod.png",
       "kind": "media",
       "target": "/icons/items/49358-rebirth.mod.png",
@@ -24684,6 +24859,150 @@
       "target": "/icons/items/49381-rebirth.mod.png",
       "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
       "acceptedIn": "conversion/items/acceptances.json#items-3",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49474-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49474-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49478-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49478-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49488-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49488-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49492-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49492-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49493-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49493-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49494-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49494-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49786-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49786-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/49787-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49787-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/50381-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/50381-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/50382-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/50382-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "842bc944e1424c23d2abd55a75f6f3d18bcb4e9c42f22e4708bfbe701849fcb8",
+        "sourceSha256": "842bc944e1424c23d2abd55a75f6f3d18bcb4e9c42f22e4708bfbe701849fcb8"
+      }
+    },
+    {
+      "id": "media:/icons/items/50383-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/50383-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "cdd0d3df376a9f9294552a767d66d17a0afa89418d8c6c49a7f20fece2cc5bb7",
+        "sourceSha256": "cdd0d3df376a9f9294552a767d66d17a0afa89418d8c6c49a7f20fece2cc5bb7"
+      }
+    },
+    {
+      "id": "media:/icons/items/50384-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/50384-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
       "resolution": {
         "method": "local media matches pinned file SHA-256",
         "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
@@ -24760,6 +25079,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "1010510313b59dbc3bce3981083ea7bf35db0e7f68b35e8175c74c492056c4e7",
         "sourceSha256": "1010510313b59dbc3bce3981083ea7bf35db0e7f68b35e8175c74c492056c4e7"
+      }
+    },
+    {
+      "id": "media:/icons/items/51300-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/51300-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "d65ec6b9a3d1d674f990f42266242418dd3e3aa045c3a83b89feaba3ae96210e",
+        "sourceSha256": "d65ec6b9a3d1d674f990f42266242418dd3e3aa045c3a83b89feaba3ae96210e"
       }
     },
     {
@@ -25204,6 +25535,102 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "b858a4ccf40050d769f0aeee5df192930ab34f9b5c0156fbb8851c4266d1281f",
         "sourceSha256": "b858a4ccf40050d769f0aeee5df192930ab34f9b5c0156fbb8851c4266d1281f"
+      }
+    },
+    {
+      "id": "media:/icons/items/53652-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/53652-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "a0afb41ccf9e975c0f66a610f4103e6feda6decf1224484253685101369dbf27",
+        "sourceSha256": "a0afb41ccf9e975c0f66a610f4103e6feda6decf1224484253685101369dbf27"
+      }
+    },
+    {
+      "id": "media:/icons/items/53653-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/53653-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "a0afb41ccf9e975c0f66a610f4103e6feda6decf1224484253685101369dbf27",
+        "sourceSha256": "a0afb41ccf9e975c0f66a610f4103e6feda6decf1224484253685101369dbf27"
+      }
+    },
+    {
+      "id": "media:/icons/items/53654-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/53654-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "a0afb41ccf9e975c0f66a610f4103e6feda6decf1224484253685101369dbf27",
+        "sourceSha256": "a0afb41ccf9e975c0f66a610f4103e6feda6decf1224484253685101369dbf27"
+      }
+    },
+    {
+      "id": "media:/icons/items/53655-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/53655-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "a0afb41ccf9e975c0f66a610f4103e6feda6decf1224484253685101369dbf27",
+        "sourceSha256": "a0afb41ccf9e975c0f66a610f4103e6feda6decf1224484253685101369dbf27"
+      }
+    },
+    {
+      "id": "media:/icons/items/53656-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/53656-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "a0afb41ccf9e975c0f66a610f4103e6feda6decf1224484253685101369dbf27",
+        "sourceSha256": "a0afb41ccf9e975c0f66a610f4103e6feda6decf1224484253685101369dbf27"
+      }
+    },
+    {
+      "id": "media:/icons/items/53675-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/53675-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/53676-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/53676-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
+      "id": "media:/icons/items/53677-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/53677-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
       }
     },
     {
@@ -25675,6 +26102,18 @@
       }
     },
     {
+      "id": "media:/icons/items/64281-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/64281-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
+      }
+    },
+    {
       "id": "media:/icons/items/64888-Newwworld.mod.png",
       "kind": "media",
       "target": "/icons/items/64888-Newwworld.mod.png",
@@ -25768,6 +26207,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "01e1c8b70350881434dd5c025ee217c7a6d2dfb2186ce16bafaa023652435b97",
         "sourceSha256": "01e1c8b70350881434dd5c025ee217c7a6d2dfb2186ce16bafaa023652435b97"
+      }
+    },
+    {
+      "id": "media:/icons/items/65002-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/65002-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a",
+        "sourceSha256": "1f35631a5391a4aae50552a8a20dc01a2334d4cf4ea5ba47c5273288e458cf3a"
       }
     },
     {
@@ -26475,6 +26926,18 @@
       "resolution": {
         "method": "local resource available; independently maintained contents",
         "sha256": "1d2abd0bb6e8d59b4366489ffa8f3f668d9d51ad552f9646fab7d43093863ab5",
+        "sourceSha256": "b385289390d87210d9fedaa535f11ee55230dc6ab3af61cc313ac1614647ae8d"
+      }
+    },
+    {
+      "id": "media:/notices/artwork.txt",
+      "kind": "media",
+      "target": "/notices/artwork.txt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-pilots",
+      "resolution": {
+        "method": "local resource available; independently maintained contents",
+        "sha256": "9f2190f7bf3d2f0b5ab232385aac4f02d8546839e556ff83e8bd8f42599589b9",
         "sourceSha256": "b385289390d87210d9fedaa535f11ee55230dc6ab3af61cc313ac1614647ae8d"
       }
     },

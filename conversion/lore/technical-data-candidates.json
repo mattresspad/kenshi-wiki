@@ -1,0 +1,130 @@
+{
+  "scope": "Research backlog only; not article evidence or a delivery architecture.",
+  "backupIdentity": "56b5eb802ac4d395b67ae10da0a79c4781853aaca11fc8b76a3ec9215f809411",
+  "datasets": [
+    {
+      "file": "item_data_20250711_213524.json",
+      "sha256": "bbd0c09fea210067842039d38be45c6e65047bbd13bf42924ff18d466b7549a6"
+    },
+    {
+      "file": "vendor_list_data_20250711_213651.json",
+      "sha256": "bb182b57b1d108476184da18f0caeee6d84f90eb2fb29a111808440c6d78e98d"
+    }
+  ],
+  "provenance": "Backup location identified; producer commit, complete game/mod layer provenance, export date semantics and defaults need establishment before publishing technical facts.",
+  "candidates": [
+    {
+      "articleId": "a-holy-purpose",
+      "recordId": "49052-Dialogue.mod",
+      "recordName": "A Holy Purpose",
+      "fields": [
+        "description",
+        "value",
+        "weight kg",
+        "inventory footprint width",
+        "inventory footprint height",
+        "artifact",
+        "persistent"
+      ],
+      "referenceGroups": {
+        "material": [
+          {
+            "Name": "Item_Atlas_ottos",
+            "StringId": "5263-lanterns_otto.mod",
+            "Value0": 0,
+            "Value1": 0,
+            "Value2": 0
+          }
+        ]
+      },
+      "referrers": [
+        {
+          "Name": "Lore: Holy Nation Offiical Books For Shops & Homes",
+          "StringId": "49489-Dialogue.mod",
+          "Type": "VendorList"
+        },
+        {
+          "Name": "Holy Priest church",
+          "StringId": "17087-Dialogue.mod",
+          "Type": "SquadTemplate"
+        },
+        {
+          "Name": "Holy Priest campaign squad",
+          "StringId": "99003-Dialogue.mod",
+          "Type": "SquadTemplate"
+        },
+        {
+          "Name": "Flotsam Ninjas",
+          "StringId": "49377-rebirth.mod",
+          "Type": "Faction"
+        },
+        {
+          "Name": "swamper",
+          "StringId": "50924-rebirth.mod",
+          "Type": "ItemsCulture"
+        },
+        {
+          "Name": "empire",
+          "StringId": "51761-rebirth.mod",
+          "Type": "ItemsCulture"
+        },
+        {
+          "Name": "skeletons",
+          "StringId": "56155-rebirth.mod",
+          "Type": "ItemsCulture"
+        },
+        {
+          "Name": "slavers",
+          "StringId": "56176-rebirth.mod",
+          "Type": "ItemsCulture"
+        },
+        {
+          "Name": "empire lawless",
+          "StringId": "62174-rebirth.mod",
+          "Type": "ItemsCulture"
+        },
+        {
+          "Name": "SE",
+          "StringId": "62824-rebirth.mod",
+          "Type": "ItemsCulture"
+        },
+        {
+          "Name": "empire copy",
+          "StringId": "95780-rebirth.mod",
+          "Type": "ItemsCulture"
+        },
+        {
+          "Name": "empire but more worldly",
+          "StringId": "1532813-rebirth.mod",
+          "Type": "ItemsCulture"
+        },
+        {
+          "Name": "holy flame books",
+          "StringId": "1534420-rebirth.mod",
+          "Type": "VendorList"
+        }
+      ],
+      "question": "Do item description, nominal properties and unique/location claims agree with a reproducible versioned export? A referrer does not prove runtime availability."
+    },
+    {
+      "recordId": "49489-Dialogue.mod",
+      "recordName": "Lore: Holy Nation Offiical Books For Shops & Homes",
+      "fields": [
+        "items count",
+        "money item max",
+        "money item min",
+        "money item prob"
+      ],
+      "referenceGroups": [
+        "items"
+      ],
+      "question": "Trace items membership, quantities and upstream shop/squad conditions; do not interpret reference weights as probabilities without validation."
+    }
+  ],
+  "evidenceDistinctions": {
+    "exported": "Observed record presence, field names and references in the two checksum-pinned candidate JSON files.",
+    "interpreted": "Price meanings, uniqueness, spawn availability and lore chronology remain unverified.",
+    "observedGameplay": "No gameplay trial conducted for this conversion."
+  },
+  "narrative": "In-world testimony, transcription accuracy and editorial chronology can require source text and dialogue evidence beyond item/vendor data."
+}

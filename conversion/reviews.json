@@ -6058,6 +6058,18 @@
     "broken-cities": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/lore/review.json"
+    },
+    "letter-from-bad-teeth": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/lore/review.json"
+    },
+    "ludins-reports": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/lore/review.json"
+    },
+    "history-of-kenshi": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/lore/review.json"
     }
   },
   "mediaGaps": [
