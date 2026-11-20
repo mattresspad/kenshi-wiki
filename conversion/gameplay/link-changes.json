@@ -37,5 +37,15 @@
       "/stun-damage"
     ],
     "introduced": []
+  },
+  {
+    "name": "player-walkthroughs",
+    "resolved": [
+      "/getting-started",
+      "/guide-to-health",
+      "/guide-to-training-statistics",
+      "/guides"
+    ],
+    "introduced": []
   }
 ]

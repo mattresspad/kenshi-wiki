@@ -6932,6 +6932,17 @@
       }
     },
     {
+      "id": "availability:/getting-started",
+      "kind": "availability",
+      "target": "/getting-started",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#player-walkthroughs",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/getting-started"
+      }
+    },
+    {
       "id": "availability:/ghost",
       "kind": "availability",
       "target": "/ghost",
@@ -7424,6 +7435,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/guide-to-faction-relations"
+      }
+    },
+    {
+      "id": "availability:/guide-to-health",
+      "kind": "availability",
+      "target": "/guide-to-health",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#player-walkthroughs",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/guide-to-health"
+      }
+    },
+    {
+      "id": "availability:/guide-to-training-statistics",
+      "kind": "availability",
+      "target": "/guide-to-training-statistics",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#player-walkthroughs",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/guide-to-training-statistics"
+      }
+    },
+    {
+      "id": "availability:/guides",
+      "kind": "availability",
+      "target": "/guides",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#player-walkthroughs",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/guides"
       }
     },
     {

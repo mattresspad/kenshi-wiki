@@ -91,6 +91,14 @@ export async function captureBatch(base, batch, output, family='geography') {
             shots.push({id,anchor,device,theme,file:expanded});
             if(device==='phone')await page.keyboard.press('Escape');
           }
+          if(family==='gameplay'&&id==='guide-to-training-statistics'){
+            const target='#'+await page.locator('.article-body h4,.article-body h3').last().getAttribute('id'),link=page.locator('.page-outline a[href="'+target+'"]');
+            await link.evaluate(el=>{for(let p=el.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true});
+            if(device==='phone')await page.locator('#toggle-navigation').press('Enter');
+            await link.scrollIntoViewIfNeeded();await link.focus();
+            const expanded='training-outline-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,expanded),animations:'disabled'});shots.push({id,device,theme,file:expanded});
+            if(device==='phone')await page.keyboard.press('Escape');
+          }
           if(id==='races') {await page.locator('table.race-comparison').locator('..').evaluate(el=>el.scrollIntoView({block:'start'}));}
           if(id==='guide-to-faction-relations') {
             const region=page.locator('.article-body .table-scroll');
@@ -99,7 +107,7 @@ export async function captureBatch(base, batch, output, family='geography') {
           const file=sample.replaceAll('/','--').replace('#','-')+'-'+device+'-'+theme+'.png';
           await page.screenshot({path:join(output,file),animations:'disabled'});
           shots.push({id,anchor,device,theme,file});
-          if(family==='gameplay'&&['statistics','science','wheatstraw-60-or-cactus-100'].includes(id)&&device==='phone'){const region=page.locator('.gameplay-wide').first().locator('..');await region.evaluate(el=>{el.scrollIntoView({block:'start'});el.focus({preventScroll:true});});await page.keyboard.press('End');const right=id+'-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}
+          if(family==='gameplay'&&['statistics','science','wheatstraw-60-or-cactus-100'].includes(id)&&device==='phone'){const region=page.locator('.gameplay-wide').first().locator('..');await region.evaluate(el=>{el.scrollIntoView({block:'start'});el.focus({preventScroll:true});});await page.keyboard.press('End');await region.evaluate(el=>{el.scrollIntoView({block:'start'});window.scrollBy(0,-90);});const right=id+'-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}
           if(family==='shops'&&['adventurer-bar','armour-kings-shop','holy-nation-bar','hiver-merchant-caravan'].includes(id)&&device==='phone'){const region=page.locator('.shop-stock').first().locator('..');await region.evaluate(el=>{el.scrollIntoView({block:'start'});el.focus({preventScroll:true});});await page.keyboard.press('End');const right=id+'-stock-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}
           if(family==='buildings' && ['weapon-smithing-bench','storage'].includes(id) && device==='phone'){const region=page.locator('.building-comparison').first().locator('..');await region.scrollIntoViewIfNeeded();await region.focus();await page.keyboard.press('End');const right=id+'-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}
           if(family==='items' && ['robot-limbs','light-armour','weapons/damage','weapons/modifiers'].includes(id) && device==='phone'){const region=page.locator('.item-comparison').first().locator('..');await region.scrollIntoViewIfNeeded();await region.focus();await page.keyboard.press('End');const right=id.replaceAll('/','--')+'-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}

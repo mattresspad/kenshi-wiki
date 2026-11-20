@@ -5478,6 +5478,34 @@
     "science": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/gameplay/review.json"
+    },
+    "getting-started": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "guide-to-health": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "guide-to-training-statistics": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "guide-to-faction-relations": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "hostile-factions": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "pacifiers": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "town-overrides": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
     }
   },
   "mediaGaps": [
