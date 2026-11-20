@@ -6254,6 +6254,18 @@
     "way-of-the-warrior-the-book-of-kral": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/lore/review.json"
+    },
+    "forgotten-construction-set": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "introduction-to-modding": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "using-the-fcs": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
     }
   },
   "mediaGaps": [

@@ -7185,6 +7185,17 @@
       }
     },
     {
+      "id": "availability:/forgotten-construction-set",
+      "kind": "availability",
+      "target": "/forgotten-construction-set",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-fcs",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/forgotten-construction-set"
+      }
+    },
+    {
       "id": "availability:/fort-mirage",
       "kind": "availability",
       "target": "/fort-mirage",
@@ -10405,6 +10416,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/interactive-maps"
+      }
+    },
+    {
+      "id": "availability:/introduction-to-modding",
+      "kind": "availability",
+      "target": "/introduction-to-modding",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-fcs",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/introduction-to-modding"
       }
     },
     {
@@ -21735,6 +21757,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/used-clothing-shop"
+      }
+    },
+    {
+      "id": "availability:/using-the-fcs",
+      "kind": "availability",
+      "target": "/using-the-fcs",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-fcs",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/using-the-fcs"
       }
     },
     {
