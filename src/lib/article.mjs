@@ -54,6 +54,7 @@ export function prepareArticle(html, data, href) {
     if ($('[id]').toArray().some(e => $(e).attr('id') === old)) throw Error('Duplicate bookmark: '+old);
     node.before($('<span></span>').attr({id:old,class:'bookmark','aria-hidden':'true'}));
   }
+  if (data.layout === 'modding') $('pre').each((index, block) => $(block).addClass('code-scroll').attr({tabindex:'0',role:'region','aria-label':data.title+' code example '+(index+1)}));
   for (const block of $('pre code').toArray()) $(block).text($(block).text().replace(/\n$/, ''));
   for (const header of $('table thead th:not([scope])').toArray()) $(header).attr('scope','col');
   for (const row of $('table tbody tr').toArray()) {

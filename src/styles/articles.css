@@ -355,3 +355,8 @@
  .with-recorded-text.with-facts .article-body {grid-column:1;grid-row:4}
  .with-recorded-text.with-facts .factbox {grid-row:1 / 5}
 }
+
+/* Modding examples retain their literal lines and scroll within the reading pane. */
+.modding pre { overflow-x:auto; white-space:pre; overflow-wrap:normal }
+.modding pre code { white-space:inherit; overflow-wrap:normal }
+.modding pre:focus-visible { outline:2px solid var(--brass); outline-offset:2px }

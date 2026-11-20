@@ -1,7 +1,7 @@
 import {numericKey,numericColumn} from '../lib/table-numbers.mjs';
 const collator = new Intl.Collator('en', {numeric: true, sensitivity: 'base'});
 
-for (const region of document.querySelectorAll('.table-scroll')) {
+for (const region of document.querySelectorAll('.table-scroll,.code-scroll')) {
   region.addEventListener('keydown', event => {
     if (event.target !== region || !['Home', 'End'].includes(event.key)) return;
     event.preventDefault();

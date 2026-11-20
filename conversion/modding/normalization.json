@@ -3,7 +3,8 @@
   "changes": [
     "Shared imported article framing and native table scrolling; all instructional cells and source order retained.",
     "Typed fact panels retain source labels and field values without inventing character statistics.",
-    "Code preservation compares the full text of all 67 blocks, normalizing only existing trailing-newline treatment."
+    "Code preservation compares the full text of all 67 blocks, normalizing only existing trailing-newline treatment.",
+    "Code examples retain literal line breaks in independently scrolling, keyboard-focusable regions. Home and End reach both horizontal edges; no code text changed."
   ],
   "editorial": "No substantive rewrite of imported tutorials; uncertainties remain in the register.",
   "attributionNesting": {
