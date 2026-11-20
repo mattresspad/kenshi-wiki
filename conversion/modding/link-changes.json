@@ -10,5 +10,17 @@
       "/category/fcs",
       "/fix-for-fcs-error-after-opting-out-from-experimental"
     ]
+  },
+  {
+    "name": "modding-structures",
+    "resolved": [
+      "/dialogue-conditions-effects",
+      "/dialogue-structure-overlook",
+      "/user-node-rotations-quarternions"
+    ],
+    "introduced": [
+      "/category/furniture",
+      "/category/model-making"
+    ]
   }
 ]

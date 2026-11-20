@@ -58,5 +58,36 @@
     "Project descriptions and compatibility observations are pinned historical evidence; availability is not current compatibility verification.",
     "Preserve the imported instructions and qualifications. Verify against the named software/game version and an independently reproducible example before correcting.",
     "Source descriptions and examples are not a new execution test; missing media may omit essential context."
+  ],
+  [
+    "modding-multiplayer-claims",
+    [
+      "kenshi-unofficial-multiplayer-mod"
+    ],
+    "2\u20136|dedicated|synchron|host-only|Nexus|praised|recommend",
+    "The imported multiplayer overview makes specific player-count, synchronization, installation and hosting claims without a pinned release or test record. Its linked project needs an independent comparison before endorsing those claims.",
+    "Compare the cited The404Studios/Kenshi-Online implementation, release notes and reproducible sessions; retain original wording and citation until editorial correction is supported.",
+    "Project identity, feature coverage, server-provider claims and reception are not established by this conversion."
+  ],
+  [
+    "modding-quaternion-explanation",
+    [
+      "user-node-rotations-quarternions"
+    ],
+    "four rotation axes|plane 6|plane 1|default rotation",
+    "The quaternion explanation uses an informal axes/planes analogy and depends on omitted charts. Preserve all 64 numeric blocks while flagging the mathematical explanation and context.",
+    "Restore the credited companion diagrams and check the coordinate convention with a reproducible asset before rewriting.",
+    "The copied numeric examples are not verified rotations."
+  ],
+  [
+    "modding-journal-contradictions",
+    [
+      "creating-a-rideable-animal/vehicle",
+      "making-custom-ragdoll"
+    ],
+    "not true|false|Scrap|Edit|test|journal",
+    "These guides contain dated journal entries and later reversals. Retain chronology, explicit corrections and the PR43 additions; a cohesive tested recipe is separate editorial work.",
+    "Reproduce the named Blender/plugin/game versions, then reconcile the author\u2019s dated claims with credit and evidence.",
+    "No fresh rigging or ragdoll test was performed."
   ]
 ]

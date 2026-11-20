@@ -4952,6 +4952,28 @@
       }
     },
     {
+      "id": "availability:/dialogue-conditions-effects",
+      "kind": "availability",
+      "target": "/dialogue-conditions-effects",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dialogue-conditions-effects"
+      }
+    },
+    {
+      "id": "availability:/dialogue-structure-overlook",
+      "kind": "availability",
+      "target": "/dialogue-structure-overlook",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dialogue-structure-overlook"
+      }
+    },
+    {
       "id": "availability:/digna",
       "kind": "availability",
       "target": "/digna",
@@ -21757,6 +21779,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/used-clothing-shop"
+      }
+    },
+    {
+      "id": "availability:/user-node-rotations-quarternions",
+      "kind": "availability",
+      "target": "/user-node-rotations-quarternions",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/user-node-rotations-quarternions"
       }
     },
     {
