@@ -530,6 +530,17 @@
       }
     },
     {
+      "id": "availability:/anti-slaver-reinforcements",
+      "kind": "availability",
+      "target": "/anti-slaver-reinforcements",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/anti-slaver-reinforcements"
+      }
+    },
+    {
       "id": "availability:/anti-slaver-unarmed",
       "kind": "availability",
       "target": "/anti-slaver-unarmed",
@@ -1179,6 +1190,28 @@
       }
     },
     {
+      "id": "availability:/bandit-rage",
+      "kind": "availability",
+      "target": "/bandit-rage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bandit-rage"
+      }
+    },
+    {
+      "id": "availability:/bandit-raid",
+      "kind": "availability",
+      "target": "/bandit-raid",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bandit-raid"
+      }
+    },
+    {
       "id": "availability:/bank",
       "kind": "availability",
       "target": "/bank",
@@ -1528,6 +1561,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/beak-thing-egg"
+      }
+    },
+    {
+      "id": "availability:/beast-trader",
+      "kind": "availability",
+      "target": "/beast-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/beast-trader"
       }
     },
     {
@@ -2078,6 +2122,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/blood-spider"
+      }
+    },
+    {
+      "id": "availability:/blooded-raid",
+      "kind": "availability",
+      "target": "/blooded-raid",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/blooded-raid"
       }
     },
     {
@@ -2862,6 +2917,17 @@
       }
     },
     {
+      "id": "availability:/cannibal-raid",
+      "kind": "availability",
+      "target": "/cannibal-raid",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cannibal-raid"
+      }
+    },
+    {
       "id": "availability:/cannibal-skav",
       "kind": "availability",
       "target": "/cannibal-skav",
@@ -2870,6 +2936,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/cannibal-skav"
+      }
+    },
+    {
+      "id": "availability:/cannibal-swarm",
+      "kind": "availability",
+      "target": "/cannibal-swarm",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cannibal-swarm"
       }
     },
     {
@@ -3423,6 +3500,17 @@
       }
     },
     {
+      "id": "availability:/challenger-of-the-undefeated",
+      "kind": "availability",
+      "target": "/challenger-of-the-undefeated",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/challenger-of-the-undefeated"
+      }
+    },
+    {
       "id": "availability:/character-customization",
       "kind": "availability",
       "target": "/character-customization",
@@ -3618,6 +3706,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/clunknad-spanner"
+      }
+    },
+    {
+      "id": "availability:/coast-raid",
+      "kind": "availability",
+      "target": "/coast-raid",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/coast-raid"
       }
     },
     {
@@ -4212,6 +4311,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crab-village/reavers"
+      }
+    },
+    {
+      "id": "availability:/crabbed-ones",
+      "kind": "availability",
+      "target": "/crabbed-ones",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crabbed-ones"
       }
     },
     {
@@ -5139,6 +5249,17 @@
       }
     },
     {
+      "id": "availability:/drug-bust",
+      "kind": "availability",
+      "target": "/drug-bust",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/drug-bust"
+      }
+    },
+    {
       "id": "availability:/drunken-bar-thug",
       "kind": "availability",
       "target": "/drunken-bar-thug",
@@ -5821,6 +5942,17 @@
       }
     },
     {
+      "id": "availability:/enemy-hunt",
+      "kind": "availability",
+      "target": "/enemy-hunt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/enemy-hunt"
+      }
+    },
+    {
       "id": "availability:/engineer",
       "kind": "availability",
       "target": "/engineer",
@@ -6071,6 +6203,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/eyegore"
+      }
+    },
+    {
+      "id": "availability:/eyegores-assault",
+      "kind": "availability",
+      "target": "/eyegores-assault",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/eyegores-assault"
       }
     },
     {
@@ -6654,6 +6797,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/flotsam-ninja"
+      }
+    },
+    {
+      "id": "availability:/flotsam-ninja-reinforcements",
+      "kind": "availability",
+      "target": "/flotsam-ninja-reinforcements",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flotsam-ninja-reinforcements"
       }
     },
     {
@@ -8637,6 +8791,28 @@
       }
     },
     {
+      "id": "availability:/hive-attack-southern-hive",
+      "kind": "availability",
+      "target": "/hive-attack-southern-hive",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hive-attack-southern-hive"
+      }
+    },
+    {
+      "id": "availability:/hive-attack-western-hive",
+      "kind": "availability",
+      "target": "/hive-attack-western-hive",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hive-attack-western-hive"
+      }
+    },
+    {
       "id": "availability:/hive-bandit",
       "kind": "availability",
       "target": "/hive-bandit",
@@ -8667,6 +8843,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hive-caravan-boss"
+      }
+    },
+    {
+      "id": "availability:/hive-eviction",
+      "kind": "availability",
+      "target": "/hive-eviction",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hive-eviction"
       }
     },
     {
@@ -8931,6 +9118,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holy-armour-trader"
+      }
+    },
+    {
+      "id": "availability:/holy-assault",
+      "kind": "availability",
+      "target": "/holy-assault",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-assault"
       }
     },
     {
@@ -9261,6 +9459,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holy-mines/slave-traders"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-assault-inquisitor",
+      "kind": "availability",
+      "target": "/holy-nation-assault-inquisitor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-assault-inquisitor"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-assault-major",
+      "kind": "availability",
+      "target": "/holy-nation-assault-major",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-assault-major"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-assault-minor",
+      "kind": "availability",
+      "target": "/holy-nation-assault-minor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-assault-minor"
       }
     },
     {

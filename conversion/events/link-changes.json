@@ -59,5 +59,32 @@
       "/world-state-routes"
     ],
     "introduced": []
+  },
+  {
+    "name": "event-siblings-1",
+    "resolved": [
+      "/anti-slaver-reinforcements",
+      "/bandit-rage",
+      "/bandit-raid",
+      "/beast-trader",
+      "/blooded-raid",
+      "/cannibal-raid",
+      "/cannibal-swarm",
+      "/challenger-of-the-undefeated",
+      "/coast-raid",
+      "/crabbed-ones",
+      "/drug-bust",
+      "/enemy-hunt",
+      "/eyegores-assault",
+      "/flotsam-ninja-reinforcements",
+      "/hive-attack-southern-hive",
+      "/hive-attack-western-hive",
+      "/hive-eviction",
+      "/holy-assault",
+      "/holy-nation-assault-inquisitor",
+      "/holy-nation-assault-major",
+      "/holy-nation-assault-minor"
+    ],
+    "introduced": []
   }
 ]

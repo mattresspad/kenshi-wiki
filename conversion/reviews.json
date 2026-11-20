@@ -5806,6 +5806,90 @@
     "united-cities-route": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/events/review.json"
+    },
+    "anti-slaver-reinforcements": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "bandit-rage": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "bandit-raid": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "beast-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "blooded-raid": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "cannibal-raid": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "cannibal-swarm": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "challenger-of-the-undefeated": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "coast-raid": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "crabbed-ones": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "drug-bust": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "enemy-hunt": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "eyegores-assault": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "flotsam-ninja-reinforcements": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "hive-attack-southern-hive": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "hive-attack-western-hive": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "hive-eviction": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "holy-assault": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "holy-nation-assault-inquisitor": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "holy-nation-assault-major": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "holy-nation-assault-minor": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
     }
   },
   "mediaGaps": [

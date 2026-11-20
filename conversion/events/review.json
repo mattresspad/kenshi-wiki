@@ -306,6 +306,387 @@
         "claim:events-unlinked-routes",
         "claim:events-world-state-gates"
       ]
+    },
+    {
+      "id": "anti-slaver-reinforcements",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Heard you might need a little help... The samurai will be here soon... Time to break some faces. Don't go dying on me now, comrades.Jaegar Anti-Slaver Reinforcements is an Event that will trigger in response to the Eyegore’s Assault, Noble’s Wrath, and Noble’s Wrath Assault events triggering, as long as the Player is allied to the Anti-Slavers faction, and as long as Tinfist and Jaegar are still alive and free. Once triggered, the Anti-Slavers will send reinforcements from Spring. While they will move faster than most hostile events, they can still arrive too late if the player’s Base is closer to the hostile event’s spawn location than to Spring. These reinforcements will consist of 2 squads, each made up of 4 Anti-Slaver Jonin and will be led by Jaegar. Once the reinforcements arrive, they will give a short speech, and then start patrolling the player’s base, attacking hostiles, defending the player’s characters, and healing wounded allies.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/anti-slaver-reinforcements.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "12a400b944bf16f0735ade8c436063a57b814e016ccc398ec3093a87e771f5ea"
+      },
+      "questions": [
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "bandit-rage",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: I AM SERIOUSLY PISSED! You bastards are gonna be sorry you stabbed me in the face!! Ain't nobody does that to the Dust Bandits and gets away! GET 'EM!!!Dust Boss Bandit Rage is an Event that can trigger in response to stabbing the Dust Boss War Leader during dialog in the Bandit Demands event. Once the conditions have been fulfilled, the Dust Bandits will send an assault to the player’s base. This assault will consist of 3-6 squads, each made up of 0-4 Dust Bandit Bowmen, 5-10 Dust Bandits, led by a Dust Boss. Once the assault arrives the War Leader will give a short speech before ordering the attack to begin, attacking gates and characters, and liberating captives. If the attackers are victorious, the Bandit Demands event will trigger in 40-50 hours.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bandit-rage.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f9893a47fee848825d0a6da85d4f40ce0a8d2e30fa4eee226f5df7f1c2eefbab"
+      },
+      "questions": [
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups"
+      ]
+    },
+    {
+      "id": "bandit-raid",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ugh, this place better have good loot... Can't face going back to the boss empty handed again... I can hear Dimak now... 'A woman needs her treasure, Boo...' 'Ohhh Makky, I'll give you all the treasure in the world!' 'Oh Boo, they never bring me good treasure!' 'Ohhhh!' Well, only one way to find out...Black Dragon Genin Bandit Raid is an Event that can trigger if the player lives within 4,500 meters of the Tower Of Ninjas. It has a 20% chance to trigger each day if within 3,800 meters, this chance scales down with distance until it hits a 0% chance at 4,500 meters. It cannot trigger if Dimak has been killed or captured. Once the conditions are fulfilled, the Black Dragon Ninjas will send an assault to the player’s base. This assault will consist of two squads, each made up of 8-10 Black Dragon Genin and led by an additional Black Dragon Genin. When it arrives, the War Leader will give a short speech, then order their forces to attack the base. Breaking down gates and attacking characters. If the assault forces are victorious, they are supposed to loot food and free prisoners, then leave. However this raid is bugged in vanilla, and the forces will stay indefinitely until removed, usually running between buildings or getting stuck in doorways.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bandit-raid.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b47f148c9e7b8d2e3729000aa2b64ebddc0e908acd9d50663663f83ab521e72c"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "beast-trader",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: We have animals for sale! Can't survive without some animals! Garrus to carry your supplies when you travel! Dogs for protection and companionship and emergency food! Goats for... uh... goat stuff...Nomad Animal Trader Beast Trader is an Event that can trigger if the player builds an outpost within 11,000 meters of a Nomads owned location. When the conditions have been fulfilled, the campaign has a 5% chance to trigger each day if within 6,000 meters of a Nomads owned location, this scales down with distance until it hits 0% chance at 11,000 meters. Once triggered, the Nomads will send a campaign to the player’s base. The campaign will consist of a single squad, made up of 8-10 Nomads, 0-5 Goats, 0-1 Wild Bulls, 1-3 Pack Bulls, 1 Bonedog, and 1-4 Pack Beasts, led by a Nomad Animal Trader. When the campaign arrives, the leader will request to speak with the player, offering to sell animals. If spoken to, the player can buy any animal in the campaign’s party. Price for the animals can vary wildly based on age, skills, and species of the animal. But you can easily expect them to be several thousand cats for a single animal unless it’s very young.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/beast-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7607782767e5d11dc5db9e2b5debfa114a9b37a4f153986bd388f980a7336287"
+      },
+      "questions": [
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups"
+      ]
+    },
+    {
+      "id": "blooded-raid",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Today is the day of new beginnings. Today is the day you join the revolution. Today is the day you become.. A Reaver. For freedom! For Valamon!Reaver Ironclad Blooded Raid is an Event that can trigger if the Player has a base within 8,000 meters of a location owned by the Reavers. It has a 15% chance to trigger each day if within 2,500 meters, this chance scales down with distance until it reaches 0% chance at 8,000 meters. It cannot trigger if Valamon is killed or captured, or if the player is allied with the Reavers (which is not possible in vanilla without exploits). Once the conditions are fulfilled the Reavers will send an assault to the player’s base. This assault will consist of three to five squads, each made up of 4-7 Reaver Blooded and 1-6 Reaver Slaves, led by a Reaver Ironclad. When it arrives, the leader will give a short speech and then order the attack. Breaking down gates, attacking characters, and enslaving any downed characters. Captured characters will be take to a Reaver owned location and imprisoned there.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blooded-raid.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "444b1383c5b6d2860de2ab5fca7dee5b37c3fa6267073b4088a698baae993dfc"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "cannibal-raid",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Meat! Meat! MEAT!Cannibal War Leader Cannibal Raid is an Event that can trigger if the Player has a Base within 4,000 meters of a Cannibals owned location or camp. It has a 15% chance to trigger if within 2,200 meters, this chance scales down with distance until it hits 0% at 4,000 meters. Once triggered, the Cannibals will send an assault to the player’s base. This assault will consist of usually one to three squads, though can rarely spawn as many as six if the squads spawn in small enough sizes, each squad will be made up of either 10-35 Scrawny Cannibals, or more uncommonly 6-25 Cannibals. When the assault arrives at the player’s base, the War Leader will shout “Meat!” a number of times, before they start the assault, attacking gates and characters, and kidnapping fallen characters to return them to their camp or village where they will eventually be eaten if not rescued. If the assault is defeated, there is a 50% chance for a Cannibal Swarm event to trigger in 24-96 hours.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cannibal-raid.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b0d1c9eb371922ea60d5dfdae6d31c7b6ea454ac655de3f1897fb9ad7308014b"
+      },
+      "questions": [
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups"
+      ]
+    },
+    {
+      "id": "cannibal-swarm",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Meat! Meat! MEAT!Cannibal War Leader Cannibal Swarm is an Event that can trigger if the Player defeats the Cannibal Raid or Scrawny Raid events. Once triggered, the Cannibals will send an assault to the player’s base. This assault will consist of 2-11 squads, with more spawning if the squads spawned are smaller, and fewer spawning if the squads are larger. These squads will consist of most often 6-25 Cannibals, and less often 10-35 Scrawny Cannibals. When the assault arrives the War Leader will shout “Meat!” a number of times, before the attack begins. At which point the cannibals will begin attacking gates and characters, and kidnapping fallen characters to take back to their village or camp. Characters taken will be eaten later if not rescued.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cannibal-swarm.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "655d63479479a83e1447c4b7dcc2767be4c16cbed74b2e8472bb87939f8bff01"
+      },
+      "questions": [
+        "claim:events-force-size",
+        "claim:events-reinforcements"
+      ]
+    },
+    {
+      "id": "challenger-of-the-undefeated",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: We've travelled far to find you. Now that the Bugmaster is gone, it is you who will lead us to gateway. Today I will kill the undefeated. Or I will join my kin in Gateway. Raise your swords, warriors! Today will be a day of history!Berserker Challenger of The Undefeated is an Event that can trigger if the Player has both killed/captured the Bugmaster and has a Base within 26,000 meters of the Berserker Village. It has a 10% chance to trigger each day if within 3,000 meters, this chance scales down with distance until it reaches a 0% chance at 26,000 meters. This has one of the highest ranges of any territorial event, encompassing almost the entire map with only the ocean in the northeastern corner being out of range. Once the conditions have been fulfilled, the Berserkers will send an assault to the player’s base. This assault will consist of 2-8 squads, each made up of 2-8 Berserkers. Once the assault arrives, the War Leader will give a speech about how the player is starting to be seen as a figure similar to the Bugmaster in Shek culture, and that they and their warriors are seeking a death worthy of granting them entry to Gateway, the Shek afterlife. Once the speech is done, the attack will begin, attacking gates and characters, and liberating captives.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/challenger-of-the-undefeated.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7d69fc592e4ec778fca9f574346776da4e95302f0584c83a72e60c0f3f4e80bb"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "coast-raid",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: GLURRRGH!Gurgler Coast Raid is an Event that is supposed to trigger if the Player has a base within 5,000 meters of a Fishmen owned location. It has a 15% chance to trigger each day if within 3,500 meters, this chance scales down with distance until it reaches 0% at 5,000 meters. The event cannot trigger if the King Gurgler is killed or captured. Once the conditions are fulfilled, the Fishmen will send an assault to the player’s base. This assault will consist of 2-4 squads, each consisting of 20-40 Gurglers and 0-3 Alpha Gurglers. Once it arrives, the War Leader will shout a few times before the assault begins, breaking down gates and attacking characters. Note: As of 1.0.64, this event is currently broken and cannot trigger without a mod fixing it, due to the faction having a “not real” faction flag.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/coast-raid.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3f2854169316aa7504251ba0f98a010512adac4c432061cbe463168665a86493"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "crabbed-ones",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Don't much like you crabless puttin' up your walls here... You've upset the balance of the crab lands. And that upsets my crabs. Sic' em, crabs!Crab Raider Crabbed Ones is an Event that can trigger if the Player has a Base within 7,000 meters of a Crab Raiders owned location. It has a 10% chance to trigger each day if within 2,000 meters, this chance scales down with distance until it reaches 0% chance at 7,000 meters. It cannot trigger if the Crab Queen is killed or captured, or if the player is allied to the Crab Raiders. Once the conditions are fulfilled, the Crab Raiders will send an assault to the player’s base. This assault will consist of one or two squads, each made up of 8-14 Crab Raiders and 4-10 Crabs. When it arrives, the War Leader will give a short speech then order the attack, causing their squad to start attacking gates and characters, and attempting to steal food from storage containers (this is often bugged in vanilla).",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crabbed-ones.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2595cd4fc1168713d7ae94770267eca33dd5176b5b49de0149227e5ff6ef3af4"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "drug-bust",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Drug production is illegal in United Cities territory! You are hereby arrested for illegal activity within Empire land.Samurai War Leader Drug Bust is an event that can trigger if a member of the United Cities military or police sees an illegal building owned by the player. These buildings include Biofuel Distillery (Hemp), Hemp Farm, Hemp Processor, and Hydroponic Hemp. Emperor Tengu must also not be killed or captured for the event to trigger. Once the illegal building is spotted, there are a few potential routes the dialog could take, depending on whether or not it is inside an NPC owned town, as well as the Personality of the Samurai who spotted it. A Smart, Honorable, or Fearful personality Samurai if inside an NPC town will immediately assign a bounty of c.2,000 to the one or more player characters and attempt to arrest them. If not inside an NPC town, they will leave and report back to their superiors, which will trigger this event in 12-28 hours. If the player’s squad is less than 9 characters, then the Samurai will immediately assign the bounty and attack even outside an NPC town. A Traitorous, Dumb, Brave, or Maniacal personality Samurai will attempt to extort the player. If the player ignores them, the Samurai will eventually assign a bounty of c.2,000 to the player and attack them. If talked to there are many routes you can take. Accepting to pay them a bribe of c.2,000 will result in them attempting to extort you for an extra c.1,000. If you lack the funds to pay the full c.3,000, then they’ll let you off with just the c.2,000. Insisting on paying only the c.2,000 has a chance to convince them to take it and leave, and a chance they might attack and assign the bounty. If they choose to attack, but the player has more than 7 characters in their squad, the Samurai will instead report to his superiors, and this event will trigger in 48-72 hours. Refusal to pay or taunting/mocking them will result in them immediately attacking your characters and assigning the bounty, unless the player has more than 7 characters in their squad, in which case the Samurai will instead report back to HQ and this event will trigger in 48-72 hours. Alternatively, you can attempt to convince the Samurai you are someone of importance. Claiming you are a noble will only work if your outpost is level 3 or higher (the big town icon on the map), if your base is any lower level then they will simply attack or trigger the event. If you’ve killed (not captured) the Bugmaster or the Holy Lord Phoenix, or if you’ve killed/captured Esata the Stone Golem or Tinfist, you can attempt to intimidate them into leaving you alone, though this only has a chance to work and will trigger the attack and bounty or event if it fails. If the event is triggered, the United Cities will send an assault to your base. This assault will consist of 1-3 squads, each made up of 1-3 Samurai Scouts, 2-5 Samurai, and 10-20 Samurai Conscripts, and will be led by an additional Samurai. There is a very low chance that one or more of the squads will be substituted for a different squad, made up of 1-3 Samurai Scouts, 5-8 Samurai, and 1-4 Samurai Conscripts, led by a Samurai Sergeant. Once the assault arrives the war leader will make a short speech about being here to arrest you and then order their soldiers to attack. If victorious, the assault will leave shortly after winning. If defeated, the United Cities Assault event will trigger in 72-100 hours.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/drug-bust.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dac95f846b42a3f2400854efaf7f162eab4b9cff662bb28a91897b2f1d094003"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-force-size",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "enemy-hunt",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: You think walls alone will keep me from hunting your hide, dog? I expected more of you, enemy! I expect a good battle from you. Let me show you the might of a TRUE warrior!Hundred Guardian War Leader Enemy Hunt is an event that occurs when the player is enemy of Shek Kingdom, and lives in vicinity of their settlements. Alternatively, it could be launched as a result of defeating Invincible Vengeance. It has a maximum of 50% chance to trigger each day if within 3,000 meters, scaling down to 0% at 9,000 meters away. When viable, the Shek Kingdom will send an assault to the player’s base. The assault will consist of 1 squad (average of 5) made up of: 3 ~ 5 Shek Warriors 2 ~ 4 Hundred Guardians, When it arrives, the War Leader will call out the player, generally taunting them and calling them a coward. Amusingly, sometimes the War Leader will refer to themself as a member of the Invincible Five, despite the fact that they are a Hundred Guardian. After the dialogue, the assault will attack the player’s base. If they are victorious, they will leave the base shortly. If they are defeated, there is a 30%/50%/20%to trigger the Shek Challengers/Shek Revenge/Enemy Hunt event in 72-150 hours (~4.6 days). The Enemy Hunt here in particular would only trigger if it’s a territorial trigger. Trivia Despite clearly not having Invincibles in this assault, this event is still called “Shek 5 Invincible Enemy Hunt” in the FCS.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/enemy-hunt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c08c9de2b8b65e9f127d832224305981d208bdede1648ae5e84a039182999165"
+      },
+      "questions": [
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "eyegores-assault",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Rrrrh... Kill... Eyegore... Kill! Rrrrrrh!Eyegore Eyegore’s Assault (also shown in-game as “Eyegore Assault” instead) is an Event that can trigger if the player has killed or kidnapped Emperor Tengu, Longen, or as a retaliation for defeating the Elite Hunter Assault event. In the scenario of a Tengu trigger, it will have a 200% chance to trigger each day anywhere on the map, as its range is more than 3x the size of the map. For a Longen trigger, it will have a 50% chance to trigger within 5,000 meters, and the chance will scale down with distance until it reaches a 0% chance at 11,000 meters. Killing or capturing Eyegore will stop the events from being triggered. In addition, killing or capturing Tengu, Inaba, Nagata, Yoshinaga, Sanda, Tsugi will stop the Longen or Tengu triggered variants. Once triggered, the United Cities or Traders Guild will launch an assault on the player’s base. The forces making up the assault will differ drastically depending on the trigger. Tengu triggered assault will consist of 3-9 squads (80 individuals set). Longen triggered assault will consist of 2 squads (20 individuals set) Retaliation trigger will consist of 2-4 squads. (35 individuals set) The squad composition will have 1 Eyegore, 1 Samurai Captain, 2 Samurai Sergeants, 3 Samurai Heavies, 1 Samurai Scout, 10 Samurai. The remaining squads have two possible variants they can spawn as. With the 1st one spawning more frequently than the latter. 1 Samurai Sergeant, 1-3 Samurai Scouts, 10-15 Samurai, 8-20 Samurai Conscripts. 1 Samurai Sergeant, 1-3 Samurai Scouts, 5-8 Samurai, 1-4 Samurai Conscripts. Once the assault arrives Eyegore and his Samurai will have a short conversation, usually differing depending on the trigger source or faction relations. And then Eyegore and his soldiers will attack. If victorious, the assault should leave the base shortly afterward. If defeated and it was a Longen or Tengu trigger, there will be a 40% chance to trigger an Elite Hunter Assault in 24-72 hours. If it was a retaliation trigger, nothing else will trigger.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/eyegores-assault.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7f6097dd610dabb7bf94d0e63caae9a1850b52adb48e174260194f283ca455ad"
+      },
+      "questions": [
+        "claim:events-chance-and-distance",
+        "claim:events-eyegore-chance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "flotsam-ninja-reinforcements",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Didn't think we'd let you face the Holy Nation without us, did you? We fight together, or we die together... Stay in one piece, my friends.Yayoi Flotsam Ninja Reinforcements is a bugged Event that is supposed to trigger in response to the Holy Assault, Holy Nation Assault (Major), Retribution of God, and Wrath of God events, as long as the Player is allied to the Flotsam Ninjas and not the Shek Kingdom, while Moll and Yayoi are both alive and free. Once triggered, the Flotsam Ninjas will send reinforcements from the Flotsam Village or a Scout Post. While they will move faster than most hostile events, they can still arrive too late if the player’s Base is closer to the hostile event’s spawn location than to the origin of the reinforcements. These reinforcements will consist of 1-3 squads, made up of 4-10 Flotsam Ninjas, and led by Yayoi. Once the reinforcements arrive, they will give a short speech, and then start patrolling the player’s base, attacking hostiles, defending the player’s characters, and healing wounded allies. As implied earlier, this event however is bugged and will not trigger in vanilla due to Yayoi missing a squad template. Additional outside info There are mods to fix this event to allow it to work, such as the mod Yayoi Appears.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flotsam-ninja-reinforcements.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "68f1deaadb2f3ea4163b7ef39c5786ce04c449607209b64027b257faf2c729d8"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-flotsam-trigger-disagreement",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "hive-attack-southern-hive",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Queen! Save the Queen!Prince Hive Attack, not to be confused with the Western Hive Variant, is an Event that can trigger if the Player has kidnapped (not killed) the Queen of the South. It has a 100% chance to trigger if the player has a Base within 50,000 meters of a Southern Hive location but given that distance is larger than the map of Kenshi and the event ignores No-Go zones, it will trigger anywhere in the map with the same frequency. Once the conditions have been fulfilled, the Southern Hive will send an assault to the player’s base. Depending on if it is the first trigger of the event or if it is a repeat visit, there are different squad make ups. The first visit variant is made up of 7 squads, each made up of 8 Droneguards, 1 War Gorillo, and led by a Prince. The second and later visits are made up of 6 squads, each made up of 8 Droneguards, 1 War Gorillo, and led by a Prince. With one squad being accompanied by King, though due to a bug this variant of King is a weaker one than the one found at Southern Hive. When the assault arrives, the War Leader will shout about the queen, then order the attack, attacking gate and characters, and liberating captives. If the assault is defeated, another Hive Attack will trigger in 20-32 hours if it was the first visit, or in 12-24 hours if it was a later visit.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hive-attack-southern-hive.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "032291d7cc7f9f12a8910f97f0d9eaf65c6ce17ca952972b58d69b8d13d6254b"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "hive-attack-western-hive",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Queen! Forgive us, Queen!Soldier Drone Hive Attack, not to be confused with the Southern Hive Variant, is an Event that can trigger when the Player has kidnapped (not killed) The Queen. It has a 100% chance to trigger if the player has a Base within 50,000 meters of a Western Hive location but given that distance is larger than the map of Kenshi and the event ignores No-Go zones, it will trigger anywhere in the map with the same frequency. When the conditions are fulfilled, the Western Hive will send an assault to the player’s base. This assault will consist of 9 squads, each made up of 9 Soldier Drones. When the assault arrives, the War Leader will shout about the queen, then order the attack, attacking gate and characters, and liberating captives. If the assault is defeated, another Hive Attack event will be triggered in 24-48 hours.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hive-attack-western-hive.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ee8f349f13230e4fc0968e44f792134b8c161ef45ca2b74e42b3ee5d92193289"
+      },
+      "questions": [
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "hive-eviction",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Why are you here?! This is King's land! Get out! Greeee!Prince Hive Eviction is an Event that can trigger if the Player has defeated the Southern Hive Visit event. It cannot trigger if the Queen of the South has been killed or captured. Once the conditions are fulfilled, the Southern Hive will send an assault to the player’s Base. This assault will consist of 3 squads, each squad made up of 8 Droneguards, 1 War Gorillo, and led by a Prince. When the assault arrives the War Leader will give a short speech complaining about the player being in King’s territory, then order the attack to begin, attacking gates and characters, and liberating captives. If the assault is victorious, they will occupy the base until defeated.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hive-eviction.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c0febd4e4e565c29dbf2b719fde6527f9b37dc7f79aa7764acefd188e4583d6e"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "holy-assault",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: All darkened beings must be purged in flame. It is the only way to rid them of these hallowed lands.Holy Assault Arrival Dialogue Holy Assault is an Event which occurs when the player outpost is within 9,000 meters of a Holy Nation location, and the player has hostile relations with the Holy Nation faction, and as long as the Phoenix, Seta, and Valtena are still alive and free. It will have up to a 15% chance to trigger each day if you are within 5,000 meters of a Holy Nation owned location and scales down with distance until it reaches a 0% chance at 9,000 meters away. It consists of a squad of 3-4 Paladins, 5 Holy Sentinels, and 10-15 Holy Chosen, led by an additional Paladin (~20 individuals). Once they arrive at the outpost, the leader will give a small speech that changes based on past interactions and order his men to charge. If the raid is victorious, they will occupy the player’s base, patrolling around it, using the furniture, freeing captives, and imprisoning your characters. If the raid is defeated, there is an 80% chance to trigger a Holy nation Assault (Minor) event 100 to 250 hours afterward.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-assault.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ab044d1ede40e34d3012b653d633b6302c0834bde21801e8607efd2e0ccbf065"
+      },
+      "questions": [
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "holy-nation-assault-inquisitor",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Okran, I am your sword. Okran, I am your executor. And with this holy sword, retribution will be served. For the murder of Okran's apostles...High Inquisitor Seta Holy Nation Assault (Inquisitor), simply referred to as ‘Holy Nation Assault’ in-game, is an event that can occur if the player has defeated the Holy Nation Assault (Major) event. It is closely related to, but not to be confused with, two other events of the same name, Holy Nation Assault (Minor), and Holy Nation Assault (Major). The event cannot trigger if Seta is killed or captured. (Note: The raid is supposed to be able to trigger with Valtena as the leader instead, in the scenario that Seta has been killed or captured, but the game is not actually capable of triggering it despite this.) If all the above requirements are met, The Holy Nation will launch an assault on the player’s outpost in 72-200 hours (~5.7 days). The assault will generally consist of two squads with on average around 25 individuals in total. This 1st and 2nd are made up each of High Inquisitor Seta leading 3 Inquisitors and 5 Paladins and 1 Inquisitor 10-12 Paladins, 1-2 High Paladins, 4-9 Holy Servants Very rarely (roughly 3% chance) the squad will be accompanied by a copy of the 2nd. Once the assault arrives, the War Leader will give a short speech that changes based on your past interaction with him or the faction as a whole, then he will order his men to attack the outpost and the player characters inside it. If the raid is victorious, they will occupy the player’s base, patrolling around it, using the furniture, freeing captives, and imprisoning your characters. There are no special events if it is defeated.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-nation-assault-inquisitor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f29a4a1c7d4895671e1b8587d42104c03206bba887f1bfae61e736289f29591e"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "holy-nation-assault-major",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Leave this land, unholy ones! The Lord of Light repels you!Inquisitor War Leader Holy Nation Assault (Major), simply referred to as ‘Holy Nation Assault’ in-game, is an event that can occur if the player has defeated the Holy Assault, Holy Nation Assault (Minor), or Holy Nation Assault (Major) events. It is closely related to, but not to be confused with, two other events of the same name, Holy Nation Assault (Minor), and Holy Nation Assault (Inquisitor). The event cannot trigger if the Phoenix, Seta, and Valtena are all killed or captured. If the requirements above are met, The Holy Nation will send an assault to the player’s outpost in 100-250 hours (~7.3 days) if it was triggered off of a Holy Assault event 72-110 hours (~3.8 days) if it was trigger off of a Holy Nation Assault (Minor) event, 72-200 hours (~5.7 days) hours if it was triggered off of a Holy Nation Assault (Major) event. The assault will consist of 10-12 Paladins, 1-2 High Paladins, and 4-9 Holy Servants being led by an Inquisitor (set number force of 15). After arriving at the outpost, the War Leader will order his men to attack the outpost and the player characters inside it. If the raid is victorious, they will occupy the player’s base, patrolling around it, using the furniture, freeing captives, and imprisoning your characters. If the raid is defeated: There is a 30% chance to trigger another Holy Nation Assault (Major) event in 72-200 hours (~5.7 days) and a 20% or 40% (depending on Valtena’s status, the latter if he is killed/captured) to trigger a Holy Nation Assault (Inquisitor) event in 72-200 hours (~5.7 days).",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-nation-assault-major.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6a580a8c1d8615417ff11b6d3095f5369074ec43092dd6aa87803efd0eca6f8f"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "holy-nation-assault-minor",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Inquisitorium has received reports of wild women running loose in this place...War Leader Paladin Holy Nation Assault (Minor), simply referred to as ‘Holy Nation Assault’ in-game, is an event that can occur if the player failed to fulfil Prayer Day requirements (Refusing to pray, not having the Holy Flame, having no men, or speaking to them with a non-human), or was seen by patrols that the outpost built in their territory goes against The Holy Nation interests (i.e Having only women in the outpost, or having non-humans in the outpost) and failed to pacify the patrol commander. It is closely related to, but not to be confused with, two other events of the same name, Holy Nation Assault (Major), and Holy Nation Assault (Inquisitor). The event cannot trigger if the Holy Lord Phoenix has been killed or captured in the case of the Prayer Day retaliation, while the race and women triggered variants require the Holy Lord Phoenix, High Inquisitor Seta, and High Inquisitor Valtena to be killed or captured in order to be stopped. After the requirements above are met, The Holy Nation will send an assault in 10-48 hours depending on the trigger used, this patrol will consist of 3-4 Paladins, 5 Holy Sentinels and 10-15 Holy Chosen with one additional Paladin acting as the War Leader for this event. After the War Leader has arrived to the designated players outpost he will then give a speech about the reason of attacking and say the player will be ‘disciplined’, during which the player might have a final chance to prevent the conflict if they have a human male and the original trigger was for only having women at the outpost, at which point the raid will be cancelled and Prayer Day will launch in 150 to 160 hours. If not pacified this patrol will then proceed to attack the outpost and the player characters inside it. If the raid is victorious, they will occupy the player’s base, patrolling around it, using the furniture, freeing captives, and imprisoning your characters. If the raid is defeated, there is a 100% chance to trigger a Holy Nation Assault (Major) event 72 to 110 hours afterward.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-nation-assault-minor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5907c12ce11c40376acd7f135d63547aee1b55b5d76da072893b9f47c5f6f556"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
     }
   ],
   "editorialChanges": [
