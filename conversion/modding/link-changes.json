@@ -169,5 +169,40 @@
       "/category/moving-mods",
       "/category/world-map"
     ]
+  },
+  {
+    "name": "modding-siblings-4",
+    "resolved": [
+      "/modifications",
+      "/mods",
+      "/particle-effects",
+      "/re-kenshi-extra-extensions-modding-how-to-use-the-silent-world-states-and-variables",
+      "/research-fcs",
+      "/riding-npcs-how-to-spawn-a-npc-already-carrying-another-npc",
+      "/script-library",
+      "/scripting-aka-how-to-make-a-multi-threaded-conversation",
+      "/skin-making-tutorial",
+      "/sound-editing-and-adding-new-sounds",
+      "/special-tools",
+      "/translating-mods",
+      "/using-faction-reputation-as-variable",
+      "/vanilla-animation-names",
+      "/weapons-fcs",
+      "/what-possibilities-we-have-to-make-quests",
+      "/why-load-order-matters-and-other-faq-about-using-mods"
+    ],
+    "introduced": [
+      "/board/modding-talk",
+      "/category/custom-skin",
+      "/category/custom-towns",
+      "/category/mod",
+      "/category/npc",
+      "/category/pages-with-syntax-highlighting-errors",
+      "/category/quest",
+      "/category/rekenshi",
+      "/category/riding-npc",
+      "/category/skin",
+      "/category/variables"
+    ]
   }
 ]

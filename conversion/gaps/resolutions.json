@@ -13422,6 +13422,28 @@
       }
     },
     {
+      "id": "availability:/modifications",
+      "kind": "availability",
+      "target": "/modifications",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/modifications"
+      }
+    },
+    {
+      "id": "availability:/mods",
+      "kind": "availability",
+      "target": "/mods",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mods"
+      }
+    },
+    {
       "id": "availability:/moll",
       "kind": "availability",
       "target": "/moll",
@@ -14863,6 +14885,17 @@
       }
     },
     {
+      "id": "availability:/particle-effects",
+      "kind": "availability",
+      "target": "/particle-effects",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/particle-effects"
+      }
+    },
+    {
       "id": "availability:/particle-script-examples-and-experiments",
       "kind": "availability",
       "target": "/particle-script-examples-and-experiments",
@@ -15776,6 +15809,17 @@
       }
     },
     {
+      "id": "availability:/re-kenshi-extra-extensions-modding-how-to-use-the-silent-world-states-and-variables",
+      "kind": "availability",
+      "target": "/re-kenshi-extra-extensions-modding-how-to-use-the-silent-world-states-and-variables",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/re-kenshi-extra-extensions-modding-how-to-use-the-silent-world-states-and-variables"
+      }
+    },
+    {
       "id": "availability:/reaver-blooded",
       "kind": "availability",
       "target": "/reaver-blooded",
@@ -16161,6 +16205,17 @@
       }
     },
     {
+      "id": "availability:/research-fcs",
+      "kind": "availability",
+      "target": "/research-fcs",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/research-fcs"
+      }
+    },
+    {
       "id": "availability:/resistances",
       "kind": "availability",
       "target": "/resistances",
@@ -16301,6 +16356,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/riddly"
+      }
+    },
+    {
+      "id": "availability:/riding-npcs-how-to-spawn-a-npc-already-carrying-another-npc",
+      "kind": "availability",
+      "target": "/riding-npcs-how-to-spawn-a-npc-already-carrying-another-npc",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/riding-npcs-how-to-spawn-a-npc-already-carrying-another-npc"
       }
     },
     {
@@ -17214,6 +17280,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/screamy"
+      }
+    },
+    {
+      "id": "availability:/script-library",
+      "kind": "availability",
+      "target": "/script-library",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/script-library"
+      }
+    },
+    {
+      "id": "availability:/scripting-aka-how-to-make-a-multi-threaded-conversation",
+      "kind": "availability",
+      "target": "/scripting-aka-how-to-make-a-multi-threaded-conversation",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/scripting-aka-how-to-make-a-multi-threaded-conversation"
       }
     },
     {
@@ -18504,6 +18592,17 @@
       }
     },
     {
+      "id": "availability:/skin-making-tutorial",
+      "kind": "availability",
+      "target": "/skin-making-tutorial",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skin-making-tutorial"
+      }
+    },
+    {
       "id": "availability:/skin-spider",
       "kind": "availability",
       "target": "/skin-spider",
@@ -19340,6 +19439,17 @@
       }
     },
     {
+      "id": "availability:/sound-editing-and-adding-new-sounds",
+      "kind": "availability",
+      "target": "/sound-editing-and-adding-new-sounds",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sound-editing-and-adding-new-sounds"
+      }
+    },
+    {
       "id": "availability:/south-stone-camp",
       "kind": "availability",
       "target": "/south-stone-camp",
@@ -19447,6 +19557,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/southern-hive-worker-drone"
+      }
+    },
+    {
+      "id": "availability:/special-tools",
+      "kind": "availability",
+      "target": "/special-tools",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/special-tools"
       }
     },
     {
@@ -22222,6 +22343,17 @@
       }
     },
     {
+      "id": "availability:/translating-mods",
+      "kind": "availability",
+      "target": "/translating-mods",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/translating-mods"
+      }
+    },
+    {
       "id": "availability:/travel-and-repairs-shop",
       "kind": "availability",
       "target": "/travel-and-repairs-shop",
@@ -22530,6 +22662,17 @@
       }
     },
     {
+      "id": "availability:/universal-wasteland-expansion-mod",
+      "kind": "availability",
+      "target": "/universal-wasteland-expansion-mod",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/universal-wasteland-expansion-mod"
+      }
+    },
+    {
       "id": "availability:/unknown-old-book",
       "kind": "availability",
       "target": "/unknown-old-book",
@@ -22607,6 +22750,17 @@
       }
     },
     {
+      "id": "availability:/using-faction-reputation-as-variable",
+      "kind": "availability",
+      "target": "/using-faction-reputation-as-variable",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/using-faction-reputation-as-variable"
+      }
+    },
+    {
       "id": "availability:/using-the-fcs",
       "kind": "availability",
       "target": "/using-the-fcs",
@@ -22615,6 +22769,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/using-the-fcs"
+      }
+    },
+    {
+      "id": "availability:/uwe-weapon/modifiers",
+      "kind": "availability",
+      "target": "/uwe-weapon/modifiers",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/uwe-weapon/modifiers"
+      }
+    },
+    {
+      "id": "availability:/uwe-weapons",
+      "kind": "availability",
+      "target": "/uwe-weapons",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/uwe-weapons"
+      }
+    },
+    {
+      "id": "availability:/uwe-weapons/damage",
+      "kind": "availability",
+      "target": "/uwe-weapons/damage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/uwe-weapons/damage"
       }
     },
     {
@@ -22659,6 +22846,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/valamon"
+      }
+    },
+    {
+      "id": "availability:/vanilla-animation-names",
+      "kind": "availability",
+      "target": "/vanilla-animation-names",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/vanilla-animation-names"
       }
     },
     {
@@ -23025,6 +23223,17 @@
       }
     },
     {
+      "id": "availability:/weapons-fcs",
+      "kind": "availability",
+      "target": "/weapons-fcs",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/weapons-fcs"
+      }
+    },
+    {
       "id": "availability:/weapons/classes",
       "kind": "availability",
       "target": "/weapons/classes",
@@ -23121,6 +23330,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/western-hive-location"
+      }
+    },
+    {
+      "id": "availability:/what-mod-my-race-comes-from",
+      "kind": "availability",
+      "target": "/what-mod-my-race-comes-from",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/what-mod-my-race-comes-from"
+      }
+    },
+    {
+      "id": "availability:/what-possibilities-we-have-to-make-quests",
+      "kind": "availability",
+      "target": "/what-possibilities-we-have-to-make-quests",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/what-possibilities-we-have-to-make-quests"
       }
     },
     {
@@ -23242,6 +23473,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading"
+      }
+    },
+    {
+      "id": "availability:/why-load-order-matters-and-other-faq-about-using-mods",
+      "kind": "availability",
+      "target": "/why-load-order-matters-and-other-faq-about-using-mods",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/why-load-order-matters-and-other-faq-about-using-mods"
       }
     },
     {

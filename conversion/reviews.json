@@ -6582,6 +6582,94 @@
     "modding-enabling-to-craft-vanilla-armour": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/modding/review.json"
+    },
+    "modifications": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "mods": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "particle-effects": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "re-kenshi-extra-extensions-modding-how-to-use-the-silent-world-states-and-variables": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "research-fcs": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "riding-npcs-how-to-spawn-a-npc-already-carrying-another-npc": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "script-library": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "scripting-aka-how-to-make-a-multi-threaded-conversation": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "skin-making-tutorial": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "sound-editing-and-adding-new-sounds": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "special-tools": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "translating-mods": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "universal-wasteland-expansion-mod": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "using-faction-reputation-as-variable": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "uwe-weapon/modifiers": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "uwe-weapons": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "uwe-weapons/damage": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "vanilla-animation-names": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "weapons-fcs": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "what-mod-my-race-comes-from": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "what-possibilities-we-have-to-make-quests": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "why-load-order-matters-and-other-faq-about-using-mods": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
     }
   },
   "mediaGaps": [
