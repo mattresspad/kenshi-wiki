@@ -1,0 +1,9 @@
+---
+import Portal from '../components/Portal.astro';
+import gameplay from '../data/gameplay.json';
+import guides from '../data/guides.json';
+import {policy} from '../lib/catalog.mjs';
+export function getStaticPaths(){return [{portal:gameplay,publicPath:'/gameplay'},{portal:guides,publicPath:'/guides'}].filter(p=>policy.reviewedPortals.includes(p.publicPath)).map(p=>({params:{portal:p.publicPath.slice(1)},props:p}));}
+const {portal,publicPath}=Astro.props;
+---
+<Portal {portal} {publicPath} />

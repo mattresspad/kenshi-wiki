@@ -1,0 +1,112 @@
+[
+  [
+    "gameplay-training-formulas",
+    null,
+    "XP|experience|train|formula",
+    "Training rates, thresholds and formulas are imported claims; some formula passages contain broken TeX and duplicate visual text.",
+    "Compare precise versioned experiments and record inputs before changing formulas. Preserve imported wording meanwhile.",
+    "A readable formula is not evidence of correct game behavior."
+  ],
+  [
+    "gameplay-racial-modifiers",
+    null,
+    "multiplier|racial|Soldierbot",
+    "Blank racial multiplier cells and narrative exceptions must remain distinct from verified defaults.",
+    "Trace versioned records and observed experience gains; assess missing race links separately.",
+    "Blank values do not establish 1x, and Soldierbot martial-arts qualifications remain."
+  ],
+  [
+    "gameplay-movement-units",
+    null,
+    "mph|metre|meter|speed|encumbrance",
+    "Movement, combat speed and encumbrance conversions require units, conditions and version evidence.",
+    "Verify per-unit quantities, age/race/equipment inputs and rounding independently.",
+    "Imported values and formulas have not been re-tested."
+  ],
+  [
+    "gameplay-damage-healing",
+    null,
+    "heal|wound|bleed|damage|hunger",
+    "Damage, healing, knockout and hunger claims contain conditional thresholds and potential conflicts.",
+    "Test exact injury, hunger and treatment conditions; compare profile tables with prose.",
+    "Preserve source caveats; no automatic gameplay correction."
+  ],
+  [
+    "gameplay-jobs-version",
+    [
+      "jobs"
+    ],
+    "Medic|Robotics|1.0.68|priority|slave",
+    "Jobs includes narrow Kenshi 1.0.68 evidence for Skeleton self-repair; broader priority and persistence claims need separate validation.",
+    "Retain teppuM evidence and contributor links, test other job types and outpost distances independently.",
+    "The cited case does not verify every job-priority or reload rule."
+  ],
+  [
+    "gameplay-shopping-budgets",
+    [
+      "npc-shopping-behavior"
+    ],
+    "Money|Wages|purchase|buy|budget",
+    "Shopping budget, daily wages and purchase behavior require timing and transaction conditions.",
+    "Validate relative budgets, replenishment and shopping restrictions on a pinned version.",
+    "Imported currency columns are not verified actual spending."
+  ],
+  [
+    "gameplay-farming-calculation",
+    [
+      "wheatstraw-60-or-cactus-100"
+    ],
+    "formula|minute|second|harvest|growth|60%|100%",
+    "Food-production comparison is a WIP calculation with damaged formula passages and qualified harvest timings.",
+    "Reproduce crop fertility, workers, growth/harvest time and nutrition assumptions before correcting expressions.",
+    "Tables and formula text may be inconsistent; preserve both until investigated."
+  ],
+  [
+    "gameplay-save-import",
+    null,
+    "reload|save|import|reset",
+    "Save/import/reset behavior and strategy claims retain their original qualifications.",
+    "Separate observed save reload behavior from imports, engine bugs and modded behavior in versioned tests.",
+    "No runtime validation performed during conversion."
+  ],
+  [
+    "gameplay-ui-missing-media",
+    [
+      "controls",
+      "guide-to-ui-and-controls",
+      "character-customization",
+      "main-menu",
+      "options-menu",
+      "prospecting",
+      "town-size-vs-map-icon-town-level-icons",
+      "loading-screen"
+    ],
+    "icon|screen|menu|camera|map|image|portrait",
+    "UI illustrations and map-icon cells are missing or unassessed independently of verified item icons.",
+    "Compare original source revisions and recover permitted images with provenance and useful alternatives.",
+    "Item icon checksums do not establish UI screenshot or map-marker coverage."
+  ],
+  [
+    "gameplay-hunger-conflict",
+    [
+      "guide-to-health"
+    ],
+    "faint|hunger|starv",
+    "Hunger guidance gives potentially conflicting fainting thresholds and healing claims.",
+    "Verify precise thresholds and bed/bandaging behavior without removing the imported distinctions prematurely.",
+    "Narrative statements are retained, not selected as a corrected truth."
+  ],
+  [
+    "gameplay-relation-thresholds",
+    [
+      "guide-to-faction-relations",
+      "hostile-factions",
+      "pacifiers",
+      "town-overrides"
+    ],
+    "relation|bounty|imprison|dead|kill|pacif|Cats|override",
+    "Reused faction/override guides retain conditional relationships, costs and world-state claims needing versioned validation.",
+    "Check faction-specific gates, prisoner status and override priorities against recorded game observations.",
+    "Conversion and availability restoration do not verify thresholds or world-state mechanics."
+  ]
+]

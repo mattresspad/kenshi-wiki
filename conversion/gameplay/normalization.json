@@ -1,0 +1,627 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "repeatability": "Second pass unchanged for all 69 source articles",
+  "articles": [
+    {
+      "id": "acid-ground",
+      "sourceFile": "src/content/wiki/acid-ground.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "armour-smith",
+      "sourceFile": "src/content/wiki/armour-smith.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 5,
+      "sortable": 3,
+      "formulaPassages": 4
+    },
+    {
+      "id": "artifacts",
+      "sourceFile": "src/content/wiki/artifacts.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 1,
+      "sortable": 1,
+      "formulaPassages": 0
+    },
+    {
+      "id": "assassination",
+      "sourceFile": "src/content/wiki/assassination.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 1,
+      "sortable": 1,
+      "formulaPassages": 0
+    },
+    {
+      "id": "athletics",
+      "sourceFile": "src/content/wiki/athletics.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 1,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "bounty",
+      "sourceFile": "src/content/wiki/bounty.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 3,
+      "sortable": 3,
+      "formulaPassages": 0
+    },
+    {
+      "id": "character-customization",
+      "sourceFile": "src/content/wiki/character-customization.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "combat-speed",
+      "sourceFile": "src/content/wiki/combat-speed.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 1,
+      "sortable": 0,
+      "formulaPassages": 3
+    },
+    {
+      "id": "combat-strategies",
+      "sourceFile": "src/content/wiki/combat-strategies.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "controls",
+      "sourceFile": "src/content/wiki/controls.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "cooking",
+      "sourceFile": "src/content/wiki/cooking.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "crossbow-smith",
+      "sourceFile": "src/content/wiki/crossbow-smith.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 4,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "damage",
+      "sourceFile": "src/content/wiki/damage.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 6
+    },
+    {
+      "id": "damage/limb-data",
+      "sourceFile": "src/content/wiki/damage/limb-data.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 21,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "dexterity",
+      "sourceFile": "src/content/wiki/dexterity.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "diplomatic-status",
+      "sourceFile": "src/content/wiki/diplomatic-status.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "disguise",
+      "sourceFile": "src/content/wiki/disguise.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "dodge",
+      "sourceFile": "src/content/wiki/dodge.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "encumbrance",
+      "sourceFile": "src/content/wiki/encumbrance.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "engineer",
+      "sourceFile": "src/content/wiki/engineer.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "environment",
+      "sourceFile": "src/content/wiki/environment.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 1,
+      "sortable": 1,
+      "formulaPassages": 0
+    },
+    {
+      "id": "faction-uniform",
+      "sourceFile": "src/content/wiki/faction-uniform.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "farming",
+      "sourceFile": "src/content/wiki/farming.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 5,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "field-medic",
+      "sourceFile": "src/content/wiki/field-medic.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "free-camera-mode",
+      "sourceFile": "src/content/wiki/free-camera-mode.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "game-starts",
+      "sourceFile": "src/content/wiki/game-starts.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "getting-started",
+      "sourceFile": "src/content/wiki/getting-started.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "glitchmakers-general-guide",
+      "sourceFile": "src/content/wiki/glitchmakers-general-guide.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "guide-to-building-an-outpost",
+      "sourceFile": "src/content/wiki/guide-to-building-an-outpost.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "guide-to-equipment",
+      "sourceFile": "src/content/wiki/guide-to-equipment.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 1,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "guide-to-health",
+      "sourceFile": "src/content/wiki/guide-to-health.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 2,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "guide-to-training-statistics",
+      "sourceFile": "src/content/wiki/guide-to-training-statistics.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 1
+    },
+    {
+      "id": "guide-to-ui-and-controls",
+      "sourceFile": "src/content/wiki/guide-to-ui-and-controls.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "industry-buildings",
+      "sourceFile": "src/content/wiki/industry-buildings.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "jobs",
+      "sourceFile": "src/content/wiki/jobs.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "labouring",
+      "sourceFile": "src/content/wiki/labouring.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "loading-screen",
+      "sourceFile": "src/content/wiki/loading-screen.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "lockpicking",
+      "sourceFile": "src/content/wiki/lockpicking.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "main-menu",
+      "sourceFile": "src/content/wiki/main-menu.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "martial-arts",
+      "sourceFile": "src/content/wiki/martial-arts.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 1,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "melee-attack",
+      "sourceFile": "src/content/wiki/melee-attack.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "melee-defense",
+      "sourceFile": "src/content/wiki/melee-defense.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "money-making-strategies-crafting-guide",
+      "sourceFile": "src/content/wiki/money-making-strategies-crafting-guide.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 1,
+      "sortable": 1,
+      "formulaPassages": 0
+    },
+    {
+      "id": "money-making-strategies",
+      "sourceFile": "src/content/wiki/money-making-strategies.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "npc-shopping-behavior",
+      "sourceFile": "src/content/wiki/npc-shopping-behavior.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 2,
+      "sortable": 2,
+      "formulaPassages": 0
+    },
+    {
+      "id": "options-menu",
+      "sourceFile": "src/content/wiki/options-menu.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "perception",
+      "sourceFile": "src/content/wiki/perception.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "personality",
+      "sourceFile": "src/content/wiki/personality.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "playable-characters",
+      "sourceFile": "src/content/wiki/playable-characters.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 1,
+      "sortable": 1,
+      "formulaPassages": 0
+    },
+    {
+      "id": "player-owned-buildings-in-town",
+      "sourceFile": "src/content/wiki/player-owned-buildings-in-town.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "precision-shooting",
+      "sourceFile": "src/content/wiki/precision-shooting.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "prospecting",
+      "sourceFile": "src/content/wiki/prospecting.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "random-names-list",
+      "sourceFile": "src/content/wiki/random-names-list.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 1,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "resistances",
+      "sourceFile": "src/content/wiki/resistances.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "robotics",
+      "sourceFile": "src/content/wiki/robotics.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 1,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "science",
+      "sourceFile": "src/content/wiki/science.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 6,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "seasons-and-weather",
+      "sourceFile": "src/content/wiki/seasons-and-weather.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "slavery",
+      "sourceFile": "src/content/wiki/slavery.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "statistics",
+      "sourceFile": "src/content/wiki/statistics.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 1,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "stealth",
+      "sourceFile": "src/content/wiki/stealth.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "strength",
+      "sourceFile": "src/content/wiki/strength.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "stronger-opponent-logic",
+      "sourceFile": "src/content/wiki/stronger-opponent-logic.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "swimming",
+      "sourceFile": "src/content/wiki/swimming.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 1,
+      "sortable": 0,
+      "formulaPassages": 1
+    },
+    {
+      "id": "thievery",
+      "sourceFile": "src/content/wiki/thievery.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "toughness",
+      "sourceFile": "src/content/wiki/toughness.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "town-size-vs-map-icon-town-level-icons",
+      "sourceFile": "src/content/wiki/town-size-vs-map-icon-town-level-icons.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 1,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "weapon-smith",
+      "sourceFile": "src/content/wiki/weapon-smith.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 1,
+      "tables": 2,
+      "sortable": 1,
+      "formulaPassages": 0
+    },
+    {
+      "id": "weather-effects",
+      "sourceFile": "src/content/wiki/weather-effects.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 0,
+      "sortable": 0,
+      "formulaPassages": 0
+    },
+    {
+      "id": "wheatstraw-60-or-cactus-100",
+      "sourceFile": "src/content/wiki/wheatstraw-60-or-cactus-100.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "skillPanels": 0,
+      "tables": 12,
+      "sortable": 11,
+      "formulaPassages": 13
+    }
+  ]
+}

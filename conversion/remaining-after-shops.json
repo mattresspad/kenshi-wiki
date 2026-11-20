@@ -1,0 +1,3090 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "baseRevision": "c47d746",
+  "total": 346,
+  "status": "Assessment and routing only; no article or route is retired.",
+  "groups": {
+    "Books and lore": [
+      {
+        "id": "a-holy-purpose",
+        "path": "/a-holy-purpose",
+        "sourceFile": "src/content/wiki/a-holy-purpose.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "beautiful-tengu-a-tribute",
+        "path": "/beautiful-tengu-a-tribute",
+        "sourceFile": "src/content/wiki/beautiful-tengu-a-tribute.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "book-of-grace",
+        "path": "/book-of-grace",
+        "sourceFile": "src/content/wiki/book-of-grace.md",
+        "categories": [
+          "Books"
+        ]
+      },
+      {
+        "id": "book-of-sacrifice",
+        "path": "/book-of-sacrifice",
+        "sourceFile": "src/content/wiki/book-of-sacrifice.md",
+        "categories": [
+          "Books"
+        ]
+      },
+      {
+        "id": "chitrin",
+        "path": "/chitrin",
+        "sourceFile": "src/content/wiki/chitrin.md",
+        "categories": [
+          "Lore"
+        ]
+      },
+      {
+        "id": "cross",
+        "path": "/cross",
+        "sourceFile": "src/content/wiki/cross.md",
+        "categories": [
+          "Manufacturers",
+          "Lore"
+        ]
+      },
+      {
+        "id": "flatskins",
+        "path": "/flatskins",
+        "sourceFile": "src/content/wiki/flatskins.md",
+        "categories": [
+          "Lore"
+        ]
+      },
+      {
+        "id": "forbidden-sympathy",
+        "path": "/forbidden-sympathy",
+        "sourceFile": "src/content/wiki/forbidden-sympathy.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "history-of-kenshi",
+        "path": "/history-of-kenshi",
+        "sourceFile": "src/content/wiki/history-of-kenshi.md",
+        "categories": [
+          "Lore"
+        ]
+      },
+      {
+        "id": "history-of-kenshi/tr",
+        "path": "/history-of-kenshi/tr",
+        "sourceFile": "src/content/wiki/history-of-kenshi/tr.md",
+        "categories": [
+          "Lore"
+        ]
+      },
+      {
+        "id": "holy-edict",
+        "path": "/holy-edict",
+        "sourceFile": "src/content/wiki/holy-edict.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "king-shagers-reign",
+        "path": "/king-shagers-reign",
+        "sourceFile": "src/content/wiki/king-shagers-reign.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "krals-last-stand",
+        "path": "/krals-last-stand",
+        "sourceFile": "src/content/wiki/krals-last-stand.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "letter-from-a-freedom-fighter",
+        "path": "/letter-from-a-freedom-fighter",
+        "sourceFile": "src/content/wiki/letter-from-a-freedom-fighter.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "letter-from-bad-teeth",
+        "path": "/letter-from-bad-teeth",
+        "sourceFile": "src/content/wiki/letter-from-bad-teeth.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "letter-of-farewell",
+        "path": "/letter-of-farewell",
+        "sourceFile": "src/content/wiki/letter-of-farewell.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "letter-of-parting",
+        "path": "/letter-of-parting",
+        "sourceFile": "src/content/wiki/letter-of-parting.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "letter-of-the-condemned",
+        "path": "/letter-of-the-condemned",
+        "sourceFile": "src/content/wiki/letter-of-the-condemned.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "letter-to-a-priest",
+        "path": "/letter-to-a-priest",
+        "sourceFile": "src/content/wiki/letter-to-a-priest.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "letter-to-darkbrow",
+        "path": "/letter-to-darkbrow",
+        "sourceFile": "src/content/wiki/letter-to-darkbrow.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "letter-to-priest-ton",
+        "path": "/letter-to-priest-ton",
+        "sourceFile": "src/content/wiki/letter-to-priest-ton.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "lineage-of-phoenixes",
+        "path": "/lineage-of-phoenixes",
+        "sourceFile": "src/content/wiki/lineage-of-phoenixes.md",
+        "categories": [
+          "Lore",
+          "Holy Nation"
+        ]
+      },
+      {
+        "id": "lore-books",
+        "path": "/lore-books",
+        "sourceFile": "src/content/wiki/lore-books.md",
+        "categories": [
+          "Lore",
+          "Books"
+        ]
+      },
+      {
+        "id": "ludins-reports",
+        "path": "/ludins-reports",
+        "sourceFile": "src/content/wiki/ludins-reports.md",
+        "categories": [
+          "Books",
+          "Lore"
+        ]
+      },
+      {
+        "id": "memo-from-big-grim",
+        "path": "/memo-from-big-grim",
+        "sourceFile": "src/content/wiki/memo-from-big-grim.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "men-of-dirt",
+        "path": "/men-of-dirt",
+        "sourceFile": "src/content/wiki/men-of-dirt.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "mission-graeme-status",
+        "path": "/mission-graeme-status",
+        "sourceFile": "src/content/wiki/mission-graeme-status.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "molls-speech",
+        "path": "/molls-speech",
+        "sourceFile": "src/content/wiki/molls-speech.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "money-is-freedom",
+        "path": "/money-is-freedom",
+        "sourceFile": "src/content/wiki/money-is-freedom.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "narko",
+        "path": "/narko",
+        "sourceFile": "src/content/wiki/narko.md",
+        "categories": [
+          "Article stubs",
+          "Lore"
+        ]
+      },
+      {
+        "id": "noble-circle",
+        "path": "/noble-circle",
+        "sourceFile": "src/content/wiki/noble-circle.md",
+        "categories": [
+          "Lore",
+          "United Cities",
+          "Traders Guild",
+          "Nobles"
+        ]
+      },
+      {
+        "id": "note-from-blue-eyes",
+        "path": "/note-from-blue-eyes",
+        "sourceFile": "src/content/wiki/note-from-blue-eyes.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "okran",
+        "path": "/okran",
+        "sourceFile": "src/content/wiki/okran.md",
+        "categories": [
+          "Lore"
+        ]
+      },
+      {
+        "id": "old-empire",
+        "path": "/old-empire",
+        "sourceFile": "src/content/wiki/old-empire.md",
+        "categories": [
+          "Lore"
+        ]
+      },
+      {
+        "id": "priest-tyluigs-note",
+        "path": "/priest-tyluigs-note",
+        "sourceFile": "src/content/wiki/priest-tyluigs-note.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books",
+          "Unique"
+        ]
+      },
+      {
+        "id": "priest-varloos-note",
+        "path": "/priest-varloos-note",
+        "sourceFile": "src/content/wiki/priest-varloos-note.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books",
+          "Unique"
+        ]
+      },
+      {
+        "id": "puppet",
+        "path": "/puppet",
+        "sourceFile": "src/content/wiki/puppet.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "shagers-overthrow",
+        "path": "/shagers-overthrow",
+        "sourceFile": "src/content/wiki/shagers-overthrow.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "shek/lore",
+        "path": "/shek/lore",
+        "sourceFile": "src/content/wiki/shek/lore.md",
+        "categories": [
+          "Lore"
+        ]
+      },
+      {
+        "id": "suicide-note",
+        "path": "/suicide-note",
+        "sourceFile": "src/content/wiki/suicide-note.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "the-blessing-of-slavery",
+        "path": "/the-blessing-of-slavery",
+        "sourceFile": "src/content/wiki/the-blessing-of-slavery.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "the-cannibal-plains-de-evolution-of-man",
+        "path": "/the-cannibal-plains-de-evolution-of-man",
+        "sourceFile": "src/content/wiki/the-cannibal-plains-de-evolution-of-man.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "the-holy-crusade",
+        "path": "/the-holy-crusade",
+        "sourceFile": "src/content/wiki/the-holy-crusade.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "the-pacifier-guidance-for-a-troublemaker",
+        "path": "/the-pacifier-guidance-for-a-troublemaker",
+        "sourceFile": "src/content/wiki/the-pacifier-guidance-for-a-troublemaker.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "the-red-rebellion",
+        "path": "/the-red-rebellion",
+        "sourceFile": "src/content/wiki/the-red-rebellion.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "the-united-cities-a-united-power",
+        "path": "/the-united-cities-a-united-power",
+        "sourceFile": "src/content/wiki/the-united-cities-a-united-power.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "unknown-old-book",
+        "path": "/unknown-old-book",
+        "sourceFile": "src/content/wiki/unknown-old-book.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      },
+      {
+        "id": "wanted-posters",
+        "path": "/wanted-posters",
+        "sourceFile": "src/content/wiki/wanted-posters.md",
+        "categories": [
+          "Lore"
+        ]
+      },
+      {
+        "id": "way-of-the-warrior-the-book-of-kral",
+        "path": "/way-of-the-warrior-the-book-of-kral",
+        "sourceFile": "src/content/wiki/way-of-the-warrior-the-book-of-kral.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Books"
+        ]
+      }
+    ],
+    "Modding and mod projects": [
+      {
+        "id": "a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue",
+        "path": "/a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue",
+        "sourceFile": "src/content/wiki/a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue.md",
+        "categories": [
+          "Modding Guide",
+          "Modding",
+          "Dialogue",
+          "Give item"
+        ]
+      },
+      {
+        "id": "a-workaround-how-to-make-weapons-lootable-by-npcs",
+        "path": "/a-workaround-how-to-make-weapons-lootable-by-npcs",
+        "sourceFile": "src/content/wiki/a-workaround-how-to-make-weapons-lootable-by-npcs.md",
+        "categories": [
+          "WIP"
+        ]
+      },
+      {
+        "id": "about-armor-textures-how-to-use-different-texture-maps",
+        "path": "/about-armor-textures-how-to-use-different-texture-maps",
+        "sourceFile": "src/content/wiki/about-armor-textures-how-to-use-different-texture-maps.md",
+        "categories": [
+          "Modding",
+          "Mod making",
+          "Wip"
+        ]
+      },
+      {
+        "id": "adding-new-sounds-to-animations",
+        "path": "/adding-new-sounds-to-animations",
+        "sourceFile": "src/content/wiki/adding-new-sounds-to-animations.md",
+        "categories": [
+          "Modding Guide",
+          "Modding",
+          "WIP"
+        ]
+      },
+      {
+        "id": "ai-goals",
+        "path": "/ai-goals",
+        "sourceFile": "src/content/wiki/ai-goals.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "ai-packages",
+        "path": "/ai-packages",
+        "sourceFile": "src/content/wiki/ai-packages.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "armor-stats",
+        "path": "/armor-stats",
+        "sourceFile": "src/content/wiki/armor-stats.md",
+        "categories": [
+          "WIP",
+          "Modding"
+        ]
+      },
+      {
+        "id": "building-making-tutorial",
+        "path": "/building-making-tutorial",
+        "sourceFile": "src/content/wiki/building-making-tutorial.md",
+        "categories": [
+          "Modding",
+          "Buildings",
+          "WIP"
+        ]
+      },
+      {
+        "id": "changing-town-ownership",
+        "path": "/changing-town-ownership",
+        "sourceFile": "src/content/wiki/changing-town-ownership.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "character-fcs",
+        "path": "/character-fcs",
+        "sourceFile": "src/content/wiki/character-fcs.md",
+        "categories": [
+          "Modding",
+          "Character customization"
+        ]
+      },
+      {
+        "id": "character-portrait-appearing-behind-other-character-portraits",
+        "path": "/character-portrait-appearing-behind-other-character-portraits",
+        "sourceFile": "src/content/wiki/character-portrait-appearing-behind-other-character-portraits.md",
+        "categories": [
+          "Portrait",
+          "Custom Character/Race",
+          "Modding",
+          "How to change animation strip name",
+          "Blender"
+        ]
+      },
+      {
+        "id": "collision-in-context-of-furniture-with-animations",
+        "path": "/collision-in-context-of-furniture-with-animations",
+        "sourceFile": "src/content/wiki/collision-in-context-of-furniture-with-animations.md",
+        "categories": [
+          "Collision",
+          "Props",
+          "Animation",
+          "Furniture",
+          "Modding"
+        ]
+      },
+      {
+        "id": "colour-scheme",
+        "path": "/colour-scheme",
+        "sourceFile": "src/content/wiki/colour-scheme.md",
+        "categories": [
+          "World Data",
+          "Armour",
+          "Guides",
+          "Modding"
+        ]
+      },
+      {
+        "id": "creating-a-new-game-start",
+        "path": "/creating-a-new-game-start",
+        "sourceFile": "src/content/wiki/creating-a-new-game-start.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "creating-a-rideable-animal/vehicle",
+        "path": "/creating-a-rideable-animal/vehicle",
+        "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+        "categories": [
+          "WIP",
+          "Needs cleanup",
+          "Animation",
+          "Modding",
+          "Custom race",
+          "Custom character",
+          "Portrait",
+          "Stumps",
+          "Armature",
+          "Icons"
+        ]
+      },
+      {
+        "id": "creating-a-special-placeable/lootable-item-for-your-town",
+        "path": "/creating-a-special-placeable/lootable-item-for-your-town",
+        "sourceFile": "src/content/wiki/creating-a-special-placeable/lootable-item-for-your-town.md",
+        "categories": [
+          "Modding",
+          "Town making"
+        ]
+      },
+      {
+        "id": "creating-an-animal-race",
+        "path": "/creating-an-animal-race",
+        "sourceFile": "src/content/wiki/creating-an-animal-race.md",
+        "categories": [
+          "WIP",
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "creating-custom-weapons",
+        "path": "/creating-custom-weapons",
+        "sourceFile": "src/content/wiki/creating-custom-weapons.md",
+        "categories": [
+          "Modding",
+          "Modding Guide"
+        ]
+      },
+      {
+        "id": "creating-new-towns",
+        "path": "/creating-new-towns",
+        "sourceFile": "src/content/wiki/creating-new-towns.md",
+        "categories": [
+          "Modding",
+          "Town making"
+        ]
+      },
+      {
+        "id": "custom-character-mesh-and-editor-sliders",
+        "path": "/custom-character-mesh-and-editor-sliders",
+        "sourceFile": "src/content/wiki/custom-character-mesh-and-editor-sliders.md",
+        "categories": [
+          "Modding",
+          "Character mesh",
+          "Sliders",
+          "Editor data"
+        ]
+      },
+      {
+        "id": "custom-character-model-and-rigging-to-kenshi-armature",
+        "path": "/custom-character-model-and-rigging-to-kenshi-armature",
+        "sourceFile": "src/content/wiki/custom-character-model-and-rigging-to-kenshi-armature.md",
+        "categories": [
+          "Guides",
+          "Modding Guide"
+        ]
+      },
+      {
+        "id": "custom-character-race-and-normal-map-displacement-map",
+        "path": "/custom-character-race-and-normal-map-displacement-map",
+        "sourceFile": "src/content/wiki/custom-character-race-and-normal-map-displacement-map.md",
+        "categories": [
+          "Modding",
+          "GGGR",
+          "Wip"
+        ]
+      },
+      {
+        "id": "dialogue-conditions-effects",
+        "path": "/dialogue-conditions-effects",
+        "sourceFile": "src/content/wiki/dialogue-conditions-effects.md",
+        "categories": [
+          "Modding",
+          "Dialogue"
+        ]
+      },
+      {
+        "id": "dialogue-events",
+        "path": "/dialogue-events",
+        "sourceFile": "src/content/wiki/dialogue-events.md",
+        "categories": [
+          "Modding",
+          "Dialogue"
+        ]
+      },
+      {
+        "id": "dialogue-structure-overlook",
+        "path": "/dialogue-structure-overlook",
+        "sourceFile": "src/content/wiki/dialogue-structure-overlook.md",
+        "categories": [
+          "WIP",
+          "Modding",
+          "Dialogue",
+          "Guides"
+        ]
+      },
+      {
+        "id": "dialogue-targeting",
+        "path": "/dialogue-targeting",
+        "sourceFile": "src/content/wiki/dialogue-targeting.md",
+        "categories": [
+          "Dialogue",
+          "Modding"
+        ]
+      },
+      {
+        "id": "dialogue-text-formatting-colors-italics-etc",
+        "path": "/dialogue-text-formatting-colors-italics-etc",
+        "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+        "categories": [
+          "Modding",
+          "Dialogue"
+        ]
+      },
+      {
+        "id": "dialogue-triggers-usage",
+        "path": "/dialogue-triggers-usage",
+        "sourceFile": "src/content/wiki/dialogue-triggers-usage.md",
+        "categories": [
+          "Modding",
+          "Modding Guide"
+        ]
+      },
+      {
+        "id": "dialogue-word-swaps",
+        "path": "/dialogue-word-swaps",
+        "sourceFile": "src/content/wiki/dialogue-word-swaps.md",
+        "categories": [
+          "Dialogue",
+          "Modding"
+        ]
+      },
+      {
+        "id": "example-on-color-map-process",
+        "path": "/example-on-color-map-process",
+        "sourceFile": "src/content/wiki/example-on-color-map-process.md",
+        "categories": [
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "fcs-load-order-color-definitions",
+        "path": "/fcs-load-order-color-definitions",
+        "sourceFile": "src/content/wiki/fcs-load-order-color-definitions.md",
+        "categories": [
+          "Modding",
+          "FCS Screenshots",
+          "Help",
+          "Guides"
+        ]
+      },
+      {
+        "id": "fcs-new-abilities-on-version-1.0.65-onwards",
+        "path": "/fcs-new-abilities-on-version-1.0.65-onwards",
+        "sourceFile": "src/content/wiki/fcs-new-abilities-on-version-1.0.65-onwards.md",
+        "categories": [
+          "Guides",
+          "Updates"
+        ]
+      },
+      {
+        "id": "fix-for-fcs-error-after-opting-out-from-experimental",
+        "path": "/fix-for-fcs-error-after-opting-out-from-experimental",
+        "sourceFile": "src/content/wiki/fix-for-fcs-error-after-opting-out-from-experimental.md",
+        "categories": [
+          "FCS",
+          "Error",
+          "Forgotten construction set"
+        ]
+      },
+      {
+        "id": "follow-player",
+        "path": "/follow-player",
+        "sourceFile": "src/content/wiki/follow-player.md",
+        "categories": [
+          "Modding",
+          "Dialogue"
+        ]
+      },
+      {
+        "id": "forgotten-construction-set",
+        "path": "/forgotten-construction-set",
+        "sourceFile": "src/content/wiki/forgotten-construction-set.md",
+        "categories": [
+          "User Interfaces",
+          "Modding",
+          "FCS"
+        ]
+      },
+      {
+        "id": "global-game-settings",
+        "path": "/global-game-settings",
+        "sourceFile": "src/content/wiki/global-game-settings.md",
+        "categories": [
+          "Guides"
+        ]
+      },
+      {
+        "id": "how-to-claim-town-ownership-cheat",
+        "path": "/how-to-claim-town-ownership-cheat",
+        "sourceFile": "src/content/wiki/how-to-claim-town-ownership-cheat.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-find-a-specific-dialogue-line",
+        "path": "/how-to-find-a-specific-dialogue-line",
+        "sourceFile": "src/content/wiki/how-to-find-a-specific-dialogue-line.md",
+        "categories": [
+          "WIP",
+          "Dialogue",
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-kill-npcs-at-game-start",
+        "path": "/how-to-kill-npcs-at-game-start",
+        "sourceFile": "src/content/wiki/how-to-kill-npcs-at-game-start.md",
+        "categories": [
+          "Modding",
+          "Modding Guide"
+        ]
+      },
+      {
+        "id": "how-to-make-a-bed-that-is-fast-healing",
+        "path": "/how-to-make-a-bed-that-is-fast-healing",
+        "sourceFile": "src/content/wiki/how-to-make-a-bed-that-is-fast-healing.md",
+        "categories": [
+          "Candidates for deletion",
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-make-a-color-map-for-your-armor",
+        "path": "/how-to-make-a-color-map-for-your-armor",
+        "sourceFile": "src/content/wiki/how-to-make-a-color-map-for-your-armor.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-make-a-custom-appearance-for-a-npc-aka-how-to-make-a-bod2-file",
+        "path": "/how-to-make-a-custom-appearance-for-a-npc-aka-how-to-make-a-bod2-file",
+        "sourceFile": "src/content/wiki/how-to-make-a-custom-appearance-for-a-npc-aka-how-to-make-a-bod2-file.md",
+        "categories": [
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-make-a-custom-name-database-for-a-custom-race",
+        "path": "/how-to-make-a-custom-name-database-for-a-custom-race",
+        "sourceFile": "src/content/wiki/how-to-make-a-custom-name-database-for-a-custom-race.md",
+        "categories": [
+          "Modding",
+          "Custom name database"
+        ]
+      },
+      {
+        "id": "how-to-make-a-custom-start-mod-with-characters-from-other-mods",
+        "path": "/how-to-make-a-custom-start-mod-with-characters-from-other-mods",
+        "sourceFile": "src/content/wiki/how-to-make-a-custom-start-mod-with-characters-from-other-mods.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-make-a-face/hair-patch-for-modded-and-vanilla-races",
+        "path": "/how-to-make-a-face/hair-patch-for-modded-and-vanilla-races",
+        "sourceFile": "src/content/wiki/how-to-make-a-face/hair-patch-for-modded-and-vanilla-races.md",
+        "categories": [
+          "Modding",
+          "Modding Guide"
+        ]
+      },
+      {
+        "id": "how-to-make-a-three-person-conversation-including-player",
+        "path": "/how-to-make-a-three-person-conversation-including-player",
+        "sourceFile": "src/content/wiki/how-to-make-a-three-person-conversation-including-player.md",
+        "categories": [
+          "Dialogue",
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-make-a-two-person-chair-multiuser-animations",
+        "path": "/how-to-make-a-two-person-chair-multiuser-animations",
+        "sourceFile": "src/content/wiki/how-to-make-a-two-person-chair-multiuser-animations.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-make-a-war-campaign-or-trader-visit-about-ai-campaigns",
+        "path": "/how-to-make-a-war-campaign-or-trader-visit-about-ai-campaigns",
+        "sourceFile": "src/content/wiki/how-to-make-a-war-campaign-or-trader-visit-about-ai-campaigns.md",
+        "categories": [
+          "Modding Guide",
+          "Modding",
+          "Wip"
+        ]
+      },
+      {
+        "id": "how-to-make-an-animations/recruitment-patch-mod-for-your-modded-race/character",
+        "path": "/how-to-make-an-animations/recruitment-patch-mod-for-your-modded-race/character",
+        "sourceFile": "src/content/wiki/how-to-make-an-animations/recruitment-patch-mod-for-your-modded-race/character.md",
+        "categories": [
+          "Modding",
+          "Modding Guide"
+        ]
+      },
+      {
+        "id": "how-to-make-buildings-snap-together-fe-ramps-to-walls",
+        "path": "/how-to-make-buildings-snap-together-fe-ramps-to-walls",
+        "sourceFile": "src/content/wiki/how-to-make-buildings-snap-together-fe-ramps-to-walls.md",
+        "categories": [
+          "WIP",
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-make-custom-armour-mesh",
+        "path": "/how-to-make-custom-armour-mesh",
+        "sourceFile": "src/content/wiki/how-to-make-custom-armour-mesh.md",
+        "categories": [
+          "Modding Guide",
+          "Modding",
+          "Armour"
+        ]
+      },
+      {
+        "id": "how-to-make-custom-collision-for-buildings-navmesh",
+        "path": "/how-to-make-custom-collision-for-buildings-navmesh",
+        "sourceFile": "src/content/wiki/how-to-make-custom-collision-for-buildings-navmesh.md",
+        "categories": [
+          "Needs cleanup",
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-make-custom-hair",
+        "path": "/how-to-make-custom-hair",
+        "sourceFile": "src/content/wiki/how-to-make-custom-hair.md",
+        "categories": [
+          "WIP",
+          "Modding Guide",
+          "Modding",
+          "Character customization"
+        ]
+      },
+      {
+        "id": "how-to-make-custom-robotic-limbs",
+        "path": "/how-to-make-custom-robotic-limbs",
+        "sourceFile": "src/content/wiki/how-to-make-custom-robotic-limbs.md",
+        "categories": [
+          "WIP",
+          "Modding",
+          "Modding Guide"
+        ]
+      },
+      {
+        "id": "how-to-make-icons-for-kenshi",
+        "path": "/how-to-make-icons-for-kenshi",
+        "sourceFile": "src/content/wiki/how-to-make-icons-for-kenshi.md",
+        "categories": [
+          "Clarification needed",
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-make-your-character-totally-invisible",
+        "path": "/how-to-make-your-character-totally-invisible",
+        "sourceFile": "src/content/wiki/how-to-make-your-character-totally-invisible.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "how-to-move-mods-from-workshop-to-kenshi/mods",
+        "path": "/how-to-move-mods-from-workshop-to-kenshi/mods",
+        "sourceFile": "src/content/wiki/how-to-move-mods-from-workshop-to-kenshi/mods.md",
+        "categories": [
+          "Moving mods",
+          "Modding Guide",
+          "Modding",
+          "Copy the number part"
+        ]
+      },
+      {
+        "id": "how-to-regenerate-blendmap-files",
+        "path": "/how-to-regenerate-blendmap-files",
+        "sourceFile": "src/content/wiki/how-to-regenerate-blendmap-files.md",
+        "categories": [
+          "Modding Guide",
+          "Modding",
+          "Biomemap",
+          "Biome"
+        ]
+      },
+      {
+        "id": "how-to-use-the-part-map-aka-how-to-make-the-skin-invisible-under-clothes",
+        "path": "/how-to-use-the-part-map-aka-how-to-make-the-skin-invisible-under-clothes",
+        "sourceFile": "src/content/wiki/how-to-use-the-part-map-aka-how-to-make-the-skin-invisible-under-clothes.md",
+        "categories": [
+          "WIP",
+          "Modding"
+        ]
+      },
+      {
+        "id": "interior-walls-and-doors",
+        "path": "/interior-walls-and-doors",
+        "sourceFile": "src/content/wiki/interior-walls-and-doors.md",
+        "categories": [
+          "WIP",
+          "Building Meshes",
+          "Modding"
+        ]
+      },
+      {
+        "id": "introduction-to-modding",
+        "path": "/introduction-to-modding",
+        "sourceFile": "src/content/wiki/introduction-to-modding.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "kenshi-unofficial-multiplayer-mod",
+        "path": "/kenshi-unofficial-multiplayer-mod",
+        "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+        "categories": []
+      },
+      {
+        "id": "leveldata",
+        "path": "/leveldata",
+        "sourceFile": "src/content/wiki/leveldata.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "making-a-character-with-glowing-eyes-or-body",
+        "path": "/making-a-character-with-glowing-eyes-or-body",
+        "sourceFile": "src/content/wiki/making-a-character-with-glowing-eyes-or-body.md",
+        "categories": [
+          "Modding Guide",
+          "Modding",
+          "Custom character",
+          "Mask"
+        ]
+      },
+      {
+        "id": "making-a-custom-melee-weapon",
+        "path": "/making-a-custom-melee-weapon",
+        "sourceFile": "src/content/wiki/making-a-custom-melee-weapon.md",
+        "categories": [
+          "WIP",
+          "Modding Guide",
+          "Modding",
+          "Weapons"
+        ]
+      },
+      {
+        "id": "making-a-custom-world-map-terrain-characters-walk-on-and-pois",
+        "path": "/making-a-custom-world-map-terrain-characters-walk-on-and-pois",
+        "sourceFile": "src/content/wiki/making-a-custom-world-map-terrain-characters-walk-on-and-pois.md",
+        "categories": [
+          "WIP",
+          "Modding",
+          "Modding Guide",
+          "World map"
+        ]
+      },
+      {
+        "id": "making-a-food-mod-nutrition-value",
+        "path": "/making-a-food-mod-nutrition-value",
+        "sourceFile": "src/content/wiki/making-a-food-mod-nutrition-value.md",
+        "categories": [
+          "Nutrition",
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "making-a-npc-shop-aka-how-to-set-up-vendors",
+        "path": "/making-a-npc-shop-aka-how-to-set-up-vendors",
+        "sourceFile": "src/content/wiki/making-a-npc-shop-aka-how-to-set-up-vendors.md",
+        "categories": [
+          "WIP",
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "making-a-town-that-expands-and-grows-according-to-world-states",
+        "path": "/making-a-town-that-expands-and-grows-according-to-world-states",
+        "sourceFile": "src/content/wiki/making-a-town-that-expands-and-grows-according-to-world-states.md",
+        "categories": [
+          "Modding Guide",
+          "Modding",
+          "Making towns"
+        ]
+      },
+      {
+        "id": "making-animations-basics",
+        "path": "/making-animations-basics",
+        "sourceFile": "src/content/wiki/making-animations-basics.md",
+        "categories": [
+          "Animation",
+          "Modding"
+        ]
+      },
+      {
+        "id": "making-custom-ragdoll",
+        "path": "/making-custom-ragdoll",
+        "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+        "categories": [
+          "Modding",
+          "Skythe"
+        ]
+      },
+      {
+        "id": "making-teleports",
+        "path": "/making-teleports",
+        "sourceFile": "src/content/wiki/making-teleports.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "map-biome-areas-region-correlation",
+        "path": "/map-biome-areas-region-correlation",
+        "sourceFile": "src/content/wiki/map-biome-areas-region-correlation.md",
+        "categories": [
+          "Modding",
+          "Map",
+          "WIP",
+          "Biome",
+          "Biomemap"
+        ]
+      },
+      {
+        "id": "mask-trigger-collision-script",
+        "path": "/mask-trigger-collision-script",
+        "sourceFile": "src/content/wiki/mask-trigger-collision-script.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "modders-resource-logo-masks-for-main-factions",
+        "path": "/modders-resource-logo-masks-for-main-factions",
+        "sourceFile": "src/content/wiki/modders-resource-logo-masks-for-main-factions.md",
+        "categories": [
+          "Modders resource",
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "modding-enabling-to-craft-vanilla-armour",
+        "path": "/modding-enabling-to-craft-vanilla-armour",
+        "sourceFile": "src/content/wiki/modding-enabling-to-craft-vanilla-armour.md",
+        "categories": [
+          "Modding",
+          "Guides"
+        ]
+      },
+      {
+        "id": "modding/meitou",
+        "path": "/modding/meitou",
+        "sourceFile": "src/content/wiki/modding/meitou.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "modding/meitou/porting-re-kenshi-mods",
+        "path": "/modding/meitou/porting-re-kenshi-mods",
+        "sourceFile": "src/content/wiki/modding/meitou/porting-re-kenshi-mods.md",
+        "categories": [
+          "Modding",
+          "Guides"
+        ]
+      },
+      {
+        "id": "modifications",
+        "path": "/modifications",
+        "sourceFile": "src/content/wiki/modifications.md",
+        "categories": [
+          "WIP",
+          "Modding"
+        ]
+      },
+      {
+        "id": "mods",
+        "path": "/mods",
+        "sourceFile": "src/content/wiki/mods.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "particle-effects",
+        "path": "/particle-effects",
+        "sourceFile": "src/content/wiki/particle-effects.md",
+        "categories": [
+          "Pages with syntax highlighting errors",
+          "Modding",
+          "Modding Guide"
+        ]
+      },
+      {
+        "id": "particle-script-examples-and-experiments",
+        "path": "/particle-script-examples-and-experiments",
+        "sourceFile": "src/content/wiki/particle-script-examples-and-experiments.md",
+        "categories": [
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "re-kenshi-extra-extensions-modding-how-to-use-the-silent-world-states-and-variables",
+        "path": "/re-kenshi-extra-extensions-modding-how-to-use-the-silent-world-states-and-variables",
+        "sourceFile": "src/content/wiki/re-kenshi-extra-extensions-modding-how-to-use-the-silent-world-states-and-variables.md",
+        "categories": [
+          "Wip",
+          "Modding Guide",
+          "ReKenshi",
+          "Variables",
+          "Modding"
+        ]
+      },
+      {
+        "id": "research-fcs",
+        "path": "/research-fcs",
+        "sourceFile": "src/content/wiki/research-fcs.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "riding-npcs-how-to-spawn-a-npc-already-carrying-another-npc",
+        "path": "/riding-npcs-how-to-spawn-a-npc-already-carrying-another-npc",
+        "sourceFile": "src/content/wiki/riding-npcs-how-to-spawn-a-npc-already-carrying-another-npc.md",
+        "categories": [
+          "WIP",
+          "NPC",
+          "Riding NPC",
+          "Custom towns"
+        ]
+      },
+      {
+        "id": "script-library",
+        "path": "/script-library",
+        "sourceFile": "src/content/wiki/script-library.md",
+        "categories": [
+          "Modding",
+          "Dialogue",
+          "Modding Guide"
+        ]
+      },
+      {
+        "id": "scripting-aka-how-to-make-a-multi-threaded-conversation",
+        "path": "/scripting-aka-how-to-make-a-multi-threaded-conversation",
+        "sourceFile": "src/content/wiki/scripting-aka-how-to-make-a-multi-threaded-conversation.md",
+        "categories": [
+          "Modding",
+          "Dialogue"
+        ]
+      },
+      {
+        "id": "skin-making-tutorial",
+        "path": "/skin-making-tutorial",
+        "sourceFile": "src/content/wiki/skin-making-tutorial.md",
+        "categories": [
+          "Modding",
+          "Skin",
+          "Race",
+          "Custom skin",
+          "Custom race"
+        ]
+      },
+      {
+        "id": "sound-editing-and-adding-new-sounds",
+        "path": "/sound-editing-and-adding-new-sounds",
+        "sourceFile": "src/content/wiki/sound-editing-and-adding-new-sounds.md",
+        "categories": [
+          "WIP",
+          "Needs cleanup",
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "special-tools",
+        "path": "/special-tools",
+        "sourceFile": "src/content/wiki/special-tools.md",
+        "categories": [
+          "Modding",
+          "Props",
+          "Animation"
+        ]
+      },
+      {
+        "id": "translating-mods",
+        "path": "/translating-mods",
+        "sourceFile": "src/content/wiki/translating-mods.md",
+        "categories": [
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "universal-wasteland-expansion-mod",
+        "path": "/universal-wasteland-expansion-mod",
+        "sourceFile": "src/content/wiki/universal-wasteland-expansion-mod.md",
+        "categories": [
+          "Mod"
+        ]
+      },
+      {
+        "id": "user-node-rotations-quarternions",
+        "path": "/user-node-rotations-quarternions",
+        "sourceFile": "src/content/wiki/user-node-rotations-quarternions.md",
+        "categories": [
+          "Modding",
+          "Model making",
+          "Furniture",
+          "Guides",
+          "Modding Guide",
+          "FCS"
+        ]
+      },
+      {
+        "id": "using-faction-reputation-as-variable",
+        "path": "/using-faction-reputation-as-variable",
+        "sourceFile": "src/content/wiki/using-faction-reputation-as-variable.md",
+        "categories": [
+          "Modding",
+          "Dialogue",
+          "Guides",
+          "Quest"
+        ]
+      },
+      {
+        "id": "using-the-fcs",
+        "path": "/using-the-fcs",
+        "sourceFile": "src/content/wiki/using-the-fcs.md",
+        "categories": [
+          "Modding",
+          "Guides"
+        ]
+      },
+      {
+        "id": "uwe-weapon/modifiers",
+        "path": "/uwe-weapon/modifiers",
+        "sourceFile": "src/content/wiki/uwe-weapon/modifiers.md",
+        "categories": [
+          "Candidates for deletion",
+          "Mod"
+        ]
+      },
+      {
+        "id": "uwe-weapons",
+        "path": "/uwe-weapons",
+        "sourceFile": "src/content/wiki/uwe-weapons.md",
+        "categories": [
+          "Candidates for deletion",
+          "Mod"
+        ]
+      },
+      {
+        "id": "uwe-weapons/damage",
+        "path": "/uwe-weapons/damage",
+        "sourceFile": "src/content/wiki/uwe-weapons/damage.md",
+        "categories": [
+          "Mod"
+        ]
+      },
+      {
+        "id": "vanilla-animation-names",
+        "path": "/vanilla-animation-names",
+        "sourceFile": "src/content/wiki/vanilla-animation-names.md",
+        "categories": [
+          "Animation",
+          "Modding"
+        ]
+      },
+      {
+        "id": "weapons-fcs",
+        "path": "/weapons-fcs",
+        "sourceFile": "src/content/wiki/weapons-fcs.md",
+        "categories": [
+          "Modding"
+        ]
+      },
+      {
+        "id": "what-mod-my-race-comes-from",
+        "path": "/what-mod-my-race-comes-from",
+        "sourceFile": "src/content/wiki/what-mod-my-race-comes-from.md",
+        "categories": [
+          "Candidates for deletion",
+          "Mod"
+        ]
+      },
+      {
+        "id": "what-possibilities-we-have-to-make-quests",
+        "path": "/what-possibilities-we-have-to-make-quests",
+        "sourceFile": "src/content/wiki/what-possibilities-we-have-to-make-quests.md",
+        "categories": [
+          "WIP",
+          "Modding"
+        ]
+      },
+      {
+        "id": "why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading",
+        "path": "/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading",
+        "sourceFile": "src/content/wiki/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading.md",
+        "categories": [
+          "WIP",
+          "Modding Guide",
+          "Modding"
+        ]
+      },
+      {
+        "id": "why-load-order-matters-and-other-faq-about-using-mods",
+        "path": "/why-load-order-matters-and-other-faq-about-using-mods",
+        "sourceFile": "src/content/wiki/why-load-order-matters-and-other-faq-about-using-mods.md",
+        "categories": [
+          "Guides"
+        ]
+      }
+    ],
+    "Gameplay, Skills and player guides": [
+      {
+        "id": "acid-ground",
+        "path": "/acid-ground",
+        "sourceFile": "src/content/wiki/acid-ground.md",
+        "categories": [
+          "World Data"
+        ]
+      },
+      {
+        "id": "armour-smith",
+        "path": "/armour-smith",
+        "sourceFile": "src/content/wiki/armour-smith.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "artifacts",
+        "path": "/artifacts",
+        "sourceFile": "src/content/wiki/artifacts.md",
+        "categories": [
+          "World Data"
+        ]
+      },
+      {
+        "id": "assassination",
+        "path": "/assassination",
+        "sourceFile": "src/content/wiki/assassination.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "athletics",
+        "path": "/athletics",
+        "sourceFile": "src/content/wiki/athletics.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "bounty",
+        "path": "/bounty",
+        "sourceFile": "src/content/wiki/bounty.md",
+        "categories": [
+          "Guides"
+        ]
+      },
+      {
+        "id": "character-customization",
+        "path": "/character-customization",
+        "sourceFile": "src/content/wiki/character-customization.md",
+        "categories": [
+          "User Interfaces"
+        ]
+      },
+      {
+        "id": "combat-speed",
+        "path": "/combat-speed",
+        "sourceFile": "src/content/wiki/combat-speed.md",
+        "categories": [
+          "Combat"
+        ]
+      },
+      {
+        "id": "combat-strategies",
+        "path": "/combat-strategies",
+        "sourceFile": "src/content/wiki/combat-strategies.md",
+        "categories": [
+          "WIP",
+          "Strategies"
+        ]
+      },
+      {
+        "id": "controls",
+        "path": "/controls",
+        "sourceFile": "src/content/wiki/controls.md",
+        "categories": [
+          "WIP",
+          "User Interfaces"
+        ]
+      },
+      {
+        "id": "cooking",
+        "path": "/cooking",
+        "sourceFile": "src/content/wiki/cooking.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "crossbow-smith",
+        "path": "/crossbow-smith",
+        "sourceFile": "src/content/wiki/crossbow-smith.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "damage",
+        "path": "/damage",
+        "sourceFile": "src/content/wiki/damage.md",
+        "categories": [
+          "Guides",
+          "Combat"
+        ]
+      },
+      {
+        "id": "damage/limb-data",
+        "path": "/damage/limb-data",
+        "sourceFile": "src/content/wiki/damage/limb-data.md",
+        "categories": [
+          "Combat"
+        ]
+      },
+      {
+        "id": "dexterity",
+        "path": "/dexterity",
+        "sourceFile": "src/content/wiki/dexterity.md",
+        "categories": [
+          "Needs cleanup",
+          "Statistics"
+        ]
+      },
+      {
+        "id": "diplomatic-status",
+        "path": "/diplomatic-status",
+        "sourceFile": "src/content/wiki/diplomatic-status.md",
+        "categories": [
+          "Guides"
+        ]
+      },
+      {
+        "id": "disguise",
+        "path": "/disguise",
+        "sourceFile": "src/content/wiki/disguise.md",
+        "categories": [
+          "Guides"
+        ]
+      },
+      {
+        "id": "dodge",
+        "path": "/dodge",
+        "sourceFile": "src/content/wiki/dodge.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "encumbrance",
+        "path": "/encumbrance",
+        "sourceFile": "src/content/wiki/encumbrance.md",
+        "categories": [
+          "WIP",
+          "Guides"
+        ]
+      },
+      {
+        "id": "engineer",
+        "path": "/engineer",
+        "sourceFile": "src/content/wiki/engineer.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "environment",
+        "path": "/environment",
+        "sourceFile": "src/content/wiki/environment.md",
+        "categories": [
+          "World Data"
+        ]
+      },
+      {
+        "id": "faction-uniform",
+        "path": "/faction-uniform",
+        "sourceFile": "src/content/wiki/faction-uniform.md",
+        "categories": [
+          "Guides"
+        ]
+      },
+      {
+        "id": "farming",
+        "path": "/farming",
+        "sourceFile": "src/content/wiki/farming.md",
+        "categories": [
+          "Statistics",
+          "Farming"
+        ]
+      },
+      {
+        "id": "field-medic",
+        "path": "/field-medic",
+        "sourceFile": "src/content/wiki/field-medic.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "free-camera-mode",
+        "path": "/free-camera-mode",
+        "sourceFile": "src/content/wiki/free-camera-mode.md",
+        "categories": [
+          "Guides",
+          "Updates"
+        ]
+      },
+      {
+        "id": "game-starts",
+        "path": "/game-starts",
+        "sourceFile": "src/content/wiki/game-starts.md",
+        "categories": [
+          "WIP",
+          "Guides"
+        ]
+      },
+      {
+        "id": "getting-started",
+        "path": "/getting-started",
+        "sourceFile": "src/content/wiki/getting-started.md",
+        "categories": [
+          "Guides"
+        ]
+      },
+      {
+        "id": "glitchmakers-general-guide",
+        "path": "/glitchmakers-general-guide",
+        "sourceFile": "src/content/wiki/glitchmakers-general-guide.md",
+        "categories": [
+          "Guides"
+        ]
+      },
+      {
+        "id": "guide-to-building-an-outpost",
+        "path": "/guide-to-building-an-outpost",
+        "sourceFile": "src/content/wiki/guide-to-building-an-outpost.md",
+        "categories": [
+          "WIP",
+          "Guides"
+        ]
+      },
+      {
+        "id": "guide-to-equipment",
+        "path": "/guide-to-equipment",
+        "sourceFile": "src/content/wiki/guide-to-equipment.md",
+        "categories": [
+          "WIP",
+          "Guides"
+        ]
+      },
+      {
+        "id": "guide-to-health",
+        "path": "/guide-to-health",
+        "sourceFile": "src/content/wiki/guide-to-health.md",
+        "categories": [
+          "Guides"
+        ]
+      },
+      {
+        "id": "guide-to-training-statistics",
+        "path": "/guide-to-training-statistics",
+        "sourceFile": "src/content/wiki/guide-to-training-statistics.md",
+        "categories": [
+          "WIP",
+          "Guides"
+        ]
+      },
+      {
+        "id": "guide-to-ui-and-controls",
+        "path": "/guide-to-ui-and-controls",
+        "sourceFile": "src/content/wiki/guide-to-ui-and-controls.md",
+        "categories": [
+          "WIP",
+          "Guides"
+        ]
+      },
+      {
+        "id": "industry-buildings",
+        "path": "/industry-buildings",
+        "sourceFile": "src/content/wiki/industry-buildings.md",
+        "categories": [
+          "WIP",
+          "Guides"
+        ]
+      },
+      {
+        "id": "jobs",
+        "path": "/jobs",
+        "sourceFile": "src/content/wiki/jobs.md",
+        "categories": [
+          "Guides",
+          "User Interfaces"
+        ]
+      },
+      {
+        "id": "labouring",
+        "path": "/labouring",
+        "sourceFile": "src/content/wiki/labouring.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "loading-screen",
+        "path": "/loading-screen",
+        "sourceFile": "src/content/wiki/loading-screen.md",
+        "categories": [
+          "User Interfaces",
+          "Guides"
+        ]
+      },
+      {
+        "id": "lockpicking",
+        "path": "/lockpicking",
+        "sourceFile": "src/content/wiki/lockpicking.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "main-menu",
+        "path": "/main-menu",
+        "sourceFile": "src/content/wiki/main-menu.md",
+        "categories": [
+          "User Interfaces"
+        ]
+      },
+      {
+        "id": "martial-arts",
+        "path": "/martial-arts",
+        "sourceFile": "src/content/wiki/martial-arts.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "melee-attack",
+        "path": "/melee-attack",
+        "sourceFile": "src/content/wiki/melee-attack.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "melee-defense",
+        "path": "/melee-defense",
+        "sourceFile": "src/content/wiki/melee-defense.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "money-making-strategies-crafting-guide",
+        "path": "/money-making-strategies-crafting-guide",
+        "sourceFile": "src/content/wiki/money-making-strategies-crafting-guide.md",
+        "categories": [
+          "Strategies"
+        ]
+      },
+      {
+        "id": "money-making-strategies",
+        "path": "/money-making-strategies",
+        "sourceFile": "src/content/wiki/money-making-strategies.md",
+        "categories": [
+          "WIP",
+          "Strategies"
+        ]
+      },
+      {
+        "id": "npc-shopping-behavior",
+        "path": "/npc-shopping-behavior",
+        "sourceFile": "src/content/wiki/npc-shopping-behavior.md",
+        "categories": [
+          "World Data"
+        ]
+      },
+      {
+        "id": "options-menu",
+        "path": "/options-menu",
+        "sourceFile": "src/content/wiki/options-menu.md",
+        "categories": [
+          "WIP",
+          "User Interfaces"
+        ]
+      },
+      {
+        "id": "perception",
+        "path": "/perception",
+        "sourceFile": "src/content/wiki/perception.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "personality",
+        "path": "/personality",
+        "sourceFile": "src/content/wiki/personality.md",
+        "categories": [
+          "WIP",
+          "World Data"
+        ]
+      },
+      {
+        "id": "playable-characters",
+        "path": "/playable-characters",
+        "sourceFile": "src/content/wiki/playable-characters.md",
+        "categories": [
+          "Guides"
+        ]
+      },
+      {
+        "id": "player-owned-buildings-in-town",
+        "path": "/player-owned-buildings-in-town",
+        "sourceFile": "src/content/wiki/player-owned-buildings-in-town.md",
+        "categories": [
+          "WIP",
+          "Guides"
+        ]
+      },
+      {
+        "id": "precision-shooting",
+        "path": "/precision-shooting",
+        "sourceFile": "src/content/wiki/precision-shooting.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "prospecting",
+        "path": "/prospecting",
+        "sourceFile": "src/content/wiki/prospecting.md",
+        "categories": [
+          "WIP",
+          "User Interfaces"
+        ]
+      },
+      {
+        "id": "random-names-list",
+        "path": "/random-names-list",
+        "sourceFile": "src/content/wiki/random-names-list.md",
+        "categories": [
+          "World Data"
+        ]
+      },
+      {
+        "id": "resistances",
+        "path": "/resistances",
+        "sourceFile": "src/content/wiki/resistances.md",
+        "categories": [
+          "WIP",
+          "Guides",
+          "Combat"
+        ]
+      },
+      {
+        "id": "robotics",
+        "path": "/robotics",
+        "sourceFile": "src/content/wiki/robotics.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "science",
+        "path": "/science",
+        "sourceFile": "src/content/wiki/science.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "seasons-and-weather",
+        "path": "/seasons-and-weather",
+        "sourceFile": "src/content/wiki/seasons-and-weather.md",
+        "categories": [
+          "World Data"
+        ]
+      },
+      {
+        "id": "slavery",
+        "path": "/slavery",
+        "sourceFile": "src/content/wiki/slavery.md",
+        "categories": [
+          "Guides"
+        ]
+      },
+      {
+        "id": "statistics",
+        "path": "/statistics",
+        "sourceFile": "src/content/wiki/statistics.md",
+        "categories": [
+          "User Interfaces",
+          "Statistics"
+        ]
+      },
+      {
+        "id": "stealth",
+        "path": "/stealth",
+        "sourceFile": "src/content/wiki/stealth.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "strength",
+        "path": "/strength",
+        "sourceFile": "src/content/wiki/strength.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "stronger-opponent-logic",
+        "path": "/stronger-opponent-logic",
+        "sourceFile": "src/content/wiki/stronger-opponent-logic.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "swimming",
+        "path": "/swimming",
+        "sourceFile": "src/content/wiki/swimming.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "thievery",
+        "path": "/thievery",
+        "sourceFile": "src/content/wiki/thievery.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "toughness",
+        "path": "/toughness",
+        "sourceFile": "src/content/wiki/toughness.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "town-size-vs-map-icon-town-level-icons",
+        "path": "/town-size-vs-map-icon-town-level-icons",
+        "sourceFile": "src/content/wiki/town-size-vs-map-icon-town-level-icons.md",
+        "categories": [
+          "Town",
+          "Player base",
+          "Player town",
+          "Guides",
+          "Player Bases"
+        ]
+      },
+      {
+        "id": "weapon-smith",
+        "path": "/weapon-smith",
+        "sourceFile": "src/content/wiki/weapon-smith.md",
+        "categories": [
+          "Statistics"
+        ]
+      },
+      {
+        "id": "weather-effects",
+        "path": "/weather-effects",
+        "sourceFile": "src/content/wiki/weather-effects.md",
+        "categories": [
+          "World Data"
+        ]
+      },
+      {
+        "id": "wheatstraw-60-or-cactus-100",
+        "path": "/wheatstraw-60-or-cactus-100",
+        "sourceFile": "src/content/wiki/wheatstraw-60-or-cactus-100.md",
+        "categories": [
+          "WIP",
+          "Guides",
+          "Pages that use a deprecated format of the math tags"
+        ]
+      }
+    ],
+    "Manufacturers and historical remainder": [
+      {
+        "id": "adventurers-guild-alpha",
+        "path": "/adventurers-guild-alpha",
+        "sourceFile": "src/content/wiki/adventurers-guild-alpha.md",
+        "categories": [
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "ancient-manufacturer",
+        "path": "/ancient-manufacturer",
+        "sourceFile": "src/content/wiki/ancient-manufacturer.md",
+        "categories": [
+          "Manufacturers"
+        ]
+      },
+      {
+        "id": "bandits",
+        "path": "/bandits",
+        "sourceFile": "src/content/wiki/bandits.md",
+        "categories": [
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "blackened-chain-headwrap",
+        "path": "/blackened-chain-headwrap",
+        "sourceFile": "src/content/wiki/blackened-chain-headwrap.md",
+        "categories": [
+          "Removed Content",
+          "Retired Items"
+        ]
+      },
+      {
+        "id": "carbon",
+        "path": "/carbon",
+        "sourceFile": "src/content/wiki/carbon.md",
+        "categories": [
+          "Retired Items",
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "catun-scrapmaster-manufacturer",
+        "path": "/catun-scrapmaster-manufacturer",
+        "sourceFile": "src/content/wiki/catun-scrapmaster-manufacturer.md",
+        "categories": [
+          "Manufacturers"
+        ]
+      },
+      {
+        "id": "chain-headwrap",
+        "path": "/chain-headwrap",
+        "sourceFile": "src/content/wiki/chain-headwrap.md",
+        "categories": [
+          "Removed Content",
+          "Retired Items"
+        ]
+      },
+      {
+        "id": "dead-cat",
+        "path": "/dead-cat",
+        "sourceFile": "src/content/wiki/dead-cat.md",
+        "categories": [
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "dried-gristle-flaps",
+        "path": "/dried-gristle-flaps",
+        "sourceFile": "src/content/wiki/dried-gristle-flaps.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Retired Items",
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "edgewalkers",
+        "path": "/edgewalkers",
+        "sourceFile": "src/content/wiki/edgewalkers.md",
+        "categories": [
+          "Manufacturers"
+        ]
+      },
+      {
+        "id": "flat-topper",
+        "path": "/flat-topper",
+        "sourceFile": "src/content/wiki/flat-topper.md",
+        "categories": [
+          "Removed Content",
+          "Retired Items"
+        ]
+      },
+      {
+        "id": "heavy-iron-club",
+        "path": "/heavy-iron-club",
+        "sourceFile": "src/content/wiki/heavy-iron-club.md",
+        "categories": [
+          "Retired Items",
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "homemade",
+        "path": "/homemade",
+        "sourceFile": "src/content/wiki/homemade.md",
+        "categories": [
+          "Manufacturers"
+        ]
+      },
+      {
+        "id": "imperial-lords",
+        "path": "/imperial-lords",
+        "sourceFile": "src/content/wiki/imperial-lords.md",
+        "categories": [
+          "Removed Content",
+          "Samurai",
+          "United Cities"
+        ]
+      },
+      {
+        "id": "jacket",
+        "path": "/jacket",
+        "sourceFile": "src/content/wiki/jacket.md",
+        "categories": [
+          "Retired Items",
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "metal-purity",
+        "path": "/metal-purity",
+        "sourceFile": "src/content/wiki/metal-purity.md",
+        "categories": [
+          "Removed Content",
+          "Manufacturers"
+        ]
+      },
+      {
+        "id": "narcotics",
+        "path": "/narcotics",
+        "sourceFile": "src/content/wiki/narcotics.md",
+        "categories": [
+          "Pages with unmapped item name",
+          "Retired Items",
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "old-eye-blades",
+        "path": "/old-eye-blades",
+        "sourceFile": "src/content/wiki/old-eye-blades.md",
+        "categories": [
+          "Removed Content",
+          "Manufacturers"
+        ]
+      },
+      {
+        "id": "ore-mine",
+        "path": "/ore-mine",
+        "sourceFile": "src/content/wiki/ore-mine.md",
+        "categories": [
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "ore-mining",
+        "path": "/ore-mining",
+        "sourceFile": "src/content/wiki/ore-mining.md",
+        "categories": [
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "potatoes",
+        "path": "/potatoes",
+        "sourceFile": "src/content/wiki/potatoes.md",
+        "categories": [
+          "Retired Items",
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "raider-armour",
+        "path": "/raider-armour",
+        "sourceFile": "src/content/wiki/raider-armour.md",
+        "categories": [
+          "Retired Items",
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "samurai-lord",
+        "path": "/samurai-lord",
+        "sourceFile": "src/content/wiki/samurai-lord.md",
+        "categories": [
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "sand-ninjas-alpha",
+        "path": "/sand-ninjas-alpha",
+        "sourceFile": "src/content/wiki/sand-ninjas-alpha.md",
+        "categories": [
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "shopkeepers-backpack",
+        "path": "/shopkeepers-backpack",
+        "sourceFile": "src/content/wiki/shopkeepers-backpack.md",
+        "categories": [
+          "Pages with non-numeric formatnum arguments",
+          "Retired Items",
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "skeleton-smiths-manufacturer",
+        "path": "/skeleton-smiths-manufacturer",
+        "sourceFile": "src/content/wiki/skeleton-smiths-manufacturer.md",
+        "categories": [
+          "Manufacturers"
+        ]
+      },
+      {
+        "id": "the-holy-empire",
+        "path": "/the-holy-empire",
+        "sourceFile": "src/content/wiki/the-holy-empire.md",
+        "categories": [
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "the-old-empire",
+        "path": "/the-old-empire",
+        "sourceFile": "src/content/wiki/the-old-empire.md",
+        "categories": [
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "truth-two",
+        "path": "/truth-two",
+        "sourceFile": "src/content/wiki/truth-two.md",
+        "categories": [
+          "Removed Content",
+          "Manufacturers"
+        ]
+      },
+      {
+        "id": "unknown-manufacturer",
+        "path": "/unknown-manufacturer",
+        "sourceFile": "src/content/wiki/unknown-manufacturer.md",
+        "categories": [
+          "Manufacturers"
+        ]
+      }
+    ],
+    "Events": [
+      {
+        "id": "anti-slaver-reinforcements",
+        "path": "/anti-slaver-reinforcements",
+        "sourceFile": "src/content/wiki/anti-slaver-reinforcements.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "bandit-demands",
+        "path": "/bandit-demands",
+        "sourceFile": "src/content/wiki/bandit-demands.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "bandit-rage",
+        "path": "/bandit-rage",
+        "sourceFile": "src/content/wiki/bandit-rage.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "bandit-raid",
+        "path": "/bandit-raid",
+        "sourceFile": "src/content/wiki/bandit-raid.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "base-assault",
+        "path": "/base-assault",
+        "sourceFile": "src/content/wiki/base-assault.md",
+        "categories": [
+          "Events",
+          "Removed Content"
+        ]
+      },
+      {
+        "id": "beast-trader",
+        "path": "/beast-trader",
+        "sourceFile": "src/content/wiki/beast-trader.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "blooded-raid",
+        "path": "/blooded-raid",
+        "sourceFile": "src/content/wiki/blooded-raid.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "cannibal-raid",
+        "path": "/cannibal-raid",
+        "sourceFile": "src/content/wiki/cannibal-raid.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "cannibal-swarm",
+        "path": "/cannibal-swarm",
+        "sourceFile": "src/content/wiki/cannibal-swarm.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "caravan-visit",
+        "path": "/caravan-visit",
+        "sourceFile": "src/content/wiki/caravan-visit.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "challenger-of-the-undefeated",
+        "path": "/challenger-of-the-undefeated",
+        "sourceFile": "src/content/wiki/challenger-of-the-undefeated.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "coast-raid",
+        "path": "/coast-raid",
+        "sourceFile": "src/content/wiki/coast-raid.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "crab-tournament",
+        "path": "/crab-tournament",
+        "sourceFile": "src/content/wiki/crab-tournament.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "crabbed-ones",
+        "path": "/crabbed-ones",
+        "sourceFile": "src/content/wiki/crabbed-ones.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "drug-bust",
+        "path": "/drug-bust",
+        "sourceFile": "src/content/wiki/drug-bust.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "elite-hunter-assault",
+        "path": "/elite-hunter-assault",
+        "sourceFile": "src/content/wiki/elite-hunter-assault.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "enemy-hunt",
+        "path": "/enemy-hunt",
+        "sourceFile": "src/content/wiki/enemy-hunt.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "events",
+        "path": "/events",
+        "sourceFile": "src/content/wiki/events.md",
+        "categories": [
+          "User Interfaces",
+          "Events"
+        ]
+      },
+      {
+        "id": "eyegores-assault",
+        "path": "/eyegores-assault",
+        "sourceFile": "src/content/wiki/eyegores-assault.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "farm-trader",
+        "path": "/farm-trader",
+        "sourceFile": "src/content/wiki/farm-trader.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "flotsam-ninja-reinforcements",
+        "path": "/flotsam-ninja-reinforcements",
+        "sourceFile": "src/content/wiki/flotsam-ninja-reinforcements.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "flotsam-ninjas-route",
+        "path": "/flotsam-ninjas-route",
+        "sourceFile": "src/content/wiki/flotsam-ninjas-route.md",
+        "categories": [
+          "WIP",
+          "Events"
+        ]
+      },
+      {
+        "id": "hive-attack-southern-hive",
+        "path": "/hive-attack-southern-hive",
+        "sourceFile": "src/content/wiki/hive-attack-southern-hive.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "hive-attack-western-hive",
+        "path": "/hive-attack-western-hive",
+        "sourceFile": "src/content/wiki/hive-attack-western-hive.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "hive-eviction",
+        "path": "/hive-eviction",
+        "sourceFile": "src/content/wiki/hive-eviction.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "holy-assault",
+        "path": "/holy-assault",
+        "sourceFile": "src/content/wiki/holy-assault.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "holy-nation-assault-inquisitor",
+        "path": "/holy-nation-assault-inquisitor",
+        "sourceFile": "src/content/wiki/holy-nation-assault-inquisitor.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "holy-nation-assault-major",
+        "path": "/holy-nation-assault-major",
+        "sourceFile": "src/content/wiki/holy-nation-assault-major.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "holy-nation-assault-minor",
+        "path": "/holy-nation-assault-minor",
+        "sourceFile": "src/content/wiki/holy-nation-assault-minor.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "holy-nation-reinforcements",
+        "path": "/holy-nation-reinforcements",
+        "sourceFile": "src/content/wiki/holy-nation-reinforcements.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "hound-check-in",
+        "path": "/hound-check-in",
+        "sourceFile": "src/content/wiki/hound-check-in.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "hound-reinforcements",
+        "path": "/hound-reinforcements",
+        "sourceFile": "src/content/wiki/hound-reinforcements.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "hounds-welcome",
+        "path": "/hounds-welcome",
+        "sourceFile": "src/content/wiki/hounds-welcome.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "invincible-vengeance",
+        "path": "/invincible-vengeance",
+        "sourceFile": "src/content/wiki/invincible-vengeance.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "jonin-assault",
+        "path": "/jonin-assault",
+        "sourceFile": "src/content/wiki/jonin-assault.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "materials-trader",
+        "path": "/materials-trader",
+        "sourceFile": "src/content/wiki/materials-trader.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "mighty-canhead-event",
+        "path": "/mighty-canhead-event",
+        "sourceFile": "src/content/wiki/mighty-canhead-event.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "ninja-raid",
+        "path": "/ninja-raid",
+        "sourceFile": "src/content/wiki/ninja-raid.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "nobles-wrath-assault",
+        "path": "/nobles-wrath-assault",
+        "sourceFile": "src/content/wiki/nobles-wrath-assault.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "nobles-wrath",
+        "path": "/nobles-wrath",
+        "sourceFile": "src/content/wiki/nobles-wrath.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "prayer-day",
+        "path": "/prayer-day",
+        "sourceFile": "src/content/wiki/prayer-day.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "raid",
+        "path": "/raid",
+        "sourceFile": "src/content/wiki/raid.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "rebel-farmers-reinforcements",
+        "path": "/rebel-farmers-reinforcements",
+        "sourceFile": "src/content/wiki/rebel-farmers-reinforcements.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "red-sabre-raid",
+        "path": "/red-sabre-raid",
+        "sourceFile": "src/content/wiki/red-sabre-raid.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "retribution-of-god",
+        "path": "/retribution-of-god",
+        "sourceFile": "src/content/wiki/retribution-of-god.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "return-for-blood",
+        "path": "/return-for-blood",
+        "sourceFile": "src/content/wiki/return-for-blood.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "return-for-tribute",
+        "path": "/return-for-tribute",
+        "sourceFile": "src/content/wiki/return-for-tribute.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "revenge-of-the-hounds",
+        "path": "/revenge-of-the-hounds",
+        "sourceFile": "src/content/wiki/revenge-of-the-hounds.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "scrawny-raid",
+        "path": "/scrawny-raid",
+        "sourceFile": "src/content/wiki/scrawny-raid.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "shek-challenge",
+        "path": "/shek-challenge",
+        "sourceFile": "src/content/wiki/shek-challenge.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "shek-challengers-band-of-bones",
+        "path": "/shek-challengers-band-of-bones",
+        "sourceFile": "src/content/wiki/shek-challengers-band-of-bones.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "shek-challengers-shek-kingdom",
+        "path": "/shek-challengers-shek-kingdom",
+        "sourceFile": "src/content/wiki/shek-challengers-shek-kingdom.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "shek-kingdom-reinforcements",
+        "path": "/shek-kingdom-reinforcements",
+        "sourceFile": "src/content/wiki/shek-kingdom-reinforcements.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "shek-kingdom-route",
+        "path": "/shek-kingdom-route",
+        "sourceFile": "src/content/wiki/shek-kingdom-route.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "shek-proving",
+        "path": "/shek-proving",
+        "sourceFile": "src/content/wiki/shek-proving.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "shek-revenge",
+        "path": "/shek-revenge",
+        "sourceFile": "src/content/wiki/shek-revenge.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "skin-harvest",
+        "path": "/skin-harvest",
+        "sourceFile": "src/content/wiki/skin-harvest.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "slave-capture",
+        "path": "/slave-capture",
+        "sourceFile": "src/content/wiki/slave-capture.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "slave-raid",
+        "path": "/slave-raid",
+        "sourceFile": "src/content/wiki/slave-raid.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "southern-hive-visit",
+        "path": "/southern-hive-visit",
+        "sourceFile": "src/content/wiki/southern-hive-visit.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "stone-golems-revenge",
+        "path": "/stone-golems-revenge",
+        "sourceFile": "src/content/wiki/stone-golems-revenge.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "stone-rat-assault",
+        "path": "/stone-rat-assault",
+        "sourceFile": "src/content/wiki/stone-rat-assault.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "stone-rat-visit",
+        "path": "/stone-rat-visit",
+        "sourceFile": "src/content/wiki/stone-rat-visit.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "tax-collector",
+        "path": "/tax-collector",
+        "sourceFile": "src/content/wiki/tax-collector.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "tax-evasion-enforcement",
+        "path": "/tax-evasion-enforcement",
+        "sourceFile": "src/content/wiki/tax-evasion-enforcement.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "tax-man-visit",
+        "path": "/tax-man-visit",
+        "sourceFile": "src/content/wiki/tax-man-visit.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "the-big-skin-harvest",
+        "path": "/the-big-skin-harvest",
+        "sourceFile": "src/content/wiki/the-big-skin-harvest.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "the-fog",
+        "path": "/the-fog",
+        "sourceFile": "src/content/wiki/the-fog.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "the-holy-nation-route",
+        "path": "/the-holy-nation-route",
+        "sourceFile": "src/content/wiki/the-holy-nation-route.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "thug-attack",
+        "path": "/thug-attack",
+        "sourceFile": "src/content/wiki/thug-attack.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "traders-guild-route",
+        "path": "/traders-guild-route",
+        "sourceFile": "src/content/wiki/traders-guild-route.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "traders-guild-visit",
+        "path": "/traders-guild-visit",
+        "sourceFile": "src/content/wiki/traders-guild-visit.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "tribute-round",
+        "path": "/tribute-round",
+        "sourceFile": "src/content/wiki/tribute-round.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "united-cities-assault",
+        "path": "/united-cities-assault",
+        "sourceFile": "src/content/wiki/united-cities-assault.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "united-cities-reinforcements",
+        "path": "/united-cities-reinforcements",
+        "sourceFile": "src/content/wiki/united-cities-reinforcements.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "united-cities-route",
+        "path": "/united-cities-route",
+        "sourceFile": "src/content/wiki/united-cities-route.md",
+        "categories": [
+          "Events"
+        ]
+      },
+      {
+        "id": "world-state-routes",
+        "path": "/world-state-routes",
+        "sourceFile": "src/content/wiki/world-state-routes.md",
+        "categories": [
+          "Article stubs",
+          "Events"
+        ]
+      },
+      {
+        "id": "wrath-of-god",
+        "path": "/wrath-of-god",
+        "sourceFile": "src/content/wiki/wrath-of-god.md",
+        "categories": [
+          "Events"
+        ]
+      }
+    ],
+    "Reference and unresolved remainder": [
+      {
+        "id": "bar-thug",
+        "path": "/bar-thug",
+        "sourceFile": "src/content/wiki/bar-thug.md",
+        "categories": [
+          "Disambiguations"
+        ]
+      },
+      {
+        "id": "barges",
+        "path": "/barges",
+        "sourceFile": "src/content/wiki/barges.md",
+        "categories": [
+          "World Elements"
+        ]
+      },
+      {
+        "id": "birds",
+        "path": "/birds",
+        "sourceFile": "src/content/wiki/birds.md",
+        "categories": [
+          "World Elements"
+        ]
+      },
+      {
+        "id": "changelog",
+        "path": "/changelog",
+        "sourceFile": "src/content/wiki/changelog.md",
+        "categories": [
+          "Kenshi Wiki"
+        ]
+      },
+      {
+        "id": "credits",
+        "path": "/credits",
+        "sourceFile": "src/content/wiki/credits.md",
+        "categories": [
+          "Kenshi Wiki"
+        ]
+      },
+      {
+        "id": "dedicated-server-providers/rules",
+        "path": "/dedicated-server-providers/rules",
+        "sourceFile": "src/content/wiki/dedicated-server-providers/rules.md",
+        "categories": []
+      },
+      {
+        "id": "emperor-anzai",
+        "path": "/emperor-anzai",
+        "sourceFile": "src/content/wiki/emperor-anzai.md",
+        "categories": [
+          "United Cities"
+        ]
+      },
+      {
+        "id": "kenshi-2",
+        "path": "/kenshi-2",
+        "sourceFile": "src/content/wiki/kenshi-2.md",
+        "categories": [
+          "Kenshi Wiki",
+          "Kenshi 2"
+        ]
+      },
+      {
+        "id": "kenshi-dedicated-server-providers",
+        "path": "/kenshi-dedicated-server-providers",
+        "sourceFile": "src/content/wiki/kenshi-dedicated-server-providers.md",
+        "categories": []
+      },
+      {
+        "id": "kenshi-original-soundtrack",
+        "path": "/kenshi-original-soundtrack",
+        "sourceFile": "src/content/wiki/kenshi-original-soundtrack.md",
+        "categories": [
+          "Kenshi Wiki"
+        ]
+      },
+      {
+        "id": "kenshi-wiki",
+        "path": "/kenshi-wiki",
+        "sourceFile": "src/content/wiki/kenshi-wiki.md",
+        "categories": [
+          "Kenshi Wiki"
+        ]
+      },
+      {
+        "id": "kenshi/lua",
+        "path": "/kenshi/lua",
+        "sourceFile": "src/content/wiki/kenshi/lua.md",
+        "categories": [
+          "Lua-based templates"
+        ]
+      },
+      {
+        "id": "ska",
+        "path": "/ska",
+        "sourceFile": "src/content/wiki/ska.md",
+        "categories": [
+          "Article stubs"
+        ]
+      },
+      {
+        "id": "skeleton-survivor",
+        "path": "/skeleton-survivor",
+        "sourceFile": "src/content/wiki/skeleton-survivor.md",
+        "categories": [
+          "Unique Recruits"
+        ]
+      },
+      {
+        "id": "steam-trading-cards",
+        "path": "/steam-trading-cards",
+        "sourceFile": "src/content/wiki/steam-trading-cards.md",
+        "categories": [
+          "Kenshi Wiki"
+        ]
+      },
+      {
+        "id": "urchin",
+        "path": "/urchin",
+        "sourceFile": "src/content/wiki/urchin.md",
+        "categories": [
+          "World Elements"
+        ]
+      }
+    ]
+  },
+  "deferredPR43": {
+    "pull": 43,
+    "from": "0c9b4348592605169315b6dd613dde1c220d1237",
+    "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+    "contribution": "7c0a6547fdfd7868d976f1189b2889dad68f12ae",
+    "edits": [
+      {
+        "article": "/creating-a-rideable-animal/vehicle",
+        "oldBlob": "a3d0f36a597561bc5912e599255c18ca6c2f4516",
+        "newBlob": "66fb470e402756b223ac6c5fceb81d714f28f688",
+        "removed": [
+          "1)    Blender 4.0 (December 2024) with [Kenshi\\_IO\\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) (the official one is outdated)"
+        ],
+        "added": [
+          "1)    Blender 4.0 (December 2024) with [Kenshi\\_IO\\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) (the official one is outdated). For newer Blender versions, see [Blender plugins](/modding/blender-plugins)."
+        ],
+        "articleId": "creating-a-rideable-animal/vehicle"
+      },
+      {
+        "article": "/making-animations-basics",
+        "oldBlob": "89cf505a5515b3294da6893475c761b4a82042a7",
+        "newBlob": "0e0246cceb05dedfac21b2755ea02d3f411f0713",
+        "removed": [],
+        "added": [
+          "-   Re-exporting the game's existing animations through any current [Blender plugin](/modding/blender-plugins) shifts fast moves by a few degrees, and by 20 to 70 degrees in the worst cases. Make new animations rather than round-tripping vanilla ones you want to keep exact."
+        ],
+        "articleId": "making-animations-basics"
+      },
+      {
+        "article": "/making-custom-ragdoll",
+        "oldBlob": "ef1329f789464c1f01a74094d6b57109b7dce15b",
+        "newBlob": "ec70888d059fa952b0dd93c5c696cede715030a8",
+        "removed": [
+          "1.  Export your skeleton using [Kenshi\\_IO\\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) for Blender (replaces Kenshi import/export plugin). You need Blender 4.0.  "
+        ],
+        "added": [
+          "1.  Export your skeleton using [Kenshi\\_IO\\_Continued plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) for Blender (replaces Kenshi import/export plugin). You need Blender 4.0. For newer Blender versions, see [Blender plugins](/modding/blender-plugins).  "
+        ],
+        "articleId": "making-custom-ragdoll"
+      },
+      {
+        "article": "/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading",
+        "oldBlob": "7b4a394cfa323e078585014ef5d4ad2087c7bcdc",
+        "newBlob": "5f8a65ccf8f05d34650cea985d6fa882c89077da",
+        "removed": [
+          "WIP This tutorial is a sub page for the skin making page. DO NOTE: if you used the wrong Blender & plugin combination, it can also result a mesh not shading properly. Blender 4.0 and [Kindrad's plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) is recommended."
+        ],
+        "added": [
+          "WIP This tutorial is a sub page for the skin making page. DO NOTE: if you used the wrong Blender & plugin combination, it can also result a mesh not shading properly. Blender 4.0 and [Kindrad's plugin](https://codeberg.org/Kindrad/Kenshi_IO_Continued) is recommended. For newer Blender versions, see [Blender plugins](/modding/blender-plugins)."
+        ],
+        "articleId": "why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading"
+      }
+    ]
+  }
+}

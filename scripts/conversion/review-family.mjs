@@ -5,7 +5,7 @@ import {snapshot} from '../../src/lib/catalog.mjs';
 import {selectedIds} from '../conversion/batches.mjs';
 import {mergeRegister,discover} from '../gaps/core.mjs';
 const get=p=>JSON.parse(readFileSync(p)),save=(p,x)=>writeFileSync(p,JSON.stringify(x,null,2)+'\n');
-const family=process.argv[2];assert.ok(['crafting','technology','shops'].includes(family));
+const family=process.argv[2];assert.ok(['crafting','technology','shops','gameplay'].includes(family));
 const roster=get('conversion/'+family+'/roster.json'),review=get('conversion/'+family+'/review.json'),ledger=get('conversion/reviews.json'),baseline=get('conversion/gaps/source.json'),register=get('conversion/gaps/register.json');
 const ids=[...roster.batches.flatMap(b=>b.ids),...(roster.reviewExisting??[])],records=new Map(snapshot.articles.map(a=>[a.id,a])),sources=new Map(baseline.pages.map(p=>[p.id,p]));
 assert.equal(review.revision,snapshot.revision);
@@ -33,7 +33,7 @@ register.findings=mergeRegister(register.findings,detected,baseline);save('conve
 assert.equal(new Set(review.articles.map(n=>n.id)).size,review.articles.length);
 const available=new Set([...selectedIds(family),...roster.existing]);
 for(const note of review.articles){assert.ok(ids.includes(note.id));assert.ok(note.existence&&note.content&&note.organization);note.questions=register.findings.filter(r=>r.kind==='claim'&&r.occurrences?.some(o=>o.pageId===note.id)).map(r=>r.id);
- if(available.has(note.id))ledger.articles[note.id]={...ledger.articles[note.id],formatCheck:roster.existing.includes(note.id)?'scripts/geography/verify.mjs':'scripts/conversion/verify.mjs',editorialReview:'conversion/'+family+'/review.json'};
+ if(available.has(note.id))ledger.articles[note.id]={...ledger.articles[note.id],formatCheck:roster.existing.includes(note.id)?(ledger.articles[note.id]?.formatCheck??'scripts/conversion/verify.mjs'):'scripts/conversion/verify.mjs',editorialReview:'conversion/'+family+'/review.json'};
 }
 if(process.argv.includes('--complete'))assert.deepEqual(new Set(review.articles.map(n=>n.id)),new Set(ids),'Every family and support article needs an individual review');
 save('conversion/'+family+'/review.json',review);save('conversion/reviews.json',ledger);console.log(review.articles.length+' individual reviews recorded; claim qualifications preserved.');

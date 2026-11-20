@@ -1,6 +1,11 @@
 export const repo = 'https://github.com/mattresspad/kenshi-wiki';
 
-export const moddingPortalFiles = {editableFile: 'src/data/modding.json', sourceFile: 'src/data/portals/modding.yaml'};
+export const portalFiles = {
+  '/modding': {editableFile:'src/data/modding.json',sourceFile:'src/data/portals/modding.yaml'},
+  '/gameplay': {editableFile:'src/data/gameplay.json',sourceFile:'src/data/portals/gameplay.yaml'},
+  '/guides': {editableFile:'src/data/guides.json',sourceFile:'src/data/portals/guides.yaml'}
+};
+export const moddingPortalFiles = portalFiles['/modding'];
 
 function gitPath(path) {
   return path.split('/').map(encodeURIComponent).join('/');

@@ -151,9 +151,9 @@
   border: 0; padding: 2px; font: inherit; color: inherit; background: transparent; cursor: pointer; text-align: inherit;
 }
 .equipment-comparison button:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px }
-.sort-mark::after { content: 'â†•'; color: var(--quiet); margin-inline-start: 2px; font-size: .82em }
-[aria-sort=ascending] .sort-mark::after { content: 'â†‘'; color: var(--link) }
-[aria-sort=descending] .sort-mark::after { content: 'â†“'; color: var(--link) }
+.sort-mark::after { content: 'Ã¢â€ â€¢'; color: var(--quiet); margin-inline-start: 2px; font-size: .82em }
+[aria-sort=ascending] .sort-mark::after { content: 'Ã¢â€ â€˜'; color: var(--link) }
+[aria-sort=descending] .sort-mark::after { content: 'Ã¢â€ â€œ'; color: var(--link) }
 @media (max-width: 760px) {
   .table-scroll { container-type: inline-size }
   .article-sheet table.equipment-comparison {
@@ -324,3 +324,12 @@
 
 .shop .table-scroll{scroll-margin-top:calc(2 * var(--bar) + 12px)}
 @media print{.shop .table-scroll .shop-stock{min-width:0;font-size:9pt}}
+
+/* Recognized imported skill summaries: retain source wording in labeled fields. */
+.skill-summary{border:1px solid var(--edge);background:var(--cell);margin:1rem 0;max-width:70rem;display:grid;grid-template-columns:minmax(14rem,1fr) minmax(0,2fr)}
+.skill-summary dl{margin:0;padding:.8rem;border-right:1px solid var(--edge)}
+.skill-summary dt{font-weight:700}.skill-summary dd{margin:0 0 .8rem}.skill-description{padding:.8rem}.skill-group{grid-column:1/-1;border-top:1px solid var(--edge);padding:.5rem .8rem}
+.skill-summary p:first-child{margin-top:0}.skill-summary p:last-child{margin-bottom:0}
+.gameplay-wide{min-width:48rem}.gameplay-comparison th[scope=row]{text-align:left;font-weight:500}.gameplay-comparison thead th{vertical-align:bottom}
+.imported-formula{overflow-wrap:anywhere;word-break:normal;min-width:0;max-width:100%}.imported-formula *{overflow-wrap:anywhere;white-space:normal}
+@media(max-width:700px){.skill-summary{display:block}.skill-summary dl{border-right:0;border-bottom:1px solid var(--edge)}}

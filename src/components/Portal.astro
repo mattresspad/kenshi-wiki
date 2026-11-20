@@ -1,0 +1,37 @@
+---
+import Frame from '../layouts/Frame.astro';
+const {portal, publicPath} = Astro.props;
+import { categoryPath, snapshot } from '../lib/catalog.mjs';
+import { portalFiles, recordedSource } from '../lib/page-source.mjs';
+import { readWiki } from '../lib/wiki';
+const { byId, href } = await readWiki();
+const files = portalFiles[publicPath];
+const source = recordedSource(files.sourceFile, snapshot.revision);
+const sections = portal.sections.map(section => ({
+  ...section,
+  id: section.title.toLowerCase().replaceAll(' ', '-'),
+  entries: section.articles.map(entry => {
+    const article = byId.get(entry.id);
+    if (!article) throw Error('Missing portal article ' + entry.id);
+    return { ...entry, title: article.title, href: href(article.path) };
+  })
+}));
+const outline = sections.map(({id, title}) => ({id, label: title, children: []}));
+---
+<Frame kind="portal" title={portal.title} description={portal.intro} {publicPath} {outline} {href} editableFile={files.editableFile} history={source.history}>
+  <div id="content"><article id="bodyContent" class="article-sheet portal">
+    <header class="article-head"><h1 id="firstHeading" tabindex="-1">{portal.title}</h1></header>
+    <div id="mw-content-text"><p>{portal.intro}</p>
+    <nav aria-label={portal.title+" index"}>
+      {portal.indexes.map(index => <a href={href(categoryPath(index.category))}>{index.label}</a>)}
+    </nav>
+    {sections.map(section => <section aria-labelledby={section.id}>
+      <h2 id={section.id} tabindex="-1">{section.title}</h2>
+      <ul>{section.entries.map(entry => <li>
+        <a href={entry.href}>{entry.title}</a><p>{entry.description}{'credit' in entry && <> <a href={entry.credit.evidence}>{entry.credit.label}</a></>}</p>
+      </li>)}</ul>
+    </section>)}
+    </div>
+    <div class="source-links"><a href={source.markdown}>Recorded portal data</a></div>
+  </article></div>
+</Frame>
