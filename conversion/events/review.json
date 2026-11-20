@@ -117,12 +117,72 @@
         "claim:events-payments-dialogue",
         "claim:events-world-state-gates"
       ]
+    },
+    {
+      "id": "caravan-visit",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: What are you after, drifter? I've got food, meds, all the supplies you need. Caravan Visit is an Event that can trigger if the player has an outpost within 11,000 meters of Trader’s Edge. It cannot trigger if the player is an enemy of the Traders Guild. When the conditions have been fulfilled, the event has a 20% chance to trigger each day if the player’s base is within 6,000 meters of Trader’s Edge, this chance scales down with distance until it hits 0% chance at 11,000 meters. Once triggered, the Trader’s Guild will send a caravan to the player’s base, consisting of 7-11 Caravan Guards and 1-3 Pack Beasts, led by a Caravan Trader Boss. When the caravan arrives, the leader will shout out asking the player to come trade. If the player does so, they will be met with a selection from the items below. Note however, the caravan lacks any money to buy items from the player, unless the player has already purchased something from them. Possible Stock",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/caravan-visit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2a6fac19c61f7efd01f29321bedd542cf5dfcfb8329977c59353019168179ab8"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-stock-values",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "farm-trader",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: We have special goods for you, no-hives! Don't be shy, come look! Finest in the land! We can't be beated on quality, you won't find better... How about rations? We have.. er.. special ones, handmade... *heave* *retch* 'Specially for no-hives like you!Hive Caravan Boss Farm Trader is an Event that can trigger if the Player has a Base within 11,000 meters of a Western Hive owned location. It cannot trigger if the player is an enemy of the Western Hive, or if The Queen has been killed or captured. Not to be confused with the Materials Trader, the other caravan from the Western Hive. When the conditions have been fulfilled, the event has a 10% chance each day to trigger if the player’s base is within 6,000 meters, this chance scales down with distance until it reaches 0% chance at 11,000 meters. Once triggered, the Western Hive will send a caravan to the player’s base, consisting of 8-10 Caravan Drones and 2-3 Pack Beasts, led by a Hive Caravan Boss. When the caravan arrives, the leader will shout out asking the player to come trade. If the player does so, they will be met with a selection from the items below. Possible Stock",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/farm-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "27fa43cc75df42823e4227baa8f50a2db7ded991c1de14cc7ea23840796e7597"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-stock-values",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "materials-trader",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: We invite you to come browse! Best in the world! We promise you, you won't find better quality anywhere else... Definitely not from the traders guild. Junk! You deserve better, no-hives! And only the hive can provide your needs... Queen's seal of approval!Hive Caravan Boss Materials Trader is an Event that can trigger if the Player has a Base within 11,000 meters of a Western Hive owned location. It cannot trigger if the player is an enemy of the Western Hive, or if The Queen has been killed or captured. Not to be confused with the Farm trader event, the other caravan from the Western Hive. When the conditions have been fulfilled, the event has a 10% chance each day to trigger if the player’s base is within 6,000 meters, this chance scales down with distance until it reaches 0% chance at 11,000 meters. Once triggered, the Western Hive will send a caravan to the player’s base, consisting of 8-10 Caravan Drones and 2-3 Pack Beasts, led by a Hive Caravan Boss. When the caravan arrives, the leader will shout out asking the player to come trade. If the player does so, they will be met with a selection from the items below. Possible Stock",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/materials-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5eca781b32caaf566545596441647222333bcf2e8d7d53275f904f40b659d082"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-stock-values",
+        "claim:events-world-state-gates"
+      ]
     }
   ],
   "editorialChanges": [
     {
       "id": "event-bold-facts",
-      "change": "Preserve explicitly bold event names, linked names and separate follow-up lines; no trigger reinterpretation.",
+      "change": "Preserve explicitly bold event names, linked names and separate follow-up lines; show facts after the introduction on phones and beside desktop prose. No trigger reinterpretation.",
       "evidence": "src/components/FactParts.astro"
     },
     {

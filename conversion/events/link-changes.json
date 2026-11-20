@@ -37,5 +37,14 @@
     "introduced": [
       "/update/0.60"
     ]
+  },
+  {
+    "name": "event-trade-stock",
+    "resolved": [
+      "/caravan-visit",
+      "/farm-trader",
+      "/materials-trader"
+    ],
+    "introduced": []
   }
 ]

@@ -106436,6 +106436,110 @@
           "line": 69,
           "sourceFile": "src/content/wiki/wrath-of-god.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [Tribute Round](/tribute-round) - Tax event, living near the faction's territory, with a level 1+ base and 5+ characters.",
+          "literal": "-   [Tribute Round](/tribute-round) - Tax event, living near the faction's territory, with a level 1+ base and 5+ characters.",
+          "line": 109,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [Traders Guild Visit](/traders-guild-visit) - [Traders Guild](/traders-guild), living near the faction's territory, with 3+ characters.",
+          "literal": "-   [Traders Guild Visit](/traders-guild-visit) - [Traders Guild](/traders-guild), living near the faction's territory, with 3+ characters.",
+          "line": 121,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [Blooded Raid](/blooded-raid) - [Reavers](/reavers), living near the faction's territory, with 4+ characters.",
+          "literal": "-   [Blooded Raid](/blooded-raid) - [Reavers](/reavers), living near the faction's territory, with 4+ characters.",
+          "line": 135,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [Cannibal Raid](/cannibal-raid) - [Cannibals](/cannibals), living near the faction's territory, with 5+ characters.",
+          "literal": "-   [Cannibal Raid](/cannibal-raid) - [Cannibals](/cannibals), living near the faction's territory, with 5+ characters.",
+          "line": 136,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [Mighty Canhead](/mighty-canhead-event) - [Cannibals](/cannibals), living near the faction's territory, with 6+ characters.",
+          "literal": "-   [Mighty Canhead](/mighty-canhead-event) - [Cannibals](/cannibals), living near the faction's territory, with 6+ characters.",
+          "line": 140,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [Red Sabre Raid](/red-sabre-raid) - [Red Sabres](/red-sabres), living near the faction's territory, with 3+ characters.",
+          "literal": "-   [Red Sabre Raid](/red-sabre-raid) - [Red Sabres](/red-sabres), living near the faction's territory, with 3+ characters.",
+          "line": 143,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [Scrawny Raid](/scrawny-raid) - [Cannibals](/cannibals), living near the faction's territory, with 5+ characters.",
+          "literal": "-   [Scrawny Raid](/scrawny-raid) - [Cannibals](/cannibals), living near the faction's territory, with 5+ characters.",
+          "line": 144,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [Slave Raid](/slave-raid) - [Slave Traders](/slave-traders), living near the faction's territory, with 5+ characters.",
+          "literal": "-   [Slave Raid](/slave-raid) - [Slave Traders](/slave-traders), living near the faction's territory, with 5+ characters.",
+          "line": 147,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [The Fog](/the-fog) - [Fogmen](/fogmen), living near the faction's territory, with 5+ characters.",
+          "literal": "-   [The Fog](/the-fog) - [Fogmen](/fogmen), living near the faction's territory, with 5+ characters.",
+          "line": 150,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "Base Attacks are not technically part of the events system, but have similar interactions with player bases. They are wandering squads that spawn in the wilderness, and actively seek out and assault player owned bases if they are nearby. Sometimes these can also be affected by [world states](/world-states), generally the killing or capturing of said faction's leader or leaders will stop these types of squads from spawning, though rarely it is the status of other faction's characters.",
+          "literal": "Base Attacks are not technically part of the events system, but have similar interactions with player bases. They are wandering squads that spawn in the wilderness, and actively seek out and assault player owned bases if they are nearby. Sometimes these can also be affected by [world states](/world-states), generally the killing or capturing of said faction's leader or leaders will stop these types of squads from spawning, though rarely it is the status of other faction's characters.",
+          "line": 182,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   one of your characters is within 2,500 units of the base;",
+          "literal": "-   one of your characters is within 2,500 units of the base;",
+          "line": 187,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   the squad isn't allied with you;",
+          "literal": "-   the squad isn't allied with you;",
+          "line": 188,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "The following factions have squads with this behavior:",
+          "literal": "The following factions have squads with this behavior:",
+          "line": 197,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
     },
@@ -106669,6 +106773,46 @@
           "label": "Caravan events ignore the raid frequency option.",
           "literal": "Caravan events ignore the raid frequency option.",
           "line": 125,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   the base has a gate. Bases without a gate never get base attacks;",
+          "literal": "-   the base has a gate. Bases without a gate never get base attacks;",
+          "line": 186,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   one of your characters is within 2,500 units of the base;",
+          "literal": "-   one of your characters is within 2,500 units of the base;",
+          "line": 187,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "The **Town attacks frequency** option sets the cooldown: how long each faction waits after its last base attack ends before it can attack again.",
+          "literal": "The **Town attacks frequency** option sets the cooldown: how long each faction waits after its last base attack ends before it can attack again.",
+          "line": 191,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "<table class=\"wikitable\"><tbody><tr><th>Setting</th><th>Cooldown</th></tr><tr><td>Bombardment</td><td>None</td></tr><tr><td>High</td><td>6-48 hours</td></tr><tr><td>Normal</td><td>32-96 hours</td></tr><tr><td>Fewer</td><td>72-144 hours</td></tr><tr><td>Rare</td><td>130-188 hours</td></tr><tr><td>Never</td><td>No base attacks</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable\"><tbody><tr><th>Setting</th><th>Cooldown</th></tr><tr><td>Bombardment</td><td>None</td></tr><tr><td>High</td><td>6-48 hours</td></tr><tr><td>Normal</td><td>32-96 hours</td></tr><tr><td>Fewer</td><td>72-144 hours</td></tr><tr><td>Rare</td><td>130-188 hours</td></tr><tr><td>Never</td><td>No base attacks</td></tr></tbody></table>",
+          "line": 193,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "The raid frequency and size options don't affect base attacks.",
+          "literal": "The raid frequency and size options don't affect base attacks.",
+          "line": 195,
           "sourceFile": "src/content/wiki/events.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
@@ -107761,6 +107905,14 @@
           "literal": "-   It is unfeasible to to ally with Shek Kingdom through tributes, since relations tend to decrease whenever a member of a faction is harmed, downed, or killed.",
           "line": 54,
           "sourceFile": "src/content/wiki/tribute-round.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [Thug Attack](/thug-attack) - [United Heroes League](/united-heroes-league), refusing to pay membership fees in [Traders Guild Visit](/traders-guild-visit) event, or defeating the [Thug Attack](/thug-attack) event.",
+          "literal": "-   [Thug Attack](/thug-attack) - [United Heroes League](/united-heroes-league), refusing to pay membership fees in [Traders Guild Visit](/traders-guild-visit) event, or defeating the [Thug Attack](/thug-attack) event.",
+          "line": 166,
+          "sourceFile": "src/content/wiki/events.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
@@ -112438,6 +112590,54 @@
           "line": 32,
           "sourceFile": "src/content/wiki/united-cities-route.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "the-holy-nation-route",
+          "label": "<figure class=\"quote\"><blockquote><p>The holy plains are a safer place with Narko's spawn, Moll, out of the way... But the devil woman, Esata, she terrorizes us with her barbarian warmongerers. She bides her time, waiting to butcher us all in her centuries-old feud.</p></blockquote><figcaption>Holy Lord Phoenix</figcaption></figure>",
+          "literal": "<figure class=\"quote\"><blockquote><p>The holy plains are a safer place with Narko's spawn, Moll, out of the way... But the devil woman, Esata, she terrorizes us with her barbarian warmongerers. She bides her time, waiting to butcher us all in her centuries-old feud.</p></blockquote><figcaption>Holy Lord Phoenix</figcaption></figure>",
+          "line": 53,
+          "sourceFile": "src/content/wiki/the-holy-nation-route.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "the-holy-nation-route",
+          "label": "(**Editor's Notes:** Okay, this is where [FCS](/forgotten-construction-set) becomes really messy and hard to read, and might actually be seriously broken. It appears that there are at least 3 conditions that are fulfilled when Esata is killed/imprisoned. One of which causes Phoenix to switch his attention to taking down Moll (_even_ if Moll is already dead, the dialogue check seemingly forgot to check for the condition of Moll too), potentially making the dialogue with Phoenix hitting an infinite loop of switching between targeting Esata and Moll.",
+          "literal": "(**Editor's Notes:** Okay, this is where [FCS](/forgotten-construction-set) becomes really messy and hard to read, and might actually be seriously broken. It appears that there are at least 3 conditions that are fulfilled when Esata is killed/imprisoned. One of which causes Phoenix to switch his attention to taking down Moll (_even_ if Moll is already dead, the dialogue check seemingly forgot to check for the condition of Moll too), potentially making the dialogue with Phoenix hitting an infinite loop of switching between targeting Esata and Moll.",
+          "line": 67,
+          "sourceFile": "src/content/wiki/the-holy-nation-route.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "the-holy-nation-route",
+          "label": "The other 2 are conditions that also check for whether or not [Flying Bull](/flying-bull) and [Mukai](/mukai-the-mountain) are alive after Esata is dead, the dialogue mainly revolving around taking them down them too once Esata is dead. The oddity with those 2 conditions is that it could trigger if either one of them are dead, but not if they are both alive)",
+          "literal": "The other 2 are conditions that also check for whether or not [Flying Bull](/flying-bull) and [Mukai](/mukai-the-mountain) are alive after Esata is dead, the dialogue mainly revolving around taking them down them too once Esata is dead. The oddity with those 2 conditions is that it could trigger if either one of them are dead, but not if they are both alive)",
+          "line": 69,
+          "sourceFile": "src/content/wiki/the-holy-nation-route.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "the-holy-nation-route",
+          "label": "Once Esata is taken down, [Mukai](/mukai-the-mountain) will usurp the control of Shek Kingdom from Esata and govern [Squin](/squin/mukai), [Kamikaze](/kamikaze) patrols will spawn in [Stenn Desert](/stenn-desert), and will likely be a hindrance to the holy army patrols there. If Flying Bull is killed, Phoenix will ask of you to kill Mukai.",
+          "literal": "Once Esata is taken down, [Mukai](/mukai-the-mountain) will usurp the control of Shek Kingdom from Esata and govern [Squin](/squin/mukai), [Kamikaze](/kamikaze) patrols will spawn in [Stenn Desert](/stenn-desert), and will likely be a hindrance to the holy army patrols there. If Flying Bull is killed, Phoenix will ask of you to kill Mukai.",
+          "line": 71,
+          "sourceFile": "src/content/wiki/the-holy-nation-route.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "the-holy-nation-route",
+          "label": "Once FB is taken down too, there is (luckily) no more leaders of the Shek that need to be targeted. [Squin](/squin) will fall to the [Berserkers](/berserkers), similar to how [Admag](/admag) fell to [them too](/admag/berserkers) when [Esata](/esata-the-stone-golem) was out. All the Shek forces are now scattered and disorganized, posing no significant threat to the HN anymore.",
+          "literal": "Once FB is taken down too, there is (luckily) no more leaders of the Shek that need to be targeted. [Squin](/squin) will fall to the [Berserkers](/berserkers), similar to how [Admag](/admag) fell to [them too](/admag/berserkers) when [Esata](/esata-the-stone-golem) was out. All the Shek forces are now scattered and disorganized, posing no significant threat to the HN anymore.",
+          "line": 79,
+          "sourceFile": "src/content/wiki/the-holy-nation-route.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "the-holy-nation-route",
+          "label": "## Secondary Targets",
+          "literal": "## Secondary Targets",
+          "line": 91,
+          "sourceFile": "src/content/wiki/the-holy-nation-route.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
     },
@@ -113071,6 +113271,38 @@
           "label": "A special round of the tournament, which only triggers if the player is defeated in one of the rounds of the tournament. It consists of 8-10 [Crab Raiders](/crab-raider) and 10 [Crabs](/crab). If the raiders are defeated, the **Crab Quarter Finals** event will be triggered again in 72-100 hours. If the raiders are victorious, the **Crab Remedial Round** event will be triggered again in 72-100 hours.",
           "literal": "A special round of the tournament, which only triggers if the player is defeated in one of the rounds of the tournament. It consists of 8-10 [Crab Raiders](/crab-raider) and 10 [Crabs](/crab). If the raiders are defeated, the **Crab Quarter Finals** event will be triggered again in 72-100 hours. If the raiders are victorious, the **Crab Remedial Round** event will be triggered again in 72-100 hours.",
           "line": 49,
+          "sourceFile": "src/content/wiki/crab-tournament.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crab-tournament",
+          "label": "The final event in the tournament, which consists of 8-10 [Crab Raiders](/crab-raider) and 10 [Crabs](/crab) but is non-hostile. Once it arrives, they will give a short speech announcing the player's \"Mystery Crab\" as the grand champion of the tournament, instantly allying the player to the [Crab Raiders](/crab-raiders) faction. Shortly afterwards the raiders will take their leave and return home.",
+          "literal": "The final event in the tournament, which consists of 8-10 [Crab Raiders](/crab-raider) and 10 [Crabs](/crab) but is non-hostile. Once it arrives, they will give a short speech announcing the player's \"Mystery Crab\" as the grand champion of the tournament, instantly allying the player to the [Crab Raiders](/crab-raiders) faction. Shortly afterwards the raiders will take their leave and return home.",
+          "line": 53,
+          "sourceFile": "src/content/wiki/crab-tournament.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crab-tournament",
+          "label": "## Tips and bugs",
+          "literal": "## Tips and bugs",
+          "line": 55,
+          "sourceFile": "src/content/wiki/crab-tournament.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crab-tournament",
+          "label": "-   The terrain in Crab Raider territory is rocky and uneven. This causes the bigger crabs to get stuck easily. It may be necessary to leave the base to intercept the stuck crabs in order to complete a tournament round successfully.",
+          "literal": "-   The terrain in Crab Raider territory is rocky and uneven. This causes the bigger crabs to get stuck easily. It may be necessary to leave the base to intercept the stuck crabs in order to complete a tournament round successfully.",
+          "line": 58,
+          "sourceFile": "src/content/wiki/crab-tournament.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "crab-tournament",
+          "label": "-   It is possible for the Crab Tournament to trigger on NPC factions, if they happen to have a squad in the player's town and a Crab Raider patrol spots them. As the dialog only checks if they are in a player owned town, not if the character they see is a player.",
+          "literal": "-   It is possible for the Crab Tournament to trigger on NPC factions, if they happen to have a squad in the player's town and a Crab Raider patrol spots them. As the dialog only checks if they are in a player owned town, not if the character they see is a player.",
+          "line": 60,
           "sourceFile": "src/content/wiki/crab-tournament.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
@@ -115241,6 +115473,86 @@
           "label": "        -   \"HN Assault (killed phoenix) valtena alive\"",
           "literal": "        -   \"HN Assault (killed phoenix) valtena alive\"",
           "line": 57,
+          "sourceFile": "src/content/wiki/wrath-of-god.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "Base Attacks are not technically part of the events system, but have similar interactions with player bases. They are wandering squads that spawn in the wilderness, and actively seek out and assault player owned bases if they are nearby. Sometimes these can also be affected by [world states](/world-states), generally the killing or capturing of said faction's leader or leaders will stop these types of squads from spawning, though rarely it is the status of other faction's characters.",
+          "literal": "Base Attacks are not technically part of the events system, but have similar interactions with player bases. They are wandering squads that spawn in the wilderness, and actively seek out and assault player owned bases if they are nearby. Sometimes these can also be affected by [world states](/world-states), generally the killing or capturing of said faction's leader or leaders will stop these types of squads from spawning, though rarely it is the status of other faction's characters.",
+          "line": 182,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   the squad isn't allied with you;",
+          "literal": "-   the squad isn't allied with you;",
+          "line": 188,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "events",
+          "label": "-   [Western Hive](/western-hive) (Only after death or capture of [The Queen](/the-queen))",
+          "literal": "-   [Western Hive](/western-hive) (Only after death or capture of [The Queen](/the-queen))",
+          "line": 216,
+          "sourceFile": "src/content/wiki/events.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wrath-of-god",
+          "label": "        -   \"HN Assault (ultimate) (trigger1) seta alive\"",
+          "literal": "        -   \"HN Assault (ultimate) (trigger1) seta alive\"",
+          "line": 60,
+          "sourceFile": "src/content/wiki/wrath-of-god.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wrath-of-god",
+          "label": "        -   \"HN Assault (ultimate) (trigger1) valtena alive\"",
+          "literal": "        -   \"HN Assault (ultimate) (trigger1) valtena alive\"",
+          "line": 61,
+          "sourceFile": "src/content/wiki/wrath-of-god.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wrath-of-god",
+          "label": "        -   \"HN Assault (ultimate) (trigger1) inquistors dead\"",
+          "literal": "        -   \"HN Assault (ultimate) (trigger1) inquistors dead\"",
+          "line": 62,
+          "sourceFile": "src/content/wiki/wrath-of-god.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wrath-of-god",
+          "label": "        -   \"HN Assault (ultimate) (trigger2) seta alive\"",
+          "literal": "        -   \"HN Assault (ultimate) (trigger2) seta alive\"",
+          "line": 65,
+          "sourceFile": "src/content/wiki/wrath-of-god.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wrath-of-god",
+          "label": "        -   \"HN Assault (ultimate) (trigger2) valtena alive\"",
+          "literal": "        -   \"HN Assault (ultimate) (trigger2) valtena alive\"",
+          "line": 66,
+          "sourceFile": "src/content/wiki/wrath-of-god.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wrath-of-god",
+          "label": "        -   \"HN Assault (ultimate) (trigger2) inquisitors dead\"",
+          "literal": "        -   \"HN Assault (ultimate) (trigger2) inquisitors dead\"",
+          "line": 67,
+          "sourceFile": "src/content/wiki/wrath-of-god.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wrath-of-god",
+          "label": "-   This is the only assault that encompasses the entire map that can be launched repetitively without the need for any [leader(s)](/world-states) to be alive, making [The Holy Nation](/the-holy-nation) the only faction that can unceasingly assault the [Player Base](/guide-to-building-an-outpost) with 100% chance to launch anywhere every day.",
+          "literal": "-   This is the only assault that encompasses the entire map that can be launched repetitively without the need for any [leader(s)](/world-states) to be alive, making [The Holy Nation](/the-holy-nation) the only faction that can unceasingly assault the [Player Base](/guide-to-building-an-outpost) with 100% chance to launch anywhere every day.",
+          "line": 70,
           "sourceFile": "src/content/wiki/wrath-of-god.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }

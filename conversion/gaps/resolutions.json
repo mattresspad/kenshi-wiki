@@ -2950,6 +2950,17 @@
       }
     },
     {
+      "id": "availability:/caravan-visit",
+      "kind": "availability",
+      "target": "/caravan-visit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-trade-stock",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/caravan-visit"
+      }
+    },
+    {
       "id": "availability:/cargopants",
       "kind": "availability",
       "target": "/cargopants",
@@ -6258,6 +6269,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/farm-shop"
+      }
+    },
+    {
+      "id": "availability:/farm-trader",
+      "kind": "availability",
+      "target": "/farm-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-trade-stock",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/farm-trader"
       }
     },
     {
@@ -11461,6 +11483,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/masked-helmet"
+      }
+    },
+    {
+      "id": "availability:/materials-trader",
+      "kind": "availability",
+      "target": "/materials-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-trade-stock",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/materials-trader"
       }
     },
     {
