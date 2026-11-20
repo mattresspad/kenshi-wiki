@@ -1,0 +1,163 @@
+[
+  {
+    "name": "gameplay-pilots",
+    "opened": [
+      "claim:gameplay-ui-missing-media",
+      "claim:gameplay-relation-thresholds",
+      "claim:gameplay-hunger-conflict",
+      "claim:gameplay-jobs-version",
+      "claim:gameplay-shopping-budgets",
+      "claim:gameplay-damage-healing",
+      "claim:gameplay-movement-units",
+      "claim:gameplay-racial-modifiers",
+      "claim:gameplay-save-import",
+      "claim:gameplay-training-formulas",
+      "claim:gameplay-farming-calculation"
+    ],
+    "resolved": [
+      "availability:/category/combat",
+      "availability:/category/guides",
+      "availability:/category/statistics",
+      "availability:/controls",
+      "availability:/gameplay",
+      "availability:/jobs",
+      "availability:/statistics",
+      "availability:/strength"
+    ],
+    "reopened": [],
+    "open": 1066
+  },
+  {
+    "name": "technical-structures",
+    "opened": [
+      "claim:gameplay-bounty-truncated",
+      "claim:gameplay-dexterity-example",
+      "claim:gameplay-incomplete-recoil",
+      "claim:gameplay-shopping-inactive-fields",
+      "claim:gameplay-wheatstraw-water-example"
+    ],
+    "resolved": [
+      "availability:/damage",
+      "availability:/damage/limb-data",
+      "availability:/science"
+    ],
+    "reopened": [],
+    "open": 1068
+  },
+  {
+    "name": "player-walkthroughs",
+    "opened": [
+      "claim:gameplay-customization-legacy",
+      "claim:gameplay-encumbrance-speed-conflict",
+      "claim:gameplay-martial-strength-conflict",
+      "claim:gameplay-environment-media",
+      "claim:gameplay-guide-scope",
+      "claim:gameplay-main-menu-redundancy",
+      "claim:gameplay-duststorm-perception",
+      "claim:gameplay-personality-odds",
+      "claim:gameplay-prospecting-placeholder",
+      "claim:gameplay-season-calendar",
+      "claim:gameplay-recruitability-conflict",
+      "claim:gameplay-town-override-property"
+    ],
+    "resolved": [
+      "availability:/getting-started",
+      "availability:/guide-to-health",
+      "availability:/guide-to-training-statistics",
+      "availability:/guides"
+    ],
+    "reopened": [],
+    "open": 1076
+  },
+  {
+    "name": "complex-comparisons",
+    "opened": [],
+    "resolved": [
+      "availability:/game-starts",
+      "availability:/npc-shopping-behavior",
+      "availability:/wheatstraw-60-or-cactus-100"
+    ],
+    "reopened": [],
+    "open": 1073
+  },
+  {
+    "name": "skill-siblings",
+    "opened": [],
+    "resolved": [
+      "availability:/armour-smith",
+      "availability:/assassination",
+      "availability:/athletics",
+      "availability:/cooking",
+      "availability:/crossbow-smith",
+      "availability:/dexterity",
+      "availability:/dodge",
+      "availability:/engineer",
+      "availability:/farming",
+      "availability:/field-medic",
+      "availability:/labouring",
+      "availability:/lockpicking",
+      "availability:/martial-arts",
+      "availability:/melee-attack",
+      "availability:/melee-defense",
+      "availability:/perception",
+      "availability:/precision-shooting",
+      "availability:/robotics",
+      "availability:/stealth",
+      "availability:/stronger-opponent-logic",
+      "availability:/swimming",
+      "availability:/thievery",
+      "availability:/toughness",
+      "availability:/weapon-smith"
+    ],
+    "reopened": [],
+    "open": 1049
+  },
+  {
+    "name": "mechanics-and-guides-1",
+    "opened": [],
+    "resolved": [
+      "availability:/acid-ground",
+      "availability:/artifacts",
+      "availability:/bounty",
+      "availability:/character-customization",
+      "availability:/combat-speed",
+      "availability:/combat-strategies",
+      "availability:/diplomatic-status",
+      "availability:/disguise",
+      "availability:/encumbrance",
+      "availability:/environment",
+      "availability:/faction-uniform",
+      "availability:/free-camera-mode",
+      "availability:/glitchmakers-general-guide",
+      "availability:/guide-to-building-an-outpost",
+      "availability:/guide-to-equipment",
+      "availability:/guide-to-ui-and-controls"
+    ],
+    "reopened": [],
+    "open": 1033
+  },
+  {
+    "name": "mechanics-and-guides-2",
+    "opened": [],
+    "resolved": [
+      "availability:/industry-buildings",
+      "availability:/loading-screen",
+      "availability:/main-menu",
+      "availability:/money-making-strategies",
+      "availability:/money-making-strategies-crafting-guide",
+      "availability:/options-menu",
+      "availability:/personality",
+      "availability:/playable-characters",
+      "availability:/player-owned-buildings-in-town",
+      "availability:/prospecting",
+      "availability:/random-names-list",
+      "availability:/resistances",
+      "availability:/seasons-and-weather",
+      "availability:/slavery",
+      "availability:/town-size-vs-map-icon-town-level-icons",
+      "availability:/weather-effects"
+    ],
+    "reopened": [],
+    "open": 1017
+  }
+]

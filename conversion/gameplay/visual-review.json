@@ -1,0 +1,42 @@
+{
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "palettes": [
+    "light",
+    "dark"
+  ],
+  "finalManuallyInspected": [
+    "gameplay-desktop-dark.png",
+    "npc-shopping-behavior-desktop-light.png",
+    "statistics-right-phone-dark.png",
+    "science-right-phone-light.png",
+    "training-outline-phone-dark.png"
+  ],
+  "earlierRepresentativeReviews": [
+    "strength-phone-light.png",
+    "guides-phone-dark.png",
+    "guide-to-training-statistics-desktop-light.png",
+    "wheatstraw-60-or-cactus-100-phone-dark.png",
+    "wheatstraw-60-or-cactus-100-right-phone-light.png",
+    "combat-speed-phone-light.png",
+    "guide-to-equipment-desktop-dark.png"
+  ],
+  "observations": [
+    "Portal index links have visible separation and preserve original wording.",
+    "Skill panels stack on phone and keep the physical-effects qualification.",
+    "Statistics reaches Soldierbot; Science reaches Needed for without page overflow.",
+    "The phone drawer exposes and focuses the deep Assassination training heading.",
+    "Sorting arrows are legible after correcting inherited baseline encoding.",
+    "Damaged formula text is contained but intentionally retained; its correction remains an open sourcing task."
+  ],
+  "automation": "All 69 incoming pages receive desktop and phone geometry checks; 140 representative captures cover both palettes.",
+  "scope": "Local review; no public deployment."
+}

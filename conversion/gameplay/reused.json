@@ -1,0 +1,152 @@
+{
+  "baseRevision": "c47d746",
+  "articles": [
+    {
+      "id": "blunt-weapons",
+      "file": "src/content/articles/items/blunt-weapons.md",
+      "sha256": "98ae8427cd0eb4948f0ba765642cf5f7a951dc4e0aefa16a44b1df1db84f601e",
+      "review": "conversion/items/review.json",
+      "source": "c47d746:src/content/articles/items/blunt-weapons.md"
+    },
+    {
+      "id": "cats",
+      "file": "src/content/articles/items/cats.md",
+      "sha256": "fae304c50c80d3edd0f557286c8dcf2685e4bbfa6bd87fe6f247cd2df1afdb5f",
+      "review": "conversion/items/review.json",
+      "source": "c47d746:src/content/articles/items/cats.md"
+    },
+    {
+      "id": "construction",
+      "file": "src/content/articles/gameplay/guides/construction.md",
+      "sha256": "8f4a0df54137a8685cec7d064575e7d1eb8829dcf3a477b83ac008e26e3b5763",
+      "review": "conversion/crafting/review.json",
+      "source": "c47d746:src/content/articles/gameplay/guides/construction.md"
+    },
+    {
+      "id": "crafting",
+      "file": "src/content/articles/gameplay/guides/crafting.md",
+      "sha256": "67aaf660ed072f18e2ff16cff0e491bf20c30079cd0376b614bcfc34ce35d010",
+      "review": "conversion/crafting/review.json",
+      "source": "c47d746:src/content/articles/gameplay/guides/crafting.md"
+    },
+    {
+      "id": "crossbows",
+      "file": "src/content/articles/items/crossbows.md",
+      "sha256": "46f37878a47bfd52a0a96b0486ee63132fe28970fadf5c1ec6404651ebde2e65",
+      "review": "conversion/items/review.json",
+      "source": "c47d746:src/content/articles/items/crossbows.md"
+    },
+    {
+      "id": "guide-to-animals",
+      "file": "src/content/articles/gameplay/guides/guide-to-animals.md",
+      "sha256": "77b51ab74be1f867188bbf086a7b198a23b275d0fb524d579f756a42971c0c9e",
+      "review": "conversion/animals/review.json",
+      "source": "c47d746:src/content/articles/gameplay/guides/guide-to-animals.md"
+    },
+    {
+      "id": "guide-to-faction-relations",
+      "file": "src/content/articles/gameplay/guides/guide-to-faction-relations.md",
+      "sha256": "17d73c9fec2a7bb7d31c277dc65bdbb9dfd4e8a5d902212e8b0cac7f399c2b7f",
+      "review": "conversion/gameplay/review.json",
+      "source": "c47d746:src/content/articles/gameplay/guides/guide-to-faction-relations.md"
+    },
+    {
+      "id": "hackers",
+      "file": "src/content/articles/items/hackers.md",
+      "sha256": "ebb1b9ccaac3110bf25619ff45c7947156b1bee5a3adeed68f7fd1f1971586c4",
+      "review": "conversion/items/review.json",
+      "source": "c47d746:src/content/articles/items/hackers.md"
+    },
+    {
+      "id": "heavy-weapons",
+      "file": "src/content/articles/items/heavy-weapons.md",
+      "sha256": "63b2fdfae16a4ca4df29ba4824d82910348a8ef431a77148f64cb23a7b8ec6ff",
+      "review": "conversion/items/review.json",
+      "source": "c47d746:src/content/articles/items/heavy-weapons.md"
+    },
+    {
+      "id": "hostile-factions",
+      "file": "src/content/articles/gameplay/guides/hostile-factions.md",
+      "sha256": "dd2269eef3bf68a9b093c00715c55b08745d7ca03c254c4fca2be0b55fc7dcea",
+      "review": "conversion/gameplay/review.json",
+      "source": "c47d746:src/content/articles/gameplay/guides/hostile-factions.md"
+    },
+    {
+      "id": "katanas",
+      "file": "src/content/articles/items/katanas.md",
+      "sha256": "a212242ecca8b34a1d189856d4c48f4356c8331da5e411417a3cb2b97253257f",
+      "review": "conversion/items/review.json",
+      "source": "c47d746:src/content/articles/items/katanas.md"
+    },
+    {
+      "id": "lighting",
+      "file": "src/content/articles/buildings/lighting.md",
+      "sha256": "4512f35d184cc84f0faed7de10cfb54085da59a4217cf026a22b2d80f16da96d",
+      "review": "conversion/buildings/review.json",
+      "source": "c47d746:src/content/articles/buildings/lighting.md"
+    },
+    {
+      "id": "pacifiers",
+      "file": "src/content/articles/factions/pacifiers.md",
+      "sha256": "7e94a1691aba45f4b6f6ffbe8d5d2ad162638ababb3971cde137d3de57ba18de",
+      "review": "conversion/gameplay/review.json",
+      "source": "c47d746:src/content/articles/factions/pacifiers.md"
+    },
+    {
+      "id": "polearms",
+      "file": "src/content/articles/items/polearms.md",
+      "sha256": "cf8e3622954972488c807371feaa848367f58a1b26ab643c2010c4d1470fbe8b",
+      "review": "conversion/items/review.json",
+      "source": "c47d746:src/content/articles/items/polearms.md"
+    },
+    {
+      "id": "power",
+      "file": "src/content/articles/buildings/power.md",
+      "sha256": "021033d983e7740264cebaf97d0d095b0f7ca5db40d60f8bdbb8938f0e380365",
+      "review": "conversion/buildings/review.json",
+      "source": "c47d746:src/content/articles/buildings/power.md"
+    },
+    {
+      "id": "races",
+      "file": "src/content/articles/creatures/races/races.md",
+      "sha256": "bdc5d0aa565898c7ee253454a8ee2cc3122f8b3c7b2dee631f9674e4d1c850ff",
+      "review": "conversion/races/review.json",
+      "source": "c47d746:src/content/articles/creatures/races/races.md"
+    },
+    {
+      "id": "sabres",
+      "file": "src/content/articles/items/sabres.md",
+      "sha256": "2f5c5b331665f3765f2782a87d609560b18ea017070a2142b819098bb1b3c09a",
+      "review": "conversion/items/review.json",
+      "source": "c47d746:src/content/articles/items/sabres.md"
+    },
+    {
+      "id": "town-overrides",
+      "file": "src/content/articles/locations/indexes/town-overrides.md",
+      "sha256": "70f5ef0bb62109f706087f6834119128a83ebd08d5472999e90ef2f88f6f6530",
+      "review": "conversion/gameplay/review.json",
+      "source": "c47d746:src/content/articles/locations/indexes/town-overrides.md"
+    },
+    {
+      "id": "turrets",
+      "file": "src/content/articles/buildings/turrets.md",
+      "sha256": "d450f1886e024d0561ef841d93ab1680e3e12fd39f393c50d1a6fb30c5589275",
+      "review": "conversion/buildings/review.json",
+      "source": "c47d746:src/content/articles/buildings/turrets.md"
+    },
+    {
+      "id": "weapons",
+      "file": "src/content/articles/items/weapons.md",
+      "sha256": "d164ef19339100e14b6fad7454f75e982e77f0438bc2492948a03b6e473a76fc",
+      "review": "conversion/items/review.json",
+      "source": "c47d746:src/content/articles/items/weapons.md"
+    },
+    {
+      "id": "world-states",
+      "file": "src/content/articles/gameplay/world-states.md",
+      "sha256": "105a515d335b71a6e192d0f254515c51c9aa05447e151ab27a7a27907c488622",
+      "review": "conversion/characters/review.json",
+      "source": "c47d746:src/content/articles/gameplay/world-states.md"
+    }
+  ]
+}
