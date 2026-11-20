@@ -46,5 +46,24 @@
       "/category/loot",
       "/category/town-making"
     ]
+  },
+  {
+    "name": "trading-directories",
+    "resolved": [
+      "/armour-clothing-shops",
+      "/armour-trader",
+      "/bar",
+      "/barman",
+      "/bars",
+      "/clothing-trader",
+      "/equipment-shops",
+      "/item-trader",
+      "/trade-goods-trader",
+      "/traders",
+      "/travel-supplies-shops",
+      "/weapons-shops",
+      "/weapons-trader"
+    ],
+    "introduced": []
   }
 ]

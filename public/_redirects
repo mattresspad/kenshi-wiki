@@ -14,7 +14,9 @@
 /ancient-science-books /ancient-science-book 301
 /armor /armour 301
 /armor-king /armour-king 301
+/armour-clothing-shops /equipment-shops 301
 /armour-stand /armour-storage 301
+/armour-trader /equipment-shops 301
 /armoured-rag-skirt-colored /armoured-rag-skirt 301
 /armoured-rags-black /armoured-rags 301
 /armoured-rags-colored /armoured-rags 301
@@ -26,7 +28,9 @@
 /automated-stone-mine-tech /automated-hybrid-mine-tech 301
 /bad-teeth-shek-kingdom /bad-teeth/shek-kingdom 301
 /bad-teeth-united-cities /bad-teeth/united-cities 301
+/bar /bars 301
 /barfly /bar-fly 301
+/barman /bars 301
 /basic-exterior-lighting /basic-exterior-lighting-tech 301
 /basic-stone-mine /stone-mine 301
 /batteries /batteries-tech 301
@@ -51,6 +55,8 @@
 /chainmail-sheet /chainmail-sheets 301
 /chainmail-tagelmust /rusty-chainmail-tagelmust 301
 /clothing-research /clothing-manufacture-tech 301
+/clothing-trader /equipment-shops 301
+/clothing-traders /equipment-shops 301
 /clownsteady-empire-peasants /clownsteady/empire-peasants 301
 /club /iron-club 301
 /composite-runners /composite-runners-tech 301
@@ -105,6 +111,7 @@
 /iron-ore /raw-iron 301
 /iron-plate /iron-plates 301
 /iron-plates-iv /iron-plates-tech 301
+/item-trader /travel-supplies-shops 301
 /katana-extended /nodachi 301
 /katana-straight /ninja-blade 301
 /katana-weapon /katana 301
@@ -202,5 +209,7 @@
 /weapon-smith-iii /weapon-smithing-bench 301
 /weapon-smithing /weapon-smithing-tech 301
 /weapon-smithy /weapon-smithing-bench 301
+/weapons-shops /equipment-shops 301
+/weapons-trader /equipment-shops 301
 /wells-ii /wells-tech 301
 /yabuta-stoat /stoat/yabuta-outlaws 301

@@ -51,7 +51,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   if(family==='items' && batch.name===roster.batches.at(-1).name)samples.push('category/items','katana','samurai-armour','economy-arm-left','robot-limbs','light-armour','map-of-the-united-cities-extended-territories','weapons/damage','weapons/modifiers','fabrics#used-in','robotics-components#used-in');
   if(family==='buildings' && batch.name===roster.batches.at(-1).name)samples.push('category/buildings','small-shack','stone-processor','weapon-smithing-bench','wind-generator','medical-workbench','cactus-farm','oil-drill','storage','clothing-bench');
   if(family==='technology'&&batch.name===roster.batches.at(-1).name)samples.push('category/technology','technology','tech-tree','tech-level-tech','crafting-tech','basic-weapon-smithing-tech','hiver-skeleton-arms-tech','advanced-battery-capacity-tech#advanced-battery-capacity-6');
-  if(family==='shops'&&batch.name===roster.batches.at(-1).name)samples.push('category/town-residents','category/traders','category/vendors','adventurer-bar','armour-kings-shop#vendor-list','bakery','holy-nation-bar','hiver-merchant-caravan','traders#trading-with-an-unconscious-squad-member');
+  if(family==='shops'&&batch.name===roster.batches.at(-1).name)samples.push('category/town-residents','category/traders','category/vendors','adventurer-bar','armour-kings-shop#vendor-list','bakery','holy-nation-bar','hiver-merchant-caravan','traders#trading-with-an-unconscious-squad-member','how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {

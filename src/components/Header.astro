@@ -34,7 +34,7 @@ const current = kind === 'home' ? '/' : '#firstHeading';
     {categories.length>0 && <nav class="context-cats" aria-label="Article categories">
       <span class="context-label">{categoryLabel}</span>{categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</nav>}
     {kind!=='home' && <details class="pop context-more" id="article-tools">
-      <summary aria-label={subject}>{kind==='article' && title==='Make a saddle pack for Meitou'?'Saddle guide':title}</summary>
+      <summary aria-label={subject}><span class="context-title">{kind==='article' && title==='Make a saddle pack for Meitou'?'Saddle guide':title}</span></summary>
       <div class="menu-list"><a href={current} aria-current="page">{subject}</a>
         {categories.length>0 && <><strong>{categoryLabel}</strong>{categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</>}
       </div></details>}

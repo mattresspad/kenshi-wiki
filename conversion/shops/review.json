@@ -181,6 +181,72 @@
         "claim:shops-vendor-tutorial-mechanics",
         "claim:shops-world-state-residents"
       ]
+    },
+    {
+      "id": "bars",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Loading screen tip: Go to bars to find new characters to recruit, you can also find bodyguards to hire and other interesting individuals Bars are the gathering hubs of most cities. A shelter from the harshness of the wasteland to recover, bars provide many amenities. The local Barman readily supplies alcohol, bread and food (barring the Skeleton Bar) and as such there is no shortage of adventurers gathered in these watering holes. This makes bars the ideal place to recruit new squad members. You may even come across some of the land’s more eccentric denizens in the form of Unique Recruits. One may also employ the services of Mercenaries (or Tech Hunters/Cannibal Hunters) or sell ill gotten goods to a Thief Fence in these dens of iniquity. Specific Bars Adventurer Bar Bar of Mourn Black Market Bar Blackshifter Casino Bar Crab Bar The Dancing Skeleton Deadcat Bar Big Empire Bar Empire Bar Small Empire Bar Flats Lagoon Bar Holy Nation Bar Independent Bar Shek Bar Skeleton Bar Slaver Bar Smugglers Bar Bakeries Empire Bakery Bakery Holy Bakery",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bars.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ac9e4f5112ea15c9b4ddfa1decb026a5da76d8ece50df2554107ba6d397a100b"
+      },
+      "questions": []
+    },
+    {
+      "id": "equipment-shops",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Equipment Shops are stores which trade exclusive equipment types, like Armour, Clothing, Footwear or Weapons. Such traders can be found in most towns. Specific stock varies by location or faction. Players should be aware that these locations may not be the only vendors selling their specific type. Through the Artifacts system, vendors can spawn items randomly even if they are not a part of their set vendor lists. Armour Shops These shops sell armour of all types, although usually Body Armour and Legwear. Armour King’s Shop Crab Smithy Drifter’s Last General Shop Empire Armor Shop Flotsam Armory Heft Armory Holy Armour Shop Mongrel Armor Shop Ronin Armor Shop Shek Armor Shop Clothing Shops Clothing shops sell equipment which is typically Clothing or low grade Light Armour. Clothing Shop Clothes Shop Mongrel Clothes Shop Used Clothing Shop Headgear Shops These shops primarily sell Headgear. Headgear Shop Holy Headgear Shop Sho-Battai Headgear Shop Footwear Shops These shops primarily sell Footwear and travel supplies. Boot Shop Holy Boot Shop Weapon Shops Weapons Shops are merchants who trade exclusively in arms. Weapons Traders can be found in most towns. Stock may vary by faction or location. Shops which have a gear artifact value can also spawn weapons randomly through the Artifacts system. Another shop which sells weapons is the Black Market Bar. Specific Weapon Shops Catun Scrapmasters Empire Weapon Shop Holy Weapon Shop Mongrel Weapon Shop Ronin Weapon Shop Scraphouse Shek Weapon Shop Small Empire Weapon Shop Shark Smithy Ranger Shops Ranger Shops are vendors which primarily sell crossbows and crossbow bolts. Adventurer Ranger Shop Empire Ranger Shop Other Equipment Shops which sell backpacks: Travel Gear Travel and Repairs Shop Shops which sell Robot Limbs: Travel and Repairs Shop Shops which sell lanterns: Hive Trader Hive Caravan Boss",
+      "organization": "Reviewed 8 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/equipment-shops.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c101cf1dc627fb51eefddf24cada83a08e513f3ffbbdbcb59c26794cbb081037"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims"
+      ]
+    },
+    {
+      "id": "traders",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Madness! Everybody needs supplies, no-hive...Hive Caravan Boss, after being declined trade Traders in Kenshi are NPCs who focus on the buying and selling of goods for profit. Traders can be found in Major Towns and most Minor Outposts. For the Category page please go here. Types of Traders Bars Equipment Shops General Item Trader Farm Shops Thief Fence Trade Goods Trader Travel Supplies Shop Trade Cultures Trade Cultures dictate whether some items spawn in locations as well as whether an item or building is illegal or not. Trade Cultures are tied to factions, meaning that the same building spawned as a United Cities building can have slightly different items than if it was spawned as part of the Holy Nation. Ashland Trade Culture Empire Trade Culture Free Traders Trade Culture Empire Lawless Trade Culture Empire Southwest Trade Culture The Holy Nation Trade Culture Southeast Trade Culture Shek Kingdom Trade Culture Skeletons Trade Culture Slavers Trade Culture Swamper Trade Culture Trading with an unconscious squad member An unconscious squad member can still trade while another member carries them. During a trade, click their portrait: their inventory takes the carrier’s place beside the trader’s, and items can be sold from it and bought back into it.[1]",
+      "organization": "Reviewed 3 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/traders.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7c10c67aa12391920648d35fb5e151b4822ab565a764f8b019de92745435d317"
+      },
+      "questions": [
+        "claim:shops-trade-culture-effects"
+      ]
+    },
+    {
+      "id": "trade-goods-trader",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Trade Goods Shops are merchants who deal with items of value meant for Trade. The price of these items is modified by what town the Trade Goods Trader is in. These prices are randomized per game. Stock will also vary by location or faction. Specific Shops Empire General Shop General Shop Hive Trader",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/trade-goods-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "93b4225f47592f32cac8f50140accc0965aace9b70687241bb6bac74d922d8d2"
+      },
+      "questions": [
+        "claim:shops-stock-prices-and-rarity"
+      ]
+    },
+    {
+      "id": "travel-supplies-shops",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Travel Supply Shops tend to carry goods one might need while exploring out in the world. Such as Backpacks, Maps, Footwear, and Medical Items. They are found in most towns. Stock may vary by location or faction. Specific Shops Travel Gear Travel and Repairs Shop Sub-Types of Item Trader Travel Supplies Shop - Adventurer Travel Supplies Shop - Empire Travel Supplies Shop - Holy Nation Travel Supplies Shop - Mini Travel Supplies Shop - Mongrel Travel Supplies Shop - Super Adventurer Travel Supplies Shop - Swamper",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/travel-supplies-shops.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bf00b9cb887a9f7d0d235b8bcbee3399da3773a268c0483f2ca9e3d2236e3165"
+      },
+      "questions": []
     }
   ],
   "editorialChanges": [

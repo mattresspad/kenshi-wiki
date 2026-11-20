@@ -56,3 +56,7 @@
 
 /* Long category lists must leave the search field usable. Tab focus scrolls each link into view. */
 @media(min-width:1151px){.context-cats{min-width:0;overflow-x:auto;white-space:nowrap}.context-cats>*{flex:none}.search{min-width:160px}}
+
+/* Full article names remain in the menu and accessible label. */
+.context-more .context-title { min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap }
+.context-more summary::after { flex:none }

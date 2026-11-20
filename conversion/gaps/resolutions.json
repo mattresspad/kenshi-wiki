@@ -1201,6 +1201,17 @@
       }
     },
     {
+      "id": "availability:/bars",
+      "kind": "availability",
+      "target": "/bars",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#trading-directories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bars"
+      }
+    },
+    {
       "id": "availability:/basic-exterior-lighting-tech",
       "kind": "availability",
       "target": "/basic-exterior-lighting-tech",
@@ -5202,6 +5213,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/equipment"
+      }
+    },
+    {
+      "id": "availability:/equipment-shops",
+      "kind": "availability",
+      "target": "/equipment-shops",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#trading-directories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/equipment-shops"
       }
     },
     {
@@ -17844,6 +17866,17 @@
       }
     },
     {
+      "id": "availability:/trade-goods-trader",
+      "kind": "availability",
+      "target": "/trade-goods-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#trading-directories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/trade-goods-trader"
+      }
+    },
+    {
       "id": "availability:/trade-ninjas",
       "kind": "availability",
       "target": "/trade-ninjas",
@@ -17852,6 +17885,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/trade-ninjas"
+      }
+    },
+    {
+      "id": "availability:/traders",
+      "kind": "availability",
+      "target": "/traders",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#trading-directories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/traders"
       }
     },
     {
@@ -18039,6 +18083,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/traitorous-bar-thug"
+      }
+    },
+    {
+      "id": "availability:/travel-supplies-shops",
+      "kind": "availability",
+      "target": "/travel-supplies-shops",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#trading-directories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/travel-supplies-shops"
       }
     },
     {
