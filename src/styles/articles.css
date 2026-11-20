@@ -333,3 +333,5 @@
 .gameplay-wide{min-width:48rem}.gameplay-comparison th[scope=row]{text-align:left;font-weight:500}.gameplay-comparison thead th{vertical-align:bottom}
 .imported-formula{overflow-wrap:anywhere;word-break:normal;min-width:0;max-width:100%}.imported-formula *{overflow-wrap:anywhere;white-space:normal}
 @media(max-width:700px){.skill-summary{display:block}.skill-summary dl{border-right:0;border-bottom:1px solid var(--edge)}}
+
+.portal-indexes{display:flex;flex-wrap:wrap;gap:.5rem 1rem;margin:1rem 0}

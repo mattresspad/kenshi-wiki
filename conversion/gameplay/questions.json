@@ -158,5 +158,144 @@
     "Shopping tables expose money and wages fields which the article says are ineffective or only granted once.",
     "Keep caveat with comparison and validate the wage bug on a pinned version.",
     "Sorting values does not imply they govern current spending."
+  ],
+  [
+    "gameplay-town-override-property",
+    [
+      "town-overrides",
+      "guide-to-faction-relations",
+      "player-owned-buildings-in-town"
+    ],
+    "owned|construct|stored|building",
+    "Town Overrides says owned buildings are retained; two guides say constructed or stored contents disappear after an override.",
+    "Test exact override/building IDs and distinguish ownership, interiors, demolition and imported saves on a pinned game version.",
+    "These statements may describe different overrides; preserve them without promising retention or loss."
+  ],
+  [
+    "gameplay-martial-strength-conflict",
+    [
+      "combat-speed",
+      "strength",
+      "martial-arts"
+    ],
+    "strength requirement|80%|requirement",
+    "Combat Speed says Martial Arts has no strength requirement while Strength/Martial Arts describe an 80% threshold.",
+    "Compare source history and reproduce attack animations, encumbrance and skill/stat ratios.",
+    "No gameplay correction selected."
+  ],
+  [
+    "gameplay-encumbrance-speed-conflict",
+    [
+      "combat-speed",
+      "encumbrance",
+      "guide-to-equipment"
+    ],
+    "50%|72.5|0.235|encumbrance",
+    "Combat-speed guidance gives different onset and rate claims for encumbrance penalties across articles.",
+    "Separate movement, attack and dodge penalties and verify each threshold and formula.",
+    "Imported descriptions may refer to different speed measures."
+  ],
+  [
+    "gameplay-duststorm-perception",
+    [
+      "perception",
+      "weather-effects"
+    ],
+    "20%|33.5|dust",
+    "Perception and Weather Effects quote different duststorm penalty magnitudes.",
+    "Check each affected stat and environmental/equipment modifiers on a pinned version.",
+    "Preserve both numbers until their scopes are established."
+  ],
+  [
+    "gameplay-recruitability-conflict",
+    [
+      "slavery",
+      "playable-characters"
+    ],
+    "75|Toughness|stat pairs",
+    "Slavery uses Strength, Dexterity and Toughness for its 75-point limit; Playable Characters uses maxima from three different stat pairs.",
+    "Compare DC_IS_RECRUITABLE and dialogue-specific exceptions with exact records and tests.",
+    "Threshold wording is contradictory; do not infer that every recruitment route uses one rule."
+  ],
+  [
+    "gameplay-customization-legacy",
+    [
+      "character-customization"
+    ],
+    "OLD PAGE CONTENT|X main|Xmain|features",
+    "Character Customization retains an unfinished legacy-content block alongside its newer explanation.",
+    "Review the original revision and consolidate only after checking all described controls.",
+    "No legacy material removed during mechanical conversion."
+  ],
+  [
+    "gameplay-main-menu-redundancy",
+    [
+      "main-menu"
+    ],
+    "New Game|Import Research|research",
+    "Main Menu repeats new-game and import instructions in its imported structure.",
+    "Review the duplicated passages against versioned UI and preserve any qualifications during a future consolidation.",
+    "Repeated text remains present; conversion does not imply independent confirmation."
+  ],
+  [
+    "gameplay-environment-media",
+    [
+      "environment"
+    ],
+    "Fertility Maps|Other Maps|EXPAND|map",
+    "Environment has empty map sections and expansion instructions whose intended illustrations are absent.",
+    "Investigate source media and permitted image restoration separately from item-icon checks.",
+    "Missing maps are incomplete content; no maps synthesized from claims."
+  ],
+  [
+    "gameplay-guide-scope",
+    [
+      "glitchmakers-general-guide"
+    ],
+    "mod|vanilla|Guide|bug",
+    "Glitchmakers General Guide mixes vanilla and mod-related observations and ends with incomplete guide structure.",
+    "Retain author scope notes and investigate each observation against its stated mod/version before generalizing.",
+    "Exploit and bug descriptions are not verified vanilla behavior."
+  ],
+  [
+    "gameplay-prospecting-placeholder",
+    [
+      "prospecting"
+    ],
+    "Standardized format|1080|ALT",
+    "Prospecting retains an unfinished base-location placeholder and speculative UI-resolution explanation.",
+    "Check source history and versioned UI before completing the section or endorsing a workaround.",
+    "Imported speculation and workaround claims remain qualified."
+  ],
+  [
+    "gameplay-personality-odds",
+    [
+      "personality",
+      "playable-characters"
+    ],
+    "41%|week|chance|Honorable|Honourable",
+    "Personality-specific recruitment odds, cooldowns and honourable-trait behavior are imported and depend on dialogue paths.",
+    "Trace exact dialogue package/condition records and test each path without treating broad odds as universal.",
+    "The Playable Characters 1.0.68 note has a narrow scope."
+  ],
+  [
+    "gameplay-season-calendar",
+    [
+      "seasons-and-weather"
+    ],
+    "100 days|season|year",
+    "Season durations and the 100-day calendar claim need versioned field and timing evidence.",
+    "Compare duration units and zone season schedules before deriving calendar behavior.",
+    "Preserve source season labels, zone lists and timing claims."
+  ],
+  [
+    "catun-king-gurgler",
+    [
+      "guide-to-building-an-outpost"
+    ],
+    "King Gurgler|Fishmen|Fishman|Crabs",
+    "King Gurgler may affect the takeover population; the source is speculative.",
+    "Compare the outpost guide's Fishman Island spawning claim with Catun/Fishmen and exact world-state records and observations.",
+    "The outpost guide also claims Fishmen cease spawning and Crabs appear; these are separate locations and cannot substantiate the Catun claim."
   ]
 ]

@@ -101663,6 +101663,39 @@
       ]
     },
     {
+      "id": "claim:gameplay-bounty-truncated",
+      "kind": "claim",
+      "target": "/bounty",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The opening slavery explanation ends abruptly after same, before the next paragraph.",
+      "proposedResolution": "Compare the Fandom revision and recover omitted text with attribution if available.",
+      "uncertainty": "Do not infer which owner or faction the missing clause described.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "bounty",
+          "sourceFile": "src/content/wiki/bounty.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "127f37784c06102e1305b89fbaff5432f2f0d4d41897c74bc2d91297287e2a95",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/bounty.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "bounty",
+          "label": "If put into a cage of a faction who practices slavery, the character may be enslaved and transported to their own respective slave mines if a slaver patrol is present. This may happen even if the cages aren't owned by the same",
+          "literal": "If put into a cage of a faction who practices slavery, the character may be enslaved and transported to their own respective slave mines if a slaver patrol is present. This may happen even if the cages aren't owned by the same",
+          "line": 18,
+          "sourceFile": "src/content/wiki/bounty.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:gameplay-damage-healing",
       "kind": "claim",
       "target": "/statistics",
@@ -103823,6 +103856,55 @@
       ]
     },
     {
+      "id": "claim:gameplay-dexterity-example",
+      "kind": "claim",
+      "target": "/dexterity",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The imported two-Skeleton-Arm +55% example does not match the stated multiplicative 25% bonuses or later 1.875x example.",
+      "proposedResolution": "Verify quality, rounding and base bonuses before correcting either expression.",
+      "uncertainty": "Arithmetic discrepancy identified; game interpretation remains unverified.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "dexterity",
+          "sourceFile": "src/content/wiki/dexterity.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "4fe03de69df22268b5d8b5174dac77a5ff825d56f587d63e20d67b1b8a6f118b",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dexterity.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "dexterity",
+          "label": "Important to note that Dexterity bonuses (And reductions) are multipliers, so they multiply with each other. So, using 2x Skeleton Arms will result in +55% Dexterity, while 2x KLR Arms will only grant +21%.",
+          "literal": "Important to note that Dexterity bonuses (And reductions) are multipliers, so they multiply with each other. So, using 2x Skeleton Arms will result in +55% Dexterity, while 2x KLR Arms will only grant +21%.",
+          "line": 43,
+          "sourceFile": "src/content/wiki/dexterity.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dexterity",
+          "label": "-   As Dexterity is multiplied by the bonuses it receives from armour/robotics, if you were to wear 2x Masterwork Skeleton Arms and any quality Assassins Rags, you would have 1.875x Dexterity.",
+          "literal": "-   As Dexterity is multiplied by the bonuses it receives from armour/robotics, if you were to wear 2x Masterwork Skeleton Arms and any quality Assassins Rags, you would have 1.875x Dexterity.",
+          "line": 55,
+          "sourceFile": "src/content/wiki/dexterity.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dexterity",
+          "label": "    -   With 2x Skeleton Arms and wearing Crab armour you will have 0.78125x Dexterity.",
+          "literal": "    -   With 2x Skeleton Arms and wearing Crab armour you will have 0.78125x Dexterity.",
+          "line": 57,
+          "sourceFile": "src/content/wiki/dexterity.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:gameplay-farming-calculation",
       "kind": "claim",
       "target": "/wheatstraw-60-or-cactus-100",
@@ -104020,6 +104102,95 @@
           "literal": "If working with many characters, it can be time consuming and tedious to add food to each individual inventory. By purchasing a stacking [Backpack](/backpacks) and filling it with as many food items as possible, the need for distributing food is mitigated. All Player Characters in the same squad who are nearby the character wearing the backpack filled with food will eat food out of it if their hunger is low enough to trigger eating. If the player wants to avoid the negative stats of wearing a backpack, they can easily remove the backpack from the backpack slot and regularly put it on for a second in order to feed all characters at once or use a [Small Thieves Backpack](/small-thieves-backpack). This technique will only work if all characters are in the same squad. To feed members of another squad a character with the backpack full of food should also exist in another squad.",
           "line": 38,
           "sourceFile": "src/content/wiki/guide-to-health.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:gameplay-incomplete-recoil",
+      "kind": "claim",
+      "target": "/martial-arts",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The blocked-opponent recoil formula leaves Cut and Stun values blank.",
+      "proposedResolution": "Inspect original revision and obtain versioned formula evidence before completing it.",
+      "uncertainty": "Blank expressions are incomplete content, not zero damage.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "martial-arts",
+          "sourceFile": "src/content/wiki/martial-arts.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "b4ffa25bc3c60f39ad4df099b44467a70facc7008e614cd6636396bac94a672f",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/martial-arts.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "martial-arts",
+          "label": "    -   Cut = 0",
+          "literal": "    -   Cut = 0",
+          "line": 33,
+          "sourceFile": "src/content/wiki/martial-arts.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "martial-arts",
+          "label": "    -   Stun = 1-((Martial Arts + Toughness) x 0.005)",
+          "literal": "    -   Stun = 1-((Martial Arts + Toughness) x 0.005)",
+          "line": 34,
+          "sourceFile": "src/content/wiki/martial-arts.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "martial-arts",
+          "label": "    -   Cut = 1-((Martial Arts + Toughness) x 0.005)",
+          "literal": "    -   Cut = 1-((Martial Arts + Toughness) x 0.005)",
+          "line": 36,
+          "sourceFile": "src/content/wiki/martial-arts.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "martial-arts",
+          "label": "    -   Stun = 1-((Martial Arts + Toughness) x 0.005)",
+          "literal": "    -   Stun = 1-((Martial Arts + Toughness) x 0.005)",
+          "line": 37,
+          "sourceFile": "src/content/wiki/martial-arts.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "martial-arts",
+          "label": "    -   Cut = 2-((Martial Arts + Toughness) x 0.01)",
+          "literal": "    -   Cut = 2-((Martial Arts + Toughness) x 0.01)",
+          "line": 39,
+          "sourceFile": "src/content/wiki/martial-arts.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "martial-arts",
+          "label": "    -   Stun = 2-((Martial Arts + Toughness) x 0.01)",
+          "literal": "    -   Stun = 2-((Martial Arts + Toughness) x 0.01)",
+          "line": 40,
+          "sourceFile": "src/content/wiki/martial-arts.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "martial-arts",
+          "label": "    -   Cut =",
+          "literal": "    -   Cut =",
+          "line": 42,
+          "sourceFile": "src/content/wiki/martial-arts.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "martial-arts",
+          "label": "    -   Stun =",
+          "literal": "    -   Stun =",
+          "line": 43,
+          "sourceFile": "src/content/wiki/martial-arts.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]
@@ -108014,6 +108185,55 @@
       ]
     },
     {
+      "id": "claim:gameplay-shopping-inactive-fields",
+      "kind": "claim",
+      "target": "/npc-shopping-behavior",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Shopping tables expose money and wages fields which the article says are ineffective or only granted once.",
+      "proposedResolution": "Keep caveat with comparison and validate the wage bug on a pinned version.",
+      "uncertainty": "Sorting values does not imply they govern current spending.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "npc-shopping-behavior",
+          "sourceFile": "src/content/wiki/npc-shopping-behavior.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "1e746ae24fe645e1bd1505c12a173ecade76721c59967831ba0f34af94625b26",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/npc-shopping-behavior.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "npc-shopping-behavior",
+          "label": "<table class=\"wikitable sortable\"><tbody><tr><th>Name</th><th>Min Money</th><th>Max Money</th><th>Daily Wages</th><th>Items</th></tr><tr><td>Bounty Hunter</td><td>200</td><td>2000</td><td>2000</td><td>First Aid, Food, Narcotics, Splint Kits</td></tr><tr><td>Caravan Drone</td><td>0</td><td>0</td><td>1500</td><td>Misc</td></tr><tr><td>Caravan guard</td><td>100</td><td>500</td><td>1500</td><td>First Aid, Food, Narcotics</td></tr><tr><td><a href=\"/caravan-trader-boss\">Caravan Trader Boss</a></td><td>2000</td><td>8000</td><td>10000</td><td>First Aid, Food, Misc, Narcotics, Splint Kits, Tools</td></tr><tr><td><a href=\"/drifter\">Drifter</a></td><td>200</td><td>2000</td><td>1500</td><td>First Aid, Food, Misc, Narcotics, Splint Kits</td></tr><tr><td>Hive Caravan Boss</td><td>2000</td><td>8000</td><td>7000</td><td>First Aid, Food, Misc, Narcotics, Splint Kits, Tools</td></tr><tr><td><a href=\"/skeleton-drifter\">Skeleton Drifter</a></td><td>200</td><td>2000</td><td>1500</td><td>Narcotics, Repair Kits</td></tr><tr><td>Slaver Caravan Guard</td><td>10000</td><td>10000</td><td>2500</td><td>Narcotics</td></tr><tr><td>Wandering Assassin</td><td>0</td><td>200</td><td>2500</td><td>First Aid, Food, Splint Kits</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable sortable\"><tbody><tr><th>Name</th><th>Min Money</th><th>Max Money</th><th>Daily Wages</th><th>Items</th></tr><tr><td>Bounty Hunter</td><td>200</td><td>2000</td><td>2000</td><td>First Aid, Food, Narcotics, Splint Kits</td></tr><tr><td>Caravan Drone</td><td>0</td><td>0</td><td>1500</td><td>Misc</td></tr><tr><td>Caravan guard</td><td>100</td><td>500</td><td>1500</td><td>First Aid, Food, Narcotics</td></tr><tr><td><a href=\"/caravan-trader-boss\">Caravan Trader Boss</a></td><td>2000</td><td>8000</td><td>10000</td><td>First Aid, Food, Misc, Narcotics, Splint Kits, Tools</td></tr><tr><td><a href=\"/drifter\">Drifter</a></td><td>200</td><td>2000</td><td>1500</td><td>First Aid, Food, Misc, Narcotics, Splint Kits</td></tr><tr><td>Hive Caravan Boss</td><td>2000</td><td>8000</td><td>7000</td><td>First Aid, Food, Misc, Narcotics, Splint Kits, Tools</td></tr><tr><td><a href=\"/skeleton-drifter\">Skeleton Drifter</a></td><td>200</td><td>2000</td><td>1500</td><td>Narcotics, Repair Kits</td></tr><tr><td>Slaver Caravan Guard</td><td>10000</td><td>10000</td><td>2500</td><td>Narcotics</td></tr><tr><td>Wandering Assassin</td><td>0</td><td>200</td><td>2500</td><td>First Aid, Food, Splint Kits</td></tr></tbody></table>",
+          "line": 22,
+          "sourceFile": "src/content/wiki/npc-shopping-behavior.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "npc-shopping-behavior",
+          "label": "<table class=\"wikitable sortable\"><tbody><tr><th>Name</th><th>Min Money</th><th>Max Money</th><th>Daily Wages</th><th>Items</th></tr><tr><td>Bar Fisherman</td><td>0</td><td>200</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>Bar fly</td><td>100</td><td>500</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>Bar Thug</td><td>0</td><td>200</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>Bar Thug Drunk</td><td>100</td><td>500</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td><a href=\"/citizen\">Citizen</a></td><td>100</td><td>500</td><td>1300</td><td>Food, Narcotics</td></tr><tr><td><a href=\"/drifter\">Drifter</a></td><td>200</td><td>2000</td><td>1500</td><td>First Aid, Food, Misc, Narcotics, Splint Kits</td></tr><tr><td>Drunken Bar Thug</td><td>0</td><td>200</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td><a href=\"/garret\">Garret</a></td><td>100</td><td>500</td><td>400</td><td>Food, Narcotics</td></tr><tr><td>Holy Citizens</td><td>100</td><td>500</td><td>700</td><td>Food, Narcotics</td></tr><tr><td>Hook Bar patron</td><td>100</td><td>500</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>Mongrel Bar Patron</td><td>0</td><td>200</td><td>1000</td><td>Food, Misc, Narcotics</td></tr><tr><td><a href=\"/shek-retainer\">Shek Retainer</a></td><td>100</td><td>500</td><td>400</td><td>Food, Misc</td></tr><tr><td><a href=\"/shinobi-citizen\">Shinobi Citizen</a></td><td>100</td><td>500</td><td>1300</td><td>Food, Narcotics</td></tr><tr><td><a href=\"/skeleton-drifter\">Skeleton Drifter</a></td><td>200</td><td>2000</td><td>1500</td><td>Narcotics, Repair Kits</td></tr><tr><td>Swamper Bar Thug</td><td>0</td><td>200</td><td>1000</td><td>Narcotics</td></tr><tr><td>Twitchy Bar Thug</td><td>100</td><td>500</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>UC Bar patron</td><td>100</td><td>500</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td><a href=\"/uc-citizen\">UC Citizen</a></td><td>100</td><td>500</td><td>1300</td><td>Food, Narcotics</td></tr><tr><td>Ugly Bar Thug</td><td>0</td><td>200</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>World's End Bar Patrons</td><td>200</td><td>2000</td><td>1000</td><td>First Aid, Food, Misc, Narcotics, Splint Kits</td></tr></tbody></table>",
+          "literal": "<table class=\"wikitable sortable\"><tbody><tr><th>Name</th><th>Min Money</th><th>Max Money</th><th>Daily Wages</th><th>Items</th></tr><tr><td>Bar Fisherman</td><td>0</td><td>200</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>Bar fly</td><td>100</td><td>500</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>Bar Thug</td><td>0</td><td>200</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>Bar Thug Drunk</td><td>100</td><td>500</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td><a href=\"/citizen\">Citizen</a></td><td>100</td><td>500</td><td>1300</td><td>Food, Narcotics</td></tr><tr><td><a href=\"/drifter\">Drifter</a></td><td>200</td><td>2000</td><td>1500</td><td>First Aid, Food, Misc, Narcotics, Splint Kits</td></tr><tr><td>Drunken Bar Thug</td><td>0</td><td>200</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td><a href=\"/garret\">Garret</a></td><td>100</td><td>500</td><td>400</td><td>Food, Narcotics</td></tr><tr><td>Holy Citizens</td><td>100</td><td>500</td><td>700</td><td>Food, Narcotics</td></tr><tr><td>Hook Bar patron</td><td>100</td><td>500</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>Mongrel Bar Patron</td><td>0</td><td>200</td><td>1000</td><td>Food, Misc, Narcotics</td></tr><tr><td><a href=\"/shek-retainer\">Shek Retainer</a></td><td>100</td><td>500</td><td>400</td><td>Food, Misc</td></tr><tr><td><a href=\"/shinobi-citizen\">Shinobi Citizen</a></td><td>100</td><td>500</td><td>1300</td><td>Food, Narcotics</td></tr><tr><td><a href=\"/skeleton-drifter\">Skeleton Drifter</a></td><td>200</td><td>2000</td><td>1500</td><td>Narcotics, Repair Kits</td></tr><tr><td>Swamper Bar Thug</td><td>0</td><td>200</td><td>1000</td><td>Narcotics</td></tr><tr><td>Twitchy Bar Thug</td><td>100</td><td>500</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>UC Bar patron</td><td>100</td><td>500</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td><a href=\"/uc-citizen\">UC Citizen</a></td><td>100</td><td>500</td><td>1300</td><td>Food, Narcotics</td></tr><tr><td>Ugly Bar Thug</td><td>0</td><td>200</td><td>1000</td><td>Food, Narcotics</td></tr><tr><td>World's End Bar Patrons</td><td>200</td><td>2000</td><td>1000</td><td>First Aid, Food, Misc, Narcotics, Splint Kits</td></tr></tbody></table>",
+          "line": 26,
+          "sourceFile": "src/content/wiki/npc-shopping-behavior.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "npc-shopping-behavior",
+          "label": "-   There is a \"wages\" system that is supposed to grant NPCs a set additional amount of [Cats](/cats) daily. However this system is bugged and so only grants this amount of Cats to NPCs a single time when they are initially spawned. The \"Min/Max Money\" stats also appear to have no effect.",
+          "literal": "-   There is a \"wages\" system that is supposed to grant NPCs a set additional amount of [Cats](/cats) daily. However this system is bugged and so only grants this amount of Cats to NPCs a single time when they are initially spawned. The \"Min/Max Money\" stats also appear to have no effect.",
+          "line": 188,
+          "sourceFile": "src/content/wiki/npc-shopping-behavior.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:gameplay-training-formulas",
       "kind": "claim",
       "target": "/statistics",
@@ -110833,6 +111053,79 @@
           "literal": "-   You can purchase empty or destroyed buildings in towns. Click on the door of the building and a BUY button will appear in the bottom left of the screen if it is for sale.",
           "line": 36,
           "sourceFile": "src/content/wiki/loading-screen.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:gameplay-wheatstraw-water-example",
+      "kind": "claim",
+      "target": "/wheatstraw-60-or-cactus-100",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The Chewsticks worked water expression uses 0.25 yet totals 21.03; the earlier recipe states one Water.",
+      "proposedResolution": "Reconcile recipe quantity and example arithmetic using a pinned game version; preserve source values until verified.",
+      "uncertainty": "The conversion does not choose which input was intended.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "wheatstraw-60-or-cactus-100",
+          "sourceFile": "src/content/wiki/wheatstraw-60-or-cactus-100.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "22d0fda8ada0fca0a3cd5d3313af2ff0061009050157dc2cdeb85394d00b5f9a",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/wheatstraw-60-or-cactus-100.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "wheatstraw-60-or-cactus-100",
+          "label": "<details class=\"collapsible\" open=\"\"><summary>Show table</summary><table class=\"wikitable sortable\"><caption>Nutrition per man-hour per production type, using Hydroponics only</caption><tbody><tr><th>Production</th><th>Location</th><th>Hydroponic types</th><th>Game stage 0</th><th>Game stage 1</th><th>Game stage 2</th><th>Game stage 3</th><th>Game stage 4</th><th>Game stage 5</th></tr><tr><td>Bread</td><td>@Arid (Border Zone)</td><td>Hydroponic Wheatstraw (18x2)</td><td>4.78</td><td>12.83</td><td>51.18</td><td>62.97</td><td>212.12</td><td>393.51</td></tr><tr><td>Bread</td><td>@Green (Okran's Pride)</td><td>Hydroponic Wheatstraw (18x2)</td><td>9.84</td><td>24.13</td><td>51.18</td><td>62.97</td><td>212.12</td><td>393.51</td></tr><tr><td>Bread</td><td>@Swamp (The Swamp)</td><td>Hydroponic Wheatstraw (18x2)</td><td>21.25</td><td>44.93</td><td>44.31</td><td>54.61</td><td>139.95</td><td>238.38</td></tr><tr><td>Cooked Vegetables</td><td>@Arid (Border Zone)</td><td>Hydroponic Vegetables (18x2)</td><td>2.93</td><td>6.30</td><td>18.01</td><td>22.20</td><td>22.20</td><td>32.07</td></tr><tr><td>Cooked Vegetables</td><td>@Green (Okran's Pride)</td><td>Hydroponic Vegetables (18x2)</td><td>5.33</td><td>10.61</td><td>18.01</td><td>22.20</td><td>22.20</td><td>32.07</td></tr><tr><td>Cooked Vegetables</td><td>@Swamp (The Swamp)</td><td>Hydroponic Vegetables (18x2)</td><td>9.44</td><td>17.10</td><td>17.01</td><td>20.99</td><td>20.99</td><td>30.36</td></tr><tr><td>Rice Bowl</td><td>@Arid (Border Zone)</td><td>Hydroponic Riceweed (18x3)</td><td>2.69</td><td>5.99</td><td>18.15</td><td>22.41</td><td>22.41</td><td>32.36</td></tr><tr><td>Rice Bowl</td><td>@Green (Okran's Pride)</td><td>Hydroponic Riceweed (18x3)</td><td>5.05</td><td>10.31</td><td>18.15</td><td>22.41</td><td>22.41</td><td>32.36</td></tr><tr><td>Rice Bowl</td><td>@Swamp (The Swamp)</td><td>Hydroponic Riceweed (18x3)</td><td>9.91</td><td>17.58</td><td>17.42</td><td>21.52</td><td>21.52</td><td>31.25</td></tr><tr><td>Foodcube</td><td>@Arid (Border Zone)</td><td>Hydroponic Wheatstraw (18x2) &amp; Hydroponic Vegetables (18x2)</td><td>5.96</td><td>14.14</td><td>35.85</td><td>44.18</td><td>54.33</td><td>80.25</td></tr><tr><td>Foodcube</td><td>@Green (Okran's Pride)</td><td>Hydroponic Wheatstraw (18x2) &amp; Hydroponic Vegetables (18x2)</td><td>10.88</td><td>22.75</td><td>35.85</td><td>44.18</td><td>54.33</td><td>80.25</td></tr><tr><td>Foodcube</td><td>@Swamp (The Swamp)</td><td>Hydroponic Wheatstraw (18x2) &amp; Hydroponic Vegetables (18x2)</td><td>18.57</td><td>33.32</td><td>33.02</td><td>40.74</td><td>47.92</td><td>70.77</td></tr><tr><td>Gohan</td><td>@Arid (Border Zone)</td><td>Hydroponic Riceweed (18x3) &amp; Hydroponic Vegetables (18x2)</td><td>6.59</td><td>16.68</td><td>45.90</td><td>56.30</td><td>56.30</td><td>81.88</td></tr><tr><td>Gohan</td><td>@Green (Okran's Pride)</td><td>Hydroponic Riceweed (18x3) &amp; Hydroponic Vegetables (18x2)</td><td>12.53</td><td>27.70</td><td>45.90</td><td>56.30</td><td>56.30</td><td>81.88</td></tr><tr><td>Gohan</td><td>@Swamp (The Swamp)</td><td>Hydroponic Riceweed (18x3) &amp; Hydroponic Vegetables (18x2)</td><td>23.71</td><td>42.87</td><td>42.44</td><td>52.14</td><td>52.14</td><td>75.97</td></tr></tbody></table></details>",
+          "literal": "<details class=\"collapsible\" open=\"\"><summary>Show table</summary><table class=\"wikitable sortable\"><caption>Nutrition per man-hour per production type, using Hydroponics only</caption><tbody><tr><th>Production</th><th>Location</th><th>Hydroponic types</th><th>Game stage 0</th><th>Game stage 1</th><th>Game stage 2</th><th>Game stage 3</th><th>Game stage 4</th><th>Game stage 5</th></tr><tr><td>Bread</td><td>@Arid (Border Zone)</td><td>Hydroponic Wheatstraw (18x2)</td><td>4.78</td><td>12.83</td><td>51.18</td><td>62.97</td><td>212.12</td><td>393.51</td></tr><tr><td>Bread</td><td>@Green (Okran's Pride)</td><td>Hydroponic Wheatstraw (18x2)</td><td>9.84</td><td>24.13</td><td>51.18</td><td>62.97</td><td>212.12</td><td>393.51</td></tr><tr><td>Bread</td><td>@Swamp (The Swamp)</td><td>Hydroponic Wheatstraw (18x2)</td><td>21.25</td><td>44.93</td><td>44.31</td><td>54.61</td><td>139.95</td><td>238.38</td></tr><tr><td>Cooked Vegetables</td><td>@Arid (Border Zone)</td><td>Hydroponic Vegetables (18x2)</td><td>2.93</td><td>6.30</td><td>18.01</td><td>22.20</td><td>22.20</td><td>32.07</td></tr><tr><td>Cooked Vegetables</td><td>@Green (Okran's Pride)</td><td>Hydroponic Vegetables (18x2)</td><td>5.33</td><td>10.61</td><td>18.01</td><td>22.20</td><td>22.20</td><td>32.07</td></tr><tr><td>Cooked Vegetables</td><td>@Swamp (The Swamp)</td><td>Hydroponic Vegetables (18x2)</td><td>9.44</td><td>17.10</td><td>17.01</td><td>20.99</td><td>20.99</td><td>30.36</td></tr><tr><td>Rice Bowl</td><td>@Arid (Border Zone)</td><td>Hydroponic Riceweed (18x3)</td><td>2.69</td><td>5.99</td><td>18.15</td><td>22.41</td><td>22.41</td><td>32.36</td></tr><tr><td>Rice Bowl</td><td>@Green (Okran's Pride)</td><td>Hydroponic Riceweed (18x3)</td><td>5.05</td><td>10.31</td><td>18.15</td><td>22.41</td><td>22.41</td><td>32.36</td></tr><tr><td>Rice Bowl</td><td>@Swamp (The Swamp)</td><td>Hydroponic Riceweed (18x3)</td><td>9.91</td><td>17.58</td><td>17.42</td><td>21.52</td><td>21.52</td><td>31.25</td></tr><tr><td>Foodcube</td><td>@Arid (Border Zone)</td><td>Hydroponic Wheatstraw (18x2) &amp; Hydroponic Vegetables (18x2)</td><td>5.96</td><td>14.14</td><td>35.85</td><td>44.18</td><td>54.33</td><td>80.25</td></tr><tr><td>Foodcube</td><td>@Green (Okran's Pride)</td><td>Hydroponic Wheatstraw (18x2) &amp; Hydroponic Vegetables (18x2)</td><td>10.88</td><td>22.75</td><td>35.85</td><td>44.18</td><td>54.33</td><td>80.25</td></tr><tr><td>Foodcube</td><td>@Swamp (The Swamp)</td><td>Hydroponic Wheatstraw (18x2) &amp; Hydroponic Vegetables (18x2)</td><td>18.57</td><td>33.32</td><td>33.02</td><td>40.74</td><td>47.92</td><td>70.77</td></tr><tr><td>Gohan</td><td>@Arid (Border Zone)</td><td>Hydroponic Riceweed (18x3) &amp; Hydroponic Vegetables (18x2)</td><td>6.59</td><td>16.68</td><td>45.90</td><td>56.30</td><td>56.30</td><td>81.88</td></tr><tr><td>Gohan</td><td>@Green (Okran's Pride)</td><td>Hydroponic Riceweed (18x3) &amp; Hydroponic Vegetables (18x2)</td><td>12.53</td><td>27.70</td><td>45.90</td><td>56.30</td><td>56.30</td><td>81.88</td></tr><tr><td>Gohan</td><td>@Swamp (The Swamp)</td><td>Hydroponic Riceweed (18x3) &amp; Hydroponic Vegetables (18x2)</td><td>23.71</td><td>42.87</td><td>42.44</td><td>52.14</td><td>52.14</td><td>75.97</td></tr></tbody></table></details>",
+          "line": 70,
+          "sourceFile": "src/content/wiki/wheatstraw-60-or-cactus-100.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wheatstraw-60-or-cactus-100",
+          "label": "This gives ratio: 720 Wheatstraw per day : 1 Grain Silo@100% : 3 Bread Oven : 72\\*0.25 Water per day : 72 Bread per day",
+          "literal": "This gives ratio: 720 Wheatstraw per day : 1 Grain Silo@100% : 3 Bread Oven : 72\\*0.25 Water per day : 72 Bread per day",
+          "line": 156,
+          "sourceFile": "src/content/wiki/wheatstraw-60-or-cactus-100.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wheatstraw-60-or-cactus-100",
+          "label": "Total Water per day required is =3(farms)\\*2(water per day per farm)+15.03(cooked Chewsticks per day)\\*0.25(water per cooked Chewsticks)=21.03.",
+          "literal": "Total Water per day required is =3(farms)\\*2(water per day per farm)+15.03(cooked Chewsticks per day)\\*0.25(water per cooked Chewsticks)=21.03.",
+          "line": 279,
+          "sourceFile": "src/content/wiki/wheatstraw-60-or-cactus-100.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wheatstraw-60-or-cactus-100",
+          "label": "Manual water Well with Labouring =34 worker placed at 60% Ground water level would pump 48\\*0.75\\*0.6\\*0.806=17.40 Water per day (per 24 hours). Therefore, to pump 21.03 Water per day, 21.03/17.40\\*24=28.99 man-hours are needed (# of manual Well/workers =28.99/24=1.21 per day).",
+          "literal": "Manual water Well with Labouring =34 worker placed at 60% Ground water level would pump 48\\*0.75\\*0.6\\*0.806=17.40 Water per day (per 24 hours). Therefore, to pump 21.03 Water per day, 21.03/17.40\\*24=28.99 man-hours are needed (# of manual Well/workers =28.99/24=1.21 per day).",
+          "line": 281,
+          "sourceFile": "src/content/wiki/wheatstraw-60-or-cactus-100.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wheatstraw-60-or-cactus-100",
+          "label": "Bread has Nutrition =30 and Sell Value =244. To make Bread, 10 Wheatstraw and 0.25 Water are needed. To feed 6 characters with Hunger rate =1.0 every day, we would require 6\\*40\\*1/30=8 Bread per day. To cook 8 Bread per day, we would require 8\\*10=80 Wheatstraw and 8\\*0.25=2 Water per day.",
+          "literal": "Bread has Nutrition =30 and Sell Value =244. To make Bread, 10 Wheatstraw and 0.25 Water are needed. To feed 6 characters with Hunger rate =1.0 every day, we would require 6\\*40\\*1/30=8 Bread per day. To cook 8 Bread per day, we would require 8\\*10=80 Wheatstraw and 8\\*0.25=2 Water per day.",
+          "line": 295,
+          "sourceFile": "src/content/wiki/wheatstraw-60-or-cactus-100.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "wheatstraw-60-or-cactus-100",
+          "label": "Total Water per day required is =2(farms)\\*5(water per day per farm)+8.516(baked Bread per day)\\*0.25(water per baked Bread)=12.12.",
+          "literal": "Total Water per day required is =2(farms)\\*5(water per day per farm)+8.516(baked Bread per day)\\*0.25(water per baked Bread)=12.12.",
+          "line": 319,
+          "sourceFile": "src/content/wiki/wheatstraw-60-or-cactus-100.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]

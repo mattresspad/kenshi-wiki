@@ -5466,6 +5466,18 @@
     "controls": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/gameplay/review.json"
+    },
+    "damage": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "damage/limb-data": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "science": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
     }
   },
   "mediaGaps": [

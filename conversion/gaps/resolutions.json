@@ -4292,6 +4292,28 @@
       }
     },
     {
+      "id": "availability:/damage",
+      "kind": "availability",
+      "target": "/damage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#technical-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/damage"
+      }
+    },
+    {
+      "id": "availability:/damage/limb-data",
+      "kind": "availability",
+      "target": "/damage/limb-data",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#technical-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/damage/limb-data"
+      }
+    },
+    {
       "id": "availability:/damaged-book",
       "kind": "availability",
       "target": "/damaged-book",
@@ -14651,6 +14673,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/scavengers-basket"
+      }
+    },
+    {
+      "id": "availability:/science",
+      "kind": "availability",
+      "target": "/science",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#technical-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/science"
       }
     },
     {

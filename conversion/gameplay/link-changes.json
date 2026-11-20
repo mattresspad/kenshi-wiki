@@ -27,5 +27,15 @@
       "/shopkeepers-backpack",
       "/town-size-vs-map-icon-town-level-icons"
     ]
+  },
+  {
+    "name": "technical-structures",
+    "resolved": [
+      "/damage",
+      "/damage/limb-data",
+      "/science",
+      "/stun-damage"
+    ],
+    "introduced": []
   }
 ]
