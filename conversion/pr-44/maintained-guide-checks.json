@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-11-20T18:36:55.142Z",
+  "htmlSha256": "a282e411a9c22d5d99b9a9ea8ff33a5c301bf6e1eb1b8bb3c6e81f9ae162deac",
+  "qualification": "Mutable maintained guide; link availability only, never used to infer pinned-client availability.",
+  "links": [
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#simulation-systems",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#save-data",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#commands",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#settings",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#debug-menu-rows",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#combat-hits",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#equipment-slots",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#dialogue-conditions-and-effects",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#your-own-record-types",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#interface",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#depending-on-another-mod",
+      "status": 200,
+      "fragmentFound": true
+    },
+    {
+      "url": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#harmony",
+      "status": 200,
+      "fragmentFound": true
+    }
+  ]
+}

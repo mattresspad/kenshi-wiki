@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-11-20",
+  "pr": {
+    "url": "https://github.com/mattresspad/kenshi-wiki/pull/44",
+    "state": "open",
+    "merged": false,
+    "head": "7306cfe75c41260de3186d1c1fffeaf68e61bb89",
+    "base": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+    "author": "teppuM"
+  },
+  "nightly": {
+    "url": "https://github.com/VlcekM/MeitouClient/releases/tag/v0.22.2-nightly.20261119.2",
+    "tag": "v0.22.2-nightly.20261119.2",
+    "targetCommit": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+    "prerelease": true,
+    "publishedAt": "2026-11-19T16:11:35Z",
+    "assets": [
+      {
+        "name": "Meitou-0.22.2-nightly.20261119.2-linux-x64.zip",
+        "url": "https://github.com/VlcekM/MeitouClient/releases/download/v0.22.2-nightly.20261119.2/Meitou-0.22.2-nightly.20261119.2-linux-x64.zip",
+        "digest": "sha256:b72e3f5a3bb3f48e29c5909f5c29c559593560566af4a90a32421fdec6ad584e"
+      },
+      {
+        "name": "Meitou-0.22.2-nightly.20261119.2-osx-arm64-legacy.zip",
+        "url": "https://github.com/VlcekM/MeitouClient/releases/download/v0.22.2-nightly.20261119.2/Meitou-0.22.2-nightly.20261119.2-osx-arm64-legacy.zip",
+        "digest": "sha256:7a6234341647a1b57675903ef9e40adecfa23d45da2c381ee3ca5fa7a4aa3543"
+      },
+      {
+        "name": "Meitou-0.22.2-nightly.20261119.2-osx-arm64.zip",
+        "url": "https://github.com/VlcekM/MeitouClient/releases/download/v0.22.2-nightly.20261119.2/Meitou-0.22.2-nightly.20261119.2-osx-arm64.zip",
+        "digest": "sha256:fa0adcab3947a08c9f3ba238b03f86ebbb3c7d64a7bcd8b7ac8216a93797e67e"
+      },
+      {
+        "name": "Meitou-0.22.2-nightly.20261119.2-osx-x64-legacy.zip",
+        "url": "https://github.com/VlcekM/MeitouClient/releases/download/v0.22.2-nightly.20261119.2/Meitou-0.22.2-nightly.20261119.2-osx-x64-legacy.zip",
+        "digest": "sha256:3b4e404d5760492996b1275b8b97d499b2d0375e15e700e05403bea975e5a54c"
+      },
+      {
+        "name": "Meitou-0.22.2-nightly.20261119.2-osx-x64.zip",
+        "url": "https://github.com/VlcekM/MeitouClient/releases/download/v0.22.2-nightly.20261119.2/Meitou-0.22.2-nightly.20261119.2-osx-x64.zip",
+        "digest": "sha256:16b474ff7534af39463afa90fc3c1ae8e4f815719605dbd3048b5a00d132bb7e"
+      },
+      {
+        "name": "Meitou-0.22.2-nightly.20261119.2-win-x64.zip",
+        "url": "https://github.com/VlcekM/MeitouClient/releases/download/v0.22.2-nightly.20261119.2/Meitou-0.22.2-nightly.20261119.2-win-x64.zip",
+        "digest": "sha256:430f13dbde9d81e7a159129f1fffceccbcd4dc598df3d31e8391725775892546"
+      }
+    ]
+  }
+}
