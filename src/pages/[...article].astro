@@ -17,7 +17,7 @@ const {entry,article}=Astro.props;
 const {href}=await readWiki();
 const data=entry.data;
 const {intro,body,outline,buildingPanel}=prepareArticle(entry.rendered?.html,data,href);
-const importedGeography = ['geography','faction','race','animal','character','item','building','crafting','technology'].includes(data.layout);
+const importedGeography = ['geography','faction','race','animal','character','item','building','crafting','technology','shop'].includes(data.layout);
 if (importedGeography) outline.push({id:'source-history', label:'Sources and history', children:[]});
 const categories=displayCategories(data.categories);
 const source=recordedSource(article.sourceFile, article.sourceRevision, snapshot.revision);

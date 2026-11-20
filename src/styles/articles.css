@@ -315,9 +315,12 @@
 
 .shop figure.quote figcaption a{display:inline}
 .shop .shop-record-id{font:12px/1.5 ui-monospace,monospace;color:var(--quiet);overflow-wrap:anywhere}
-.shop .shop-stock{min-width:34rem;width:100%;max-width:none}
+.shop .table-scroll .shop-stock{min-width:34rem;width:100%;max-width:none}
 .shop .shop-stock :is(th,td){white-space:normal}
 .shop .shop-stock th[scope=row]{font-weight:400;text-align:left}
 .shop .shop-stock th[scope=colgroup]{text-align:left}
 .shop .shop-stock tbody tr:has(th[scope=col]){border-top:2px solid var(--edge)}
 .shop details{min-width:0}
+
+.shop .table-scroll{scroll-margin-top:calc(2 * var(--bar) + 12px)}
+@media print{.shop .table-scroll .shop-stock{min-width:0;font-size:9pt}}

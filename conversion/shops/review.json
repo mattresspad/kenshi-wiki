@@ -1,5 +1,94 @@
 {
   "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-  "articles": [],
-  "editorialChanges": []
+  "articles": [
+    {
+      "id": "adventurer-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 44856-rebirth.mod Adventurer Bar is a vendor found in Tech Hunter settlements. This bar has more high-tech and adventuring equipment than most other bars. Possible Locations Black Scratch Spring Waystations World’s End Depending on certain World States, this vendor might spawn in these locations: The Free City Residents Waystation Barman Drifter Housemates Ninja Guard (6 to 8) Possible Stock Blueprints Bolts: Heavies Bolts: Longs Bolts: Regulars Camp Shelter Mercenary Tent Scrap Tent Maps Map of the Shek Kingdom Map of the Swamps Map of the United Cities (Extended Territories) Map of Vain Map to Mongrel Map to World’s End",
+      "organization": "Reviewed 4 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/adventurer-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e36aeb5d82c090f9eba7f40d6727090510c33c193cd81223e79baa7fa4848782"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "armour-kings-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50249-rebirth.mod Armour King’s Shop is a hidden unique armour shop found in Drowned Ruins in the river Wend. It carries some of the highest quality armour in the game, for those that can afford it. This shop also rents out beds upstairs for free if the player is in need of healing. Residents Armour King Armour King’s Thrall (4) Security Spider II This location has a gear Artifacts value of c.150,000, meaning it will spawn armour and weapons from the Artifacts system. Artifacts spawned Desert Sabre [Model # Edge Type 1] Guardless Katana [Model # Mk I] Topper [Model # Mk III] Vendor List Relative Armour Quality chances : Standard = 2 High = 80 Specialist = 110 Masterwork = 50 Possible Stock",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/armour-kings-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "56d4b46c9ef11daf3eec2b89b6e833c899c096f14baf4f90940c7cddf3648039"
+      },
+      "questions": [
+        "claim:shops-armour-king-quality-weights",
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-missing-stock-cells",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "bakery",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 14488-rebirth.mod Bakery is essentially a bar found in a few Town Overrides. This is a different vendor from the other bakeries, Holy Bakery and Empire Bakery. Due to Trade Cultures, this vendor might have item restrictions depending on which location it is in. Possible Locations Depending on certain World States, this vendor might spawn in these locations: Blister Hill Port South Slave Farm South Residents Barman Shop Guard (1) Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bakery.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "04ee519a897a3007e6d7c4da50629d24a9a8afd29cc9828c67cc39a1ae288775"
+      },
+      "questions": [
+        "claim:shops-bakery-zero-stock",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-trade-culture-effects",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "scraphouse",
+      "existence": "Existing permanent ID, /scraphouse address and locations/sites/scraphouse.md home retained. Original location and shop identifiers are both preserved.",
+      "content": "Reviewed vendor capacity 160-240, 48-hour restock qualification, guard quantities and ages, fixed artifact/special-item list, relative manufacturer and item-pool weights, theft advice and blueprint list. These remain imported claims; no new gameplay verification is asserted.",
+      "organization": "Existing three-heading geographic layout, grouped inventory, qualifications, source history and correction route retained. Blank grades/manufacturers, paired record identifiers and old map link remain investigation items.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/scraphouse.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "21ec787c9461c7a38fb0798686d19a9f89688c9abbb83b96811407928fd25a26"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-scraphouse-inventory",
+        "claim:shops-scraphouse-two-record-ids",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    }
+  ],
+  "editorialChanges": [
+    {
+      "id": "shop-stock-separators",
+      "change": "Remove only rule-only separators with no content or IDs; preserve inventory groups and every data cell.",
+      "evidence": "src/lib/shop-tables.mjs"
+    },
+    {
+      "id": "shop-semantic-headers",
+      "change": "Expose header scopes, item group labels and safe source-marked sorting; retain malformed and grouped rows in source order.",
+      "evidence": "src/lib/shop-tables.mjs"
+    },
+    {
+      "id": "shop-record-label",
+      "change": "Label existing record-ID paragraphs for assistive technology without changing the identifier or source order.",
+      "evidence": "src/lib/shop-tables.mjs"
+    }
+  ]
 }

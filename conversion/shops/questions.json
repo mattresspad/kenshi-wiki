@@ -133,5 +133,89 @@
     "Scraphouse availability and stock descriptions remain imported claims with separate record and gameplay semantics.",
     "Compare shop records and observed stock behavior while retaining existing geographic history.",
     "Completing the editorial review does not independently verify its inventory rules."
+  ],
+  [
+    "shops-artifact-restock-claims",
+    null,
+    "Artifacts|artifacts|will not respawn|one time spawns",
+    "Artifact loot, ordinary vendor stock and special items have distinct spawning and refresh claims.",
+    "Verify exact town and squad records and separate initial loot from later shop refresh.",
+    "Artifact values and prices do not prove replenishment behavior."
+  ],
+  [
+    "shops-incomplete-record-placeholders",
+    null,
+    "\\{\\{\\{string id\\}\\}\\}|Needs to include weapons|list is incomplete|Need info|Need further|Need more",
+    "Several articles retain unresolved FCS-ID placeholders or explicitly incomplete inventories and descriptions.",
+    "Identify original records and missing source material with versioned provenance before filling the gaps.",
+    "Placeholder text is inherited missing information, not a resolved record ID."
+  ],
+  [
+    "shops-override-copy-labels",
+    null,
+    "there may be a[n]? Independent Bar",
+    "Some non-bar shop articles describe their override locations as an Independent Bar.",
+    "Compare each claimed override template and its vendor ID; correct wording only with supporting source evidence.",
+    "This could be copied wording or a genuine replacement; preserve the text pending verification."
+  ],
+  [
+    "shops-farm-animal-age",
+    [
+      "farm-shop"
+    ],
+    "-10%|40% adult age|Animals",
+    "Farm Shop gives a Bonedog spawn age of -10% alongside a Garru age of 40%.",
+    "Trace age-field units, initialization and runtime clamping before publishing an interpretation.",
+    "Negative raw values might have special semantics; do not silently change the sign."
+  ],
+  [
+    "shops-police-bounty-behavior",
+    [
+      "police-station",
+      "shek-police-station"
+    ],
+    "75%|half|2 points|cells are full|repeatedly|directly placing",
+    "Police articles claim different bounty rewards, relation changes and full-cell behavior.",
+    "Test dialogue hand-in, direct imprisonment, death state and full-cell cases separately at a recorded version.",
+    "The stated exploit and relation rewards remain imported observations without a new test."
+  ],
+  [
+    "shops-repair-and-bed-services",
+    [
+      "robotics-workshop",
+      "mongrel-robotics-workshop",
+      "worker-hut",
+      "thieves-guild",
+      "holy-hospital",
+      "hospital"
+    ],
+    "wear|heal speed|Beds|beds|Character Customization|half-price",
+    "Bed access, wear repair, healing and allied services require qualifications beyond stock tables.",
+    "Verify the relevant service and access conditions with exact records and observed behavior.",
+    "Imported service descriptions are not validated by restoring their destination."
+  ],
+  [
+    "shops-loot-access-and-spawning",
+    [
+      "blackshifter-casino-bar",
+      "empire-armory",
+      "tech-hunter-bar",
+      "temple",
+      "slave-shop"
+    ],
+    "cannot|none spawn|illegal|guaranteed|c.400|will enslave|all night",
+    "Some stock-bearing locations cannot trade, some vendors fail to spawn, and service or stock exceptions are explicitly qualified.",
+    "Distinguish loot inventory from trade UI availability, condition-dependent NPC behavior and enforcement.",
+    "Do not infer a usable vendor or guaranteed recruit from a listed stock table or label."
+  ],
+  [
+    "shops-scraphouse-two-record-ids",
+    [
+      "scraphouse"
+    ],
+    "56153|56154|160|240|48",
+    "Scraphouse retains both location and shop record identifiers and separately stated stock fields.",
+    "Map each identifier to its record type and verify refresh/capacity semantics without conflating the records.",
+    "Distinct IDs can legitimately refer to different records at the same establishment."
   ]
 ]

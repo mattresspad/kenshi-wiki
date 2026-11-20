@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "name": "shop-pilots",
+    "resolved": [
+      "/adventurer-bar",
+      "/armour-kings-shop",
+      "/bakery",
+      "/category/town-residents",
+      "/category/traders",
+      "/category/vendors"
+    ],
+    "introduced": [
+      "/shark-big-shop",
+      "/shek-police-station",
+      "/skeletons-trade-culture",
+      "/southeast-trade-culture",
+      "/trade-goods-trader-generic"
+    ]
+  }
+]

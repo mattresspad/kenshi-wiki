@@ -200,6 +200,17 @@
       }
     },
     {
+      "id": "availability:/adventurer-bar",
+      "kind": "availability",
+      "target": "/adventurer-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/adventurer-bar"
+      }
+    },
+    {
       "id": "availability:/adventurer-recruit",
       "kind": "availability",
       "target": "/adventurer-recruit",
@@ -596,6 +607,17 @@
       }
     },
     {
+      "id": "availability:/armour-kings-shop",
+      "kind": "availability",
+      "target": "/armour-kings-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/armour-kings-shop"
+      }
+    },
+    {
       "id": "availability:/armour-kings-thrall",
       "kind": "availability",
       "target": "/armour-kings-thrall",
@@ -989,6 +1011,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/baker"
+      }
+    },
+    {
+      "id": "availability:/bakery",
+      "kind": "availability",
+      "target": "/bakery",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bakery"
       }
     },
     {
@@ -2892,6 +2925,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/category/technology"
+      }
+    },
+    {
+      "id": "availability:/category/town-residents",
+      "kind": "availability",
+      "target": "/category/town-residents",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/town-residents"
+      }
+    },
+    {
+      "id": "availability:/category/traders",
+      "kind": "availability",
+      "target": "/category/traders",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/traders"
+      }
+    },
+    {
+      "id": "availability:/category/vendors",
+      "kind": "availability",
+      "target": "/category/vendors",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/vendors"
       }
     },
     {
@@ -21549,6 +21615,30 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "9326f6a69679924f777513e6c710f6f97ed9a787c3b499bf66ab5d4d1e9c2c10",
         "sourceSha256": "9326f6a69679924f777513e6c710f6f97ed9a787c3b499bf66ab5d4d1e9c2c10"
+      }
+    },
+    {
+      "id": "media:/icons/items/49051-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49051-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "45d12242c7b7b23ab8e45cfb1ebbc113d953606bd04623507be52034475e4e57",
+        "sourceSha256": "45d12242c7b7b23ab8e45cfb1ebbc113d953606bd04623507be52034475e4e57"
+      }
+    },
+    {
+      "id": "media:/icons/items/49052-Dialogue.mod.png",
+      "kind": "media",
+      "target": "/icons/items/49052-Dialogue.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "9bf8a763a141aca022ed4269e9c9402b30e93b4efada8af9a98237708eed43c7",
+        "sourceSha256": "9bf8a763a141aca022ed4269e9c9402b30e93b4efada8af9a98237708eed43c7"
       }
     },
     {
