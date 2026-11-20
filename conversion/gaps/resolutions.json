@@ -211,6 +211,28 @@
       }
     },
     {
+      "id": "availability:/adventurer-mechanical-shop",
+      "kind": "availability",
+      "target": "/adventurer-mechanical-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/adventurer-mechanical-shop"
+      }
+    },
+    {
+      "id": "availability:/adventurer-ranger-shop",
+      "kind": "availability",
+      "target": "/adventurer-ranger-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/adventurer-ranger-shop"
+      }
+    },
+    {
       "id": "availability:/adventurer-recruit",
       "kind": "availability",
       "target": "/adventurer-recruit",
@@ -472,6 +494,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/anti-slaver"
+      }
+    },
+    {
+      "id": "availability:/anti-slaver-hq",
+      "kind": "availability",
+      "target": "/anti-slaver-hq",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/anti-slaver-hq"
       }
     },
     {
@@ -794,6 +827,17 @@
       }
     },
     {
+      "id": "availability:/ashland-trade-culture",
+      "kind": "availability",
+      "target": "/ashland-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ashland-trade-culture"
+      }
+    },
+    {
       "id": "availability:/ashlander-stormgoggles",
       "kind": "availability",
       "target": "/ashlander-stormgoggles",
@@ -1069,6 +1113,17 @@
       }
     },
     {
+      "id": "availability:/bank",
+      "kind": "availability",
+      "target": "/bank",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bank"
+      }
+    },
+    {
       "id": "availability:/bar-fisherman",
       "kind": "availability",
       "target": "/bar-fisherman",
@@ -1088,6 +1143,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/bar-fly"
+      }
+    },
+    {
+      "id": "availability:/bar-of-mourn",
+      "kind": "availability",
+      "target": "/bar-of-mourn",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bar-of-mourn"
       }
     },
     {
@@ -1341,6 +1407,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/battery-power-tech"
+      }
+    },
+    {
+      "id": "availability:/battery-station",
+      "kind": "availability",
+      "target": "/battery-station",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/battery-station"
       }
     },
     {
@@ -1707,6 +1784,17 @@
       }
     },
     {
+      "id": "availability:/black-market-bar",
+      "kind": "availability",
+      "target": "/black-market-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/black-market-bar"
+      }
+    },
+    {
       "id": "availability:/black-plate-jacket",
       "kind": "availability",
       "target": "/black-plate-jacket",
@@ -1803,6 +1891,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/blackshifter"
+      }
+    },
+    {
+      "id": "availability:/blackshifter-casino-bar",
+      "kind": "availability",
+      "target": "/blackshifter-casino-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/blackshifter-casino-bar"
       }
     },
     {
@@ -2100,6 +2199,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/bookshop-trader"
+      }
+    },
+    {
+      "id": "availability:/boot-shop",
+      "kind": "availability",
+      "target": "/boot-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/boot-shop"
       }
     },
     {
@@ -3027,6 +3137,17 @@
       }
     },
     {
+      "id": "availability:/catun-scrapmasters",
+      "kind": "availability",
+      "target": "/catun-scrapmasters",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/catun-scrapmasters"
+      }
+    },
+    {
       "id": "availability:/catun/fishmen",
       "kind": "availability",
       "target": "/catun/fishmen",
@@ -3225,6 +3346,17 @@
       }
     },
     {
+      "id": "availability:/clothes-shop",
+      "kind": "availability",
+      "target": "/clothes-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/clothes-shop"
+      }
+    },
+    {
       "id": "availability:/clothing",
       "kind": "availability",
       "target": "/clothing",
@@ -3255,6 +3387,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/clothing-manufacture-tech"
+      }
+    },
+    {
+      "id": "availability:/clothing-shop",
+      "kind": "availability",
+      "target": "/clothing-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/clothing-shop"
       }
     },
     {
@@ -3643,6 +3786,17 @@
       }
     },
     {
+      "id": "availability:/crab-bar",
+      "kind": "availability",
+      "target": "/crab-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-bar"
+      }
+    },
+    {
       "id": "availability:/crab-barman",
       "kind": "availability",
       "target": "/crab-barman",
@@ -3761,6 +3915,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crab-shoes"
+      }
+    },
+    {
+      "id": "availability:/crab-shop",
+      "kind": "availability",
+      "target": "/crab-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-shop"
+      }
+    },
+    {
+      "id": "availability:/crab-smithy",
+      "kind": "availability",
+      "target": "/crab-smithy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-smithy"
       }
     },
     {
@@ -4135,6 +4311,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/deadcat"
+      }
+    },
+    {
+      "id": "availability:/deadcat-bar",
+      "kind": "availability",
+      "target": "/deadcat-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/deadcat-bar"
+      }
+    },
+    {
+      "id": "availability:/deadcat-big-shop",
+      "kind": "availability",
+      "target": "/deadcat-big-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/deadcat-big-shop"
       }
     },
     {
@@ -4531,6 +4729,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/drifters-last"
+      }
+    },
+    {
+      "id": "availability:/drifters-last-general-shop",
+      "kind": "availability",
+      "target": "/drifters-last-general-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/drifters-last-general-shop"
       }
     },
     {
@@ -5048,6 +5257,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/empire-adventurer"
+      }
+    },
+    {
+      "id": "availability:/empire-armor-shop",
+      "kind": "availability",
+      "target": "/empire-armor-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-armor-shop"
+      }
+    },
+    {
+      "id": "availability:/empire-armory",
+      "kind": "availability",
+      "target": "/empire-armory",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-armory"
+      }
+    },
+    {
+      "id": "availability:/empire-bakery",
+      "kind": "availability",
+      "target": "/empire-bakery",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-bakery"
       }
     },
     {

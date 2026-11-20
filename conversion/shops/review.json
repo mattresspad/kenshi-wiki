@@ -247,6 +247,355 @@
         "sha256": "bf00b9cb887a9f7d0d235b8bcbee3399da3773a268c0483f2ca9e3d2236e3165"
       },
       "questions": []
+    },
+    {
+      "id": "adventurer-mechanical-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 44855-rebirth.mod Adventurer Mechanical Shop is a shop which sells all crops except for Riceweed and construction materials. This shop is also capable of spawning Artifacts, as such it may spawn items not in the list. These items, however, will not respawn when the shop restocks. Towns marked with an asterisk (*) will have the shop spawn artifacts. Locations Black Scratch Flats Lagoon* Waystations World’s End* Depending on World States, this vendor might spawn in these locations: Admag Bad Teeth Squin Stack The Free City Residents Ronin Construction Trader Ninja Guard (5) Possible Stock Blueprints Advanced Outpost Blueprints Advanced Harpoonery Basic Furniture Random Furniture",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/adventurer-mechanical-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b83f5789b2abcd1014a6187fec2efb5a08ad79c00d47cc6ed52704bb85e8c11e"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "adventurer-ranger-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 95787-rebirth.mod Adventurer Ranger Shop is a Ranger Shop controlled by the Tech Hunters. This shop has better stock than the Empire Ranger Shop. Possible Locations Black Scratch Flats Lagoon Mongrel Spring World’s End Residents Tech Hunter Shopkeeper Shinobi Guard (2 to 4) Possible Stock Blueprints Bolts: Heavies Bolts: Longs Bolts: Regulars Eagle’s Cross (rare) Junkbow (rare) Oldworld Bow MkI (uncommon) Oldworld Bow MkII (rare) Ranger Spring Bat Tooth Pick",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/adventurer-ranger-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "19fe33f7ba02eb0f3d97dd85f050ee29f336600f18a9c45dfdcc730ff70732ed"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "anti-slaver-hq",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 62175-rebirth.modAnti-Slaver HQ is the headquarters of the Anti-Slavers faction, located in Spring. The headquarters is in a swamp dome and is located in the center of town. Residents Tinfist Grey Anti-Slaver Jonin (HQ Variant) Anti-Slaver (HQ Variant) Interior The interior has a sleeping area, training area with 6 Training Dummies, a kitchen, cages, a storage area, and a main sitting area. Item Spawns There are several container types, including wood barrels, metal chests, wood chests, baskets and weapon cabinets. The containers mostly hold stealth gear and Katanas. Trivia In the back, there are beds that can be rented for 100 c. The interior Layout follows the “Faction HQ Cages",
+      "organization": "Reviewed 4 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/anti-slaver-hq.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6f2e6598cbf4928a67fcd0f530a365539dcb87bcce00f21f7b583144bf8cbc46"
+      },
+      "questions": []
+    },
+    {
+      "id": "ashland-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Ashland Trade Culture is a trade culture which removes book items from the vendor lists of locations linked to it. Locations Barrier Tower Sniper Tower All locations controlled by Ancient Ruins: Ancient Labs Ancient Tech Lab Ashland Dome Ruin Crumbling Labs Dead Workshop Deadland Workshop Empty Lab Infested Lab Lab Ruin Post-Ancient Workshop Reprogramming Workshop Ruined Control Tower Swamped Lab Workshop Complex Possible Stock",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ashland-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c8f5b4be8229941d768ea28ce24987f51a7d379716556e4d50d52da3ac8b64c7"
+      },
+      "questions": [
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-trade-culture-effects"
+      ]
+    },
+    {
+      "id": "bank",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 56132-rebirth.mod Bank is a Traders Guild location found in Trader’s Edge. This location has a copy of the life-changing lore book Money is Freedom. Despite storing some valuable items such as Leviathan Pearls, this institution does not provide any banking services to the player. Residents Traders Guard (5) This location has an item artifacts value of c.25,000, meaning it will spawn additional items through the Artifacts system. Possible Stock",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bank.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8fee166a1329303442f7c07772cd9e73868ee40a86e0d9ae595501091e974afc"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "bar-of-mourn",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 95554-Mourn.mod Bar of Mourn is the bar specifically found in Mourn. This bar has unique dialogue relating to the Great White Gorillo. But is otherwise similar to the standard Black Market Bar. Residents Mourn Barman Ninja Guard (4) Possible Stock Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bar-of-mourn.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a45e40d8cc01923c91a62b19a248617b8f0ce7ef1a6dfcb2626530e58a826aa2"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "battery-station",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Battery Stations are small buildings in towns that house most, if not all, of the towns battery banks. They are easily accessed by simply unlocking the door through Lockpicking and can even have small trinkets in them such as small statues or rarely bread. Otherwise they are purely aesthetic.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/battery-station.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7ff03b4bc93d3bf60576dfc9cc918507c710719d10e14c539ba140a6a6aa38b3"
+      },
+      "questions": []
+    },
+    {
+      "id": "black-market-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 44422-rebirth.mod Black Market Bar is a small bar owned by the Trade Ninjas. Although primarily a bar, this shop also sells a variety of construction materials and weapons. This bar accepts all sorts of stolen goods, unless of course the commodities that you sell them are stolen directly from them. Possible Locations Rebel Base The Hub Depending on certain World States, this vendor might spawn in these locations: Heft (override) Heng (override) Stoat (override) takeover Residents Barman Ninja Guard (2 to 4) Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/black-market-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a233ec8b949075a6293777da4a906acc718e6a4e621b9a054f4a01ac8c671b30"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "blackshifter-casino-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50639-rebirth.mod Put your money where your mouth is and come play Crawlin' for Cats! Blackshifter Casino Bar is a unique bar only found in The Swamp. Blackshifters run the bar. Players can speak to the Casino Dealer to gamble, 100 Cats at a time. Players cannot trade with this location. Possible Locations Mud Town Shark Depending on World States, there may be a Independent Bar found in these locations: Shark Residents Swamper Casino Dealer Blackshifter (5) This location also happens to contain Letter To Darkbrow and Memo From Big Grim. Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blackshifter-casino-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "693e78c43a7bc47920a2674ee0552746c607e0559482bacbd28a40509b07a85a"
+      },
+      "questions": [
+        "claim:shops-loot-access-and-spawning",
+        "claim:shops-override-copy-labels",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "boot-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1824-gamedata.base Boot Shop is a shop which sells Footwear and travel items. This location can potentially sell the blueprint for Drifter’s Boots. Possible Locations Mongrel Depending on certain World States, this vendor might be found in: Blister Hill Stoat Residents Boot Trader Shop Guard (1 to 2) Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/boot-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "99619ed92c23d7094630a92cf90c17db3d85960edbf9e53008f4c2b4ee0a2daa"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "catun-scrapmasters",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 52334-rebirth.mod Catun Scrapmasters is a unique weapon shop found in Catun. This vendor is controlled by the United Cities. This is the home of the Catun Scrapmaster weapons manufacturer. This shop exclusively sells weapons manufactured by the Catun Scrapmasters. Residents Catun Scrapmaster Citizen (4) Possible Stock Blueprints Wakizashis Ninja Blades Ringed Sabres Sabres Holed Sabres Desert Sabres Foreign Sabres Naginatas Katanas Nodachi Polearms Longswords Jittes Toppers",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/catun-scrapmasters.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3f3a6c2bff639dd8fba2d74d5a8fc958cad6bfaa43e8f9fd2aff973b5bb632cd"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "clothes-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is about the HN Clothes Shop. For the united cities variant, see Clothing Shop. 43400-Dialogue.mod Holy Clothes Shop is a shop which sells Clothing and some Armour in The Holy Nation. Possible Locations Blister Hill Bad Teeth Stack Depending on World States, this vendor might spawn in these locations: Bad Teeth half-destroyed Residents Holy Clothing Trader Holy Shop Guard (1 to 2) Possible Stock Blueprints Black Cloth Shirt Blackened Chain Shirt Blackened Chainmail Cargopants [reinforced] Cargopants [sneaky chain] Cargopants [padded] Chain Shirt Chainmail Drifter’s Boots Drifter’s Leather Jacket Drifter’s Leather Pants Halfpants [reinforced] Halfpants [sneaky chain] Halfpants [padded] Leather Shirt Leather Turtleneck Leather Vest Monk Pants Monk Robe Ninja Gi Ninja Pants Rag Shirt Sandogasa Straw Hat Stout Hessian Uniform Turtleneck Wooden Sandals Gallery",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/clothes-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e85e029812616d058b9349d67e683051bc9b0afc08d6701760a89c96f5e2d25e"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "clothing-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is about the UC Clothing Shop. For the holy nation variant, see Clothes Shop. 1190-gamedata.base Clothing Shop is a shop which sells Clothing and some Armour in the United Cities Possible Locations Brink Heft Heng Stoat Depending on World States, this vendor might spawn in these locations: Blister Hill Residents UC Armour Trader Shop Guard (2) Possible Stock Blueprints Black Cloth Shirt Blackened Chain Shirt Blackened Chainmail Cargopants [reinforced] Cargopants [sneaky chain] Cargopants [padded] Chain Shirt Chainmail Drifter’s Boots Drifter’s Leather Jacket Drifter’s Leather Pants Halfpants [reinforced] Halfpants [sneaky chain] Halfpants [padded] Leather Shirt Leather Turtleneck Leather Vest Monk Pants Monk Robe Ninja Gi Ninja Pants Rag Shirt Sandogasa Straw Hat Stout Hessian Uniform Turtleneck Wooden Sandals",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/clothing-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "359b00e6a372d560946957492df75f10460d68f208d5c0a782d23b714701bc0c"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "crab-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 65826-rebirth.modCrab Bar is the bar specifically found in Crab Town. This bar is the home of bilingual unique recruit Lumi. Residents Crab Barman Housemates Crab Patron (2 to 3) Crab Raider (2 to 4) Twitchy Bar Thug (1 to 2) Possible Stock",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9c7442c79a1bf067196e276b005350ecf4a58b1ad220c6a93b800bb49316443d"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "crab-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 65953-Dialogue.modCrab Shop is a vendor for the Crab Raiders found in Crab Town and Crab Village. Players can purchase Crabs at this location. This store only exists as long as the Crab Queen has not been killed or imprisoned. Residents Crab Man Crab (4 to 8) at 0.1x to 0.3x age when spawned",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "362e28a65c865bd74c4c44ed723aa8cb20a24926c564425c61043674f9e29f32"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "crab-smithy",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 62833-rebirth.mod Crab Smithy is a vendor for the Crab Raiders found in Crab Town and Crab Village. The shopkeeper is a Crabsmith. A Crab Raider and a Crab Raider Civilian can also be found in this shop. This store only exists as long as the Crab Queen has not been killed or imprisoned. Residents Crabsmith Crab Raider Civilian Crab Raider Possible Stock Blueprints Crab Armour Crab Helmet Crab Shoes Crab Trousers Rusty Chain Shirt Rusty Chainmail",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-smithy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c3836624fe8dfdd50839d432673ea40129711237c74d3ccf4757080492055f3a"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "deadcat-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50345-rebirth.mod Deadcat Bar is a bar and flophouse inside a Swamp Dome found in the northern Fishing Village. The bar is a good place to find a couple of unique recruits. Residents Deadcat Vendor Possible Stock Wanted Posters Bugmaster Dust King Ells The Canyonlands Killer The Preacher The Red Bandit Tinfish Giant King Gurgler Voodoo Brothers",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/deadcat-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e305836dd552dce9b6465f4f97f9473bde0946978738e10ac7d78a4d90469102"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "deadcat-big-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50978-rebirth.mod Deadcat Big Shop is a travel shop. Possible Locations Fishing Village Stone Rat Village Swamp Village Depending on certain World States, this vendor may spawn in these locations: Grayflayer Village (Travel Shop) Stone Rat Village (Hounds) Residents Deadcat Vendor Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/deadcat-big-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "92998a63c97f5ff542cbe2862f8d0a625251f65e2074ae4209963d3744d280df"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "drifters-last-general-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1194-gamedata.base Drifter’s Last General Shop is a shop which sells Footwear, Headgear and travel items. Possible Locations Drifter’s Last Residents Boot Trader Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/drifters-last-general-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b7f11ef5f9872ae5ec8f75d7aba947e69d7adef55e4b7ebd4a960a99e85f17a5"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-armor-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1177-gamedata.base Empire Armour Shop is the standard Armour Shop found in the United Cities. Possible Locations Bark Drifter’s Last Many town overrides of Bark and Drifter’s Last can still spawn this vendor. Residents UC Armour Trader Shop Guard Possible Stock Blueprints Mercenary Plate Plated Longboots Samurai Clothpants Samurai Boots Samurai Armour Samurai Helmet Samurai Legplates Armoured Face Plates Plate Jacket Flared Helmet Masked Helmet Police Helmet Spiked Helmet Visored Helmet Mercenary Leather Armour Hachigane Side-Angle Hachigane Iron Hat Black Plate Jacket",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-armor-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8625dbf04678c00606e3d7e5dfb793807160f2b9791226fe52150a9ed707f81a"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-armory",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 56040-rebirth.mod Empire Armory is an Armory found in the United Cities. Armour-wise, this location has the same stock as Empire Armour Shop. This location cannot be purchased from. Possible Locations Drin Depending on World States, this vendor might be available at the following location: Okran’s Shield Residents Samurai Samurai Conscript (3 to 5) Note: this list is incomplete and is missing the blueprints and weapons which can spawn in this vendor. Possible Stock Blueprints Mercenary Plate Plated Longboots Samurai Clothpants Samurai Boots Samurai Armour Samurai Helmet Samurai Legplates Armoured Face Plates Plate Jacket Flared Helmet Masked Helmet Police Helmet Spiked Helmet Visored Helmet Mercenary Leather Armour Hachigane Side-Angle Hachigane Iron Hat Black Plate Jacket",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-armory.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7838d11e2b841da66b7c615d796b1fde1f0c2bb7795ad91b9e67067499ea9c12"
+      },
+      "questions": [
+        "claim:shops-incomplete-record-placeholders",
+        "claim:shops-loot-access-and-spawning",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-bakery",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 56137-rebirth.mod Empire Bakery is essentially a bar found in a few United Cities locations. This is a different vendor from the Holy Nation equivalent, Holy Bakery. Possible Locations Heft Sho-Battai Stoat Depending on certain World States, this vendor might spawn in these locations: Blister Hill Sho-Battai Stoat Residents Baker Shop Guard (1 to 2) Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-bakery.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "23dc76aee5d77ca7ad181917e29aac3cead7e008f26e537ecffd16e57a9423f3"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
     }
   ],
   "editorialChanges": [

@@ -65,5 +65,38 @@
       "/weapons-trader"
     ],
     "introduced": []
+  },
+  {
+    "name": "shop-siblings-1",
+    "resolved": [
+      "/adventurer-mechanical-shop",
+      "/adventurer-ranger-shop",
+      "/anti-slaver-hq",
+      "/ashland-trade-culture",
+      "/bank",
+      "/bar-of-mourn",
+      "/battery-station",
+      "/black-market-bar",
+      "/blackshifter-casino-bar",
+      "/boot-shop",
+      "/catun-scrapmasters",
+      "/clothes-shop",
+      "/clothing-shop",
+      "/crab-bar",
+      "/crab-shop",
+      "/crab-smithy",
+      "/deadcat-bar",
+      "/deadcat-big-shop",
+      "/drifters-last-general-shop",
+      "/empire-armor-shop",
+      "/empire-armory",
+      "/empire-armour-shop",
+      "/empire-bakery",
+      "/trade-ninjas-bar"
+    ],
+    "introduced": [
+      "/memo-from-big-grim",
+      "/money-is-freedom"
+    ]
   }
 ]
