@@ -6745,6 +6745,17 @@
       }
     },
     {
+      "id": "availability:/game-starts",
+      "kind": "availability",
+      "target": "/game-starts",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#complex-comparisons",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/game-starts"
+      }
+    },
+    {
       "id": "availability:/gameplay",
       "kind": "availability",
       "target": "/gameplay",
@@ -12066,6 +12077,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/note-from-moll"
+      }
+    },
+    {
+      "id": "availability:/npc-shopping-behavior",
+      "kind": "availability",
+      "target": "/npc-shopping-behavior",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#complex-comparisons",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/npc-shopping-behavior"
       }
     },
     {
@@ -20217,6 +20239,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/wheatstraw"
+      }
+    },
+    {
+      "id": "availability:/wheatstraw-60-or-cactus-100",
+      "kind": "availability",
+      "target": "/wheatstraw-60-or-cactus-100",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#complex-comparisons",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wheatstraw-60-or-cactus-100"
       }
     },
     {

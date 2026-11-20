@@ -5506,6 +5506,18 @@
     "town-overrides": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/gameplay/review.json"
+    },
+    "wheatstraw-60-or-cactus-100": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "npc-shopping-behavior": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "game-starts": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
     }
   },
   "mediaGaps": [

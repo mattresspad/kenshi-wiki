@@ -47,5 +47,16 @@
       "/guides"
     ],
     "introduced": []
+  },
+  {
+    "name": "complex-comparisons",
+    "resolved": [
+      "/game-starts",
+      "/npc-shopping-behavior",
+      "/wheatstraw-60-or-cactus-100"
+    ],
+    "introduced": [
+      "/category/pages-that-use-a-deprecated-format-of-the-math-tags"
+    ]
   }
 ]
