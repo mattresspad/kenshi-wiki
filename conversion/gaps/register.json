@@ -187647,6 +187647,175 @@
       ]
     },
     {
+      "id": "claim:modding-literal-markup",
+      "kind": "claim",
+      "target": "/dialogue-text-formatting-colors-italics-etc",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Literal formatting examples contain unclosed inline markup in the pinned import. It also nests the prototype attribution notice in the body; the preservation comparison now isolates that named notice while retaining all instructional words.",
+      "proposedResolution": "Compare the original Fandom formatting examples with the pinned Markdown before changing escaping or presentation. Keep attribution separately verified.",
+      "uncertainty": "Source example rendering has not been established as a faithful representation of the author’s intended syntax.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "dialogue-text-formatting-colors-italics-etc",
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "1310ba64c28fbb81be01d5672c840569516cb6c6f41c93b685b17199e925ec7c",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dialogue-text-formatting-colors-italics-etc.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "title: \"Dialogue text formatting, colors, italics etc\"",
+          "literal": "title: \"Dialogue text formatting, colors, italics etc\"",
+          "line": 2,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "  title: \"Dialogue text formatting, colors, italics etc\"",
+          "literal": "  title: \"Dialogue text formatting, colors, italics etc\"",
+          "line": 5,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "### Color",
+          "literal": "### Color",
+          "line": 24,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "You can just slap a hex color code (fe #66ff66) in front of a word and it works. No brackets needed, just the hashtag. Just remember, there are different UI color schemes available, so it is best to use universally visible colors (for the not colorblind).",
+          "literal": "You can just slap a hex color code (fe #66ff66) in front of a word and it works. No brackets needed, just the hashtag. Just remember, there are different UI color schemes available, so it is best to use universally visible colors (for the not colorblind).",
+          "line": 26,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "Whilst not generally an issue, something to mention is that if you apply any form of color to the player dialogue lines, the \"on hover\" color swap will no longer function.",
+          "literal": "Whilst not generally an issue, something to mention is that if you apply any form of color to the player dialogue lines, the \"on hover\" color swap will no longer function.",
+          "line": 28,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "It is also recommended you use word swaps for your colors. It will just not help you remember which is which, but it also allows the people with color issues to change them to something they can see properly.",
+          "literal": "It is also recommended you use word swaps for your colors. It will just not help you remember which is which, but it also allows the people with color issues to change them to something they can see properly.",
+          "line": 30,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "How to use: just type the hex in front the word to be recolored, or preferably the color word swap like: _\"Wouldn't /BLOODRED/you like to see that\"._",
+          "literal": "How to use: just type the hex in front the word to be recolored, or preferably the color word swap like: _\"Wouldn't /BLOODRED/you like to see that\"._",
+          "line": 32,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "Shameless plug: I have released a Modders Resource to standardize some colors and prefabs of some specific flags to apply this. Check it out [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3633641119). \\[Soar\\].",
+          "literal": "Shameless plug: I have released a Modders Resource to standardize some colors and prefabs of some specific flags to apply this. Check it out [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3633641119). \\[Soar\\].",
+          "line": 34,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "Yes, you need to put the hex or word swap name **in front of every word you want to color** as there is no brackets you can put around the entire sentence. If you know you are gonna need to repeat one specific sentence in that color, make a separate word swap for it so you only need to type the hexes once. fe, #821400 this #821400 darn #821400 map and use it in the dialogue _\"I can't believe it /THISMAP/ gets every landmark wrong!\"_",
+          "literal": "Yes, you need to put the hex or word swap name **in front of every word you want to color** as there is no brackets you can put around the entire sentence. If you know you are gonna need to repeat one specific sentence in that color, make a separate word swap for it so you only need to type the hexes once. fe, #821400 this #821400 darn #821400 map and use it in the dialogue _\"I can't believe it /THISMAP/ gets every landmark wrong!\"_",
+          "line": 38,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "Upon more tests it looks like the color tends to want to color everything after in the same dialogue. You might have to return to original color by recoloring the text with the hex of the normal text color.",
+          "literal": "Upon more tests it looks like the color tends to want to color everything after in the same dialogue. You might have to return to original color by recoloring the text with the hex of the normal text color.",
+          "line": 40,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "There are different colors used for player and NPC text in dialogue. For vanilla it is #140805 (NPC), #b3b3b3 (PLAYER), for Dark UI it is #9c9c9c (NPC), #767676 (PLAYER). This also means the mod cannot be used with both UIs, you must choose. Although you could make the NPC ask in the beginning which UI the player has and then use 'use always the same answer' in the word swap for the main color. Cumbersome and immersion breaking, but no need to make two mods.",
+          "literal": "There are different colors used for player and NPC text in dialogue. For vanilla it is #140805 (NPC), #b3b3b3 (PLAYER), for Dark UI it is #9c9c9c (NPC), #767676 (PLAYER). This also means the mod cannot be used with both UIs, you must choose. Although you could make the NPC ask in the beginning which UI the player has and then use 'use always the same answer' in the word swap for the main color. Cumbersome and immersion breaking, but no need to make two mods.",
+          "line": 42,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "Colors that work for both vanilla and dark UI:",
+          "literal": "Colors that work for both vanilla and dark UI:",
+          "line": 46,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "As you can see pure white is the best color option for either UI color scheme for emphasis.",
+          "literal": "As you can see pure white is the best color option for either UI color scheme for emphasis.",
+          "line": 56,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "Avoid black, grey, greyish brown, too dark and too light, as well as too bright colors. Yellows and greens tend to be hard to read on vanilla and blues and purples on Dark UI. Pick a medium light tone that is slightly muted.",
+          "literal": "Avoid black, grey, greyish brown, too dark and too light, as well as too bright colors. Yellows and greens tend to be hard to read on vanilla and blues and purples on Dark UI. Pick a medium light tone that is slightly muted.",
+          "line": 58,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "### Bold and Italics",
+          "literal": "### Bold and Italics",
+          "line": 60,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "-   html <i></i>",
+          "literal": "-   html <i></i>",
+          "line": 66,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "-   lua formatting <i></>",
+          "literal": "-   lua formatting <i></>",
+          "line": 69,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "dialogue-text-formatting-colors-italics-etc",
+          "label": "There is a rumor, that we would need a Lua script to add this function and RE\\_Kenshi to load this script to the game. Which would make it horribly cumbersome for the end user just to see italics.",
+          "literal": "There is a rumor, that we would need a Lua script to add this function and RE\\_Kenshi to load this script to the game. Which would make it horribly cumbersome for the end user just to see italics.",
+          "line": 75,
+          "sourceFile": "src/content/wiki/dialogue-text-formatting-colors-italics-etc.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:modding-missing-media",
       "kind": "claim",
       "target": "/introduction-to-modding",

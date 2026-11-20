@@ -131,5 +131,43 @@
       "/category/forgotten-construction-set",
       "/category/help"
     ]
+  },
+  {
+    "name": "modding-siblings-3",
+    "resolved": [
+      "/how-to-make-custom-armour-mesh",
+      "/how-to-make-custom-collision-for-buildings-navmesh",
+      "/how-to-make-custom-hair",
+      "/how-to-make-custom-robotic-limbs",
+      "/how-to-make-icons-for-kenshi",
+      "/how-to-make-your-character-totally-invisible",
+      "/how-to-move-mods-from-workshop-to-kenshi/mods",
+      "/how-to-regenerate-blendmap-files",
+      "/how-to-use-the-part-map-aka-how-to-make-the-skin-invisible-under-clothes",
+      "/interior-walls-and-doors",
+      "/leveldata",
+      "/making-a-character-with-glowing-eyes-or-body",
+      "/making-a-custom-melee-weapon",
+      "/making-a-custom-world-map-terrain-characters-walk-on-and-pois",
+      "/making-a-food-mod-nutrition-value",
+      "/making-a-npc-shop-aka-how-to-set-up-vendors",
+      "/making-a-town-that-expands-and-grows-according-to-world-states",
+      "/making-teleports",
+      "/map-biome-areas-region-correlation",
+      "/mask-trigger-collision-script",
+      "/modders-resource-logo-masks-for-main-factions",
+      "/modding-enabling-to-craft-vanilla-armour"
+    ],
+    "introduced": [
+      "/category/biome",
+      "/category/biomemap",
+      "/category/building-meshes",
+      "/category/copy-the-number-part",
+      "/category/making-towns",
+      "/category/mask",
+      "/category/modders-resource",
+      "/category/moving-mods",
+      "/category/world-map"
+    ]
   }
 ]

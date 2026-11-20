@@ -10606,6 +10606,105 @@
       }
     },
     {
+      "id": "availability:/how-to-make-custom-armour-mesh",
+      "kind": "availability",
+      "target": "/how-to-make-custom-armour-mesh",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-custom-armour-mesh"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-custom-collision-for-buildings-navmesh",
+      "kind": "availability",
+      "target": "/how-to-make-custom-collision-for-buildings-navmesh",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-custom-collision-for-buildings-navmesh"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-custom-hair",
+      "kind": "availability",
+      "target": "/how-to-make-custom-hair",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-custom-hair"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-custom-robotic-limbs",
+      "kind": "availability",
+      "target": "/how-to-make-custom-robotic-limbs",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-custom-robotic-limbs"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-icons-for-kenshi",
+      "kind": "availability",
+      "target": "/how-to-make-icons-for-kenshi",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-icons-for-kenshi"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-your-character-totally-invisible",
+      "kind": "availability",
+      "target": "/how-to-make-your-character-totally-invisible",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-your-character-totally-invisible"
+      }
+    },
+    {
+      "id": "availability:/how-to-move-mods-from-workshop-to-kenshi/mods",
+      "kind": "availability",
+      "target": "/how-to-move-mods-from-workshop-to-kenshi/mods",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-move-mods-from-workshop-to-kenshi/mods"
+      }
+    },
+    {
+      "id": "availability:/how-to-regenerate-blendmap-files",
+      "kind": "availability",
+      "target": "/how-to-regenerate-blendmap-files",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-regenerate-blendmap-files"
+      }
+    },
+    {
+      "id": "availability:/how-to-use-the-part-map-aka-how-to-make-the-skin-invisible-under-clothes",
+      "kind": "availability",
+      "target": "/how-to-use-the-part-map-aka-how-to-make-the-skin-invisible-under-clothes",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-use-the-part-map-aka-how-to-make-the-skin-invisible-under-clothes"
+      }
+    },
+    {
       "id": "availability:/how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide",
       "kind": "availability",
       "target": "/how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide",
@@ -10955,6 +11054,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/interactive-maps"
+      }
+    },
+    {
+      "id": "availability:/interior-walls-and-doors",
+      "kind": "availability",
+      "target": "/interior-walls-and-doors",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/interior-walls-and-doors"
       }
     },
     {
@@ -11915,6 +12025,17 @@
       }
     },
     {
+      "id": "availability:/leveldata",
+      "kind": "availability",
+      "target": "/leveldata",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/leveldata"
+      }
+    },
+    {
       "id": "availability:/leviathan",
       "kind": "availability",
       "target": "/leviathan",
@@ -12432,6 +12553,72 @@
       }
     },
     {
+      "id": "availability:/making-a-character-with-glowing-eyes-or-body",
+      "kind": "availability",
+      "target": "/making-a-character-with-glowing-eyes-or-body",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/making-a-character-with-glowing-eyes-or-body"
+      }
+    },
+    {
+      "id": "availability:/making-a-custom-melee-weapon",
+      "kind": "availability",
+      "target": "/making-a-custom-melee-weapon",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/making-a-custom-melee-weapon"
+      }
+    },
+    {
+      "id": "availability:/making-a-custom-world-map-terrain-characters-walk-on-and-pois",
+      "kind": "availability",
+      "target": "/making-a-custom-world-map-terrain-characters-walk-on-and-pois",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/making-a-custom-world-map-terrain-characters-walk-on-and-pois"
+      }
+    },
+    {
+      "id": "availability:/making-a-food-mod-nutrition-value",
+      "kind": "availability",
+      "target": "/making-a-food-mod-nutrition-value",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/making-a-food-mod-nutrition-value"
+      }
+    },
+    {
+      "id": "availability:/making-a-npc-shop-aka-how-to-set-up-vendors",
+      "kind": "availability",
+      "target": "/making-a-npc-shop-aka-how-to-set-up-vendors",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/making-a-npc-shop-aka-how-to-set-up-vendors"
+      }
+    },
+    {
+      "id": "availability:/making-a-town-that-expands-and-grows-according-to-world-states",
+      "kind": "availability",
+      "target": "/making-a-town-that-expands-and-grows-according-to-world-states",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/making-a-town-that-expands-and-grows-according-to-world-states"
+      }
+    },
+    {
       "id": "availability:/making-animations-basics",
       "kind": "availability",
       "target": "/making-animations-basics",
@@ -12451,6 +12638,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/making-custom-ragdoll"
+      }
+    },
+    {
+      "id": "availability:/making-teleports",
+      "kind": "availability",
+      "target": "/making-teleports",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/making-teleports"
       }
     },
     {
@@ -12528,6 +12726,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/manual-oil-drill"
+      }
+    },
+    {
+      "id": "availability:/map-biome-areas-region-correlation",
+      "kind": "availability",
+      "target": "/map-biome-areas-region-correlation",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/map-biome-areas-region-correlation"
       }
     },
     {
@@ -12660,6 +12869,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/martial-arts"
+      }
+    },
+    {
+      "id": "availability:/mask-trigger-collision-script",
+      "kind": "availability",
+      "target": "/mask-trigger-collision-script",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mask-trigger-collision-script"
       }
     },
     {
@@ -13125,6 +13345,17 @@
       }
     },
     {
+      "id": "availability:/modders-resource-logo-masks-for-main-factions",
+      "kind": "availability",
+      "target": "/modders-resource-logo-masks-for-main-factions",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/modders-resource-logo-masks-for-main-factions"
+      }
+    },
+    {
       "id": "availability:/modding",
       "kind": "availability",
       "target": "/modding",
@@ -13133,6 +13364,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/modding"
+      }
+    },
+    {
+      "id": "availability:/modding-enabling-to-craft-vanilla-armour",
+      "kind": "availability",
+      "target": "/modding-enabling-to-craft-vanilla-armour",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/modding-enabling-to-craft-vanilla-armour"
       }
     },
     {

@@ -6494,6 +6494,94 @@
     "how-to-make-buildings-snap-together-fe-ramps-to-walls": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-custom-armour-mesh": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-custom-collision-for-buildings-navmesh": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-custom-hair": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-custom-robotic-limbs": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-icons-for-kenshi": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-your-character-totally-invisible": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-move-mods-from-workshop-to-kenshi/mods": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-regenerate-blendmap-files": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-use-the-part-map-aka-how-to-make-the-skin-invisible-under-clothes": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "interior-walls-and-doors": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "leveldata": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "making-a-character-with-glowing-eyes-or-body": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "making-a-custom-melee-weapon": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "making-a-custom-world-map-terrain-characters-walk-on-and-pois": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "making-a-food-mod-nutrition-value": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "making-a-npc-shop-aka-how-to-set-up-vendors": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "making-a-town-that-expands-and-grows-according-to-world-states": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "making-teleports": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "map-biome-areas-region-correlation": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "mask-trigger-collision-script": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "modders-resource-logo-masks-for-main-factions": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "modding-enabling-to-craft-vanilla-armour": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
     }
   },
   "mediaGaps": [
