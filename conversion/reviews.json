@@ -4982,6 +4982,14 @@
     "wandering-trader": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/shops/review.json"
+    },
+    "how-to-make-a-npc-bed-available-for-the-player-to-sleep-on": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
     }
   },
   "mediaGaps": [

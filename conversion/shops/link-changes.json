@@ -35,5 +35,16 @@
       "/wandering-trader"
     ],
     "introduced": []
+  },
+  {
+    "name": "vendor-tutorials",
+    "resolved": [
+      "/how-to-make-a-npc-bed-available-for-the-player-to-sleep-on",
+      "/how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide"
+    ],
+    "introduced": [
+      "/category/loot",
+      "/category/town-making"
+    ]
   }
 ]

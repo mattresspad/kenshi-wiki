@@ -8450,6 +8450,28 @@
       }
     },
     {
+      "id": "availability:/how-to-make-a-npc-bed-available-for-the-player-to-sleep-on",
+      "kind": "availability",
+      "target": "/how-to-make-a-npc-bed-available-for-the-player-to-sleep-on",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#vendor-tutorials",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-a-npc-bed-available-for-the-player-to-sleep-on"
+      }
+    },
+    {
+      "id": "availability:/how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide",
+      "kind": "availability",
+      "target": "/how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#vendor-tutorials",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide"
+      }
+    },
+    {
       "id": "availability:/howler-maze",
       "kind": "availability",
       "target": "/howler-maze",
