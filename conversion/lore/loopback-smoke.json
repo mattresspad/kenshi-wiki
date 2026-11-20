@@ -1,0 +1,267 @@
+{
+  "scope": "Final loopback smoke check; no publication",
+  "checked": 63,
+  "rows": [
+    {
+      "path": "/a-holy-purpose",
+      "status": 200
+    },
+    {
+      "path": "/beautiful-tengu-a-tribute",
+      "status": 200
+    },
+    {
+      "path": "/book-of-grace",
+      "status": 200
+    },
+    {
+      "path": "/book-of-sacrifice",
+      "status": 200
+    },
+    {
+      "path": "/chitrin",
+      "status": 200
+    },
+    {
+      "path": "/cross",
+      "status": 200
+    },
+    {
+      "path": "/flatskins",
+      "status": 200
+    },
+    {
+      "path": "/forbidden-sympathy",
+      "status": 200
+    },
+    {
+      "path": "/history-of-kenshi",
+      "status": 200
+    },
+    {
+      "path": "/history-of-kenshi/tr",
+      "status": 200
+    },
+    {
+      "path": "/holy-edict",
+      "status": 200
+    },
+    {
+      "path": "/king-shagers-reign",
+      "status": 200
+    },
+    {
+      "path": "/krals-last-stand",
+      "status": 200
+    },
+    {
+      "path": "/letter-from-a-freedom-fighter",
+      "status": 200
+    },
+    {
+      "path": "/letter-from-bad-teeth",
+      "status": 200
+    },
+    {
+      "path": "/letter-of-farewell",
+      "status": 200
+    },
+    {
+      "path": "/letter-of-parting",
+      "status": 200
+    },
+    {
+      "path": "/letter-of-the-condemned",
+      "status": 200
+    },
+    {
+      "path": "/letter-to-a-priest",
+      "status": 200
+    },
+    {
+      "path": "/letter-to-darkbrow",
+      "status": 200
+    },
+    {
+      "path": "/letter-to-priest-ton",
+      "status": 200
+    },
+    {
+      "path": "/lineage-of-phoenixes",
+      "status": 200
+    },
+    {
+      "path": "/lore-books",
+      "status": 200
+    },
+    {
+      "path": "/ludins-reports",
+      "status": 200
+    },
+    {
+      "path": "/memo-from-big-grim",
+      "status": 200
+    },
+    {
+      "path": "/men-of-dirt",
+      "status": 200
+    },
+    {
+      "path": "/mission-graeme-status",
+      "status": 200
+    },
+    {
+      "path": "/molls-speech",
+      "status": 200
+    },
+    {
+      "path": "/money-is-freedom",
+      "status": 200
+    },
+    {
+      "path": "/narko",
+      "status": 200
+    },
+    {
+      "path": "/noble-circle",
+      "status": 200
+    },
+    {
+      "path": "/note-from-blue-eyes",
+      "status": 200
+    },
+    {
+      "path": "/okran",
+      "status": 200
+    },
+    {
+      "path": "/old-empire",
+      "status": 200
+    },
+    {
+      "path": "/priest-tyluigs-note",
+      "status": 200
+    },
+    {
+      "path": "/priest-varloos-note",
+      "status": 200
+    },
+    {
+      "path": "/puppet",
+      "status": 200
+    },
+    {
+      "path": "/shagers-overthrow",
+      "status": 200
+    },
+    {
+      "path": "/shek/lore",
+      "status": 200
+    },
+    {
+      "path": "/suicide-note",
+      "status": 200
+    },
+    {
+      "path": "/the-blessing-of-slavery",
+      "status": 200
+    },
+    {
+      "path": "/the-cannibal-plains-de-evolution-of-man",
+      "status": 200
+    },
+    {
+      "path": "/the-holy-crusade",
+      "status": 200
+    },
+    {
+      "path": "/the-pacifier-guidance-for-a-troublemaker",
+      "status": 200
+    },
+    {
+      "path": "/the-red-rebellion",
+      "status": 200
+    },
+    {
+      "path": "/the-united-cities-a-united-power",
+      "status": 200
+    },
+    {
+      "path": "/unknown-old-book",
+      "status": 200
+    },
+    {
+      "path": "/wanted-posters",
+      "status": 200
+    },
+    {
+      "path": "/way-of-the-warrior-the-book-of-kral",
+      "status": 200
+    },
+    {
+      "path": "/birth-of-the-phoenix",
+      "status": 200
+    },
+    {
+      "path": "/flotsam-safehouse-note",
+      "status": 200
+    },
+    {
+      "path": "/the-holy-flame",
+      "status": 200
+    },
+    {
+      "path": "/the-little-boy-that-got-dismembered-by-skeletons",
+      "status": 200
+    },
+    {
+      "path": "/category/books",
+      "status": 200,
+      "members": 41
+    },
+    {
+      "path": "/category/lore",
+      "status": 200,
+      "members": 23
+    },
+    {
+      "report": "/lore/",
+      "status": 200
+    },
+    {
+      "report": "/lore/missing-books.md",
+      "status": 200
+    },
+    {
+      "report": "/lore/visual-review.json",
+      "status": 200
+    },
+    {
+      "report": "/lore/repeatability.json",
+      "status": 200
+    },
+    {
+      "report": "/lore/handoff.json",
+      "status": 200
+    },
+    {
+      "report": "/lore/remaining-inventory.md",
+      "status": 200
+    },
+    {
+      "report": "/route-report.md",
+      "status": 200
+    },
+    {
+      "report": "/gaps/",
+      "status": 200
+    }
+  ],
+  "newArticles": 49,
+  "reusedPresentation": 4,
+  "books": 41,
+  "lore": 23,
+  "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "missingBooksOpen": 19,
+  "claimClosures": 0
+}

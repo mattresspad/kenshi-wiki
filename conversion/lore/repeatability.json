@@ -1,0 +1,22 @@
+{
+  "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "sourceSHA256": "86c1c85266138d239b7ce90fbf078c8dae44242764d313cfe9d3bafcbacf172c",
+  "registerBeforeSHA256": "b831d0cb57d6237a7a0c51f58a771138c1dd75136b807680387e1a74116778bf",
+  "registerFirstSHA256": "b831d0cb57d6237a7a0c51f58a771138c1dd75136b807680387e1a74116778bf",
+  "registerSecondSHA256": "b831d0cb57d6237a7a0c51f58a771138c1dd75136b807680387e1a74116778bf",
+  "unchanged": true,
+  "curatedNotesAndResolutionHistory": "Byte-identical across both regenerations",
+  "captionNormalization": {
+    "first": {
+      "checked": 39,
+      "changed": 0
+    },
+    "second": {
+      "checked": 39,
+      "changed": 0
+    },
+    "articleFilesUnchanged": 2034,
+    "comparison": "Exact original YAML caption strings or pinned literal hashes; stored control characters and paragraph breaks retained."
+  },
+  "bookReconciliationSHA256": "8e743ee619863f943d0daedb92d65bf1fc944052201d837b37529690780d0360"
+}

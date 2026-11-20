@@ -1,0 +1,46 @@
+{
+  "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "manuallyInspected": [
+    "01-lore-pilots/letter-from-bad-teeth-desktop-dark.png",
+    "01-lore-pilots/letter-from-bad-teeth-phone-light.png",
+    "02-lore-structures/wanted-posters-phone-dark.png",
+    "02-lore-structures/history-of-kenshi--tr-phone-light.png",
+    "02-lore-structures/lore-books-desktop-light.png",
+    "03-lore-siblings-1/a-holy-purpose-text-desktop-dark.png",
+    "03-lore-siblings-1/a-holy-purpose-text-phone-light.png",
+    "03-lore-siblings-1/a-holy-purpose-desktop-light.png",
+    "03-lore-siblings-1/a-holy-purpose-phone-dark.png",
+    "04-lore-siblings-2/birth-of-the-phoenix-text-desktop-light.png",
+    "04-lore-siblings-2/flotsam-safehouse-note-text-phone-dark.png",
+    "04-lore-siblings-2/the-holy-flame-text-desktop-dark.png",
+    "04-lore-siblings-2/the-little-boy-that-got-dismembered-by-skeletons-text-phone-light.png",
+    "04-lore-siblings-2/ludins-reports-desktop-light.png"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "palettes": [
+    "light",
+    "dark"
+  ],
+  "observations": [
+    "Recorded passages occupy the main reading column beside compact desktop facts; long paragraphs remain contained.",
+    "Phone order is introduction, facts, recorded text, remaining prose. The four reused book presentations retain readable prose and signatures.",
+    "Wanted Posters shows bold Ells and Big Bo captions with meaningful reward boundaries and no empty separator rows.",
+    "Turkish characters and the retained spoiler qualification wrap inside the phone width; English site controls remain separate.",
+    "Ludin retains a readable three-report summary and outline. Source links, authorship and both priest-note journeys are covered by browser checks."
+  ],
+  "automatedEvidence": "All four acceptance folders retain desktop/phone light/dark browser logs and captures, including image failures, focus, citation returns, direct bookmarks and the 900-pixel quote/facts separation check.",
+  "limitations": [
+    "Screenshots demonstrate presentation, not gameplay or narrative verification.",
+    "Item icons do not establish complete illustration coverage.",
+    "The 19 omitted destinations and inherited content/citation questions remain open."
+  ]
+}
