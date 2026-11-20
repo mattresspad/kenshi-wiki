@@ -8395,6 +8395,17 @@
       }
     },
     {
+      "id": "availability:/holy-armory",
+      "kind": "availability",
+      "target": "/holy-armory",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-armory"
+      }
+    },
+    {
       "id": "availability:/holy-armour-trader",
       "kind": "availability",
       "target": "/holy-armour-trader",
@@ -8406,6 +8417,17 @@
       }
     },
     {
+      "id": "availability:/holy-bakery",
+      "kind": "availability",
+      "target": "/holy-bakery",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-bakery"
+      }
+    },
+    {
       "id": "availability:/holy-barman",
       "kind": "availability",
       "target": "/holy-barman",
@@ -8414,6 +8436,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holy-barman"
+      }
+    },
+    {
+      "id": "availability:/holy-boot-shop",
+      "kind": "availability",
+      "target": "/holy-boot-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-boot-shop"
       }
     },
     {
@@ -8549,6 +8582,50 @@
       }
     },
     {
+      "id": "availability:/holy-general-shop",
+      "kind": "availability",
+      "target": "/holy-general-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-general-shop"
+      }
+    },
+    {
+      "id": "availability:/holy-general-storage",
+      "kind": "availability",
+      "target": "/holy-general-storage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-general-storage"
+      }
+    },
+    {
+      "id": "availability:/holy-headgear-shop",
+      "kind": "availability",
+      "target": "/holy-headgear-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-headgear-shop"
+      }
+    },
+    {
+      "id": "availability:/holy-hospital",
+      "kind": "availability",
+      "target": "/holy-hospital",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-hospital"
+      }
+    },
+    {
       "id": "availability:/holy-lord-phoenix",
       "kind": "availability",
       "target": "/holy-lord-phoenix",
@@ -8557,6 +8634,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holy-lord-phoenix"
+      }
+    },
+    {
+      "id": "availability:/holy-mechanical-shop",
+      "kind": "availability",
+      "target": "/holy-mechanical-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-mechanical-shop"
       }
     },
     {
@@ -8670,6 +8758,17 @@
       }
     },
     {
+      "id": "availability:/holy-nation-barracks",
+      "kind": "availability",
+      "target": "/holy-nation-barracks",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-barracks"
+      }
+    },
+    {
       "id": "availability:/holy-nation-engineer",
       "kind": "availability",
       "target": "/holy-nation-engineer",
@@ -8758,6 +8857,28 @@
       }
     },
     {
+      "id": "availability:/holy-nation-police-station",
+      "kind": "availability",
+      "target": "/holy-nation-police-station",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-police-station"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-power-station",
+      "kind": "availability",
+      "target": "/holy-nation-power-station",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-power-station"
+      }
+    },
+    {
       "id": "availability:/holy-nation-robot",
       "kind": "availability",
       "target": "/holy-nation-robot",
@@ -8835,6 +8956,28 @@
       }
     },
     {
+      "id": "availability:/holy-throne",
+      "kind": "availability",
+      "target": "/holy-throne",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-throne"
+      }
+    },
+    {
+      "id": "availability:/holy-weapon-shop",
+      "kind": "availability",
+      "target": "/holy-weapon-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-weapon-shop"
+      }
+    },
+    {
       "id": "availability:/holy-weapon-trader",
       "kind": "availability",
       "target": "/holy-weapon-trader",
@@ -8898,6 +9041,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/horse-chopper"
+      }
+    },
+    {
+      "id": "availability:/hospital",
+      "kind": "availability",
+      "target": "/hospital",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hospital"
       }
     },
     {
@@ -9206,6 +9360,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/improved-stone-mining-tech"
+      }
+    },
+    {
+      "id": "availability:/independent-bar",
+      "kind": "availability",
+      "target": "/independent-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/independent-bar"
       }
     },
     {
@@ -11024,6 +11189,17 @@
       }
     },
     {
+      "id": "availability:/mercenary-smithy",
+      "kind": "availability",
+      "target": "/mercenary-smithy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mercenary-smithy"
+      }
+    },
+    {
       "id": "availability:/mercenary-tent",
       "kind": "availability",
       "target": "/mercenary-tent",
@@ -11032,6 +11208,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mercenary-tent"
+      }
+    },
+    {
+      "id": "availability:/mercenary-travel-gear",
+      "kind": "availability",
+      "target": "/mercenary-travel-gear",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mercenary-travel-gear"
       }
     },
     {
@@ -11156,6 +11343,28 @@
       }
     },
     {
+      "id": "availability:/mongrel-armor-shop",
+      "kind": "availability",
+      "target": "/mongrel-armor-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mongrel-armor-shop"
+      }
+    },
+    {
+      "id": "availability:/mongrel-clothes-shop",
+      "kind": "availability",
+      "target": "/mongrel-clothes-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mongrel-clothes-shop"
+      }
+    },
+    {
       "id": "availability:/mongrel-faction",
       "kind": "availability",
       "target": "/mongrel-faction",
@@ -11164,6 +11373,39 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mongrel-faction"
+      }
+    },
+    {
+      "id": "availability:/mongrel-hq",
+      "kind": "availability",
+      "target": "/mongrel-hq",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mongrel-hq"
+      }
+    },
+    {
+      "id": "availability:/mongrel-robotics-workshop",
+      "kind": "availability",
+      "target": "/mongrel-robotics-workshop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mongrel-robotics-workshop"
+      }
+    },
+    {
+      "id": "availability:/mongrel-tech-workshop",
+      "kind": "availability",
+      "target": "/mongrel-tech-workshop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mongrel-tech-workshop"
       }
     },
     {

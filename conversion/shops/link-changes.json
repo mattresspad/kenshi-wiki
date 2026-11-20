@@ -129,5 +129,36 @@
       "/holy-armour-shop"
     ],
     "introduced": []
+  },
+  {
+    "name": "shop-siblings-3",
+    "resolved": [
+      "/holy-armory",
+      "/holy-bakery",
+      "/holy-boot-shop",
+      "/holy-general-shop",
+      "/holy-general-storage",
+      "/holy-headgear-shop",
+      "/holy-hospital",
+      "/holy-mechanical-shop",
+      "/holy-nation-barracks",
+      "/holy-nation-police-station",
+      "/holy-nation-power-station",
+      "/holy-throne",
+      "/holy-weapon-shop",
+      "/hospital",
+      "/independent-bar",
+      "/mercenary-smithy",
+      "/mercenary-travel-gear",
+      "/mongrel-armor-shop",
+      "/mongrel-bar",
+      "/mongrel-clothes-shop",
+      "/mongrel-hq",
+      "/mongrel-robotics-workshop",
+      "/mongrel-tech-workshop"
+    ],
+    "introduced": [
+      "/character-customization"
+    ]
   }
 ]

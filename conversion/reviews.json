@@ -5186,6 +5186,94 @@
     "holy-armor-shop": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-armory": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-bakery": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-boot-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-general-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-general-storage": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-headgear-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-hospital": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-mechanical-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-nation-barracks": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-nation-police-station": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-nation-power-station": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-throne": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-weapon-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "hospital": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "independent-bar": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "mercenary-smithy": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "mercenary-travel-gear": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "mongrel-armor-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "mongrel-clothes-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "mongrel-hq": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "mongrel-robotics-workshop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "mongrel-tech-workshop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
     }
   },
   "mediaGaps": [

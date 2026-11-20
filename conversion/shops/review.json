@@ -949,6 +949,367 @@
         "claim:shops-unassessed-media",
         "claim:shops-world-state-residents"
       ]
+    },
+    {
+      "id": "holy-armory",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Needs to include weapons stock 40546-rebirth.mod Holy Armory is an armoury found in The Holy Nation. Possible Locations Bad Teeth Blister Hill Holy Military Base Stack Okran’s Shield Okran’s Fist Residents Holy Sentinel (4 to 6) Possible Stock Blueprints Fragment Axe Heart Protector Long Cleaver Paladin’s Cross Polearms Gallery",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-armory.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e2f4e329491f05a95de3df6ba051cb587ce3395e3228e49a1a72736aec5aaad7"
+      },
+      "questions": [
+        "claim:shops-incomplete-record-placeholders",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "holy-bakery",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Need a exterier begining image 40553-rebirth.mod Holy Bakery is essentially a bar found in The Holy Nation. Holy Bakeries sell less items than Holy Nation Bars and have no guards. Possible Locations Stack Holy Military Base Okran’s Fist Bad Teeth Bad Teeth override (Phoenix dead, Seta alive) Residents Holy Servant Possible Stock Gallery",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-bakery.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "58081bd320563a5a11ea13f1373f177e77ad4162bef8641fc963a3865c726247"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "holy-boot-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 43353-Dialogue.mod Holy Boot Shop is a shop which sells Footwear and travel items. This location can potentially sell the blueprint for Drifter’s Boots. This vendor is different from the Boot Shop because it only spawns human characters and sells fewer items. Possible Locations Blister Hill Stack Depending on certain World States, this vendor might be found in: Bad Teeth Residents Holy Boot Trader Shop Guard holy (1 to 2) Possible Stock Gallery",
+      "organization": "Reviewed 3 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-boot-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "519da6106d2a3ba20923fac72f27c5adb933acea252bd6b607acdfe91cfb6357"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "holy-general-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1534419-rebirth.mod Holy General Shop is a vendor found in the The Holy Nation. Possible Locations Bad Teeth Blister Hill Stack Residents Trade Goods Shopkeeper Shop Guard (2 to 3) Some locations which this vendor spawns might restrict the items it stocks. Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-general-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5dba00a0404934c8a33cdc893d8faee1c4f24205491a40744c0104f4f36c3664"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "holy-general-storage",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Need info. {{{string id}}} A Holy Nation General Storage are dedicated storage buildings located in Holy Nation towns and outputs. Gallery",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-general-storage.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9be9be4b5405a8a790cc6a859572222f3490e35bff57fc0128ea537eea468764"
+      },
+      "questions": [
+        "claim:shops-incomplete-record-placeholders",
+        "claim:shops-unassessed-media"
+      ]
+    },
+    {
+      "id": "holy-headgear-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 2253-gamedata.base Holy Headgear Shop is a shop which sells Headgear in The Holy Nation. Possible Locations Blister Hill Stack Depending on certain World States, this vendor might be found in: Bad Teeth Residents Holy Hat Trader Holy Sentinel (1 to 2) Possible Stock Blueprints Tin Can Turban Bucket Zukin Karuta Zukin Kusari Zukin Gallery",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-headgear-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6a38a7edc20ecf3591339abbabd8df70d39b5ef9c9804d8bfcd911060342844c"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "holy-hospital",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 40549-rebirth.mod Holy Hospital is a vendor found in The Holy Nation’s various military settlements. Holy Hospitals sell Medical Items. By talking to the surgeon, players can open the Character Customization screen for their selected character for a small sum of cats. Possible Locations Holy Military Base Okran’s Fist (& half-destroyed) Okran’s Shield Residents Surgeon Doctor (4) Trade culture can prevent some items from spawning in this list. Possible Stock Blueprints Basic First Aid Kits Medicine Splints",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-hospital.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "50cfb2204d8e60ccaf51a41b9f85082621daecddb926b0dfb849429a126419e5"
+      },
+      "questions": [
+        "claim:shops-repair-and-bed-services",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-trade-culture-effects",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "holy-mechanical-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 2241-gamedata.base Holy Mechanical Shop is a shop which sells construction materials. Locations Bad Teeth Blister Hill Stack Depending on World States, this vendor might spawn in these locations: Bad Teeth Residents Holy Construction Trader Possible Stock Blueprints Advanced Outpost Blueprints Advanced Harpoonery Basic Furniture Random Furniture Gallery",
+      "organization": "Reviewed 3 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-mechanical-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "373c1207a95905c42ae0a260cb3759baacb153422bdd935f093776d7c75b911e"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "holy-nation-barracks",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Need info. {{{string id}}} Holy Nation Barracks are specialized military buildings found in faction towns, military bases. They feature faction guards, training gear, and beds. Gallery",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-nation-barracks.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "71446db4532d9393bba55208a574000e4c9bfa0fcabf6c1b79b063e2693c72ca"
+      },
+      "questions": [
+        "claim:shops-incomplete-record-placeholders",
+        "claim:shops-unassessed-media"
+      ]
+    },
+    {
+      "id": "holy-nation-police-station",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Need more info. {{{string id}}} Holy Nation Police Station are Police Station located in the Holy Nation, including towns like Blister Hill and Stack. Gallery",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-nation-police-station.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f40707eab6a866904348c6c4cdeb2acb13a47111de94bef50b4cfac6f6273135"
+      },
+      "questions": [
+        "claim:shops-incomplete-record-placeholders",
+        "claim:shops-unassessed-media"
+      ]
+    },
+    {
+      "id": "holy-nation-power-station",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Need further info. {{{string id}}} Holy Nation Power Stations are Small Shack, located in major Holy Nation cities and towns, which provides electricity. Possible Locations Bad Teeth Blister Hill Stack Gallery",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-nation-power-station.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e58050136376147f4ca89bbefef03d4349feb179dde61f3a39a438dcf437d3fd"
+      },
+      "questions": [
+        "claim:shops-incomplete-record-placeholders",
+        "claim:shops-unassessed-media"
+      ]
+    },
+    {
+      "id": "holy-throne",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Need information. {{{string id}}} The Throne is located at Blister Hill and is where the Holy Lord Phoenix resides. Gallery",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-throne.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5466b21cf76d08fffcb8454dab02d5dd2909cdef69a6ba9c417ca0af240ca8f2"
+      },
+      "questions": [
+        "claim:shops-incomplete-record-placeholders",
+        "claim:shops-unassessed-media"
+      ]
+    },
+    {
+      "id": "holy-weapon-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 2238-gamedata.base Holy Weapon Shops are weapon shops found in The Holy Nation. All weapons sold in this location are of Ancient quality. Possible Locations Bad Teeth Blister Hill Residents Holy Weapon Trader Shop Guard (2) Shop Guard (holy) (1) Possible Stock Blueprints Long Cleavers Sabres Ringed Sabres Fragment Axe Cleavers Paladin’s Cross Combat Cleaver Polearms Short-Cleaver Gallery",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-weapon-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "31a9e9e5e7d2af4250f843d0903e2d3306f7bfb80d6f8669a5016d78dbca3543"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "hospital",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 14469-rebirth.mod Hospital is a vendor found in Town Overrides. Hospitals sell Medical Items. By talking to the surgeon, players can open the Character Customization screen for their selected character for some amount of money. These vendors are essentially the exact same as Holy Hospitals. Possible Locations Depending on World States, this vendor might spawn in Blister Hill Okran’s Shield Rebirth Residents Surgeon Doctor (4) Possible Stock Blueprints Basic First Aid Kits Medicine Splints",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hospital.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "595d4854b8a2ddeed84ae6c81e442085c72cbccfacf95e3f42d280d8a8b64a50"
+      },
+      "questions": [
+        "claim:shops-repair-and-bed-services",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "independent-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 40560-rebirth.mod Independent Bar is a bar found in Mongrel. There are typically three instances of this vendor in Mongrel. Possible Locations Mongrel Depending on World States, there may be a Independent Bar found in these locations: Blister Hill Clownsteady Drifter’s Last Heng Residents Barman Shop Guard The items found in these bars might vary due to trade culture. As the Mongrel faction does not appear to have a trade culture, these bars might even sell Bloodrum. Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/independent-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "54898926ccf5efb86f1f249d5ee3facaaceaf2fb8d79d69e76ac2a7422142fa3"
+      },
+      "questions": [
+        "claim:shops-override-copy-labels",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-trade-culture-effects",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "mercenary-smithy",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1533777-__world reactios swamp.mod Mercenary Smithy is a vendor specifically found in the Manhunter Base when it was occupied by Mercenary Guild. Residents Peasant Mercenary (2) Possible Stock",
+      "organization": "Reviewed 1 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mercenary-smithy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "952aec66a75144ed57b3ea802a5f6950f82f0178616dce490acd6e09ab7da6a1"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "mercenary-travel-gear",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1533776-__world reactios swamp.mod Mercenary Travel Gear is a Tech Hunters vendor unique to the Mercenary Base. It is quite similar to the standard Travel Gear found in other Tech Hunters locations. With the difference being that they sell more variety of food items. Possible Locations Depending on certain World States, this vendor may be found in these locations: Manhunter Base, Mercenary Guild Residents Tech Hunter Shopkeeper Mercenary (1 to 2) This location has an item Artifacts value of c.100,000, so it should spawn some additional items through the artifacts system. Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mercenary-travel-gear.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "25df27bbf3cfbfa209081bff0c421b154229a711bb0caa36191dac86db3ca6f3"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "mongrel-armor-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 57329-rebirth.mod Best armour you'll find in the city. Probably the best armour you'll see for the rest of your life, since you're stuck here. Mongrel Armour Shop is an armour shop found in Mongrel. This shop is unique in the way that it has Shek Warriors as their guards rather than the standard Shop Guard. Possible Locations Mongrel Residents Ronin Armour Trader Shek Warrior (2) This shop is capable of spawning Artifacts, as such it may spawn items not in the list. These items, however, will not respawn when the shop restocks. Possible Stock Possible Stock Armour Blueprints Armoured Face Plates Ashland Hat Ashlander Stormgoggles Black Plate Jacket Blackened Chainmail Tagelmust Dustcoat Plate Jacket Rusty Chainmail Tagelmust Tagelmust Unholy Chest Plate White Plate Jacket",
+      "organization": "Reviewed 3 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mongrel-armor-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2bfc7635a386cda375b980e44a510b13033ef8e8a381f894de124ad9a205c933"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "mongrel-clothes-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1192-gamedata.base Mongrel Clothes Shop is a shop which sells Clothing and some Armour in Mongrel, it is also possible to buy some blueprints from this area. Possible Locations Mongrel Residents Ronin Armour Trader Shop Guard (2) This shop is capable of spawning Artifacts, as such it may spawn items not in the list. These items, however, will not respawn when the shop restocks provided that they are purchased. Possible Stock Blueprints Black Cloth Shirt Blackened Chain Shirt Blackened Chainmail Cargopants [reinforced] Cargopants [sneaky chain] Cargopants [padded] Chain Shirt Chainmail Drifter’s Boots Drifter’s Leather Jacket Drifter’s Leather Pants Halfpants [reinforced] Halfpants [sneaky chain] Halfpants [padded] Leather Shirt Leather Turtleneck Leather Vest Monk Pants Monk Robe Ninja Gi Ninja Pants Rag Shirt Sandogasa Straw Hat Stout Hessian Uniform Turtleneck Wooden Sandals",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mongrel-clothes-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a57744e6dc211806969857ac8c85f8b907e9390f4643cb111cba77cef12530a0"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "mongrel-hq",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 42068-rebirth.mod Mongrel HQ is the headquarters of the Mongrel faction. Arc, the leader of Mongrel, resides here. It houses three Undertakers and is heavily guarded by the Shinobi Guards. Plenty of mid quality Shinobi gear can be found here. Special Items Full Maril’s Diary Series Mission Graeme: Status",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mongrel-hq.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "54952f65357142b359821177235182a89ea5e81f7d4ed22e9a76eb40e91793f9"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "mongrel-robotics-workshop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 95790-rebirth.mod This is where skeletons can get their permanent injuries fixed up, probably not much use to you Humans......unless of course the fog men eat your legs off or something. Then I could fit you up with some nice new ones. Haha!Skeleton Doctor A Robotics Workshop is a store dealing in Robot Limbs and other necessities for Skeletons. Robotics Workshops are located in Small Shacks. Only a Skeleton Doctor works in this shop. There is a Robotic Bed that will restore the “wear” damage that caps a Skeleton’s max condition. This bed is also usable by any humanoid with Robotic Limbs, and it will restore max condition to those limbs as well. In addition to restoring max condition, it increases the heal speed of Skeletons and Robotic Limbs just as sleeping in a normal bed helps organic parts. There is a similar, larger shop in Black Desert City called Robotics Shop. There is an almost identical shop found Robotics Workshop in many other locations. Locations Mongrel Residents Skeleton Doctor Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mongrel-robotics-workshop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e4f64013e97e83429cd3f11239ba6cf95c329cc273d8545cc474808941b42ca6"
+      },
+      "questions": [
+        "claim:shops-repair-and-bed-services",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity"
+      ]
+    },
+    {
+      "id": "mongrel-tech-workshop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 64652-rebirth.mod Mongrel Tech Workshop is a mechanical shop of Mongrel. This Workshop is the Mongrel-exclusive version of the Travel and Repairs Shop. Like the Repair Shop, It offers the use of Skeleton Repair Beds on the second floor. Possible Locations Mongrel Residents Ronin Construction Trader Shop Guard (3) Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mongrel-tech-workshop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d6ba1cafc8794c847656b37477aff062e50fd61a43f82c29cb7193226ede6ce8"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
     }
   ],
   "editorialChanges": [
