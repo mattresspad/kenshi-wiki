@@ -5974,6 +5974,86 @@
     "shek-challengers-shek-kingdom": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/events/review.json"
+    },
+    "shek-kingdom-reinforcements": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "shek-proving": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "shek-revenge": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "skin-harvest": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "slave-capture": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "slave-raid": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "southern-hive-visit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "stone-golems-revenge": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "stone-rat-assault": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "stone-rat-visit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "tax-evasion-enforcement": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "tax-man-visit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "the-big-skin-harvest": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "the-fog": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "thug-attack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "traders-guild-visit": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "tribute-round": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "united-cities-assault": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "united-cities-reinforcements": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "wrath-of-god": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
     }
   },
   "mediaGaps": [

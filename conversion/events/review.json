@@ -1075,6 +1075,383 @@
         "claim:events-shek-delay-disagreement",
         "claim:events-world-state-gates"
       ]
+    },
+    {
+      "id": "shek-kingdom-reinforcements",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Let the enemies come! Today will run a river of Okranite blood... Or we find our glory in death on the battlefield! For you I gladly fight, Battle Born.The Five Invincibles Shek Kingdom Reinforcements is an Event that will trigger in response to the Eyegore’s Assault, Holy Assault, Holy Nation Assault (Inquisitor), Noble’s Wrath, Noble’s Wrath Assault, Retribution Of God, and Wrath Of God events, as long as the player is allied to the Shek Kingdom and Esata the Stone Golem has not been killed by the Player. Once triggered the Shek Kingdom will send reinforcements from the location they own closest to the player’s Base. While they will move faster than most hostile events, they can still arrive too late if the player’s base is closer to the hostile event’s spawn location than to the origin of the reinforcements. These reinforcements will consist of 1 squad, made up of 3-5 Hundred Guardians led by a Five Invincible. Once the reinforcements arrive, they will give a short speech, and then start patrolling the player’s base, attacking hostiles, defending the player’s characters, and healing wounded allies.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-kingdom-reinforcements.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9eea9b0fb9e8f1620170517b1e60317d848b97613643c1c0b60a58e39e7097a5"
+      },
+      "questions": [
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "shek-proving",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Foreigners! We are Kral's Chosen, mighty guardians of the sacred homeland... And you insult my people with your trespass, invader! Come to me! Fight and earn your privilege to dwell on warrior soil!Kral's Chosen Shek Proving is an Event that can trigger if the Player has a Base within 4,000 meters of New Kralia. It has a 20% chance to trigger each day if within 1,800 meters, this chance scales down with distance until it reaches 0% at 4,000 meters. It cannot trigger if the player has killed or captured the Holy Lord Phoenix, the Bugmaster, Esata the Stone Golem, or Flying Bull. Unlike most territorial raids, it has a very long cooldown so that normally it can only trigger once outside of victory triggers. If the player defeats the raid, they will never get it again unless they Import their save or play for over 10,000 days. Once the conditions have been fulfilled, Kral’s Chosen will send an assault to the player’s base. This assault will consist of 2-4 squads, each made up of 5-8 Kral’s Chosen. When the assault arrives, the War Leader will give a short speech about how the player must earn the right to live in their territory through battle, then order the attack to begin, attacking gates and characters, and liberating captives. If the raid is victorious, another Shek Proving will be sent in 60-130 hours. In addition, if this was the second or later visit, the assault party will also occupy the base until removed forcibly.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-proving.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "92a5d15df44f6a704caeb8b2cd30a2150787254ab7087aa2d4f42eba95f3d16f"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "shek-revenge",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Respect, enemy. Your reputation precedes you... And every Shek warrior wants their turn battling you. But now the turn is mine!Hundred Guardian War Leader The Shek Revenge is a recurring base assault event that can occur if you defeat any of the following and is not an ally of the Shek Kingdom: Shek Revenge (40%/60%, 72 ~ 200 hours) (~5.7 days) Enemy Hunt (50%, 72 ~ 150 hours) (~9.25 days) Shek Challengers (100%, 72 ~ 150 hours) (~9.25 days) Invincible Vengeance (20%/60%, 72 ~ 150 hours) (~9.25 days) Stone Golem’s Revenge (30%, 72 ~ 150 hours) (~9.25 days) Once the conditions are met, the Shek Kingdom will launch an assault on the player’s base. This assault will consist of 5 ~ 9 squads each composed of (up to 40 individuals): 3 ~ 5 Shek Warriors 2 ~ 4 Hundred Guardians, Once the squads arrive, the leader will make a short speech before proceeding their attack. If victorious, the assault forces will leave shortly after. If defeated, there is a 60% chance for the Shek Challengers event to trigger in 72-200 hours. And if possible, another 40% chance to trigger another Shek Revenge event in the same amount of time. If the conditions for Shek Challengers are not valid, then the Shek Revenge event will have a 60% chance of restarting instead. Trivia This event is known as “Shek Assault Big (loss trigger)” in FCS. Of all assaults that Shek Kingdom launches towards the player, this raid is the most powerful of a standard assault that can be launched without taking down leaders. This assault is roughly 5x the size of Enemy Hunt.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-revenge.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f4ea0fcc390dc31c46b44e9917db9c64327834fbdc6d9b247e415c5a7fdca04c"
+      },
+      "questions": [
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-shek-delay-disagreement",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "skin-harvest",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A human village... Perhaps we will find new skins among the inhabitants... And lots of human food for our hungry digestive systems... Come out, flesh brothers! Come share with your fellow human brothers!Skin Bandit Skin Harvest is an Event that can trigger if the Player has a Base within 7,000 meters of a Skin Bandits owned location. It has a 10% chance to trigger if within 3,000 meters, this chance scales down with distance until it reaches 0% at 7,000 meters. It cannot trigger if the player has killed or captured Savant, or if the player has allied with the Skin Bandits. Once the conditions have been fulfilled, the Skin Bandits will send an assault to the player’s base. This assault will consist of 1-3 squads; each made up of 8-20 Skin Bandits. When the assault arrives, the War Leader will give a short speech asking the player to share skins and/or food before they start the assault, attacking gates and characters, and kidnapping fallen characters to bring them to a Skinhouse or the Skinhouse HQ. Captured characters will be quickly placed into a Peeler Machine once there, and die shortly after, so rescue attempts must be very swift if they wish to save any kidnapped characters. If the assault is defeated, there is a 25% chance for The Big Skin Harvest event to trigger in 100-160 hours.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skin-harvest.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a2b488e65f93c9349edc1e4b38ffde796d09d28332a16f0e5509b1a29e8992a0"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "slave-capture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: You have something that belongs to the Slave Traders... And we're here to reclaim it!Slaver Caravan Boss Slave Capture is an Event that can trigger when recruiting an Escaped Slave or Slave Escapee via dialog, or if a visiting soldier from the United Cities spots an ex-slave or escaped slave status character. Once triggered the Slave Traders will send an assault to the Player’s Base, this assault will consist of 1-2 squads, each made up of 7-14 Slaver Caravan Guards, 0-1 Slaver Heavy guard, led by a Slaver Caravan Boss. When the assault arrives, the War Leader will give a short speech before ordering the attack to begin, attacking characters and gates, and kidnapping downed characters. Any kidnapped characters will be enslaved and then delivered to a slave camp.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-capture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7921db38fc3228a7f2026383c775dcfd445f89ef3109a3ec51145aede9922656"
+      },
+      "questions": [
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "slave-raid",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This outpost isn't on the list, right? Let's see here... Nope. Not a member. Perfect. I want 'em healthy for the mines. No broken legs this time. Get 'em!Slaver Caravan Boss Slave Raid is an Event that can trigger if the Player has a Base within 4,000 meters of a Slave Traders owned location. It has a 15% chance to trigger each day if within 2,500 meters, this chance scales down with distance until it reaches 0% at 4,000 meters. It cannot trigger if the player is allied with the United Cities, Traders Guild, or Slave Traders. Once the conditions are fulfilled, the Slave Traders will send an assault to the player’s base. This assault will consist of 2-3 squads, each made up of 0-1 Slaver Heavy Guard, 7-14 Slaver Caravan Guards, and led by a Slaver Caravan Boss. Once the assault arrives, and the War Leader will give a short speech. If the player’s outpost is level 3 (the full town icon), and the player has more than 15 characters in their squad, the raid will instead turn around and leave. Otherwise, they will order the attack to begin, attacking gates and characters, and capturing characters as slaves. Captured characters will be brought to a slave mine or farm, where they will be put to work as slave labour.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-raid.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "019326e0365a4a656f044d11e143a3546e9334576fe69d44405c560d969ac2f5"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "southern-hive-visit",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Neigh... bour? Not neighbours... Intruders! We don't like stone walls! Not in King's valley! Get out! Greeee!Prince Southern Hive Visit is an Event that can trigger if the Player has a Base within 1,500 meters of a Southern Hive owned location. It has a 40% chance to trigger each day if within 1,300 meters, this chance scales down with distance until it reaches 0% chance at 1,500 meters. It cannot trigger if the Queen of the South has been killed or captured. When the conditions are fulfilled, the Southern Hive will send an assault to the player’s base. This assault will consist of two squads, each being made up of either 8 Droneguards led by a Prince, or 8-14 Droneguards led by a Prince. Once the assault arrives the War Leader will give a short speech demanding the player leave their territory before starting the assault, attacking gates and characters, and liberating captives. If the assault is defeated, the Hive Eviction event has a 70% chance to trigger in 24-48 hours. If the assault is victorious, the assault party will occupy the base until forcibly removed by the player.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/southern-hive-visit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7e68679c124709e1b8b7a07d836a95d2e3413f7f6b506f43811536d0529e7c2c"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "stone-golems-revenge",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: YOUR HEADS ARE MINE! You take my kin, you feel the wrath of Kral! Vengeance for Seto!Esata the Stone Golem Stone Golem’s Revenge is an Event that occurs Seto or Bayan has been killed or captured, as long as the player is not an ally of the Shek Kingdom and Esata herself not been killed or captured. It has an 80% chance to trigger each day if within 3,000 meters of a Shek Kingdom owned location. This scales down with distance until it hits 0% chance at 11,000 meters. Once the conditions are met, the Shek Kingdom will launch an assault on the player’s base. This assault will consist of 4-6 squads. The first squad being led by Esata the Stone Golem, joined by a Five Invincible and possibly Seto or Bayan if one or the other is still okay. The other squads will each be made up of (up to 20 individuals in total for the assault): 1 The Five Invincible 3 ~ 5 Hundred Guardians Amusingly, this can lead to more than five members of the Invincible Five assaulting your base at a time. Once the assault arrives at your outpost, Esata will give a speech referencing which of the two were killed or captured and then attack the player’s characters and gates. If victorious, the assault’s forces will leave the base shortly after. If defeated, there is a 30% chance to trigger the Shek Revenge event in 72-150 hours. Trivia Ironically, despite being the highest-tier level of assaults that Shek Kingdom could field, this assault is notably downsized by around half as compared to Shek Revenge. This assault composition is almost the exact same as Invincible Vengeance. This event is known as “Shek Esata seeks revenge - seto” or “Shek Esata seeks revenge - bayan” in FCS.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stone-golems-revenge.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "155a8065d251cea7c927c28075e1c626242724be87f2aea4616df33dc170d5e7"
+      },
+      "questions": [
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "stone-rat-assault",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Know what happens when you don't pay the Stone Rats their dues? You get your legs broken! The Stone Rats run this swamp!Stone Rat Stone Rat Assault is an Event that can trigger if the Player has defeated either the Stone Rat Visit or Stone Rat Assault events. It cannot trigger if the player is allied to the Hounds faction, or if Big Al has been killed or captured. Once the conditions have been fulfilled, the Stone Rats will send an assault to the player’s Base. This assault has two variants, depending on the source of the event. The first variant can trigger if the player has defeated the Stone Rat Visit event, or sometimes as a response to defeating the first variant of the Stone Rat Assault event. This assault is made up of 2-3 squads, each made up of 5-6 Stone Rats. If the assault is defeated, there is a 30% chance to trigger another of the first variant again in 48-80 hours, and a 55% chance to trigger the second variant in 48-80 hours. The second variant can only trigger as a result of defeating either of the variants of the Stone Rat Assault event. It consists of 4-5 squads; each made up of 5-6 Stone Rats. If the assault is defeated, there is a 30% chance to trigger the second variant again in 60-100 hours. If either variant is victorious, they are supposed to ransack the base for food, breaking into buildings and stealing whatever they come across. This ransacking behavior is bugged in vanilla though and will usually result in NPCs getting caught in a loop running around the base and standing in doorways. Stone Rat Visit will also trigger in 90-110 hours.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stone-rat-assault.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4f4e5df2333acbaba7c96d2cad014273e6e8cd8971e23e9d8cfdba5a36b53e40"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-force-size",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "stone-rat-visit",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hmm, nice place ya got here. Should be careful it don't get smashed up... Ain't gonna make any friends ignoring people, know what I mean? An' if you ain't my friend, I can't help you against the gut suckin' spiders...Stone Rat Stone Rat Visit is an Event that can trigger if the player builds a base within 3,800 meters of the Stone Rat Village, or if the player cannot pay the hounds in the Hound Check In event. The initial campaign cannot trigger if Big Al is dead or captured, and none of the variants can trigger if the player is an ally of the Hounds. If the conditions are fulfilled, the event has a 30% chance to trigger each day if the player is within 3,500 meters, this chance scales down with distance until it hits 0% at 3,800 meters. Once triggered, the Stone Rats will send a campaign to the player’s outpost, this campaign will consist of two or three squads, each consisting of 5-6 Stone Rats. Once they arrive, the leader will give a short speech demanding you come speak with them, unless you are an ally of the Hounds by the time they arrive, at which point they turn and leave to avoid pissing off their boss. Once spoken to, they will demand c.3,500 for their ‘protection’ against the other gangs and wildlife in the Swamps, c.8,000 will be demanded if you have an outpost level of 3 (the town icon). Accepting to pay will trigger another Stone Rat Visit event in 90-120 hours. Refusing to pay, or ignoring the initial dialogue for long enough, will result in the campaign assaulting your base. If the assault is victorious, they will run around and steal food from your storage and triggering another Stone Rat Visit in 90-150 hours. If the assault is defeated, a Stone Rat Assault event will be triggered in 48-100 hours. Like most tax Events, if the campaign is defeated by a third-party faction like bandits or wild animals on the way to the player’s outpost, it will prevent any future tax visits from the faction until the player’s next import. This is due to the long repeat limit timer, and the fact that it doesn’t consider being defeated by a third party as the player killing them. This can be exploited by purposefully luring hostiles to the event’s forces while they en route to the player’s base.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/stone-rat-visit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bb75480af6fff867a50c9cdc5fdb776c3dace63a2037876d654e29e1ca513bd1"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "tax-evasion-enforcement",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: By order of the elite Empire, the owners of this property are under arrest. For crimes of tax evasion, treason and public disorder. Fall silently and all the more painless this will be for you!Samurai Tax Evasion Enforcement is an Event that can occur when you refuse or fail to pay taxes as part of the Tax Collector or Tax Man Visit events. It cannot trigger if Emperor Tengu is killed or captured. Once triggered, the United Cities will launch an assault party. This party will consist of at least two squads, usually each consisting of 10-20 Samurai Conscripts, 2-5 Samurai, and 1-3 Samurai Scouts, led by a Samurai. Rarely one or more of the squads will be substituted by a squad consisting of 1-4 Samurai Conscripts, 5-8 Samurai, and 1-3 Samurai Scouts, led by a Samurai Sergeant. Once the assault party arrives, the leader will read out the charges the player is being charged with, then orders the attack to begin. If the player interrupts the War Leader with dialog, they can pay a fine of c.6,000 instead and the assault will retreat, while the Tax Collector Event will trigger in 120-140 hours. If the player refuses to pay, or ignores the War Leader, the assault will begin. If the assault is defeated, the United Cities Assault event will trigger in 72-144 hours. If the player is defeated, the Tax Collector event will be triggered in 12-48 hours, where you will be expected to pay c.6,000 or face another attack.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tax-evasion-enforcement.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "822a2d51fd0d38703d170106d0ca1251af237db6478d82a364f1de2b22adb960"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-force-size",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "tax-man-visit",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: You benefit from the trade routes and the protection of Empire guards. Benefitting from Empire services, farming from the earth of Empire land is, in essence, my boy, stealing from the Empire. So if you do not want to be treated as a thieving criminal I suggest you pay your contributions to the Empire. A weekly payment of 3000 Cats, a meager amount for anybody worth more than a farm dog...Samurai Sergeant Tax Man Visit is an Event sent by the United Cities that triggers if the player creates an outpost within 3,500 meters of their towns. It cannot trigger if the player is an ally of the Anti-Slavers or United Cities, an enemy of the United Cities, or if Emperor Tengu is killed or captured. It has a 50% chance to trigger each day if within 2,200 meters of a United Cities owned location, this chance will reduce with distance until it reaches 0% chance at 3,500 meters. Once triggered, the United Cities will send the campaign to the player’s base, this campaign will consist of 3-6 Samurai, led by a Samurai Sergeant. Once the campaign arrives, the leader with shout at the player, demanding they speak with them. If ignored, the campaign will leave and a Tax Evasion Enforcement event will be triggered in 12-60 hours. Once spoken to, there will be several questions and paths through the dialog. You can pay the taxes for c.3,000, which will cause the campaign to leave and trigger the Tax Collector event in 140-160 hours. If you say you can’t afford it, the campaign will leave and return in 60-72 hours, demanding instead c.4,500. All other attempts to avoid paying taxes will fail, and refusal to pay will result in a Tax Evasion Enforcement event triggering in 24-48 hours, or 48-72 hours if you attack the Tax Man during the conversation. Like most tax Events, if the campaign is defeated by a third-party faction like bandits or wild animals on the way to the player’s outpost, it will prevent any future tax visits from the faction until the player’s next import. This is due to the long repeat limit timer, and the fact that it doesn’t consider being defeated by a third party as the player killing them. This can be exploited by purposefully luring hostiles to the event’s forces while they en route to the player’s base.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tax-man-visit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6da77be9e7f0f61e1b882bebeb8148c801e549bebce55b7be82418b28207f2b6"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "the-big-skin-harvest",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Come out, flesh brothers! Please come talk to your fellow humans! We mean no harm... ... We just want your skin. Your fresh.. clean... skin... Skin!Skin Bandit The Big Skin Harvest is an Event that can trigger if the Player has a Base within 7,000 meters of a Skin Bandits owned location, or as a result of defeating the Skin Harvest event. It has a 5% chance to trigger if within 3,000 meters, this chance scales down with distance until it reaches 0% at 7,000 meters. It cannot trigger if the player has killed or captured Savant, or if the player has allied with the Skin Bandits. Once the conditions have been fulfilled, the Skin Bandits will send an assault to the player’s base. This assault will consist of 2-5 squads, each made up of 8-20 Skin Bandits. When the assault arrives, the War Leader will give a short speech asking the player to share skins and/or food before they start the assault, attacking gates and characters, and kidnapping fallen characters to bring them to a Skinhouse or the Skinhouse HQ. Captured characters will be quickly placed into a Peeler Machine once there, and die shortly after, so rescue attempts must be very swift if they wish to save any kidnapped characters.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-big-skin-harvest.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6b0a420ee221382f142c8205677b060c2de90cb28c2dd4f884d32f2928f4c224"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "the-fog",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: WRRRRREEEEEEEEEE!Fogman The Fog is an Event that is supposed to trigger if the Player has a Base within 1,600 meters of a Fogmen owned location. It has a 20% chance to trigger if within 1,200 meters, this chance scales down with distance until it hits a 0% chance at 1,600 meters. Once the conditions have been fulfilled, the Fogmen will send and assault to the player’s base. This assault will consist of 2-3 squads, each made up of 18-25 Fogmen. Once the assault arrives the War Leader will scream outside the gates, signaling the assault to begin, attacking gate and characters, and kidnapping downed characters. Any characters kidnapped will be taken to a Fog Deathyard or Deadhive Overrun, or if certain World States have been triggered they may be taken to certain locations previously owned by The Holy Nation, Southern Hive, or Western Hive. Kidnapped characters will be eaten alive by Fog Princes not long after being imprisoned, unless they are rescued or escape on their own first. Note: As of 1.0.68, this event is currently broken and cannot trigger without a mod fixing it, due to the faction having a “not real” faction flag.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-fog.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6ee3f295827b479de22580481f599c560c7ece236027389c1c1ca0fb9aa515ce"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "thug-attack",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Alright, boys! You know the drill... The little guys piss on the big guys... The big guys pay us to mop up the piss.Er... what?MOP UP THE PISS AND BREAK SOME BONES. GO! Thug Attack is an Event that can trigger as a result of failing or refusing to pay the fees in the Traders Guild Visit event. It cannot trigger if the player is allied to the Traders Guild. When the conditions have been fulfilled, the United Heroes League will send one of two variants of assault to the player’s Base. The first variant will be sent if it is the initial attack after refusing to pay the Traders Guild’s fees, or if the previous Thug Attack event was victorious. It consists of 3-6 squads, each made up of 3-7 City Heroes, and led by a Hero Boss. If victorious, the first variant has an 80% chance to trigger again in 90-150 hours. If defeated, the second variant has a 90% chance to trigger in 50-120 hours. The second variant will be sent if the previous Thug Attack event was defeated, and as long as Lord Mirage is alive and free. It consists of 4-6 squads, the first being made up of 6-8 City Heroes led by Lord Mirage, and the rest being made up of 3-7 City Heroes led by a Hero Boss. If victorious, the first variant has an 80% chance to trigger again instantly. If defeated, the second variant has a 75% chance to trigger in 50-120 hours.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thug-attack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5c61f6b6d5934d70d19bc5d5e88653b3e61b8708251ad94fc3165eb95a23a5a7"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-force-size",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "traders-guild-visit",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: You are building a potential trade hub within Traders Guild jurisdiction, as such you are classed as a rival merchant and are subject to rates and protection. Refusal to engage in diplomatic relations will be considered an act of hostility!TG Diplomat Traders Guild Visit is an Event that can trigger if the player lives within 5,000 meters of Trader’s Edge. It cannot trigger if the player is an ally of the Anti-Slavers or Traders Guild, an enemy of the Hounds, or if Longen or Lady Kana have been killed or captured. If the conditions have been met, the event will have a 50% chance to trigger if the player’s base is within 3,000 meters of Trader’s Edge, this chance will scale down with distance until it hits a 0% chance at 5,000 meters. Once triggered the Traders Guild will send a campaign to the player’s base. This campaign will consist of two squads, each made up of 4 Samurai Captains and led by a TG Diplomat. When the campaign arrives, the leader will demand the player come speak with them or face repercussions. If ignored, a Thug Attack event will be triggered in 90-150 hours. If spoken to, the leader will demand the player either go to Trader’s Edge and speak to Yamdu to purchase a permanent membership in the Traders Guild, or to pay a weekly fee of 4,000 cats. Accepting to pay will result in another Traders Guild Visit event triggering in 75-120 hours to collect the first payment, unless you purchase the permanent membership from Yamdu before they arrive. Refusal to pay will result in a Thug Attack event triggering in 72-120 hours, while threatening the diplomat instead will result in it triggering in 36-60 hours. Amusingly, there are no loss triggers on the event. Because of this, if a player were to kill the diplomat and his squad before they arrive at the player’s base, no future demands for payment will trigger, nor will there be any hostile retaliations except for the loss of relation points. This can get you a permanent tax exemption without paying for it, and with no major consequences.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/traders-guild-visit.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cf75070706ea5b28a2e2fe3c6386f295dbecdfff17da6119384bea93c2435983"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "tribute-round",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Shek Kingdom don't share, flatskin, and you're on our land. Either you can pay us tribute from your stores, or we run this outpost to the ground. Your choice, flatskin.Shek Warrior War Leader Food Tribute is the first outpost visit sent by Shek Kingdom to challenge the player to a fight or alternatively rob the food supplies of people that settled up in their territory by force. It can trigger as long as the player’s base is within 1,500 Meters of a Shek Kingdom settlement and that Bugmaster, Phoenix, Bayan, Seto, and Esata have all not been killed or captured, and that the player is not an ally nor an enemy of the Shek Kingdom. It will have a 15% chance to trigger each day if within 1,000 meters of a Shek Kingdom owned location, this chance will reduce with any distance farther than that, until it hits a 0% chance at 1,500 meters away. Once triggered the Shek Kingdom will send the campaign to the player’s base, this campaign will consist of 0-1 Shek Scouts and 6 - 9 Shek Warriors. Once the campaign arrives, the leader will shout at the player to come talk. If the player ignores the leader, the campaign will leave and the Return For Blood event will be triggered in 12-24 hours. Once speaking to the leader, there will be a few options. If you accept the tribute demands they will begin taking food from any food storage containers in the base, and Return For Tribute will trigger in 120-250 hours. If you attempt to negotiate, they will insist that they set the terms, refusal at this point will result in them leaving and Return For Blood triggering in 24-30 hours. And finally, if you challenge them, they will leave and Return For Blood will trigger in 24-30 hours, in addition you will receive a small +1 relations with the Shek Kingdom. If the tribute is accepted, each Shek will take roughly 10 items of food. For reference, if all the foodstuff they take is Bread, it will cost the player up to around c.40,000 in value on average to fully fulfill their inventory. Arguably, the Tribute Round is the most expensive of all tax events, as the foodstuff they take could very easily exceed Tax Man Visit at even the bare minimum of food supplies of 3 Ration Packs. This could also potentially have zero impact if the player exploits the event, since mechanically Sheks (much like Starving Bandits) can’t actually sense food placed on the ground. Like most tax Events, if the campaign is defeated by a third-party faction like bandits or wild animals on the way to the player’s outpost, it will prevent any future tax visits from the faction until the player’s next import. This is due to the long repeat limit timer, and the fact that it doesn’t consider being defeated by a third party as the player killing them. This can be exploited by purposefully luring hostiles to the event’s forces while they en route to the player’s base. Though in the case of the Shek Kingdom here, it is possible to reactivate the tribute events by failing to defeat a Shek Challengers event. Tips This event can be cheese-able by emptying all storages containing food before they reach the players outpost. !!! It is unfeasible to to ally with Shek Kingdom through tributes, since relations tend to decrease whenever a member of a faction is harmed, downed, or killed.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tribute-round.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e65e1a3a79b304a8d2a8ceaa73c32d0dad8606ce19e3ff9d7301b147a0e32d88"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "united-cities-assault",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Under order of the Empire you have been sentenced for multiple crimes of treason. By punishment of death.Samurai United Cities Assault is an Event sent by the United Cities as a response to losing the Drug Bust, Tax Evasion Enforcement, or United Cities Assault events. Except as a response to tax evasion, it cannot trigger if Emperor Tengu, Lord Inaba, Lord Nagata, Lord Yoshinaga, Lady Sanda, and Lady Tsugi are all killed or captured. Once triggered, the United Cities will send an assault party. This party will consist of at least two squads, made up of 10-20 Samurai Conscripts, 2-5 Samurai, and 1-3 Samurai Scouts, led by an additional Samurai. Rarely one or more of the squads will be substituted for a squad made up of 1-4 Samurai Conscripts, 5-8 Samurai, and 1-3 Samurai Scouts, led by a Samurai Sergeant. Once the assault party arrives, the War Leader will give a short speech, then order the assault to begin. The soldiers will then attack the gates, attack any player characters they see, and liberate captives they find. If the assault is defeated, it will trigger another United Cities Assault event in 72-100 hours, with a 100% chance if this event was triggered by the Drug Bust event, and a 50% chance if it was triggered any other way. If the player is defeated, the assault party will retreat and return home, the Tax Collector event will be triggered in 12-48 hours if this event was triggered by the Tax Evasion Enforcement event, otherwise no further events will be triggered.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/united-cities-assault.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "72c36ffad485df97542f77ea130f38195aaad43240ab4660cc2cfe74f0419ea3"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "united-cities-reinforcements",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Lord Longen sends his respects today! My squadron is at your disposal, sirs...Samurai Sergeant United Cities Reinforcements is an Event that will trigger in response to the Holy Assault, Holy Nation Assault (Inquisitor), Jonin Assault, Retribution Of God, and Wrath Of God events, as long as the Player is an ally of the United Cities and Emperor Tengu is alive and free, and the player is NOT an ally of the Anti-Slavers, Holy Nation, or Shek Kingdom. Once triggered the United Cities will send reinforcements from the location they own closest to the player’s Base. While they will move faster than most hostile events, they can still arrive too late if the player’s base is closer to the hostile event’s spawn location than to the origin of the reinforcements. These reinforcements will consist of 1-2 squads, each made up of 1-4 Samurai Conscripts, 5-8 Samurai, 1-3 Samurai Scouts, led by a Samurai Sergeant. Once the reinforcements arrive, they will give a short speech, and then start patrolling the player’s base, attacking hostiles, defending the player’s characters, and healing wounded allies.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/united-cities-reinforcements.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1977663e0d190d067220d4f6d7c8de78bd8608a10a31b1781a48cdbb199c402d"
+      },
+      "questions": [
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "wrath-of-god",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: You've commited the gravest of crimes against Okran... Spawn of Narko herself, I will vanquish you and restore peace in our blessed nation! Burn him, him sent from the dark demoness herself! He must be purged to ash for bringing harm to our beloved Holy Lord Phoenix! Blessed be his name!High Inquisitor Seta The Wrath of God is a recurring Holy Nation base assault event that is launched once a player takes down Holy Lord Phoenix or defeated Retribution of God. It technically has a max range of 90,000 meters, and a “near” range of 50,000 meters, but both are far larger than the map itself, meaning that the initial event has a 100% of triggering each day no matter where in Kenshi’s map you live. Normally the event will be led by Seta, and he is required for the initial event to trigger (Note: There is a variant that is meant to have Valtena, which is supposed to trigger after Seta has been killed or captured, but in vanilla this is bugged and will not trigger due to Seta being set as the leader). Subsequent triggers of the event by defeating it do not require Seta to have survived, though the assaults will cease unless you’ve defeated Valtena before triggering the event (due to the aforementioned bug with his variants not triggering). This event has three main variants, with the second triggering after defeating the first, and the third triggering after defeating the second, with the third having a high chance to repeat after each defeat. The squads would be summed up to have 80 individuals in total. The first initial variant, will be led by High Inquisitor Seta, followed by 5 Paladins and 3 Inquisitors. He will also be accompanied by 3 ~ 5 squads each consisting of: 1 Inquisitor, 1-2 High Paladins, 10-12 Paladins, and 4-9 Holy Servants. If defeated, the second variant will trigger in 30-60 hours (~1.9 days), assuming Seta is still okay, or both he and Valtena have been killed or captured. The second variant will be led by either Seta, or one of the normal Inquisitors. Seta will bring his entourage of 5 Paladins and 3 Inqusitors if he joins the assault. Otherwise, the assault forces will consist of 3 ~ 4 squads each consisting of 1 Inquisitor, 1-2 High Paladins, 10-12 Paladins, and 4-9 Holy Servants. If defeated, it has a 95% of triggering the third variant in 36-80 hours (~2.4 days). If Seta has been killed or captured, but Valtena has not, the third variant will trigger, but will fail when the timer reaches 0. The third and final variant will be led by either Seta, or one of the normal Inquisitors. Seta will bring his entourage of 5 Paladins and 3 Inqusitors if he joins the assault. Otherwise, the assault forces will consist of 3 ~ 5 squads each consisting of 1 Inquisitor, 1-2 High Paladins, 10-12 Paladins, and 4-9 Holy Servants. If defeated, and as long as Seta has not been killed or captured, it will have a 100% chance of repeating the third event again in 168-672 hours. If High Inquisitor Seta has been killed or captured, but High Inquisitor Valtena has not, the event will trigger again but will fail (due to bug) when the timer reaches 0. If both have been killed or captured, there is a 95% chance of repeating in 168-672 hours (~17.5 days). Trivia This event is known in the FCS as: First Variant “HN Assault (Phoenix kidnap)” “HN Assault (Phoenix kidnap) valtena alive” “HN Assault (Phoenix kidnap) seta alive” “HN Assault (killed phoenix)” “HN Assault (killed phoenix) seta alive” “HN Assault (killed phoenix) valtena alive” Second Variant “HN Assault (ultimate) (trigger1)” “HN Assault (ultimate) (trigger1) seta alive” “HN Assault (ultimate) (trigger1) valtena alive” “HN Assault (ultimate) (trigger1) inquistors dead” Third Variant “HN Assault (ultimate) (trigger2)” “HN Assault (ultimate) (trigger2) seta alive” “HN Assault (ultimate) (trigger2) valtena alive” “HN Assault (ultimate) (trigger2) inquisitors dead” The assaults are set to have 80/60/75 individuals spawned for the 1st/2nd/3rd variant, respectively. This event has the largest amount of individuals of any assaults, tied with Eyegore’s Assault (only of Tengu variant) and Hive Attack (Western Hive). This is the only assault that encompasses the entire map that can be launched repetitively without the need for any leader(s) to be alive, making The Holy Nation the only faction that can unceasingly assault the Player Base with 100% chance to launch anywhere every day.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wrath-of-god.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7e1f77ec533479d409ec0a8d85516c649a9ce475c29b99c44bd4b14daf6d4a3a"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-world-state-gates"
+      ]
     }
   ],
   "editorialChanges": [

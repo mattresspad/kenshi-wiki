@@ -16293,6 +16293,17 @@
       }
     },
     {
+      "id": "availability:/shek-kingdom-reinforcements",
+      "kind": "availability",
+      "target": "/shek-kingdom-reinforcements",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-kingdom-reinforcements"
+      }
+    },
+    {
       "id": "availability:/shek-kingdom-route",
       "kind": "availability",
       "target": "/shek-kingdom-route",
@@ -16337,6 +16348,17 @@
       }
     },
     {
+      "id": "availability:/shek-proving",
+      "kind": "availability",
+      "target": "/shek-proving",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-proving"
+      }
+    },
+    {
       "id": "availability:/shek-recruit",
       "kind": "availability",
       "target": "/shek-recruit",
@@ -16356,6 +16378,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shek-retainer"
+      }
+    },
+    {
+      "id": "availability:/shek-revenge",
+      "kind": "availability",
+      "target": "/shek-revenge",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-revenge"
       }
     },
     {
@@ -17151,6 +17184,17 @@
       }
     },
     {
+      "id": "availability:/skin-harvest",
+      "kind": "availability",
+      "target": "/skin-harvest",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skin-harvest"
+      }
+    },
+    {
       "id": "availability:/skin-spider",
       "kind": "availability",
       "target": "/skin-spider",
@@ -17247,6 +17291,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/slave"
+      }
+    },
+    {
+      "id": "availability:/slave-capture",
+      "kind": "availability",
+      "target": "/slave-capture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-capture"
       }
     },
     {
@@ -17412,6 +17467,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/slave-mistress-ren"
+      }
+    },
+    {
+      "id": "availability:/slave-raid",
+      "kind": "availability",
+      "target": "/slave-raid",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-raid"
       }
     },
     {
@@ -18053,6 +18119,17 @@
       }
     },
     {
+      "id": "availability:/southern-hive-visit",
+      "kind": "availability",
+      "target": "/southern-hive-visit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/southern-hive-visit"
+      }
+    },
+    {
       "id": "availability:/southern-hive-worker-drone",
       "kind": "availability",
       "target": "/southern-hive-worker-drone",
@@ -18592,6 +18669,17 @@
       }
     },
     {
+      "id": "availability:/stone-golems-revenge",
+      "kind": "availability",
+      "target": "/stone-golems-revenge",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stone-golems-revenge"
+      }
+    },
+    {
       "id": "availability:/stone-mine",
       "kind": "availability",
       "target": "/stone-mine",
@@ -18625,6 +18713,17 @@
       }
     },
     {
+      "id": "availability:/stone-rat-assault",
+      "kind": "availability",
+      "target": "/stone-rat-assault",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stone-rat-assault"
+      }
+    },
+    {
       "id": "availability:/stone-rat-village",
       "kind": "availability",
       "target": "/stone-rat-village",
@@ -18633,6 +18732,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/stone-rat-village"
+      }
+    },
+    {
+      "id": "availability:/stone-rat-visit",
+      "kind": "availability",
+      "target": "/stone-rat-visit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stone-rat-visit"
       }
     },
     {
@@ -19472,6 +19582,28 @@
       }
     },
     {
+      "id": "availability:/tax-evasion-enforcement",
+      "kind": "availability",
+      "target": "/tax-evasion-enforcement",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tax-evasion-enforcement"
+      }
+    },
+    {
+      "id": "availability:/tax-man-visit",
+      "kind": "availability",
+      "target": "/tax-man-visit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tax-man-visit"
+      }
+    },
+    {
       "id": "availability:/tech-hunter",
       "kind": "availability",
       "target": "/tech-hunter",
@@ -19703,6 +19835,17 @@
       }
     },
     {
+      "id": "availability:/the-big-skin-harvest",
+      "kind": "availability",
+      "target": "/the-big-skin-harvest",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-big-skin-harvest"
+      }
+    },
+    {
       "id": "availability:/the-black-desert",
       "kind": "availability",
       "target": "/the-black-desert",
@@ -19777,6 +19920,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/the-five-invincibles"
+      }
+    },
+    {
+      "id": "availability:/the-fog",
+      "kind": "availability",
+      "target": "/the-fog",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-fog"
       }
     },
     {
@@ -20198,6 +20352,17 @@
       }
     },
     {
+      "id": "availability:/thug-attack",
+      "kind": "availability",
+      "target": "/thug-attack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/thug-attack"
+      }
+    },
+    {
       "id": "availability:/tin-can",
       "kind": "availability",
       "target": "/tin-can",
@@ -20583,6 +20748,17 @@
       }
     },
     {
+      "id": "availability:/traders-guild-visit",
+      "kind": "availability",
+      "target": "/traders-guild-visit",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/traders-guild-visit"
+      }
+    },
+    {
       "id": "availability:/traders-leathers",
       "kind": "availability",
       "target": "/traders-leathers",
@@ -20690,6 +20866,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/travel-supplies-shops"
+      }
+    },
+    {
+      "id": "availability:/tribute-round",
+      "kind": "availability",
+      "target": "/tribute-round",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tribute-round"
       }
     },
     {
@@ -20899,6 +21086,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/united-cities"
+      }
+    },
+    {
+      "id": "availability:/united-cities-assault",
+      "kind": "availability",
+      "target": "/united-cities-assault",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/united-cities-assault"
+      }
+    },
+    {
+      "id": "availability:/united-cities-reinforcements",
+      "kind": "availability",
+      "target": "/united-cities-reinforcements",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/united-cities-reinforcements"
       }
     },
     {
@@ -21768,6 +21977,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/worn-out-shorts"
+      }
+    },
+    {
+      "id": "availability:/wrath-of-god",
+      "kind": "availability",
+      "target": "/wrath-of-god",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wrath-of-god"
       }
     },
     {
@@ -26304,6 +26524,21 @@
         "method": "local resource available; independently maintained contents",
         "sha256": "d8e5ea9d8468513d1483a88b97d118bebb5dc27e193292d9fb9687a8f4a03f83",
         "sourceSha256": "e6ce3946a2ea50bf105694ad718f78d3d5ee66a8e015c462b943355bbc073d2b"
+      }
+    },
+    {
+      "id": "media:https://steamcommunity.com/app/233860/discussions/0/2666626816211752074/",
+      "kind": "media",
+      "target": "https://steamcommunity.com/app/233860/discussions/0/2666626816211752074/",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-siblings-3",
+      "resolution": {
+        "method": "malformed source image restored as identical-URL text link; no gameplay verification",
+        "articleId": "tribute-round",
+        "target": "https://steamcommunity.com/app/233860/discussions/0/2666626816211752074/",
+        "label": "SCIENCE",
+        "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sourceSha256": "e65e1a3a79b304a8d2a8ceaa73c32d0dad8606ce19e3ff9d7301b147a0e32d88"
       }
     }
   ]
