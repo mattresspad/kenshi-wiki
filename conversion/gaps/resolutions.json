@@ -10826,6 +10826,17 @@
       }
     },
     {
+      "id": "availability:/kenshi-unofficial-multiplayer-mod",
+      "kind": "availability",
+      "target": "/kenshi-unofficial-multiplayer-mod",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-projects",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/kenshi-unofficial-multiplayer-mod"
+      }
+    },
+    {
       "id": "availability:/king",
       "kind": "availability",
       "target": "/king",
@@ -12652,6 +12663,17 @@
       }
     },
     {
+      "id": "availability:/modding/meitou/porting-re-kenshi-mods",
+      "kind": "availability",
+      "target": "/modding/meitou/porting-re-kenshi-mods",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-projects",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/modding/meitou/porting-re-kenshi-mods"
+      }
+    },
+    {
       "id": "availability:/moll",
       "kind": "availability",
       "target": "/moll",
@@ -14090,6 +14112,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/parchment"
+      }
+    },
+    {
+      "id": "availability:/particle-script-examples-and-experiments",
+      "kind": "availability",
+      "target": "/particle-script-examples-and-experiments",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-projects",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/particle-script-examples-and-experiments"
       }
     },
     {

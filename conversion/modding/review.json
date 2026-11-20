@@ -180,6 +180,82 @@
         "claim:modding-scripts",
         "claim:modding-versions"
       ]
+    },
+    {
+      "id": "modding/meitou",
+      "existence": "Permanent ID, address, pinned checksum, categories and one modding/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Kenshi Wiki maintains this directory of community mods for MeitouClient. Each mod title opens the creator’s Steam Workshop listing, where you can find screenshots, downloads, and compatibility notes. Suggest a mod with its public release link, the creator’s preferred credit, what it changes, and any requirements. If you’re starting a project of your own, jump to Make a code mod. Browse mods Execution By Jame Adds a Meitou context-menu order that lets a squad member execute a downed opponent. Source code. Guild & Quests By BeatTheCount Join the Adventurers Guild in 20 towns. Meitou powers its quest boards and trials, where your squad can climb the guild ranks. Kenshi Ultimate Overhaul By BeatTheCount Changes who takes over towns as faction leaders fall. On Meitou, nations can also go to war. Requires Universal Wasteland Expansion, Kenshi Kaizo, and their compatibility patch. Landmark Banners By BeatTheCount Meitou adds colored signs to town buildings so you can spot a bar, doctor, or shop from the street. The symbol on each banner identifies the service. TimeLight Map By pizzy A live 3D minimap follows your squad. Match the download to your Meitou version when choosing a build on Workshop or Nexus Mods. Source code. You can also meet authors and discuss releases in the meitou-mods channel on the Meitou Discord. Make a code mod Bringing an existing mod? Assess one RE_Kenshi feature. To try making a dependent mod, fit a saddle to a Pack Bull and hand the ZIP to another player. Ordinary Kenshi mods can change game records in the Forgotten Construction Set or supply new assets. Meitou code mods can also run C# inside the client. Follow the MeitouClient code-mod guide for setup instructions that match your client version. Create your first mod. Build a C# library against your installed client and identify its entry type in the meitou.json manifest. Choose what it changes. The guide shows how to add a dialogue condition, react to a combat hit, or extend the interface. Check it in game. Enable the mod in the launcher and try the feature. To check that simulation results repeat, run meitou-tools mod-check on a save. It compares three runs and reports the first tick that differs. See troubleshooting if the mod fails to load.",
+      "organization": "Reviewed 7 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/modding/meitou.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d2601132b0a878262bdfa8bf2a791faa295f4bacdeec3ebe9aeb372af6d6e60e"
+      },
+      "questions": [
+        "claim:modding-assets",
+        "claim:modding-dialogue",
+        "claim:modding-missing-media",
+        "claim:modding-project-status",
+        "claim:modding-record-editing",
+        "claim:modding-scripts",
+        "claim:modding-versions"
+      ]
+    },
+    {
+      "id": "modding/meitou/porting-re-kenshi-mods",
+      "existence": "Permanent ID, address, pinned checksum, categories and one modding/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: MeitouClient does not load existing RE_Kenshi plugin DLLs. A mod that depends on one may also contain dialogue, town records, meshes or textures you can use. Pick one thing a player can do with your mod and find out which pieces make it happen. Meitou’s code-mod guide Write down one player action Start in the original Kenshi setup where the feature works. Record the Kenshi, RE_Kenshi and mod versions, dependencies in load order, and the character, item or location you need. Perform the action. What did the player see? What should happen if the prerequisite is missing? If the feature changes the world, save, quit, and check what’s still there when you reload. For example, “the gatekeeper recognizes my goggles” gives you a short test. Speak to the same keeper with the goggles equipped, then move them into the character’s inventory and speak again. Write down both responses. You can now test the dialogue record and the condition that chooses the line separately. Decide what to bring across Use a fresh Meitou profile and a disposable save. Record the client release, enable the minimum data and dependencies for this action, then repeat it. Use the first difference you observe to choose the next step. Follow a right-click order in Execution Jame’s Execution is a Meitou-native mod. Start with its menu choice and follow it to a moving character. The steps below follow Execution 0.5.0, revision 8d83166. Its author reports testing on MeitouClient 0.20.1. Author’s controls and compatibility notes Select a squad member and right-click a living, downed character outside your squad. The menu adds Violence… for an eligible target. The mod checks the target and selection when extending the client’s menu. This part depends on the menu implementation in that client version. Menu conditions Choose Execute in the submenu. The choice queues an ExecuteOrder carrying the selected character IDs and the target ID. Submenu callback The mod registers its execution system at startup. That system consumes the order and sends the nearest eligible selected character to the target. Seeing the menu and seeing the character carry out the order are two separate checks you can make in game. System registration · Order handling Two field notes on checking a result Dune Gate · local terrain and navigation trial, Meitou 0.20.0. One East Gate Keeper spawned as a household resident with the fallback disabled. He climbed 24 units on an authored slope. After saving on the landing and restarting the client, the same keeper returned at the recorded position and walked down. This run began with an empty navigation cache and used a private install with a generated heightmap and three authored navigation seeds. Those files were part of the local test setup. Stoat Scout · local two-window trial, Meitou 0.20.0. The guest could issue an order and read changing coordinates while the Scout on its screen stood still. The later loopback trial showed the Scout walking out and back on the guest display using the host’s position, facing and animation. It exercised one assigned character in two processes on one computer and used a private snapshot hook specific to that release. The proposed two-Wanderer session is a further gameplay test. The gameplay reference was nhoral’s KenshiCoop. Share a tested port If you bring a feature across, send the wiki a before-and-after example. Include the original mod and creator’s credit, both setups, one action another player can repeat, and what they should see. A partial result is welcome. Naming the one step that still needs an equivalent gives the next author somewhere to start.",
+      "organization": "Reviewed 5 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/modding/meitou/porting-re-kenshi-mods.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c8d6330590afa62c003934137662b0686df5eff4fd3cdc735457d80ca9bcab7f"
+      },
+      "questions": [
+        "claim:modding-assets",
+        "claim:modding-dialogue",
+        "claim:modding-project-status",
+        "claim:modding-record-editing",
+        "claim:modding-scripts",
+        "claim:modding-versions"
+      ]
+    },
+    {
+      "id": "particle-script-examples-and-experiments",
+      "existence": "Permanent ID, address, pinned checksum, categories and one modding/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: WIP Scripts that are working as is You can edit vanilla .pu scripts to see the code, they are located in the kenshi/data/particles/scripts folder. Please do not save over vanilla scripts. Click expand to see code Scripts that have failed Click expand to see code",
+      "organization": "Reviewed 2 headings and 9 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/particle-script-examples-and-experiments.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c15c6be8216e0c0c39577c9ede882b50866ab393ad692a644585bc2e5805f6b0"
+      },
+      "questions": [
+        "claim:modding-assets",
+        "claim:modding-dialogue",
+        "claim:modding-missing-media",
+        "claim:modding-record-editing",
+        "claim:modding-scripts",
+        "claim:modding-versions"
+      ]
+    },
+    {
+      "id": "kenshi-unofficial-multiplayer-mod",
+      "existence": "Permanent ID, address, pinned checksum, categories and one modding/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Kenshi Unofficial Multiplayer Mod The Kenshi Unofficial Multiplayer Mod is a community‑developed project that enables limited cooperative multiplayer functionality in Kenshi, the single‑player squad‑based sandbox RPG created by Lo‑Fi Games. While Kenshi was designed and released as a strictly offline, single‑player experience, this mod attempts to synchronize core gameplay systems across multiple clients, allowing players to explore, build, and fight together within a shared world. The project is not affiliated with Lo‑Fi Games and is considered experimental, with varying levels of stability depending on version, host hardware, and player count. You can self-host this mod or rent from a dedicated game server provider. Overview The mod introduces a lightweight client–server architecture that allows one player to host a world while others connect as clients. It focuses on synchronizing essential gameplay elements such as character movement, combat states, inventory changes, and world events. Due to the complexity of Kenshi’s simulation engine, the mod does not provide full parity with single‑player behavior, but it enables a functional cooperative experience for small groups. The mod is primarily aimed at players who want to share exploration, base building, and squad management with friends while accepting the limitations of unofficial multiplayer support. Features Multiplayer Connectivity Host‑client model with LAN or internet connections Support for 2–6 players depending on system performance Optional password‑protected sessions Character & Squad Synchronization Real‑time syncing of player‑controlled characters Shared or separate squads depending on host settings Basic AI behavior replicated across clients Combat Synchronization Position, animation, and health state syncing Shared aggro and enemy targeting Occasional desync may occur during large battles World & Base Building Shared access to buildings, crafting stations, and storage Construction progress synchronized across clients Research tree shared between all players Inventory & Economy Trading between players Shared access to shops and vendors Item pickup, crafting output, and container contents synced Limitations Because Kenshi was not designed for multiplayer, several systems remain partially implemented or unstable: Pathfinding desync during large squad movements Occasional rubber‑banding in crowded cities AI schedules not always consistent across clients Weather and lighting may visually differ between players Save files are host‑only and not cross‑compatible with vanilla saves Mods that alter AI, factions, or world states may cause conflicts The developers of the mod recommend small group play and avoiding extremely large squads to maintain stability. Installation The mod is typically distributed through Nexus Mods or GitHub. Installation generally involves: Downloading the mod package Extracting it into the Kenshi mods directory Enabling the mod in the game launcher Running the included multiplayer launcher or executable Configuring host settings and sharing the session IP with friends Some versions include a dedicated server tool, while others rely on the host running both the game and the server instance simultaneously. Development The Kenshi Unofficial Multiplayer Mod is maintained by independent modders and reverse‑engineering enthusiasts. Development focuses on: Improving synchronization stability Expanding support for AI‑heavy scenarios Reducing crashes during large battles Enhancing compatibility with popular overhaul mods Because the mod relies on memory hooks and engine‑level workarounds, updates to Kenshi may temporarily break compatibility until the mod is patched. Community Reception The mod has been praised for making cooperative Kenshi gameplay possible for the first time, especially for exploration‑focused groups. Players enjoy the ability to: Build bases together Run squads in parallel Explore dangerous regions as a team However, the mod is also known for instability, occasional crashes, and desync issues. Most players view it as a “fun experiment” rather than a fully polished multiplayer mode. References Kenshi Github Page[1]",
+      "organization": "Reviewed 12 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fb19dc8667ebab0ca625e8235759e308d5ae3d50a1c1c6834daa3610ed964e0a"
+      },
+      "questions": [
+        "claim:modding-multiplayer-claims",
+        "claim:modding-project-status",
+        "claim:modding-record-editing",
+        "claim:modding-scripts",
+        "claim:modding-versions"
+      ]
     }
   ],
   "editorialChanges": []

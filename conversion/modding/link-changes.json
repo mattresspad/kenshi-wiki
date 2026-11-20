@@ -41,5 +41,16 @@
       "/category/skythe",
       "/category/stumps"
     ]
+  },
+  {
+    "name": "modding-projects",
+    "resolved": [
+      "/modding/meitou",
+      "/modding/meitou/porting-re-kenshi-mods",
+      "/particle-script-examples-and-experiments"
+    ],
+    "introduced": [
+      "/kenshi-dedicated-server-providers"
+    ]
   }
 ]
