@@ -1,0 +1,171 @@
+---
+articleId: dialogue-events
+title: Dialogue Events
+description: This page is lists the various events connected to the Forgotten Construction Set's dialogue system, along with some information about that event if available.
+categories:
+  - Modding
+  - Dialogue
+layout: modding
+---
+
+This page is lists the various events connected to the [Forgotten Construction Set's](/forgotten-construction-set) dialogue system, along with some information about that event if available.
+
+See also [Dialogue Triggers Usage](/dialogue-triggers-usage) a table of all the events with commentary how it can be used
+
+## Events
+
+-   **EV\_Player\_Talk\_To\_Me**
+    -   If the conditions for this dialogue are met, allows for the player to talk to this character by clicking on them. Can also be triggered by the "DA\_TALK\_TO\_LEADER" effect.
+    -   ME is the character that the player is talking with. TARGET is the player.
+-   **EV\_Acid\_Feet**
+    -   Triggers when a barefoot character walks in an acid biome
+-   **EV\_Acid\_Rain**
+    -   Triggers when a character without 100% acid resistance runs around in acid rain
+-   **EV\_Acid\_Water**
+    -   Triggers when a character without 100% acid resistance swims in acid water
+
+-   **EV\_Almost\_Woke\_Up**
+    -   Triggers only on NPCs and is used as a fluff
+-   **EV\_Announcement**
+    -   Dialogue that is used for announcing arrivals of raids/visits to player bases. NPC only.
+-   **EV\_Assassination\_Failed**
+    -   _"_
+-   **EV\_Bar\_Talk**
+    -   Triggers only on NPCs, that are spawned inside a bar building (BD\_BAR indicator in squad file), is used to create ambience
+-   **EV\_Being\_Healed\_Finished**
+    -   Triggers on characters, who have just been healed by the player, sometimes on PCs who have been healed by a NPC
+-   **EV\_Being\_Healed\_Start**
+    -   _"I have just had another character (the target) begin healing me\\nMake sure to distinguish if target is enemy, neutral or ally"_
+-   **EV\_Betrayal**
+    -   Triggers on an NPC when the player attacks after having made a contract with them, such as when hiring mercenaries.
+-   **EV\_Bought\_Me\_From\_Slavery**
+    -   Triggers on NPCs only, is used to play a reaction and possible joining to the player faction
+-   **EV\_Bounty\_Spotted**
+    -   Triggers in NPCs only, is used to react to player characters with bounty on their heads
+-   **EV\_Burning**
+    -   Triggers in fire, lava and acid situations, a reaction with screams
+-   **EV\_Contract\_Job\_Ended**
+    -   Triggers in NPCs only, when the contract AI timer has run to end, the dialogue in this slot will be triggered
+-   **EV\_Crowd\_Triggered**
+    -   Triggers from within some dialogue, fe. the leader's conversation with the player, or from a campaign (fe. assault stage). Triggers everyone owning the dialogue pack that has been called (meet the conditions).
+    -   Triggers entire squad of ME, whether they have the dialogue or not. \[Soar\]
+-   **EV\_Eating\_My\_Crops**
+    -   Triggers when a character spots an animal in their field
+-   **EV\_Eating\_Something\_Sounds**
+    -   Used by fogmen when eating.
+-   **EV\_Enter\_Biome**
+    -   This is used in player dialogue only and it triggers when the player squad first enters to a biome, only one event per biome and they are all already in vanilla
+-   **EV\_Enter\_Town**
+    -   Triggers upon entering a town or nest. _Only triggers for squad leader._
+    -   Seems to have low priority, does not always trigger
+    -   Entering a town as specified by its range visible through SHIFT + F12. To make this EV\_ trigger again, you'll need to leave the range of a town by ~a full screen width whilst zoomed out fully. \[Soar\]
+-   **EV\_Escaped\_Ex\_Slave\_Spotted**
+    -   "I spotted somebody with the brand of a slave. They're a fugitive!"
+-   **EV\_Escaped\_Prisoner\_Spotted**
+    -   _"I've just noticed one of my prisoners wandering around when they should be inside their cage"_
+-   **EV\_Escaping\_Slave\_Spotted**
+-   **EV\_FirstAid\_Kit\_Empty**
+    -   Triggers upon using the last charge of their last First Aid Kit
+-   **EV\_Get\_Up\_Fight**
+    -   Triggers after being KOed, when a squadmate is still fighting
+-   **EV\_Get\_Up\_Peace**
+    -   Triggers after being KOed, when there are no more enemies around or no squad members fighting
+-   **EV\_Get\_Up\_Unneccessary\_Fight**
+    -   Triggers when you get up from Playing Dead. \[Soar\]
+-   **EV\_Give\_Up\_Chase**
+    -   Triggers in NPCs, when the attacker is running
+-   **EV\_Harrassment\_Shouts**
+    -   Used by the United Heroes when hurling insults at non-human players.
+-   **EV\_Healing\_Other\_Finished**
+    -   _"I have just stood up after finishing healing another character (the target)\\nMake sure to distinguish if target is enemy, neutral or ally"_
+-   **EV\_Healing\_Other\_Start**
+    -   _"I have just begun healing another character (the target) Make sure to distinguish if target is enemy, neutral or ally."_
+-   **EV\_I\_Defeated\_Squad**
+    -   Triggers when a squa defeats another squad
+    -   ME is the character who made the final blow for the winning faction, TARGET is the character who was defeated. Typically, the target will be KOed.
+-   **EV\_I\_See\_Ally\_Player**
+    -   Triggers when the character spots an allied player character.
+    -   ME is the character that spotted the player, TARGET is the player character that was spotted.
+-   **EV\_I\_See\_Animal\_Squad**
+    -   Triggers when the player squad has only animal characters. Some NPCs can join the Player squad when noticing only animals in a squad. This is to give the player the option to keep on playing even after all humanoids are dead.
+-   **EV\_I\_See\_Enemy\_Player**
+    -   Triggers when ME spots an enemy player character.
+    -   ME is the character that spotted the player, TARGET is the player character that was spotted.
+-   **EV\_I\_See\_Illegal\_Player\_Building**
+    -   FCS claims this is not currently used.
+-   **EV\_I\_See\_Neutral\_Squad**
+    -   Triggers once every second while a neutral character is spotted
+    -   ME is the character that spotted the target. TARGET is the character that was spotted.
+    -   Does not trigger while the ME character is imprisoned in a cage, if the target has been imprisoned, or if the target has been knocked out.
+    -   **Use this carefully, make sure to use plenty of conditions, otherwise this will massively impact performance.** \[Soar\]
+-   **EV\_I\_See\_Player\_Nice\_Building**
+    -   FCS claims that this is not currently used.
+-   **EV\_I\_See\_Ragdoll**
+    -   This event is redundant, does not trigger
+
+-   **EV\_I\_See\_Uniform\_Imposter**
+    -   Triggers when the player character is wearing a uniform piece of the NPC's faction. It is used to 'notice a strange face among my kin'. Does not trigger in other factions, only in the faction the uniform belongs to.
+-   **EV\_Introducing\_New\_Slave**
+    -   Is used as a fluff, triggers when a player is nearby and the slave caravan has reached its destination
+-   **EV\_Intruder\_Found**
+    -   Triggers when a house is set as non-public or after closing time of a shop and the player is still inside. Is used to shush the player away from the building, usually results in an alarm
+-   **EV\_Kidnapping\_My\_Ally**
+    -   Triggers when the ally NPC is picked up by an outsider/not ally of the faction, even if the intention is to put them on a bed to heal.
+-   **EV\_Launch\_Attack**
+    -   Does not trigger for player characters. \[Soar\]
+    -   Could not consistently get this to trigger for NPC either. \[Soar\]
+-   **EV\_Looting\_Everything**
+    -   _"I'm looting somebody and I'm just taking everything I can because I'm an asshole, or because he's dead. Target is the victim."_
+-   **EV\_Looting\_Weapon\_Only**
+    -   _"I'm looting somebody, but only taking their weapon because I need it or I'm in a hurry. Dialogue target is the victim."_
+-   **EV\_Lost\_Arm**
+    -   Triggers when an arm of the character has fallen to the ground, does not trigger on -100 hp, only if it is separated.
+-   **EV\_Lost\_Leg**
+    -   Triggers when a leg of the character has fallen to the ground, does not trigger on -100 hp, only if it is separated.
+-   **EV\_Marked\_For\_Death**
+    -   Triggers when the character is in a cannibal cage or similar and has been selected to be the next one killed.
+-   **EV\_Poison\_Gas**
+    -   Triggers when a character without 100% gas resistance enters a gas cloud.
+-   **EV\_Prisoner\_Free\_To\_Go**
+-   **EV\_Recapturing\_A\_Slave**
+-   **EV\_Screaming\_Torture**
+    -   Triggers when a character is being tortured. (Cannibals, Fogmen, Peeler)
+-   **EV\_Shoo\_From\_My\_Building**
+    -   Triggers when a shop is about to close and the player is still inside.
+-   **EV\_Shout\_At\_Slave\_Worker**
+    -   _"_
+-   **EV\_Slave\_Delivery**
+    -   _"I'm handing over fresh slaves I caught to my slaver colleague. ‘Here's some new slaves for you!\\nDialogue target is the colleague."_
+-   **EV\_Slave\_Escape\_Opportunity\_Alone**
+    -   _"Triggered when a slave notices all his masters are KO. "_
+-   **EV\_Slave\_Escape\_Opportunity\_Savior**
+    -   _"Triggered when a slave notices all his masters are KO. Dialogue target is the person who took down their master."_
+-   **EV\_Sound\_The\_Alarm**
+    -   Response to the alarm
+-   **EV\_Speech\_Interrupted\_Attacked\_By\_Strangers**
+    -   _"I was talking to someone and suddenly got attacked by a stranger! Always use repeat limit of at least 2hours.  Needs a lot of specifics, depending on who attacked us. Dialogue target will be the attacker."_
+-   **EV\_Speech\_Interrupted\_Attacked\_By\_Target**
+    -   _"I was talking to some guy and he suddenly attacked me! Always use repeat limit of at least 2hours\\nTarget is the person who attacked me."_
+-   **EV\_Squad\_Broken**
+    -   Someone within my squad has died. \[Soar\]
+-   **EV\_Taken\_Over\_Player\_Town**
+    -   _"I've just raided a town and now I'm gonna take it over. I totally live here now. Dialogue has no target"_
+-   **EV\_Thief\_Caught\_Stealing\_From\_Me**
+    -   Triggers when an NPC catches the player stealing from them.
+-   **EV\_Unlock\_My\_Cage\_Attempt**
+    -   _"A failed lockpick attempt made on my cage "keep trying buddy!" Target is the person trying to free me."_
+-   **EV\_Unlock\_My\_Cage\_Or\_Shackles**
+    -   _"Triggered when somebody NOT from our captor's faction has unlocked my cage. "you rescued me!" Make sure to use conditions 'In locked cage' and 'Wearing shackles' to cover all bases. Target is my saviour."_
+-   **EV\_Using\_My\_Training\_Equipment**
+    -   _"I'm chilling in my building and somebody just came in and started using my stuff."_
+    -   Target must be using equipment within line of sight of ME. \[Soar\]
+-   **EV\_Windy**
+    -   _"I can't see anything, it's so dusty!"_
+-   **EV\_Witness\_Generic\_Assault**
+    -   _"I saw a crime happening, keep it generic. Triggered often so use repeat limits. Target is the criminal."_
+-   **EV\_Witness\_Looting\_Ally**
+    -   _"Someone is looting the body of an ally.  Should react differently if in a town or not.  Needs a repeat limit timer or it will be constant.\\nTarget is the criminal."_
+-   **EV\_Witness\_Thief\_Or\_Lockpick**
+    -   _"Witnessed someone stealing from somebody else, or lockpicking a door or something, or freeing a slave"_
+-   **EV\_Worshiping\_Something**
+    -   Used by Fogmen.
