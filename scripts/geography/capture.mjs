@@ -93,7 +93,7 @@ export async function captureBatch(base, batch, output, family='geography') {
             shots.push({id,anchor,device,theme,file:expanded});
             if(device==='phone')await page.keyboard.press('Escape');
           }
-          if(family==='events'&&id==='crab-tournament'){const link=page.locator('.page-outline a').last();await link.evaluate(el=>{for(let p=el.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true});if(device==='phone')await page.locator('#toggle-navigation').press('Enter');await link.scrollIntoViewIfNeeded();await link.focus();const file='crab-outline-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});if(device==='phone')await page.keyboard.press('Escape');}
+          if(family==='events'&&id==='crab-tournament'){const link=page.locator('.page-outline a[href="#crab-champion"]');await link.evaluate(el=>{for(let p=el.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true});if(device==='phone')await page.locator('#toggle-navigation').press('Enter');await link.scrollIntoViewIfNeeded();await link.focus();const file='crab-outline-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});if(device==='phone')await page.keyboard.press('Escape');}
           if(family==='gameplay'&&id==='guide-to-training-statistics'){
             const target='#'+await page.locator('.article-body h4,.article-body h3').last().getAttribute('id'),link=page.locator('.page-outline a[href="'+target+'"]');
             await link.evaluate(el=>{for(let p=el.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true});
