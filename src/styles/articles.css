@@ -351,7 +351,7 @@
 .lore .table-scroll table {min-width:0;width:auto;max-width:79ch}
 .lore .table-scroll caption {text-align:center}
 @media(min-width:761px){
- .with-recorded-text.with-facts > article > .recorded-item-text {grid-column:1;grid-row:3}
+ .article-sheet.with-recorded-text.with-facts > article > .recorded-item-text {grid-column:1;grid-row:3}
  .with-recorded-text.with-facts .article-body {grid-column:1;grid-row:4}
  .with-recorded-text.with-facts .factbox {grid-row:1 / 5}
 }
