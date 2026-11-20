@@ -108,6 +108,356 @@
         "claim:lore-timeline",
         "claim:lore-turkish-citations"
       ]
+    },
+    {
+      "id": "a-holy-purpose",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Holy Purpose is a book item found in The Holy Nation. This item is ‘unique’ to Temples in The Holy Nation. However, it can also be found without the ‘unique’ label in other Holy Nation vendors. Additional places which might stock this item: Holy Boot Shop Holy Mechanical Shop Holy Nation Bar The Great Library Barracks of both High Inquisitors The home of the Holy Lord Phoenix Barracks at Narko’s Trap Boss’ building at Holy Mines Holy General Shop (“holy Shop trade adv”)",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/a-holy-purpose.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f91ea1a322b869fe8b612f5d4672c90b4eb2f8dddf9c8e8292b4071231daacbd"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "beautiful-tengu-a-tribute",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Beautiful Tengu: A Tribute is a book item found in United Cities. This item can be found in many empire vendors. From this item, players can learn of the imprisonment of anti-slaver icon Luquin in Tengu’s Vault. Places which might stock this item: The Great Library residential buildings malnourished mechanical shops Traders Guild HQ in Trader’s Edge malnourished Traders Guild HQ Fort Mirage",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/beautiful-tengu-a-tribute.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4afe225f2c2408edc3e8c44ef4994e12880bbf2811af3b62a102389d2eb18d3c"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "book-of-grace",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Book Of Grace is a book item found in The Holy Nation. This is one of the few books which is worth some money. Despite the book itself claiming that it is forbidden, this book can be found inside of Temples in The Holy Nation. This book can also be found inside of Flotsam Village.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/book-of-grace.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ddd1d8249711bbb092f4a5a9172d6d31ad0b0e4da46355efb0a66ccf84fbb366"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-forbidden-stock",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "book-of-sacrifice",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Book Of Sacrifice is a book item found in The Holy Nation. This is one of the few books which is worth some money. Despite the book itself claiming that it is forbidden, this book can be found inside of Temples in The Holy Nation, possibly for study by the Priests. This book can also be found inside of Flotsam Village. This book details the origins of Okran and Narko. Players have speculated that the story of Chitrin bears resemblance to another lore figure in the game, Stobe.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/book-of-sacrifice.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "31374c033b3188763a9870b553577be08ab8070483d9a5d18f37876b8c606632"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-forbidden-stock",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "chitrin",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Chitrin was a deity in the world of Kenshi whose story is described by the Book Of Sacrifice. He is a lesser-known deity with only a single book describing his existence, and the Holy Nation seemingly has banned his worship (although they have the Book of Sacrifice in their Temples). Outside of Holy Nation Temples, the book can also be found in the Flotsam Village which makes sense considering Moll’s open ideas on religion. History of Chitrin The book describes Chitrin as a benevolent god whose people lost faith in him one day. As the faith in Chitrin diminished, his power decreased and the lands were plagued by calamities. The people begged Chitrin to save them. In an act of forgiveness, Chitrin sacrificed himself to end the calamities and was reborn as Okran, the god of day, warmth, and renewal, and Narko, the god of night, cold, and destruction. From then on, the two deities lived on in balance. Trivia Some players believe Chitrin may have some connection to another lore character, Stobe.",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chitrin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c0c10abd20c518d767813dcd6a64ab3228e237a08deffa296e6a67abae2a117c"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "cross",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: There was at some point in history a legendary master smith, of whom nothing is known except his (...her?) name from the blade inscriptions: \"Cross\". The blades never rust or need sharpening, and are said to be unbreakable. There are only a handful in existence.In-game description Cross was once a legendary smith from history. Overview They are the only person known to create weapons of Meitou quality. There is not much else known about this person. There only seems to be one or two of each weapon made by Cross that have been found by modern (or still-living ancient) people. Weapons of this quality are the strongest of their kind. Mods Price: 2x Blunt Damage: 1x Cut Damage: 1.1x Min Cut Damage: 1x Weight: 1x Model Meitou Trivia The name Cross may be a reference to a generous donor in the very early days of the game.[1]",
+      "organization": "Reviewed 4 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/cross.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b2ea96dba880f7b0b846beff29b9e4845f313ae952bc32f3d459b22c4e09d006"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "flatskins",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Because they Shek are arrogant boneheads, I tell you. Ain't no sword that can kill their egos... But call me flatskin one more time, I dare 'em...Human player characters, Esata dead or imprisoned Flatskin is a derogatory term used by characters in the Shek Kingdom to describe Humans. It is used to describe the lack of horns that play a significant part in Shek culture and/or the lack of rough boneplates that cover most of Shek’s skin. Flatskin is a Word Swap used in Kenshi dialogue. As a result, different words would be used in place of flatskin depending on certain conditions. Trivia As this word is a word swap in Kenshi dialogue, it may cause some odd instances (if the player isn’t allied with the Shek Kingdom) where Shek Warriors will belittle the player character while using rather glorious titles such as the “slayer of the Bugmaster/Phoenix”.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flatskins.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0b2b0859ab40bdc851dce68d34137240d493223ad74176fbc3eef46b3aa0bb9d"
+      },
+      "questions": []
+    },
+    {
+      "id": "forbidden-sympathy",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Forbidden Sympathy is a book item related to The Holy Nation. This item is ‘unique’ to Flotsam HQ in Flotsam Village. However, it can also be found without the ‘unique’ label in the inventories of Holy Citizens. This item itself is also considered an illegal item by The Holy Nation. If held in the player’s inventory during a bag search at a Holy Nation town, that character will receive a bounty for holding illegal goods and subsequently attacked and/or arrested.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/forbidden-sympathy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "513522dead10eaaefdbb5c601fe1b24b65a784041e53b4377ea39b49cd90b966"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-contraband",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "holy-edict",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Holy Edict is a book item relating to The Holy Nation. This item is ‘unique’ to Temples. However, it can also be found without the ‘unique’ label in the home of Holy Lord Phoenix. Given the arrogant and luxurious life as described by the 62nd Phoenix of those women, it’s highly likely that these ‘foreign women’ came predominantly from United Cities.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-edict.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d35a257462d35e161cb857206353e998a363b11b67a2083b9e2155d9b798e91b"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "king-shagers-reign",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: King Shager’s Reign is a book item related to the Shek Kingdom. This item is ‘unique’ to Shek HQ in Admag, as well as a few Shek HQ overrides. However, it can also be found without the ‘unique’ label in a couple locations. This book details how Shek Kingdom’s raiders[1] - after invading the territory of The Holy Nation[2] - were defeated since the latter launched their military campaign. Shager, rather than choosing to withhold his forces to himself after this pushback, decided to double down on their futile assaults instead. Places which might stock this item: The Great Library Shek residential Shek storage There’s another book on King Shager called “Shager’s Overthrow”.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/king-shagers-reign.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "126f8eb96852a9ec0c58d7abc37a7cdbacaae82e9059bd5198823d41c0db8e53"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "krals-last-stand",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Kral’s Last Stand is a book item related to the Shek Kingdom. This item is ‘unique’ to Shek HQ in Admag, as well as a few Shek HQ overrides. However, it can also be found without the ‘unique’ label in a couple locations, most of which are inside SK. Places which might stock this item: The Great Library Shek residential Shek storage Another book on Kral is called “Way Of The Warrior: The Book Of Kral”.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/krals-last-stand.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6c898405d9d4e24365db09d76513f036ab14fac9f123e7d952c1ff958eeb57ff"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "letter-from-a-freedom-fighter",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Letter From A Freedom Fighter is a book item related to The Holy Nation. This item can be found in the inventories of Holy Citizens. While this letter is about a female resistance against the Holy Nation, it is unclear whether it is related to the Flotsam Ninjas. It is possible that this note comes as a result of increased investigations and crackdowns on rebel activities from The Holy Nation after the events of Letter From Bad Teeth. From this item, players can learn that the punishment is death for being a woman without an escort at night in The Holy Nation. The Holy Nation likely has many other laws in order to discourage secret ‘meetings’.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/letter-from-a-freedom-fighter.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "38ae11b88e7408ab3e9e3961f3a82932410580c15b6ad39277de6b29ceb8ca82"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "letter-of-farewell",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Letter Of Farewell is a book item related to The Holy Nation. This item is ‘unique’ to Flotsam HQ in Flotsam Village. However, it can also be found without the ‘unique’ label in the inventories of Holy Citizens. This item is ostensibly a last note from a woman to her husband before she is put to death for rebelling against the state of women in The Holy Nation. As there are multiple copies of this note, it is possible that the woman who wrote this made it in preparation in the future scenario where she happens to be found and executed, or to give an impression of such. It is possible that she herself may still be alive and joined the Flotsam Ninjas, given that the copy of the note is present in Flotsam Village.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/letter-of-farewell.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f3af54c5358a2eafeb9aa33ebb18d1173a24f3f3ad5c8ae8954c6a6fd947dfe6"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "letter-of-parting",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Letter Of Parting is a book item found in the United Cities. This item can only be found in residential buildings inside of United Cities locations. This letter was written by a member of the Noble Circle to a peasant. It has an interesting mention of a willow tree; something not typically found in the desert regions which the United Cities control.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/letter-of-parting.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f6058a8d3533f9ebbfbe1a20f47517d22de13359462664ccee62d743e5317cf8"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "letter-of-the-condemned",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Letter Of The Condemned is a book item found in the United Cities. This item can only be found in residential buildings inside of United Cities locations.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/letter-of-the-condemned.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "502e2af86ecda6f7c0a5b0a79e6c6429b23c91db03ff4b64840950a6d25fd730"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "letter-to-a-priest",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Letter To A Priest is a book item relating to The Holy Nation. This item is ‘unique’ to Holy Nation Temples. However, it can also be found without the ‘unique’ label in the home of Holy Lord Phoenix. This letter hints at the existence of a tomb.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/letter-to-a-priest.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c879f06648a808b7a7d90b989a6845996be0e9d365854ead0b31a7c76b2168d9"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "letter-to-darkbrow",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Letter To Darkbrow is a book item found in The Swamp. This item is ‘unique’ to Blackshifter Casino Bars. However, it can also be found without the ‘unique’ label in Big Darkbrow’s Hideout. This letter gives information on how the Hounds came to be the gang in charge of the swamp.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/letter-to-darkbrow.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "03b00138be9bd31600070bd0bc00cc59abe508575d6abcaae778877f6371ecd6"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "letter-to-priest-ton",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Letter To Priest Ton is a book item relating to The Holy Nation. This item is ‘unique’ to Temples. However, it can also be found without the ‘unique’ label in the home of Holy Lord Phoenix. It reveals that members of the Holy Army are responsible for buying their own gear.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/letter-to-priest-ton.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a0d54cd0ef827bb269d8b80239235e052223fd6b722cb033f1e341772b3442d0"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "lineage-of-phoenixes",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This Page details the various notable events related to the Phoenixes of different generations. Phoenix the First Founder of The Holy Nation. Author of Scripture of Radiance Series. Claimed that his soul will be reincarnated into the next first born male, therefore creating the lineage of Phoenixes. Declared Phoenix to be the champion sent by Okran, “one that would restore our faith and banish the Shadow” in his own words. Holy Lord Phoenix IV Author of Birth Of The Phoenix, declared Phoenix’s soul as an extension of Okran and therefore divinely pure and incorruptible, as well as proclaiming that only the Phoenix can be the one to guide their faith. Holy Lord Phoenix XLVII Alleged manufacturer of Chalice Of Fire. Holy Lord Phoenix LXII The current Phoenix where the players story takes place. Sentenced his own family to be executed at the age of 16. Author of Holy Edict and The Holy Crusade. Said to be one of the harshest in the line of Phoenixes. Likely to be the leader that successfully managed to soundly defeat the Shek Kingdom and declare war on United Cities. Smells of vegetables. Trivia The average lifespan (or the time until next reincarnation, if you will) of a Phoenix is around 80.6 years. This takes into account that the Holy Nation has a history of around 5000 years divided by 62. This is way above the average lifespan for people living in a post-apocalypse world. There is a possibility that the reason of why Phoenixes can manage to live that long is because of the HN’s advanced medicinal technology (in contrast to the otherwise low-tech nature of nearly all other aspects of their country). The evidence that supports the theory that HN has advanced medicinal technology is given that HN has doctors and surgeons in their country while other countries don’t and also that Lord Phoenix LXII’s inventory includes Advanced First Aid Kit and Advanced Splint Kit.",
+      "organization": "Reviewed 5 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/lineage-of-phoenixes.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0a9d5f362d2285e6f802c685d1ffddd883a512c38e2cd67ee5f82f9133b7605a"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-narrator-reliability",
+        "claim:lore-phoenix-lifespan"
+      ]
+    },
+    {
+      "id": "memo-from-big-grim",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Memo From Big Grim is a book item found in The Swamp. Unique if found in: Blackshifter HQ in overwritten Shark Blackshifter Casino Bar Greyflayer HQ in overwritten Shark Hounds HQ in Shark Big Darkbrow’s Hideout in Shark Not ‘unique’ if found in: Hideout in Rot Big Al’s Hideout in Stone Rat Village",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/memo-from-big-grim.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2da9d65e31a4cc261cafed4319adf94f79bcdfa89272b91172fd8d7cfa709d50"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "men-of-dirt",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Men of Dirt is a book item which can only be found in Boss Simion’s inventory. This item presumably contains Simion’s personal history.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/men-of-dirt.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "43e043f2ee4db5bda5317aa83d8f24bc1af87c0ca7feabef8f73677937983d5a"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "mission-graeme-status",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Mission Graeme: Status is a book item which can only be found in the Mongrel faction HQ. This item is related to the history of Mongrel. The rest of Mongrel’s early history is told in Maril’s Diary Series. Players have speculated that Greycloud is being imprisoned by The Holy Nation in nearby Rebirth.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mission-graeme-status.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "84bba834cfec130568ccd3ae40f6f9ec973612684de830bfbbd5cf6b1d247e4a"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
     }
   ],
   "editorialChanges": [

@@ -13,6 +13,17 @@
       }
     },
     {
+      "id": "availability:/a-holy-purpose",
+      "kind": "availability",
+      "target": "/a-holy-purpose",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/a-holy-purpose"
+      }
+    },
+    {
       "id": "availability:/abandoned-town",
       "kind": "availability",
       "target": "/abandoned-town",
@@ -1575,6 +1586,17 @@
       }
     },
     {
+      "id": "availability:/beautiful-tengu-a-tribute",
+      "kind": "availability",
+      "target": "/beautiful-tengu-a-tribute",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/beautiful-tengu-a-tribute"
+      }
+    },
+    {
       "id": "availability:/bed",
       "kind": "availability",
       "target": "/bed",
@@ -2320,6 +2342,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/book"
+      }
+    },
+    {
+      "id": "availability:/book-of-grace",
+      "kind": "availability",
+      "target": "/book-of-grace",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/book-of-grace"
+      }
+    },
+    {
+      "id": "availability:/book-of-sacrifice",
+      "kind": "availability",
+      "target": "/book-of-sacrifice",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/book-of-sacrifice"
       }
     },
     {
@@ -3566,6 +3610,17 @@
       }
     },
     {
+      "id": "availability:/chitrin",
+      "kind": "availability",
+      "target": "/chitrin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/chitrin"
+      }
+    },
+    {
       "id": "availability:/citizen",
       "kind": "availability",
       "target": "/citizen",
@@ -4421,6 +4476,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/crimper-faction"
+      }
+    },
+    {
+      "id": "availability:/cross",
+      "kind": "availability",
+      "target": "/cross",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cross"
       }
     },
     {
@@ -6734,6 +6800,17 @@
       }
     },
     {
+      "id": "availability:/flatskins",
+      "kind": "availability",
+      "target": "/flatskins",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flatskins"
+      }
+    },
+    {
       "id": "availability:/flesh-cleaver",
       "kind": "availability",
       "target": "/flesh-cleaver",
@@ -7083,6 +7160,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/forbidden-isle"
+      }
+    },
+    {
+      "id": "availability:/forbidden-sympathy",
+      "kind": "availability",
+      "target": "/forbidden-sympathy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/forbidden-sympathy"
       }
     },
     {
@@ -9286,6 +9374,17 @@
       }
     },
     {
+      "id": "availability:/holy-edict",
+      "kind": "availability",
+      "target": "/holy-edict",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-edict"
+      }
+    },
+    {
       "id": "availability:/holy-farm-leader",
       "kind": "availability",
       "target": "/holy-farm-leader",
@@ -10705,6 +10804,17 @@
       }
     },
     {
+      "id": "availability:/king-shagers-reign",
+      "kind": "availability",
+      "target": "/king-shagers-reign",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/king-shagers-reign"
+      }
+    },
+    {
       "id": "availability:/klr-series-arm-left",
       "kind": "availability",
       "target": "/klr-series-arm-left",
@@ -10790,6 +10900,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/krals-chosen-character"
+      }
+    },
+    {
+      "id": "availability:/krals-last-stand",
+      "kind": "availability",
+      "target": "/krals-last-stand",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/krals-last-stand"
       }
     },
     {
@@ -11134,6 +11255,17 @@
       }
     },
     {
+      "id": "availability:/letter-from-a-freedom-fighter",
+      "kind": "availability",
+      "target": "/letter-from-a-freedom-fighter",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/letter-from-a-freedom-fighter"
+      }
+    },
+    {
       "id": "availability:/letter-from-bad-teeth",
       "kind": "availability",
       "target": "/letter-from-bad-teeth",
@@ -11142,6 +11274,72 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/letter-from-bad-teeth"
+      }
+    },
+    {
+      "id": "availability:/letter-of-farewell",
+      "kind": "availability",
+      "target": "/letter-of-farewell",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/letter-of-farewell"
+      }
+    },
+    {
+      "id": "availability:/letter-of-parting",
+      "kind": "availability",
+      "target": "/letter-of-parting",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/letter-of-parting"
+      }
+    },
+    {
+      "id": "availability:/letter-of-the-condemned",
+      "kind": "availability",
+      "target": "/letter-of-the-condemned",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/letter-of-the-condemned"
+      }
+    },
+    {
+      "id": "availability:/letter-to-a-priest",
+      "kind": "availability",
+      "target": "/letter-to-a-priest",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/letter-to-a-priest"
+      }
+    },
+    {
+      "id": "availability:/letter-to-darkbrow",
+      "kind": "availability",
+      "target": "/letter-to-darkbrow",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/letter-to-darkbrow"
+      }
+    },
+    {
+      "id": "availability:/letter-to-priest-ton",
+      "kind": "availability",
+      "target": "/letter-to-priest-ton",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/letter-to-priest-ton"
       }
     },
     {
@@ -11252,6 +11450,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/lighting"
+      }
+    },
+    {
+      "id": "availability:/lineage-of-phoenixes",
+      "kind": "availability",
+      "target": "/lineage-of-phoenixes",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lineage-of-phoenixes"
       }
     },
     {
@@ -12102,6 +12311,28 @@
       }
     },
     {
+      "id": "availability:/memo-from-big-grim",
+      "kind": "availability",
+      "target": "/memo-from-big-grim",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/memo-from-big-grim"
+      }
+    },
+    {
+      "id": "availability:/men-of-dirt",
+      "kind": "availability",
+      "target": "/men-of-dirt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/men-of-dirt"
+      }
+    },
+    {
       "id": "availability:/mercenary",
       "kind": "availability",
       "target": "/mercenary",
@@ -12275,6 +12506,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/minor-outposts"
+      }
+    },
+    {
+      "id": "availability:/mission-graeme-status",
+      "kind": "availability",
+      "target": "/mission-graeme-status",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-siblings-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mission-graeme-status"
       }
     },
     {
