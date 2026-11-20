@@ -270,13 +270,13 @@
 
 /* Keep item text and its first sections beside long facts panels. */
 @media(min-width:761px){
- :is(.item,.building,.technology,.shop).with-facts > article{display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);gap:0 18px;align-items:start}
- :is(.item,.building,.technology,.shop).with-facts .opening{display:contents}
- :is(.item,.building,.technology,.shop).with-facts .article-head{grid-column:1;grid-row:1}
- :is(.item,.building,.technology,.shop).with-facts .opening-copy{grid-column:1;grid-row:2}
- :is(.item,.building,.technology,.shop).with-facts :is(.factbox,.building-facts,.building-facts-stack){grid-column:2;grid-row:1 / 4}
- :is(.item,.building,.technology,.shop).with-facts .article-body{grid-column:1;grid-row:3;min-width:0}
- :is(.item,.building,.technology,.shop).with-facts > article > :not(.opening):not(.article-body){grid-column:1 / -1}
+ :is(.item,.building,.technology,.shop,.event).with-facts > article{display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);gap:0 18px;align-items:start}
+ :is(.item,.building,.technology,.shop,.event).with-facts .opening{display:contents}
+ :is(.item,.building,.technology,.shop,.event).with-facts .article-head{grid-column:1;grid-row:1}
+ :is(.item,.building,.technology,.shop,.event).with-facts .opening-copy{grid-column:1;grid-row:2}
+ :is(.item,.building,.technology,.shop,.event).with-facts :is(.factbox,.building-facts,.building-facts-stack){grid-column:2;grid-row:1 / 4}
+ :is(.item,.building,.technology,.shop,.event).with-facts .article-body{grid-column:1;grid-row:3;min-width:0}
+ :is(.item,.building,.technology,.shop,.event).with-facts > article > :not(.opening):not(.article-body){grid-column:1 / -1}
 }
 
 /* Building summaries retain their source data; their wrappers are independently authored. */

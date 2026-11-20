@@ -1,4 +1,4 @@
-# Events — local conversion
+# Events â€” local conversion
 
 Frozen source: `83abc179fafa63b826d7f2662c4a18a134a9e6c1`. Starting revision: `51d074b`.
 
@@ -6,7 +6,7 @@ Frozen source: `83abc179fafa63b826d7f2662c4a18a134a9e6c1`. Starting revision: `5
 
 Mechanical Markdown transfers are committed independently of renderer normalization and editorial findings. Ordinary builds use checked-in fixtures, not the comparison checkout. Preserve 57 headings, two citation targets, 70 fact panels and all original public addresses. No new redirects or legitimate local image references exist in this roster; original media coverage remains unassessed.
 
-Typed facts preserve strong text, links and paragraph breaks. Stock tables retain source order, blank cells, groups, prices and rarity labels. Only exact rule-only separators are removed. Header scopes and scrolling are shared with the shop renderer. Removed-content and WIP notices, dialogue quotations and speaker credits remain attached to their source context. No new calculation, event graph or gameplay interpretation is introduced.
+Typed facts preserve strong text, links and paragraph breaks. Events place the facts after the opening quotation/introduction on phones, beside the reading surface on desktop; later paragraphs remain in source order. Stock tables retain source order, blank cells, groups, prices and rarity labels. Only exact rule-only separators are removed. Header scopes and scrolling are shared with the shop renderer. Removed-content and WIP notices, dialogue quotations and speaker credits remain attached to their source context. No new calculation, event graph or gameplay interpretation is introduced.
 
 Tribute Round's malformed SCIENCE image is normalized to the same Steam URL as a text link. Raw and normalized evidence remain checked in. Presentation repair does not verify the discussion's claims.
 

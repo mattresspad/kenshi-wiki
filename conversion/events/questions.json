@@ -65,7 +65,7 @@
       "tax-collector"
     ],
     "Agreeing to pay",
-    "Tax Collector leaves the payment result incomplete: the 140–160 hour delay does not name its scheduled event.",
+    "Tax Collector leaves the payment result incomplete: the 140â€“160 hour delay does not name its scheduled event.",
     "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
     "Imported values and narrative are not independent gameplay verification."
   ],
@@ -138,5 +138,65 @@
     "The overview distinguishes base attacks from events. Preserve its settings, cooldown ranges and units without inferring equivalence to event-panel meters.",
     "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
     "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-broken-vanilla",
+    null,
+    "bug|broken|cannot trigger|not real|missing a squad",
+    "Several event variants are described as broken or impossible in vanilla. Preserve version qualifications, including Coast Raid 1.0.64 and The Fog 1.0.68; distinguish intended records from observed triggers.",
+    "Preserve imported qualifications; investigate pinned dialogue/event records and reproducible game behavior before correcting.",
+    "Record semantics, version applicability and actual behavior remain unverified."
+  ],
+  [
+    "events-eyegore-chance",
+    [
+      "eyegores-assault"
+    ],
+    "200%|50%|individuals set",
+    "Eyegore’s 200% chance and trigger-dependent force totals are imported values. Do not clamp them or reinterpret them as independently verified probabilities.",
+    "Preserve imported qualifications; investigate pinned dialogue/event records and reproducible game behavior before correcting.",
+    "Record semantics, version applicability and actual behavior remain unverified."
+  ],
+  [
+    "events-flotsam-trigger-disagreement",
+    [
+      "events",
+      "flotsam-ninja-reinforcements"
+    ],
+    "Flotsam Ninja Reinforcements|Holy Nation Assault",
+    "The overview lists Inquisitor while the reinforcement article lists Major among triggers. The article also reports a missing Yayoi squad. Compare exact event records before reconciling either statement.",
+    "Preserve imported qualifications; investigate pinned dialogue/event records and reproducible game behavior before correcting.",
+    "Record semantics, version applicability and actual behavior remain unverified."
+  ],
+  [
+    "events-shek-delay-disagreement",
+    [
+      "shek-revenge",
+      "shek-challengers-shek-kingdom"
+    ],
+    "200|272|9.25|hours",
+    "Shek Revenge reports a 72–200 hour follow-up to Shek Challengers while the recipient lists 200–272 hours; 72–150 hours is also labeled about 9.25 days. Preserve both pending event/units validation.",
+    "Preserve imported qualifications; investigate pinned dialogue/event records and reproducible game behavior before correcting.",
+    "Record semantics, version applicability and actual behavior remain unverified."
+  ],
+  [
+    "events-route-incompleteness",
+    [
+      "the-holy-nation-route",
+      "world-state-routes",
+      "flotsam-ninjas-route"
+    ],
+    "To be added|Editor|Work in Progress|stub|Absolver",
+    "Route guides retain unfinished sections and speculative editorial descriptions. Distinguish quoted dialogue from the unquoted victory narration and verify the stated post-Esata dialogue loop.",
+    "Preserve imported qualifications; investigate pinned dialogue/event records and reproducible game behavior before correcting.",
+    "Record semantics, version applicability and actual behavior remain unverified."
+  ],
+  [
+    "events-force-size",
+    null,
+    "squads|individuals|characters|squad",
+    "Preserve per-squad ranges, total force targets and rare alternatives separately; they may not add up arithmetically under the engine spawning rules.",
+    "Preserve imported qualifications; investigate pinned dialogue/event records and reproducible game behavior before correcting.",
+    "Record semantics, version applicability and actual behavior remain unverified."
   ]
 ]

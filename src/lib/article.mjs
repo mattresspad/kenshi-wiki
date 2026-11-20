@@ -94,6 +94,7 @@ export function prepareArticle(html, data, href) {
     if (el.tagName !== 'p' && !openingTip && !openingFeature) break;
     intro.push($.html(el));
     $(el).remove();
+    if(data.layout==='event' && el.tagName==='p')break;
   }
   return {buildingPanel,intro:intro.join('\n'), body:$.root().html(), outline};
 }
