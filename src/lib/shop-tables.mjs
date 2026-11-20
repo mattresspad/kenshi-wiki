@@ -2,7 +2,7 @@
 export function normalizeShopTables($) {
  for(const row of $('table tr').toArray()){
   const el=$(row),cells=el.children('th,td');
-  if(cells.length===1 && cells.first().is('th[colspan]') && !el.text().trim() && el.find('hr').length===1 && !el.find('[id],img,a,input').length && cells.first().children().length===1)el.remove();
+  if(cells.length===1 && cells.first().is('th[colspan]') && !el.text().trim() && el.find('hr').length===1 && !el.is('[id]') && !el.find('[id],img,a,input').length && cells.first().children().length===1)el.remove();
  }
  for(const table of $('table').toArray()){
   const el=$(table);if(el.hasClass('shop-normalized'))continue;

@@ -74,6 +74,12 @@ export function reportGaps(atlas,articleReviews={}) {
       resolved=!!page?.ids.includes(t.fragment.slice(1))&&!page.emptySections.some(s=>s.section===t.fragment.slice(1));
       if(resolved)resolution={method:'bookmarked section has content in the local article',target:t.target};
     }
+    if(row.kind==='media'&&row.presentationRepair){
+      const original=sourcePages.get(row.presentationRepair.articleId),page=local.get(atlas.byId.get(row.presentationRepair.articleId)?.path);
+      assert.ok(original?.media.some(m=>m.url===row.target),'Repair lacks source image evidence '+row.id);
+      resolved=!!page && !page.media.some(m=>m.url===row.target) && page.links.some(l=>l.href===row.target&&l.label===row.presentationRepair.linkText);
+      if(resolved)resolution={method:'malformed source image restored as identical-URL text link; no gameplay verification',articleId:original.id,target:row.target,label:row.presentationRepair.linkText,sourceRevision:original.sourceRevision,sourceSha256:original.sourceSha256};
+    }
     validateResolution(row,resolved);
     return {...row,status:resolved?'resolved':row.status,resolution:resolution??row.resolution??null,
       occurrences,families:[...new Set(occurrences.flatMap(o=>familyOf(o.pageId)))].sort(),affectedPages:[...new Set(occurrences.map(o=>o.pageId))]};

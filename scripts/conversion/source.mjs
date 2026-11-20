@@ -42,7 +42,17 @@ export function factParts(value) {
   const lineBreak = () => { if (parts.length && !parts.at(-1)?.break) parts.push({break:true}); };
   function visit(node, strike = false) {
     if (node.type === 'text') { parts.push(strike ? {strike:true,text:node.data} : node.data); return; }
+    if(node.name==='a' && $(node).children('strong').length){assert.ok(!strike && node.children.length===1 && $(node).children('strong').contents().toArray().every(n=>n.type==='text'),'Unexpected linked bold markup');parts.push({strong:true,text:$(node).text(),href:$(node).attr('href')});return;}
     if (node.name === 'a') { parts.push(strike ? {strike:true,text:$(node).text(),href:$(node).attr('href')} : [$(node).text(),$(node).attr('href')]); return; }
+    if (node.name === 'strong') {
+      assert.ok(!strike,'Combined strong/strike needs explicit support');
+      for(const child of node.children??[]){
+        if(child.type==='text')parts.push({strong:true,text:child.data});
+        else if(child.name==='a' && (child.children??[]).every(n=>n.type==='text'))parts.push({strong:true,text:$(child).text(),href:$(child).attr('href')});
+        else throw Error('Unexpected bold fact markup '+child.name);
+      }
+      return;
+    }
     if (node.name === 'ul') {
       assert.ok($(node).children().toArray().every(n=>n.name==='li'),'Unexpected fact list child');
       const list=$(node).children('li').toArray().map(li=>factParts($(li).html()));

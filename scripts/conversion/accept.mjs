@@ -55,6 +55,7 @@ try{
   copyFileSync('reports/route-report.md',join(output,'route-report.md'));
   if(report.gaps){copyFileSync('reports/gaps/register.json',join(output,'gaps.json'));copyFileSync('reports/gaps/summary.md',join(output,'gaps.md'));}
   const pages=report.routes.filter(r=>r.status==='preserved locally' && ['article','home','category','portal','utility'].includes(r.kind)).length;
+  if(roster.expectedPages)assert.equal(pages,roster.expectedPages[seq-1],'Unexpected accepted page count');
   const details={number:seq,name:batch.name,folder,articles:batch.ids.length,pages,verified:report[family].verified,
     icons:report[family].assets,links:{resolved:delta.resolved.length,introduced:delta.introduced.length,remaining:now.size}};
   save(join(output,'evidence.json'),{...details,shots});
@@ -62,5 +63,5 @@ try{
   changes.splice(seq-1,1,{name:batch.name,resolved:delta.resolved,introduced:delta.introduced});
   save(historyFile,changes);
   save(evidenceFile,accepted);
-  console.log('Accepted '+seq+'/'+roster.batches.length+' '+batch.name+' — '+pages+' pages; '+shots.length+' captures; '+now.size+' temporary destinations');
+  console.log('Accepted '+seq+'/'+roster.batches.length+' '+batch.name+' â€” '+pages+' pages; '+shots.length+' captures; '+now.size+' temporary destinations');
 }finally{await runtime.dispose();}

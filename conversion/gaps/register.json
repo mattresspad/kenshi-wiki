@@ -197720,16 +197720,20 @@
       "id": "media:https://steamcommunity.com/app/233860/discussions/0/2666626816211752074/",
       "kind": "media",
       "target": "https://steamcommunity.com/app/233860/discussions/0/2666626816211752074/",
-      "classification": "unresolved",
+      "classification": "incomplete import",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
+      "verification": "Pinned Markdown line 53 and frozen rendered image inspected.",
       "status": "open",
-      "finding": "Referenced media require source and local availability checks.",
-      "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
+      "finding": "Tribute Round encodes a Steam discussion as an image labeled SCIENCE.",
+      "proposedResolution": "Render the same URL and label as an ordinary link; do not infer an illustration or validate discussion claims.",
+      "uncertainty": "Linked discussion and gameplay claims remain unverified; this is a markup repair only.",
       "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "postCutover": "Serve the SCIENCE text link to the recorded discussion. No request for a nonexistent image.",
+      "presentationRepair": {
+        "articleId": "tribute-round",
+        "linkText": "SCIENCE"
+      }
     },
     {
       "id": "unlinked-label:Adventurer",

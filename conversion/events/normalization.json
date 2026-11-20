@@ -1,0 +1,786 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "repeatability": "Second pass unchanged for every source article",
+  "articles": [
+    {
+      "id": "anti-slaver-reinforcements",
+      "sourceFile": "src/content/wiki/anti-slaver-reinforcements.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "bandit-demands",
+      "sourceFile": "src/content/wiki/bandit-demands.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "bandit-rage",
+      "sourceFile": "src/content/wiki/bandit-rage.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "bandit-raid",
+      "sourceFile": "src/content/wiki/bandit-raid.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "base-assault",
+      "sourceFile": "src/content/wiki/base-assault.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": false,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 1,
+      "sortable": 0
+    },
+    {
+      "id": "beast-trader",
+      "sourceFile": "src/content/wiki/beast-trader.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "blooded-raid",
+      "sourceFile": "src/content/wiki/blooded-raid.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "cannibal-raid",
+      "sourceFile": "src/content/wiki/cannibal-raid.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "cannibal-swarm",
+      "sourceFile": "src/content/wiki/cannibal-swarm.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "caravan-visit",
+      "sourceFile": "src/content/wiki/caravan-visit.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 1,
+      "discussionImagesConverted": 0,
+      "tables": 1,
+      "sortable": 0
+    },
+    {
+      "id": "challenger-of-the-undefeated",
+      "sourceFile": "src/content/wiki/challenger-of-the-undefeated.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "coast-raid",
+      "sourceFile": "src/content/wiki/coast-raid.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "crab-tournament",
+      "sourceFile": "src/content/wiki/crab-tournament.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "crabbed-ones",
+      "sourceFile": "src/content/wiki/crabbed-ones.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "drug-bust",
+      "sourceFile": "src/content/wiki/drug-bust.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "elite-hunter-assault",
+      "sourceFile": "src/content/wiki/elite-hunter-assault.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "enemy-hunt",
+      "sourceFile": "src/content/wiki/enemy-hunt.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "events",
+      "sourceFile": "src/content/wiki/events.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": false,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 1,
+      "sortable": 0
+    },
+    {
+      "id": "eyegores-assault",
+      "sourceFile": "src/content/wiki/eyegores-assault.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "farm-trader",
+      "sourceFile": "src/content/wiki/farm-trader.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 1,
+      "discussionImagesConverted": 0,
+      "tables": 1,
+      "sortable": 0
+    },
+    {
+      "id": "flotsam-ninja-reinforcements",
+      "sourceFile": "src/content/wiki/flotsam-ninja-reinforcements.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "flotsam-ninjas-route",
+      "sourceFile": "src/content/wiki/flotsam-ninjas-route.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": false,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "hive-attack-southern-hive",
+      "sourceFile": "src/content/wiki/hive-attack-southern-hive.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "hive-attack-western-hive",
+      "sourceFile": "src/content/wiki/hive-attack-western-hive.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "hive-eviction",
+      "sourceFile": "src/content/wiki/hive-eviction.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "holy-assault",
+      "sourceFile": "src/content/wiki/holy-assault.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "holy-nation-assault-inquisitor",
+      "sourceFile": "src/content/wiki/holy-nation-assault-inquisitor.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "holy-nation-assault-major",
+      "sourceFile": "src/content/wiki/holy-nation-assault-major.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "holy-nation-assault-minor",
+      "sourceFile": "src/content/wiki/holy-nation-assault-minor.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "holy-nation-reinforcements",
+      "sourceFile": "src/content/wiki/holy-nation-reinforcements.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "hound-check-in",
+      "sourceFile": "src/content/wiki/hound-check-in.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "hound-reinforcements",
+      "sourceFile": "src/content/wiki/hound-reinforcements.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "hounds-welcome",
+      "sourceFile": "src/content/wiki/hounds-welcome.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "invincible-vengeance",
+      "sourceFile": "src/content/wiki/invincible-vengeance.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "jonin-assault",
+      "sourceFile": "src/content/wiki/jonin-assault.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "materials-trader",
+      "sourceFile": "src/content/wiki/materials-trader.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 2,
+      "discussionImagesConverted": 0,
+      "tables": 1,
+      "sortable": 0
+    },
+    {
+      "id": "mighty-canhead-event",
+      "sourceFile": "src/content/wiki/mighty-canhead-event.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "ninja-raid",
+      "sourceFile": "src/content/wiki/ninja-raid.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "nobles-wrath-assault",
+      "sourceFile": "src/content/wiki/nobles-wrath-assault.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "nobles-wrath",
+      "sourceFile": "src/content/wiki/nobles-wrath.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "prayer-day",
+      "sourceFile": "src/content/wiki/prayer-day.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "raid",
+      "sourceFile": "src/content/wiki/raid.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "rebel-farmers-reinforcements",
+      "sourceFile": "src/content/wiki/rebel-farmers-reinforcements.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "red-sabre-raid",
+      "sourceFile": "src/content/wiki/red-sabre-raid.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "retribution-of-god",
+      "sourceFile": "src/content/wiki/retribution-of-god.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "return-for-blood",
+      "sourceFile": "src/content/wiki/return-for-blood.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "return-for-tribute",
+      "sourceFile": "src/content/wiki/return-for-tribute.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "revenge-of-the-hounds",
+      "sourceFile": "src/content/wiki/revenge-of-the-hounds.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "scrawny-raid",
+      "sourceFile": "src/content/wiki/scrawny-raid.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "shek-challenge",
+      "sourceFile": "src/content/wiki/shek-challenge.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "shek-challengers-band-of-bones",
+      "sourceFile": "src/content/wiki/shek-challengers-band-of-bones.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "shek-challengers-shek-kingdom",
+      "sourceFile": "src/content/wiki/shek-challengers-shek-kingdom.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "shek-kingdom-reinforcements",
+      "sourceFile": "src/content/wiki/shek-kingdom-reinforcements.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "shek-kingdom-route",
+      "sourceFile": "src/content/wiki/shek-kingdom-route.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": false,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "shek-proving",
+      "sourceFile": "src/content/wiki/shek-proving.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "shek-revenge",
+      "sourceFile": "src/content/wiki/shek-revenge.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "skin-harvest",
+      "sourceFile": "src/content/wiki/skin-harvest.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "slave-capture",
+      "sourceFile": "src/content/wiki/slave-capture.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "slave-raid",
+      "sourceFile": "src/content/wiki/slave-raid.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "southern-hive-visit",
+      "sourceFile": "src/content/wiki/southern-hive-visit.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "stone-golems-revenge",
+      "sourceFile": "src/content/wiki/stone-golems-revenge.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "stone-rat-assault",
+      "sourceFile": "src/content/wiki/stone-rat-assault.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "stone-rat-visit",
+      "sourceFile": "src/content/wiki/stone-rat-visit.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "tax-collector",
+      "sourceFile": "src/content/wiki/tax-collector.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "tax-evasion-enforcement",
+      "sourceFile": "src/content/wiki/tax-evasion-enforcement.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "tax-man-visit",
+      "sourceFile": "src/content/wiki/tax-man-visit.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "the-big-skin-harvest",
+      "sourceFile": "src/content/wiki/the-big-skin-harvest.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "the-fog",
+      "sourceFile": "src/content/wiki/the-fog.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "the-holy-nation-route",
+      "sourceFile": "src/content/wiki/the-holy-nation-route.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": false,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "thug-attack",
+      "sourceFile": "src/content/wiki/thug-attack.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "traders-guild-route",
+      "sourceFile": "src/content/wiki/traders-guild-route.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": false,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "traders-guild-visit",
+      "sourceFile": "src/content/wiki/traders-guild-visit.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "tribute-round",
+      "sourceFile": "src/content/wiki/tribute-round.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 1,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "united-cities-assault",
+      "sourceFile": "src/content/wiki/united-cities-assault.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "united-cities-reinforcements",
+      "sourceFile": "src/content/wiki/united-cities-reinforcements.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "united-cities-route",
+      "sourceFile": "src/content/wiki/united-cities-route.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": false,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "world-state-routes",
+      "sourceFile": "src/content/wiki/world-state-routes.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": false,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    },
+    {
+      "id": "wrath-of-god",
+      "sourceFile": "src/content/wiki/wrath-of-god.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "facts": true,
+      "removedRuleRows": 0,
+      "discussionImagesConverted": 0,
+      "tables": 0,
+      "sortable": 0
+    }
+  ]
+}

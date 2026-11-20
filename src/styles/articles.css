@@ -335,3 +335,10 @@
 @media(max-width:700px){.skill-summary{display:block}.skill-summary dl{border-right:0;border-bottom:1px solid var(--edge)}}
 
 .portal-indexes{display:flex;flex-wrap:wrap;gap:.5rem 1rem;margin:1rem 0}
+
+/* Event stock rows are fixed; their final rarity column remains reachable on phones. */
+.event .table-scroll .shop-stock{min-width:34rem;width:100%;max-width:none}
+.event .shop-stock :is(th,td){white-space:normal}
+.event .shop-stock th[scope=row]{font-weight:400}
+.event .shop-stock tbody tr:has(th[scope=col]){border-top:2px solid var(--edge)}
+@media print{.event .table-scroll .shop-stock{min-width:0;font-size:9pt}}

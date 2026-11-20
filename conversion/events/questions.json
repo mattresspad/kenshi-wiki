@@ -1,0 +1,142 @@
+[
+  [
+    "events-chance-and-distance",
+    null,
+    "Max Chance|Near Range|Max Range|scales down|six hours|6 hours",
+    "Daily chances, periodic checks and distance scaling require compatible units and trigger semantics.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-repeat-and-followups",
+    null,
+    "Repeat Limit|Loss Triggers|Victory Triggers|trigger.*hours|hours.*trigger",
+    "Preserve initial, repeat and follow-up timers and the unspecified victory/loss viewpoint; do not combine ranges into a new probability.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-world-state-gates",
+    null,
+    "alive|imprison|captur|killed|dead|allied|enemy|relation",
+    "World-state and relationship prerequisites need exact conditional validation, including death versus imprisonment.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-third-party-import",
+    null,
+    "third.party|import|reload|save",
+    "Third-party defeat and save/import effects remain qualified reports, not a verified reset mechanism.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-reinforcements",
+    null,
+    "reinforcement|Ignores No.Go|Territorial Trigger",
+    "Reinforcement eligibility, no-go behavior and territorial trigger semantics remain to be verified.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-payments-dialogue",
+    null,
+    "pay|payment|fee|tribute|c\\.[0-9]|dialogue",
+    "Dialogue-specific payments, fees and consequences need versioned dialogue/source checks.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-stock-values",
+    [
+      "caravan-visit",
+      "farm-trader",
+      "materials-trader"
+    ],
+    "Possible Stock|table",
+    "Stock prices, availability, rarity labels and blank image cells remain inherited; a table does not establish weights or full illustration coverage.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-tax-incomplete",
+    [
+      "tax-collector"
+    ],
+    "Agreeing to pay",
+    "Tax Collector leaves the payment result incomplete: the 140–160 hour delay does not name its scheduled event.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-overview-confirm",
+    [
+      "events"
+    ],
+    "//confirm",
+    "The Events overview explicitly flags the Anti-Slaver protection statement for confirmation.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-route-objectives",
+    [
+      "world-state-routes",
+      "flotsam-ninjas-route",
+      "shek-kingdom-route",
+      "the-holy-nation-route",
+      "traders-guild-route",
+      "united-cities-route"
+    ],
+    "quest|goal|target|dialogue|route|cease|spawn",
+    "Route-guide interpretations of objectives and world-state results need dialogue and game-state evidence; preserve WIP notices and quotations.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-unlinked-routes",
+    [
+      "world-state-routes",
+      "flotsam-ninjas-route",
+      "shek-kingdom-route",
+      "the-holy-nation-route",
+      "traders-guild-route",
+      "united-cities-route"
+    ],
+    "Anti.Slavers Route|Rebel Farmers Route",
+    "These route names occur as unlinked prose, but no matching article exists in the frozen inventory. Investigate aliases or omitted material; do not invent destinations.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-historical-base",
+    [
+      "base-assault"
+    ],
+    "0\\.60|0\\.62|scrap|replaced|previous",
+    "Base Assault describes a removed historical system; its rules must not be represented as current event mechanics.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-tournament-rounds",
+    [
+      "crab-tournament"
+    ],
+    "round|Round|bug|stuck|trigger|Mystery",
+    "Tournament sequencing, fallback rounds and reported navigation/trigger bugs require testing; named creature links alone do not verify event behavior.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ],
+  [
+    "events-overview-trigger-units",
+    [
+      "events"
+    ],
+    "2,500|2500|units|gate|frequency|hours",
+    "The overview distinguishes base attacks from events. Preserve its settings, cooldown ranges and units without inferring equivalence to event-panel meters.",
+    "Retain the imported wording; compare versioned records, dialogue and observed behavior with provenance before proposing a correction.",
+    "Imported values and narrative are not independent gameplay verification."
+  ]
+]

@@ -29,7 +29,7 @@ export function verifyFamily(name, atlas, assetRedirects) {
   fragmentIndexes.set(atlas,otherLocalIds);}
   for(const id of actual) {
     const record=atlas.byId.get(id),html=readFileSync('dist'+record.path+'.html','utf8'),$=load(html);
-    const expected=fixture.articles[id],proof=articleEvidence(html,false,name==='items'?'item':name==='buildings'?'building':name==='shops'?'shop':name==='gameplay'?'gameplay':false);
+    const expected=fixture.articles[id],proof=articleEvidence(html,false,name==='items'?'item':name==='buildings'?'building':name==='shops'?'shop':name==='gameplay'?'gameplay':name==='events'?'event':false);
     for(const key of Object.keys(expected)) assert.deepEqual(proof[key],expected[key],id+' — '+key);
     assert.deepEqual(record.categories,original.get(id).categories,id+' categories');
     assert.equal($('link[rel=canonical]').attr('href'),'https://kenshi.wiki'+record.path);

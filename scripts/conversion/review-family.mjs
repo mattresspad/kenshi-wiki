@@ -5,7 +5,7 @@ import {snapshot} from '../../src/lib/catalog.mjs';
 import {selectedIds} from '../conversion/batches.mjs';
 import {mergeRegister,discover} from '../gaps/core.mjs';
 const get=p=>JSON.parse(readFileSync(p)),save=(p,x)=>writeFileSync(p,JSON.stringify(x,null,2)+'\n');
-const family=process.argv[2];assert.ok(['crafting','technology','shops','gameplay'].includes(family));
+const family=process.argv[2];assert.ok(['crafting','technology','shops','gameplay','events'].includes(family));
 const roster=get('conversion/'+family+'/roster.json'),review=get('conversion/'+family+'/review.json'),ledger=get('conversion/reviews.json'),baseline=get('conversion/gaps/source.json'),register=get('conversion/gaps/register.json');
 const ids=[...roster.batches.flatMap(b=>b.ids),...(roster.reviewExisting??[])],records=new Map(snapshot.articles.map(a=>[a.id,a])),sources=new Map(baseline.pages.map(p=>[p.id,p]));
 assert.equal(review.revision,snapshot.revision);

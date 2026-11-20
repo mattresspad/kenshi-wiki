@@ -1,0 +1,2194 @@
+{
+  "anti-slaver-reinforcements": {
+    "title": "Anti-Slaver Reinforcements",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "bandit-demands": {
+    "title": "Bandit Demands",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "20% chance"
+          ],
+          [
+            "Max Range",
+            "4,500 Meters"
+          ],
+          [
+            "Near Range",
+            "2,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "15 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<strong>Bandit Demands</strong> 50-80 hours, 50% chance"
+          ],
+          [
+            "Victory Triggers",
+            "<strong>Bandit Demands</strong> 40-50 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "bandit-rage": {
+    "title": "Bandit Rage",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ],
+          [
+            "Victory Triggers",
+            "<a href=\"/bandit-demands\">Bandit Demands</a> 40-50 Hours, 100% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "bandit-raid": {
+    "title": "Bandit Raid",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/hound-reinforcements\">Hound Reinforcements</a>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "20% chance"
+          ],
+          [
+            "Max Range",
+            "4,500 Meters"
+          ],
+          [
+            "Near Range",
+            "3,800 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "12 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "base-assault": null,
+  "beast-trader": {
+    "title": "Beast Trader",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "5% Chance"
+          ],
+          [
+            "Max Range",
+            "11,000 Meters"
+          ],
+          [
+            "Near Range",
+            "6,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "5 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "blooded-raid": {
+    "title": "Blooded Raid",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "15% Chance"
+          ],
+          [
+            "Max Range",
+            "8,000 Meters"
+          ],
+          [
+            "Near Range",
+            "2,500 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "6 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "cannibal-raid": {
+    "title": "Cannibal Raid",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "15% Chance"
+          ],
+          [
+            "Max Range",
+            "4,000 Meters"
+          ],
+          [
+            "Near Range",
+            "2,200 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "5 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/cannibal-swarm\">Cannibal Swarm</a> 24-96 Hours, 50% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "cannibal-swarm": {
+    "title": "Cannibal Swarm",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ]
+        ]
+      }
+    ]
+  },
+  "caravan-visit": {
+    "title": "Caravan Visit",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "20% Chance"
+          ],
+          [
+            "Max Range",
+            "11,000 Meters"
+          ],
+          [
+            "Near Range",
+            "6,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "4 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "challenger-of-the-undefeated": {
+    "title": "Challenger of the Undefeated",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "10% Chance"
+          ],
+          [
+            "Max Range",
+            "26,000 Meters"
+          ],
+          [
+            "Near Range",
+            "3,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "20 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "coast-raid": {
+    "title": "Coast Raid",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "15% chance"
+          ],
+          [
+            "Max Range",
+            "5,000 Meters"
+          ],
+          [
+            "Near Range",
+            "3,500 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "4 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "crab-tournament": {
+    "title": "Crab Tournament",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ]
+        ]
+      }
+    ]
+  },
+  "crabbed-ones": {
+    "title": "Crabbed Ones",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "10% Chance"
+          ],
+          [
+            "Max Range",
+            "7,000 Meters"
+          ],
+          [
+            "Near Range",
+            "2,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "15 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "drug-bust": {
+    "title": "Drug Bust",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/united-cities-assault\">United Cities Assault</a> 72-100 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "elite-hunter-assault": {
+    "title": "Elite Hunter Assault",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "15%"
+          ],
+          [
+            "Max Range",
+            "9,000 meters"
+          ],
+          [
+            "Near Range",
+            "2,000 meters"
+          ],
+          [
+            "Repeat Limit",
+            "15 days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/eyegores-assault\">Eyegore's Assault</a> 72-144 hours, 20-40% chance<p><strong>Elite Hunter Assault</strong> 72-144 hours, 20-60% chance</p>"
+          ]
+        ]
+      }
+    ]
+  },
+  "enemy-hunt": {
+    "title": "Enemy Hunt",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/holy-nation-reinforcements\">Holy Nation Reinforcements</a>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "50%"
+          ],
+          [
+            "Max Range",
+            "9,000"
+          ],
+          [
+            "Near Range",
+            "3,000"
+          ],
+          [
+            "Repeat Limit",
+            "15 days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/shek-challengers-shek-kingdom\">Shek Challengers</a> 72-150 hours, 30% chance. <p><a href=\"/shek-revenge\">Shek Revenge</a> 72-150 hours, 50% chance. <strong>Enemy Hunt</strong> 72-150 hours, 20% chance.</p>"
+          ]
+        ]
+      }
+    ]
+  },
+  "events": null,
+  "eyegores-assault": {
+    "title": "Eyegore's Assault",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/anti-slaver-reinforcements\">Anti-Slaver Reinforcements</a><p><a href=\"/rebel-farmers-reinforcements\">Rebel Farmers Reinforcements</a><br><a href=\"/shek-kingdom-reinforcements\">Shek Kingdom Reinforcements</a></p>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "50-200% chance"
+          ],
+          [
+            "Max Range",
+            "11,000-99,999 meters"
+          ],
+          [
+            "Near Range",
+            "5,000-99,999 meters"
+          ],
+          [
+            "Repeat Limit",
+            "10 days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/elite-hunter-assault\">Elite Hunter Assault</a> 24-72 hours,  0-40% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "farm-trader": {
+    "title": "Farm Trader",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "10%"
+          ],
+          [
+            "Max Range",
+            "11,000 Meters"
+          ],
+          [
+            "Near Range",
+            "6,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "4 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "flotsam-ninja-reinforcements": {
+    "title": "Flotsam Ninja Reinforcements",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ]
+        ]
+      }
+    ]
+  },
+  "flotsam-ninjas-route": null,
+  "hive-attack-southern-hive": {
+    "title": "Hive Attack (Southern Hive)",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "100% Chance"
+          ],
+          [
+            "Max Range",
+            "90,000 Meters"
+          ],
+          [
+            "Near Range",
+            "50,000 Metera"
+          ],
+          [
+            "Repeat Limit",
+            "99,999 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<strong>Hive Attack</strong>"
+          ]
+        ]
+      }
+    ]
+  },
+  "hive-attack-western-hive": {
+    "title": "Hive Attack (Western Hive)",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "100% Chance"
+          ],
+          [
+            "Max Range",
+            "90,000 Meters"
+          ],
+          [
+            "Near Range",
+            "50,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "999,999 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<strong>Hive Attack</strong> 24-48 Hours, 100% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "hive-eviction": {
+    "title": "Hive Eviction",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ]
+        ]
+      }
+    ]
+  },
+  "holy-assault": {
+    "title": "Holy Assault",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/flotsam-ninja-reinforcements\">Flotsam Ninja Reinforcements</a><p><a href=\"/shek-kingdom-reinforcements\">Shek Kingdom Reinforcements</a><br><a href=\"/united-cities-reinforcements\">United Cities Reinforcements</a></p>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "15%"
+          ],
+          [
+            "Max Range",
+            "9,000 meters"
+          ],
+          [
+            "Near Range",
+            "5,000 meters"
+          ],
+          [
+            "Repeat Limit",
+            "10 days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/holy-nation-assault-major\">Holy Nation Assault (Major)</a> 100-250 hours, 80% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "holy-nation-assault-inquisitor": {
+    "title": "Holy Nation Assault (Inquisitor)",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/flotsam-ninja-reinforcements\">Flotsam Ninja Reinforcements</a><p><a href=\"/shek-kingdom-reinforcements\">Shek Kingdom Reinforcements</a><br><a href=\"/united-cities-reinforcements\">United Cities Reinforcements</a></p>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Repeat Limit",
+            "4 Days"
+          ]
+        ]
+      }
+    ]
+  },
+  "holy-nation-assault-major": {
+    "title": "Holy Nation Assault (Major)",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Repeat Limit",
+            "4 days"
+          ],
+          [
+            "Loss Triggers",
+            "<strong>Holy Nation Assault (Major)</strong> 72-200 hours, 30% chance<p><a href=\"/holy-nation-assault-inquisitor\">Holy Nation Assault (Inquisitor)</a> 72-200 hours, 20-40% chance</p>"
+          ]
+        ]
+      }
+    ]
+  },
+  "holy-nation-assault-minor": {
+    "title": "Holy Nation Assault (Minor)",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Range",
+            "Infinite"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/holy-nation-assault-major\">Holy Nation Assault (Major)</a> 72 to 110 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "holy-nation-reinforcements": {
+    "title": "Holy Nation Reinforcements",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ]
+        ]
+      }
+    ]
+  },
+  "hound-check-in": {
+    "title": "Hound Check In",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "20%"
+          ],
+          [
+            "Max Range",
+            "4,500"
+          ],
+          [
+            "Near Range",
+            "3,000"
+          ],
+          [
+            "Repeat Limit",
+            "99999"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/revenge-of-the-hounds\">Revenge of the Hounds</a> 12-36 hours 100% chance"
+          ],
+          [
+            "Victory Triggers",
+            "<a href=\"/stone-rat-visit\">Stone Rat Visit</a> 95-110 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "hound-reinforcements": {
+    "title": "Hound Reinforcements",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ]
+        ]
+      }
+    ]
+  },
+  "hounds-welcome": {
+    "title": "Hound's Welcome",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "25% Chance"
+          ],
+          [
+            "Max Range",
+            "2,500 Meters"
+          ],
+          [
+            "Near Range",
+            "1,200 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "9999"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "invincible-vengeance": {
+    "title": "Invincible Vengeance",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/holy-nation-reinforcements\">Holy Nation Reinforcements</a>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "50%"
+          ],
+          [
+            "Max Range",
+            "9,000 meters"
+          ],
+          [
+            "Near Range",
+            "2,500 meters"
+          ],
+          [
+            "Repeat Limit",
+            "15 days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/enemy-hunt\">Enemy Hunt</a> 72-150 hours, 80% chance<p><a href=\"/shek-revenge\">Shek Revenge</a> 72-150 hours, 20-60% chance</p>"
+          ]
+        ]
+      }
+    ]
+  },
+  "jonin-assault": {
+    "title": "Jonin Assault",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/united-cities-reinforcements\">United Cities Reinforcements</a>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "25% or 100% Chance"
+          ],
+          [
+            "Max Range",
+            "15,000 or 20,000 Meters"
+          ],
+          [
+            "Near Range",
+            "7,000 or 8,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "15 or 10 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<strong>Jonin Assault</strong> 24-100 Hours, 20-40% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "materials-trader": {
+    "title": "Materials Trader",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "10%"
+          ],
+          [
+            "Max Range",
+            "11,000 Meters"
+          ],
+          [
+            "Near Range",
+            "6,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "4 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "mighty-canhead-event": {
+    "title": "Mighty Canhead (Event)",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "20% chance"
+          ],
+          [
+            "Max Range",
+            "4,500 Meters"
+          ],
+          [
+            "Near Range",
+            "2,500 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "5 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "Mighty Canhead (Event) 24-96 Hours, 100% Chance"
+          ],
+          [
+            "Victory Triggers",
+            "Mighty Canhead (Event) 24-96 Hours, 90% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "ninja-raid": {
+    "title": "Ninja Raid",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "15% Chance"
+          ],
+          [
+            "Max Range",
+            "5,000 Meters"
+          ],
+          [
+            "Near Range",
+            "3,500 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "15 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "nobles-wrath-assault": {
+    "title": "Noble's Wrath Assault",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/anti-slaver-reinforcements\">Anti-Slaver Reinforcements</a><p><a href=\"/rebel-farmers-reinforcements\">Rebel Farmers Reinforcements</a><br><a href=\"/shek-kingdom-reinforcements\">Shek Kingdom Reinforcements</a></p>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "50%"
+          ],
+          [
+            "Max Range",
+            "9,000 Meters"
+          ],
+          [
+            "Near Range",
+            "2,500 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "9,999 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/elite-hunter-assault\">Elite Hunter Assault</a> 24-72 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "nobles-wrath": {
+    "title": "Noble's Wrath",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/anti-slaver-reinforcements\">Anti-Slaver Reinforcements</a><p><a href=\"/rebel-farmers-reinforcements\">Rebel Farmers Reinforcements</a><br><a href=\"/shek-kingdom-reinforcements\">Shek Kingdom Reinforcements</a></p>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/elite-hunter-assault\">Elite Hunter Assault</a> 72-100 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "prayer-day": {
+    "title": "Prayer Day",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "50%"
+          ],
+          [
+            "Max Range",
+            "2,000 meters"
+          ],
+          [
+            "Near Range",
+            "1,500 meters"
+          ],
+          [
+            "Repeat Limit",
+            "99,999 days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/holy-nation-assault-minor\">Holy Nation Assault (Minor)</a> 24-72 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "raid": {
+    "title": "Raid",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "20% chance"
+          ],
+          [
+            "Max Range",
+            "5,000 Meters"
+          ],
+          [
+            "Near Range",
+            "2,500 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "99,999 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<span class=\"new\" title=\"Shek Challengers (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2hla19DaGFsbGVuZ2Vycz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Shek Challengers</span> 80-120 hours, 100% Chance"
+          ],
+          [
+            "Victory Triggers",
+            "<strong>Raid</strong> 200-300 hours, 100% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "rebel-farmers-reinforcements": {
+    "title": "Rebel Farmers Reinforcements",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ]
+        ]
+      }
+    ]
+  },
+  "red-sabre-raid": {
+    "title": "Red Sabre Raid",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/hound-reinforcements\">Hound Reinforcements</a>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "40% Chance"
+          ],
+          [
+            "Max Range",
+            "4,200 Meters"
+          ],
+          [
+            "Near Range",
+            "3,700 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "6 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "retribution-of-god": {
+    "title": "Retribution of God",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/flotsam-ninja-reinforcements\">Flotsam Ninja Reinforcements</a><p><a href=\"/shek-kingdom-reinforcements\">Shek Kingdom Reinforcements</a><br><a href=\"/united-cities-reinforcements\">United Cities Reinforcements</a></p>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "50%"
+          ],
+          [
+            "Max Range",
+            "7,000 Meters"
+          ],
+          [
+            "Near Range",
+            "4,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "9,999 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/wrath-of-god\">Wrath of God</a> 36-80 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "return-for-blood": {
+    "title": "Return For Blood",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Repeat Limit",
+            "4 Days"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/shek-challengers-shek-kingdom\">Shek Challengers</a> 120-180 hours, 100% chance"
+          ],
+          [
+            "Victory Triggers",
+            "<a href=\"/return-for-tribute\">Return For Tribute</a> 72-150 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "return-for-tribute": {
+    "title": "Return For Tribute",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Repeat Limit",
+            "4 Days"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/shek-challengers-shek-kingdom\">Shek Challengers</a> 48-72 hours, 100% chance"
+          ],
+          [
+            "Victory Triggers",
+            "<strong>Return For Tribute</strong> 96-120 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "revenge-of-the-hounds": {
+    "title": "Revenge of the Hounds",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "100% Chance"
+          ],
+          [
+            "Max Range",
+            "6,000 Meters"
+          ],
+          [
+            "Near Range",
+            "1,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "4 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "scrawny-raid": {
+    "title": "Scrawny Raid",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "15% Chance"
+          ],
+          [
+            "Max Range",
+            "4,000 Meters"
+          ],
+          [
+            "Near Range",
+            "2,200 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "4 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/cannibal-swarm\">Cannibal Swarm</a> 24-96 Hours, 15% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "shek-challenge": {
+    "title": "Shek Challenge",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "10% Chance"
+          ],
+          [
+            "Max Range",
+            "7,000 Meters"
+          ],
+          [
+            "Near Range",
+            "3,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "15 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "shek-challengers-band-of-bones": {
+    "title": "Shek Challengers (Band of Bones)",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Loss Triggers",
+            "<strong>Shek Challengers</strong> 90-120 Hours, 100% Chance"
+          ],
+          [
+            "Victory Triggers",
+            "<a href=\"/raid\">Raid</a> 200-300 Hours, 100% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "shek-challengers-shek-kingdom": {
+    "title": "Shek Challengers (Shek Kingdom)",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Repeat Limit",
+            "4 days"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/shek-revenge\">Shek Revenge</a> 72-150 hours, 100% chance"
+          ],
+          [
+            "Victory Triggers",
+            "<a href=\"/return-for-tribute\">Return For Tribute</a> Instant, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "shek-kingdom-reinforcements": {
+    "title": "Shek Kingdom Reinforcements",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ]
+        ]
+      }
+    ]
+  },
+  "shek-kingdom-route": null,
+  "shek-proving": {
+    "title": "Shek Proving",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "20% Chance"
+          ],
+          [
+            "Max Range",
+            "4,000 Meters"
+          ],
+          [
+            "Near Range",
+            "1,800 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "9,999 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Victory Triggers",
+            "<strong>Shek Proving</strong> 60-130 Hours, 100% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "shek-revenge": {
+    "title": "Shek Revenge",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Repeat Limit",
+            "4 days"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/shek-challengers-shek-kingdom\">Shek Challengers (Shek Kingdom)</a> 72-200 hours, 60% chance<p><strong>Shek Revenge</strong> 72-200 hours, 40-60% chance</p>"
+          ]
+        ]
+      }
+    ]
+  },
+  "skin-harvest": {
+    "title": "Skin Harvest",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "10% Chance"
+          ],
+          [
+            "Max Range",
+            "7,000 Meters"
+          ],
+          [
+            "Near Range",
+            "3,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "8 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/the-big-skin-harvest\">The Big Skin Harvest</a> 100-160 Hours, 25% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "slave-capture": {
+    "title": "Slave Capture",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ]
+        ]
+      }
+    ]
+  },
+  "slave-raid": {
+    "title": "Slave Raid",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "15% Chance"
+          ],
+          [
+            "Max Range",
+            "4,000 Meters"
+          ],
+          [
+            "Near Range",
+            "2,500 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "10 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "southern-hive-visit": {
+    "title": "Southern Hive Visit",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "40% Chance"
+          ],
+          [
+            "Max Range",
+            "1,500 Meters"
+          ],
+          [
+            "Near Range",
+            "1,300 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "7 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/hive-eviction\">Hive Eviction</a> 24-48 Hours, 70% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "stone-golems-revenge": {
+    "title": "Stone Golem's Revenge",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/holy-nation-reinforcements\">Holy Nation Reinforcements</a>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "80% chance"
+          ],
+          [
+            "Max Range",
+            "11,000 meters"
+          ],
+          [
+            "Near Range",
+            "3,000 meters"
+          ],
+          [
+            "Repeat Limit",
+            "10 days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/shek-revenge\">Shek Revenge</a> 72-150 hours, 30% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "stone-rat-assault": {
+    "title": "Stone Rat Assault",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Loss Triggers",
+            "<strong>Stone Rat Assault</strong> 48-100 Hours, 30-85% Chance"
+          ],
+          [
+            "Victory Triggers",
+            "<a href=\"/stone-rat-visit\">Stone Rat Visit</a> 90-110 Hours, 100% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "stone-rat-visit": {
+    "title": "Stone Rat Visit",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "30% Chance"
+          ],
+          [
+            "Max Range",
+            "3,800 Meters"
+          ],
+          [
+            "Near Range",
+            "3,500 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "99999 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/stone-rat-assault\">Stone Rat Assault</a> 48-100 Hours, 100% Chance"
+          ],
+          [
+            "Victory Triggers",
+            "<strong>Stone Rat Visit</strong> 90-150 Hours, 100% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "tax-collector": {
+    "title": "Tax Collector",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Territorial Trigger",
+            "False"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/tax-evasion-enforcement\">Tax Evasion Enforcement</a> 12-48 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "tax-evasion-enforcement": {
+    "title": "Tax Evasion Enforcement",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Territorial Trigger",
+            "False"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/united-cities-assault\">United Cities Assault</a> 72-144 hours, 100% chance"
+          ],
+          [
+            "Victory Triggers",
+            "<a href=\"/tax-collector\">Tax Collector</a> 12-48 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "tax-man-visit": {
+    "title": "Tax Man Visit",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "50% Chance"
+          ],
+          [
+            "Max Range",
+            "3,500 Meters"
+          ],
+          [
+            "Near Range",
+            "2,200 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "99,999 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/tax-evasion-enforcement\">Tax Evasion Enforcement</a> 24-72 Hours, 100% Chance"
+          ],
+          [
+            "Victory Triggers",
+            "<a href=\"/tax-collector\">Tax Collector</a> 96-120 Hours, 100% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "the-big-skin-harvest": {
+    "title": "The Big Skin Harvest",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "10% Chance"
+          ],
+          [
+            "Max Range",
+            "7,000 Meters"
+          ],
+          [
+            "Near Range",
+            "3,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "12 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "the-fog": {
+    "title": "The Fog",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "20% Chance"
+          ],
+          [
+            "Max Range",
+            "1,600 Meters"
+          ],
+          [
+            "Near Range",
+            "1,200 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "6 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "the-holy-nation-route": null,
+  "thug-attack": {
+    "title": "Thug Attack",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ],
+          [
+            "Loss Triggers",
+            "<strong>Thug Attack</strong> 50-120 Hours, 75-90% Chance"
+          ],
+          [
+            "Victory Triggers",
+            "<strong>Thug Attack</strong> 0-150 Hours, 80% Chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "traders-guild-route": null,
+  "traders-guild-visit": {
+    "title": "Traders Guild Visit",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "50% Chance"
+          ],
+          [
+            "Max Range",
+            "5,000 Meters"
+          ],
+          [
+            "Near Range",
+            "3,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "99,999 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ]
+        ]
+      }
+    ]
+  },
+  "tribute-round": {
+    "title": "Tribute Round",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Max Chance Per Day",
+            "15% Chance"
+          ],
+          [
+            "Max Range",
+            "1,500 Meters"
+          ],
+          [
+            "Near Range",
+            "1,000 Meters"
+          ],
+          [
+            "Repeat Limit",
+            "9,999 Days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<a href=\"/shek-challengers-shek-kingdom\">Shek Challengers (Shek Kingdom)</a> 6-12 hours, 100% chance"
+          ]
+        ]
+      }
+    ]
+  },
+  "united-cities-assault": {
+    "title": "United Cities Assault",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Territorial Trigger",
+            "False"
+          ],
+          [
+            "Loss Triggers",
+            "<span class=\"new\" title=\"United Cities Assault (Loss Trigger) (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVW5pdGVkX0NpdGllc19Bc3NhdWx0XyhMb3NzX1RyaWdnZXIpP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">United Cities Assault (Loss Trigger)</span> 72-100 hours, 50-100% chance."
+          ],
+          [
+            "Victory Triggers",
+            "(Tax Evasion only) <a href=\"/tax-collector\">Tax Collector</a> 12-48 hours, 100%"
+          ]
+        ]
+      }
+    ]
+  },
+  "united-cities-reinforcements": {
+    "title": "United Cities Reinforcements",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Ignores No-Go Zones",
+            "False"
+          ],
+          [
+            "Territorial Trigger",
+            "False"
+          ]
+        ]
+      }
+    ]
+  },
+  "united-cities-route": null,
+  "world-state-routes": null,
+  "wrath-of-god": {
+    "title": "Wrath of God",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Allied Reinforcements",
+            "<a href=\"/flotsam-ninja-reinforcements\">Flotsam Ninja Reinforcements</a><p><a href=\"/shek-kingdom-reinforcements\">Shek Kingdom Reinforcements</a><br><a href=\"/united-cities-reinforcements\">United Cities Reinforcements</a></p>"
+          ],
+          [
+            "Ignores No-Go Zones",
+            "True"
+          ],
+          [
+            "Max Chance Per Day",
+            "100% chance"
+          ],
+          [
+            "Max Range",
+            "90,000 meters"
+          ],
+          [
+            "Near Range",
+            "50,000 meters"
+          ],
+          [
+            "Repeat Limit",
+            "9,999 days"
+          ],
+          [
+            "Territorial Trigger",
+            "True"
+          ],
+          [
+            "Loss Triggers",
+            "<strong>Wrath of God</strong> 30-672 hours, 95-100% chance"
+          ]
+        ]
+      }
+    ]
+  }
+}
