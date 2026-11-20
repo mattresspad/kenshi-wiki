@@ -16,5 +16,16 @@
       "/southeast-trade-culture",
       "/trade-goods-trader-generic"
     ]
+  },
+  {
+    "name": "shop-structures",
+    "resolved": [
+      "/empire-trade-culture",
+      "/hiver-merchant-caravan",
+      "/holy-nation-bar"
+    ],
+    "introduced": [
+      "/category/trade-cultures"
+    ]
   }
 ]

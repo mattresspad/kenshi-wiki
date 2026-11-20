@@ -5095,6 +5095,17 @@
       }
     },
     {
+      "id": "availability:/empire-trade-culture",
+      "kind": "availability",
+      "target": "/empire-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-trade-culture"
+      }
+    },
+    {
       "id": "availability:/empty-grog-can",
       "kind": "availability",
       "target": "/empty-grog-can",
@@ -7812,6 +7823,17 @@
       }
     },
     {
+      "id": "availability:/hiver-merchant-caravan",
+      "kind": "availability",
+      "target": "/hiver-merchant-caravan",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hiver-merchant-caravan"
+      }
+    },
+    {
       "id": "availability:/hiver-skeleton-arms-tech",
       "kind": "availability",
       "target": "/hiver-skeleton-arms-tech",
@@ -8117,6 +8139,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holy-mines/slave-traders"
+      }
+    },
+    {
+      "id": "availability:/holy-nation-bar",
+      "kind": "availability",
+      "target": "/holy-nation-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-nation-bar"
       }
     },
     {

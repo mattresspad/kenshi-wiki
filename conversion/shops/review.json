@@ -72,6 +72,56 @@
         "claim:shops-stock-prices-and-rarity",
         "claim:shops-world-state-residents"
       ]
+    },
+    {
+      "id": "holy-nation-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 43355-Dialogue.mod Holy Nation Bar is the bar specifically found in The Holy Nation. This variant is used in all Holy Nation towns which have a bar. The most distinct difference between this bar and ones found outside The Holy Nation is that this bar’s residents are exclusively human races. These bars comes in generally 2 types of buildings within the Holy Nation, including L-House (more common) and Snailhouse. Possible Locations Bad Teeth Blister Hill Holy Military Base Stack Bad Teeth override (Phoenix dead, Seta alive) Drin override (Tengu and Inaba dead, Valtena alive) Residents Holy Barman Shop Guard holy (2) Possible Stock Wanted Posters WANTED: Butcher Of Black Scratch WANTED: Ells WANTED: Moll WANTED: The Black Dragon Duo WANTED: The Canyonlands Killer WANTED: The Preacher WANTED: The Red Bandit WANTED: Voodoo Brothers WANTED: Sand Ninja Oni Galley L House Bughouse",
+      "organization": "Reviewed 6 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-nation-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2be001ffa63aa594a4d6c97da840da37f514e43b99e61f688404434228b04558"
+      },
+      "questions": [
+        "claim:shops-missing-stock-cells",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Empire Trade Culture is a trade culture which removes cultural items from The Holy Nation and as well as other food items, this culture applies mostly to United Cities locations. It’s not to be confused with the similar, yet distinct, Empire Southwest Trade Culture. Locations Raider Camp Trader’s Edge Waystation (Border Zone) All locations controlled by Empire Peasants, Traders Guild, and United Cities. Illegal Possible Stock Trivia Although the Empire Trade Culture forbids Greenfruit-related items, many nobles appear to have the privilege of eating Cooked Vegetables (as can be seen in their inventory) and Emperor Tengu’s “Seal” is also a Greenfruit. Some soldiers also appear to be able to give the player Greenfruit after they took pity/have been bribed.",
+      "organization": "Reviewed 3 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f84ac91ed52314cf3454b644ee6dd6d7f749610e22aa031a1d96aae63f3094c1"
+      },
+      "questions": [
+        "claim:shops-missing-stock-cells",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-trade-culture-effects"
+      ]
+    },
+    {
+      "id": "hiver-merchant-caravan",
+      "existence": "Permanent ID, address, pinned checksum, categories and one characters/traders/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hiver Merchant Caravan is a group of roaming Western Hivers. The Hive Caravan Boss will likely harass the player in hopes of trading with them. Characters Hive Caravan Boss Caravan Drone (8 to 10) Pack Beast (2 to 3 at adult age) Zones Flats Lagoon Heng The Great Desert Vain Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hiver-merchant-caravan.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a667c7b543256007caaceff9306ae5e1e8e71af91c04aadcc5bb49e709703320"
+      },
+      "questions": [
+        "claim:shops-caravan-variants",
+        "claim:shops-missing-stock-cells",
+        "claim:shops-stock-prices-and-rarity"
+      ]
     }
   ],
   "editorialChanges": [

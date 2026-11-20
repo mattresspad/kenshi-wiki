@@ -4962,6 +4962,18 @@
     "scraphouse": {
       "formatCheck": "scripts/geography/verify.mjs",
       "editorialReview": "conversion/shops/review.json"
+    },
+    "holy-nation-bar": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "empire-trade-culture": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "hiver-merchant-caravan": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
     }
   },
   "mediaGaps": [
