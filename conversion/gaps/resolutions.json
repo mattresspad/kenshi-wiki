@@ -1344,6 +1344,17 @@
       }
     },
     {
+      "id": "availability:/base-assault",
+      "kind": "availability",
+      "target": "/base-assault",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/base-assault"
+      }
+    },
+    {
       "id": "availability:/basic-exterior-lighting-tech",
       "kind": "availability",
       "target": "/basic-exterior-lighting-tech",
@@ -4116,6 +4127,17 @@
       }
     },
     {
+      "id": "availability:/crab-tournament",
+      "kind": "availability",
+      "target": "/crab-tournament",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crab-tournament"
+      }
+    },
+    {
       "id": "availability:/crab-town",
       "kind": "availability",
       "target": "/crab-town",
@@ -5477,6 +5499,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/elite-hunter"
+      }
+    },
+    {
+      "id": "availability:/elite-hunter-assault",
+      "kind": "availability",
+      "target": "/elite-hunter-assault",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/elite-hunter-assault"
       }
     },
     {

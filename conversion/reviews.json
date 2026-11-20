@@ -5754,6 +5754,18 @@
     "bandit-demands": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/events/review.json"
+    },
+    "crab-tournament": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "elite-hunter-assault": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "base-assault": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
     }
   },
   "mediaGaps": [

@@ -13,6 +13,7 @@
       },
       "questions": [
         "claim:events-chance-and-distance",
+        "claim:events-force-size",
         "claim:events-payments-dialogue",
         "claim:events-reinforcements",
         "claim:events-repeat-and-followups",
@@ -31,6 +32,8 @@
         "sha256": "23d3ed8338b1a03eef787a9a6a3641d588626081f383b9dd2b3397cdf546dde0"
       },
       "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-force-size",
         "claim:events-payments-dialogue",
         "claim:events-reinforcements",
         "claim:events-repeat-and-followups",
@@ -51,10 +54,67 @@
       },
       "questions": [
         "claim:events-chance-and-distance",
+        "claim:events-force-size",
         "claim:events-payments-dialogue",
         "claim:events-reinforcements",
         "claim:events-repeat-and-followups",
         "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "crab-tournament",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: WHAT IS THIS!?!? An invasion! A rival colony come to do battle, crab against crab! So be it! We shall test each others crab training skills! It's a crab toouuurrrrnameeeennntttt!!!Crab Raider Overview The Crab Tournaments are a series of events involving the Crab Raiders faction. They trigger when a Crab Raider spots a player character inside a base owned by the player, and the faction reputation with them is less than 50. The Crab Queen must also still be in power. Over the course of the events, several raids will attack your base, including a number of unique crabs. It is impossible to truly lose the tournament, as it just loops on itself if you repeatedly lose the rounds of the tournament. Achieving victory in the final round of the tournament will result in gaining an alliance with the Crab Raiders faction. Despite being implied to be a battle between crabs, you don’t actually need any crabs or even animals to participate. The raiders will simply refer to your crab as the “Mystery Crab” throughout the tournament regardless of if you have one or not. Variants Once spotted by a Crab Raider patrol, the first event Crab Tournament will be triggered in 12-32 hours. Crab Tournament The first round of the tournament, consisting of 8-12 Crab Raiders, 10 Crabs, and Titus. If the raiders are defeated, the Crab Quarter Finals event will be triggered in 72-120 hours. If the raiders are victorious, the first round will trigger again in 72-120 hours. Crab Quarter Finals The second round of the tournament, consisting of 12-15 Crab Raiders, 10 Crabs, and Barnabus. If the raiders are defeated, the Crab Semi Finals event will be triggered in 72-100 hours. If the raiders are victorious, the Crab Remedial Round event will be triggered in 72-100 hours. Crab Semi Finals The third round of the tournament, consisting of 14-21 Crab Raiders, 15 Crabs, and Mr Gigantus. If the raiders are defeated, the Crab Tournament Final event will be triggered in 70-140 hours. If the raiders are victorious, the Crab Remedial Round event will be triggered in 72-120 hours. Crab Tournament Final The fourth and final round of the tournament, consisting of 20-25 Crab Raiders, 15 Crabs, and The Crabinator. If the raiders are defeated, the Crab Champion event will be triggered in 1 hour. If the raiders are victorious, the Crab Remedial Round event will be triggered in 72-120 hours. Crab Remedial Round A special round of the tournament, which only triggers if the player is defeated in one of the rounds of the tournament. It consists of 8-10 Crab Raiders and 10 Crabs. If the raiders are defeated, the Crab Quarter Finals event will be triggered again in 72-100 hours. If the raiders are victorious, the Crab Remedial Round event will be triggered again in 72-100 hours. Crab Champion The final event in the tournament, which consists of 8-10 Crab Raiders and 10 Crabs but is non-hostile. Once it arrives, they will give a short speech announcing the player’s “Mystery Crab” as the grand champion of the tournament, instantly allying the player to the Crab Raiders faction. Shortly afterwards the raiders will take their leave and return home. Tips and bugs It is possible to lower your standing with the Crab Raiders in a controlled way to below 50 by repeatedly and unsuccessfully attempting a sneak knockout on the Crab Queen. This is useful if you have more than 50 relations already but still want the Crab Tournament to happen. Dropping the reputation to 49 in this way will anger the whole throne room. The terrain in Crab Raider territory is rocky and uneven. This causes the bigger crabs to get stuck easily. It may be necessary to leave the base to intercept the stuck crabs in order to complete a tournament round successfully. A war party will typically spawn in at the closest Crab Village. Building close to it may reduce the AI path finding troubles. It is possible for the Crab Tournament to trigger on NPC factions, if they happen to have a squad in the player’s town and a Crab Raider patrol spots them. As the dialog only checks if they are in a player owned town, not if the character they see is a player.",
+      "organization": "Reviewed 9 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/crab-tournament.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "593492bcdb80e6625a3d7612bc4b429e17e0a4e31c9df18f982406c68e60e18a"
+      },
+      "questions": [
+        "claim:events-broken-vanilla",
+        "claim:events-force-size",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-tournament-rounds",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "elite-hunter-assault",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Tut, tut... Apparently you've been pissing off some important people lately... Allow me to introduce myself. I am one of the Empire's Elite Hunters... And I've been sent for your head. Charmed!Elite Hunter War Leader Elite Hunter Assault is an event that can trigger from being an enemy of the United Cities and living within 9,000 meters of a United Cities location, or as a response to defeating the Elite Hunter Assault, Eyegore’s Assault, or Noble’s Wrath Assault. At least one noble from the following list must be alive and free to trigger the event: Emperor Tengu, Lord Inaba, Lord Nagata, Lord Yoshinaga, Lady Sanda, Lady Tsugi. If all the nobles listed are killed or captured, the event will be unable to trigger except as a response to defeating Elite Hunter Assault. When triggered, the United Cities will launch an assault on the player’s base. This assault will consist of 3-5 Elite Hunters, led by an additional Elite Hunter. When the assault arrives, the leader will give a short speech introducing themselves, and then they will attack the player’s gates and characters. If victorious, the assault will leave shortly afterward. If defeated, there is a chance to trigger the Eyegore’s Assault event, or another Elite Hunter Assault. The chance for each varies depending on the source of this event. If triggered as a territorial event, Eyegore’s Assault will have a 20% chance to trigger in 72-100 hours, while Elite Hunter Assault will have a 20% chance to trigger in 72-100 hours. If triggered in response to defeating a variant of Noble’s Wrath Assault that is triggered by killing/capturing a noble, or defeating Eyegore’s Assault, Eyegore’s Assault will have a 40% chance to trigger in 72-100 hours assuming Eyegore has not been killed or captured, and Elite Hunter Assault will have a 20% chance to trigger in 72-100 hours. If triggered as response to defeating a special dialogue triggered variant of the Noble’s Wrath Assault event, only the Elite Hunter Assault can trigger as a response, and will have a 60% chance to trigger in 72-144 hours. This next one will also have the same chances if defeated, and the next one, and so on. And if triggered in response to defeating the Elite Hunter Assault, except as mentioned above in the Noble’s Wrath Assault dialogue trigger variant, Eyegore’s Assault will have a 35% chance to trigger in 72-144 hours, and Elite Hunter Assault will have a 25% chance to trigger in 72-144 hours.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/elite-hunter-assault.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "852d09e614b20b5067f12ac5bcef41537f876abdb6dd5a052d563a43111be8c9"
+      },
+      "questions": [
+        "claim:events-chance-and-distance",
+        "claim:events-force-size",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "base-assault",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Loading screen tip: If you set up base too near to other outposts, cannibal villages or bandit camps, be prepared for the consequences. Base Assaults are a scrapped system that has since been replaced. You can find the new version on the Events page. Base Assaults were an attack on the player’s outpost where an army of a faction raids the player’s outpost to either attack the inhabitants or steal resources and items. It was introduced in version 0.60.0. If there are no player characters in a base during an assault, then the invading group will wait outside until someone returns before attacking. Causes of base assault Base assaults occur when players are hostile with a faction or, if the player is being extorted out of their Cats via racketeering or taxing, base assault can happen if the player refuses to pay the faction. Sometimes base assaults can just be random. Once the faction enters the outpost with their army, the player has a few minutes to interact with them, which gives them a few options to coerce them to cease the base assault, such as bribing them by giving up all the funds or half of them, if persuaded. If the player doesn’t interact the invading army for a while, they will automatically attack and raid the player’s outpost of their items and resources. If there are any of the player’s squad members, the army will attack them first before looting the outpost. Attacking the invading army after bribing them with valuables will not recover them. Major factions (The Holy Nation, United Cities, and Shek Kingdom) will assault your base when relations become negative enough or if your actions trigger one. History Dust Bandits - Introduced in version 0.60.0. Starving Bandits - Introduced in version 0.62.0. Cannibals - Introduced in version 0.62.0.",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/base-assault.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "36031df8ca198238ffe8c94526a1457b4fd9e6105ca42f572dca6e4e38906aa9"
+      },
+      "questions": [
+        "claim:events-force-size",
+        "claim:events-historical-base",
+        "claim:events-payments-dialogue",
         "claim:events-world-state-gates"
       ]
     }

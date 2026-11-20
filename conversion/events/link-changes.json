@@ -26,5 +26,16 @@
       "/traders-guild-route",
       "/united-cities-route"
     ]
+  },
+  {
+    "name": "event-structures",
+    "resolved": [
+      "/base-assault",
+      "/crab-tournament",
+      "/elite-hunter-assault"
+    ],
+    "introduced": [
+      "/update/0.60"
+    ]
   }
 ]
