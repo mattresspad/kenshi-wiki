@@ -1,0 +1,160 @@
+[
+  {
+    "name": "event-pilots",
+    "opened": [
+      "claim:events-historical-base",
+      "claim:events-stock-values",
+      "claim:events-tournament-rounds",
+      "claim:events-overview-confirm",
+      "claim:events-overview-trigger-units",
+      "claim:events-chance-and-distance",
+      "claim:events-payments-dialogue",
+      "claim:events-reinforcements",
+      "claim:events-repeat-and-followups",
+      "claim:events-third-party-import",
+      "claim:events-world-state-gates",
+      "claim:events-tax-incomplete",
+      "claim:events-unlinked-routes",
+      "claim:events-route-objectives"
+    ],
+    "resolved": [
+      "availability:/bandit-demands",
+      "availability:/category/events",
+      "availability:/prayer-day",
+      "availability:/tax-collector"
+    ],
+    "reopened": [],
+    "open": 1027
+  },
+  {
+    "name": "event-structures",
+    "opened": [
+      "claim:events-flotsam-trigger-disagreement",
+      "claim:events-eyegore-chance",
+      "claim:events-force-size",
+      "claim:events-shek-delay-disagreement",
+      "claim:events-broken-vanilla",
+      "claim:events-route-incompleteness"
+    ],
+    "resolved": [
+      "availability:/base-assault",
+      "availability:/crab-tournament",
+      "availability:/elite-hunter-assault"
+    ],
+    "reopened": [],
+    "open": 1030
+  },
+  {
+    "name": "event-trade-stock",
+    "opened": [],
+    "resolved": [
+      "availability:/caravan-visit",
+      "availability:/farm-trader",
+      "availability:/materials-trader"
+    ],
+    "reopened": [],
+    "open": 1027
+  },
+  {
+    "name": "event-overview-and-routes",
+    "opened": [],
+    "resolved": [
+      "availability:/events",
+      "availability:/flotsam-ninjas-route",
+      "availability:/shek-kingdom-route",
+      "availability:/the-holy-nation-route",
+      "availability:/traders-guild-route",
+      "availability:/united-cities-route",
+      "availability:/world-state-routes"
+    ],
+    "reopened": [],
+    "open": 1020
+  },
+  {
+    "name": "event-siblings-1",
+    "opened": [],
+    "resolved": [
+      "availability:/anti-slaver-reinforcements",
+      "availability:/bandit-rage",
+      "availability:/bandit-raid",
+      "availability:/beast-trader",
+      "availability:/blooded-raid",
+      "availability:/cannibal-raid",
+      "availability:/cannibal-swarm",
+      "availability:/challenger-of-the-undefeated",
+      "availability:/coast-raid",
+      "availability:/crabbed-ones",
+      "availability:/drug-bust",
+      "availability:/enemy-hunt",
+      "availability:/eyegores-assault",
+      "availability:/flotsam-ninja-reinforcements",
+      "availability:/hive-attack-southern-hive",
+      "availability:/hive-attack-western-hive",
+      "availability:/hive-eviction",
+      "availability:/holy-assault",
+      "availability:/holy-nation-assault-inquisitor",
+      "availability:/holy-nation-assault-major",
+      "availability:/holy-nation-assault-minor"
+    ],
+    "reopened": [],
+    "open": 999
+  },
+  {
+    "name": "event-siblings-2",
+    "opened": [],
+    "resolved": [
+      "availability:/holy-nation-reinforcements",
+      "availability:/hound-check-in",
+      "availability:/hound-reinforcements",
+      "availability:/hounds-welcome",
+      "availability:/invincible-vengeance",
+      "availability:/jonin-assault",
+      "availability:/mighty-canhead-event",
+      "availability:/ninja-raid",
+      "availability:/nobles-wrath",
+      "availability:/nobles-wrath-assault",
+      "availability:/raid",
+      "availability:/rebel-farmers-reinforcements",
+      "availability:/red-sabre-raid",
+      "availability:/retribution-of-god",
+      "availability:/return-for-blood",
+      "availability:/return-for-tribute",
+      "availability:/revenge-of-the-hounds",
+      "availability:/scrawny-raid",
+      "availability:/shek-challenge",
+      "availability:/shek-challengers-band-of-bones",
+      "availability:/shek-challengers-shek-kingdom"
+    ],
+    "reopened": [],
+    "open": 978
+  },
+  {
+    "name": "event-siblings-3",
+    "opened": [],
+    "resolved": [
+      "media:https://steamcommunity.com/app/233860/discussions/0/2666626816211752074/",
+      "availability:/shek-kingdom-reinforcements",
+      "availability:/shek-proving",
+      "availability:/shek-revenge",
+      "availability:/skin-harvest",
+      "availability:/slave-capture",
+      "availability:/slave-raid",
+      "availability:/southern-hive-visit",
+      "availability:/stone-golems-revenge",
+      "availability:/stone-rat-assault",
+      "availability:/stone-rat-visit",
+      "availability:/tax-evasion-enforcement",
+      "availability:/tax-man-visit",
+      "availability:/the-big-skin-harvest",
+      "availability:/the-fog",
+      "availability:/thug-attack",
+      "availability:/traders-guild-visit",
+      "availability:/tribute-round",
+      "availability:/united-cities-assault",
+      "availability:/united-cities-reinforcements",
+      "availability:/wrath-of-god"
+    ],
+    "reopened": [],
+    "open": 957
+  }
+]

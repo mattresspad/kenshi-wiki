@@ -1,0 +1,427 @@
+{
+  "scope": "Loopback only",
+  "pages": [
+    {
+      "id": "anti-slaver-reinforcements",
+      "path": "/anti-slaver-reinforcements",
+      "status": 200
+    },
+    {
+      "id": "bandit-demands",
+      "path": "/bandit-demands",
+      "status": 200
+    },
+    {
+      "id": "bandit-rage",
+      "path": "/bandit-rage",
+      "status": 200
+    },
+    {
+      "id": "bandit-raid",
+      "path": "/bandit-raid",
+      "status": 200
+    },
+    {
+      "id": "base-assault",
+      "path": "/base-assault",
+      "status": 200
+    },
+    {
+      "id": "beast-trader",
+      "path": "/beast-trader",
+      "status": 200
+    },
+    {
+      "id": "blooded-raid",
+      "path": "/blooded-raid",
+      "status": 200
+    },
+    {
+      "id": "cannibal-raid",
+      "path": "/cannibal-raid",
+      "status": 200
+    },
+    {
+      "id": "cannibal-swarm",
+      "path": "/cannibal-swarm",
+      "status": 200
+    },
+    {
+      "id": "caravan-visit",
+      "path": "/caravan-visit",
+      "status": 200
+    },
+    {
+      "id": "challenger-of-the-undefeated",
+      "path": "/challenger-of-the-undefeated",
+      "status": 200
+    },
+    {
+      "id": "coast-raid",
+      "path": "/coast-raid",
+      "status": 200
+    },
+    {
+      "id": "crab-tournament",
+      "path": "/crab-tournament",
+      "status": 200
+    },
+    {
+      "id": "crabbed-ones",
+      "path": "/crabbed-ones",
+      "status": 200
+    },
+    {
+      "id": "drug-bust",
+      "path": "/drug-bust",
+      "status": 200
+    },
+    {
+      "id": "elite-hunter-assault",
+      "path": "/elite-hunter-assault",
+      "status": 200
+    },
+    {
+      "id": "enemy-hunt",
+      "path": "/enemy-hunt",
+      "status": 200
+    },
+    {
+      "id": "events",
+      "path": "/events",
+      "status": 200
+    },
+    {
+      "id": "eyegores-assault",
+      "path": "/eyegores-assault",
+      "status": 200
+    },
+    {
+      "id": "farm-trader",
+      "path": "/farm-trader",
+      "status": 200
+    },
+    {
+      "id": "flotsam-ninja-reinforcements",
+      "path": "/flotsam-ninja-reinforcements",
+      "status": 200
+    },
+    {
+      "id": "flotsam-ninjas-route",
+      "path": "/flotsam-ninjas-route",
+      "status": 200
+    },
+    {
+      "id": "hive-attack-southern-hive",
+      "path": "/hive-attack-southern-hive",
+      "status": 200
+    },
+    {
+      "id": "hive-attack-western-hive",
+      "path": "/hive-attack-western-hive",
+      "status": 200
+    },
+    {
+      "id": "hive-eviction",
+      "path": "/hive-eviction",
+      "status": 200
+    },
+    {
+      "id": "holy-assault",
+      "path": "/holy-assault",
+      "status": 200
+    },
+    {
+      "id": "holy-nation-assault-inquisitor",
+      "path": "/holy-nation-assault-inquisitor",
+      "status": 200
+    },
+    {
+      "id": "holy-nation-assault-major",
+      "path": "/holy-nation-assault-major",
+      "status": 200
+    },
+    {
+      "id": "holy-nation-assault-minor",
+      "path": "/holy-nation-assault-minor",
+      "status": 200
+    },
+    {
+      "id": "holy-nation-reinforcements",
+      "path": "/holy-nation-reinforcements",
+      "status": 200
+    },
+    {
+      "id": "hound-check-in",
+      "path": "/hound-check-in",
+      "status": 200
+    },
+    {
+      "id": "hound-reinforcements",
+      "path": "/hound-reinforcements",
+      "status": 200
+    },
+    {
+      "id": "hounds-welcome",
+      "path": "/hounds-welcome",
+      "status": 200
+    },
+    {
+      "id": "invincible-vengeance",
+      "path": "/invincible-vengeance",
+      "status": 200
+    },
+    {
+      "id": "jonin-assault",
+      "path": "/jonin-assault",
+      "status": 200
+    },
+    {
+      "id": "materials-trader",
+      "path": "/materials-trader",
+      "status": 200
+    },
+    {
+      "id": "mighty-canhead-event",
+      "path": "/mighty-canhead-event",
+      "status": 200
+    },
+    {
+      "id": "ninja-raid",
+      "path": "/ninja-raid",
+      "status": 200
+    },
+    {
+      "id": "nobles-wrath-assault",
+      "path": "/nobles-wrath-assault",
+      "status": 200
+    },
+    {
+      "id": "nobles-wrath",
+      "path": "/nobles-wrath",
+      "status": 200
+    },
+    {
+      "id": "prayer-day",
+      "path": "/prayer-day",
+      "status": 200
+    },
+    {
+      "id": "raid",
+      "path": "/raid",
+      "status": 200
+    },
+    {
+      "id": "rebel-farmers-reinforcements",
+      "path": "/rebel-farmers-reinforcements",
+      "status": 200
+    },
+    {
+      "id": "red-sabre-raid",
+      "path": "/red-sabre-raid",
+      "status": 200
+    },
+    {
+      "id": "retribution-of-god",
+      "path": "/retribution-of-god",
+      "status": 200
+    },
+    {
+      "id": "return-for-blood",
+      "path": "/return-for-blood",
+      "status": 200
+    },
+    {
+      "id": "return-for-tribute",
+      "path": "/return-for-tribute",
+      "status": 200
+    },
+    {
+      "id": "revenge-of-the-hounds",
+      "path": "/revenge-of-the-hounds",
+      "status": 200
+    },
+    {
+      "id": "scrawny-raid",
+      "path": "/scrawny-raid",
+      "status": 200
+    },
+    {
+      "id": "shek-challenge",
+      "path": "/shek-challenge",
+      "status": 200
+    },
+    {
+      "id": "shek-challengers-band-of-bones",
+      "path": "/shek-challengers-band-of-bones",
+      "status": 200
+    },
+    {
+      "id": "shek-challengers-shek-kingdom",
+      "path": "/shek-challengers-shek-kingdom",
+      "status": 200
+    },
+    {
+      "id": "shek-kingdom-reinforcements",
+      "path": "/shek-kingdom-reinforcements",
+      "status": 200
+    },
+    {
+      "id": "shek-kingdom-route",
+      "path": "/shek-kingdom-route",
+      "status": 200
+    },
+    {
+      "id": "shek-proving",
+      "path": "/shek-proving",
+      "status": 200
+    },
+    {
+      "id": "shek-revenge",
+      "path": "/shek-revenge",
+      "status": 200
+    },
+    {
+      "id": "skin-harvest",
+      "path": "/skin-harvest",
+      "status": 200
+    },
+    {
+      "id": "slave-capture",
+      "path": "/slave-capture",
+      "status": 200
+    },
+    {
+      "id": "slave-raid",
+      "path": "/slave-raid",
+      "status": 200
+    },
+    {
+      "id": "southern-hive-visit",
+      "path": "/southern-hive-visit",
+      "status": 200
+    },
+    {
+      "id": "stone-golems-revenge",
+      "path": "/stone-golems-revenge",
+      "status": 200
+    },
+    {
+      "id": "stone-rat-assault",
+      "path": "/stone-rat-assault",
+      "status": 200
+    },
+    {
+      "id": "stone-rat-visit",
+      "path": "/stone-rat-visit",
+      "status": 200
+    },
+    {
+      "id": "tax-collector",
+      "path": "/tax-collector",
+      "status": 200
+    },
+    {
+      "id": "tax-evasion-enforcement",
+      "path": "/tax-evasion-enforcement",
+      "status": 200
+    },
+    {
+      "id": "tax-man-visit",
+      "path": "/tax-man-visit",
+      "status": 200
+    },
+    {
+      "id": "the-big-skin-harvest",
+      "path": "/the-big-skin-harvest",
+      "status": 200
+    },
+    {
+      "id": "the-fog",
+      "path": "/the-fog",
+      "status": 200
+    },
+    {
+      "id": "the-holy-nation-route",
+      "path": "/the-holy-nation-route",
+      "status": 200
+    },
+    {
+      "id": "thug-attack",
+      "path": "/thug-attack",
+      "status": 200
+    },
+    {
+      "id": "traders-guild-route",
+      "path": "/traders-guild-route",
+      "status": 200
+    },
+    {
+      "id": "traders-guild-visit",
+      "path": "/traders-guild-visit",
+      "status": 200
+    },
+    {
+      "id": "tribute-round",
+      "path": "/tribute-round",
+      "status": 200
+    },
+    {
+      "id": "united-cities-assault",
+      "path": "/united-cities-assault",
+      "status": 200
+    },
+    {
+      "id": "united-cities-reinforcements",
+      "path": "/united-cities-reinforcements",
+      "status": 200
+    },
+    {
+      "id": "united-cities-route",
+      "path": "/united-cities-route",
+      "status": 200
+    },
+    {
+      "id": "world-state-routes",
+      "path": "/world-state-routes",
+      "status": 200
+    },
+    {
+      "id": "wrath-of-god",
+      "path": "/wrath-of-god",
+      "status": 200
+    }
+  ],
+  "category": {
+    "path": "/category/events",
+    "status": 200,
+    "members": 78,
+    "allDestinationsLocal": true
+  },
+  "reports": [
+    {
+      "path": "/events/",
+      "status": 200
+    },
+    {
+      "path": "/gaps/",
+      "status": 200
+    },
+    {
+      "path": "/route-report.md",
+      "status": 200
+    },
+    {
+      "path": "/events/remaining-inventory.md",
+      "status": 200
+    },
+    {
+      "path": "/events/visual-review.json",
+      "status": 200
+    },
+    {
+      "path": "/events/repeatability.json",
+      "status": 200
+    }
+  ]
+}

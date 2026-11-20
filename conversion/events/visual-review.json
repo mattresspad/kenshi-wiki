@@ -1,0 +1,43 @@
+{
+  "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "scope": "Final acceptance screenshots inspected visually; other captures retain automated overflow and interaction evidence.",
+  "manuallyInspected": [
+    {
+      "file": "reports/events/07-event-siblings-3/prayer-day-desktop-dark.png",
+      "viewport": "1440x900",
+      "palette": "dark",
+      "finding": "Facts align beside the introduction; source labels, paragraph order and outline remain readable.",
+      "result": "accepted for local review"
+    },
+    {
+      "file": "reports/events/07-event-siblings-3/elite-hunter-assault-facts-phone-light.png",
+      "viewport": "390x844",
+      "palette": "light",
+      "finding": "Compact facts wrap inside the viewport; bold repeat-event name and linked follow-up stay distinct.",
+      "result": "accepted for local review"
+    },
+    {
+      "file": "reports/events/07-event-siblings-3/caravan-visit-stock-right-phone-dark.png",
+      "viewport": "390x844",
+      "palette": "dark",
+      "finding": "Chance column is visible at the right end of the independent table scroller; blank cells and source rows remain.",
+      "result": "accepted for local review"
+    },
+    {
+      "file": "reports/events/07-event-siblings-3/crab-outline-phone-light.png",
+      "viewport": "390x844",
+      "palette": "light",
+      "finding": "Expanded round outline shows Crab Champion with a visible keyboard focus ring inside the drawer.",
+      "result": "accepted for local review"
+    },
+    {
+      "file": "reports/events/07-event-siblings-3/tribute-round-tips-desktop-light.png",
+      "viewport": "1440x900",
+      "palette": "light",
+      "finding": "SCIENCE is a text link in the original Tips list; no broken image; source attribution and correction links remain visible.",
+      "result": "accepted for local review"
+    }
+  ],
+  "automatedCoverage": "All 78 additions checked at desktop and phone widths; representative captures and browser journeys in both palettes. See seven batch logs.",
+  "remaining": "Imported claims, missing media and earlier outstanding editorial reviews remain in the gap register."
+}
