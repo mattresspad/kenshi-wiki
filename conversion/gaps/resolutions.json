@@ -5293,6 +5293,72 @@
       }
     },
     {
+      "id": "availability:/empire-bar",
+      "kind": "availability",
+      "target": "/empire-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-bar"
+      }
+    },
+    {
+      "id": "availability:/empire-big-bar",
+      "kind": "availability",
+      "target": "/empire-big-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-big-bar"
+      }
+    },
+    {
+      "id": "availability:/empire-general-shop",
+      "kind": "availability",
+      "target": "/empire-general-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-general-shop"
+      }
+    },
+    {
+      "id": "availability:/empire-general-storage",
+      "kind": "availability",
+      "target": "/empire-general-storage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-general-storage"
+      }
+    },
+    {
+      "id": "availability:/empire-lawless-trade-culture",
+      "kind": "availability",
+      "target": "/empire-lawless-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-lawless-trade-culture"
+      }
+    },
+    {
+      "id": "availability:/empire-mechanical-shop",
+      "kind": "availability",
+      "target": "/empire-mechanical-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-mechanical-shop"
+      }
+    },
+    {
       "id": "availability:/empire-mercenary",
       "kind": "availability",
       "target": "/empire-mercenary",
@@ -5326,6 +5392,17 @@
       }
     },
     {
+      "id": "availability:/empire-ranger-shop",
+      "kind": "availability",
+      "target": "/empire-ranger-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-ranger-shop"
+      }
+    },
+    {
       "id": "availability:/empire-recruit",
       "kind": "availability",
       "target": "/empire-recruit",
@@ -5348,6 +5425,17 @@
       }
     },
     {
+      "id": "availability:/empire-southwest-trade-culture",
+      "kind": "availability",
+      "target": "/empire-southwest-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-southwest-trade-culture"
+      }
+    },
+    {
       "id": "availability:/empire-trade-culture",
       "kind": "availability",
       "target": "/empire-trade-culture",
@@ -5356,6 +5444,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/empire-trade-culture"
+      }
+    },
+    {
+      "id": "availability:/empire-weapon-shop",
+      "kind": "availability",
+      "target": "/empire-weapon-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/empire-weapon-shop"
       }
     },
     {
@@ -5821,6 +5920,17 @@
       }
     },
     {
+      "id": "availability:/farm-shop",
+      "kind": "availability",
+      "target": "/farm-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/farm-shop"
+      }
+    },
+    {
       "id": "availability:/farmer-preacher-cult",
       "kind": "availability",
       "target": "/farmer-preacher-cult",
@@ -5942,6 +6052,17 @@
       }
     },
     {
+      "id": "availability:/fish-shop",
+      "kind": "availability",
+      "target": "/fish-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fish-shop"
+      }
+    },
+    {
       "id": "availability:/fisher",
       "kind": "availability",
       "target": "/fisher",
@@ -6041,6 +6162,17 @@
       }
     },
     {
+      "id": "availability:/flats-lagoon-bar",
+      "kind": "availability",
+      "target": "/flats-lagoon-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flats-lagoon-bar"
+      }
+    },
+    {
       "id": "availability:/flats-lagoon-zone",
       "kind": "availability",
       "target": "/flats-lagoon-zone",
@@ -6093,6 +6225,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/flophouse"
+      }
+    },
+    {
+      "id": "availability:/flotsam-armory",
+      "kind": "availability",
+      "target": "/flotsam-armory",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flotsam-armory"
+      }
+    },
+    {
+      "id": "availability:/flotsam-bar",
+      "kind": "availability",
+      "target": "/flotsam-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flotsam-bar"
       }
     },
     {
@@ -6481,6 +6635,17 @@
       }
     },
     {
+      "id": "availability:/free-traders-trade-culture",
+      "kind": "availability",
+      "target": "/free-traders-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/free-traders-trade-culture"
+      }
+    },
+    {
       "id": "availability:/fuel",
       "kind": "availability",
       "target": "/fuel",
@@ -6621,6 +6786,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/general-jang"
+      }
+    },
+    {
+      "id": "availability:/general-shop",
+      "kind": "availability",
+      "target": "/general-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/general-shop"
       }
     },
     {
@@ -7515,6 +7691,17 @@
       }
     },
     {
+      "id": "availability:/headgear-shop",
+      "kind": "availability",
+      "target": "/headgear-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/headgear-shop"
+      }
+    },
+    {
       "id": "availability:/headshot",
       "kind": "availability",
       "target": "/headshot",
@@ -7644,6 +7831,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/heft-alpha"
+      }
+    },
+    {
+      "id": "availability:/heft-armory",
+      "kind": "availability",
+      "target": "/heft-armory",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/heft-armory"
       }
     },
     {
@@ -7988,6 +8186,17 @@
       }
     },
     {
+      "id": "availability:/hive-robotics-shop",
+      "kind": "availability",
+      "target": "/hive-robotics-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hive-robotics-shop"
+      }
+    },
+    {
       "id": "availability:/hive-soldier-drone",
       "kind": "availability",
       "target": "/hive-soldier-drone",
@@ -7996,6 +8205,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/hive-soldier-drone"
+      }
+    },
+    {
+      "id": "availability:/hive-trader",
+      "kind": "availability",
+      "target": "/hive-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hive-trader"
       }
     },
     {
@@ -8131,6 +8351,17 @@
       }
     },
     {
+      "id": "availability:/hiver-trader-caravan",
+      "kind": "availability",
+      "target": "/hiver-trader-caravan",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/hiver-trader-caravan"
+      }
+    },
+    {
       "id": "availability:/hobbs",
       "kind": "availability",
       "target": "/hobbs",
@@ -8150,6 +8381,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/holed-sabre"
+      }
+    },
+    {
+      "id": "availability:/holy-armor-shop",
+      "kind": "availability",
+      "target": "/holy-armor-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/holy-armor-shop"
       }
     },
     {

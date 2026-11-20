@@ -596,6 +596,359 @@
         "claim:shops-stock-prices-and-rarity",
         "claim:shops-world-state-residents"
       ]
+    },
+    {
+      "id": "empire-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 13241-Escapes.mod Empire Bar is a vendor found in United Cities settlements. Using beds at this vendor costs c.150. This bar is larger than the Small Empire Bar and smaller than the Empire Big Bar, making it the intermediate version of bars in the series of Empire Bars. Possible Locations Bark Brink Clownsteady Sho-Battai Stoat Drin Depending on certain World States, this vendor might spawn in these locations: Bark (Empire Peasant) Residents Barman Shop Guard (2 to 3) Possible Stock Wanted Posters Big Bo Blue Eyes Jaegar The Mad Old Grey Razor The Canyonlands Killer Tinfist White Eyebrow Simion Savant the Skin Eater Valamon Gutterhead Giant King Gurgler Gorrillo Voodoo Brothers Cannibal Leaders Sand Ninja Oni",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b5495222197f339b5735bab8b7b5c2b3a4289ae5b322822d1aacc76ad1fb336f"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-big-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 56130-rebirth.mod Empire Big Bar is a vendor found in United Cities settlements. Renting a bed in this bar costs c.150. This bar is larger than Empire Bar and Small Empire Bar, making it the largest variant of Empire Bars. Possible Locations Heft Heng Sho-Battai Depending on certain World States, this vendor might spawn in these locations: Drifter’s Last half destroyed Heng half destroyed Sho-Battai half destroyed Sho-Battai (Empire Peasant) Stoat half destroyed Residents Barman Shop Guard (3) Possible Stock Wanted Posters Big Bo Blue Eyes Jaegar The Mad Old Grey Razor The Canyonlands Killer Tinfist White Eyebrow Simion Savant the Skin Eater Valamon Gutterhead Giant King Gurgler Gorrillo Voodoo Brothers Cannibal Leaders Sand Ninja Oni",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-big-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3500e3bc056e74bcc2b51f56e316d8f77408d9d46722e15a4d871828c1cddd62"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-general-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 52330-rebirth.mod Empire General Shop is a Traders Guild vendor found in the United Cities. This shop is a slightly bigger version of the General Shop. This location is controlled by the Traders Guild, so it will never stock hemp or riceweed. Possible Locations Heft Heng Sho-Battai Stoat Depending on World States, there may be a Independent Bar found in these locations: Blister Hill Sho-Battai Residents Trade Goods Shopkeeper Shop Guard (3) Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-general-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3858b51f3f3ed6b61d3ee99a7351c33a20802895ed4439efaaa04701b3fd3e2a"
+      },
+      "questions": [
+        "claim:shops-override-copy-labels",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-general-storage",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 56041-rebirth.mod Empire General Storage is a building found in the United Cities. It is an empty storehouse with guards. Possible Locations Drin Sho-Battai Stoat Depending on World States, this vendor might also be found in: Blister Hill Sho-Battai Stoat Residents Samurai Conscript (2 to 3)",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-general-storage.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "92420d58334464eca45ee2d2c169fef99a7c3487ca11cb6e0bace3cf0ca35a61"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-lawless-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Empire Lawless Trade Culture is a trade culture which removes cultural items from The Holy Nation and several food items. It’s similar to the Empire Trade Culture with the notable exception there is no illegal buildings and goods. Since there is no illegal goods in a territory ruled by this trade culture, Hashish and Bloodrum are sold without particular bonuses, except if a complementary trade culture applies locally like the Empire Southwest Trade Culture. It’s the case at the Flats Lagoon : Tech Hunters are tied to Empire Lawless Trade Culture but Empire Southwest Trade Culture is applied locally. That’s why Tech Hunters buy Hemp and Hashish at better prices at Flats Lagoon than Black Scratch despite the fact those two cities are ruled by the same faction. Factions : Anti-Slavers Machinists Scavengers Tech Hunters Gorillo Bandit Locations : Fort Simion Fort Yabuta Free Settlement The Bastion All locations controlled by Anti-Slavers, potentially The Free City and Trader’s Edge depending on World States. All locations controlled by Tech Hunters, potentially Stoat depending on World States. Forbidden items (unspawnable items, things you won’t find) : The Holy Flame A Holy Purpose Holy Edict Bloodrum Hashish Hemp Rice Bowl Riceweed Gohan Dried Fish Grand Fish Thinfish Cooked Vegetables Small Emperor Statue Illegal buildings (builds that are considered illegal and will trigger the dialogue event) : None Illegal goods (contraband) : None Trade prices (multiplier for trade prices) : None",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-lawless-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ddbd6a74613b594ce47e0ca8d4c08d7f824f2241da9a3878df5df06a7f06fbc5"
+      },
+      "questions": [
+        "claim:shops-trade-culture-effects",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-mechanical-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 2240-gamedata.base Empire Mechanical Shop is a Machinists vendor found in the United Cities. This vendor is specific to the United Cities mostly due to the books it stocks. Possible Locations Clownsteady Drifter’s Last Catun Stoat Sho-Battai Bark Heng Heft Residents UC Construction Trader Shop Guard (1 to 2) Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-mechanical-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c5ebf9064b8dddf82dffcd4641dcc722af17ce657945b9b20347a3901cfa9ee3"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-ranger-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 95739-__Mourn.mod Empire Ranger Shop is a Weapons Shop controlled by the Tech Hunters. This shop has lower quality stock than the Adventurer Ranger Shop. Possible Locations Bark Catun Clownsteady Drifter’s Last Heft Stoat Sho-Battai Depending on World States, this vendor might spawn in: Bark Blister Hill Clownsteady Sho-Battai Stoat Trader’s Edge Residents Tech Hunter Shopkeeper Ronin Crossbow Trader Shinobi Guard (2 to 4) Shop Guard (2) Possible Stock Blueprints Bolts: Heavies (rare) Bolts: Longs (rare) Bolts: Regulars Junkbow (rare) Ranger (uncommon) Spring Bat (uncommon) Tooth Pick (uncommon)",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-ranger-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "343267a7735cbe70a34291f33ee0b59f041aca83859a4d0f6cdd2e61341f7e0f"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-southwest-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Empire Southwest Trade Culture (named in the FCS empire SW override) is a trade culture which modifies the value of Hemp and Hashish. No one faction uses this trade culture, as it’s only applied at certain locations, which need particular World States to be active. This trade culture could be complementary with a another one, like Empire Trade Culture. If it’s happens the value of Hemp and Hashish override the similar value of the other concern trade culture. This is the case for Catun (Empire Trade Culture (United Cities) & Empire South West Trade Culture), Mourn and Flats Lagoon (Empire Lawless Trade Culture (Tech Hunters) & Empire South West Trade Culture). The purpose of this trade culture is only modifying the current value of Hemp and Hashish locally. That means it could be still illegal to sell it depending of the faction who controlled the location. Factions : None. Locations : Catun Clownsteady Clownsteady (override) malnourished 1 Clownsteady (override) malnourished 2 Cult Village (override) slaver take over Drifter’s Last Drifter’s Last (override) half destroyed Drifter’s Last (override) slaver take over Eyesocket Fishing village (override) slaver take over Flats Lagoon Manhunter Base Mourn Slave Farm Slave Farm South Slave Markets Tengu’s Vault Trade prices (multiplier for trade prices) :",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-southwest-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d686cf057c0ab7c73f0a9321d2d1ff25481539dcbdec16e9977db7cbee8c78d2"
+      },
+      "questions": [
+        "claim:shops-trade-culture-effects",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "empire-weapon-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 56131-rebirth.mod Empire Weapon Shops are weapon shops owned by the Traders Guild found in United Cities. This shop is the larger version of Small Empire Weapon Shop, and therefore also contains a larger variety and quantities than it’s counterpart. Possible Locations Heng Stoat Residents UC Weapon Trader Shop Guard (3 to 4) In Heng, this shop is capable of spawning Artifacts, as such it may spawn items not in the list. These items, however, will not respawn when the shop restocks. Possible Stock Blueprints Desert Sabres Foreign Sabres Holed Sabres Jittes Katanas Longswords Naginatas Ninja Blades Nodachi Polearms Ringed Sabres Sabres Wakizashis",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/empire-weapon-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b179270d61d82448b67dae1933f735b4b7ba8b88823b90ff41eccc411421ca58"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "farm-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 53642-rebirth.mod A Farm Shop is a Free Traders vendor located in some towns. As implied, it sells mostly farming supplies. The trader also sells animals as well as food for them. Locations Bark Black Scratch Brink Farming Village Fishing Village Heft Heng Stoat Depending on certain World States, this vendor might spawn in these locations: Bark Blister Hill Heng Holy Farm Port North Port South Slave Farm South Residents Shop Guard Animals Garru (1 to 2 at 40% adult age) Bonedog (1 at -10% adult age) Possible Stock Hemp and Rice Bowl have been removed from this vendor because of the Free Traders’ Trade Culture.",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/farm-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cc6c76925297bb7b29578e10dfd68f26b4fb643097429981e34753e20ea058fd"
+      },
+      "questions": [
+        "claim:shops-farm-animal-age",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-trade-culture-effects",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "fish-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1533585-__world reactions Slavers.modFish Shop is a vendor of the Free Traders that can be found in town overrides of the faction and of the Empire Peasants. Possible Locations Depending on certain World States, this vendor may be found in these locations: Port North (Empire Peasants) Port South (Empire Peasants) Slave Farm South (Free Traders) Residents Peasant (2) Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/fish-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "552f14686d080d25a4ce2ff869fb9628ed2e8192432a434e7f19a749b5ac75a3"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "flats-lagoon-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 95581-__Mourn.mod Flats Lagoon Bar is the bar specifically found in Flats Lagoon. This bar is the cool hangout spot of legendary tech hunter Chad. Residents Lagoon Barman Drifter Housemates Ninja Guard (6 to 8) Possible Stock",
+      "organization": "Reviewed 1 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flats-lagoon-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "512acf4dfe1bacd140194a272c8cbac5b298c96b4a1e60d7b8b577356684ff0e"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "flotsam-armory",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50348-rebirth.mod Flotsam Armory are weapon, armour, and supply shops of the Flotsam Ninjas. Most supplies from the Flotsam can be bought from here, aside from food. Possible Locations Flotsam Village Depending on certain World States, this vendor might spawn in these locations: Blister Hill Rebirth Residents Flotsam Ninja (3) Flotsam Refugee (3) Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flotsam-armory.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "601e0ac1398e17940105afb835328e676c2d324c000c5d890c33244ed1f869c5"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "flotsam-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1535073-rebirth.mod Flotsam Bakery is a bar of the Flotsam Ninjas. Flotsam Unique recruits can be found here. Possible Locations Flotsam Village Residents Flotsam Refugee Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flotsam-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "505e68cca14c98893737d9bbc6f98e8568c43b377c335da97ae2188811c61e53"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "free-traders-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Free Traders Trade Culture (named in the FCS empire but more worldy) is a trade culture very similar to Empire Trade Culture but more food items can spawn like Greenfruit, Gohan and Riceweed. Factions: Free Traders Locations: All locations controlled by Free Traders, potentially Drifter’s Last and Slave Farm South depending on World States. Forbidden items (unspawnable items, things you won’t find): The Holy Flame A Holy Purpose Holy Edict Bloodrum Hashish Hemp Rice Bowl Grand Fish Thinfish Cooked Vegetables Small Emperor Statue Illegal buildings (builds that are considered illegal and will trigger the dialogue event): Biofuel Distillery (Hemp) Hemp Farm Illegal goods (contraband): Hashish Bloodrum Hemp Trade prices (multiplier for trade prices):",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/free-traders-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8dfb33623d602764404422381a86979cdcce74877aff6cba0878bf449fef36c8"
+      },
+      "questions": [
+        "claim:shops-trade-culture-effects",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "general-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1174-gamedata.base General Shop is a vendor found primarily in Shek Kingdom and (Southern) United Cities major settlements. It has a much smaller stock than the United Cities exclusive Empire General Shop. Possible Locations Admag Bark Catun Clownsteady Drifter’s Last Last Stand Mongrel Squin Depending on World States, there may be an Independent Bar found in these locations: Admag Bad Teeth Bark Clownsteady Drifter’s Last Squin Stack Residents Trade Goods Shopkeeper Shop Guard (2 to 3) Some locations which this vendor spawns might restrict the items it stocks. Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/general-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9e0f28df54311751937169a727358ee962a9fd3edc8f6d69893381efdff7580d"
+      },
+      "questions": [
+        "claim:shops-override-copy-labels",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "headgear-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 2254-gamedata.base Headgear Shop is a shop which sells Headgear and related blueprints. Possible Locations Black Scratch Deadcat Flats Lagoon World’s End Residents Ronin Hat Trader Ninja Guard This location has a gear Artifacts value of 50,000 Cats, meaning it will spawn armour and weapons from the Artifacts system. Possible Stock Blueprints Straw Hat Rattan Hat Masked Helmet Visored Helmet Tagelmust Bandana Side-Angle Hachigane Iron Hat Karuta Zukin Kusari Zukin Black Bandana Red Bandana Armoured Face Plates Armoured Hood Sandogasa",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/headgear-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e7e97626c682a518e3bae1eef95874972a5831aa92f41acbc1cbed85b43eef84"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "heft-armory",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 56182-rebirth.mod Heft Armour Shop is an Armour Shop of the Tech Hunters found in Heft. Possible Locations Heft Depending on certain World States, this vendor might spawn in these locations: Heft (Empire Peasants) Residents UC Armour Trader Ninja Guard (3) Possible Stock Blueprints Mercenary Plate Plated Longboots Samurai Clothpants Samurai Boots Samurai Armour Samurai Helmet Samurai Legplates Armoured Face Plates Plate Jacket Flared Helmet Masked Helmet Police Helmet Spiked Helmet Visored Helmet Mercenary Leather Armour Hachigane Side-Angle Hachigane Iron Hat Black Plate Jacket",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heft-armory.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9cd48cc008830e04d6896c3049cea9a5a64d19cc3bb1812d0ff9042f5beb48f1"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "hive-robotics-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 96264-__Southern hive.mod Hive Robotics Shop is a store of the Western Hive. This vendor is one of a few shops which sells robot limbs. However, the limbs here are the cheapest and least desirable prosthetics in the game. Locations Hive Village Distant Hive Village Residents Hive Trader robotics Soldier Drone (3 to 4) Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hive-robotics-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "39f9ee8bd3e79611667f52329737feb374dc337c1c3b03a2c4964402b1dd8e01"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "hive-trader",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 42199-rebirth.modHive Traders are vendors of the Western Hive. Possible Locations Hive Village Distant Hive Village Residents Hive Trader (Character) Soldier Drone Possible Stock Blueprints Polearms Plated Drifter’s Leather Pants Blackened Chain Hive Shirt Hiver Chain Shirt Leather Hive Vest Rusted Hive Shirt",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hive-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7cf856240f01ee25b3568eaaaf4fcd4dd380e616d905ca5b8d2f91f12332eb94"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "hiver-trader-caravan",
+      "existence": "Permanent ID, address, pinned checksum, categories and one characters/traders/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Hive Trader Caravan is a group of Western Hive exploring the world for trade. Talking to the Boss will allow you to purchase materials, food, and economy limbs. Typically, the ranking of quantity of commodities from these 3 vendors from many to little would be: Food, First Aid & Repair Kits: Survival Items > Mats > Crops Building Materials: Mats > Survival Items > Crops Farming Materials: Crops Robotic Limbs: Survival Items > Mats A Hive Caravan Boss has three vendors list. Hiver Trader Caravan (survival items): a lot of food item, aid kit, repair kit and some economy robot limbs, Building Materials and Iron Plates Hiver Trader Caravan (mats): a lot of building materials and iron plates, some food item, aid kit and repair kit and few economy robot limbs. Hiver Trader Caravan (crops): a lot of Wheatstraw and Cactus, some Hemp and few Cotton. Few food items, a basic first aid kit a fuel barrel, few “authentic” repair kits, a couple of electrical components, a couple of research books, some building materials and iron plates. Zones",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/hiver-trader-caravan.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d0f42bb070684a2c2ddbe1a0fdf0aef113be957c70828fa117227ab7089ade2a"
+      },
+      "questions": [
+        "claim:shops-caravan-variants"
+      ]
+    },
+    {
+      "id": "holy-armor-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a Work in Progress. It may contain out of date or incomplete information. Needs to add a overview interier image for floor 1 40547-rebirth.mod Holy Armor Shop is the standard Armour Shop found in The Holy Nation. Like other HN-themed shops, this one only contains greenlander humans. Possible Locations Bad Teeth Blister Hill Holy Military Base Stack Residents Holy Armour Trader Shop Guard (2) Possible Stock Blueprints Heart Protector Gallery",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/holy-armor-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "87d41ea62e9ace347472b490e6d4b804f3013fb20f5b2da4393aa1ead745209f"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
     }
   ],
   "editorialChanges": [
