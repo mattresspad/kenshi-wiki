@@ -673,6 +673,17 @@
       }
     },
     {
+      "id": "availability:/armour-smith",
+      "kind": "availability",
+      "target": "/armour-smith",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/armour-smith"
+      }
+    },
+    {
       "id": "availability:/armour-storage",
       "kind": "availability",
       "target": "/armour-storage",
@@ -871,6 +882,17 @@
       }
     },
     {
+      "id": "availability:/assassination",
+      "kind": "availability",
+      "target": "/assassination",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/assassination"
+      }
+    },
+    {
       "id": "availability:/assassination-dummy",
       "kind": "availability",
       "target": "/assassination-dummy",
@@ -890,6 +912,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/assassins-rags"
+      }
+    },
+    {
+      "id": "availability:/athletics",
+      "kind": "availability",
+      "target": "/athletics",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/athletics"
       }
     },
     {
@@ -3588,6 +3621,17 @@
       }
     },
     {
+      "id": "availability:/cooking",
+      "kind": "availability",
+      "target": "/cooking",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/cooking"
+      }
+    },
+    {
       "id": "availability:/cooking-pit",
       "kind": "availability",
       "target": "/cooking-pit",
@@ -4182,6 +4226,17 @@
       }
     },
     {
+      "id": "availability:/crossbow-smith",
+      "kind": "availability",
+      "target": "/crossbow-smith",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/crossbow-smith"
+      }
+    },
+    {
       "id": "availability:/crossbow-turret-spotlight-fitting-tech",
       "kind": "availability",
       "target": "/crossbow-turret-spotlight-fitting-tech",
@@ -4567,6 +4622,17 @@
       }
     },
     {
+      "id": "availability:/dexterity",
+      "kind": "availability",
+      "target": "/dexterity",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dexterity"
+      }
+    },
+    {
       "id": "availability:/digna",
       "kind": "availability",
       "target": "/digna",
@@ -4663,6 +4729,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/doctor-chung"
+      }
+    },
+    {
+      "id": "availability:/dodge",
+      "kind": "availability",
+      "target": "/dodge",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dodge"
       }
     },
     {
@@ -5579,6 +5656,17 @@
       }
     },
     {
+      "id": "availability:/engineer",
+      "kind": "availability",
+      "target": "/engineer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/engineer"
+      }
+    },
+    {
       "id": "availability:/engineer-recruit",
       "kind": "availability",
       "target": "/engineer-recruit",
@@ -6019,6 +6107,17 @@
       }
     },
     {
+      "id": "availability:/farming",
+      "kind": "availability",
+      "target": "/farming",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/farming"
+      }
+    },
+    {
       "id": "availability:/farming-tech",
       "kind": "availability",
       "target": "/farming-tech",
@@ -6060,6 +6159,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fauna"
+      }
+    },
+    {
+      "id": "availability:/field-medic",
+      "kind": "availability",
+      "target": "/field-medic",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/field-medic"
       }
     },
     {
@@ -10089,6 +10199,17 @@
       }
     },
     {
+      "id": "availability:/labouring",
+      "kind": "availability",
+      "target": "/labouring",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/labouring"
+      }
+    },
+    {
       "id": "availability:/lady-kana",
       "kind": "availability",
       "target": "/lady-kana",
@@ -10504,6 +10625,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/lockpick-training-tech"
+      }
+    },
+    {
+      "id": "availability:/lockpicking",
+      "kind": "availability",
+      "target": "/lockpicking",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lockpicking"
       }
     },
     {
@@ -11035,6 +11167,17 @@
       }
     },
     {
+      "id": "availability:/martial-arts",
+      "kind": "availability",
+      "target": "/martial-arts",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/martial-arts"
+      }
+    },
+    {
       "id": "availability:/mask-type-iii",
       "kind": "availability",
       "target": "/mask-type-iii",
@@ -11230,6 +11373,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/meitou"
+      }
+    },
+    {
+      "id": "availability:/melee-attack",
+      "kind": "availability",
+      "target": "/melee-attack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/melee-attack"
+      }
+    },
+    {
+      "id": "availability:/melee-defense",
+      "kind": "availability",
+      "target": "/melee-defense",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/melee-defense"
       }
     },
     {
@@ -12839,6 +13004,17 @@
       }
     },
     {
+      "id": "availability:/perception",
+      "kind": "availability",
+      "target": "/perception",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/perception"
+      }
+    },
+    {
       "id": "availability:/pia",
       "kind": "availability",
       "target": "/pia",
@@ -13155,6 +13331,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/preacher-cult"
+      }
+    },
+    {
+      "id": "availability:/precision-shooting",
+      "kind": "availability",
+      "target": "/precision-shooting",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/precision-shooting"
       }
     },
     {
@@ -14024,6 +14211,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/robot-limbs"
+      }
+    },
+    {
+      "id": "availability:/robotics",
+      "kind": "availability",
+      "target": "/robotics",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/robotics"
       }
     },
     {
@@ -17261,6 +17459,17 @@
       }
     },
     {
+      "id": "availability:/stealth",
+      "kind": "availability",
+      "target": "/stealth",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stealth"
+      }
+    },
+    {
       "id": "availability:/stealth-leg-left",
       "kind": "availability",
       "target": "/stealth-leg-left",
@@ -17965,6 +18174,17 @@
       }
     },
     {
+      "id": "availability:/stronger-opponent-logic",
+      "kind": "availability",
+      "target": "/stronger-opponent-logic",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/stronger-opponent-logic"
+      }
+    },
+    {
       "id": "availability:/stubs-momuso",
       "kind": "availability",
       "target": "/stubs-momuso",
@@ -18281,6 +18501,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/swampers"
+      }
+    },
+    {
+      "id": "availability:/swimming",
+      "kind": "availability",
+      "target": "/swimming",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swimming"
       }
     },
     {
@@ -18933,6 +19164,17 @@
       }
     },
     {
+      "id": "availability:/thievery",
+      "kind": "availability",
+      "target": "/thievery",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/thievery"
+      }
+    },
+    {
       "id": "availability:/thievery-training-tech",
       "kind": "availability",
       "target": "/thievery-training-tech",
@@ -19106,6 +19348,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/torch-post"
+      }
+    },
+    {
+      "id": "availability:/toughness",
+      "kind": "availability",
+      "target": "/toughness",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/toughness"
       }
     },
     {
@@ -20085,6 +20338,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/weapon-melting-tech"
+      }
+    },
+    {
+      "id": "availability:/weapon-smith",
+      "kind": "availability",
+      "target": "/weapon-smith",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#skill-siblings",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/weapon-smith"
       }
     },
     {

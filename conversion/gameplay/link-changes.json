@@ -58,5 +58,42 @@
     "introduced": [
       "/category/pages-that-use-a-deprecated-format-of-the-math-tags"
     ]
+  },
+  {
+    "name": "skill-siblings",
+    "resolved": [
+      "/armour-smith",
+      "/assassination",
+      "/athletics",
+      "/cooking",
+      "/cooking-skill",
+      "/crossbow-smith",
+      "/dexterity",
+      "/dodge",
+      "/engineer",
+      "/farming",
+      "/field-medic",
+      "/laboring",
+      "/labouring",
+      "/lockpicking",
+      "/martial-arts",
+      "/melee-attack",
+      "/melee-defence",
+      "/melee-defense",
+      "/perception",
+      "/precision-shooting",
+      "/robotics",
+      "/robotics-skill",
+      "/stealth",
+      "/stronger-opponent-logic",
+      "/swimming",
+      "/thievery",
+      "/toughness",
+      "/weapon-smith",
+      "/weapon-smith-skill"
+    ],
+    "introduced": [
+      "/category/needs-cleanup"
+    ]
   }
 ]
