@@ -458,6 +458,336 @@
         "claim:lore-item-properties",
         "claim:lore-narrator-reliability"
       ]
+    },
+    {
+      "id": "molls-speech",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Moll’s Speech is a book item which can only be found in the Flotsam HQ in Flotsam Village. This item is a draft speech written by the leader of the Flotsam Ninjas, Moll. This item itself is also considered an illegal item by The Holy Nation. If held in the player’s inventory during a bag search at a Holy Nation town, that character will receive a bounty for holding illegal goods and subsequently attacked and/or arrested. This item is not unique though, as Flotsam HQ can also spawn in an overwritten version of Blister Hill.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/molls-speech.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d819debafbc37eec75d590976e5d7a9f829d082387afbb9a72c24bd7fd389519"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-contraband",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "money-is-freedom",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Money is Freedom is a book item found in the United Cities. This item is ‘unique’ to the Bank in Trader’s Edge. However, it can also be found without the ‘unique’ label in other empire vendors. Places which might stock this item: The Great Library residential buildings malnourished mechanical shops Traders Guild HQ in Trader’s Edge malnourished Traders Guild HQ Fort Mirage",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/money-is-freedom.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b0d3653fdb7026572e8f3d917ba3a52d00c8a5f8715511afe342b7e4e67c3f8d"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "narko",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Born out of the darkest depths of the world came Narko, the Shadow.She sought to erase all that is good, if not for our saviour Okran. Both battled for millenia in the skies until light overcame dark. Narko was restrained, absorbed into the Lord Okran's being. But, alas, Narko The Deceiver's defeat was not the end. While both fought their war in the skies, split in two once again, Narko's spawns were ravaging our world, created out of hate and malice. Against mankind, her Dark Agents were hurled.Scripture of Radiance Vol. I, Holy Lord Phoenix I History of Narko Narko, a deity described as the demoness of darkness. She is the dark counterpart to Okran said to be cast out into the underworld. It is written within the holy scriptures that Narko exists in a place without light, and that she uses her darkness to corrupt and bribe the souls of mortals into sin and heresy. This ancient doctrine of belief is one of the primary reasons women are oppressed within Holy Nation society, as Narko was regarded as female and evil. Man was created in the human image of Okran, Lord Of Light;Woman was created in the image of Narko, Demoness of Darkness. Seek caution, children of Okran! An impure race is an unholy one; They must be rebirthed to serve the cause of Okran, lest they join the cause of darkness. An unrestrained woman is an idle one; She must be subdued, lest she seduce and tempt the purity of man into the darkness with her.Scripture of Radiance Vol. III, Holy Lord Phoenix I Other non-human races are treated with disdain and usually enslaved or slain in the name of Okran. The Holy Nation particularly hates the skeleton race, they regard them as dark agents of Narko. The most notable point of their teachings is that of the enemy: The demon 'Narko' and her skeletons. Was Narko in fact the leader of the skeletons and Okran an ancient human who managed to save the few remaining survivors from destruction in a battle between the two sides?Okranite Theories In Relation To Findings I Trivia “Narko” is simply “Okran” spelled backwards.",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/narko.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c16ee3d5ad33d89fda915ad6002b7bcf0de0c272a285b7d619c30730ec71c17f"
+      },
+      "questions": [
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "noble-circle",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slavery is attacked and branded immoral by outside criticizers, by rebel ninjas. We're accused of cruelty, accused of stealing people's freedom. Yet the accusers continue to buy the products and labours of slavery: Iron, cotton, chainmail... ninja rags. The accusers reek of hypocrisy. But, even if slavery is immoral, it is ours alone to shoulder, not the business of others to interfere.Lord Inaba of the Noble Circle, excerpt from The Blessing Of Slavery The Noble Circle (previously known as the Imperial Lords) are the handpicked cabal of ruthless nobles chosen by Emperor Tengu. Each one is equally regarded as cruel, narcissistic, and incompetent. Each noble is followed by an elite samurai bodyguard. They can be seen harassing peasants in cities and hinterland if one is unlucky enough to mistakenly block their path. For players attempting to stand up to a noble in any way, note that by choosing any hostile or insulting dialogue options, the nobles will send their guards after you and a bounty will be put on your head. Each noble in the United Cities has diplomatic status, and choosing to attack or kidnap a noble will land you with a high bounty for committing terrorism in addition to a great relation penalty. The Noble Circle is mentioned in the Legend of Luquin Series. The lore books Letter Of Parting, The Blessing Of Slavery, and The Red Rebellion are written by Nobles. The letter Puppet includes some opinions on Tengu’s status as Emperor. Members Of The Noble Circle United Cities: (Northern Area) Emperor Tengu - (Heft) Lord Inaba - (Stoat) Lord Yoshinaga - (Heng) Lord Nagata - (Sho-Battai) Lady Sanda - (Bark) Lady Tsugi - (Brink) Lord Ohta - (Heft) Noble Hunters (Southern Area) Lady Merin - (Drifter’s Last) Lord Shiro - (Catun) Noble Hunters Traders Guild: (Northern Area) Longen - (Trader’s Edge) Lady Kana - (Port North) Slave Mistress Ren - (Slave Farm) Slave Master Haga - (Stone Camp) Slave Master Wada - (Port South) Slave Master Ruben - (South Stone Camp) Slave Master Grande - (Eyesocket) (Southern Area) Slave Mistress Grace - (Slave Farm South) Slave Market Master - (Slave Markets) Removed: Empire Nobles - Randomly named Nobles who led heavily guarded processions. Trivia Character data for randomly named “Empire Noble”(s) exists in the Forgotten Construction Set, along with data for a large “Noble Procession” that would presumably have been led by them through various settlements. A mod has been released that adds this back into the game. The Imperial Lords faction once included Samurai Lords, powerful nobles who led the faction’s Samurai patrols. A mod has been released that re-implements them into the game. A member of the Noble Circle seems to have written the Letter Of Parting.",
+      "organization": "Reviewed 9 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/noble-circle.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "577c569d98ab26425416d1b2f5e8dc62db63a27bbfd26f1fbd12190e407f780e"
+      },
+      "questions": [
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "note-from-blue-eyes",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Note From Blue Eyes is a book item found in The Swamp. This item can only be found in a Hideout in Rot and Big Al’s Hideout in Stone Rat Village. This note is written by notorious con artist Blue Eyes. Despite the content of the note, Blue Eyes cannot be found in The Swamp.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/note-from-blue-eyes.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "47f6687e1b4dd69346473d8d2d9d07aeaad7e863a9f464d5e2f8014dc410a5fc"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "okran",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Man was created in the human image of Okran, Lord Of Light;Woman was created in the image of Narko, Demoness of Darkness. Seek caution, children of Okran! An impure race is an unholy one, they must be rebirthed to serve the cause of Okran, lest they join the cause of darkness. An unrestrained woman is an idle one, she must be subdued, lest she seduce and tempt the purity of man into the darkness with her.Volume I, Scripture of Radiance, Holy Lord Phoenix I History of Okran Serving as the undeniable, rightful and most important figure of the Holy Nation and its religious practices, Okran is the deity that every man, woman and child worship and give their life to. He is regarded as the flame, the light, the shining radiance in a world of evil and heresy. Okran was said to be originated from Chitrin, a deity who was said to be a great being who sacrificed himself in order to save the planet (according to Book of Sacrifice), in doing so he split his very being into two forms, one of light (Okran) and one of darkness (Narko). After that, according to HN scriptures and priests, Okran then cast his dark counterpart - who had once resided within his own being - down into the underworld, whilst he himself remained the protector and guardian of the topside of the land. It is written within the holy scriptures that Narko exists in a place without light, and that she uses her darkness to corrupt and bribe the souls of mortals into sin and heresy. This ancient doctrine of belief is one of the primary reasons women are shunned within Holy Nation society, as Okran is seen as a male figure, whilst Narko (who he ripped from the dark recesses of himself) was regarded as female and evil. It also gives insight into where the primary values of the Holy Nation originated, those of fighting the darkness both within oneself and out in the world, as well as the belief that through enslavement and hard labor an individual can begin to seek redemption in the eyes of Okran. Religious Texts Scriptures of Radiance Trivia Okran’s dark counterpart, Narko, is simply “Okran” spelled backwards. Outside of the Holy Nation, even non-humans can be seen swearing to or invoking Okran. The idea (Out of Kenshi) for the name Okran came from Okra. (Vegetable)",
+      "organization": "Reviewed 3 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/okran.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7f59c1518a6b404c0161a403de4ef1f3557351a04a3ba5561becde45e50b1d62"
+      },
+      "questions": []
+    },
+    {
+      "id": "old-empire",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Old Empire are the remains of the ancient civilization that once controlled the entire world. Their written language is now unrecognizable to modern eyes. What is left of their civilization are the scattered Lost Libraries and Armories around the world, where the player may find Ancient Science books, AI cores, robotic spiders and skeletons. How this mighty empire was destroyed is unknown, but it is speculated that it was their own weapon systems or possibly Skeletons that destroyed them. A successor empire simply known as the “Second Empire” sprang from the Old Empire’s ashes, notably being much smaller in scale and controlled by Skeletons. Trivia While this page refers to the “Old Empire” exclusively as the “First Empire”, There are several locations in Kenshi that have “Old Empire” in their name (i.e Old Empire Watchtower, Old Empire Supply Outpost) but have Second Empire as their faction label instead of The Old Empire (which is a cut-content faction). They could be named eponymously so because both civilizations are considered to be “Old” by modern standards, be it the “First Empire” or the “Second Empire”. Cat-Lon’s CPU description is an example of referring to “The Old Empire” as “Second Empire” and not the “First Empire”.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/old-empire.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "50fc1b31ccaa46df07a603288db7607528f3884e9bd76709508c45ab03d74f5d"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-narrator-reliability",
+        "claim:lore-old-empire-names"
+      ]
+    },
+    {
+      "id": "priest-tyluigs-note",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Priest Tyluig’s Note is a book item which can only be found in The Hub. This item is unique to an abandoned residential building found in The Hub. In that same residence, there are also four other unique items which combine to give a history of The Hub and why The Holy Nation has abandoned it. Related Books Ludin’s Reports Priest Varloo’s Note",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/priest-tyluigs-note.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "da8c69b878d32118da31d48ba56eda0d7323a2921540642c4a64252850e12d2d"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "priest-varloos-note",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Priest Varloo’s Note is a book item which can only be found in The Hub. This item is unique to an abandoned residential building found in The Hub. In that same residence, there are also four other unique items which combine to give a history of The Hub and why The Holy Nation has abandoned it. Players have speculated that the ‘wraiths’ mentioned in this note could easily be members of the Shinobi Thieves, especially since The Hub is home to a Thieves Guild. Related Books Ludin’s Reports Priest Tyluig’s Note",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/priest-varloos-note.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4e0cab3f26b1eb0271f115f49305227349a8029ce70cb4403cbe5b6c34d1743c"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "puppet",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Puppet is a book item found in the United Cities. This item can only be found in residential buildings inside of United Cities locations. This letter was likely written soon after Emperor Tengu came to power and references the previous Emperor of the UC - Emperor Anzai.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/puppet.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7f157327988f8e23041228f4d16ff87f61e0c61dff1778bbd452d2e08fe63b19"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "shagers-overthrow",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Shager’s Overthrow is a book item related to the Shek Kingdom. This item can be found in a couple locations alongside other books about Shek. This book tells the story of Esata the Stone Golem defending Bayan and overthrowing her predecessor, thereby preventing Sheks continuing the path of Kamikazing themselves into extinction as proposed by Shager. Places which might stock this item: The Great Library Shek residential Shek storage There’s another book on King Shager called “King Shager’s Reign”.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shagers-overthrow.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3fa5823cc1ee324b6f568784212028896954d62e10ad79aeeb92ba36e6424651"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "shek/lore",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Though it would seem they are uncultured, the Shek are deeply rooted in ancestral worship and respect. Despite their racist attitude towards non-Shek (except Skeletons, who come the closest to earning their respect as warriors), they are willing to accept and even worship you so long as you prove your worth in battle. This is confirmed by fighting and beating the Bugmaster or Lord Phoenix, which regardless of your race will make them praise your name and defend it to the death. The Shek revere a legendary warrior by the name of Kral, who supposedly fought against impossible odds (100 to 1 or so) in the field of battle. He was slain, but not before taking dozens of enemies with him, earning him entry to an afterlife known as the Gateway. It is here that warriors are said to reside alongside the legendary warrior, likely feasting to their hearts content and fighting for sport. Those that reject this way of life have their horns sawed off/filed down as a sign of dishonor, branding them a coward. This may be done on the field of battle or once they return from a great battle and survive without defeating their enemy. Oftentimes the Shek in question becomes a servant to the Empire, undertaking more menial tasks deemed unfit for a warrior. Bayan, who served as Esata’s right-hand man, is one such Shek that was stripped of his honor yet was pardoned by the Golem and allowed to live within the court. Though she rarely acknowledges his existence, she secretly admires his spirit, and he continues to work similarly to a steward or scribe. Though one can easily disregard the Shek as a species native to Kenshi, or the product of radioactive exposure, they are more likely closely related to humans; so close, one might be able to call them brothers and sisters. Some skeletons, whose exposure to the outside world has been limited since the Chaos Age, will react to the Shek with confusion, referring to them as “Enforcers”. This happens in multiple instances, with some even commenting that their character was always the same, but that their bone plates and spikes were more recent changes. This evidence that the Shek had been within ancient society and their bone plates and spikes being recent changes is also further reinforced in The Guiding Light IV, where Okranite theologians claimed that Sheks were created as a brother of Okran, however, due to their aggressive nature and rejection of Okran’s light they devolved and sprouted the horns similar to a wild beast. For this reason, it is reasonable to assume that in Ancient society, Shek were ‘evolved’ humans (either through genetic modification, which the Ancients surely possessed, or selective breeding) and served as the central authority of law and order. While the most prominent example of a Shek society would be the Shek Kingdom, it should also be noted that significant amount of Sheks live outside their influence (and may have never ever came into contact with them) forming communities/diasporas in cities or regions with different values. The most notable example of this would be the United Cities, where many Sheks can be found inside their culture, the most priveleged among them even obtaining the rank of Nobility. In these places, the Sheks are generally assimilated among the wider populace, making the culture of the Shek diluted. While Sheks are often seen as barbaric brutes, whether or not the Sheks actually have a greater warmongering tendency (as compared to other races) appears to be complex and nuanced, while the vast majority of Sheks who live in the Shek Kingdom clearly favor warrior culture, the ones who live outside their culture don’t exhibit any or as much aggressive tendencies. At the same time, even inside the United Cities, who unlike The Holy Nation, don’t have any ingrained racial policies, still come to see Sheks as contributors to increased violence in their cities as seen in United Weeklies, suggesting that the stereotype of Sheks being aggressive originates on some grounds of truth. Additionally, some traces of bloodlust[1] can still be found in Sheks who have no connection with SK, which would imply that the aggression isn’t cultural but innate or biological, this could make sense if they are genetically engineered specifically to be more warlike. It is therefore likely that while Sheks are capable of being productive and peaceful citizens like other races, they still generally - more or less - have greater aggressive tendencies compared to others, the tendency of which becomes especially pronounced when they are grouped together, the result of which - such as in the case of Shek Kingdom - results in a society that’s largely focused on martial prowess, fighting, and personal bravery.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek/lore.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "18d114dc25dbe0fb5c3e3e3cf751c48c0770d95d16065bebc8b64bc3bf64cac1"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-narrator-reliability",
+        "claim:lore-shek-interpretation"
+      ]
+    },
+    {
+      "id": "suicide-note",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Suicide Note is a book item related to The Holy Nation. This item is ‘unique’ to Flotsam HQ in Flotsam Village. However, it can also be found without the ‘unique’ label in the inventories of Holy Citizens. This letter was written by a Holy Sentinel. The crimes written about in this letter are similar to those referenced in Letter From A Freedom Fighter.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/suicide-note.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "699b060951abf93c098b6533cbd5f802dfa10b7d929f06ba5953fd2c60c9a3dc"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "the-blessing-of-slavery",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Blessing Of Slavery is a book item found in United Cities. This item can be found in many empire vendors as well as in the inventory of the UC Pacifier. This book was written by Lord Inaba. Places which might stock this item: The Great Library residential buildings malnourished mechanical shops Traders Guild HQ in Trader’s Edge malnourished Traders Guild HQ Fort Mirage",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-blessing-of-slavery.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "92dbaee2ee14c8b23a5439d3e85e6b54aa755efee16cd0430400fbed7495c46e"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "the-cannibal-plains-de-evolution-of-man",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Cannibal Plains: De-evolution Of Man? is a book item. This item is ‘unique’ to Science HQ in World’s End. However, it can also be found without the ‘unique’ label in The Great Library in Black Scratch. This book was written by the current leader of the Machinists, Finch. This book speculates about Cannibals in the nearby Cannibal Plains.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-cannibal-plains-de-evolution-of-man.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0dabb8731995fc3c2379767bbe746a8d5690c0dff532aaba3a88d3bea0b13d55"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "the-holy-crusade",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Holy Crusade is a book item found in The Holy Nation. This item is ‘unique’ to Temples in The Holy Nation. However, it can also be found without the ‘unique’ label in other Holy Nation vendors. It is a text with verses from the Phoenix calling upon the nation to brace for the upcoming campaign against Shek Kingdom who have been raiding and plaguing their nation[1][2] for centuries[3][4] — in order to completely eradicate their raids and threats and bring peace to their lands[5][6]. A closely related book item, King Shager’s Reign, is likely a continuation or development of the conflict from the Shek perspective. Additional places which might stock this item: Holy Boot Shop Holy Mechanical Shop Holy Nation Bar The Great Library Barracks of both High Inquisitors The home of the Holy Lord Phoenix Barracks at Narko’s Trap Boss’ building at Holy Mines Holy General Shop (“holy Shop trade adv”)",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-holy-crusade.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "cca4773ccaa418414ae22e7df7af0a0377ded9ac637f1bc7a26b0d77f2857513"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "the-pacifier-guidance-for-a-troublemaker",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Pacifier: Guidance for a Troublemaker is a book item. This item can only be found in The Great Library and in Black Market Bars.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-pacifier-guidance-for-a-troublemaker.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0bc0eb787268709bcbacf5f2a4693e3c6525da222e19e966c4c3ebd47b940037"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability",
+        "claim:lore-pacifier-directory"
+      ]
+    },
+    {
+      "id": "the-red-rebellion",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Red Rebellion is a book item found in United Cities. This item can be found in many empire vendors as well as in the inventory of Lord Shiro. Places which might stock this item: The Great Library residential buildings malnourished mechanical shops Traders Guild HQ in Trader’s Edge malnourished Traders Guild HQ Fort Mirage",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-red-rebellion.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "321fb07b78185b7de36db9f0bd581407934637d75ca08e47ed4b94237b672fb2"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "the-united-cities-a-united-power",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The United Cities, A United Power is a book item found in United Cities. This item can be found in many empire vendors. Places which might stock this item: The Great Library residential buildings malnourished mechanical shops Traders Guild HQ in Trader’s Edge malnourished Traders Guild HQ Fort Mirage",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-united-cities-a-united-power.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "12b022a9847ce8f9eec55d4846ffa86c9556f3a0f195a85e094cf3f22f7faef3"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "unknown-old-book",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Unknown Old Book is a book item. This item is only found in The Great Library in Black Scratch. It has the same appearance as the Damaged Book, making it a prime candidate to be thrown away by careless players.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/unknown-old-book.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dc0e6c4b3b7a5027a2854486c550e312e833bb46b273cb0f2e8666c08d1370e1"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
+    },
+    {
+      "id": "way-of-the-warrior-the-book-of-kral",
+      "existence": "Permanent ID, address, pinned checksum, categories and one lore/books/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Way Of The Warrior: The Book Of Kral is a book item related to the Shek Kingdom. This item is ‘unique’ to Shek HQ in Admag, as well as a few Shek HQ overrides. However, it can also be found without the ‘unique’ label in a couple locations. Places which might stock this item: The Great Library Shek residential Shek storage Another book on Kral is called “Kral’s Last Stand”. Trivia The name Kral translates to “King” in Turkish and various West Slavic languages. Representing his unification of the Shek tribes, and his status as the first King of the Shek Kingdom.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/way-of-the-warrior-the-book-of-kral.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1d464fc9c71edcf78587b1c70ee4619ef6046858d6644bc4ee1721d9a36301e1"
+      },
+      "questions": [
+        "claim:lore-availability",
+        "claim:lore-item-properties",
+        "claim:lore-narrator-reliability"
+      ]
     }
   ],
   "editorialChanges": [
