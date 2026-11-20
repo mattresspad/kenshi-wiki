@@ -15798,6 +15798,17 @@
       }
     },
     {
+      "id": "availability:/skeletons-trade-culture",
+      "kind": "availability",
+      "target": "/skeletons-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeletons-trade-culture"
+      }
+    },
+    {
       "id": "availability:/skimmer",
       "kind": "availability",
       "target": "/skimmer",
@@ -16139,6 +16150,17 @@
       }
     },
     {
+      "id": "availability:/slave-shop",
+      "kind": "availability",
+      "target": "/slave-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slave-shop"
+      }
+    },
+    {
       "id": "availability:/slave-traders",
       "kind": "availability",
       "target": "/slave-traders",
@@ -16238,6 +16260,17 @@
       }
     },
     {
+      "id": "availability:/slaver-barracks",
+      "kind": "availability",
+      "target": "/slaver-barracks",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slaver-barracks"
+      }
+    },
+    {
       "id": "availability:/slaver-boss",
       "kind": "availability",
       "target": "/slaver-boss",
@@ -16290,6 +16323,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/slaver-heavy-guard"
+      }
+    },
+    {
+      "id": "availability:/slavers-trade-culture",
+      "kind": "availability",
+      "target": "/slavers-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slavers-trade-culture"
       }
     },
     {
@@ -16367,6 +16411,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/small-emperor-statue"
+      }
+    },
+    {
+      "id": "availability:/small-empire-bar",
+      "kind": "availability",
+      "target": "/small-empire-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/small-empire-bar"
+      }
+    },
+    {
+      "id": "availability:/small-empire-weapon-shop",
+      "kind": "availability",
+      "target": "/small-empire-weapon-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/small-empire-weapon-shop"
       }
     },
     {
@@ -16631,6 +16697,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/south-wetlands"
+      }
+    },
+    {
+      "id": "availability:/southeast-trade-culture",
+      "kind": "availability",
+      "target": "/southeast-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/southeast-trade-culture"
       }
     },
     {
@@ -17767,6 +17844,17 @@
       }
     },
     {
+      "id": "availability:/swamp-general-shop",
+      "kind": "availability",
+      "target": "/swamp-general-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamp-general-shop"
+      }
+    },
+    {
       "id": "availability:/swamp-house",
       "kind": "availability",
       "target": "/swamp-house",
@@ -17987,6 +18075,17 @@
       }
     },
     {
+      "id": "availability:/swamper-trade-culture",
+      "kind": "availability",
+      "target": "/swamper-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/swamper-trade-culture"
+      }
+    },
+    {
       "id": "availability:/swampers",
       "kind": "availability",
       "target": "/swampers",
@@ -18042,6 +18141,17 @@
       }
     },
     {
+      "id": "availability:/tech-hunter-bar",
+      "kind": "availability",
+      "target": "/tech-hunter-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-hunter-bar"
+      }
+    },
+    {
       "id": "availability:/tech-hunter-gate-guard",
       "kind": "availability",
       "target": "/tech-hunter-gate-guard",
@@ -18094,6 +18204,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/tech-hunter-ruins"
+      }
+    },
+    {
+      "id": "availability:/tech-hunter-shop",
+      "kind": "availability",
+      "target": "/tech-hunter-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tech-hunter-shop"
       }
     },
     {
@@ -18171,6 +18292,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/telbooze"
+      }
+    },
+    {
+      "id": "availability:/temple",
+      "kind": "availability",
+      "target": "/temple",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/temple"
       }
     },
     {
@@ -18262,6 +18394,17 @@
       }
     },
     {
+      "id": "availability:/the-dancing-skeleton",
+      "kind": "availability",
+      "target": "/the-dancing-skeleton",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-dancing-skeleton"
+      }
+    },
+    {
       "id": "availability:/the-eye",
       "kind": "availability",
       "target": "/the-eye",
@@ -18339,6 +18482,17 @@
       }
     },
     {
+      "id": "availability:/the-great-library",
+      "kind": "availability",
+      "target": "/the-great-library",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-great-library"
+      }
+    },
+    {
       "id": "availability:/the-grid",
       "kind": "availability",
       "target": "/the-grid",
@@ -18369,6 +18523,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/the-holy-nation"
+      }
+    },
+    {
+      "id": "availability:/the-holy-nation-trade-culture",
+      "kind": "availability",
+      "target": "/the-holy-nation-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-holy-nation-trade-culture"
       }
     },
     {
@@ -18600,6 +18765,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/thieves-backpack"
+      }
+    },
+    {
+      "id": "availability:/thieves-guild",
+      "kind": "availability",
+      "target": "/thieves-guild",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/thieves-guild"
       }
     },
     {
@@ -18845,6 +19021,17 @@
       }
     },
     {
+      "id": "availability:/trade-goods-trader-generic",
+      "kind": "availability",
+      "target": "/trade-goods-trader-generic",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/trade-goods-trader-generic"
+      }
+    },
+    {
       "id": "availability:/trade-ninjas",
       "kind": "availability",
       "target": "/trade-ninjas",
@@ -18977,6 +19164,17 @@
       }
     },
     {
+      "id": "availability:/traders-guild-hq",
+      "kind": "availability",
+      "target": "/traders-guild-hq",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/traders-guild-hq"
+      }
+    },
+    {
       "id": "availability:/traders-leathers",
       "kind": "availability",
       "target": "/traders-leathers",
@@ -19051,6 +19249,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/traitorous-bar-thug"
+      }
+    },
+    {
+      "id": "availability:/travel-and-repairs-shop",
+      "kind": "availability",
+      "target": "/travel-and-repairs-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/travel-and-repairs-shop"
+      }
+    },
+    {
+      "id": "availability:/travel-gear",
+      "kind": "availability",
+      "target": "/travel-gear",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/travel-gear"
       }
     },
     {
@@ -19337,6 +19557,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/upgraded-watchbot"
+      }
+    },
+    {
+      "id": "availability:/used-clothing-shop",
+      "kind": "availability",
+      "target": "/used-clothing-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/used-clothing-shop"
       }
     },
     {
@@ -20008,6 +20239,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/wool-hat"
+      }
+    },
+    {
+      "id": "availability:/worker-hut",
+      "kind": "availability",
+      "target": "/worker-hut",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-5",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/worker-hut"
       }
     },
     {

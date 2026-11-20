@@ -1661,6 +1661,351 @@
         "claim:shops-stock-prices-and-rarity",
         "claim:shops-world-state-residents"
       ]
+    },
+    {
+      "id": "skeletons-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Skeletons Trade Culture is a trade culture which removes few books from the Holy Nation. Factions Skeletons Locations Old Control Tower The Forgotten Throne Forbidden items A Holy Purpose Holy Edict The Holy Crusade The Holy Flame",
+      "organization": "Reviewed 3 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeletons-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1c2f46aa60e591698f8085eecbde0343cdc7d63e5edfe4b39b4e830e70057ba9"
+      },
+      "questions": [
+        "claim:shops-trade-culture-effects"
+      ]
+    },
+    {
+      "id": "slave-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slave Shops are shops run by the Slave Traders faction that sell characters that have been captured, shackled and turned into slaves. They generally consist of many iron cages, along with chests for confiscated possessions. Slave Shops are fixtures in most United Cities settlements, where slavery is a form of commerce; though the Holy Nation employs slave labor, no Slave Shops are available in their cities. Slave shops will spawn with a handful of already enslaved characters, though Slave Traders, Slave Hunters and Manhunters will periodically ‘restock’ the shop by picking up unconscious characters and placing them in the cages (the vice-versa could also happen where Slave Traders patrols relocate the slaves to one of the nearest slave camp) These factions will enslave any unconscious character they encounter, not only those they have personally defeated. This presents a danger in the event that a player’s characters are incapacitated in or near a town in the United Cities; rather than being apprehended by the police or left to be rescued by other characters in the player’s faction, there exists the possibility that they are instead cast into slavery. The player can purchase slaves from a slave shop, though it is not guaranteed that they will become a member of the player’s faction. One effectively buys a slave’s freedom, with the same result as breaking them out of the cage and unlocking the shackles. The player can sell multiple bandit characters such as Starving Vagrants and Rebel Farmers as slaves in these shops for c.400 each, they can also sell their own party members for varying number of cats depending on their skill. This can be an easy way to get some money early-game, given their frequency in the desert and low-skills. Slave Shops stay open all night, making it difficult to break in and flee slaves from their cages. Further, once freed, slaves will generally either flee the city at full speed or follow the player in anticipation of leaving the city; in either case, the town guards will generally brutalize and recapture them. Freeing slaves is effective Lockpicking training but when seen counts as “terrorism” and will incur a Bounty. If the player can manage to safely escort a slave some distance outside the city’s walls, they can also provide a source of fresh recruits. Possible Locations Bark Eyesocket Heft Port North (3) Port South (3) Sho-Battai Slave Farm (3) Slave Markets South Stone Camp (2) Stone Camp Stoat Trader’s Edge Residents Slaver Boss Slaver Guard (2)",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slave-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0ff0521c30a35f4ffaaed5fc3430e7130afd82f454920e3a149a2c385fc60677"
+      },
+      "questions": [
+        "claim:shops-loot-access-and-spawning"
+      ]
+    },
+    {
+      "id": "slaver-barracks",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 54541-rebirth.mod Slaver Barracks is a barracks specifically found in slave farms and camps. This variant is part of the Slave Traders faction. Despite being called a ‘Slaver Bar’ in the game, it is not one, functioning more of a Barracks where slavers relax in town. There is a similarly named Slaver Bar that functions as a real bar. Possible Locations Eyesocket Port North Port South Slave Farm Slave Farm South South Stone Camp Stone Camp Depending on World States, there may be a Slaver Bar found in these locations: Cult Village Fishing Village Holy Farm Holy Mines Residents Slaver Guard Housemates slaver town guard patrol x 1 Slaver Guard x 14 slave camp wardens w/ slaves x 6 Slaver Slave Possible Stock",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slaver-barracks.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "021caf06739d15f3737ce377d1f6b85ed237ba525cb86514a0da9beb175a261c"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "slavers-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Slavers Trade Culture is a trade culture which removes cultural items from Holy Nation and some food items. Forbidden items are identical to the Empire Trade Culture, Empire Lawless Trade Culture and Southeast Trade Culture. List of factions concerned by this trade culture: Slavers Forbidden items (unspawnable items, things you won’t find): The Holy Flame A Holy Purpose Holy Edict Bloodrum Hashish Hemp Rice Bowl Riceweed Gohan Dried Fish Grand Fish Thinfish Cooked Vegetables Small Emperor Statue Illegal buildings (builds that are considered illegal and will trigger the dialogue event): None Illegal goods (contraband): Bloodrum Hashish Hemp Trade prices (multiplier for trade prices):",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/slavers-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b8e81def6f2dc53fa5ba83d5e9766c4845cd81b8a8e00b78bbb423e37a8b0d8b"
+      },
+      "questions": [
+        "claim:shops-trade-culture-effects"
+      ]
+    },
+    {
+      "id": "small-empire-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 64853-rebirth.mod Small Empire Bar is a vendor found in United Cities settlements. Renting the beds in this bar costs c.150. This bar is smaller than Empire Bar and Empire Big Bar, making it the smallest variant of Empire Bars. Possible Locations Farming Village Depending on World States, this vendor might be found in these locations: Bark Residents Barman Shop Guard Possible Stock Wanted Posters Big Bo Blue Eyes Jaegar The Mad Old Grey Razor The Canyonlands Killer Tinfist White Eyebrow Simion Savant the Skin Eater Valamon Gutterhead Giant King Gurgler Gorrillo Voodoo Brothers Cannibal Leaders Sand Ninja Oni",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/small-empire-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bf47cc28f7d5fcb6e4cd88ae3ae97f7c8fbd50eb2f9796829f09cd23a46d41b4"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "small-empire-weapon-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1175-gamedata.base Small Empire Weapon Shops are weapon shops owned by the Traders Guild found in United Cities. This shop is the smaller version of Empire Weapon Shop, and therefore also contains a smaller variety and quantities than it’s counterpart. Possible Locations Bark Brink Clownsteady Sho-Battai Stoat Depending on certain World States, this vendor might spawn in these locations: Blister Hill Sho-Battai Stoat Residents UC Weapon Trader Shop Guard (1 to 2) Possible Stock Blueprints Ninja Blades Ringed Sabres Sabres Holed Sabres",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/small-empire-weapon-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5f8180cb2cf0334cd799da7d31b674cf60502cf8083fe2b3c76878fcf0012bd3"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "southeast-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Southeast Trade Culture is a trade culture identical to Empire Lawless Trade Culture. It’s removes cultural items from The Holy Nation and several food items. Since there is no illegal goods at locations ruled by this trade culture, Hashish and Bloodrum are sell withouth particular bonuses. Factions : None. ** Locations** : Crab Town Crab Village Crab Village (override) destroyed Crab Village (override) Reaver takeover Cult Village Forbidden items (unspawnable items, things you won’t find) : The Holy Flame A Holy Purpose Holy Edict Bloodrum Hashish Hemp Rice Bowl Riceweed Gohan Dried Fish Grand Fish Thinfish Cooked Vegetables Small Emperor Statue Illegal buildings (builds that are considered illegal and will trigger the dialogue event) : None Illegal goods (contraband) : None Trade prices (multiplier for trade prices) : None",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/southeast-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4440ee134a107595bd5aec908a505260872a695d761e199e91170198afa6fddc"
+      },
+      "questions": [
+        "claim:shops-trade-culture-effects",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "swamp-general-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50968-rebirth.mod Swamp General Shop is a vendor found in The Swamp. Possible Locations Mud Town Shark Residents Swamper Non-Gang Hound Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamp-general-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9f025d609be94157ade54ccbf5c5ede3216596909f1cf0135fe7a91404a2c9dc"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "swamper-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Swamper Trade Culture is a trade culture which removes cultural items from Holy Nation and several food items. List of factions concerned by this trade culture : Blackshifters Grayflayers Hounds Reavers Stone Rat Swampers Forbidden items (unspawnable items, things you won’t find) : A Holy Purpose Birth Of The Phoenix Book Of Grace Book Of Sacrifice Bread Cactus Chewsticks Cooked Vegetables Cotton Dustwich Empty Grog Can Empty Rum Bottle Foodcube Greenfruit Grind Machine Grog Holy Edict Meatwrap Cactus Rum The Holy Flame Wheatstraw Illegal buildings (builds that are considered illegal and will trigger the dialogue event) : None Illegal goods (contraband) : None Trade prices (multiplier for trade prices) :",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/swamper-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "22ee74583176baf3cdbafcf5eb0b4d0786351651e29b7cd34d2bbcde7b2bb276"
+      },
+      "questions": [
+        "claim:shops-trade-culture-effects"
+      ]
+    },
+    {
+      "id": "tech-hunter-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: {{{string id}}} The Tech Hunter Bar is the building HQ of the Tech Hunters (according to the FCS). Location Black Scratch Residents Shinobi Guard x9 Tech Hunter Guard x9 Undertaker x3 Trivia While the FCS does show there should be a vendor at this location, none spawn. This may be due to several issues with the AI in the building. It is possible for Drifters and/or Mercenaries to spawn at this location.",
+      "organization": "Reviewed 3 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunter-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8a6144d78debb2db799702a015280b88021deb3fb3c74649278067cf8a6eaf59"
+      },
+      "questions": [
+        "claim:shops-incomplete-record-placeholders",
+        "claim:shops-loot-access-and-spawning",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "tech-hunter-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 56184-rebirth.mod Tech Hunter Shop is a shop which sells travel supplies and some light/medium armour pieces. It is controlled by the Tech Hunters. The shop inventory is similar to the Travel Gear vendor, additionally selling some clothes, long bolts, and more blueprints. Locations Black Scratch Mourn Spring Depending on World States, this vendor might spawn in these locations: Stoat (Tech Hunters) The Free City Residents Tech Hunter Shopkeeper Tech Hunter Guard (3) Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tech-hunter-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3f71078e434b9e586fbe7c7d48f9da642c197bf8e581b98a2a266ea5891bcb45"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "temple",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 17087-Dialogue.mod Let the Divine Flame’s light protect our holy people! Bless the Lord Okran.Holy Priest Temple is a vendor found in The Holy Nation. This building is primarily a source of lore, alongside certain valuables that can be stolen and sold for profit. Temples are one of the few places where Human Teeth can be found. Oddly enough, Book of Grace and Book of Sacrifice can be found in the temple, despite them being mentioned to be illegal inside The Holy Nation. Possible Locations Bad Teeth Blister Hill Stack Residents Holy Priest High Paladin Holy Servant (3 to 6) Possible Stock Special Items A Holy Purpose Holy Edict The Holy Crusade The Holy Flame Letter From Bad Teeth Letter To A Priest Letter To Priest Ton Can only spawn in a Stephouse, as that is the only vanilla building with Temple interior layout. Gallery",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/temple.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ef974fe43ea97b6a57bcdfe1c8c3d37fc6f010a20653680495375a2d916eb93f"
+      },
+      "questions": [
+        "claim:shops-loot-access-and-spawning",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-trade-culture-effects",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "the-dancing-skeleton",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50637-rebirth.mod Welcome to the Dancing Skeleton, the best bar in the swamp! Throw a Cat to our loveable dancing mascot, Nelly, for a month of good luck and a full belly to boot!Swamper Barman The Dancing Skeleton is a unique bar in a swamp dome only found in the city Shark. Swampers run the bar and have Empire Mercenaries stationed to maintain peace among the local gangs and other unsavory characters. Players can speak to the Swamper Barman to gather information about the local gangs or trade goods. Many patrons and eager followers can be found here from Bar Thugs to Mercenary and even Skeletons (dancing not included). Possible Locations Shark Depending on World States, there may be a Independent Bar found in these locations: Shark Residents Swamper Barman Empire Mercenary (3 to 4) This location also happens to sell the entire series of the Letters From A Swamper. Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-dancing-skeleton.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "0fda3d3c8d0a45d164b6dbeded12a14a918e8b28c55fa7be555fd47343883cc5"
+      },
+      "questions": [
+        "claim:shops-override-copy-labels",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "the-great-library",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 56146-rebirth.modThe Great Library has the largest collection of Blueprints and Lore Books in all of Kenshi. Location Black Scratch Residents Bookshop Trader Mercenary Ninja Guard",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-great-library.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fe371334fbc9f5cc20bd2af6ad6cfe093b42674e44006dadf2cf49e43690172e"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "the-holy-nation-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Holy Nation Trade Culture is a trade culture which removes technological items from The Holy Nation. Locations All locations controlled by The Holy Nation. Forbidden items (unspawnable items, things you won’t find) : Advanced First Aid Kit Advanced Splint Kit AI Core Ancient Science Book Authentic Skeleton Repair Kit Cactus Cactus Rum Capacitor Chewsticks Copper Copper Alloy Plates CPU Unit Dustwich Engineering Research Gohan Grind Machine Hashish Hemp Power Core Rice Bowl Riceweed Robotics Components Sake Skeleton Eye Skeleton Muscle Skeleton Repair Kit Tech Hunter’s Notes: The Holy Nation Tech Hunter’s Notes: The Black Desert WANTED: Dust King Illegal This article is a Work in Progress. It may contain out of date or incomplete information. Possible Stock Note Due to the fact that HN doesn’t have dialogues responding to seeing illegal buildings, so functionally speaking the ancient-tech buildings aren’t illegal.",
+      "organization": "Reviewed 3 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-holy-nation-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2f627761684bfe9cdfe0cb909d8d1245a8c0c62b85bf0f34887e8223f742efb8"
+      },
+      "questions": [
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-trade-culture-effects"
+      ]
+    },
+    {
+      "id": "thieves-guild",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 51709-rebirth.mod Thieves Guilds are watchtowers of the Shinobi Thieves. They are found in many locations. Allying with the Shinobi Thieves gives the player access to the training equipment and beds found inside. These also contain fences who buy and sell goods for half-price, regardless of what they are or how they were obtained. Residents Thief Boss Thief (3 to 5) Ninja Guard (2 to 3) Shinobi Trader Guild Plastic Surgeon Possible Stock Blueprints Blackened Chain Shirt Blackened Chainmail Dark Leather Shirt Assassin’s Rags Black Plate Jacket Ninja Rags Ninja Mask Blackened Chain Hive Shirt Locations Towns Gallery",
+      "organization": "Reviewed 4 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/thieves-guild.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1fd2881eda3296ac155495cf6e1a8f0d1b70ddec351362e1ba552425f829819b"
+      },
+      "questions": [
+        "claim:shops-repair-and-bed-services",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "trade-goods-trader-generic",
+      "existence": "Permanent ID, address, pinned checksum, categories and one reference/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Trade Goods Trader found in the Holy Nation. Possible Stock Armour Plating Book Building Materials Cactus Carbon Chainmail Sheet Cotton Electrical Components Fabrics Fuel Gears Grog Hacksaw Iron Plates Leather Strawflour Steel Bars Water Wheatstraw",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/trade-goods-trader-generic.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8988e3e64b62ee9b3f798fc7cc60c5905d46717adba9d5f5858e661dd5671ec9"
+      },
+      "questions": [
+        "claim:shops-generic-trader-identity"
+      ]
+    },
+    {
+      "id": "traders-guild-hq",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. The Traders Guild HQ is the home of Longen and Yamdu in Trader’s Edge. It should not be confused with another building in the same location, named Bank. The Bank is a vault or storehouse location, while the Traders Guild HQ is a Faction HQ. If the player kills or imprisons Tengu and Longen while Tinfist is alive and free, the HQ will be turned into what looks like Tengu’s Vault 2.0 and named “Prison”. If the player kills or imprisons Tengu, Longen and Tinfist, the Ancient Lab will be put for sale at c.320,000. It becomes the most expensive building in the game, as Trader’s Edge turns to the Empire Peasants override.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/traders-guild-hq.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "47ccfa21b49af934cdcdb7ad962631a19c90b42a14a02d92d684b3cdfa76d33f"
+      },
+      "questions": [
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "travel-and-repairs-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50357-rebirth.mod Need any supplies? I got some skeleton repair beds upstairs too if you need 'em. Travel and Repairs Shop is a Tech Hunters shop which sells travel items and Robot Limbs. This location also sells many Maps. The second floor of this building will contain Skeleton Repair Beds. The shop inventory is similar to the Travel Gear vendor, additionally selling Robot Limbs, but no Bolts. Locations Flats Lagoon World’s End Depending on certain World States, this vendor might spawn in: Blister Hill Residents Tech Hunter Shopkeeper Mercenary (3) This shop is capable of spawning Artifacts, as such it may spawn items not in the list. These items, however, will not respawn when the shop restocks. Towns marked with an asterisk will have the shop spawn artifacts. Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/travel-and-repairs-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "5367dffc438a346ef58509b5139d2e1b302f2f59c584da4b42243b42da8baba4"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "travel-gear",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 64655-rebirth.mod Travel Gear is a Tech Hunters vendor found in the Shek Kingdom and some United Cities locations. It is quite similar to the Tech Hunter Shop and Travel and Repairs Shop found in other Tech Hunters locations. Possible Locations Admag Farming Village Heft Last Stand Sho-Battai Squin Depending on World States, there may be a Independent Bar found in these locations: Admag Bad Teeth Heft Okran’s Shield Sho-Battai Squin Stack Residents Tech Hunter Shopkeeper Mercenary (3) This location has an item Artifacts value of c.100,000, so it should spawn some additional items through the artifacts system. Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/travel-gear.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "adc44ac1995330b18911427c72c3877f6712e86c18734a97985365707cde989c"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-override-copy-labels",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "used-clothing-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 54547-rebirth.mod Used Clothing Shop is a shop which sells Clothing and some Armour taken from the slaves in the slave markets of the Slave Traders. Possible Locations Eyesocket Slave Markets Residents Slaver Possible Stock Blueprints Black Cloth Shirt Blackened Chain Shirt Blackened Chainmail Cargopants [reinforced] Cargopants [sneaky chain] Cargopants [padded] Chain Shirt Chainmail Drifter’s Boots Drifter’s Leather Jacket Drifter’s Leather Pants Halfpants [reinforced] Halfpants [sneaky chain] Halfpants [padded] Leather Shirt Leather Turtleneck Leather Vest Monk Pants Monk Robe Ninja Gi Ninja Pants Rag Shirt Sandogasa Straw Hat Stout Hessian Uniform Turtleneck Wooden Sandals",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/used-clothing-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e9bf8df3ee0e945344c4714f1ad897e95fe1e362183662538e7d3cc2ec525725"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "worker-hut",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Worker Hut is a shack that can be found in Crab Town and Crab Village. It has workers inside that are randomly named. The player faction is allowed to use the Beds inside if they are allied to the Crab Raiders.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/worker-hut.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "6076533736123db39b6c3d032cc651d2a92ddd9549837e7fc86774403645dce2"
+      },
+      "questions": [
+        "claim:shops-repair-and-bed-services"
+      ]
     }
   ],
   "editorialChanges": [

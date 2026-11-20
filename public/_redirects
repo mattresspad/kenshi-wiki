@@ -45,6 +45,7 @@
 /blunt-class /blunt-weapons 301
 /body-armor /body-armour 301
 /books /book 301
+/bookshop /the-great-library 301
 /boots /footwear 301
 /booze-barrels /rum-barrels 301
 /buildings /construction 301
@@ -175,6 +176,7 @@
 /shop-guard-holy /holy-shop-guard 301
 /short-katana /wakizashi 301
 /slave-farm-south-free-traders /slave-farm-south/free-traders 301
+/slaver-bar /slaver-barracks 301
 /slavers /slave-traders 301
 /southern-hive-throne /southern-hive-location 301
 /stack-shek-kingdom /stack/shek-kingdom 301
@@ -209,6 +211,8 @@
 /thief-training /thievery-training-tech 301
 /thief-training-tech /thievery-training-tech 301
 /towns /major-towns 301
+/trade-goods-trader-holy /trade-goods-trader-generic 301
+/trade-goods-trader-holy-nation /trade-goods-trader-generic 301
 /trade-ninjas-bar /black-market-bar 301
 /trader-caravanhive /hiver-trader-caravan 301
 /traders-backpack /traders-wooden-backpack 301
