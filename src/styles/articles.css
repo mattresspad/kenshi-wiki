@@ -147,13 +147,13 @@
 .equipment-comparison :is(th,td):not(:first-child) { text-align: right }
 .equipment-comparison thead th:first-child { min-width: 11rem }
 .equipment-comparison img { width: 32px; height: 32px; object-fit: contain; vertical-align: middle; margin-right: 3px }
-.equipment-comparison button {
+.equipment-comparison button, .gameplay-comparison button {
   border: 0; padding: 2px; font: inherit; color: inherit; background: transparent; cursor: pointer; text-align: inherit;
 }
-.equipment-comparison button:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px }
-.sort-mark::after { content: 'â†•'; color: var(--quiet); margin-inline-start: 2px; font-size: .82em }
-[aria-sort=ascending] .sort-mark::after { content: 'â†‘'; color: var(--link) }
-[aria-sort=descending] .sort-mark::after { content: 'â†“'; color: var(--link) }
+.equipment-comparison button:focus-visible, .gameplay-comparison button:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px }
+.sort-mark::after { content: '\2195'; color: var(--quiet); margin-inline-start: 2px; font-size: .82em }
+[aria-sort=ascending] .sort-mark::after { content: '\2191'; color: var(--link) }
+[aria-sort=descending] .sort-mark::after { content: '\2193'; color: var(--link) }
 @media (max-width: 760px) {
   .table-scroll { container-type: inline-size }
   .article-sheet table.equipment-comparison {

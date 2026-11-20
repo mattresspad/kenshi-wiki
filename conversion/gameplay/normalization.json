@@ -623,5 +623,8 @@
       "sortable": 11,
       "formulaPassages": 13
     }
-  ]
+  ],
+  "sharedUi": {
+    "sortIndicators": "Inherited c47d746 CSS has mojibake arrows. Use ASCII CSS escapes for neutral/up/down arrows; apply established comparison-button styling to Gameplay. No source text or table values changed."
+  }
 }
