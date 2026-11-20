@@ -5614,6 +5614,70 @@
     "weapon-smith": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/gameplay/review.json"
+    },
+    "acid-ground": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "artifacts": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "bounty": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "character-customization": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "combat-speed": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "combat-strategies": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "diplomatic-status": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "disguise": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "encumbrance": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "environment": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "faction-uniform": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "free-camera-mode": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "glitchmakers-general-guide": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "guide-to-building-an-outpost": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "guide-to-equipment": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "guide-to-ui-and-controls": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
     }
   },
   "mediaGaps": [

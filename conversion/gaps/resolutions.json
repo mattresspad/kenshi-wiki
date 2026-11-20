@@ -24,6 +24,17 @@
       }
     },
     {
+      "id": "availability:/acid-ground",
+      "kind": "availability",
+      "target": "/acid-ground",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/acid-ground"
+      }
+    },
+    {
       "id": "availability:/admag",
       "kind": "availability",
       "target": "/admag",
@@ -769,6 +780,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/arrow-making-bench"
+      }
+    },
+    {
+      "id": "availability:/artifacts",
+      "kind": "availability",
+      "target": "/artifacts",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/artifacts"
       }
     },
     {
@@ -2279,6 +2301,17 @@
       }
     },
     {
+      "id": "availability:/bounty",
+      "kind": "availability",
+      "target": "/bounty",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bounty"
+      }
+    },
+    {
       "id": "availability:/bounty-hunter",
       "kind": "availability",
       "target": "/bounty-hunter",
@@ -3346,6 +3379,17 @@
       }
     },
     {
+      "id": "availability:/character-customization",
+      "kind": "availability",
+      "target": "/character-customization",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/character-customization"
+      }
+    },
+    {
       "id": "availability:/cheaters-run",
       "kind": "availability",
       "target": "/cheaters-run",
@@ -3552,6 +3596,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/combat-cleaver"
+      }
+    },
+    {
+      "id": "availability:/combat-speed",
+      "kind": "availability",
+      "target": "/combat-speed",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/combat-speed"
+      }
+    },
+    {
+      "id": "availability:/combat-strategies",
+      "kind": "availability",
+      "target": "/combat-strategies",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/combat-strategies"
       }
     },
     {
@@ -4655,6 +4721,28 @@
       }
     },
     {
+      "id": "availability:/diplomatic-status",
+      "kind": "availability",
+      "target": "/diplomatic-status",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/diplomatic-status"
+      }
+    },
+    {
+      "id": "availability:/disguise",
+      "kind": "availability",
+      "target": "/disguise",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/disguise"
+      }
+    },
+    {
       "id": "availability:/disheartened-skeleton",
       "kind": "availability",
       "target": "/disheartened-skeleton",
@@ -5645,6 +5733,17 @@
       }
     },
     {
+      "id": "availability:/encumbrance",
+      "kind": "availability",
+      "target": "/encumbrance",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/encumbrance"
+      }
+    },
+    {
       "id": "availability:/endin",
       "kind": "availability",
       "target": "/endin",
@@ -5697,6 +5796,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/engineers-map"
+      }
+    },
+    {
+      "id": "availability:/environment",
+      "kind": "availability",
+      "target": "/environment",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/environment"
       }
     },
     {
@@ -5994,6 +6104,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/faction-hq"
+      }
+    },
+    {
+      "id": "availability:/faction-uniform",
+      "kind": "availability",
+      "target": "/faction-uniform",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/faction-uniform"
       }
     },
     {
@@ -6778,6 +6899,17 @@
       }
     },
     {
+      "id": "availability:/free-camera-mode",
+      "kind": "availability",
+      "target": "/free-camera-mode",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/free-camera-mode"
+      }
+    },
+    {
       "id": "availability:/free-settlement",
       "kind": "availability",
       "target": "/free-settlement",
@@ -7105,6 +7237,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/gi-pants"
+      }
+    },
+    {
+      "id": "availability:/glitchmakers-general-guide",
+      "kind": "availability",
+      "target": "/glitchmakers-general-guide",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/glitchmakers-general-guide"
       }
     },
     {
@@ -7548,6 +7691,28 @@
       }
     },
     {
+      "id": "availability:/guide-to-building-an-outpost",
+      "kind": "availability",
+      "target": "/guide-to-building-an-outpost",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/guide-to-building-an-outpost"
+      }
+    },
+    {
+      "id": "availability:/guide-to-equipment",
+      "kind": "availability",
+      "target": "/guide-to-equipment",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/guide-to-equipment"
+      }
+    },
+    {
       "id": "availability:/guide-to-faction-relations",
       "kind": "availability",
       "target": "/guide-to-faction-relations",
@@ -7578,6 +7743,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/guide-to-training-statistics"
+      }
+    },
+    {
+      "id": "availability:/guide-to-ui-and-controls",
+      "kind": "availability",
+      "target": "/guide-to-ui-and-controls",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-1",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/guide-to-ui-and-controls"
       }
     },
     {

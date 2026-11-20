@@ -95,5 +95,29 @@
     "introduced": [
       "/category/needs-cleanup"
     ]
+  },
+  {
+    "name": "mechanics-and-guides-1",
+    "resolved": [
+      "/acid-ground",
+      "/artifacts",
+      "/bounty",
+      "/character-customization",
+      "/combat-speed",
+      "/combat-strategies",
+      "/diplomatic-status",
+      "/disguise",
+      "/encumbrance",
+      "/environment",
+      "/faction-uniform",
+      "/free-camera-mode",
+      "/glitchmakers-general-guide",
+      "/guide-to-building-an-outpost",
+      "/guide-to-equipment",
+      "/guide-to-ui-and-controls"
+    ],
+    "introduced": [
+      "/category/updates"
+    ]
   }
 ]
