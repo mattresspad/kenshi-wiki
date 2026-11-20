@@ -9825,6 +9825,17 @@
       }
     },
     {
+      "id": "availability:/industry-buildings",
+      "kind": "availability",
+      "target": "/industry-buildings",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/industry-buildings"
+      }
+    },
+    {
       "id": "availability:/industry-tech",
       "kind": "availability",
       "target": "/industry-tech",
@@ -10793,6 +10804,17 @@
       }
     },
     {
+      "id": "availability:/loading-screen",
+      "kind": "availability",
+      "target": "/loading-screen",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/loading-screen"
+      }
+    },
+    {
       "id": "availability:/lockpick-training-tech",
       "kind": "availability",
       "target": "/lockpick-training-tech",
@@ -11109,6 +11131,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/mad-cat-lon"
+      }
+    },
+    {
+      "id": "availability:/main-menu",
+      "kind": "availability",
+      "target": "/main-menu",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/main-menu"
       }
     },
     {
@@ -11813,6 +11846,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/moll"
+      }
+    },
+    {
+      "id": "availability:/money-making-strategies",
+      "kind": "availability",
+      "target": "/money-making-strategies",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/money-making-strategies"
+      }
+    },
+    {
+      "id": "availability:/money-making-strategies-crafting-guide",
+      "kind": "availability",
+      "target": "/money-making-strategies-crafting-guide",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/money-making-strategies-crafting-guide"
       }
     },
     {
@@ -12751,6 +12806,17 @@
       }
     },
     {
+      "id": "availability:/options-menu",
+      "kind": "availability",
+      "target": "/options-menu",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/options-menu"
+      }
+    },
+    {
       "id": "availability:/ore-drill",
       "kind": "availability",
       "target": "/ore-drill",
@@ -13191,6 +13257,17 @@
       }
     },
     {
+      "id": "availability:/personality",
+      "kind": "availability",
+      "target": "/personality",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/personality"
+      }
+    },
+    {
       "id": "availability:/pia",
       "kind": "availability",
       "target": "/pia",
@@ -13276,6 +13353,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/plated-longboots"
+      }
+    },
+    {
+      "id": "availability:/playable-characters",
+      "kind": "availability",
+      "target": "/playable-characters",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/playable-characters"
+      }
+    },
+    {
+      "id": "availability:/player-owned-buildings-in-town",
+      "kind": "availability",
+      "target": "/player-owned-buildings-in-town",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/player-owned-buildings-in-town"
       }
     },
     {
@@ -13587,6 +13686,17 @@
       }
     },
     {
+      "id": "availability:/prospecting",
+      "kind": "availability",
+      "target": "/prospecting",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/prospecting"
+      }
+    },
+    {
       "id": "availability:/protector-of-the-flame",
       "kind": "availability",
       "target": "/protector-of-the-flame",
@@ -13738,6 +13848,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/ramps"
+      }
+    },
+    {
+      "id": "availability:/random-names-list",
+      "kind": "availability",
+      "target": "/random-names-list",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/random-names-list"
       }
     },
     {
@@ -14255,6 +14376,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/research-bench"
+      }
+    },
+    {
+      "id": "availability:/resistances",
+      "kind": "availability",
+      "target": "/resistances",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/resistances"
       }
     },
     {
@@ -15267,6 +15399,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/searchlight"
+      }
+    },
+    {
+      "id": "availability:/seasons-and-weather",
+      "kind": "availability",
+      "target": "/seasons-and-weather",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/seasons-and-weather"
       }
     },
     {
@@ -16873,6 +17016,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/slavers-trade-culture"
+      }
+    },
+    {
+      "id": "availability:/slavery",
+      "kind": "availability",
+      "target": "/slavery",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/slavery"
       }
     },
     {
@@ -19604,6 +19758,17 @@
       }
     },
     {
+      "id": "availability:/town-size-vs-map-icon-town-level-icons",
+      "kind": "availability",
+      "target": "/town-size-vs-map-icon-town-level-icons",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/town-size-vs-map-icon-town-level-icons"
+      }
+    },
+    {
       "id": "availability:/trade-goods",
       "kind": "availability",
       "target": "/trade-goods",
@@ -20602,6 +20767,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/weapons/modifiers"
+      }
+    },
+    {
+      "id": "availability:/weather-effects",
+      "kind": "availability",
+      "target": "/weather-effects",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#mechanics-and-guides-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/weather-effects"
       }
     },
     {
