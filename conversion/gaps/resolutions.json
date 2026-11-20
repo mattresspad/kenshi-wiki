@@ -4457,6 +4457,17 @@
       }
     },
     {
+      "id": "availability:/creating-a-rideable-animal/vehicle",
+      "kind": "availability",
+      "target": "/creating-a-rideable-animal/vehicle",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-pr43",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/creating-a-rideable-animal/vehicle"
+      }
+    },
+    {
       "id": "availability:/crimper",
       "kind": "availability",
       "target": "/crimper",
@@ -11901,6 +11912,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/makeshift-walls-tech"
+      }
+    },
+    {
+      "id": "availability:/making-animations-basics",
+      "kind": "availability",
+      "target": "/making-animations-basics",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-pr43",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/making-animations-basics"
+      }
+    },
+    {
+      "id": "availability:/making-custom-ragdoll",
+      "kind": "availability",
+      "target": "/making-custom-ragdoll",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-pr43",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/making-custom-ragdoll"
       }
     },
     {
@@ -22417,6 +22450,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/white-vest"
+      }
+    },
+    {
+      "id": "availability:/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading",
+      "kind": "availability",
+      "target": "/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-pr43",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading"
       }
     },
     {

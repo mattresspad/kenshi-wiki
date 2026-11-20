@@ -80,7 +80,7 @@ test('Modding portal, category and accepted Blender contribution can be followed
   await page.goto('/modding#art-and-animation');
   await expect(byId(page,'art-and-animation')).toBeInViewport();
   const art = portal.locator('section[aria-labelledby="art-and-animation"]');
-  await expect(art.getByRole('link',{name:'Making Animations Basics'})).toHaveAttribute('href',origin+'/making-animations-basics');
+  await expect(art.getByRole('link',{name:'Making Animations Basics'})).toHaveAttribute('href',(acceptedArticleIds.has('making-animations-basics')?'':origin)+'/making-animations-basics');
   await art.getByRole('link',{name:'Blender plugins'}).click();
   await expect(page).toHaveURL(/\/modding\/blender-plugins$/);
   const main = page.locator('main');
@@ -96,7 +96,7 @@ test('Modding portal, category and accepted Blender contribution can be followed
   await page.locator('.end-categories').getByRole('link',{name:'Modding',exact:true}).click();
   await expect(page.locator('[data-member]')).toHaveCount(96);
   for (const {article} of accepted.edits) {
-    await expect(page.locator('[data-member="'+article+'"]')).toHaveAttribute('href',origin+article);
+    await expect(page.locator('[data-member="'+article+'"]')).toHaveAttribute('href',(acceptedArticleIds.has(article.slice(1))?'':origin)+article);
   }
   await page.locator('[data-member="'+blender+'"]').click();
   await expect(page).toHaveURL(/\/modding\/blender-plugins$/);

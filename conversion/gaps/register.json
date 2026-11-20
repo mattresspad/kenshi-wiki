@@ -187391,6 +187391,262 @@
       ]
     },
     {
+      "id": "claim:modding-journal-contradictions",
+      "kind": "claim",
+      "target": "/creating-a-rideable-animal/vehicle",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "These guides contain dated journal entries and later reversals. Retain chronology, explicit corrections and the PR43 additions; a cohesive tested recipe is separate editorial work.",
+      "proposedResolution": "Reproduce the named Blender/plugin/game versions, then reconcile the author’s dated claims with credit and evidence.",
+      "uncertainty": "No fresh rigging or ragdoll test was performed.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "creating-a-rideable-animal/vehicle",
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "67111ad55ce128cd64dfdb968b1c2b99331bdc17f557548848781e264aeda71e",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/creating-a-rideable-animal/vehicle.md"
+        },
+        {
+          "articleId": "making-custom-ragdoll",
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "1289862c254da10b9af972fb0ea83eccc30aa34ac377afb0e661c7078289cf96",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/making-custom-ragdoll.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "This is very very WIP. Updated 23rd October 2024 and contains my journal when making the horses",
+          "literal": "This is very very WIP. Updated 23rd October 2024 and contains my journal when making the horses",
+          "line": 25,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "For a humanoid skeleton with a tail, I recommend not adding new bones, as it breaks the sliders. Instead unlink the left-hand prop bone and link it to pelvis. Naturally you will have to remake all 166 animations for the tail to move. (Credits to Kindrad). If you still want to do it, you have to remake the sliders. See this tutorial: [Custom character mesh and editor sliders](/custom-character-mesh-and-editor-sliders)",
+          "literal": "For a humanoid skeleton with a tail, I recommend not adding new bones, as it breaks the sliders. Instead unlink the left-hand prop bone and link it to pelvis. Naturally you will have to remake all 166 animations for the tail to move. (Credits to Kindrad). If you still want to do it, you have to remake the sliders. See this tutorial: [Custom character mesh and editor sliders](/custom-character-mesh-and-editor-sliders)",
+          "line": 27,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "Edit 1: September 1st 2022: I have now tested and this setup works with the portraits without any issues. Edit 2: June 5th 2023 however this set up does not work with Kenshi's game engine. The main issue is the game uses hidden animation priorities to perfectly smooth the transfer from animation to animation, meaning it expects the 'back leg bones' to be named same as human legs. When they are new bones with new names the game does not understand them to be limbs, therefore several animations play simultaneously making the toter walk funny. Back to the drawing board.",
+          "literal": "Edit 1: September 1st 2022: I have now tested and this setup works with the portraits without any issues. Edit 2: June 5th 2023 however this set up does not work with Kenshi's game engine. The main issue is the game uses hidden animation priorities to perfectly smooth the transfer from animation to animation, meaning it expects the 'back leg bones' to be named same as human legs. When they are new bones with new names the game does not understand them to be limbs, therefore several animations play simultaneously making the toter walk funny. Back to the drawing board.",
+          "line": 35,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "So make your toter's skeleton by adjusting the human skeleton. This naturally means you have to remake all animations, but you would have to do it anyways if you wanted to make a toter. Edit 2: Sept 2: Apparently it does not matter much where the photobooth bones are, if they are somewhat in the photobooth area, what matters more, is the location of the Bip01 bone. So you can move the horse forwards to have the front legs align with the center (from the image shown).",
+          "literal": "So make your toter's skeleton by adjusting the human skeleton. This naturally means you have to remake all animations, but you would have to do it anyways if you wanted to make a toter. Edit 2: Sept 2: Apparently it does not matter much where the photobooth bones are, if they are somewhat in the photobooth area, what matters more, is the location of the Bip01 bone. So you can move the horse forwards to have the front legs align with the center (from the image shown).",
+          "line": 37,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "Edit 3: August 8th 2024. I have now found out, that the portrait vanishes when you misalign the mesh from its original armature. Maybe because you imported in Blender without tagging 'use selected skeleton' or you imported it with its named armature, and did not import it on vanilla armature. At least for human characters importing the mesh back to Blender using the 'use selected skeleton' and then exporting it correctly out fixes the portrait missing. Have to test on animals. I still think the main issue with the bulls is the fact the head is in the wrong place.",
+          "literal": "Edit 3: August 8th 2024. I have now found out, that the portrait vanishes when you misalign the mesh from its original armature. Maybe because you imported in Blender without tagging 'use selected skeleton' or you imported it with its named armature, and did not import it on vanilla armature. At least for human characters importing the mesh back to Blender using the 'use selected skeleton' and then exporting it correctly out fixes the portrait missing. Have to test on animals. I still think the main issue with the bulls is the fact the head is in the wrong place.",
+          "line": 40,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "Edit 4: September 19th 2024. Scrap the setup show in the image above. You MUST make the armature using human legs as backlegs and human arms as front legs. Keep the head and Bip01 bones where they are, but edit all the other bones. You can add new bones as a side, but do not add new bones in the middle of the chain of the legs. I think it will be fine everywhere else, but Kenshi plays additional animations for the legs, limping, windface etc, any additional bone will not play when the other bones are changed.",
+          "literal": "Edit 4: September 19th 2024. Scrap the setup show in the image above. You MUST make the armature using human legs as backlegs and human arms as front legs. Keep the head and Bip01 bones where they are, but edit all the other bones. You can add new bones as a side, but do not add new bones in the middle of the chain of the legs. I think it will be fine everywhere else, but Kenshi plays additional animations for the legs, limping, windface etc, any additional bone will not play when the other bones are changed.",
+          "line": 42,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "But knowing what I know, I truly recommend making a small vehicle, below chest level. Edit Sept 2022: Or make the toter roughly human sized, see the image I added at the top (second one). At least try not to have anything going in front of the photobooth area( see that the head does not spill on 2-3).",
+          "literal": "But knowing what I know, I truly recommend making a small vehicle, below chest level. Edit Sept 2022: Or make the toter roughly human sized, see the image I added at the top (second one). At least try not to have anything going in front of the photobooth area( see that the head does not spill on 2-3).",
+          "line": 89,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "-   If you are using the vanilla ragdoll, the hands of the rider will flap. The game nicely prevents other body parts from flapping, but the hands were designed to sway while carried. The gravity physics of the hands is down (from head towards hands) and when the character is posed upwards on a toter, the ‘wind’ created by going forward plays against the ‘gravity’ and this is why the hands flail. Removing the ragdoll completely fixes this, but then the character stays up standing when KOed. EDIT: I have managed to make a custom ragdoll, it is available as a modder's resource on Steam Workshop. You should just gently guide your subbers to using it, so there will be only one copy of it per user.",
+          "literal": "-   If you are using the vanilla ragdoll, the hands of the rider will flap. The game nicely prevents other body parts from flapping, but the hands were designed to sway while carried. The gravity physics of the hands is down (from head towards hands) and when the character is posed upwards on a toter, the ‘wind’ created by going forward plays against the ‘gravity’ and this is why the hands flail. Removing the ragdoll completely fixes this, but then the character stays up standing when KOed. EDIT: I have managed to make a custom ragdoll, it is available as a modder's resource on Steam Workshop. You should just gently guide your subbers to using it, so there will be only one copy of it per user.",
+          "line": 116,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "-   Do not forget to export your custom skeleton with 'Apply Transform' selected. Otherwise, the mesh may rotate in the game engine. This appears to be false. Good practice anyways though.",
+          "literal": "-   Do not forget to export your custom skeleton with 'Apply Transform' selected. Otherwise, the mesh may rotate in the game engine. This appears to be false. Good practice anyways though.",
+          "line": 117,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "-   If Bip01 is not where the origo of the armature is (x and y), the character will not have a portrait. This is not true.",
+          "literal": "-   If Bip01 is not where the origo of the armature is (x and y), the character will not have a portrait. This is not true.",
+          "line": 120,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "2)    Click on the skeleton and go to edit mode",
+          "literal": "2)    Click on the skeleton and go to edit mode",
+          "line": 128,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "2) Click the skeleton and edit. Create a new bone the same way as mentioned in the previous section. This will be your assistant bone.",
+          "literal": "2) Click the skeleton and edit. Create a new bone the same way as mentioned in the previous section. This will be your assistant bone.",
+          "line": 155,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "10) Now redo all weights to suit your model best. It will have odd deformities in the area where the humanoid bones are, I have not tested, but it should work if you just unweight all the human spine bones etc. Head (photobooth) bones should be weighted to the toter's actual head in this scenario.",
+          "literal": "10) Now redo all weights to suit your model best. It will have odd deformities in the area where the humanoid bones are, I have not tested, but it should work if you just unweight all the human spine bones etc. Head (photobooth) bones should be weighted to the toter's actual head in this scenario.",
+          "line": 171,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "This however breaks the walking animations, this needs more testing. It has something to do with combat anatomy well they need to match the skeleton bones, so if I export the limb with human skeleton, it has the wrong anatomy ie. bone structure, if I export using the horse skeleton, the game crashes.",
+          "literal": "This however breaks the walking animations, this needs more testing. It has something to do with combat anatomy well they need to match the skeleton bones, so if I export the limb with human skeleton, it has the wrong anatomy ie. bone structure, if I export using the horse skeleton, the game crashes.",
+          "line": 197,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "EDIT: I solved the crashing issue too!! The crash happens if the robotic limb has foreign vertex groups. Make sure it only has vertex groups belonging to the vanilla bone chain.",
+          "literal": "EDIT: I solved the crashing issue too!! The crash happens if the robotic limb has foreign vertex groups. Make sure it only has vertex groups belonging to the vanilla bone chain.",
+          "line": 202,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "EDIT EDIT: confirmed; renamed vanilla bones are not an issue. Only vertex groups belonging to the extra bones that are not part of the original bone chain are.",
+          "literal": "EDIT EDIT: confirmed; renamed vanilla bones are not an issue. Only vertex groups belonging to the extra bones that are not part of the original bone chain are.",
+          "line": 204,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "creating-a-rideable-animal/vehicle",
+          "label": "Body and head masks determine which parts of the body can be colorized using the editor limits xml.",
+          "literal": "Body and head masks determine which parts of the body can be colorized using the editor limits xml.",
+          "line": 253,
+          "sourceFile": "src/content/wiki/creating-a-rideable-animal/vehicle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "Edit: 10th July 2023 I did manage to make a working ragdoll, but for an end user to be able to use it, they either have to move the rag from the Workshop folder to kenshi/data/ragdoll manually themselves, or both the mod maker and the end user need to use Re\\_Kenshi, as the game engine does not load ragdoll files from mod folders, at all.",
+          "literal": "Edit: 10th July 2023 I did manage to make a working ragdoll, but for an end user to be able to use it, they either have to move the rag from the Workshop folder to kenshi/data/ragdoll manually themselves, or both the mod maker and the end user need to use Re\\_Kenshi, as the game engine does not load ragdoll files from mod folders, at all.",
+          "line": 15,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "-   One can only edit and **successfully save a working phs**, if the skeleton and mesh, used creating the phs, resides in the same root folder you are opening the phs from. If you see a cube with red circles, that means you cannot save a working phs. Just copy and paste your skeleton to your root folder and reopen your rag.",
+          "literal": "-   One can only edit and **successfully save a working phs**, if the skeleton and mesh, used creating the phs, resides in the same root folder you are opening the phs from. If you see a cube with red circles, that means you cannot save a working phs. Just copy and paste your skeleton to your root folder and reopen your rag.",
+          "line": 24,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "7.  Only the ball and hinge seem to work in game, fixed does nothing to relief the forearms flapping. Kenshi borrows the working rag from the non-carry line (in race FCS file) if carry line does not have a link to a functional rag. To test. the new rag link needs to be on all four lines (female, male, carry, non carry).",
+          "literal": "7.  Only the ball and hinge seem to work in game, fixed does nothing to relief the forearms flapping. Kenshi borrows the working rag from the non-carry line (in race FCS file) if carry line does not have a link to a functional rag. To test. the new rag link needs to be on all four lines (female, male, carry, non carry).",
+          "line": 35,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "8.  Actor size DOES matter when calculating physics, however deattaching them in order to resize them using the numbers under wrench seems to break the ragdoll So just resize them using the resize tool. It seems you can unattach resize and reattach. What is important is to use the existing joints (select actor 1 or 2 respectively to reattach the joint). **Scrap that, it turns out all you need is the bone thickness to 4,5 and leave the actors untouched. Only one you need to touch is the Bip01, which you need to first reset rotation and then turn 90 degrees.**",
+          "literal": "8.  Actor size DOES matter when calculating physics, however deattaching them in order to resize them using the numbers under wrench seems to break the ragdoll So just resize them using the resize tool. It seems you can unattach resize and reattach. What is important is to use the existing joints (select actor 1 or 2 respectively to reattach the joint). **Scrap that, it turns out all you need is the bone thickness to 4,5 and leave the actors untouched. Only one you need to touch is the Bip01, which you need to first reset rotation and then turn 90 degrees.**",
+          "line": 36,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "10.  Test your rag using the hammer. If it falls apart, there is an unconnected link somewhere. If the actor stays stuck midair, it means there is an orphan joint at the end of an actor chain somewhere. You need to either connect it, if the chain should continue, or delete it if your chain has ended.",
+          "literal": "10.  Test your rag using the hammer. If it falls apart, there is an unconnected link somewhere. If the actor stays stuck midair, it means there is an orphan joint at the end of an actor chain somewhere. You need to either connect it, if the chain should continue, or delete it if your chain has ended.",
+          "line": 38,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "13.  When you have done all this, begins your editing journey. Play with joint limits and spring and damper, test in game. Rinse and repeat step 13. **Remember to always save with a different name**, Scythe does not save over old names. It says it does, but the result is a non-working rag. Always a new name, CUT AND PASTE to your mod's ragdoll folder. Cut, not copy. Do not forget to change the FCS race file's link with the new name.",
+          "literal": "13.  When you have done all this, begins your editing journey. Play with joint limits and spring and damper, test in game. Rinse and repeat step 13. **Remember to always save with a different name**, Scythe does not save over old names. It says it does, but the result is a non-working rag. Always a new name, CUT AND PASTE to your mod's ragdoll folder. Cut, not copy. Do not forget to change the FCS race file's link with the new name.",
+          "line": 41,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "# Journal of my Process",
+          "literal": "# Journal of my Process",
+          "line": 43,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "-   deleting the forearms actors works, no idea if this will result in a game crash, it most likely will affect the arm severing (further testing needed). Edit: luckily it does not, everything works as they should.",
+          "literal": "-   deleting the forearms actors works, no idea if this will result in a game crash, it most likely will affect the arm severing (further testing needed). Edit: luckily it does not, everything works as they should.",
+          "line": 51,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "I remade the entire ragdoll from scratch for the fifth time XD turns out I did too much edit previously. It is best to just keep the rag Scythe automatically generates from the skeleton. Just turn the bones to 4,5 thickness first, then delete all excess bones and joints and adjust all remaining joints to correct orientation and joint limits. Then I removed the forearm actors and joints.",
+          "literal": "I remade the entire ragdoll from scratch for the fifth time XD turns out I did too much edit previously. It is best to just keep the rag Scythe automatically generates from the skeleton. Just turn the bones to 4,5 thickness first, then delete all excess bones and joints and adjust all remaining joints to correct orientation and joint limits. Then I removed the forearm actors and joints.",
+          "line": 57,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "Edit: I have come to learn there is this third-party app called RE\\_Kenshi. It fixes this ragdoll not loading issue nicely. Only problem with that is it crashes the game upon first launch after the reboot of the computer. Hoping this issue gets fixed soon (edit: Nov 9 2022, this has been fixed in RE\\_Kenshi version 0.2.6 however it is not public as I am writing this yet) .",
+          "literal": "Edit: I have come to learn there is this third-party app called RE\\_Kenshi. It fixes this ragdoll not loading issue nicely. Only problem with that is it crashes the game upon first launch after the reboot of the computer. Hoping this issue gets fixed soon (edit: Nov 9 2022, this has been fixed in RE\\_Kenshi version 0.2.6 however it is not public as I am writing this yet) .",
+          "line": 63,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "making-custom-ragdoll",
+          "label": "I found out, that if you load the ragdoll to Scythe from another root than data/ragdoll, the skeleton's cube turns into with the red circle. That cannot be saved further. Only with white mesh and skeleton can. My current theory is this is because the skeleton I used resides in the ragdoll folder. -Confirmed, tested by pasting the skeleton and mesh to another folder along with the phs. Opening that from there works perfectly.",
+          "literal": "I found out, that if you load the ragdoll to Scythe from another root than data/ragdoll, the skeleton's cube turns into with the red circle. That cannot be saved further. Only with white mesh and skeleton can. My current theory is this is because the skeleton I used resides in the ragdoll folder. -Confirmed, tested by pasting the skeleton and mesh to another folder along with the phs. Opening that from there works perfectly.",
+          "line": 76,
+          "sourceFile": "src/content/wiki/making-custom-ragdoll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:modding-missing-media",
       "kind": "claim",
       "target": "/introduction-to-modding",
@@ -188433,6 +188689,127 @@
       ]
     },
     {
+      "id": "claim:modding-multiplayer-claims",
+      "kind": "claim",
+      "target": "/kenshi-unofficial-multiplayer-mod",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The imported multiplayer overview makes specific player-count, synchronization, installation and hosting claims without a pinned release or test record. Its linked project needs an independent comparison before endorsing those claims.",
+      "proposedResolution": "Compare the cited The404Studios/Kenshi-Online implementation, release notes and reproducible sessions; retain original wording and citation until editorial correction is supported.",
+      "uncertainty": "Project identity, feature coverage, server-provider claims and reception are not established by this conversion.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "kenshi-unofficial-multiplayer-mod",
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "fb19dc8667ebab0ca625e8235759e308d5ae3d50a1c1c6834daa3610ed964e0a",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/kenshi-unofficial-multiplayer-mod.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "The **Kenshi Unofficial Multiplayer Mod** is a community‑developed project that enables limited cooperative multiplayer functionality in _Kenshi_, the single‑player squad‑based sandbox RPG created by Lo‑Fi Games. While _Kenshi_ was designed and released as a strictly offline, single‑player experience, this mod attempts to synchronize core gameplay systems across multiple clients, allowing players to explore, build, and fight together within a shared world.",
+          "literal": "The **Kenshi Unofficial Multiplayer Mod** is a community‑developed project that enables limited cooperative multiplayer functionality in _Kenshi_, the single‑player squad‑based sandbox RPG created by Lo‑Fi Games. While _Kenshi_ was designed and released as a strictly offline, single‑player experience, this mod attempts to synchronize core gameplay systems across multiple clients, allowing players to explore, build, and fight together within a shared world.",
+          "line": 12,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "You can self-host this mod or rent from a [dedicated game server provider.](/kenshi-dedicated-server-providers)",
+          "literal": "You can self-host this mod or rent from a [dedicated game server provider.](/kenshi-dedicated-server-providers)",
+          "line": 17,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "The mod introduces a lightweight client–server architecture that allows one player to host a world while others connect as clients. It focuses on synchronizing essential gameplay elements such as character movement, combat states, inventory changes, and world events. Due to the complexity of _Kenshi_’s simulation engine, the mod does not provide full parity with single‑player behavior, but it enables a functional cooperative experience for small groups.",
+          "literal": "The mod introduces a lightweight client–server architecture that allows one player to host a world while others connect as clients. It focuses on synchronizing essential gameplay elements such as character movement, combat states, inventory changes, and world events. Due to the complexity of _Kenshi_’s simulation engine, the mod does not provide full parity with single‑player behavior, but it enables a functional cooperative experience for small groups.",
+          "line": 21,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "-   Support for 2–6 players depending on system performance",
+          "literal": "-   Support for 2–6 players depending on system performance",
+          "line": 30,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "### Character & Squad Synchronization",
+          "literal": "### Character & Squad Synchronization",
+          "line": 33,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "### Combat Synchronization",
+          "literal": "### Combat Synchronization",
+          "line": 39,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "-   Construction progress synchronized across clients",
+          "literal": "-   Construction progress synchronized across clients",
+          "line": 48,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "The developers of the mod recommend small group play and avoiding extremely large squads to maintain stability.",
+          "literal": "The developers of the mod recommend small group play and avoiding extremely large squads to maintain stability.",
+          "line": 68,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "The mod is typically distributed through Nexus Mods or GitHub. Installation generally involves:",
+          "literal": "The mod is typically distributed through Nexus Mods or GitHub. Installation generally involves:",
+          "line": 72,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "Some versions include a dedicated server tool, while others rely on the host running both the game and the server instance simultaneously.",
+          "literal": "Some versions include a dedicated server tool, while others rely on the host running both the game and the server instance simultaneously.",
+          "line": 80,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "-   Improving synchronization stability",
+          "literal": "-   Improving synchronization stability",
+          "line": 86,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "kenshi-unofficial-multiplayer-mod",
+          "label": "The mod has been praised for making cooperative Kenshi gameplay possible for the first time, especially for exploration‑focused groups. Players enjoy the ability to:",
+          "literal": "The mod has been praised for making cooperative Kenshi gameplay possible for the first time, especially for exploration‑focused groups. Players enjoy the ability to:",
+          "line": 95,
+          "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:modding-project-status",
       "kind": "claim",
       "target": "/modding/meitou",
@@ -188651,6 +189028,47 @@
           "literal": "Because the mod relies on memory hooks and engine‑level workarounds, updates to _Kenshi_ may temporarily break compatibility until the mod is patched.",
           "line": 91,
           "sourceFile": "src/content/wiki/kenshi-unofficial-multiplayer-mod.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:modding-quaternion-explanation",
+      "kind": "claim",
+      "target": "/user-node-rotations-quarternions",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The quaternion explanation uses an informal axes/planes analogy and depends on omitted charts. Preserve all 64 numeric blocks while flagging the mathematical explanation and context.",
+      "proposedResolution": "Restore the credited companion diagrams and check the coordinate convention with a reproducible asset before rewriting.",
+      "uncertainty": "The copied numeric examples are not verified rotations.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "user-node-rotations-quarternions",
+          "sourceFile": "src/content/wiki/user-node-rotations-quarternions.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "650186f93e9afac544c3aeecae31c3cc7f8d37d4accbe12acfc33b0ad049649d",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/user-node-rotations-quarternions.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "user-node-rotations-quarternions",
+          "label": "Quarternions are notoriously difficult to set up, because instead of more logical XYZ axis and euler rotations we all are used to, quartenions use four rotation axes in X formation against each other. And there are six (actually infinite but this is easier to understand) faces rotations can go: think of a D6, the six is on top, one down etc. (see image). Kenshi is on plane 6, so we only need to use rotations relevant to plane 6. But there are corresponding rotation sets for each plane, and if you are making ceiling lamps you might need plane 1 orientations. Funnily enough if you make a new user node in FCS, the default rotation (0,1,0,0) is upside down (plane 1).",
+          "literal": "Quarternions are notoriously difficult to set up, because instead of more logical XYZ axis and euler rotations we all are used to, quartenions use four rotation axes in X formation against each other. And there are six (actually infinite but this is easier to understand) faces rotations can go: think of a D6, the six is on top, one down etc. (see image). Kenshi is on plane 6, so we only need to use rotations relevant to plane 6. But there are corresponding rotation sets for each plane, and if you are making ceiling lamps you might need plane 1 orientations. Funnily enough if you make a new user node in FCS, the default rotation (0,1,0,0) is upside down (plane 1).",
+          "line": 14,
+          "sourceFile": "src/content/wiki/user-node-rotations-quarternions.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "user-node-rotations-quarternions",
+          "label": "For everyone's sanity's sake this guide only focuses on plane 6 orientations.",
+          "literal": "For everyone's sanity's sake this guide only focuses on plane 6 orientations.",
+          "line": 16,
+          "sourceFile": "src/content/wiki/user-node-rotations-quarternions.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]

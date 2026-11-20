@@ -22,5 +22,24 @@
       "/category/furniture",
       "/category/model-making"
     ]
+  },
+  {
+    "name": "modding-pr43",
+    "resolved": [
+      "/creating-a-rideable-animal/vehicle",
+      "/making-animations-basics",
+      "/making-custom-ragdoll",
+      "/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading"
+    ],
+    "introduced": [
+      "/category/animation",
+      "/category/armature",
+      "/category/custom-character",
+      "/category/custom-race",
+      "/category/icons",
+      "/category/portrait",
+      "/category/skythe",
+      "/category/stumps"
+    ]
   }
 ]
