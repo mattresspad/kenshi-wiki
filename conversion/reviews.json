@@ -5742,6 +5742,18 @@
     "weather-effects": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/gameplay/review.json"
+    },
+    "prayer-day": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "tax-collector": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
+    },
+    "bandit-demands": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/events/review.json"
     }
   },
   "mediaGaps": [

@@ -1,5 +1,79 @@
 {
   "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-  "articles": [],
-  "editorialChanges": []
+  "articles": [
+    {
+      "id": "prayer-day",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Prayer Day is an Event which occurs when the player outpost is within 2,000 meters of a Holy Nation location, and not within a no-go zone. Its initiating event will have up to a 50% chance each day of triggering, if you are based 1,500 meters or closer to a Holy Nation owned location. The chance will scale down with distance, reaching 0% chance at 2,000 meters or more. It consists of a squad of 5 High Paladins and 4 Holy Servants led by a Holy Priest, the last of which will require an audience to pray with you. The conditions for fulfilling the prayer day are the following: Have at least 1 male in the squad. Have The Holy Flame in inventory. Interact with the Priest as a Human. In case of lacking The Holy Flame, the priest will provide a copy the very first time for free. This limit is per game, not character. If the player fails the condition, a Holy Nation Assault (Minor) will be later launched aimed at evicting the player from their lands. Interacting as a non-human counts as an insult, it will be launched in 10 ~ 20 hours. If the player attacks the priest, it will be launched in 12 ~ 24 hours. If all characters are female, it will be launched in 12 ~ 36 hours (this specific variant can be pacified by recruiting a male character). If ignored for way too long, or the interaction goes poorly, it will be launched is 36 ~ 48 hours. As soon as the Prayer Day is done another one should appear on the “Events” page and will launch in 100 to 160 hours. This event will stop happening if any of the following is true: An enemy of the Holy Nation, Allied with either the Flotsam Ninjas or the Shek Kingdom Phoenix has been killed or imprisoned. Arguably, out of all of the major factions, the Prayer Day is the least damaging of “Tax” Events to a player, as the Holy Nation only takes to show a token of loyalty and a little bit of player’s time. The Shek Kingdom and the United Cities hurt the player in much more substantial ways. Like most tax Events, if the campaign is defeated by a third-party faction like bandits or wild animals on the way to the player’s outpost, it will prevent any future tax visits from the faction until the player’s next import. This is due to the long repeat limit timer, and the fact that it doesn’t consider being defeated by a third party as the player killing them. This can be exploited by purposefully luring hostiles to the event’s forces while they en route to the player’s base. Prayer Oh Okran, Lord of Light… Let thine flame burneth bright… With this blessed body most pure… Let us not be tempted by the Shadow’s lure Let us not yearn for fleshly pleasure… But yearn only for love from the Creator… Let us honour our sacred brothers… Let us abstain from intoxications… For darkness preys on the idle mind… Let us pray for the wellbeing of all mankind. In faith. Trivia Due to the fact that the dialogue check doesn’t actually account whether the male character inside the squad is a human or not, one could potentially fulfill the condition of prayer day even if all their male squad members are Sheks, Hivers, or even Skeletons.",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/prayer-day.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d46eb0fb67c84153f24ebcadd9aecdef31c027f8544e60dc3d674abb73880b45"
+      },
+      "questions": [
+        "claim:events-chance-and-distance",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "tax-collector",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: It's that time of the week again, my favourite day... tax day. Don't keep me waiting now...Samurai Sergeant The Tax Collector is an Event sent by United Cities to collect taxes from players that have agreed to pay taxes in the Tax Man Visit or Tax Collector events, or as a result of losing the Tax Evasion Enforcement event. It cannot trigger if the player is an ally of the Anti-Slavers or United Cities, an enemy of the United Cities, or if Emperor Tengu is killed or captured. Once triggered, the United Cities will send a campaign to the player’s base. This campaign will consist of 1 squad, made up of 3-6 Samurai and led by a Samurai Sergeant. Once the campaign arrives, the sergeant will begin shouting at the player to come speak with them, failing to do so will result in a Tax Evasion Enforcement event being triggered in 48-72 hours if this event originally triggered from you agreeing to pay taxes, or 24-60 hours if this event was a response to failing a previous Tax Evasion Enforcement event. When speaking to the sergeant, they will insult your outpost if it is less than level 2 (Watchtower icon), then demand you pay c.3,000, with a chance to increase the taxes to c.4,500 if Tinfist is still alive and free. Or, if this event was triggered in response to failing a Tax Evasion Enforcement event, you will be demanded to pay c.6,000 thanks to a ‘late payment’ and ‘administration fees’. Agreeing to pay the taxes will result in 140-160 hours, while refusal will result in a Tax Evasion Enforcement event in 60-72 hours. Like most tax Events, if the campaign is defeated by a third-party faction like bandits or wild animals on the way to the player’s outpost, it will prevent any future tax visits from the faction until the player’s next import. This is due to the long repeat limit timer, and the fact that it doesn’t consider being defeated by a third party as the player killing them. This can be exploited by purposefully luring hostiles to the event’s forces while they en route to the player’s base.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/tax-collector.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "23d3ed8338b1a03eef787a9a6a3641d588626081f383b9dd2b3397cdf546dde0"
+      },
+      "questions": [
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-tax-incomplete",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    },
+    {
+      "id": "bandit-demands",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/events/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Right then pansies, here's your options... Pay us 2,000 of your coins every 2 days. Then we become best friends, and no Dust Bandits will attack you. Like best friends do. Or, don't pay us anything, I go tell the boss that you don't want to be friends, and then we loot the shit out of your little outpost here.Dust Boss Bandit Demands is an event sent by the Dust Bandits to extort money from players who settle near their territory. It can trigger as long as the player has a base within 4,500 meters of one of their locations or camps, and the Dust King is not dead (unlike many World States this means actually dead, not just imprisoned). It will have a 20% chance each day to trigger if the player’s base is within 2,000 meters of a location or camp owned by the Dust Bandits, this chance will scale down with distance until it hits 0% chance at 4,500 meters away. Once triggered, the Dust Bandits will send a campaign to the player’s base. This campaign will consist of one or two squads, each made up of 6-10 Dust Bandits, 1-4 Dust Bandit Bowmen, and led by a Dust Boss. When the campaign arrives the War Leader will begin shouting at the player to come speak with them. If spoken to, the Bandits will demand that the player pay c.2,000 to avoid being attacked. If the player agrees to pay, another Bandit Demands event will be triggered in 42-56 hours. If the player ignores them or refuses to pay, the campaign will assault the player’s outpost, breaking gates and attacking any player characters they come across. If the assault is defeated, another Bandit Demands event has a 50% chance to trigger in 50-80 hours. If the assault defeats the player, a new Bandit Demands event will be triggered in 40-50 hours. In the dialog with the War Leader, the player also has an option to stab the War Leader. If this is done, the campaign will immediately retreat, and a Bandit Rage event will trigger in 20-50 hours. Unlike most tax events, this event cannot be avoided by having the forces killed by a third party, as this event has a short repeat limit cooldown. Even if slain by a third party, it will simply come again later.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bandit-demands.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "8771d96d7eb8868998f26cf8062ea449e8df05c5066e76ca2d804b59f899521c"
+      },
+      "questions": [
+        "claim:events-chance-and-distance",
+        "claim:events-payments-dialogue",
+        "claim:events-reinforcements",
+        "claim:events-repeat-and-followups",
+        "claim:events-third-party-import",
+        "claim:events-world-state-gates"
+      ]
+    }
+  ],
+  "editorialChanges": [
+    {
+      "id": "event-bold-facts",
+      "change": "Preserve explicitly bold event names, linked names and separate follow-up lines; no trigger reinterpretation.",
+      "evidence": "src/components/FactParts.astro"
+    },
+    {
+      "id": "event-stock-layout",
+      "change": "Remove only rule-only rows; retain every meaningful stock cell and group in source order with semantic headers and independent scrolling.",
+      "evidence": "src/lib/event-tables.mjs"
+    },
+    {
+      "id": "tribute-discussion-link",
+      "change": "Restore malformed SCIENCE image as a text link to the identical Steam discussion URL, preserving frozen evidence.",
+      "evidence": "src/lib/event-tables.mjs"
+    }
+  ]
 }

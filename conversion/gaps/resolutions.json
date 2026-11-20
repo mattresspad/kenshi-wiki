@@ -1168,6 +1168,17 @@
       }
     },
     {
+      "id": "availability:/bandit-demands",
+      "kind": "availability",
+      "target": "/bandit-demands",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bandit-demands"
+      }
+    },
+    {
       "id": "availability:/bank",
       "kind": "availability",
       "target": "/bank",
@@ -3068,6 +3079,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/category/crossbows"
+      }
+    },
+    {
+      "id": "availability:/category/events",
+      "kind": "availability",
+      "target": "/category/events",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/events"
       }
     },
     {
@@ -13598,6 +13620,17 @@
       }
     },
     {
+      "id": "availability:/prayer-day",
+      "kind": "availability",
+      "target": "/prayer-day",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/prayer-day"
+      }
+    },
+    {
       "id": "availability:/preacher-cult",
       "kind": "availability",
       "target": "/preacher-cult",
@@ -18864,6 +18897,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/tagelmust"
+      }
+    },
+    {
+      "id": "availability:/tax-collector",
+      "kind": "availability",
+      "target": "/tax-collector",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/events/acceptances.json#event-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/tax-collector"
       }
     },
     {

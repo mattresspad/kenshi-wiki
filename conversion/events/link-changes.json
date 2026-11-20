@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "event-pilots",
+    "resolved": [
+      "/bandit-demands",
+      "/category/events",
+      "/prayer-day",
+      "/tax-collector"
+    ],
+    "introduced": [
+      "/anti-slaver-reinforcements",
+      "/bandit-rage",
+      "/cannibal-raid",
+      "/cannibal-swarm",
+      "/caravan-visit",
+      "/coast-raid",
+      "/flotsam-ninja-reinforcements",
+      "/hound-reinforcements",
+      "/rebel-farmers-reinforcements",
+      "/scrawny-raid",
+      "/shek-challenge",
+      "/shek-challengers-band-of-bones",
+      "/shek-kingdom-reinforcements",
+      "/slave-capture",
+      "/the-fog",
+      "/traders-guild-route",
+      "/united-cities-route"
+    ]
+  }
+]
