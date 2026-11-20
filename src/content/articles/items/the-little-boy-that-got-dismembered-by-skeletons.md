@@ -26,7 +26,7 @@ factGroups:
 factImage:
   src: /icons/items/48298-Dialogue.mod.png
   alt: The Little Boy That Got Dismembered By Skeletons
-factCaption: "\"The number one, best selling children's book of today! \r
+recordedItemText: "\"The number one, best selling children's book of today! \r
 
   \r
 

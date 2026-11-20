@@ -26,7 +26,7 @@ factGroups:
 factImage:
   src: /icons/items/49050-Dialogue.mod.png
   alt: Birth Of The Phoenix
-factCaption: |-
+recordedItemText: |-
   A new edition of the Holy Lord Phoenix IV's verses on he himself: 
 
   "When the darkness befell mankind, our Benefactor sent us a guide; 

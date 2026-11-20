@@ -27,6 +27,8 @@ import gameplayRoster from '../../conversion/gameplay/roster.json' with {type:'j
 import gameplayCheckpoint from '../../conversion/gameplay/checkpoint.json' with {type:'json'};
 import eventRoster from '../../conversion/events/roster.json' with {type:'json'};
 import eventCheckpoint from '../../conversion/events/checkpoint.json' with {type:'json'};
+import loreRoster from '../../conversion/lore/roster.json' with {type:'json'};
+import loreCheckpoint from '../../conversion/lore/checkpoint.json' with {type:'json'};
 export const families = {
   geography: {roster:geographyRoster, checkpoint:geographyCheckpoint},
   factions: {roster:factionRoster, checkpoint:factionCheckpoint},
@@ -39,7 +41,8 @@ export const families = {
   technology:{roster:technologyRoster,checkpoint:technologyCheckpoint},
   shops:{roster:shopRoster,checkpoint:shopCheckpoint},
   gameplay:{roster:gameplayRoster,checkpoint:gameplayCheckpoint},
-  events:{roster:eventRoster,checkpoint:eventCheckpoint}
+  events:{roster:eventRoster,checkpoint:eventCheckpoint},
+  lore:{roster:loreRoster,checkpoint:loreCheckpoint}
 };
 export function selectedIds(family) {
   const {roster, checkpoint} = families[family];

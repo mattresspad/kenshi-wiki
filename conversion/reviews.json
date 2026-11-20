@@ -6054,6 +6054,10 @@
     "wrath-of-god": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/events/review.json"
+    },
+    "broken-cities": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/lore/review.json"
     }
   },
   "mediaGaps": [

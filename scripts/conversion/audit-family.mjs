@@ -1,7 +1,7 @@
 import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import assert from 'node:assert/strict';import {createHash} from 'node:crypto';import {load} from 'cheerio';
 import {snapshot} from '../../src/lib/catalog.mjs';
-const family=process.argv[2];assert.ok(['crafting','technology','shops','gameplay','events'].includes(family));
+const family=process.argv[2];assert.ok(['crafting','technology','shops','gameplay','events','lore'].includes(family));
 const roster=JSON.parse(readFileSync('conversion/'+family+'/roster.json')),baseline=JSON.parse(readFileSync('conversion/gaps/source.json'));
 const sources=new Map(baseline.pages.map(p=>[p.id,p])),records=new Map(snapshot.articles.map(a=>[a.id,a]));
 const batch=process.argv[3]==='reused-reviews'?{name:'reused-reviews',ids:roster.reviewExisting??[]}:roster.batches.find(b=>b.name===process.argv[3]);assert.ok(batch,'Specify a frozen batch');

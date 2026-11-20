@@ -17,7 +17,7 @@ const {entry,article}=Astro.props;
 const {href}=await readWiki();
 const data=entry.data;
 const {intro,body,outline,buildingPanel}=prepareArticle(entry.rendered?.html,data,href);
-const importedGeography = ['geography','faction','race','animal','character','item','building','crafting','technology','shop','gameplay','event'].includes(data.layout);
+const importedGeography = ['geography','faction','race','animal','character','item','building','crafting','technology','shop','gameplay','event','lore'].includes(data.layout);
 if (importedGeography) outline.push({id:'source-history', label:'Sources and history', children:[]});
 const categories=displayCategories(data.categories);
 const source=recordedSource(article.sourceFile, article.sourceRevision, snapshot.revision);
@@ -25,13 +25,13 @@ const history=source.history;
 const correction=correctionLink(origin+article.path);
 ---
 <Frame kind="article" publicPath={article.path} title={data.title} description={data.description} {categories} {outline} {href} editableFile={article.filePath} {history}>
-  <div id="content" class:list={['article-sheet',data.layout,{'with-facts':data.facts || data.factGroups || buildingPanel, imported:importedGeography}]}><article id="bodyContent" data-article-id={article.id} aria-labelledby="firstHeading">
+  <div id="content" class:list={['article-sheet',data.layout,{'with-recorded-text':!!data.recordedItemText,'with-facts':data.facts || data.factGroups || buildingPanel, imported:importedGeography}]}><article lang={data.contentLanguage} id="bodyContent" data-article-id={article.id} aria-labelledby="firstHeading">
     <div class="opening">
       <header class="article-head"><h1 id="firstHeading" tabindex="-1">{data.title}</h1></header>
       <div class="opening-copy">
         {data.versions && <div class="tested-versions"><span>Tested with</span>{data.versions.map(([label,url])=><a href={url}>{label}</a>)}</div>}
         <div class="lead-text" set:html={intro}/>
-        <nav class="article-actions" aria-label="Article sources and corrections"><a href="#source-history">Sources and history</a><a href={correction}>Suggest a correction</a>
+        <nav lang="en" class="article-actions" aria-label="Article sources and corrections"><a href="#source-history">Sources and history</a><a href={correction}>Suggest a correction</a>
         {data.layout==='recipe' && <a href="#turn-save-and-reload">Jump to the player test</a>}</nav>
       </div>
       {data.layout==='building' && (buildingPanel || data.factGroups) && <div class="building-facts-stack">
@@ -44,10 +44,11 @@ const correction=correctionLink(origin+article.path);
         {data.recordId && <><h3>Technical info</h3><dl><dt>Town ID</dt><dd><code>{data.recordId}</code></dd></dl></>}
       </aside>}
     </div>
+    {data.recordedItemText && <figure class="recorded-item-text" aria-labelledby="recorded-item-label"><figcaption id="recorded-item-label">Recorded item text</figcaption><blockquote class="recorded-item-content">{data.recordedItemText}</blockquote></figure>}
     <div id="mw-content-text" class="article-body" set:html={body}/>
     {importedGeography && <ImportedHistory {article}/>}
-    <div class="source-links"><a href={source.markdown}>Recorded Markdown</a><a href={history}>Article revision history</a><a href={correction}>Suggest a correction to this article</a></div>
-    <nav id="catlinks" class="end-categories" aria-label="Page categories"><span id="mw-normal-catlinks">{categories.length ? (categories.length===1?'Category':'Categories') : ''}</span>
+    <div lang="en" class="source-links"><a href={source.markdown}>Recorded Markdown</a><a href={history}>Article revision history</a><a href={correction}>Suggest a correction to this article</a></div>
+    <nav lang="en" id="catlinks" class="end-categories" aria-label="Page categories"><span id="mw-normal-catlinks">{categories.length ? (categories.length===1?'Category':'Categories') : ''}</span>
       {categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</nav>
   </article></div>
   <script>import '../scripts/sort-table.js';</script>

@@ -8,12 +8,12 @@ const articles = defineCollection({
   loader: glob({ base: './src/content/articles', pattern: '**/*.md', generateId: ({entry}) => entry }),
   schema: z.object({
     articleId: z.string().min(1), title: z.string(), description: z.string(), categories: z.array(z.string()),
-    layout: z.enum(['town', 'recipe', 'reference', 'geography', 'faction', 'race', 'animal', 'character', 'item', 'building', 'crafting', 'technology', 'shop', 'gameplay', 'event']),
+    layout: z.enum(['town', 'recipe', 'reference', 'geography', 'faction', 'race', 'animal', 'character', 'item', 'building', 'crafting', 'technology', 'shop', 'gameplay', 'event', 'lore']),
     bookmarks: z.record(z.string(), z.string()).default({}), headingIds: z.record(z.string(), z.string()).default({}),
     facts: z.array(z.tuple([z.string(), factPart]).rest(factPart)).optional(), recordId: z.string().optional(),
-    factTitle: z.string().optional(), factImage:z.object({src:z.string(),alt:z.string()}).optional(), factCaption:z.string().optional(),
+    factTitle: z.string().optional(), factImage:z.object({src:z.string(),alt:z.string()}).optional(), factCaption:z.string().optional(), recordedItemText:z.string().optional(), contentLanguage:z.enum(['en','tr']).default('en'),
     factGroups: z.array(z.object({heading:z.string().nullable(), rows:z.array(z.tuple([z.string(), factPart]).rest(factPart))})).optional(),
     versions: z.array(z.tuple([z.string(), z.string()])).optional()
-  })
+  }).refine(data=>!(data.recordedItemText && data.factCaption),{message:'Recorded item text must replace, not duplicate, the fact caption.'})
 });
 export const collections = { articles };

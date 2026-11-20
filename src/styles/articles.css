@@ -270,13 +270,13 @@
 
 /* Keep item text and its first sections beside long facts panels. */
 @media(min-width:761px){
- :is(.item,.building,.technology,.shop,.event).with-facts > article{display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);gap:0 18px;align-items:start}
- :is(.item,.building,.technology,.shop,.event).with-facts .opening{display:contents}
- :is(.item,.building,.technology,.shop,.event).with-facts .article-head{grid-column:1;grid-row:1}
- :is(.item,.building,.technology,.shop,.event).with-facts .opening-copy{grid-column:1;grid-row:2}
- :is(.item,.building,.technology,.shop,.event).with-facts :is(.factbox,.building-facts,.building-facts-stack){grid-column:2;grid-row:1 / 4}
- :is(.item,.building,.technology,.shop,.event).with-facts .article-body{grid-column:1;grid-row:3;min-width:0}
- :is(.item,.building,.technology,.shop,.event).with-facts > article > :not(.opening):not(.article-body){grid-column:1 / -1}
+ :is(.item,.building,.technology,.shop,.event,.lore).with-facts > article{display:grid;grid-template-columns:minmax(0,1fr) clamp(255px,19vw,302px);gap:0 18px;align-items:start}
+ :is(.item,.building,.technology,.shop,.event,.lore).with-facts .opening{display:contents}
+ :is(.item,.building,.technology,.shop,.event,.lore).with-facts .article-head{grid-column:1;grid-row:1}
+ :is(.item,.building,.technology,.shop,.event,.lore).with-facts .opening-copy{grid-column:1;grid-row:2}
+ :is(.item,.building,.technology,.shop,.event,.lore).with-facts :is(.factbox,.building-facts,.building-facts-stack){grid-column:2;grid-row:1 / 4}
+ :is(.item,.building,.technology,.shop,.event,.lore).with-facts .article-body{grid-column:1;grid-row:3;min-width:0}
+ :is(.item,.building,.technology,.shop,.event,.lore).with-facts > article > :not(.opening):not(.article-body){grid-column:1 / -1}
 }
 
 /* Building summaries retain their source data; their wrappers are independently authored. */
@@ -342,3 +342,16 @@
 .event .shop-stock th[scope=row]{font-weight:400}
 .event .shop-stock tbody tr:has(th[scope=col]){border-top:2px solid var(--edge)}
 @media print{.event .table-scroll .shop-stock{min-width:0;font-size:9pt}}
+
+/* Recorded book passages remain literal source text, separate from compact item properties. */
+.article-sheet .recorded-item-text {max-width:79ch;min-width:0;margin:10px 0 18px;padding:12px 16px;border:1px solid var(--edge);border-inline-start:3px solid var(--brass);background:var(--cell)}
+.recorded-item-text figcaption {margin:0 0 8px;font-weight:650;color:var(--ink)}
+.recorded-item-content {margin:0;white-space:pre-wrap;overflow-wrap:anywhere}
+.lore figure.quote figcaption a {display:inline}
+.lore .table-scroll table {min-width:0;width:auto;max-width:79ch}
+.lore .table-scroll caption {text-align:center}
+@media(min-width:761px){
+ .with-recorded-text.with-facts > article > .recorded-item-text {grid-column:1;grid-row:3}
+ .with-recorded-text.with-facts .article-body {grid-column:1;grid-row:4}
+ .with-recorded-text.with-facts .factbox {grid-row:1 / 5}
+}

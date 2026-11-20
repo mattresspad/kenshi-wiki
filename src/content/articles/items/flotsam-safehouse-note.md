@@ -26,7 +26,7 @@ factGroups:
 factImage:
   src: /icons/items/49381-rebirth.mod.png
   alt: Flotsam Safehouse Note
-factCaption: "If you are reading this there is a good chance you just escaped from Rebirth and are half-dead.  This safehouse is for you to use to rest and recover, you should hopefully find here some food, tools to remove your shackles, beds, and some basic clothing.  Good Luck.\r
+recordedItemText: "If you are reading this there is a good chance you just escaped from Rebirth and are half-dead.  This safehouse is for you to use to rest and recover, you should hopefully find here some food, tools to remove your shackles, beds, and some basic clothing.  Good Luck.\r
 
   \r
 

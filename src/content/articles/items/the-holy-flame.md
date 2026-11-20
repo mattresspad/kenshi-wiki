@@ -26,7 +26,7 @@ factGroups:
 factImage:
   src: /icons/items/42322-changes_otto.mod.png
   alt: The Holy Flame
-factCaption: The religious book of the Holy Nation, every citizen has to have one by law.
+recordedItemText: The religious book of the Holy Nation, every citizen has to have one by law.
 ---
 
 **The Holy Flame** is an [item](/items) that can be found everywhere in [The Holy Nation](/the-holy-nation).

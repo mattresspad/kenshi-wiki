@@ -30,7 +30,7 @@ export function prepareArticle(html, data, href) {
   if (data.layout === 'animal') normalizeAnimalTables($);
   if (data.layout === 'item') normalizeItemTables($);
   if (data.layout === 'character') normalizeCharacterTables($);
-  const imported = ['geography','faction','race','animal','character','item','building','crafting','technology','shop','gameplay','event'].includes(data.layout);
+  const imported = ['geography','faction','race','animal','character','item','building','crafting','technology','shop','gameplay','event','lore'].includes(data.layout);
   const outline = [];
   const parents = [];
   for (const heading of $('h2,h3,h4,h5,h6').toArray()) {
@@ -94,7 +94,7 @@ export function prepareArticle(html, data, href) {
     if (el.tagName !== 'p' && !openingTip && !openingFeature) break;
     intro.push($.html(el));
     $(el).remove();
-    if(data.layout==='event' && el.tagName==='p')break;
+    if((data.layout==='event'||data.recordedItemText) && el.tagName==='p')break;
   }
   return {buildingPanel,intro:intro.join('\n'), body:$.root().html(), outline};
 }

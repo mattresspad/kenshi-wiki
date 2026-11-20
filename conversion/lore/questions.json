@@ -1,0 +1,87 @@
+[
+  [
+    "lore-availability",
+    null,
+    "unique|stock|found|purchase|sold|vendor|library",
+    "Book locations, unique labels and shop availability need versioned inventory and spawn evidence.",
+    "Preserve the imported wording and attribution. Seek exact source text, versioned records or reproducible observations before proposing a correction.",
+    "Narrative assertions, editorial interpretation and observed gameplay are separate forms of evidence."
+  ],
+  [
+    "lore-item-properties",
+    null,
+    "Weight|Base value|Size in inventory|String id",
+    "Imported item values, prices and identifiers are retained; exported values require provenance and semantic qualification before correction.",
+    "Preserve the imported wording and attribution. Seek exact source text, versioned records or reproducible observations before proposing a correction.",
+    "Narrative assertions, editorial interpretation and observed gameplay are separate forms of evidence."
+  ],
+  [
+    "lore-narrator-reliability",
+    null,
+    "caption:|theor|believ|rumour|rumor|legend|speculat|unknown",
+    "In-world narrators and historians make qualified assertions. Book prose is not independent confirmation of the history it describes.",
+    "Preserve the imported wording and attribution. Seek exact source text, versioned records or reproducible observations before proposing a correction.",
+    "Narrative assertions, editorial interpretation and observed gameplay are separate forms of evidence."
+  ],
+  [
+    "lore-timeline",
+    [
+      "history-of-kenshi",
+      "history-of-kenshi/tr"
+    ],
+    "5000|1000|937|speculat|spekülatif",
+    "The chronology retains contradictory-looking dates and a speculation disclaimer; do not silently resolve empire dates or narrator claims.",
+    "Preserve the imported wording and attribution. Seek exact source text, versioned records or reproducible observations before proposing a correction.",
+    "Narrative assertions, editorial interpretation and observed gameplay are separate forms of evidence."
+  ],
+  [
+    "lore-turkish-citations",
+    [
+      "history-of-kenshi/tr"
+    ],
+    "CPU|ima edilmektedir|göstermektedir|Phoenix",
+    "The Turkish import contains flattened quotation/citation joins. Preserve its language and wording; compare the credited source before restructuring or translating.",
+    "Preserve the imported wording and attribution. Seek exact source text, versioned records or reproducible observations before proposing a correction.",
+    "Narrative assertions, editorial interpretation and observed gameplay are separate forms of evidence."
+  ],
+  [
+    "lore-summary-not-transcription",
+    [
+      "ludins-reports"
+    ],
+    "Report|revision 90111|open questions",
+    "Prd’s original report summaries are distinct from the linked historical transcription; availability does not fill omitted book text.",
+    "Preserve the imported wording and attribution. Seek exact source text, versioned records or reproducible observations before proposing a correction.",
+    "Narrative assertions, editorial interpretation and observed gameplay are separate forms of evidence."
+  ],
+  [
+    "lore-book-coverage",
+    [
+      "lore-books"
+    ],
+    "Series|Moll|Reports|Letter",
+    "The directory links to omitted books and series. Keep all destinations and their evidence; no inferred replacement text or silent route retirement.",
+    "Preserve the imported wording and attribution. Seek exact source text, versioned records or reproducible observations before proposing a correction.",
+    "Narrative assertions, editorial interpretation and observed gameplay are separate forms of evidence."
+  ],
+  [
+    "lore-posters",
+    [
+      "wanted-posters"
+    ],
+    "REWARD|WANTED|update|unknown",
+    "Wanted notices describe claims made by in-world authorities; preserve wording, amounts and qualifications without treating them as independently verified events.",
+    "Preserve the imported wording and attribution. Seek exact source text, versioned records or reproducible observations before proposing a correction.",
+    "Narrative assertions, editorial interpretation and observed gameplay are separate forms of evidence."
+  ],
+  [
+    "lore-broken-cities",
+    [
+      "broken-cities"
+    ],
+    "ruins|city|cities|drowned|destroy|ancient",
+    "Historical identification and destruction claims remain qualified; media and narrative sourcing need separate investigation.",
+    "Preserve the imported wording and attribution. Seek exact source text, versioned records or reproducible observations before proposing a correction.",
+    "Narrative assertions, editorial interpretation and observed gameplay are separate forms of evidence."
+  ]
+]

@@ -8,6 +8,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   const {roster}=families[family];
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
   const extra={
+    'lore-pilots':batch.ids,'lore-structures':batch.ids,
     'event-pilots':batch.ids,'event-structures':batch.ids,'event-trade-stock':batch.ids,'event-overview-and-routes':['events','world-state-routes','flotsam-ninjas-route','united-cities-route'],
     'gameplay-pilots':['gameplay',...batch.ids], 'technical-structures':batch.ids, 'player-walkthroughs':['guides',...batch.ids], 'complex-comparisons':batch.ids, 'skill-siblings':['swimming','stronger-opponent-logic'], 'mechanics-and-guides-1':['guide-to-equipment','combat-speed'],
     'shop-pilots':batch.ids,'shop-structures':batch.ids,'historical-vendors':batch.ids,'vendor-tutorials':batch.ids,'trading-directories':batch.ids,
@@ -56,6 +57,7 @@ export async function captureBatch(base, batch, output, family='geography') {
           if(family==='shops'&&batch.name===roster.batches.at(-1).name)samples.push('category/town-residents','category/traders','category/vendors','adventurer-bar','armour-kings-shop#vendor-list','bakery','holy-nation-bar','hiver-merchant-caravan','traders#trading-with-an-unconscious-squad-member','how-vendor-lists-work-and-how-to-set-one-up-a-modding-guide');
   if(family==='gameplay'&&batch.name===roster.batches.at(-1).name)samples.push('gameplay','guides','statistics','strength','jobs','science','wheatstraw-60-or-cactus-100','npc-shopping-behavior','guide-to-training-statistics','category/statistics','category/guides');
   if(family==='events'&&batch.name===roster.batches.at(-1).name)samples.push('category/events','events','prayer-day','tax-collector','bandit-demands','crab-tournament','elite-hunter-assault','base-assault','caravan-visit','farm-trader','materials-trader','world-state-routes','flotsam-ninjas-route','tribute-round#tips');
+  if(family==='lore'&&batch.name===roster.batches.at(-1).name)samples.push('category/books','category/lore','letter-from-bad-teeth','ludins-reports','history-of-kenshi','history-of-kenshi/tr','wanted-posters','a-holy-purpose','birth-of-the-phoenix','flotsam-safehouse-note','the-holy-flame','the-little-boy-that-got-dismembered-by-skeletons','lore-books');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {
@@ -110,6 +112,7 @@ export async function captureBatch(base, batch, output, family='geography') {
           const file=sample.replaceAll('/','--').replace('#','-')+'-'+device+'-'+theme+'.png';
           await page.screenshot({path:join(output,file),animations:'disabled'});
           shots.push({id,anchor,device,theme,file});
+          if(family==='lore'&& await page.locator('.recorded-item-text').count()){await page.locator('.recorded-item-text').evaluate(el=>{el.scrollIntoView({block:'start'});if(innerWidth<600)window.scrollBy(0,-90)});const file=id+'-text-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});}
           if(family==='events'&& await page.locator('.factbox').count()){await page.locator('.factbox').evaluate(el=>{el.scrollIntoView({block:'start'});if(innerWidth<600)window.scrollBy(0,-90)});const file=id+'-facts-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});}
           if(family==='gameplay'&&['statistics','science','wheatstraw-60-or-cactus-100'].includes(id)&&device==='phone'){const region=page.locator('.gameplay-wide').first().locator('..');await region.evaluate(el=>{el.scrollIntoView({block:'start'});el.focus({preventScroll:true});});await page.keyboard.press('End');await region.evaluate(el=>{el.scrollIntoView({block:'start'});window.scrollBy(0,-90);});const right=id+'-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}
           if(family==='events'&&['caravan-visit','farm-trader','materials-trader'].includes(id)){const region=page.locator('.shop-stock').first().locator('..');await region.evaluate(el=>{el.scrollIntoView({block:'start'});el.focus({preventScroll:true});});await page.keyboard.press('End');await region.evaluate(el=>{el.scrollIntoView({block:'start'});if(innerWidth<600)window.scrollBy(0,-90)});const file=id+'-stock-right-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});}

@@ -1,0 +1,1788 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "method": "Checked permanent title/path inventory and frozen redirect records against the retained importer-exclusion audit; aliases listed by that audit remain restoration candidates. No new source fetch or prose restoration claimed.",
+  "entries": [
+    {
+      "title": "Letter To Moll",
+      "path": "/letter-to-moll",
+      "revision": 75016,
+      "aliases": [],
+      "book": true,
+      "boxed": 193,
+      "total": 331,
+      "excluded": true,
+      "volumes": [],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "lore-books",
+          "href": "/letter-to-moll",
+          "label": "Letter To Moll",
+          "section": "flotsam",
+          "element": 11,
+          "line": 15
+        },
+        {
+          "pageId": "the-holy-nation-trade-culture",
+          "href": "/letter-to-moll",
+          "label": "Letter To Moll",
+          "section": "illegal",
+          "element": 89,
+          "line": 50
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/letter-to-moll",
+          "label": "Letter To Moll",
+          "section": "tips",
+          "element": 1677,
+          "line": 406
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Letter_To_Moll?oldid=75016"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Memo From Moll",
+      "path": "/memo-from-moll",
+      "revision": 75017,
+      "aliases": [],
+      "book": true,
+      "boxed": 171,
+      "total": 223,
+      "excluded": true,
+      "volumes": [],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "lore-books",
+          "href": "/memo-from-moll",
+          "label": "Memo From Moll",
+          "section": "flotsam",
+          "element": 13,
+          "line": 16
+        },
+        {
+          "pageId": "moll",
+          "href": "/memo-from-moll",
+          "label": "Memo From Moll",
+          "section": "firstHeading",
+          "element": 47,
+          "line": null
+        },
+        {
+          "pageId": "moll",
+          "href": "/memo-from-moll",
+          "label": "Memo From Moll",
+          "section": "trivia",
+          "element": 306,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/memo-from-moll",
+          "label": "Memo From Moll",
+          "section": "references",
+          "element": 2989,
+          "line": 451
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Memo_From_Moll?oldid=75017"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Scripture of Radiance Series",
+      "path": "/scripture-of-radiance-series",
+      "revision": 80529,
+      "aliases": [
+        "Scripture of Radiance I",
+        "Scripture of Radiance II",
+        "Scripture of Radiance III",
+        "Scripture of Radiance IV",
+        "Scripture of Radiance V"
+      ],
+      "book": true,
+      "boxed": 502,
+      "total": 670,
+      "excluded": true,
+      "volumes": [
+        "Scripture of Radiance Vol. I",
+        "Scripture of Radiance Vol. II",
+        "Scripture of Radiance Vol. III",
+        "Scripture of Radiance Vol. IV",
+        "Scripture of Radiance Vol. V"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "history-of-kenshi/tr",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance II",
+          "section": "i̇kinci-i̇mparatorluk-yaklaşık-1000-yıl-önce",
+          "element": 56,
+          "line": 36
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. I",
+          "section": "residents",
+          "element": 180,
+          "line": null
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. II",
+          "section": "residents",
+          "element": 188,
+          "line": null
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. III",
+          "section": "residents",
+          "element": 196,
+          "line": null
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. IV",
+          "section": "residents",
+          "element": 204,
+          "line": null
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. V",
+          "section": "residents",
+          "element": 212,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. I",
+          "section": "residents",
+          "element": 156,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. II",
+          "section": "residents",
+          "element": 164,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. III",
+          "section": "residents",
+          "element": 172,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. IV",
+          "section": "residents",
+          "element": 180,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. V",
+          "section": "residents",
+          "element": 188,
+          "line": null
+        },
+        {
+          "pageId": "lineage-of-phoenixes",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Series",
+          "section": "phoenix-the-first",
+          "element": 7,
+          "line": 15
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Series",
+          "section": "holy-nation",
+          "element": 41,
+          "line": 32
+        },
+        {
+          "pageId": "okran",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scriptures of Radiance",
+          "section": "religious-texts",
+          "element": 19,
+          "line": 22
+        },
+        {
+          "pageId": "stobe",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol I.",
+          "section": "speculations-on-connections-with-chitrin",
+          "element": 72,
+          "line": 47
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/scripture-of-radiance-series",
+          "label": "set forth by the first Phoenix",
+          "section": "firstHeading",
+          "element": 88,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. III",
+          "section": "references",
+          "element": 1924,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/scripture-of-radiance-series",
+          "label": "Scripture of Radiance Vol. I & II",
+          "section": "references",
+          "element": 2024,
+          "line": null
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Scripture_of_Radiance_Series?oldid=80529"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "The Guiding Light Series",
+      "path": "/the-guiding-light-series",
+      "revision": 71341,
+      "aliases": [
+        "The Guiding Light I",
+        "The Guiding Light II",
+        "The Guiding Light III",
+        "The Guiding Light IV",
+        "The Guiding Light V",
+        "The Guiding Light VI"
+      ],
+      "book": true,
+      "boxed": 675,
+      "total": 818,
+      "excluded": true,
+      "volumes": [
+        "The Guiding Light I",
+        "The Guiding Light II",
+        "The Guiding Light III",
+        "The Guiding Light IV",
+        "The Guiding Light V",
+        "The Guiding Light VI"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "hive",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light Series",
+          "section": "lore",
+          "element": 165,
+          "line": 80
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light I",
+          "section": "residents",
+          "element": 220,
+          "line": null
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light II",
+          "section": "residents",
+          "element": 228,
+          "line": null
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light III",
+          "section": "residents",
+          "element": 236,
+          "line": null
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light IV",
+          "section": "residents",
+          "element": 244,
+          "line": null
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light V",
+          "section": "residents",
+          "element": 252,
+          "line": null
+        },
+        {
+          "pageId": "holy-mechanical-shop",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light VI",
+          "section": "residents",
+          "element": 260,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light I",
+          "section": "residents",
+          "element": 196,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light II",
+          "section": "residents",
+          "element": 204,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light III",
+          "section": "residents",
+          "element": 212,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light IV",
+          "section": "residents",
+          "element": 220,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light V",
+          "section": "residents",
+          "element": 228,
+          "line": null
+        },
+        {
+          "pageId": "holy-nation-bar",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light VI",
+          "section": "residents",
+          "element": 236,
+          "line": null
+        },
+        {
+          "pageId": "items",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light I-VI",
+          "section": "books",
+          "element": 79,
+          "line": 59
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light Series",
+          "section": "holy-nation",
+          "element": 45,
+          "line": 34
+        },
+        {
+          "pageId": "shek/lore",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light",
+          "section": "firstHeading",
+          "element": 10,
+          "line": 18
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light Series",
+          "section": "references",
+          "element": 2107,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light Vol. IV",
+          "section": "references",
+          "element": 2268,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/the-guiding-light-series",
+          "label": "The Guiding Light Vol. VI",
+          "section": "references",
+          "element": 2307,
+          "line": null
+        },
+        {
+          "pageId": "the-queen",
+          "href": "/the-guiding-light-series",
+          "label": "Guiding Light VI",
+          "section": "trivia",
+          "element": 268,
+          "line": 77
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/The_Guiding_Light_Series?oldid=71341"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Captive's Journal Series",
+      "path": "/captives-journal-series",
+      "revision": 95896,
+      "aliases": [],
+      "book": true,
+      "boxed": 386,
+      "total": 420,
+      "excluded": true,
+      "volumes": [
+        "Captive's Journal I",
+        "Captive's Journal II",
+        "Captive's Journal III",
+        "Captive's Journal IV"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "cannibal-capital",
+          "href": "/captives-journal-series",
+          "label": "Captive’s Journal Series",
+          "section": "firstHeading",
+          "element": 28,
+          "line": 25
+        },
+        {
+          "pageId": "cannibal-hunter-robun",
+          "href": "/captives-journal-series",
+          "label": "Captive’s Journal Series",
+          "section": "firstHeading",
+          "element": 23,
+          "line": 21
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/captives-journal-series",
+          "label": "Captive’s Journal Series",
+          "section": "miscellaneous",
+          "element": 63,
+          "line": 47
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Captive's_Journal_Series?oldid=95896"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Lam's Survival Series",
+      "path": "/lams-survival-series",
+      "revision": 80521,
+      "aliases": [],
+      "book": true,
+      "boxed": 124,
+      "total": 171,
+      "excluded": true,
+      "volumes": [
+        "Lam's Survival Vol.1",
+        "Lam's Survival Vol.3"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "items",
+          "href": "/lams-survival-series",
+          "label": "Lam’s Survival Vol. 1 and 3",
+          "section": "books",
+          "element": 73,
+          "line": 56
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/lams-survival-series",
+          "label": "Lam’s Survival Series",
+          "section": "miscellaneous",
+          "element": 65,
+          "line": 48
+        },
+        {
+          "pageId": "tech-hunter-shop",
+          "href": "/lams-survival-series",
+          "label": "Lam's Survival Series",
+          "section": "residents",
+          "element": 340,
+          "line": 42
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Lam's_Survival_Series?oldid=80521"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Mega City: The Beginning Series",
+      "path": "/mega-city-the-beginning-series",
+      "revision": 82296,
+      "aliases": [],
+      "book": true,
+      "boxed": 327,
+      "total": 387,
+      "excluded": true,
+      "volumes": [
+        "Mega City: The Beginning I",
+        "Mega City: The Beginning II"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "ghost-village",
+          "href": "/mega-city-the-beginning-series",
+          "label": "Mega City: The Beginning Series",
+          "section": "firstHeading",
+          "element": 25,
+          "line": 23
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/mega-city-the-beginning-series",
+          "label": "Mega City: The Beginning Series",
+          "section": "miscellaneous",
+          "element": 67,
+          "line": 49
+        },
+        {
+          "pageId": "megacity",
+          "href": "/mega-city-the-beginning-series",
+          "label": "books",
+          "section": "firstHeading",
+          "element": 7,
+          "line": 12
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Mega_City%3A_The_Beginning_Series?oldid=82296"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Maril's Diary Series",
+      "path": "/marils-diary-series",
+      "revision": 57092,
+      "aliases": [
+        "Maril's Diary"
+      ],
+      "book": true,
+      "boxed": 456,
+      "total": 496,
+      "excluded": true,
+      "volumes": [
+        "Maril's Diary I",
+        "Maril's Diary II",
+        "Maril's Diary III"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "lore-books",
+          "href": "/marils-diary-series",
+          "label": "Maril’s Diary Series",
+          "section": "miscellaneous",
+          "element": 73,
+          "line": 52
+        },
+        {
+          "pageId": "mission-graeme-status",
+          "href": "/marils-diary-series",
+          "label": "Maril’s Diary Series",
+          "section": "firstHeading",
+          "element": 27,
+          "line": 24
+        },
+        {
+          "pageId": "mongrel-faction",
+          "href": "/marils-diary-series",
+          "label": "Maril’s Diary Series",
+          "section": "firstHeading",
+          "element": 6,
+          "line": 10
+        },
+        {
+          "pageId": "mongrel-hq",
+          "href": "/marils-diary-series",
+          "label": "Maril’s Diary Series",
+          "section": "special-items",
+          "element": 21,
+          "line": 25
+        },
+        {
+          "pageId": "mongrel",
+          "href": "/marils-diary-series",
+          "label": "Maril’s Diary Series",
+          "section": "lore",
+          "element": 52,
+          "line": 36
+        },
+        {
+          "pageId": "rebirth",
+          "href": "/marils-diary-series",
+          "label": "Maril’s Diary Series",
+          "section": "trivia",
+          "element": 135,
+          "line": 63
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Maril's_Diary_Series?oldid=57092"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Letters From A Swamper",
+      "path": "/letters-from-a-swamper",
+      "revision": 75098,
+      "aliases": [],
+      "book": true,
+      "boxed": 558,
+      "total": 676,
+      "excluded": true,
+      "volumes": [
+        "Letter From A Swamper I",
+        "Letter From A Swamper II",
+        "Letter From A Swamper III",
+        "Letter From A Swamper IV",
+        "Letter From A Swamper V"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "big-gray",
+          "href": "/letters-from-a-swamper",
+          "label": "Letters From A Swamper V",
+          "section": "trivia",
+          "element": 314,
+          "line": 95
+        },
+        {
+          "pageId": "grayflayers",
+          "href": "/letters-from-a-swamper",
+          "label": "Letters From A Swamper V",
+          "section": "firstHeading",
+          "element": 17,
+          "line": 19
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/letters-from-a-swamper",
+          "label": "Letters From A Swamper",
+          "section": "swamper",
+          "element": 91,
+          "line": 65
+        },
+        {
+          "pageId": "the-dancing-skeleton",
+          "href": "/letters-from-a-swamper",
+          "label": "Letters From A Swamper",
+          "section": "residents",
+          "element": 45,
+          "line": 39
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Letters_From_A_Swamper?oldid=75098"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Letters To Hash",
+      "path": "/letters-to-hash",
+      "revision": 75099,
+      "aliases": [],
+      "book": true,
+      "boxed": 162,
+      "total": 229,
+      "excluded": true,
+      "volumes": [
+        "Letter To Hash",
+        "Letter To Hash II"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "lore-books",
+          "href": "/letters-to-hash",
+          "label": "Letters To Hash",
+          "section": "swamper",
+          "element": 95,
+          "line": 67
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Letters_To_Hash?oldid=75099"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Legend of Luquin Series",
+      "path": "/legend-of-luquin-series",
+      "revision": 75104,
+      "aliases": [
+        "Legend of Luquin"
+      ],
+      "book": true,
+      "boxed": 353,
+      "total": 412,
+      "excluded": true,
+      "volumes": [
+        "Legend of Luquin I",
+        "Legend of Luquin II"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "lore-books",
+          "href": "/legend-of-luquin-series",
+          "label": "Legend of Luquin Series",
+          "section": "united-cities",
+          "element": 105,
+          "line": 74
+        },
+        {
+          "pageId": "luquin",
+          "href": "/legend-of-luquin-series",
+          "label": "Legend of Luquin I",
+          "section": "firstHeading",
+          "element": 29,
+          "line": null
+        },
+        {
+          "pageId": "luquin",
+          "href": "/legend-of-luquin-series",
+          "label": "Legend of Luquin II",
+          "section": "firstHeading",
+          "element": 30,
+          "line": null
+        },
+        {
+          "pageId": "noble-circle",
+          "href": "/legend-of-luquin-series",
+          "label": "Legend of Luquin Series",
+          "section": "firstHeading",
+          "element": 12,
+          "line": 16
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Legend_of_Luquin_Series?oldid=75104"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "United Weekly Series",
+      "path": "/united-weekly-series",
+      "revision": 93743,
+      "aliases": [
+        "United Weekly I",
+        "United Weekly II",
+        "United Weekly III",
+        "United Weekly IV",
+        "United Weekly V"
+      ],
+      "book": true,
+      "boxed": 276,
+      "total": 374,
+      "excluded": true,
+      "volumes": [
+        "United Weekly I",
+        "United Weekly II",
+        "United Weekly III",
+        "United Weekly IV",
+        "United Weekly V",
+        "United Weekly VI",
+        "United Weekly VII"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "gorillo",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "firstHeading",
+          "element": 23,
+          "line": 21
+        },
+        {
+          "pageId": "hive",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "play-style",
+          "element": 161,
+          "line": null
+        },
+        {
+          "pageId": "hive",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "lore",
+          "element": 167,
+          "line": null
+        },
+        {
+          "pageId": "hive",
+          "href": "/united-weekly-series",
+          "label": "United Weeklies",
+          "section": "trivia",
+          "element": 529,
+          "line": null
+        },
+        {
+          "pageId": "hive",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "trivia",
+          "element": 568,
+          "line": null
+        },
+        {
+          "pageId": "hive",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "trivia",
+          "element": 769,
+          "line": null
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "united-cities",
+          "element": 121,
+          "line": 82
+        },
+        {
+          "pageId": "shek-kingdom",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "trivia",
+          "element": 1190,
+          "line": 272
+        },
+        {
+          "pageId": "shek",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "trivia",
+          "element": 307,
+          "line": null
+        },
+        {
+          "pageId": "shek",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "trivia",
+          "element": 315,
+          "line": null
+        },
+        {
+          "pageId": "shek/lore",
+          "href": "/united-weekly-series",
+          "label": "United Weeklies",
+          "section": "firstHeading",
+          "element": 19,
+          "line": 22
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "references",
+          "element": 2256,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "references",
+          "element": 2291,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/united-weekly-series",
+          "label": "United Weekly Series",
+          "section": "references",
+          "element": 2296,
+          "line": null
+        },
+        {
+          "pageId": "united-cities",
+          "href": "/united-weekly-series",
+          "label": "newspapers",
+          "section": "society",
+          "element": 147,
+          "line": null
+        },
+        {
+          "pageId": "united-cities",
+          "href": "/united-weekly-series",
+          "label": "United Weeklies",
+          "section": "united-heroes-league",
+          "element": 462,
+          "line": null
+        },
+        {
+          "pageId": "united-cities",
+          "href": "/united-weekly-series",
+          "label": "United Weekly 1",
+          "section": "trivia",
+          "element": 1277,
+          "line": null
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/United_Weekly_Series?oldid=93743"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Cultural Groupings And Evolution Series",
+      "path": "/cultural-groupings-and-evolution-series",
+      "revision": 80394,
+      "aliases": [
+        "Cultural Groupings And Evolution I",
+        "Cultural Groupings And Evolution II"
+      ],
+      "book": true,
+      "boxed": 365,
+      "total": 469,
+      "excluded": true,
+      "volumes": [
+        "Cultural Groupings And Evolution I",
+        "Cultural Groupings And Evolution II"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "finch",
+          "href": "/cultural-groupings-and-evolution-series",
+          "label": "Cultural Groupings And Evolution II",
+          "section": "firstHeading",
+          "element": 34,
+          "line": 28
+        },
+        {
+          "pageId": "idad",
+          "href": "/cultural-groupings-and-evolution-series",
+          "label": "Cultural Groupings And Evolution I",
+          "section": "firstHeading",
+          "element": 3,
+          "line": 10
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/cultural-groupings-and-evolution-series",
+          "label": "Cultural Groupings And Evolution Series",
+          "section": "worlds-end-library",
+          "element": 125,
+          "line": 86
+        },
+        {
+          "pageId": "the-holy-nation-trade-culture",
+          "href": "/cultural-groupings-and-evolution-series",
+          "label": "Cultural Groupings And Evolution Series",
+          "section": "illegal",
+          "element": 85,
+          "line": 50
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/cultural-groupings-and-evolution-series",
+          "label": "Cultural Groupings and Evolution Series",
+          "section": "tips",
+          "element": 1674,
+          "line": 406
+        },
+        {
+          "pageId": "worlds-end",
+          "href": "/cultural-groupings-and-evolution-series",
+          "label": "Cultural Groupings And Evolution Series",
+          "section": "other-books",
+          "element": 85,
+          "line": 58
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Cultural_Groupings_And_Evolution_Series?oldid=80394"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Legends Series",
+      "path": "/legends-series",
+      "revision": 80393,
+      "aliases": [
+        "Legend of the Foulhound",
+        "Legend of the Grievewraith",
+        "Legend of the Headless Ancient Series",
+        "Legend of the Mist Ghoul",
+        "Legend of the Foresaken Howler",
+        "Legend Series"
+      ],
+      "book": true,
+      "boxed": 655,
+      "total": 745,
+      "excluded": true,
+      "volumes": [
+        "Legend of the Forsaken Howler",
+        "Legend of the Foulhound",
+        "Legend of the Grievewraith",
+        "Legend of the Headless Ancient I",
+        "Legend of the Headless Ancient II",
+        "Legend of the Mist Ghoul"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "atticus",
+          "href": "/legends-series",
+          "label": "Legend of the Forsaken Howler",
+          "section": "firstHeading",
+          "element": 3,
+          "line": null
+        },
+        {
+          "pageId": "atticus",
+          "href": "/legends-series",
+          "label": "Legend of the Foulhound",
+          "section": "firstHeading",
+          "element": 4,
+          "line": null
+        },
+        {
+          "pageId": "finch",
+          "href": "/legends-series",
+          "label": "Legend of the Headless Ancient II",
+          "section": "firstHeading",
+          "element": 35,
+          "line": 28
+        },
+        {
+          "pageId": "howler-maze",
+          "href": "/legends-series",
+          "label": "The Legends Series",
+          "section": "trivia",
+          "element": 132,
+          "line": 71
+        },
+        {
+          "pageId": "idad",
+          "href": "/legends-series",
+          "label": "Legend of the Grievewraith",
+          "section": "firstHeading",
+          "element": 5,
+          "line": null
+        },
+        {
+          "pageId": "idad",
+          "href": "/legends-series",
+          "label": "Legend of the Headless Ancient I",
+          "section": "firstHeading",
+          "element": 6,
+          "line": null
+        },
+        {
+          "pageId": "idad",
+          "href": "/legends-series",
+          "label": "Legend of the Mist Ghoul",
+          "section": "firstHeading",
+          "element": 7,
+          "line": null
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/legends-series",
+          "label": "Legends Series",
+          "section": "worlds-end-library",
+          "element": 127,
+          "line": 87
+        },
+        {
+          "pageId": "mystery-sack",
+          "href": "/legends-series",
+          "label": "Legends Series",
+          "section": "trivia",
+          "element": 32,
+          "line": 29
+        },
+        {
+          "pageId": "whistler",
+          "href": "/legends-series",
+          "label": "Legend of the Headless Ancient",
+          "section": "firstHeading",
+          "element": 8,
+          "line": 14
+        },
+        {
+          "pageId": "worlds-end",
+          "href": "/legends-series",
+          "label": "Legends Series",
+          "section": "other-books",
+          "element": 87,
+          "line": 59
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Legends_Series?oldid=80393"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Mass Extinction Series",
+      "path": "/mass-extinction-series",
+      "revision": 80401,
+      "aliases": [
+        "Mass Extinction I",
+        "Mass Extinction II",
+        "Mass Extinction III",
+        "Mass Extinction IV"
+      ],
+      "book": true,
+      "boxed": 575,
+      "total": 663,
+      "excluded": true,
+      "volumes": [
+        "Mass Extinction I",
+        "Mass Extinction II",
+        "Mass Extinction III",
+        "Mass Extinction IV"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "atticus",
+          "href": "/mass-extinction-series",
+          "label": "Mass Extinction III",
+          "section": "firstHeading",
+          "element": 2,
+          "line": null
+        },
+        {
+          "pageId": "atticus",
+          "href": "/mass-extinction-series",
+          "label": "Mass Extinction III",
+          "section": "firstHeading",
+          "element": 6,
+          "line": null
+        },
+        {
+          "pageId": "finch",
+          "href": "/mass-extinction-series",
+          "label": "Mass Extinction I",
+          "section": "firstHeading",
+          "element": 36,
+          "line": 28
+        },
+        {
+          "pageId": "idad",
+          "href": "/mass-extinction-series",
+          "label": "Mass Extinction IV",
+          "section": "firstHeading",
+          "element": 2,
+          "line": 10
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/mass-extinction-series",
+          "label": "Mass Extinction Series",
+          "section": "worlds-end-library",
+          "element": 129,
+          "line": 88
+        },
+        {
+          "pageId": "sabina",
+          "href": "/mass-extinction-series",
+          "label": "Mass Extinction II",
+          "section": "firstHeading",
+          "element": 2,
+          "line": 10
+        },
+        {
+          "pageId": "stobe",
+          "href": "/mass-extinction-series",
+          "label": "Mass Extinction III",
+          "section": "speculations-on-connections-with-chitrin",
+          "element": 77,
+          "line": 49
+        },
+        {
+          "pageId": "worlds-end",
+          "href": "/mass-extinction-series",
+          "label": "Mass Extinction Series",
+          "section": "books-with-known-chronological-order",
+          "element": 78,
+          "line": 53
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Mass_Extinction_Series?oldid=80401"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Okranite Theories In Relation To Findings Series",
+      "path": "/okranite-theories-in-relation-to-findings-series",
+      "revision": 80402,
+      "aliases": [
+        "Okranite Theories I",
+        "Okranite Theories II"
+      ],
+      "book": true,
+      "boxed": 370,
+      "total": 448,
+      "excluded": true,
+      "volumes": [
+        "Okranite Theories In Relation To Findings I",
+        "Okranite Theories In Relation To Findings II"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "atticus",
+          "href": "/okranite-theories-in-relation-to-findings-series",
+          "label": "Okranite Theories In Relation To Findings II",
+          "section": "firstHeading",
+          "element": 8,
+          "line": 10
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/okranite-theories-in-relation-to-findings-series",
+          "label": "Okranite Theories In Relation To Findings Series",
+          "section": "worlds-end-library",
+          "element": 131,
+          "line": 89
+        },
+        {
+          "pageId": "sabina",
+          "href": "/okranite-theories-in-relation-to-findings-series",
+          "label": "Okranite Theories In Relation To Findings I",
+          "section": "firstHeading",
+          "element": 4,
+          "line": 10
+        },
+        {
+          "pageId": "stobe",
+          "href": "/okranite-theories-in-relation-to-findings-series",
+          "label": "Okanite theories books",
+          "section": "speculations-on-connections-with-chitrin",
+          "element": 70,
+          "line": null
+        },
+        {
+          "pageId": "stobe",
+          "href": "/okranite-theories-in-relation-to-findings-series",
+          "label": "Okranite Theories In Relation To Findings Series I",
+          "section": "speculations-on-connections-with-chitrin",
+          "element": 80,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/okranite-theories-in-relation-to-findings-series",
+          "label": "Okranite Theories in Relation To Findings Vol. I",
+          "section": "references",
+          "element": 2014,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation",
+          "href": "/okranite-theories-in-relation-to-findings-series",
+          "label": "Okranite Theories in Relatio To Findings Vol. II",
+          "section": "references",
+          "element": 2019,
+          "line": null
+        },
+        {
+          "pageId": "worlds-end",
+          "href": "/okranite-theories-in-relation-to-findings-series",
+          "label": "Okranite Theories In Relation To Findings Series",
+          "section": "books-with-known-chronological-order",
+          "element": 81,
+          "line": 54
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Okranite_Theories_In_Relation_To_Findings_Series?oldid=80402"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "Tech Hunter's Notes Series",
+      "path": "/tech-hunters-notes-series",
+      "revision": 90987,
+      "aliases": [],
+      "book": true,
+      "boxed": 1302,
+      "total": 1500,
+      "excluded": true,
+      "volumes": [
+        "Tech Hunter's Notes: Leviathan Coast",
+        "Tech Hunter's Notes: Pool of Obedience",
+        "Tech Hunter's Notes: Shopper's Guide",
+        "Tech Hunter's Notes: The Ashlands",
+        "Tech Hunter's Notes: The Ashlands pt II",
+        "Tech Hunter's Notes: The Black Desert",
+        "Tech Hunter's Notes: The Holy Nation",
+        "Tech Hunter's Notes: The Shrieking Forest",
+        "Tech Hunter's Notes: The Swamps"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "ashlands",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter's Notes: The Ashlands",
+          "section": "firstHeading",
+          "element": 20,
+          "line": null
+        },
+        {
+          "pageId": "ashlands",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter Note’s Series",
+          "section": "trivia",
+          "element": 182,
+          "line": null
+        },
+        {
+          "pageId": "expedition-4",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes: The Ashlands",
+          "section": "firstHeading",
+          "element": 23,
+          "line": 23
+        },
+        {
+          "pageId": "expedition-5",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes: The Ashlands",
+          "section": "firstHeading",
+          "element": 26,
+          "line": 23
+        },
+        {
+          "pageId": "finch",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter Notes Series",
+          "section": "firstHeading",
+          "element": 40,
+          "line": 28
+        },
+        {
+          "pageId": "iyo",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes Series",
+          "section": "firstHeading",
+          "element": 25,
+          "line": 24
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes Series",
+          "section": "worlds-end-library",
+          "element": 133,
+          "line": 90
+        },
+        {
+          "pageId": "skin-bandits",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes Series",
+          "section": "history",
+          "element": 38,
+          "line": 30
+        },
+        {
+          "pageId": "tech-hunter-shop",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter's Notes Series",
+          "section": "residents",
+          "element": 338,
+          "line": 42
+        },
+        {
+          "pageId": "tech-hunters",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes",
+          "section": "firstHeading",
+          "element": 50,
+          "line": null
+        },
+        {
+          "pageId": "tech-hunters",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes Series",
+          "section": "trivia",
+          "element": 266,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation-trade-culture",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes: The Holy Nation",
+          "section": "locations",
+          "element": 63,
+          "line": null
+        },
+        {
+          "pageId": "the-holy-nation-trade-culture",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes: The Black Desert",
+          "section": "locations",
+          "element": 65,
+          "line": null
+        },
+        {
+          "pageId": "worlds-end",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes Series",
+          "section": "other-books",
+          "element": 89,
+          "line": 60
+        },
+        {
+          "pageId": "zed",
+          "href": "/tech-hunters-notes-series",
+          "label": "Tech Hunter’s Notes Series",
+          "section": "firstHeading",
+          "element": 51,
+          "line": 26
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/Tech_Hunter's_Notes_Series?oldid=90987"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "The Lost Ancients Series",
+      "path": "/the-lost-ancients-series",
+      "revision": 82166,
+      "aliases": [
+        "The Lost Ancients I",
+        "The Lost Ancients II"
+      ],
+      "book": true,
+      "boxed": 435,
+      "total": 523,
+      "excluded": true,
+      "volumes": [
+        "The Lost Ancients I",
+        "The Lost Ancients II"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "finch",
+          "href": "/the-lost-ancients-series",
+          "label": "The Lost Ancients I",
+          "section": "firstHeading",
+          "element": 37,
+          "line": 28
+        },
+        {
+          "pageId": "history-of-kenshi",
+          "href": "/the-lost-ancients-series",
+          "label": "civilization",
+          "section": "the-ancients-likely-many-thousands-of-years-ago",
+          "element": 11,
+          "line": 20
+        },
+        {
+          "pageId": "history-of-kenshi/tr",
+          "href": "/the-lost-ancients-series",
+          "label": "medeniyet",
+          "section": "kadimler-muhtemelen-binlerce-yıl-önce",
+          "element": 12,
+          "line": 20
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/the-lost-ancients-series",
+          "label": "The Lost Ancients Series",
+          "section": "worlds-end-library",
+          "element": 137,
+          "line": 92
+        },
+        {
+          "pageId": "sabina",
+          "href": "/the-lost-ancients-series",
+          "label": "The Lost Ancients II",
+          "section": "firstHeading",
+          "element": 3,
+          "line": null
+        },
+        {
+          "pageId": "sabina",
+          "href": "/the-lost-ancients-series",
+          "label": "The Lost Ancients I",
+          "section": "firstHeading",
+          "element": 7,
+          "line": null
+        },
+        {
+          "pageId": "stobe",
+          "href": "/the-lost-ancients-series",
+          "label": "The Lost Ancients Series",
+          "section": "references",
+          "element": 117,
+          "line": 65
+        },
+        {
+          "pageId": "worlds-end",
+          "href": "/the-lost-ancients-series",
+          "label": "The Lost Ancients Series",
+          "section": "books-with-known-chronological-order",
+          "element": 80,
+          "line": 54
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/The_Lost_Ancients_Series?oldid=82166"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    },
+    {
+      "title": "The Mystery Of Skeletech Series",
+      "path": "/the-mystery-of-skeletech-series",
+      "revision": 80410,
+      "aliases": [
+        "The Mystery Of Skeletech I",
+        "The Mystery Of Skeletech II"
+      ],
+      "book": true,
+      "boxed": 296,
+      "total": 430,
+      "excluded": true,
+      "volumes": [
+        "The Mystery Of Skeletech I",
+        "The Mystery Of Skeletech II"
+      ],
+      "classification": "omitted article",
+      "status": "open",
+      "registeredMatches": [],
+      "redirectMatches": [],
+      "occurrences": [
+        {
+          "pageId": "finch",
+          "href": "/the-mystery-of-skeletech-series",
+          "label": "The Mystery Of Skeletech I",
+          "section": "firstHeading",
+          "element": 39,
+          "line": 28
+        },
+        {
+          "pageId": "history-of-kenshi",
+          "href": "/the-mystery-of-skeletech-series",
+          "label": "The Mystery Of Skeletech Series",
+          "section": "unclear-chronological-order",
+          "element": 207,
+          "line": 60
+        },
+        {
+          "pageId": "history-of-kenshi/tr",
+          "href": "/the-mystery-of-skeletech-series",
+          "label": "The Mystery Of Skeletech Series",
+          "section": "belirsiz-kronolojik-sıra",
+          "element": 146,
+          "line": 73
+        },
+        {
+          "pageId": "idad",
+          "href": "/the-mystery-of-skeletech-series",
+          "label": "The Mystery Of Skeletech II",
+          "section": "firstHeading",
+          "element": 4,
+          "line": 10
+        },
+        {
+          "pageId": "lore-books",
+          "href": "/the-mystery-of-skeletech-series",
+          "label": "The Mystery Of Skeletech Series",
+          "section": "worlds-end-library",
+          "element": 139,
+          "line": 93
+        },
+        {
+          "pageId": "stobe",
+          "href": "/the-mystery-of-skeletech-series",
+          "label": "The Mystery of Skeletech II",
+          "section": "speculations-on-connections-with-chitrin",
+          "element": 87,
+          "line": 54
+        },
+        {
+          "pageId": "worlds-end",
+          "href": "/the-mystery-of-skeletech-series",
+          "label": "The Mystery Of Skeletech Series",
+          "section": "books-with-known-chronological-order",
+          "element": 76,
+          "line": 52
+        }
+      ],
+      "earlierEvidence": [
+        "conversion/gaps/book-import-evidence.json",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/scripts/import-fandom.mjs#L321",
+        "https://kenshi.fandom.com/wiki/The_Mystery_Of_Skeletech_Series?oldid=80410"
+      ],
+      "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+    }
+  ],
+  "ludin": {
+    "id": "ludins-reports",
+    "classification": "pending conversion",
+    "source": "original summary by Prd; retain original commit and linked revision-90111 transcription"
+  }
+}
