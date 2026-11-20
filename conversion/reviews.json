@@ -5274,6 +5274,94 @@
     "mongrel-tech-workshop": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/shops/review.json"
+    },
+    "mongrel-weapon-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "narkos-evil-tower": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "noble-house": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "palace-of-the-crab-queen": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "police-station": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "ranger-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "robotics-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "robotics-workshop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "ronin-armor-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "ronin-mechanical-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "ronin-weapon-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "rot-big-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "shark-big-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "shark-smithy": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "shark-travel-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "shek-armor-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "shek-bar": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "shek-kingdom-trade-culture": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "shek-police-station": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "shek-weapon-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "sho-battai-headgear-shop": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "skeleton-bar": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
     }
   },
   "mediaGaps": [

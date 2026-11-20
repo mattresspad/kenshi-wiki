@@ -1310,6 +1310,357 @@
         "claim:shops-stock-prices-and-rarity",
         "claim:shops-world-state-residents"
       ]
+    },
+    {
+      "id": "mongrel-weapon-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 57327-rebirth.mod Mongrel Weapon Shop is a vendor unique to Mongrel. Residents Ronin Weapon Trader Ninja Guard (3) This shop is capable of spawning Artifacts, as such it may spawn items not in the list. These items, however, will not respawn when the shop restocks. Possible Stock Blueprints Wakizashis Ninja Blades Ringed Sabres Sabres Holed Sabres Desert Sabres Foreign Sabres Naginatas Katanas Polearms Short-Cleaver",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/mongrel-weapon-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e5b2925956d2525d2335f4e3416fea43ddcbad7e907e992c9f76b2eb93c5d299"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "narkos-evil-tower",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is a stub. You can help the Kenshi Wiki by expanding it. Narko’s Evil Tower is a walled in Ancient Tech Lab guarded by The Holy Nation. It can be found in Narko’s Trap. Inside the tower, there will be 2 Security Spiders, which aspiring tech hunters will have to fight or sneak past. At least 3 AI Cores, 2 Engineering Research and 13 Ancient Science Books can be found at this location. Two of the AI cores are found in the 73 Lock Complexity Ancient Safe at the top. The last one is usually inside another of the Ancient Safes.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/narkos-evil-tower.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2473222fa234eb7e21d29840a5811cdc9d1f7779e68743288d353629bdd3fbe8"
+      },
+      "questions": []
+    },
+    {
+      "id": "noble-house",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: {{{string id}}}A Noble House is a building in United Cities and Slave Traders locations. This is the home of Nobles and their guards. Often there will be guards standing outside the doors. Nobles lead their lives of luxury inside these palace-like residences. A lucky thief may profit from the riches stored inside. Be aware though, being caught committing theft inside a Noble House will incur a Noble’s Wrath on the players outpost. Locations & Residents Stoat Lord Inaba Hooded Empire Noble Guard (5) Drifter’s Last² Lady Merin Hooded Empire Noble Guard (5) Sho-Battai¹ Lord Nagata Hooded Empire Noble Guard (4) Heft Lord Ohta Hooded Empire Noble Guard (5) Bark Lady Sanda Sanda’s Noble Guard (5 to 8) Hooded Empire Noble Guard (5) Catun² Lord Shiro Hooded Empire Noble Guard (4) Brink Lady Tsugi Hooded Empire Noble Guard (5) Heng³ Lord Yoshinaga Hooded Empire Noble Guard (5) Eyesocket Slave Master Grande Hooded Empire Noble Guard (4) Samurai Heavy (4) Slave Markets Slave Market Master Hooded Empire Noble Guard (4) Samurai Heavy (4) Port South Slave Master Wada Hooded Empire Noble Guard (4) Samurai Heavy (4) Port North Lady Kana Hooded Empire Noble Guard (4) Samurai Heavy (4) Slave Farm South Slave Mistress Grace Hooded Empire Noble Guard (4) Samurai Heavy (4) Slave Farm Slave Mistress Ren Hooded Empire Noble Guard (4) Samurai Heavy (4) Stone Camp Slave Master Haga Hooded Empire Noble Guard (4) Samurai Heavy (4) South Stone Camp Slave Master Ruben Hooded Empire Noble Guard (4) Samurai Heavy (4) 1. The Noble House here spawns as a Bughouse. As the characters here are tied to World States that affect the town they are in, they will, of course, not remain in the town if they have been taken out, as such they will almost never reappear in malnourished, half-destroyed, destroyed, or takeover versions of the town. Exceptions are made for United Cities towns turned into a malnourished or half-destroyed state via elimination of the surrounding slave masters or Tengu. These UC Nobles can still remain if only these external nobles are eliminated. 2. These UC towns have no exterior nobles that can influence it, as such only the death or imprisonment of the noble inside can affect it. 3. Heng is not affected at all by the state of Yoshinaga. As it is connected to Trader’s Edge, it is instead Longen’s wellbeing that is taken into account. All items have the same relative chance. These locations also have a possibility of spawning money in the form of Cats or String of Cats items. Possible Stock",
+      "organization": "Reviewed 17 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/noble-house.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "d7619fe4cc74b5e044af133f7c33b7d7296f9f68369c55a4729b1b370d4aeb7e"
+      },
+      "questions": [
+        "claim:shops-incomplete-record-placeholders",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-unassessed-media",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "palace-of-the-crab-queen",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 62825-rebirth.mod This article is a Work in Progress. It may contain out of date or incomplete information. Palace of the Crab Queen is a Faction HQ for the Crab Raiders. This location has a gear Artifacts value of c.90,000, meaning it will spawn armour and weapons from the Artifacts system. Possible Stock",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/palace-of-the-crab-queen.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "37110beb11e3bd29e8cfdb58cc718bdfef10b618901d856ba11315e1b0956167"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "police-station",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1120-gamedata.basePolice Station Towers are buildings found in most major faction cities. Find them by looking for signs posted near the door, or by clicking on the building and checking the name. In Police Stations, players are able to turn in bounties by imprisoning the bounty yourself in one of the cages, talking to the Police Chief, Hundred Guardian, or Inquisitor usually standing behind a table. If you talk and give bounties to the chief, they will take them to the second floor and place them in one of the many cells, with the prisoner’s weapon stored in one of the nearby containers. They will be available to buy from the chief with a huge 75% discount (better to take their equipment and sell it separately before you turn them in). However, dead bounties will only net you half the reward. Dead or alive, most bounties will raise the relation with the faction by 2 points, but be warned, this will only happen if you take them to the chief directly, not imprison the bounty yourself. If the cells are full, you can still turn in bounties to the chief. They’ll take them from you if they aren’t carrying someone else, but you’ll still receive the bounty and increased relations even if their hands are occupied. Typically, if all the cells are full, the chiefs would normally throw the body outside. This can be exploited, allowing a player to repeatedly turn in the body for a bounty. There are training dummies here that can be used. The residents (unless allied) will however not approve and berate the player for doing so. Possible Locations United Cities Brink Catun Clownsteady Heft Heng Sho-Battai Stoat Shek Kingdom Admag Squin Last Stand The Great Fortress The Holy Nation (See Police Station) Blister Hill Stack Residents United Cities Police Chief Samurai Police (8 to 16) Shek Kingdom Hundred Guardian Shek Warrior The residents work in shifts, half the Police will be out patrolling the town, while the other will stay inside the station, using the beds or dummies.",
+      "organization": "Reviewed 7 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/police-station.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "20efd8ba7ff244b43bbc10191c2705eac1055b4cbe0f1956d36b24b794f17990"
+      },
+      "questions": [
+        "claim:shops-police-bounty-behavior",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "ranger-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Ranger Shop is a Weapons Shop that sells Crossbows and bolts. These locations cannot be found in the Shek Kingdom or The Holy Nation. Below are the two variations of Ranger Shops and lists of which locations they can typically be found in. Depending on World States, these vendors might be available in additional locations.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ranger-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3e98efb24061df71bc4248e3c9cf8a45549c7fc0de0b46ac8e8bffef5f718ad2"
+      },
+      "questions": [
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "robotics-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 95828-__december17.mod A human?... It's not everyday I get a human customer... but, sure, I've got plenty of parts that should fit you fine indeed... Did you travel all the way here just for my expertise?... Gosh... I'm flattered... I don't blame you though, human, flesh is good for nothing but rotting... Where was I going with this? Robotics Shop is a store dealing with Robot Limbs and other necessities for Skeletons. This specific shop can only be found in Black Desert City, however players can find the similar Robotics Workshop in many other locations. Locations Black Desert City Residents Skeleton Civilian (5 to 6) Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/robotics-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "333a23c390576ce5bc8f63bd74a30ba580d1e11eae511a4cfb5dcbb6727e4949"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "robotics-workshop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 64665-rebirth.mod This is where skeletons can get their permanent injuries fixed up, probably not much use to you Humans......unless of course the fog men eat your legs off or something. Then I could fit you up with some nice new ones. Haha!Skeleton Doctor A Robotics Workshop is a store dealing in Robot Limbs and other necessities for Skeletons. Robotics Workshops are located in Small Shacks. Only a Skeleton Doctor works in this shop. There is a Robotic Bed that will restore the “wear” damage that caps a Skeleton’s max condition. This bed is also usable by any humanoid with Robotic Limbs, and it will restore max condition to those limbs as well. In addition to restoring max condition, it increases the heal speed of Skeletons and Robotic Limbs just as sleeping in a normal bed helps organic parts. There is a similar, larger shop in Black Desert City called Robotics Shop. There is an almost identical shop found in Mongrel, Mongrel Robotics Workshop. Locations Black Scratch Heft Heng Waystation Depending on World States, this vendor might spawn in these locations: Heng Residents Skeleton Doctor Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/robotics-workshop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "70a1de6e34c8d8f1971a6b4aa6b4839c638b1d9eb6f29aed777ffea613865657"
+      },
+      "questions": [
+        "claim:shops-repair-and-bed-services",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "ronin-armor-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 1533850-rebirth.mod Ronin Armor Shop is an Armour Shop of the Tech Hunters and Flotsam Ninjas. Possible Locations Flats Lagoon World’s End Depending on certain World States, this vendor might spawn in these locations: Blister Hill (Flotsam Ninjas) Residents Ronin Armour Trader Shop Guard Possible Stock",
+      "organization": "Reviewed 3 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ronin-armor-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3ee3d53f5cb485025bc21eebdcd22fc77ea99b71e72f48196dee3d0fd0640b55"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "ronin-mechanical-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 2242-gamedata.base Ronin Mechanical Shop is a vendor found in some territories taken over by the Empire Peasants and the Free Traders. It replaces the Empire Mechanical Shop, with the only difference being the lack of UC Books. Possible Locations Depending on certain World States, this vendor might spawn in these locations: Clownsteady (Empire Peasants) Drifter’s Last (Free Traders) Residents Ronin Construction Trader Shop Guard Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ronin-mechanical-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "89a874a96e19ec3b919f48a4d497549e54a758b62e6ee7e31621855902c7cf81"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "ronin-weapon-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 2239-gamedata.base Ronin Weapon Shops are weapon shops. Possible Locations Fishing Village World’s End Depending on certain World States, this vendor might spawn in these locations: Blister Hill Residents Ronin Weapon Trader Shop Guard (2) Possible Stock Blueprints Wakizashis Ringed Sabres Katanas Nodachi Naginatas Sabres The Plank Toppers",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ronin-weapon-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b89e8693e88588a51dababa6a249bb07ed8940b852078d13a134fd1b903d26e8"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "rot-big-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 98542-Dialogue.mod Rot Big Shop is a travel shop. It is identical to the Deadcat Big Shop except that it is located solely in Rot. Residents Deadcat Vendor Possible Stock",
+      "organization": "Reviewed 1 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/rot-big-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "596e767a932440e31a14fecbf680ad1e77174b988fdd307d428a52dcfdd3bd2f"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "shark-big-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50976-rebirth.mod Shark Big Shop is a vendor of the Swampers. Possible Locations Shark Depending on certain World States, this vendor might spawn in these locations: Shark (blackshifter) Shark (grayflayer) Shark (all dead) Residents Swamper Mech Shop Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shark-big-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dda32ae647263095f673addc96f06548da7e66874c2921251dcec83141b08361"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "shark-smithy",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50973-rebirth.mod Shark Smithy is a vendor specifically found in Shark. Residents Swamper Non-Gang Hound This location has a Gear Artifacts value of c.25,000, meaning it will spawn additional items through the Artifacts system. Possible Stock",
+      "organization": "Reviewed 1 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shark-smithy.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "fbf3632fdeb8a20e0463face2e2cf8d3a650cd8a0aee4f198830c21b63085775"
+      },
+      "questions": [
+        "claim:shops-artifact-restock-claims",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "shark-travel-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 50972-rebirth.mod Shark Travel Shop is a vendor specifically found in Shark. Residents Swamper Non-Gang Hound If the Hounds lose control of Shark, the Hound character who guards this shop is replaced by a second Swamper Non-Gang. Possible Stock",
+      "organization": "Reviewed 1 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shark-travel-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7558ed3e7dc6e1dec9b1f2326309a9f9268faaaf83cd4a5bd30f5eeda6420e5f"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "shek-armor-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 2245-gamedata.base Shek Armour Shops are armour shops found in Shek Kingdom cities. Possible Locations Admag Squin Last Stand Depending on certain World States, this vendor might spawn in these locations: Bad Teeth Shek takeover Heng Empire Peasant takeover Okran’s Shield Shek takeover Stack Shek takeover Residents Ronin Armour Trader Shek Warrior Possible Stock Possible Stock",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-armor-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "7599fa02b56c1c9f9e557d49c31e0aa9df30fc4c74118ccf20cfe81230212cc8"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "shek-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 51483-rebirth.mod Shek Bar is a bar found in the Shek Kingdom. This variant is used in all Shek Kingdom towns which have a bar. The most distinct difference between this bar and ones found outside Shek Kingdom is that this bar’s residents are exclusively Shek races. Possible Locations Admag Last Stand Squin Depending on World States, there may be a Independent Bar found in these locations: Admag Bad Teeth Squin Stack Residents Shek Barman Admag Shop Guard Possible Stock",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "953ca51e329471cd87c606501692c93c41df1da54376e4568c4eee6a9390b241"
+      },
+      "questions": [
+        "claim:shops-override-copy-labels",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "shek-kingdom-trade-culture",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/trading/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Shek Kingdom Trade Culture is a trade culture which removes cultural items from Holy Nation, several technology items, food items and all alcohol except Cactus Rum. Hashish is illegal but not buildings who are tied to hashish production, neither is Hemp. List of factions concerned by this trade culture : Shek Kingdom Forbidden items (unspawnable items, things you won’t find) : Advanced First Aid Kit Advanced Splint Kit AI Core Ancient Science Book Birth Of The Phoenix Bloodrum Capacitor Cooked Vegetables CPU Unit Foodcube Fuel Generator Core Greenfruit Grind Machine Motor Hashish Power Core Rice Bowl Riceweed Sake Small Emperor Statue The Holy Flame Bread Gohan Grog Empty Grog Can Illegal buildings (builds that are considered illegal and will trigger the dialogue event) : None Illegal goods (contraband) : Hashish Trade prices (multiplier for trade prices) :",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-kingdom-trade-culture.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c15a50ff89d8166a83c9439987e4df8827258798cf191563ff7d79efe1fd0ff8"
+      },
+      "questions": [
+        "claim:shops-trade-culture-effects"
+      ]
+    },
+    {
+      "id": "shek-police-station",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 11627-Dialogue (10).modShek Police Stations are Watchtowers found in Shek Kingdom cities. In the Police Station, players are able to turn in bounties at the Hundred Guardian manning the desk. Dead bounties are worth only half the reward. Bounties are then taken by the Chief to the second floor and placed in one of the many cells, with the prisoner’s weapon stored in one of the nearby containers. The player can skip the process of talking to the Guardian and still obtain the reward by directly placing the bounty in one of the cages. There are training dummies here that can be used. The residents (unless allied) will however not approve and berate the player for doing so. Possible Locations Admag Squin Depending on certain World States, this resident might spawn in these locations: Bad Teeth Stack Residents Hundred Guardian (4 to 6) Housemates Hundred Guardian",
+      "organization": "Reviewed 3 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-police-station.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f9d7a9c79326bb5cd57cacc6bead0cd68fbc71c732732748b4ce9246f221bcff"
+      },
+      "questions": [
+        "claim:shops-police-bounty-behavior",
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "shek-weapon-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 51311-rebirth.mod Shek Weapon Shops are weapon shops found in Shek Kingdom cities. These shops mostly sell Heavy Weapons, a most common choice of weapons for sheks. Possible Locations Admag Squin Last Stand Depending on certain World States, this vendor might spawn in these locations: Bad Teeth Shek takeover Okran’s Shield Shek takeover Stack Shek takeover Residents Shek Retainer Shek Warrior (1 to 2) Possible Stock Blueprints Plank Fragment Axe Long Cleaver",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shek-weapon-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "269c7a107ff50a8dd0071ab04d4f3cb6aafde28ce850bdcfdee6178f9b96f039"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "sho-battai-headgear-shop",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 2252-gamedata.base Sho-Battai Headgear Shop is a shop which sells Headgear in Sho-Battai. This independent vendor is not affected by the death of Lord Nagata, but will not stick around if Lady Kana is harmed. This vendor will reappear, however, if the Empire Peasants overtake Sho-Battai. Residents UC Hat Vendor Shop Guard Possible Stock Blueprints Straw Hat Bandana Hachigane Karuta Zukin Kusari Zukin Black Bandana Red Bandana",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sho-battai-headgear-shop.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "433af41d39bc34f3d8ef8f7e5ee7e8fa212915c718f4aa33e32d07329abccf65"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
+    },
+    {
+      "id": "skeleton-bar",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: 56158-rebirth.mod Finally gave up on life outside, did you? I don't blame you. Days are dull here but it beats trying to reason with the humans... and our disgruntled ones. Let them fix their own mess.Skeleton Barman Skeleton Bar is the bar specifically found in Black Desert City. Unlike most bars this vendor doesn’t sell foodstuffs. Sadneil can be found loitering here. This bar is also the sneaky hideout of the outlaw Razor. Residents Skeleton Barman Security Spider II Sadneil Razor Possible Stock",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-bar.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1f119592fc5fba3e0b3b9db92833995e591a2489f96e2fa1ee7af5088b48a137"
+      },
+      "questions": [
+        "claim:shops-stock-limits-and-restocking",
+        "claim:shops-stock-prices-and-rarity",
+        "claim:shops-world-state-residents"
+      ]
     }
   ],
   "editorialChanges": [

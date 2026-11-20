@@ -11409,6 +11409,17 @@
       }
     },
     {
+      "id": "availability:/mongrel-weapon-shop",
+      "kind": "availability",
+      "target": "/mongrel-weapon-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/mongrel-weapon-shop"
+      }
+    },
+    {
       "id": "availability:/monk-pants",
       "kind": "availability",
       "target": "/monk-pants",
@@ -11629,6 +11640,17 @@
       }
     },
     {
+      "id": "availability:/narkos-evil-tower",
+      "kind": "availability",
+      "target": "/narkos-evil-tower",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/narkos-evil-tower"
+      }
+    },
+    {
       "id": "availability:/narkos-trap",
       "kind": "availability",
       "target": "/narkos-trap",
@@ -11791,6 +11813,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/noble-captain"
+      }
+    },
+    {
+      "id": "availability:/noble-house",
+      "kind": "availability",
+      "target": "/noble-house",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/noble-house"
       }
     },
     {
@@ -12509,6 +12542,17 @@
       }
     },
     {
+      "id": "availability:/palace-of-the-crab-queen",
+      "kind": "availability",
+      "target": "/palace-of-the-crab-queen",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/palace-of-the-crab-queen"
+      }
+    },
+    {
       "id": "availability:/paladin",
       "kind": "availability",
       "target": "/paladin",
@@ -12803,6 +12847,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/police-sergeant"
+      }
+    },
+    {
+      "id": "availability:/police-station",
+      "kind": "availability",
+      "target": "/police-station",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/police-station"
       }
     },
     {
@@ -13188,6 +13243,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/ranger"
+      }
+    },
+    {
+      "id": "availability:/ranger-shop",
+      "kind": "availability",
+      "target": "/ranger-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ranger-shop"
       }
     },
     {
@@ -13829,6 +13895,17 @@
       }
     },
     {
+      "id": "availability:/robotics-shop",
+      "kind": "availability",
+      "target": "/robotics-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/robotics-shop"
+      }
+    },
+    {
       "id": "availability:/robotics-tech",
       "kind": "availability",
       "target": "/robotics-tech",
@@ -13840,6 +13917,17 @@
       }
     },
     {
+      "id": "availability:/robotics-workshop",
+      "kind": "availability",
+      "target": "/robotics-workshop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/robotics-workshop"
+      }
+    },
+    {
       "id": "availability:/robots",
       "kind": "availability",
       "target": "/robots",
@@ -13848,6 +13936,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/robots"
+      }
+    },
+    {
+      "id": "availability:/ronin-armor-shop",
+      "kind": "availability",
+      "target": "/ronin-armor-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ronin-armor-shop"
       }
     },
     {
@@ -13895,6 +13994,28 @@
       }
     },
     {
+      "id": "availability:/ronin-mechanical-shop",
+      "kind": "availability",
+      "target": "/ronin-mechanical-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ronin-mechanical-shop"
+      }
+    },
+    {
+      "id": "availability:/ronin-weapon-shop",
+      "kind": "availability",
+      "target": "/ronin-weapon-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ronin-weapon-shop"
+      }
+    },
+    {
       "id": "availability:/ronin-weapon-trader",
       "kind": "availability",
       "target": "/ronin-weapon-trader",
@@ -13914,6 +14035,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/rot"
+      }
+    },
+    {
+      "id": "availability:/rot-big-shop",
+      "kind": "availability",
+      "target": "/rot-big-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/rot-big-shop"
       }
     },
     {
@@ -14775,6 +14907,39 @@
       }
     },
     {
+      "id": "availability:/shark-big-shop",
+      "kind": "availability",
+      "target": "/shark-big-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shark-big-shop"
+      }
+    },
+    {
+      "id": "availability:/shark-smithy",
+      "kind": "availability",
+      "target": "/shark-smithy",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shark-smithy"
+      }
+    },
+    {
+      "id": "availability:/shark-travel-shop",
+      "kind": "availability",
+      "target": "/shark-travel-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shark-travel-shop"
+      }
+    },
+    {
       "id": "availability:/shek",
       "kind": "availability",
       "target": "/shek",
@@ -14794,6 +14959,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shek-adventurer"
+      }
+    },
+    {
+      "id": "availability:/shek-armor-shop",
+      "kind": "availability",
+      "target": "/shek-armor-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-armor-shop"
+      }
+    },
+    {
+      "id": "availability:/shek-bar",
+      "kind": "availability",
+      "target": "/shek-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-bar"
       }
     },
     {
@@ -14841,6 +15028,17 @@
       }
     },
     {
+      "id": "availability:/shek-kingdom-trade-culture",
+      "kind": "availability",
+      "target": "/shek-kingdom-trade-culture",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-kingdom-trade-culture"
+      }
+    },
+    {
       "id": "availability:/shek-medic",
       "kind": "availability",
       "target": "/shek-medic",
@@ -14849,6 +15047,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shek-medic"
+      }
+    },
+    {
+      "id": "availability:/shek-police-station",
+      "kind": "availability",
+      "target": "/shek-police-station",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-police-station"
       }
     },
     {
@@ -14904,6 +15113,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shek-warrior"
+      }
+    },
+    {
+      "id": "availability:/shek-weapon-shop",
+      "kind": "availability",
+      "target": "/shek-weapon-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shek-weapon-shop"
       }
     },
     {
@@ -14992,6 +15212,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/sho-battai"
+      }
+    },
+    {
+      "id": "availability:/sho-battai-headgear-shop",
+      "kind": "availability",
+      "target": "/sho-battai-headgear-shop",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sho-battai-headgear-shop"
       }
     },
     {
@@ -15289,6 +15520,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skeleton-bandits"
+      }
+    },
+    {
+      "id": "availability:/skeleton-bar",
+      "kind": "availability",
+      "target": "/skeleton-bar",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#shop-siblings-4",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-bar"
       }
     },
     {
