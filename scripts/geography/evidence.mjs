@@ -31,7 +31,7 @@ function emptyGallery($) {
 export function articleEvidence(html, frozen, faction = false) {
   const doc = load(html);
   const area = frozen ? doc('.mw-parser-output').clone() : doc('<div></div>');
-  if (frozen) area.children('.infobox,.fandom-notice').remove();
+  if (frozen) { area.children('.infobox').remove(); area.find('.fandom-notice').remove(); }
   else area.append(doc('.lead-text').contents().clone(), '\n', doc('.article-body').contents().clone());
   const $ = load(area.html(), {}, false);
   let buildingPanel=null;

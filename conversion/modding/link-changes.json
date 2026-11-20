@@ -94,5 +94,42 @@
       "/category/props",
       "/category/sliders"
     ]
+  },
+  {
+    "name": "modding-siblings-2",
+    "resolved": [
+      "/dialogue-text-formatting-colors-italics-etc",
+      "/dialogue-triggers-usage",
+      "/dialogue-word-swaps",
+      "/example-on-color-map-process",
+      "/fcs-load-order-color-definitions",
+      "/fcs-new-abilities-on-version-1.0.65-onwards",
+      "/fix-for-fcs-error-after-opting-out-from-experimental",
+      "/follow-player",
+      "/global-game-settings",
+      "/how-to-claim-town-ownership-cheat",
+      "/how-to-find-a-specific-dialogue-line",
+      "/how-to-kill-npcs-at-game-start",
+      "/how-to-make-a-bed-that-is-fast-healing",
+      "/how-to-make-a-color-map-for-your-armor",
+      "/how-to-make-a-custom-appearance-for-a-npc-aka-how-to-make-a-bod2-file",
+      "/how-to-make-a-custom-name-database-for-a-custom-race",
+      "/how-to-make-a-custom-start-mod-with-characters-from-other-mods",
+      "/how-to-make-a-face/hair-patch-for-modded-and-vanilla-races",
+      "/how-to-make-a-three-person-conversation-including-player",
+      "/how-to-make-a-two-person-chair-multiuser-animations",
+      "/how-to-make-a-war-campaign-or-trader-visit-about-ai-campaigns",
+      "/how-to-make-an-animations/recruitment-patch-mod-for-your-modded-race/character",
+      "/how-to-make-buildings-snap-together-fe-ramps-to-walls"
+    ],
+    "introduced": [
+      "/category-talk/candidates-for-deletion",
+      "/category/candidates-for-deletion",
+      "/category/custom-name-database",
+      "/category/error",
+      "/category/fcs-screenshots",
+      "/category/forgotten-construction-set",
+      "/category/help"
+    ]
   }
 ]

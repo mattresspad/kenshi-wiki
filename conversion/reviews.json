@@ -6402,6 +6402,98 @@
     "dialogue-targeting": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/modding/review.json"
+    },
+    "dialogue-text-formatting-colors-italics-etc": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "dialogue-triggers-usage": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "dialogue-word-swaps": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "example-on-color-map-process": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "fcs-new-abilities-on-version-1.0.65-onwards": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "fcs-load-order-color-definitions": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "fix-for-fcs-error-after-opting-out-from-experimental": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "follow-player": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "global-game-settings": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-claim-town-ownership-cheat": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-find-a-specific-dialogue-line": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-kill-npcs-at-game-start": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-a-bed-that-is-fast-healing": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-a-color-map-for-your-armor": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-a-custom-appearance-for-a-npc-aka-how-to-make-a-bod2-file": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-a-custom-name-database-for-a-custom-race": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-a-custom-start-mod-with-characters-from-other-mods": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-a-face/hair-patch-for-modded-and-vanilla-races": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-a-three-person-conversation-including-player": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-a-two-person-chair-multiuser-animations": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-a-war-campaign-or-trader-visit-about-ai-campaigns": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-an-animations/recruitment-patch-mod-for-your-modded-race/character": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
+    },
+    "how-to-make-buildings-snap-together-fe-ramps-to-walls": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/modding/review.json"
     }
   },
   "mediaGaps": [

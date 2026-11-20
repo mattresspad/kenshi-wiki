@@ -5,5 +5,15 @@
     "Typed fact panels retain source labels and field values without inventing character statistics.",
     "Code preservation compares the full text of all 67 blocks, normalizing only existing trailing-newline treatment."
   ],
-  "editorial": "No substantive rewrite of imported tutorials; uncertainties remain in the register."
+  "editorial": "No substantive rewrite of imported tutorials; uncertainties remain in the register.",
+  "attributionNesting": {
+    "articleIds": [
+      "dialogue-text-formatting-colors-italics-etc",
+      "translating-mods"
+    ],
+    "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+    "cause": "Unclosed literal i/code examples in inherited tutorials nest the prototype attribution notice instead of keeping it as a direct body child.",
+    "change": "Exclude only the named .fandom-notice from body text/link fingerprints at any depth; original credit, Fandom revision and license are checked independently on every rendered page.",
+    "articleBodyChanged": false
+  }
 }

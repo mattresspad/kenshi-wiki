@@ -64,7 +64,7 @@
     [
       "kenshi-unofficial-multiplayer-mod"
     ],
-    "2\u20136|dedicated|synchron|host-only|Nexus|praised|recommend",
+    "2–6|dedicated|synchron|host-only|Nexus|praised|recommend",
     "The imported multiplayer overview makes specific player-count, synchronization, installation and hosting claims without a pinned release or test record. Its linked project needs an independent comparison before endorsing those claims.",
     "Compare the cited The404Studios/Kenshi-Online implementation, release notes and reproducible sessions; retain original wording and citation until editorial correction is supported.",
     "Project identity, feature coverage, server-provider claims and reception are not established by this conversion."
@@ -87,7 +87,18 @@
     ],
     "not true|false|Scrap|Edit|test|journal",
     "These guides contain dated journal entries and later reversals. Retain chronology, explicit corrections and the PR43 additions; a cohesive tested recipe is separate editorial work.",
-    "Reproduce the named Blender/plugin/game versions, then reconcile the author\u2019s dated claims with credit and evidence.",
+    "Reproduce the named Blender/plugin/game versions, then reconcile the author’s dated claims with credit and evidence.",
     "No fresh rigging or ragdoll test was performed."
+  ],
+  [
+    "modding-literal-markup",
+    [
+      "dialogue-text-formatting-colors-italics-etc",
+      "translating-mods"
+    ],
+    "<i>|<code>|italic|colour|color",
+    "Literal formatting examples contain unclosed inline markup in the pinned import. It also nests the prototype attribution notice in the body; the preservation comparison now isolates that named notice while retaining all instructional words.",
+    "Compare the original Fandom formatting examples with the pinned Markdown before changing escaping or presentation. Keep attribution separately verified.",
+    "Source example rendering has not been established as a faithful representation of the author’s intended syntax."
   ]
 ]

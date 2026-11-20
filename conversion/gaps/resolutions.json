@@ -5238,6 +5238,39 @@
       }
     },
     {
+      "id": "availability:/dialogue-text-formatting-colors-italics-etc",
+      "kind": "availability",
+      "target": "/dialogue-text-formatting-colors-italics-etc",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dialogue-text-formatting-colors-italics-etc"
+      }
+    },
+    {
+      "id": "availability:/dialogue-triggers-usage",
+      "kind": "availability",
+      "target": "/dialogue-triggers-usage",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dialogue-triggers-usage"
+      }
+    },
+    {
+      "id": "availability:/dialogue-word-swaps",
+      "kind": "availability",
+      "target": "/dialogue-word-swaps",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dialogue-word-swaps"
+      }
+    },
+    {
       "id": "availability:/digna",
       "kind": "availability",
       "target": "/digna",
@@ -6503,6 +6536,17 @@
       }
     },
     {
+      "id": "availability:/example-on-color-map-process",
+      "kind": "availability",
+      "target": "/example-on-color-map-process",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/example-on-color-map-process"
+      }
+    },
+    {
       "id": "availability:/exile-camp",
       "kind": "availability",
       "target": "/exile-camp",
@@ -6888,6 +6932,28 @@
       }
     },
     {
+      "id": "availability:/fcs-load-order-color-definitions",
+      "kind": "availability",
+      "target": "/fcs-load-order-color-definitions",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fcs-load-order-color-definitions"
+      }
+    },
+    {
+      "id": "availability:/fcs-new-abilities-on-version-1.0.65-onwards",
+      "kind": "availability",
+      "target": "/fcs-new-abilities-on-version-1.0.65-onwards",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fcs-new-abilities-on-version-1.0.65-onwards"
+      }
+    },
+    {
       "id": "availability:/field-medic",
       "kind": "availability",
       "target": "/field-medic",
@@ -7028,6 +7094,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fishmen"
+      }
+    },
+    {
+      "id": "availability:/fix-for-fcs-error-after-opting-out-from-experimental",
+      "kind": "availability",
+      "target": "/fix-for-fcs-error-after-opting-out-from-experimental",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/fix-for-fcs-error-after-opting-out-from-experimental"
       }
     },
     {
@@ -7391,6 +7468,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/fogmen"
+      }
+    },
+    {
+      "id": "availability:/follow-player",
+      "kind": "availability",
+      "target": "/follow-player",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/follow-player"
       }
     },
     {
@@ -7908,6 +7996,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/glitchmakers-general-guide"
+      }
+    },
+    {
+      "id": "availability:/global-game-settings",
+      "kind": "availability",
+      "target": "/global-game-settings",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/global-game-settings"
       }
     },
     {
@@ -10331,6 +10430,105 @@
       }
     },
     {
+      "id": "availability:/how-to-claim-town-ownership-cheat",
+      "kind": "availability",
+      "target": "/how-to-claim-town-ownership-cheat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-claim-town-ownership-cheat"
+      }
+    },
+    {
+      "id": "availability:/how-to-find-a-specific-dialogue-line",
+      "kind": "availability",
+      "target": "/how-to-find-a-specific-dialogue-line",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-find-a-specific-dialogue-line"
+      }
+    },
+    {
+      "id": "availability:/how-to-kill-npcs-at-game-start",
+      "kind": "availability",
+      "target": "/how-to-kill-npcs-at-game-start",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-kill-npcs-at-game-start"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-a-bed-that-is-fast-healing",
+      "kind": "availability",
+      "target": "/how-to-make-a-bed-that-is-fast-healing",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-a-bed-that-is-fast-healing"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-a-color-map-for-your-armor",
+      "kind": "availability",
+      "target": "/how-to-make-a-color-map-for-your-armor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-a-color-map-for-your-armor"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-a-custom-appearance-for-a-npc-aka-how-to-make-a-bod2-file",
+      "kind": "availability",
+      "target": "/how-to-make-a-custom-appearance-for-a-npc-aka-how-to-make-a-bod2-file",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-a-custom-appearance-for-a-npc-aka-how-to-make-a-bod2-file"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-a-custom-name-database-for-a-custom-race",
+      "kind": "availability",
+      "target": "/how-to-make-a-custom-name-database-for-a-custom-race",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-a-custom-name-database-for-a-custom-race"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-a-custom-start-mod-with-characters-from-other-mods",
+      "kind": "availability",
+      "target": "/how-to-make-a-custom-start-mod-with-characters-from-other-mods",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-a-custom-start-mod-with-characters-from-other-mods"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-a-face/hair-patch-for-modded-and-vanilla-races",
+      "kind": "availability",
+      "target": "/how-to-make-a-face/hair-patch-for-modded-and-vanilla-races",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-a-face/hair-patch-for-modded-and-vanilla-races"
+      }
+    },
+    {
       "id": "availability:/how-to-make-a-new-race",
       "kind": "availability",
       "target": "/how-to-make-a-new-race",
@@ -10350,6 +10548,61 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/how-to-make-a-npc-bed-available-for-the-player-to-sleep-on"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-a-three-person-conversation-including-player",
+      "kind": "availability",
+      "target": "/how-to-make-a-three-person-conversation-including-player",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-a-three-person-conversation-including-player"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-a-two-person-chair-multiuser-animations",
+      "kind": "availability",
+      "target": "/how-to-make-a-two-person-chair-multiuser-animations",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-a-two-person-chair-multiuser-animations"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-a-war-campaign-or-trader-visit-about-ai-campaigns",
+      "kind": "availability",
+      "target": "/how-to-make-a-war-campaign-or-trader-visit-about-ai-campaigns",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-a-war-campaign-or-trader-visit-about-ai-campaigns"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-an-animations/recruitment-patch-mod-for-your-modded-race/character",
+      "kind": "availability",
+      "target": "/how-to-make-an-animations/recruitment-patch-mod-for-your-modded-race/character",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-an-animations/recruitment-patch-mod-for-your-modded-race/character"
+      }
+    },
+    {
+      "id": "availability:/how-to-make-buildings-snap-together-fe-ramps-to-walls",
+      "kind": "availability",
+      "target": "/how-to-make-buildings-snap-together-fe-ramps-to-walls",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/modding/acceptances.json#modding-siblings-2",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/how-to-make-buildings-snap-together-fe-ramps-to-walls"
       }
     },
     {

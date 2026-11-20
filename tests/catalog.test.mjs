@@ -87,3 +87,13 @@ test('unregistered files, duplicate identities and route collisions fail the cat
     assert.throws(()=>buildCatalog([],bad));
   }
 });
+
+test('body preservation excludes nested source notices without excluding tutorial examples', async()=>{
+  const {articleEvidence}=await import('../scripts/geography/evidence.mjs');
+  const before='<div class="mw-parser-output"><h2 id="example">Example</h2><i>Literal example<a href="/catun">Catun</a><div class="fandom-notice">Source credit <a href="https://example.com/history">History</a></div></i></div>';
+  const after='<div class="lead-text"></div><div class="article-body"><h2 id="example">Example</h2><i>Literal example<a href="/catun">Catun</a></i></div>';
+  const original=articleEvidence(before,true,'modding');
+  const rendered=articleEvidence(after,false,'modding');
+  for(const key of ['text','links','headings','code'])assert.deepEqual(rendered[key],original[key]);
+  assert.notEqual(articleEvidence(after.replace('Literal example','Changed example'),false,'modding').text,original.text);
+});
