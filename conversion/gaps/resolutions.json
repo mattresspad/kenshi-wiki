@@ -8813,6 +8813,17 @@
       }
     },
     {
+      "id": "availability:/history-of-kenshi/tr",
+      "kind": "availability",
+      "target": "/history-of-kenshi/tr",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/history-of-kenshi/tr"
+      }
+    },
+    {
       "id": "availability:/hive",
       "kind": "availability",
       "target": "/hive",
@@ -11417,6 +11428,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/lord-yoshinaga"
+      }
+    },
+    {
+      "id": "availability:/lore-books",
+      "kind": "availability",
+      "target": "/lore-books",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/lore-books"
       }
     },
     {
@@ -21383,6 +21405,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/wandering-trader"
+      }
+    },
+    {
+      "id": "availability:/wanted-posters",
+      "kind": "availability",
+      "target": "/wanted-posters",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/lore/acceptances.json#lore-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wanted-posters"
       }
     },
     {

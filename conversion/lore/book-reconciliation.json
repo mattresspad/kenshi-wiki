@@ -48,7 +48,32 @@
         "https://kenshi.fandom.com/wiki/Letter_To_Moll?oldid=75016"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "the-holy-nation-trade-culture",
+          "file": "src/content/wiki/the-holy-nation-trade-culture.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "2f627761684bfe9cdfe0cb909d8d1245a8c0c62b85bf0f34887e8223f742efb8"
+        },
+        {
+          "articleId": "the-holy-nation",
+          "file": "src/content/wiki/the-holy-nation.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "f4818cdcda73557c56826461f0c7be6b645f36bf501c8dc715579d851db3b31d"
+        }
+      ]
     },
     {
       "title": "Memo From Moll",
@@ -104,7 +129,32 @@
         "https://kenshi.fandom.com/wiki/Memo_From_Moll?oldid=75017"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "moll",
+          "file": "src/content/wiki/moll.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "4dc44b8201a36d93200fca73cb921ed62c6bb5c28caf0223672c960523c11941"
+        },
+        {
+          "articleId": "the-holy-nation",
+          "file": "src/content/wiki/the-holy-nation.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "f4818cdcda73557c56826461f0c7be6b645f36bf501c8dc715579d851db3b31d"
+        }
+      ]
     },
     {
       "title": "Scripture of Radiance Series",
@@ -284,7 +334,98 @@
         "https://kenshi.fandom.com/wiki/Scripture_of_Radiance_Series?oldid=80529"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "Scripture of Radiance I",
+          "candidatePath": "/scripture-of-radiance-i",
+          "intendedTarget": "/scripture-of-radiance-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Scripture of Radiance II",
+          "candidatePath": "/scripture-of-radiance-ii",
+          "intendedTarget": "/scripture-of-radiance-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Scripture of Radiance III",
+          "candidatePath": "/scripture-of-radiance-iii",
+          "intendedTarget": "/scripture-of-radiance-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Scripture of Radiance IV",
+          "candidatePath": "/scripture-of-radiance-iv",
+          "intendedTarget": "/scripture-of-radiance-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Scripture of Radiance V",
+          "candidatePath": "/scripture-of-radiance-v",
+          "intendedTarget": "/scripture-of-radiance-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "history-of-kenshi/tr",
+          "file": "src/content/wiki/history-of-kenshi/tr.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "91d993f553e196282ef9e197636d07388a57f15795c994f427728b60e0109918"
+        },
+        {
+          "articleId": "holy-mechanical-shop",
+          "file": "src/content/wiki/holy-mechanical-shop.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "373c1207a95905c42ae0a260cb3759baacb153422bdd935f093776d7c75b911e"
+        },
+        {
+          "articleId": "holy-nation-bar",
+          "file": "src/content/wiki/holy-nation-bar.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "2be001ffa63aa594a4d6c97da840da37f514e43b99e61f688404434228b04558"
+        },
+        {
+          "articleId": "lineage-of-phoenixes",
+          "file": "src/content/wiki/lineage-of-phoenixes.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "0a9d5f362d2285e6f802c685d1ffddd883a512c38e2cd67ee5f82f9133b7605a"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "okran",
+          "file": "src/content/wiki/okran.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "7f59c1518a6b404c0161a403de4ef1f3557351a04a3ba5561becde45e50b1d62"
+        },
+        {
+          "articleId": "stobe",
+          "file": "src/content/wiki/stobe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "4a85267404f52e18cf3fb3d46cad281373cb4737629f949fe55af1ec4ecaa2e2"
+        },
+        {
+          "articleId": "the-holy-nation",
+          "file": "src/content/wiki/the-holy-nation.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "f4818cdcda73557c56826461f0c7be6b645f36bf501c8dc715579d851db3b31d"
+        }
+      ]
     },
     {
       "title": "The Guiding Light Series",
@@ -482,7 +623,105 @@
         "https://kenshi.fandom.com/wiki/The_Guiding_Light_Series?oldid=71341"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "The Guiding Light I",
+          "candidatePath": "/the-guiding-light-i",
+          "intendedTarget": "/the-guiding-light-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "The Guiding Light II",
+          "candidatePath": "/the-guiding-light-ii",
+          "intendedTarget": "/the-guiding-light-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "The Guiding Light III",
+          "candidatePath": "/the-guiding-light-iii",
+          "intendedTarget": "/the-guiding-light-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "The Guiding Light IV",
+          "candidatePath": "/the-guiding-light-iv",
+          "intendedTarget": "/the-guiding-light-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "The Guiding Light V",
+          "candidatePath": "/the-guiding-light-v",
+          "intendedTarget": "/the-guiding-light-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "The Guiding Light VI",
+          "candidatePath": "/the-guiding-light-vi",
+          "intendedTarget": "/the-guiding-light-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "hive",
+          "file": "src/content/wiki/hive.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "47da9677955f78d8a31d47c6fb1b13c3ae940b910e257d3c9a865b8f4b78824f"
+        },
+        {
+          "articleId": "holy-mechanical-shop",
+          "file": "src/content/wiki/holy-mechanical-shop.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "373c1207a95905c42ae0a260cb3759baacb153422bdd935f093776d7c75b911e"
+        },
+        {
+          "articleId": "holy-nation-bar",
+          "file": "src/content/wiki/holy-nation-bar.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "2be001ffa63aa594a4d6c97da840da37f514e43b99e61f688404434228b04558"
+        },
+        {
+          "articleId": "items",
+          "file": "src/content/wiki/items.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c9c39a2c9133fa3e82cc08f8346d3b6c4ede4038a953eb8679e58ccf734ee79f"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "shek/lore",
+          "file": "src/content/wiki/shek/lore.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "18d114dc25dbe0fb5c3e3e3cf751c48c0770d95d16065bebc8b64bc3bf64cac1"
+        },
+        {
+          "articleId": "the-holy-nation",
+          "file": "src/content/wiki/the-holy-nation.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "f4818cdcda73557c56826461f0c7be6b645f36bf501c8dc715579d851db3b31d"
+        },
+        {
+          "articleId": "the-queen",
+          "file": "src/content/wiki/the-queen.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "480d791cdb27a343b829097213b7a0cb7f740abc213c6c4502fc526e5e1da9e8"
+        }
+      ]
     },
     {
       "title": "Captive's Journal Series",
@@ -535,7 +774,32 @@
         "https://kenshi.fandom.com/wiki/Captive's_Journal_Series?oldid=95896"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "cannibal-capital",
+          "file": "src/content/wiki/cannibal-capital.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "a6eaf47e87cef669823c6993eb5cc60268244c99ac078316c145b4291cac99cf"
+        },
+        {
+          "articleId": "cannibal-hunter-robun",
+          "file": "src/content/wiki/cannibal-hunter-robun.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "b3f5b513831c40131e85463f44c116b167f19efd6d1b849c7f37ec568e66a13e"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        }
+      ]
     },
     {
       "title": "Lam's Survival Series",
@@ -586,7 +850,32 @@
         "https://kenshi.fandom.com/wiki/Lam's_Survival_Series?oldid=80521"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "items",
+          "file": "src/content/wiki/items.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c9c39a2c9133fa3e82cc08f8346d3b6c4ede4038a953eb8679e58ccf734ee79f"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "tech-hunter-shop",
+          "file": "src/content/wiki/tech-hunter-shop.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "3f71078e434b9e586fbe7c7d48f9da642c197bf8e581b98a2a266ea5891bcb45"
+        }
+      ]
     },
     {
       "title": "Mega City: The Beginning Series",
@@ -637,7 +926,32 @@
         "https://kenshi.fandom.com/wiki/Mega_City%3A_The_Beginning_Series?oldid=82296"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "ghost-village",
+          "file": "src/content/wiki/ghost-village.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "96879e3afc7b2f6e5aca25ed242ea18329c0109f8c09a675e8e2bb84f6d882e9"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "megacity",
+          "file": "src/content/wiki/megacity.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "6c5eae4ac85d455838356821cb173d74366333f0369418ea870acd8b05a71041"
+        }
+      ]
     },
     {
       "title": "Maril's Diary Series",
@@ -715,7 +1029,58 @@
         "https://kenshi.fandom.com/wiki/Maril's_Diary_Series?oldid=57092"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "Maril's Diary",
+          "candidatePath": "/marils-diary",
+          "intendedTarget": "/marils-diary-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "mission-graeme-status",
+          "file": "src/content/wiki/mission-graeme-status.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "84bba834cfec130568ccd3ae40f6f9ec973612684de830bfbbd5cf6b1d247e4a"
+        },
+        {
+          "articleId": "mongrel-faction",
+          "file": "src/content/wiki/mongrel-faction.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "9ca41baea09352f3ff46876e99e3bbc933e1a6e2f3407c633c57182766ec81b4"
+        },
+        {
+          "articleId": "mongrel-hq",
+          "file": "src/content/wiki/mongrel-hq.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "54952f65357142b359821177235182a89ea5e81f7d4ed22e9a76eb40e91793f9"
+        },
+        {
+          "articleId": "mongrel",
+          "file": "src/content/wiki/mongrel.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "485da111f32054d8341c2db6b1bdc57489bf4c9190801c2eb841991091248cfe"
+        },
+        {
+          "articleId": "rebirth",
+          "file": "src/content/wiki/rebirth.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "65fb7f4ba736be03231b0542a0a8a0fd4169568bd6979b9b7ee5294eec4c1ff2"
+        }
+      ]
     },
     {
       "title": "Letters From A Swamper",
@@ -777,7 +1142,38 @@
         "https://kenshi.fandom.com/wiki/Letters_From_A_Swamper?oldid=75098"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "big-gray",
+          "file": "src/content/wiki/big-gray.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "85ca8c1a64ddfdce498ca329050aa720625eb6c50649346830fe6caaa88f6fa2"
+        },
+        {
+          "articleId": "grayflayers",
+          "file": "src/content/wiki/grayflayers.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "0bb00f26ef8e5dc8d7b7165e854606aec16ccfca253bda7b288a3f8b796a985c"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "the-dancing-skeleton",
+          "file": "src/content/wiki/the-dancing-skeleton.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "0fda3d3c8d0a45d164b6dbeded12a14a918e8b28c55fa7be555fd47343883cc5"
+        }
+      ]
     },
     {
       "title": "Letters To Hash",
@@ -812,7 +1208,20 @@
         "https://kenshi.fandom.com/wiki/Letters_To_Hash?oldid=75099"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        }
+      ]
     },
     {
       "title": "Legend of Luquin Series",
@@ -873,7 +1282,40 @@
         "https://kenshi.fandom.com/wiki/Legend_of_Luquin_Series?oldid=75104"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "Legend of Luquin",
+          "candidatePath": "/legend-of-luquin",
+          "intendedTarget": "/legend-of-luquin-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "luquin",
+          "file": "src/content/wiki/luquin.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "e02f477c80107dbd59da25e1d8d16910ee52455a041742bafa46cedf018e8f5a"
+        },
+        {
+          "articleId": "noble-circle",
+          "file": "src/content/wiki/noble-circle.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "577c569d98ab26425416d1b2f5e8dc62db63a27bbfd26f1fbd12190e407f780e"
+        }
+      ]
     },
     {
       "title": "United Weekly Series",
@@ -1047,7 +1489,98 @@
         "https://kenshi.fandom.com/wiki/United_Weekly_Series?oldid=93743"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "United Weekly I",
+          "candidatePath": "/united-weekly-i",
+          "intendedTarget": "/united-weekly-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "United Weekly II",
+          "candidatePath": "/united-weekly-ii",
+          "intendedTarget": "/united-weekly-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "United Weekly III",
+          "candidatePath": "/united-weekly-iii",
+          "intendedTarget": "/united-weekly-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "United Weekly IV",
+          "candidatePath": "/united-weekly-iv",
+          "intendedTarget": "/united-weekly-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "United Weekly V",
+          "candidatePath": "/united-weekly-v",
+          "intendedTarget": "/united-weekly-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "gorillo",
+          "file": "src/content/wiki/gorillo.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c510eeaeb1d82e633f057cf1004fdedeebdd387783f393e7831e08a792e7d698"
+        },
+        {
+          "articleId": "hive",
+          "file": "src/content/wiki/hive.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "47da9677955f78d8a31d47c6fb1b13c3ae940b910e257d3c9a865b8f4b78824f"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "shek-kingdom",
+          "file": "src/content/wiki/shek-kingdom.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "7600d2aeb577cf8c71cb3097be1862125cd82c362c32e942bc896932d08c93e9"
+        },
+        {
+          "articleId": "shek",
+          "file": "src/content/wiki/shek.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "34c88c68a0e0629531a719ab59bba6f0cf5d5231905c47559b61ba31b6638f38"
+        },
+        {
+          "articleId": "shek/lore",
+          "file": "src/content/wiki/shek/lore.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "18d114dc25dbe0fb5c3e3e3cf751c48c0770d95d16065bebc8b64bc3bf64cac1"
+        },
+        {
+          "articleId": "the-holy-nation",
+          "file": "src/content/wiki/the-holy-nation.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "f4818cdcda73557c56826461f0c7be6b645f36bf501c8dc715579d851db3b31d"
+        },
+        {
+          "articleId": "united-cities",
+          "file": "src/content/wiki/united-cities.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c262e7099f4cc3a261f0def90d40ab1dd97b451e529068c9bbb48aa3e1506a88"
+        }
+      ]
     },
     {
       "title": "Cultural Groupings And Evolution Series",
@@ -1125,7 +1658,65 @@
         "https://kenshi.fandom.com/wiki/Cultural_Groupings_And_Evolution_Series?oldid=80394"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "Cultural Groupings And Evolution I",
+          "candidatePath": "/cultural-groupings-and-evolution-i",
+          "intendedTarget": "/cultural-groupings-and-evolution-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Cultural Groupings And Evolution II",
+          "candidatePath": "/cultural-groupings-and-evolution-ii",
+          "intendedTarget": "/cultural-groupings-and-evolution-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "finch",
+          "file": "src/content/wiki/finch.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "33e779406bc0c590e5e02654c37c71d07e5ab3556bea84b9c369a5455342e353"
+        },
+        {
+          "articleId": "idad",
+          "file": "src/content/wiki/idad.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "df68bc946b9c586b2e67d35dde60eb9d7169aea11cec978830b6c10307df40ce"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "the-holy-nation-trade-culture",
+          "file": "src/content/wiki/the-holy-nation-trade-culture.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "2f627761684bfe9cdfe0cb909d8d1245a8c0c62b85bf0f34887e8223f742efb8"
+        },
+        {
+          "articleId": "the-holy-nation",
+          "file": "src/content/wiki/the-holy-nation.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "f4818cdcda73557c56826461f0c7be6b645f36bf501c8dc715579d851db3b31d"
+        },
+        {
+          "articleId": "worlds-end",
+          "file": "src/content/wiki/worlds-end.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "785d7f024d2f3197c5a770f7d8405e89ad2a41605ad7409a8b96d6b40b09837d"
+        }
+      ]
     },
     {
       "title": "Legends Series",
@@ -1251,7 +1842,105 @@
         "https://kenshi.fandom.com/wiki/Legends_Series?oldid=80393"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "Legend of the Foulhound",
+          "candidatePath": "/legend-of-the-foulhound",
+          "intendedTarget": "/legends-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Legend of the Grievewraith",
+          "candidatePath": "/legend-of-the-grievewraith",
+          "intendedTarget": "/legends-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Legend of the Headless Ancient Series",
+          "candidatePath": "/legend-of-the-headless-ancient-series",
+          "intendedTarget": "/legends-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Legend of the Mist Ghoul",
+          "candidatePath": "/legend-of-the-mist-ghoul",
+          "intendedTarget": "/legends-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Legend of the Foresaken Howler",
+          "candidatePath": "/legend-of-the-foresaken-howler",
+          "intendedTarget": "/legends-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Legend Series",
+          "candidatePath": "/legend-series",
+          "intendedTarget": "/legends-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "atticus",
+          "file": "src/content/wiki/atticus.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "293868ae862b93f76a1e4e227774fef4711fc29612904dc266dfc9ad82031ea7"
+        },
+        {
+          "articleId": "finch",
+          "file": "src/content/wiki/finch.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "33e779406bc0c590e5e02654c37c71d07e5ab3556bea84b9c369a5455342e353"
+        },
+        {
+          "articleId": "howler-maze",
+          "file": "src/content/wiki/howler-maze.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "4de828c7bba10c1f2044e6ebd56a7e477f4f71e68b022f46c926851da156665d"
+        },
+        {
+          "articleId": "idad",
+          "file": "src/content/wiki/idad.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "df68bc946b9c586b2e67d35dde60eb9d7169aea11cec978830b6c10307df40ce"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "mystery-sack",
+          "file": "src/content/wiki/mystery-sack.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "37f386406aa92d8166fec93042c6afdd8785739eb7d0ce8d3f40f815b2140c70"
+        },
+        {
+          "articleId": "whistler",
+          "file": "src/content/wiki/whistler.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "3e5a07953b1022487bf2382f7037eacd19add8676d937af49f08ed9d619f74ab"
+        },
+        {
+          "articleId": "worlds-end",
+          "file": "src/content/wiki/worlds-end.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "785d7f024d2f3197c5a770f7d8405e89ad2a41605ad7409a8b96d6b40b09837d"
+        }
+      ]
     },
     {
       "title": "Mass Extinction Series",
@@ -1349,7 +2038,85 @@
         "https://kenshi.fandom.com/wiki/Mass_Extinction_Series?oldid=80401"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "Mass Extinction I",
+          "candidatePath": "/mass-extinction-i",
+          "intendedTarget": "/mass-extinction-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Mass Extinction II",
+          "candidatePath": "/mass-extinction-ii",
+          "intendedTarget": "/mass-extinction-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Mass Extinction III",
+          "candidatePath": "/mass-extinction-iii",
+          "intendedTarget": "/mass-extinction-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Mass Extinction IV",
+          "candidatePath": "/mass-extinction-iv",
+          "intendedTarget": "/mass-extinction-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "atticus",
+          "file": "src/content/wiki/atticus.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "293868ae862b93f76a1e4e227774fef4711fc29612904dc266dfc9ad82031ea7"
+        },
+        {
+          "articleId": "finch",
+          "file": "src/content/wiki/finch.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "33e779406bc0c590e5e02654c37c71d07e5ab3556bea84b9c369a5455342e353"
+        },
+        {
+          "articleId": "idad",
+          "file": "src/content/wiki/idad.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "df68bc946b9c586b2e67d35dde60eb9d7169aea11cec978830b6c10307df40ce"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "sabina",
+          "file": "src/content/wiki/sabina.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "edacf8a6fab2cb389636909e9f2b37cadfc34f0438ea0a888c4da73ceaac2cdb"
+        },
+        {
+          "articleId": "stobe",
+          "file": "src/content/wiki/stobe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "4a85267404f52e18cf3fb3d46cad281373cb4737629f949fe55af1ec4ecaa2e2"
+        },
+        {
+          "articleId": "worlds-end",
+          "file": "src/content/wiki/worlds-end.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "785d7f024d2f3197c5a770f7d8405e89ad2a41605ad7409a8b96d6b40b09837d"
+        }
+      ]
     },
     {
       "title": "Okranite Theories In Relation To Findings Series",
@@ -1443,7 +2210,65 @@
         "https://kenshi.fandom.com/wiki/Okranite_Theories_In_Relation_To_Findings_Series?oldid=80402"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "Okranite Theories I",
+          "candidatePath": "/okranite-theories-i",
+          "intendedTarget": "/okranite-theories-in-relation-to-findings-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "Okranite Theories II",
+          "candidatePath": "/okranite-theories-ii",
+          "intendedTarget": "/okranite-theories-in-relation-to-findings-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "atticus",
+          "file": "src/content/wiki/atticus.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "293868ae862b93f76a1e4e227774fef4711fc29612904dc266dfc9ad82031ea7"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "sabina",
+          "file": "src/content/wiki/sabina.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "edacf8a6fab2cb389636909e9f2b37cadfc34f0438ea0a888c4da73ceaac2cdb"
+        },
+        {
+          "articleId": "stobe",
+          "file": "src/content/wiki/stobe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "4a85267404f52e18cf3fb3d46cad281373cb4737629f949fe55af1ec4ecaa2e2"
+        },
+        {
+          "articleId": "the-holy-nation",
+          "file": "src/content/wiki/the-holy-nation.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "f4818cdcda73557c56826461f0c7be6b645f36bf501c8dc715579d851db3b31d"
+        },
+        {
+          "articleId": "worlds-end",
+          "file": "src/content/wiki/worlds-end.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "785d7f024d2f3197c5a770f7d8405e89ad2a41605ad7409a8b96d6b40b09837d"
+        }
+      ]
     },
     {
       "title": "Tech Hunter's Notes Series",
@@ -1597,7 +2422,86 @@
         "https://kenshi.fandom.com/wiki/Tech_Hunter's_Notes_Series?oldid=90987"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "ashlands",
+          "file": "src/content/wiki/ashlands.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "bc0e2b5cb82325307522ca0c2d388fb01bb52b949392373a4d9bdb9ba31e1c99"
+        },
+        {
+          "articleId": "expedition-4",
+          "file": "src/content/wiki/expedition-4.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "b4887e4e12a9528274f09b1394ebdf032be09ad28eea02a30a51a790801e22b2"
+        },
+        {
+          "articleId": "expedition-5",
+          "file": "src/content/wiki/expedition-5.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "3503be69d6f6359f6da006ad03ba46a35e7e5e74923db9afbbbcce7f07727071"
+        },
+        {
+          "articleId": "finch",
+          "file": "src/content/wiki/finch.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "33e779406bc0c590e5e02654c37c71d07e5ab3556bea84b9c369a5455342e353"
+        },
+        {
+          "articleId": "iyo",
+          "file": "src/content/wiki/iyo.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "cc9bb62ffe8e84ff5d7aced35738992b292eab256a43664c711d9d5fa242f048"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "skin-bandits",
+          "file": "src/content/wiki/skin-bandits.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "d6229373732569ff0657c0d5790bec4121377ed56d521de54a7cb758f2d6479b"
+        },
+        {
+          "articleId": "tech-hunter-shop",
+          "file": "src/content/wiki/tech-hunter-shop.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "3f71078e434b9e586fbe7c7d48f9da642c197bf8e581b98a2a266ea5891bcb45"
+        },
+        {
+          "articleId": "tech-hunters",
+          "file": "src/content/wiki/tech-hunters.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "7cbe6bea796e8f6d6f1b20b8190577ce720f51d4a5654e83da02eec1940bcd44"
+        },
+        {
+          "articleId": "the-holy-nation-trade-culture",
+          "file": "src/content/wiki/the-holy-nation-trade-culture.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "2f627761684bfe9cdfe0cb909d8d1245a8c0c62b85bf0f34887e8223f742efb8"
+        },
+        {
+          "articleId": "worlds-end",
+          "file": "src/content/wiki/worlds-end.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "785d7f024d2f3197c5a770f7d8405e89ad2a41605ad7409a8b96d6b40b09837d"
+        },
+        {
+          "articleId": "zed",
+          "file": "src/content/wiki/zed.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "a161388300bde3f957ba9e54b2216acbf85f292f23e0bfe8c14e057ab119a397"
+        }
+      ]
     },
     {
       "title": "The Lost Ancients Series",
@@ -1691,7 +2595,71 @@
         "https://kenshi.fandom.com/wiki/The_Lost_Ancients_Series?oldid=82166"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "The Lost Ancients I",
+          "candidatePath": "/the-lost-ancients-i",
+          "intendedTarget": "/the-lost-ancients-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "The Lost Ancients II",
+          "candidatePath": "/the-lost-ancients-ii",
+          "intendedTarget": "/the-lost-ancients-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "finch",
+          "file": "src/content/wiki/finch.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "33e779406bc0c590e5e02654c37c71d07e5ab3556bea84b9c369a5455342e353"
+        },
+        {
+          "articleId": "history-of-kenshi",
+          "file": "src/content/wiki/history-of-kenshi.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "404b50ce7d500266c493fc69dcba7ed77b72d6ef398d03de21e175e4e474b486"
+        },
+        {
+          "articleId": "history-of-kenshi/tr",
+          "file": "src/content/wiki/history-of-kenshi/tr.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "91d993f553e196282ef9e197636d07388a57f15795c994f427728b60e0109918"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "sabina",
+          "file": "src/content/wiki/sabina.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "edacf8a6fab2cb389636909e9f2b37cadfc34f0438ea0a888c4da73ceaac2cdb"
+        },
+        {
+          "articleId": "stobe",
+          "file": "src/content/wiki/stobe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "4a85267404f52e18cf3fb3d46cad281373cb4737629f949fe55af1ec4ecaa2e2"
+        },
+        {
+          "articleId": "worlds-end",
+          "file": "src/content/wiki/worlds-end.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "785d7f024d2f3197c5a770f7d8405e89ad2a41605ad7409a8b96d6b40b09837d"
+        }
+      ]
     },
     {
       "title": "The Mystery Of Skeletech Series",
@@ -1777,12 +2745,86 @@
         "https://kenshi.fandom.com/wiki/The_Mystery_Of_Skeletech_Series?oldid=80410"
       ],
       "resolution": "Retain intended address and inherited link evidence; restore from individually reviewed sources in later work. No synthetic article or alias created.",
-      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored."
+      "postCutover": "Genuine 404 with the utility-batch search and correction treatment until separately restored.",
+      "relatedFragmentMatches": [],
+      "relatedArticleMatches": [],
+      "relatedRedirectMatches": [],
+      "aliasCandidates": [
+        {
+          "title": "The Mystery Of Skeletech I",
+          "candidatePath": "/the-mystery-of-skeletech-i",
+          "intendedTarget": "/the-mystery-of-skeletech-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        },
+        {
+          "title": "The Mystery Of Skeletech II",
+          "candidatePath": "/the-mystery-of-skeletech-ii",
+          "intendedTarget": "/the-mystery-of-skeletech-series",
+          "evidence": "Earlier importer audit retained this source alias; validate the individual historical page before implementing a redirect.",
+          "status": "candidate only; target omitted, no redirect activated"
+        }
+      ],
+      "fragmentConclusion": "No title/alias/volume matches among recorded fragment IDs; no established section replacement.",
+      "affectedSources": [
+        {
+          "articleId": "finch",
+          "file": "src/content/wiki/finch.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "33e779406bc0c590e5e02654c37c71d07e5ab3556bea84b9c369a5455342e353"
+        },
+        {
+          "articleId": "history-of-kenshi",
+          "file": "src/content/wiki/history-of-kenshi.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "404b50ce7d500266c493fc69dcba7ed77b72d6ef398d03de21e175e4e474b486"
+        },
+        {
+          "articleId": "history-of-kenshi/tr",
+          "file": "src/content/wiki/history-of-kenshi/tr.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "91d993f553e196282ef9e197636d07388a57f15795c994f427728b60e0109918"
+        },
+        {
+          "articleId": "idad",
+          "file": "src/content/wiki/idad.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "df68bc946b9c586b2e67d35dde60eb9d7169aea11cec978830b6c10307df40ce"
+        },
+        {
+          "articleId": "lore-books",
+          "file": "src/content/wiki/lore-books.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "c97a9c4cbb5051750991d7bce30c373a1a05b356c21e410162b9db6e8229d393"
+        },
+        {
+          "articleId": "stobe",
+          "file": "src/content/wiki/stobe.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "4a85267404f52e18cf3fb3d46cad281373cb4737629f949fe55af1ec4ecaa2e2"
+        },
+        {
+          "articleId": "worlds-end",
+          "file": "src/content/wiki/worlds-end.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "785d7f024d2f3197c5a770f7d8405e89ad2a41605ad7409a8b96d6b40b09837d"
+        }
+      ]
     }
   ],
   "ludin": {
     "id": "ludins-reports",
-    "classification": "pending conversion",
-    "source": "original summary by Prd; retain original commit and linked revision-90111 transcription"
+    "classification": "registered original summary",
+    "source": "original summary by Prd; retain original commit and linked revision-90111 transcription",
+    "availability": "restored locally; summary and attribution preserved",
+    "qualification": "This restores the registered summary only; omitted source transcription and series remain separate questions."
+  },
+  "fragmentInvestigation": {
+    "method": "Compared normalized book titles, retained aliases and volume names with every captured fragment ID in all 2,184 pinned source pages. Also checked titles and public paths of registered articles and frozen redirect sources. A matching heading would be a candidate, not proof of equivalent text.",
+    "source": "conversion/gaps/source.json",
+    "sha256": "86c1c85266138d239b7ce90fbf078c8dae44242764d313cfe9d3bafcbacf172c",
+    "pages": 2390,
+    "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+    "limitation": "Exact normalized name/fragment matching cannot establish equivalence from paraphrases, inline excerpts or unnamed quotations. Omission evidence remains the basis for later individual restoration."
   }
 }

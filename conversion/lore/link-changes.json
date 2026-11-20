@@ -15,5 +15,16 @@
       "/the-pacifier-guidance-for-a-troublemaker",
       "/unknown-old-book"
     ]
+  },
+  {
+    "name": "lore-structures",
+    "resolved": [
+      "/history-of-kenshi/tr",
+      "/lore-books",
+      "/wanted-posters"
+    ],
+    "introduced": [
+      "/letters-to-hash"
+    ]
   }
 ]

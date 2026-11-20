@@ -173131,6 +173131,126 @@
       ]
     },
     {
+      "id": "claim:lore-contraband",
+      "kind": "claim",
+      "target": "/forbidden-sympathy",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Narrative prohibition and game bag-search behavior are distinct; verify item flags and dialogue before correcting the claim.",
+      "proposedResolution": "Preserve the source qualification; compare exact narrative, dialogue and versioned game records before proposing a correction.",
+      "uncertainty": "This conversion does not establish the claim as verified gameplay or history.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "forbidden-sympathy",
+          "sourceFile": "src/content/wiki/forbidden-sympathy.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "513522dead10eaaefdbb5c601fe1b24b65a784041e53b4377ea39b49cd90b966",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/forbidden-sympathy.md"
+        },
+        {
+          "articleId": "molls-speech",
+          "sourceFile": "src/content/wiki/molls-speech.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "d819debafbc37eec75d590976e5d7a9f829d082387afbb9a72c24bd7fd389519",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/molls-speech.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "forbidden-sympathy",
+          "label": "  caption: \"Illegal writings of an unknown author in the holy lands: \\n\\n\\\"If you prick a horned devil, does he not bleed? Does a woman not shed tears when she is sentenced to her doom? Does the man with green skin not want happiness, like all sentient beings? \\n\\nWe are all the same, we all feel fear, but let us not allow that fear to deceive us into inflicting such suffering on other souls. Over time and history, technology advances, knowledge expands. Perhaps it is time for progress in spiritual teachings as well. \\n\\nIn these Holy Lands my words are forbidden and I will likely be put to the flame, but I hope these words instill even the slightest fraction of humanity into our society, lest my death be in vain.\\\"\"",
+          "literal": "  caption: \"Illegal writings of an unknown author in the holy lands: \\n\\n\\\"If you prick a horned devil, does he not bleed? Does a woman not shed tears when she is sentenced to her doom? Does the man with green skin not want happiness, like all sentient beings? \\n\\nWe are all the same, we all feel fear, but let us not allow that fear to deceive us into inflicting such suffering on other souls. Over time and history, technology advances, knowledge expands. Perhaps it is time for progress in spiritual teachings as well. \\n\\nIn these Holy Lands my words are forbidden and I will likely be put to the flame, but I hope these words instill even the slightest fraction of humanity into our society, lest my death be in vain.\\\"\"",
+          "line": 11,
+          "sourceFile": "src/content/wiki/forbidden-sympathy.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "forbidden-sympathy",
+          "label": "This item itself is also considered an illegal item by [The Holy Nation](/the-holy-nation). If held in the player's inventory during a bag search at a Holy Nation town, that character will receive a [bounty](/bounty) for holding illegal goods and subsequently attacked and/or arrested.",
+          "literal": "This item itself is also considered an illegal item by [The Holy Nation](/the-holy-nation). If held in the player's inventory during a bag search at a Holy Nation town, that character will receive a [bounty](/bounty) for holding illegal goods and subsequently attacked and/or arrested.",
+          "line": 26,
+          "sourceFile": "src/content/wiki/forbidden-sympathy.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "molls-speech",
+          "label": "This item itself is also considered an illegal item by [The Holy Nation](/the-holy-nation). If held in the player's inventory during a bag search at a Holy Nation town, that character will receive a [bounty](/bounty) for holding illegal goods and subsequently attacked and/or arrested.",
+          "literal": "This item itself is also considered an illegal item by [The Holy Nation](/the-holy-nation). If held in the player's inventory during a bag search at a Holy Nation town, that character will receive a [bounty](/bounty) for holding illegal goods and subsequently attacked and/or arrested.",
+          "line": 26,
+          "sourceFile": "src/content/wiki/molls-speech.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:lore-forbidden-stock",
+      "kind": "claim",
+      "target": "/book-of-grace",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The book descriptions call these texts forbidden while article prose places them inside Temples. Preserve both; stock availability and the proposed explanation remain unverified.",
+      "proposedResolution": "Preserve the source qualification; compare exact narrative, dialogue and versioned game records before proposing a correction.",
+      "uncertainty": "This conversion does not establish the claim as verified gameplay or history.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "book-of-grace",
+          "sourceFile": "src/content/wiki/book-of-grace.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "ddd1d8249711bbb092f4a5a9172d6d31ad0b0e4da46355efb0a66ccf84fbb366",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/book-of-grace.md"
+        },
+        {
+          "articleId": "book-of-sacrifice",
+          "sourceFile": "src/content/wiki/book-of-sacrifice.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "31374c033b3188763a9870b553577be08ab8070483d9a5d18f37876b8c606632",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/book-of-sacrifice.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "book-of-grace",
+          "label": "  caption: \"Forbidden within the Holy Nation. An ancient scripture from an unknown author:\\r\\n\\r\\n\\\"Let us not yearn for pleasures of the flesh, but yearn only for the love of our Creator and the wellbeing of all mankind. \\r\\n\\r\\nLet us not be tempted by the self serving lures of sexual misdeeds, intoxication, theft and wrong speech. \\r\\n\\r\\nLet us show kindness to our brothers and our sisters, never harm them, never feel envy or animosity towards them. \\r\\n\\r\\nLet us overcome our ego, to find true paradise, the Enlightened Lands.\\\"\"",
+          "literal": "  caption: \"Forbidden within the Holy Nation. An ancient scripture from an unknown author:\\r\\n\\r\\n\\\"Let us not yearn for pleasures of the flesh, but yearn only for the love of our Creator and the wellbeing of all mankind. \\r\\n\\r\\nLet us not be tempted by the self serving lures of sexual misdeeds, intoxication, theft and wrong speech. \\r\\n\\r\\nLet us show kindness to our brothers and our sisters, never harm them, never feel envy or animosity towards them. \\r\\n\\r\\nLet us overcome our ego, to find true paradise, the Enlightened Lands.\\\"\"",
+          "line": 11,
+          "sourceFile": "src/content/wiki/book-of-grace.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "book-of-grace",
+          "label": "**Book Of Grace** is a [book](/lore-books) [item](/items) found in [The Holy Nation](/the-holy-nation). This is one of the few books which is worth some money. Despite the book itself claiming that it is forbidden, this book can be found inside of [Temples](/temple) in The Holy Nation.",
+          "literal": "**Book Of Grace** is a [book](/lore-books) [item](/items) found in [The Holy Nation](/the-holy-nation). This is one of the few books which is worth some money. Despite the book itself claiming that it is forbidden, this book can be found inside of [Temples](/temple) in The Holy Nation.",
+          "line": 24,
+          "sourceFile": "src/content/wiki/book-of-grace.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "book-of-sacrifice",
+          "label": "  caption: \"Forbidden within the Holy Nation. An ancient scripture from an unknown author:\\r\\n\\r\\n\\\"The great father Chitrin was betrayed by his children; broken by their sins and their lack of faith. And so the great father's powers diminished and calamity erupted; but only when the lands began to swallow themselves did the children plead for help. Only at a time desperation and fear, did their devotion burn it's brightest. \\r\\n\\r\\nBut the great father was pure and forgiving, so he sacrificed himself for his beloved children. To give them a new chance at life, he cleansed the planet of it's sickness. But the task was too much, and Chitrin was split in two reborn, one of light and one of dark.\\r\\n \\r\\nTogether, two gods would exist in equilibrium; Okran, god of day, warmth and renewal; Narko, god of night, cold and destruction. And from that day forth it was known, the great father's sacrifice must not be in vain, the gods must be given strength, the cycle of death and rebirth preserved.\\\"\"",
+          "literal": "  caption: \"Forbidden within the Holy Nation. An ancient scripture from an unknown author:\\r\\n\\r\\n\\\"The great father Chitrin was betrayed by his children; broken by their sins and their lack of faith. And so the great father's powers diminished and calamity erupted; but only when the lands began to swallow themselves did the children plead for help. Only at a time desperation and fear, did their devotion burn it's brightest. \\r\\n\\r\\nBut the great father was pure and forgiving, so he sacrificed himself for his beloved children. To give them a new chance at life, he cleansed the planet of it's sickness. But the task was too much, and Chitrin was split in two reborn, one of light and one of dark.\\r\\n \\r\\nTogether, two gods would exist in equilibrium; Okran, god of day, warmth and renewal; Narko, god of night, cold and destruction. And from that day forth it was known, the great father's sacrifice must not be in vain, the gods must be given strength, the cycle of death and rebirth preserved.\\\"\"",
+          "line": 11,
+          "sourceFile": "src/content/wiki/book-of-sacrifice.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "book-of-sacrifice",
+          "label": "**Book Of Sacrifice** is a [book](/lore-books) [item](/items) found in [The Holy Nation](/the-holy-nation). This is one of the few books which is worth some money. Despite the book itself claiming that it is forbidden, this book can be found inside of [Temples](/temple) in The Holy Nation, possibly for study by the [Priests](/holy-priest).",
+          "literal": "**Book Of Sacrifice** is a [book](/lore-books) [item](/items) found in [The Holy Nation](/the-holy-nation). This is one of the few books which is worth some money. Despite the book itself claiming that it is forbidden, this book can be found inside of [Temples](/temple) in The Holy Nation, possibly for study by the [Priests](/holy-priest).",
+          "line": 24,
+          "sourceFile": "src/content/wiki/book-of-sacrifice.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:lore-item-properties",
       "kind": "claim",
       "target": "/letter-from-bad-teeth",
@@ -175446,6 +175566,153 @@
       ]
     },
     {
+      "id": "claim:lore-old-empire-names",
+      "kind": "claim",
+      "target": "/old-empire",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Old Empire is used for different eras and faction labels. Preserve the article’s explicit ambiguity; do not conflate the historical subject with the removed faction.",
+      "proposedResolution": "Preserve the source qualification; compare exact narrative, dialogue and versioned game records before proposing a correction.",
+      "uncertainty": "This conversion does not establish the claim as verified gameplay or history.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "old-empire",
+          "sourceFile": "src/content/wiki/old-empire.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "50fc1b31ccaa46df07a603288db7607528f3884e9bd76709508c45ab03d74f5d",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/old-empire.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "old-empire",
+          "label": "title: \"Old Empire\"",
+          "literal": "title: \"Old Empire\"",
+          "line": 2,
+          "sourceFile": "src/content/wiki/old-empire.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "old-empire",
+          "label": "description: \"The Old Empire are the remains of the ancient civilization that once controlled the entire world. Their written language is now unrecognizable to modern eyes…\"",
+          "literal": "description: \"The Old Empire are the remains of the ancient civilization that once controlled the entire world. Their written language is now unrecognizable to modern eyes…\"",
+          "line": 3,
+          "sourceFile": "src/content/wiki/old-empire.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "old-empire",
+          "label": "  title: \"Old Empire\"",
+          "literal": "  title: \"Old Empire\"",
+          "line": 5,
+          "sourceFile": "src/content/wiki/old-empire.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "old-empire",
+          "label": "[The Old Empire](/the-old-empire) are the remains of the ancient civilization that once controlled the entire world. Their written language is now unrecognizable to modern eyes. What is left of their civilization are the scattered [Lost Libraries](/lost-library) and [Armories](/lost-armoury) around the world, where the player may find [Ancient Science books](/ancient-science-book), [AI cores](/ai-core), [robotic spiders](/security-spider) and [skeletons](/skeletons).",
+          "literal": "[The Old Empire](/the-old-empire) are the remains of the ancient civilization that once controlled the entire world. Their written language is now unrecognizable to modern eyes. What is left of their civilization are the scattered [Lost Libraries](/lost-library) and [Armories](/lost-armoury) around the world, where the player may find [Ancient Science books](/ancient-science-book), [AI cores](/ai-core), [robotic spiders](/security-spider) and [skeletons](/skeletons).",
+          "line": 10,
+          "sourceFile": "src/content/wiki/old-empire.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "old-empire",
+          "label": "A successor empire simply known as the \"[Second Empire](/second-empire)\" sprang from the Old Empire's ashes, notably being much smaller in scale and controlled by [Skeletons](/skeletons).",
+          "literal": "A successor empire simply known as the \"[Second Empire](/second-empire)\" sprang from the Old Empire's ashes, notably being much smaller in scale and controlled by [Skeletons](/skeletons).",
+          "line": 14,
+          "sourceFile": "src/content/wiki/old-empire.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "old-empire",
+          "label": "-   While this page refers to the \"Old Empire\" exclusively as the \"First Empire\", There are several locations in Kenshi that have \"**Old Empire**\" in their name (i.e [Old Empire Watchtower](/old-empire-watchtower), [Old Empire Supply Outpost](/old-empire-supply-outpost)) but have **Second Empire** as their faction label instead of [The Old Empire](/the-old-empire) (which is a cut-content faction). They could be named eponymously so because both civilizations are considered to be \"Old\" by modern standards, be it the \"First Empire\" or the \"Second Empire\".",
+          "literal": "-   While this page refers to the \"Old Empire\" exclusively as the \"First Empire\", There are several locations in Kenshi that have \"**Old Empire**\" in their name (i.e [Old Empire Watchtower](/old-empire-watchtower), [Old Empire Supply Outpost](/old-empire-supply-outpost)) but have **Second Empire** as their faction label instead of [The Old Empire](/the-old-empire) (which is a cut-content faction). They could be named eponymously so because both civilizations are considered to be \"Old\" by modern standards, be it the \"First Empire\" or the \"Second Empire\".",
+          "line": 18,
+          "sourceFile": "src/content/wiki/old-empire.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "old-empire",
+          "label": "    -   [Cat-Lon's CPU](/cpu-of-cat-lon) description is an example of referring to \"The Old Empire\" as \"Second Empire\" and not the \"First Empire\".",
+          "literal": "    -   [Cat-Lon's CPU](/cpu-of-cat-lon) description is an example of referring to \"The Old Empire\" as \"Second Empire\" and not the \"First Empire\".",
+          "line": 19,
+          "sourceFile": "src/content/wiki/old-empire.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:lore-pacifier-directory",
+      "kind": "claim",
+      "target": "/the-pacifier-guidance-for-a-troublemaker",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The in-game directory names Lagoon and Mud Town and may not match current pacifier locations. Preserve the historical text; verify current advice separately.",
+      "proposedResolution": "Preserve the source qualification; compare exact narrative, dialogue and versioned game records before proposing a correction.",
+      "uncertainty": "This conversion does not establish the claim as verified gameplay or history.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "the-pacifier-guidance-for-a-troublemaker",
+          "sourceFile": "src/content/wiki/the-pacifier-guidance-for-a-troublemaker.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "0bc0eb787268709bcbacf5f2a4693e3c6525da222e19e966c4c3ebd47b940037",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/the-pacifier-guidance-for-a-troublemaker.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "the-pacifier-guidance-for-a-troublemaker",
+          "label": "  caption: \"Hoo boy, did I get myself in a mess! First off, I spilt my veggie bowl on noble Yoshinaga's robes, managed to hightail it across the sands all the way to Stack with a trail of angry samurai on my back. Then! Then I only go and speak to the high priest 'before being spoken to', and, boy, he was not happy with me. \\n\\nI tried to hightail it out of Stack at that point, but tore my rags on the Phoenix' statue and bore my 'heinous udders' for all to see. Honestly, at that point, I was pretty irritated at having my sweet greenfruits referred to as udders, so I stuck 'em the middle finger and yelled every curseword under the sun. I got thrown in a prison cage and conveniently broken out by a fellow ninja inmate two weeks later. But how could I live easy with two of the most powerful world factions hating my guts, you ask? Well, I did what I do whenever I need something fixed. I paid a guy in a bar to make my problems go away. \\n\\nAnyway, what's my point in this long-winded story? My point, friend, is that no matter what kind of bad day you're having, all problems can be solved!... With money. Otherwise you're pretty screwed. \\n\\nSo here it is, a directory I've compiled of all faction pacifiers and their locations for when you're having that particularly bad day week:\\n\\nHoly Nation Pacifier: Shark\\nTraders Guild Pacifier: Blister Hill\\nShek Kingdom Pacifier: World's End\\nUnited Cities Pacifier: Lagoon\\nSlave Traders: Stoat\\nHounds Pacifier: Hub\\nFlotsam Pacifier: Squin\\nAnti Slaver Pacifier: Mud Town\\n\\nGood luck, troublemaker.\\nYara\"",
+          "literal": "  caption: \"Hoo boy, did I get myself in a mess! First off, I spilt my veggie bowl on noble Yoshinaga's robes, managed to hightail it across the sands all the way to Stack with a trail of angry samurai on my back. Then! Then I only go and speak to the high priest 'before being spoken to', and, boy, he was not happy with me. \\n\\nI tried to hightail it out of Stack at that point, but tore my rags on the Phoenix' statue and bore my 'heinous udders' for all to see. Honestly, at that point, I was pretty irritated at having my sweet greenfruits referred to as udders, so I stuck 'em the middle finger and yelled every curseword under the sun. I got thrown in a prison cage and conveniently broken out by a fellow ninja inmate two weeks later. But how could I live easy with two of the most powerful world factions hating my guts, you ask? Well, I did what I do whenever I need something fixed. I paid a guy in a bar to make my problems go away. \\n\\nAnyway, what's my point in this long-winded story? My point, friend, is that no matter what kind of bad day you're having, all problems can be solved!... With money. Otherwise you're pretty screwed. \\n\\nSo here it is, a directory I've compiled of all faction pacifiers and their locations for when you're having that particularly bad day week:\\n\\nHoly Nation Pacifier: Shark\\nTraders Guild Pacifier: Blister Hill\\nShek Kingdom Pacifier: World's End\\nUnited Cities Pacifier: Lagoon\\nSlave Traders: Stoat\\nHounds Pacifier: Hub\\nFlotsam Pacifier: Squin\\nAnti Slaver Pacifier: Mud Town\\n\\nGood luck, troublemaker.\\nYara\"",
+          "line": 11,
+          "sourceFile": "src/content/wiki/the-pacifier-guidance-for-a-troublemaker.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:lore-phoenix-lifespan",
+      "kind": "claim",
+      "target": "/lineage-of-phoenixes",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "The 5000/62 average and claimed medical explanation are editorial inferences, not observed lifespans or verified technical effects.",
+      "proposedResolution": "Preserve the source qualification; compare exact narrative, dialogue and versioned game records before proposing a correction.",
+      "uncertainty": "This conversion does not establish the claim as verified gameplay or history.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "lineage-of-phoenixes",
+          "sourceFile": "src/content/wiki/lineage-of-phoenixes.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "0a9d5f362d2285e6f802c685d1ffddd883a512c38e2cd67ee5f82f9133b7605a",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/lineage-of-phoenixes.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "lineage-of-phoenixes",
+          "label": "-   The average lifespan (or the time until next reincarnation, if you will) of a Phoenix is around 80.6 years. This takes into account that the Holy Nation has a history of around 5000 years divided by 62. This is way above the average lifespan for people living in a post-apocalypse world. There is a possibility that the reason of why Phoenixes can manage to live that long is because of the HN's advanced medicinal technology (in contrast to the otherwise low-tech nature of nearly all other aspects of their country). The evidence that supports the theory that HN has advanced medicinal technology is given that HN has [doctors](/doctor) and [surgeons](/surgeon) in their country while other countries don't and also that Lord Phoenix LXII's inventory includes [Advanced First Aid Kit](/advanced-first-aid-kit) and [Advanced Splint Kit](/advanced-splint-kit).",
+          "literal": "-   The average lifespan (or the time until next reincarnation, if you will) of a Phoenix is around 80.6 years. This takes into account that the Holy Nation has a history of around 5000 years divided by 62. This is way above the average lifespan for people living in a post-apocalypse world. There is a possibility that the reason of why Phoenixes can manage to live that long is because of the HN's advanced medicinal technology (in contrast to the otherwise low-tech nature of nearly all other aspects of their country). The evidence that supports the theory that HN has advanced medicinal technology is given that HN has [doctors](/doctor) and [surgeons](/surgeon) in their country while other countries don't and also that Lord Phoenix LXII's inventory includes [Advanced First Aid Kit](/advanced-first-aid-kit) and [Advanced Splint Kit](/advanced-splint-kit).",
+          "line": 38,
+          "sourceFile": "src/content/wiki/lineage-of-phoenixes.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
       "id": "claim:lore-posters",
       "kind": "claim",
       "target": "/wanted-posters",
@@ -175586,6 +175853,63 @@
           "literal": "<table class=\"wikitable\"><caption><strong>WANTED: \"Four-Teeth\" Milton</strong></caption><tbody><tr><td colspan=\"2\" align=\"left\">Wanted for multiple charges of theft, murder and sexual assault. Reports suggest settlement in the swamps with protection from local gang members, seek caution.</td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>",
           "line": 93,
           "sourceFile": "src/content/wiki/wanted-posters.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:lore-shek-interpretation",
+      "kind": "claim",
+      "target": "/shek/lore",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P2",
+      "verification": "pinned imported claim identified; gameplay and technical semantics unverified",
+      "status": "open",
+      "finding": "Imported interpretations of Shek origins and behavior need explicit dialogue/source support and should remain distinguished from established biology.",
+      "proposedResolution": "Preserve the source qualification; compare exact narrative, dialogue and versioned game records before proposing a correction.",
+      "uncertainty": "This conversion does not establish the claim as verified gameplay or history.",
+      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "evidence": [
+        {
+          "articleId": "shek/lore",
+          "sourceFile": "src/content/wiki/shek/lore.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+          "sha256": "18d114dc25dbe0fb5c3e3e3cf751c48c0770d95d16065bebc8b64bc3bf64cac1",
+          "url": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/shek/lore.md"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "shek/lore",
+          "label": "The Shek revere a legendary warrior by the name of [Kral](/krals-last-stand), who supposedly fought against impossible odds (100 to 1 or so) in the field of battle. He was slain, but not before taking dozens of enemies with him, earning him entry to an afterlife known as the Gateway. It is here that warriors are said to reside alongside the legendary warrior, likely feasting to their hearts content and fighting for sport.",
+          "literal": "The Shek revere a legendary warrior by the name of [Kral](/krals-last-stand), who supposedly fought against impossible odds (100 to 1 or so) in the field of battle. He was slain, but not before taking dozens of enemies with him, earning him entry to an afterlife known as the Gateway. It is here that warriors are said to reside alongside the legendary warrior, likely feasting to their hearts content and fighting for sport.",
+          "line": 12,
+          "sourceFile": "src/content/wiki/shek/lore.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "shek/lore",
+          "label": "Though one can easily disregard the Shek as a species native to Kenshi, or the product of radioactive exposure, they are more likely closely related to humans; so close, one might be able to call them brothers and sisters. Some skeletons, whose exposure to the outside world has been limited since the Chaos Age, will react to the Shek with confusion, referring to them as \"Enforcers\". This happens in multiple instances, with some even commenting that their character was always the same, but that their bone plates and spikes were more recent changes.",
+          "literal": "Though one can easily disregard the Shek as a species native to Kenshi, or the product of radioactive exposure, they are more likely closely related to humans; so close, one might be able to call them brothers and sisters. Some skeletons, whose exposure to the outside world has been limited since the Chaos Age, will react to the Shek with confusion, referring to them as \"Enforcers\". This happens in multiple instances, with some even commenting that their character was always the same, but that their bone plates and spikes were more recent changes.",
+          "line": 16,
+          "sourceFile": "src/content/wiki/shek/lore.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "shek/lore",
+          "label": "This evidence that the Shek had been within ancient society and their bone plates and spikes being recent changes is also further reinforced in [The Guiding Light](/the-guiding-light-series) IV, where Okranite theologians claimed that Sheks were created as a brother of Okran, however, due to their aggressive nature and rejection of Okran's light they devolved and sprouted the horns similar to a wild beast. For this reason, it is reasonable to assume that in Ancient society, Shek were 'evolved' humans (either through genetic modification, which the Ancients surely possessed, or selective breeding) and served as the central authority of law and order.",
+          "literal": "This evidence that the Shek had been within ancient society and their bone plates and spikes being recent changes is also further reinforced in [The Guiding Light](/the-guiding-light-series) IV, where Okranite theologians claimed that Sheks were created as a brother of Okran, however, due to their aggressive nature and rejection of Okran's light they devolved and sprouted the horns similar to a wild beast. For this reason, it is reasonable to assume that in Ancient society, Shek were 'evolved' humans (either through genetic modification, which the Ancients surely possessed, or selective breeding) and served as the central authority of law and order.",
+          "line": 18,
+          "sourceFile": "src/content/wiki/shek/lore.md",
+          "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        },
+        {
+          "pageId": "shek/lore",
+          "label": "Additionally, some traces of bloodlust<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> can still be found in Sheks who have no connection with SK, which would imply that the aggression isn't cultural but innate or biological, this could make sense if they are genetically engineered specifically to be more warlike. It is therefore likely that while Sheks are capable of being productive and peaceful citizens like other races, they still generally - more or less - have greater aggressive tendencies compared to others, the tendency of which becomes especially pronounced when they are grouped together, the result of which - such as in the case of Shek Kingdom - results in a society that's largely focused on martial prowess, fighting, and personal bravery.",
+          "literal": "Additionally, some traces of bloodlust<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> can still be found in Sheks who have no connection with SK, which would imply that the aggression isn't cultural but innate or biological, this could make sense if they are genetically engineered specifically to be more warlike. It is therefore likely that while Sheks are capable of being productive and peaceful citizens like other races, they still generally - more or less - have greater aggressive tendencies compared to others, the tendency of which becomes especially pronounced when they are grouped together, the result of which - such as in the case of Shek Kingdom - results in a society that's largely focused on martial prowess, fighting, and personal bravery.",
+          "line": 24,
+          "sourceFile": "src/content/wiki/shek/lore.md",
           "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
         }
       ]

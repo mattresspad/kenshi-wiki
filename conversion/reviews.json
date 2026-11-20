@@ -6070,6 +6070,18 @@
     "history-of-kenshi": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/lore/review.json"
+    },
+    "lore-books": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/lore/review.json"
+    },
+    "wanted-posters": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/lore/review.json"
+    },
+    "history-of-kenshi/tr": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/lore/review.json"
     }
   },
   "mediaGaps": [
