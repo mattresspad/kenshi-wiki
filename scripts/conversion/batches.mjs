@@ -5,7 +5,9 @@ import manufacturerRoster from '../../conversion/manufacturers/roster.json' with
 import manufacturerCheckpoint from '../../conversion/manufacturers/checkpoint.json' with {type:'json'};
 import moddingRoster from '../../conversion/modding/roster.json' with {type:'json'};
 import moddingCheckpoint from '../../conversion/modding/checkpoint.json' with {type:'json'};
-import {snapshot, policy, categoryPath} from '../../src/lib/catalog.mjs';
+import pr44Roster from '../../conversion/pr44/roster.json' with {type:'json'};
+import pr44Checkpoint from '../../conversion/pr44/checkpoint.json' with {type:'json'};
+import {snapshot, effectiveSnapshot, policy, categoryPath} from '../../src/lib/catalog.mjs';
 import geographyRoster from '../../conversion/geography/roster.json' with {type:'json'};
 import geographyCheckpoint from '../../conversion/geography/checkpoint.json' with {type:'json'};
 import factionRoster from '../../conversion/factions/roster.json' with {type:'json'};
@@ -52,7 +54,8 @@ export const families = {
   lore:{roster:loreRoster,checkpoint:loreCheckpoint},
   modding:{roster:moddingRoster,checkpoint:moddingCheckpoint},
   manufacturers:{roster:manufacturerRoster,checkpoint:manufacturerCheckpoint},
-  remainder:{roster:remainderRoster,checkpoint:remainderCheckpoint}
+  remainder:{roster:remainderRoster,checkpoint:remainderCheckpoint},
+  pr44:{roster:pr44Roster,checkpoint:pr44Checkpoint}
 };
 export function selectedIds(family) {
   const {roster, checkpoint} = families[family];
@@ -62,7 +65,7 @@ export const initialIds = geographyRoster.previouslyTransferred;
 export const expectedIds = new Set([...initialIds, ...Object.keys(families).flatMap(name => [...selectedIds(name)])]);
 export function expectedRoutes() {
   return new Set([...activeUtilityPaths,'/pages-needing-work','/', ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals,
-    ...snapshot.articles.filter(article => expectedIds.has(article.id)).map(article => article.path)]);
+    ...effectiveSnapshot.articles.filter(article => expectedIds.has(article.id)).map(article => article.path)]);
 }
 export function newestBatch() {
   const current = Object.values(families).filter(family => family.checkpoint.included > 0).at(-1);

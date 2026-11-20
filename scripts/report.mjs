@@ -6,7 +6,7 @@ import {articleFiles, assetRedirects as readRedirects} from './article-files.mjs
 import {recordedSource, correctionLink, portalFiles, repo} from '../src/lib/page-source.mjs';
 import review from '../conversion/reviews.json' with {type:'json'};
 import {load} from 'cheerio';
-import {buildCatalog, categoryPath, origin, policy, snapshot} from '../src/lib/catalog.mjs';
+import {buildCatalog, categoryPath, origin, policy, snapshot, effectiveSnapshot} from '../src/lib/catalog.mjs';
 
 import {verifyGeography} from './geography/verify.mjs';
 import {verifyFactions} from './factions/verify.mjs';
@@ -21,7 +21,7 @@ import blenderChange from '../conversion/pr-43.json' with {type:'json'};
 
 const transferred = articleFiles();
 const assetRedirects = readRedirects('dist/_redirects');
-const atlas = buildCatalog(transferred, snapshot, assetRedirects);
+const atlas = buildCatalog(transferred, effectiveSnapshot, assetRedirects);
 for (const [id, checks] of Object.entries(review.articles)) {
   if (!atlas.byId.get(id)?.filePath) throw Error('Missing local file for reviewed article ' + id);
   for (const proof of Object.values(checks)) if (!existsSync(proof)) throw Error('Missing conversion evidence ' + proof);
@@ -37,6 +37,7 @@ const remainder=verifyFamily('remainder',atlas,assetRedirects),remainderIds=sele
 const remainderSources=JSON.parse(readFileSync('conversion/remainder/reference.json')).articles;
 const manufacturers=verifyFamily('manufacturers',atlas,assetRedirects),manufacturerIds=selectedIds('manufacturers');
 const manufacturerSources=JSON.parse(readFileSync('conversion/manufacturers/reference.json')).articles;
+const pr44=verifyFamily('pr44',atlas,assetRedirects);
 const modding=verifyFamily('modding',atlas,assetRedirects),moddingIds=selectedIds('modding');
 const moddingSources=JSON.parse(readFileSync('conversion/modding/reference.json')).articles;
 const lore=verifyFamily('lore',atlas,assetRedirects),loreIds=selectedIds('lore');
@@ -71,7 +72,7 @@ function record(kind,url,details={}) {
   routes.push({kind,path:url,status:built?'preserved locally':'awaiting conversion',...details});
 }
 for (const a of atlas.byId.values()) {
-  const original = recordedSource(a.sourceFile, a.sourceRevision, snapshot.revision);
+  const original = recordedSource(a.sourceFile, a.sourceRevision, a.historyRevision??snapshot.revision);
   const evidence = {...original, originalCommit:repo+'/commit/'+a.originalCommit,
     license:'https://creativecommons.org/licenses/by-sa/'+a.license+'/', citations:a.evidence ?? [], sourceLinks:a.sourceLinks ?? []};
   if (typeof a.source === 'object') {
@@ -140,14 +141,14 @@ const exclusions=Object.keys(policy.excluded).map(name=>({
 }));
 const memberships=[...initial.categories.values()].reduce((n,g)=>n+g.members.length,0);
 const duplicateCheck=new Set(routes.filter(r=>['article','category','utility','portal','home'].includes(r.kind)).map(r=>r.path));
-if(duplicateCheck.size!==snapshot.articles.length+initial.categories.size+snapshot.utilities.length+snapshot.portals.length+workRoutes.length) throw Error('Overlapping public page identities');
+if(duplicateCheck.size!==effectiveSnapshot.articles.length+initial.categories.size+snapshot.utilities.length+snapshot.portals.length+workRoutes.length) throw Error('Overlapping public page identities');
 if(utilityStage>=4){routes.push({kind:'error',path:'/404.html',status:'preserved locally',noindex:true,canonical:null,missingRequestStatus:404});routes.push({kind:'endpoint',path:'/pagefind/pagefind.js',status:existsSync('dist/pagefind/pagefind.js')?'preserved locally':'missing generated index',disposition:'generated Pagefind 1.6.0 assets under reserved /pagefind/'});}
 const temporaryLinks=Array.from(external,([from,urls])=>({from,to:[...urls].sort()}));
 const articlesAt = state => routes.filter(row=>row.kind==='article' && row[state]).map(row=>row.path);
 const gaps=reportGaps(atlas,review.articles);
 const searchCoverage=utilityStage>=4?JSON.parse(readFileSync('reports/utilities/search-coverage.json')):null;
 if(utilityStage>=4 && temporaryLinks.length)throw Error('Temporary prototype links remain');
-const report={searchCoverage:searchCoverage?{indexed:searchCoverage.indexed,random:searchCoverage.random.count,report:'utilities/search-coverage.json'}:null,remainder,manufacturers,modding,lore,events,gameplay,shops,gaps,races,animals,characters,items,buildings,crafting,technology,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
+const report={searchCoverage:searchCoverage?{indexed:searchCoverage.indexed,random:searchCoverage.random.count,report:'utilities/search-coverage.json'}:null,remainder,manufacturers,pr44,contributions:{baselineArticles:snapshot.articles.length,acceptedAdditions:effectiveSnapshot.articles.length-snapshot.articles.length},modding,lore,events,gameplay,shops,gaps,races,animals,characters,items,buildings,crafting,technology,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
   aliases:policy.aliases,exclusions,temporaryLinks,assetRedirects,blenderChange,routes};
 mkdirSync('reports',{recursive:true});
 writeFileSync('reports/routes.json',JSON.stringify(report,null,2)+'\n');
@@ -157,6 +158,7 @@ const counts=['article','category','portal','home','utility','redirect','endpoin
 });
 const pendingTargets=new Set(temporaryLinks.flatMap(r=>r.to));
 const lines=['# Restoration route report','','Frozen source '+snapshot.revision+'.','',
+  'Immutable baseline: '+snapshot.articles.length+' articles. Separately accepted additions: '+(effectiveSnapshot.articles.length-snapshot.articles.length)+'. Effective registry: '+effectiveSnapshot.articles.length+' articles; addition provenance is retained separately in conversion/additions.json.','',
   '| Route type | Inventoried | Preserved locally |','|---|---:|---:|',...counts,'',
   'The rebuild serves '+atlas.local.size+' HTML pages. The full corpus has '+initial.categories.size+
   ' reader-facing categories and '+memberships.toLocaleString('en-US')+' distinct article memberships.','',
@@ -166,7 +168,7 @@ const lines=['# Restoration route report','','Frozen source '+snapshot.revision+
   'There are '+pendingTargets.size+' distinct temporary live-wiki destinations across these pages, including linked topics and search. Each source page and destination appears in routes.json.','',
   'All '+atlas.byId.size.toLocaleString('en-US')+' articles have permanent IDs, canonical paths and pinned original files. '+
     transferred.length+' have editable FreshWiki files, '+routes.filter(r=>r.formatChecked).length+' are format checked, and '+routes.filter(r=>r.editoriallyReviewed).length+' are editorially reviewed. The title index contains '+atlas.searchTitles.length.toLocaleString('en-US')+' entries.','',
-  'The JSON ledger includes article-level credits, source and correction evidence, and the four deferred guide edits from PR #43.','',
+  'The JSON ledger includes article-level credits, source and correction evidence, and the four accepted guide edits from PR #43.','',
   '## Geography','',
   geography.familyPages+' geography articles are local, including the previously reviewed Catun. '+geography.redirects.length+' frozen redirects to this family are active.',
   geography.verified+' new articles checked against the pinned rendered source, including '+geography.headings+' headings and '+geography.citationTargets+' citation targets. '+geography.assets+' distinct referenced item icons verified.',

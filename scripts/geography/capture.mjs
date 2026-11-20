@@ -1,15 +1,16 @@
 import assert from 'node:assert/strict';
 import {join} from 'node:path';
 import {chromium} from '@playwright/test';
-import {snapshot} from '../../src/lib/catalog.mjs';
+import {snapshot,effectiveSnapshot} from '../../src/lib/catalog.mjs';
 import {families} from '../conversion/batches.mjs';
 
 export async function captureBatch(base, batch, output, family='geography') {
   const {roster}=families[family];
-  const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
+  const articles=new Map(effectiveSnapshot.articles.map(a=>[a.id,a]));
   const extra={
     'representative-structures':batch.ids,'long-reference-material':batch.ids,'world-and-history':batch.ids,'historical-wiki':batch.ids,
     'manufacturer-pilots':batch.ids,'historical-structures':batch.ids,'historical-qualifications':batch.ids,
+    'pr44-contribution':['modding/meitou/code-mod-hooks','modding/meitou/code-mod-hooks#npcs-and-the-world','modding/meitou#make-a-code-mod','modding','particle-script-examples-and-experiments'],
     'modding-fcs':batch.ids,'modding-structures':batch.ids,'modding-pr43':batch.ids,'modding-projects':batch.ids,
     'lore-pilots':batch.ids,'lore-structures':batch.ids,
     'event-pilots':batch.ids,'event-structures':batch.ids,'event-trade-stock':batch.ids,'event-overview-and-routes':['events','world-state-routes','flotsam-ninjas-route','united-cities-route'],
@@ -78,7 +79,7 @@ export async function captureBatch(base, batch, output, family='geography') {
         const route=article?.path ?? '/'+id;
         const url=new URL(route,base);url.searchParams.set('theme',theme);if(anchor)url.hash=anchor;
         const res=await page.goto(url.href,{waitUntil:'domcontentloaded'});
-        const response=res??await page.request.get(url.href);
+        const response=res ?? await page.request.get(url.href); // Same-document fragment navigation has no new response.
         assert.equal(response.status(),200,url.href);if(!res)await response.dispose();
         await page.evaluate(async()=>{await document.fonts.ready;await new Promise(requestAnimationFrame)});
         const geometry=await page.evaluate(()=>{
@@ -120,6 +121,11 @@ export async function captureBatch(base, batch, output, family='geography') {
           await page.screenshot({path:join(output,file),animations:'disabled'});
           shots.push({id,anchor,device,theme,file});
           if(family==='remainder'&&id==='kenshi-dedicated-server-providers'){const region=page.locator('.article-body .table-scroll').first();await region.scrollIntoViewIfNeeded();await region.focus();await page.keyboard.press('End');const file='providers-right-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});}
+          if(family==='pr44' && id==='modding/meitou/code-mod-hooks' && anchor==='npcs-and-the-world' && device==='phone'){
+            const region=page.locator('#npcs-and-the-world').locator('xpath=following-sibling::div[contains(@class,"table-scroll")][1]');
+            await region.evaluate(el=>{el.scrollIntoView({block:'start'});el.focus({preventScroll:true});});await page.keyboard.press('End');await page.evaluate(()=>window.scrollBy(0,-90));
+            const file='hooks-table-right-phone-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,anchor,device,theme,file});
+          }
           if(family==='lore'&& await page.locator('.recorded-item-text').count()){await page.locator('.recorded-item-text').evaluate(el=>{el.scrollIntoView({block:'start'});if(innerWidth<600)window.scrollBy(0,-90)});const file=id+'-text-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});}
           if(family==='events'&& await page.locator('.factbox').count()){await page.locator('.factbox').evaluate(el=>{el.scrollIntoView({block:'start'});if(innerWidth<600)window.scrollBy(0,-90)});const file=id+'-facts-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});}
           if(family==='gameplay'&&['statistics','science','wheatstraw-60-or-cactus-100'].includes(id)&&device==='phone'){const region=page.locator('.gameplay-wide').first().locator('..');await region.evaluate(el=>{el.scrollIntoView({block:'start'});el.focus({preventScroll:true});});await page.keyboard.press('End');await region.evaluate(el=>{el.scrollIntoView({block:'start'});window.scrollBy(0,-90);});const right=id+'-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}

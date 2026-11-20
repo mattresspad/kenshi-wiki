@@ -1,0 +1,86 @@
+{
+  "status": "accepted locally; original PR remains open",
+  "baselineRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "head": "7306cfe75c41260de3186d1c1fffeaf68e61bb89",
+  "originalCommits": [
+    "cabc97de5fdfa6dc135c48eee304460e70ccc598",
+    "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+  ],
+  "author": "teppuM",
+  "license": "CC BY-SA 4.0",
+  "sourceBlob": "3d282875f7f887b55b2260f326c7e0beb913cd2a",
+  "originalSha256": "3e84bdf076f481328025f7f6222333a9969976de977e4fadf9e6ece0ebf6db4d",
+  "adaptedSha256": "3cbda842dcbed0a92960d643e173f8bc30de450ad568e656581eb8dc9ab143d6",
+  "bookmarks": [
+    "rules-to-know-first",
+    "running-your-own-logic",
+    "combat",
+    "characters-and-bodies",
+    "items-and-trade",
+    "dialogue-crime-and-factions",
+    "the-players-squads",
+    "npcs-and-the-world",
+    "interface-and-sound",
+    "working-with-other-mods"
+  ],
+  "tables": 9,
+  "hookRows": 71,
+  "registry": {
+    "id": "modding/meitou/code-mod-hooks",
+    "path": "/modding/meitou/code-mod-hooks",
+    "title": "Code mod hooks",
+    "source": "original",
+    "categories": [
+      "Modding"
+    ],
+    "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+    "sourceRevision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89",
+    "historyRevision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89",
+    "originalCommit": "cabc97de5fdfa6dc135c48eee304460e70ccc598",
+    "credit": "teppuM",
+    "license": "4.0",
+    "evidence": [
+      "https://github.com/mattresspad/kenshi-wiki/pull/44"
+    ],
+    "contribution": {
+      "pr": 44,
+      "url": "https://github.com/mattresspad/kenshi-wiki/pull/44",
+      "commits": [
+        "cabc97de5fdfa6dc135c48eee304460e70ccc598",
+        "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+      ],
+      "adaptation": "FreshWiki version-qualified adaptation; source inspection, not an in-game test.",
+      "matrix": "/notices/code-mod-hooks-evidence.json"
+    }
+  },
+  "incoming": {
+    "directory": "src/content/articles/modding/meitou.md",
+    "html": "<p data-contribution=\"pr-44\">For a versioned overview of extension points and their limits, see <a href=\"/modding/meitou/code-mod-hooks\">Code mod hooks</a>.</p>",
+    "portal": "src/data/modding.json"
+  },
+  "branch": "integration/pr-44-code-mod-hooks",
+  "publicAction": "At separately approved public milestone: credited FreshWiki PR from integration/pr-44-code-mod-hooks to rebuild/restoration. Cross-reference #44; keep it open until replacement is merged and disposition recorded. Never merge prototype ancestry.",
+  "verification": "Pinned source inspection only; no runtime guarantee. Original claims retained in version-evidence.json.",
+  "presentation": [
+    "Use available desktop width for three-column hook tables; reserve 24% for identifiers and 38% each for behavior and limits, with a 56rem minimum so each prose column fits the 390px phone reading pane.",
+    "Retain independent phone scrolling, keyboard Home/End navigation, original table order and all ten section bookmarks."
+  ],
+  "acceptanceAttempts": [
+    {
+      "attempt": 1,
+      "disposition": "Stopped after visual preflight found same-document screenshot navigation; helper corrected."
+    },
+    {
+      "attempt": 2,
+      "disposition": "Stopped after visual review found cramped identifier column; table widths corrected."
+    },
+    {
+      "attempt": 3,
+      "disposition": "Stopped to keep each prose column within the phone reading pane; added explicit width regression."
+    },
+    {
+      "attempt": 4,
+      "disposition": "Full browser run found one baseline-only search expectation (2189). Changed it to the exact effective registry and contribution history revision; production output already had the correct 2190 entries."
+    }
+  ]
+}

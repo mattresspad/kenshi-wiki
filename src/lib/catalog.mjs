@@ -3,7 +3,13 @@ import {workRoute,workIndexRoute,isWorkRoute} from './work-routes.mjs';
 import policy from '../../conversion/category-policy.json' with { type: 'json' };
 import snapshot from '../../conversion/reference.json' with { type: 'json' };
 
-export { snapshot, policy };
+import additions from '../../conversion/additions.json' with {type:'json'};
+export { snapshot, policy, additions };
+export function composeRegistry(base, added) {
+  if(added.baselineRevision!==base.revision) throw Error('Addition baseline mismatch');
+  return {...base,articles:[...base.articles,...added.articles]};
+}
+export const effectiveSnapshot=composeRegistry(snapshot,additions);
 export const origin = 'https://kenshi.wiki';
 export {repo} from './page-source.mjs';
 
@@ -25,7 +31,7 @@ function claim(map, key, owner) {
   map.set(key, owner);
 }
 
-export function buildCatalog(entries = [], reference = snapshot, deployedRedirects = []) {
+export function buildCatalog(entries = [], reference = effectiveSnapshot, deployedRedirects = []) {
   const byId = new Map();
   const articles = new Map();
   const publicPaths = new Map();

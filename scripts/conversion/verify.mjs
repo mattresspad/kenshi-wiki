@@ -3,7 +3,7 @@ import {readFileSync} from 'node:fs';
 import {load} from 'cheerio';
 import {articleEvidence, hash} from '../geography/evidence.mjs';
 import {families, selectedIds, expectedIds, expectedRoutes} from './batches.mjs';
-import {snapshot} from '../../src/lib/catalog.mjs';
+import {snapshot,effectiveSnapshot} from '../../src/lib/catalog.mjs';
 
 const fragmentIndexes=new WeakMap();
 export function verifyFamily(name, atlas, assetRedirects) {
@@ -15,7 +15,7 @@ export function verifyFamily(name, atlas, assetRedirects) {
   assert.equal(roster.revision,snapshot.revision);
   assert.deepEqual(new Set([...atlas.byId.values()].filter(a=>a.filePath).map(a=>a.id)),expectedIds,'Unexpected transferred IDs');
   assert.deepEqual(atlas.local,expectedRoutes(),'Unexpected local routes');
-  const original=new Map(snapshot.articles.map(a=>[a.id,a]));
+  const original=new Map(effectiveSnapshot.articles.map(a=>[a.id,a]));
   const issues=[],unknown=[],emptyGalleries=[],assets=new Set();
   const registered=new Set([...original.values()].map(record=>record.path));
   for(const path of [...snapshot.portals,...snapshot.utilities,...snapshot.endpoints,...snapshot.redirects.map(rule=>rule.from),...[...atlas.categories.values()].map(category=>category.path)]) registered.add(path);
@@ -29,7 +29,12 @@ export function verifyFamily(name, atlas, assetRedirects) {
   fragmentIndexes.set(atlas,otherLocalIds);}
   for(const id of actual) {
     const record=atlas.byId.get(id),html=readFileSync('dist'+record.path+'.html','utf8'),$=load(html);
-    const expected=fixture.articles[id],proof=articleEvidence(html,false,roster.layouts?.[id]??(name==='items'?'item':name==='buildings'?'building':name==='shops'?'shop':name==='gameplay'?'gameplay':name==='events'?'event':name==='lore'?'lore':name==='modding'?'modding':false));
+    let comparableHtml=html;
+    if(name==='modding' && id==='modding/meitou' && record.filePath && atlas.byId.get('modding/meitou/code-mod-hooks')?.filePath){
+      const incoming=$('[data-contribution="pr-44"]');assert.equal(incoming.length,1);assert.equal(incoming.find('a').attr('href'),'/modding/meitou/code-mod-hooks');
+      const copy=load(html);copy('[data-contribution="pr-44"]').remove();comparableHtml=copy.html();
+    }
+    const expected=fixture.articles[id],proof=articleEvidence(comparableHtml,false,roster.layouts?.[id]??(name==='items'?'item':name==='buildings'?'building':name==='shops'?'shop':name==='gameplay'?'gameplay':name==='events'?'event':name==='lore'?'lore':['modding','pr44'].includes(name)?'modding':false));
     for(const key of Object.keys(expected)) assert.deepEqual(proof[key],expected[key],id+' — '+key);
     assert.deepEqual(record.categories,original.get(id).categories,id+' categories');
     assert.equal($('link[rel=canonical]').attr('href'),'https://kenshi.wiki'+record.path);

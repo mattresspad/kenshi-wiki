@@ -22,7 +22,7 @@ const {intro,body,outline,buildingPanel}=prepareArticle(entry.rendered?.html,dat
 const importedGeography = ['geography','faction','race','animal','character','item','building','crafting','technology','shop','gameplay','event','lore','modding'].includes(data.layout);
 if (importedGeography) outline.push({id:'source-history', label:'Sources and history', children:[]});
 const categories=displayCategories(data.categories);
-const source=recordedSource(article.sourceFile, article.sourceRevision, snapshot.revision);
+const source=recordedSource(article.sourceFile, article.sourceRevision, article.historyRevision??snapshot.revision);
 const history=source.history;
 const correction=correctionLink(origin+article.path);
 ---

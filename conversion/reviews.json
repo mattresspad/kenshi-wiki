@@ -6854,6 +6854,10 @@
     "dedicated-server-providers/rules": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/remainder/review.json"
+    },
+    "modding/meitou/code-mod-hooks": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/pr-44/review.json"
     }
   },
   "mediaGaps": [

@@ -1,0 +1,17 @@
+{
+  "baselineNormalization": "conversion/modding/repeatability.json",
+  "contributionNormalization": "LF and final newline; authored frontmatter and body retained",
+  "contributionSHA256": "b65466a882809b90526a648ad205cbf4bcd48dd5adf31126224e78a0b8e1aebe",
+  "passes": 2,
+  "unchanged": true,
+  "retainedHashes": {
+    "conversion/reference.json": "f5b7c892bc121c1b20baeed52c02d6363c452aaad6bb881c86df91199f09b576",
+    "conversion/gaps/source.json": "86c1c85266138d239b7ce90fbf078c8dae44242764d313cfe9d3bafcbacf172c",
+    "conversion/gaps/register.json": "f65ea272deae1fb999739b2df6ef96b7308269f5dd2d67bd61c5d41fc352c84e",
+    "conversion/gaps/resolutions.json": "d4fb2eb0aad93406abca6c3784d8d343a10f01f270ad6d8a588eefeeaa230c0d",
+    "conversion/pr-44/gap-source.json": "64b42c15f912173ddca614a08455bbdc46ade2ef3f816d7ef164b8274a707929",
+    "conversion/pr-44/gap-findings.json": "cdd094c921f09a574b7c22ac1df00b6bef1491c7164fb9185f0cc93459033236",
+    "conversion/pr-44/version-evidence.json": "8b11f2972ab8871cd9f731b75d0cd77047d7f24f869ec90aa55cf4e04ccb43cf"
+  },
+  "composedGapReportSHA256": "b05e914061fef35faa224b924277790b6effaaddfcb6bfab0d6b14979b58187f"
+}

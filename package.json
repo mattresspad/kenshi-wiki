@@ -8,7 +8,7 @@
     "build": "node scripts/check-articles.mjs && astro build && node scripts/search.mjs && node scripts/package.mjs && node scripts/report.mjs",
     "preview": "node scripts/preview.mjs",
     "test": "playwright test",
-    "test:catalog": "node --test tests/catalog.test.mjs tests/faction-format.test.mjs tests/race-format.test.mjs tests/gaps.test.mjs tests/warm-move.test.mjs tests/animal-format.test.mjs tests/character-format.test.mjs tests/item-format.test.mjs tests/building-format.test.mjs tests/technology-format.test.mjs tests/shop-format.test.mjs tests/gameplay-format.test.mjs tests/event-format.test.mjs tests/lore-format.test.mjs tests/work-index.test.mjs tests/utilities.test.mjs tests/release.test.mjs",
+    "test:catalog": "node --test tests/catalog.test.mjs tests/faction-format.test.mjs tests/race-format.test.mjs tests/gaps.test.mjs tests/warm-move.test.mjs tests/animal-format.test.mjs tests/character-format.test.mjs tests/item-format.test.mjs tests/building-format.test.mjs tests/technology-format.test.mjs tests/shop-format.test.mjs tests/gameplay-format.test.mjs tests/event-format.test.mjs tests/lore-format.test.mjs tests/work-index.test.mjs tests/utilities.test.mjs tests/release.test.mjs tests/additions.test.mjs",
     "package:check": "cf workers versions create --prebuilt --dry-run",
     "inventory": "node scripts/inventory.mjs",
     "report": "node scripts/report.mjs",
@@ -33,7 +33,8 @@
     "utilities:accept": "node scripts/utilities/accept.mjs",
     "release:check": "node scripts/release/check.mjs",
     "release:stage": "node scripts/release/stage.mjs",
-    "release:verify": "node scripts/release/verify-remote.mjs"
+    "release:verify": "node scripts/release/verify-remote.mjs",
+    "pr44:accept": "node scripts/conversion/accept.mjs pr44"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",

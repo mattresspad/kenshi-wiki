@@ -9,4 +9,5 @@ const originalFile = 'https://github.com/mattresspad/kenshi-wiki/blob/' + articl
   {original ? <p>Written by {article.credit}, under <a href={'https://creativecommons.org/licenses/by-sa/' + article.license + '/'}>CC BY-SA {article.license}</a>. <a href={originalFile}>Original guide or article revision</a>.</p> :
   <p>Adapted from <a href={fandom + '?oldid=' + article.source.revision}>{article.source.title}, revision {article.source.revision}</a>,
     by <a href={fandom + '?action=history'}>{article.credit}</a>, under <a href={'https://creativecommons.org/licenses/by-sa/' + article.license + '/'}>CC BY-SA {article.license}</a>.</p>}
+  {article.contribution && <p>Adapted for FreshWiki from <a href={article.contribution.url}>PR #{article.contribution.pr}</a>. Original commits: {article.contribution.commits.map(commit=><a href={'https://github.com/mattresspad/kenshi-wiki/commit/'+commit}>{commit.slice(0,7)} </a>)}. {article.contribution.adaptation} <a href={article.contribution.matrix}>Version evidence</a>.</p>}
 </section>

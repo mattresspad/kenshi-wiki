@@ -29,6 +29,14 @@
           "description": "Browse community releases for MeitouClient, meet their creators, and learn how to make a code mod."
         },
         {
+          "id": "modding/meitou/code-mod-hooks",
+          "description": "Check selected code-mod hooks against released, nightly and later source versions, with ownership and failure limits.",
+          "credit": {
+            "label": "Guide by teppuM",
+            "evidence": "https://github.com/mattresspad/kenshi-wiki/pull/44"
+          }
+        },
+        {
           "id": "modding/meitou/porting-re-kenshi-mods",
           "description": "Take one feature from an RE_Kenshi mod and find out which records, assets or code it needs on Meitou."
         },
