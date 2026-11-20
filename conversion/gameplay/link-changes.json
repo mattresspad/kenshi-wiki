@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "name": "gameplay-pilots",
+    "resolved": [
+      "/category/combat",
+      "/category/guides",
+      "/category/statistics",
+      "/category/world-data",
+      "/controls",
+      "/gameplay",
+      "/jobs",
+      "/skills",
+      "/statistics",
+      "/strength"
+    ],
+    "introduced": [
+      "/cooking-skill",
+      "/custom-character-model-and-rigging-to-kenshi-armature",
+      "/damage/limb-data",
+      "/fcs-new-abilities-on-version-1.0.65-onwards",
+      "/free-camera-mode",
+      "/getting-started",
+      "/glitchmakers-general-guide",
+      "/global-game-settings",
+      "/loading-screen",
+      "/money-making-strategies-crafting-guide",
+      "/shopkeepers-backpack",
+      "/town-size-vs-map-icon-town-level-icons"
+    ]
+  }
+]

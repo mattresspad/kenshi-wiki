@@ -2983,6 +2983,17 @@
       }
     },
     {
+      "id": "availability:/category/combat",
+      "kind": "availability",
+      "target": "/category/combat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#gameplay-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/combat"
+      }
+    },
+    {
       "id": "availability:/category/crossbows",
       "kind": "availability",
       "target": "/category/crossbows",
@@ -2991,6 +3002,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/category/crossbows"
+      }
+    },
+    {
+      "id": "availability:/category/guides",
+      "kind": "availability",
+      "target": "/category/guides",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#gameplay-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/guides"
       }
     },
     {
@@ -3035,6 +3057,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/category/spawning-locations"
+      }
+    },
+    {
+      "id": "availability:/category/statistics",
+      "kind": "availability",
+      "target": "/category/statistics",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#gameplay-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/statistics"
       }
     },
     {
@@ -3519,6 +3552,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/construction"
+      }
+    },
+    {
+      "id": "availability:/controls",
+      "kind": "availability",
+      "target": "/controls",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#gameplay-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/controls"
       }
     },
     {
@@ -6679,6 +6723,17 @@
       }
     },
     {
+      "id": "availability:/gameplay",
+      "kind": "availability",
+      "target": "/gameplay",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#gameplay-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/gameplay"
+      }
+    },
+    {
       "id": "availability:/garret",
       "kind": "availability",
       "target": "/garret",
@@ -9690,6 +9745,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/jitte"
+      }
+    },
+    {
+      "id": "availability:/jobs",
+      "kind": "availability",
+      "target": "/jobs",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#gameplay-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/jobs"
       }
     },
     {
@@ -17074,6 +17140,17 @@
       }
     },
     {
+      "id": "availability:/statistics",
+      "kind": "availability",
+      "target": "/statistics",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#gameplay-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/statistics"
+      }
+    },
+    {
       "id": "availability:/steady-arm-left",
       "kind": "availability",
       "target": "/steady-arm-left",
@@ -17764,6 +17841,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/strayed-paladin"
+      }
+    },
+    {
+      "id": "availability:/strength",
+      "kind": "availability",
+      "target": "/strength",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/gameplay/acceptances.json#gameplay-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/strength"
       }
     },
     {

@@ -21,6 +21,8 @@
 /armoured-rags-black /armoured-rags 301
 /armoured-rags-colored /armoured-rags 301
 /assassin-training /assassin-training-tech 301
+/athletic-skills /statistics 301
+/attributes /statistics 301
 /automated-mining-tech /automated-mining-tech-tech 301
 /automated-ore-mines /ore-drill-tech 301
 /automated-ore-mines-tech /ore-drill-tech 301
@@ -60,6 +62,7 @@
 /clothing-traders /equipment-shops 301
 /clownsteady-empire-peasants /clownsteady/empire-peasants 301
 /club /iron-club 301
+/combat-skills /statistics 301
 /composite-runners /composite-runners-tech 301
 /corpse-disposal /corpse-disposal-tech 301
 /crossbow-class /crossbows 301
@@ -165,6 +168,7 @@
 /rum-tech /rum-brewing-tech 301
 /sabre /sabres 301
 /sand-ninja-jouin /sand-ninja-jounin 301
+/science-skills /statistics 301
 /search-lights /search-lights-tech 301
 /set /holy-nation-female-adventurer 301
 /settlements /world-of-kenshi 301
@@ -175,6 +179,7 @@
 /sho-battai-cannibals /sho-battai/cannibals 301
 /shop-guard-holy /holy-shop-guard 301
 /short-katana /wakizashi 301
+/skills /statistics 301
 /slave-farm-south-free-traders /slave-farm-south/free-traders 301
 /slaver-bar /slaver-barracks 301
 /slavers /slave-traders 301
@@ -210,10 +215,12 @@
 /the-hidden-forest /hidden-forest 301
 /thief-training /thievery-training-tech 301
 /thief-training-tech /thievery-training-tech 301
+/thievery-skills /statistics 301
 /towns /major-towns 301
 /trade-goods-trader-holy /trade-goods-trader-generic 301
 /trade-goods-trader-holy-nation /trade-goods-trader-generic 301
 /trade-ninjas-bar /black-market-bar 301
+/trade-skills /statistics 301
 /trader-caravanhive /hiver-trader-caravan 301
 /traders-backpack /traders-wooden-backpack 301
 /training-dummy-mki /training-dummy 301
@@ -221,6 +228,7 @@
 /unique-npcs-hireable /unique-recruits 301
 /valley-of-okran /okrans-valley 301
 /weapon-melting /weapon-melting-tech 301
+/weapon-skills /statistics 301
 /weapon-smith-building /weapon-smithing-bench 301
 /weapon-smith-i /weapon-smithing-bench 301
 /weapon-smith-ii /weapon-smithing-bench 301

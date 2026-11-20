@@ -1,3 +1,4 @@
+import {expectedIds as acceptedArticleIds} from '../scripts/conversion/batches.mjs';
 import { test, expect } from '@playwright/test';
 import { load } from 'cheerio';
 import evidence from './restored-articles.json' with {type: 'json'};
@@ -222,8 +223,8 @@ for (const phone of [false,true]) for (const palette of ['light','dark']) {
       }
       await expect(table.getByRole('link',{name:'Dodge'})).toBeInViewport();
       expect(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth)).toBe(0);
-      await page.route(origin+'/dodge',route=>route.fulfill({contentType:'text/html',body:'<title>Dodge</title>'}));
-      await table.getByRole('link',{name:'Dodge'}).click();await expect(page).toHaveURL(origin+'/dodge');
+      if(!acceptedArticleIds.has('dodge'))await page.route(origin+'/dodge',route=>route.fulfill({contentType:'text/html',body:'<title>Dodge</title>'}));
+      await table.getByRole('link',{name:'Dodge'}).click();await expect(page).toHaveURL(acceptedArticleIds.has('dodge')?new URL('/dodge',page.url()).href:origin+'/dodge');
     });
   });
 }

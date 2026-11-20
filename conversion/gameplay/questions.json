@@ -108,5 +108,55 @@
     "Reused faction/override guides retain conditional relationships, costs and world-state claims needing versioned validation.",
     "Check faction-specific gates, prisoner status and override priorities against recorded game observations.",
     "Conversion and availability restoration do not verify thresholds or world-state mechanics."
+  ],
+  [
+    "gameplay-incomplete-recoil",
+    [
+      "martial-arts"
+    ],
+    "Cut =|Stun =",
+    "The blocked-opponent recoil formula leaves Cut and Stun values blank.",
+    "Inspect original revision and obtain versioned formula evidence before completing it.",
+    "Blank expressions are incomplete content, not zero damage."
+  ],
+  [
+    "gameplay-dexterity-example",
+    [
+      "dexterity"
+    ],
+    "55%|Skeleton Arms|1.875",
+    "The imported two-Skeleton-Arm +55% example does not match the stated multiplicative 25% bonuses or later 1.875x example.",
+    "Verify quality, rounding and base bonuses before correcting either expression.",
+    "Arithmetic discrepancy identified; game interpretation remains unverified."
+  ],
+  [
+    "gameplay-wheatstraw-water-example",
+    [
+      "wheatstraw-60-or-cactus-100"
+    ],
+    "21.03|0.25",
+    "The Chewsticks worked water expression uses 0.25 yet totals 21.03; the earlier recipe states one Water.",
+    "Reconcile recipe quantity and example arithmetic using a pinned game version; preserve source values until verified.",
+    "The conversion does not choose which input was intended."
+  ],
+  [
+    "gameplay-bounty-truncated",
+    [
+      "bounty"
+    ],
+    "same Besides|same$",
+    "The opening slavery explanation ends abruptly after same, before the next paragraph.",
+    "Compare the Fandom revision and recover omitted text with attribution if available.",
+    "Do not infer which owner or faction the missing clause described."
+  ],
+  [
+    "gameplay-shopping-inactive-fields",
+    [
+      "npc-shopping-behavior"
+    ],
+    "no effect|bugged|wages",
+    "Shopping tables expose money and wages fields which the article says are ineffective or only granted once.",
+    "Keep caveat with comparison and validate the wage bug on a pinned version.",
+    "Sorting values does not imply they govern current spending."
   ]
 ]

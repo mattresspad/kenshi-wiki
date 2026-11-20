@@ -4,7 +4,7 @@ import {snapshot} from '../../src/lib/catalog.mjs';
 const family=process.argv[2];assert.ok(['crafting','technology','shops','gameplay'].includes(family));
 const roster=JSON.parse(readFileSync('conversion/'+family+'/roster.json')),baseline=JSON.parse(readFileSync('conversion/gaps/source.json'));
 const sources=new Map(baseline.pages.map(p=>[p.id,p])),records=new Map(snapshot.articles.map(a=>[a.id,a]));
-const batch=roster.batches.find(b=>b.name===process.argv[3]);assert.ok(batch,'Specify a frozen batch');
+const batch=process.argv[3]==='reused-reviews'?{name:'reused-reviews',ids:roster.reviewExisting??[]}:roster.batches.find(b=>b.name===process.argv[3]);assert.ok(batch,'Specify a frozen batch');
 const rows=[];for(const id of batch.ids){
  const a=records.get(id),s=sources.get(id),raw=readFileSync('reports/geography-work/reference-83abc179/'+a.sourceFile,'utf8').replaceAll('\r\n','\n');assert.equal(createHash('sha256').update(raw).digest('hex'),s.sourceSha256,id);
  const $=load(readFileSync('reports/geography-work/reference-83abc179/dist'+a.path+'.html','utf8')),area=$('.mw-parser-output').clone();area.children('.infobox,.fandom-notice').remove();

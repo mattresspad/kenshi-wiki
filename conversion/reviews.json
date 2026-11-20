@@ -5450,6 +5450,22 @@
     "worker-hut": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/shops/review.json"
+    },
+    "statistics": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "strength": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "jobs": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
+    },
+    "controls": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/gameplay/review.json"
     }
   },
   "mediaGaps": [
