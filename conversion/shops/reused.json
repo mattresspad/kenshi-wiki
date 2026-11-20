@@ -1,0 +1,194 @@
+{
+  "baseRevision": "7e956f6",
+  "articles": [
+    {
+      "id": "armour-king",
+      "file": "src/content/articles/characters/armour-king.md",
+      "sha256": "f6f53b0f573ae2f58afd7010f9b70a25734d7533c7752e68679ffad86b6ff743",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/armour-king.md"
+    },
+    {
+      "id": "bookshop-trader",
+      "file": "src/content/articles/characters/bookshop-trader.md",
+      "sha256": "bdde4ae4f70bafa823d7e1252e93d6c41913c72797a4e262dbbfd7e21b384dcd",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/bookshop-trader.md"
+    },
+    {
+      "id": "boot-trader",
+      "file": "src/content/articles/characters/boot-trader.md",
+      "sha256": "cd5ce3a1612131621c8d3bd92d6d044e6d291cca026602aed3e3666f1d687c0a",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/boot-trader.md"
+    },
+    {
+      "id": "caravan-trader-boss",
+      "file": "src/content/articles/characters/caravan-trader-boss.md",
+      "sha256": "bda83fc4777ec477d77b77c66b931056878ab6b22e933534c1992f2de9e84adb",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/caravan-trader-boss.md"
+    },
+    {
+      "id": "crab-barman",
+      "file": "src/content/articles/characters/crab-barman.md",
+      "sha256": "fed8a48ad9b242a49b054534da2b908c5161ca06a48d1a31a5b9e29b5d49b5fe",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/crab-barman.md"
+    },
+    {
+      "id": "crabsmith",
+      "file": "src/content/articles/characters/crabsmith.md",
+      "sha256": "d3a33c92f69bb270c45cf00aff84a21d3ab195f7ebdc6066259982b585ed46f4",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/crabsmith.md"
+    },
+    {
+      "id": "fish-and-drugs-seller",
+      "file": "src/content/articles/characters/fish-and-drugs-seller.md",
+      "sha256": "d816b5eac56f20e9732b9926deb7c94771da3ff31ab97b968721984afee21c79",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/fish-and-drugs-seller.md"
+    },
+    {
+      "id": "hive-caravan-boss",
+      "file": "src/content/articles/characters/hive-caravan-boss.md",
+      "sha256": "68862b82b8ee54c4d2fd8424321dcf8c3ad0b8d0044eacfc05be0245401a7980",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/hive-caravan-boss.md"
+    },
+    {
+      "id": "hive-trader-character",
+      "file": "src/content/articles/characters/hive-trader-character.md",
+      "sha256": "5cb779acd1288ace7e2e6a9566d328a6db8f91f132042cd2e16fdceb4852c68c",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/hive-trader-character.md"
+    },
+    {
+      "id": "holy-armour-trader",
+      "file": "src/content/articles/characters/holy-armour-trader.md",
+      "sha256": "798c03782d512e477236154ba397da550fae240073ef12e3f1a220e0d37b95fa",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/holy-armour-trader.md"
+    },
+    {
+      "id": "holy-boot-trader",
+      "file": "src/content/articles/characters/holy-boot-trader.md",
+      "sha256": "e6a9e83aa17e6a05510f422aee184009b1548cd650528cd7a7ca75c9751af448",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/holy-boot-trader.md"
+    },
+    {
+      "id": "holy-construction-trader",
+      "file": "src/content/articles/characters/holy-construction-trader.md",
+      "sha256": "862f71933136e4dc71ce48bf824dc769bddead1dfff3c8951b423579af8becab",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/holy-construction-trader.md"
+    },
+    {
+      "id": "holy-farm-leader",
+      "file": "src/content/articles/characters/holy-farm-leader.md",
+      "sha256": "e7b979339a782e9defb3a35f7887d5fc0d5949e1381ec2c8ebf0d27cd3559a6a",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/holy-farm-leader.md"
+    },
+    {
+      "id": "holy-weapon-trader",
+      "file": "src/content/articles/characters/holy-weapon-trader.md",
+      "sha256": "65b987a90ed4b9240eafbc26993f087b646badcd56de99f06174bbb8b410bca9",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/holy-weapon-trader.md"
+    },
+    {
+      "id": "nomad-animal-trader",
+      "file": "src/content/articles/characters/nomad-animal-trader.md",
+      "sha256": "8fbfd67308118f7efef058323e89b29c24f350c0586a787f9d8d5595ad737f3a",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/nomad-animal-trader.md"
+    },
+    {
+      "id": "ronin-armour-trader",
+      "file": "src/content/articles/characters/ronin-armour-trader.md",
+      "sha256": "dddda293ad16e37f1b38881bfe624732a8e88c5a73164298fe9382e88a1a9a33",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/ronin-armour-trader.md"
+    },
+    {
+      "id": "ronin-construction-trader",
+      "file": "src/content/articles/characters/ronin-construction-trader.md",
+      "sha256": "c514890798c65329a2e365cebdf5a4cb10ba6ee12379cc79c120d7a07796dc8c",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/ronin-construction-trader.md"
+    },
+    {
+      "id": "ronin-crossbow-trader",
+      "file": "src/content/articles/characters/ronin-crossbow-trader.md",
+      "sha256": "594a6fd1cb54a489172eb238ba762f14ce44bd703c05ac467340eb516a87c933",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/ronin-crossbow-trader.md"
+    },
+    {
+      "id": "ronin-hat-trader",
+      "file": "src/content/articles/characters/ronin-hat-trader.md",
+      "sha256": "aaaf520efc39c420f8a4e6738b51dcac93af30d5dce52061fc63338abcdc4623",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/ronin-hat-trader.md"
+    },
+    {
+      "id": "ronin-weapon-trader",
+      "file": "src/content/articles/characters/ronin-weapon-trader.md",
+      "sha256": "df81f7a8a8345c50ae2af3fcdfd497caceaa278e0fa65433afc133191574d40a",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/ronin-weapon-trader.md"
+    },
+    {
+      "id": "scraphouse",
+      "file": "src/content/articles/locations/sites/scraphouse.md",
+      "sha256": "3becea58235fe1650958d4975797404734b4022ff35cceb3040b0ac6466c6f1b",
+      "review": "conversion/shops/review.json",
+      "source": "7e956f6:src/content/articles/locations/sites/scraphouse.md"
+    },
+    {
+      "id": "shinobi-trader",
+      "file": "src/content/articles/characters/shinobi-trader.md",
+      "sha256": "ea3f379e5f334c34e991088bc0fd1503788afa2f5e44267371e1101d233d4ecf",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/shinobi-trader.md"
+    },
+    {
+      "id": "thief-fence",
+      "file": "src/content/articles/characters/thief-fence.md",
+      "sha256": "58bbf2b59c7f14a220ac6cc157b648a2b8243353f8a7457fff837c8b08c9cb4d",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/thief-fence.md"
+    },
+    {
+      "id": "trade-goods-shopkeeper",
+      "file": "src/content/articles/characters/trade-goods-shopkeeper.md",
+      "sha256": "507a30e5716acfda8af233212e1ff48392043b05665281988ece34d1ef994f89",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/trade-goods-shopkeeper.md"
+    },
+    {
+      "id": "uc-armour-trader",
+      "file": "src/content/articles/characters/uc-armour-trader.md",
+      "sha256": "2891e9652fbe42842b09e465bec59b6ca0c928361488158aa4cf88982422dcd1",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/uc-armour-trader.md"
+    },
+    {
+      "id": "uc-hat-vendor",
+      "file": "src/content/articles/characters/uc-hat-vendor.md",
+      "sha256": "e03e122792b958ca4c83228da38dda9e40fbb5908f10299622e7d0382d660621",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/uc-hat-vendor.md"
+    },
+    {
+      "id": "uc-weapon-trader",
+      "file": "src/content/articles/characters/uc-weapon-trader.md",
+      "sha256": "930197f6a9447e180d64488221e1e3008b79f3eea95e7133b7278d97e61bd80b",
+      "review": "conversion/characters/review.json",
+      "source": "7e956f6:src/content/articles/characters/uc-weapon-trader.md"
+    }
+  ]
+}

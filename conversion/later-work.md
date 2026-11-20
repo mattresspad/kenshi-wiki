@@ -1,6 +1,6 @@
 # Separately scoped follow-up ideas
 
-These are a scratchpad, not acceptance requirements or implementation commitments for Crafting / Construction or Technology.
+These are a scratchpad, not acceptance requirements or implementation commitments for Crafting / Construction, Technology or Shops.
 
 - Article-specific Sources drawer/footer treatment.
 - Category links in their dedicated subheader.
@@ -9,7 +9,7 @@ These are a scratchpad, not acceptance requirements or implementation commitment
 - KDT-backed sourcing and validation, separate from conversion.
 - Versioned graph/DataFlows maintenance companion.
 
-The following shops/residents/traders family is frozen in following-shops.json: 125 pending IDs, with existing IDs reused. Plan its pilots after this review. Public restoration, software licensing, branch replacement and production cutover retain separate approvals.
+The shops/residents/traders family is complete for local review: 125 additions and 27 reused files. Its original selection remains in following-shops.json; acceptance and unresolved findings are recorded under shops/. Public restoration, software licensing, branch replacement and production cutover retain separate approvals.
 
 ## Post-conversion Robotics / limb-research pilot — record only
 

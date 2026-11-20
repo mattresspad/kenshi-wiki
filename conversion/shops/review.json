@@ -2023,6 +2023,11 @@
       "id": "shop-record-label",
       "change": "Label existing record-ID paragraphs for assistive technology without changing the identifier or source order.",
       "evidence": "src/lib/shop-tables.mjs"
+    },
+    {
+      "id": "compact-article-label",
+      "change": "Keep long article names on one line in the compact header with an ellipsis. Preserve the full accessible name, opened menu label and wrapping article heading. Verified with the vendor-list tutorial in both phone palettes.",
+      "evidence": "src/components/Header.astro; src/styles/restoration.css; tests/shops.spec.mjs"
     }
   ]
 }

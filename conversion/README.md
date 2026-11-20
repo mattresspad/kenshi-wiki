@@ -60,3 +60,7 @@ The 504-member Characters family is recorded in [characters/README.md](character
 ## Crafting and Technology
 
 Crafting/Construction and Technology retain separate rosters and editorial homes under gameplay/. See [the research conversion conventions](technology/README.md). The following shops/residents/traders roster is frozen separately in [following-shops.json](following-shops.json); later design and technical ideas remain in [later-work.md](later-work.md).
+
+## Shops, Residents and Traders local handoff
+
+[Shops](shops/README.md) completes the frozen 152-ID union: 125 additions and 27 reused files, with 126 new content/organization reviews including Scraphouse. The preview contains 1,838 articles and 1,864 HTML pages. Town Residents, Traders and Vendors retain exactly 105, 43 and 92 members. All ten acceptances preserve source content, gaps, attribution and separate transfer/review states. The handoff records 346 untransferred articles and 467 earlier local articles still awaiting editorial review; this is not a claim of corpus completeness.

@@ -11,3 +11,11 @@ Every new article receives existence, content and organization notes; Scraphouse
 Each batch runs build, catalog, full browser and Cloudflare package dry-run checks. Its route and gap reports, temporary destinations and representative desktop/phone captures are retained under reports/shops. Public restoration, licensing, branch replacement, production and technical-data integration remain separate milestones.
 
 Per-article transformations are recorded in normalization.json: 150 decorative separator rows are removed across the 125 sources, and every normalized result is unchanged on a second pass. Holy Mechanical Shop is the one rectangular, source-marked comparison enabled for sorting. Holy Nation Bar retains its malformed row and fixed order. assets.json records the pinned icon checksums; media-coverage.json separately records unassessed original imagery.
+
+## Accepted local handoff
+
+All ten batch gates passed. The final gate passed 38 catalog tests and 149 browser tests; two desktop-only cases are intentionally skipped on phone. Each gate includes an Astro production build and Cloudflare package dry run. Evidence includes 136 desktop/phone captures in both palettes. The long vendor-guide title exposed a compact-header wrapping issue; its label now uses an ellipsis while preserving the full accessible name and menu text.
+
+All 125 additions plus Scraphouse have recorded content/organization reviews. The other 26 reviews and all 27 reused article files match the starting commit; see reused.json. The family preserves 259 headings, two citation targets, 27 additional redirects and 139 icon checksums. Gap regeneration is unchanged on repeat. There are 22 new investigation findings and 130 availability/media resolutions; no conversion regressions were detected. Across the family, 140 temporary destinations were resolved and six introduced, leaving 440 in the partial preview. The 15 empty galleries remain open.
+
+Reports are served at http://127.0.0.1:4393/shops/ and the wiki at http://127.0.0.1:4392/. The report links every batch, source-preservation result, route ledger, gap register, review record and representative capture. The work remains local.
