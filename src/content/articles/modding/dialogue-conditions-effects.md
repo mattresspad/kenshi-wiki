@@ -1,0 +1,405 @@
+---
+articleId: dialogue-conditions-effects
+title: Dialogue Conditions & Effects
+description: FCS deals most conditions as AND.  There are some conditions that will be OR if multiple options are available, such as personalities or money. If using thos…
+categories:
+  - Modding
+  - Dialogue
+layout: modding
+---
+
+Things from [Forgotten Construction Set](/forgotten-construction-set)
+
+See also: [Dialogue Targeting](/dialogue-targeting)
+
+# Conditions
+
+FCS deals most conditions as AND. There are some conditions that will be OR if multiple options are available, such as personalities or money. If using those and you want specific result on branches, use only one condition per line. You can use empty lines (space bar). _Also, most conditions tend to treat the player faction as one, meaning you met one PC you have met them all._ \[Cattrina\]
+
+In addition to what Cattrina said above, anything that checks against Target will see whether they have seen a Target meeting this condition in the Target squad within the last ~hour or so. It will not evaluate this across your entire squad/faction, only those that have recently been seen by Target. \[Soar\]
+
+DC = Dialogue Condition or Dialogue Check
+
+Example:
+
+<table class="wikitable"><tbody><tr><td><small><sup>Dialogue</sup></small><ul><li><small><sup>|c] &lt;Empty&gt; (condition T_TARGET_IF_PLAYER DC_RELATIONS &gt; -1)</sup></small><ul><li><small><sup>[*] T_ME "It costs 1000 cats"[c] T_TARGET_IF_PLAYER "I'll take it!" (condition T_TARGET_IF_PLAYER DC_PLAYERMONEY &gt; 999) DA_TAKE_MONEY 1000</sup></small></li><li><small><sup>[c] T_TARGET_IF_PLAYER "I do not have that much" (condition T_TARGET_IF_PLAYER DC_PLAYERMONEY &lt; 1000)</sup></small></li></ul></li></ul></td></tr></tbody></table>
+
+
+
+-   **DC\_Bounty\_Amount\_Actual**
+-   **DC\_Bounty\_Amount\_Perceived**
+-   **DC\_Broken\_Arm**
+    -   True if the character has an arm with health below 0.
+-   **DC\_Broken\_Leg**
+    -   True if the character has a leg with health below 0.
+-   **DC\_Building\_Is\_Closed\_And\_Secured**
+-   **DC\_Can\_Afford\_Bounty**
+-   **DC\_Carrying\_Bounty\_Alive**
+    -   Returns true if the character is carrying someone with a bounty on them that is alive.
+-   **DC\_Carrying\_Bounty\_Dead**
+    -   Returns true if the character is carrying someone with a bounty on them that is dead.
+-   **DC\_Carrying\_Someone\_To\_Enslave**
+    -   Returns true if the character is carrying someone that can be enslaved by **ME**.
+-   **DC\_Cops\_Around**
+    -   Returns true if there are law-enforcing guards or patrols nearby.
+-   **DC\_Damaged\_Head**
+-   **DC\_End**
+-   **DC\_Faction\_Rank**
+-   **DC\_Faction\_Variable**
+-   **DC\_Has\_A\_Base\_Nearby**
+-   **DC\_Has\_AI\_Contract**
+    -   Returns true if the player faction currently has any AI contract with the NPC talking (single NPC).
+    -   When the squad leader has the contract, it applies to the entire squad (such as with mercenaries). In this case the condition should also be run along with DC\_IS\_LEADER (if you have the same dialog with every squad member) so only the leader gets the 'talk to' prompt. All squad member should have DC\_IS\_LEADER == 0 DA\_TALK\_TO\_LEADER \[Cattrina\]
+-   **DC\_Has\_Illegal\_Item**
+    -   Returns true if the character has an illegal item in their inventory. Does not include items inside backpacks.
+    -   Illegal items are determined by the town's trade culture.
+    -   If true, displays the notification "<Character> has been discovered smuggling <Item>." Even if the character is an NPC.
+-   **DC\_Has\_Robot\_Limbs**
+    -   Returns true if the character has robotic limbs attached.
+-   **DC\_Has\_Tag**
+    -   **LT\_None**
+    -   **LT\_My\_Intruder:** NPC only, returns true if the player is inside their non-public building
+    -   **LT\_My\_Lifesaver:**
+    -   **LT\_Freed\_Me:**
+    -   **LT\_Stole\_From\_Me:** Returns true if the player has been caught stealing from ME before.
+    -   **LT\_My\_Captor:**
+    -   **LT\_Friendly\_Aquaintance:**
+    -   **LT\_Defeated\_My\_Squad\_Once:**
+    -   **LT\_Killed\_My\_Friend:**
+    -   **LT\_I\_Screwed\_This\_Guy:**
+    -   **LT\_Max:**
+-   **DC\_I\_Hate\_This\_Guy**
+-   **DC\_I\_Love\_This\_Guy**
+-   **DC\_I\_Should\_Help\_This\_Guy**
+-   **DC\_I\_Should\_Screw\_This\_Guy\_Over**
+-   **DC\_Im\_Unarmed**
+    -   Returns true if **ME** has a sword equipped or in their inventory. Does not include swords in backpacks.
+    -   Returns true if **ME** is equipped with a crossbow, even the character does not have any bolts. Crossbows inside the character's inventory or backpack are not included.
+    -   NPC only
+-   **DC\_Imprisoned\_By\_Other**
+    -   NPC only
+    -   Returns true if the NPC is inside a cage of another NPC faction
+-   **DC\_Imprisoned\_By\_Target**
+    -   NPC only
+    -   Returns true if the NPC is inside a cage of the player or the other NPC faction, that has been targeted by AI
+-   **DC\_Imprisonment\_Is\_DeathRow**
+-   **DC\_In\_A\_Non\_Player\_Town**
+    -   Returns true if the NPC is not inside or nearby player base
+    -   Can be used for player characters too for screams of pain etc. See Amputation Table mod by Cattrina
+-   **DC\_In\_A\_Player\_Town**
+    -   see above
+-   **DC\_In\_Combat**
+-   **DC\_In\_My\_Building**
+-   **DC\_Is\_A\_Trader**
+    -   Returns true if this character is marked as being a trader.
+-   **DC\_Is\_Ally**
+    -   Returns true if these characters are allies.
+-   **DC\_Is\_Dead**
+-   **DC\_Is\_Enemy**
+-   **DC\_Is\_Escaped\_Slave**
+    -   Returns true is this character is marked as being an escaped slave.
+-   **DC\_Is\_Female**
+    -   Returns true if this character is female.
+-   **DC\_Is\_Imprisoned**
+-   **DC\_Is\_In\_Locked\_Cage**
+-   **DC\_Is\_Indoors**
+    -   Returns true if the character is inside a building.
+-   **DC\_Is\_KO**
+-   **DC\_Is\_Leader**
+    -   Returns true if the character is the squad leader.
+    -   For example the squad leader of a trade caravan is usually the main trader that all the animals and caravan guards follow.
+-   **DC\_Is\_Nearly\_KO**
+    -   Broken. Always returns true. Use "DC\_Nearly\_KO" instead.
+-   **DC\_Is\_Outnumbered**
+-   **DC\_Is\_Player**
+    -   Returns true if the character is a member of the player’s faction.
+    -   Use == 0 on I\_SEE events to rule the player out from results
+-   **DC\_Is\_Recruitable**
+-   **DC\_Is\_Running**
+    -   True if the character is both at a running speed and is moving away from **ME.**
+    -   Always returns true when run on **ME.**
+-   **DC\_Is\_Same\_Race\_As\_Me**
+    -   Returns true if these two characters are in the same race group.
+    -   Keep in mind that subraces are different than races. So Greenlanders and Scorchlanders are both considered to be the same race (humans).
+-   **DC\_Is\_Slave**
+    -   Returns true if this character has been enslaved.
+-   **DC\_Is\_Sneaking**
+    -   Returns true if the character is sneaking.
+-   **DC\_Met\_Target\_Before**
+    -   Triggers if the NPC has spoken with a player character before. Does not matter which character. The entire player faction is then known. \[Cattrina\].
+    -   Used with the "DA\_Remember\_Character" dialogue effect.
+-   **DC\_Mixed\_Gender\_Group**
+    -   Returns true if the squad has both male and female characters in it.
+-   **DC\_My\_Mission\_Is\_Friendly**
+-   **DC\_Nearly\_KO**
+    -   Checks if the character is low on health.
+    -   Not affected by hunger meter.
+-   **DC\_None**
+-   **DC\_Num\_Backpacks**
+    -   Returns the number of backpacks in the character's squad.
+-   **DC\_Num\_Dialogue\_Event\_Repeats**
+-   **DC\_Personality\_Tag**
+    -   Returns true if the character has this personality tag. (treated as an "or" condition)
+    -   PT\_None, PT\_Honorable, PT\_Traitorous, PT\_\_\_, PT\_\_, PT\_Smart, PT\_Dumb, PT\_\_\_\_, PT\_\_\_\_\_, PT\_Brave, PT\_Fearful, PT\_Warm\_Kind, PT\_Cold\_Cruel, PT\_Normal, PT\_Maniacal, PT\_End
+    -   Only evaluates whether ME has this personality type, you cannot check personality type of TARGET. \[Soar\]
+-   **DC\_Player\_Tech\_Level**
+    -   Returns the player's tech level (1 to 6).
+-   **DC\_PlayerMoney**
+    -   Returns the number of cats the player has (does not count physical money items)
+-   **DC\_Players\_Best\_Town\_Level**
+    -   Checks what rank player's town level is. Possibly can be utilized to determine the tech level of a player town.
+-   **DC\_Relations**
+    -   Returns the relationship value with target faction. \[Cattrina\]
+    -   fe. condition T\_TARGET\_IF\_PLAYER DC\_RELATIONS > -1 \[Cattrina\]
+    -   I have used this and it works. It is just better to have ONE condition per line, looks like FCS deals several conditions as OR not as AND \[Cattrina\]
+    -   Still, might be better to use DC\_IS\_ALLY anyways
+-   **DC\_Reputation**
+    -   [Using Faction Reputation As Variable](/using-faction-reputation-as-variable)
+-   **DC\_Squad\_Is\_Down**
+-   **DC\_Squad\_Only\_Animals**
+    -   This is for I\_SEE events when a NPC spots a player squad containing only animals. Those NPCs then autojoin the player, to keep the player's game ongoing despite the fact all their humanoid characters are dead.
+-   **DC\_Squad\_Size**
+    -   Returns the number of people in that target’s squad. T\_ME, T\_TARGET or T\_TARGET\_IF\_PLAYER
+-   **DC\_Starving**
+    -   Returns true if the character has low hunger (hunger meter is below 200).
+-   **DC\_Stronger\_Than\_Me**
+    -   True if this character has higher stats than **ME.**
+    -   Unclear how exactly this is calculated. It is suspected to be a combination of strength, toughness and attack stats + best weapon skill.
+    -   Seem to only work on fighting stats.
+-   **DC\_Target\_Character\_Exists**
+-   **DC\_Target\_In\_Talking\_Range**
+    -   Checks to see if the **TARGET** is nearby.
+    -   Used for things like gate guards, so that they don’t talk to someone that’s far away.
+    -   Very important to use for I see events.
+-   **DC\_Target\_Is\_My\_Mission\_Target**
+-   **DC\_Target\_Is\_Slave\_Of\_My\_Faction**
+-   **DC\_Target\_Last\_Seen\_X\_Hours\_Ago**
+    -   Triggers if the NPC has not seen a player character within the time limit. Does not matter which character. Use with DA\_Remember\_Character 0 to save the time. If used without the condition it will trigger constantly. \[Cattrina\]
+    -   Used with the "DA\_Remember\_Character" dialogue effect.
+    -   Is meant to prevent a monologue from triggering constantly. Was also meant to work as 'not enough time has passed, talk to me later' but this set up has never worked correctly. See character Riddly's dialogue where the timer on her second trunk line prevents the third line being used, just because the timer is constantly refreshed.
+-   **DC\_Town\_Has\_Fortification\_Walls**
+    -   Does not seem to do anything
+-   **DC\_Town\_Level\_Current\_Location**
+    -   Does not seem to do anything, not in I see nor in enter town dialogues \[Cattrina\]
+-   **DC\_Town\_Walls\_Locked\_Up**
+-   **DC\_Using\_My\_Training\_Equipment**
+    -   Triggers when the target is using an object with the BF\_TRAINING functionality in the same town the NPC is and if the NPC's faction owns the town. Also both the object and the NPC must be on the same side of a building (inside or outside) and the act of using must fall within the NPC's view cone.
+-   **DC\_Weaker\_Than\_Me**
+    -   True if this character has lower stats than **ME.**
+    -   Unclear how exactly this is calculated.
+-   **DC\_Wearing\_Locked\_Shackles**
+    -   Returns true if the character is wearing locked shackles,
+-   **DC\_Within\_Town\_Walls**
+    -   Can't use with EV\_ENTER\_TOWN because the entering happens outside the town walls. You would have to set a delay somehow for the entering character. Just do not make an unfinishing loop.
+    -   Best used with I SEE events to check if the target is in a walled town.
+-   **Null\_Null\_\_\_\_DC\_Target\_Squad\_Size** Obsolete
+
+
+
+# Dialogue Actions AKA Effects
+
+DA = Dialogue Action
+
+-   **DA\_None**
+    -   Cannot actually be added to dialogue.
+-   **DA\_Trade**
+    -   Opens a trade window with the character
+    -   Contents of the trade window depends on the vendor options set to the NPC's squad (randomly selected items from all the vendors in the set, by the chance % of each vendor of the set).
+-   **DA\_Talk\_To\_Leader**
+    -   Used on I\_SEE events on squad members. **Forces** the EV\_PLAYER\_TALK\_TO\_ME event with the squad leader to happen (no click from the player)
+    -   cannot be triggered from a conversation with the player, must be a monologue
+    -   If leader is not Target, will initiate dialogue with Target instead. Very inconsistently actually initiates dialogue with leader. \[Soar\]
+-   **DA\_Join\_Squad\_With\_Edit**
+    -   Character joins squad and opens the character editor for that character. (make sure this is at the end of the dialogue or it will lock the game.)
+-   **DA\_Affect\_Relations**
+-   **DA\_Affect\_Reputation**
+    -   Currently testing for details, guide soon™. \[Soar\]
+    -   Obsolete \[Cattrina\]
+-   **DA\_Attack\_Chase\_Forever**
+    -   NPCs only, attacks the target squad and follows it. The forever means until the NPC is KO or game imported, nothing else, even reloading the save, does not end it.
+-   **DA\_Go\_Home**
+    -   NPC only.
+    -   NPC disengages and walks towards nearest base owned by their faction.
+    -   If arriving to unloaded region the NPC despawns.
+-   **DA\_Take\_Money**
+    -   Takes away the specified number of cats from the player. Should be used with Target\_if\_player DC\_Playermoney > (desired sum -1) first \[Cattrina\]
+-   **DA\_Give\_Money**
+    -   The NPC gives the player the specified amount of cats.
+    -   The NPC's wealth is not calculated, all NPCs in dialogue have all the money in the world
+-   **DA\_Pay\_Bounty**
+-   **DA\_Character\_Editor**
+    -   Opens a character editor for the player character currently speaking with the NPC.
+-   **DA\_Force\_Speech\_Timer**
+    -   Forces the line of dialogue to last for the specified amount of time.
+    -   Next line of dialogue is spoken only after the timer for the previous line is ended
+    -   If you want 'silence' in between spoken lines without the previous line just hovering, use a line with space(spacebar) on every other line, timers on each line. The character will speak 'an empty bubble' but at least no text.
+-   **DA\_Declare\_War**
+-   **DA\_End\_War**
+-   **DA\_Clear\_AI**
+    -   Use on **previous** line before changing the AI \[Cattrina\]
+    -   Clears all ongoing AI tasks in preparation for AI change
+-   **DA\_Follow\_While\_Talking**
+    -   Causes character to say following dialogue at the target while following them.
+    -   Use a monologue loop and speech timer (and an interrupt) to make the NPC follow the PC as long as you want.
+-   **DA\_Thug\_Hunter**
+-   **DA\_Join\_Squad\_Fast**
+    -   Character joins squad without opening the character editor for that character.
+    -   Can be triggered from a Crowd trigger
+-   **DA\_Remember\_Character**
+    -   Used for the "Met\_Target\_Before" and "Target\_Last\_Seen\_X\_Hours\_Ago" conditions to work properly.
+-   **DA\_Flag\_Temp\_Ally**
+-   **DA\_Flag\_Temp\_Enemy**
+-   **DA\_Mates\_Kill\_Me**
+-   **DA\_Make\_Target\_Run\_Faster**
+-   **DA\_Give\_Target\_My\_Slaves**
+-   **DA\_Tag\_Escaped\_Slave**
+-   **DA\_Free\_Target\_Slave**
+-   **DA\_Merge\_With\_Similar\_Squads**
+-   **DA\_Separate\_To\_My\_Own\_Squad**
+    -   If set to true, the character separates into their own squad belonging to the same faction. If the character separating from the original squad was the leader of that squad, the remaining squad will have one of their members randomly assigned as the new squad leader.
+-   **DA\_Arrest\_Target**
+    -   Causes the character to try and arrest the target by attacking them and sending them to a cell.
+-   **DA\_Arrest\_Targets\_Carried\_Person**
+    -   For bounties
+-   **DA\_Attack\_Town**
+-   **DA\_Assign\_Bounty**
+-   **DA\_Crime\_Alarm**
+-   **DA\_Run\_Away**
+    -   Causes the character to run away. Does not work on player characters \[Cattrina\]
+-   **DA\_Increase\_Faction\_Rank**
+    -   Rank is separate from Relations and can be used as an extra condition layer for dialogue.
+    -   \-X values do nothing.
+    -   Values above 0 increase the rank by 1 incrementally but not past that value. So DA\_Increase\_Faction\_Rank 2 will increase your rank by 1 until you have reached rank 2 and it will do nothing after you reached rank 2.
+    -   0 incrementally increases the Rank value by 1 this value can overflow past the faction's max rank number (setting in factions) and bring it to the highest negative value to that faction. In my testing this was -5 but I could not get it to go to -4 even when using a positive value (not 0) such as 1 or 2. And sometimes it would say it was rank 5.
+    -   The vast majority of vanilla factions do not use the rank system at all. And some, like Shinobi thieves that do only have one rank.
+    -   There is no way to track player rank ingame and it's use case is quite limited in the vanilla game. EG the Shinobi Thieves boss' have a condition that you are Rank 0 to initiate the recruitment dialogue. When you join it uses "DA\_Increase\_Faction\_Rank 1" as an effect which pushes your faction rank to 1. So this means if you start getting negative relations with the Shinobi Thieves you cannot "rejoin" because you are still "rank 1" despite having negative relations.
+    -   Safest use case is using a positive value within the value range of that Faction so, if its 8 ranks in the faction settings you would use the value of 7 because it counts 0 as a rank on the positive spectrum. That way you will not over flow into negative.
+-   **DA\_Lock\_This\_Dialogue**
+-   **DA\_Assault\_Phase**
+-   **DA\_Retreat\_Phase**
+-   **DA\_Victory\_Phase**
+-   **DA\_Enslave\_Targets\_Carried\_Person**
+-   **Choose\_Slaves\_Selling**
+    -   Opens a separate window shop with portraits of the characters in the squad's slave squad or choosefrom list
+-   **Choose\_Slaves\_Buying**
+    -   Opens a separate window shop with portraits of the characters in the squad's slave squad or choosefrom list
+-   **Choose\_Prisoner\_Bail**
+-   **Choose\_Conscription**
+-   **Choose\_Recruiting**
+    -   Opens a separate window shop with portraits of the characters in the squad's choosefrom list
+-   **Choose\_Hiring\_Contract**
+-   **Surrender\_Non\_Humans**
+-   **Choose\_Animals\_Buying**
+-   **DA\_Clear\_Bounty**
+-   **DA\_Player\_Sell\_Prisoners**
+-   **DA\_Player\_Surrender\_Member\_Different\_Race**
+-   **DA\_Summon\_My\_Squad**
+    -   Attempts to summon entire squad of ME to my position.
+-   **DA\_Remove\_Slave\_Status**
+    -   NPC removing the status from the player character currently speaking
+-   **DA\_Open\_Nearest\_Gate**
+-   **DA\_Attack\_Stay\_Near\_Home**
+-   **DA\_Massive\_Alarm**
+    -   Calls for all nearby NPCs of their faction to attack the target
+    -   Only characters with the same dialogue in their pack will respond
+-   **DA\_Attack\_If\_No\_Coexist**
+-   **DA\_Knockout**
+    -   Knocks out the NPC in the dialogue. The value number is the length of the KO in seconds. \[LeCheech/Kodi Sky\]
+    -   Does not trigger hostilities if allies are near by. \[LeCheech/Kodi Sky\]
+    -   If done to an allied NPC and you have Help/Rescue allies set in your ingame squad AI, there will be an issue where your characters will automatically pick up the KO'd character on the ground, every time they are dropped a KO timer resets. To break out of the loop without changing your Squad's AI in settings, you can place them in a bed and they will instantly wake up. \[LeCheech/Kodi Sky\]
+    -   Untested but, common sense is this should only be used at the end of a conversation tree to avoid potentially unwanted side effects. \[LeCheech/Kodi Sky\]
+-   **DA\_End**
+    -   No obvious effects when run.
+
+# Editable Properties AKA Effect Conditions
+
+-   **AI Contract**
+    -   _“Activates the given AI package as a contract job, val0 is the number of hours it lasts for.”_
+-   **Change AI**
+    -   _“Permanently changes the AI package, doesn’t affect the AI Contract. BE CAREFUL, remember it will change the whole squad, slaves and masters. May want to use with DA\_SEPARATE\_TO\_OWN\_SQUAD”_
+
+-   **Change Relations**
+    -   _“Adjusts the relations with the given faction by this amount.”_ Player faction to any NPC faction. Cannot alter the speaker NPC's faction towards another NPC faction.
+-   **Crowd Trigger**
+    -   _“Triggers the given dialogue to start on all other squad members. Use this for things like group cheering, laughing, and war cries. Should usually be 1 liners. The number is % of squad members to trigger.”_
+    -   Both the triggerer and the triggered must have the dialogue in their packet.
+    -   Will make everyone in the squad that is eligible (based on conditions) run this dialogue, even if they do not have this dialogue in their packages. \[Soar\]
+    -   You can make the 'is leader == 0' condition if you do not want the leader to be triggered. Use 'is character' to trigger only characters using those chosen character templates. Cannot be used to trigger more events. Can trigger effects such as DA\_JOIN\_SQUAD\_FAST.
+-   **Give Item**
+    -   _“Action: Give target this item. Will conjure the item out of thin air.”_
+    -   Will provide the player with a “received item” notification, even when the item was given to a NPC instead.
+    -   NPC can give to Player, Player cannot give to NPC and NPC cannot take from the Player \[Cattrina\]
+    -   Items such as weapons, armor, and limbs cannot be selected to be given (wearables), the only exception is belt slot items.
+    -   Can give almost any item using [A Workaround How To Give Maps, Armor or Weapons Through Dialogue](/a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue)
+    -   You can make a machine, that consumes an object and produces the reward, if you want to make quests. (remember to remove aggression on looters from the quest giver NPC) \[Cattrina\]
+    -   If you want to make a fetch quest. You can also make the "reward" for the quest to be to sell the item after completing the quest (showing the item to the NPC) rather than giving the player something. \[LeCheech/Kodi Sky\]
+-   **Has Package**
+    -   _“Condition: Has a specific dialogue package. Refers to speaker only, unless its on an interjection node.”_
+    -   Use to restrict the dialogue line to only some of its users (a dialogue can be added to several packages)
+-   **In Town Of**
+    -   _“Adds a condition: That we must currently be in town/base belonging to the given faction.”_
+    -   True when inside or near a town owned by the given faction (within the limits of the town as can be seen through using SHIFT + F12).
+-   **Interrupt**
+    -   _“If the player interrupts us with a talking event, this will be the conversation chosen. Reset at the end of conversation, or until changed.”_
+    -   Commonly used for characters that are trying to talk with the player, such as guards when they want to search you.
+    -   Use in monologues and bar talks. You can make a monologue loop and have an interrupt ON THE FIRST LINE of the loop to make an out of the loop when spoken to.\[Cattrina\]
+-   **Is Character**
+    -   “Condition: Is a specific character. Refers to speaker only, unless its an interjection node.”
+    -   Whilst the description claims it refers to "Speaker", in reality it always refers to T\_ME, outside of interjection.
+    -   Returns true with all the characters who are spawned from the same template. FCS says 'named' meaning unique, but that is false \[Cattrina\]
+-   **Lock Campaign**
+    -   \`“Essentially sets the campaign’s \[territorial\] setting to false.”
+    -   Does not affect on campaigns without territorial setting. \[Cattrina\]
+-   **Locks**
+    -   _“Locks the given dialogue, use for special cases when you gotta lock something?”_
+    -   Use with unlock to make elaborate dialogue trees where the communication with the NPC can evolve \[Cattrina\]
+    -   The dialogue to be locked needs to be also assigned to the NPC speaker who does the locking \[Cattrina\]
+    -   This will only lock the dialogue for the NPC that triggered it. So if you have multiple NPCs with the same dialogue tree, this will not lock it for all of them. This is the case even if it's the same type of NPC. This "limitation" actually has some very good applications when it comes to making "randomized" encounters from the same dialogue tree. _To lock dialogues for other NPCs than the one that the player is speaking to, use dummy Relations/Faction and a Worldstate and make the worldstate a condition._ \[LeCheech/Kodi Sky\]
+-   **My Faction**
+    -   _“Adds a condition: I belong to the given faction.”_
+    -   Use to restrict lines for characters of that specific faction or factions
+-   **My Race**
+    -   _“Adds a condition: My race is any of the given races. Multiple races are treated as an OR condition.”_
+    -   Returns true for the general race. So selecting hive prince, worker drone, or soldier drone will all return true regardless of which type of hiver the character is. Same situation for greenlanders and scorchlanders.
+-   **My Subrace**
+    -   _“My specific sub-race. Multiple races are treated as an OR condition.”_
+    -   Refers to NPCs only.
+-   **No Target Race**
+    -   _“Adds a condition: Target squad has NO member who is any of the given races. Multiple races is treated as an OR condition.”_
+    -   From my testing, this did not function at all. \[Soar\]
+    -   Subraces are treated as one
+-   **Target Carrying Character**
+    -   _“Adds a condition: Target is carrying a specific character. Refers to target.”_
+    -   AI target (not dialogue target) is used.
+    -   specific character template, does not have to be unique \[Cattrina\]
+-   **Target Faction**
+    -   _“Adds a condition: Target belongs to the given faction.”_
+-   **Target Has Item**
+    -   _“Adds a condition: Target has this item, or any of these items.”_
+    -   Items such as weapons, armor, and limbs cannot be selected (only exception is belt slot items held in inventory)
+    -   Items attached to gear slots cannot be detected, items need to be in the inventory slot or back bag.
+    -   PLAYER DIALOGUE OPTION LINE (speaker: T\_TARGET\_IF\_PLAYER ): _Returns true if any character of the player squad nearby has the item, does not need to be on the person who speaks_ \[Cattrina\]. _Addendum:_ If T\_ME has recently seen the person who held this item, this returns true, this is not necessarily proximity based. They will remember that someone had this item for roughly 1 ingame hour. \[Soar\]
+    -   NPC DIALOGUE OPTION LINE (speaker: T\_ME): Returns true if the speaker PC has the item
+-   **Target Has Item Type**
+    -   _“Adds a condition: Does the target have an item of the same TYPE as this one (eg. narcotics, meds, food)”_
+    -   Items such as weapons, armor, and limbs cannot be selected
+-   **Target Race**
+    -   _“Adds a condition: Target squad has a member who is any of the given races. Multiple races is treated as an OR condition.”_
+    -   Subraces are treated as equals. If the greenlander is triggered, so is scorchlander. If you want to trigger them separately, use subrace. \[Cattrina\]
+    -   If I have seen this race in the Target squad within the last hour, this returns true. \[Soar\]
+    -   In a word swap such as /RACENAME/ (the race word in traders' lines), a line also passes when a nearby member of the target's squad is one of its races, but this never hands the conversation to that member: the character who started the talk keeps it.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>
+-   **Trigger Campaign**
+    -   _“Triggers the given campaign, which will start after a random number of hours between val0-val1, val2 is %chance (is absolute chance, so if you list 2 things which total to less than 100, then there is a chance of nothing)”_
+-   **Unlock But Keep Me**
+    -   _“Unlocks the given dialogue, must be actually in the NPC’s dialogue package somewhere for it to work. Will NOT cause the dialogue to then become locked.”_
+-   **Unlock Campaign**
+    -   _“Essentially sets the campaign’s \[territorial\] setting to true, so doesn’t actually trigger it, just makes it possible.”_
+-   **Unlocks**
+    -   _“Unlocks the given dialogue, must be actually in the NPC’s dialogue package somewhere for it to work. **Will cause THIS dialogue to then become locked.** Used for conversations that progress to other conversations in stages.”_
+    -   Does not work for <empty> dialogue lines. There needs to be actual text to be spoken.
+    -   Use with lock to make elaborate dialogue trees where the communication with the NPC can evolve \[Cattrina\]
+    -   This will only lock the dialogue for the NPC that triggered it. So if you have multiple NPCs with the same dialogue tree, this will not lock it for all of them. This is the case even if it's the same type of NPC. This "limitation" actually has some very good applications when it comes to making "randomized" encounters from the same dialogue tree. _To unlock dialogues for other NPCs than the one that the player is speaking to, use dummy Relations/Faction and a Worldstate and make the worldstate a condition. This type of work around is used in Vanilla to make Tinfist have a specific dialogue if you have joined the Rebel Farmers._ \[LeCheech/Kodi Sky\]
+-   **World State**
+    -   _“Adds this world state as an AND condition. 1=true, 0=false”_
+
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">A Shek talking to the Hive Trader was called "Shek" 4 times and "Human" 4 times in 8 tries with a Greenlander squad mate beside her, and "Shek" all 8 times with him kilometers away; the conversation was hers every time (Kenshi 1.0.68). Save and test mod: <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/teppuM/kenshi-test-data/tree/main/trader-race-word">kenshi-test-data</a>. Found while fixing <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/VlcekM/MeitouClient/pull/572">MeitouClient pull request 572</a>. Retrieved November 12, 2026.</span></li></ol>
