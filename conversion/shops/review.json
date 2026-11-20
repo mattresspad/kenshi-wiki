@@ -122,6 +122,34 @@
         "claim:shops-missing-stock-cells",
         "claim:shops-stock-prices-and-rarity"
       ]
+    },
+    {
+      "id": "flophouse",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/establishments/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Flophouse is a type of building that is found in almost all cities in Old World. A Flophouse, also referred to as an inn, is a place where you can rent beds for c.100 so your characters can sleep and recover health. It is also possible to place NPCs at Flophouses to rest. There is no charge for placing NPCs in a Flophouse bed. The establishment is always run by an NPC named Mr. Floppy. If you interact with the counter Mr. Floppy stands behind you can purchase first aid kits. Flophouses are not removed from the game entirely, however. Despite not being set to spawn anywhere, the unique recruit Horse requests that the player pay his bill at a flophouse. Now, you look like the adventuring type, correct me if I'm wrong... So how about you pay off my bill at the Flophouse, we band together and we finish what me and my squad started? We'll be rich, roamer, you and me!Horse",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flophouse.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "072b61d80bd3263ac084a1b62aed956d2f74030cfe01e0b86db09fa0de1cb763"
+      },
+      "questions": [
+        "claim:shops-removed-vendors"
+      ]
+    },
+    {
+      "id": "wandering-trader",
+      "existence": "Permanent ID, address, pinned checksum, categories and one characters/traders/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Wandering Traders are another NPC of the Traders Guild. They travel between cities with an armed escort of Caravan Guards. They sell basic items like a normal shop keeper and will buy from you as usual. Unlike other traders in the game, they do carry a weapon.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/wandering-trader.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e4a497d32e3ee44075a25689bde280b900f481246549baba02c82d7b234486a9"
+      },
+      "questions": [
+        "claim:shops-removed-vendors"
+      ]
     }
   ],
   "editorialChanges": [

@@ -5821,6 +5821,17 @@
       }
     },
     {
+      "id": "availability:/flophouse",
+      "kind": "availability",
+      "target": "/flophouse",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#historical-vendors",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flophouse"
+      }
+    },
+    {
       "id": "availability:/flotsam-jonin",
       "kind": "availability",
       "target": "/flotsam-jonin",
@@ -18402,6 +18413,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/wandering-assassin"
+      }
+    },
+    {
+      "id": "availability:/wandering-trader",
+      "kind": "availability",
+      "target": "/wandering-trader",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/shops/acceptances.json#historical-vendors",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/wandering-trader"
       }
     },
     {

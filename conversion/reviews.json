@@ -4974,6 +4974,14 @@
     "hiver-merchant-caravan": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/shops/review.json"
+    },
+    "flophouse": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
+    },
+    "wandering-trader": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/shops/review.json"
     }
   },
   "mediaGaps": [
