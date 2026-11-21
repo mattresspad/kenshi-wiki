@@ -6,7 +6,7 @@ This family freezes the sixteen baseline articles remaining after Manufacturers 
 
 The frozen evidence covers 556 heading bookmarks, 30 citation targets, one newly applicable redirect and no retained image references. Changelog contributes 533 headings. No retained images does not establish complete illustration coverage. Original media remain unassessed.
 
-Mechanical transfers retain source bodies. Separate context notices distinguish dated development/product claims and historical Fandom wiki/provider documents from current guidance. Individual existence, content and organization reviews retain source qualifications and open investigations. The provider table's Conan Exiles URL, missing Kenshi 2 source illustrations, Changelog's inherited version-fragment mismatch and recruitment/world-state claims remain investigation work.
+Mechanical transfers retain source bodies after the established newline and whitespace-only blank-line normalization. Nonempty lines and their Markdown hard breaks remain intact. Separate context notices distinguish dated development/product claims and historical Fandom wiki/provider documents from current guidance. Individual existence, content and organization reviews retain source qualifications and open investigations. The provider table's Conan Exiles URL, missing Kenshi 2 source illustrations, Changelog's inherited version-fragment mismatch and recruitment/world-state claims remain investigation work.
 
 ## Contributor queue
 

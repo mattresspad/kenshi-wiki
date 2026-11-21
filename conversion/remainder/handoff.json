@@ -1,0 +1,832 @@
+{
+  "scope": "Final frozen baseline corpus",
+  "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "articles": 2184,
+  "formatAccepted": 2184,
+  "editorialReviews": 1722,
+  "queue": {
+    "transferred": 2184,
+    "formatChecked": 2184,
+    "editoriallyReviewed": 1722,
+    "awaitingReview": 462,
+    "activeArticles": 2164,
+    "openFindings": 726,
+    "resolvedFindings": 2553
+  },
+  "baselinePending": 0,
+  "memberships": 4119,
+  "titleSearch": 2190,
+  "bookmarks": 556,
+  "citationTargets": 30,
+  "additionalRedirects": [
+    {
+      "from": "/main-page",
+      "to": "/kenshi-wiki",
+      "status": 301
+    }
+  ],
+  "acceptances": [
+    {
+      "number": 1,
+      "name": "representative-structures",
+      "folder": "01-representative-structures",
+      "articles": 3,
+      "pages": 2298,
+      "verified": 3,
+      "icons": 0,
+      "links": {
+        "resolved": 3,
+        "introduced": 3,
+        "remaining": 193
+      }
+    },
+    {
+      "number": 2,
+      "name": "long-reference-material",
+      "folder": "02-long-reference-material",
+      "articles": 4,
+      "pages": 2302,
+      "verified": 7,
+      "icons": 0,
+      "links": {
+        "resolved": 3,
+        "introduced": 0,
+        "remaining": 190
+      }
+    },
+    {
+      "number": 3,
+      "name": "world-and-history",
+      "folder": "03-world-and-history",
+      "articles": 5,
+      "pages": 2307,
+      "verified": 12,
+      "icons": 0,
+      "links": {
+        "resolved": 2,
+        "introduced": 1,
+        "remaining": 189
+      }
+    },
+    {
+      "number": 4,
+      "name": "historical-wiki",
+      "folder": "04-historical-wiki",
+      "articles": 4,
+      "pages": 2311,
+      "verified": 16,
+      "icons": 0,
+      "links": {
+        "resolved": 1,
+        "introduced": 5,
+        "remaining": 193
+      }
+    }
+  ],
+  "queueCheckpoint": "conversion/work/acceptance.json",
+  "pendingByKind": {
+    "category": [
+      {
+        "path": "/category/modding-guide"
+      },
+      {
+        "path": "/category/dialogue"
+      },
+      {
+        "path": "/category/give-item"
+      },
+      {
+        "path": "/category/united-cities"
+      },
+      {
+        "path": "/category/mod-making"
+      },
+      {
+        "path": "/category/shek-kingdom"
+      },
+      {
+        "path": "/category/article-stubs"
+      },
+      {
+        "path": "/category/berserkers"
+      },
+      {
+        "path": "/category/playable"
+      },
+      {
+        "path": "/category/unique"
+      },
+      {
+        "path": "/category/fishmen"
+      },
+      {
+        "path": "/category/nutrition"
+      },
+      {
+        "path": "/category/body-armour"
+      },
+      {
+        "path": "/category/heavy-armour"
+      },
+      {
+        "path": "/category/footwear"
+      },
+      {
+        "path": "/category/headgear"
+      },
+      {
+        "path": "/category/legwear"
+      },
+      {
+        "path": "/category/storage"
+      },
+      {
+        "path": "/category/bounty"
+      },
+      {
+        "path": "/category/bodyguards"
+      },
+      {
+        "path": "/category/mongrel"
+      },
+      {
+        "path": "/category/bosses"
+      },
+      {
+        "path": "/category/reavers"
+      },
+      {
+        "path": "/category/crab-raiders"
+      },
+      {
+        "path": "/category/vagrants"
+      },
+      {
+        "path": "/category/medium-armour"
+      },
+      {
+        "path": "/category/southern-hive"
+      },
+      {
+        "path": "/category/trade-cultures"
+      },
+      {
+        "path": "/category/light-armour"
+      },
+      {
+        "path": "/category/holy-nation"
+      },
+      {
+        "path": "/category/disambiguations"
+      },
+      {
+        "path": "/category/world-elements"
+      },
+      {
+        "path": "/category/power"
+      },
+      {
+        "path": "/category/hivers"
+      },
+      {
+        "path": "/category/beep"
+      },
+      {
+        "path": "/category/blackshifters"
+      },
+      {
+        "path": "/category/swampers"
+      },
+      {
+        "path": "/category/swamps-characters"
+      },
+      {
+        "path": "/category/swamps"
+      },
+      {
+        "path": "/category/twinblades"
+      },
+      {
+        "path": "/category/grayflayers"
+      },
+      {
+        "path": "/category/hounds"
+      },
+      {
+        "path": "/category/shirts"
+      },
+      {
+        "path": "/category/citations-needed"
+      },
+      {
+        "path": "/category/ninja"
+      },
+      {
+        "path": "/category/blunt"
+      },
+      {
+        "path": "/category/weapon-types"
+      },
+      {
+        "path": "/category/pages-using-duplicate-arguments-in-template-calls"
+      },
+      {
+        "path": "/category/spiders"
+      },
+      {
+        "path": "/category/superbosses"
+      },
+      {
+        "path": "/category/heavy-weapon"
+      },
+      {
+        "path": "/category/farming"
+      },
+      {
+        "path": "/category/free-traders"
+      },
+      {
+        "path": "/category/kenshi-wiki"
+      },
+      {
+        "path": "/category/character-customization"
+      },
+      {
+        "path": "/category/portrait"
+      },
+      {
+        "path": "/category/custom-character/race"
+      },
+      {
+        "path": "/category/how-to-change-animation-strip-name"
+      },
+      {
+        "path": "/category/blender"
+      },
+      {
+        "path": "/category/united-heroes-league"
+      },
+      {
+        "path": "/category/collision"
+      },
+      {
+        "path": "/category/props"
+      },
+      {
+        "path": "/category/animation"
+      },
+      {
+        "path": "/category/furniture"
+      },
+      {
+        "path": "/category/hacker"
+      },
+      {
+        "path": "/category/needs-cleanup"
+      },
+      {
+        "path": "/category/custom-race"
+      },
+      {
+        "path": "/category/custom-character"
+      },
+      {
+        "path": "/category/stumps"
+      },
+      {
+        "path": "/category/armature"
+      },
+      {
+        "path": "/category/icons"
+      },
+      {
+        "path": "/category/town-making"
+      },
+      {
+        "path": "/category/samurai"
+      },
+      {
+        "path": "/category/old"
+      },
+      {
+        "path": "/category/villages"
+      },
+      {
+        "path": "/category/preacher-cult"
+      },
+      {
+        "path": "/category/character-mesh"
+      },
+      {
+        "path": "/category/sliders"
+      },
+      {
+        "path": "/category/editor-data"
+      },
+      {
+        "path": "/category/gggr"
+      },
+      {
+        "path": "/category/fogmen"
+      },
+      {
+        "path": "/category/sabre"
+      },
+      {
+        "path": "/category/dust-bandits"
+      },
+      {
+        "path": "/category/bandits"
+      },
+      {
+        "path": "/category/needs-grade-info"
+      },
+      {
+        "path": "/category/nobles"
+      },
+      {
+        "path": "/category/leaders"
+      },
+      {
+        "path": "/category/mercenaries"
+      },
+      {
+        "path": "/category/raiders"
+      },
+      {
+        "path": "/category/fcs-screenshots"
+      },
+      {
+        "path": "/category/help"
+      },
+      {
+        "path": "/category/updates"
+      },
+      {
+        "path": "/category/fcs"
+      },
+      {
+        "path": "/category/error"
+      },
+      {
+        "path": "/category/forgotten-construction-set"
+      },
+      {
+        "path": "/category/head"
+      },
+      {
+        "path": "/category/slave-traders"
+      },
+      {
+        "path": "/category/slavers"
+      },
+      {
+        "path": "/category/slaves"
+      },
+      {
+        "path": "/category/swamp-gangs"
+      },
+      {
+        "path": "/category/anti-slavers"
+      },
+      {
+        "path": "/category/katana"
+      },
+      {
+        "path": "/category/polearms"
+      },
+      {
+        "path": "/category/inquisitors"
+      },
+      {
+        "path": "/category/paladins"
+      },
+      {
+        "path": "/category/candidates-for-deletion"
+      },
+      {
+        "path": "/category/custom-name-database"
+      },
+      {
+        "path": "/category/character"
+      },
+      {
+        "path": "/category/race"
+      },
+      {
+        "path": "/category/clarification-needed"
+      },
+      {
+        "path": "/category/moving-mods"
+      },
+      {
+        "path": "/category/copy-the-number-part"
+      },
+      {
+        "path": "/category/biomemap"
+      },
+      {
+        "path": "/category/biome"
+      },
+      {
+        "path": "/category/loot"
+      },
+      {
+        "path": "/category/interactive-maps"
+      },
+      {
+        "path": "/category/maps"
+      },
+      {
+        "path": "/category/resource-maps"
+      },
+      {
+        "path": "/category/building-meshes"
+      },
+      {
+        "path": "/category/kenshi-2"
+      },
+      {
+        "path": "/category/lua-based-templates"
+      },
+      {
+        "path": "/category/lighting"
+      },
+      {
+        "path": "/category/mask"
+      },
+      {
+        "path": "/category/world-map"
+      },
+      {
+        "path": "/category/making-towns"
+      },
+      {
+        "path": "/category/skythe"
+      },
+      {
+        "path": "/category/manhunters"
+      },
+      {
+        "path": "/category/map"
+      },
+      {
+        "path": "/category/raptors"
+      },
+      {
+        "path": "/category/modders-resource"
+      },
+      {
+        "path": "/category/flotsam-ninjas"
+      },
+      {
+        "path": "/category/stormgap-coast"
+      },
+      {
+        "path": "/category/pages-with-unmapped-item-name"
+      },
+      {
+        "path": "/category/pages-with-syntax-highlighting-errors"
+      },
+      {
+        "path": "/category/royal-valley"
+      },
+      {
+        "path": "/category/rekenshi"
+      },
+      {
+        "path": "/category/variables"
+      },
+      {
+        "path": "/category/recruits"
+      },
+      {
+        "path": "/category/gang-bosses"
+      },
+      {
+        "path": "/category/world-state-related-characters"
+      },
+      {
+        "path": "/category/npc"
+      },
+      {
+        "path": "/category/riding-npc"
+      },
+      {
+        "path": "/category/custom-towns"
+      },
+      {
+        "path": "/category/sand-ninjas"
+      },
+      {
+        "path": "/category/skin-bandits"
+      },
+      {
+        "path": "/category/swamp-ninjas"
+      },
+      {
+        "path": "/category/unique-recruits"
+      },
+      {
+        "path": "/category/skin"
+      },
+      {
+        "path": "/category/custom-skin"
+      },
+      {
+        "path": "/category/slave-hunters"
+      },
+      {
+        "path": "/category/cities"
+      },
+      {
+        "path": "/category/meitou-wielders"
+      },
+      {
+        "path": "/category/western-hive"
+      },
+      {
+        "path": "/category/town"
+      },
+      {
+        "path": "/category/player-base"
+      },
+      {
+        "path": "/category/player-town"
+      },
+      {
+        "path": "/category/player-bases"
+      },
+      {
+        "path": "/category/mod"
+      },
+      {
+        "path": "/category/model-making"
+      },
+      {
+        "path": "/category/quest"
+      },
+      {
+        "path": "/category/stobes-garden"
+      },
+      {
+        "path": "/category/pages-that-use-a-deprecated-format-of-the-math-tags"
+      }
+    ],
+    "utility": [
+      {
+        "path": "/about-kenshi"
+      },
+      {
+        "path": "/contributors"
+      },
+      {
+        "path": "/random"
+      },
+      {
+        "path": "/search"
+      }
+    ],
+    "redirect": [
+      {
+        "path": "/kenshi",
+        "to": "/about-kenshi"
+      }
+    ],
+    "endpoint": [
+      {
+        "path": "/sources/outland.css.txt"
+      },
+      {
+        "path": "/sources/wiki-header.css.txt"
+      }
+    ]
+  },
+  "temporaryDestinations": [
+    "/about-kenshi",
+    "/board/modding-talk",
+    "/captives-journal-series",
+    "/category-talk/candidates-for-deletion",
+    "/category/animation",
+    "/category/anti-slavers",
+    "/category/armature",
+    "/category/article-stubs",
+    "/category/bandits",
+    "/category/beep",
+    "/category/berserkers",
+    "/category/biome",
+    "/category/biomemap",
+    "/category/blackshifters",
+    "/category/blender",
+    "/category/blunt",
+    "/category/body-armour",
+    "/category/bodyguards",
+    "/category/bosses",
+    "/category/bounty",
+    "/category/building-meshes",
+    "/category/candidates-for-deletion",
+    "/category/character",
+    "/category/character-customization",
+    "/category/character-mesh",
+    "/category/citations-needed",
+    "/category/cities",
+    "/category/clarification-needed",
+    "/category/collision",
+    "/category/copy-the-number-part",
+    "/category/crab-raiders",
+    "/category/custom-character",
+    "/category/custom-character/race",
+    "/category/custom-name-database",
+    "/category/custom-race",
+    "/category/custom-skin",
+    "/category/custom-towns",
+    "/category/dialogue",
+    "/category/disambiguations",
+    "/category/dust-bandits",
+    "/category/editor-data",
+    "/category/error",
+    "/category/farming",
+    "/category/fcs",
+    "/category/fcs-screenshots",
+    "/category/fishmen",
+    "/category/flotsam-ninjas",
+    "/category/fogmen",
+    "/category/footwear",
+    "/category/forgotten-construction-set",
+    "/category/free-traders",
+    "/category/furniture",
+    "/category/gang-bosses",
+    "/category/gggr",
+    "/category/give-item",
+    "/category/grayflayers",
+    "/category/hacker",
+    "/category/head",
+    "/category/headgear",
+    "/category/heavy-armour",
+    "/category/heavy-weapon",
+    "/category/help",
+    "/category/hivers",
+    "/category/holy-nation",
+    "/category/hounds",
+    "/category/how-to-change-animation-strip-name",
+    "/category/icons",
+    "/category/inquisitors",
+    "/category/interactive-maps",
+    "/category/katana",
+    "/category/kenshi-2",
+    "/category/kenshi-wiki",
+    "/category/leaders",
+    "/category/legwear",
+    "/category/light-armour",
+    "/category/lighting",
+    "/category/loot",
+    "/category/lua-based-templates",
+    "/category/making-towns",
+    "/category/manhunters",
+    "/category/map",
+    "/category/maps",
+    "/category/mask",
+    "/category/medium-armour",
+    "/category/meitou-wielders",
+    "/category/mercenaries",
+    "/category/mod",
+    "/category/mod-making",
+    "/category/modders-resource",
+    "/category/modding-guide",
+    "/category/model-making",
+    "/category/mongrel",
+    "/category/moving-mods",
+    "/category/needs-cleanup",
+    "/category/needs-grade-info",
+    "/category/ninja",
+    "/category/nobles",
+    "/category/npc",
+    "/category/nutrition",
+    "/category/old",
+    "/category/pages-that-use-a-deprecated-format-of-the-math-tags",
+    "/category/pages-using-duplicate-arguments-in-template-calls",
+    "/category/pages-with-syntax-highlighting-errors",
+    "/category/pages-with-unmapped-item-name",
+    "/category/paladins",
+    "/category/playable",
+    "/category/player-base",
+    "/category/player-bases",
+    "/category/player-town",
+    "/category/polearms",
+    "/category/portrait",
+    "/category/power",
+    "/category/preacher-cult",
+    "/category/props",
+    "/category/quest",
+    "/category/race",
+    "/category/raiders",
+    "/category/raptors",
+    "/category/reavers",
+    "/category/recruits",
+    "/category/rekenshi",
+    "/category/resource-maps",
+    "/category/riding-npc",
+    "/category/royal-valley",
+    "/category/sabre",
+    "/category/samurai",
+    "/category/sand-ninjas",
+    "/category/shek-kingdom",
+    "/category/shirts",
+    "/category/skin",
+    "/category/skin-bandits",
+    "/category/skythe",
+    "/category/slave-hunters",
+    "/category/slave-traders",
+    "/category/slavers",
+    "/category/slaves",
+    "/category/sliders",
+    "/category/southern-hive",
+    "/category/spiders",
+    "/category/stobes-garden",
+    "/category/storage",
+    "/category/stormgap-coast",
+    "/category/stumps",
+    "/category/superbosses",
+    "/category/swamp-gangs",
+    "/category/swamp-ninjas",
+    "/category/swampers",
+    "/category/swamps",
+    "/category/swamps-characters",
+    "/category/town",
+    "/category/town-making",
+    "/category/trade-cultures",
+    "/category/twinblades",
+    "/category/unique",
+    "/category/unique-recruits",
+    "/category/united-cities",
+    "/category/united-heroes-league",
+    "/category/updates",
+    "/category/vagrants",
+    "/category/variables",
+    "/category/villages",
+    "/category/weapon-types",
+    "/category/western-hive",
+    "/category/world-elements",
+    "/category/world-map",
+    "/category/world-state-related-characters",
+    "/contributors",
+    "/cultural-groupings-and-evolution-series",
+    "/kenshi",
+    "/kenshi-wiki/community-portal",
+    "/kenshi-wiki/editor-reference-guide",
+    "/kenshi-wiki/rules",
+    "/kenshi-wiki/sandbox",
+    "/lams-survival-series",
+    "/legend-of-luquin-series",
+    "/legends-series",
+    "/letter-to-moll",
+    "/letters-from-a-swamper",
+    "/letters-to-hash",
+    "/marils-diary-series",
+    "/mass-extinction-series",
+    "/mega-city-the-beginning-series",
+    "/memo-from-moll",
+    "/okranite-theories-in-relation-to-findings-series",
+    "/random",
+    "/scripture-of-radiance-series",
+    "/search",
+    "/tech-hunters-notes-series",
+    "/the-guiding-light-series",
+    "/the-lost-ancients-series",
+    "/the-mystery-of-skeletech-series",
+    "/united-weekly-series",
+    "/update/0.60"
+  ],
+  "gapCounts": {
+    "kind": {
+      "availability": 2224,
+      "claim": 264,
+      "destination": 34,
+      "empty-section": 335,
+      "fragment": 11,
+      "media": 427,
+      "unlinked-label": 85
+    },
+    "classification": {
+      "incomplete import": 2,
+      "missing alias": 12,
+      "omitted article": 19,
+      "pending conversion": 2649,
+      "unresolved": 698
+    },
+    "status": {
+      "open": 767,
+      "resolved": 2613
+    }
+  },
+  "introducedRegressions": 0,
+  "reviewPolicy": "Outstanding substantive review and inherited findings may remain queued; transfer and preservation acceptance remain required. Availability does not verify gameplay.",
+  "separateMilestones": [
+    "remaining category and utility functionality",
+    "software license",
+    "GitHub publication",
+    "staging and rollback review",
+    "branch replacement",
+    "production approval"
+  ]
+}
