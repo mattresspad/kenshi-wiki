@@ -272,3 +272,8 @@
 /weapons-trader /equipment-shops 301
 /wells-ii /wells-tech 301
 /yabuta-stoat /stoat/yabuta-outlaws 301
+
+# Utility and historical source endpoints
+/kenshi /about-kenshi 301
+/sources/outland.css.txt https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/styles/global.css 301
+/sources/wiki-header.css.txt https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/styles/wiki-header.css 301

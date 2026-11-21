@@ -1,3 +1,5 @@
+import {utilityFiles} from './utility-files.mjs';
+import {proseUtilities,historicalSourceRedirects,utilityStage} from '../src/lib/utility-routes.mjs';
 import {readFileSync, existsSync, mkdirSync, writeFileSync} from 'node:fs';
 import path from 'node:path';
 import {articleFiles, assetRedirects as readRedirects} from './article-files.mjs';
@@ -111,14 +113,14 @@ for (const url of snapshot.portals) {
     evidence:recordedSource(portalFiles[url].sourceFile, snapshot.revision)} : {};
   record('portal',url,source);
 }
-for (const url of snapshot.utilities) record(url==='/'?'home':'utility',url);
+for (const url of snapshot.utilities) {const definition=proseUtilities.find(p=>p.path===url),entry=definition&&utilityFiles().find(e=>e.data.pageId===definition.id);record(url==='/'?'home':'utility',url,definition?{editableFile:entry?.filePath,sourceFile:definition.sourceFile,sourceRevision:snapshot.revision,evidence:recordedSource(definition.sourceFile,snapshot.revision)}:{});}
 for(const route of workRoutes)record('utility',route.path,{generated:true,noindex:route.path!=='/pages-needing-work'});
 routes.push({kind:'endpoint',path:'/pages-needing-work/index.json',status:'preserved locally',generated:true});
 for (const r of snapshot.redirects) {
   const present = assetRedirects.some(rule => rule.from === r.from && rule.to === r.to && rule.status === r.status);
   routes.push({kind:'redirect',path:r.from,to:r.to,httpStatus:r.status,status:present?'preserved locally':'awaiting redirect verification'});
 }
-for (const url of snapshot.endpoints) routes.push({kind:'endpoint',path:url,status:existsSync(path.join('dist',url.slice(1)))?'preserved locally':'awaiting conversion'});
+for (const url of snapshot.endpoints) {const historical=historicalSourceRedirects.find(r=>r.from===url&&assetRedirects.some(a=>a.from===r.from&&a.to===r.to));routes.push({kind:'endpoint',path:url,status:historical||existsSync(path.join('dist',url.slice(1)))?'preserved locally':'awaiting conversion',...(historical?{disposition:'external historical endpoint',to:historical.to,httpStatus:historical.status}:{})});}
 for (const url of atlas.local) {
   if (!existsSync(htmlFile(url))) throw Error('Missing approved route '+url);
   const $=load(readFileSync(htmlFile(url),'utf8'));
@@ -188,6 +190,6 @@ const lines=['# Restoration route report','','Frozen source '+snapshot.revision+
   '## Media restoration','',
   'The original importer omitted images. Coverage is unassessed unless there is separate evidence.','',
   ...review.mediaGaps.map(gap => '- '+atlas.byId.get(gap.articleId).title+' / '+gap.section+' — '+gap.status+'. '+gap.observation+' '+gap.source),'',
-  'Milestone requires every inventoried route to have a disposition, every article to receive an existence/content/organization review, and every detected gap to be accounted for. Documented inherited gaps may remain open; introduced regressions must be fixed. Apex-domain links are not post-cutover fallbacks. Reconcile public main, settle the software license, and review staging and rollback with Prd before separate production approval.',''];
+  'Milestone requires every inventoried route to have a disposition, every article to pass transfer and format preservation, and every detected gap to be accounted for; substantive editorial review may continue after deployment. Documented inherited gaps may remain open; introduced regressions must be fixed. Apex-domain links are not post-cutover fallbacks. Reconcile public main, settle the software license, and review staging and rollback with Prd before separate production approval.',''];
 writeFileSync('reports/route-report.md',lines.join('\n'));
 console.log(atlas.local.size+' HTML pages; '+memberships+' reference memberships; '+routes.length+' ledger rows.');

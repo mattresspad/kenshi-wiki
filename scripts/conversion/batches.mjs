@@ -1,3 +1,4 @@
+import {activeUtilityPaths,isIndexablePath} from '../../src/lib/utility-routes.mjs';
 import remainderRoster from '../../conversion/remainder/roster.json' with {type:'json'};
 import remainderCheckpoint from '../../conversion/remainder/checkpoint.json' with {type:'json'};
 import manufacturerRoster from '../../conversion/manufacturers/roster.json' with {type:'json'};
@@ -60,7 +61,7 @@ export function selectedIds(family) {
 export const initialIds = geographyRoster.previouslyTransferred;
 export const expectedIds = new Set([...initialIds, ...Object.keys(families).flatMap(name => [...selectedIds(name)])]);
 export function expectedRoutes() {
-  return new Set(['/pages-needing-work','/', ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals,
+  return new Set([...activeUtilityPaths.filter(isIndexablePath),'/pages-needing-work','/', ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals,
     ...snapshot.articles.filter(article => expectedIds.has(article.id)).map(article => article.path)]);
 }
 export function newestBatch() {

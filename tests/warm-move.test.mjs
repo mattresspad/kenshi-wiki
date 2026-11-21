@@ -20,6 +20,7 @@ test('a byte-identical file move updates the warm Astro build; a separate canoni
   for (const file of ['astro.config.mjs','package.json','src','public','conversion','scripts','tests']) {
     cpSync(file,join(root,file),{recursive:true,filter:source=>!resolve(source).startsWith(resolve('src/content/articles')+requireSeparator) || !source.endsWith('.md') || fixtureFiles.has(resolve(source))});
   }
+  writeFileSync(join(root,'conversion/utilities/checkpoint.json'),JSON.stringify({included:0}));
   const coverage=join(root,'conversion/geography/checkpoint.json');
   writeFileSync(coverage,JSON.stringify({included:Math.min(1,JSON.parse(readFileSync(coverage)).included)}));
   writeFileSync(join(root,'conversion/factions/checkpoint.json'),JSON.stringify({included:0}));

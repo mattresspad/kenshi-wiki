@@ -4,7 +4,7 @@ import Icon from './Icon.astro';
 import Tools from './Tools.astro';
 import { categoryPath } from '../lib/catalog.mjs';
 const { kind, title, categories, href, edit, history, recent } = Astro.props;
-const prefix = {article: 'Article:', category: 'Category:', portal: 'Portal:'}[kind];
+const prefix = {article: 'Article:', category: 'Category:', portal: 'Portal:'}[kind] ?? 'Page:';
 const subject = kind === 'home' ? 'Main page' : prefix + ' ' + title;
 const categoryLabel = categories.length === 1 ? 'Category:' : 'Categories:';
 const current = kind === 'home' ? '/' : '#firstHeading';

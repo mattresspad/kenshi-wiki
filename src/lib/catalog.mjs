@@ -1,3 +1,4 @@
+import {activeUtilityPaths,historicalSourceRedirects,isGeneratedUtilityPath,utilityStage} from './utility-routes.mjs';
 import {workRoute,workIndexRoute,isWorkRoute} from './work-routes.mjs';
 import policy from '../../conversion/category-policy.json' with { type: 'json' };
 import snapshot from '../../conversion/reference.json' with { type: 'json' };
@@ -39,6 +40,7 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
     redirects.set(rule.from, rule.to);
   }
   for (const rule of deployedRedirects) {
+    if(rule.to.startsWith('https://')) {if(!historicalSourceRedirects.some(r=>r.from===rule.from&&r.to===rule.to&&r.status===rule.status))throw Error('Unregistered historical redirect: '+rule.from);continue;}
     if (redirects.has(rule.from) && redirects.get(rule.from) !== rule.to) throw Error('Redirect conflict at ' + rule.from);
     redirects.set(rule.from, rule.to);
   }
@@ -54,6 +56,7 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
         !(record.source === 'original' || (record.source?.title && Number.isInteger(record.source.revision)))) {
       throw Error('Missing source history for ' + id);
     }
+    if(isGeneratedUtilityPath(path))throw Error('Article collides with generated utility: '+path);
     if(isWorkRoute(path))throw Error('Article collides with maintenance routes: '+path);
     claim(sourceFiles, sourceFile, 'original source');
     claim(publicPaths, path, 'article ' + id);
@@ -79,7 +82,8 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
         const path = categoryPath(name);
         if (slugOwners.has(path)) throw Error('Unmapped category collision: ' + name + ' / ' + slugOwners.get(path));
         slugOwners.set(path, name);
-        if(isWorkRoute(path))throw Error('Category collides with maintenance routes: '+path);
+        if(isGeneratedUtilityPath(path))throw Error('Article collides with generated utility: '+path);
+    if(isWorkRoute(path))throw Error('Category collides with maintenance routes: '+path);
         claim(publicPaths, path, 'category ' + name);
         categories.set(name, {name, path, members: []});
       }
@@ -89,7 +93,7 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
   const compare = new Intl.Collator('en', {numeric:true, sensitivity:'base'});
   for (const group of categories.values()) group.members.sort((a,b) =>
     compare.compare(a.title,b.title) || a.path.localeCompare(b.path,'en'));
-  const local = new Set([workRoute,'/', ...entries.map(e => byId.get(e.data.articleId).path), ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals]);
+  const local = new Set([...activeUtilityPaths,workRoute,'/', ...entries.map(e => byId.get(e.data.articleId).path), ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals]);
   const searchTitles = [
     ['Pages needing work',workRoute], ['About Kenshi', '/about-kenshi'], ['Contributors', '/contributors'],
     ...[...articles.values()].map(a => [a.title, a.path]),
@@ -98,7 +102,7 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
   function href(path) {
     if (!path.startsWith('/') || path.startsWith('//')) return path;
     const plain = path.split(/[?#]/,1)[0];
-    if (local.has(plain)) return path;
+    if (local.has(plain) || (utilityStage>=3&&historicalSourceRedirects.some(r=>r.from===plain))) return path;
     const destination = redirects.get(plain);
     if (destination && local.has(destination)) return destination + path.slice(plain.length);
     return origin + path;

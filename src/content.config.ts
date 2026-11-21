@@ -16,4 +16,5 @@ const articles = defineCollection({
     versions: z.array(z.tuple([z.string(), z.string()])).optional()
   }).refine(data=>!(data.recordedItemText && data.factCaption),{message:'Recorded item text must replace, not duplicate, the fact caption.'})
 });
-export const collections = { articles };
+const site = defineCollection({loader:glob({base:'./src/content/site',pattern:'**/*.md',generateId:({entry})=>entry}),schema:z.object({pageId:z.enum(['about-kenshi','contributors']),title:z.string(),description:z.string()})});
+export const collections = { articles, site };

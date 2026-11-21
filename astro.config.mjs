@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import {isIndexablePath} from './src/lib/utility-routes.mjs';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
@@ -8,5 +9,5 @@ export default defineConfig({
   markdown: { syntaxHighlight: false },
   trailingSlash: 'never',
   build: { format: 'file' },
-  integrations: [sitemap({filter:page=>!new URL(page).pathname.startsWith('/pages-needing-work/')} )],
+  integrations: [sitemap({filter:page=>isIndexablePath(new URL(page).pathname)} )],
 });
