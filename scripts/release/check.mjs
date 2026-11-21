@@ -7,10 +7,11 @@ import {capture} from './capture.mjs';
 import {manifest} from './manifest.mjs';
 import {assertRehearsal} from './config.mjs';
 import {auditPackage} from './audit-package.mjs';
+import {build} from '../ci/build.mjs';
 
-const routine=process.argv.includes('--routine');
+const routine=false;
 const staging=process.argv.includes('--staging');
-assert.ok(process.argv.slice(2).every(arg=>['--routine','--staging'].includes(arg))&&!(routine&&staging),'Unknown or incompatible validation argument');
+assert.ok(process.argv.slice(2).every(arg=>['--staging'].includes(arg))&&!(routine&&staging),'Unknown or incompatible validation argument');
 const started=Date.now(),sourceSha=git('rev-parse','HEAD');clean();
 if(!routine){
  assertRehearsal(process.env,sourceSha);
@@ -28,10 +29,10 @@ async function browser(env,folder,focused){
  fs.copyFileSync('reports/release/browser.json',folder+'/browser.json');
  return read(folder+'/browser.json').stats;
 }
-await gate('reports/release/local','build',[npm,'run','build'],local);
+await build('reports/release/local',local);
 const localStats=await browser(local,'reports/release/local',true);clean();
 save('reports/release/local/acceptance.json',{sourceSha,mode:'local',checks:['build','focused editing browser tests'],browser:localStats});
-await gate('reports/release/published','build',[npm,'run','build'],published);
+await build('reports/release/published',published,{report:true});
 const results=await Promise.allSettled([
  gate('reports/release/published','catalog',[npm,'run','test:catalog'],published),
  browser(published,'reports/release/published',false),
@@ -44,12 +45,12 @@ const acceptance={sourceSha,mode:published.WIKI_RELEASE_TARGET,editBranch:'main'
 save('reports/release/published/acceptance.json',acceptance);
 if(!routine){
  const before=hashes(resolve('.cloudflare/output'));
- await gate('reports/release/reproducibility','build',[npm,'run','build'],published);
+ await build('reports/release/reproducibility',published);
  const after=hashes(resolve('.cloudflare/output'));assert.deepEqual(after,before,'Repeated production package changed');
  save('reports/release/reproducibility/acceptance.json',{sourceSha,identical:true,files:Object.keys(after).length});
  checks.push('repeated package checksums');clean();
  const runtime=await openPreview('127.0.0.1',0);
- try{await capture((await runtime.ready).origin,'reports/release/captures');}finally{await runtime.dispose()}
+ try{const start=Date.now();const shots=await capture((await runtime.ready).origin,'reports/release/captures');save('reports/release/captures-timing.json',{durationMs:Date.now()-start,captures:shots.length});}finally{await runtime.dispose()}
  checks.push('representative desktop and phone captures');
 }
 Object.assign(process.env,published);
