@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
+import {resolve} from 'node:path';
 import {openPreview} from '../static-preview.mjs';
-import {gate,npm,cf,clean,save,read} from '../release/common.mjs';
+import {gate,npm,cf,clean,save,read,hashes} from '../release/common.mjs';
 import {createPlan} from './plan.mjs';
 import {build} from './build.mjs';
 assert.ok(process.argv.slice(2).every(a=>a==='--audit'),'Unknown check argument');
@@ -36,6 +37,7 @@ if(plan.build){
   gate('reports/ci/published','cloudflare',[cf,'workers','versions','create','--prebuilt','--dry-run'],published)
  ]);
  const failures=results.filter(r=>r.status==='rejected');if(failures.length)throw Error(failures.map(r=>r.reason.message).join('\n'));
+ save('reports/ci/package-checksums.json',{sourceSha:plan.sourceSha,scope:'Validation output only; not an approved release',files:hashes(resolve('.cloudflare/output'))});
  publishedStats=results[1].value;checks.push('selected catalog','selected browser','Cloudflare dry run');
  if(plan.audit)checks.push('complete frozen conversion report');
 }else{await gate('reports/ci/structural','catalog',['--test',...plan.catalog]);checks.push('identity and structural catalog');}

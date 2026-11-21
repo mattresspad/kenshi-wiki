@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/npc-shopping-behavior",
+    "id": "tools",
+    "count": 2,
+    "status": "open",
+    "observedAt": "d8bd6e1def09007a28201b1a5fe25727c8614104",
+    "evidence": [
+      "src/components/Header.astro:26",
+      "src/content/articles/gameplay/mechanics/npc-shopping-behavior.md:179"
+    ],
+    "task": "Disambiguate the shared tools control from the article heading while preserving incoming bookmarks."
+  },
+  {
+    "path": "/old-world",
+    "id": "content",
+    "count": 2,
+    "status": "open",
+    "observedAt": "d8bd6e1def09007a28201b1a5fe25727c8614104",
+    "evidence": [
+      "src/pages/[...article].astro:30",
+      "/old-world#content"
+    ],
+    "task": "Investigate the imported content target colliding with the article wrapper; retain the original bookmark."
+  }
+]

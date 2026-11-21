@@ -8,7 +8,7 @@ The required `check-and-stage` job reports for every PR targeting main. There ar
 | --- | --- | --- |
 | Routine PR | `npm run ci:check` (set `WIKI_CI_BASE_SHA` locally) | Identity/registry checks and structural tests always. Content changes build once in published mode, check affected routes and inbound links, provenance, categories, search and sitemap, then run the affected family browser files and navigation checks. |
 | Exhaustive conversion audit | `npm run audit:check`, or manual workflow mode `audit` | All catalog tests including historical format fixtures and warm-cache moves, complete source report and gap projection, all browser tests, focused local editing and Cloudflare dry run. PRs changing preservation machinery also select this. |
-| Release rehearsal | Exact main SHA, manual workflow mode `release` or `WIKI_EXPECTED_SHA=â€¦ npm run release:check` | Full audit and browser coverage, local editing checks, repeated package hashes, all-page package audit and 32 desktop/phone captures. HTTPS acceptance remains a separate validation of the uploaded immutable version. |
+| Release rehearsal | Exact main SHA, manual workflow mode `release` or `WIKI_EXPECTED_SHA=Ã¢â‚¬Â¦ npm run release:check` | Full audit and browser coverage, local editing checks, repeated package hashes, all-page package audit and 32 desktop/phone captures. HTTPS acceptance remains a separate validation of the uploaded immutable version. |
 
 The release runner retains the complete report once, on the published build. Local editing and the reproducibility rebuild render/search/package without rerunning the same source report. Package equality is still checked. No assertion in the existing conversion audits or family suites was removed.
 
@@ -22,7 +22,7 @@ The release runner retains the complete report once, on the published build. Loc
 
 The current-state check parses rendered pages to find inbound links, then checks changed and referring pages. It rejects introduced broken destinations/fragments/assets and unsupported resolved link findings, while retaining recorded inherited gaps. It checks actual editable paths separately from original source/history (including PR #44's independent history revision). It does not claim an editorial review or a complete historical preservation audit.
 
-Duplicate DOM IDs are emitted as diagnostics. Pre-existing `tools` (NPC Shopping Behavior) and `content` (Old World) ID collisions were exposed during implementation; article targets collide with shared frame IDs. This is separate website investigation work, not an inherited editorial finding or a content change in this PR.
+New duplicate DOM IDs fail validation. Two measured pre-existing collisions are retained as explicitly open diagnostics in scripts/ci/known-site-findings.json; absence in a later run does not silently close them. Pre-existing `tools` (NPC Shopping Behavior) and `content` (Old World) ID collisions were exposed during implementation; article targets collide with shared frame IDs. This is separate website investigation work, not an inherited editorial finding or a content change in this PR.
 
 ## Evidence and approval controls
 

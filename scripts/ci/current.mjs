@@ -6,7 +6,7 @@ import {articleFiles,assetRedirects} from '../article-files.mjs';
 import {recordedSource,editableSource} from '../../src/lib/page-source.mjs';
 import {isIndexablePath} from '../../src/lib/utility-routes.mjs';
 import {targetOf,regressions} from '../gaps/core.mjs';
-import {changedTargets} from './current-core.mjs';
+import {changedTargets,checkDuplicateIds} from './current-core.mjs';
 import {read,save} from '../release/common.mjs';
 
 const plan=read('reports/ci/plan.json'),atlas=buildCatalog(articleFiles(),effectiveSnapshot,assetRedirects('public/_redirects'));
@@ -29,7 +29,7 @@ const affected=changedTargets(local,changed,redirects),registered=new Set([...at
 const inherited=[],duplicateIds=[];
 for(const path of affected){
  const page=local.get(path),$=documents.get(path),article=atlas.articles.get(path);
- for(const id of new Set(page.ids.filter((id,i)=>page.ids.indexOf(id)!==i)))duplicateIds.push({path,id});
+ duplicateIds.push(...checkDuplicateIds(path,page.ids));
  assert.equal($('link[rel=canonical]').attr('href'),origin+path,path);
  if(article){
   assert.equal($('article[data-article-id]').attr('data-article-id'),article.id);

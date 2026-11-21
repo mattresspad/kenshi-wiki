@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {selectChecks,inventory} from '../scripts/ci/policy.mjs';
-import {changedTargets} from '../scripts/ci/current-core.mjs';
+import {changedTargets,checkDuplicateIds} from '../scripts/ci/current-core.mjs';
 const articles=[{file:'src/content/articles/locations/catun.md',id:'catun',families:['geography']}];
 const change=path=>[{path,status:'M'}];
 test('documentation keeps required structural checks without building the site',()=>{
@@ -33,4 +33,12 @@ test('the complete modes retain the pre-policy browser and catalog inventories',
  const expectedBrowser='addressing animals bookmarks buildings characters editing events factions gameplay gap-report geography items lore manufacturers modding pr44 races reader remainder restoration search shops technology utilities work'.split(' ').map(x=>'tests/'+x+'.spec.mjs');
  const expectedCatalog='catalog faction-format race-format gaps warm-move animal-format character-format item-format building-format technology-format shop-format gameplay-format event-format lore-format work-index utilities release additions'.split(' ').map(x=>'tests/'+x+'.test.mjs');
  const actual=inventory();for(const f of expectedBrowser)assert.ok(actual.browser.includes(f),f);for(const f of expectedCatalog)assert.ok(actual.catalog.includes(f),f);
+});
+
+test('existing site collisions remain open diagnostics; new collisions fail',()=>{
+ assert.equal(checkDuplicateIds('/npc-shopping-behavior',['tools','tools'])[0].status,'open');
+ assert.equal(checkDuplicateIds('/old-world',['content','content'])[0].status,'open');
+ assert.throws(()=>checkDuplicateIds('/catun',['new','new']));
+ assert.throws(()=>checkDuplicateIds('/old-world',['content','content','content']));
+ assert.deepEqual(checkDuplicateIds('/old-world',['content']),[]);
 });

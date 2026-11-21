@@ -12,7 +12,7 @@ const preservation = p => /^(conversion\/|scripts\/|tests\/|\.github\/|package(?
 export function articleContext() {
   return articleFiles().map(({filePath,data})=>({
     file:filePath,id:data.articleId,
-    families:Object.entries(families).filter(([,f])=>f.roster.batches.some(b=>b.ids.includes(data.articleId))||(f.roster.members??[]).includes(data.articleId)||(f.roster.previouslyTransferred??[]).includes(data.articleId)).map(([name])=>name)
+    families:Object.entries(families).filter(([,f])=>f.roster.batches.some(b=>b.ids.includes(data.articleId))||(f.roster.members??[]).includes(data.articleId)||(f.roster.existing??[]).includes(data.articleId)).map(([name])=>name)
   }));
 }
 export function selectChecks({changes,mode='routine',articles=[],tests=inventory()}) {
