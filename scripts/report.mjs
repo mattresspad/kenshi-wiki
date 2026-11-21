@@ -194,6 +194,6 @@ const lines=['# Restoration route report','','Frozen source '+snapshot.revision+
   '## Media restoration','',
   'The original importer omitted images. Coverage is unassessed unless there is separate evidence.','',
   ...review.mediaGaps.map(gap => '- '+atlas.byId.get(gap.articleId).title+' / '+gap.section+' — '+gap.status+'. '+gap.observation+' '+gap.source),'',
-  'Milestone requires every inventoried route to have a disposition, every article to pass transfer and format preservation, and every detected gap to be accounted for; substantive editorial review may continue after deployment. Documented inherited gaps may remain open; introduced regressions must be fixed. Apex-domain links are not post-cutover fallbacks. Reconcile public main, settle the software license, and review staging and rollback with Prd before separate production approval.',''];
+  'Milestone requires every inventoried route to have a disposition, every article to pass transfer and format preservation, and every detected gap to be accounted for; substantive editorial review may continue after deployment. Documented inherited gaps may remain open; introduced regressions must be fixed. Apex-domain links are not post-cutover fallbacks. Reconcile public main, verify the recorded MIT licensing boundaries, and review staging and rollback with Prd before separate production approval.',''];
 writeFileSync('reports/route-report.md',lines.join('\n'));
 console.log(atlas.local.size+' HTML pages; '+memberships+' reference memberships; '+routes.length+' ledger rows.');

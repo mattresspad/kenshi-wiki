@@ -1,3 +1,4 @@
+import {expectEditable} from './edit-target.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -15,7 +16,7 @@ import {utilityFiles} from '../scripts/utility-files.mjs';
 const sources=JSON.parse(fs.readFileSync('conversion/utilities/sources.json'));
 test('utility provenance, bookmarks, editable paths and image bytes are independent of the prototype',()=>{
  if(utilityStage<3)return;
- for(const record of sources.pages){const $=load(fs.readFileSync('dist'+record.path+'.html')),entry=utilityFiles().find(e=>e.data.pageId===record.path.slice(1));assert.equal($('[data-utility-id]').attr('data-utility-id'),entry.data.pageId);for(const id of record.bookmarks)assert.equal($('[id]').filter((_,e)=>$(e).attr('id')===id).length,1,id);assert.equal($('.wide-tools .edit-file code').text(),entry.filePath);assert.ok($('.source-links a').first().attr('href').endsWith('/'+record.sourceRevision+'/'+record.sourceFile));}
+ for(const record of sources.pages){const $=load(fs.readFileSync('dist'+record.path+'.html')),entry=utilityFiles().find(e=>e.data.pageId===record.path.slice(1));assert.equal($('[data-utility-id]').attr('data-utility-id'),entry.data.pageId);for(const id of record.bookmarks)assert.equal($('[id]').filter((_,e)=>$(e).attr('id')===id).length,1,id);expectEditable($,entry.filePath);assert.ok($('.source-links a').first().attr('href').endsWith('/'+record.sourceRevision+'/'+record.sourceFile));}
  for(const asset of sources.assets)assert.equal(createHash('sha256').update(fs.readFileSync('public'+asset.path)).digest('hex'),asset.sha256);
  assert.equal(sources.assets.length,7);
 });

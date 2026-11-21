@@ -16,10 +16,14 @@ Each article declares its permanent ID. The checked-in conversion inventory reco
 
 ## Credits
 
-Article provenance is recorded per page. Fandom adaptations retain CC BY-SA 3.0 credit and original wiki writing retains CC BY-SA 4.0 credit. See [artwork notices](public/notices/artwork.txt) for graphics and the ribbon font. Package versions and their upstream identities are recorded in the npm lockfile. Prd’s choice of software license is pending before the first public rebuild push.
+Article provenance is recorded per page. Fandom adaptations retain CC BY-SA 3.0 credit and original wiki writing retains CC BY-SA 4.0 credit. See [artwork notices](public/notices/artwork.txt) for graphics and the ribbon font. Package versions and their upstream identities are recorded in the npm lockfile. Prd selected MIT for the independently written software; see [LICENSE](LICENSE) and [licensing boundaries](LICENSING.md). Article, artwork and third-party terms remain separate.
 
 ## Restoration readiness and contributor work
 
 Faithfully transferred, preservation-checked articles can be published while substantive editorial review continues. The generated Pages needing work view reports awaiting review, reviewed articles with open findings, and specific restoration tasks independently of original categories. Transfer, format acceptance, editorial coverage and open findings remain separate measures.
 
 Documented inherited editorial and sourcing gaps may continue after deployment. Introduced conversion regressions, unsupported resolution claims, missing route dispositions and temporary prototype dependencies still block readiness. Software licensing, GitHub publication, staging review, branch replacement and production approval remain separate release steps.
+
+## Release candidate
+
+Use Node 24.22.2. `npm run release:check` validates a clean checkout in both local-edit and published-edit modes, captures previews, and writes diagnostics under reports/release. `npm run release:stage` accepts only a checked staging package for kenshi-wiki-restoration; it cannot promote production. See [release preparation and rollback](conversion/release/README.md).

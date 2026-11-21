@@ -1,3 +1,4 @@
+import {expectEditable} from './edit-target.mjs';
 import {test,expect} from '@playwright/test';
 import {readFileSync} from 'node:fs';import {load} from 'cheerio';
 import {selectedIds} from '../scripts/conversion/batches.mjs';
@@ -7,7 +8,7 @@ import notices from '../conversion/remainder/context-notices.json' with {type:'j
 const included=selectedIds('remainder'),proof=JSON.parse(readFileSync('conversion/remainder/reference.json'));
 test('final baseline articles preserve every frozen bookmark, citation, table and editable address',async({request})=>{
  test.setTimeout(90000);test.skip(!included.size);
- for(const id of included){const a=snapshot.articles.find(a=>a.id===id),res=await request.get(a.path),$=load(await res.text());expect(res.status()).toBe(200);const ids=new Set($('[id]').toArray().map(e=>e.attribs.id));for(const f of proof.articles[id].ids)expect(ids.has(f),id+'#'+f).toBe(true);expect($('.edit-file code').first().text()).toBe(roster.files[id]);expect($('link[rel=canonical]').attr('href')).toBe(origin+a.path);if(notices[id])expect($('.source-qualification').text()).toBe(notices[id]);await res.dispose();}
+ for(const id of included){const a=snapshot.articles.find(a=>a.id===id),res=await request.get(a.path),$=load(await res.text());expect(res.status()).toBe(200);const ids=new Set($('[id]').toArray().map(e=>e.attribs.id));for(const f of proof.articles[id].ids)expect(ids.has(f),id+'#'+f).toBe(true);expectEditable($,roster.files[id]);expect($('link[rel=canonical]').attr('href')).toBe(origin+a.path);if(notices[id])expect($('.source-qualification').text()).toBe(notices[id]);await res.dispose();}
  if(included.has('kenshi-wiki')){const r=await request.get('/main-page',{maxRedirects:0});expect(r.status()).toBe(301);expect(new URL(r.headers().location,origin).pathname).toBe('/kenshi-wiki');await r.dispose();}
 });
 for(const phone of [false,true])for(const theme of ['light','dark'])test.describe((phone?'phone':'desktop')+' final corpus '+theme,()=>{

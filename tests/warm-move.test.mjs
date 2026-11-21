@@ -43,7 +43,7 @@ test('a byte-identical file move updates the warm Astro build; a separate canoni
   const moved = 'src/content/articles/reference/fixture-note.md';
   const html = route => load(readFileSync(join(root,'dist',route.slice(1)+'.html')));
   function build(branch='') {
-    const options = {cwd:root,encoding:'utf8',env:{...process.env, WIKI_EDIT_BRANCH:branch,
+    const options = {cwd:root,encoding:'utf8',env:{...process.env, WIKI_RELEASE_TARGET:'local', WIKI_EDIT_BRANCH:branch,
       ASTRO_TELEMETRY_DISABLED:'1', GIT_DIR:join(root,'unavailable.git')}};
     for (const args of [['scripts/check-articles.mjs'],[cli,'build'],['scripts/package.mjs'],['scripts/report.mjs']]) {
       execFileSync(process.execPath,args,options);

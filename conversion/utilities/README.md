@@ -18,4 +18,4 @@ Eight title suggestions support arrow keys, Enter and Escape. Search results use
 
 Random navigation replaces its own history entry and excludes Removed Content and Candidates for deletion. Search/random are canonical but noindex; the error page is noindex without a canonical. Cloudflare's static asset `404-page` behavior returns real GET/HEAD 404 responses for absent root and nested paths. Existing pages with missing bookmarks remain article responses.
 
-Software licensing, public publication, staging/rollback, branch replacement and production approval remain separate milestones. No new substantive editorial sign-off is inferred from restored utility availability.
+MIT licensing is recorded in LICENSE and LICENSING.md. Public publication, staging/rollback, branch replacement and production approval remain separate milestones. No new substantive editorial sign-off is inferred from restored utility availability.

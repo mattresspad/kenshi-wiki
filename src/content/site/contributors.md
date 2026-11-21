@@ -16,7 +16,7 @@ Original wiki text is provided under [CC BY-SA 4.0](https://creativecommons.org/
 
 Adaptations from the Kenshi Fandom wiki retain [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Article footers link to their source revision and contributor history. [Full license text](/notices/CC-BY-SA-3.0.txt). Imported prose does not establish complete media coverage; restored images and outstanding gaps are tracked separately.
 
-**The software license for the independent rebuild remains undecided before public publication.** Dependencies, imported artwork and trademarks have their own notices. The text licenses above do not describe those materials.
+The independently written FreshWiki application, styling, scripts, tests and configuration use the [MIT license](/notices/FreshWiki-MIT.txt), selected by Prd. Article prose, source excerpts, artwork, fonts, trademarks and third-party packages retain their separate terms. See the [licensing boundaries](https://github.com/mattresspad/kenshi-wiki/blob/rebuild/restoration/LICENSING.md).
 
 <h2 id="outland">Historical prototype and Outland sources</h2>
 

@@ -1,0 +1,28 @@
+{
+  "assessedBaseline": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "rebuildStart": "4db33adf9313f3b3819a3189e2a7b98eee516419",
+  "childStart": "5dc9337aa1fb1a5fe38e2e5f5484329cdcd54322",
+  "upstreamComparison": "identical at preparation; recheck immediately before publication",
+  "originalPr": {
+    "number": 44,
+    "head": "7306cfe75c41260de3186d1c1fffeaf68e61bb89",
+    "state": "open; reconcile after credited replacement merge"
+  },
+  "softwareLicense": {
+    "spdx": "MIT",
+    "selectedBy": "Prd",
+    "scope": "Independent software; other content retains recorded terms"
+  },
+  "production": {
+    "worker": "kenshi-wiki",
+    "version": "f9d52d77-376e-4647-8d8c-93b414364d68",
+    "percentage": 100,
+    "source": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+  },
+  "stagingWorker": "kenshi-wiki-restoration",
+  "approvals": {
+    "publicCandidateAndStaging": "authorized",
+    "defaultBranchReplacement": "not authorized",
+    "productionDeployment": "not authorized"
+  }
+}

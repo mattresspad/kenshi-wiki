@@ -1,0 +1,29 @@
+name: Article correction
+description: Correct or improve a Kenshi Wiki article, with sources or observations.
+title: "Article correction: "
+body:
+  - type: input
+    id: article
+    attributes:
+      label: Article URL
+      description: The page and, where useful, its heading bookmark.
+      placeholder: https://kenshi.wiki/catun
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: Describe what is inaccurate, missing or unclear and the change you suggest.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources and observations
+      description: Include source links, game or mod versions, and what you observed. Uncertainty is welcome; do not include private information.
+  - type: textarea
+    id: credit
+    attributes:
+      label: Credit and reuse
+      description: Identify the original author and applicable permission or license for supplied text or artwork.

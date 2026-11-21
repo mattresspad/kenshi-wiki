@@ -1,3 +1,4 @@
+import {expectEditable} from './edit-target.mjs';
 import {test,expect} from '@playwright/test';
 import {load} from 'cheerio';
 import {readFileSync} from 'node:fs';
@@ -8,7 +9,7 @@ const included=selectedIds('manufacturers'),proof=JSON.parse(readFileSync('conve
 test('manufacturer and historical indexes, bookmarks, captions and redirects retain frozen identities',async({request})=>{
  test.skip(!included.size);test.setTimeout(90000);
  for(const name of roster.categories){const res=await request.get(categoryPath(name)),$=load(await res.text()),members=snapshot.articles.filter(a=>a.categories.includes(name));expect(res.status()).toBe(200);expect($('[data-member]').toArray().map(e=>e.attribs['data-member']).sort()).toEqual(members.map(a=>a.path).sort());for(const a of members)expect($('[data-member="'+a.path+'"]').attr('href')).toBe((expectedIds.has(a.id)?'':origin)+a.path);await res.dispose();}
- for(const id of included){const a=snapshot.articles.find(a=>a.id===id),res=await request.get(a.path),$=load(await res.text());expect(res.status()).toBe(200);for(const f of proof.articles[id].ids)expect($('[id]').toArray().some(e=>e.attribs.id===f),id+'#'+f).toBe(true);if(proof.articles[id].factMedia){expect($('.fact-caption').text()).toBe(proof.articles[id].factMedia.caption);expect($('.factbox img').toArray().map(e=>[e.attribs.src,e.attribs.alt??''])).toEqual(proof.articles[id].factMedia.images);}expect($('.edit-file code').first().text()).toBe(roster.files[id]);await res.dispose();}
+ for(const id of included){const a=snapshot.articles.find(a=>a.id===id),res=await request.get(a.path),$=load(await res.text());expect(res.status()).toBe(200);for(const f of proof.articles[id].ids)expect($('[id]').toArray().some(e=>e.attribs.id===f),id+'#'+f).toBe(true);if(proof.articles[id].factMedia){expect($('.fact-caption').text()).toBe(proof.articles[id].factMedia.caption);expect($('.factbox img').toArray().map(e=>[e.attribs.src,e.attribs.alt??''])).toEqual(proof.articles[id].factMedia.images);}expectEditable($,roster.files[id]);await res.dispose();}
  const paths=new Set(snapshot.articles.filter(a=>included.has(a.id)).map(a=>a.path));for(const r of snapshot.redirects.filter(r=>paths.has(r.to))){const res=await request.get(r.from,{maxRedirects:0});expect(res.status()).toBe(r.status);expect(new URL(res.headers().location,origin).pathname).toBe(r.to);await res.dispose();}
 });
 for(const phone of [false,true])for(const theme of ['light','dark'])test.describe((phone?'phone':'desktop')+' manufacturers '+theme,()=>{
