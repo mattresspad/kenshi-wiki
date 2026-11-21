@@ -310,6 +310,17 @@
       }
     },
     {
+      "id": "availability:/adventurers-guild-alpha",
+      "kind": "availability",
+      "target": "/adventurers-guild-alpha",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#historical-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/adventurers-guild-alpha"
+      }
+    },
+    {
       "id": "availability:/agnu",
       "kind": "availability",
       "target": "/agnu",
@@ -2067,6 +2078,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/black-scratch-alpha"
+      }
+    },
+    {
+      "id": "availability:/blackened-chain-headwrap",
+      "kind": "availability",
+      "target": "/blackened-chain-headwrap",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#historical-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/blackened-chain-headwrap"
       }
     },
     {
@@ -14599,6 +14621,17 @@
       }
     },
     {
+      "id": "availability:/ore-mine",
+      "kind": "availability",
+      "target": "/ore-mine",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#historical-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ore-mine"
+      }
+    },
+    {
       "id": "availability:/oron",
       "kind": "availability",
       "target": "/oron",
@@ -23825,6 +23858,19 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/zed"
+      }
+    },
+    {
+      "id": "claim:manufacturers-old-destinations",
+      "kind": "claim",
+      "target": "/old-eye-blades",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#historical-structures",
+      "resolution": {
+        "method": "Exact frozen redirect and registered-target comparison",
+        "evidence": "conversion/manufacturers/alias-review.json",
+        "verifiedBy": "scripts/manufacturers/resolve-aliases.mjs",
+        "scope": "Frozen alias identity only; target availability and historical gameplay claims remain separate."
       }
     },
     {

@@ -58,6 +58,58 @@
         "claim:manufacturers-retired-properties"
       ],
       "assessment": "Preserve 0.8x price, 0.9x cutting and 0.7x weight, three models and the qualified imitation theory. Visible 0kg versus actual 0.7kg remains an imported rounding claim."
+    },
+    {
+      "id": "blackened-chain-headwrap",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Blackened Chain Headwrap is armour equipped in the headgear slot. It currently does not belong to any armour class and is listed as being made from cloth. Appearance Blackened Chain Headwrap and Chain Headwrap are identical in appearance with the exception of the color (this one, as the name implies, is black). The wrap, which is roughly the width of a hand, wraps around the character’s head stating at the brow. It covers a fair portion of the skull but leaves the neck, face and top of the head exposed to strikes. Stats Blueprints As of 0.50.3 blueprints for the Blackened Chain Headwrap are not implemented into the game but available through use of the Forgotten Construction Set or modded games. The armour can then be crafted through a Chain Armour Crafting Bench.",
+      "organization": "Reviewed 3 headings and 3 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/blackened-chain-headwrap.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1da7ae72aa9a189fbc52b5a3af13034b8a90830fff11deb3494cfa1e565fec92"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-quality",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Keep quoted description, blank image cell, cloth-grade matrix, 0.03/0.075/0.12% resistance, 60% coverage and version-0.50.3 blueprint qualification. No missing cells are filled."
+    },
+    {
+      "id": "adventurers-guild-alpha",
+      "existence": "Permanent ID, address, pinned checksum, categories and one factions/historical/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Adventurers Guild was a faction from Old World which was introduced with version 0.58.3. Named NPCs from the group can be found in random locations around the map. Spotting of its members is most likely to occur near Cannibals villages, where an adventurer was likely captured and carried into a cage. If rescued or encountered anywhere else the member will behave similar to any other NPC. If talked to you will get the typical response, “If you’re looking to hire someone, try asking around in bars.” Left alone the adventurer will wander between shops with the goal “shopping”. Adventurers also appear to be equipped with different gear and weapons with no set uniform for the group.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/adventurers-guild-alpha.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b308a7eb5b4bee145571c18b295991c7ada81fd096387b383fea5babf9826b65"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-relations",
+        "claim:manufacturers-historical-status"
+      ],
+      "assessment": "Keep removed-content notice first, version 0.58.3, uncertain encounter descriptions, rescue dialogue and shopping behavior. Historical faction identity is explicit."
+    },
+    {
+      "id": "ore-mine",
+      "existence": "Permanent ID, address, pinned checksum, categories and one buildings/historical/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: In Early builds of the game Ore Mines were resource production buildings that generated the raw material Raw Iron. Ore nodes are now found on the map and can be mined manually, or ore can be extracted via use of an Ore Drill.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ore-mine.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bb66ee734edc2bcb3ba1bcd94766e24f13ad57d8e61de71a7e25326ac3a055e4"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-status"
+      ],
+      "assessment": "Preserve distinction between an early production building and later nodes/drills. No building cost or research information is invented."
     }
   ],
   "editorialChanges": []

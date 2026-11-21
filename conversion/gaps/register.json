@@ -178457,8 +178457,8 @@
       "status": "resolved",
       "finding": "Historical manufacturer links retain their recorded spellings and alias destinations; verify intended identity before inventing or changing an alias.",
       "proposedResolution": "Retain the source wording and qualification. Check a versioned game record or historical build and separately test behavior before proposing a correction.",
-      "uncertainty": "Inherited descriptions and record values are not independently verified gameplay observations.",
-      "postCutover": "Serve the registered article with the imported qualification; keep this investigation open. Conversion is not gameplay verification.",
+      "uncertainty": "The frozen alias mappings are established; historical gameplay and availability claims remain unverified elsewhere.",
+      "postCutover": "Keep the original labels and serve the registered 301 aliases. Target availability and gameplay questions are tracked separately.",
       "evidence": [
         {
           "articleId": "old-eye-blades",

@@ -5,7 +5,7 @@ const aliases=Object.entries(wanted).map(([from,to])=>{const found=snapshot.redi
 const evidence={revision:snapshot.revision,registrySHA256:hash(fs.readFileSync('conversion/reference.json')),aliases,scope:'Frozen alias identity only; target availability and historical gameplay claims remain separate.',verifiedBy:'scripts/manufacturers/resolve-aliases.mjs'};
 save('conversion/manufacturers/alias-review.json',evidence);
 const register=get('conversion/gaps/register.json'),finding=register.findings.find(r=>r.id==='claim:manufacturers-old-destinations');assert.ok(finding);
-finding.status='resolved';finding.verification='All three historical aliases exist in the pinned redirect inventory and target registered manufacturer IDs.';
+finding.status='resolved';finding.postCutover='Keep the original labels and serve the registered 301 aliases. Target availability and gameplay questions are tracked separately.';finding.uncertainty='The frozen alias mappings are established; historical gameplay and availability claims remain unverified elsewhere.';finding.verification='All three historical aliases exist in the pinned redirect inventory and target registered manufacturer IDs.';
 finding.resolution={method:'Exact frozen redirect and registered-target comparison',evidence:'conversion/manufacturers/alias-review.json',verifiedBy:evidence.verifiedBy,scope:evidence.scope};
 finding.investigationNotes='Preserved original link labels and all affected occurrences. This closes the alias-identity question only; it does not establish weapon availability, company history or crafting mechanics.';
 save('conversion/gaps/register.json',register);console.log('Three existing aliases verified; one identity finding closed with pinned evidence.');

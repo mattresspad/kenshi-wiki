@@ -6682,6 +6682,18 @@
     "ancient-manufacturer": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "blackened-chain-headwrap": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "adventurers-guild-alpha": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "ore-mine": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
     }
   },
   "mediaGaps": [
