@@ -27,7 +27,8 @@
     "gameplay:accept": "node scripts/conversion/accept.mjs gameplay",
     "events:accept": "node scripts/conversion/accept.mjs events",
     "lore:accept": "node scripts/conversion/accept.mjs lore",
-    "modding:accept": "node scripts/conversion/accept.mjs modding"
+    "modding:accept": "node scripts/conversion/accept.mjs modding",
+    "manufacturers:accept": "node scripts/conversion/accept.mjs manufacturers"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",

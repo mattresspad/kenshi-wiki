@@ -1,0 +1,362 @@
+{
+  "adventurers-guild-alpha": null,
+  "ancient-manufacturer": null,
+  "bandits": null,
+  "blackened-chain-headwrap": null,
+  "carbon": {
+    "title": "Carbon",
+    "image": "/icons/items/42328-changes_otto.mod.png",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Type",
+            "Other"
+          ],
+          [
+            "Weight",
+            "2 kg"
+          ],
+          [
+            "Base value",
+            "c. 150"
+          ],
+          [
+            "Size in inventory",
+            "3x3"
+          ]
+        ]
+      },
+      {
+        "heading": null,
+        "rows": [
+          [
+            "String id",
+            "<span>42328-changes_otto.mod</span>"
+          ]
+        ]
+      }
+    ]
+  },
+  "catun-scrapmaster-manufacturer": null,
+  "chain-headwrap": null,
+  "dead-cat": null,
+  "dried-gristle-flaps": {
+    "title": "Dried Gristle Flaps",
+    "image": "/icons/items/50568-rebirth.mod.png",
+    "caption": "Not the best quality meat, but better than nothing",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Type",
+            "Food"
+          ],
+          [
+            "Weight",
+            "1 kg"
+          ],
+          [
+            "Base value",
+            "c. 40"
+          ],
+          [
+            "Size in inventory",
+            "2x2"
+          ],
+          [
+            "Nutrition",
+            "7.5 nu"
+          ]
+        ]
+      },
+      {
+        "heading": null,
+        "rows": [
+          [
+            "String id",
+            "<span>50568-rebirth.mod</span>"
+          ]
+        ]
+      }
+    ]
+  },
+  "edgewalkers": null,
+  "flat-topper": {
+    "title": "Flat Topper",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Class",
+            "<a href=\"/hacker\">Hacker</a>"
+          ],
+          [
+            "Bleed Rate",
+            "1"
+          ],
+          [
+            "Reach",
+            "23"
+          ],
+          [
+            "Inventory Height",
+            "1"
+          ],
+          [
+            "Inventory Width",
+            "9"
+          ]
+        ]
+      }
+    ]
+  },
+  "heavy-iron-club": {
+    "title": "Heavy Iron Club",
+    "groups": [
+      {
+        "heading": "Details",
+        "rows": [
+          [
+            "Class",
+            "<a href=\"/blunt\">Blunt</a>"
+          ],
+          [
+            "Bleed Rate",
+            "0.3"
+          ],
+          [
+            "Reach",
+            "21"
+          ],
+          [
+            "Inventory Height",
+            "1"
+          ],
+          [
+            "Inventory Width",
+            "9"
+          ]
+        ]
+      }
+    ]
+  },
+  "homemade": null,
+  "imperial-lords": null,
+  "jacket": null,
+  "metal-purity": null,
+  "narcotics": {
+    "title": "Narcotics",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Avg. Price",
+            "c.282"
+          ]
+        ]
+      }
+    ]
+  },
+  "old-eye-blades": null,
+  "ore-mine": null,
+  "ore-mining": {
+    "title": "Ore Mining",
+    "groups": [
+      {
+        "heading": "Details",
+        "rows": [
+          [
+            "Estimated Time",
+            "7 Hours"
+          ],
+          [
+            "Tech Level",
+            "1"
+          ],
+          [
+            "Requirements",
+            "None"
+          ]
+        ]
+      },
+      {
+        "heading": "Results",
+        "rows": [
+          [
+            "New Building(s)",
+            "<a href=\"/ore-mine\">Ore Mine</a>"
+          ]
+        ]
+      }
+    ]
+  },
+  "potatoes": {
+    "title": "Potatoes",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Weight",
+            "4 kg"
+          ],
+          [
+            "Base value",
+            "c. 300"
+          ],
+          [
+            "Size in inventory",
+            "4x4"
+          ]
+        ]
+      },
+      {
+        "heading": null,
+        "rows": [
+          [
+            "String id",
+            "<span>1960-gamedata.base</span>"
+          ]
+        ]
+      }
+    ]
+  },
+  "raider-armour": null,
+  "samurai-lord": {
+    "title": "Samurai Lord",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Gender",
+            "11% female chance"
+          ]
+        ]
+      },
+      {
+        "heading": "Items",
+        "rows": [
+          [
+            "Weapons",
+            "<a href=\"/katana\">Katana</a>, <a href=\"/wakizashi\">Wakizashi</a>"
+          ],
+          [
+            "Headgear",
+            "<a href=\"/samurai-helmet\">Samurai Helmet</a> (Helmetless in later versions)"
+          ],
+          [
+            "Armour",
+            "<a href=\"/samurai-armour\">Samurai Armour</a>"
+          ],
+          [
+            "Shirt",
+            "<a href=\"/chain-shirt\">Chain Shirt</a>"
+          ],
+          [
+            "Legwear",
+            "<a href=\"/samurai-legplates\">Samurai Legplates</a>"
+          ],
+          [
+            "Footwear",
+            "<a href=\"/samurai-boots\">Samurai Boots</a>"
+          ],
+          [
+            "Inventory",
+            "<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"
+          ]
+        ]
+      }
+    ]
+  },
+  "sand-ninjas-alpha": null,
+  "shopkeepers-backpack": {
+    "title": "Shopkeepers Backpack",
+    "image": "/icons/items/910-gamedata.base.png",
+    "caption": "A bag designed for shopkeepers.  Not designed for travelling around with.",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Slot",
+            "<a href=\"/backpacks\">Backpack</a>"
+          ],
+          [
+            "Weight reduction",
+            "0%"
+          ],
+          [
+            "Weight",
+            "50 kg"
+          ],
+          [
+            "Base value",
+            "c. 5,000"
+          ]
+        ]
+      },
+      {
+        "heading": "Storage",
+        "rows": [
+          [
+            "Backpack grid",
+            "20x20"
+          ],
+          [
+            "Stack minimum",
+            "1x"
+          ],
+          [
+            "Stack multiplier",
+            "1x"
+          ],
+          [
+            "Size in inventory",
+            "4x5"
+          ]
+        ]
+      },
+      {
+        "heading": "Combat",
+        "rows": [
+          [
+            "Combat skills",
+            "-10"
+          ],
+          [
+            "Combat speed",
+            "0.50x"
+          ],
+          [
+            "Athletics",
+            "1.00x"
+          ],
+          [
+            "Stealth and dodge",
+            "0.00x"
+          ]
+        ]
+      },
+      {
+        "heading": null,
+        "rows": [
+          [
+            "String id",
+            "<span>910-gamedata.base</span>"
+          ]
+        ]
+      }
+    ]
+  },
+  "skeleton-smiths-manufacturer": null,
+  "the-holy-empire": null,
+  "the-old-empire": null,
+  "truth-two": null,
+  "unknown-manufacturer": null
+}

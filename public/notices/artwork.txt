@@ -49,3 +49,5 @@ Equipment and Items restoration: 354 distinct inventory images from pinned sourc
 Buildings restoration: 126 distinct referenced item images are reused unchanged from pinned source 83abc179. They retain the Kenshi artwork credit and recorded permission status above. Checksums: conversion/buildings/reference.json. These inventory icons do not establish complete building-image or gallery coverage.
 
 Books and Lore restoration: 35 distinct book-item images from pinned source 83abc179; two reused and 33 restored unchanged. The Kenshi item-art attribution and recorded permission status above apply. Checksums: conversion/lore/reference.json. Inventory icons do not establish complete original-media coverage.
+
+Manufacturers and historical restoration: 3 distinct referenced item images verified against 83abc179 (0 reused; 3 restored unchanged). Existing Kenshi item-art credit and recorded permission status apply. Checksums: conversion/manufacturers/assets.json. Missing illustrations remain unassessed.

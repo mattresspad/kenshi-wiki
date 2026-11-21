@@ -1,0 +1,112 @@
+[
+  [
+    "manufacturers-quality",
+    null,
+    "Price:|Damage:|Weight:|quality|stronger|grade",
+    "Manufacturer multipliers, displayed rounding and relative quality depend on model and version; retain imported values and qualifications.",
+    "Retain the source wording and qualification. Check a versioned game record or historical build and separately test behavior before proposing a correction.",
+    "Inherited descriptions and record values are not independently verified gameplay observations."
+  ],
+  [
+    "manufacturers-availability",
+    null,
+    "artifact|scraphouse|craft|research|found|sold|loot",
+    "Availability, artifact grades and player-crafted versus found weapons require separate versioned evidence; a research unlock does not establish identical quality or obtainable models.",
+    "Retain the source wording and qualification. Check a versioned game record or historical build and separately test behavior before proposing a correction.",
+    "Inherited descriptions and record values are not independently verified gameplay observations."
+  ],
+  [
+    "manufacturers-historical-status",
+    null,
+    "version|0\\.[0-9]|removed|unused|never been|retired|old world",
+    "Removed, never implemented, historical and surviving-record statuses remain distinct. Source notices do not establish present runtime availability.",
+    "Retain the source wording and qualification. Check a versioned game record or historical build and separately test behavior before proposing a correction.",
+    "Inherited descriptions and record values are not independently verified gameplay observations."
+  ],
+  [
+    "manufacturers-historical-claims",
+    null,
+    "likely|possible|believ|supposed|unknown|perhaps",
+    "Historical identity, precursor theories and removal explanations remain qualified interpretations rather than established facts.",
+    "Retain the source wording and qualification. Check a versioned game record or historical build and separately test behavior before proposing a correction.",
+    "Inherited descriptions and record values are not independently verified gameplay observations."
+  ],
+  [
+    "manufacturers-old-destinations",
+    [
+      "old-eye-blades",
+      "metal-purity",
+      "truth-two"
+    ],
+    "catan|/unknown|catan-scrapmaster",
+    "Historical manufacturer links retain their recorded spellings and alias destinations; verify intended identity before inventing or changing an alias.",
+    "Retain the source wording and qualification. Check a versioned game record or historical build and separately test behavior before proposing a correction.",
+    "Inherited descriptions and record values are not independently verified gameplay observations."
+  ],
+  [
+    "manufacturers-retired-properties",
+    null,
+    "Base value|Avg\\. Price|Nutrition|String id|capacity|Weight|harvest|ingredient",
+    "Retired item properties, prices, nutrition and storage/production claims need exact source records and version semantics; preserve blank or incomplete values.",
+    "Retain the source wording and qualification. Check a versioned game record or historical build and separately test behavior before proposing a correction.",
+    "Inherited descriptions and record values are not independently verified gameplay observations."
+  ],
+  [
+    "manufacturers-historical-relations",
+    null,
+    "Relations|\\(-100\\)|faction|recruit|shopping",
+    "Historic faction relations, NPC membership and recruitment behavior are version-dependent; current entities are not substitutes for historical records.",
+    "Retain the source wording and qualification. Check a versioned game record or historical build and separately test behavior before proposing a correction.",
+    "Inherited descriptions and record values are not independently verified gameplay observations."
+  ],
+  [
+    "manufacturers-media",
+    null,
+    "Gallery|File:|screenshot|image|picture",
+    "Missing or unassessed illustrations and empty galleries remain restoration work; verified item icons are not complete media coverage.",
+    "Retain the source wording and qualification. Check a versioned game record or historical build and separately test behavior before proposing a correction.",
+    "Inherited descriptions and record values are not independently verified gameplay observations."
+  ],
+  [
+    "manufacturers-potato-price",
+    [
+      "potatoes"
+    ],
+    "c. 300|c.60",
+    "Potatoes has an imported c.300 base value and c.60 prose average price. Preserve both; whether these describe distinct price concepts or a disagreement is unverified.",
+    "Retain both source statements and investigate exact records, versions and behavior before correction.",
+    "Historical source claims are not newly verified mechanics."
+  ],
+  [
+    "manufacturers-blank-comparisons",
+    [
+      "flat-topper",
+      "heavy-iron-club"
+    ],
+    "<td></td>|Edge Type 4|Edge Type 5|Catan No. 4",
+    "Historical weapon matrices contain many blank values and older model names. Blank cells are unknown data, not zero or evidence of current availability.",
+    "Retain both source statements and investigate exact records, versions and behavior before correction.",
+    "Historical source claims are not newly verified mechanics."
+  ],
+  [
+    "manufacturers-crafting-limits",
+    [
+      "homemade",
+      "edgewalkers"
+    ],
+    "Edge Type|critical|Version 0.99",
+    "Homemade and Edgewalkers distinguish critical crafting, research, model limits and manufacturer bonuses; preserve possible cross-article discrepancies pending versioned evidence.",
+    "Retain both source statements and investigate exact records, versions and behavior before correction.",
+    "Historical source claims are not newly verified mechanics."
+  ],
+  [
+    "manufacturers-save-import",
+    [
+      "truth-two"
+    ],
+    "importing a savefile|deteriorate",
+    "Truth Two describes recalled weapon deterioration and transfer by save import. Preserve the historical claim; no modern persistence/import test was performed.",
+    "Retain both source statements and investigate exact records, versions and behavior before correction.",
+    "Historical source claims are not newly verified mechanics."
+  ]
+]

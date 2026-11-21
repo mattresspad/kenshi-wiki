@@ -8,6 +8,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   const {roster}=families[family];
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
   const extra={
+    'manufacturer-pilots':batch.ids,'historical-structures':batch.ids,'historical-qualifications':batch.ids,
     'modding-fcs':batch.ids,'modding-structures':batch.ids,'modding-pr43':batch.ids,'modding-projects':batch.ids,
     'lore-pilots':batch.ids,'lore-structures':batch.ids,
     'event-pilots':batch.ids,'event-structures':batch.ids,'event-trade-stock':batch.ids,'event-overview-and-routes':['events','world-state-routes','flotsam-ninjas-route','united-cities-route'],
@@ -60,6 +61,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   if(family==='events'&&batch.name===roster.batches.at(-1).name)samples.push('category/events','events','prayer-day','tax-collector','bandit-demands','crab-tournament','elite-hunter-assault','base-assault','caravan-visit','farm-trader','materials-trader','world-state-routes','flotsam-ninjas-route','tribute-round#tips');
   if(family==='lore'&&batch.name===roster.batches.at(-1).name)samples.push('category/books','category/lore','letter-from-bad-teeth','ludins-reports','history-of-kenshi','history-of-kenshi/tr','wanted-posters','a-holy-purpose','birth-of-the-phoenix','flotsam-safehouse-note','the-holy-flame','the-little-boy-that-got-dismembered-by-skeletons','lore-books');
   if(family==='modding'&&batch.name===roster.batches.at(-1).name)samples.push('modding','category/modding','forgotten-construction-set','using-the-fcs','modding/meitou','modding/meitou/porting-re-kenshi-mods','user-node-rotations-quarternions');
+  if(family==='manufacturers'&&batch.name===roster.batches.at(-1).name)samples.push('category/manufacturers','category/removed-content','category/retired-items','dried-gristle-flaps','metal-purity','the-old-empire');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {
@@ -75,7 +77,8 @@ export async function captureBatch(base, batch, output, family='geography') {
         const route=article?.path ?? '/'+id;
         const url=new URL(route,base);url.searchParams.set('theme',theme);if(anchor)url.hash=anchor;
         const res=await page.goto(url.href,{waitUntil:'domcontentloaded'});
-        assert.equal(res.status(),200,url.href);
+        const response=res??await page.request.get(url.href);
+        assert.equal(response.status(),200,url.href);if(!res)await response.dispose();
         await page.evaluate(async()=>{await document.fonts.ready;await new Promise(requestAnimationFrame)});
         const geometry=await page.evaluate(()=>{
           const main=document.querySelector('main');
