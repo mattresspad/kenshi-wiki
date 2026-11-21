@@ -1,29 +1,52 @@
-# Kenshi Wiki restoration
+# Kenshi Wiki
 
-The local Astro worktree rebuilds the reader experience from the approved FreshWiki design. Prd (mattresspad) leads the project and maintains the wiki. Article corrections and credited pull requests are welcome. Discuss bulk imports or architectural proposals with Prd before implementation.
+A community wiki for [Kenshi](https://lofigames.com/), built with static Astro and Cloudflare Workers Static Assets. FreshWiki is the independently written application on `main`. The original prototype is preserved, with its full history, under [archive/initial-prototype](https://github.com/mattresspad/kenshi-wiki/tree/archive/initial-prototype).
+
+## Contributors and licenses
+
+| Contributor | Work |
+| --- | --- |
+| [Prd (mattresspad)](https://github.com/mattresspad) | Founder, project lead and maintainer; design, navigation, deployment and editorial direction. |
+| [teppuM](https://github.com/teppuM) | Editing, repeatable game testing, Blender guidance and Meitou code-mod documentation. |
+| [VlcekM](https://github.com/VlcekM) | Original Astro prototype and editing; proposed RimWorld Wiki as that prototype's presentation model. |
+
+The Fandom contributors and other authors retain the credit recorded on each article. See [Contributors](https://kenshi.wiki/contributors), [FreshWiki history](https://github.com/mattresspad/kenshi-wiki/commits/main/) and [the prototype history](https://github.com/mattresspad/kenshi-wiki/commits/archive/initial-prototype/). teppuM's [Skeleton Repair Bed/Robotics observations](https://github.com/mattresspad/kenshi-wiki/pull/8) and [code-mod hooks contribution](https://github.com/mattresspad/kenshi-wiki/pull/44) retain their original evidence and adaptation history.
+
+Independent application code, styling, scripts, tests and configuration use [MIT](LICENSE). Original article text uses [CC BY-SA 4.0](public/notices/CC-BY-SA-4.0.txt); Fandom adaptations retain [CC BY-SA 3.0](public/notices/CC-BY-SA-3.0.txt). Read [licensing boundaries](LICENSING.md) and [artwork notices](public/notices/artwork.txt). Fonts and dependencies keep their own terms. The archived prototype's Vector, MediaWiki and RimWorld credits remain historical and are not relicensed as MIT.
+
+## Acknowledgements
+
+[<img src=".github/assets/pindrop.png" alt="" width="20" height="20" align="middle"> PinDrop's Kenshi map](https://pindrop.gg/kenshi/map), built by [Yurii](https://pindrop.gg/about), connects locations with wiki articles. Thanks to Yurii for crediting the Kenshi Interactive Map and inviting players to contribute. The supplied README icon's scope is recorded in the artwork inventory.
+
+## Contribute
+
+[Suggest an article correction](https://github.com/mattresspad/kenshi-wiki/issues/new?template=article-correction.yml), [report a website issue](https://github.com/mattresspad/kenshi-wiki/issues/new?template=website.yml), or choose a task from [Pages needing work](https://kenshi.wiki/pages-needing-work). [CONTRIBUTING.md](CONTRIBUTING.md) walks through browser edits and local contributions. Follow the [code of conduct](CODE_OF_CONDUCT.md); use [private security reporting](SECURITY.md) for sensitive issues. Bring bulk imports and architectural proposals to Prd before implementation.
 
 ## Run locally
 
-Use Node 24 and npm. Run `npm ci`, `npm run build`, then `npm run preview -- --host 127.0.0.1 --port 4392`. `npm run test:catalog` checks the frozen taxonomy. `npm test` runs the browser suite. Set `WIKI_CHROME` to a local Chromium executable or install Playwright Chromium. `npm run package:check` validates the prebuilt assets-only Cloudflare package.
+Use Node **24.22.2** from `.node-version` and the checked-in lockfile:
 
-The preview serves the packaged assets through Cloudflare’s local asset router, including the published Holy Nation aliases. With the loopback preview running, use `npm run review` to check both palettes at all three viewport sizes. Open `reports/index.html` for the full-size screenshots, per-URL ledger, and browser measurements.
+```sh
+npm ci
+npm exec -- playwright install chromium
+npm run build
+npm run preview -- --host 127.0.0.1 --port 4392
+```
+
+In another terminal, `npm run test:catalog` checks preservation and catalog behavior, `npm test` runs the browser suite, and `npm run package:check` validates the prebuilt Cloudflare package without uploading it. `WIKI_CHROME` can select a local Chromium executable. The preview uses Cloudflare's local asset router, including redirects and genuine 404s. `npm run review` captures the established layouts; generated reports remain local.
 
 ## Article and route review
 
-Edit accepted pages in `src/content/articles`. The title, description, categories, credit and source revision belong with their Markdown. Article headings supply the sidebar. Keep stable heading IDs and add aliases when moving a section. Sources and corrections link to the recorded history and current public contribution flow.
+Accepted articles live under `src/content/articles/`. Each declares a permanent ID; the checked-in registry records its canonical path and pinned source. Moving a file does not change its URL. Keep facts, qualifications, categories, heading bookmarks, source history and credits. Local previews show **Copy file path**; production packages use `WIKI_EDIT_BRANCH=main` for actual GitHub edit destinations.
 
-Each article declares its permanent ID. The checked-in conversion inventory records its public path, original Git file, revision and credits. In a local preview, Copy file path shows its actual FreshWiki file. Set `WIKI_EDIT_BRANCH` to the published rebuild branch when generating GitHub edit links. To reproduce it from a repository containing that revision, run `npm run inventory -- <repository>`. Builds read the snapshot offline. Reader navigation uses registered local addresses. All baseline articles and category indexes are restored; unresolved destinations retain their intended addresses and receive a genuine 404 with search and correction options. Search uses Pagefind 1.6.0 after Astro renders. The title index retains its `[title, path]` interface. Random navigation uses eligible article identities and does not depend on editorial review status. See [the conversion ledger](conversion/README.md).
+Builds use checked-in evidence and need neither the comparison checkout nor previous reports. Registered navigation, search and sitemaps share canonical addresses. Pagefind 1.6.0 indexes rendered content; `/search-titles.json` retains its `[title, path]` interface. Unresolved destinations retain their intended addresses and receive a helpful genuine 404. Random eligibility is independent of editorial review. See [conversion conventions](conversion/README.md).
 
-## Credits
+## Restoration readiness
 
-Article provenance is recorded per page. Fandom adaptations retain CC BY-SA 3.0 credit and original wiki writing retains CC BY-SA 4.0 credit. See [artwork notices](public/notices/artwork.txt) for graphics and the ribbon font. Package versions and their upstream identities are recorded in the npm lockfile. Prd selected MIT for the independently written software; see [LICENSE](LICENSE) and [licensing boundaries](LICENSING.md). Article, artwork and third-party terms remain separate.
+Report transfer, format acceptance, editorial coverage and findings separately. Faithfully transferred and preservation-checked pages may be published while substantive review continues. [Pages needing work](https://kenshi.wiki/pages-needing-work) exposes the backlog without replacing imported categories.
 
-## Restoration readiness and contributor work
+Documented inherited gaps may remain for later work. Introduced conversion errors, unsupported resolutions, unaccounted routes and temporary prototype dependencies block readiness. MIT licensing, public candidate integration and the branch swap are complete. Production promotion still requires Prd's approval of the exact tested version.
 
-Faithfully transferred, preservation-checked articles can be published while substantive editorial review continues. The generated Pages needing work view reports awaiting review, reviewed articles with open findings, and specific restoration tasks independently of original categories. Transfer, format acceptance, editorial coverage and open findings remain separate measures.
+## Release preparation
 
-Documented inherited editorial and sourcing gaps may continue after deployment. Introduced conversion regressions, unsupported resolution claims, missing route dispositions and temporary prototype dependencies still block readiness. Software licensing, GitHub publication, staging review, branch replacement and production approval remain separate release steps.
-
-## Release candidate
-
-Use Node 24.22.2. `npm run release:check` validates a clean checkout in both local-edit and published-edit modes, captures previews, and writes diagnostics under reports/release. `npm run release:stage` accepts only a checked staging package for kenshi-wiki-restoration; it cannot promote production. See [release preparation and rollback](conversion/release/README.md).
+`npm run release:check` currently validates local and published editing modes from a clean checkout. `npm run release:stage` is restricted to the isolated staging Worker. Neither merging a PR nor uploading an inactive version approves production traffic. See [release preparation and rollback](conversion/release/README.md) for current state and the separate approval boundary.
