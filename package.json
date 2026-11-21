@@ -34,7 +34,8 @@
     "release:check": "node scripts/release/check.mjs",
     "release:stage": "node scripts/release/stage.mjs",
     "release:verify": "node scripts/release/verify-remote.mjs",
-    "pr44:accept": "node scripts/conversion/accept.mjs pr44"
+    "pr44:accept": "node scripts/conversion/accept.mjs pr44",
+    "ci:check": "node scripts/release/check.mjs --routine"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",
