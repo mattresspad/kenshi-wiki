@@ -1,0 +1,15 @@
+---
+import Frame from '../layouts/Frame.astro';
+import {readWiki} from '../lib/wiki';
+import '../styles/search.css';
+const {href}=await readWiki();
+---
+<Frame kind="utility" publicPath="/search" title="Search" description="Search Kenshi Wiki titles and article text." {href} editableFile="src/components/SearchPage.astro" noindex>
+ <section class="utility-page search-page"><h1 id="firstHeading" tabindex="-1">Search Kenshi Wiki</h1>
+ <form action="/search" method="get" class="full-search" data-wiki-search role="search" aria-label="Search article content"><label for="query">Page title or words</label><div class="query-row"><input id="query" type="search" name="q" autocomplete="off"/><button>Search</button></div><label class="fulltext-choice"><input type="checkbox" name="fulltext" value="1"/> Show results even for an exact title</label></form>
+ <p id="search-status" tabindex="-1" role="status" aria-live="polite">Enter a title or words to search the wiki.</p><button id="search-retry" hidden>Retry search</button>
+ <ol class="search-results"></ol><nav class="search-pagination" aria-label="Search result pages"></nav>
+ <noscript><p>Search and title suggestions need JavaScript. You can browse the wiki using these links.</p></noscript>
+ <nav class="browse-links" aria-label="Browse the wiki"><a href="/">Home</a><a href="/gameplay">Gameplay</a><a href="/guides">Guides</a><a href="/modding">Modding</a><a href="/category/locations">Locations</a><a href="/category/characters">Characters</a></nav>
+ </section><script>import '../scripts/search.js';</script>
+</Frame>

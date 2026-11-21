@@ -1,4 +1,6 @@
 ---
+import {utilityStage} from '../lib/utility-routes.mjs';
+import '../styles/search.css';
 import Header from '../components/Header.astro';
 import Sidebar from '../components/Sidebar.astro';
 import {origin, repo, snapshot} from '../lib/catalog.mjs';
@@ -18,7 +20,7 @@ const siteData={'@context':'https://schema.org','@type':'WebSite',name:'Kenshi W
   <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>{kind==='home'?title:title+' · Kenshi Wiki'}</title><meta name="description" content={description}/>
   {Astro.props.noindex && <meta name="robots" content="noindex,follow"/>}
-  <link rel="canonical" href={origin+path}/>{kind==='home' && <script type="application/ld+json" set:html={JSON.stringify(siteData)}/>}
+  {Astro.props.canonical!==false && <link rel="canonical" href={origin+path}/>}{kind==='home' && <script type="application/ld+json" set:html={JSON.stringify(siteData)}/>}
   <script is:inline>
     let palette=new URLSearchParams(location.search).get('theme');
     try {palette ||= localStorage.getItem('wiki-theme')} catch {}
@@ -35,4 +37,4 @@ const siteData={'@context':'https://schema.org','@type':'WebSite',name:'Kenshi W
     <span>Original text — <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span>
     <span>Fandom adaptations — <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></span><span>Fan-made wiki. Kenshi is a trademark of Lo-Fi Games.</span>
   </div><nav aria-label="Licensing and artwork"><a href={href('/contributors#licensing')}>Licensing</a><a href="/notices/artwork.txt">Artwork notices</a></nav></footer>
-</div><script>import '../scripts/frame.js';</script></body></html>
+</div><script>import '../scripts/frame.js';</script>{utilityStage>=4&&<script>import '../scripts/title-search.js';</script>}</body></html>

@@ -1,6 +1,8 @@
 ---
+import SearchPage from '../components/SearchPage.astro';
+import RandomPage from '../components/RandomPage.astro';
 import UtilityArticle from '../components/UtilityArticle.astro';
 import {activeUtilityPaths,proseUtilities} from '../lib/utility-routes.mjs';
-export function getStaticPaths(){return proseUtilities.filter(p=>activeUtilityPaths.includes(p.path)).map(p=>({params:{utility:p.id},props:{pageId:p.id}}));}
+export function getStaticPaths(){return activeUtilityPaths.map(path=>({params:{utility:path.slice(1)},props:{pageId:path.slice(1)}}));}
 ---
-<UtilityArticle pageId={Astro.props.pageId}/>
+{Astro.props.pageId==='search'?<SearchPage/>:Astro.props.pageId==='random'?<RandomPage/>:<UtilityArticle pageId={Astro.props.pageId}/>}

@@ -1,3 +1,4 @@
+import {utilityStage} from '../src/lib/utility-routes.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {mkdtempDisposableSync,mkdirSync,renameSync,writeFileSync} from 'node:fs';
@@ -35,7 +36,7 @@ test('reviewed destinations, aliases and fragments work as the batch grows',()=>
   const cat=snapshot.articles.find(a=>a.path==='/catun');
   const atlas=buildCatalog([{filePath:'src/content/articles/locations/towns/catun.md',data:{articleId:cat.id,title:cat.title,categories:cat.categories}}]);
   assert.equal(atlas.href('/catun#town-override'),'/catun#town-override');
-  assert.equal(atlas.href('/admag#history'),'https://kenshi.wiki/admag#history');
+  assert.equal(atlas.href('/admag#history'),utilityStage>=4?'/admag#history':'https://kenshi.wiki/admag#history');
   assert.deepEqual(displayCategories(['WIP','Wip',"Trader's Guild",'Traders guild','Traders Guild']),['WIP','Traders Guild']);
   assert.equal(categoryPath('Traders Guild'),'/category/traders-guild');
   assert.deepEqual(letterGroups([{title:'7 towns',path:'/7'}])[0].entries,[{title:'7 towns',path:'/7'}]);

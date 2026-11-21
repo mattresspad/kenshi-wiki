@@ -1,0 +1,54 @@
+{
+  "findings": [
+    {
+      "id": "claim:utility-media-permissions",
+      "kind": "claim",
+      "target": "/about-kenshi",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P3",
+      "verification": "Source inspection; further validation pending",
+      "status": "open",
+      "finding": "Seven game images are preserved with existing artwork attribution; additional permission and current-version representativeness are not established.",
+      "proposedResolution": "Compare original source and permission or version evidence before revising the page.",
+      "uncertainty": "Restoring images or linking to requirements does not establish permissions or version-sensitive facts.",
+      "postCutover": "The utility remains available with qualified prose; this investigation stays open.",
+      "evidence": [
+        "conversion/utilities/sources.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "route:/about-kenshi",
+          "section": "Gallery",
+          "href": "Seven game images are preserved with existing artwork attribution; additional permission and current-version representativeness are not established.",
+          "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    },
+    {
+      "id": "claim:utility-hardware-requirements",
+      "kind": "claim",
+      "target": "/about-kenshi",
+      "classification": "unresolved",
+      "origin": "inherited",
+      "priority": "P3",
+      "verification": "Source inspection; further validation pending",
+      "status": "open",
+      "finding": "Official pages differ on hardware requirement numbers; overview links to Steam rather than harmonizing them.",
+      "proposedResolution": "Compare original source and permission or version evidence before revising the page.",
+      "uncertainty": "Restoring images or linking to requirements does not establish permissions or version-sensitive facts.",
+      "postCutover": "The utility remains available with qualified prose; this investigation stays open.",
+      "evidence": [
+        "conversion/utilities/sources.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "route:/about-kenshi",
+          "section": "Gameplay",
+          "href": "Official pages differ on hardware requirement numbers; overview links to Steam rather than harmonizing them.",
+          "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1"
+        }
+      ]
+    }
+  ]
+}

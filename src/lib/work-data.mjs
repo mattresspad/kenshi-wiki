@@ -10,11 +10,14 @@ let pending;
 export function readWorkIndex(wiki){return pending??=loadWorkIndex(wiki);}
 async function loadWorkIndex(wiki){
  const atlas=wiki,baseline=get('conversion/gaps/source.json'),curated=get('conversion/gaps/register.json'),reviews=get('conversion/reviews.json').articles;
+ curated.findings.push(...get('conversion/utilities/gap-findings.json').findings);
  let pages=baseline.pages;
  if(existsSync('conversion/pr-44/gap-source.json')&&atlas.byId.has('modding/meitou/code-mod-hooks')){
   pages=[...pages,...get('conversion/pr-44/gap-source.json').pages];curated.findings.push(...get('conversion/pr-44/gap-findings.json').findings);
  }
+ const utilitySources=JSON.parse(readFileSync('conversion/utilities/sources.json')).pages;
  const sourcePages=new Map(pages.map(p=>[p.id,p])),sourceByPath=new Map(pages.map(p=>[p.path,p])),redirects=new Map(baseline.redirects.map(r=>[r.from,r.to]));
+ for(const page of utilitySources){const record=sourcePages.get('route:'+page.path);if(record)sourcePages.set(record.id,{...record,sourceFile:page.sourceFile,sourceRevision:page.sourceRevision,sourceSha256:page.sha256});}
  const detected=discover(baseline,new Set(baseline.registeredRoutes),redirects);
  const needed=new Set(curated.findings.filter(f=>['empty-section','fragment'].includes(f.kind)).map(f=>f.target.split('#')[0]));
  for(const f of curated.findings)if(f.presentationRepair)needed.add(atlas.byId.get(f.presentationRepair.articleId)?.path);

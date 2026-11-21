@@ -44,7 +44,7 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
     if (redirects.has(rule.from) && redirects.get(rule.from) !== rule.to) throw Error('Redirect conflict at ' + rule.from);
     redirects.set(rule.from, rule.to);
   }
-  for (const from of redirects.keys()) {if(isWorkRoute(from))throw Error('Redirect collides with maintenance routes: '+from);claim(publicPaths, from, 'redirect');}
+  for (const from of redirects.keys()) {if(isGeneratedUtilityPath(from))throw Error('Redirect collides with generated search assets: '+from);if(isWorkRoute(from))throw Error('Redirect collides with maintenance routes: '+from);claim(publicPaths, from, 'redirect');}
   for (const record of reference.articles) {
     const {id, path, sourceFile, sourceRevision} = record;
     if (typeof id !== 'string' || !id.trim() || byId.has(id)) throw Error('Missing or duplicate article ID: ' + id);
@@ -100,12 +100,13 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
     ...reference.portals.map(path => [path.slice(1,2).toUpperCase() + path.slice(2), path])
   ];
   function href(path) {
+    if(utilityStage>=4 && path.startsWith(origin+'/'))path=path.slice(origin.length);
     if (!path.startsWith('/') || path.startsWith('//')) return path;
     const plain = path.split(/[?#]/,1)[0];
     if (local.has(plain) || (utilityStage>=3&&historicalSourceRedirects.some(r=>r.from===plain))) return path;
     const destination = redirects.get(plain);
     if (destination && local.has(destination)) return destination + path.slice(plain.length);
-    return origin + path;
+    return utilityStage>=4 ? path : origin + path;
   }
   return {articles, byId, categories, local, href, searchTitles};
 }

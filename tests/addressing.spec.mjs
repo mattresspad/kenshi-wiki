@@ -1,3 +1,4 @@
+import {utilityStage} from '../src/lib/utility-routes.mjs';
 import {test, expect} from '@playwright/test';
 import {snapshot, origin} from '../src/lib/catalog.mjs';
 import {articleFiles} from '../scripts/article-files.mjs';
@@ -7,7 +8,7 @@ import {initialIds, newestBatch} from '../scripts/conversion/batches.mjs';
 
 const files = new Map(articleFiles().map(entry => [entry.data.articleId, entry.filePath]));
 
-test('the search title index covers registered addresses while the header opens live search', async ({request,page}) => {
+test('the search title index covers registered addresses and the header follows the active search route', async ({request,page}) => {
   const response = await request.get('/search-titles.json');
   expect(response.ok()).toBe(true);
   const rows = await response.json();
@@ -16,7 +17,7 @@ test('the search title index covers registered addresses while the header opens 
   expect(rows).toHaveLength(snapshot.articles.length+snapshot.portals.length+3);
   expect(new Map(rows.map(([title,path])=>[path,title]))).toEqual(expected);
   await page.goto('/modding');
-  await expect(page.getByRole('search')).toHaveAttribute('action',origin+'/search');
+  await expect(page.getByRole('search')).toHaveAttribute('action',utilityStage>=4?'/search':origin+'/search');
 });
 
 for (const phone of [false,true]) test('copy a real Markdown or portal file '+(phone?'on phone':'on desktop'),async({page,context,baseURL})=>{

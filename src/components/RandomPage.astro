@@ -1,0 +1,12 @@
+---
+import Frame from '../layouts/Frame.astro';
+import {readWiki} from '../lib/wiki';
+import {randomPaths} from '../lib/search-policy.mjs';
+import '../styles/search.css';
+const atlas=await readWiki(),pool=randomPaths(atlas);
+---
+<Frame kind="utility" publicPath="/random" title="Random article" description="Discover a random Kenshi Wiki article." href={atlas.href} editableFile="src/components/RandomPage.astro" noindex>
+ <section class="utility-page"><h1 id="firstHeading" tabindex="-1">Random article</h1><p>Choose a page from the wiki’s eligible articles.</p><noscript><p>Automatic random navigation needs JavaScript. These browsing links work without it.</p></noscript><nav class="browse-links"><a href="/">Home</a><a href="/category/locations">Locations</a><a href="/category/characters">Characters</a><a href="/category/items">Items</a></nav></section>
+ <script id="random-pool" type="application/json" set:html={JSON.stringify(pool).replaceAll('<','\\u003c')}/>
+ <script>const pool=JSON.parse(document.querySelector('#random-pool')!.textContent!);if(pool.length)location.replace(pool[Math.floor(Math.random()*pool.length)]);</script>
+</Frame>

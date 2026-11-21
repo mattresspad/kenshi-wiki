@@ -51,3 +51,22 @@ Buildings restoration: 126 distinct referenced item images are reused unchanged 
 Books and Lore restoration: 35 distinct book-item images from pinned source 83abc179; two reused and 33 restored unchanged. The Kenshi item-art attribution and recorded permission status above apply. Checksums: conversion/lore/reference.json. Inventory icons do not establish complete original-media coverage.
 
 Manufacturers and historical restoration: 3 distinct referenced item images verified against 83abc179 (0 reused; 3 restored unchanged). Existing Kenshi item-art credit and recorded permission status apply. Checksums: conversion/manufacturers/assets.json. Missing illustrations remain unassessed.
+
+About Kenshi utility restoration: seven pinned game images
+
+public/images/kenshi/header.jpg and screenshot-1.jpg through screenshot-6.jpg
+are resized versions of artwork from Lo-Fi Games' Kenshi listing on Steam
+(app 233860). In file order, the Steam image identifiers are:
+  header           fa72ac8a032fd876780cd5b554e4c03b4976ef74/header.jpg
+  screenshot-1     933aa89a4d370c1bcb96cb7497287e835b7cff7b
+  screenshot-2     3a9b3141a14e74bd3c57b811b0d1a895eaf1b412
+  screenshot-3     50f3aee47c4c148944c955328e6e235d32777b8b
+  screenshot-4     fc0b1146577f0187ab0563ad3f1d9065b4156b4f
+  screenshot-5     a46da906067e6f2791a59cb449940cb9ed9609aa
+  screenshot-6     d12a3f68e9c440d1fc0035783dc796a52b924482
+Source: https://store.steampowered.com/app/233860/Kenshi/
+Publisher press resources: https://lofigames.com/press/
+
+Redistribution terms for these store images remain unconfirmed in the recorded notice. Availability through Steam or the press kit does not itself grant a general redistribution license. Kenshi is a Lo-Fi Games mark.
+Pinned source: https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/notices/artwork.txt
+SHA-256 and Git blob checks: conversion/utilities/sources.json. Restored images do not establish current-version representation.

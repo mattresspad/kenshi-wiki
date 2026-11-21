@@ -19,3 +19,14 @@ test('utility provenance, bookmarks, editable paths and image bytes are independ
  for(const asset of sources.assets)assert.equal(createHash('sha256').update(fs.readFileSync('public'+asset.path)).digest('hex'),asset.sha256);
  assert.equal(sources.assets.length,7);
 });
+import {randomPaths,searchCandidates,normalizeTitle,titleSuggestions} from '../src/lib/search-policy.mjs';
+import {articleFiles} from '../scripts/article-files.mjs';
+test('final local destinations, search scope and random exclusions use registered identities',()=>{
+ if(utilityStage<4)return;
+ const atlas=buildCatalog(articleFiles()),coverage=JSON.parse(fs.readFileSync('reports/utilities/search-coverage.json'));assert.deepEqual(coverage.records.map(a=>[a.title,a.path]),searchCandidates(atlas));assert.deepEqual(coverage.random.paths,randomPaths(atlas));assert.equal(coverage.indexed,atlas.searchTitles.length);assert.equal(coverage.random.count,atlas.byId.size-71);assert.equal(coverage.version,'1.6.0');
+ for(const a of atlas.byId.values())assert.equal(randomPaths(atlas).includes(a.path),!a.categories.some(c=>['Removed Content','Candidates for deletion'].includes(c)));
+ assert.equal(atlas.href('/unwritten-book#chapter'),'/unwritten-book#chapter');assert.equal(atlas.href('https://kenshi.wiki/catun?q=1#town-override'),'/catun?q=1#town-override');assert.equal(normalizeTitle(' PACK_BULL '),'pack bull');assert.equal(titleSuggestions(atlas.searchTitles,'samurai').length,8);
+ for(const target of ['/pagefind','/pagefind/pagefind.js','/404']){const bad=structuredClone(snapshot);bad.articles[0].path=target;assert.throws(()=>buildCatalog([],bad),/collid|duplicate/)}
+ const sitemap=fs.readFileSync('dist/sitemap-0.xml','utf8');for(const path of ['/search','/random','/404'])assert.ok(!sitemap.includes('<loc>https://kenshi.wiki'+path+'</loc>'));for(const p of atlas.local)if(p.startsWith('/category/'))assert.ok(sitemap.includes('<loc>https://kenshi.wiki'+p+'</loc>'));
+ const routes=JSON.parse(fs.readFileSync('reports/routes.json'));assert.equal(routes.temporaryLinks.length,0);assert.ok(routes.routes.every(r=>r.status==='preserved locally'));assert.equal(new Set(routes.assetRedirects.map(r=>r.from)).size,routes.assetRedirects.length);for(const r of [...snapshot.redirects,...historicalSourceRedirects])assert.ok(routes.assetRedirects.some(a=>a.from===r.from&&a.to===r.to&&a.status===r.status));
+});

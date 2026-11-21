@@ -68,6 +68,17 @@
       }
     },
     {
+      "id": "availability:/about-kenshi",
+      "kind": "availability",
+      "target": "/about-kenshi",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#03-source-pages",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/about-kenshi"
+      }
+    },
+    {
       "id": "availability:/acid-ground",
       "kind": "availability",
       "target": "/acid-ground",
@@ -3357,6 +3368,28 @@
       }
     },
     {
+      "id": "availability:/category/article-stubs",
+      "kind": "availability",
+      "target": "/category/article-stubs",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#01-category-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/article-stubs"
+      }
+    },
+    {
+      "id": "availability:/category/bodyguards",
+      "kind": "availability",
+      "target": "/category/bodyguards",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#02-remaining-categories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/bodyguards"
+      }
+    },
+    {
       "id": "availability:/category/books",
       "kind": "availability",
       "target": "/category/books",
@@ -3365,6 +3398,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/category/books"
+      }
+    },
+    {
+      "id": "availability:/category/bosses",
+      "kind": "availability",
+      "target": "/category/bosses",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#02-remaining-categories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/bosses"
+      }
+    },
+    {
+      "id": "availability:/category/bounty",
+      "kind": "availability",
+      "target": "/category/bounty",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#02-remaining-categories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/bounty"
       }
     },
     {
@@ -3434,6 +3489,17 @@
       }
     },
     {
+      "id": "availability:/category/headgear",
+      "kind": "availability",
+      "target": "/category/headgear",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#02-remaining-categories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/headgear"
+      }
+    },
+    {
       "id": "availability:/category/locations",
       "kind": "availability",
       "target": "/category/locations",
@@ -3456,6 +3522,17 @@
       }
     },
     {
+      "id": "availability:/category/lua-based-templates",
+      "kind": "availability",
+      "target": "/category/lua-based-templates",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#02-remaining-categories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/lua-based-templates"
+      }
+    },
+    {
       "id": "availability:/category/map-items",
       "kind": "availability",
       "target": "/category/map-items",
@@ -3475,6 +3552,50 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/category/modding"
+      }
+    },
+    {
+      "id": "availability:/category/modding-guide",
+      "kind": "availability",
+      "target": "/category/modding-guide",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#02-remaining-categories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/modding-guide"
+      }
+    },
+    {
+      "id": "availability:/category/needs-cleanup",
+      "kind": "availability",
+      "target": "/category/needs-cleanup",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#02-remaining-categories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/needs-cleanup"
+      }
+    },
+    {
+      "id": "availability:/category/nobles",
+      "kind": "availability",
+      "target": "/category/nobles",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#02-remaining-categories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/nobles"
+      }
+    },
+    {
+      "id": "availability:/category/nutrition",
+      "kind": "availability",
+      "target": "/category/nutrition",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#02-remaining-categories",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/nutrition"
       }
     },
     {
@@ -3541,6 +3662,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/category/traders"
+      }
+    },
+    {
+      "id": "availability:/category/unique",
+      "kind": "availability",
+      "target": "/category/unique",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#01-category-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/unique"
       }
     },
     {
@@ -17712,6 +17844,17 @@
       }
     },
     {
+      "id": "availability:/search",
+      "kind": "availability",
+      "target": "/search",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#04-search-random-404",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/search"
+      }
+    },
+    {
       "id": "availability:/search-lights-tech",
       "kind": "availability",
       "target": "/search-lights-tech",
@@ -19898,6 +20041,30 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/sound-editing-and-adding-new-sounds"
+      }
+    },
+    {
+      "id": "availability:/sources/outland.css.txt",
+      "kind": "availability",
+      "target": "/sources/outland.css.txt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#04-search-random-404",
+      "resolution": {
+        "method": "immutable historical source endpoint redirect; active styling is independent",
+        "target": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/styles/global.css",
+        "status": 301
+      }
+    },
+    {
+      "id": "availability:/sources/wiki-header.css.txt",
+      "kind": "availability",
+      "target": "/sources/wiki-header.css.txt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#04-search-random-404",
+      "resolution": {
+        "method": "immutable historical source endpoint redirect; active styling is independent",
+        "target": "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/styles/wiki-header.css",
+        "status": 301
       }
     },
     {
@@ -29072,6 +29239,90 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "6dd4d475c9e7a7d42c688b40d1228e0b5181fa53ff70215d303fa3db566497c7",
         "sourceSha256": "6dd4d475c9e7a7d42c688b40d1228e0b5181fa53ff70215d303fa3db566497c7"
+      }
+    },
+    {
+      "id": "media:/images/kenshi/header.jpg",
+      "kind": "media",
+      "target": "/images/kenshi/header.jpg",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#03-source-pages",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "55298205483bb3db605d6881ee5555fdf39264fe134ea54bbb4d4ad91e01ae9e",
+        "sourceSha256": "55298205483bb3db605d6881ee5555fdf39264fe134ea54bbb4d4ad91e01ae9e"
+      }
+    },
+    {
+      "id": "media:/images/kenshi/screenshot-1.jpg",
+      "kind": "media",
+      "target": "/images/kenshi/screenshot-1.jpg",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#03-source-pages",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "6045a697dc3896284cae39f5e868691b71b7226956e258d659886d647ef719d7",
+        "sourceSha256": "6045a697dc3896284cae39f5e868691b71b7226956e258d659886d647ef719d7"
+      }
+    },
+    {
+      "id": "media:/images/kenshi/screenshot-2.jpg",
+      "kind": "media",
+      "target": "/images/kenshi/screenshot-2.jpg",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#03-source-pages",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "da1328704bdc622d348816c71033d1e1f18e3c2a79a0331af6ad9c904f39ecc4",
+        "sourceSha256": "da1328704bdc622d348816c71033d1e1f18e3c2a79a0331af6ad9c904f39ecc4"
+      }
+    },
+    {
+      "id": "media:/images/kenshi/screenshot-3.jpg",
+      "kind": "media",
+      "target": "/images/kenshi/screenshot-3.jpg",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#03-source-pages",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "6aeb20b1ae1c321dec76987bcc9fc6b3328d7d55a9c42ccfa1fb8605dc836ae4",
+        "sourceSha256": "6aeb20b1ae1c321dec76987bcc9fc6b3328d7d55a9c42ccfa1fb8605dc836ae4"
+      }
+    },
+    {
+      "id": "media:/images/kenshi/screenshot-4.jpg",
+      "kind": "media",
+      "target": "/images/kenshi/screenshot-4.jpg",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#03-source-pages",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "90ded4a78007181fdc5f98a69cb00c58118edae725ba0eb7a56a653542b13c65",
+        "sourceSha256": "90ded4a78007181fdc5f98a69cb00c58118edae725ba0eb7a56a653542b13c65"
+      }
+    },
+    {
+      "id": "media:/images/kenshi/screenshot-5.jpg",
+      "kind": "media",
+      "target": "/images/kenshi/screenshot-5.jpg",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#03-source-pages",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "2593c7aee6062c03d71800f49b642dc55e969e02897c2354c6a73bcc23303f22",
+        "sourceSha256": "2593c7aee6062c03d71800f49b642dc55e969e02897c2354c6a73bcc23303f22"
+      }
+    },
+    {
+      "id": "media:/images/kenshi/screenshot-6.jpg",
+      "kind": "media",
+      "target": "/images/kenshi/screenshot-6.jpg",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/utilities/acceptances.json#03-source-pages",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "0be715bad2d984c334c101b075c7abd160ce3d1736604cf601726a403d3d0e5a",
+        "sourceSha256": "0be715bad2d984c334c101b075c7abd160ce3d1736604cf601726a403d3d0e5a"
       }
     },
     {

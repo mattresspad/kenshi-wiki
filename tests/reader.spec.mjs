@@ -1,3 +1,4 @@
+import {isIndexablePath} from '../src/lib/utility-routes.mjs';
 import {test,expect} from '@playwright/test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
@@ -134,7 +135,7 @@ test('all locally accepted canonical pages and the sitemap agree; excluded and p
   test.setTimeout(120000);
   const paths=[...expectedRoutes()];
   const xml=await (await request.get('/sitemap-0.xml')).text();
-  const urls=Array.from(xml.matchAll(/<loc>([^<]+)<\/loc>/g),m=>m[1]);expect(urls.sort()).toEqual(paths.map(p=>origin+p).sort());
+  const urls=Array.from(xml.matchAll(/<loc>([^<]+)<\/loc>/g),m=>m[1]);expect(urls.sort()).toEqual(paths.filter(isIndexablePath).map(p=>origin+p).sort());
   for(const p of paths){const response=await request.get(p);try{expect(response.status(),p).toBe(200);const tags=load(await response.text())('link[rel=canonical]');expect(tags.length).toBe(1);expect(tags.attr('href')).toBe(origin+p);}finally{await response.dispose();}}
   expect(await(await request.get('/robots.txt')).text()).toContain(origin+'/sitemap-index.xml');
   for(const p of ['/category/pages-with-non-numeric-formatnum-arguments','/unreviewed-test-path'])expect((await request.get(p)).status()).toBe(404);

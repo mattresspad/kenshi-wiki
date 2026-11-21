@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/check-articles.mjs && astro build && node scripts/package.mjs && node scripts/report.mjs",
+    "build": "node scripts/check-articles.mjs && astro build && node scripts/search.mjs && node scripts/package.mjs && node scripts/report.mjs",
     "preview": "node scripts/preview.mjs",
     "test": "playwright test",
     "test:catalog": "node --test tests/catalog.test.mjs tests/faction-format.test.mjs tests/race-format.test.mjs tests/gaps.test.mjs tests/warm-move.test.mjs tests/animal-format.test.mjs tests/character-format.test.mjs tests/item-format.test.mjs tests/building-format.test.mjs tests/technology-format.test.mjs tests/shop-format.test.mjs tests/gameplay-format.test.mjs tests/event-format.test.mjs tests/lore-format.test.mjs tests/work-index.test.mjs tests/utilities.test.mjs",
@@ -42,6 +42,7 @@
     "@playwright/test": "1.61.1",
     "cf": "1.0.0-beta.28",
     "miniflare": "5.20261104.0-beta",
+    "pagefind": "1.6.0",
     "satteri": "0.11.6",
     "yaml": "2.9.1"
   }

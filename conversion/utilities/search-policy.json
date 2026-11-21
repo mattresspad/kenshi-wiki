@@ -1,0 +1,22 @@
+{
+  "version": "1.6.0",
+  "packageLicense": "MIT",
+  "notice": "public/notices/Pagefind-MIT.txt",
+  "documentation": [
+    "https://pagefind.app/docs/indexing/",
+    "https://pagefind.app/docs/node-api/",
+    "https://pagefind.app/docs/multilingual/",
+    "https://developers.cloudflare.com/workers/static-assets/routing/static-site-generation/"
+  ],
+  "indexing": "After Astro rendering, before Cloudflare static packaging. Explicit registered candidates; virtual HTML strips source controls, navigation and maintenance entries. Original rendered content remains unchanged.",
+  "language": "A shared index uses English stemming while retaining Turkish text. No Turkish morphological matching guarantee.",
+  "randomExclusions": [
+    "Removed Content",
+    "Candidates for deletion"
+  ],
+  "limits": {
+    "suggestions": 8,
+    "resultsPerPage": 20
+  },
+  "unresolvedBehavior": "Intended relative URLs; genuine 404 for absent pages, HTTP 200 for existing pages with missing fragments. No prototype fallback."
+}

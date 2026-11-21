@@ -68,3 +68,7 @@ Crafting/Construction and Technology retain separate rosters and editorial homes
 ## Baseline article corpus complete
 
 The [final family](remainder/README.md) completes all 2,184 frozen articles. Transfer and preservation acceptance are complete; substantive editorial coverage and open findings remain separate in the [generated contributor queue](work/README.md). The remaining 162 category indexes and utility functionality are a following batch. PR #44 remains a separate local contribution branch, with combined compatibility evidence before review. No publication or cutover approval is implied.
+
+## Completed category and utility navigation
+
+All 198 reader-facing category indexes are generated from the shared membership catalog. Utility prose has separate `pageId` records and loader-derived editable paths. See `utilities/README.md`, `utilities/sources.json` and `utilities/search-policy.json`. Final navigation retains intended local URLs for unresolved pages; absolute apex links are not prototype fallbacks. Search, random selection, sitemap and route audits use registered identities and shared indexability rules.

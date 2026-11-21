@@ -120,6 +120,7 @@ for (const r of snapshot.redirects) {
   const present = assetRedirects.some(rule => rule.from === r.from && rule.to === r.to && rule.status === r.status);
   routes.push({kind:'redirect',path:r.from,to:r.to,httpStatus:r.status,status:present?'preserved locally':'awaiting redirect verification'});
 }
+for(const r of assetRedirects.filter(r=>!snapshot.redirects.some(old=>old.from===r.from)&&!historicalSourceRedirects.some(old=>old.from===r.from)))routes.push({kind:'redirect',path:r.from,to:r.to,httpStatus:r.status,status:'preserved locally',disposition:'retained compatibility alias',evidence:'public/_redirects at rebuild baseline 6f8c6df'});
 for (const url of snapshot.endpoints) {const historical=historicalSourceRedirects.find(r=>r.from===url&&assetRedirects.some(a=>a.from===r.from&&a.to===r.to));routes.push({kind:'endpoint',path:url,status:historical||existsSync(path.join('dist',url.slice(1)))?'preserved locally':'awaiting conversion',...(historical?{disposition:'external historical endpoint',to:historical.to,httpStatus:historical.status}:{})});}
 for (const url of atlas.local) {
   if (!existsSync(htmlFile(url))) throw Error('Missing approved route '+url);
@@ -140,14 +141,17 @@ const exclusions=Object.keys(policy.excluded).map(name=>({
 const memberships=[...initial.categories.values()].reduce((n,g)=>n+g.members.length,0);
 const duplicateCheck=new Set(routes.filter(r=>['article','category','utility','portal','home'].includes(r.kind)).map(r=>r.path));
 if(duplicateCheck.size!==snapshot.articles.length+initial.categories.size+snapshot.utilities.length+snapshot.portals.length+workRoutes.length) throw Error('Overlapping public page identities');
+if(utilityStage>=4){routes.push({kind:'error',path:'/404.html',status:'preserved locally',noindex:true,canonical:null,missingRequestStatus:404});routes.push({kind:'endpoint',path:'/pagefind/pagefind.js',status:existsSync('dist/pagefind/pagefind.js')?'preserved locally':'missing generated index',disposition:'generated Pagefind 1.6.0 assets under reserved /pagefind/'});}
 const temporaryLinks=Array.from(external,([from,urls])=>({from,to:[...urls].sort()}));
 const articlesAt = state => routes.filter(row=>row.kind==='article' && row[state]).map(row=>row.path);
 const gaps=reportGaps(atlas,review.articles);
-const report={remainder,manufacturers,modding,lore,events,gameplay,shops,gaps,races,animals,characters,items,buildings,crafting,technology,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
+const searchCoverage=utilityStage>=4?JSON.parse(readFileSync('reports/utilities/search-coverage.json')):null;
+if(utilityStage>=4 && temporaryLinks.length)throw Error('Temporary prototype links remain');
+const report={searchCoverage:searchCoverage?{indexed:searchCoverage.indexed,random:searchCoverage.random.count,report:'utilities/search-coverage.json'}:null,remainder,manufacturers,modding,lore,events,gameplay,shops,gaps,races,animals,characters,items,buildings,crafting,technology,revision:snapshot.revision,transferredArticles:articlesAt('transferred'),formatCheckedArticles:articlesAt('formatChecked'),reviewedArticles:articlesAt('editoriallyReviewed'),memberships, geography, factions, editorialExceptions:{...geoNotes,...factionNotes}, mediaGaps:review.mediaGaps, searchTitles:atlas.searchTitles.length,
   aliases:policy.aliases,exclusions,temporaryLinks,assetRedirects,blenderChange,routes};
 mkdirSync('reports',{recursive:true});
 writeFileSync('reports/routes.json',JSON.stringify(report,null,2)+'\n');
-const counts=['article','category','portal','home','utility','redirect','endpoint'].map(k=>{
+const counts=['article','category','portal','home','utility','redirect','endpoint','error'].map(k=>{
   const rows=routes.filter(r=>r.kind===k);
   return '| '+k+' | '+rows.length+' | '+rows.filter(r=>r.status==='preserved locally').length+' |';
 });

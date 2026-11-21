@@ -1,3 +1,4 @@
+import {historicalSourceRedirects,utilityStage} from './utility-routes.mjs';
 import assert from 'node:assert/strict';
 import {validateResolution,targetOf,digest} from '../../scripts/gaps/core.mjs';
 export function resolveWorkFindings({curated,detected,baseline,sourcePages,sourceByPath,redirects,atlas,local,assetExists,assetBytes,familyOf}) {
@@ -9,7 +10,9 @@ export function resolveWorkFindings({curated,detected,baseline,sourcePages,sourc
     let resolved=false,resolution=null;
     const sourcePage=sourceByPath.get(row.target);
     const currentPath=atlas.byId.get(sourcePage?.id)?.path??targetOf(row.target,'/',redirects)?.path??row.target;
-    if(row.kind==='availability') {
+    const historical=utilityStage>=3&&historicalSourceRedirects.find(r=>r.from===row.target);
+    if(historical&&['availability','media'].includes(row.kind)){resolved=true;resolution={method:'immutable historical source endpoint redirect; active styling is independent',target:historical.to,status:historical.status};}
+    else if(row.kind==='availability') {
       resolved=atlas.local.has(currentPath)||assetExists(currentPath);
       if(resolved)resolution={method:'local output exists; route/catalog checks run in the build',target:currentPath};
     } else if(row.kind==='media'&&row.target.startsWith('/')) {

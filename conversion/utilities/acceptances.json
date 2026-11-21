@@ -843,5 +843,184 @@
         "theme": "dark"
       }
     ]
+  },
+  {
+    "checkpoint": 4,
+    "combined": false,
+    "name": "04-search-random-404",
+    "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+    "articles": 2184,
+    "categories": 198,
+    "memberships": 4119,
+    "titleSearch": 2190,
+    "gapCounts": {
+      "kind": {
+        "availability": 2224,
+        "claim": 266,
+        "destination": 34,
+        "empty-section": 335,
+        "fragment": 11,
+        "media": 427,
+        "unlinked-label": 85
+      },
+      "classification": {
+        "incomplete import": 2,
+        "missing alias": 12,
+        "omitted article": 19,
+        "pending conversion": 2649,
+        "unresolved": 700
+      },
+      "status": {
+        "open": 747,
+        "resolved": 2635
+      }
+    },
+    "work": {
+      "transferred": 2184,
+      "formatChecked": 2184,
+      "editoriallyReviewed": 1722,
+      "awaitingReview": 462,
+      "activeArticles": 2158,
+      "openFindings": 718,
+      "resolvedFindings": 2561
+    },
+    "temporary": [],
+    "changes": {
+      "resolved": [
+        "/board/modding-talk",
+        "/captives-journal-series",
+        "/category-talk/candidates-for-deletion",
+        "/cultural-groupings-and-evolution-series",
+        "/kenshi-wiki/community-portal",
+        "/kenshi-wiki/editor-reference-guide",
+        "/kenshi-wiki/rules",
+        "/kenshi-wiki/sandbox",
+        "/lams-survival-series",
+        "/legend-of-luquin-series",
+        "/legends-series",
+        "/letter-to-moll",
+        "/letters-from-a-swamper",
+        "/letters-to-hash",
+        "/marils-diary-series",
+        "/mass-extinction-series",
+        "/mega-city-the-beginning-series",
+        "/memo-from-moll",
+        "/okranite-theories-in-relation-to-findings-series",
+        "/random",
+        "/scripture-of-radiance-series",
+        "/search",
+        "/tech-hunters-notes-series",
+        "/the-guiding-light-series",
+        "/the-lost-ancients-series",
+        "/the-mystery-of-skeletech-series",
+        "/united-weekly-series",
+        "/update/0.60"
+      ],
+      "introduced": []
+    },
+    "checks": [
+      "production build",
+      "catalog",
+      "full Playwright",
+      "Cloudflare package dry run"
+    ],
+    "shots": [
+      {
+        "file": "search-q-armour-fulltext-1-desktop-light.png",
+        "path": "/search?q=armour&fulltext=1",
+        "device": "desktop",
+        "theme": "light"
+      },
+      {
+        "file": "missing-review-example-desktop-light.png",
+        "path": "/missing-review-example",
+        "device": "desktop",
+        "theme": "light"
+      },
+      {
+        "file": "about-kenshi-desktop-light.png",
+        "path": "/about-kenshi",
+        "device": "desktop",
+        "theme": "light"
+      },
+      {
+        "file": "contributors-desktop-light.png",
+        "path": "/contributors",
+        "device": "desktop",
+        "theme": "light"
+      },
+      {
+        "file": "search-q-armour-fulltext-1-desktop-dark.png",
+        "path": "/search?q=armour&fulltext=1",
+        "device": "desktop",
+        "theme": "dark"
+      },
+      {
+        "file": "missing-review-example-desktop-dark.png",
+        "path": "/missing-review-example",
+        "device": "desktop",
+        "theme": "dark"
+      },
+      {
+        "file": "about-kenshi-desktop-dark.png",
+        "path": "/about-kenshi",
+        "device": "desktop",
+        "theme": "dark"
+      },
+      {
+        "file": "contributors-desktop-dark.png",
+        "path": "/contributors",
+        "device": "desktop",
+        "theme": "dark"
+      },
+      {
+        "file": "search-q-armour-fulltext-1-phone-light.png",
+        "path": "/search?q=armour&fulltext=1",
+        "device": "phone",
+        "theme": "light"
+      },
+      {
+        "file": "missing-review-example-phone-light.png",
+        "path": "/missing-review-example",
+        "device": "phone",
+        "theme": "light"
+      },
+      {
+        "file": "about-kenshi-phone-light.png",
+        "path": "/about-kenshi",
+        "device": "phone",
+        "theme": "light"
+      },
+      {
+        "file": "contributors-phone-light.png",
+        "path": "/contributors",
+        "device": "phone",
+        "theme": "light"
+      },
+      {
+        "file": "search-q-armour-fulltext-1-phone-dark.png",
+        "path": "/search?q=armour&fulltext=1",
+        "device": "phone",
+        "theme": "dark"
+      },
+      {
+        "file": "missing-review-example-phone-dark.png",
+        "path": "/missing-review-example",
+        "device": "phone",
+        "theme": "dark"
+      },
+      {
+        "file": "about-kenshi-phone-dark.png",
+        "path": "/about-kenshi",
+        "device": "phone",
+        "theme": "dark"
+      },
+      {
+        "file": "contributors-phone-dark.png",
+        "path": "/contributors",
+        "device": "phone",
+        "theme": "dark"
+      }
+    ]
   }
 ]

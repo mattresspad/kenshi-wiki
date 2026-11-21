@@ -17,7 +17,7 @@ export function prepareArticle(html, data, href) {
   for (const anchor of $('a[href]').toArray()) {
     const el = $(anchor);
     const target = el.attr('href');
-    if (target.startsWith('/') && !/^\/(?:images|notices)\//.test(target)) el.attr('href', href(target));
+    if ((target.startsWith('/') || target.startsWith('https://kenshi.wiki/')) && !/^\/(?:images|notices)\//.test(target)) el.attr('href', href(target));
   }
   let buildingPanel='';
   if(data.layout==='event')normalizeEvents($);

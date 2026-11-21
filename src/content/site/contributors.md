@@ -31,7 +31,7 @@ The prototype’s Outland styling adapted legacy Vector and material from RimWor
 
 <h2 id="typography">Typography</h2>
 
-The ribbon uses **Exo 2**, by Natanael Gama and the Exo 2 Project Authors, served locally under the [SIL Open Font License 1.1](/notices/Exo-2-OFL.txt). The reading surface uses system fonts.
+The ribbon uses **Exo 2**, by Natanael Gama and the Exo 2 Project Authors, served locally under the [SIL Open Font License 1.1](/notices/Exo-2-OFL.txt). The reading surface uses system fonts. Search uses [Pagefind 1.6.0](https://pagefind.app/), under its [MIT license](/notices/Pagefind-MIT.txt).
 
 <h2 id="artwork">Artwork and trademarks</h2>
 

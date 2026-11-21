@@ -61,7 +61,7 @@ export function selectedIds(family) {
 export const initialIds = geographyRoster.previouslyTransferred;
 export const expectedIds = new Set([...initialIds, ...Object.keys(families).flatMap(name => [...selectedIds(name)])]);
 export function expectedRoutes() {
-  return new Set([...activeUtilityPaths.filter(isIndexablePath),'/pages-needing-work','/', ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals,
+  return new Set([...activeUtilityPaths,'/pages-needing-work','/', ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals,
     ...snapshot.articles.filter(article => expectedIds.has(article.id)).map(article => article.path)]);
 }
 export function newestBatch() {

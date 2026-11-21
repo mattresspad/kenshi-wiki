@@ -1,3 +1,4 @@
+import {utilityStage} from '../src/lib/utility-routes.mjs';
 import { cleanBuildOutputDir, writeAssets, writeRootConfig, writeWorkerConfig } from '@cloudflare/build-output-utils';
 import { fileURLToPath } from 'node:url';
 
@@ -9,7 +10,7 @@ await writeWorkerConfig({
   config: {
     name: 'kenshi-wiki-restoration',
     compatibilityDate: '2026-11-07',
-    assets: { htmlHandling: 'drop-trailing-slash', notFoundHandling: 'none' },
+    assets: { htmlHandling: 'drop-trailing-slash', notFoundHandling: utilityStage>=4?'404-page':'none' },
   },
 });
 await writeAssets({ root, sourceDirectory: fileURLToPath(new URL('../dist/', import.meta.url)) });

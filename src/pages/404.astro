@@ -1,0 +1,14 @@
+---
+import Frame from '../layouts/Frame.astro';
+import {readWiki} from '../lib/wiki';
+import {correctionLink} from '../lib/page-source.mjs';
+import '../styles/search.css';
+const {href}=await readWiki();
+---
+<Frame kind="utility" publicPath="/404" title="Page not found" description="This address has no page. Search or browse Kenshi Wiki, or suggest a correction." {href} editableFile="src/pages/404.astro" canonical={false} noindex>
+ <section class="utility-page"><h1 id="firstHeading" tabindex="-1">Page not found</h1><p>This address has no page in Kenshi Wiki. It may be an old link, an incomplete import or a page that has not been written.</p><p id="missing-path" hidden>Requested path: <code></code></p>
+ <form class="full-search" data-wiki-search action="/search" method="get" role="search"><label for="missing-query">Search for the topic</label><div class="query-row"><input id="missing-query" type="search" name="q"/><button>Search</button></div></form>
+ <noscript><p>Interactive search needs JavaScript; the browsing and correction links below remain available.</p></noscript>
+ <nav class="browse-links"><a href="/">Home</a><a href="/gameplay">Gameplay</a><a href="/guides">Guides</a><a href="/modding">Modding</a><a href="/category/locations">Locations</a><a href="/pages-needing-work">Pages needing work</a><a id="missing-correction" href={correctionLink('https://kenshi.wiki/')}>Suggest a correction</a></nav></section>
+ <script>import {correctionLink} from '../lib/page-source.mjs';const p=document.querySelector('#missing-path')!;p.querySelector('code')!.textContent=location.pathname;p.removeAttribute('hidden');document.querySelector('#missing-correction')!.setAttribute('href',correctionLink('https://kenshi.wiki'+location.pathname));</script>
+</Frame>
