@@ -22,6 +22,8 @@ The article-correction form travels on the candidate branch. Before the default-
 
 The staging target is kenshi-wiki-restoration; production remains kenshi-wiki. The first checked staging upload may initialize the staging Worker using cf deploy --prebuilt. Later uploads use cf workers versions create --prebuilt. Neither path changes the production Worker, zone routes or DNS. The explicit package target and source/hash guards must pass first.
 
+The first CI bootstrap was denied by the existing API credential before a Worker existed. The owner-authenticated local connection initialized only kenshi-wiki-restoration from the checksum-verified CI package; the same CI credential then successfully uploaded a subsequent version. No token scope or production configuration was changed. Retain this distinction when initializing a replacement staging resource.
+
 Staging sets X-Robots-Tag: noindex, nofollow and retains https://kenshi.wiki canonical URLs. Review an immutable version-prefix URL, not a movable alias. Version URLs can expire under Cloudflare's retention policy; archive checksums/artifacts and revalidate availability immediately before any later promotion.
 
 npm run release:verify runs the complete browser suite against that recorded HTTPS URL, verifies real root/nested GET and HEAD 404s, checks search assets and published edit links, and captures desktop 1440x900 and phone 390x844 in both palettes. Record source SHA, version ID, package checksums, CI run and URL together. Worker version IDs cannot be promoted across different Workers.

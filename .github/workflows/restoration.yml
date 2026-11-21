@@ -88,4 +88,6 @@ jobs:
         with:
           name: freshwiki-staging-${{ github.sha }}
           retention-days: 90
-          path: reports/release
+          path: |
+            reports/release
+            test-results
