@@ -14489,6 +14489,17 @@
       }
     },
     {
+      "id": "availability:/old-eye-blades",
+      "kind": "availability",
+      "target": "/old-eye-blades",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#historical-qualifications",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/old-eye-blades"
+      }
+    },
+    {
       "id": "availability:/old-frontlines",
       "kind": "availability",
       "target": "/old-frontlines",
@@ -17052,6 +17063,17 @@
       }
     },
     {
+      "id": "availability:/samurai-lord",
+      "kind": "availability",
+      "target": "/samurai-lord",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#historical-qualifications",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/samurai-lord"
+      }
+    },
+    {
       "id": "availability:/samurai-police",
       "kind": "availability",
       "target": "/samurai-police",
@@ -18083,6 +18105,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/shop-guard"
+      }
+    },
+    {
+      "id": "availability:/shopkeepers-backpack",
+      "kind": "availability",
+      "target": "/shopkeepers-backpack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#historical-qualifications",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/shopkeepers-backpack"
       }
     },
     {

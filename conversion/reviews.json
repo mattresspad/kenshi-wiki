@@ -6694,6 +6694,18 @@
     "ore-mine": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "old-eye-blades": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "shopkeepers-backpack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "samurai-lord": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
     }
   },
   "mediaGaps": [

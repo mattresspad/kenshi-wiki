@@ -110,6 +110,57 @@
         "claim:manufacturers-historical-status"
       ],
       "assessment": "Preserve distinction between an early production building and later nodes/drills. No building cost or research information is invented."
+    },
+    {
+      "id": "old-eye-blades",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/manufacturers/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: As of 0.93.24, this manufacturer no longer exists in the game. The page will be kept for archival purposes. One of the oldest smithing companies, weapons mass produced by slave labour and commonly found everywhere.In-game description Old-Eye Blades is a weapon manufacturer company. Overview Old-Eye Blades is a mid-grade weapon manufacturer. Their quality is above average, as is their price and damage. They perform better than Metal Purity and Unknown, and only slightly worse than Catan Scrapmaster. Old-Eye Blades does not produce Flesh Cleaver, Heavy Iron Club, or Iron Club type weapons. Models Industrial 004 Industrial 005 Industrial 007 Industrial 008",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/old-eye-blades.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "998261859364d46b1fca9d03b3b182d5959d58626a2f08ab622f14273be178a2"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-old-destinations",
+        "claim:manufacturers-quality"
+      ],
+      "assessment": "Keep explicit 0.93.24 removal statement, in-world credit, exclusions and original Industrial model destinations. Catan/Unknown aliases require recorded identity evidence."
+    },
+    {
+      "id": "shopkeepers-backpack",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Shopkeepers Backpack is a very large Backpack. It is identical to the Shopkeeper goods bag except for the fact that it weighs half as much. No characters spawn with this backpack. It used to spawn on clothing, item, and weapon traders.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/shopkeepers-backpack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3364abbe31da437a36f3a0aa08440de41695828aa40e05777e782f990e1cf41e"
+      },
+      "questions": [
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-media",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Keep the retired item separate from the goods bag; preserve 50kg, half-weight comparison, no-spawn claim, zero reductions/modifiers and double-space caption verbatim."
+    },
+    {
+      "id": "samurai-lord",
+      "existence": "Permanent ID, address, pinned checksum, categories and one characters/historical/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Surrender yourselves, you can't win against us.A Samurai Lord prepares for battle. Samurai Lords were the elite leaders of 6-10 man Samurai patrols. They were members of the Imperial Lords (now the United Cities and Noble Circle) and seemed to fulfil a similar role to that of current Samurai Captains, albeit with a higher level of importance. They possessed very high stats (for the time) and sported a unique “gold” Colour Scheme. If worn on a set of Empire Samurai Armour, it appeared as a golden Imperial eagle on a black background.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/samurai-lord.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "4736cf61e761d650544154d4304c62cb5e585c5a015cc44ef75899fd719feabd"
+      },
+      "questions": [
+        "claim:manufacturers-historical-status"
+      ],
+      "assessment": "Preserve historical 6–10 patrol description, battle quotation credit, 11% female chance and helmetless-in-later-versions qualification. Do not conflate old lords with current captains."
     }
   ],
   "editorialChanges": []
