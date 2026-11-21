@@ -8,7 +8,7 @@ The required `check-and-stage` job reports for every PR targeting main. There ar
 | --- | --- | --- |
 | Routine PR | `npm run ci:check` (set `WIKI_CI_BASE_SHA` locally) | Identity/registry checks and structural tests always. Content changes build once in published mode, check affected routes and inbound links, provenance, categories, search and sitemap, then run the affected family browser files and navigation checks. |
 | Exhaustive conversion audit | `npm run audit:check`, or manual workflow mode `audit` | All catalog tests including historical format fixtures and warm-cache moves, complete source report and gap projection, all browser tests, focused local editing and Cloudflare dry run. PRs changing preservation machinery also select this. |
-| Release rehearsal | Exact main SHA, manual workflow mode `release` or `WIKI_EXPECTED_SHA=Ã¢â‚¬Â¦ npm run release:check` | Full audit and browser coverage, local editing checks, repeated package hashes, all-page package audit and 32 desktop/phone captures. HTTPS acceptance remains a separate validation of the uploaded immutable version. |
+| Release rehearsal | Exact main SHA, manual workflow mode `release` or `WIKI_EXPECTED_SHA=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ npm run release:check` | Full audit and browser coverage, local editing checks, repeated package hashes, all-page package audit and 32 desktop/phone captures. HTTPS acceptance remains a separate validation of the uploaded immutable version. |
 
 The release runner retains the complete report once, on the published build. Local editing and the reproducibility rebuild render/search/package without rerunning the same source report. Package equality is still checked. No assertion in the existing conversion audits or family suites was removed.
 
@@ -16,7 +16,7 @@ The release runner retains the complete report once, on the published build. Loc
 
 - README, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, LICENSING, and Markdown under docs: structural checks only. These are not site-rendering inputs.
 - Registered article Markdown: permanent IDs determine families from frozen rosters, including overlaps. The family tests retain their source comparisons and phone/desktop behavior. Addressing and bookmark tests also run. Unknown article structures, deletions and moves fall back to the complete audit.
-- Shared components, layouts, styles, navigation, search scripts, portal data and public assets: broad catalog/browser coverage and warm-cache/local editing checks. The local-only detailed gap-report browser test requires the exhaustive report and runs in audit/release modes.
+- Shared components, layouts, styles, navigation, search scripts, portal data and public assets: broad catalog/browser coverage and warm-cache/local editing checks. The local-only detailed gap-report browser test and the route-report assertion group require the exhaustive report and run in audit/release modes. The latter moved intact from utilities.test.mjs into conversion-report.test.mjs; current search/sitemap/random assertions stay in routine coverage.
 - Scripts, schemas, source records, registry and gap data, dependency locks, test machinery, workflow changes or unclassified files: complete audit. Broad fallback is deliberate until a narrower dependency is demonstrated.
 - New test files automatically join the exhaustive inventory. Adding or changing a test selects that entire inventory. No family assertion is discarded to make a particular PR green.
 

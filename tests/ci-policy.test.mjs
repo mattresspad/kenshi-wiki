@@ -13,7 +13,7 @@ test('content selects actual registered identities and affected families',()=>{
 test('shared code stays broad; preservation changes retain every test and fixture',()=>{
  const tests=inventory();
  for(const path of ['src/layouts/Frame.astro','src/styles/wiki.css','src/scripts/search.js']){
-  const p=selectChecks({changes:change(path),articles});assert.equal(p.kind,'broad');assert.ok(p.browser.includes('tests/search.spec.mjs'));assert.ok(p.catalog.includes('tests/warm-move.test.mjs'));assert.ok(p.editing);
+  const p=selectChecks({changes:change(path),articles});assert.equal(p.kind,'broad');assert.ok(p.browser.includes('tests/search.spec.mjs'));assert.ok(p.catalog.includes('tests/warm-move.test.mjs'));assert.ok(p.editing);assert.ok(!p.catalog.includes('tests/conversion-report.test.mjs'));
  }
  for(const path of ['scripts/conversion/verify.mjs','src/content.config.ts','conversion/gaps/register.json','package-lock.json','.github/workflows/restoration.yml','tests/new.spec.mjs','unmapped.txt']){
   const p=selectChecks({changes:change(path),articles});assert.ok(p.audit,path);assert.deepEqual(p.browser,tests.browser);assert.deepEqual(p.catalog,tests.catalog);

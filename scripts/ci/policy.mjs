@@ -45,7 +45,7 @@ export function selectChecks({changes,mode='routine',articles=[],tests=inventory
   }
   if(kind==='broad'){
     browser=tests.browser.filter(f=>audit||f!=='tests/gap-report.spec.mjs');
-    catalog=[...tests.catalog]; // includes warm-cache fixture; broad changes can affect edit paths
+    catalog=tests.catalog.filter(f=>audit||f!=='tests/conversion-report.test.mjs'); // warm-cache stays broad; report assertions stay in the audit
   }
   return {version:1,mode,kind,audit,editing,build:kind!=='documentation',articleIds:[...selected].sort(),catalog:catalog.sort(),browser:browser.sort(),reasons:[...new Set(reasons)],changes};
 }
