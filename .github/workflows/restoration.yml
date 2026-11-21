@@ -1,9 +1,10 @@
 name: FreshWiki candidate
 on:
   push:
-    branches: [rebuild/restoration, integration/pr-44-code-mod-hooks]
+    branches: [main, rebuild/restoration, integration/pr-44-code-mod-hooks]
   pull_request:
-    branches: [rebuild/restoration]
+    branches: [main, rebuild/restoration]
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
