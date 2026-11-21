@@ -19,7 +19,7 @@ test('reconcile original raw membership sets independently of the URL generator'
     if(!expected.has(name)) expected.set(name,new Set());
     expected.get(name).add(article.path);
   }
-  const {categories}=buildCatalog();
+  const {categories}=buildCatalog([],snapshot);
   assert.equal(snapshot.articles.length,2184);assert.equal(snapshot.redirects.length,263);
   assert.equal(rawNames.size,202);assert.equal(categories.size,198);
   let pairs=0;

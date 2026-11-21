@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 import { load } from 'cheerio';
 import evidence from './restored-articles.json' with {type: 'json'};
 import accepted from '../conversion/pr-43.json' with {type: 'json'};
-import { origin, snapshot } from '../src/lib/catalog.mjs';
+import { origin, snapshot, effectiveSnapshot } from '../src/lib/catalog.mjs';
 
 const holy = '/the-holy-nation';
 const packs = '/backpacks';
@@ -94,7 +94,7 @@ test('Modding portal, category and accepted Blender contribution can be followed
   }
   await expect(main.getByRole('link',{name:'original contribution'})).toHaveAttribute('href',new RegExp(accepted.contribution));
   await page.locator('.end-categories').getByRole('link',{name:'Modding',exact:true}).click();
-  await expect(page.locator('[data-member]')).toHaveCount(96);
+  await expect(page.locator('[data-member]')).toHaveCount(effectiveSnapshot.articles.filter(a=>a.categories.includes('Modding')).length);
   for (const {article} of accepted.edits) {
     await expect(page.locator('[data-member="'+article+'"]')).toHaveAttribute('href',(acceptedArticleIds.has(article.slice(1))?'':origin)+article);
   }

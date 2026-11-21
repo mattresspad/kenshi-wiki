@@ -1,0 +1,32 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "contributionRevision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89",
+  "categories": [],
+  "existing": [],
+  "members": [
+    "modding/meitou/code-mod-hooks"
+  ],
+  "newMembers": [
+    "modding/meitou/code-mod-hooks"
+  ],
+  "files": {
+    "modding/meitou/code-mod-hooks": "src/content/articles/modding/meitou/code-mod-hooks.md"
+  },
+  "batches": [
+    {
+      "name": "pr44-contribution",
+      "ids": [
+        "modding/meitou/code-mod-hooks"
+      ]
+    }
+  ],
+  "expectedPages": [
+    2176
+  ],
+  "expected": {
+    "assets": 0,
+    "headings": 10,
+    "citationTargets": 0,
+    "redirects": 0
+  }
+}

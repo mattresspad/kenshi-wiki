@@ -1,0 +1,126 @@
+{
+  "baselineTip": "6f8c6df12fc287ca2850c9a5c8aaf7b03f404478",
+  "originalContributionTip": "13e4811",
+  "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "scope": "Local final-corpus and contributor-queue compatibility; original PR remains open.",
+  "articles": 2185,
+  "baselineArticles": 2184,
+  "acceptedAdditions": 1,
+  "memberships": 4120,
+  "titleSearch": 2191,
+  "queue": {
+    "transferred": 2185,
+    "formatChecked": 2185,
+    "editoriallyReviewed": 1723,
+    "awaitingReview": 462,
+    "activeArticles": 2165,
+    "openFindings": 740,
+    "resolvedFindings": 2553
+  },
+  "checks": [
+    "production build",
+    "catalog",
+    "full Playwright",
+    "Cloudflare dry run"
+  ],
+  "logs": "reports/remainder/05-pr44-combined",
+  "shots": [
+    {
+      "file": "queue-desktop-light.png",
+      "path": "/pages-needing-work",
+      "device": "desktop",
+      "theme": "light"
+    },
+    {
+      "file": "history-desktop-light.png",
+      "path": "/pages-needing-work/history",
+      "device": "desktop",
+      "theme": "light"
+    },
+    {
+      "file": "hooks-desktop-light.png",
+      "path": "/modding/meitou/code-mod-hooks",
+      "device": "desktop",
+      "theme": "light"
+    },
+    {
+      "file": "queue-desktop-dark.png",
+      "path": "/pages-needing-work",
+      "device": "desktop",
+      "theme": "dark"
+    },
+    {
+      "file": "history-desktop-dark.png",
+      "path": "/pages-needing-work/history",
+      "device": "desktop",
+      "theme": "dark"
+    },
+    {
+      "file": "hooks-desktop-dark.png",
+      "path": "/modding/meitou/code-mod-hooks",
+      "device": "desktop",
+      "theme": "dark"
+    },
+    {
+      "file": "queue-phone-light.png",
+      "path": "/pages-needing-work",
+      "device": "phone",
+      "theme": "light"
+    },
+    {
+      "file": "history-phone-light.png",
+      "path": "/pages-needing-work/history",
+      "device": "phone",
+      "theme": "light"
+    },
+    {
+      "file": "hooks-phone-light.png",
+      "path": "/modding/meitou/code-mod-hooks",
+      "device": "phone",
+      "theme": "light"
+    },
+    {
+      "file": "queue-phone-dark.png",
+      "path": "/pages-needing-work",
+      "device": "phone",
+      "theme": "dark"
+    },
+    {
+      "file": "history-phone-dark.png",
+      "path": "/pages-needing-work/history",
+      "device": "phone",
+      "theme": "dark"
+    },
+    {
+      "file": "hooks-phone-dark.png",
+      "path": "/modding/meitou/code-mod-hooks",
+      "device": "phone",
+      "theme": "dark"
+    }
+  ],
+  "validationResults": {
+    "productionBuild": "passed",
+    "catalog": {
+      "passed": 58,
+      "failed": 0
+    },
+    "playwright": {
+      "passed": 220,
+      "failed": 0,
+      "intentionalSkips": 2,
+      "skipReason": "Long desktop category-strip checks do not apply to phone; phone compact-menu coverage remains active."
+    },
+    "cloudflarePackageDryRun": "passed"
+  },
+  "regeneration": {
+    "result": "Two passes retain baseline findings, separate PR44 evidence, reviews and resolution history",
+    "sha256": {
+      "conversion/gaps/register.json": "171ac0fd4e6f01aab083e8785e9d360a1852124027b8f772b63bca6020b2c447",
+      "conversion/gaps/resolutions.json": "062613588a8539a82225f25205f5e2314e0b43f1cb1400833d78130d98ebc13e",
+      "conversion/pr-44/gap-findings.json": "cdd094c921f09a574b7c22ac1df00b6bef1491c7164fb9185f0cc93459033236",
+      "conversion/pr-44/gap-source.json": "64b42c15f912173ddca614a08455bbdc46ade2ef3f816d7ef164b8274a707929",
+      "conversion/reviews.json": "c2028ff9809fca15f677f73e3e57e557a544ab20e02e6d4ff053553ab1764afc",
+      "conversion/pr-44/version-evidence.json": "8b11f2972ab8871cd9f731b75d0cd77047d7f24f869ec90aa55cf4e04ccb43cf"
+    }
+  }
+}

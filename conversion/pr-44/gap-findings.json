@@ -1,0 +1,1182 @@
+{
+  "findings": [
+    {
+      "id": "claim:pr44-hook-1",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "[`IModDataPhase`][dataphase]: Add, change or remove game records in code while the data loads, before anything is built from them, the way a `.mod` file would. Your changes merge in mod-list order, after every data file. A mod that throws here is left out, and changes it already merged stay for the session. *(next release)*",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "Data-phase edits are not transactional: changes already merged remain if a mod later fails.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Add, change or remove game records in code while the data loads, before anything is built from them, the way a `.mod` file would. Your changes merge in mod-list order, after every data file. A mod that throws here is left out, and changes it already merged stay for the session. *(next release)*",
+          "literal": "Add, change or remove game records in code while the data loads, before anything is built from them, the way a `.mod` file would. Your changes merge in mod-list order, after every data file. A mod that throws here is left out, and changes it already merged stay for the session. *(next release)*",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Not available in 0.22.1; verified in pinned nightly source",
+          "implementation": [],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 98,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L98"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/IMod.cs",
+              "line": 22,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Game/Mods/IMod.cs#L22"
+            },
+            {
+              "path": "src/Meitou.Game/Mods/ModHost.cs",
+              "line": 327,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Game/Mods/ModHost.cs#L327"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 139,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L139"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Present in later source; read the row limits for contract changes",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/IMod.cs",
+              "line": 22,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/IMod.cs#L22"
+            },
+            {
+              "path": "src/Meitou.Game/Mods/ModHost.cs",
+              "line": 335,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/ModHost.cs#L335"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 139,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L139"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-7",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "[`AddSettings`][settings]: Show options under your mod on the Settings screen's Mods page: switches, sliders and lists, kept between runs. Settings can be grouped, and hidden until a switch turns them on; a mod that uses either sets `gameVersion`, because older clients can't read them. Your code can also change a setting itself, such as a window's position, and it's kept the same way. *(next release, for setting it from code)*",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "Settings already exist in 0.22.1. Programmatic setting is documented in the pinned nightly; group/visibility fields require a compatible gameVersion.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Show options under your mod on the Settings screen's Mods page: switches, sliders and lists, kept between runs. Settings can be grouped, and hidden until a switch turns them on; a mod that uses either sets `gameVersion`, because older clients can't read them. Your code can also change a setting itself, such as a window's position, and it's kept the same way. *(next release, for setting it from code)*",
+          "literal": "Show options under your mod on the Settings screen's Mods page: switches, sliders and lists, kept between runs. Settings can be grouped, and hidden until a switch turns them on; a mod that uses either sets `gameVersion`, because older clients can't read them. Your code can also change a setting itself, such as a window's position, and it's kept the same way. *(next release, for setting it from code)*",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Present in 0.22.1; read the row limits for later additions",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 371,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Game/Mods/ModContext.cs#L371"
+            },
+            {
+              "path": "src/Meitou.Game/Mods/ModSettings.cs",
+              "line": 7,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Game/Mods/ModSettings.cs#L7"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 332,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L332"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 528,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Game/Mods/ModContext.cs#L528"
+            },
+            {
+              "path": "src/Meitou.Game/Mods/ModSettings.cs",
+              "line": 7,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Game/Mods/ModSettings.cs#L7"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 716,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L716"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Present in later source; read the row limits for contract changes",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 528,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/ModContext.cs#L528"
+            },
+            {
+              "path": "src/Meitou.Game/Mods/ModSettings.cs",
+              "line": 7,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/ModSettings.cs#L7"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 712,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L712"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-13",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "[Weapon skills][weapons] (`meitou skill`): Give a weapon a skill your mod added with `AddSkill`. The weapon then uses and trains that skill wherever a weapon uses its own class's skill: damage, which attacks it can use, and the HUD's Current Skill line. Its attacks and stance still follow its ordinary class. It's a data field, so the original game ignores it. *(next release)*",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "0.22.1 contains a STATS save-key prefix with the same spelling, not the later WEAPON field integration. The weapon field and its consumers are present in the pinned nightly.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Give a weapon a skill your mod added with `AddSkill`. The weapon then uses and trains that skill wherever a weapon uses its own class's skill: damage, which attacks it can use, and the HUD's Current Skill line. Its attacks and stance still follow its ordinary class. It's a data field, so the original game ignores it. *(next release)*",
+          "literal": "Give a weapon a skill your mod added with `AddSkill`. The weapon then uses and trains that skill wherever a weapon uses its own class's skill: damage, which attacks it can use, and the HUD's Current Skill line. Its attacks and stance still follow its ordinary class. It's a data field, so the original game ignores it. *(next release)*",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Not available in 0.22.1; verified in pinned nightly source",
+          "implementation": [],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 98,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L98"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Data/Gameplay/Combat/WeaponData.cs",
+              "line": 249,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Data/Gameplay/Combat/WeaponData.cs#L249"
+            },
+            {
+              "path": "src/Meitou.Data/Gameplay/Combat/WeaponData.cs",
+              "line": 246,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Data/Gameplay/Combat/WeaponData.cs#L246"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 342,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L342"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Present in later source; read the row limits for contract changes",
+          "implementation": [
+            {
+              "path": "src/Meitou.Data/Gameplay/Combat/WeaponData.cs",
+              "line": 249,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Data/Gameplay/Combat/WeaponData.cs#L249"
+            },
+            {
+              "path": "src/Meitou.Data/Gameplay/Combat/WeaponData.cs",
+              "line": 246,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Data/Gameplay/Combat/WeaponData.cs#L246"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 344,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L344"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-16",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "`AddSkill`: Add a skill to the stats window, saved with each character. Your code trains it on the game's own curve, and fighting with a weapon that names it trains it too.",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "AddSkill exists in 0.22.1; automatic weapon training through meitou skill belongs to the pinned nightly. Keep stable skill IDs, not load-order-dependent stat numbers.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Add a skill to the stats window, saved with each character. Your code trains it on the game's own curve, and fighting with a weapon that names it trains it too.",
+          "literal": "Add a skill to the stats window, saved with each character. Your code trains it on the game's own curve, and fighting with a weapon that names it trains it too.",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Present in 0.22.1; read the row limits for later additions",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 256,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Game/Mods/ModContext.cs#L256"
+            },
+            {
+              "path": "src/Meitou.Simulation/Bodies/HudTips.cs",
+              "line": 498,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Simulation/Bodies/HudTips.cs#L498"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 246,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L246"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 335,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Game/Mods/ModContext.cs#L335"
+            },
+            {
+              "path": "src/Meitou.Simulation/Bodies/HudTips.cs",
+              "line": 505,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Simulation/Bodies/HudTips.cs#L505"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 463,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L463"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Present in later source; read the row limits for contract changes",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 335,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/ModContext.cs#L335"
+            },
+            {
+              "path": "src/Meitou.Simulation/Bodies/HudTips.cs",
+              "line": 505,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Simulation/Bodies/HudTips.cs#L505"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 466,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L466"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-23",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "[Lasting ids][lasting]: Give a character an id that stays with it for life, across saves, squad changes, recruiting and capture, so a mod can keep data about it. Every mod shares the same id. *(next release)*",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "Stable within one save lineage, not globally unique across branched saves. Import starts without IDs. GetOrGive is serial/between ticks and throws during saving or parallel phases.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Give a character an id that stays with it for life, across saves, squad changes, recruiting and capture, so a mod can keep data about it. Every mod shares the same id. *(next release)*",
+          "literal": "Give a character an id that stays with it for life, across saves, squad changes, recruiting and capture, so a mod can keep data about it. Every mod shares the same id. *(next release)*",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Not available in 0.22.1; verified in pinned nightly source",
+          "implementation": [],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 98,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L98"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Data/Save/SaveLastingIds.cs",
+              "line": 11,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Data/Save/SaveLastingIds.cs#L11"
+            },
+            {
+              "path": "src/Meitou.Simulation/World.cs",
+              "line": 503,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Simulation/World.cs#L503"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 587,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L587"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Present in later source; read the row limits for contract changes",
+          "implementation": [
+            {
+              "path": "src/Meitou.Data/Save/SaveLastingIds.cs",
+              "line": 11,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Data/Save/SaveLastingIds.cs#L11"
+            },
+            {
+              "path": "src/Meitou.Simulation/World.cs",
+              "line": 543,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Simulation/World.cs#L543"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 583,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L583"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-28",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "[Body shapes][bodies]: Give a race more or fewer body parts, or new kinds of part such as a tail, in data alone. The medical panel scrolls when a body has more parts than it has rows. *(next release)*",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "The anatomy loader already reads the complete combat-anatomy list in 0.22.1. Expanded medical-panel scrolling is verified in the pinned nightly source, not an in-game trial; blood rendering covers only the first eight parts.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Give a race more or fewer body parts, or new kinds of part such as a tail, in data alone. The medical panel scrolls when a body has more parts than it has rows. *(next release)*",
+          "literal": "Give a race more or fewer body parts, or new kinds of part such as a tail, in data alone. The medical panel scrolls when a body has more parts than it has rows. *(next release)*",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Present in 0.22.1; read the row limits for later additions",
+          "implementation": [],
+          "documentation": null
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [],
+          "documentation": {
+            "path": "docs/game/character-stats.md",
+            "line": 645,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/game/character-stats.md#L645"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Present in later source; read the row limits for contract changes",
+          "implementation": [],
+          "documentation": {
+            "path": "docs/game/character-stats.md",
+            "line": 649,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/game/character-stats.md#L649"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-48",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "`AddJobType`: Add a job type of your own. It shows in the jobs panel and is kept in saves. Your mod carries it out through `RegisterJob`, and it runs only while the character's jobs are switched on.",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "AddJobType remains, but implementation changes: 0.22.1/nightly use decision registration; later source uses IChooserOwner and its Jobs list. Removing a job need not stop an already-started task.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Add a job type of your own. It shows in the jobs panel and is kept in saves. Your mod carries it out through `RegisterJob`, and it runs only while the character's jobs are switched on.",
+          "literal": "Add a job type of your own. It shows in the jobs panel and is kept in saves. Your mod carries it out through `RegisterJob`, and it runs only while the character's jobs are switched on.",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Present in 0.22.1; read the row limits for later additions",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 302,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Game/Mods/ModContext.cs#L302"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 278,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L278"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 401,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Game/Mods/ModContext.cs#L401"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 538,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L538"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Present in later source; read the row limits for contract changes",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 401,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/ModContext.cs#L401"
+            },
+            {
+              "path": "src/Meitou.Simulation/Ai/ChooserRegistry.cs",
+              "line": 182,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Simulation/Ai/ChooserRegistry.cs#L182"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 546,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L546"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-49",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "`IDecisionOwner`: Add a behavior to how the player's characters decide what to do next (orders, jobs, goals, idling), without patching.",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "Public in 0.22.1 and the pinned nightly. Later source makes IDecisionOwner internal and moves mod integration to IChooserOwner; it is not a portable current hook.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Add a behavior to how the player's characters decide what to do next (orders, jobs, goals, idling), without patching.",
+          "literal": "Add a behavior to how the player's characters decide what to do next (orders, jobs, goals, idling), without patching.",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Present in 0.22.1; read the row limits for later additions",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/Ai/DecisionSystem.cs",
+              "line": 110,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Simulation/Ai/DecisionSystem.cs#L110"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 272,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L272"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/Ai/DecisionSystem.cs",
+              "line": 110,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Simulation/Ai/DecisionSystem.cs#L110"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 532,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L532"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Legacy interface is internal; chooser contract replaces mod integration",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/Ai/DecisionSystem.cs",
+              "line": 111,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Simulation/Ai/DecisionSystem.cs#L111"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 989,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L989"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-52",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "[NPC goals][npcgoals] (`AddGoalType`, `INpcGoalOwner`): Add a goal that NPCs weigh in the AI's own chooser beside their other goals, wherever their AI package lists it. Your code says how much each character wants it and starts the work when it wins. A fight still takes over, and without your mod the goal is never chosen. *(next release)*",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "AddGoalType/INpcGoalOwner is present in the pinned nightly, absent in 0.22.1. Later source replaces INpcGoalOwner with chooser goals (IModGoal/IChooserOwner).",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Add a goal that NPCs weigh in the AI's own chooser beside their other goals, wherever their AI package lists it. Your code says how much each character wants it and starts the work when it wins. A fight still takes over, and without your mod the goal is never chosen. *(next release)*",
+          "literal": "Add a goal that NPCs weigh in the AI's own chooser beside their other goals, wherever their AI package lists it. Your code says how much each character wants it and starts the work when it wins. A fight still takes over, and without your mod the goal is never chosen. *(next release)*",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Not available in 0.22.1; verified in pinned nightly source",
+          "implementation": [],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 98,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L98"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 417,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Game/Mods/ModContext.cs#L417"
+            },
+            {
+              "path": "src/Meitou.Simulation/Ai/NpcGoals.cs",
+              "line": 224,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Simulation/Ai/NpcGoals.cs#L224"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 553,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L553"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Legacy goal/duty recipe replaced by chooser contracts",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 417,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/ModContext.cs#L417"
+            },
+            {
+              "path": "src/Meitou.Simulation/Ai/ChooserRegistry.cs",
+              "line": 169,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Simulation/Ai/ChooserRegistry.cs#L169"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 546,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L546"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-53",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "[Duties][duties]: Give NPCs work your mod hands out itself rather than through the chooser: the AI package lists a goal of your own number, and your code finds who has it now and walks them. *(next release)*",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "The pinned nightly documents direct duty driving. Later source replaces this recipe with chooser goal act-outs; do not apply the old duty recipe to that source.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Give NPCs work your mod hands out itself rather than through the chooser: the AI package lists a goal of your own number, and your code finds who has it now and walks them. *(next release)*",
+          "literal": "Give NPCs work your mod hands out itself rather than through the chooser: the AI package lists a goal of your own number, and your code finds who has it now and walks them. *(next release)*",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Not available in 0.22.1; verified in pinned nightly source",
+          "implementation": [],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 98,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L98"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 417,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Game/Mods/ModContext.cs#L417"
+            },
+            {
+              "path": "src/Meitou.Simulation/Ai/NpcGoals.cs",
+              "line": 224,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Simulation/Ai/NpcGoals.cs#L224"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 553,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L553"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Legacy goal/duty recipe replaced by chooser contracts",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 417,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/ModContext.cs#L417"
+            },
+            {
+              "path": "src/Meitou.Simulation/Ai/ChooserRegistry.cs",
+              "line": 169,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Simulation/Ai/ChooserRegistry.cs#L169"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 546,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L546"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-55",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "[`IGoalSource`][claims]: Tell the game's work finders what your characters are already working on (a body to loot, a patient, a site), so their squad mates don't take it too.",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "Claims choose and start nothing. Publish is serial and deterministic, but a thrown exception is NOT caught as a mod fault.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Tell the game's work finders what your characters are already working on (a body to loot, a patient, a site), so their squad mates don't take it too.",
+          "literal": "Tell the game's work finders what your characters are already working on (a body to loot, a patient, a site), so their squad mates don't take it too.",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Present in 0.22.1; read the row limits for later additions",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/Ai/SquadGoals.cs",
+              "line": 24,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Simulation/Ai/SquadGoals.cs#L24"
+            },
+            {
+              "path": "src/Meitou.Simulation/Production/ProductionSystem.cs",
+              "line": 71,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Simulation/Production/ProductionSystem.cs#L71"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 98,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L98"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/Ai/SquadGoals.cs",
+              "line": 24,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Simulation/Ai/SquadGoals.cs#L24"
+            },
+            {
+              "path": "src/Meitou.Simulation/Production/ProductionSystem.cs",
+              "line": 71,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Simulation/Production/ProductionSystem.cs#L71"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 558,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L558"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Present in later source; read the row limits for contract changes",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/Ai/SquadGoals.cs",
+              "line": 24,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Simulation/Ai/SquadGoals.cs#L24"
+            },
+            {
+              "path": "src/Meitou.Simulation/Production/ProductionSystem.cs",
+              "line": 71,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Simulation/Production/ProductionSystem.cs#L71"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 554,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L554"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-58",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "`HoldPlatoon`, `SendPlatoon`: Stop a roaming squad's travel, then send it toward a point or a character while it's off screen. From the next release, while a held squad is loaded, its members stop following their AI package and only fight, so your mod can walk them. The hold isn't saved: find the squad by its tag and hold it again after a load.",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "0.22.1 holds off-screen travel. The pinned nightly also restricts loaded members to fighting. Later source removes that loaded-member restriction: loaded members run their full packages again. Holds are not saved.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Stop a roaming squad's travel, then send it toward a point or a character while it's off screen. From the next release, while a held squad is loaded, its members stop following their AI package and only fight, so your mod can walk them. The hold isn't saved: find the squad by its tag and hold it again after a load.",
+          "literal": "Stop a roaming squad's travel, then send it toward a point or a character while it's off screen. From the next release, while a held squad is loaded, its members stop following their AI package and only fight, so your mod can walk them. The hold isn't saved: find the squad by its tag and hold it again after a load.",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Present in 0.22.1; read the row limits for later additions",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/Population/PopulationRoaming.cs",
+              "line": 1548,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Simulation/Population/PopulationRoaming.cs#L1548"
+            },
+            {
+              "path": "src/Meitou.Simulation/Population/PopulationRoaming.cs",
+              "line": 749,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Simulation/Population/PopulationRoaming.cs#L749"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 419,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L419"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/Population/PopulationRoaming.cs",
+              "line": 1582,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Simulation/Population/PopulationRoaming.cs#L1582"
+            },
+            {
+              "path": "src/Meitou.Simulation/Population/PopulationRoaming.cs",
+              "line": 749,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Simulation/Population/PopulationRoaming.cs#L749"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 912,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L912"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Present in later source; read the row limits for contract changes",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/Population/PopulationRoaming.cs",
+              "line": 1494,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Simulation/Population/PopulationRoaming.cs#L1494"
+            },
+            {
+              "path": "src/Meitou.Game/Mods/IMod.cs",
+              "line": 58,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/IMod.cs#L58"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 908,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L908"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-60",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "`Engaged`: Keep the AI off one character, so your code can drive it with the game's own actions: walking, sneaking, picking locks, pickpocketing, carrying, taking a captive to a cage, and marking it as spotted or unseen. It still defends itself when attacked. Dialogue, trading, arrests and other game systems use the same switch, so take only characters the AI holds now, and clear only what your mod set.",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "Present in 0.22.1 and pinned nightly; later source removes CharacterCold.Engaged. Legacy use must not clear another system's ownership.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Keep the AI off one character, so your code can drive it with the game's own actions: walking, sneaking, picking locks, pickpocketing, carrying, taking a captive to a cage, and marking it as spotted or unseen. It still defends itself when attacked. Dialogue, trading, arrests and other game systems use the same switch, so take only characters the AI holds now, and clear only what your mod set.",
+          "literal": "Keep the AI off one character, so your code can drive it with the game's own actions: walking, sneaking, picking locks, pickpocketing, carrying, taking a captive to a cage, and marking it as spotted or unseen. It still defends itself when attacked. Dialogue, trading, arrests and other game systems use the same switch, so take only characters the AI holds now, and clear only what your mod set.",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Present in 0.22.1; read the row limits for later additions",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/CharacterTable.cs",
+              "line": 1018,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Simulation/CharacterTable.cs#L1018"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 427,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L427"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Simulation/CharacterTable.cs",
+              "line": 1061,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Simulation/CharacterTable.cs#L1061"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 920,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L920"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Legacy field removed",
+          "implementation": [],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 993,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L993"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    },
+    {
+      "id": "claim:pr44-hook-71",
+      "kind": "claim",
+      "target": "/modding/meitou/code-mod-hooks",
+      "classification": "unresolved",
+      "origin": "contribution draft",
+      "priority": "P2",
+      "verification": "Pinned source and documentation inspection; no in-game test or complete API inventory claimed",
+      "status": "open",
+      "finding": "[Harmony][harmony]: Patch the game's code for anything no hook covers. The client loads one copy of Harmony and gives it to every mod.",
+      "proposedResolution": "Public wording is explicitly version-qualified; establish a reproducible runtime test for the intended client before making stronger guarantees.",
+      "uncertainty": "Harmony shares the client-loaded library but provides no compatibility, determinism or rollback guarantee for arbitrary patches.",
+      "postCutover": "Serve the qualified accepted article. Source inspection does not close runtime or compatibility verification.",
+      "occurrences": [
+        {
+          "pageId": "modding/meitou/code-mod-hooks",
+          "label": "Patch the game's code for anything no hook covers. The client loads one copy of Harmony and gives it to every mod.",
+          "literal": "Patch the game's code for anything no hook covers. The client loads one copy of Harmony and gives it to every mod.",
+          "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+          "revision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        }
+      ],
+      "evidence": [
+        {
+          "revision": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+          "outcome": "Present in 0.22.1; read the row limits for later additions",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 101,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Game/Mods/ModContext.cs#L101"
+            },
+            {
+              "path": "src/Meitou.Game/Mods/ModHost.cs",
+              "line": 523,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/src/Meitou.Game/Mods/ModHost.cs#L523"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 4,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01/docs/modding.md#L4"
+          }
+        },
+        {
+          "revision": "69d2688bc69d47b8374f8c7e203d50d66f092710",
+          "outcome": "Present in pinned nightly; source inspection only",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 101,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Game/Mods/ModContext.cs#L101"
+            },
+            {
+              "path": "src/Meitou.Game/Mods/ModHost.cs",
+              "line": 875,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/src/Meitou.Game/Mods/ModHost.cs#L875"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 4,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/69d2688bc69d47b8374f8c7e203d50d66f092710/docs/modding.md#L4"
+          }
+        },
+        {
+          "revision": "86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c",
+          "outcome": "Present in later source; read the row limits for contract changes",
+          "implementation": [
+            {
+              "path": "src/Meitou.Game/Mods/ModContext.cs",
+              "line": 101,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/ModContext.cs#L101"
+            },
+            {
+              "path": "src/Meitou.Game/Mods/ModHost.cs",
+              "line": 910,
+              "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/src/Meitou.Game/Mods/ModHost.cs#L910"
+            }
+          ],
+          "documentation": {
+            "path": "docs/modding.md",
+            "line": 4,
+            "url": "https://github.com/VlcekM/MeitouClient/blob/86d0af2daa0b6f9035fd3f3bc6b3f67ee82dc33c/docs/modding.md#L4"
+          }
+        }
+      ],
+      "resolutionHistory": [
+        {
+          "status": "public wording qualified",
+          "evidence": "conversion/pr-44/version-evidence.json"
+        }
+      ]
+    }
+  ]
+}

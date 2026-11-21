@@ -51,6 +51,8 @@ You can also meet authors and discuss releases in the **meitou-mods** channel on
 
 ## Make a code mod
 
+<p data-contribution="pr-44">For a versioned overview of extension points and their limits, see <a href="/modding/meitou/code-mod-hooks">Code mod hooks</a>.</p>
+
 Bringing an existing mod? [Assess one RE_Kenshi feature](/modding/meitou/porting-re-kenshi-mods). To try making a dependent mod, [fit a saddle to a Pack Bull](/modding/meitou/make-a-saddle-pack) and hand the ZIP to another player.
 
 Ordinary Kenshi mods can change game records in the [Forgotten Construction Set](/forgotten-construction-set) or supply new assets. Meitou code mods can also run C# inside the client. Follow the [MeitouClient code-mod guide][guide] for setup instructions that match your client version.

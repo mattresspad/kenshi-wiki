@@ -1,0 +1,33 @@
+{
+  "baselineRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "articles": [
+    {
+      "id": "modding/meitou/code-mod-hooks",
+      "path": "/modding/meitou/code-mod-hooks",
+      "title": "Code mod hooks",
+      "source": "original",
+      "categories": [
+        "Modding"
+      ],
+      "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+      "sourceRevision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89",
+      "historyRevision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89",
+      "originalCommit": "cabc97de5fdfa6dc135c48eee304460e70ccc598",
+      "credit": "teppuM",
+      "license": "4.0",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/pull/44"
+      ],
+      "contribution": {
+        "pr": 44,
+        "url": "https://github.com/mattresspad/kenshi-wiki/pull/44",
+        "commits": [
+          "cabc97de5fdfa6dc135c48eee304460e70ccc598",
+          "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+        ],
+        "adaptation": "FreshWiki version-qualified adaptation; source inspection, not an in-game test.",
+        "matrix": "/notices/code-mod-hooks-evidence.json"
+      }
+    }
+  ]
+}

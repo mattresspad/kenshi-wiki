@@ -1,0 +1,33 @@
+{
+  "baseline": "4db33adf9313f3b3819a3189e2a7b98eee516419",
+  "previousTip": "0a6d5936c16668b1a9675b69a016b57a325719e8",
+  "carriedTip": "d7a20c1a86854886e7be046b4f4e896e56ce6286",
+  "branch": "integration/pr-44-code-mod-hooks",
+  "method": "Rebase local contribution commits onto accepted orphan rebuild baseline; prototype ancestry not merged.",
+  "root": "54f6359f72dd33cbd14ca8d852989b9f91a2e3a2",
+  "protectedFiles": {
+    "conversion/pr-44/original.md": "3e84bdf076f481328025f7f6222333a9969976de977e4fadf9e6ece0ebf6db4d",
+    "conversion/pr-44/source-checksums.json": "1d1489760ed4f1e6092a2ce5d6828b3073034b1f54300d650f7f40c50425cb0e",
+    "conversion/pr-44/version-evidence.json": "8b11f2972ab8871cd9f731b75d0cd77047d7f24f869ec90aa55cf4e04ccb43cf",
+    "src/content/articles/modding/meitou/code-mod-hooks.md": "b65466a882809b90526a648ad205cbf4bcd48dd5adf31126224e78a0b8e1aebe",
+    "public/notices/code-mod-hooks-evidence.json": "8b11f2972ab8871cd9f731b75d0cd77047d7f24f869ec90aa55cf4e04ccb43cf"
+  },
+  "normalization": {
+    "runs": 2,
+    "unchanged": {
+      "conversion/gaps/register.json": "171ac0fd4e6f01aab083e8785e9d360a1852124027b8f772b63bca6020b2c447",
+      "conversion/gaps/resolutions.json": "40740fc85bce1c3f0dd570122ea5984fe38fa4c74fd868664bc131fb75290310",
+      "conversion/pr-44/gap-findings.json": "cdd094c921f09a574b7c22ac1df00b6bef1491c7164fb9185f0cc93459033236",
+      "conversion/pr-44/gap-source.json": "64b42c15f912173ddca614a08455bbdc46ade2ef3f816d7ef164b8274a707929"
+    }
+  },
+  "validation": "conversion/pr-44/compatibility-utilities.json",
+  "checks": {
+    "catalog": 61,
+    "browserPassed": 240,
+    "browserSkipped": 2,
+    "build": "passed",
+    "cloudflareDryRun": "passed"
+  },
+  "publicActions": "None. Original PR #44 remains open; formal integration and deployment retain separate approval."
+}

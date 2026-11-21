@@ -1,0 +1,205 @@
+[
+  {
+    "name": "modding-fcs",
+    "opened": [
+      "claim:modding-dialogue",
+      "claim:modding-record-editing",
+      "claim:modding-scripts",
+      "claim:modding-versions",
+      "claim:modding-assets",
+      "claim:modding-missing-media",
+      "claim:modding-project-status"
+    ],
+    "resolved": [
+      "availability:/forgotten-construction-set",
+      "availability:/introduction-to-modding",
+      "availability:/using-the-fcs"
+    ],
+    "reopened": [],
+    "remainingOpen": 892
+  },
+  {
+    "name": "modding-structures",
+    "opened": [],
+    "resolved": [
+      "availability:/dialogue-conditions-effects",
+      "availability:/dialogue-structure-overlook",
+      "availability:/user-node-rotations-quarternions"
+    ],
+    "reopened": [],
+    "remainingOpen": 889
+  },
+  {
+    "name": "modding-pr43",
+    "opened": [
+      "claim:modding-journal-contradictions",
+      "claim:modding-multiplayer-claims",
+      "claim:modding-quaternion-explanation"
+    ],
+    "resolved": [
+      "availability:/creating-a-rideable-animal/vehicle",
+      "availability:/making-animations-basics",
+      "availability:/making-custom-ragdoll",
+      "availability:/why-is-my-3rd-party-ported-mesh-flat-in-kenshi-aka-how-to-fix-flat-shading"
+    ],
+    "reopened": [],
+    "remainingOpen": 888
+  },
+  {
+    "name": "modding-projects",
+    "opened": [],
+    "resolved": [
+      "availability:/kenshi-unofficial-multiplayer-mod",
+      "availability:/modding/meitou/porting-re-kenshi-mods",
+      "availability:/particle-script-examples-and-experiments"
+    ],
+    "reopened": [],
+    "remainingOpen": 885
+  },
+  {
+    "name": "modding-siblings-1",
+    "opened": [],
+    "resolved": [
+      "availability:/a-workaround-how-to-give-maps-armor-or-weapons-through-dialogue",
+      "availability:/a-workaround-how-to-make-weapons-lootable-by-npcs",
+      "availability:/about-armor-textures-how-to-use-different-texture-maps",
+      "availability:/adding-new-sounds-to-animations",
+      "availability:/ai-goals",
+      "availability:/ai-packages",
+      "availability:/armor-stats",
+      "availability:/building-making-tutorial",
+      "availability:/changing-town-ownership",
+      "availability:/character-fcs",
+      "availability:/character-portrait-appearing-behind-other-character-portraits",
+      "availability:/collision-in-context-of-furniture-with-animations",
+      "availability:/colour-scheme",
+      "availability:/creating-a-new-game-start",
+      "availability:/creating-a-special-placeable/lootable-item-for-your-town",
+      "availability:/creating-an-animal-race",
+      "availability:/creating-custom-weapons",
+      "availability:/creating-new-towns",
+      "availability:/custom-character-mesh-and-editor-sliders",
+      "availability:/custom-character-model-and-rigging-to-kenshi-armature",
+      "availability:/custom-character-race-and-normal-map-displacement-map",
+      "availability:/dialogue-events",
+      "availability:/dialogue-targeting"
+    ],
+    "reopened": [],
+    "remainingOpen": 862
+  },
+  {
+    "name": "modding-siblings-2",
+    "opened": [],
+    "resolved": [
+      "availability:/dialogue-text-formatting-colors-italics-etc",
+      "availability:/dialogue-triggers-usage",
+      "availability:/dialogue-word-swaps",
+      "availability:/example-on-color-map-process",
+      "availability:/fcs-load-order-color-definitions",
+      "availability:/fcs-new-abilities-on-version-1.0.65-onwards",
+      "availability:/fix-for-fcs-error-after-opting-out-from-experimental",
+      "availability:/follow-player",
+      "availability:/global-game-settings",
+      "availability:/how-to-claim-town-ownership-cheat",
+      "availability:/how-to-find-a-specific-dialogue-line",
+      "availability:/how-to-kill-npcs-at-game-start",
+      "availability:/how-to-make-a-bed-that-is-fast-healing",
+      "availability:/how-to-make-a-color-map-for-your-armor",
+      "availability:/how-to-make-a-custom-appearance-for-a-npc-aka-how-to-make-a-bod2-file",
+      "availability:/how-to-make-a-custom-name-database-for-a-custom-race",
+      "availability:/how-to-make-a-custom-start-mod-with-characters-from-other-mods",
+      "availability:/how-to-make-a-face/hair-patch-for-modded-and-vanilla-races",
+      "availability:/how-to-make-a-three-person-conversation-including-player",
+      "availability:/how-to-make-a-two-person-chair-multiuser-animations",
+      "availability:/how-to-make-a-war-campaign-or-trader-visit-about-ai-campaigns",
+      "availability:/how-to-make-an-animations/recruitment-patch-mod-for-your-modded-race/character",
+      "availability:/how-to-make-buildings-snap-together-fe-ramps-to-walls"
+    ],
+    "reopened": [],
+    "remainingOpen": 839
+  },
+  {
+    "name": "modding-siblings-3",
+    "opened": [
+      "claim:modding-literal-markup"
+    ],
+    "resolved": [
+      "availability:/how-to-make-custom-armour-mesh",
+      "availability:/how-to-make-custom-collision-for-buildings-navmesh",
+      "availability:/how-to-make-custom-hair",
+      "availability:/how-to-make-custom-robotic-limbs",
+      "availability:/how-to-make-icons-for-kenshi",
+      "availability:/how-to-make-your-character-totally-invisible",
+      "availability:/how-to-move-mods-from-workshop-to-kenshi/mods",
+      "availability:/how-to-regenerate-blendmap-files",
+      "availability:/how-to-use-the-part-map-aka-how-to-make-the-skin-invisible-under-clothes",
+      "availability:/interior-walls-and-doors",
+      "availability:/leveldata",
+      "availability:/making-a-character-with-glowing-eyes-or-body",
+      "availability:/making-a-custom-melee-weapon",
+      "availability:/making-a-custom-world-map-terrain-characters-walk-on-and-pois",
+      "availability:/making-a-food-mod-nutrition-value",
+      "availability:/making-a-npc-shop-aka-how-to-set-up-vendors",
+      "availability:/making-a-town-that-expands-and-grows-according-to-world-states",
+      "availability:/making-teleports",
+      "availability:/map-biome-areas-region-correlation",
+      "availability:/mask-trigger-collision-script",
+      "availability:/modders-resource-logo-masks-for-main-factions",
+      "availability:/modding-enabling-to-craft-vanilla-armour"
+    ],
+    "reopened": [],
+    "remainingOpen": 818
+  },
+  {
+    "name": "modding-siblings-4",
+    "opened": [],
+    "resolved": [
+      "availability:/modifications",
+      "availability:/mods",
+      "availability:/particle-effects",
+      "availability:/re-kenshi-extra-extensions-modding-how-to-use-the-silent-world-states-and-variables",
+      "availability:/research-fcs",
+      "availability:/riding-npcs-how-to-spawn-a-npc-already-carrying-another-npc",
+      "availability:/script-library",
+      "availability:/scripting-aka-how-to-make-a-multi-threaded-conversation",
+      "availability:/skin-making-tutorial",
+      "availability:/sound-editing-and-adding-new-sounds",
+      "availability:/special-tools",
+      "availability:/translating-mods",
+      "availability:/universal-wasteland-expansion-mod",
+      "availability:/using-faction-reputation-as-variable",
+      "availability:/uwe-weapon/modifiers",
+      "availability:/uwe-weapons",
+      "availability:/uwe-weapons/damage",
+      "availability:/vanilla-animation-names",
+      "availability:/weapons-fcs",
+      "availability:/what-mod-my-race-comes-from",
+      "availability:/what-possibilities-we-have-to-make-quests",
+      "availability:/why-load-order-matters-and-other-faq-about-using-mods"
+    ],
+    "reopened": [],
+    "remainingOpen": 796
+  },
+  {
+    "name": "pr44-contribution",
+    "opened": [
+      "claim:pr44-hook-1",
+      "claim:pr44-hook-7",
+      "claim:pr44-hook-13",
+      "claim:pr44-hook-16",
+      "claim:pr44-hook-23",
+      "claim:pr44-hook-28",
+      "claim:pr44-hook-48",
+      "claim:pr44-hook-49",
+      "claim:pr44-hook-52",
+      "claim:pr44-hook-53",
+      "claim:pr44-hook-55",
+      "claim:pr44-hook-58",
+      "claim:pr44-hook-60",
+      "claim:pr44-hook-71"
+    ],
+    "resolved": [],
+    "reopened": [],
+    "remainingOpen": 810
+  }
+]

@@ -6,7 +6,7 @@ import {readFileSync,writeFileSync,mkdirSync,existsSync} from 'node:fs';
 import {join} from 'node:path';
 import {families,selectedIds} from '../conversion/batches.mjs';
 import {validateResolution} from './core.mjs';
-import {snapshot,origin} from '../../src/lib/catalog.mjs';
+import {snapshot,effectiveSnapshot,origin} from '../../src/lib/catalog.mjs';
 import {discover,regressions,extractPage,targetOf,digest} from './core.mjs';
 const htmlPath=path=>'dist/'+(path==='/'?'index':path.slice(1))+'.html';
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -17,8 +17,12 @@ export function reportGaps(atlas,articleReviews={}) {
   assert.equal(baseline.revision,snapshot.revision);assert.equal(curated.revision,snapshot.revision);
   assert.equal(baseline.pages.filter(p=>!p.id.startsWith('route:')).length,2184);
   const utilitySources=JSON.parse(readFileSync('conversion/utilities/sources.json')).pages;
- const sourcePages=new Map(baseline.pages.map(p=>[p.id,p]));
-  const sourceByPath=new Map(baseline.pages.map(p=>[p.path,p]));
+  const additionSource=JSON.parse(readFileSync('conversion/pr-44/gap-source.json'));
+  const additionFindings=JSON.parse(readFileSync('conversion/pr-44/gap-findings.json'));
+  curated.findings.push(...additionFindings.findings);
+  const allSourcePages=[...baseline.pages,...additionSource.pages];
+  const sourcePages=new Map(allSourcePages.map(p=>[p.id,p]));
+  const sourceByPath=new Map(allSourcePages.map(p=>[p.path,p]));
   const frozenRedirects=new Map(baseline.redirects.map(r=>[r.from,r.to]));
   for(const page of utilitySources){const record=sourcePages.get('route:'+page.path);if(record)sourcePages.set(record.id,{...record,sourceFile:page.sourceFile,sourceRevision:page.sourceRevision,sourceSha256:page.sha256});}
  const detected=discover(baseline,new Set(baseline.registeredRoutes),frozenRedirects);
@@ -32,7 +36,7 @@ export function reportGaps(atlas,articleReviews={}) {
     const id=atlas.articles.get(path)?.id??'route:'+path;
     local.set(path,{id,path,...extractPage(readFileSync(htmlPath(path),'utf8'),{path,fresh:true})});
   }
-  const currentSourcePages=baseline.pages.map(p=>({...p,path:atlas.byId.get(p.id)?.path??p.path}));
+  const currentSourcePages=allSourcePages.map(p=>({...p,path:atlas.byId.get(p.id)?.path??p.path}));
   const currentProblems=[];
   for(const page of local.values()){
     if(page.path===workRoute || page.path.startsWith(workRoute+'/'))continue;
@@ -56,7 +60,7 @@ export function reportGaps(atlas,articleReviews={}) {
   const formattedIds=new Set(Object.keys(families).flatMap(f=>[...selectedIds(f)]));
   const closureFile='conversion/gaps/resolutions.json';
   const resolutionHistory=existsSync(closureFile)?JSON.parse(readFileSync(closureFile)).records:[];
-  const coverage=snapshot.articles.map(a=>({
+  const coverage=effectiveSnapshot.articles.map(a=>({
     id:a.id,path:a.path,sourceFile:a.sourceFile,sourceRevision:a.sourceRevision,
     sourceSha256:sourcePages.get(a.id).sourceSha256,automatedSourceAudit:'complete',
     transferred:!!atlas.byId.get(a.id).filePath,
@@ -66,10 +70,10 @@ export function reportGaps(atlas,articleReviews={}) {
     originalMediaComparison:'unassessed'
   }));
   const count=key=>Object.fromEntries([...new Set(rows.map(r=>r[key]))].sort().map(value=>[value,rows.filter(r=>r[key]===value).length]));
-  const result={revision:snapshot.revision,scope:{sourceArticles:2184,sourcePages:baseline.pages.length,currentPages:local.size,
+  const result={revision:snapshot.revision,scope:{sourceArticles:2184,acceptedAdditionArticles:additionSource.pages.length,sourcePages:allSourcePages.length,currentPages:local.size,
       audit:'Internal routes, fragments, reference labels, empty sections and declared media. Original Fandom media coverage and external website availability require separate investigation.'},
     counts:{kind:count('kind'),classification:count('classification'),status:count('status')},
-    currentProblems,coverage,resolutionHistory,findings:rows,sourcePages:baseline.pages.map(({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256})=>({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256}))};
+    currentProblems,coverage,resolutionHistory,findings:rows,sourcePages:allSourcePages.map(({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256})=>({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256}))};
   const work=compactWorkIndex(projectWorkIndex({atlas,findings:rows,reviews:articleReviews,formattedIds,resolutionHistory,familyOf}));
   assert.deepEqual(JSON.parse(readFileSync('dist/pages-needing-work/index.json')),work,'Public work index differs from rendered gap evidence');
   mkdirSync('reports',{recursive:true});
@@ -79,7 +83,7 @@ export function reportGaps(atlas,articleReviews={}) {
   writeFileSync(join(folder,'coverage.json'),JSON.stringify(coverage,null,2)+'\n');
   const pending=rows.filter(r=>r.status!=='resolved');
   const lines=['# Restoration gaps','',baseline.revision,'',
-    'Automated source coverage: 2,184 articles. Editorial review: '+coverage.filter(r=>r.editorialReview).length+'/2,184. Original media comparison remains unassessed.',
+    'Automated source coverage: 2,184 frozen articles plus one separately accepted contribution. Editorial review: '+coverage.filter(r=>r.editorialReview).length+'/2,185. Original media comparison remains unassessed.',
     'Resolved route/media checks do not verify article claims or establish a complete import.','',
     '## Counts','',...Object.entries(result.counts.kind).map(([k,v])=>'- '+k+': '+v),
     '',pending.length+' open findings including planned conversions. '+currentProblems.length+' inherited broken-link occurrences on current pages; no introduced failures.',
@@ -95,7 +99,7 @@ export function reportGaps(atlas,articleReviews={}) {
     return '<a href="'+escape(link)+'">'+escape(o.pageId)+'</a> Â· '+escape(o.href??o.url??o.label??o.section)+' Â· '+escape(o.section??'')+' Â· element '+escape(o.element??'â€”');
   };
   const table=rows.map(r=>'<article data-status="'+escape(r.status)+'" data-kind="'+escape(r.kind)+'" data-priority="'+escape(r.priority)+'" data-search="'+escape(r.affectedPages.join(' ')+' '+r.occurrences.map(o=>o.href??o.url??o.label??'').join(' '))+'" data-families="'+escape(JSON.stringify(r.families))+'"><h2>'+escape(r.target)+'</h2><p class="meta">'+escape([r.priority,r.classification,r.origin,r.verification,r.status].join(' Â· '))+'</p><p><strong>Families:</strong> '+escape(r.families.join(', '))+'</p><p>'+escape(r.finding)+'</p><p>'+escape(r.proposedResolution)+'</p><p><strong>Uncertainty:</strong> '+escape(r.uncertainty)+'</p><p><strong>After cutover:</strong> '+escape(r.postCutover)+'</p><details><summary>'+r.affectedPages.length+' affected pages Â· '+r.occurrences.length+' occurrences</summary><ul>'+r.occurrences.slice(0,8).map(o=>'<li>'+sourceLink(o)+'</li>').join('')+'</ul>'+(r.occurrences.length>8?'<p>All occurrences are retained in <a href="register.json">register.json</a> under '+escape(r.id)+'.</p>':'')+r.evidence.map(e=>'<p>'+escape(typeof e==='string'?e:JSON.stringify(e))+'</p>').join('')+'</details></article>').join('\n');
-  writeFileSync(join(folder,'index.html'),'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Restoration gap register</title><style>body{font:16px/1.5 system-ui;margin:0;background:#f3f0e8;color:#25231e}main{max-width:1100px;margin:auto;padding:24px}h1{margin-bottom:8px}h2{font-size:18px;overflow-wrap:anywhere}a{color:#17558c}article{background:#fffdf7;border:1px solid #c7beae;padding:14px;margin:12px 0;overflow-wrap:anywhere}article p{margin:6px 0}.meta{color:#635a49;font-size:14px}.filters{position:sticky;top:0;background:#f3f0e8;padding:12px 0;display:flex;flex-wrap:wrap;gap:10px;border-bottom:1px solid #b8a581}label{display:grid;gap:4px;min-width:0;max-width:100%}input,select{font:inherit;padding:6px;max-width:100%;min-width:0;box-sizing:border-box}input{width:340px;max-width:calc(100vw - 48px);box-sizing:border-box}summary{cursor:pointer}a:focus-visible,summary:focus-visible{outline:3px solid #926320}article[hidden]{display:none}@media(prefers-color-scheme:dark){body,.filters{background:#1c1b18;color:#eae5d8}article{background:#25231e;border-color:#625a48}a{color:#a9ceff}.meta{color:#c7beae}}</style><main><h1>Restoration gap register</h1><p>All 2,184 pinned articles scanned; '+local.size+' current preview pages compared. Editorial review and original-media coverage are tracked separately.</p><p><a href="summary.md">Summary</a> Â· <a href="register.json">Full findings and every source occurrence</a> Â· <a href="coverage.json">Article review coverage</a> Â· <a href="../routes.json">Route ledger</a></p><p>Default view shows open findings. Resolved route and media entries remain available. An available page is not a claim that its information is verified or complete.</p><div class="filters"><label>Search target, source, claim or family<input id="query" type="search"></label><label>Status<select id="status"><option>open</option><option>all</option><option>resolved</option></select></label><label>Kind<select id="kind"><option>all</option>'+options(Object.keys(result.counts.kind))+'</select></label><label>Family<select id="family"><option>all</option>'+options([...new Set(rows.flatMap(r=>r.families))].sort())+'</select></label><label>Priority<select id="priority"><option>all</option><option>P1</option><option>P2</option><option>P3</option></select></label></div><p id="count"></p>'+table+'<script>const rows=[...document.querySelectorAll("article")],inputs=["query","status","kind","priority","family"].map(id=>document.getElementById(id));for(const row of rows)row._search=(row.textContent+" "+row.dataset.families+" "+row.dataset.search).toLowerCase();function filter(){const [q,s,k,p,f]=inputs.map(el=>el.value);let n=0;for(const r of rows){r.hidden=!!((s!=="all"&&r.dataset.status!==s)||(k!=="all"&&r.dataset.kind!==k)||(p!=="all"&&r.dataset.priority!==p)||(f!=="all"&&!JSON.parse(r.dataset.families).includes(f))||(q&&!r._search.includes(q.toLowerCase())));if(!r.hidden)n++;}document.getElementById("count").textContent=n+" findings shown";}inputs.forEach(el=>el.addEventListener("input",filter));filter();</script></main></html>');
+  writeFileSync(join(folder,'index.html'),'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Restoration gap register</title><style>body{font:16px/1.5 system-ui;margin:0;background:#f3f0e8;color:#25231e}main{max-width:1100px;margin:auto;padding:24px}h1{margin-bottom:8px}h2{font-size:18px;overflow-wrap:anywhere}a{color:#17558c}article{background:#fffdf7;border:1px solid #c7beae;padding:14px;margin:12px 0;overflow-wrap:anywhere}article p{margin:6px 0}.meta{color:#635a49;font-size:14px}.filters{position:sticky;top:0;background:#f3f0e8;padding:12px 0;display:flex;flex-wrap:wrap;gap:10px;border-bottom:1px solid #b8a581}label{display:grid;gap:4px;min-width:0;max-width:100%}input,select{font:inherit;padding:6px;max-width:100%;min-width:0;box-sizing:border-box}input{width:340px;max-width:calc(100vw - 48px);box-sizing:border-box}summary{cursor:pointer}a:focus-visible,summary:focus-visible{outline:3px solid #926320}article[hidden]{display:none}@media(prefers-color-scheme:dark){body,.filters{background:#1c1b18;color:#eae5d8}article{background:#25231e;border-color:#625a48}a{color:#a9ceff}.meta{color:#c7beae}}</style><main><h1>Restoration gap register</h1><p>All 2,184 pinned articles plus one separately accepted contribution scanned; '+local.size+' current preview pages compared. Editorial review and original-media coverage are tracked separately.</p><p><a href="summary.md">Summary</a> Â· <a href="register.json">Full findings and every source occurrence</a> Â· <a href="coverage.json">Article review coverage</a> Â· <a href="../routes.json">Route ledger</a></p><p>Default view shows open findings. Resolved route and media entries remain available. An available page is not a claim that its information is verified or complete.</p><div class="filters"><label>Search target, source, claim or family<input id="query" type="search"></label><label>Status<select id="status"><option>open</option><option>all</option><option>resolved</option></select></label><label>Kind<select id="kind"><option>all</option>'+options(Object.keys(result.counts.kind))+'</select></label><label>Family<select id="family"><option>all</option>'+options([...new Set(rows.flatMap(r=>r.families))].sort())+'</select></label><label>Priority<select id="priority"><option>all</option><option>P1</option><option>P2</option><option>P3</option></select></label></div><p id="count"></p>'+table+'<script>const rows=[...document.querySelectorAll("article")],inputs=["query","status","kind","priority","family"].map(id=>document.getElementById(id));for(const row of rows)row._search=(row.textContent+" "+row.dataset.families+" "+row.dataset.search).toLowerCase();function filter(){const [q,s,k,p,f]=inputs.map(el=>el.value);let n=0;for(const r of rows){r.hidden=!!((s!=="all"&&r.dataset.status!==s)||(k!=="all"&&r.dataset.kind!==k)||(p!=="all"&&r.dataset.priority!==p)||(f!=="all"&&!JSON.parse(r.dataset.families).includes(f))||(q&&!r._search.includes(q.toLowerCase())));if(!r.hidden)n++;}document.getElementById("count").textContent=n+" findings shown";}inputs.forEach(el=>el.addEventListener("input",filter));filter();</script></main></html>');
   return {sourceArticles:2184,currentPages:local.size,findings:rows.length,counts:result.counts,
     introduced:0,inheritedOccurrences:currentProblems.length,editoriallyReviewed:coverage.filter(r=>r.editorialReview).length,report:'gaps/index.html'};
 }

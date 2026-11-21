@@ -1,0 +1,326 @@
+{
+  "provenance": {
+    "pr": 44,
+    "url": "https://github.com/mattresspad/kenshi-wiki/pull/44",
+    "commits": [
+      "cabc97de5fdfa6dc135c48eee304460e70ccc598",
+      "7306cfe75c41260de3186d1c1fffeaf68e61bb89"
+    ],
+    "adaptation": "FreshWiki version-qualified adaptation; source inspection, not an in-game test.",
+    "matrix": "/notices/code-mod-hooks-evidence.json"
+  },
+  "pages": [
+    {
+      "id": "modding/meitou/code-mod-hooks",
+      "path": "/modding/meitou/code-mod-hooks",
+      "sourceFile": "src/content/wiki/modding/meitou/code-mod-hooks.md",
+      "sourceRevision": "7306cfe75c41260de3186d1c1fffeaf68e61bb89",
+      "sourceSha256": "3e84bdf076f481328025f7f6222333a9969976de977e4fadf9e6ece0ebf6db4d",
+      "renderedSha256": "53902db896ad09c0070a23e10a0a93b912d332d8ca7e5ec3026cf6dc3602e9b8",
+      "ids": [
+        "rules-to-know-first",
+        "running-your-own-logic",
+        "combat",
+        "characters-and-bodies",
+        "items-and-trade",
+        "dialogue-crime-and-factions",
+        "the-players-squads",
+        "npcs-and-the-world",
+        "interface-and-sound",
+        "working-with-other-mods"
+      ],
+      "links": [
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods",
+          "label": "code-mod guide",
+          "section": "firstHeading",
+          "element": 4,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "modding reference",
+          "section": "firstHeading",
+          "element": 5,
+          "line": null
+        },
+        {
+          "href": "/modding/meitou#make-a-code-mod",
+          "label": "Meitou community mods",
+          "section": "firstHeading",
+          "element": 6,
+          "line": 10
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#reference-package",
+          "label": "How to use it",
+          "section": "firstHeading",
+          "element": 9,
+          "line": 150
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#data-phase",
+          "label": "IModDataPhase",
+          "section": "running-your-own-logic",
+          "element": 39,
+          "line": 151
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#simulation-systems",
+          "label": "AddSystem",
+          "section": "running-your-own-logic",
+          "element": 46,
+          "line": 153
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#simulation-systems",
+          "label": "IStateHashed",
+          "section": "running-your-own-logic",
+          "element": 51,
+          "line": 153
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#save-data",
+          "label": "IModSaveData",
+          "section": "running-your-own-logic",
+          "element": 61,
+          "line": 154
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#commands",
+          "label": "Commands",
+          "section": "running-your-own-logic",
+          "element": 66,
+          "line": 155
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#settings",
+          "label": "AddSettings",
+          "section": "running-your-own-logic",
+          "element": 71,
+          "line": 156
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#debug-menu-rows",
+          "label": "AddDebugCommand",
+          "section": "running-your-own-logic",
+          "element": 78,
+          "line": 157
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#combat-hits",
+          "label": "ICombatHitObserver",
+          "section": "combat",
+          "element": 90,
+          "line": 158
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#combat-hits",
+          "label": "AddCombatHitFeed",
+          "section": "combat",
+          "element": 99,
+          "line": 158
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "Weapon skills",
+          "section": "combat",
+          "element": 108,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "Weapon classes",
+          "section": "combat",
+          "element": 115,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "Ammunition",
+          "section": "combat",
+          "element": 121,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "IExperienceFilter",
+          "section": "characters-and-bodies",
+          "element": 138,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "ICharacterDeathObserver",
+          "section": "characters-and-bodies",
+          "element": 144,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "AddStatusEffect",
+          "section": "characters-and-bodies",
+          "element": 150,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "CarryModifiers",
+          "section": "characters-and-bodies",
+          "element": 156,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "Lasting ids",
+          "section": "characters-and-bodies",
+          "element": 170,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "Task bars",
+          "section": "characters-and-bodies",
+          "element": 175,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/game/character-stats.md#bodies-of-other-shapes-meitou",
+          "label": "Body shapes",
+          "section": "characters-and-bodies",
+          "element": 191,
+          "line": 167
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#equipment-slots",
+          "label": "AddEquipmentSlot",
+          "section": "items-and-trade",
+          "element": 203,
+          "line": 168
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#dialogue-conditions-and-effects",
+          "label": "AddDialogueCondition, AddDialogueEffect",
+          "section": "dialogue-crime-and-factions",
+          "element": 237,
+          "line": 169
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "AddWorldState",
+          "section": "dialogue-crime-and-factions",
+          "element": 243,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "ICrimeObserver",
+          "section": "dialogue-crime-and-factions",
+          "element": 249,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#your-own-record-types",
+          "label": "AddRecordType",
+          "section": "dialogue-crime-and-factions",
+          "element": 259,
+          "line": 172
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/simulation.md#shopkeepers-of-the-players-faction-meitou-only",
+          "label": "SetSquadShop",
+          "section": "the-players-squads",
+          "element": 279,
+          "line": 173
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/simulation.md#mod-goals",
+          "label": "NPC goals",
+          "section": "npcs-and-the-world",
+          "element": 336,
+          "line": 174
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "Duties",
+          "section": "npcs-and-the-world",
+          "element": 343,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/simulation.md#task-starts",
+          "label": "ITaskOwner",
+          "section": "npcs-and-the-world",
+          "element": 348,
+          "line": 176
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/game/ai-tasks.md#perma-jobs",
+          "label": "IGoalSource",
+          "section": "npcs-and-the-world",
+          "element": 353,
+          "line": 177
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#interface",
+          "label": "AddUi",
+          "section": "interface-and-sound",
+          "element": 392,
+          "line": 178
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "AddBuildingActions",
+          "section": "interface-and-sound",
+          "element": 409,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "AddKeyAction",
+          "section": "interface-and-sound",
+          "element": 415,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#registration-surface",
+          "label": "PostSound",
+          "section": "interface-and-sound",
+          "element": 421,
+          "line": null
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#depending-on-another-mod",
+          "label": "Dependencies",
+          "section": "working-with-other-mods",
+          "element": 440,
+          "line": 182
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/wiki/Writing-code-mods#harmony",
+          "label": "Harmony",
+          "section": "working-with-other-mods",
+          "element": 447,
+          "line": 183
+        },
+        {
+          "href": "https://github.com/VlcekM/MeitouClient/blob/master/docs/modding.md#fixed-record-ids",
+          "label": "records the engine looks up by id or name",
+          "section": "working-with-other-mods",
+          "element": 450,
+          "line": 152
+        },
+        {
+          "href": "/modding/meitou/porting-re-kenshi-mods",
+          "label": "Does my RE_Kenshi mod need a port?",
+          "section": "working-with-other-mods",
+          "element": 455,
+          "line": 146
+        }
+      ],
+      "media": [],
+      "labels": [],
+      "emptySections": []
+    }
+  ]
+}

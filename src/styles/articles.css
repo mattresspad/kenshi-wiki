@@ -364,3 +364,9 @@
 /* Legacy item descriptions read as prose; their empty illustration cells remain recorded. */
 .item .table-scroll .item-description-table { min-width:0; width:100%; max-width:48rem }
 .item-description-table :is(td,th) { white-space:normal; overflow-wrap:anywhere }
+/* Versioned hook tables need room for names as well as contract qualifications. */
+[data-article-id="modding/meitou/code-mod-hooks"] .table-scroll table { width:100%; min-width:56rem; max-width:none; table-layout:fixed }
+[data-article-id="modding/meitou/code-mod-hooks"] .table-scroll :is(th,td):first-child { width:24% }
+[data-article-id="modding/meitou/code-mod-hooks"] .table-scroll :is(th,td):nth-child(2),
+[data-article-id="modding/meitou/code-mod-hooks"] .table-scroll :is(th,td):nth-child(3) { width:38% }
+@media print { [data-article-id="modding/meitou/code-mod-hooks"] .table-scroll table { min-width:0; font-size:9pt } }

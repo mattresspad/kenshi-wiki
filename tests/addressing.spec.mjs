@@ -1,7 +1,7 @@
 import {editBranch} from './edit-target.mjs';
 import {utilityStage} from '../src/lib/utility-routes.mjs';
 import {test, expect} from '@playwright/test';
-import {snapshot, origin} from '../src/lib/catalog.mjs';
+import {effectiveSnapshot as snapshot, origin} from '../src/lib/catalog.mjs';
 import {articleFiles} from '../scripts/article-files.mjs';
 import {editableSource,recordedSource} from '../src/lib/page-source.mjs';
 
@@ -44,7 +44,7 @@ for (const phone of [false,true]) test('actual Markdown or portal editing destin
     await page.keyboard.press('Escape');
     await expect(summary).toBeFocused();
     }
-    const source = article ? recordedSource(article.sourceFile,article.sourceRevision,snapshot.revision)
+    const source = article ? recordedSource(article.sourceFile,article.sourceRevision,article.historyRevision??snapshot.revision)
       : recordedSource('src/data/portals/modding.yaml',snapshot.revision);
     await expect(page.getByRole('link',{name:article?'Recorded Markdown':'Recorded portal data'})).toHaveAttribute('href',source.markdown);
     for (const href of await page.locator('a').filter({hasText:/^View history$/}).evaluateAll(links=>links.map(a=>a.href))) expect(href).toBe(source.history);
