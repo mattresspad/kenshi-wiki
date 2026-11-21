@@ -1,4 +1,11 @@
 {
-  "changes": [],
-  "editorial": "Historical-context notices are separate from the preserved source body; no unsupported factual corrections."
+  "changes": [
+    {
+      "id": "kenshi-2",
+      "kind": "historical/source-snapshot context",
+      "notice": "Source snapshot: this imported development overview retains the plans, expectations and qualifications recorded in its cited revision. It has not been refreshed as a current Kenshi 2 status report.",
+      "sourceBodyChanged": false
+    }
+  ],
+  "editorial": "Context notices do not alter imported claims, categories or source bodies."
 }

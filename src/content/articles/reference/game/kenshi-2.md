@@ -6,6 +6,7 @@ categories:
   - Kenshi Wiki
   - Kenshi 2
 layout: lore
+contextNotice: "Source snapshot: this imported development overview retains the plans, expectations and qualifications recorded in its cited revision. It has not been refreshed as a current Kenshi 2 status report."
 ---
 
 **Kenshi 2** is an upcoming prequel to [Kenshi](/kenshi) still under development by Lo-Fi Games. Set around 1,000 years prior to the original game<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>, the setting will still be in a post-apocalyptic state during this time period<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup>, and may have only slightly more advanced technology<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup>.
