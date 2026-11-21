@@ -82,5 +82,12 @@
       "attempt": 4,
       "disposition": "Full browser run found one baseline-only search expectation (2189). Changed it to the exact effective registry and contribution history revision; production output already had the correct 2190 entries."
     }
-  ]
+  ],
+  "baselineContinuation": {
+    "family": "Manufacturers and historical remainder",
+    "base": "72c9f4f026508ec42866fdc8ed493675874d4d0b",
+    "previousTip": "bd1aef8dfb8e8363dd2189793ef3428c3bf9e29a",
+    "validation": "conversion/pr-44/compatibility-manufacturers.json",
+    "originalContributionEvidenceUnchanged": true
+  }
 }

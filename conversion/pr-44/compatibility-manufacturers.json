@@ -1,0 +1,36 @@
+{
+  "scope": "Local baseline plus separately credited PR44 child branch",
+  "articles": 2169,
+  "pages": 2209,
+  "baselinePending": 16,
+  "checks": [
+    "build",
+    "catalog",
+    "playwright",
+    "cloudflare"
+  ],
+  "logs": "reports/manufacturers/combined-with-pr44",
+  "source": "source inspection is not gameplay testing",
+  "baselineCommit": "72c9f4f026508ec42866fdc8ed493675874d4d0b",
+  "previousContributionTip": "bd1aef8dfb8e8363dd2189793ef3428c3bf9e29a",
+  "rebasedContributionTip": "0838a57782d847cc63fe790c1b38d20e4ef46853",
+  "catalog": {
+    "passed": 54,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 208,
+    "failed": 0,
+    "intentionalSkips": 2
+  },
+  "preservedContribution": [
+    "original.md",
+    "version-evidence.json",
+    "src/content/articles/modding/meitou/code-mod-hooks.md"
+  ],
+  "preview": {
+    "origin": "http://127.0.0.1:4392",
+    "report": "http://127.0.0.1:4393/manufacturers/",
+    "searchTitles": 2190
+  }
+}

@@ -19,3 +19,5 @@ The incoming directory paragraph is identified by `data-contribution="pr-44"`. I
 The ninth checkpoint is `../pr44/acceptances.json`; its build, catalog, full browser and Cloudflare package logs are in the local reports directory. The warm-cache regression includes the composed registry.
 
 At the separately approved public restoration milestone, submit the credited child-branch diff to `rebuild/restoration` and cross-reference the original PR. Only reconcile/close #44 once that replacement contribution is merged and its disposition is recorded before the branch swap. `PR-DRAFT.md` supplies local draft wording; it has not been posted.
+
+The child branch is carried forward over the Manufacturers baseline at 72c9f4f026508ec42866fdc8ed493675874d4d0b. `compatibility-manufacturers.json` records the combined 2,169-article / 2,209-page acceptance, including 54 catalog tests and 208 browser tests. The original ninth checkpoint remains historical evidence; its counts are not rewritten. Original contribution text, version matrix and accepted article are unchanged.
