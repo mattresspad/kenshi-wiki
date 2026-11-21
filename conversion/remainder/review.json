@@ -110,6 +110,81 @@
         "claim:remainder-media"
       ],
       "assessment": "Card subjects and badge/reward prose inspected. Missing card artwork and reward terminology remain sourcing tasks; retain original qualifications."
+    },
+    {
+      "id": "barges",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/world-elements/ editable home checked.",
+      "content": "World-object description, three model suffixes and location links inspected. Preserve the inferred history without treating it as demonstrated geology or lore.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/barges.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2acb46a905a91a14579eba22ece10e4174f58a614bd0ccd0e82d1c1b73dbdcdb"
+      },
+      "questions": [
+        "claim:remainder-world"
+      ],
+      "assessment": "World-object description, three model suffixes and location links inspected. Preserve the inferred history without treating it as demonstrated geology or lore."
+    },
+    {
+      "id": "birds",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/world-elements/ editable home checked.",
+      "content": "Short world-effect description and five locations inspected. The assertion that birds do nothing remains a verification question.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/birds.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a7664fa52f341433af0d2971c2a129f5aac54ab3bc870108ae128c77cee74bdd"
+      },
+      "questions": [
+        "claim:remainder-world"
+      ],
+      "assessment": "Short world-effect description and five locations inspected. The assertion that birds do nothing remains a verification question."
+    },
+    {
+      "id": "urchin",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/world-elements/ editable home checked.",
+      "content": "Object name LandUrchin01, southern-location links and speculative origin inspected. Preserve the explicit uncertainty about fauna, flora and past water levels.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/urchin.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "91e74dbe1be49bd550b689327316a4b14d900d5342685c93a4905523b33260a2"
+      },
+      "questions": [
+        "claim:remainder-world"
+      ],
+      "assessment": "Object name LandUrchin01, southern-location links and speculative origin inspected. Preserve the explicit uncertainty about fauna, flora and past water levels."
+    },
+    {
+      "id": "ska",
+      "existence": "Permanent ID, address, pinned checksum, categories and one locations/unused/ editable home checked.",
+      "content": "Unused FCS town description, faction, town type and one Citizen resident inspected. Do not imply this record is an obtainable or visible settlement.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ska.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "dba3d96855f1b6250922b0194944c47c01e41121632922c354ee1ad153068361"
+      },
+      "questions": [
+        "claim:remainder-world"
+      ],
+      "assessment": "Unused FCS town description, faction, town type and one Citizen resident inspected. Do not imply this record is an obtainable or visible settlement."
+    },
+    {
+      "id": "emperor-anzai",
+      "existence": "Permanent ID, address, pinned checksum, categories and one characters/historical/ editable home checked.",
+      "content": "Historical ruler relationships and Puppet source link inspected. Preserve the belief qualification around Longen and the nobles; narrative inference remains open.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/emperor-anzai.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e0a3f004b1bd44bac1dfb6d79077d5447020c887ea0e6886b1e62eae5dc961d1"
+      },
+      "questions": [
+        "claim:remainder-world"
+      ],
+      "assessment": "Historical ruler relationships and Puppet source link inspected. Preserve the belief qualification around Longen and the nobles; narrative inference remains open."
     }
   ],
   "editorialChanges": []

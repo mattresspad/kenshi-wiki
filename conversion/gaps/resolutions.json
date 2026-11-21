@@ -1421,6 +1421,17 @@
       }
     },
     {
+      "id": "availability:/barges",
+      "kind": "availability",
+      "target": "/barges",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#world-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/barges"
+      }
+    },
+    {
       "id": "availability:/bark",
       "kind": "availability",
       "target": "/bark",
@@ -1924,6 +1935,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/biofuel-tech"
+      }
+    },
+    {
+      "id": "availability:/birds",
+      "kind": "availability",
+      "target": "/birds",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#world-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/birds"
       }
     },
     {
@@ -6214,6 +6236,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/ells"
+      }
+    },
+    {
+      "id": "availability:/emperor-anzai",
+      "kind": "availability",
+      "target": "/emperor-anzai",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#world-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/emperor-anzai"
       }
     },
     {
@@ -18493,6 +18526,17 @@
       }
     },
     {
+      "id": "availability:/ska",
+      "kind": "availability",
+      "target": "/ska",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#world-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ska"
+      }
+    },
+    {
       "id": "availability:/skeleton",
       "kind": "availability",
       "target": "/skeleton",
@@ -23143,6 +23187,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/upgraded-watchbot"
+      }
+    },
+    {
+      "id": "availability:/urchin",
+      "kind": "availability",
+      "target": "/urchin",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#world-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/urchin"
       }
     },
     {

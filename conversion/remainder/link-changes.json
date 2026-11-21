@@ -20,5 +20,15 @@
       "/steam-trading-cards"
     ],
     "introduced": []
+  },
+  {
+    "name": "world-and-history",
+    "resolved": [
+      "/emperor-anzai",
+      "/urchin"
+    ],
+    "introduced": [
+      "/category/world-elements"
+    ]
   }
 ]
