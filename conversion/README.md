@@ -64,3 +64,7 @@ Crafting/Construction and Technology retain separate rosters and editorial homes
 ## Shops, Residents and Traders local handoff
 
 [Shops](shops/README.md) completes the frozen 152-ID union: 125 additions and 27 reused files, with 126 new content/organization reviews including Scraphouse. The preview contains 1,838 articles and 1,864 HTML pages. Town Residents, Traders and Vendors retain exactly 105, 43 and 92 members. All ten acceptances preserve source content, gaps, attribution and separate transfer/review states. The handoff records 346 untransferred articles and 467 earlier local articles still awaiting editorial review; this is not a claim of corpus completeness.
+
+## Baseline article corpus complete
+
+The [final family](remainder/README.md) completes all 2,184 frozen articles. Transfer and preservation acceptance are complete; substantive editorial coverage and open findings remain separate in the [generated contributor queue](work/README.md). The remaining 162 category indexes and utility functionality are a following batch. PR #44 remains a separate local contribution branch, with combined compatibility evidence before review. No publication or cutover approval is implied.

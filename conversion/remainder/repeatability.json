@@ -1,0 +1,25 @@
+{
+  "normalization": "two identical passes",
+  "curatedRegisterAndResolutionHistory": "retained",
+  "sha256": {
+    "src/content/articles/characters/bar-thug.md": "5058125827aa269314afaf845a672facbd9d20f4c377a78d057fe97db53e69f6",
+    "src/content/articles/locations/world-elements/barges.md": "0c5dff8d493ee02c888e34a2566e3a9cde95009ed4f9690001f59610fbcdf23f",
+    "src/content/articles/locations/world-elements/birds.md": "04a949d38c5ce463de4a20b2b468e23b43315f609ea98b17f08e577c68d7332a",
+    "src/content/articles/reference/game/changelog.md": "1ed213354ffec0e7d7216d1141d7b6316a8af6036b582ffd55b77748dca0c662",
+    "src/content/articles/reference/game/credits.md": "592d450d7c9649952dbdcd8a69a204eaabdadbf4cb30147a7a74540e12948427",
+    "src/content/articles/reference/multiplayer/dedicated-server-providers/rules.md": "8d94d2c1257cadf2a0cb452e5aeabf5445f85634c61e7042012e4296622cfc16",
+    "src/content/articles/characters/historical/emperor-anzai.md": "079b07b8b9aef7ccd3fdc65bc2f33d357df258db62f433da80377b0cb4a948a4",
+    "src/content/articles/reference/game/kenshi-2.md": "0d3f2355951e4c44ffe0eac5234ecbfc3d252f3882e68e994fc239c010a61028",
+    "src/content/articles/reference/multiplayer/kenshi-dedicated-server-providers.md": "e65360087bf5debeac9421b0b1ff81ded09d36462b7649572f4025e873a5d8d4",
+    "src/content/articles/reference/game/kenshi-original-soundtrack.md": "268c3a70126f7101d6e20e55e4d7d6e1056a59af3674f023d34a0db289388f58",
+    "src/content/articles/reference/wiki/kenshi-wiki.md": "fa8d1f2c89df19de574dd258e647e1bd84efb4c9672cde88af6e5b4fbbb172f0",
+    "src/content/articles/reference/wiki/kenshi/lua.md": "a1f691ffea65765ff6b68f55311ba29229ec1500df2355b5e2b66c6f1dec7909",
+    "src/content/articles/locations/unused/ska.md": "e1c7540396b1b081d0873761a0b245219698da8cdc2e411f44da61180ebe41db",
+    "src/content/articles/characters/recruits/skeleton-survivor.md": "939f5c8a6a14b8cfc5d0f38d9c0dbcc72299075242134ea8de5fe293c6513660",
+    "src/content/articles/reference/game/steam-trading-cards.md": "85059f82773539ce56ee92b9cf51fe0e447bb69607422164f987bfbdc42290ec",
+    "src/content/articles/locations/world-elements/urchin.md": "0b6b27130be2d6b1c47fed6be7e85353662fdef47e5b996104f855fd092b2ab1",
+    "conversion/remainder/normalization.json": "fae054e42b7db9aba5b4953bab8917e348e08ac31c710f7256b4eacfe7647f91",
+    "conversion/gaps/register.json": "171ac0fd4e6f01aab083e8785e9d360a1852124027b8f772b63bca6020b2c447",
+    "conversion/gaps/resolutions.json": "062613588a8539a82225f25205f5e2314e0b43f1cb1400833d78130d98ebc13e"
+  }
+}
