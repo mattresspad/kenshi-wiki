@@ -1,5 +1,64 @@
 {
   "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-  "articles": [],
+  "articles": [
+    {
+      "id": "catun-scrapmaster-manufacturer",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/manufacturers/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Catun Scrapmasters are probably the only major smithing group producing weapons in the modern age. Their blades are good quality and used all over the continent.In-game description Catun Scrapmaster is a weapon manufacturer company based in the city Catun. They are a mid-grade manufacturer of weapons. Their quality is above average, as is their price and weight. The weapons manufactured by them deal 20% increased blunt damage. The downsides are that they are heavier, potentially taking considerable strength to master them and weapons that deal mostly cutting damage do not benefit as much or at all in some cases. These weapons are often found on United Cities officers, Hundred Guardians warriors and other stronger enemies in the world. The Holy Nation is the only one of the three major factions that doesn’t employ them in any scale, with Seta being a notable exception to this. It is also sold in many United Cities weapon shops. Or as Artifacts in ruins/towns. Modifiers Price: 1.2x Blunt Damage: 1.2x Cut Damage: 1x Min Cut Damage: 1x Weight: 1.2x Models Catun No.1 Catun No.2 Catun No.3",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/catun-scrapmaster-manufacturer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "176cd78b4c2ac9ec15ba6154ac4c601f2ac698ae9e98c824583fb38d0a77677b"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-relations",
+        "claim:manufacturers-quality",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Retain in-world quotation credit, 1.2x price/blunt/weight modifiers, cutting qualifications and three model names. Catun is a settlement link; this manufacturer is a distinct article."
+    },
+    {
+      "id": "edgewalkers",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/manufacturers/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Edgewalkers were a group of smiths from the old fallen empire hundreds of years ago. Little is known about them except that their weapons have survived these hundreds of years in near-perfect condition and their quality is unrivalled by anything crafted in the modern age.In-game description The Edgewalkers were an ancient weapon manufacturer. Overview They were one of the highest-grade manufacturers of weapons and despite being ancient, their weapons are stronger and more expensive than nearly any other manufacturer. These weapons are possessed by some of the strongest (or richest) characters in the game, and can be found as Artifacts (Only Edge Type 1) in ruins. To find Edge Type 2+ you must purchase/steal them from the Scraphouse. Mods Price: 1.4x Blunt Damage: 1x Cut Damage: 1.1x Min Cut Damage: 1x Weight: 1x Models [Model # Edge Type 1] [Model # Edge Type 2] [Model # Edge Type 3] Trivia The player can start with an Edgewalkers Nodachi when The Holy Sword game start is chosen. As of Version 0.99, the Edgewalker-grade is a researchable technology. Player-made Edgewalker weapons are not as strong as their equivalent models found as loot, and only the first two Edge Types are possible to make. Edgewalker is the name of a character in Malazan Book of the Fallen, a series Chris Hunt has said was one of the many inspirations for the world of Kenshi.",
+      "organization": "Reviewed 4 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/edgewalkers.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bb9b11d23f7455cce25690ae6f849263373231edc1dcf5182aa18fd421c4ccd8"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-crafting-limits",
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-quality",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Retain Version 0.99 research qualification, Type 1 artifact claim, Type 2+ shop claim and crafted-versus-found distinction. Do not interpret the historical research statement as a current test."
+    },
+    {
+      "id": "ancient-manufacturer",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/manufacturers/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This weapon dates back to the old empire. It's not great, but it says something that it has lasted this long. It's been re-fitted and sharpened in recent times, and still holds a good edge.In-game description Ancient weapons are older weapons from the Old Empire, salvaged and refitted for combat. This manufacturer is the second-lowest tier in the game. Ancient weapons tend to be less expensive and lighter than normal, but also slightly worse when it comes to cutting damage. The vast majority of factions and characters use these as their weapons and is generally the standard weapon quality for most of the militaries across the world. Their reduced weight makes them suitable as training weapons for weaker characters. Mods Price: 0.8x Blunt Damage: 1x Cut Damage: 0.9x Min Cut Damage: 1x Weight: 0.7x Models Mid-Grade Salvage Old Refitted Blade Refitted Blade Trivia Given how often military armies demand Ancient-grade weapons and how common smitheries are everywhere, it is likely that many of the ancient-version weapons are not scavenged/salvaged and refitted from ancient locations but simply crafted as an imitation of the prototype. Due to how the game decides to round (visually) Ancient quality weapons like ninja blade will show at 0kg in game although they weigh 0.7kg.",
+      "organization": "Reviewed 3 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ancient-manufacturer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "35087472458f9edc875831918355ed9004d58fa94a304ada432720dff8676732"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-relations",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-quality",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Preserve 0.8x price, 0.9x cutting and 0.7x weight, three models and the qualified imitation theory. Visible 0kg versus actual 0.7kg remains an imported rounding claim."
+    }
+  ],
   "editorialChanges": []
 }

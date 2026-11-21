@@ -26,9 +26,9 @@ const source=openSource('D:/THE-ONLY-KENSHI-WIKI-CHECKOUT-FOLDER-LOCATION/homepa
 const homes={},layouts={},files={},articles={},facts={},assets={},copied=[],reused=[],media=[],audit=[];
 for(const a of chosen){
  const {front,body}=source.document(a.id);
- const kind=a.categories.includes('Manufacturers')?'manufacturer':a.categories.includes('Retired Items')?'item':['imperial-lords','samurai-lord'].includes(a.id)?'character':a.id==='ore-mine'?'building':a.id==='ore-mining'?'skill':'faction';
- homes[a.id]={manufacturer:'items/manufacturers',item:'items/retired',character:'characters/historical',building:'buildings/historical',skill:'gameplay/skills/historical',faction:'factions/historical'}[kind];
- layouts[a.id]={manufacturer:'item',skill:'gameplay'}[kind]??kind;
+ const kind=a.categories.includes('Manufacturers')?'manufacturer':a.categories.includes('Retired Items')?'item':a.id==='samurai-lord'?'character':a.id==='ore-mine'?'building':a.id==='ore-mining'?'skill':'faction';
+ homes[a.id]={manufacturer:'items/manufacturers',item:'items/retired',character:'characters/historical',building:'buildings/historical',skill:'gameplay/technology/historical',faction:'factions/historical'}[kind];
+ layouts[a.id]={manufacturer:'item',skill:'technology'}[kind]??kind;
  files[a.id]='src/content/articles/'+homes[a.id]+'/'+a.sourceFile.slice('src/content/wiki/'.length);
  facts[a.id]=front.infobox??null;
  const mode=layouts[a.id];articles[a.id]=articleEvidence(source.html(a.id),true,mode);

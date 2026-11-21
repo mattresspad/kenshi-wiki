@@ -1,0 +1,11 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {hash} from '../geography/evidence.mjs';
+const get=p=>JSON.parse(fs.readFileSync(p)),save=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
+const snapshot=get('conversion/reference.json'),wanted={'/catan-scrapmaster':'/catun-scrapmaster-manufacturer','/catun-scrapmaster':'/catun-scrapmaster-manufacturer','/unknown':'/unknown-manufacturer'};
+const aliases=Object.entries(wanted).map(([from,to])=>{const found=snapshot.redirects.find(r=>r.from===from);assert.deepEqual(found,{from,to,status:301});assert.ok(snapshot.articles.some(a=>a.path===to));return found});
+const evidence={revision:snapshot.revision,registrySHA256:hash(fs.readFileSync('conversion/reference.json')),aliases,scope:'Frozen alias identity only; target availability and historical gameplay claims remain separate.',verifiedBy:'scripts/manufacturers/resolve-aliases.mjs'};
+save('conversion/manufacturers/alias-review.json',evidence);
+const register=get('conversion/gaps/register.json'),finding=register.findings.find(r=>r.id==='claim:manufacturers-old-destinations');assert.ok(finding);
+finding.status='resolved';finding.verification='All three historical aliases exist in the pinned redirect inventory and target registered manufacturer IDs.';
+finding.resolution={method:'Exact frozen redirect and registered-target comparison',evidence:'conversion/manufacturers/alias-review.json',verifiedBy:evidence.verifiedBy,scope:evidence.scope};
+finding.investigationNotes='Preserved original link labels and all affected occurrences. This closes the alias-identity question only; it does not establish weapon availability, company history or crafting mechanics.';
+save('conversion/gaps/register.json',register);console.log('Three existing aliases verified; one identity finding closed with pinned evidence.');

@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "name": "manufacturer-pilots",
+    "resolved": [
+      "/ancient",
+      "/ancient-manufacturer",
+      "/category/manufacturers",
+      "/category/removed-content",
+      "/catun-scrapmaster",
+      "/catun-scrapmaster-manufacturer",
+      "/edgewalkers"
+    ],
+    "introduced": [
+      "/old-eye-blades",
+      "/ore-mine",
+      "/ore-mining"
+    ]
+  }
+]

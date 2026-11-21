@@ -420,6 +420,17 @@
       }
     },
     {
+      "id": "availability:/ancient-manufacturer",
+      "kind": "availability",
+      "target": "/ancient-manufacturer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#manufacturer-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ancient-manufacturer"
+      }
+    },
+    {
       "id": "availability:/ancient-military-documents",
       "kind": "availability",
       "target": "/ancient-military-documents",
@@ -3390,6 +3401,17 @@
       }
     },
     {
+      "id": "availability:/category/removed-content",
+      "kind": "availability",
+      "target": "/category/removed-content",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#manufacturer-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/category/removed-content"
+      }
+    },
+    {
       "id": "availability:/category/spawning-locations",
       "kind": "availability",
       "target": "/category/spawning-locations",
@@ -3508,6 +3530,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/catun-scrapmaster-character"
+      }
+    },
+    {
+      "id": "availability:/catun-scrapmaster-manufacturer",
+      "kind": "availability",
+      "target": "/catun-scrapmaster-manufacturer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#manufacturer-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/catun-scrapmaster-manufacturer"
       }
     },
     {
@@ -5906,6 +5939,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/economy-leg-right"
+      }
+    },
+    {
+      "id": "availability:/edgewalkers",
+      "kind": "availability",
+      "target": "/edgewalkers",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#manufacturer-pilots",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/edgewalkers"
       }
     },
     {
@@ -25725,6 +25769,18 @@
       }
     },
     {
+      "id": "media:/icons/items/42328-changes_otto.mod.png",
+      "kind": "media",
+      "target": "/icons/items/42328-changes_otto.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#manufacturer-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "e86d690b2e040c76a606ab8fec79cc7bc62c7ffe0330cade3be40b3b5b1fa80e",
+        "sourceSha256": "e86d690b2e040c76a606ab8fec79cc7bc62c7ffe0330cade3be40b3b5b1fa80e"
+      }
+    },
+    {
       "id": "media:/icons/items/42330-changes_otto.mod.png",
       "kind": "media",
       "target": "/icons/items/42330-changes_otto.mod.png",
@@ -26706,6 +26762,18 @@
         "method": "local media matches pinned file SHA-256",
         "sha256": "7518783b655a1b4d71620effed157550ae4bd923c379737646715a9b2fd7f477",
         "sourceSha256": "7518783b655a1b4d71620effed157550ae4bd923c379737646715a9b2fd7f477"
+      }
+    },
+    {
+      "id": "media:/icons/items/50568-rebirth.mod.png",
+      "kind": "media",
+      "target": "/icons/items/50568-rebirth.mod.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#manufacturer-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "5c81f1d1e7c39ab81b7e12c6e689e04f9eee06c8539a13a554c65905a358347a",
+        "sourceSha256": "5c81f1d1e7c39ab81b7e12c6e689e04f9eee06c8539a13a554c65905a358347a"
       }
     },
     {
@@ -27981,6 +28049,18 @@
       }
     },
     {
+      "id": "media:/icons/items/910-gamedata.base.png",
+      "kind": "media",
+      "target": "/icons/items/910-gamedata.base.png",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#manufacturer-pilots",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "b4106be7ab4b01fea393f75f860206562ae26097596472be8d2ec399e1bf962c",
+        "sourceSha256": "b4106be7ab4b01fea393f75f860206562ae26097596472be8d2ec399e1bf962c"
+      }
+    },
+    {
       "id": "media:/icons/items/922-gamedata.base.png",
       "kind": "media",
       "target": "/icons/items/922-gamedata.base.png",
@@ -28577,6 +28657,18 @@
       "resolution": {
         "method": "local resource available; independently maintained contents",
         "sha256": "9f2190f7bf3d2f0b5ab232385aac4f02d8546839e556ff83e8bd8f42599589b9",
+        "sourceSha256": "b385289390d87210d9fedaa535f11ee55230dc6ab3af61cc313ac1614647ae8d"
+      }
+    },
+    {
+      "id": "media:/notices/artwork.txt",
+      "kind": "media",
+      "target": "/notices/artwork.txt",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#manufacturer-pilots",
+      "resolution": {
+        "method": "local resource available; independently maintained contents",
+        "sha256": "46b734f235e8f50986cf2ebe729333eb1c48e470afba9ba637e72833ebf87489",
         "sourceSha256": "b385289390d87210d9fedaa535f11ee55230dc6ab3af61cc313ac1614647ae8d"
       }
     },

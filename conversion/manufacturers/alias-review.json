@@ -1,0 +1,23 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "registrySHA256": "f5b7c892bc121c1b20baeed52c02d6363c452aaad6bb881c86df91199f09b576",
+  "aliases": [
+    {
+      "from": "/catan-scrapmaster",
+      "to": "/catun-scrapmaster-manufacturer",
+      "status": 301
+    },
+    {
+      "from": "/catun-scrapmaster",
+      "to": "/catun-scrapmaster-manufacturer",
+      "status": 301
+    },
+    {
+      "from": "/unknown",
+      "to": "/unknown-manufacturer",
+      "status": 301
+    }
+  ],
+  "scope": "Frozen alias identity only; target availability and historical gameplay claims remain separate.",
+  "verifiedBy": "scripts/manufacturers/resolve-aliases.mjs"
+}

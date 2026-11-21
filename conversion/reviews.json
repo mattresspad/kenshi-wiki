@@ -6670,6 +6670,18 @@
     "why-load-order-matters-and-other-faq-about-using-mods": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/modding/review.json"
+    },
+    "catun-scrapmaster-manufacturer": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "edgewalkers": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "ancient-manufacturer": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
     }
   },
   "mediaGaps": [

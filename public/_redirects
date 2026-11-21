@@ -12,6 +12,7 @@
 
 # Restored redirects from the frozen inventory
 /acid-rain /weather-effects 301
+/ancient /ancient-manufacturer 301
 /ancient-science-books /ancient-science-book 301
 /armor /armour 301
 /armor-king /armour-king 301
@@ -58,6 +59,9 @@
 /capan /catun 301
 /capital /catun 301
 /catan /catun 301
+/catan-scrap-master /catun-scrapmaster-manufacturer 301
+/catan-scrapmaster /catun-scrapmaster-manufacturer 301
+/catun-scrapmaster /catun-scrapmaster-manufacturer 301
 /chain-armour-crafting /chain-armour-crafting-tech 301
 /chainmail-sheet /chainmail-sheets 301
 /chainmail-tagelmust /rusty-chainmail-tagelmust 301
@@ -81,6 +85,8 @@
 /double-barrel-harpoon-turret-fitting-tech /double-barrel-turret-spotlight-fitting-tech 301
 /drifters-last-free-traders /drifters-last/free-traders 301
 /drifters-last-half-destroyed /drifters-last/half-destroyed 301
+/edge-walkers /edgewalkers 301
+/edgewalkers-manufacturer /edgewalkers 301
 /electrical-crafting /electrical-crafting-tech 301
 /electricity /power 301
 /empire-armour-shop /empire-armor-shop 301
