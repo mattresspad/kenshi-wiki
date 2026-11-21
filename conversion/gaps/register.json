@@ -234803,19 +234803,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /changelog#1.0.68 as a compatibility bookmark for /changelog#1068-current. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/changelog.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /changelog#1068-current.",
       "proposedAlias": {
         "from": "/changelog#1.0.68",
         "to": "/changelog#1068-current"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/changelog#1.0.68"
       }
     },
     {
@@ -234825,19 +234831,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /combat-speed#Item_Related as a compatibility bookmark for /combat-speed#item-related. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/combat-speed.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /combat-speed#item-related.",
       "proposedAlias": {
         "from": "/combat-speed#Item_Related",
         "to": "/combat-speed#item-related"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/combat-speed#Item_Related"
       }
     },
     {
@@ -234847,19 +234859,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /damage#Damage_floaters as a compatibility bookmark for /damage#damage-floaters. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/damage.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /damage#damage-floaters.",
       "proposedAlias": {
         "from": "/damage#Damage_floaters",
         "to": "/damage#damage-floaters"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/damage#Damage_floaters"
       }
     },
     {
@@ -234869,19 +234887,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /dialogue-structure-overlook#Bar_talk_(interjectors) as a compatibility bookmark for /dialogue-structure-overlook#bar-talk-interjectors. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dialogue-structure-overlook.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /dialogue-structure-overlook#bar-talk-interjectors.",
       "proposedAlias": {
         "from": "/dialogue-structure-overlook#Bar_talk_(interjectors)",
         "to": "/dialogue-structure-overlook#bar-talk-interjectors"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/dialogue-structure-overlook#Bar_talk_(interjectors)"
       }
     },
     {
@@ -234891,19 +234915,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /dialogue-structure-overlook#Interjectors as a compatibility bookmark for /dialogue-structure-overlook#interjectors. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dialogue-structure-overlook.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /dialogue-structure-overlook#interjectors.",
       "proposedAlias": {
         "from": "/dialogue-structure-overlook#Interjectors",
         "to": "/dialogue-structure-overlook#interjectors"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/dialogue-structure-overlook#Interjectors"
       }
     },
     {
@@ -234913,19 +234943,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /dialogue-structure-overlook#Using_Faction_Reputations_as_Boolean as a compatibility bookmark for /dialogue-structure-overlook#using-faction-reputations-as-boolean. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dialogue-structure-overlook.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /dialogue-structure-overlook#using-faction-reputations-as-boolean.",
       "proposedAlias": {
         "from": "/dialogue-structure-overlook#Using_Faction_Reputations_as_Boolean",
         "to": "/dialogue-structure-overlook#using-faction-reputations-as-boolean"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/dialogue-structure-overlook#Using_Faction_Reputations_as_Boolean"
       }
     },
     {
@@ -234935,19 +234971,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /dialogue-structure-overlook#Using_Fake_Factions_and_Faction_Relations_World_States_as_Boolean as a compatibility bookmark for /dialogue-structure-overlook#using-fake-factions-and-faction-relations-world-states-as-boolean. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dialogue-structure-overlook.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /dialogue-structure-overlook#using-fake-factions-and-faction-relations-world-states-as-boolean.",
       "proposedAlias": {
         "from": "/dialogue-structure-overlook#Using_Fake_Factions_and_Faction_Relations_World_States_as_Boolean",
         "to": "/dialogue-structure-overlook#using-fake-factions-and-faction-relations-world-states-as-boolean"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/dialogue-structure-overlook#Using_Fake_Factions_and_Faction_Relations_World_States_as_Boolean"
       }
     },
     {
@@ -234957,19 +234999,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /game-starts#startsthe-freedom-seekers as a compatibility bookmark for /game-starts#the-freedom-seekers. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/game-starts.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /game-starts#the-freedom-seekers.",
       "proposedAlias": {
         "from": "/game-starts#startsthe-freedom-seekers",
         "to": "/game-starts#the-freedom-seekers"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/game-starts#startsthe-freedom-seekers"
       }
     },
     {
@@ -234979,19 +235027,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /using-the-fcs#Custom_Columns as a compatibility bookmark for /using-the-fcs#custom-columns. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/using-the-fcs.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /using-the-fcs#custom-columns.",
       "proposedAlias": {
         "from": "/using-the-fcs#Custom_Columns",
         "to": "/using-the-fcs#custom-columns"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/using-the-fcs#Custom_Columns"
       }
     },
     {
@@ -235001,19 +235055,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /using-the-fcs#Searching_for_data as a compatibility bookmark for /using-the-fcs#searching-for-data. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/using-the-fcs.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /using-the-fcs#searching-for-data.",
       "proposedAlias": {
         "from": "/using-the-fcs#Searching_for_data",
         "to": "/using-the-fcs#searching-for-data"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/using-the-fcs#Searching_for_data"
       }
     },
     {
@@ -235023,19 +235083,25 @@
       "classification": "missing alias",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "matching pinned heading verified; repair pending",
-      "status": "open",
+      "verification": "Compatibility alias verified against the pinned heading; direct loads and all recorded links covered by browser checks.",
+      "status": "resolved",
       "finding": "The pinned destination lacks this exact fragment.",
-      "proposedResolution": "When the target article is converted, preserve /weather-effects#duststorms as a compatibility bookmark for /weather-effects#dust-storms. Verify direct loading and every referring link.",
-      "uncertainty": "The intended section is present in the pinned HTML. The alias has not yet been implemented in FreshWiki.",
+      "proposedResolution": "Implemented the recorded compatibility bookmark without renaming the destination heading or rewriting article content.",
+      "uncertainty": "This closes fragment navigation only; article claims, missing media and editorial-review findings remain separate.",
       "evidence": [
         "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/weather-effects.md",
-        "conversion/gaps/source.json"
+        "conversion/gaps/source.json",
+        "conversion/bookmarks/restoration.json",
+        "tests/bookmarks.spec.mjs"
       ],
-      "postCutover": "Serve the article with HTTP 200; retain the unresolved fragment until a verified bookmark alias or content restoration is available.",
+      "postCutover": "Serve the existing article with HTTP 200; the original fragment reaches /weather-effects#dust-storms.",
       "proposedAlias": {
         "from": "/weather-effects#duststorms",
         "to": "/weather-effects#dust-storms"
+      },
+      "resolution": {
+        "method": "exact fragment exists in rendered local article",
+        "target": "/weather-effects#duststorms"
       }
     },
     {

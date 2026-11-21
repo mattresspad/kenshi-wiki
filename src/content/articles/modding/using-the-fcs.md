@@ -6,6 +6,9 @@ categories:
   - Modding
   - Guides
 layout: modding
+bookmarks:
+  "Custom_Columns": "custom-columns"
+  "Searching_for_data": "searching-for-data"
 ---
 
 This article is pulled from the 'Using the FCS.pdf' file located in your game's installation directory as of version 1.0.57.

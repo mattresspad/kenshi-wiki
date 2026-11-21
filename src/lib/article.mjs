@@ -52,7 +52,7 @@ export function prepareArticle(html, data, href) {
     const node = $('[id]').filter((_,e) => $(e).attr('id') === target);
     if (node.length !== 1) throw Error('Missing bookmark destination: ' + target);
     if ($('[id]').toArray().some(e => $(e).attr('id') === old)) throw Error('Duplicate bookmark: '+old);
-    node.before($('<span></span>').attr({id:old,class:'bookmark','aria-hidden':'true'}));
+    node.before($('<span></span>').attr({id:old,class:'bookmark','aria-hidden':'true','data-bookmark-target':target}));
   }
   if (data.layout === 'modding') $('pre').each((index, block) => $(block).addClass('code-scroll').attr({tabindex:'0',role:'region','aria-label':data.title+' code example '+(index+1)}));
   for (const block of $('pre code').toArray()) $(block).text($(block).text().replace(/\n$/, ''));

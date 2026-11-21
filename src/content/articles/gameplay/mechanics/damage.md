@@ -6,6 +6,8 @@ categories:
   - Guides
   - Combat
 layout: gameplay
+bookmarks:
+  "Damage_floaters": "damage-floaters"
 ---
 
 Kenshi has a complex damage system where types of damage and the affected bodypart have different results for the character. This includes factors such as KO times and which skills get penalties.

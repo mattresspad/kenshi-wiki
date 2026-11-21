@@ -5,6 +5,8 @@ description: Combat Speed is a multiplier to your attack and block speed. It com
 categories:
   - Combat
 layout: gameplay
+bookmarks:
+  "Item_Related": "item-related"
 ---
 
 ## Combat Speed

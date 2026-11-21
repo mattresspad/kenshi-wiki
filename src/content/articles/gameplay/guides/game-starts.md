@@ -6,6 +6,8 @@ categories:
   - WIP
   - Guides
 layout: gameplay
+bookmarks:
+  "startsthe-freedom-seekers": "the-freedom-seekers"
 ---
 
 _**This article is a Work in Progress. It may contain out of date or incomplete information.**_

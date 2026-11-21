@@ -8,6 +8,11 @@ categories:
   - Dialogue
   - Guides
 layout: modding
+bookmarks:
+  "Bar_talk_(interjectors)": "bar-talk-interjectors"
+  "Interjectors": "interjectors"
+  "Using_Faction_Reputations_as_Boolean": "using-faction-reputations-as-boolean"
+  "Using_Fake_Factions_and_Faction_Relations_World_States_as_Boolean": "using-fake-factions-and-faction-relations-world-states-as-boolean"
 ---
 
 _**This article is a Work in Progress. It may contain out of date or incomplete information.**_

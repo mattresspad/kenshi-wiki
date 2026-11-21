@@ -5,6 +5,9 @@ import {articleEvidence, hash} from '../geography/evidence.mjs';
 import {families, selectedIds, expectedIds, expectedRoutes} from './batches.mjs';
 import {snapshot,effectiveSnapshot} from '../../src/lib/catalog.mjs';
 
+import {articleFiles} from '../article-files.mjs';
+import {withoutVerifiedBookmarks} from './bookmarks.mjs';
+const declaredBookmarks=new Map(articleFiles().map(({data})=>[data.articleId,data.bookmarks??{}]));
 const fragmentIndexes=new WeakMap();
 export function verifyFamily(name, atlas, assetRedirects) {
   const {roster,checkpoint}=families[name];
@@ -34,7 +37,9 @@ export function verifyFamily(name, atlas, assetRedirects) {
       const incoming=$('[data-contribution="pr-44"]');assert.equal(incoming.length,1);assert.equal(incoming.find('a').attr('href'),'/modding/meitou/code-mod-hooks');
       const copy=load(html);copy('[data-contribution="pr-44"]').remove();comparableHtml=copy.html();
     }
-    const expected=fixture.articles[id],proof=articleEvidence(comparableHtml,false,roster.layouts?.[id]??(name==='items'?'item':name==='buildings'?'building':name==='shops'?'shop':name==='gameplay'?'gameplay':name==='events'?'event':name==='lore'?'lore':['modding','pr44'].includes(name)?'modding':false));
+    const expected=fixture.articles[id];
+    comparableHtml=withoutVerifiedBookmarks(comparableHtml,declaredBookmarks.get(id)??{},expected.ids);
+    const proof=articleEvidence(comparableHtml,false,roster.layouts?.[id]??(name==='items'?'item':name==='buildings'?'building':name==='shops'?'shop':name==='gameplay'?'gameplay':name==='events'?'event':name==='lore'?'lore':['modding','pr44'].includes(name)?'modding':false));
     for(const key of Object.keys(expected)) assert.deepEqual(proof[key],expected[key],id+' — '+key);
     assert.deepEqual(record.categories,original.get(id).categories,id+' categories');
     assert.equal($('link[rel=canonical]').attr('href'),'https://kenshi.wiki'+record.path);
