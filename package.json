@@ -29,7 +29,8 @@
     "lore:accept": "node scripts/conversion/accept.mjs lore",
     "modding:accept": "node scripts/conversion/accept.mjs modding",
     "manufacturers:accept": "node scripts/conversion/accept.mjs manufacturers",
-    "remainder:accept": "node scripts/conversion/accept.mjs remainder"
+    "remainder:accept": "node scripts/conversion/accept.mjs remainder",
+    "utilities:accept": "node scripts/utilities/accept.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",
