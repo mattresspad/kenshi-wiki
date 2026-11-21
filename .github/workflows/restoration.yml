@@ -1,10 +1,13 @@
-name: FreshWiki candidate
+name: FreshWiki validation
 on:
-  push:
-    branches: [main, rebuild/restoration, integration/pr-44-code-mod-hooks]
   pull_request:
-    branches: [main, rebuild/restoration]
+    branches: [main]
   workflow_dispatch:
+    inputs:
+      expected_sha:
+        description: Exact merged main SHA to rehearse (no deployment)
+        required: true
+        type: string
 permissions:
   contents: read
 jobs:
@@ -12,11 +15,12 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 40
     concurrency:
-      group: freshwiki-check-${{ github.ref }}
+      group: freshwiki-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref }}
       cancel-in-progress: true
     env:
       ASTRO_TELEMETRY_DISABLED: '1'
-      WIKI_CANDIDATE_BRANCH: ${{ github.head_ref || github.ref_name }}
+      WIKI_EXPECTED_SHA: ${{ inputs.expected_sha }}
+      WIKI_CANDIDATE_BRANCH: main
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
@@ -27,16 +31,21 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm exec -- playwright install --with-deps chromium
-      - run: npm run release:check
-      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
-        if: always()
+      - name: Check the proposed change
+        if: github.event_name == 'pull_request'
+        run: npm run ci:check
+      - name: Rehearse the exact merged candidate
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run release:check
+      - name: Routine diagnostics
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        if: always() && github.event_name == 'pull_request'
         with:
-          name: freshwiki-${{ github.sha }}-${{ github.event_name }}
-          retention-days: 90
-          include-hidden-files: true
+          name: freshwiki-check-${{ github.sha }}
+          retention-days: 14
           path: |
-            .cloudflare/output
-            dist
             reports/release
             reports/routes.json
             reports/route-report.md
@@ -44,51 +53,19 @@ jobs:
             reports/gaps
             reports/utilities/search-coverage.json
             test-results
-  staging:
-    needs: check-and-stage
-    if: github.event_name == 'push' && github.ref == 'refs/heads/rebuild/restoration'
-    runs-on: ubuntu-24.04
-    timeout-minutes: 25
-    environment:
-      name: restoration-staging
-      url: ${{ steps.upload.outputs.url }}
-    concurrency:
-      group: freshwiki-staging
-      cancel-in-progress: false
-    env:
-      WIKI_RELEASE_TARGET: staging
-      WIKI_EDIT_BRANCH: rebuild/restoration
-      ASTRO_TELEMETRY_DISABLED: '1'
-    steps:
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - name: Release package and evidence
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        if: always() && github.event_name == 'workflow_dispatch'
         with:
-          persist-credentials: false
-      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
-        with:
-          node-version-file: .node-version
-          cache: npm
-      - run: npm ci
-      - uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131
-        with:
-          name: freshwiki-${{ github.sha }}-push
-          path: .
-      - run: npm exec -- playwright install --with-deps chromium
-      - name: Upload the checked isolated staging package
-        id: upload
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-        run: npm run release:stage
-      - name: Verify the immutable HTTPS version
-        env:
-          WIKI_PREVIEW_URL: ${{ steps.upload.outputs.url }}
-        run: npm run release:verify
-      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
-        if: always()
-        with:
-          name: freshwiki-staging-${{ github.sha }}
+          name: freshwiki-release-${{ github.sha }}
           retention-days: 90
+          include-hidden-files: true
           path: |
+            .cloudflare/output
             reports/release
+            reports/routes.json
+            reports/route-report.md
+            reports/work-coverage.json
+            reports/gaps
+            reports/utilities/search-coverage.json
             test-results

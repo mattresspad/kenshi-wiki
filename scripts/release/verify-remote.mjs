@@ -4,7 +4,7 @@ import {request} from '@playwright/test';
 import {read,save,gate,npm,sha} from './common.mjs';
 import {capture} from './capture.mjs';
 const stage=read('reports/release/staging.json'),base=process.env.WIKI_PREVIEW_URL||stage.url;assert.equal(base,stage.url);assert.match(new URL(base).hostname,/^[0-9a-f]{8}-kenshi-wiki-restoration\.prds\.workers\.dev$/);
-const env={WIKI_PREVIEW_URL:base,WIKI_RELEASE_TARGET:'staging',WIKI_EDIT_BRANCH:'rebuild/restoration'};
+const env={WIKI_PREVIEW_URL:base,WIKI_RELEASE_TARGET:'staging',WIKI_EDIT_BRANCH:'main'};
 const client=await request.newContext();const checks=[];
 try{
  for(const path of ['/','/search-titles.json','/pagefind/pagefind.js','/category/unique','/contributors']){const r=await client.get(base+path);assert.equal(r.status(),200);assert.match(r.headers()['x-robots-tag']??'',/noindex/);checks.push({path,status:r.status(),sha256:sha(await r.body())});await r.dispose();}

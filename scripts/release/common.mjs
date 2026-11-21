@@ -12,7 +12,8 @@ export const npm=process.env.npm_execpath || (process.platform==='win32'?join(di
 export const cf=resolve('node_modules/cf/bin/cf');
 export async function gate(folder,name,args,env={}){
  fs.mkdirSync(folder,{recursive:true});const file=join(folder,name+'.log'),fd=fs.openSync(file,'w');
- try{const code=await new Promise((done,reject)=>{const p=spawn(process.execPath,args,{stdio:['ignore',fd,fd],env:{...process.env,ASTRO_TELEMETRY_DISABLED:'1',...env}});p.on('error',reject);p.on('close',done)});if(code!==0)throw Error(name+' failed ('+code+'): '+file);}finally{fs.closeSync(fd)}
+ const started=Date.now();let exitCode=null;
+ try{const code=await new Promise((done,reject)=>{const p=spawn(process.execPath,args,{stdio:['ignore',fd,fd],env:{...process.env,ASTRO_TELEMETRY_DISABLED:'1',...env}});p.on('error',reject);p.on('close',done)});exitCode=code;if(code!==0)throw Error(name+' failed ('+code+'): '+file);}finally{fs.closeSync(fd);save(join(folder,name+'-timing.json'),{name,startedAt:new Date(started).toISOString(),durationMs:Date.now()-started,exitCode});}
  console.log('Passed '+name);
 }
 export function hashes(root){return Object.fromEntries(fs.readdirSync(root,{recursive:true,withFileTypes:true}).filter(e=>e.isFile()).map(e=>{const path=join(e.parentPath,e.name),relative=path.slice(root.length+1).replaceAll('\\','/');return [relative,sha(fs.readFileSync(path))]}).sort(([a],[b])=>a.localeCompare(b)));}
