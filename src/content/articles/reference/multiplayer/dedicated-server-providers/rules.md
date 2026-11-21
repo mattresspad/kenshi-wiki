@@ -4,6 +4,7 @@ title: Dedicated server providers/Rules
 description: 1. Follow the existing format on the page. If you need assistance with this, see Wikia's Table Help Page or contact an Active Member Dates should in YYYY-MM-…
 categories: []
 layout: lore
+contextNotice: "Historical policy document: these listing and moderation rules belonged to the former Fandom wiki. They do not set editing permissions or sanctions for the current Kenshi Wiki. Use the article correction and contribution links for current proposals."
 ---
 
 1\. Follow the existing format on the page. If you need assistance with this, see Wikia's Table Help Page or contact an Active Member Dates should in YYYY-MM-DD format.

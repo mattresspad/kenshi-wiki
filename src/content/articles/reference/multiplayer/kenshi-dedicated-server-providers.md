@@ -4,6 +4,7 @@ title: Kenshi Dedicated Server Providers
 description: The following is a list of Kenshi Multiplayer Mod Dedicated Game Server Providers.
 categories: []
 layout: lore
+contextNotice: "Historical provider listing: the imported services, prices and capabilities below have not been verified for current availability. The linked listing rules describe the former wiki's policy."
 ---
 
 The following is a list of Kenshi Multiplayer Mod Dedicated Game Server Providers.

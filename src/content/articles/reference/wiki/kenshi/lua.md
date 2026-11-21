@@ -5,6 +5,7 @@ description: Lua is a programming language that is integrated into the Kenshi Wi
 categories:
   - Lua-based templates
 layout: lore
+contextNotice: "Historical wiki document: these Scribunto, Lua-module and template instructions describe the former MediaWiki/Fandom environment. The current Kenshi Wiki uses Git-backed articles and a static Astro build."
 ---
 
 **Lua** is a programming language that is integrated into the _Kenshi_ Wiki with [Scribunto](https://mediawiki.org/wiki/Extension:Scribunto "mw:Extension:Scribunto"). Lua source code is run from Modules in their own namespace, and invoked with `{{#invoke:Module|function}}`; this should done with a wrapper template. For example, if we have a module named "foo", then we should have a template called "Template:Foo" consisting of `{{#invoke:Foo|main}}` to call the module, and use `{{Foo}}` to use the module on pages.

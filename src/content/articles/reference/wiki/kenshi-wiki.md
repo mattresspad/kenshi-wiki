@@ -5,6 +5,7 @@ description: Cover the basics of building with this guide
 categories:
   - Kenshi Wiki
 layout: lore
+contextNotice: "Historical wiki document: this imported landing page describes the former Fandom wiki. Its counts, comments, forums and contribution instructions do not describe the current Kenshi Wiki rebuild."
 ---
 
 **Welcome to the**

@@ -29,6 +29,30 @@
       "kind": "historical/source-snapshot context",
       "notice": "Source-era platform information: the card and reward descriptions below are retained from the recorded revision and have not been checked against current Steam behavior.",
       "sourceBodyChanged": false
+    },
+    {
+      "id": "kenshi-wiki",
+      "kind": "historical/source-snapshot context",
+      "notice": "Historical wiki document: this imported landing page describes the former Fandom wiki. Its counts, comments, forums and contribution instructions do not describe the current Kenshi Wiki rebuild.",
+      "sourceBodyChanged": false
+    },
+    {
+      "id": "kenshi/lua",
+      "kind": "historical/source-snapshot context",
+      "notice": "Historical wiki document: these Scribunto, Lua-module and template instructions describe the former MediaWiki/Fandom environment. The current Kenshi Wiki uses Git-backed articles and a static Astro build.",
+      "sourceBodyChanged": false
+    },
+    {
+      "id": "kenshi-dedicated-server-providers",
+      "kind": "historical/source-snapshot context",
+      "notice": "Historical provider listing: the imported services, prices and capabilities below have not been verified for current availability. The linked listing rules describe the former wiki's policy.",
+      "sourceBodyChanged": false
+    },
+    {
+      "id": "dedicated-server-providers/rules",
+      "kind": "historical/source-snapshot context",
+      "notice": "Historical policy document: these listing and moderation rules belonged to the former Fandom wiki. They do not set editing permissions or sanctions for the current Kenshi Wiki. Use the article correction and contribution links for current proposals.",
+      "sourceBodyChanged": false
     }
   ],
   "editorial": "Context notices do not alter imported claims, categories or source bodies."
