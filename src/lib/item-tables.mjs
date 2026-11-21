@@ -5,6 +5,8 @@ export function normalizeItemTables($){
  for(const table of $('table').toArray()){
   const el=$(table);if(el.hasClass('item-normalized'))continue;
   const rows=el.children('tbody').children('tr'),first=rows.first(),second=rows.eq(1);
+  // Legacy armour description: prose spans four cells beside an empty image placeholder.
+  if(rows.length===2&&first.children('td').length===2&&first.children().first().attr('colspan')==='4'&&first.children().last().attr('rowspan')==='2'&&!first.children().last().text().trim()&&!first.children().last().children().length&&second.children().length===4&&second.children().first().text().trim()==='Slot:')el.addClass('item-description-table');
   const grade=/^\[(?:Prototype|Shoddy|Standard|High|Specialist|Masterwork) Grade\]$/.test(second.text().trim()) || (/^\[[^\]]+ class\]$/.test(second.text().trim())&&el.text().includes('[Model #')); 
   if(grade){const model=el.text().match(/\[Model #[^\]]+\]/)?.[0];el.addClass('item-grade-table').attr('aria-label',first.text().trim()+' '+(model??second.text().trim()));}
   if(first.children().length&&!first.children(':not(th)').length&&!el.children('thead').length){

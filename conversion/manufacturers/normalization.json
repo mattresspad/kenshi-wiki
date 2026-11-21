@@ -3,7 +3,12 @@
   "changes": [
     "Reuse established item, faction, character, building and gameplay treatments; retain source text, table order, numerical fields, citations and existing headings.",
     "Keep original non-book captions inside compact facts; preserve historical notices before their descriptions.",
-    "No historical status, modifier, price or availability claim is corrected from inference."
+    "No historical status, modifier, price or availability claim is corrected from inference.",
+    "Recognized two-row legacy item descriptions wrap within the reading pane; all cells, spans, links and empty illustration placeholders remain. Historical grade/comparison matrices retain independent horizontal scrolling."
   ],
-  "editorial": "Source content and organization reviewed individually; unresolved semantics remain in the gap register."
+  "editorial": "Source content and organization reviewed individually; unresolved semantics remain in the gap register.",
+  "presentationEvidence": {
+    "initial": "02-historical-structures/blackened-chain-headwrap-phone-dark.png",
+    "followup": "04-remaining-manufacturers-and-history/blackened-chain-headwrap-phone-dark.png"
+  }
 }

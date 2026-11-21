@@ -61,7 +61,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   if(family==='events'&&batch.name===roster.batches.at(-1).name)samples.push('category/events','events','prayer-day','tax-collector','bandit-demands','crab-tournament','elite-hunter-assault','base-assault','caravan-visit','farm-trader','materials-trader','world-state-routes','flotsam-ninjas-route','tribute-round#tips');
   if(family==='lore'&&batch.name===roster.batches.at(-1).name)samples.push('category/books','category/lore','letter-from-bad-teeth','ludins-reports','history-of-kenshi','history-of-kenshi/tr','wanted-posters','a-holy-purpose','birth-of-the-phoenix','flotsam-safehouse-note','the-holy-flame','the-little-boy-that-got-dismembered-by-skeletons','lore-books');
   if(family==='modding'&&batch.name===roster.batches.at(-1).name)samples.push('modding','category/modding','forgotten-construction-set','using-the-fcs','modding/meitou','modding/meitou/porting-re-kenshi-mods','user-node-rotations-quarternions');
-  if(family==='manufacturers'&&batch.name===roster.batches.at(-1).name)samples.push('category/manufacturers','category/removed-content','category/retired-items','dried-gristle-flaps','metal-purity','the-old-empire','flat-topper#variations','potatoes');
+  if(family==='manufacturers'&&batch.name===roster.batches.at(-1).name)samples.push('category/manufacturers','category/removed-content','category/retired-items','dried-gristle-flaps','metal-purity','the-old-empire','flat-topper#variations','potatoes','blackened-chain-headwrap','chain-headwrap');
   const shots=[], errors=[];
   const browser=await chromium.launch({headless:true,executablePath:process.env.WIKI_CHROME});
   try {

@@ -360,3 +360,7 @@
 .modding pre { overflow-x:auto; white-space:pre; overflow-wrap:normal }
 .modding pre code { white-space:inherit; overflow-wrap:normal }
 .modding pre:focus-visible { outline:2px solid var(--brass); outline-offset:2px }
+
+/* Legacy item descriptions read as prose; their empty illustration cells remain recorded. */
+.item .table-scroll .item-description-table { min-width:0; width:100%; max-width:48rem }
+.item-description-table :is(td,th) { white-space:normal; overflow-wrap:anywhere }
