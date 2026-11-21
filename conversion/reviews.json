@@ -6802,6 +6802,22 @@
     "kenshi-2": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/remainder/review.json"
+    },
+    "changelog": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/remainder/review.json"
+    },
+    "credits": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/remainder/review.json"
+    },
+    "kenshi-original-soundtrack": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/remainder/review.json"
+    },
+    "steam-trading-cards": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/remainder/review.json"
     }
   },
   "mediaGaps": [

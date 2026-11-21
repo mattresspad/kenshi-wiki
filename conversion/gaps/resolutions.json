@@ -3764,6 +3764,17 @@
       }
     },
     {
+      "id": "availability:/changelog",
+      "kind": "availability",
+      "target": "/changelog",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#long-reference-material",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/changelog"
+      }
+    },
+    {
       "id": "availability:/changing-town-ownership",
       "kind": "availability",
       "target": "/changing-town-ownership",
@@ -4762,6 +4773,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/creating-new-towns"
+      }
+    },
+    {
+      "id": "availability:/credits",
+      "kind": "availability",
+      "target": "/credits",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#long-reference-material",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/credits"
       }
     },
     {
@@ -11637,6 +11659,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/kenshi-2"
+      }
+    },
+    {
+      "id": "availability:/kenshi-original-soundtrack",
+      "kind": "availability",
+      "target": "/kenshi-original-soundtrack",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#long-reference-material",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/kenshi-original-soundtrack"
       }
     },
     {
@@ -20261,6 +20294,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/stealth-legs-tech"
+      }
+    },
+    {
+      "id": "availability:/steam-trading-cards",
+      "kind": "availability",
+      "target": "/steam-trading-cards",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#long-reference-material",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/steam-trading-cards"
       }
     },
     {

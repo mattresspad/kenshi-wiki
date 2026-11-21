@@ -46,6 +46,70 @@
         "claim:remainder-media"
       ],
       "assessment": "Development overview and 30 citation targets inspected. Separate plans, speculation and release expectations; retain the recorded source date rather than presenting a newly verified update."
+    },
+    {
+      "id": "changelog",
+      "existence": "Permanent ID, address, pinned checksum, categories and one reference/game/ editable home checked.",
+      "content": "Chronological structure, 533 version headings, stable/experimental distinctions, literal notes and the single comparison table inspected. Preservation checks cover the full text; individual historical fixes have not been independently reproduced.",
+      "organization": "Reviewed 533 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/changelog.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f3522fbcb56f5ebe99e1c34f578acc5be3f7a883811ceadd21e15afde4d9f31c"
+      },
+      "questions": [
+        "claim:remainder-changelog",
+        "claim:remainder-media"
+      ],
+      "assessment": "Chronological structure, 533 version headings, stable/experimental distinctions, literal notes and the single comparison table inspected. Preservation checks cover the full text; individual historical fixes have not been independently reproduced."
+    },
+    {
+      "id": "credits",
+      "existence": "Permanent ID, address, pinned checksum, categories and one reference/game/ editable home checked.",
+      "content": "Game credits, names, roles and seven grouped headings inspected. Preserve contributor wording and distinguish this game-credit list from wiki contribution guidance.",
+      "organization": "Reviewed 7 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/credits.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "464a2526bc63a8d5caeed0b265ffaf996a252508a07e3f83dc25cf737533e81b"
+      },
+      "questions": [
+        "claim:remainder-credits",
+        "claim:remainder-media"
+      ],
+      "assessment": "Game credits, names, roles and seven grouped headings inspected. Preserve contributor wording and distinguish this game-credit list from wiki contribution guidance."
+    },
+    {
+      "id": "kenshi-original-soundtrack",
+      "existence": "Permanent ID, address, pinned checksum, categories and one reference/game/ editable home checked.",
+      "content": "Track list, credited composer, source quotation and dynamic-music description inspected. Price is a historical source claim, not a current offer.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/kenshi-original-soundtrack.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b5ee871e4eb82c01298106cd5aa5f487a91197f427b71f2736217536fa6cbde7"
+      },
+      "questions": [
+        "claim:remainder-commerce",
+        "claim:remainder-media"
+      ],
+      "assessment": "Track list, credited composer, source quotation and dynamic-music description inspected. Price is a historical source claim, not a current offer."
+    },
+    {
+      "id": "steam-trading-cards",
+      "existence": "Permanent ID, address, pinned checksum, categories and one reference/game/ editable home checked.",
+      "content": "Card subjects and badge/reward prose inspected. Missing card artwork and reward terminology remain sourcing tasks; retain original qualifications.",
+      "organization": "Reviewed 3 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/steam-trading-cards.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "2e510674b9bdf510838c6dff164dfb49d3346ed1649a8729169ecb82e25ccf80"
+      },
+      "questions": [
+        "claim:remainder-commerce",
+        "claim:remainder-media"
+      ],
+      "assessment": "Card subjects and badge/reward prose inspected. Missing card artwork and reward terminology remain sourcing tasks; retain original qualifications."
     }
   ],
   "editorialChanges": []
