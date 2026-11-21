@@ -27,3 +27,9 @@ The child branch is carried forward over the Manufacturers baseline at 72c9f4f02
 The local child branch now follows rebuild/restoration at 6f8c6df. Its original pre-corpus tip, 13e4811, is retained at local-backup/pr44-before-corpus. The original source, authorship, version matrix and earlier acceptance records remain unchanged. Final corpus/queue validation uses scripts/remainder/combined.mjs and records separate compatibility-corpus.json evidence; it does not rewrite the 2,176-page original acceptance. PR #44 remains open and no public action is authorized by this local carry-forward.
 
 The final combined compatibility run passed the production build, 58 catalog tests, 220 browser tests (two intentional desktop-only skips on phone), and Cloudflare package dry run. See `compatibility-corpus.json`. It accounts for 2,185 transferred and format-checked articles, 4,120 memberships and 2,191 title entries. The 462 pending editorial reviews remain in the contributor queue. Original hook content and pinned evidence match the preserved contribution backup.
+
+## Categories and utilities carry-forward
+
+The child branch now follows the accepted utilities baseline at 4db33ad. The original 0a6d593 tip is retained as `local-backup/pr44-before-utilities`. `carry-forward-utilities.json` records the ancestry, unchanged source/article hashes, and repeatable gap normalization. Earlier compatibility records remain historical evidence.
+
+`compatibility-utilities.json` records the combined production build, 61 catalog tests, 240 passing browser tests (two intentional desktop-only cases skipped on phone), and Cloudflare package dry run. The combined catalog has 2,185 articles, 198 categories, 4,120 memberships, 2,191 title/full-text entries and 2,114 random-eligible article paths. No temporary prototype destinations or introduced conversion regressions remain. The original PR stays open; no publication or deployment occurred.
