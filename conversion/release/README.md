@@ -4,7 +4,7 @@
 
 Prd approved MIT for the independent software before publication. LICENSE and LICENSING.md delimit the grant; article, artwork, dependency and historical prototype terms remain separate. Source revision 83abc179fafa63b826d7f2662c4a18a134a9e6c1 is immutable; PR #44 is a separately credited addition. The original contribution and version evidence must not change while carrying its child branch forward.
 
-This release prepares public candidate branches and isolated HTTPS staging. It does not authorize changing the default branch, archiving live main, routing apex traffic to FreshWiki, changing DNS, or deploying to the production Worker.
+Candidate publication, credited PR #44 integration and the archive/default-branch swap are complete. This readiness pass updates repository guidance and CI, then prepares a newly tested inactive production version. It does not authorize changing production traffic, routes or DNS.
 
 The accepted combined registry must contain 2,185 articles, 198 reader-facing categories, 4,120 memberships and 2,191 title/full-text entries; the random pool has 2,114 paths. Transfer, format acceptance, editorial coverage and findings remain separate. Inherited gaps and the 462 pending editorial reviews are valid post-launch work. Introduced regressions, unsupported resolutions and unaccounted routes still block acceptance.
 
@@ -14,9 +14,9 @@ Node is pinned to 24.22.2. Run npm ci and install Playwright Chromium, then npm 
 
 WIKI_CANDIDATE_BRANCH supplies the published edit branch (locally it defaults to the checked-out branch). WIKI_RELEASE_TARGET accepts local, staging or production; production packaging requires WIKI_EDIT_BRANCH=main. The upload command independently checks the target, immutable package hashes, source commit and current trusted branch head. The staging workflow cannot promote production and never receives deployment credentials on pull-request validation.
 
-Publish rebuild/restoration and the credited integration/pr-44-code-mod-hooks child. Require check-and-stage, PR review and protection against deletion/force pushes. The maintainer PR exception may bypass the separate review rule, never failed required checks. Merge the child with a merge commit after reviewing the exact diff and checks; only then cross-reference and close original #44 as integrated through the independent rebuild. Do not merge prototype ancestry.
+The credited PR #44 child was integrated with its history and original contribution evidence preserved; original #44 was reconciled and closed. New changes use reviewed PRs into protected main. The maintainer PR-only exception does not bypass required checks. Do not merge prototype ancestry.
 
-The article-correction form travels on the candidate branch. Before the default-branch swap, GitHub's ordinary issue chooser still uses main's existing correction form; verify it has the same article input identifier. After the swap, the rebuilt form takes over without changing correction URLs.
+GitHub's issue chooser now uses FreshWiki main. Preserve the correction form's article input identifier and existing prefilled URLs. Repository guidance, the website form and PR template are reconciled against the pinned archive.
 
 ## Isolated staging
 
@@ -32,15 +32,13 @@ npm run release:verify runs the complete browser suite against that recorded HTT
 
 The assessed source is 83abc179fafa63b826d7f2662c4a18a134a9e6c1. Worker kenshi-wiki serves f9d52d77-376e-4647-8d8c-93b414364d68 at 100%; its immutable URL is https://f9d52d77-kenshi-wiki.prds.workers.dev. The homepage and Blender article matched byte-for-byte in Chromium during assessment. Recheck at cutover; this is not a claim about all future production state.
 
-Administrative inspection confirmed main requires check-and-stage, blocks force pushes and deletion, and enforces its checks for administrators. A separate ruleset requires one review with Prd's PR-only maintainer exception. The production environment requires mattresspad's review, allows the maintainer to review their own triggered run, and disables admin bypass. Keep those controls; record exact settings again before swapping branches.
+Administrative inspection confirmed main requires check-and-stage, blocks force pushes and deletion, and enforces its checks for administrators. A separate ruleset requires one review with Prd's PR-only maintainer exception. The production environment requires mattresspad's review, allows the maintainer to review their own triggered run, and disables admin bypass. Keep those controls; record exact settings again before production promotion.
 
-## Later branch replacement: separate approval required
+## Completed branch replacement
 
-1. Freeze candidate and prototype changes; record every outstanding PR and its target/disposition. Recheck upstream and production metadata. Tag the final prototype source and record the known-good Worker ID plus a tested, checksummed prototype package.
-2. Rehearse locally in a disposable repository: rename old main to archive/initial-prototype, rename rebuild/restoration to main, and set the default to the new main. Verify both histories and original-source permalinks remain reachable. No force-update of main to an unrelated commit is needed.
-3. Prepare the future production package with WIKI_RELEASE_TARGET=production and WIKI_EDIT_BRANCH=main. Its edit links and target differ from staging; it needs its own artifact checksum and immutable production-version acceptance. Do not reuse the staging Worker version ID.
-4. Before executing the GitHub rename sequence, review protections, required check names, workflow branch filters, issue templates, current PR bases and edit/history links. GitHub may retarget settings/PRs during renames: compare actual state with the saved contract, explicitly protect new main, and preserve the archive. Retire old deployment workflows from active publication paths. Keep automatic production promotion disabled.
-5. Perform branch replacement only after Prd approves that action. Verify default main, CI, new edit targets and pinned histories immediately afterward. Coordinate this with the separately approved deployment window because the still-live prototype's main-based edit links otherwise point at the replacement tree.
+FreshWiki is default `main`; the archive branch and annotated `prototype/pre-restoration-83abc179` tag preserve the prototype at 83abc179fafa63b826d7f2662c4a18a134a9e6c1. The two histories remain independent. Do not repeat the rename sequence or merge prototype ancestry. Main retains strict check-and-stage, administrator enforcement and its review rule; the archive is locked and the tag protected against updates/deletion.
+
+The branch-swap receipt and saved controls are retained in the maintainer's release evidence. Recheck effective settings before promotion. Live prototype edit links that assumed its old main structure may encounter the new structure during this transition; historical commit links remain pinned.
 
 ## Later traffic promotion and rollback: separate approval required
 

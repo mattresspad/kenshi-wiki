@@ -1,0 +1,49 @@
+{
+  "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "baselineMain": "dc67a48ff6965d64d0a5c640d28bfa590eb894a2",
+  "restoredUnchanged": [
+    "SECURITY.md",
+    "CODE_OF_CONDUCT.md",
+    ".github/ISSUE_TEMPLATE/website.yml",
+    ".github/pull_request_template.md",
+    ".github/assets/pindrop.png"
+  ],
+  "adapted": [
+    "CONTRIBUTING.md",
+    "README.md",
+    "conversion/release/README.md"
+  ],
+  "preservedCurrent": [
+    ".github/ISSUE_TEMPLATE/article-correction.yml",
+    "LICENSE",
+    "LICENSING.md",
+    ".gitattributes",
+    ".gitignore",
+    ".node-version",
+    "package-lock.json"
+  ],
+  "historicalOnly": [
+    ".github/workflows/staging.yml",
+    "cloudflare.config.ts",
+    "worker/",
+    "public/notices/Vector-COPYING.txt",
+    "public/notices/MediaWiki-COPYING.txt",
+    "public/notices/MediaWiki-CREDITS.txt",
+    "public/notices/upstream-skin-source.zip"
+  ],
+  "replacedByIndependentImplementation": [
+    "astro.config.mjs",
+    "package.json",
+    "playwright.config.mjs",
+    "scripts/",
+    "src/"
+  ],
+  "nextPr": [
+    ".github/workflows/restoration.yml",
+    "scripts/release/"
+  ],
+  "privateReportingVerifiedEnabled": true,
+  "reportingContacts": "Existing GitHub private security reports and GitHub abuse reporting; no new email contact invented.",
+  "pinDropSha256": "d5ef4e2c0c33d79716880d2af4f81ec237405904e4b67ee1cc26936d120053ac",
+  "scope": "Repository-facing omissions; historical evidence is preserved and no article review is bulk-closed."
+}
