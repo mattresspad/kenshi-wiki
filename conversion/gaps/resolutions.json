@@ -1322,6 +1322,17 @@
       }
     },
     {
+      "id": "availability:/bandits",
+      "kind": "availability",
+      "target": "/bandits",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bandits"
+      }
+    },
+    {
       "id": "availability:/bank",
       "kind": "availability",
       "target": "/bank",
@@ -3203,6 +3214,17 @@
       }
     },
     {
+      "id": "availability:/carbon",
+      "kind": "availability",
+      "target": "/carbon",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/carbon"
+      }
+    },
+    {
       "id": "availability:/cargopants",
       "kind": "availability",
       "target": "/cargopants",
@@ -3651,6 +3673,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/chain-armour-crafting-tech"
+      }
+    },
+    {
+      "id": "availability:/chain-headwrap",
+      "kind": "availability",
+      "target": "/chain-headwrap",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/chain-headwrap"
       }
     },
     {
@@ -5018,6 +5051,17 @@
       }
     },
     {
+      "id": "availability:/dead-cat",
+      "kind": "availability",
+      "target": "/dead-cat",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dead-cat"
+      }
+    },
+    {
       "id": "availability:/dead-fishing-village",
       "kind": "availability",
       "target": "/dead-fishing-village",
@@ -5532,6 +5576,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/dried-fish"
+      }
+    },
+    {
+      "id": "availability:/dried-gristle-flaps",
+      "kind": "availability",
+      "target": "/dried-gristle-flaps",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dried-gristle-flaps"
       }
     },
     {
@@ -7193,6 +7248,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/flat-shelter"
+      }
+    },
+    {
+      "id": "availability:/flat-topper",
+      "kind": "availability",
+      "target": "/flat-topper",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/flat-topper"
       }
     },
     {
@@ -9011,6 +9077,17 @@
       }
     },
     {
+      "id": "availability:/heavy-iron-club",
+      "kind": "availability",
+      "target": "/heavy-iron-club",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/heavy-iron-club"
+      }
+    },
+    {
       "id": "availability:/heavy-jitte",
       "kind": "availability",
       "target": "/heavy-jitte",
@@ -10353,6 +10430,17 @@
       }
     },
     {
+      "id": "availability:/homemade",
+      "kind": "availability",
+      "target": "/homemade",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/homemade"
+      }
+    },
+    {
       "id": "availability:/hooded-empire-noble-guard",
       "kind": "availability",
       "target": "/hooded-empire-noble-guard",
@@ -10991,6 +11079,17 @@
       }
     },
     {
+      "id": "availability:/imperial-lords",
+      "kind": "availability",
+      "target": "/imperial-lords",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/imperial-lords"
+      }
+    },
+    {
       "id": "availability:/imprisonment-tech",
       "kind": "availability",
       "target": "/imprisonment-tech",
@@ -11351,6 +11450,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/izumi"
+      }
+    },
+    {
+      "id": "availability:/jacket",
+      "kind": "availability",
+      "target": "/jacket",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/jacket"
       }
     },
     {
@@ -13345,6 +13455,17 @@
       }
     },
     {
+      "id": "availability:/metal-purity",
+      "kind": "availability",
+      "target": "/metal-purity",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/metal-purity"
+      }
+    },
+    {
       "id": "availability:/metal-wallhouse",
       "kind": "availability",
       "target": "/metal-wallhouse",
@@ -13870,6 +13991,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/nameless"
+      }
+    },
+    {
+      "id": "availability:/narcotics",
+      "kind": "availability",
+      "target": "/narcotics",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/narcotics"
       }
     },
     {
@@ -14643,6 +14775,17 @@
       }
     },
     {
+      "id": "availability:/ore-mining",
+      "kind": "availability",
+      "target": "/ore-mining",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/ore-mining"
+      }
+    },
+    {
       "id": "availability:/oron",
       "kind": "availability",
       "target": "/oron",
@@ -15391,6 +15534,17 @@
       }
     },
     {
+      "id": "availability:/potatoes",
+      "kind": "availability",
+      "target": "/potatoes",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/potatoes"
+      }
+    },
+    {
       "id": "availability:/power",
       "kind": "availability",
       "target": "/power",
@@ -15685,6 +15839,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/raid"
+      }
+    },
+    {
+      "id": "availability:/raider-armour",
+      "kind": "availability",
+      "target": "/raider-armour",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/raider-armour"
       }
     },
     {
@@ -17162,6 +17327,17 @@
       }
     },
     {
+      "id": "availability:/sand-ninjas-alpha",
+      "kind": "availability",
+      "target": "/sand-ninjas-alpha",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/sand-ninjas-alpha"
+      }
+    },
+    {
       "id": "availability:/sandas-noble-guard",
       "kind": "availability",
       "target": "/sandas-noble-guard",
@@ -18600,6 +18776,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skeleton-resident"
+      }
+    },
+    {
+      "id": "availability:/skeleton-smiths-manufacturer",
+      "kind": "availability",
+      "target": "/skeleton-smiths-manufacturer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-smiths-manufacturer"
       }
     },
     {
@@ -21595,6 +21782,17 @@
       }
     },
     {
+      "id": "availability:/the-holy-empire",
+      "kind": "availability",
+      "target": "/the-holy-empire",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-holy-empire"
+      }
+    },
+    {
       "id": "availability:/the-holy-flame",
       "kind": "availability",
       "target": "/the-holy-flame",
@@ -21680,6 +21878,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/the-little-boy-that-got-dismembered-by-skeletons"
+      }
+    },
+    {
+      "id": "availability:/the-old-empire",
+      "kind": "availability",
+      "target": "/the-old-empire",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/the-old-empire"
       }
     },
     {
@@ -22519,6 +22728,17 @@
       }
     },
     {
+      "id": "availability:/truth-two",
+      "kind": "availability",
+      "target": "/truth-two",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/truth-two"
+      }
+    },
+    {
       "id": "availability:/turban",
       "kind": "availability",
       "target": "/turban",
@@ -22780,6 +23000,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/universal-wasteland-expansion-mod"
+      }
+    },
+    {
+      "id": "availability:/unknown-manufacturer",
+      "kind": "availability",
+      "target": "/unknown-manufacturer",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/manufacturers/acceptances.json#remaining-manufacturers-and-history",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/unknown-manufacturer"
       }
     },
     {

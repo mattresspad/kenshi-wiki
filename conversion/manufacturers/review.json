@@ -161,6 +161,374 @@
         "claim:manufacturers-historical-status"
       ],
       "assessment": "Preserve historical 6–10 patrol description, battle quotation credit, 11% female chance and helmetless-in-later-versions qualification. Do not conflate old lords with current captains."
+    },
+    {
+      "id": "bandits",
+      "existence": "Permanent ID, address, pinned checksum, categories and one factions/historical/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Bandits are the most common enemy found in Kenshi. They are broken into two groups - Dust Bandits and Starving Bandits. Bandits tend to travel into groups of 3-8 and are automatically hostile to everyone, including other bandit groups. Bandits also follow a leader (or boss) of their small pack, who has marginally better attributes and equipment. They are not as powerful as Sand Ninjas, however, they do travel in larger groups. Dust Bandits Shrieking Bandits Shrieking Bandits Attributes Ranges from 15-35 Equipment Weapons - Cleavers Clothing - None Starving Bandits",
+      "organization": "Reviewed 4 headings and 3 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bandits.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e178f644890c44400171f4fa93837dab9c6b763ba5b51144736b8b469d992368"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-status"
+      ],
+      "assessment": "Historical overview retains group sizes 3–8 and old Dust/Starving/Shrieking tables. Blank/uneven cells and hostile-to-everyone wording remain inherited claims."
+    },
+    {
+      "id": "carbon",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Carbon was originally intended to be a source of fuel. It would have been able to be mined, similar to Iron Ore or Copper. This functionality was scrapped in later versions of the FCS, and it is not currently used for anything as of 1.0.22.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/carbon.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "781f31feea11251ea368a75a3935c34f0d7fbddf8eec7e663ce29b0ebde3b8a3"
+      },
+      "questions": [
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-media",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Retain surviving unused-record properties and explicit 1.0.22 qualification; proposed mining/fuel functionality is distinct from implemented behavior."
+    },
+    {
+      "id": "chain-headwrap",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Chain Headwrap is armour equipped in the headgear slot. It currently does not belong to any armour class and is listed as being made from cloth. Appearance Chain Headwrap and Blackened Chain Headwrap are identical in appearance with the exception of the color. The wrap, which is roughly the width of a hand, wraps around the character’s head starting at the brow. It covers a fair portion of the skull but leaves the neck, face and top of the head exposed to strikes. Stats Blueprints As of 0.50.3 blueprints for the Chain Headwrap are not implemented into the game but available through use of the Forgotten Construction Set or modded games. The armour can then be crafted through a Chain Armour Crafting Bench.",
+      "organization": "Reviewed 3 headings and 3 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/chain-headwrap.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "164b91490845a183b0f5ee931186eca8140c2673e9627b1a2f8bec680906349b"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-quality",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Preserve all cloth-grade values, coverage, unfilled image area, appearance comparison and 0.50.3 crafting instructions without treating them as current availability."
+    },
+    {
+      "id": "dead-cat",
+      "existence": "Permanent ID, address, pinned checksum, categories and one factions/historical/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This article is about the Old World faction. For the faction found in the current game, see Deadcat. Dead Cat is a neutral faction that own the towns of Catan, Clownsteady, Telbooze, Bark and Heft. Dead Cat is protected by Mercenaries and Police. Currently this faction does not have any patrols associated with it but on occasion the Police in town will wander off. Since these towns do have Police, they are a good place turn in bounties. Dead Cat starts out with a negative relation with The Holy Nation. If you start a game with a Holy Sword character you will spawn in Catan. NPCs Citizen Mercenary Captain Mercenary Mercenary Heavy Police Trader",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dead-cat.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "b426d2c704924c5581968a80bce3ed251a15c280011c8a972075c976840dbb32"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-relations",
+        "claim:manufacturers-historical-status"
+      ],
+      "assessment": "Keep the Old World disambiguation to Deadcat, historical town names, negative relations and Holy Sword start claim. Distinct old and current addresses remain."
+    },
+    {
+      "id": "dried-gristle-flaps",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Dried Gristle Flaps is a retired food item which was made from Foul Raw Meat. Ingredients Foul Raw Meat Trivia Player characters occasionally reference it when they travel.",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dried-gristle-flaps.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "bc3addbddbc136bee4525f520a6b630fbd2789fb5b43496c8d885ddea69f9780"
+      },
+      "questions": [
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-media",
+        "claim:manufacturers-quality",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Preserve 7.5nu, 1kg, c.40, literal item caption and Foul Raw Meat ingredient. Dialogue references do not establish obtainable food."
+    },
+    {
+      "id": "flat-topper",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A Flat Topper is a Hacker Class weapon. It has a nice balance between cutting and blunt damage. Hackers are considered a thug’s weapon due to the fact that they require brute force rather than any skill, however this does make them easy to use. Flat Toppers were removed from Kenshi when the map overhaul was released, and their niche was replaced with Longswords. Although the weapon has been removed from the game world and can no longer be found, the weapon’s model still exists in the game files and can be restored through a mod. Related skill The Hacker skill determines damage with weapons classified as Hackers. Variations All possible variations in an un-modded Old World game. Manufacturer Homemade",
+      "organization": "Reviewed 4 headings and 3 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/flat-topper.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "43d86a3e804f047b94da1c19891056220a19c26571c3ca070ae52dc5d6c68de5"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-blank-comparisons",
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Retain removed-world versus surviving-model distinction and both nine-column historical matrices, including all blank values, bonuses and obsolete model names. No sorting or inferred zeros."
+    },
+    {
+      "id": "heavy-iron-club",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Heavy Clubs were weapons which could have been created by the player’s faction. Blueprints were not required, they are craftable as soon as a Weapon Smith is created, just like normal Iron Clubs. Heavy Iron Clubs were considered part of the Blunt class, and were the heaviest weapons available, with the heaviest weighing in at a staggering 64 kilograms. They inflict massive blunt damage, but cause little bleeding and, unless their wielder is extremely strong, will be swung very slowly. Related Skill The Blunt skill determines the amount of damage a Heavy Club will inflict. Variations All possible variations in an un-modded Old World game. Manufacturer Homemade Trivia When originally implemented Heavy Iron Clubs were classified as Heavy Weapons. This was fixed with version 0.90.0 when the Blunt class was implemented.",
+      "organization": "Reviewed 5 headings and 3 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/heavy-iron-club.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "feaaee78a7a0140d0eea54b992f3c7e2cd14a2bb0bc57ff36670851770d1716b"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-blank-comparisons",
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-relations",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Preserve no-blueprint/bench claim, maximum 64kg description, fixed historical matrices and 0.90.0 class-change qualification. No inference about modern crafting."
+    },
+    {
+      "id": "homemade",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/manufacturers/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This weapon was made by your faction.In-game description Homemade weapons are weapons crafted by players using the Weapon Smithing Bench. The model made is determined by several factors: The character’s Weapon Smith skill, with each model being unlocked in 5 or 10 level intervals. The skill also determines critical chance - the chance to create a weapon one model higher than normally allowed. The Weapon Smithing Bench. Barring criticals, a level 1 Bench will allow crafting until Refitted Blade quality, a level 2 Bench will allow until Catun No. 3 quality, and a level 3 Bench will allow the maximum researchable quality Edge Type 1. Unlocked Research. Each level of Basic Weapon Grades allows crafting weapons until Catun No. 1 quality. Advanced Weapon Grades is required for crafting models until Mk III quality, and Edgewalkers is required for the Edge Type 1 quality. Any weapon made by the player faction will appear as created by this manufacturer, along with the name of the specific smith of player’s faction who made it (for example “Ruka of Nameless”). Playing with faction name and smith’s name can lead to interesting results such as “Weapon of Hunters” for a weapon made by a character named “Weapon” of the “Hunters” faction or “Side Blade of Archers” made by a character named “Side Blade” of the “Archers” faction. With a heavy reliance on the Plastic Surgeon this trick can be used to standardize the weapons and create uniform sets of weapons (and armour). When compared to other manufacturers, Homemade weapons have no inherent bonus or penalty. As such, Homemade weapons are the standard for weapon values. In game, however, usually translates to Homemade weapons being slightly inferior to the equal model of another Manufacturer. For example, they have lesser blunt damage (but are lighter) than the Catun Scrapmasters’ weapons and lesser cut damage than the Edgewalkers’ weapons. The only case in which Homemade weapons are superior (damage wise) to normal Manufacturer weapons is at Ancient quality as they suffer from a 0.9x cut damage modifier. You are unable to (Even if you crit) smith Homemade Edge Type 3 weapons. (Level) & Model (5) Rusted Junk (10) Rusting Blade (15) Mid-Grade Salvage (20) Old Refitted Blade (25) Refitted Blade (30) Catun No.1 (35) Catun No.2 (40) Catun No.3 (50) Mk I (55) Mk II (60) Mk III (70) Edge Type 1 (75) Edge Type 2",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/homemade.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "27d06cca8537543163bdfafb805c399eb5ce0329a9845f5b012340bd0b28d348"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-crafting-limits",
+        "claim:manufacturers-historical-relations",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-quality"
+      ],
+      "assessment": "Keep skill levels, critical outcomes, bench/research constraints, named smith examples and all models. Potential ambiguity around researchable Edge Type 1 versus critical Type 2 remains open."
+    },
+    {
+      "id": "imperial-lords",
+      "existence": "Permanent ID, address, pinned checksum, categories and one factions/historical/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Imperial Lords are a Samurai based faction that roams the lands, hunting and killing hostile factions (in the Alpha version of the game). They primarily patrol the north-western areas near Catun, Brink, Shark, and Clownsteady. Though meeting is often rare, the Imperial Lords appear to engage anyone from The Holy Empire that walks into their sight. Later during development the Imperial Lords have morphed into the United Cities faction ruled by the Noble Circle. The Imperial Lords can still appear in your relations if you pick The Holy Sword start. Statistics The Imperial Lords are much fewer in numbers than The Holy Empire, however they show clear ability to wipe out entire units of The Holy Empire, with minimal issue or injury. Average stats within the Imperial Lords range from 28-37. Samurai Lords are leaders of the Imperial Lords’ patrols. Help in Game-play With the powerful stats the Imperial Lords present, they are perfect units for using the ‘join the army’ method of starting a game, especially if you start as the retired captain.",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/imperial-lords.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "367e6b92382c6122cfb837ec410c707e4e102286c62c0fce830dffa091152c1b"
+      },
+      "questions": [
+        "claim:manufacturers-historical-relations",
+        "claim:manufacturers-historical-status"
+      ],
+      "assessment": "Classified as a historical faction, not an individual character. Preserve 28–37 stats, Alpha patrol destinations, Noble Circle relationship and start-dependent relation claims."
+    },
+    {
+      "id": "jacket",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Jacket is armor in Old World that can be used as a body armour for the player. As of 0.50.1 it currently does not belong to any Armour Class and can only be purchased. Currently the only way to obtain the Jacket is to buy it from an Armour Trader. Additionally there is a graphic glitch for characters wearing a Jacket. The armour does not recognize the character’s right arm so the jacket’s sleeve hangs loose not following whatever action is being performed. Appearance The Jacket is a beige colored fabric jacket that has leather reinforcing patches just above the shoulder on both sides. The Jacket is held closed with a belt that wraps around the character’s waist. Stats",
+      "organization": "Reviewed 2 headings and 2 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/jacket.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "de7d98654019ed5c3f6006096dbab4bc4ddce80e976aeae8ecc914deb936a67d"
+      },
+      "questions": [
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Retain 0.50.1 qualification, purchase-only statement, historical sleeve glitch, appearance and matrix. No missing class or cloth properties assigned."
+    },
+    {
+      "id": "metal-purity",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/manufacturers/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: A company from the Holy Empire that makes knock-off Eye Blade weapons and passes them off as their own.In-game description Metal Purity was a weapon manufacturer company in the Alpha version of the game. Overview Metal Purity is an average-grade mass manufacturer of weapons. Their quality is average and tend to be cheaper and weaker than other manufacturers. Though their weapons perform better than rusted weapons from Unknown manufacturers. Metal Purity does not produce Flesh Cleaver, Fragment Axe, Heavy Iron Club, or Iron Club type weapons. Models 002 003 Industrial 004 Industrial 005 Trivia Used to be called General Metal but was renamed.",
+      "organization": "Reviewed 3 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/metal-purity.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "c6491a066871cad562a5aed3c9f593d092e30cf2dda1d54545b6d90c7bc39688"
+      },
+      "questions": [
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-old-destinations",
+        "claim:manufacturers-quality"
+      ],
+      "assessment": "Preserve removed notice, Holy Empire in-world description, weapon exclusions, four models and General Metal rename. The old company is not replaced by a current manufacturer."
+    },
+    {
+      "id": "narcotics",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Narcotics were once a Trade Good in older versions of Kenshi that could be bought and sold to make a profit. They were sold by traders in towns. The item was introduced in the game at the same time as Hashish and took up the same space and had the same function as Hashish, which is likely the reason why it was removed.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/narcotics.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "561613ce8e1394d279ba71df45eb44d6abde9ac8e2bb13769eed5bd85e123f10"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Keep c.282 average price and likely removal explanation beside Hashish as a speculation. Retain unmapped-name category; no item art or modern availability inferred."
+    },
+    {
+      "id": "ore-mining",
+      "existence": "Permanent ID, address, pinned checksum, categories and one gameplay/technology/historical/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Can't make much without metal can we?In-game description In Early builds of the game this tech was required to build Ore Mines, which were resource production buildings that generated the raw material Raw Iron. Ore nodes are now found on the map and can be mined manually, or ore can be extracted via use of an Ore Drill. Research Tree Ore Mining Ore Mining 2 Ore Mining 3",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/ore-mining.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "a132fcee05ce3aa229c8dcce39e134bb0c61ab38352ee55410e702863f706cfb"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-status"
+      ],
+      "assessment": "Classified as historical research under gameplay/technology; preserve research time and unlock panel, in-world quotation, and three-level tree. Distinct from ore extraction work."
+    },
+    {
+      "id": "potatoes",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Potatoes are retired trade good item. Their icon has occasionally been reused in game for other items before those items were designed their own icon, such as Fog Prince Head. Details Weight - 4kg Average Price - c.60 Size - 4x4 Stacks in sizes of 8",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/potatoes.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "ea387f546a81fcbed959938c4dcf81025f6a8d52eb6ff10b7594550a93f6131f"
+      },
+      "questions": [
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-potato-price",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Retain both c.300 base value and c.60 prose average price, 4kg, 4x4 and stacks of eight. Register the price discrepancy instead of picking a value."
+    },
+    {
+      "id": "raider-armour",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/retired/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Raider Armour is a non-armour class item that is made from cloth. It is not in the current build of the game as of update 0.50.3 so there is no way to get the armour other than using a modded game file. Appearance Raider Armour looks similar to hockey or football pads. According to the in-game stats of the armour, they are made from a black cloth and cover the upper torso of the character. Shoulder pauldrons protect the upper arms and spikes running along the shoulders on both side jut up offering some protection to the neck and head. An additional piece of armour rests at the abdomen level to protect from possible blows to the stomach. Stats Crafting As of 0.50.1 blueprints for Raider Armour are not implemented into the game but available through use of the Forgotten Construction Set or modded games. Despite being cloth armour once unlocked Raider Armour is crafted at a Heavy Armour Smithy.",
+      "organization": "Reviewed 3 headings and 3 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/raider-armour.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "9dac5961a540b32eee2758c07c6727c6d9e1e1852b289655cc954fc8cca8bd93"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-quality",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Preserve 0.50.3 availability, 0.50.1 blueprint qualification, cloth description, heavy smithy instruction, coverage and matrix without reconciling the mismatch."
+    },
+    {
+      "id": "sand-ninjas-alpha",
+      "existence": "Permanent ID, address, pinned checksum, categories and one factions/historical/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Sand Ninjas is a cult of highly skilled highwaymen. They attack passerbys with skilled combat to slay the weak. Some ninjas must go through cult challenges to prove their worthy as lieutenants, such as surviving the badlands alone. Uncommonly found, the Sand Ninjas are typically more dangerous than the Starving Bandits and Dust Bandits. NPCs Sand Ninja Sand Ninja Jounin",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/sand-ninjas-alpha.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "80a9c6bc02d24ea1956e03d52e86842faec48391d8dafb8839ff507cbf91a93e"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-relations",
+        "claim:manufacturers-historical-status"
+      ],
+      "assessment": "Retain removed notice, qualified origin/encounter prose and both NPC destinations. Current Sand Ninjas are not substituted for the Alpha page."
+    },
+    {
+      "id": "skeleton-smiths-manufacturer",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/manufacturers/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Skeletons from the Black Desert City produce blades solely for personal use, however it's inevitable that some eventually end up in circulation.In-game description Skeleton Smiths weapons are weapons from the Black Desert City that have found their way across the world. Overview Made by the Skeletons from the Black Desert City, these are some of the best weapons around. As such, they are more expensive than normal. These are often wielded by wandering Skeletons and some of the other strongest characters in the game, or found as Artifacts in ruins. Mods Price: 1.2x Blunt Damage: 1x Cut Damage: 1x Min Cut Damage: 1x Weight: 1x Models Mk I Mk II Mk III Trivia The model of the blades named by Mk, is the same as how some Skeleton races are named with examples such as Screamer MkI, and Skeleton P4MkII.",
+      "organization": "Reviewed 4 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-smiths-manufacturer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "96433b49f50f9db771c7b0ab92405962c47bb441acdf44ace0ad0093c29cf5bc"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-quality",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Keep credited in-world quotation, Black Desert City relationship, 1.2x price and three Mk models. Circulation/artifact claims remain imported."
+    },
+    {
+      "id": "the-holy-empire",
+      "existence": "Permanent ID, address, pinned checksum, categories and one factions/historical/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Holy Empire were a neutral faction (or hostile depending on what character you start with) that owned the towns of Shark, EyeSocket, Black Scratch, Skinner’s Roam and Fort Simion in the Oldworld. You could often find 6-8 men patrols of the Holy Empire roaming the desert. Soldiers of the Holy Nation used Horse Choppers and Straight Cleavers. If you start with the Retired Captain or Holy Sword character start, they will be hostile toward you. They evolved into The Holy Nation in the final game. NPCs Citizen Holy Servant Holy Paladin Trader",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-holy-empire.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f9b9751a095d063f6fe906988a7a8db39a5e550003e8e767029598b5fe78ff80"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-relations",
+        "claim:manufacturers-historical-status"
+      ],
+      "assessment": "Retain old towns, 6–8 patrol sizes, start-dependent hostility and evolution into The Holy Nation. Current world ownership must not overwrite historical claims."
+    },
+    {
+      "id": "the-old-empire",
+      "existence": "Permanent ID, address, pinned checksum, categories and one factions/historical/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: The Old Empire is an unused faction found in the game files. Empty Ruin, Old Empire Watchtower and The Forgotten Throne used to be owned by this faction for a brief period. Since two of these locations now belong to the Second Empire (Forgotten Throne being unused in the released game), it is possible that The Old Empire was a precursor to the Second Empire faction that was later scrapped. Relations Deadcat (-100) Dust Bandits (-100) Sand Ninjas (-100) Shek Kingdom (-100) Slave Traders (-100) Starving Bandits (-100) The Holy Nation (-100) Traders Guild (-100) United Cities (-100) Old Machines (0) Skeleton Legion (0)",
+      "organization": "Reviewed 1 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/the-old-empire.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e5810286fd627ca0e316190bcfd9ad5bfb1349b03c72c54d96fb317251fed887"
+      },
+      "questions": [
+        "claim:manufacturers-availability",
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-relations",
+        "claim:manufacturers-historical-status"
+      ],
+      "assessment": "Keep unused-record status, possible precursor theory and all eleven relation signs/values, including neutral Old Machines and Skeleton Legion."
+    },
+    {
+      "id": "truth-two",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/manufacturers/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: Some of the finest blades in the world.In-game description Don't even get me started on those Truth Two clowns. Overheat their blades like tough jerky on a bonfire...Catun Scrapmaster Truth Two is a high-grade manufacturer of weapons. Their quality is relatively high, as is their price and damage. They perform better than all other manufacturers except Edgewalkers. Truth Two does not produce the Flesh Cleaver, Heavy Iron Club, Iron Club, Ninja Blade, or Slim Katana type weapons. In the FCS, it claims “These weapon types are under factory recall. Their stats will deteriorate over time. Please sell them and buy something else.” Models Mk III Mk IV Mk V Mk VI Trivia Weapons of this manufacturer are no longer obtainable in the current version of the game. Weapons of this manufacturer can be transferred to the current version of the game by importing a savefile from an older version.",
+      "organization": "Reviewed 2 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/truth-two.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "10392967034b97e93d0ec0e7030811bf3f2904d7319f4e2fd1b5a94a3e606c7a"
+      },
+      "questions": [
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-quality",
+        "claim:manufacturers-save-import"
+      ],
+      "assessment": "Retain both quotations with speakers, recalled-weapon wording, excluded types, four Mk models and save-import claim. No persistence test or deterioration guarantee implied."
+    },
+    {
+      "id": "unknown-manufacturer",
+      "existence": "Permanent ID, address, pinned checksum, categories and one items/manufacturers/ editable home checked.",
+      "content": "Narrative and qualifications reviewed: This weapon is probably a few hundred years old, any indentifiable[sic] markings have long since rusted away.In-game description Unknown weapons are weapons which have no identifiable manufacturers. Overview Unknown weapons have no identifiable manufacturer due to being oxidized by nature and are particularly low-grade. Their quality is generally weak and very unsuitable for combat. But on the upside, they’re extremely cheap to buy. They deal less damage than any other manufacturer. Various bandit groups such as Starving Bandits and Dust Bandits often wield weapons made by this manufacturer. Consider using weapons of this grade for training attack, dexterity and defense as at Rusted junk quality you’ll get more experience, on top of doing less damage when compared to the other manufacturers. Mods Price: 0.3x Blunt Damage: 1x Cut Damage: 1x Min Cut Damage: 1x Weight: 1x Models Rusted Junk (Also has modifier of -1 attack as well as -1 defense) Rusting Blade Trivia There was once a third grade of Unknown weapon below Rusted Junk called Totally Rusted Junk.",
+      "organization": "Reviewed 4 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/unknown-manufacturer.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "e93d1feb2000c584fe68b97e594eb0edd10722c38223f609ff509c577a2590a6"
+      },
+      "questions": [
+        "claim:manufacturers-historical-claims",
+        "claim:manufacturers-historical-status",
+        "claim:manufacturers-quality",
+        "claim:manufacturers-retired-properties"
+      ],
+      "assessment": "Preserve sic marker, 0.3x price, -1 attack/defence qualification, training advice and historical Totally Rusted Junk note. No unverified training calculation substituted."
     }
   ],
   "editorialChanges": []

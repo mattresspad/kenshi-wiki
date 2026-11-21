@@ -6706,6 +6706,90 @@
     "samurai-lord": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "bandits": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "carbon": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "chain-headwrap": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "dead-cat": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "dried-gristle-flaps": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "flat-topper": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "heavy-iron-club": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "homemade": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "imperial-lords": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "jacket": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "metal-purity": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "narcotics": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "ore-mining": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "potatoes": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "raider-armour": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "sand-ninjas-alpha": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "skeleton-smiths-manufacturer": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "the-holy-empire": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "the-old-empire": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "truth-two": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "unknown-manufacturer": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/manufacturers/review.json"
     }
   },
   "mediaGaps": [

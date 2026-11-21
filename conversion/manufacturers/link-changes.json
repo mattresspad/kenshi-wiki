@@ -33,5 +33,36 @@
       "/shopkeepers-backpack"
     ],
     "introduced": []
+  },
+  {
+    "name": "remaining-manufacturers-and-history",
+    "resolved": [
+      "/bandits",
+      "/carbon",
+      "/chain-headwrap",
+      "/dead-cat",
+      "/dried-gristle-flaps",
+      "/flat-topper",
+      "/heavy-iron-club",
+      "/homemade",
+      "/imperial-lords",
+      "/jacket",
+      "/metal-purity",
+      "/narcotics",
+      "/ore-mining",
+      "/potatoes",
+      "/raider-armour",
+      "/sand-ninjas-alpha",
+      "/skeleton-smiths",
+      "/skeleton-smiths-manufacturer",
+      "/the-holy-empire",
+      "/the-old-empire",
+      "/truth-two",
+      "/unknown",
+      "/unknown-manufacturer"
+    ],
+    "introduced": [
+      "/category/pages-with-unmapped-item-name"
+    ]
   }
 ]
