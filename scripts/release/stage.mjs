@@ -8,6 +8,7 @@ import {read,save,cf,git,hashes,clean} from './common.mjs';
 const release=releaseConfiguration(),candidate=read('reports/release/candidate.json');assertStaging(release,candidate);clean();assert.equal(candidate.sourceSha,git('rev-parse','HEAD'));assert.deepEqual(hashes(resolve('.cloudflare/output')),candidate.packageFiles);
 const {workers}=await readBuildOutput(process.cwd());assert.equal(workers.default.config.name,'kenshi-wiki-restoration');assert.equal(workers.default.config.assets.notFoundHandling,'404-page');
 assertRehearsal(process.env,candidate.sourceSha);
+assert.equal(git('ls-remote','origin','refs/heads/main').split(/\s+/)[0],candidate.sourceSha,'Staging requires the current main commit');
 if(process.env.GITHUB_ACTIONS){const r=await fetch('https://api.github.com/repos/mattresspad/kenshi-wiki/git/ref/heads/main',{headers:{Authorization:'Bearer '+process.env.GITHUB_TOKEN,Accept:'application/vnd.github+json'}});assert.ok(r.ok);assert.equal((await r.json()).object.sha,candidate.sourceSha,'A newer candidate exists; do not stage this run');}
 const list=spawnSync(process.execPath,[cf,'workers','deployments','list','--worker',release.worker],{encoding:'utf8'});
 let bootstrap=false;if(list.status!==0){assert.match(list.stderr,/10007|does not exist/);bootstrap=true;}
