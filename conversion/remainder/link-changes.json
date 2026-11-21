@@ -30,5 +30,18 @@
     "introduced": [
       "/category/world-elements"
     ]
+  },
+  {
+    "name": "historical-wiki",
+    "resolved": [
+      "/kenshi-dedicated-server-providers"
+    ],
+    "introduced": [
+      "/category/lua-based-templates",
+      "/kenshi-wiki/community-portal",
+      "/kenshi-wiki/editor-reference-guide",
+      "/kenshi-wiki/rules",
+      "/kenshi-wiki/sandbox"
+    ]
   }
 ]

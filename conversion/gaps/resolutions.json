@@ -5260,6 +5260,17 @@
       }
     },
     {
+      "id": "availability:/dedicated-server-providers/rules",
+      "kind": "availability",
+      "target": "/dedicated-server-providers/rules",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#historical-wiki",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/dedicated-server-providers/rules"
+      }
+    },
+    {
       "id": "availability:/defense-tech",
       "kind": "availability",
       "target": "/defense-tech",
@@ -11695,6 +11706,17 @@
       }
     },
     {
+      "id": "availability:/kenshi-dedicated-server-providers",
+      "kind": "availability",
+      "target": "/kenshi-dedicated-server-providers",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#historical-wiki",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/kenshi-dedicated-server-providers"
+      }
+    },
+    {
       "id": "availability:/kenshi-original-soundtrack",
       "kind": "availability",
       "target": "/kenshi-original-soundtrack",
@@ -11714,6 +11736,28 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/kenshi-unofficial-multiplayer-mod"
+      }
+    },
+    {
+      "id": "availability:/kenshi-wiki",
+      "kind": "availability",
+      "target": "/kenshi-wiki",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#historical-wiki",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/kenshi-wiki"
+      }
+    },
+    {
+      "id": "availability:/kenshi/lua",
+      "kind": "availability",
+      "target": "/kenshi/lua",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#historical-wiki",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/kenshi/lua"
       }
     },
     {

@@ -185,6 +185,68 @@
         "claim:remainder-world"
       ],
       "assessment": "Historical ruler relationships and Puppet source link inspected. Preserve the belief qualification around Longen and the nobles; narrative inference remains open."
+    },
+    {
+      "id": "kenshi-wiki",
+      "existence": "Permanent ID, address, pinned checksum, categories and one reference/wiki/ editable home checked.",
+      "content": "Old Fandom landing-page material, its counts and four layout tables inspected. Preserve as a labeled historical document; it does not describe the current rebuild's services or totals.",
+      "organization": "Reviewed 3 headings and 4 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/kenshi-wiki.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "1272c0b65a82aac651ebebfb7369ccf6441952199f92b10ae5794da8c898d986"
+      },
+      "questions": [
+        "claim:remainder-historical-wiki",
+        "claim:remainder-media"
+      ],
+      "assessment": "Old Fandom landing-page material, its counts and four layout tables inspected. Preserve as a labeled historical document; it does not describe the current rebuild's services or totals."
+    },
+    {
+      "id": "kenshi/lua",
+      "existence": "Permanent ID, address, pinned checksum, categories and one reference/wiki/ editable home checked.",
+      "content": "Historical Scribunto/module/template instructions inspected. Explicitly distinguish them from the current Git-backed Astro wiki; retain source examples and related links.",
+      "organization": "Reviewed 1 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/kenshi/lua.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "3214d41d13a676593e171b35240f8638435d72613bf4d8d1ea8a964263279309"
+      },
+      "questions": [
+        "claim:remainder-historical-wiki"
+      ],
+      "assessment": "Historical Scribunto/module/template instructions inspected. Explicitly distinguish them from the current Git-backed Astro wiki; retain source examples and related links."
+    },
+    {
+      "id": "kenshi-dedicated-server-providers",
+      "existence": "Permanent ID, address, pinned checksum, categories and one reference/multiplayer/ editable home checked.",
+      "content": "Inherited provider table and minimum-slot price qualification inspected. Preserve values, blank cells, locations and features as historical listings, without implying verified present service availability.",
+      "organization": "Reviewed 0 headings and 1 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/kenshi-dedicated-server-providers.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "40464aede2297918053f74d992c7bb3e8dd9c411250cef1ebc819a0e95b9184c"
+      },
+      "questions": [
+        "claim:remainder-historical-wiki",
+        "claim:remainder-provider-mismatch"
+      ],
+      "assessment": "Inherited provider table and minimum-slot price qualification inspected. Preserve values, blank cells, locations and features as historical listings, without implying verified present service availability."
+    },
+    {
+      "id": "dedicated-server-providers/rules",
+      "existence": "Permanent ID, address, pinned checksum, categories and one reference/multiplayer/ editable home checked.",
+      "content": "Inherited listing-editing and moderation instructions inspected. Preserve as historical Fandom policy; it does not establish present FreshWiki permissions or sanctions.",
+      "organization": "Reviewed 0 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/dedicated-server-providers/rules.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "11635465c60b4a53d370c9e8941642a33b5d024b49126d54811d8e6f5c746bbc"
+      },
+      "questions": [
+        "claim:remainder-historical-wiki"
+      ],
+      "assessment": "Inherited listing-editing and moderation instructions inspected. Preserve as historical Fandom policy; it does not establish present FreshWiki permissions or sanctions."
     }
   ],
   "editorialChanges": []
