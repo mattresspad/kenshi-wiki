@@ -21,3 +21,7 @@ The ninth checkpoint is `../pr44/acceptances.json`; its build, catalog, full bro
 At the separately approved public restoration milestone, submit the credited child-branch diff to `rebuild/restoration` and cross-reference the original PR. Only reconcile/close #44 once that replacement contribution is merged and its disposition is recorded before the branch swap. `PR-DRAFT.md` supplies local draft wording; it has not been posted.
 
 The child branch is carried forward over the Manufacturers baseline at 72c9f4f026508ec42866fdc8ed493675874d4d0b. `compatibility-manufacturers.json` records the combined 2,169-article / 2,209-page acceptance, including 54 catalog tests and 208 browser tests. The original ninth checkpoint remains historical evidence; its counts are not rewritten. Original contribution text, version matrix and accepted article are unchanged.
+
+## Final corpus carry-forward
+
+The local child branch now follows rebuild/restoration at 6f8c6df. Its original pre-corpus tip, 13e4811, is retained at local-backup/pr44-before-corpus. The original source, authorship, version matrix and earlier acceptance records remain unchanged. Final corpus/queue validation uses scripts/remainder/combined.mjs and records separate compatibility-corpus.json evidence; it does not rewrite the 2,176-page original acceptance. PR #44 remains open and no public action is authorized by this local carry-forward.
