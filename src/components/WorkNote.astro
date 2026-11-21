@@ -1,0 +1,10 @@
+---
+import {readWorkIndex} from '../lib/work-data.mjs';
+import {workMarkings} from '../lib/work-index.mjs';
+const {wiki,articleId}=Astro.props;
+const work=(await readWorkIndex(wiki)).byId.get(articleId);
+---
+{work?.markings.length>0 && <aside lang="en" class="work-note" aria-label="Article maintenance status" data-work-note={articleId}>
+ <p>{work.markings.map((key,index)=><>{index>0?' · ':''}<span data-work-mark={key}>{workMarkings[key]}</span></>)}</p>
+ <a href={work.queueHref}>Work on this page{work.open.length>0?' · '+work.open.length+' open '+(work.open.length===1?'task':'tasks'):''}</a>
+</aside>}

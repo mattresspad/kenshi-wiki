@@ -1,0 +1,13 @@
+.work-page {padding:20px 24px 32px;max-width:100%;overflow-wrap:anywhere}
+.work-page h1 {margin:0 0 12px}.work-page h2 {font-size:1.2rem;margin:0 0 8px}.work-key {margin-block:16px}.work-key dd {margin:0 0 10px}
+.work-filters {display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin-block:18px}.work-filters label {display:grid;gap:4px;min-width:0;max-width:100%}.work-filters :is(input,select,button) {font:inherit;color:var(--text);background:var(--page);border:1px solid var(--edge);padding:6px;max-width:100%;min-width:0}
+.work-actions,.work-pagination {display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline}.work-pagination {margin-block:18px;gap:6px}.work-pagination a {padding:3px 8px;border:1px solid var(--edge)}.work-pagination [aria-current] {font-weight:bold;background:var(--hover)}
+.work-entry {border:1px solid var(--edge);padding:16px;margin:16px 0;scroll-margin-block:12px}.work-entry:target {border-left:3px solid var(--brass)}.work-marks {display:flex;flex-wrap:wrap;gap:8px}.work-marks span {border:1px solid var(--edge);padding:2px 6px;font-size:.9rem}
+.work-task {margin-block:12px;border-top:1px solid var(--edge);padding-top:10px}.work-task summary {cursor:pointer}.work-task summary>span {display:block;font-size:.85rem;color:var(--quiet)}.work-task p,.work-task ul {max-width:95ch}.work-file,.work-checksum,.work-literal {display:block;white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%}.work-literal {font-size:.9rem;margin:4px 0 10px}.work-page code {overflow-wrap:anywhere;white-space:pre-wrap}.work-actions details {max-width:100%;min-width:0}.work-actions details[open] {width:100%}
+.work-note {margin:18px 0;padding:10px 12px;border-left:3px solid var(--brass);background:var(--cell);max-width:80ch;font-size:.9rem}.work-note p {margin:0 0 4px}.work-note a {display:inline-block}
+[hidden] {display:none!important}
+@media(max-width:760px){.work-page{padding:16px}.work-entry{padding:12px}.work-filters label{width:100%}.work-filters :is(input,select){width:100%}}
+@media print{.work-filters,.work-pagination{display:none}.work-task{break-inside:avoid}}
+
+.maintenance-nav{border-top:1px solid var(--edge);margin-top:18px;padding-top:10px;font-size:13px}
+.work-page select:focus-visible{outline:2px solid var(--focus);outline-offset:2px}

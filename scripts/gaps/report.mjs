@@ -1,3 +1,6 @@
+import {projectWorkIndex,compactWorkIndex} from '../../src/lib/work-index.mjs';
+import {resolveWorkFindings} from '../../src/lib/work-findings.mjs';
+import {workRoute} from '../../src/lib/work-routes.mjs';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdirSync,existsSync} from 'node:fs';
 import {join} from 'node:path';
@@ -20,7 +23,7 @@ export function reportGaps(atlas,articleReviews={}) {
   assert.equal(curatedIds.size,curated.findings.length,'Duplicate gap IDs');
   for(const id of detected.keys())assert.ok(curatedIds.has(id),'Unregistered finding '+id);
   const redirects=new Map(snapshot.redirects.map(r=>[r.from,r.to]));
-  const registered=new Set([...atlas.articles.keys(),...[...atlas.categories.values()].map(c=>c.path),...snapshot.portals,...snapshot.utilities,...snapshot.endpoints,...Object.keys(baseline.assets)]);
+  const registered=new Set([...atlas.articles.keys(),...[...atlas.categories.values()].map(c=>c.path),...snapshot.portals,...snapshot.utilities,...snapshot.endpoints,workRoute,...Object.keys(baseline.assets)]);
   const local=new Map();
   for(const path of atlas.local){
     const id=atlas.articles.get(path)?.id??'route:'+path;
@@ -29,6 +32,7 @@ export function reportGaps(atlas,articleReviews={}) {
   const currentSourcePages=baseline.pages.map(p=>({...p,path:atlas.byId.get(p.id)?.path??p.path}));
   const currentProblems=[];
   for(const page of local.values()){
+    if(page.path===workRoute || page.path.startsWith(workRoute+'/'))continue;
     const old=sourcePages.get(page.id);
     for(const problem of regressions(page,old,currentSourcePages,registered,redirects,local,path=>existsSync(join('dist',decodeURIComponent(path.slice(1)))))){
       assert.equal(problem.origin,'inherited','Introduced '+problem.kind+' in '+page.path+': '+problem.href);
@@ -44,46 +48,7 @@ export function reportGaps(atlas,articleReviews={}) {
     }
   }
   const familyOf=id=>{const matches=Object.entries(families).filter(([,f])=>f.roster.batches.some(b=>b.ids.includes(id))||(f.roster.members??[]).includes(id)).map(([name])=>name);if(matches.length)return matches;const a=atlas.byId.get(id);return [a?.filePath?.split('/')[3]??(a?.categories?.[0]??'navigation')];};
-  const classes=new Set(['pending conversion','omitted article','missing alias','incomplete import','genuinely absent material','unresolved']);
-  const rows=curated.findings.map(row=>{
-    assert.ok(classes.has(row.classification),'Bad classification '+row.id);
-    for(const field of ['origin','priority','verification','status','finding','proposedResolution','uncertainty','postCutover'])assert.ok(typeof row[field]==='string'&&row[field].length,'Missing '+field+' on '+row.id);
-    const occurrences=detected.get(row.id)?.occurrences??row.occurrences??[];
-    let resolved=false,resolution=null;
-    const sourcePage=sourceByPath.get(row.target);
-    const currentPath=atlas.byId.get(sourcePage?.id)?.path??targetOf(row.target,'/',redirects)?.path??row.target;
-    if(row.kind==='availability') {
-      resolved=atlas.local.has(currentPath)||existsSync(join('dist',decodeURIComponent(currentPath.slice(1))));
-      if(resolved)resolution={method:'local output exists; route/catalog checks run in the build',target:currentPath};
-    } else if(row.kind==='media'&&row.target.startsWith('/')) {
-      const file=join('dist',decodeURIComponent(row.target.slice(1)));
-      resolved=!!baseline.assets[row.target]?.exists&&existsSync(file);
-      if(resolved){
-        const checksum=digest(readFileSync(file));
-        const authoredResource=/\.(?:txt|css|json)$/i.test(row.target);
-        if(!authoredResource)assert.equal(checksum,baseline.assets[row.target].sha256,'Changed source media '+row.target);
-        resolution={method:authoredResource?'local resource available; independently maintained contents':'local media matches pinned file SHA-256',sha256:checksum,sourceSha256:baseline.assets[row.target].sha256};
-      }
-    } else if(row.kind==='fragment') {
-      const t=targetOf(row.target,'/',redirects);
-      resolved=!!local.get(t.path)?.ids.includes(t.fragment.slice(1));
-      if(resolved)resolution={method:'exact fragment exists in rendered local article',target:t.target};
-    }
-    if(row.kind==='empty-section'){
-      const t=targetOf(row.target,'/',redirects),page=local.get(t.path);
-      resolved=!!page?.ids.includes(t.fragment.slice(1))&&!page.emptySections.some(s=>s.section===t.fragment.slice(1));
-      if(resolved)resolution={method:'bookmarked section has content in the local article',target:t.target};
-    }
-    if(row.kind==='media'&&row.presentationRepair){
-      const original=sourcePages.get(row.presentationRepair.articleId),page=local.get(atlas.byId.get(row.presentationRepair.articleId)?.path);
-      assert.ok(original?.media.some(m=>m.url===row.target),'Repair lacks source image evidence '+row.id);
-      resolved=!!page && !page.media.some(m=>m.url===row.target) && page.links.some(l=>l.href===row.target&&l.label===row.presentationRepair.linkText);
-      if(resolved)resolution={method:'malformed source image restored as identical-URL text link; no gameplay verification',articleId:original.id,target:row.target,label:row.presentationRepair.linkText,sourceRevision:original.sourceRevision,sourceSha256:original.sourceSha256};
-    }
-    validateResolution(row,resolved);
-    return {...row,status:resolved?'resolved':row.status,resolution:resolution??row.resolution??null,
-      occurrences,families:[...new Set(occurrences.flatMap(o=>familyOf(o.pageId)))].sort(),affectedPages:[...new Set(occurrences.map(o=>o.pageId))]};
-  });
+  const rows=resolveWorkFindings({curated,detected,baseline,sourcePages,sourceByPath,redirects,atlas,local,assetExists:p=>existsSync(join('dist',decodeURIComponent(p.slice(1)))),assetBytes:p=>readFileSync(join('dist',decodeURIComponent(p.slice(1)))),familyOf});
   rows.sort((a,b)=>a.priority.localeCompare(b.priority)||a.target.localeCompare(b.target)||a.kind.localeCompare(b.kind));
   const formattedIds=new Set(Object.keys(families).flatMap(f=>[...selectedIds(f)]));
   const closureFile='conversion/gaps/resolutions.json';
@@ -102,6 +67,10 @@ export function reportGaps(atlas,articleReviews={}) {
       audit:'Internal routes, fragments, reference labels, empty sections and declared media. Original Fandom media coverage and external website availability require separate investigation.'},
     counts:{kind:count('kind'),classification:count('classification'),status:count('status')},
     currentProblems,coverage,resolutionHistory,findings:rows,sourcePages:baseline.pages.map(({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256})=>({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256}))};
+  const work=compactWorkIndex(projectWorkIndex({atlas,findings:rows,reviews:articleReviews,formattedIds,resolutionHistory}));
+  assert.deepEqual(JSON.parse(readFileSync('dist/pages-needing-work/index.json')),work,'Public work index differs from rendered gap evidence');
+  mkdirSync('reports',{recursive:true});
+  writeFileSync('reports/work-coverage.json',JSON.stringify(work.counts,null,2)+'\n');
   const folder='reports/gaps';mkdirSync(folder,{recursive:true});
   writeFileSync(join(folder,'register.json'),JSON.stringify(result,null,2)+'\n');
   writeFileSync(join(folder,'coverage.json'),JSON.stringify(coverage,null,2)+'\n');

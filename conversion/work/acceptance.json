@@ -1,0 +1,95 @@
+{
+  "scope": "local contributor queue",
+  "baseline": "72c9f4f",
+  "articles": 2168,
+  "counts": {
+    "transferred": 2168,
+    "formatChecked": 2168,
+    "editoriallyReviewed": 1706,
+    "awaitingReview": 462,
+    "activeArticles": 2148,
+    "openFindings": 713,
+    "resolvedFindings": 2541
+  },
+  "logs": "reports/remainder/00-work-queue",
+  "checks": [
+    "build",
+    "catalog",
+    "playwright",
+    "cloudflare"
+  ],
+  "shots": [
+    {
+      "file": "queue-desktop-light.png",
+      "device": "desktop",
+      "theme": "light",
+      "path": "/pages-needing-work"
+    },
+    {
+      "file": "history-desktop-light.png",
+      "device": "desktop",
+      "theme": "light",
+      "path": "/pages-needing-work/history"
+    },
+    {
+      "file": "article-note-desktop-light.png",
+      "device": "desktop",
+      "theme": "light",
+      "path": "/catun#source-history"
+    },
+    {
+      "file": "queue-desktop-dark.png",
+      "device": "desktop",
+      "theme": "dark",
+      "path": "/pages-needing-work"
+    },
+    {
+      "file": "history-desktop-dark.png",
+      "device": "desktop",
+      "theme": "dark",
+      "path": "/pages-needing-work/history"
+    },
+    {
+      "file": "article-note-desktop-dark.png",
+      "device": "desktop",
+      "theme": "dark",
+      "path": "/catun#source-history"
+    },
+    {
+      "file": "queue-phone-light.png",
+      "device": "phone",
+      "theme": "light",
+      "path": "/pages-needing-work"
+    },
+    {
+      "file": "history-phone-light.png",
+      "device": "phone",
+      "theme": "light",
+      "path": "/pages-needing-work/history"
+    },
+    {
+      "file": "article-note-phone-light.png",
+      "device": "phone",
+      "theme": "light",
+      "path": "/catun#source-history"
+    },
+    {
+      "file": "queue-phone-dark.png",
+      "device": "phone",
+      "theme": "dark",
+      "path": "/pages-needing-work"
+    },
+    {
+      "file": "history-phone-dark.png",
+      "device": "phone",
+      "theme": "dark",
+      "path": "/pages-needing-work/history"
+    },
+    {
+      "file": "article-note-phone-dark.png",
+      "device": "phone",
+      "theme": "dark",
+      "path": "/catun#source-history"
+    }
+  ]
+}

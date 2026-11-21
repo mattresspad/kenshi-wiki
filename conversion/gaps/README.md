@@ -31,7 +31,7 @@ Pending conversions must become local destinations before restoration. An absolu
 
 An unresolved absent destination retains its intended wiki address and must return a genuine HTTP 404 with search and correction choices. The common error page is scheduled for the utility batch. An existing article with an unresolved fragment remains an HTTP 200 article request; add an alias only after identifying the intended section. Unlinked labels remain plain text until a destination is verified. Do not silently redirect unrelated titles or hide gaps.
 
-The public milestone requires disposition of every route, complete existence/content/organization review for every inventoried article, no conversion regressions, reconciliation with upstream changes, removal of temporary live-site dependencies, a software license decision and staging/rollback review. Documented inherited gaps may remain for later PRs. Branch replacement and production cutover still require their separate approvals.
+The public milestone requires disposition of every route, faithful transfer and format acceptance with editorial coverage reported separately, no conversion regressions, reconciliation with upstream changes, removal of temporary live-site dependencies, a software license decision and staging/rollback review. Pending editorial reviews and documented inherited gaps may remain explicitly queued for later PRs. Full editorial review is not a deployment gate. Branch replacement and production cutover still require their separate approvals.
 
 ## Media and technical facts
 

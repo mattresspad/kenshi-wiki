@@ -1,4 +1,6 @@
 ---
+import WorkNote from '../components/WorkNote.astro';
+import '../styles/work.css';
 import GeographyFacts from '../components/GeographyFacts.astro';
 import ImportedHistory from '../components/ImportedHistory.astro';
 import Frame from '../layouts/Frame.astro';
@@ -14,7 +16,7 @@ export async function getStaticPaths() {
   });
 }
 const {entry,article}=Astro.props;
-const {href}=await readWiki();
+const wiki=await readWiki(),{href}=wiki;
 const data=entry.data;
 const {intro,body,outline,buildingPanel}=prepareArticle(entry.rendered?.html,data,href);
 const importedGeography = ['geography','faction','race','animal','character','item','building','crafting','technology','shop','gameplay','event','lore','modding'].includes(data.layout);
@@ -47,6 +49,7 @@ const correction=correctionLink(origin+article.path);
     {data.recordedItemText && <figure class="recorded-item-text" aria-labelledby="recorded-item-label"><figcaption id="recorded-item-label">Recorded item text</figcaption><blockquote class="recorded-item-content">{data.recordedItemText}</blockquote></figure>}
     <div id="mw-content-text" class="article-body" set:html={body}/>
     {importedGeography && <ImportedHistory {article}/>}
+    <WorkNote {wiki} articleId={article.id}/>
     <div lang="en" class="source-links"><a href={source.markdown}>Recorded Markdown</a><a href={history}>Article revision history</a><a href={correction}>Suggest a correction to this article</a></div>
     <nav lang="en" id="catlinks" class="end-categories" aria-label="Page categories"><span id="mw-normal-catlinks">{categories.length ? (categories.length===1?'Category':'Categories') : ''}</span>
       {categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</nav>

@@ -1,0 +1,33 @@
+---
+import {workMarkings,workTypes} from '../lib/work-index.mjs';
+import {editableSource,correctionLink,recordedSource} from '../lib/page-source.mjs';
+const {entry,index,history=false}=Astro.props;
+const edit=editableSource(entry.filePath,import.meta.env.WIKI_EDIT_BRANCH?.trim());
+const taskIds=history?entry.closed:entry.open;
+const source=recordedSource(entry.sourceFile,entry.sourceRevision);
+---
+<article id={entry.anchor} class="work-entry" data-work-article={entry.id} tabindex="-1">
+ <h2><a href={entry.path}>{entry.title}</a></h2>
+ <p class="work-marks">{history?<span>Resolved work history</span>:entry.markings.map(key=><span data-work-mark={key}>{workMarkings[key]}</span>)}</p>
+ <nav aria-label={'Contribute to '+entry.title} class="work-actions">
+  <a href={entry.path}>Read article</a><a href={correctionLink('https://kenshi.wiki'+entry.path)}>Suggest a correction</a>
+  {edit.url?<a href={edit.url}>Edit on GitHub</a>:<details><summary>Copy file path</summary><code class="work-file">{edit.file}</code><button type="button" data-copy-work={edit.file} hidden>Copy</button><span role="status"></span></details>}
+  <a href={source.markdown}>Pinned article source</a>
+  {!history&&entry.historyHref&&<a href={entry.historyHref}>Resolved task history</a>}
+  {history&&entry.queueHref&&<a href={entry.queueHref}>Current work</a>}
+ </nav>
+ {entry.markings.includes('awaiting')&&!history&&<p>Read the article for completeness, clarity and source qualifications, then propose changes or record the review with its evidence. Formatting acceptance does not verify its claims.</p>}
+ {taskIds.map(id=>{const task=index.tasks.get(id),occurrences=task.occurrences.filter(o=>o.pageId===entry.id),evidence=(task.evidence??[]).filter(e=>typeof e==='object'&&e.articleId===entry.id),closures=index.resolutionHistory.filter(r=>r.id===id);return <details class="work-task" data-work-task={id}>
+  <summary><span>{task.priority} · {workTypes[task.kind]??task.kind}</span> {task.finding}</summary>
+  <p><strong>Task:</strong> {task.proposedResolution}</p>
+  <p><strong>Investigation:</strong> {task.verification}</p>
+  <p><strong>Uncertainty:</strong> {task.uncertainty}</p>
+  <p><strong>Destination or subject:</strong> <code>{task.target}</code></p>
+  <p><strong>Origin:</strong> {task.origin} · {task.classification}</p>
+  <ul>{occurrences.slice(0,4).map(o=>{const p=index.sourcePages.get(o.pageId);return <li><a href={'https://github.com/mattresspad/kenshi-wiki/blob/'+p.sourceRevision+'/'+p.sourceFile+(o.line?'#L'+o.line:'')}>{o.line?'Source line '+o.line:'Pinned source'}{o.section?' · '+o.section:''}</a>{o.element?' · element '+o.element:''}<span class="work-literal">{String(o.literal??o.href??o.label??o.url??'').slice(0,320)}{String(o.literal??o.href??o.label??o.url??'').length>320?'…':''}</span></li>})}</ul>
+  <p>{occurrences.length} recorded {occurrences.length===1?'occurrence':'occurrences'} on this article; {(task.affectedPages??[]).length} affected pages overall. The full ledger retains every occurrence.</p>
+  {evidence.map(e=><p><a href={e.url}>Recorded investigation source</a>{e.sha256&&<small class="work-checksum">SHA-256 {e.sha256}</small>}</p>)}
+  {history&&<><p><strong>Resolution:</strong> {task.resolution?.method??'Recorded investigation outcome'}</p>{task.resolution?.scope&&<p>{task.resolution.scope}</p>}{closures.map(c=><p><strong>Accepted evidence:</strong> <code>{c.acceptedIn}</code>{c.resolution?.sha256&&<small class="work-checksum">SHA-256 {c.resolution.sha256}</small>}</p>)}</>}
+  <p><strong>After cutover:</strong> {task.postCutover}</p>
+ </details>})}
+</article>

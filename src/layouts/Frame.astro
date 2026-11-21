@@ -4,6 +4,7 @@ import Sidebar from '../components/Sidebar.astro';
 import {origin, repo, snapshot} from '../lib/catalog.mjs';
 import {editableSource, recordedSource} from '../lib/page-source.mjs';
 import '../styles/frame.css';
+import '../styles/work.css';
 import '../styles/articles.css';
 import '../styles/restoration.css';
 const {kind='home',title,description,href,outline=[],categories=[],editableFile='src/data/directory.json',history=recordedSource('src/pages/index.astro',snapshot.revision).history}=Astro.props;
@@ -16,6 +17,7 @@ const siteData={'@context':'https://schema.org','@type':'WebSite',name:'Kenshi W
 <!doctype html><html lang="en"><head>
   <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>{kind==='home'?title:title+' · Kenshi Wiki'}</title><meta name="description" content={description}/>
+  {Astro.props.noindex && <meta name="robots" content="noindex,follow"/>}
   <link rel="canonical" href={origin+path}/>{kind==='home' && <script type="application/ld+json" set:html={JSON.stringify(siteData)}/>}
   <script is:inline>
     let palette=new URLSearchParams(location.search).get('theme');

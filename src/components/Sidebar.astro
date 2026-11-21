@@ -17,6 +17,7 @@ const { kind, outline, href } = Astro.props;
       {directory.navigation.map(section=><details class="branch"><summary>{section.title}</summary><div class="twigs">
         {section.groups.map(g=><details class="twig"><summary>{g.title}</summary><ul>{g.links.map(l=><li><a href={href(l.href)}>{l.label}</a></li>)}</ul></details>)}</div></details>)}
     </nav>
+    <nav class="maintenance-nav" aria-label="Contribute"><a href="/pages-needing-work">Pages needing work</a></nav>
   </div>
   <div class="rail-base"><button class="settings-button" type="button" id="settings-button" aria-expanded="false" aria-controls="settings-panel">Sidebar settings <span aria-hidden="true">⌃</span></button>
     <div id="settings-panel" class="settings-panel" hidden><fieldset><legend>Open article contents</legend>

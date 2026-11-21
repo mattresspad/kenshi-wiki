@@ -8,5 +8,5 @@ export default defineConfig({
   markdown: { syntaxHighlight: false },
   trailingSlash: 'never',
   build: { format: 'file' },
-  integrations: [sitemap()],
+  integrations: [sitemap({filter:page=>!new URL(page).pathname.startsWith('/pages-needing-work/')} )],
 });

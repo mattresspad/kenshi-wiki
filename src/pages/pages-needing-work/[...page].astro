@@ -1,0 +1,48 @@
+---
+import Frame from '../../layouts/Frame.astro';
+import WorkEntry from '../../components/WorkEntry.astro';
+import {readWiki} from '../../lib/wiki';
+import {readWorkIndex} from '../../lib/work-data.mjs';
+import {workMarkings,workTypes} from '../../lib/work-index.mjs';
+import {workRoute,workPagePath,workPageSize} from '../../lib/work-routes.mjs';
+import {recordedSource} from '../../lib/page-source.mjs';
+import '../../styles/work.css';
+export async function getStaticPaths(){
+ const wiki=await readWiki(),index=await readWorkIndex(wiki);
+ return index.routes.map(route=>({params:{page:route.path.slice(workRoute.length+1)||undefined},props:{route,index}}));
+}
+const {route,index}=Astro.props,wiki=await readWiki(),list=route.history?index.history:index.active;
+const entries=list.slice((route.page-1)*workPageSize,route.page*workPageSize),pages=Math.max(1,Math.ceil(list.length/workPageSize));
+const families=[...new Set(index.all.flatMap(a=>a.families))].sort();
+const pageNumbers=Array.from({length:pages},(_,i)=>i+1).filter(n=>n===1||n===pages||Math.abs(n-route.page)<=2);
+const editableFile='conversion/reviews.json';
+const ledger=import.meta.env.WIKI_EDIT_BRANCH?.trim();
+const history=ledger?recordedSource(editableFile,ledger).history:undefined;
+---
+<Frame kind="utility" publicPath={route.path} title={route.history?'Resolved work history':'Pages needing work'} description="Find editorial reviews, missing material and source investigations to help improve Kenshi Wiki." href={wiki.href} {editableFile} {history} noindex={route.path!==workRoute}>
+ <section class="work-page" data-work-view={route.history?'history':'open'}>
+  <h1 id="firstHeading" tabindex="-1">{route.history?'Resolved work history':'Pages needing work'}</h1>
+  <p>Help improve an article or investigate a specific finding. Review status and individual tasks are separate; the original article categories remain unchanged.</p>
+  <p class="work-counts">{index.counts.transferred.toLocaleString('en-US')} transferred · {index.counts.formatChecked.toLocaleString('en-US')} format-checked · {index.counts.editoriallyReviewed.toLocaleString('en-US')} editorial reviews recorded · {index.counts.awaitingReview} awaiting review.</p>
+  <p>{index.counts.activeArticles} articles currently need work; {index.counts.openFindings} distinct open findings. Shared findings can affect several articles.</p>
+  <nav class="work-actions" aria-label="Maintenance views"><a href={workRoute} aria-current={!route.history?'page':undefined}>Current work</a><a href={workPagePath(1,true)} aria-current={route.history?'page':undefined}>Resolved task history</a></nav>
+  <details class="work-key"><summary>What the markings mean</summary><dl><dt>{workMarkings.awaiting}</dt><dd>The article is transferred and format-checked; substantive review is pending.</dd><dt>{workMarkings.reviewed}</dt><dd>An inspection is recorded, with unresolved findings retained.</dd><dt>{workMarkings.specific}</dt><dd>There are concrete restoration or investigation tasks. This may accompany either review state.</dd></dl><p>Availability and formatting checks do not verify gameplay claims or establish complete media coverage.</p></details>
+  <details class="work-filter-disclosure" hidden><summary>Filter articles and tasks</summary>
+  <form class="work-filters" hidden role="search" aria-label="Filter contributor work">
+   <label>Search articles and tasks<input name="q" type="search"/></label>
+   <label>Marking<select name="mark"><option value="">All markings</option>{Object.entries(workMarkings).map(([key,label])=><option value={key}>{label}</option>)}</select></label>
+   <label>Task type<select name="type"><option value="">All task types</option>{Object.entries(workTypes).map(([key,label])=><option value={key}>{label}</option>)}</select></label>
+   <label>Family<select name="family"><option value="">All families</option>{families.map(f=><option>{f}</option>)}</select></label>
+   <label>Priority<select name="priority"><option value="">All priorities</option>{['P1','P2','P3'].map(p=><option>{p}</option>)}</select></label>
+   <button type="reset">Clear filters</button>
+  </form></details>
+  <p class="work-filter-status" role="status" aria-live="polite"></p><ul class="work-filter-results" hidden></ul>
+  <div class="work-static"><p>{route.history?'Articles with resolved tasks':'Articles needing work'} — page {route.page} of {pages}.</p>
+   <nav class="work-pagination" aria-label="Work list pages">{route.page>1&&<a rel="prev" href={workPagePath(route.page-1,route.history)}>Previous</a>}{pageNumbers.map((n,i)=><>{i>0&&n>pageNumbers[i-1]+1&&<span aria-hidden="true">…</span>}<a href={workPagePath(n,route.history)} aria-current={n===route.page?'page':undefined}>{n}</a></>)}{route.page<pages&&<a rel="next" href={workPagePath(route.page+1,route.history)}>Next</a>}</nav>
+   {entries.map(entry=><WorkEntry {entry} {index} history={route.history}/>)}
+  </div>
+  <p>Curated investigation notes, every source occurrence and accepted resolution records remain in the Git-backed conversion ledger.</p>
+  {ledger?<a href={'https://github.com/mattresspad/kenshi-wiki/tree/'+ledger.split('/').map(encodeURIComponent).join('/')+'/conversion/gaps'}>Full investigation ledger</a>:<p>Local ledger: <code>conversion/gaps/register.json</code> · <code>conversion/gaps/resolutions.json</code> · <code>conversion/reviews.json</code></p>}
+ </section>
+ <script>import '../../scripts/work.js';</script>
+</Frame>

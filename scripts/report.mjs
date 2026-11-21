@@ -55,6 +55,9 @@ const animalSources=JSON.parse(readFileSync('conversion/animals/reference.json')
 const geographicalSources=frozenEvidence().articles;
 const factionSources=factionEvidence().articles;
 const emptyGalleryIds=new Set([...geography.emptyGalleries,...review.mediaGaps.filter(gap=>gap.section==='Gallery').map(gap=>gap.articleId)]);
+const workIndex=JSON.parse(readFileSync('dist/pages-needing-work/index.json'));
+const workRoutes=workIndex.routes;
+for(const route of workRoutes)atlas.local.add(route.path);
 const initial=buildCatalog();
 const htmlFile = p => path.join('dist', p==='/'?'index.html':p.slice(1)+'.html');
 const routes=[];
@@ -107,6 +110,8 @@ for (const url of snapshot.portals) {
   record('portal',url,source);
 }
 for (const url of snapshot.utilities) record(url==='/'?'home':'utility',url);
+for(const route of workRoutes)record('utility',route.path,{generated:true,noindex:route.path!=='/pages-needing-work'});
+routes.push({kind:'endpoint',path:'/pages-needing-work/index.json',status:'preserved locally',generated:true});
 for (const r of snapshot.redirects) {
   const present = assetRedirects.some(rule => rule.from === r.from && rule.to === r.to && rule.status === r.status);
   routes.push({kind:'redirect',path:r.from,to:r.to,httpStatus:r.status,status:present?'preserved locally':'awaiting redirect verification'});
@@ -130,7 +135,7 @@ const exclusions=Object.keys(policy.excluded).map(name=>({
 }));
 const memberships=[...initial.categories.values()].reduce((n,g)=>n+g.members.length,0);
 const duplicateCheck=new Set(routes.filter(r=>['article','category','utility','portal','home'].includes(r.kind)).map(r=>r.path));
-if(duplicateCheck.size!==snapshot.articles.length+initial.categories.size+snapshot.utilities.length+snapshot.portals.length) throw Error('Overlapping public page identities');
+if(duplicateCheck.size!==snapshot.articles.length+initial.categories.size+snapshot.utilities.length+snapshot.portals.length+workRoutes.length) throw Error('Overlapping public page identities');
 const temporaryLinks=Array.from(external,([from,urls])=>({from,to:[...urls].sort()}));
 const articlesAt = state => routes.filter(row=>row.kind==='article' && row[state]).map(row=>row.path);
 const gaps=reportGaps(atlas,review.articles);

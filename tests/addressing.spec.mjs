@@ -12,8 +12,8 @@ test('the search title index covers registered addresses while the header opens 
   expect(response.ok()).toBe(true);
   const rows = await response.json();
   const expected = new Map(snapshot.articles.map(a => [a.path,a.title]));
-  for (const [path,title] of [['/about-kenshi','About Kenshi'],['/contributors','Contributors'],['/gameplay','Gameplay'],['/guides','Guides'],['/modding','Modding']]) expected.set(path,title);
-  expect(rows).toHaveLength(2189);
+  for (const [path,title] of [['/pages-needing-work','Pages needing work'],['/about-kenshi','About Kenshi'],['/contributors','Contributors'],['/gameplay','Gameplay'],['/guides','Guides'],['/modding','Modding']]) expected.set(path,title);
+  expect(rows).toHaveLength(snapshot.articles.length+snapshot.portals.length+3);
   expect(new Map(rows.map(([title,path])=>[path,title]))).toEqual(expected);
   await page.goto('/modding');
   await expect(page.getByRole('search')).toHaveAttribute('action',origin+'/search');

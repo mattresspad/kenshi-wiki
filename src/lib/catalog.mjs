@@ -1,3 +1,4 @@
+import {workRoute,workIndexRoute,isWorkRoute} from './work-routes.mjs';
 import policy from '../../conversion/category-policy.json' with { type: 'json' };
 import snapshot from '../../conversion/reference.json' with { type: 'json' };
 
@@ -28,6 +29,8 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
   const articles = new Map();
   const publicPaths = new Map();
   const sourceFiles = new Map();
+  claim(publicPaths,workRoute,'maintenance utility');
+  claim(publicPaths,workIndexRoute,'maintenance index');
   for (const path of [...reference.portals, ...reference.utilities, ...reference.endpoints]) claim(publicPaths, path, 'non-article route');
   for (const name of Object.keys(policy.excluded)) claim(publicPaths, categoryPath(name), 'excluded category');
   const redirects = new Map();
@@ -39,7 +42,7 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
     if (redirects.has(rule.from) && redirects.get(rule.from) !== rule.to) throw Error('Redirect conflict at ' + rule.from);
     redirects.set(rule.from, rule.to);
   }
-  for (const from of redirects.keys()) claim(publicPaths, from, 'redirect');
+  for (const from of redirects.keys()) {if(isWorkRoute(from))throw Error('Redirect collides with maintenance routes: '+from);claim(publicPaths, from, 'redirect');}
   for (const record of reference.articles) {
     const {id, path, sourceFile, sourceRevision} = record;
     if (typeof id !== 'string' || !id.trim() || byId.has(id)) throw Error('Missing or duplicate article ID: ' + id);
@@ -51,6 +54,7 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
         !(record.source === 'original' || (record.source?.title && Number.isInteger(record.source.revision)))) {
       throw Error('Missing source history for ' + id);
     }
+    if(isWorkRoute(path))throw Error('Article collides with maintenance routes: '+path);
     claim(sourceFiles, sourceFile, 'original source');
     claim(publicPaths, path, 'article ' + id);
     const article = {...record, filePath: null};
@@ -75,6 +79,7 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
         const path = categoryPath(name);
         if (slugOwners.has(path)) throw Error('Unmapped category collision: ' + name + ' / ' + slugOwners.get(path));
         slugOwners.set(path, name);
+        if(isWorkRoute(path))throw Error('Category collides with maintenance routes: '+path);
         claim(publicPaths, path, 'category ' + name);
         categories.set(name, {name, path, members: []});
       }
@@ -84,9 +89,9 @@ export function buildCatalog(entries = [], reference = snapshot, deployedRedirec
   const compare = new Intl.Collator('en', {numeric:true, sensitivity:'base'});
   for (const group of categories.values()) group.members.sort((a,b) =>
     compare.compare(a.title,b.title) || a.path.localeCompare(b.path,'en'));
-  const local = new Set(['/', ...entries.map(e => byId.get(e.data.articleId).path), ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals]);
+  const local = new Set([workRoute,'/', ...entries.map(e => byId.get(e.data.articleId).path), ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals]);
   const searchTitles = [
-    ['About Kenshi', '/about-kenshi'], ['Contributors', '/contributors'],
+    ['Pages needing work',workRoute], ['About Kenshi', '/about-kenshi'], ['Contributors', '/contributors'],
     ...[...articles.values()].map(a => [a.title, a.path]),
     ...reference.portals.map(path => [path.slice(1,2).toUpperCase() + path.slice(2), path])
   ];
