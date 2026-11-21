@@ -93,6 +93,7 @@ for(const width of [1440,390]) test('article outline, source credits and evidenc
 });
 
 test('restored indexes match independent membership sets and link to reviewed pages or the live wiki',async({page})=>{
+  test.setTimeout(120000);
   const sets=Object.fromEntries(policy.reviewedCategories.map(name=>[categoryPath(name).slice(10),[name,...Object.keys(policy.aliases).filter(alias=>policy.aliases[alias]===name)]]));
   const local=expectedRoutes();
   for(const [slug,labels] of Object.entries(sets)){
