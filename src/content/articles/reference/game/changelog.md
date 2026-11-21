@@ -6,6 +6,8 @@ categories:
   - Kenshi Wiki
 layout: lore
 contextNotice: "Historical release record: version labels and references to the current or latest release are retained from the recorded source snapshot. This page does not claim that the list is up to date."
+bookmarks:
+  "1.0.68": "1068-current"
 ---
 
 The **changelog** shows what changes were implemented with each version of [Kenshi](/kenshi). You can find the changelog in the Kenshi main directory. This list is everything included in that file to date.

@@ -1,0 +1,320 @@
+{
+  "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "acceptedBase": "646c28adad5b10395a2c685f38ff7da72a54aa4c",
+  "scope": "Inherited fragment compatibility only; no heading, content, provenance, editorial review or gameplay-claim changes.",
+  "cases": [
+    {
+      "findingId": "fragment:/changelog#1.0.68",
+      "articleId": "changelog",
+      "path": "/changelog",
+      "file": "src/content/articles/reference/game/changelog.md",
+      "old": "1.0.68",
+      "target": "1068-current",
+      "heading": "1.0.68 (current)",
+      "sourceFile": "src/content/wiki/changelog.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/changelog.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "changelog",
+          "href": "#1.0.68",
+          "label": "1.0.68",
+          "section": "firstHeading",
+          "element": 9,
+          "line": null,
+          "path": "/changelog"
+        },
+        {
+          "pageId": "changelog",
+          "href": "#1.0.68",
+          "label": "1.0.68",
+          "section": "firstHeading",
+          "element": 12,
+          "line": null,
+          "path": "/changelog"
+        }
+      ]
+    },
+    {
+      "findingId": "fragment:/combat-speed#Item_Related",
+      "articleId": "combat-speed",
+      "path": "/combat-speed",
+      "file": "src/content/articles/gameplay/mechanics/combat-speed.md",
+      "old": "Item_Related",
+      "target": "item-related",
+      "heading": "Item Related",
+      "sourceFile": "src/content/wiki/combat-speed.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/combat-speed.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "combat-speed",
+          "href": "#Item_Related",
+          "label": "below",
+          "section": "combat-speed",
+          "element": 3,
+          "line": 12,
+          "path": "/combat-speed"
+        }
+      ]
+    },
+    {
+      "findingId": "fragment:/damage#Damage_floaters",
+      "articleId": "damage",
+      "path": "/damage",
+      "file": "src/content/articles/gameplay/mechanics/damage.md",
+      "old": "Damage_floaters",
+      "target": "damage-floaters",
+      "heading": "Damage floaters",
+      "sourceFile": "src/content/wiki/damage.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/damage.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "damage",
+          "href": "#Damage_floaters",
+          "label": "Damage floaters",
+          "section": "pierce-damage",
+          "element": 96,
+          "line": 106,
+          "path": "/damage"
+        }
+      ]
+    },
+    {
+      "findingId": "fragment:/dialogue-structure-overlook#Bar_talk_(interjectors)",
+      "articleId": "dialogue-structure-overlook",
+      "path": "/dialogue-structure-overlook",
+      "file": "src/content/articles/modding/dialogue-structure-overlook.md",
+      "old": "Bar_talk_(interjectors)",
+      "target": "bar-talk-interjectors",
+      "heading": "Bar talk (interjectors)",
+      "sourceFile": "src/content/wiki/dialogue-structure-overlook.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dialogue-structure-overlook.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "dialogue-structure-overlook",
+          "href": "#Bar_talk_(interjectors)",
+          "label": "Dialogue Structure Overlook#Bar talk (interjectors)",
+          "section": "interjectors",
+          "element": 57,
+          "line": null,
+          "path": "/dialogue-structure-overlook"
+        }
+      ]
+    },
+    {
+      "findingId": "fragment:/dialogue-structure-overlook#Interjectors",
+      "articleId": "dialogue-structure-overlook",
+      "path": "/dialogue-structure-overlook",
+      "file": "src/content/articles/modding/dialogue-structure-overlook.md",
+      "old": "Interjectors",
+      "target": "interjectors",
+      "heading": "Interjectors",
+      "sourceFile": "src/content/wiki/dialogue-structure-overlook.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dialogue-structure-overlook.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "dialogue-structure-overlook",
+          "href": "#Interjectors",
+          "label": "Dialogue Structure Overlook#Interjectors",
+          "section": "bar-talk-interjectors",
+          "element": 33,
+          "line": null,
+          "path": "/dialogue-structure-overlook"
+        }
+      ]
+    },
+    {
+      "findingId": "fragment:/dialogue-structure-overlook#Using_Faction_Reputations_as_Boolean",
+      "articleId": "dialogue-structure-overlook",
+      "path": "/dialogue-structure-overlook",
+      "file": "src/content/articles/modding/dialogue-structure-overlook.md",
+      "old": "Using_Faction_Reputations_as_Boolean",
+      "target": "using-faction-reputations-as-boolean",
+      "heading": "Using Faction Reputations as Boolean",
+      "sourceFile": "src/content/wiki/dialogue-structure-overlook.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dialogue-structure-overlook.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "dialogue-structure-overlook",
+          "href": "#Using_Faction_Reputations_as_Boolean",
+          "label": "reputation",
+          "section": "using-fake-factions-and-faction-relations-world-states-as-boolean",
+          "element": 161,
+          "line": 192,
+          "path": "/dialogue-structure-overlook"
+        }
+      ]
+    },
+    {
+      "findingId": "fragment:/dialogue-structure-overlook#Using_Fake_Factions_and_Faction_Relations_World_States_as_Boolean",
+      "articleId": "dialogue-structure-overlook",
+      "path": "/dialogue-structure-overlook",
+      "file": "src/content/articles/modding/dialogue-structure-overlook.md",
+      "old": "Using_Fake_Factions_and_Faction_Relations_World_States_as_Boolean",
+      "target": "using-fake-factions-and-faction-relations-world-states-as-boolean",
+      "heading": "Using Fake Factions and Faction Relations World States as Boolean",
+      "sourceFile": "src/content/wiki/dialogue-structure-overlook.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/dialogue-structure-overlook.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "dialogue-structure-overlook",
+          "href": "#Using_Fake_Factions_and_Faction_Relations_World_States_as_Boolean",
+          "label": "world state boolean system",
+          "section": "using-faction-reputations-as-boolean",
+          "element": 100,
+          "line": null,
+          "path": "/dialogue-structure-overlook"
+        },
+        {
+          "pageId": "dialogue-structure-overlook",
+          "href": "#Using_Fake_Factions_and_Faction_Relations_World_States_as_Boolean",
+          "label": "fake factions",
+          "section": "using-real-faction-relations-as-boolean",
+          "element": 136,
+          "line": null,
+          "path": "/dialogue-structure-overlook"
+        }
+      ]
+    },
+    {
+      "findingId": "fragment:/game-starts#startsthe-freedom-seekers",
+      "articleId": "game-starts",
+      "path": "/game-starts",
+      "file": "src/content/articles/gameplay/guides/game-starts.md",
+      "old": "startsthe-freedom-seekers",
+      "target": "the-freedom-seekers",
+      "heading": "The Freedom Seekers",
+      "sourceFile": "src/content/wiki/game-starts.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/game-starts.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "waystation-the-hook",
+          "href": "/game-starts#startsthe-freedom-seekers",
+          "label": "The Freedom Seekers",
+          "section": "firstHeading",
+          "element": 17,
+          "line": 17,
+          "path": "/waystation-the-hook"
+        }
+      ]
+    },
+    {
+      "findingId": "fragment:/using-the-fcs#Custom_Columns",
+      "articleId": "using-the-fcs",
+      "path": "/using-the-fcs",
+      "file": "src/content/articles/modding/using-the-fcs.md",
+      "old": "Custom_Columns",
+      "target": "custom-columns",
+      "heading": "Custom Columns",
+      "sourceFile": "src/content/wiki/using-the-fcs.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/using-the-fcs.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "using-the-fcs",
+          "href": "#Custom_Columns",
+          "label": "Custom Columns",
+          "section": "the-game-world-window",
+          "element": 64,
+          "line": 85,
+          "path": "/using-the-fcs"
+        }
+      ]
+    },
+    {
+      "findingId": "fragment:/using-the-fcs#Searching_for_data",
+      "articleId": "using-the-fcs",
+      "path": "/using-the-fcs",
+      "file": "src/content/articles/modding/using-the-fcs.md",
+      "old": "Searching_for_data",
+      "target": "searching-for-data",
+      "heading": "Searching for data",
+      "sourceFile": "src/content/wiki/using-the-fcs.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/using-the-fcs.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "using-the-fcs",
+          "href": "#Searching_for_data",
+          "label": "Searching for data",
+          "section": "the-game-world-window",
+          "element": 69,
+          "line": 87,
+          "path": "/using-the-fcs"
+        }
+      ]
+    },
+    {
+      "findingId": "fragment:/weather-effects#duststorms",
+      "articleId": "weather-effects",
+      "path": "/weather-effects",
+      "file": "src/content/articles/gameplay/mechanics/weather-effects.md",
+      "old": "duststorms",
+      "target": "dust-storms",
+      "heading": "Dust Storms",
+      "sourceFile": "src/content/wiki/weather-effects.md",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "evidence": [
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/src/content/wiki/weather-effects.md",
+        "conversion/gaps/source.json"
+      ],
+      "occurrences": [
+        {
+          "pageId": "perception",
+          "href": "/weather-effects#duststorms",
+          "label": "dust storms",
+          "section": "firstHeading",
+          "element": 47,
+          "line": 20,
+          "path": "/perception"
+        },
+        {
+          "pageId": "precision-shooting",
+          "href": "/weather-effects#duststorms",
+          "label": "Duststorms",
+          "section": "values",
+          "element": 43,
+          "line": 22,
+          "path": "/precision-shooting"
+        }
+      ]
+    }
+  ]
+}

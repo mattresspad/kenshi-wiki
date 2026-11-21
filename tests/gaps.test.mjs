@@ -63,3 +63,38 @@ test('cross-family acceptance preserves original closure evidence and records on
  const next=appendAcceptedResolutions(old,report,'animals#pilot');assert.equal(next.records.length,2);assert.equal(next.records[0].acceptedIn,'races#final');assert.equal(old.records.length,1);
  assert.deepEqual(appendAcceptedResolutions(next,report,'animals#final'),next);
 });
+
+// Compatibility anchors may be additive; original IDs and reader content must still match exactly.
+import {withoutVerifiedBookmarks} from '../scripts/conversion/bookmarks.mjs';
+import {articleEvidence} from '../scripts/geography/evidence.mjs';
+test('preservation permits only empty declared aliases beside existing targets',()=>{
+ const original='<div class="article-body"><h2 id="current">Section</h2><p>Keep these words.</p></div>';
+ const marker='<span id="Legacy" class="bookmark" aria-hidden="true" data-bookmark-target="current"></span>';
+ const added=original.replace('<h2',marker+'<h2');
+ const normalized=withoutVerifiedBookmarks(added,{Legacy:'current'},['current']);
+ assert.deepEqual(articleEvidence(normalized,false),articleEvidence(original,false));
+ for(const bad of [added.replace(marker,''),added.replace(marker,marker+marker),added.replace('data-bookmark-target="current"','data-bookmark-target="other"'),added.replace('</span>','Lost words</span>'),added.replace('</span>','</span><p>Moved</p>')]) assert.throws(()=>withoutVerifiedBookmarks(bad,{Legacy:'current'},['current']));
+ assert.throws(()=>withoutVerifiedBookmarks(added,{Legacy:'current'},[]));
+ assert.throws(()=>withoutVerifiedBookmarks(added,{Legacy:'current'},['Legacy','current']));
+ const unexpected=withoutVerifiedBookmarks(added.replace('</p>','</p><span id="Unexpected"></span>'),{Legacy:'current'},['current']);
+ assert.notDeepEqual(articleEvidence(unexpected,false).ids,articleEvidence(original,false).ids);
+});
+
+import bookmarkEvidence from '../conversion/bookmarks/restoration.json' with {type:'json'};
+test('bookmark closure retains every inherited occurrence and independent investigation evidence',()=>{
+ const source=JSON.parse(readFileSync('conversion/gaps/source.json'));
+ const registry=JSON.parse(readFileSync('conversion/gaps/register.json'));
+ const history=JSON.parse(readFileSync('conversion/gaps/resolutions.json')).records;
+ const found=discover(source,new Set(source.registeredRoutes),new Map(source.redirects.map(r=>[r.from,r.to])));
+ assert.equal(bookmarkEvidence.cases.length,11);
+ assert.equal(bookmarkEvidence.cases.flatMap(c=>c.occurrences).length,14);
+ for(const c of bookmarkEvidence.cases){
+  const row=registry.findings.find(r=>r.id===c.findingId);
+  assert.equal(row.origin,'inherited');assert.equal(row.status,'resolved');
+  assert.equal(row.resolution.target,c.path+'#'+c.old);
+  assert.deepEqual(c.occurrences.map(({path,...rest})=>rest),found.get(c.findingId).occurrences);
+  assert.ok(row.evidence.includes('conversion/bookmarks/restoration.json'));
+  assert.ok(history.some(r=>r.id===row.id&&r.acceptedIn==='conversion/bookmarks/README.md'&&r.sourceRevision===bookmarkEvidence.sourceRevision));
+ }
+ assert.equal(registry.findings.find(r=>r.id==='destination:/memo-from-moll').status,'open');
+});

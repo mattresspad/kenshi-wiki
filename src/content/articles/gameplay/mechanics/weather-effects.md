@@ -5,6 +5,8 @@ description: Weather happens in Kenshi quite often and can have certain Weather 
 categories:
   - World Data
 layout: gameplay
+bookmarks:
+  "duststorms": "dust-storms"
 ---
 
 Weather happens in Kenshi quite often and can have certain **Weather Effects**. These Weather Effects can damage characters, or simply detract from their [Statistics](/statistics). [Skeletons](/skeleton) and animals are never affected by weather. Weather Effects can be affected by changing [Seasons](/seasons-and-weather).

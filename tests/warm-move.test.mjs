@@ -37,6 +37,14 @@ test('a byte-identical file move updates the warm Astro build; a separate canoni
   const cli = resolve('node_modules/astro',manifest.bin.astro ?? manifest.bin);
   const inventory = join(root,'conversion/reference.json');
   const registry = JSON.parse(readFileSync(inventory));
+  // This fixture deliberately models a partial rollout. Closures for pages it omits
+  // cannot be observed here; production data and the complete-corpus checks stay intact.
+  const pilotPaths=new Set(registry.articles.filter(a=>pilot.has(a.id)).map(a=>a.path));
+  const gapFile=join(root,'conversion/gaps/register.json'), gaps=JSON.parse(readFileSync(gapFile));
+  for(const row of gaps.findings)if(row.kind==='fragment'&&row.status==='resolved'&&!pilotPaths.has(row.target.split('#')[0])){
+    row.status='open';row.resolution=null;
+  }
+  writeFileSync(gapFile,JSON.stringify(gaps));
   const record = registry.articles.find(a=>a.id==='modding/blender-plugins');
   const docs = recordedSource(record.sourceFile,record.sourceRevision,registry.revision);
   const editable = articleFiles(root).find(e=>e.data.articleId===record.id).filePath;
