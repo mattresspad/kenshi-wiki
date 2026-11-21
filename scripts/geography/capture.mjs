@@ -8,6 +8,7 @@ export async function captureBatch(base, batch, output, family='geography') {
   const {roster}=families[family];
   const articles=new Map(snapshot.articles.map(a=>[a.id,a]));
   const extra={
+    'representative-structures':batch.ids,'long-reference-material':batch.ids,'world-and-history':batch.ids,'historical-wiki':batch.ids,
     'manufacturer-pilots':batch.ids,'historical-structures':batch.ids,'historical-qualifications':batch.ids,
     'modding-fcs':batch.ids,'modding-structures':batch.ids,'modding-pr43':batch.ids,'modding-projects':batch.ids,
     'lore-pilots':batch.ids,'lore-structures':batch.ids,
@@ -100,6 +101,7 @@ export async function captureBatch(base, batch, output, family='geography') {
             shots.push({id,anchor,device,theme,file:expanded});
             if(device==='phone')await page.keyboard.press('Escape');
           }
+          if(family==='remainder'&&id==='changelog'){const link=page.locator('.page-outline a').nth(530);await link.evaluate(el=>{for(let p=el.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true});if(device==='phone')await page.locator('#toggle-navigation').press('Enter');await link.scrollIntoViewIfNeeded();await link.focus();const file='changelog-outline-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});if(device==='phone')await page.keyboard.press('Escape');}
           if(family==='events'&&id==='crab-tournament'){const link=page.locator('.page-outline a[href="#crab-champion"]');await link.evaluate(el=>{for(let p=el.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true});if(device==='phone')await page.locator('#toggle-navigation').press('Enter');await link.scrollIntoViewIfNeeded();await link.focus();const file='crab-outline-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});if(device==='phone')await page.keyboard.press('Escape');}
           if(family==='gameplay'&&id==='guide-to-training-statistics'){
             const target='#'+await page.locator('.article-body h4,.article-body h3').last().getAttribute('id'),link=page.locator('.page-outline a[href="'+target+'"]');
@@ -117,6 +119,7 @@ export async function captureBatch(base, batch, output, family='geography') {
           const file=sample.replaceAll('/','--').replace('#','-')+'-'+device+'-'+theme+'.png';
           await page.screenshot({path:join(output,file),animations:'disabled'});
           shots.push({id,anchor,device,theme,file});
+          if(family==='remainder'&&id==='kenshi-dedicated-server-providers'){const region=page.locator('.article-body .table-scroll').first();await region.scrollIntoViewIfNeeded();await region.focus();await page.keyboard.press('End');const file='providers-right-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});}
           if(family==='lore'&& await page.locator('.recorded-item-text').count()){await page.locator('.recorded-item-text').evaluate(el=>{el.scrollIntoView({block:'start'});if(innerWidth<600)window.scrollBy(0,-90)});const file=id+'-text-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});}
           if(family==='events'&& await page.locator('.factbox').count()){await page.locator('.factbox').evaluate(el=>{el.scrollIntoView({block:'start'});if(innerWidth<600)window.scrollBy(0,-90)});const file=id+'-facts-'+device+'-'+theme+'.png';await page.screenshot({path:join(output,file),animations:'disabled'});shots.push({id,device,theme,file});}
           if(family==='gameplay'&&['statistics','science','wheatstraw-60-or-cactus-100'].includes(id)&&device==='phone'){const region=page.locator('.gameplay-wide').first().locator('..');await region.evaluate(el=>{el.scrollIntoView({block:'start'});el.focus({preventScroll:true});});await page.keyboard.press('End');await region.evaluate(el=>{el.scrollIntoView({block:'start'});window.scrollBy(0,-90);});const right=id+'-right-phone-'+theme+'.png';await page.screenshot({path:join(output,right),animations:'disabled'});shots.push({id,device,theme,file:right});}

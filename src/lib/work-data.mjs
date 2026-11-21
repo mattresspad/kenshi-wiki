@@ -31,5 +31,5 @@ async function loadWorkIndex(wiki){
  const findings=resolveWorkFindings({curated,detected,baseline,sourcePages,sourceByPath,redirects,atlas,local,assetExists,assetBytes:p=>readFileSync(publicFile(p)),familyOf});
  const formattedIds=new Set(Object.keys(families).flatMap(f=>[...selectedIds(f)]));
  const resolutionHistory=get('conversion/gaps/resolutions.json').records;
- return {...projectWorkIndex({atlas,findings,reviews,formattedIds,resolutionHistory}),sourcePages};
+ return {...projectWorkIndex({atlas,findings,reviews,formattedIds,resolutionHistory,familyOf}),sourcePages};
 }

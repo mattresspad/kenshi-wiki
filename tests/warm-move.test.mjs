@@ -28,7 +28,7 @@ test('a byte-identical file move updates the warm Astro build; a separate canoni
   writeFileSync(join(root,'conversion/characters/checkpoint.json'),JSON.stringify({included:0}));
   writeFileSync(join(root,'conversion/items/checkpoint.json'),JSON.stringify({included:0}));
   writeFileSync(join(root,'conversion/buildings/checkpoint.json'),JSON.stringify({included:0}));
-  for(const family of ['crafting','technology','shops','gameplay','events','lore','modding','manufacturers'])writeFileSync(join(root,'conversion/'+family+'/checkpoint.json'),JSON.stringify({included:0}));
+  for(const family of ['crafting','technology','shops','gameplay','events','lore','modding','manufacturers','remainder'])writeFileSync(join(root,'conversion/'+family+'/checkpoint.json'),JSON.stringify({included:0}));
   const reviewFile=join(root,'conversion/reviews.json'), review=JSON.parse(readFileSync(reviewFile));
   review.articles=Object.fromEntries(Object.entries(review.articles).filter(([id])=>pilot.has(id)));
   writeFileSync(reviewFile,JSON.stringify(review));
@@ -61,6 +61,12 @@ test('a byte-identical file move updates the warm Astro build; a separate canoni
       assert.equal($('.edit-file').length,0);
     } else {
       assert.equal($('.wide-tools .edit-file code').text(),file);
+    }
+    if(branch){
+      const work=JSON.parse(readFileSync(join(root,'dist/pages-needing-work/index.json'))),catun=work.articles.find(a=>a.id==='catun');
+      const queue=html(catun.queueHref.split('#')[0]),link=queue('[data-work-article="catun"] .work-actions a').filter((_,el)=>queue(el).text()==='Edit on GitHub');
+      const actual=articleFiles(root).find(e=>e.data.articleId==='catun').filePath;
+      assert.equal(link.attr('href'),editableSource(actual,branch).url);
     }
     const titles = JSON.parse(readFileSync(join(root,'dist/search-titles.json')));
     assert.equal(titles.find(([title])=>title==='Blender plugins')[1],route);

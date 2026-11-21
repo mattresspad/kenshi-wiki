@@ -67,7 +67,7 @@ export function reportGaps(atlas,articleReviews={}) {
       audit:'Internal routes, fragments, reference labels, empty sections and declared media. Original Fandom media coverage and external website availability require separate investigation.'},
     counts:{kind:count('kind'),classification:count('classification'),status:count('status')},
     currentProblems,coverage,resolutionHistory,findings:rows,sourcePages:baseline.pages.map(({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256})=>({id,path,sourceFile,sourceRevision,sourceSha256,renderedSha256}))};
-  const work=compactWorkIndex(projectWorkIndex({atlas,findings:rows,reviews:articleReviews,formattedIds,resolutionHistory}));
+  const work=compactWorkIndex(projectWorkIndex({atlas,findings:rows,reviews:articleReviews,formattedIds,resolutionHistory,familyOf}));
   assert.deepEqual(JSON.parse(readFileSync('dist/pages-needing-work/index.json')),work,'Public work index differs from rendered gap evidence');
   mkdirSync('reports',{recursive:true});
   writeFileSync('reports/work-coverage.json',JSON.stringify(work.counts,null,2)+'\n');

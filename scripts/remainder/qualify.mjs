@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {parse,stringify} from 'yaml';
+const roster=JSON.parse(fs.readFileSync('conversion/remainder/roster.json')),notices=JSON.parse(fs.readFileSync('conversion/remainder/context-notices.json')),changes=[];
+for(const [id,note]of Object.entries(notices)){const file=roster.files[id];if(!fs.existsSync(file))continue;const text=fs.readFileSync(file,'utf8').replaceAll('\r\n','\n'),m=text.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/),data=parse(m[1]);data.contextNotice=note;fs.writeFileSync(file,'---\n'+stringify(data,{lineWidth:0}).trimEnd()+'\n---\n\n'+m[2].trim()+'\n');changes.push({id,kind:'historical/source-snapshot context',notice:note,sourceBodyChanged:false});}
+fs.writeFileSync('conversion/remainder/normalization.json',JSON.stringify({changes,editorial:'Context notices do not alter imported claims, categories or source bodies.'},null,2)+'\n');console.log(changes.length+' separate context notices applied.');

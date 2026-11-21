@@ -1,0 +1,142 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "baseRevision": "72c9f4f",
+  "categories": [],
+  "categoryMembers": {},
+  "members": [
+    "bar-thug",
+    "barges",
+    "birds",
+    "changelog",
+    "credits",
+    "dedicated-server-providers/rules",
+    "emperor-anzai",
+    "kenshi-2",
+    "kenshi-dedicated-server-providers",
+    "kenshi-original-soundtrack",
+    "kenshi-wiki",
+    "kenshi/lua",
+    "ska",
+    "skeleton-survivor",
+    "steam-trading-cards",
+    "urchin"
+  ],
+  "newMembers": [
+    "bar-thug",
+    "barges",
+    "birds",
+    "changelog",
+    "credits",
+    "dedicated-server-providers/rules",
+    "emperor-anzai",
+    "kenshi-2",
+    "kenshi-dedicated-server-providers",
+    "kenshi-original-soundtrack",
+    "kenshi-wiki",
+    "kenshi/lua",
+    "ska",
+    "skeleton-survivor",
+    "steam-trading-cards",
+    "urchin"
+  ],
+  "existing": [],
+  "reviewExisting": [],
+  "homes": {
+    "bar-thug": "characters",
+    "skeleton-survivor": "characters/recruits",
+    "emperor-anzai": "characters/historical",
+    "barges": "locations/world-elements",
+    "birds": "locations/world-elements",
+    "urchin": "locations/world-elements",
+    "ska": "locations/unused",
+    "kenshi-wiki": "reference/wiki",
+    "kenshi/lua": "reference/wiki",
+    "kenshi-dedicated-server-providers": "reference/multiplayer",
+    "dedicated-server-providers/rules": "reference/multiplayer",
+    "changelog": "reference/game",
+    "credits": "reference/game",
+    "kenshi-2": "reference/game",
+    "kenshi-original-soundtrack": "reference/game",
+    "steam-trading-cards": "reference/game"
+  },
+  "layouts": {
+    "bar-thug": "character",
+    "barges": "geography",
+    "birds": "geography",
+    "changelog": "lore",
+    "credits": "lore",
+    "dedicated-server-providers/rules": "lore",
+    "emperor-anzai": "character",
+    "kenshi-2": "lore",
+    "kenshi-dedicated-server-providers": "lore",
+    "kenshi-original-soundtrack": "lore",
+    "kenshi-wiki": "lore",
+    "kenshi/lua": "lore",
+    "ska": "geography",
+    "skeleton-survivor": "character",
+    "steam-trading-cards": "lore",
+    "urchin": "geography"
+  },
+  "files": {
+    "bar-thug": "src/content/articles/characters/bar-thug.md",
+    "barges": "src/content/articles/locations/world-elements/barges.md",
+    "birds": "src/content/articles/locations/world-elements/birds.md",
+    "changelog": "src/content/articles/reference/game/changelog.md",
+    "credits": "src/content/articles/reference/game/credits.md",
+    "dedicated-server-providers/rules": "src/content/articles/reference/multiplayer/dedicated-server-providers/rules.md",
+    "emperor-anzai": "src/content/articles/characters/historical/emperor-anzai.md",
+    "kenshi-2": "src/content/articles/reference/game/kenshi-2.md",
+    "kenshi-dedicated-server-providers": "src/content/articles/reference/multiplayer/kenshi-dedicated-server-providers.md",
+    "kenshi-original-soundtrack": "src/content/articles/reference/game/kenshi-original-soundtrack.md",
+    "kenshi-wiki": "src/content/articles/reference/wiki/kenshi-wiki.md",
+    "kenshi/lua": "src/content/articles/reference/wiki/kenshi/lua.md",
+    "ska": "src/content/articles/locations/unused/ska.md",
+    "skeleton-survivor": "src/content/articles/characters/recruits/skeleton-survivor.md",
+    "steam-trading-cards": "src/content/articles/reference/game/steam-trading-cards.md",
+    "urchin": "src/content/articles/locations/world-elements/urchin.md"
+  },
+  "batches": [
+    {
+      "name": "representative-structures",
+      "ids": [
+        "bar-thug",
+        "skeleton-survivor",
+        "kenshi-2"
+      ]
+    },
+    {
+      "name": "long-reference-material",
+      "ids": [
+        "changelog",
+        "credits",
+        "kenshi-original-soundtrack",
+        "steam-trading-cards"
+      ]
+    },
+    {
+      "name": "world-and-history",
+      "ids": [
+        "barges",
+        "birds",
+        "urchin",
+        "ska",
+        "emperor-anzai"
+      ]
+    },
+    {
+      "name": "historical-wiki",
+      "ids": [
+        "kenshi-wiki",
+        "kenshi/lua",
+        "kenshi-dedicated-server-providers",
+        "dedicated-server-providers/rules"
+      ]
+    }
+  ],
+  "expected": {
+    "headings": 556,
+    "citationTargets": 30,
+    "assets": 0,
+    "redirects": 1
+  }
+}

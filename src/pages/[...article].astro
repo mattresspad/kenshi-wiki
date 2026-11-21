@@ -32,6 +32,7 @@ const correction=correctionLink(origin+article.path);
       <header class="article-head"><h1 id="firstHeading" tabindex="-1">{data.title}</h1></header>
       <div class="opening-copy">
         {data.versions && <div class="tested-versions"><span>Tested with</span>{data.versions.map(([label,url])=><a href={url}>{label}</a>)}</div>}
+        {data.contextNotice && <aside class="historical-notice source-qualification" aria-label="Source context">{data.contextNotice}</aside>}
         <div class="lead-text" set:html={intro}/>
         <nav lang="en" class="article-actions" aria-label="Article sources and corrections"><a href="#source-history">Sources and history</a><a href={correction}>Suggest a correction</a>
         {data.layout==='recipe' && <a href="#turn-save-and-reload">Jump to the player test</a>}</nav>

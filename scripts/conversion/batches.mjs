@@ -1,3 +1,5 @@
+import remainderRoster from '../../conversion/remainder/roster.json' with {type:'json'};
+import remainderCheckpoint from '../../conversion/remainder/checkpoint.json' with {type:'json'};
 import manufacturerRoster from '../../conversion/manufacturers/roster.json' with {type:'json'};
 import manufacturerCheckpoint from '../../conversion/manufacturers/checkpoint.json' with {type:'json'};
 import moddingRoster from '../../conversion/modding/roster.json' with {type:'json'};
@@ -48,7 +50,8 @@ export const families = {
   events:{roster:eventRoster,checkpoint:eventCheckpoint},
   lore:{roster:loreRoster,checkpoint:loreCheckpoint},
   modding:{roster:moddingRoster,checkpoint:moddingCheckpoint},
-  manufacturers:{roster:manufacturerRoster,checkpoint:manufacturerCheckpoint}
+  manufacturers:{roster:manufacturerRoster,checkpoint:manufacturerCheckpoint},
+  remainder:{roster:remainderRoster,checkpoint:remainderCheckpoint}
 };
 export function selectedIds(family) {
   const {roster, checkpoint} = families[family];

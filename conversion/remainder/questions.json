@@ -1,0 +1,125 @@
+[
+  [
+    "remainder-recruit",
+    [
+      "skeleton-survivor"
+    ],
+    "2500|2,500|Shark|faction|Dialogue|Stats|random|Statistics",
+    "Skeleton Survivor recruitment price, spawn conditions, dialogue and randomized statistics need versioned verification.",
+    "Check the recruit record, dialogue conditions and an observed recruitment/reload trial before editing.",
+    "Pinned imported wording is preserved; source presence does not establish current accuracy or observed gameplay."
+  ],
+  [
+    "remainder-development",
+    [
+      "kenshi-2"
+    ],
+    "upcoming|currently|release|planned|Unreal|development|potential",
+    "Kenshi 2 plans, engine and release expectations are dated source claims, not a current development report.",
+    "Check the cited official statements and their dates; retain speculation as such.",
+    "Pinned imported wording is preserved; source presence does not establish current accuracy or observed gameplay."
+  ],
+  [
+    "remainder-changelog",
+    [
+      "changelog"
+    ],
+    "current|Experimental|date|version|[0-9]\\.[0-9]+\\.[0-9]+",
+    "The imported changelog is a historical release record; its current/latest wording and completeness require a dated comparison.",
+    "Compare official release notes and the game changelog, retaining exact versions and separate experimental/stable labels.",
+    "Pinned imported wording is preserved; source presence does not establish current accuracy or observed gameplay."
+  ],
+  [
+    "remainder-credits",
+    [
+      "credits"
+    ],
+    "Translator|Programmer|Artist|Writing|Music|Thanks",
+    "Game credit roles and names are a recorded historical list, distinct from wiki contributor credits.",
+    "Compare the credited game build and original credits before correcting names or roles.",
+    "Pinned imported wording is preserved; source presence does not establish current accuracy or observed gameplay."
+  ],
+  [
+    "remainder-commerce",
+    [
+      "kenshi-original-soundtrack",
+      "steam-trading-cards"
+    ],
+    "\\$|price|purchase|Steam|badge|XP|cards",
+    "Soundtrack prices and trading-card reward descriptions are source-era claims; current availability and reward semantics remain unverified.",
+    "Verify official product/platform evidence with dates; keep historical wording distinct from present purchase advice.",
+    "Pinned imported wording is preserved; source presence does not establish current accuracy or observed gameplay."
+  ],
+  [
+    "remainder-world",
+    [
+      "barges",
+      "birds",
+      "urchin",
+      "ska",
+      "emperor-anzai"
+    ],
+    "assum|believ|Specul|theory|fossil|evap|model|FCS|resident|demise|orchestrat|nothing|only",
+    "World-object interpretations, the unused Ska record and Emperor Anzai attribution include qualified or unverified claims.",
+    "Distinguish exact record identifiers, in-world statements, editorial interpretation and observed behavior; do not infer corrections.",
+    "Pinned imported wording is preserved; source presence does not establish current accuracy or observed gameplay."
+  ],
+  [
+    "remainder-disambiguation",
+    [
+      "bar-thug"
+    ],
+    "Thug|Waystation",
+    "The Bar Thug disambiguation retains distinct character and faction destinations.",
+    "Check ambiguous incoming links individually before selecting a specific character.",
+    "Pinned imported wording is preserved; source presence does not establish current accuracy or observed gameplay."
+  ],
+  [
+    "remainder-historical-wiki",
+    [
+      "kenshi-wiki",
+      "kenshi/lua",
+      "dedicated-server-providers/rules",
+      "kenshi-dedicated-server-providers"
+    ],
+    "wiki|Wiki|Wikia|provider|Providers|Lua|Scribunto|admin|rules|articles|files|edits|[0-9]",
+    "These pages describe the former Fandom wiki or inherited multiplayer-provider listings and policies, not current FreshWiki operation or endorsements.",
+    "Retain the historical documents and their addresses with explicit context notices; propose current guidance separately.",
+    "Pinned imported wording is preserved; source presence does not establish current accuracy or observed gameplay."
+  ],
+  [
+    "remainder-media",
+    [
+      "bar-thug",
+      "barges",
+      "birds",
+      "changelog",
+      "credits",
+      "dedicated-server-providers/rules",
+      "emperor-anzai",
+      "kenshi-2",
+      "kenshi-dedicated-server-providers",
+      "kenshi-original-soundtrack",
+      "kenshi-wiki",
+      "kenshi/lua",
+      "ska",
+      "skeleton-survivor",
+      "steam-trading-cards",
+      "urchin"
+    ],
+    "Gallery|image|card|picture|screenshot|illustrat|video|logo",
+    "Original illustrations, portraits, card art, screenshots and diagrams remain unassessed; no retained image links were found.",
+    "Compare the pinned source revisions and artwork permission records before restoring media.",
+    "Pinned imported wording is preserved; source presence does not establish current accuracy or observed gameplay."
+  ],
+  [
+    "remainder-provider-mismatch",
+    [
+      "kenshi-dedicated-server-providers"
+    ],
+    "conan-exiles",
+    "The inherited Kenshi provider listing points to a Conan Exiles service URL. No Kenshi hosting capability is established.",
+    "Inspect original revision history and the linked provider evidence before proposing a correction; retain the historical link meanwhile.",
+    "The table may be copied or misclassified; the source snapshot alone cannot establish its intended game."
+  ]
+]

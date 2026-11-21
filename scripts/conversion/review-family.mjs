@@ -5,7 +5,7 @@ import {snapshot} from '../../src/lib/catalog.mjs';
 import {selectedIds} from '../conversion/batches.mjs';
 import {mergeRegister,discover} from '../gaps/core.mjs';
 const get=p=>JSON.parse(readFileSync(p)),save=(p,x)=>writeFileSync(p,JSON.stringify(x,null,2)+'\n');
-const family=process.argv[2];assert.ok(['crafting','technology','shops','gameplay','events','lore','modding','manufacturers'].includes(family));
+const family=process.argv[2];assert.ok(['crafting','technology','shops','gameplay','events','lore','modding','manufacturers','remainder'].includes(family));
 const roster=get('conversion/'+family+'/roster.json'),review=get('conversion/'+family+'/review.json'),ledger=get('conversion/reviews.json'),baseline=get('conversion/gaps/source.json'),register=get('conversion/gaps/register.json');
 const ids=[...roster.batches.flatMap(b=>b.ids),...(roster.reviewExisting??[])],records=new Map(snapshot.articles.map(a=>[a.id,a])),sources=new Map(baseline.pages.map(p=>[p.id,p]));
 assert.equal(review.revision,snapshot.revision);
@@ -16,7 +16,7 @@ const texts=new Map();
 for(const id of new Set([...ids,...definitions.flatMap(d=>d[1]??[])])){const original=sources.get(id);let text=readFileSync('reports/geography-work/reference-83abc179/'+original.sourceFile,'utf8').replaceAll('\r\n','\n');assert.equal(createHash('sha256').update(text).digest('hex'),original.sourceSha256,id+' source');texts.set(id,text.split('\n'));}
 for(const [key,only,pattern,finding,resolution,uncertainty] of definitions){
  const occurrences=[],evidence=[];
- for(const id of only??ids){const lines=texts.get(id);if(!lines)continue;const hits=lines.flatMap((line,i)=>pattern.test(line.trim())?[{line:i+1,literal:line}]:[]).slice(0,['events','lore','modding','manufacturers'].includes(family)?Infinity:12);if(!hits.length)continue;
+ for(const id of only??ids){const lines=texts.get(id);if(!lines)continue;const hits=lines.flatMap((line,i)=>pattern.test(line.trim())?[{line:i+1,literal:line}]:[]).slice(0,['events','lore','modding','manufacturers','remainder'].includes(family)?Infinity:12);if(!hits.length)continue;
   const source=sources.get(id);evidence.push({articleId:id,sourceFile:source.sourceFile,revision:source.sourceRevision,sha256:source.sourceSha256,url:'https://github.com/mattresspad/kenshi-wiki/blob/'+source.sourceRevision+'/'+source.sourceFile});
   for(const hit of hits)occurrences.push({pageId:id,label:hit.literal,literal:hit.literal,line:hit.line,sourceFile:source.sourceFile,revision:source.sourceRevision});
  }

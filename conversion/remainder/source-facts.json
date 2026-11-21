@@ -1,0 +1,61 @@
+{
+  "bar-thug": null,
+  "barges": null,
+  "birds": null,
+  "changelog": null,
+  "credits": null,
+  "dedicated-server-providers/rules": null,
+  "emperor-anzai": null,
+  "kenshi-2": null,
+  "kenshi-dedicated-server-providers": null,
+  "kenshi-original-soundtrack": null,
+  "kenshi-wiki": null,
+  "kenshi/lua": null,
+  "ska": null,
+  "skeleton-survivor": {
+    "title": "Skeleton Survivor",
+    "groups": [
+      {
+        "heading": null,
+        "rows": [
+          [
+            "Race",
+            "<a href=\"/skeleton\">Skeleton</a>"
+          ],
+          [
+            "Subrace",
+            "<a href=\"/skeleton-race\">Skeleton (Race)</a>"
+          ]
+        ]
+      },
+      {
+        "heading": "Items",
+        "rows": [
+          [
+            "Weapons",
+            "<a href=\"/nodachi\">Nodachi</a>"
+          ],
+          [
+            "Inventory",
+            "Skeleton Repair Kit"
+          ]
+        ]
+      },
+      {
+        "heading": "Technical Info",
+        "rows": [
+          [
+            "FCS Name",
+            "Skeleton recruit 2500 swamp 2"
+          ],
+          [
+            "String ID",
+            "48668-Dialogue.mod"
+          ]
+        ]
+      }
+    ]
+  },
+  "steam-trading-cards": null,
+  "urchin": null
+}
