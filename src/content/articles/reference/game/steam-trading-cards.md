@@ -5,6 +5,7 @@ description: Steam Trading Cards are trade-able content available to people who 
 categories:
   - Kenshi Wiki
 layout: lore
+contextNotice: "Source-era platform information: the card and reward descriptions below are retained from the recorded revision and have not been checked against current Steam behavior."
 ---
 
 **Steam Trading Cards** are trade-able content available to people who purchased [Kenshi](/kenshi) on Steam. They make use of concept art from Kenshi's development, depicting [Skeletons](/skeleton), [Bonedogs](/bonedog), [Beak Things](/beak-thing), [Gorillos](/gorillo), and [Hivers](/hive). Some images used in the trading cards are also in use as [Loading Screens](/loading-screen).

@@ -5,6 +5,7 @@ description: Kenshi Original Soundtrack is available for purchase from Steam alo
 categories:
   - Kenshi Wiki
 layout: lore
+contextNotice: "Source-era product information: the price and availability below are retained from the recorded revision, rather than verified as a current offer."
 ---
 
 **Kenshi Original Soundtrack** is available for purchase from Steam alongside [Kenshi](/kenshi). It was released May 9, 2016, and can be purchased for $4.99 USD.

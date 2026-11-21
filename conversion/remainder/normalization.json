@@ -5,6 +5,30 @@
       "kind": "historical/source-snapshot context",
       "notice": "Source snapshot: this imported development overview retains the plans, expectations and qualifications recorded in its cited revision. It has not been refreshed as a current Kenshi 2 status report.",
       "sourceBodyChanged": false
+    },
+    {
+      "id": "changelog",
+      "kind": "historical/source-snapshot context",
+      "notice": "Historical release record: version labels and references to the current or latest release are retained from the recorded source snapshot. This page does not claim that the list is up to date.",
+      "sourceBodyChanged": false
+    },
+    {
+      "id": "credits",
+      "kind": "historical/source-snapshot context",
+      "notice": "This is the imported game-credit list. Roles and names are retained from the recorded source revision; wiki contribution history is separate.",
+      "sourceBodyChanged": false
+    },
+    {
+      "id": "kenshi-original-soundtrack",
+      "kind": "historical/source-snapshot context",
+      "notice": "Source-era product information: the price and availability below are retained from the recorded revision, rather than verified as a current offer.",
+      "sourceBodyChanged": false
+    },
+    {
+      "id": "steam-trading-cards",
+      "kind": "historical/source-snapshot context",
+      "notice": "Source-era platform information: the card and reward descriptions below are retained from the recorded revision and have not been checked against current Steam behavior.",
+      "sourceBodyChanged": false
     }
   ],
   "editorial": "Context notices do not alter imported claims, categories or source bodies."

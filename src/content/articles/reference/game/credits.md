@@ -5,6 +5,7 @@ description: Kenshi Credits can be found in the game through the "Credits" butto
 categories:
   - Kenshi Wiki
 layout: lore
+contextNotice: This is the imported game-credit list. Roles and names are retained from the recorded source revision; wiki contribution history is separate.
 ---
 
 Kenshi Credits can be found in the game through the "Credits" button on the [Main Menu](/main-menu).
