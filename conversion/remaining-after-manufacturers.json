@@ -1,0 +1,156 @@
+{
+  "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "baseRevision": "6e12c25842f73b38fa9d8eeca0fbd4dcf98359f9",
+  "pending": 16,
+  "groups": {
+    "Books and lore": {
+      "pending": []
+    },
+    "Modding and mod projects": {
+      "pending": []
+    },
+    "Gameplay, Skills and player guides": {
+      "pending": []
+    },
+    "Manufacturers and historical remainder": {
+      "pending": []
+    },
+    "Events": {
+      "pending": []
+    },
+    "Reference and unresolved remainder": {
+      "pending": [
+        {
+          "id": "bar-thug",
+          "path": "/bar-thug",
+          "sourceFile": "src/content/wiki/bar-thug.md",
+          "categories": [
+            "Disambiguations"
+          ]
+        },
+        {
+          "id": "barges",
+          "path": "/barges",
+          "sourceFile": "src/content/wiki/barges.md",
+          "categories": [
+            "World Elements"
+          ]
+        },
+        {
+          "id": "birds",
+          "path": "/birds",
+          "sourceFile": "src/content/wiki/birds.md",
+          "categories": [
+            "World Elements"
+          ]
+        },
+        {
+          "id": "changelog",
+          "path": "/changelog",
+          "sourceFile": "src/content/wiki/changelog.md",
+          "categories": [
+            "Kenshi Wiki"
+          ]
+        },
+        {
+          "id": "credits",
+          "path": "/credits",
+          "sourceFile": "src/content/wiki/credits.md",
+          "categories": [
+            "Kenshi Wiki"
+          ]
+        },
+        {
+          "id": "dedicated-server-providers/rules",
+          "path": "/dedicated-server-providers/rules",
+          "sourceFile": "src/content/wiki/dedicated-server-providers/rules.md",
+          "categories": []
+        },
+        {
+          "id": "emperor-anzai",
+          "path": "/emperor-anzai",
+          "sourceFile": "src/content/wiki/emperor-anzai.md",
+          "categories": [
+            "United Cities"
+          ]
+        },
+        {
+          "id": "kenshi-2",
+          "path": "/kenshi-2",
+          "sourceFile": "src/content/wiki/kenshi-2.md",
+          "categories": [
+            "Kenshi Wiki",
+            "Kenshi 2"
+          ]
+        },
+        {
+          "id": "kenshi-dedicated-server-providers",
+          "path": "/kenshi-dedicated-server-providers",
+          "sourceFile": "src/content/wiki/kenshi-dedicated-server-providers.md",
+          "categories": []
+        },
+        {
+          "id": "kenshi-original-soundtrack",
+          "path": "/kenshi-original-soundtrack",
+          "sourceFile": "src/content/wiki/kenshi-original-soundtrack.md",
+          "categories": [
+            "Kenshi Wiki"
+          ]
+        },
+        {
+          "id": "kenshi-wiki",
+          "path": "/kenshi-wiki",
+          "sourceFile": "src/content/wiki/kenshi-wiki.md",
+          "categories": [
+            "Kenshi Wiki"
+          ]
+        },
+        {
+          "id": "kenshi/lua",
+          "path": "/kenshi/lua",
+          "sourceFile": "src/content/wiki/kenshi/lua.md",
+          "categories": [
+            "Lua-based templates"
+          ]
+        },
+        {
+          "id": "ska",
+          "path": "/ska",
+          "sourceFile": "src/content/wiki/ska.md",
+          "categories": [
+            "Article stubs"
+          ]
+        },
+        {
+          "id": "skeleton-survivor",
+          "path": "/skeleton-survivor",
+          "sourceFile": "src/content/wiki/skeleton-survivor.md",
+          "categories": [
+            "Unique Recruits"
+          ]
+        },
+        {
+          "id": "steam-trading-cards",
+          "path": "/steam-trading-cards",
+          "sourceFile": "src/content/wiki/steam-trading-cards.md",
+          "categories": [
+            "Kenshi Wiki"
+          ]
+        },
+        {
+          "id": "urchin",
+          "path": "/urchin",
+          "sourceFile": "src/content/wiki/urchin.md",
+          "categories": [
+            "World Elements"
+          ]
+        }
+      ]
+    }
+  },
+  "deferredPR43": {
+    "status": "All four guides transferred and verified against recorded newBlob exactly once.",
+    "evidence": "conversion/modding/pr-43-verification.json"
+  },
+  "status": "Assessment only; no route retired."
+}

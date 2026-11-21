@@ -1,0 +1,204 @@
+{
+  "scope": "Local review",
+  "baselineRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "newArticles": 30,
+  "existingCategoryArticlesReused": 44,
+  "articles": 2168,
+  "pages": 2208,
+  "pendingBaseline": 16,
+  "categoryCounts": {
+    "Manufacturers": 10,
+    "Removed Content": 67,
+    "Retired Items": 11
+  },
+  "headings": 59,
+  "citationTargets": 0,
+  "newRedirects": 12,
+  "images": 3,
+  "reviewedNewArticles": 30,
+  "earlierReviewsOutstanding": 462,
+  "temporaryDestinations": {
+    "resolved": [
+      "/adventurers-guild-alpha",
+      "/ancient",
+      "/ancient-manufacturer",
+      "/bandits",
+      "/blackened-chain-headwrap",
+      "/carbon",
+      "/category/manufacturers",
+      "/category/removed-content",
+      "/catun-scrapmaster",
+      "/catun-scrapmaster-manufacturer",
+      "/chain-headwrap",
+      "/dead-cat",
+      "/dried-gristle-flaps",
+      "/edgewalkers",
+      "/flat-topper",
+      "/heavy-iron-club",
+      "/homemade",
+      "/imperial-lords",
+      "/jacket",
+      "/metal-purity",
+      "/narcotics",
+      "/potatoes",
+      "/raider-armour",
+      "/samurai-lord",
+      "/sand-ninjas-alpha",
+      "/shopkeepers-backpack",
+      "/skeleton-smiths",
+      "/skeleton-smiths-manufacturer",
+      "/the-holy-empire",
+      "/the-old-empire",
+      "/truth-two",
+      "/unknown",
+      "/unknown-manufacturer"
+    ],
+    "introduced": [
+      "/category/pages-with-unmapped-item-name"
+    ],
+    "remaining": 193
+  },
+  "introducedRegressions": 0,
+  "checkpoints": [
+    {
+      "number": 1,
+      "name": "manufacturer-pilots",
+      "folder": "01-manufacturer-pilots",
+      "articles": 3,
+      "pages": 2181,
+      "verified": 3,
+      "icons": 0,
+      "links": {
+        "resolved": 7,
+        "introduced": 3,
+        "remaining": 221
+      },
+      "catalog": 50,
+      "browser": 199,
+      "skipped": 6,
+      "gapChanges": {
+        "opened": [
+          "claim:manufacturers-availability",
+          "claim:manufacturers-historical-relations",
+          "claim:manufacturers-quality",
+          "claim:manufacturers-retired-properties",
+          "claim:manufacturers-historical-claims",
+          "claim:manufacturers-historical-status",
+          "claim:manufacturers-blank-comparisons",
+          "claim:manufacturers-crafting-limits",
+          "claim:manufacturers-old-destinations",
+          "claim:manufacturers-potato-price",
+          "claim:manufacturers-media",
+          "claim:manufacturers-save-import"
+        ],
+        "resolved": [
+          "media:/icons/items/42328-changes_otto.mod.png",
+          "media:/icons/items/50568-rebirth.mod.png",
+          "media:/icons/items/910-gamedata.base.png",
+          "availability:/ancient-manufacturer",
+          "availability:/category/removed-content",
+          "availability:/catun-scrapmaster-manufacturer",
+          "availability:/edgewalkers"
+        ],
+        "remainingOpen": 801
+      }
+    },
+    {
+      "number": 2,
+      "name": "historical-structures",
+      "folder": "02-historical-structures",
+      "articles": 3,
+      "pages": 2184,
+      "verified": 6,
+      "icons": 0,
+      "links": {
+        "resolved": 3,
+        "introduced": 0,
+        "remaining": 218
+      },
+      "catalog": 50,
+      "browser": 203,
+      "skipped": 2,
+      "gapChanges": {
+        "opened": [],
+        "resolved": [
+          "claim:manufacturers-old-destinations",
+          "availability:/adventurers-guild-alpha",
+          "availability:/blackened-chain-headwrap",
+          "availability:/ore-mine"
+        ],
+        "remainingOpen": 797
+      }
+    },
+    {
+      "number": 3,
+      "name": "historical-qualifications",
+      "folder": "03-historical-qualifications",
+      "articles": 3,
+      "pages": 2187,
+      "verified": 9,
+      "icons": 1,
+      "links": {
+        "resolved": 3,
+        "introduced": 0,
+        "remaining": 215
+      },
+      "catalog": 50,
+      "browser": 203,
+      "skipped": 2,
+      "gapChanges": {
+        "opened": [],
+        "resolved": [
+          "availability:/old-eye-blades",
+          "availability:/samurai-lord",
+          "availability:/shopkeepers-backpack"
+        ],
+        "remainingOpen": 794
+      }
+    },
+    {
+      "number": 4,
+      "name": "remaining-manufacturers-and-history",
+      "folder": "04-remaining-manufacturers-and-history",
+      "articles": 21,
+      "pages": 2208,
+      "verified": 30,
+      "icons": 3,
+      "links": {
+        "resolved": 23,
+        "introduced": 1,
+        "remaining": 193
+      },
+      "catalog": 51,
+      "browser": 203,
+      "skipped": 2,
+      "gapChanges": {
+        "opened": [],
+        "resolved": [
+          "availability:/bandits",
+          "availability:/carbon",
+          "availability:/chain-headwrap",
+          "availability:/dead-cat",
+          "availability:/dried-gristle-flaps",
+          "availability:/flat-topper",
+          "availability:/heavy-iron-club",
+          "availability:/homemade",
+          "availability:/imperial-lords",
+          "availability:/jacket",
+          "availability:/metal-purity",
+          "availability:/narcotics",
+          "availability:/ore-mining",
+          "availability:/potatoes",
+          "availability:/raider-armour",
+          "availability:/sand-ninjas-alpha",
+          "availability:/skeleton-smiths-manufacturer",
+          "availability:/the-holy-empire",
+          "availability:/the-old-empire",
+          "availability:/truth-two",
+          "availability:/unknown-manufacturer"
+        ],
+        "remainingOpen": 773
+      }
+    }
+  ]
+}
