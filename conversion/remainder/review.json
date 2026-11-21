@@ -1,5 +1,52 @@
 {
   "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
-  "articles": [],
+  "articles": [
+    {
+      "id": "bar-thug",
+      "existence": "Permanent ID, address, pinned checksum, categories and one characters/ editable home checked.",
+      "content": "Disambiguation inspected: retain six distinct character links and the separate faction link; do not collapse the shared label.",
+      "organization": "Reviewed 2 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/bar-thug.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "f4c639df73872dd6a36388d68222b2a36566414e48402fc2b425b03ee510e043"
+      },
+      "questions": [
+        "claim:remainder-disambiguation"
+      ],
+      "assessment": "Disambiguation inspected: retain six distinct character links and the separate faction link; do not collapse the shared label."
+    },
+    {
+      "id": "skeleton-survivor",
+      "existence": "Permanent ID, address, pinned checksum, categories and one characters/recruits/ editable home checked.",
+      "content": "Recruit description, quoted offer, eight source tables, equipment and dialogue-package identity inspected. Price and spawn/world-state claims remain unverified; preserve the randomization qualification.",
+      "organization": "Reviewed 0 headings and 8 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/skeleton-survivor.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "765ac527b734fb37edfd6a4c462857b03f3d988ce5b0607b37909b894f9a636d"
+      },
+      "questions": [
+        "claim:remainder-recruit"
+      ],
+      "assessment": "Recruit description, quoted offer, eight source tables, equipment and dialogue-package identity inspected. Price and spawn/world-state claims remain unverified; preserve the randomization qualification."
+    },
+    {
+      "id": "kenshi-2",
+      "existence": "Permanent ID, address, pinned checksum, categories and one reference/game/ editable home checked.",
+      "content": "Development overview and 30 citation targets inspected. Separate plans, speculation and release expectations; retain the recorded source date rather than presenting a newly verified update.",
+      "organization": "Reviewed 3 headings and 0 tables. Existing order and bookmarks retained; source qualifications, numerical fields and gameplay interpretations remain distinct. Missing context remains in the gap register.",
+      "sourceEvidence": {
+        "file": "src/content/wiki/kenshi-2.md",
+        "revision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+        "sha256": "10f29f9ab15af75e089278a70eca5121c4c27682f56f21fe5d2fd1ca9bb29ca9"
+      },
+      "questions": [
+        "claim:remainder-development",
+        "claim:remainder-media"
+      ],
+      "assessment": "Development overview and 30 citation targets inspected. Separate plans, speculation and release expectations; retain the recorded source date rather than presenting a newly verified update."
+    }
+  ],
   "editorialChanges": []
 }

@@ -6790,6 +6790,18 @@
     "unknown-manufacturer": {
       "formatCheck": "scripts/conversion/verify.mjs",
       "editorialReview": "conversion/manufacturers/review.json"
+    },
+    "bar-thug": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/remainder/review.json"
+    },
+    "skeleton-survivor": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/remainder/review.json"
+    },
+    "kenshi-2": {
+      "formatCheck": "scripts/conversion/verify.mjs",
+      "editorialReview": "conversion/remainder/review.json"
     }
   },
   "mediaGaps": [

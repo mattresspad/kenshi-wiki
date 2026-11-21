@@ -1377,6 +1377,17 @@
       }
     },
     {
+      "id": "availability:/bar-thug",
+      "kind": "availability",
+      "target": "/bar-thug",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#representative-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/bar-thug"
+      }
+    },
+    {
       "id": "availability:/bar-thug-drunk",
       "kind": "availability",
       "target": "/bar-thug-drunk",
@@ -11618,6 +11629,17 @@
       }
     },
     {
+      "id": "availability:/kenshi-2",
+      "kind": "availability",
+      "target": "/kenshi-2",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#representative-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/kenshi-2"
+      }
+    },
+    {
       "id": "availability:/kenshi-unofficial-multiplayer-mod",
       "kind": "availability",
       "target": "/kenshi-unofficial-multiplayer-mod",
@@ -18787,6 +18809,17 @@
       "resolution": {
         "method": "local output exists; route/catalog checks run in the build",
         "target": "/skeleton-smiths-manufacturer"
+      }
+    },
+    {
+      "id": "availability:/skeleton-survivor",
+      "kind": "availability",
+      "target": "/skeleton-survivor",
+      "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+      "acceptedIn": "conversion/remainder/acceptances.json#representative-structures",
+      "resolution": {
+        "method": "local output exists; route/catalog checks run in the build",
+        "target": "/skeleton-survivor"
       }
     },
     {
