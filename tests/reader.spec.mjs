@@ -144,8 +144,8 @@ test('all accepted canonical pages and the sitemap agree; excluded and unknown r
   expect(await(await request.get('/robots.txt')).text()).toContain(origin+'/sitemap-index.xml');
   for(const p of ['/category/pages-with-non-numeric-formatnum-arguments','/unreviewed-test-path'])expect((await request.get(p)).status()).toBe(404);
   const config=JSON.parse(readFileSync('.cloudflare/output/v0/workers/default/worker.config.json','utf8'));
-  assert.equal(config.manifest.mainModule,'worker/index.mjs');
+  assert.equal(config.manifest.mainModule,'index.mjs');
   assert.deepEqual(config.assets.runWorkerFirst,['/api/contact']);
-  assert.deepEqual(Object.keys(config.manifest.modules).sort(),['contact/policy.mjs','worker/contact.mjs','worker/index.mjs']);
+  assert.deepEqual(Object.keys(config.manifest.modules).sort(),['contact/policy.mjs','index.mjs','worker/contact.mjs','worker/index.mjs']);
   expect(config.assets.htmlHandling).toBe('drop-trailing-slash');
 });
