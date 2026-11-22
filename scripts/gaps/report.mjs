@@ -1,3 +1,4 @@
+import {contactEndpoints} from '../../src/lib/utility-routes.mjs';
 import {projectWorkIndex,compactWorkIndex} from '../../src/lib/work-index.mjs';
 import {resolveWorkFindings} from '../../src/lib/work-findings.mjs';
 import {workRoute} from '../../src/lib/work-routes.mjs';
@@ -30,7 +31,7 @@ export function reportGaps(atlas,articleReviews={}) {
   assert.equal(curatedIds.size,curated.findings.length,'Duplicate gap IDs');
   for(const id of detected.keys())assert.ok(curatedIds.has(id),'Unregistered finding '+id);
   const redirects=new Map(snapshot.redirects.map(r=>[r.from,r.to]));
-  const registered=new Set([...atlas.local,...atlas.articles.keys(),...[...atlas.categories.values()].map(c=>c.path),...snapshot.portals,...snapshot.utilities,...snapshot.endpoints,workRoute,...Object.keys(baseline.assets)]);
+  const registered=new Set([...atlas.local,...atlas.articles.keys(),...[...atlas.categories.values()].map(c=>c.path),...snapshot.portals,...snapshot.utilities,...snapshot.endpoints,...contactEndpoints,workRoute,...Object.keys(baseline.assets)]);
   const local=new Map();
   for(const path of atlas.local){
     const id=atlas.articles.get(path)?.id??'route:'+path;

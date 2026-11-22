@@ -1,0 +1,39 @@
+[
+  {
+    "id": "pr-57-hunger-floor",
+    "family": "gameplay",
+    "articleId": "guide-to-health",
+    "path": "/guide-to-health",
+    "file": "src/content/articles/gameplay/guides/guide-to-health.md",
+    "headingId": "hunger",
+    "author": "teppuM",
+    "pullRequest": "https://github.com/mattresspad/kenshi-wiki/pull/57",
+    "sourceCommit": "986c67e8c09ee7ee8ed9e436219d26d775820acd",
+    "mergeCommit": "d3aa2e8a7f1f98577469d9516a6fd0aa278d1535",
+    "beforeCommit": "5fda49b81891284c7f6001c2f75f1f9eb6bada97",
+    "sourceLinks": {
+      "before": "https://github.com/mattresspad/kenshi-wiki/blob/5fda49b81891284c7f6001c2f75f1f9eb6bada97/src/content/articles/gameplay/guides/guide-to-health.md",
+      "after": "https://github.com/mattresspad/kenshi-wiki/blob/986c67e8c09ee7ee8ed9e436219d26d775820acd/src/content/articles/gameplay/guides/guide-to-health.md"
+    },
+    "source": {
+      "before": "Characters which are enslaved are kept fed to around 100, which results in major stat drainage from malnutrition.",
+      "after": "Characters outside the player's faction are fed by the game itself. Whenever one of them has nothing left to digest and its hunger is below a set floor, the game gives it free food up to that floor, a little at a time. For most NPCs the floor is 300, the top of the meter, so they never get hungry and never need to carry food. Characters which are enslaved are kept fed to 100, which results in major stat drainage from malnutrition. Squads whose template is marked malnourished get a random floor between 100 and 220, which is why they can show malnutrition. Prisoners not held by the player get a lower floor, 115 or 200 depending on their state. Animals are kept fed the same way only when the game's \"animals eat\" option is off. The player's own characters, and prisoners the player holds, get no free food and can starve."
+    },
+    "rendered": {
+      "before": "Characters which are enslaved are kept fed to around 100, which results in major stat drainage from malnutrition.",
+      "after": "Characters outside the player’s faction are fed by the game itself. Whenever one of them has nothing left to digest and its hunger is below a set floor, the game gives it free food up to that floor, a little at a time. For most NPCs the floor is 300, the top of the meter, so they never get hungry and never need to carry food. Characters which are enslaved are kept fed to 100, which results in major stat drainage from malnutrition. Squads whose template is marked malnourished get a random floor between 100 and 220, which is why they can show malnutrition. Prisoners not held by the player get a lower floor, 115 or 200 depending on their state. Animals are kept fed the same way only when the game’s “animals eat” option is off. The player’s own characters, and prisoners the player holds, get no free food and can starve."
+    },
+    "paragraphSha256": {
+      "before": "d0ffa9fcb518c1dd100d0ebbeb961765890acfb3744c7a0f4e28658e6af08cd8",
+      "after": "18d0012cc86be3026ea6540bbf6b4356f0665944b2e9db56c0e375bcf5695cdd"
+    },
+    "sourceFileSha256": {
+      "before": "745b081d3fc0a8b3353a8e2c773889a0d80f862c89dd7d86be8ec2ec8e992692",
+      "after": "c7843b09fa53aead505212f80612320e8652d1424d2552307d95f07a759bc231"
+    },
+    "frozenTextFingerprint": "b53fd7400ac76f18141f064f6b9036faee8bba223d5e46b61180638798fe44aa",
+    "acceptedTextFingerprint": "bddadd5aa3eab4b26c2dda812e9d73689c4d335f0c56f818d6dde8d00894524d",
+    "scope": "Approved paragraph replacement only. Existing article credit/license and all open gameplay-verification findings remain unchanged.",
+    "license": "Evidence excerpts retain the Guide to Health article terms (CC BY-SA 3.0); source and contributor credit remain attached."
+  }
+]

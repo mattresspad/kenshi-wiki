@@ -1,0 +1,39 @@
+---
+import {forms,fields} from '../contact/policy.mjs';
+import '../styles/contact.css';
+const {kind='general'}=Astro.props;
+const sitekey=import.meta.env.PUBLIC_TURNSTILE_SITE_KEY?.trim()||'';
+---
+<section class="contact-intake" data-pagefind-ignore>
+  <div class="contact-preview-note" hidden></div>
+  <form id="contact-form" data-kind={kind} data-action={forms[kind].action} data-sitekey={sitekey} action="/api/contact" method="post" novalidate>
+    <div class="contact-result" id="contact-result" role="status" aria-live="polite" tabindex="-1" hidden></div>
+    <p>Fields marked “required” are needed to send your message. Please include only the personal information necessary to handle it.</p>
+    <label for="contact-topic">Topic (required)</label>
+    <select id="contact-topic" name="topic" required aria-describedby="error-topic">{Object.entries(forms[kind].topics).map(([value,label])=><option value={value}>{label}</option>)}</select>
+    <p class="field-error" id="error-topic" hidden></p>
+    <label for="contact-email">Reply email (required)</label>
+    <input id="contact-email" name="email" type="email" autocomplete="email" maxlength={fields.email} required aria-describedby="error-email"/>
+    <p class="field-error" id="error-email" hidden></p>
+    <label for="contact-name">Name or preferred credit (optional)</label>
+    <input id="contact-name" name="name" autocomplete="name" maxlength={fields.name} aria-describedby="error-name"/>
+    <p class="field-error" id="error-name" hidden></p>
+    <label for="contact-affected">Affected URL or file ({kind==='copyright'?'required':'optional'})</label>
+    <textarea id="contact-affected" name="affected" rows="2" maxlength={fields.affected} required={kind==='copyright'} aria-describedby="affected-help error-affected"></textarea>
+    <p class="field-help" id="affected-help">Wiki page links, image addresses or repository file paths. You can list more than one.</p>
+    <p class="field-error" id="error-affected" hidden></p>
+    <label for="contact-message">Explanation or proposed contribution (required)</label>
+    <textarea id="contact-message" name="message" rows="7" maxlength={fields.message} required aria-describedby="message-help error-message"></textarea>
+    <p class="field-help" id="message-help">{kind==='copyright'?'Describe the concern or permission, include original-source links where available, and say what resolution you would like.':'Explain your question or correction, or describe the proposed contribution with sources and any requested credit.'} Up to 10,000 characters; text and links only.</p>
+    <p class="field-error" id="error-message" hidden></p>
+    <div class="contact-honeypot" aria-hidden="true"><label for="contact-website">Leave this field empty</label><input id="contact-website" name="website" tabindex="-1" autocomplete="off"/></div>
+    <div id="contact-verification" tabindex="-1" aria-label="Submission verification" aria-describedby="error-token"></div>
+    <p class="field-error" id="error-token" hidden></p>
+    <p id="contact-availability" class="field-help">Preparing verification. You can also email <a href="mailto:admin@kenshi.wiki">admin@kenshi.wiki</a>.</p>
+    <button type="submit" id="contact-send" disabled>Send privately</button>
+    <noscript><p>JavaScript is needed for form verification. Please email <a href="mailto:admin@kenshi.wiki">admin@kenshi.wiki</a> instead.</p></noscript>
+  </form>
+  <p class="contact-privacy">The form creates no public issue or application archive. Delivered correspondence remains in the maintainer’s mailbox under its normal retention. Sending does not publish a contribution, decide a claim or trigger removal.</p>
+</section>
+<script is:inline async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"></script>
+<script>import '../scripts/contact.js';</script>
