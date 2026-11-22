@@ -41,6 +41,9 @@ for(const phone of [false,true]) test('Catun journey and original geography book
   await expect(page.locator('.factbox a')).toHaveCount(9);
   await page.locator('.article-body a[href="/catun"]').first().click();
   await page.locator('main a[href="/catun-alpha"]').click();
+  // Completing a deferred module can reapply the native fragment focus.
+  // Begin the keyboard round trip after the destination finishes loading.
+  await page.waitForLoadState('load');
   await expect(page.locator('.historical-notice')).toBeVisible();
   await expect(page.locator('.lead-text')).toContainText('0.90.0');
   await page.locator('#cite_ref-1 a').press('Enter');
@@ -84,3 +87,43 @@ test('Bad Teeth retains its five override destinations in source priority order'
   await rule.nth(2).press('Enter');
   await expect(page.locator('h1')).toHaveText('Bad Teeth/Shek Kingdom');
 });
+
+for (const phone of [false, true]) for (const theme of ['light', 'dark']) {
+  test(`Catun citation return after delayed scripts: ${phone ? 'phone' : 'desktop'} ${theme}`, async ({page}) => {
+    await page.setViewportSize(phone ? {width: 390, height: 844} : {width: 1440, height: 900});
+    await page.addInitScript(theme => localStorage.setItem('wiki-theme', theme), theme);
+    await page.goto('/catun');
+    let releaseScripts;
+    const scripts = new Promise(resolve => { releaseScripts = resolve; });
+    const errors = [];
+    page.on('pageerror', error => errors.push(error.message));
+    await page.route('**/*', async route => {
+      if (route.request().resourceType() === 'script') await scripts;
+      await route.continue();
+    });
+    try {
+      await page.locator('main a[href="/catun-alpha"]').click();
+      await expect(page.locator('.historical-notice')).toBeVisible();
+      // The DOM exists while the destination's deferred modules are still held.
+      expect(await page.evaluate(() => document.readyState)).not.toBe('complete');
+      const loaded = page.waitForLoadState('load');
+      releaseScripts();
+      await loaded;
+      await expect(page.locator('html')).toHaveAttribute('data-theme', theme);
+      await page.locator('#cite_ref-1 a').press('Enter');
+      await expect(page).toHaveURL(/#cite_note-1$/);
+      await expect(page.locator('#cite_note-1')).toBeFocused();
+      await page.keyboard.press('Tab');
+      await expect(page.locator('#cite_note-1 a[href="#cite_ref-1"]')).toBeFocused();
+      await page.keyboard.press('Enter');
+      await expect(page).toHaveURL(/#cite_ref-1$/);
+      await expect(page.locator('#cite_ref-1')).toBeFocused();
+      await expect(page.locator('#cite_ref-1')).toBeInViewport();
+      expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth)).toBe(0);
+      expect(errors).toEqual([]);
+    } finally {
+      releaseScripts();
+      await page.unrouteAll({behavior: 'wait'});
+    }
+  });
+}

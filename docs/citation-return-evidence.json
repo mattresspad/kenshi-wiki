@@ -1,0 +1,657 @@
+{
+  "browser": "149.0.7827.55",
+  "candidateSource": "d8bd6e1def09007a28201b1a5fe25727c8614104",
+  "candidateVersion": "ab6be59c-38d3-4cc1-8f8b-9c12f9067ada",
+  "candidatePackageSha256": "2d449277afb47e777871d661c1cad8ac0f8ea86390cfad67fe187617d979714e",
+  "mergedMain": "dc91dfba1c25b25e8c78e6448e284df535c1b158",
+  "runs": [
+    {
+      "source": "candidate-control.json",
+      "sha256": "7065df282256edf28640018b8e4a542149dde1647656dbef594ffd091cd4ea14",
+      "url": "https://ab6be59c-kenshi-wiki.prds.workers.dev",
+      "trials": [
+        {
+          "fixture": "site",
+          "waitForLoad": false,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site",
+          "waitForLoad": false,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site",
+          "waitForLoad": false,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site",
+          "waitForLoad": true,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "site",
+          "waitForLoad": true,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "site",
+          "waitForLoad": true,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": false,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": false,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": false,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": true,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": true,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": true,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": false,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": false,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": false,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": true,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": true,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": true,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        }
+      ],
+      "minimalEarlyTimeline": [
+        {
+          "type": "focusin",
+          "target": "a[href=\"#cite_note-1\"]",
+          "active": "a[href=\"#cite_note-1\"]",
+          "hash": "",
+          "ready": "interactive",
+          "time": 21.600000001490116
+        },
+        {
+          "type": "keydown",
+          "key": "Enter",
+          "target": "a[href=\"#cite_note-1\"]",
+          "active": "a[href=\"#cite_note-1\"]",
+          "hash": "",
+          "ready": "interactive",
+          "time": 22.100000001490116
+        },
+        {
+          "type": "click",
+          "target": "a[href=\"#cite_note-1\"]",
+          "active": "a[href=\"#cite_note-1\"]",
+          "hash": "",
+          "ready": "interactive",
+          "time": 22.100000001490116
+        },
+        {
+          "type": "focusout",
+          "target": "a[href=\"#cite_note-1\"]",
+          "active": "BODY",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 22.299999997019768
+        },
+        {
+          "type": "focusin",
+          "target": "cite_note-1",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 22.399999998509884
+        },
+        {
+          "type": "keyup",
+          "key": "Enter",
+          "target": "cite_note-1",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 22.799999997019768
+        },
+        {
+          "type": "focusout",
+          "target": "cite_note-1",
+          "active": "BODY",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 27.799999997019768
+        },
+        {
+          "type": "focusin",
+          "target": "a[href=\"#cite_ref-1\"]",
+          "active": "a[href=\"#cite_ref-1\"]",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 27.899999998509884
+        },
+        {
+          "type": "hashchange",
+          "active": "a[href=\"#cite_ref-1\"]",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 36.399999998509884
+        },
+        {
+          "type": "DOMContentLoaded",
+          "target": "#document",
+          "active": "a[href=\"#cite_ref-1\"]",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 36.70000000298023
+        },
+        {
+          "type": "focusout",
+          "target": "a[href=\"#cite_ref-1\"]",
+          "active": "BODY",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 36.70000000298023
+        },
+        {
+          "type": "focusin",
+          "target": "cite_note-1",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 36.79999999701977
+        },
+        {
+          "type": "load",
+          "target": "#document",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "complete",
+          "time": 36.79999999701977
+        },
+        {
+          "type": "keydown",
+          "key": "Enter",
+          "target": "cite_note-1",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "complete",
+          "time": 38.29999999701977
+        },
+        {
+          "type": "keyup",
+          "key": "Enter",
+          "target": "cite_note-1",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "complete",
+          "time": 38.70000000298023
+        }
+      ]
+    },
+    {
+      "source": "live-baseline-control.json",
+      "sha256": "16b1125177b8a39a2f9a7a4d1d325d4bb7087d4a7bcd35b49490da0f879268f0",
+      "url": "https://46e70484-kenshi-wiki.prds.workers.dev",
+      "trials": [
+        {
+          "fixture": "site",
+          "waitForLoad": false,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site",
+          "waitForLoad": false,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site",
+          "waitForLoad": false,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site",
+          "waitForLoad": true,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "site",
+          "waitForLoad": true,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "site",
+          "waitForLoad": true,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": false,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": false,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": false,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": true,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": true,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "site-with-noop-scripts",
+          "waitForLoad": true,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": false,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": false,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": false,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_note-1",
+            "active": "cite_note-1"
+          },
+          "returned": false
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": true,
+          "repetition": 0,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": true,
+          "repetition": 1,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        },
+        {
+          "fixture": "minimal-noop",
+          "waitForLoad": true,
+          "repetition": 2,
+          "afterEnter": {
+            "hash": "#cite_ref-1",
+            "active": "cite_ref-1"
+          },
+          "returned": true
+        }
+      ],
+      "minimalEarlyTimeline": [
+        {
+          "type": "focusin",
+          "target": "a[href=\"#cite_note-1\"]",
+          "active": "a[href=\"#cite_note-1\"]",
+          "hash": "",
+          "ready": "interactive",
+          "time": 21.399999998509884
+        },
+        {
+          "type": "keydown",
+          "key": "Enter",
+          "target": "a[href=\"#cite_note-1\"]",
+          "active": "a[href=\"#cite_note-1\"]",
+          "hash": "",
+          "ready": "interactive",
+          "time": 21.799999997019768
+        },
+        {
+          "type": "click",
+          "target": "a[href=\"#cite_note-1\"]",
+          "active": "a[href=\"#cite_note-1\"]",
+          "hash": "",
+          "ready": "interactive",
+          "time": 21.899999998509884
+        },
+        {
+          "type": "focusout",
+          "target": "a[href=\"#cite_note-1\"]",
+          "active": "BODY",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 22.099999994039536
+        },
+        {
+          "type": "focusin",
+          "target": "cite_note-1",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 22.19999999552965
+        },
+        {
+          "type": "keyup",
+          "key": "Enter",
+          "target": "cite_note-1",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 22.399999998509884
+        },
+        {
+          "type": "hashchange",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 25.099999994039536
+        },
+        {
+          "type": "focusout",
+          "target": "cite_note-1",
+          "active": "BODY",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 27.19999999552965
+        },
+        {
+          "type": "focusin",
+          "target": "a[href=\"#cite_ref-1\"]",
+          "active": "a[href=\"#cite_ref-1\"]",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 27.299999997019768
+        },
+        {
+          "type": "DOMContentLoaded",
+          "target": "#document",
+          "active": "a[href=\"#cite_ref-1\"]",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 29.399999998509884
+        },
+        {
+          "type": "focusout",
+          "target": "a[href=\"#cite_ref-1\"]",
+          "active": "BODY",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 29.399999998509884
+        },
+        {
+          "type": "focusin",
+          "target": "cite_note-1",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "interactive",
+          "time": 29.399999998509884
+        },
+        {
+          "type": "load",
+          "target": "#document",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "complete",
+          "time": 29.399999998509884
+        },
+        {
+          "type": "keydown",
+          "key": "Enter",
+          "target": "cite_note-1",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "complete",
+          "time": 30.399999998509884
+        },
+        {
+          "type": "keyup",
+          "key": "Enter",
+          "target": "cite_note-1",
+          "active": "cite_note-1",
+          "hash": "#cite_note-1",
+          "ready": "complete",
+          "time": 30.599999994039536
+        }
+      ]
+    }
+  ],
+  "focusedRegression": {
+    "source": "https-targeted.json",
+    "sha256": "ecda1c0ab2fcbb59423b43c2c370507eff0a41f9863fe77d7d86a9c0949f8f06",
+    "stats": {
+      "startTime": "2026-11-22T00:24:43.493Z",
+      "duration": 16395.180999999997,
+      "expected": 18,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "repetitions": 3,
+    "workers": 2,
+    "candidateRebuilt": false
+  },
+  "originalTrace": {
+    "sha256": "9bf7595bff06d07928dc8ae17466f7b7a0a8aa710efefa02d45472972dbb4074",
+    "originalFullRun": {
+      "passed": 249,
+      "failed": 1,
+      "skipped": 2
+    },
+    "limitation": "Original trace does not record DOM key/focus events. Controlled reproduction splits focus and Enter; it establishes the mechanism but is not an event-for-event replay."
+  }
+}
