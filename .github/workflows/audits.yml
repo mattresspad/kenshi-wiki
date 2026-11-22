@@ -49,6 +49,8 @@ jobs:
         with:
           name: exhaustive-${{ inputs.mode }}-${{ github.sha }}
           retention-days: 90
+          include-hidden-files: true
           path: |
+            .cloudflare/output
             reports
             test-results

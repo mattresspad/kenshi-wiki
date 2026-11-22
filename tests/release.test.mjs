@@ -61,6 +61,7 @@ test('exhaustive checks remain independently dispatchable and Actions stay pinne
  const steps=workflow.jobs.audit.steps;
  assert.ok(steps.some(s=>s.run==='npm run audit:check'));assert.ok(steps.some(s=>s.run==='npm run release:check'));
  assert.ok(!JSON.stringify(workflow).includes('CLOUDFLARE_API_TOKEN'));
+ const artifact=steps.find(s=>s.uses?.startsWith('actions/upload-artifact@'));assert.equal(artifact.with['retention-days'],90);assert.ok(artifact.with.path.includes('.cloudflare/output'));assert.ok(!artifact.with.path.split('\n').includes('dist'));
  for(const file of ['restoration','release','audits']){
   const w=parse(fs.readFileSync('.github/workflows/'+file+'.yml','utf8'));
   for(const job of Object.values(w.jobs))for(const step of job.steps)if(step.uses)assert.match(step.uses,/@[a-f0-9]{40}$/);
