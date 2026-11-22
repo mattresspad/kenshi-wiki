@@ -47,6 +47,8 @@ Report transfer, format acceptance, editorial coverage and findings separately. 
 
 Documented inherited gaps may remain for later work. Introduced conversion errors, unsupported resolutions, unaccounted routes and temporary prototype dependencies block readiness. MIT licensing, public candidate integration and the branch swap are complete. Production promotion still requires Prd's approval of the exact tested version.
 
-## Release preparation
+## Releases
 
-`npm run ci:check` selects proportionate checks from the actual PR diff; unknown and shared dependencies receive broader coverage. `npm run audit:check` retains the complete conversion audit. See [CI policy and measurements](docs/ci-policy.md). PRs trigger the stable required check; pushes do not duplicate the run. For a merged candidate, dispatch **FreshWiki validation** on `main` with mode `release` and its exact SHA, or set `WIKI_EXPECTED_SHA` and run `npm run release:check`. The rehearsal additionally compares repeated package checksums and captures desktop/phone previews. `npm run release:stage` accepts only an explicitly prepared, checked staging package. Neither merging a PR nor uploading an inactive version approves production traffic. See [release preparation and rollback](conversion/release/README.md) for current state and the separate approval boundary.
+**PR checks → staging preview → Prd’s approval → publish the tested version**, all in GitHub Actions. After merge, **Preview and publish** builds once, uploads an inactive version, tests its immutable preview and waits for the protected production-environment approval. Publication uses that exact version without rebuilding; live smoke checks follow.
+
+Routine checks select appropriate coverage from the PR diff. Exhaustive conversion audits and full reproducibility rehearsals remain available in the separate **Exhaustive audits** workflow; they are not an offscreen step after every preview. See [CI policy](docs/ci-policy.md) and [release and recovery](conversion/release/README.md). Production approval always remains with Prd.

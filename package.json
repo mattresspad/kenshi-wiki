@@ -37,7 +37,9 @@
     "pr44:accept": "node scripts/conversion/accept.mjs pr44",
     "ci:check": "node scripts/ci/check.mjs",
     "ci:plan": "node scripts/ci/plan.mjs",
-    "audit:check": "node scripts/ci/check.mjs --audit"
+    "audit:check": "node scripts/ci/check.mjs --audit",
+    "release:prepare": "node scripts/release/prepare.mjs",
+    "release:publish": "node scripts/release/promote.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",
