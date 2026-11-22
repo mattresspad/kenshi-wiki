@@ -23,7 +23,7 @@ Each race has a modifier for rate of hunger. Skeletons do not need to eat and, t
 
 <table class="wikitable"><tbody><tr><th colspan="3"><a href="/hive">Hive</a></th><th colspan="2"><a href="/human">Human</a></th><th colspan="2">Skeleton</th><th rowspan="2"><a href="/shek">Shek</a></th></tr><tr><th>Prince</th><th>Soldier</th><th>Worker</th><th>Greenlander</th><th>Scorchlander</th><th><a href="/p4-unit">P4 Unit</a></th><th><a href="/skeleton">Skeleton</a></th></tr><tr><td align="right">0.50x</td><td align="right">0.60x</td><td align="right">0.50x</td><td align="right">1.00x</td><td align="right">0.90x</td><td align="right">0x</td><td align="right">0x</td><td align="right">1.25x</td></tr></tbody></table>
 
-Characters which are enslaved are kept fed to around 100, which results in major stat drainage from malnutrition.
+Characters outside the player's faction are fed by the game itself. Whenever one of them has nothing left to digest and its hunger is below a set floor, the game gives it free food up to that floor, a little at a time. For most NPCs the floor is 300, the top of the meter, so they never get hungry and never need to carry food. Characters which are enslaved are kept fed to 100, which results in major stat drainage from malnutrition. Squads whose template is marked malnourished get a random floor between 100 and 220, which is why they can show malnutrition. Prisoners not held by the player get a lower floor, 115 or 200 depending on their state. Animals are kept fed the same way only when the game's "animals eat" option is off. The player's own characters, and prisoners the player holds, get no free food and can starve.
 
 ### Nutrition
 
