@@ -1,4 +1,4 @@
-import {activeUtilityPaths,historicalSourceRedirects,isGeneratedUtilityPath,utilityStage} from './utility-routes.mjs';
+import {activeUtilityPaths,originalUtilities,proseUtilities,historicalSourceRedirects,isGeneratedUtilityPath,utilityStage} from './utility-routes.mjs';
 import {workRoute,workIndexRoute,isWorkRoute} from './work-routes.mjs';
 import policy from '../../conversion/category-policy.json' with { type: 'json' };
 import snapshot from '../../conversion/reference.json' with { type: 'json' };
@@ -38,7 +38,7 @@ export function buildCatalog(entries = [], reference = effectiveSnapshot, deploy
   const sourceFiles = new Map();
   claim(publicPaths,workRoute,'maintenance utility');
   claim(publicPaths,workIndexRoute,'maintenance index');
-  for (const path of [...reference.portals, ...reference.utilities, ...reference.endpoints]) claim(publicPaths, path, 'non-article route');
+  for (const path of [...reference.portals, ...reference.utilities, ...reference.endpoints, ...originalUtilities.map(p=>p.path)]) claim(publicPaths, path, 'non-article route');
   for (const name of Object.keys(policy.excluded)) claim(publicPaths, categoryPath(name), 'excluded category');
   const redirects = new Map();
   for (const rule of reference.redirects) {
@@ -101,7 +101,7 @@ export function buildCatalog(entries = [], reference = effectiveSnapshot, deploy
     compare.compare(a.title,b.title) || a.path.localeCompare(b.path,'en'));
   const local = new Set([...activeUtilityPaths,workRoute,'/', ...entries.map(e => byId.get(e.data.articleId).path), ...policy.reviewedCategories.map(categoryPath), ...policy.reviewedPortals]);
   const searchTitles = [
-    ['Pages needing work',workRoute], ['About Kenshi', '/about-kenshi'], ['Contributors', '/contributors'],
+    ['Pages needing work',workRoute], ...proseUtilities.map(p=>[p.title,p.path]),
     ...[...articles.values()].map(a => [a.title, a.path]),
     ...reference.portals.map(path => [path.slice(1,2).toUpperCase() + path.slice(2), path])
   ];

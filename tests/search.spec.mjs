@@ -1,3 +1,4 @@
+import {originalUtilities} from '../src/lib/utility-routes.mjs';
 import {test,expect} from '@playwright/test';
 import fs from 'node:fs';
 import {utilityStage,historicalSourceRedirects} from '../src/lib/utility-routes.mjs';
@@ -28,7 +29,7 @@ test('failed index loads are explicit and stale searches cannot replace the newe
  let release;const hold=new Promise(r=>release=r);await page.route('**/pagefind/pagefind.js',async r=>{await hold;await r.continue()});await page.goto('/search?q=armour&fulltext=1');await page.locator('#query').fill('kütleçekim');await page.locator('.full-search button').click();release();await expect(page.locator('.search-results a[href="/history-of-kenshi/tr"]')).toBeVisible();await expect(page.locator('#query')).toHaveValue('kütleçekim');await expect(page.locator('.search-results')).not.toContainText('Samurai Armour');
 });
 test('random pool is exact and replaces its navigation history entry',async({browser})=>{
- const pool=coverage().random.paths;expect(pool.length).toBe(coverage().indexed===2191?2114:2113);expect(new Set(pool).size).toBe(pool.length);
+ const pool=coverage().random.paths;expect(pool.length).toBe(coverage().indexed-originalUtilities.length===2191?2114:2113);expect(new Set(pool).size).toBe(pool.length);
  for(const value of [0,0.5,0.999999]){const ctx=await browser.newContext();await ctx.addInitScript(v=>{Math.random=()=>v},value);const page=await ctx.newPage();await page.goto('/catun');await page.goto('/random');await expect(page).toHaveURL(new RegExp(pool[Math.floor(value*pool.length)].replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'$'));await page.goBack();await expect(page).toHaveURL(/\/catun$/);await ctx.close()}
 });
 test('404 GET/HEAD status, safe path display, canonical exclusions and every frozen alias',async({page,request})=>{

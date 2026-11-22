@@ -12,6 +12,8 @@ To help, choose a task from [Pages needing work](/pages-needing-work), use the a
 
 <h2 id="licensing">Licenses and reuse</h2>
 
+The [Copyright and permissions guide](/copyright-and-permissions) explains the different terms, open permission questions and how to report a specific concern. Permission information and private correction requests are welcome at [admin@kenshi.wiki](mailto:admin@kenshi.wiki). This inbox represents the wiki, not other linked projects.
+
 Original wiki text is provided under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), with authorship and revisions recorded per page. [Full license text](/notices/CC-BY-SA-4.0.txt).
 
 Adaptations from the Kenshi Fandom wiki retain [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Article footers link to their source revision and contributor history. [Full license text](/notices/CC-BY-SA-3.0.txt). Imported prose does not establish complete media coverage; restored images and outstanding gaps are tracked separately.
