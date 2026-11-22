@@ -1,0 +1,661 @@
+{
+  "baseline": {
+    "sourceSha": "d8bd6e1def09007a28201b1a5fe25727c8614104",
+    "platform": "Windows",
+    "node": "24.22.2",
+    "phases": {
+      "astro-timing": {
+        "name": "astro",
+        "startedAt": "2026-11-21T21:05:31.921Z",
+        "durationMs": 17695,
+        "exitCode": 0
+      },
+      "catalog-timing": {
+        "name": "catalog",
+        "startedAt": "2026-11-21T21:07:11.749Z",
+        "durationMs": 30948,
+        "exitCode": 0
+      },
+      "identity-timing": {
+        "name": "identity",
+        "startedAt": "2026-11-21T21:05:30.546Z",
+        "durationMs": 1374,
+        "exitCode": 0
+      },
+      "package-timing": {
+        "name": "package",
+        "startedAt": "2026-11-21T21:06:01.966Z",
+        "durationMs": 2764,
+        "exitCode": 0
+      },
+      "report-timing": {
+        "name": "report",
+        "startedAt": "2026-11-21T21:06:04.731Z",
+        "durationMs": 67017,
+        "exitCode": 0
+      },
+      "screenshots-timing": {
+        "name": "screenshots",
+        "durationMs": 4925.563199999975,
+        "captures": 32
+      },
+      "search-timing": {
+        "name": "search",
+        "startedAt": "2026-11-21T21:05:49.617Z",
+        "durationMs": 12348,
+        "exitCode": 0
+      }
+    }
+  },
+  "localScenarios": {
+    "documentation": {
+      "sourceSha": "c15531c4d79270ec8c827e9e2284ff06f1e04533",
+      "baseSha": "071e9ed192f164f8c400fabdb395b38edf391eec",
+      "mode": "routine",
+      "kind": "documentation",
+      "checks": [
+        "identity and structural catalog"
+      ],
+      "local": null,
+      "published": null,
+      "durationMs": 3217,
+      "trackedInputsUnchanged": true,
+      "productionTrafficChanged": false,
+      "plan": {
+        "kind": "documentation",
+        "audit": false,
+        "editing": false,
+        "catalog": [
+          "tests/catalog.test.mjs",
+          "tests/ci-policy.test.mjs",
+          "tests/release.test.mjs",
+          "tests/work-index.test.mjs"
+        ],
+        "browser": [],
+        "articleIds": [],
+        "changes": [
+          {
+            "status": "A",
+            "path": "docs/measurement-fixture.md"
+          }
+        ]
+      },
+      "phases": {
+        "structural/catalog-timing.json": {
+          "name": "catalog",
+          "startedAt": "2026-11-21T21:34:47.298Z",
+          "durationMs": 467,
+          "exitCode": 0
+        },
+        "structural/identity-timing.json": {
+          "name": "identity",
+          "startedAt": "2026-11-21T21:34:45.988Z",
+          "durationMs": 1309,
+          "exitCode": 0
+        }
+      },
+      "catalogCount": 19
+    },
+    "article": {
+      "sourceSha": "03ac7525de75cd9be494a7d5457b6b256621e718",
+      "baseSha": "c15531c4d79270ec8c827e9e2284ff06f1e04533",
+      "mode": "routine",
+      "kind": "content",
+      "checks": [
+        "published static build",
+        "current route, link and provenance checks",
+        "selected catalog",
+        "selected browser",
+        "Cloudflare dry run"
+      ],
+      "local": null,
+      "published": {
+        "startTime": "2026-11-21T21:36:02.635Z",
+        "duration": 18327.042,
+        "expected": 14,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "durationMs": 64143,
+      "trackedInputsUnchanged": true,
+      "productionTrafficChanged": false,
+      "plan": {
+        "kind": "content",
+        "audit": false,
+        "editing": false,
+        "catalog": [
+          "tests/catalog.test.mjs",
+          "tests/ci-policy.test.mjs",
+          "tests/release.test.mjs",
+          "tests/work-index.test.mjs"
+        ],
+        "browser": [
+          "tests/addressing.spec.mjs",
+          "tests/bookmarks.spec.mjs",
+          "tests/geography.spec.mjs"
+        ],
+        "articleIds": [
+          "catun"
+        ],
+        "changes": [
+          {
+            "status": "M",
+            "path": "src/content/articles/locations/towns/catun.md"
+          }
+        ]
+      },
+      "phases": {
+        "published/affected-timing.json": {
+          "name": "affected",
+          "startedAt": "2026-11-21T21:35:52.826Z",
+          "durationMs": 8262,
+          "exitCode": 0
+        },
+        "published/astro-timing.json": {
+          "name": "astro",
+          "startedAt": "2026-11-21T21:35:21.317Z",
+          "durationMs": 17269,
+          "exitCode": 0
+        },
+        "published/browser-timing.json": {
+          "name": "browser",
+          "startedAt": "2026-11-21T21:36:01.642Z",
+          "durationMs": 19332,
+          "exitCode": 0
+        },
+        "published/catalog-timing.json": {
+          "name": "catalog",
+          "startedAt": "2026-11-21T21:36:01.089Z",
+          "durationMs": 567,
+          "exitCode": 0
+        },
+        "published/cloudflare-timing.json": {
+          "name": "cloudflare",
+          "startedAt": "2026-11-21T21:36:01.095Z",
+          "durationMs": 751,
+          "exitCode": 0
+        },
+        "published/identity-timing.json": {
+          "name": "identity",
+          "startedAt": "2026-11-21T21:35:19.982Z",
+          "durationMs": 1334,
+          "exitCode": 0
+        },
+        "published/package-timing.json": {
+          "name": "package",
+          "startedAt": "2026-11-21T21:35:50.274Z",
+          "durationMs": 2552,
+          "exitCode": 0
+        },
+        "published/search-timing.json": {
+          "name": "search",
+          "startedAt": "2026-11-21T21:35:38.587Z",
+          "durationMs": 11686,
+          "exitCode": 0
+        }
+      },
+      "catalogCount": 19,
+      "routeCoverage": {
+        "changed": 1,
+        "affected": 43,
+        "categories": 3,
+        "articles": 2185,
+        "search": 2191
+      }
+    },
+    "shared": {
+      "sourceSha": "d8f8dcbb2652031fe6d0a3c3becf27288c62d5b8",
+      "baseSha": "299641339b5b421e97bf49b198a9a9bc85b887c9",
+      "mode": "routine",
+      "kind": "broad",
+      "checks": [
+        "local static build and focused editing",
+        "published static build",
+        "current route, link and provenance checks",
+        "selected catalog",
+        "selected browser",
+        "Cloudflare dry run"
+      ],
+      "local": {
+        "startTime": "2026-11-21T21:44:03.520Z",
+        "duration": 9807.084,
+        "expected": 6,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "published": {
+        "startTime": "2026-11-21T21:45:05.767Z",
+        "duration": 272731.447,
+        "expected": 249,
+        "skipped": 2,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "durationMs": 374260,
+      "trackedInputsUnchanged": true,
+      "productionTrafficChanged": false,
+      "plan": {
+        "kind": "broad",
+        "audit": false,
+        "editing": true,
+        "catalog": [
+          "tests/additions.test.mjs",
+          "tests/animal-format.test.mjs",
+          "tests/building-format.test.mjs",
+          "tests/catalog.test.mjs",
+          "tests/character-format.test.mjs",
+          "tests/ci-policy.test.mjs",
+          "tests/event-format.test.mjs",
+          "tests/faction-format.test.mjs",
+          "tests/gameplay-format.test.mjs",
+          "tests/gaps.test.mjs",
+          "tests/item-format.test.mjs",
+          "tests/lore-format.test.mjs",
+          "tests/race-format.test.mjs",
+          "tests/release.test.mjs",
+          "tests/shop-format.test.mjs",
+          "tests/technology-format.test.mjs",
+          "tests/utilities.test.mjs",
+          "tests/warm-move.test.mjs",
+          "tests/work-index.test.mjs"
+        ],
+        "browser": [
+          "tests/addressing.spec.mjs",
+          "tests/animals.spec.mjs",
+          "tests/bookmarks.spec.mjs",
+          "tests/buildings.spec.mjs",
+          "tests/characters.spec.mjs",
+          "tests/editing.spec.mjs",
+          "tests/events.spec.mjs",
+          "tests/factions.spec.mjs",
+          "tests/gameplay.spec.mjs",
+          "tests/geography.spec.mjs",
+          "tests/items.spec.mjs",
+          "tests/lore.spec.mjs",
+          "tests/manufacturers.spec.mjs",
+          "tests/modding.spec.mjs",
+          "tests/pr44.spec.mjs",
+          "tests/races.spec.mjs",
+          "tests/reader.spec.mjs",
+          "tests/remainder.spec.mjs",
+          "tests/restoration.spec.mjs",
+          "tests/search.spec.mjs",
+          "tests/shops.spec.mjs",
+          "tests/technology.spec.mjs",
+          "tests/utilities.spec.mjs",
+          "tests/work.spec.mjs"
+        ],
+        "articleIds": [],
+        "changes": [
+          {
+            "status": "M",
+            "path": "src/styles/frame.css"
+          }
+        ]
+      },
+      "phases": {
+        "local/astro-timing.json": {
+          "name": "astro",
+          "startedAt": "2026-11-21T21:43:28.404Z",
+          "durationMs": 15616,
+          "exitCode": 0
+        },
+        "local/browser-timing.json": {
+          "name": "browser",
+          "startedAt": "2026-11-21T21:44:02.539Z",
+          "durationMs": 10812,
+          "exitCode": 0
+        },
+        "local/identity-timing.json": {
+          "name": "identity",
+          "startedAt": "2026-11-21T21:43:26.995Z",
+          "durationMs": 1408,
+          "exitCode": 0
+        },
+        "local/package-timing.json": {
+          "name": "package",
+          "startedAt": "2026-11-21T21:43:59.299Z",
+          "durationMs": 2466,
+          "exitCode": 0
+        },
+        "local/search-timing.json": {
+          "name": "search",
+          "startedAt": "2026-11-21T21:43:44.021Z",
+          "durationMs": 15277,
+          "exitCode": 0
+        },
+        "published/affected-timing.json": {
+          "name": "affected",
+          "startedAt": "2026-11-21T21:44:50.289Z",
+          "durationMs": 12825,
+          "exitCode": 0
+        },
+        "published/astro-timing.json": {
+          "name": "astro",
+          "startedAt": "2026-11-21T21:44:14.648Z",
+          "durationMs": 21449,
+          "exitCode": 0
+        },
+        "published/browser-timing.json": {
+          "name": "browser",
+          "startedAt": "2026-11-21T21:45:04.142Z",
+          "durationMs": 274389,
+          "exitCode": 0
+        },
+        "published/catalog-timing.json": {
+          "name": "catalog",
+          "startedAt": "2026-11-21T21:45:03.114Z",
+          "durationMs": 56953,
+          "exitCode": 0
+        },
+        "published/cloudflare-timing.json": {
+          "name": "cloudflare",
+          "startedAt": "2026-11-21T21:45:03.120Z",
+          "durationMs": 1614,
+          "exitCode": 0
+        },
+        "published/identity-timing.json": {
+          "name": "identity",
+          "startedAt": "2026-11-21T21:44:13.432Z",
+          "durationMs": 1215,
+          "exitCode": 0
+        },
+        "published/package-timing.json": {
+          "name": "package",
+          "startedAt": "2026-11-21T21:44:47.810Z",
+          "durationMs": 2479,
+          "exitCode": 0
+        },
+        "published/search-timing.json": {
+          "name": "search",
+          "startedAt": "2026-11-21T21:44:36.097Z",
+          "durationMs": 11712,
+          "exitCode": 0
+        }
+      },
+      "catalogCount": 73,
+      "routeCoverage": {
+        "changed": 2392,
+        "affected": 2392,
+        "categories": 198,
+        "articles": 2185,
+        "search": 2191
+      }
+    },
+    "completeAuditCheckpoint": {
+      "sourceSha": "b967804d2414b100aa30714460eb58cc795570ef",
+      "baseSha": "d8bd6e1def09007a28201b1a5fe25727c8614104",
+      "mode": "routine",
+      "kind": "broad",
+      "checks": [
+        "local static build and focused editing",
+        "published static build",
+        "current route, link and provenance checks",
+        "selected catalog",
+        "selected browser",
+        "Cloudflare dry run",
+        "complete frozen conversion report"
+      ],
+      "local": {
+        "startTime": "2026-11-21T21:27:23.963Z",
+        "duration": 7959.150000000001,
+        "expected": 6,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "published": {
+        "startTime": "2026-11-21T21:29:30.350Z",
+        "duration": 213517.967,
+        "expected": 250,
+        "skipped": 2,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "durationMs": 373939,
+      "trackedInputsUnchanged": true,
+      "productionTrafficChanged": false,
+      "plan": {
+        "kind": "broad",
+        "audit": true,
+        "editing": true,
+        "catalog": [
+          "tests/additions.test.mjs",
+          "tests/animal-format.test.mjs",
+          "tests/building-format.test.mjs",
+          "tests/catalog.test.mjs",
+          "tests/character-format.test.mjs",
+          "tests/ci-policy.test.mjs",
+          "tests/event-format.test.mjs",
+          "tests/faction-format.test.mjs",
+          "tests/gameplay-format.test.mjs",
+          "tests/gaps.test.mjs",
+          "tests/item-format.test.mjs",
+          "tests/lore-format.test.mjs",
+          "tests/race-format.test.mjs",
+          "tests/release.test.mjs",
+          "tests/shop-format.test.mjs",
+          "tests/technology-format.test.mjs",
+          "tests/utilities.test.mjs",
+          "tests/warm-move.test.mjs",
+          "tests/work-index.test.mjs"
+        ],
+        "browser": [
+          "tests/addressing.spec.mjs",
+          "tests/animals.spec.mjs",
+          "tests/bookmarks.spec.mjs",
+          "tests/buildings.spec.mjs",
+          "tests/characters.spec.mjs",
+          "tests/editing.spec.mjs",
+          "tests/events.spec.mjs",
+          "tests/factions.spec.mjs",
+          "tests/gameplay.spec.mjs",
+          "tests/gap-report.spec.mjs",
+          "tests/geography.spec.mjs",
+          "tests/items.spec.mjs",
+          "tests/lore.spec.mjs",
+          "tests/manufacturers.spec.mjs",
+          "tests/modding.spec.mjs",
+          "tests/pr44.spec.mjs",
+          "tests/races.spec.mjs",
+          "tests/reader.spec.mjs",
+          "tests/remainder.spec.mjs",
+          "tests/restoration.spec.mjs",
+          "tests/search.spec.mjs",
+          "tests/shops.spec.mjs",
+          "tests/technology.spec.mjs",
+          "tests/utilities.spec.mjs",
+          "tests/work.spec.mjs"
+        ],
+        "articleIds": [],
+        "changes": [
+          {
+            "status": "M",
+            "path": ".github/workflows/restoration.yml"
+          },
+          {
+            "status": "M",
+            "path": "README.md"
+          },
+          {
+            "status": "M",
+            "path": "conversion/release/README.md"
+          },
+          {
+            "status": "A",
+            "path": "docs/ci-policy.md"
+          },
+          {
+            "status": "M",
+            "path": "package.json"
+          },
+          {
+            "status": "A",
+            "path": "scripts/ci/build.mjs"
+          },
+          {
+            "status": "A",
+            "path": "scripts/ci/catalog.mjs"
+          },
+          {
+            "status": "A",
+            "path": "scripts/ci/check.mjs"
+          },
+          {
+            "status": "A",
+            "path": "scripts/ci/current-core.mjs"
+          },
+          {
+            "status": "A",
+            "path": "scripts/ci/current.mjs"
+          },
+          {
+            "status": "A",
+            "path": "scripts/ci/plan.mjs"
+          },
+          {
+            "status": "A",
+            "path": "scripts/ci/policy.mjs"
+          },
+          {
+            "status": "M",
+            "path": "scripts/release/check.mjs"
+          },
+          {
+            "status": "A",
+            "path": "tests/ci-policy.test.mjs"
+          },
+          {
+            "status": "M",
+            "path": "tests/release.test.mjs"
+          },
+          {
+            "status": "M",
+            "path": "tests/work.spec.mjs"
+          }
+        ]
+      },
+      "phases": {
+        "local/astro-timing.json": {
+          "name": "astro",
+          "startedAt": "2026-11-21T21:26:53.000Z",
+          "durationMs": 15955,
+          "exitCode": 0
+        },
+        "local/browser-timing.json": {
+          "name": "browser",
+          "startedAt": "2026-11-21T21:27:22.979Z",
+          "durationMs": 8977,
+          "exitCode": 0
+        },
+        "local/identity-timing.json": {
+          "name": "identity",
+          "startedAt": "2026-11-21T21:26:51.617Z",
+          "durationMs": 1382,
+          "exitCode": 0
+        },
+        "local/package-timing.json": {
+          "name": "package",
+          "startedAt": "2026-11-21T21:27:20.070Z",
+          "durationMs": 2469,
+          "exitCode": 0
+        },
+        "local/search-timing.json": {
+          "name": "search",
+          "startedAt": "2026-11-21T21:27:08.955Z",
+          "durationMs": 11114,
+          "exitCode": 0
+        },
+        "published/affected-timing.json": {
+          "name": "affected",
+          "startedAt": "2026-11-21T21:29:15.870Z",
+          "durationMs": 12258,
+          "exitCode": 0
+        },
+        "published/astro-timing.json": {
+          "name": "astro",
+          "startedAt": "2026-11-21T21:27:33.358Z",
+          "durationMs": 15361,
+          "exitCode": 0
+        },
+        "published/browser-timing.json": {
+          "name": "browser",
+          "startedAt": "2026-11-21T21:29:29.026Z",
+          "durationMs": 214881,
+          "exitCode": 0
+        },
+        "published/catalog-timing.json": {
+          "name": "catalog",
+          "startedAt": "2026-11-21T21:29:28.128Z",
+          "durationMs": 38350,
+          "exitCode": 0
+        },
+        "published/cloudflare-timing.json": {
+          "name": "cloudflare",
+          "startedAt": "2026-11-21T21:29:28.135Z",
+          "durationMs": 1373,
+          "exitCode": 0
+        },
+        "published/conversion-report-timing.json": {
+          "name": "conversion-report",
+          "startedAt": "2026-11-21T21:28:02.568Z",
+          "durationMs": 73302,
+          "exitCode": 0
+        },
+        "published/identity-timing.json": {
+          "name": "identity",
+          "startedAt": "2026-11-21T21:27:32.042Z",
+          "durationMs": 1314,
+          "exitCode": 0
+        },
+        "published/package-timing.json": {
+          "name": "package",
+          "startedAt": "2026-11-21T21:27:59.963Z",
+          "durationMs": 2604,
+          "exitCode": 0
+        },
+        "published/search-timing.json": {
+          "name": "search",
+          "startedAt": "2026-11-21T21:27:48.720Z",
+          "durationMs": 11242,
+          "exitCode": 0
+        }
+      },
+      "catalogCount": 72,
+      "routeCoverage": {
+        "changed": 2392,
+        "affected": 2392,
+        "categories": 198,
+        "articles": 2185,
+        "search": 2191
+      }
+    }
+  },
+  "previousGithubRoutine": {
+    "run": 44943932928,
+    "validationMs": 432562,
+    "jobMs": 493000,
+    "artifactBytes": 7356277,
+    "artifactUploadMs": 3000,
+    "npmInstallMs": 4000,
+    "chromiumInstallMs": 34000,
+    "browserPassed": 250,
+    "browserSkipped": 2,
+    "localEditingPassed": 6,
+    "catalogPassed": 66
+  },
+  "retainedFailure": {
+    "scenario": "first shared-layout trial",
+    "cause": "One utility test consumed reports/routes.json, absent without the exhaustive report.",
+    "resolution": "Moved that complete assertion group to conversion-report.test.mjs, selected in audit/release modes; reran shared-layout validation successfully.",
+    "log": "reports/benchmarks/shared-first-attempt/published/catalog.log"
+  },
+  "qualifications": [
+    "One sample per successful scenario, not a performance guarantee.",
+    "Windows and GitHub Ubuntu measurements are separate experiments; broad-run browser and fixture timings varied with load.",
+    "Detached benchmark commits contain only an unpublished documentation fixture or whitespace-only article/style changes.",
+    "No application/content change is proposed by this PR; no production version was uploaded or promoted."
+  ]
+}

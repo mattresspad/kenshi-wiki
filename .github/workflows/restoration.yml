@@ -4,6 +4,12 @@ on:
     branches: [main]
   workflow_dispatch:
     inputs:
+      mode:
+        description: Exact-SHA release rehearsal or complete conversion audit
+        type: choice
+        options: [release, audit]
+        default: release
+        required: true
       expected_sha:
         description: Exact merged main SHA to rehearse (no deployment)
         required: true
@@ -25,27 +31,38 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
           persist-credentials: false
+          fetch-depth: 0
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
         with:
           node-version-file: .node-version
           cache: npm
       - run: npm ci
+      - name: Select PR coverage
+        if: github.event_name == 'pull_request'
+        run: |
+          npm run ci:plan
+          node --input-type=module -e "import fs from 'node:fs'; const p=JSON.parse(fs.readFileSync('reports/ci/plan.json')); fs.appendFileSync(process.env.GITHUB_ENV, 'WIKI_CI_BUILD='+p.build+'\n');"
       - run: npm exec -- playwright install --with-deps chromium
+        if: github.event_name == 'workflow_dispatch' || env.WIKI_CI_BUILD == 'true'
       - name: Check the proposed change
         if: github.event_name == 'pull_request'
         run: npm run ci:check
       - name: Rehearse the exact merged candidate
-        if: github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'release'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: npm run release:check
+      - name: Run the complete conversion audit
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'audit'
+        run: npm run audit:check
       - name: Routine diagnostics
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
-        if: always() && github.event_name == 'pull_request'
+        if: always() && (github.event_name == 'pull_request' || inputs.mode == 'audit')
         with:
           name: freshwiki-check-${{ github.sha }}
           retention-days: 14
           path: |
+            reports/ci
             reports/release
             reports/routes.json
             reports/route-report.md
@@ -55,13 +72,14 @@ jobs:
             test-results
       - name: Release package and evidence
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
-        if: always() && github.event_name == 'workflow_dispatch'
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.mode == 'release'
         with:
           name: freshwiki-release-${{ github.sha }}
           retention-days: 90
           include-hidden-files: true
           path: |
             .cloudflare/output
+            reports/ci
             reports/release
             reports/routes.json
             reports/route-report.md

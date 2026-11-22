@@ -1,5 +1,8 @@
 import {test,expect} from '@playwright/test';import {readFileSync} from 'node:fs';
-const index=JSON.parse(readFileSync('dist/pages-needing-work/index.json')),task=new Map(index.tasks.map(t=>[t.id,t]));
+import {readBuildOutput} from '@cloudflare/build-output-utils';
+import {join} from 'node:path';
+const {workers}=await readBuildOutput(process.cwd());
+const index=JSON.parse(readFileSync(join(workers.default.assetsDir,'pages-needing-work/index.json'))),task=new Map(index.tasks.map(t=>[t.id,t]));
 test('maintenance projections, pagination, noindex and article notes match the registered ledger',async({request})=>{
  for(const route of index.routes){const response=await request.get(route.path);expect(response.status()).toBe(200);const html=await response.text();expect(html).toContain('href="https://kenshi.wiki'+route.path+'"');if(route.path!=='/pages-needing-work')expect(html).toContain('content="noindex,follow"');else expect(html).not.toContain('content="noindex,follow"');}
  const xml=await(await request.get('/sitemap-0.xml')).text();expect(xml).toContain('<loc>https://kenshi.wiki/pages-needing-work</loc>');expect(xml).not.toContain('/pages-needing-work/page/');expect(xml).not.toContain('/pages-needing-work/history');
