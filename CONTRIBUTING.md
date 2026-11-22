@@ -30,6 +30,6 @@ Send copyright concerns, permission evidence or sensitive correction details to 
 
 [Report a website issue](https://github.com/mattresspad/kenshi-wiki/issues/new?template=website.yml) for layout, navigation or tools. Include the page, expected behavior, reproduction steps and browser details. Screenshots should omit personal information.
 
-The [README](README.md#run-locally) covers the pinned Node version and local checks. For a code PR, describe the affected behavior and validation; include desktop/phone evidence for layout changes. Preserve accessibility, registered paths, source attribution and the gap register. Deployment is a separate maintainer approval; opening or merging a PR does not approve a production release.
+The [README](README.md#run-locally) covers the pinned Node version and local checks. For a code PR, describe the affected behavior and validation; include desktop/phone evidence for layout changes. Preserve accessibility, registered paths, source attribution and the gap register. Deployment is a separate maintainer approval; opening or merging a PR does not approve a production release. The [workflow guide](.github/workflows/README.md) explains the PR checks, preview, approval gate and read-only live recheck.
 
 Follow the [code of conduct](CODE_OF_CONDUCT.md). Report sensitive security concerns through [the private channel](SECURITY.md), not public issues.
