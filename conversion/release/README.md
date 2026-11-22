@@ -5,7 +5,7 @@
 1. Open a PR. **PR checks** selects and reports the appropriate structural, content or broad checks.
 2. Merge after checks and review. **Preview and publish** runs **Staging preview**: one production build, current-route/package validation, inactive upload and focused HTTPS smoke checks.
 3. Open the immutable preview in that run's summary. Prd approves the **production** environment using **Review deployments**.
-4. **Approve and publish tested version** selects the tested Worker version without rebuilding or uploading. Live smoke checks report in the same run.
+4. **Approve and publish tested version** selects the tested Worker version without rebuilding or uploading. Live HTTP/content checks report in the same run.
 
 Production stays unchanged until step 4. Failed checks stop the sequence. The GitHub run is the status page: there is no required offscreen local completion process after a green preview.
 
@@ -21,7 +21,11 @@ The production environment requires Prd's approval; administrator bypass stays d
 
 ## Smoke checks and failure behavior
 
-Preview and live checks cover Home/assets, a category-to-article journey, canonical/edit/pinned-source links, Pages needing work, citation and keyboard return, phone drawer focus, light/dark wrapping, title and full-text search, random navigation, an alias with query preservation, and root/nested GET/HEAD 404 responses. Preview failure prevents publication. A live failure leaves the workflow red and preserves its traces; it is not silently accepted after an isolated rerun.
+Preview checks cover Home/assets, a category-to-article journey, canonical/edit/pinned-source links, Pages needing work, citation and keyboard return, phone drawer focus, light/dark wrapping, title and full-text search, random navigation, an alias with query preservation, and root/nested GET/HEAD 404 responses.
+
+The public domain has Bot Fight Mode enabled. Automated Chromium may receive a security challenge instead of wiki content. Live checks therefore verify HTTP delivery, indexing, redirects and statuses, plus seven representative pages and their script/style/index assets against the exact immutable version. Only the recognized appended Cloudflare JS Detection bootstrap is removed for HTML comparison, and this is recorded explicitly. Browser interactions remain covered by preview checks; apex browser acceptance is not claimed.
+
+A failed live check leaves the workflow red and preserves evidence. Do not rerun publication to repeat verification: dispatch **Recheck live deployment** on main with the existing active version and its source SHA. This checks source/version/traffic before and after read-only verification and records its test-code SHA separately. No build, upload, traffic promotion or security-rule change occurs.
 
 Inspect the failed check and live behavior. Roll back promptly for material routing, missing-asset, search, content or HTTP-status failures. The retained receipt includes the exact previous version and command:
 

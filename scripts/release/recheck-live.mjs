@@ -1,0 +1,15 @@
+import {execFileSync} from 'node:child_process';
+import assert from 'node:assert/strict';
+import {cf,git,save} from './common.mjs';
+import {assertLiveRecheck} from './config.mjs';
+const env=process.env;
+const call=(...args)=>JSON.parse(execFileSync(process.execPath,[cf,...args],{encoding:'utf8',maxBuffer:16*1024*1024}));
+const current=call('workers','deployments','list','--worker','kenshi-wiki').deployments[0];
+const version=call('workers','versions','get',env.WIKI_VERSION,'--worker-id','kenshi-wiki');
+const record=assertLiveRecheck(env,{current,version});
+save('reports/release/publication.json',{...record,verificationRunnerSha:git('rev-parse','HEAD'),productionTrafficChanged:false,recheckOnly:true});
+process.argv.push('--live');
+await import('./verify-remote.mjs');
+const after=call('workers','deployments','list','--worker','kenshi-wiki').deployments[0];
+assert.equal(after.id,current.id,'Deployment changed during recheck');assert.deepEqual(after.versions,current.versions);
+console.log('Read-only live recheck complete. No build, upload or deployment occurred.');

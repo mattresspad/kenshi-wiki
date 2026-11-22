@@ -41,3 +41,16 @@ export function assertPromotion(env,{sourceSha,head,current,version}) {
  if(!uuid.test(env.WIKI_ROLLBACK_VERSION??'')||current.id!==env.WIKI_PREVIOUS_DEPLOYMENT||current.versions.length!==1||current.versions[0].version_id!==env.WIKI_ROLLBACK_VERSION||current.versions[0].percentage!==100)throw Error('Live deployment changed since preview');
  if(version.id!==env.WIKI_VERSION||!version.urls.includes(env.WIKI_VERSION_URL)||version.annotations?.['workers/message']!=='FreshWiki '+sourceSha+' package '+env.WIKI_PACKAGE_SHA256)throw Error('Uploaded version does not match the tested commit and package');
 }
+
+export function assertLiveRecheck(env,{current,version}) {
+ if(env.GITHUB_ACTIONS&&(env.GITHUB_ACTIONS!=='true'||env.GITHUB_EVENT_NAME!=='workflow_dispatch'||env.GITHUB_REF!=='refs/heads/main'))throw Error('Live rechecks run only from trusted main');
+ if(!/^[a-f0-9]{40}$/.test(env.WIKI_EXPECTED_SHA??''))throw Error('Select the deployed source SHA');
+ if(!uuid.test(env.WIKI_VERSION??'')||version.id!==env.WIKI_VERSION)throw Error('Select the exact existing version');
+ if(current.versions.length!==1||current.versions[0].version_id!==env.WIKI_VERSION||current.versions[0].percentage!==100)throw Error('Selected version is not serving all live traffic');
+ const annotation=version.annotations?.['workers/message']??'';
+ const match=annotation.match(new RegExp('^FreshWiki '+env.WIKI_EXPECTED_SHA+' package ([a-f0-9]{64})$'));
+ if(!match)throw Error('Version does not match the recorded source/package');
+ const url=version.urls.find(u=>u.replace(/\/$/,'')==='https://'+env.WIKI_VERSION.slice(0,8)+'-kenshi-wiki.prds.workers.dev');
+ assertVersionUrl(env.WIKI_VERSION,url);
+ return {sourceSha:env.WIKI_EXPECTED_SHA,version:env.WIKI_VERSION,url,packageSha256:match[1],deployment:current.id};
+}
