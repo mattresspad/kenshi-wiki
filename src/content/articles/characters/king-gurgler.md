@@ -49,6 +49,15 @@ His [Gurgler Head](/gurgler-head) can be looted from his body and sold to collec
 
 
 
+## Lore
+
+Several characters talk about the King Gurgler and his sword.
+
+-   When the player's squad first enters [Fishman Island](/fishman-island), its leader can say "There's supposed to be a famous sword here..." [Griffin](/griffin) asks "The demon sword Narko forged from the abyss?", and a former Flotsam Ninja in the squad ([Reva](/reva), [Knife](/knife), [Digna](/digna) or a [Flotsam Recruit](/flotsam-recruit)) says "I used to hear priests preach of Narko's sword...". [Horse](/horse) or [Shryke](/shryke) answers: "I don't know about demons... but a giant fish man wields it."
+-   An ordinary [Shek Warrior](/shek-warrior) indoors in a town, on seeing a player character who is not a Shek, can talk with a squadmate about a new sword: "Looks small, kin. It's no sword of the Gurgler King that's for sure." Asked who that is, the speaker calls him "A giant who possesses the greatest sword of all... The heaviest of weapons crafted by the ancient Skeleton swordsmen...", and adds: "I do not care if a warrior barks, gurgles or squawks... If they wield an [Edgewalker](/edgewalkers), they are a worthy opponent for me."
+-   An unused conversation, in a dialogue package named for Catun's bar patrons, has a patron ask "What about the fish men?", another answer "No one's seen a fish man around here in ages!", and a third wonder "How'd that king fish get such a nice sword anyway? ... That sword's as old as a skelly, can you imagine that?"
+-   A [Police Chief](/police-chief) greets a character carrying the [Gurgler Head](/gurgler-head) with "You killed the King Gurgler!", and points them to a trophy collector for the reward. Brought the King Gurgler's body instead, he says: "this is a police station, not an animal house. What were you thinking bringing a wild monster like that in here?!" Either way he ends: "Ugh, that thing stinks like rotten fish, now get it out of here already."
+
 ## Statistics
 
 -   Alpha Fishman
