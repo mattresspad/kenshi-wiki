@@ -1,5 +1,5 @@
 import {editBranch} from './edit-target.mjs';
-import {utilityStage} from '../src/lib/utility-routes.mjs';
+import {utilityStage,originalUtilities} from '../src/lib/utility-routes.mjs';
 import {test, expect} from '@playwright/test';
 import {effectiveSnapshot as snapshot, origin} from '../src/lib/catalog.mjs';
 import {articleFiles} from '../scripts/article-files.mjs';
@@ -15,7 +15,8 @@ test('the search title index covers registered addresses and the header follows 
   const rows = await response.json();
   const expected = new Map(snapshot.articles.map(a => [a.path,a.title]));
   for (const [path,title] of [['/pages-needing-work','Pages needing work'],['/about-kenshi','About Kenshi'],['/contributors','Contributors'],['/gameplay','Gameplay'],['/guides','Guides'],['/modding','Modding']]) expected.set(path,title);
-  expect(rows).toHaveLength(snapshot.articles.length+snapshot.portals.length+3);
+  for(const {path,title} of originalUtilities)expected.set(path,title);
+  expect(rows).toHaveLength(snapshot.articles.length+snapshot.portals.length+3+originalUtilities.length);
   expect(new Map(rows.map(([title,path])=>[path,title]))).toEqual(expected);
   await page.goto('/modding');
   await expect(page.getByRole('search')).toHaveAttribute('action',utilityStage>=4?'/search':origin+'/search');

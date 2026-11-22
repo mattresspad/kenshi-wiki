@@ -1,12 +1,10 @@
 ---
 import {getCollection} from 'astro:content';
-import {load} from 'cheerio';
 import Frame from '../layouts/Frame.astro';
 import {readWiki} from '../lib/wiki';
 import {prepareArticle} from '../lib/article.mjs';
-import {proseUtilities} from '../lib/utility-routes.mjs';
-import {recordedSource,correctionLink,repo} from '../lib/page-source.mjs';
-import {snapshot} from '../lib/catalog.mjs';
+import {proseUtilities,utilitySource} from '../lib/utility-routes.mjs';
+import {correctionLink} from '../lib/page-source.mjs';
 import '../styles/utilities.css';
 const definition=proseUtilities.find(p=>p.id===Astro.props.pageId);
 const entry=(await getCollection('site')).find(e=>e.data.pageId===definition.id);
@@ -14,7 +12,8 @@ if(!entry)throw Error('Missing utility prose '+definition.id);
 const {href}=await readWiki();
 const {intro,body,outline}=prepareArticle(entry.rendered.html,{...entry.data,layout:'reference',headingIds:{},bookmarks:{}},href);
 outline.push({id:'source-history',label:'Sources and history',children:[]});
-const source=recordedSource(definition.sourceFile,snapshot.revision);
+const original=definition.provenance==='original';
+const source=utilitySource(definition,entry.filePath,import.meta.env.WIKI_EDIT_BRANCH?.trim() || 'main');
 ---
 <Frame kind="article" publicPath={definition.path} title={entry.data.title} description={entry.data.description} {href} {outline} editableFile={entry.filePath} history={source.history}>
  <article class="utility-article" data-utility-id={definition.id}>
@@ -23,9 +22,9 @@ const source=recordedSource(definition.sourceFile,snapshot.revision);
   <div class="utility-prose" set:html={body}/>
   <section class="import-history" data-pagefind-ignore>
    <h2 id="source-history" tabindex="-1">Sources and history</h2>
-   <p>Independent FreshWiki adaptation of the prototype page. Original writing and revisions by VlcekM, Prd and the recorded contributors remain available in its history. This utility is maintained separately from the imported article corpus.</p>
+   {original ? <p>Original FreshWiki guidance maintained by Prd and the contributors recorded in this file’s repository history. This page is maintained separately from the imported article corpus.</p> : <p>Independent FreshWiki adaptation of the prototype page. Original writing and revisions by VlcekM, Prd and the recorded contributors remain available in its history. This utility is maintained separately from the imported article corpus.</p>}
    <p>Original wiki text: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Artwork has separate notices.</p>
-   <nav class="source-links"><a href={source.markdown}>Recorded prototype page</a><a href={source.history}>Original revision history</a><a href={correctionLink('https://kenshi.wiki'+definition.path)}>Suggest a correction</a></nav>
+   <nav class="source-links"><a href={source.markdown}>{original?'Current Markdown':'Recorded prototype page'}</a><a href={source.history}>{original?'Page history':'Original revision history'}</a><a href={correctionLink('https://kenshi.wiki'+definition.path)}>Suggest a correction</a></nav>
   </section>
  </article>
 </Frame>

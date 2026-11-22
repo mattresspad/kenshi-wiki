@@ -1,5 +1,7 @@
 # Licenses and attribution
 
+The [Copyright and permissions guide](https://kenshi.wiki/copyright-and-permissions) explains these boundaries and how to raise a specific concern. Contact [admin@kenshi.wiki](mailto:admin@kenshi.wiki) for permission information or private correspondence. This guidance does not grant new permissions or resolve the open questions in the recorded notices.
+
 Prd selected MIT for the independently written FreshWiki application, layouts, styling, scripts, tests and configuration on 20 November 2026. The grant is in LICENSE; the public copy is public/notices/FreshWiki-MIT.txt.
 
 This software grant does not relicense article prose, imported/source excerpts, conversion evidence, artwork, fonts, trademarks or third-party packages. Fandom adaptations retain CC BY-SA 3.0 and original wiki writing retains CC BY-SA 4.0, with the author, source revision and history recorded per article. Data and evidence carrying those excerpts retain those terms. Source code quoted from other projects retains its original license.

@@ -1,5 +1,5 @@
 import {utilityFiles} from './utility-files.mjs';
-import {proseUtilities,historicalSourceRedirects,utilityStage} from '../src/lib/utility-routes.mjs';
+import {proseUtilities,originalUtilities,utilitySource,historicalSourceRedirects,utilityStage} from '../src/lib/utility-routes.mjs';
 import {readFileSync, existsSync, mkdirSync, writeFileSync} from 'node:fs';
 import path from 'node:path';
 import {articleFiles, assetRedirects as readRedirects} from './article-files.mjs';
@@ -115,6 +115,11 @@ for (const url of snapshot.portals) {
   record('portal',url,source);
 }
 for (const url of snapshot.utilities) {const definition=proseUtilities.find(p=>p.path===url),entry=definition&&utilityFiles().find(e=>e.data.pageId===definition.id);record(url==='/'?'home':'utility',url,definition?{editableFile:entry?.filePath,sourceFile:definition.sourceFile,sourceRevision:snapshot.revision,evidence:recordedSource(definition.sourceFile,snapshot.revision)}:{});}
+for (const definition of originalUtilities) {
+  const entry=utilityFiles().find(e=>e.data.pageId===definition.id);
+  if(!entry)throw Error('Missing original utility '+definition.id);
+  record('utility',definition.path,{provenance:'original',disposition:'Added FreshWiki guidance; outside the frozen restoration inventory',editableFile:entry.filePath,sourceFile:entry.filePath,sourceRevision:'main',license:'4.0',evidence:utilitySource(definition,entry.filePath)});
+}
 for(const route of workRoutes)record('utility',route.path,{generated:true,noindex:route.path!=='/pages-needing-work'});
 routes.push({kind:'endpoint',path:'/pages-needing-work/index.json',status:'preserved locally',generated:true});
 for (const r of snapshot.redirects) {
@@ -141,7 +146,7 @@ const exclusions=Object.keys(policy.excluded).map(name=>({
 }));
 const memberships=[...initial.categories.values()].reduce((n,g)=>n+g.members.length,0);
 const duplicateCheck=new Set(routes.filter(r=>['article','category','utility','portal','home'].includes(r.kind)).map(r=>r.path));
-if(duplicateCheck.size!==effectiveSnapshot.articles.length+initial.categories.size+snapshot.utilities.length+snapshot.portals.length+workRoutes.length) throw Error('Overlapping public page identities');
+if(duplicateCheck.size!==effectiveSnapshot.articles.length+initial.categories.size+snapshot.utilities.length+originalUtilities.length+snapshot.portals.length+workRoutes.length) throw Error('Overlapping public page identities');
 if(utilityStage>=4){routes.push({kind:'error',path:'/404.html',status:'preserved locally',noindex:true,canonical:null,missingRequestStatus:404});routes.push({kind:'endpoint',path:'/pagefind/pagefind.js',status:existsSync('dist/pagefind/pagefind.js')?'preserved locally':'missing generated index',disposition:'generated Pagefind 1.6.0 assets under reserved /pagefind/'});}
 const temporaryLinks=Array.from(external,([from,urls])=>({from,to:[...urls].sort()}));
 const articlesAt = state => routes.filter(row=>row.kind==='article' && row[state]).map(row=>row.path);
@@ -159,6 +164,7 @@ const counts=['article','category','portal','home','utility','redirect','endpoin
 const pendingTargets=new Set(temporaryLinks.flatMap(r=>r.to));
 const lines=['# Restoration route report','','Frozen source '+snapshot.revision+'.','',
   'Immutable baseline: '+snapshot.articles.length+' articles. Separately accepted additions: '+(effectiveSnapshot.articles.length-snapshot.articles.length)+'. Effective registry: '+effectiveSnapshot.articles.length+' articles; addition provenance is retained separately in conversion/additions.json.','',
+  'Additional original FreshWiki utilities: '+originalUtilities.length+'. These current pages are recorded separately from the frozen restoration inventory.','',
   '| Route type | Inventoried | Preserved locally |','|---|---:|---:|',...counts,'',
   'The rebuild serves '+atlas.local.size+' HTML pages. The full corpus has '+initial.categories.size+
   ' reader-facing categories and '+memberships.toLocaleString('en-US')+' distinct article memberships.','',

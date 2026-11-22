@@ -20,7 +20,7 @@ export function verifyFamily(name, atlas, assetRedirects) {
   assert.deepEqual(atlas.local,expectedRoutes(),'Unexpected local routes');
   const original=new Map(effectiveSnapshot.articles.map(a=>[a.id,a]));
   const issues=[],unknown=[],emptyGalleries=[],assets=new Set();
-  const registered=new Set([...original.values()].map(record=>record.path));
+  const registered=new Set([...atlas.local,...[...original.values()].map(record=>record.path)]);
   for(const path of [...snapshot.portals,...snapshot.utilities,...snapshot.endpoints,...snapshot.redirects.map(rule=>rule.from),...[...atlas.categories.values()].map(category=>category.path)]) registered.add(path);
   let otherLocalIds=fragmentIndexes.get(atlas);
   if(!otherLocalIds){otherLocalIds=new Map();

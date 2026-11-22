@@ -12,6 +12,7 @@ test('all restored category indexes preserve frozen memberships and explicit exc
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import {utilityStage,historicalSourceRedirects} from '../src/lib/utility-routes.mjs';
+import {originalUtilities,utilitySource} from '../src/lib/utility-routes.mjs';
 import {utilityFiles} from '../scripts/utility-files.mjs';
 const sources=JSON.parse(fs.readFileSync('conversion/utilities/sources.json'));
 test('utility provenance, bookmarks, editable paths and image bytes are independent of the prototype',()=>{
@@ -29,4 +30,42 @@ test('final local destinations, search scope and random exclusions use registere
  assert.equal(atlas.href('/unwritten-book#chapter'),'/unwritten-book#chapter');assert.equal(atlas.href('https://kenshi.wiki/catun?q=1#town-override'),'/catun?q=1#town-override');assert.equal(normalizeTitle(' PACK_BULL '),'pack bull');assert.equal(titleSuggestions(atlas.searchTitles,'samurai').length,8);
  for(const target of ['/pagefind','/pagefind/pagefind.js','/404']){const bad=structuredClone(snapshot);bad.articles[0].path=target;assert.throws(()=>buildCatalog([],bad),/collid|duplicate/)}
  const sitemap=fs.readFileSync('dist/sitemap-0.xml','utf8');for(const path of ['/search','/random','/404'])assert.ok(!sitemap.includes('<loc>https://kenshi.wiki'+path+'</loc>'));for(const p of atlas.local)if(p.startsWith('/category/'))assert.ok(sitemap.includes('<loc>https://kenshi.wiki'+p+'</loc>'));
+});
+
+test('original guidance is additive, searchable and excluded from article identities and random navigation',()=>{
+ const atlas=buildCatalog(articleFiles()),path='/copyright-and-permissions';
+ assert.equal(atlas.byId.size,2185);
+ assert.equal(atlas.categories.size,198);
+ assert.equal([...atlas.categories.values()].reduce((n,c)=>n+c.members.length,0),4120);
+ assert.ok(!snapshot.utilities.includes(path));
+ assert.ok(atlas.local.has(path));
+ assert.deepEqual(searchCandidates(atlas).filter(([,p])=>p===path),[['Copyright and permissions',path]]);
+ assert.ok(!randomPaths(atlas).includes(path));
+ assert.equal(atlas.searchTitles.length,2192);
+ const collision=structuredClone(snapshot);collision.articles[0].path=path;
+ assert.throws(()=>buildCatalog([],collision),/duplicate/i);
+ const aliasCollision=structuredClone(snapshot);aliasCollision.redirects.push({from:path,to:'/catun',status:301});
+ assert.throws(()=>buildCatalog([],aliasCollision),/duplicate/i);
+});
+
+test('original guidance has its own current source history and working contact and license destinations',()=>{
+ const definition=originalUtilities.find(p=>p.id==='copyright-and-permissions');
+ const entry=utilityFiles().find(e=>e.data.pageId===definition.id),$=load(fs.readFileSync('dist'+definition.path+'.html'));
+ const current=utilitySource(definition,entry.filePath);
+ assert.ok(current.markdown.endsWith('/main/'+entry.filePath));
+ assert.ok(current.history.endsWith('/main/'+entry.filePath));
+ assert.deepEqual($('.source-links a').slice(0,2).map((_,a)=>a.attribs.href).get(),[current.markdown,current.history]);
+ assert.ok(!$('.import-history').text().includes('adaptation of the prototype'));
+ assert.equal($('link[rel=canonical]').attr('href'),'https://kenshi.wiki'+definition.path);
+ expectEditable($,entry.filePath);
+ assert.equal($('footer a').filter((_,a)=>$(a).text()==='Copyright').attr('href'),definition.path);
+ assert.ok($('a[href="mailto:admin@kenshi.wiki"]').length>0);
+ for(const file of ['CC-BY-SA-3.0.txt','CC-BY-SA-4.0.txt','FreshWiki-MIT.txt','artwork.txt']) {
+  assert.ok($('a[href="/notices/'+file+'"]').length>0);
+  assert.ok(fs.existsSync('dist/notices/'+file));
+ }
+ assert.ok(fs.readFileSync('dist/sitemap-0.xml','utf8').includes('<loc>https://kenshi.wiki'+definition.path+'</loc>'));
+ const contributors=load(fs.readFileSync('dist/contributors.html'));
+ for(const id of ['licensing','outland','typography','artwork'])assert.equal(contributors('[id="'+id+'"]').length,1);
+ assert.ok(contributors('a[href="'+definition.path+'"]').length>0);
 });
