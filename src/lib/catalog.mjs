@@ -1,4 +1,4 @@
-import {activeUtilityPaths,originalUtilities,proseUtilities,historicalSourceRedirects,isGeneratedUtilityPath,utilityStage} from './utility-routes.mjs';
+import {activeUtilityPaths,originalUtilities,contactEndpoints,proseUtilities,historicalSourceRedirects,isGeneratedUtilityPath,utilityStage} from './utility-routes.mjs';
 import {workRoute,workIndexRoute,isWorkRoute} from './work-routes.mjs';
 import policy from '../../conversion/category-policy.json' with { type: 'json' };
 import snapshot from '../../conversion/reference.json' with { type: 'json' };
@@ -36,6 +36,7 @@ export function buildCatalog(entries = [], reference = effectiveSnapshot, deploy
   const articles = new Map();
   const publicPaths = new Map();
   const sourceFiles = new Map();
+  for(const endpoint of contactEndpoints)claim(publicPaths,endpoint,'contact endpoint');
   claim(publicPaths,workRoute,'maintenance utility');
   claim(publicPaths,workIndexRoute,'maintenance index');
   for (const path of [...reference.portals, ...reference.utilities, ...reference.endpoints, ...originalUtilities.map(p=>p.path)]) claim(publicPaths, path, 'non-article route');

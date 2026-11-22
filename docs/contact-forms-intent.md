@@ -1,13 +1,15 @@
-# Deferred contact forms and receipt emails
+# Private contact forms: settled local-review decisions
 
-Future investigation only. The current contact route is `admin@kenshi.wiki`; this note does not add a form, backend, paid service or autoresponder.
+The local implementation provides [/contact](https://kenshi.wiki/contact) and [/contact/copyright](https://kenshi.wiki/contact/copyright) in the wiki frame. Publication and live intake are not enabled by this review. See [configuration and local review](contact-forms.md).
 
-- Explore a general contact/correction form and a separate copyright-report route. Informal questions must remain available without legal declarations; assess formal takedown requirements and wording separately.
-- Deliver submissions privately to the wiki maintainer and retain direct email as an alternative. This contact represents the wiki, not Meitou or other linked projects.
-- Evaluate a small server-side submission handler and its mail delivery path. Email Routing handles incoming email; it is not itself a browser-form endpoint. Recheck current Cloudflare Email Service capabilities, sending-domain setup and plan costs when implementing. Workers Paid is a possible future choice.
-- Show a clear on-page result and investigate automatic receipt emails with a reference number. Acknowledge acceptance by the intake system accurately, distinguishing it from completed email delivery. Receipt is not a decision about a claim, a removal promise or a response deadline.
-- Example: “We’ve received your message about Kenshi Wiki. Reference: [reference]. This is an automatic receipt confirmation; your message has not yet been assessed.”
-- Decide minimum fields, personal-information handling, retention, abuse protection and failure handling before implementation. Keep private submissions out of public Git history and issues. Prevent automatic replies being abused to send mail to other people’s addresses.
-- RuneScape Wiki’s Special:Contact and Special:Contact/dmca forms are workflow references. Their company-specific wording, legal declarations and publication consent are not adopted here.
+- General messages cover questions, corrections and proposed contributions. The second form covers informal copyright, permission and removal concerns. Both represent Kenshi Wiki.
+- Required fields are reply email, topic and explanation; copyright concerns also require an affected URL/file. Name or preferred credit is optional. Text and links only, with no postal address, phone number, signature, legal declaration or publication consent requirement.
+- Delivery is private to the fixed verified address `admin@kenshi.wiki`. Email Routing receives/forwards email; the browser form uses a server-side Email Service binding. The private forwarding destination is not application configuration.
+- Retention is inbox-only: no database, application submission archive, browser draft storage or automatic GitHub issue. Delivered correspondence remains subject to the maintainer's mailbox retention.
+- Same-origin validation, request/field limits, a honeypot and server-side Turnstile verification precede delivery. The sender is fixed; the submitter's validated address is Reply-To only.
+- A reference and on-page result distinguish service acceptance from inbox arrival, review, removal, publication or a guaranteed response. Ambiguous failures are reported honestly, without automatic retries.
+- Original contributions remain subject to review, attribution and the existing licensing guidance. Existing GitHub correction paths and direct email remain available.
+- Acknowledgment emails to submitters are deferred until a separately reviewed outbound-sending setup. No paid plan is enabled here.
+- RuneScape Wiki's contact forms informed the user journey. Its company wording and formal declarations were not adopted.
 
-Design, implementation, validation and publication belong to a separate task. This is not a prerequisite for the copyright guidance or a commitment to any particular service plan.
+This pass uses a loopback-only harness with fake verification and delivery. **No email is sent.** Before live activation, verify the recipient restriction, sender-domain eligibility, real arrival through the admin forwarding rule, and Turnstile hostname/action enforcement. No account provisioning, publication or deployment is included.

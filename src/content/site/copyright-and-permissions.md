@@ -30,7 +30,7 @@ Noncommercial operation, online availability and AI-assisted redrawing do not au
 
 ## Report a concern or share permission information
 
-Email [admin@kenshi.wiki](mailto:admin@kenshi.wiki) with the details you have:
+Use the [private copyright, permission or removal form](/contact/copyright), or email [admin@kenshi.wiki](mailto:admin@kenshi.wiki), with the details you have:
 
 - The affected wiki URL, image address or repository file.
 - The underlying work and its creator or rights holder, with a source link where available.

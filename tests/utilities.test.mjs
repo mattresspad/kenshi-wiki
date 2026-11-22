@@ -41,7 +41,7 @@ test('original guidance is additive, searchable and excluded from article identi
  assert.ok(atlas.local.has(path));
  assert.deepEqual(searchCandidates(atlas).filter(([,p])=>p===path),[['Copyright and permissions',path]]);
  assert.ok(!randomPaths(atlas).includes(path));
- assert.equal(atlas.searchTitles.length,2192);
+ assert.equal(atlas.searchTitles.length,2191+originalUtilities.length);
  const collision=structuredClone(snapshot);collision.articles[0].path=path;
  assert.throws(()=>buildCatalog([],collision),/duplicate/i);
  const aliasCollision=structuredClone(snapshot);aliasCollision.redirects.push({from:path,to:'/catun',status:301});
