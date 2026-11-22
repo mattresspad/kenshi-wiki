@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {parse} from 'yaml';
-import {releaseConfiguration,assertStaging,assertRehearsal} from '../scripts/release/config.mjs';
+import {releaseConfiguration,assertStaging,assertRehearsal,assertReleaseRun,assertProductionPackage,assertVersionUrl,assertPromotion} from '../scripts/release/config.mjs';
 import {correctionLink} from '../src/lib/page-source.mjs';
 test('release targets reject unknown targets, absent edit branches and production staging uploads',()=>{
  assert.equal(releaseConfiguration({}).target,'local');assert.throws(()=>releaseConfiguration({WIKI_RELEASE_TARGET:'anything'}));assert.throws(()=>releaseConfiguration({WIKI_RELEASE_TARGET:'staging'}));assert.throws(()=>releaseConfiguration({WIKI_RELEASE_TARGET:'production',WIKI_EDIT_BRANCH:'rebuild/restoration'}));
@@ -13,10 +13,75 @@ test('software scope and correction form retain the approved license boundaries 
  const template=parse(fs.readFileSync('.github/ISSUE_TEMPLATE/article-correction.yml','utf8'));assert.ok(template.body.some(f=>f.id==='article'&&f.type==='input'));const url=new URL(correctionLink('https://kenshi.wiki/catun#town-override'));assert.equal(url.searchParams.get('template'),'article-correction.yml');assert.equal(url.searchParams.get('article'),'https://kenshi.wiki/catun#town-override');
 });
 
-test('routine and manual CI preserve required coverage without push or deployment jobs',()=>{
- const workflow=parse(fs.readFileSync('.github/workflows/restoration.yml','utf8'));assert.equal(workflow.on.push,undefined);assert.deepEqual(workflow.on.pull_request.branches,['main']);assert.equal(workflow.on.pull_request.paths,undefined);assert.equal(workflow.on.pull_request['paths-ignore'],undefined);
- assert.deepEqual(workflow.on.workflow_dispatch.inputs.mode.options,['release','audit']);assert.deepEqual(Object.keys(workflow.jobs),['check-and-stage']);const steps=workflow.jobs['check-and-stage'].steps;assert.ok(steps.some(s=>s.run==='npm run ci:check'));assert.ok(steps.some(s=>s.run==='npm run audit:check'));assert.equal(steps[0].with['fetch-depth'],0);assert.equal(steps[0].with['persist-credentials'],false);assert.ok(steps.some(s=>s.run==='npm run release:check'));assert.ok(!JSON.stringify(workflow).includes('CLOUDFLARE_API_TOKEN'));
- const uploads=steps.filter(s=>s.uses?.startsWith('actions/upload-artifact@'));assert.deepEqual(uploads.map(s=>s.with['retention-days']),[14,90]);assert.ok(uploads.every(s=>!s.with.path.split('\n').includes('dist')));assert.ok(!uploads[0].with.path.includes('.cloudflare/output'));assert.ok(uploads[1].with.path.includes('.cloudflare/output'));
+
+test('PR checks report each phase without push runs or deployment credentials',()=>{
+ const workflow=parse(fs.readFileSync('.github/workflows/restoration.yml','utf8'));
+ assert.equal(workflow.name,'PR checks');assert.equal(workflow.on.push,undefined);
+ assert.deepEqual(workflow.on.pull_request.branches,['main']);
+ assert.equal(workflow.on.pull_request.paths,undefined);assert.equal(workflow.on.pull_request['paths-ignore'],undefined);
+ const job=workflow.jobs.checks;assert.equal(job.name,'PR checks');assert.equal(job['runs-on'],'ubuntu-24.04');
+ const steps=job.steps;
+ for(const phase of ['build','catalog','browser','package','editing','summary'])assert.ok(steps.some(s=>s.run==='npm run ci:check -- --phase '+phase),phase);
+ assert.equal(steps.find(s=>s.name==='Summarize results').if,'always()');
+ assert.ok(!JSON.stringify(workflow).includes('CLOUDFLARE_API_TOKEN'));
+ assert.deepEqual(workflow.permissions,{contents:'read'});
+ assert.equal(steps[0].with['fetch-depth'],0);assert.equal(steps[0].with['persist-credentials'],false);
+ const artifact=steps.find(s=>s.uses?.startsWith('actions/upload-artifact@'));
+ assert.equal(artifact.with['retention-days'],14);assert.ok(!artifact.with.path.includes('.cloudflare/output'));
+});
+
+test('preview precedes required environment approval and publication never rebuilds',()=>{
+ const workflow=parse(fs.readFileSync('.github/workflows/release.yml','utf8'));
+ assert.deepEqual(workflow.on.push.branches,['main']);assert.equal(workflow.on.pull_request,undefined);
+ const {preview,publish}=workflow.jobs;
+ assert.equal(preview.name,'Staging preview');assert.equal(publish.needs,'preview');
+ assert.equal(publish.environment.name,'production');assert.equal(publish.environment.url,'${{ needs.preview.outputs.url }}');
+ assert.equal(publish.if,"github.ref == 'refs/heads/main'");
+ const commands=preview.steps.map(s=>s.run).filter(Boolean);
+ for(const cmd of ['npm run release:prepare','npm run release:stage','npm run release:verify'])assert.ok(commands.includes(cmd));
+ assert.ok(commands.indexOf('npm run release:stage')<commands.indexOf('npm run release:verify'));
+ const publication=publish.steps.map(s=>s.run).filter(Boolean);
+ assert.ok(publication.includes('npm run release:publish'));assert.ok(publication.includes('npm run release:verify -- --live'));
+ assert.ok(!publication.some(c=>/release:(prepare|stage)|npm run build/.test(c)));
+ assert.ok(![...preview.steps,...publish.steps].some(s=>s['continue-on-error']));
+ assert.equal(publish.concurrency['cancel-in-progress'],false);
+ assert.equal(preview.steps.find(s=>s.uses?.startsWith('actions/upload-artifact@')).with['retention-days'],90);
+ const script=fs.readFileSync('scripts/release/stage.mjs','utf8');
+ assert.ok(!script.includes("'deployments','create'"));assert.ok(script.includes("'versions','create'"));
+ assert.ok(script.includes("assert.deepEqual(hashes(resolve('.cloudflare/output')),candidate.packageFiles"));
+ assert.ok(script.includes('assert.deepEqual(after.versions,before.versions)'));
+ const promote=fs.readFileSync('scripts/release/promote.mjs','utf8');
+ assert.ok(promote.includes("'deployments','create'"));assert.ok(!promote.includes("'versions','create'"));assert.ok(!promote.includes('await build'));
+});
+
+test('exhaustive checks remain independently dispatchable and Actions stay pinned',()=>{
+ const workflow=parse(fs.readFileSync('.github/workflows/audits.yml','utf8'));
+ assert.deepEqual(Object.keys(workflow.on),['workflow_dispatch']);
+ assert.deepEqual(workflow.on.workflow_dispatch.inputs.mode.options,['audit','release']);
+ const steps=workflow.jobs.audit.steps;
+ assert.ok(steps.some(s=>s.run==='npm run audit:check'));assert.ok(steps.some(s=>s.run==='npm run release:check'));
+ assert.ok(!JSON.stringify(workflow).includes('CLOUDFLARE_API_TOKEN'));
+ const artifact=steps.find(s=>s.uses?.startsWith('actions/upload-artifact@'));assert.equal(artifact.with['retention-days'],90);assert.ok(artifact.with.path.includes('.cloudflare/output'));assert.ok(!artifact.with.path.split('\n').includes('dist'));
+ for(const file of ['restoration','release','audits']){
+  const w=parse(fs.readFileSync('.github/workflows/'+file+'.yml','utf8'));
+  for(const job of Object.values(w.jobs))for(const step of job.steps)if(step.uses)assert.match(step.uses,/@[a-f0-9]{40}$/);
+ }
  const sha='a'.repeat(40);assert.throws(()=>assertRehearsal({},sha));assert.doesNotThrow(()=>assertRehearsal({WIKI_EXPECTED_SHA:sha},sha));
- const env={WIKI_EXPECTED_SHA:sha,GITHUB_ACTIONS:'true',GITHUB_EVENT_NAME:'workflow_dispatch',GITHUB_REF:'refs/heads/main',GITHUB_SHA:sha};assert.doesNotThrow(()=>assertRehearsal(env,sha));for(const change of [{GITHUB_REF:'refs/heads/topic'},{GITHUB_EVENT_NAME:'pull_request'},{WIKI_EXPECTED_SHA:'b'.repeat(40)},{GITHUB_SHA:'b'.repeat(40)}])assert.throws(()=>assertRehearsal({...env,...change},sha));
+ const env={WIKI_EXPECTED_SHA:sha,GITHUB_ACTIONS:'true',GITHUB_EVENT_NAME:'workflow_dispatch',GITHUB_REF:'refs/heads/main',GITHUB_SHA:sha};
+ assert.doesNotThrow(()=>assertRehearsal(env,sha));
+ for(const change of [{GITHUB_REF:'refs/heads/topic'},{GITHUB_EVENT_NAME:'pull_request'},{WIKI_EXPECTED_SHA:'b'.repeat(40)},{GITHUB_SHA:'b'.repeat(40)}])assert.throws(()=>assertRehearsal({...env,...change},sha));
+});
+
+test('promotion rejects stale commits, changed traffic, wrong versions and package substitutions',()=>{
+ const sourceSha='a'.repeat(40),versionId='12345678-1234-1234-1234-123456789abc',rollback='87654321-1234-1234-1234-123456789abc';
+ const url='https://12345678-kenshi-wiki.prds.workers.dev/',hash='d'.repeat(64);
+ const env={WIKI_EXPECTED_SHA:sourceSha,GITHUB_SHA:sourceSha,GITHUB_ACTIONS:'true',GITHUB_EVENT_NAME:'push',GITHUB_REF:'refs/heads/main',WIKI_RELEASE_TARGET:'production',WIKI_EDIT_BRANCH:'main',WIKI_VERSION:versionId,WIKI_VERSION_URL:url,WIKI_PACKAGE_SHA256:hash,WIKI_ROLLBACK_VERSION:rollback,WIKI_PREVIOUS_DEPLOYMENT:'deployment'};
+ const evidence={sourceSha,head:sourceSha,current:{id:'deployment',versions:[{version_id:rollback,percentage:100}]},version:{id:versionId,urls:[url],annotations:{'workers/message':'FreshWiki '+sourceSha+' package '+hash}}};
+ assert.doesNotThrow(()=>assertPromotion(env,evidence));
+ for(const change of [{GITHUB_ACTIONS:undefined},{GITHUB_EVENT_NAME:'pull_request'},{GITHUB_REF:'refs/heads/topic'},{WIKI_EXPECTED_SHA:'b'.repeat(40)},{WIKI_EDIT_BRANCH:'topic'},{WIKI_RELEASE_TARGET:'staging'},{WIKI_PACKAGE_SHA256:'e'.repeat(64)},{WIKI_VERSION:rollback},{WIKI_VERSION_URL:'https://12345678-kenshi-wiki-restoration.prds.workers.dev/'},{WIKI_ROLLBACK_VERSION:versionId},{WIKI_PREVIOUS_DEPLOYMENT:'another'}])assert.throws(()=>assertPromotion({...env,...change},evidence),JSON.stringify(change));
+ for(const change of [{head:'b'.repeat(40)},{current:{...evidence.current,versions:[{version_id:rollback,percentage:50}]}},{version:{...evidence.version,annotations:{}}}])assert.throws(()=>assertPromotion(env,{...evidence,...change}));
+ assert.doesNotThrow(()=>assertProductionPackage({target:'production',worker:'kenshi-wiki',editBranch:'main',packageSha256:hash}));
+ assert.throws(()=>assertProductionPackage({target:'staging',worker:'kenshi-wiki-restoration',editBranch:'main',packageSha256:hash}));
+ assert.throws(()=>assertVersionUrl(versionId,url+'?other=1'));
+ assert.throws(()=>assertReleaseRun({},sourceSha,{githubOnly:true}));
 });

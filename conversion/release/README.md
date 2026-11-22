@@ -1,49 +1,40 @@
-# FreshWiki release preparation and rollback
+# Release and recovery
 
-## Current boundary
+## Normal path
 
-FreshWiki is default `main`. The protected `archive/initial-prototype` branch and annotated `prototype/pre-restoration-83abc179` tag preserve 83abc179fafa63b826d7f2662c4a18a134a9e6c1 and its original history. The rebuild history remains independent. PR #44 was integrated with credit and evidence and its original PR reconciled. Do not repeat the branch swap or merge prototype ancestry.
+1. Open a PR. **PR checks** selects and reports the appropriate structural, content or broad checks.
+2. Merge after checks and review. **Preview and publish** runs **Staging preview**: one production build, current-route/package validation, inactive upload and focused HTTPS smoke checks.
+3. Open the immutable preview in that run's summary. Prd approves the **production** environment using **Review deployments**.
+4. **Approve and publish tested version** selects the tested Worker version without rebuilding or uploading. Live smoke checks report in the same run.
 
-Prd selected MIT for independent software; LICENSE and LICENSING.md delimit it. Article prose, evidence, artwork and dependencies retain separate terms. The [earlier release contract](https://github.com/mattresspad/kenshi-wiki/blob/dc67a48ff6965d64d0a5c640d28bfa590eb894a2/conversion/release/README.md) preserves historical preparation details. [Repository-readiness dispositions](repository-readiness.json) record restored policies, templates and acknowledgements.
+Production stays unchanged until step 4. Failed checks stop the sequence. The GitHub run is the status page: there is no required offscreen local completion process after a green preview.
 
-Readiness keeps transfer, formatting, editorial coverage and findings separate. The accepted registry contains 2,185 articles, 198 categories, 4,120 memberships, 2,191 title/full-text entries and 2,114 random-eligible paths. Inherited findings and pending editorial review remain valid post-launch work. Introduced regressions, unsupported resolutions, unaccounted routes and temporary prototype dependencies block acceptance.
+An explicit retry is available by dispatching **Preview and publish** on main with its exact current SHA. It creates a fresh reviewed preview; it is not permission to reuse an older approval. Exhaustive conversion audits and full reproducibility rehearsals live in the separate **Exhaustive audits** workflow. See [the policy](../../docs/ci-policy.md).
 
-## Routine PR validation
+## Exact package and approval
 
-Use Node 24.22.2, `npm ci` and Playwright Chromium. `npm run ci:check` selects coverage from the actual PR diff: documentation retains structural checks; article edits receive a published build, affected-route/inbound-link checks and relevant family browsers; shared or uncertain changes receive broad coverage. Preservation/schema/test changes run the complete conversion audit. See [the selection policy and measurements](../../docs/ci-policy.md). `npm run audit:check` explicitly retains all historical fixtures, source comparisons, family, queue, fonts, accessibility and warm-cache checks. No comparison checkout or previous report is required; tracked-file changes fail acceptance.
+The package target is `kenshi-wiki`, edit branch `main`. The preview is an inactive version of this same Worker, at its immutable version URL. This allows publication of the exact tested version without transferring versions between Workers. Preview URLs receive Cloudflare's noindex restriction; the final package is checked separately for production indexability.
 
-PRs targeting main run the required **check-and-stage** job. There are no push triggers or path exclusions. Required checks remain strict and enforced for administrators; the separate review rule retains Prd's PR-only exception, which cannot bypass failed checks. PR jobs receive read-only repository permissions and no deployment credentials.
+The preview artifact contains the package once, per-file checksums, a SHA-256 of the canonical package-file manifest, source SHA, route/package reports, HTTPS results and desktop/phone captures. The manifest checksum is not a ZIP checksum. The publication receipt identifies the previous deployment and rollback version. These artifacts last 90 days.
 
-Routine artifacts retain logs, timings, route/gap reports, checksums and failure traces for 14 days. They do not include duplicate build/package trees. The job name is retained for branch-protection compatibility; it does not upload a Worker version.
+The production environment requires Prd's approval; administrator bypass stays disabled. Before publication the script rechecks current main, the active deployment, the approved version's source/package annotation and rollback availability. Any mismatch stops publication. Nothing here authorizes agents to approve their own deployment. No routes, DNS or branch names are changed by this workflow.
 
-## Explicit release rehearsal
+## Smoke checks and failure behavior
 
-After reviewed PRs merge, select the exact main SHA. Dispatch **FreshWiki validation** on main with mode `release` and `expected_sha`. The runner verifies that SHA against its checkout and current upstream main. Locally set `WIKI_EXPECTED_SHA` to the selected commit before `npm run release:check`.
+Preview and live checks cover Home/assets, a category-to-article journey, canonical/edit/pinned-source links, Pages needing work, citation and keyboard return, phone drawer focus, light/dark wrapping, title and full-text search, random navigation, an alias with query preservation, and root/nested GET/HEAD 404 responses. Preview failure prevents publication. A live failure leaves the workflow red and preserves its traces; it is not silently accepted after an isolated rerun.
 
-The rehearsal runs exhaustive coverage regardless of the changed-file selection, rebuilds the published package and requires identical per-file checksums, then records representative desktop 1440x900 and phone 390x844 captures in both palettes. Evidence lists executed checks rather than assuming a pass. The single package tree and release evidence are retained for 90 days; dist is not uploaded separately. Stage timings and artifact sizes support before/after comparisons without promising fixed runner performance.
-
-`reports/release/candidate.json` binds the source SHA, target, edit branch, lockfile and package-file checksums to counts and validation. Download the successful artifact for that exact run; verify its digest and every package file before upload. Never substitute older local build output. Contributor-queue browser verification reads the verified packaged assets directly; no duplicate dist tree or silent rebuild is needed.
-
-For isolated staging only, use `npm run release:check -- --staging` with the exact expected SHA, then explicitly run `npm run release:stage` with `WIKI_RELEASE_TARGET=staging`, `WIKI_EDIT_BRANCH=main` and that expected SHA. The command rejects a production package and remains restricted to kenshi-wiki-restoration. In GitHub it additionally requires workflow_dispatch on trusted main; no automatic staging job is configured. `npm run release:verify` verifies the resulting immutable staging URL. Staging discourages indexing while keeping production canonicals.
-
-## Inactive production candidate
-
-The production target is **kenshi-wiki**, with edit branch **main**. Its version must be uploaded separately from staging; Worker version IDs cannot cross Workers. Upload the checksum-verified production package with `cf workers versions create --prebuilt`, never a deploy command. Record the source SHA, package checksum, new version and immutable URL. Keep the version inactive while verifying it.
-
-Run the complete browser suite over that immutable HTTPS URL and record desktop/phone captures, source/edit links, search and assets, categories, random eligibility, redirects, genuine root/nested GET and HEAD 404s and Pages needing work. Production package headers must permit indexing on ordinary pages. Cloudflare's immutable-preview-level noindex behavior is separate and does not prove the apex's eventual headers.
-
-Check effective main/archive/tag protections, outstanding PRs, the production environment's required Prd review and disabled administrator bypass, and production metadata before and after upload. Automatic production promotion remains absent from CI. Present the exact new version for Prd's approval. An approval for an older candidate does not transfer automatically.
-
-## Rollback and later traffic promotion
-
-At the readiness baseline, kenshi-wiki serves **f9d52d77-376e-4647-8d8c-93b414364d68** at 100%, from prototype 83abc179. Preserve its package with SHA-256 **460c93499ac8bb668d24269b97be44e550c89b1969c51fc3230142938aee53d1**. Recheck eligibility and availability immediately before cutover; the source archive alone is not a deployable artifact.
-
-After separate exact-version approval, the command shape is:
+Inspect the failed check and live behavior. Roll back promptly for material routing, missing-asset, search, content or HTTP-status failures. The retained receipt includes the exact previous version and command:
 
 ```sh
-cf workers deployments create --worker kenshi-wiki --strategy percentage --versions '[{"version_id":"APPROVED_VERSION","percentage":100}]'
+cf workers deployments create --worker kenshi-wiki --strategy percentage --versions '[{"version_id":"RECORDED_ROLLBACK_VERSION","percentage":100}]'
 ```
 
-Rollback uses the same command with `f9d52d77-376e-4647-8d8c-93b414364d68`. Revalidate the request with --dry-run first. If that version is no longer eligible, upload the checksummed prototype artifact as a new inactive kenshi-wiki version, verify its immutable URL, and promote it under the approved recovery procedure. Retain its notices. Hosting rollback does not rename Git branches.
+Use the version recorded by that run, after checking current deployment state and recovery authorization. Do not substitute an older receipt. Confirm Home, search, a category/article, an alias and root/nested 404s after recovery. If the previous version is no longer eligible, use its retained checksummed package as an explicitly reviewed recovery candidate. Never rebuild old source and call it the original tested artifact.
 
-Immediately after an approved promotion, compare apex fingerprints with the approved package and check Home, Catun, Blender plugins, a category, Pagefind/title/body search, random navigation, aliases/historical endpoints, root/nested GET and HEAD 404s, correction/edit/source links, licensing and Pages needing work. Check desktop/phone keyboard and layout behavior. Roll back for material routing, missing-asset, search, content or status-code failures; record the result and investigate before another promotion. Readiness work itself changes no traffic, routes or DNS.
+## Preserved history and release boundaries
+
+FreshWiki is already default main and is live. The protected archive/initial-prototype and prototype/pre-restoration-83abc179 tag preserve the prototype's full history. Do not repeat the branch swap or merge its ancestry into FreshWiki. PR #44's original authorship and adaptation evidence remain intact.
+
+At this workflow-change baseline, production serves `46e70484-2705-4aea-8a5f-8f1c165ccae9`. Its preserved package ZIP checksum is `b87b1a7adc72fdda32230579916266b0f6c543735da226c1eef5865543fa0a5c`. This historical reference does not replace the deployment snapshot taken for each new preview.
+
+MIT covers independently written software. Article prose, evidence, artwork and dependencies retain their separate terms. Inherited gaps and pending editorial reviews remain honest post-launch work; introduced regressions and unsupported resolution claims remain blockers. Publication of this workflow does not close any editorial finding.

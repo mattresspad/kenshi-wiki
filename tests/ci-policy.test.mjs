@@ -10,18 +10,18 @@ test('documentation keeps required structural checks without building the site',
 test('content selects actual registered identities and affected families',()=>{
  const p=selectChecks({changes:change(articles[0].file),articles});assert.equal(p.kind,'content');assert.deepEqual(p.articleIds,['catun']);assert.ok(p.browser.includes('tests/geography.spec.mjs'));assert.ok(p.browser.includes('tests/bookmarks.spec.mjs'));assert.ok(!p.browser.includes('tests/items.spec.mjs'));assert.equal(p.editing,false);
 });
-test('shared code stays broad; preservation changes retain every test and fixture',()=>{
+test('shared and uncertain changes stay broad; exhaustive audits are explicit',()=>{
  const tests=inventory();
  for(const path of ['src/layouts/Frame.astro','src/styles/wiki.css','src/scripts/search.js']){
   const p=selectChecks({changes:change(path),articles});assert.equal(p.kind,'broad');assert.ok(p.browser.includes('tests/search.spec.mjs'));assert.ok(p.catalog.includes('tests/warm-move.test.mjs'));assert.ok(p.editing);assert.ok(!p.catalog.includes('tests/conversion-report.test.mjs'));
  }
  for(const path of ['scripts/conversion/verify.mjs','src/content.config.ts','conversion/gaps/register.json','package-lock.json','.github/workflows/restoration.yml','tests/new.spec.mjs','unmapped.txt']){
-  const p=selectChecks({changes:change(path),articles});assert.ok(p.audit,path);assert.deepEqual(p.browser,tests.browser);assert.deepEqual(p.catalog,tests.catalog);
+  const p=selectChecks({changes:change(path),articles});assert.equal(p.audit,false,path);assert.deepEqual(p.browser,tests.browser.filter(f=>f!=='tests/gap-report.spec.mjs'));assert.deepEqual(p.catalog,tests.catalog.filter(f=>f!=='tests/conversion-report.test.mjs'));
  }
 });
 test('explicit audits and rehearsals keep exhaustive coverage and unknown impact fails broad',()=>{
  for(const mode of ['audit','release']){const p=selectChecks({mode,changes:change('README.md')});assert.ok(p.audit);assert.ok(p.editing);assert.deepEqual(p.browser,inventory().browser);}
- for(const changes of [[],undefined,[{path:articles[0].file,status:'D'}],change('src/content/articles/new.md')])assert.ok(selectChecks({changes,articles}).audit);
+ for(const changes of [[],undefined,[{path:articles[0].file,status:'D'}],change('src/content/articles/new.md')])assert.equal(selectChecks({changes,articles}).kind,'broad');
  assert.throws(()=>selectChecks({mode:'anything'}));
 });
 test('reverse fragment dependencies include unchanged referring pages',()=>{

@@ -1,0 +1,56 @@
+name: Exhaustive audits
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Full conversion audit or comprehensive release rehearsal
+        required: true
+        type: choice
+        options: [audit, release]
+        default: audit
+      expected_sha:
+        description: Exact main commit to audit (no upload or deployment)
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  audit:
+    name: Exhaustive audit (no deployment)
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      WIKI_EXPECTED_SHA: ${{ inputs.expected_sha }}
+      WIKI_CANDIDATE_BRANCH: main
+      ASTRO_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npm exec -- playwright install --with-deps chromium
+      - name: Complete frozen conversion audit
+        if: inputs.mode == 'audit'
+        run: npm run audit:check
+      - name: Comprehensive release rehearsal
+        if: inputs.mode == 'release'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run release:check
+      - name: Save audit evidence
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: exhaustive-${{ inputs.mode }}-${{ github.sha }}
+          retention-days: 90
+          include-hidden-files: true
+          path: |
+            .cloudflare/output
+            reports
+            test-results

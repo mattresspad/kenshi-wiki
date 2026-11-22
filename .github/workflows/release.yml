@@ -1,0 +1,113 @@
+name: Preview and publish
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      expected_sha:
+        description: Exact main commit to preview
+        required: true
+        type: string
+permissions:
+  contents: read
+env:
+  ASTRO_TELEMETRY_DISABLED: '1'
+  WIKI_EXPECTED_SHA: ${{ inputs.expected_sha || github.sha }}
+  WIKI_RELEASE_TARGET: production
+  WIKI_EDIT_BRANCH: main
+jobs:
+  preview:
+    name: Staging preview
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    concurrency:
+      group: wiki-preview
+      cancel-in-progress: true
+    outputs:
+      version: ${{ steps.upload.outputs.version }}
+      url: ${{ steps.upload.outputs.url }}
+      rollback: ${{ steps.upload.outputs.rollback }}
+      deployment: ${{ steps.upload.outputs.deployment }}
+      package: ${{ steps.upload.outputs.package }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: Build the final package once
+        run: npm run release:prepare
+      - name: Install browser
+        run: npm exec -- playwright install --with-deps chromium
+      - name: Upload an inactive preview version
+        id: upload
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: npm run release:stage
+      - name: Test the uploaded preview
+        run: npm run release:verify
+      - name: Save package and preview evidence
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: tested-package-${{ github.sha }}
+          retention-days: 90
+          include-hidden-files: true
+          path: |
+            .cloudflare/output
+            reports/release
+            reports/ci/current.json
+            reports/utilities/search-coverage.json
+            test-results
+  publish:
+    name: Approve and publish tested version
+    needs: preview
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    environment:
+      name: production
+      url: ${{ needs.preview.outputs.url }}
+    concurrency:
+      group: wiki-production
+      cancel-in-progress: false
+    env:
+      WIKI_VERSION: ${{ needs.preview.outputs.version }}
+      WIKI_VERSION_URL: ${{ needs.preview.outputs.url }}
+      WIKI_ROLLBACK_VERSION: ${{ needs.preview.outputs.rollback }}
+      WIKI_PREVIOUS_DEPLOYMENT: ${{ needs.preview.outputs.deployment }}
+      WIKI_PACKAGE_SHA256: ${{ needs.preview.outputs.package }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: Install browser for live smoke checks
+        run: npm exec -- playwright install --with-deps chromium
+      - name: Publish the approved version without rebuilding
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: npm run release:publish
+      - name: Smoke-check the live wiki
+        run: npm run release:verify -- --live
+      - name: Save publish and live-check evidence
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: publish-receipt-${{ github.sha }}
+          retention-days: 90
+          path: |
+            reports/release
+            test-results

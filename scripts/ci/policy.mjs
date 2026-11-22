@@ -19,21 +19,21 @@ export function selectChecks({changes,mode='routine',articles=[],tests=inventory
   if(!['routine','audit','release'].includes(mode))throw Error('Unknown CI mode');
   const selected = new Set(),reasons=[],byFile=new Map(articles.map(a=>[a.file,a]));
   let kind='documentation',audit=mode!=='routine',editing=false;
-  const broad=(why,exhaustive=false)=>{kind='broad';audit ||= exhaustive;editing=true;reasons.push(why);};
-  if(mode!=='routine')broad('Explicit '+mode,true);
-  if(!changes?.length)broad('No reliable changed-file set',true);
+  const broad=(why)=>{kind='broad';/* Exhaustive work is an explicit separate workflow. */editing=true;reasons.push(why);};
+  if(mode!=='routine')broad('Explicit '+mode);
+  if(!changes?.length)broad('No reliable changed-file set');
   for(const change of changes??[]){
     const {path,status}=change;
-    if(!['A','M'].includes(status)){broad('Rename/deletion/unknown status: '+path,true);continue;}
+    if(!['A','M'].includes(status)){broad('Rename/deletion/unknown status: '+path);continue;}
     if(documentation(path)){reasons.push('Repository guidance: '+path);continue;}
     if(path.startsWith('src/content/articles/')&&path.endsWith('.md')){
       const article=byFile.get(path);
-      if(!article||!article.families.length){broad('Unmapped article presentation: '+path,true);continue;}
+      if(!article||!article.families.length){broad('Unmapped article presentation: '+path);continue;}
       selected.add(article.id);if(kind==='documentation')kind='content';
       for(const family of article.families)reasons.push('Article family: '+family);
-    }else if(preservation(path)){broad('Validation, schema or preservation dependency: '+path,true);}
+    }else if(preservation(path)){broad('Validation, schema or preservation dependency: '+path);}
     else if(/^(src\/|public\/)/.test(path)){broad('Shared rendering, navigation, data or assets: '+path);}
-    else broad('Unclassified dependency: '+path,true);
+    else broad('Unclassified dependency: '+path);
   }
   let browser=[],catalog=structural.filter(f=>tests.catalog.includes(f));
   if(kind==='content'){

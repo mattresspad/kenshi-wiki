@@ -1,52 +1,48 @@
-# CI policy and measured coverage
+# Checks, preview, approval and publication
 
-The required `check-and-stage` job reports for every PR targeting main. There are no path filters or push runs. Selection uses the PR's base SHA and the tested merge tree; filenames are never supplied by a comment or issue.
+The GitHub release path is **PR checks → Staging preview → Prd's approval → publish the tested version**. Each stage has a named job and a summary. The production environment requires Prd's review and disables administrator bypass.
 
-## Three modes
+## Routine PR checks
 
-| Mode | Invocation | Coverage |
-| --- | --- | --- |
-| Routine PR | `npm run ci:check` (set `WIKI_CI_BASE_SHA` locally) | Identity/registry checks and structural tests always. Content changes build once in published mode, check affected routes and inbound links, provenance, categories, search and sitemap, then run the affected family browser files and navigation checks. |
-| Exhaustive conversion audit | `npm run audit:check`, or manual workflow mode `audit` | All catalog tests including historical format fixtures and warm-cache moves, complete source report and gap projection, all browser tests, focused local editing and Cloudflare dry run. PRs changing preservation machinery also select this. |
-| Release rehearsal | Exact main SHA, manual workflow mode `release` or `WIKI_EXPECTED_SHA=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ npm run release:check` | Full audit and browser coverage, local editing checks, repeated package hashes, all-page package audit and 32 desktop/phone captures. HTTPS acceptance remains a separate validation of the uploaded immutable version. |
+The required check is **PR checks**. Every PR targeting main reports it, including documentation-only changes. There are no PR path filters and no duplicate push-validation run.
 
-The release runner retains the complete report once, on the published build. Local editing and the reproducibility rebuild render/search/package without rerunning the same source report. Package equality is still checked. No assertion in the existing conversion audits or family suites was removed.
+| Change | Validation |
+| --- | --- |
+| Repository documentation | Registry/identity and structural tests; no site build or browser claim. |
+| Registered article | Production-mode build, affected routes and inbound links, provenance, category/search/sitemap consistency, relevant family browsers and bookmark/navigation checks. |
+| Shared layouts, scripts, styles, dependencies, schemas, preservation machinery or uncertain impact | Broad current-state catalog/browser checks, warm-cache fixture, production package dry run and focused local-editing checks. |
 
-## Impact rules and shared dependencies
+GitHub shows coverage selection, build, catalog/routes, browser behavior, packaging, local editing and the summary as separate steps. The summary reports actual phase times, failures and steps not run. A failed or incomplete phase cannot be reported as accepted. The full browser suite runs once in published mode; a separate local build runs only the editing-specific tests.
 
-- README, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, LICENSING, and Markdown under docs: structural checks only. These are not site-rendering inputs.
-- Registered article Markdown: permanent IDs determine families from frozen rosters, including overlaps. The family tests retain their source comparisons and phone/desktop behavior. Addressing and bookmark tests also run. Unknown article structures, deletions and moves fall back to the complete audit.
-- Shared components, layouts, styles, navigation, search scripts, portal data and public assets: broad catalog/browser coverage and warm-cache/local editing checks. The local-only detailed gap-report browser test and the route-report assertion group require the exhaustive report and run in audit/release modes. The latter moved intact from utilities.test.mjs into conversion-report.test.mjs; current search/sitemap/random assertions stay in routine coverage.
-- Scripts, schemas, source records, registry and gap data, dependency locks, test machinery, workflow changes or unclassified files: complete audit. Broad fallback is deliberate until a narrower dependency is demonstrated.
-- New test files automatically join the exhaustive inventory. Adding or changing a test selects that entire inventory. No family assertion is discarded to make a particular PR green.
+The complete frozen conversion report and its report-dependent tests are **not** run as part of routine PRs. No assertions have been removed: those tests remain in the explicit audit inventory. New test files join the inventories automatically. Unknown impact receives broad current-state checks; it is never treated as documentation.
 
-The current-state check parses rendered pages to find inbound links, then checks changed and referring pages. It rejects introduced broken destinations/fragments/assets and unsupported resolved link findings, while retaining recorded inherited gaps. It checks actual editable paths separately from original source/history (including PR #44's independent history revision). It does not claim an editorial review or a complete historical preservation audit.
+## After merge
 
-New duplicate DOM IDs fail validation. Two measured pre-existing collisions are retained as explicitly open diagnostics in scripts/ci/known-site-findings.json; absence in a later run does not silently close them. Pre-existing `tools` (NPC Shopping Behavior) and `content` (Old World) ID collisions were exposed during implementation; article targets collide with shared frame IDs. This is separate website investigation work, not an inherited editorial finding or a content change in this PR.
+**Preview and publish** builds one final production package from main, checks its current routes and package, uploads an inactive version to `kenshi-wiki`, and performs focused HTTPS smoke checks. Its summary links the immutable preview and identifies the commit, version and package manifest checksum. Uploading a version does not change production traffic.
 
-## Evidence and approval controls
+The next job, **Approve and publish tested version**, waits at GitHub's protected production environment. Prd can open the preview and then use **Review deployments** in the same run. Publication selects that existing version; it neither builds nor uploads again. Short live checks follow. A failed preview blocks the approval job. A changed main commit or active deployment blocks publication until a new preview is reviewed.
 
-Each invocation writes its exact plan, reasons, paths, executed checks, phase logs and timing JSON under reports/ci or reports/release. A docs-only run does not claim browser or package coverage. Routine/audit diagnostics last 14 days; release evidence and the single packaged asset tree last 90 days. dist is not uploaded alongside the package. Contributor-index browser tests read the packaged assets, allowing immutable HTTPS tests from a downloaded release artifact without reconstructing dist.
+The immutable preview's Cloudflare-level noindex header is separate from the production package's indexing policy. Using an inactive version of the production Worker is what allows preview and publication to use identical bytes. The optional staging alias is convenient, but approval and tests use the immutable URL.
 
-PR jobs have read-only repository permissions and no deployment credentials. Explicit rehearsals verify the selected SHA. Neither mode uploads or promotes production. Staging tools remain restricted to the named staging Worker and exact trusted-main rehearsal. Production still requires approval for the exact validated version and promotes that existing artifact without rebuilding.
+## Exhaustive audits stay separate
 
-## Profiling
+Dispatch **Exhaustive audits** on main with its exact SHA:
 
-Baseline source: d8bd6e1def09007a28201b1a5fe25727c8614104, Node 24.22.2.
+- **audit** runs the full frozen conversion/source report, every catalog and browser test, historical fixtures, local editing checks and package validation.
+- **release** adds comprehensive captures, all-page package checks and reproducibility checks.
 
-| Measured unchanged local phase (Windows) | Seconds |
-| --- | ---: |
-| Identity | 1.37 |
-| Astro render | 17.70 |
-| Pagefind | 12.35 |
-| Package | 2.76 |
-| Full frozen report | 67.02 |
-| Catalog including warm-cache fixture | 30.95 |
-| Warm-cache fixture within catalog | 29.41 |
-| 32 release captures | 4.93 |
+Run an audit when reviewing changes to importers, normalization, source evidence or preservation rules. It is also available for deliberate full release rehearsals. Neither mode uploads or deploys, and neither receives Cloudflare credentials. Commands remain `npm run audit:check` and `WIKI_EXPECTED_SHA=<sha> npm run release:check`. For local routine coverage use `WIKI_CI_BASE_SHA=<base> npm run ci:check`.
 
-The previous routine PR run [44943932928](https://github.com/mattresspad/kenshi-wiki/actions/runs/44943932928) measured 432.56 seconds inside validation: local build 99.70, focused editing 10.19, published build 98.58, browser 207.89, catalog 45.14 and dry run 1.21. Catalog/browser/dry-run run concurrently, so phase times must not be added to estimate total. 250 browser tests passed, two skipped; six local editing and 66 catalog tests passed. Warm-cache work accounted for 42.79 seconds within that catalog phase.
+## Evidence and controls
 
-That GitHub job took 493 seconds including setup. Dependency installation took 4 seconds, Chromium installation 34, artifact upload 3. Routine artifact size was 7,356,277 bytes. The exact-SHA release artifact was 57,775,111 bytes and stored packaged assets once. Windows component measurements and Ubuntu runner totals are distinct experiments; do not present their difference as a controlled speedup.
+Routine diagnostics last 14 days. Preview packages, smoke captures, publication receipts and explicit audit evidence last 90 days. The preview artifact stores packaged assets once, alongside checksums and reports; it does not duplicate dist. Publication stores only its receipt and live-check evidence.
 
-After measurements and the resulting PR check are recorded in the measured-results document. Selection tests cover documentation, content, shared rendering, preservation changes, moves/deletions, unknown dependencies and explicit audit/release modes. The policy PR itself takes the exhaustive path.
+PR checks receive read-only repository permissions and no deployment credentials. Only trusted main can upload. Production publication requires the environment approval, unchanged main and current deployment, a matching immutable version, exact source SHA/package annotation, and an available rollback version. Main keeps strict required checks, administrator enforcement and the existing review policy. Changing a workflow does not authorize an agent to approve production.
+
+The detailed local gap report and all pending editorial findings remain intact. Current-route validation blocks introduced regressions; it does not certify imported gameplay claims or close sourcing questions.
+
+## Measurements
+
+The earlier run [44943932928](https://github.com/mattresspad/kenshi-wiki/actions/runs/44943932928) took 493 seconds including setup; validation itself took 432.56 seconds. Its published browser phase was 207.89 seconds. Those are historical Ubuntu measurements, not a controlled estimate for this patch.
+
+Previously, a green PR run was followed by separately invoked exhaustive rehearsal/upload/HTTPS steps. This change makes the release continuation visible in GitHub and uses a focused six-test preview/live smoke suite instead of repeating every family test remotely. Every existing family test remains available in routine broad coverage and explicit audits. New run summaries and artifacts report measured timings; no speedup is claimed before those measurements exist.
