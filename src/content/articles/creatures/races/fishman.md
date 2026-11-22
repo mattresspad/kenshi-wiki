@@ -87,3 +87,4 @@ _These [Factions](/factions) have characters which can spawn as members of this 
 ## Trivia
 
 -   Fishmen have a single gender, which can be seen in the [FCS](/forgotten-construction-set).
+-   The Fishman race record was first made in the game's oldest data file, gamedata.base, and its values there differ from the ones the game uses: marked not playable, with speed values of 70 to 120 (now 65 to 75), a swim speed multiplier of 1 (now 5), 100 health on every body part and no experience multipliers. The later data files give it the Fish Head and its present values.

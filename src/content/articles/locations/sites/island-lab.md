@@ -30,6 +30,18 @@ _This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki
 
 Some [AI Cores](/ai-core) may be found here.
 
+## Inhabitants
+
+The King Gurgler lives in a building named "Ancient Lab" with his squad: 5 [Alpha Gurglers](/alpha-gurgler) and 24 [Gurglers](/gurgler). While he is alive, Fishmen patrols of 20 to 40 Gurglers and 0 to 3 Alpha Gurglers roam out from the lab.
+
+## Items
+
+The King Gurgler's building is stocked from the "Hi tech junk" and "abandoned house junk (hi-tech zone)" item lists in the [FCS](/forgotten-construction-set), plus [Grand Fish](/grand-fish) and [Thinfish](/thinfish). Around the lab lie [Gurgler Eggs](/gurgler-egg) and loot from the ancient lab ruins list, among [Prisoner Poles](/prisoner-pole), camp beds, campfires and torch posts.
+
+## Maps
+
+The Island Lab is one of the locations revealed by the [Old Treasure Map](/old-treasure-map) and the [Tech Hunters Map](/tech-hunters-map).
+
 ## Tips
 
 -   If you have a character with a high [assassination](/assassination) skill, you can stealth KO the [Fishmen](/fishmen) and remove their flesh (effectively killing them), then escape if they see you, and repeat.
