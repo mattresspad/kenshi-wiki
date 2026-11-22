@@ -4,7 +4,7 @@ import {load} from 'cheerio';
 import {buildCatalog,effectiveSnapshot,origin,categoryPath} from '../../src/lib/catalog.mjs';
 import {articleFiles,assetRedirects} from '../article-files.mjs';
 import {recordedSource,editableSource} from '../../src/lib/page-source.mjs';
-import {isIndexablePath} from '../../src/lib/utility-routes.mjs';
+import {isIndexablePath,contactEndpoints} from '../../src/lib/utility-routes.mjs';
 import {targetOf,regressions} from '../gaps/core.mjs';
 import {changedTargets,checkDuplicateIds} from './current-core.mjs';
 import {read,save} from '../release/common.mjs';
@@ -25,7 +25,7 @@ for(const path of atlas.local){
  local.set(path,{id:atlas.articles.get(path)?.id??'route:'+path,path,ids,links,media});
 }
 const changed=new Set(plan.kind==='broad'?[...atlas.local]:plan.articleIds.map(id=>atlas.byId.get(id).path));
-const affected=changedTargets(local,changed,redirects),registered=new Set([...atlas.local,...effectiveSnapshot.endpoints]);
+const affected=changedTargets(local,changed,redirects),registered=new Set([...atlas.local,...effectiveSnapshot.endpoints,...contactEndpoints]);
 const inherited=[],duplicateIds=[];
 for(const path of affected){
  const page=local.get(path),$=documents.get(path),article=atlas.articles.get(path);

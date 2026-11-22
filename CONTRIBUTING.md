@@ -18,7 +18,7 @@ In a local preview, **Copy file path** gives the actual editable file. Recorded 
 
 ## Reuse text and contribute assets
 
-Article edits follow the destination page’s recorded license; new original articles use CC BY-SA 4.0, and Fandom adaptations retain CC BY-SA 3.0. Independent website software contributions use MIT. Preserve source revisions, author credit, applicable license and change notices. [Licensing boundaries](LICENSING.md) and the [Copyright and permissions guide](https://kenshi.wiki/copyright-and-permissions) distinguish article text, software, quotations, source excerpts, artwork and dependencies.
+Article edits follow the destination pageâ€™s recorded license; new original articles use CC BY-SA 4.0, and Fandom adaptations retain CC BY-SA 3.0. Independent website software contributions use MIT. Preserve source revisions, author credit, applicable license and change notices. [Licensing boundaries](LICENSING.md) and the [Copyright and permissions guide](https://kenshi.wiki/copyright-and-permissions) distinguish article text, software, quotations, source excerpts, artwork and dependencies.
 
 When adding imported text, quotations, code or media, identify its creator and source, explain the basis for reuse (such as your authorship, a compatible license or specific permission), and retain necessary credits and the scope of any grant. If relying on a legal exception, identify the intended use for maintainer assessment rather than asserting blanket permission. A short source/rights note in the pull request is enough when the evidence is straightforward; ordinary typo and factual corrections need no additional rights declaration.
 
@@ -33,3 +33,5 @@ Send copyright concerns, permission evidence or sensitive correction details to 
 The [README](README.md#run-locally) covers the pinned Node version and local checks. For a code PR, describe the affected behavior and validation; include desktop/phone evidence for layout changes. Preserve accessibility, registered paths, source attribution and the gap register. Deployment is a separate maintainer approval; opening or merging a PR does not approve a production release. The [workflow guide](.github/workflows/README.md) explains the PR checks, preview, approval gate and read-only live recheck.
 
 Follow the [code of conduct](CODE_OF_CONDUCT.md). Report sensitive security concerns through [the private channel](SECURITY.md), not public issues.
+
+Private questions, corrections or proposed contributions can use [Contact Kenshi Wiki](https://kenshi.wiki/contact); copyright concerns have a [separate private form](https://kenshi.wiki/contact/copyright). Direct email remains available at admin@kenshi.wiki. Submissions follow the same review and licensing rules and do not automatically publish content.

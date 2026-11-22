@@ -20,6 +20,7 @@ const source=utilitySource(definition,entry.filePath,import.meta.env.WIKI_EDIT_B
   <h1 id="firstHeading" tabindex="-1">{entry.data.title}</h1>
   <div class="utility-lead" set:html={intro}/>
   <div class="utility-prose" set:html={body}/>
+  <slot/>
   <section class="import-history" data-pagefind-ignore>
    <h2 id="source-history" tabindex="-1">Sources and history</h2>
    {original ? <p>Original FreshWiki guidance maintained by Prd and the contributors recorded in this file’s repository history. This page is maintained separately from the imported article corpus.</p> : <p>Independent FreshWiki adaptation of the prototype page. Original writing and revisions by VlcekM, Prd and the recorded contributors remain available in its history. This utility is maintained separately from the imported article corpus.</p>}

@@ -15,7 +15,7 @@ if(utilityStage>=4){
   let content=$('article').first().clone();
   if(path==='/pages-needing-work')content=$('<section></section>').append($('.work-page>h1').clone(),$('.work-page>p').first().clone());
   assert.equal(content.length,1,path);
-  content.find('.import-history,.article-actions,.source-links,.work-note,.end-categories,.portal-indexes,script,nav').remove();
+  content.find('.import-history,.article-actions,.source-links,.work-note,.end-categories,.portal-indexes,[data-pagefind-ignore],form,script,nav').remove();
   const sourceHeading=content.find('#source-history');sourceHeading.nextAll().remove();sourceHeading.remove();
   content.attr('data-pagefind-body','');content.find('h1').first().attr('data-pagefind-meta','title');
   const document=load('<!doctype html><html lang="en"><head></head><body></body></html>');document('head').append(document('<title></title>').text(title));document('body').append(content);

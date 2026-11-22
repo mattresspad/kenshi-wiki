@@ -1,5 +1,5 @@
 import {utilityFiles} from './utility-files.mjs';
-import {proseUtilities,originalUtilities,utilitySource,historicalSourceRedirects,utilityStage} from '../src/lib/utility-routes.mjs';
+import {proseUtilities,originalUtilities,contactEndpoints,utilitySource,historicalSourceRedirects,utilityStage} from '../src/lib/utility-routes.mjs';
 import {readFileSync, existsSync, mkdirSync, writeFileSync} from 'node:fs';
 import path from 'node:path';
 import {articleFiles, assetRedirects as readRedirects} from './article-files.mjs';
@@ -121,6 +121,7 @@ for (const definition of originalUtilities) {
   record('utility',definition.path,{provenance:'original',disposition:'Added FreshWiki guidance; outside the frozen restoration inventory',editableFile:entry.filePath,sourceFile:entry.filePath,sourceRevision:'main',license:'4.0',evidence:utilitySource(definition,entry.filePath)});
 }
 for(const route of workRoutes)record('utility',route.path,{generated:true,noindex:route.path!=='/pages-needing-work'});
+for(const endpoint of contactEndpoints)routes.push({kind:'endpoint',path:endpoint,status:'preserved locally',method:'POST',disposition:'Private intake; local review uses simulated delivery; live intake remains disabled pending verification'});
 routes.push({kind:'endpoint',path:'/pages-needing-work/index.json',status:'preserved locally',generated:true});
 for (const r of snapshot.redirects) {
   const present = assetRedirects.some(rule => rule.from === r.from && rule.to === r.to && rule.status === r.status);

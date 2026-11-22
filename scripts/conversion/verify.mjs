@@ -1,3 +1,4 @@
+import {withoutVerifiedAcceptedText,acceptedTextRecords} from './accepted-text.mjs';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {load} from 'cheerio';
@@ -39,6 +40,7 @@ export function verifyFamily(name, atlas, assetRedirects) {
     }
     const expected=fixture.articles[id];
     comparableHtml=withoutVerifiedBookmarks(comparableHtml,declaredBookmarks.get(id)??{},expected.ids);
+    comparableHtml=withoutVerifiedAcceptedText(comparableHtml,name,id,expected);
     const proof=articleEvidence(comparableHtml,false,roster.layouts?.[id]??(name==='items'?'item':name==='buildings'?'building':name==='shops'?'shop':name==='gameplay'?'gameplay':name==='events'?'event':name==='lore'?'lore':['modding','pr44'].includes(name)?'modding':false));
     for(const key of Object.keys(expected)) assert.deepEqual(proof[key],expected[key],id+' — '+key);
     assert.deepEqual(record.categories,original.get(id).categories,id+' categories');
@@ -76,5 +78,5 @@ export function verifyFamily(name, atlas, assetRedirects) {
   }
   const unique=rows=>[...new Map(rows.map(row=>[row.from+' '+row.to,row])).values()];
   return {through:roster.batches[checkpoint.included-1]?.name??null,verified:actual.size,familyPages:familyPaths.size,redirects,headings,citationTargets,assets:assets.size,
-    emptyGalleries,unregisteredDestinations:unique(unknown),fragmentExceptions:unique(issues)};
+    acceptedText:[...actual].flatMap(id=>acceptedTextRecords(name,id)),emptyGalleries,unregisteredDestinations:unique(unknown),fragmentExceptions:unique(issues)};
 }

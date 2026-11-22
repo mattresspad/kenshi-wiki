@@ -3,6 +3,6 @@ import SearchPage from '../components/SearchPage.astro';
 import RandomPage from '../components/RandomPage.astro';
 import UtilityArticle from '../components/UtilityArticle.astro';
 import {activeUtilityPaths,proseUtilities} from '../lib/utility-routes.mjs';
-export function getStaticPaths(){return activeUtilityPaths.map(path=>({params:{utility:path.slice(1)},props:{pageId:path.slice(1)}}));}
+export function getStaticPaths(){return activeUtilityPaths.filter(path=>!proseUtilities.some(p=>p.path===path&&p.renderer==='contact')).map(path=>({params:{utility:path.slice(1)},props:{pageId:path.slice(1)}}));}
 ---
 {Astro.props.pageId==='search'?<SearchPage/>:Astro.props.pageId==='random'?<RandomPage/>:<UtilityArticle pageId={Astro.props.pageId}/>}
