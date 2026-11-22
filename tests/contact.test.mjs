@@ -1,7 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {handleContact,verifyTurnstile,emailFor} from '../src/worker/contact.mjs';
-import {contactConfiguration} from '../scripts/contact/package.mjs';
+import {contactConfiguration,packageContact} from '../scripts/contact/package.mjs';
+import {mkdtempSync,mkdirSync,copyFileSync,readFileSync,writeFileSync,rmSync} from 'node:fs';
+import {basename,dirname,join,resolve} from 'node:path';
+import {getWorkerBundleDir} from '@cloudflare/build-output-utils';
+import {Miniflare} from 'miniflare';
 import {buildCatalog} from '../src/lib/catalog.mjs';
 import {randomPaths} from '../src/lib/search-policy.mjs';
 const sample={kind:'general',topic:'correction',name:'Example contributor',email:'editor@example.invalid',affected:'/catun',message:'Please check the source. <script>test</script>',website:'',token:'valid'};
@@ -89,4 +93,45 @@ test('uncertain delivery keeps a safe client reference, never arbitrary header t
  const reference='KW-12345678-1234-4567-89ab-123456789012',s=services({deliver:async()=>{throw Error('not logged');}});
  const r=await handleContact(req(sample,{'X-Contact-Reference':reference}),env,s.options);assert.equal((await r.json()).reference,reference);
  const bad=await handleContact(req(sample,{'X-Contact-Reference':'editor@example.invalid'}),env,s.options);assert.notEqual((await bad.json()).reference,'editor@example.invalid');assert.doesNotMatch(JSON.stringify(s.logs),/editor@example/);
+});
+
+
+test('packaged Worker starts with the CLI upload entry name and keeps intake disabled',async()=>{
+ mkdirSync('reports',{recursive:true});
+ const root=mkdtempSync(resolve('reports/contact-package-'));
+ let runtime;
+ try {
+  for(const name of ['worker/index.mjs','worker/contact.mjs','contact/policy.mjs']){
+   const target=join(root,'src',name);mkdirSync(dirname(target),{recursive:true});copyFileSync(join('src',name),target);
+  }
+  const manifest=await packageContact(root),bundle=getWorkerBundleDir(root);
+  // cf beta.28 uploads the entry under basename(resolvedEntryPointPath).
+  // Test that upload shape, not Node's source-file resolution or our local harness.
+  const uploadEntry=basename(manifest.mainModule);
+  const modules=Object.fromEntries(Object.entries(manifest.modules).map(([name,definition])=>[
+   name===manifest.mainModule?uploadEntry:name,
+   {type:definition.type,contents:readFileSync(join(bundle,name),'utf8')}
+  ]));
+  const assets=join(root,'assets');mkdirSync(assets);
+  writeFileSync(join(assets,'index.html'),'<h1>Static asset remains available</h1>');
+  writeFileSync(join(assets,'404.html'),'<h1>Missing page</h1>');
+  writeFileSync(join(assets,'_redirects'),'/old / 301\n');
+  const config=contactConfiguration({});
+  assert.equal(config.CONTACT_ENABLED.value,'false');
+  assert.equal(config.CONTACT_MAIL.destinationAddress,'admin@kenshi.wiki');
+  // Deliberately omit mail and verification bindings. Disabled requests must not need them.
+  delete config.CONTACT_MAIL;
+  runtime=new Miniflare({host:'127.0.0.1',port:0,cf:false,enableDevRegistry:false,logRequests:false,
+   workers:[{config:{name:'contact-package-test',compatibilityDate:'2026-11-07',env:config,
+    manifest:{mainModule:uploadEntry,modulesRoot:bundle,modules},
+    assets:{directory:assets,hasUserWorker:true,runWorkerFirst:['/api/contact'],htmlHandling:'drop-trailing-slash',notFoundHandling:'404-page'}}}]
+  });
+  await runtime.ready;
+  assert.equal((await runtime.dispatchFetch('https://kenshi.wiki/api/contact')).status,405);
+  const disabled=await runtime.dispatchFetch('https://kenshi.wiki/api/contact',{method:'POST',headers:{origin:'https://kenshi.wiki','content-type':'application/json'},body:'{}'});
+  assert.equal(disabled.status,503);assert.match((await disabled.json()).error,/not accepting messages yet/);
+  const home=await runtime.dispatchFetch('https://kenshi.wiki/');assert.equal(home.status,200);assert.match(await home.text(),/Static asset remains available/);
+  assert.equal((await runtime.dispatchFetch('https://kenshi.wiki/old',{redirect:'manual'})).status,301);
+  for(const method of ['GET','HEAD'])assert.equal((await runtime.dispatchFetch('https://kenshi.wiki/nested/missing',{method})).status,404);
+ } finally {await runtime?.dispose();rmSync(root,{recursive:true,force:true});}
 });

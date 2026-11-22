@@ -54,7 +54,7 @@ Configuration is generated in `scripts/contact/package.mjs`:
 | `CONTACT_MAIL` | Email binding restricted to `admin@kenshi.wiki`. |
 | `CONTACT_ORIGIN` | Fixed `https://kenshi.wiki`; no wildcard or caller-selected origin. |
 
-Production packaging rejects simulation settings, local-preview markers and Turnstile dummy sitekeys. Missing enable/sitekey/secret configuration fails closed. The bundle contains only the three live Worker/policy modules.
+Production packaging rejects simulation settings, local-preview markers and Turnstile dummy sitekeys. Missing enable/sitekey/secret configuration fails closed. The bundle contains the three live Worker/policy modules and a root-level entry wrapper; it contains no simulation code.
 
 Before activating intake, a separately approved live verification must establish:
 
@@ -86,3 +86,12 @@ Local logs, the inherited-mismatch evidence and review captures are kept under `
 - Captures: 1440 × 900 and 390 × 844, both palettes, under `reports/contact/captures/`. The loopback preview uses port 4396.
 
 `reports/contact/inherited-build-mismatch.json` demonstrates that the unchanged main article causes the frozen text mismatch: reverting only PR #57's paragraph in memory reproduces the expected fingerprint. No article or preservation fixture was changed. See `reports/contact/README.md` for the individual local evidence files.
+
+
+### Preview upload follow-up — 22 November 2026
+
+PR #59 merged at `e1751790cf950a7e3bace27ef839f955b45b8c18`. Its [preview run](https://github.com/mattresspad/kenshi-wiki/actions/runs/45051972972) passed package preparation but Cloudflare rejected Worker startup (10021): the pinned cf beta.28 uploader names the entry by its basename, so the nested entry's `../contact/policy.mjs` import became invalid. The publish job was skipped. A successful dry run did not establish remote startup acceptance.
+
+Packaging now emits an `index.mjs` wrapper at the bundle root, preserving the live source modules and their relative imports. The regression test reconstructs the uploader's entry name in the Workers runtime; it reproduced the original error before the fix and checks startup, disabled intake, asset serving, redirects and GET/HEAD 404 responses afterward. It has no mail or verification binding. Source articles, form content and enable settings are unchanged.
+
+Live intake remains disabled. An HTTPS preview still requires a successful upload and the normal GitHub checks; these local checks do not claim that acceptance.

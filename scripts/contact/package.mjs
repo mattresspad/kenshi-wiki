@@ -1,4 +1,4 @@
-import {mkdir,copyFile} from 'node:fs/promises';
+import {mkdir,copyFile,writeFile} from 'node:fs/promises';
 import {join,dirname} from 'node:path';
 import {getWorkerBundleDir} from '@cloudflare/build-output-utils';
 import {CONTACT_RECIPIENT} from '../../src/contact/policy.mjs';
@@ -21,5 +21,9 @@ export async function packageContact(root){
     const destination=join(getWorkerBundleDir(root),name);await mkdir(dirname(destination),{recursive:true});
     await copyFile(join(root,'src',name),destination);
   }
-  return {type:'complete',mainModule:'worker/index.mjs',modules};
+  // cf uploads the entry using its basename. Keep that entry at the bundle root
+  // so the source modules retain their directory-relative imports.
+  await writeFile(join(getWorkerBundleDir(root),'index.mjs'),"export {default} from './worker/index.mjs';\n");
+  modules['index.mjs']={type:'esm'};
+  return {type:'complete',mainModule:'index.mjs',modules};
 }
