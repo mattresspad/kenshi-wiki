@@ -69,18 +69,18 @@ Do not put the underlying forwarding address into repository code, configuration
 
 References: [send bindings](https://developers.cloudflare.com/email-service/configuration/send-bindings/), [Workers email API](https://developers.cloudflare.com/email-service/api/send-emails/workers-api/), [Turnstile validation](https://developers.cloudflare.com/turnstile/get-started/server-side-validation/).
 
-## Checks and known inherited limitation
+## Checks and audit reconciliation
 
 `tests/contact.test.mjs` checks the actual handler, privacy, limits, hostile inputs, origins, fixed recipients, verification and package guards. `tests/contact.spec.mjs` uses the isolated local harness for both palettes and viewports, errors, focus, retries, duplicate clicks, no-JavaScript fallbacks, search scope and static routing.
 
-The existing CI selection policy and exhaustive assertions are retained. Current main's PR #57 changes the Guide to Health prose without updating its frozen conversion fingerprint. As a result, the exhaustive report invoked at the end of `npm run build` stops at `guide-to-health — text`. The contact work does not alter that article or silently rewrite the fingerprint. The standard production build stages and current-route checks can be validated independently through the existing routine-CI tools.
+The existing CI selection policy and exhaustive assertions are retained. PR #57 changed the Guide to Health prose after the frozen conversion. That accepted paragraph is now reconciled through [pinned acceptance evidence](../conversion/accepted-text.md): the audit verifies the exact approved text, then checks the unchanged remainder against the original fixture using an in-memory copy. The article and historical fixture are untouched; no gameplay finding is closed. The full conversion report now passes with zero introduced regressions.
 
-Local logs, the inherited-mismatch evidence and review captures are kept under `reports/contact/` (ignored). This is not a release acceptance or authorization to push.
+Local logs, the inherited-mismatch evidence and review captures are kept under `reports/contact/` (ignored). Live sending and production promotion still require their separate approval.
 
 ### Local validation result — 22 November 2026
 
 - Production build stages (identity, Astro, Pagefind and package): passed. Current-route audit checked 2,395 routes, 198 category indexes and registered search/sitemap agreement. Search contains 2,194 entries; article identities and category memberships are unchanged.
-- Catalog: 90 passed, including nine contact-handler groups and the warm-cache fixture. The two exhaustive-ledger tests could not run successfully because the inherited Guide to Health mismatch prevents generation of their required report. This is not recorded as a clean full-catalog result.
+- Initial catalog run: 90 passed, including nine contact-handler groups and the warm-cache fixture; two report-dependent tests were blocked. This historical result is retained. After the explicit PR #57 reconciliation, all 95 catalog tests pass, including the two previously blocked report tests and three new acceptance checks. The full conversion report records zero introduced regressions.
 - Browser: 42 distinct focused checks passed across the form and existing reader/navigation, permissions, utility and search suites. The final form pass also checks late verification callbacks, keyboard error links, expired verification and the email fallback. The former assets-only assertion now requires the exact three-module contact Worker and only `/api/contact` in `runWorkerFirst`.
 - Cloudflare package dry run: passed with the fixed admin recipient and `CONTACT_ENABLED=false`; no upload.
 - Captures: 1440 × 900 and 390 × 844, both palettes, under `reports/contact/captures/`. The loopback preview uses port 4396.

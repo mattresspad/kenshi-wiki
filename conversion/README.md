@@ -72,3 +72,7 @@ The [final family](remainder/README.md) completes all 2,184 frozen articles. Tra
 ## Completed category and utility navigation
 
 All 198 reader-facing category indexes are generated from the shared membership catalog. Utility prose has separate `pageId` records and loader-derived editable paths. See `utilities/README.md`, `utilities/sources.json` and `utilities/search-policy.json`. Final navigation retains intended local URLs for unresolved pages; absolute apex links are not prototype fallbacks. Search, random selection, sitemap and route audits use registered identities and shared indexability rules.
+
+## Accepted post-conversion text
+
+Approved changes are reconciled against frozen preservation evidence through [explicit, pinned acceptance records](accepted-text.md). PR #57 is the first paragraph replacement; its approved article text remains unchanged, and unrelated review findings stay open.
