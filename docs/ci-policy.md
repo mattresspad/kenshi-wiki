@@ -1,6 +1,6 @@
 # Checks, preview, approval and publication
 
-The GitHub release path is **PR checks → Staging preview → Prd's approval → publish the tested version**. Each stage has a named job and a summary. The production environment requires Prd's review and disables administrator bypass.
+The GitHub release path is **PR checks â†’ Staging preview â†’ Prd's approval â†’ publish the tested version**. Each stage has a named job and a summary. The production environment requires Prd's review and disables administrator bypass.
 
 ## Routine PR checks
 
@@ -20,7 +20,7 @@ The complete frozen conversion report and its report-dependent tests are **not**
 
 **Preview and publish** builds one final production package from main, checks its current routes and package, uploads an inactive version to `kenshi-wiki`, and performs focused HTTPS smoke checks. Its summary links the immutable preview and identifies the commit, version and package manifest checksum. Uploading a version does not change production traffic.
 
-The next job, **Approve and publish tested version**, waits at GitHub's protected production environment. Prd can open the preview and then use **Review deployments** in the same run. Publication selects that existing version; it neither builds nor uploads again. Short live checks follow. A failed preview blocks the approval job. A changed main commit or active deployment blocks publication until a new preview is reviewed.
+The next job, **Approve and publish tested version**, waits at GitHub's protected production environment. Prd can open the preview and then use **Review deployments** in the same run. Publication selects that existing version; it neither builds nor uploads again. Live HTTP delivery and content-parity checks follow. Browser interactions remain covered on the exact immutable version; the protected apex may challenge automated Chromium. A failed preview blocks the approval job. A changed main commit or active deployment blocks publication until a new preview is reviewed.
 
 The immutable preview's Cloudflare-level noindex header is separate from the production package's indexing policy. Using an inactive version of the production Worker is what allows preview and publication to use identical bytes. The optional staging alias is convenient, but approval and tests use the immutable URL.
 
@@ -46,3 +46,13 @@ The detailed local gap report and all pending editorial findings remain intact. 
 The earlier run [44943932928](https://github.com/mattresspad/kenshi-wiki/actions/runs/44943932928) took 493 seconds including setup; validation itself took 432.56 seconds. Its published browser phase was 207.89 seconds. Those are historical Ubuntu measurements, not a controlled estimate for this patch.
 
 Previously, a green PR run was followed by separately invoked exhaustive rehearsal/upload/HTTPS steps. This change makes the release continuation visible in GitHub and uses a focused six-test preview/live smoke suite instead of repeating every family test remotely. Every existing family test remains available in routine broad coverage and explicit audits. New run summaries and artifacts report measured timings; no speedup is claimed before those measurements exist.
+
+## Public-domain bot challenges
+
+Bot Fight Mode is enabled on kenshi.wiki. The first publication in run [44976997567](https://github.com/mattresspad/kenshi-wiki/actions/runs/44976997567/job/137069618397) succeeded, but five automated-browser checks received Cloudflare challenge pages; the HTTP check passed. That failed run and its diagnostic artifact remain evidence, not a passing release receipt.
+
+Keep all six preview tests, including desktop/phone browser interactions. After publication, run explicit live HTTP checks and compare seven representative HTML pages plus their script/style/index assets with the approved immutable version. HTML comparison removes only the final recognized Cloudflare JS Detection bootstrap and records that normalization. Other changes fail comparison; assets must match byte-for-byte. This does not claim automated browser acceptance on the apex or alter Cloudflare security settings.
+
+**Recheck live deployment** is a manual, read-only recovery check. Supply the active Worker version and its recorded source SHA. It verifies the deployment and source annotation, performs the scoped live checks, and confirms traffic did not change. It does not rebuild, upload or publish; the verification code SHA is recorded separately from the deployed source SHA. Use it after diagnosing a post-publication failure, rather than rerunning the publication job.
+
+Failures print the underlying smoke log and GitHub summary. Successful rechecks do not erase the original failure or its limited coverage.

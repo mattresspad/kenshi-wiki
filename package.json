@@ -39,7 +39,8 @@
     "ci:plan": "node scripts/ci/plan.mjs",
     "audit:check": "node scripts/ci/check.mjs --audit",
     "release:prepare": "node scripts/release/prepare.mjs",
-    "release:publish": "node scripts/release/promote.mjs"
+    "release:publish": "node scripts/release/promote.mjs",
+    "release:recheck": "node scripts/release/recheck-live.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",

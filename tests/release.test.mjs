@@ -85,3 +85,40 @@ test('promotion rejects stale commits, changed traffic, wrong versions and packa
  assert.throws(()=>assertVersionUrl(versionId,url+'?other=1'));
  assert.throws(()=>assertReleaseRun({},sourceSha,{githubOnly:true}));
 });
+
+import {assertLiveRecheck} from '../scripts/release/config.mjs';
+import {digest,withoutCloudflareDetection} from '../scripts/release/live-content.mjs';
+test('live content comparison removes only the final recognized Cloudflare detection bootstrap',()=>{
+ const script="(function(){function c(){var b=a.contentDocument;window.__CF$cv$params={r:'ray'};var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.createElement('iframe');}})();";
+ const original='<html><head><script>app()</script></head><body><main>Catun</main></body></html>';
+ const protectedHtml=original.replace('</body>','<script>'+script+'</script></body>');
+ assert.deepEqual(withoutCloudflareDetection(protectedHtml),{html:original,removed:1});
+ assert.deepEqual(withoutCloudflareDetection(original),{html:original,removed:0});
+ assert.notEqual(digest(withoutCloudflareDetection(protectedHtml.replace('Catun','Wrong page')).html),digest(original));
+ for(const inserted of ['<script>appChanged()</script>','<script>window.__CF$cv$params={};</script>','<div>unexpected</div>']){
+  const changed=original.replace('</body>',inserted+'</body>');
+  assert.equal(withoutCloudflareDetection(changed).html,changed);
+ }
+});
+test('read-only rechecks require the exact active version and source annotation',()=>{
+ const source='a'.repeat(40),id='12345678-1234-1234-1234-123456789abc';
+ const env={WIKI_EXPECTED_SHA:source,WIKI_VERSION:id};
+ const current={id:'deployment',versions:[{version_id:id,percentage:100}]};
+ const version={id,urls:['https://12345678-kenshi-wiki.prds.workers.dev'],annotations:{'workers/message':'FreshWiki '+source+' package '+'b'.repeat(64)}};
+ assert.equal(assertLiveRecheck(env,{current,version}).sourceSha,source);
+ assert.throws(()=>assertLiveRecheck({...env,WIKI_EXPECTED_SHA:'c'.repeat(40)},{current,version}));
+ assert.throws(()=>assertLiveRecheck(env,{current:{...current,versions:[{version_id:id,percentage:50}]},version}));
+ assert.throws(()=>assertLiveRecheck({...env,GITHUB_ACTIONS:'true',GITHUB_EVENT_NAME:'pull_request',GITHUB_REF:'refs/heads/main'},{current,version}));
+ const script=fs.readFileSync('scripts/release/recheck-live.mjs','utf8');
+ assert.ok(!script.includes("'deployments','create'"));assert.ok(!script.includes("'versions','create'"));assert.ok(!script.includes('await build'));
+});
+test('live recheck is an explicit trusted-main inspection with no publish step',()=>{
+ const workflow=parse(fs.readFileSync('.github/workflows/recheck-live.yml','utf8'));
+ assert.deepEqual(Object.keys(workflow.on),['workflow_dispatch']);
+ assert.equal(workflow.jobs.verify.if,"github.ref == 'refs/heads/main'");
+ const commands=workflow.jobs.verify.steps.map(s=>s.run).filter(Boolean);
+ assert.deepEqual(commands,['npm ci','npm run release:recheck']);
+ assert.equal(workflow.jobs.verify.environment,undefined);
+ for(const step of workflow.jobs.verify.steps)if(step.uses)assert.match(step.uses,/@[a-f0-9]{40}$/);
+ const config=fs.readFileSync('playwright.release.config.mjs','utf8');assert.ok(config.includes("'release-live.pw.mjs':'release-smoke.spec.mjs'"));
+});
