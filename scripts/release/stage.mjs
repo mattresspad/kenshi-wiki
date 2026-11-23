@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {withContactUploadSecrets,redactContactSecret,assertContactVersion} from '../contact/upload-secret.mjs';
 import {execFileSync,spawnSync} from 'node:child_process';
 import {resolve} from 'node:path';
 import assert from 'node:assert/strict';
@@ -17,12 +18,14 @@ const before=call('workers','deployments','list','--worker','kenshi-wiki').deplo
 assert.ok(before?.id);assert.equal(before.versions.length,1);assert.equal(before.versions[0].percentage,100);
 const rollback=before.versions[0].version_id;
 assert.equal(call('workers','versions','get',rollback,'--worker-id','kenshi-wiki').id,rollback,'Rollback version unavailable');
-const upload=spawnSync(process.execPath,[cf,'workers','versions','create','--prebuilt','--preview-alias','staging','--tag',candidate.sourceSha.slice(0,12),'--message','FreshWiki '+candidate.sourceSha+' package '+candidate.packageSha256],{encoding:'utf8',maxBuffer:32*1024*1024});
-fs.writeFileSync('reports/release/preview-upload.log',upload.stdout+upload.stderr);
+const {TURNSTILE_SECRET_KEY,...uploadEnv}=process.env;
+const upload=await withContactUploadSecrets(workers.default.config,process.env,secretArgs=>spawnSync(process.execPath,[cf,'workers','versions','create','--prebuilt','--preview-alias','staging','--tag',candidate.sourceSha.slice(0,12),'--message','FreshWiki '+candidate.sourceSha+' package '+candidate.packageSha256,...secretArgs],{encoding:'utf8',maxBuffer:32*1024*1024,env:uploadEnv}));
+fs.writeFileSync('reports/release/preview-upload.log',redactContactSecret((upload.stdout??'')+(upload.stderr??''),TURNSTILE_SECRET_KEY));
 assert.equal(upload.status,0,'Preview upload failed; see preview-upload.log');
 const version=(upload.stdout+upload.stderr).match(/(?:Worker |Current )?Version ID:\s*([0-9a-f-]{36})/i)?.[1];
 assert.match(version??'',/^[0-9a-f-]{36}$/);
 const details=call('workers','versions','get',version,'--worker-id','kenshi-wiki');
+save('reports/release/contact-bindings.json',assertContactVersion(workers.default.config,details));
 const url=details.urls.find(u=>new URL(u).hostname===version.slice(0,8)+'-kenshi-wiki.prds.workers.dev');
 assertVersionUrl(version,url);
 const after=call('workers','deployments','list','--worker','kenshi-wiki').deployments[0];
@@ -31,5 +34,5 @@ const record={sourceSha:candidate.sourceSha,worker:'kenshi-wiki',version,url,pac
 save('reports/release/staging.json',record);
 save('reports/release/rollback.json',{worker:'kenshi-wiki',version:rollback,command:'cf workers deployments create --worker kenshi-wiki --strategy percentage --versions '+JSON.stringify([{version_id:rollback,percentage:100}])});
 if(process.env.GITHUB_OUTPUT)fs.appendFileSync(process.env.GITHUB_OUTPUT,Object.entries({version,url,rollback,deployment:before.id,package:candidate.packageSha256}).map(([k,v])=>k+'='+v).join('\n')+'\n');
-if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'## Preview uploaded — smoke checks pending\n\n[Open staging preview]('+url+')\n\nCommit: `'+candidate.sourceSha+'`\n\nVersion: `'+version+'`\n\nProduction is unchanged. The next job requires Prd’s approval after smoke checks pass.\n');
+if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'## Preview uploaded â€” smoke checks pending\n\n[Open staging preview]('+url+')\n\nCommit: `'+candidate.sourceSha+'`\n\nVersion: `'+version+'`\n\nProduction is unchanged. The next job requires Prdâ€™s approval after smoke checks pass.\n');
 console.log('Preview uploaded: '+url+' (production unchanged; verification follows).');

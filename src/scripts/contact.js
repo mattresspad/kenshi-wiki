@@ -20,6 +20,7 @@ if(form){
   function resetVerification(){token='';send.disabled=true;if(widget!==null)window.turnstile?.reset(widget);}
   function initialize(){
     if(!form.dataset.sitekey){availability.textContent='The form is not accepting messages yet. Please email admin@kenshi.wiki using the link below.';return true;}
+    if(form.dataset.origin&&location.origin!==form.dataset.origin){availability.textContent='This preview does not send messages. Use the contact form on kenshi.wiki or email admin@kenshi.wiki.';return true;}
     if(!window.turnstile)return false;
     widget=window.turnstile.render('#contact-verification',{
       sitekey:form.dataset.sitekey,action:form.dataset.action,'response-field':false,

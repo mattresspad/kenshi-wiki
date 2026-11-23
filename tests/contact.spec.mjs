@@ -75,3 +75,15 @@ test('expired verification refreshes; blocked verification retains an email fall
  await expect(page.locator('#contact-send')).toBeDisabled();await expect(page.locator('#contact-availability')).toContainText('could not load',{timeout:15000});
  await expect(page.locator('main a[href="mailto:admin@kenshi.wiki"]').first()).toBeVisible();
 });
+
+test('an ordinary preview cannot submit even when the public sitekey is present',async({page})=>{
+ await page.route('**/__contact-preview/verification.js',route=>route.abort());
+ await page.route('**/contact',async route=>{
+  const response=await route.fetch();
+  const body=(await response.text()).replace(/data-origin="[^"]*"/,'data-origin="https://kenshi.wiki"');
+  await route.fulfill({response,body});
+ });
+ await page.goto(base+'/contact');
+ await expect(page.locator('#contact-availability')).toContainText('This preview does not send messages');
+ await expect(page.locator('#contact-send')).toBeDisabled();
+});

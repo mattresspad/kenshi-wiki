@@ -1,6 +1,6 @@
-# Private contact forms: settled local-review decisions
+# Private contact forms: settled decisions
 
-The local implementation provides [/contact](https://kenshi.wiki/contact) and [/contact/copyright](https://kenshi.wiki/contact/copyright) in the wiki frame. Publication and live intake are not enabled by this review. See [configuration and local review](contact-forms.md).
+The local implementation provides [/contact](https://kenshi.wiki/contact) and [/contact/copyright](https://kenshi.wiki/contact/copyright) in the wiki frame. The form pages are published. Enabling public submissions remains a separate, approved release. See [configuration and verification](contact-forms.md).
 
 - General messages cover questions, corrections and proposed contributions. The second form covers informal copyright, permission and removal concerns. Both represent Kenshi Wiki.
 - Required fields are reply email, topic and explanation; copyright concerns also require an affected URL/file. Name or preferred credit is optional. Text and links only, with no postal address, phone number, signature, legal declaration or publication consent requirement.
@@ -12,4 +12,4 @@ The local implementation provides [/contact](https://kenshi.wiki/contact) and [/
 - Acknowledgment emails to submitters are deferred until a separately reviewed outbound-sending setup. No paid plan is enabled here.
 - RuneScape Wiki's contact forms informed the user journey. Its company wording and formal declarations were not adopted.
 
-This pass uses a loopback-only harness with fake verification and delivery. **No email is sent.** Before live activation, verify the recipient restriction, sender-domain eligibility, real arrival through the admin forwarding rule, and Turnstile hostname/action enforcement. No account provisioning, publication or deployment is included.
+Routine local review uses a loopback-only harness with fake verification and delivery: **no email is sent**. Separately authorized real-service checks confirmed both Turnstile actions, rejection behavior and arrival through the deployed fixed-recipient email binding. Production-target builds use the verified public sitekey; the secret is supplied only during trusted version upload. Ordinary preview URLs cannot send. Prd’s existing GitHub production approval promotes the tested version; no private test gate is shipped.

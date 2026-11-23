@@ -43,3 +43,19 @@ test('deployed title search, full-text index and random navigation',async({page,
  await page.goto('/random');await expect(page).not.toHaveURL(/\/random$/);
  expect(pool).toContain(new URL(page.url()).pathname);
 });
+
+// Preview versions must never accept contact submissions or require real CAPTCHA
+// solving in automated checks. The reviewed version becomes usable only at the apex.
+test('contact preview has the production configuration and keeps sending unavailable',async({page,request})=>{
+ for(const route of ['/contact','/contact/copyright']){
+  await page.goto(route);
+  await expect(page.locator('#contact-form')).toHaveAttribute('data-origin','https://kenshi.wiki');
+  if(process.env.WIKI_RELEASE_TARGET==='production'||process.env.WIKI_RELEASE_VERIFY){
+   await expect(page.locator('#contact-form')).toHaveAttribute('data-sitekey',/^0x/);
+   await expect(page.locator('#contact-availability')).toContainText('This preview does not send messages');
+  }else await expect(page.locator('#contact-availability')).toContainText('not accepting messages yet');
+  await expect(page.locator('#contact-send')).toBeDisabled();
+ }
+ const response=await request.post('/api/contact',{headers:{Origin:'https://kenshi.wiki'},data:{}});
+ expect(response.status()).toBe(403);
+});
