@@ -21,7 +21,7 @@ export default {async fetch(request,env){
   const response=await env.ASSETS.fetch(request);
   if(['/contact','/contact/copyright'].includes(url.pathname)&&response.status===200){
     return new HTMLRewriter()
-      .on('#contact-form',{element(el){el.setAttribute('data-sitekey','local-preview');}})
+      .on('#contact-form',{element(el){el.setAttribute('data-sitekey','local-preview');el.setAttribute('data-origin',url.origin);}})
       .on('.contact-preview-note',{element(el){el.removeAttribute('hidden');el.setInnerContent('Local review: No email is sent. Verification and delivery are simulated. Use the preview scenario control to test failures.');}})
       .on('script[src]',{element(el){if(el.getAttribute('src').startsWith('https://challenges.cloudflare.com/turnstile/'))el.setAttribute('src','/__contact-preview/verification.js');}})
       .transform(response);

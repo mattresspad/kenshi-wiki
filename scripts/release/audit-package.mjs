@@ -1,3 +1,4 @@
+import {contactSettings} from '../../src/contact/config.mjs';
 import fs from 'node:fs';
 import {join} from 'node:path';
 import assert from 'node:assert/strict';
@@ -10,6 +11,11 @@ import {buildCatalog,effectiveSnapshot} from '../../src/lib/catalog.mjs';
 import {articleFiles} from '../article-files.mjs';
 export async function auditPackage(manifest){
  const {workers}=await readBuildOutput(process.cwd()),{config,assetsDir:root}=workers.default;
+ const contact=contactSettings({...process.env,WIKI_RELEASE_TARGET:manifest.target});
+ assert.equal(config.env.CONTACT_ENABLED.value,String(contact.enabled));
+ assert.equal(config.env.CONTACT_MAIL.destinationAddress,'admin@kenshi.wiki');
+ assert.equal(config.env.CONTACT_ORIGIN.value,contact.origin);
+ if(contact.enabled)assert.equal(config.env.TURNSTILE_SECRET_KEY.type,'secret');
  assert.equal(config.name,manifest.worker);assert.equal(config.assets.notFoundHandling,'404-page');
  const headers=fs.existsSync(join(root,'_headers'))?fs.readFileSync(join(root,'_headers'),'utf8'):'';
  const globalNoindex=/^\/\*\s*\r?\n\s*X-Robots-Tag:\s*noindex/im.test(headers);
@@ -20,6 +26,7 @@ export async function auditPackage(manifest){
   const path=file==='index.html'?'/':'/'+file.replaceAll('\\','/').slice(0,-5),$=load(fs.readFileSync(join(root,file),'utf8'));html++;
   if(path==='/404'){assert.equal($('link[rel=canonical]').length,0);assert.match($('meta[name=robots]').attr('content')??'',/noindex/);continue;}
   assert.equal($('link[rel=canonical]').attr('href'),'https://kenshi.wiki'+path,path);
+  if(['/contact','/contact/copyright'].includes(path)){assert.equal($('#contact-form').attr('data-sitekey'),contact.sitekey);assert.equal($('#contact-form').attr('data-origin'),contact.origin);}
   const robots=$('meta[name=robots]').attr('content')??'';if(isIndexablePath(path)){assert.ok(!robots.includes('noindex'),path);indexable++;}else assert.ok(robots.includes('noindex'),path);
   const edit=$('.wide-tools a').last().attr('href');assert.ok(edit?.startsWith('https://github.com/mattresspad/kenshi-wiki/edit/main/'),path);
   const actual=decodeURIComponent(new URL(edit).pathname.split('/edit/main/')[1]);assert.ok(fs.existsSync(actual),actual);edits++;

@@ -1,6 +1,6 @@
-# Contact forms: local review and configuration
+# Contact forms: configuration and verification
 
-This implementation is local review work based on `main` at `d3aa2e8a7f1f98577469d9516a6fd0aa278d1535`. It does not provision Cloudflare resources, send real messages or deploy the site.
+The forms use the existing static wiki frame and a small same-origin Worker handler. Public enablement follows the normal **PR checks → staging preview → Prd approval → publish tested version** workflow. Merging the enablement change does not promote production traffic.
 
 ## Reader routes
 
@@ -40,32 +40,28 @@ The browser creates an opaque reference so it can show one even when the respons
 
 No application submission copy, browser draft, public issue or private forwarding address is stored. The handler logs only reference, outcome/status and a fixed error code, never raw provider errors or message fields. Provider operational logs are separate from this application policy. Delivered correspondence remains in the maintainer's mailbox under its normal retention.
 
-## Later live configuration — not performed in this review
+## Public release configuration
 
-[Cloudflare's current pricing guidance](https://developers.cloudflare.com/email-service/platform/pricing/) permits Free-plan sending to verified destination addresses, including accounts using only Email Routing. The server-side binding is still necessary; Email Routing is not a browser form endpoint.
+The public sitekey and apex origin live in `src/contact/config.mjs`. Production-target builds enable intake by default; local/staging-target builds stay disabled. `WIKI_CONTACT_ENABLED=false` builds an explicit disabled package. The frontend and package use the same settings, so disabling a build also removes its widget key.
 
-Configuration is generated in `scripts/contact/package.mjs`:
+`TURNSTILE_SECRET_KEY` is a GitHub Actions secret for this repository. Only the trusted main preview job's early configuration check and upload step receive it. Builds, PR jobs, artifacts and the publication step do not receive the secret. The upload helper writes only this binding to a restricted temporary JSON file outside the artifact directories, uploads it with the inactive version, and deletes the file in `finally`, including on upload failure. Upload logs redact the supplied secret. The package contains the secret binding declaration, never its value.
 
-| Setting | Purpose |
-| --- | --- |
-| `WIKI_CONTACT_ENABLED=true` | Explicitly enable the packaged handler; omitted/false is disabled. |
-| `PUBLIC_TURNSTILE_SITE_KEY` | Public production sitekey, also present during Astro build. |
-| `TURNSTILE_SECRET_KEY` | Runtime secret binding; provision separately, never commit or place in artifacts. |
-| `CONTACT_MAIL` | Email binding restricted to `admin@kenshi.wiki`. |
-| `CONTACT_ORIGIN` | Fixed `https://kenshi.wiki`; no wildcard or caller-selected origin. |
+The mail binding remains restricted to `admin@kenshi.wiki`, with fixed sender `forms@kenshi.wiki`. The handler accepts only `https://kenshi.wiki` as its request origin and Turnstile hostname. Version-preview pages explain that they cannot send messages; the normal release preview does not accept contact requests. The existing production environment approval still promotes the exact tested version, without rebuilding.
 
-Production packaging rejects simulation settings, local-preview markers and Turnstile dummy sitekeys. Missing enable/sitekey/secret configuration fails closed. The bundle contains the three live Worker/policy modules and a root-level entry wrapper; it contains no simulation code.
+Cloudflare permits [Free-plan sending to verified destination addresses](https://developers.cloudflare.com/email-service/platform/pricing/). No paid activation or submitter acknowledgment is part of this implementation. Do not add the underlying forwarding destination to source, reports, screenshots or issues.
 
-Before activating intake, a separately approved live verification must establish:
+## Controlled verification evidence
 
-1. The fixed-address email binding is accepted for this account and cannot send to another destination.
-2. The fixed sender is eligible on the routing domain.
-3. A permitted test actually arrives through the admin forwarding rule.
-4. Real Turnstile verification enforces the apex hostname and both form actions, including expiry and failure behavior.
-5. A preview-host strategy is explicitly agreed if live integration testing will use a version URL: this implementation deliberately accepts the apex origin only.
-6. Operational observability retains no submitted contents or reply addresses.
+On 22 November 2026, the existing handler and policy at `a06fbc49658e7fce97cf3b6761d4f159954081c7` were checked against real Turnstile and the deployed email binding:
 
-Do not put the underlying forwarding address into repository code, configuration examples, screenshots or CI artifacts. Do not enable paid services or send tests as part of this local review.
+- Both `wiki_contact` and `wiki_copyright` succeeded through real Siteverify. Local checks rejected replay, invalid tokens, wrong action and wrong hostname.
+- The private inactive test version `fe17e38f-3620-408d-91ec-b49fa803e5c4` used an authenticated, expiring gate and the explicitly allowed test hostname. Its general form delivered through `CONTACT_MAIL`; Prd confirmed inbox receipt. The copyright check used real verification with simulated delivery and sent no second message.
+- Deployed invalid-token and wrong-origin checks returned 403. The public endpoint remained disabled with 503, and production remained on `708027c3-6ed9-4a60-885f-61f8bb32a0f5` at 100%.
+- The private test version is **not a release candidate and must never be promoted**. No private gate, access key, test hostname or simulation code enters the production package. Ignored local evidence is under `reports/contact-live/`.
+
+These checks establish the verified setup; they do not claim that the new public package is already deployed. The approved release still requires its normal package and HTTPS checks. Timed real-token expiry was not manually waited out; replay rejection and simulated browser expiry recovery are separate evidence.
+
+After promotion, check both public forms, the email alternative and failure behavior. Send further real verification messages only with explicit authorization. For recovery, use the version recorded by the release workflow; before the first public enablement this is the disabled version above. An explicit disabled package can also be prepared through the same approval workflow.
 
 References: [send bindings](https://developers.cloudflare.com/email-service/configuration/send-bindings/), [Workers email API](https://developers.cloudflare.com/email-service/api/send-emails/workers-api/), [Turnstile validation](https://developers.cloudflare.com/turnstile/get-started/server-side-validation/).
 
@@ -94,4 +90,4 @@ PR #59 merged at `e1751790cf950a7e3bace27ef839f955b45b8c18`. Its [preview run](h
 
 Packaging now emits an `index.mjs` wrapper at the bundle root, preserving the live source modules and their relative imports. The regression test reconstructs the uploader's entry name in the Workers runtime; it reproduced the original error before the fix and checks startup, disabled intake, asset serving, redirects and GET/HEAD 404 responses afterward. It has no mail or verification binding. Source articles, form content and enable settings are unchanged.
 
-Live intake remains disabled. An HTTPS preview still requires a successful upload and the normal GitHub checks; these local checks do not claim that acceptance.
+This historical startup failure was subsequently resolved and deployed through PR #60. The controlled verification above records the later real-service checks. Public intake remains disabled until the enablement release receives Prd’s production approval.

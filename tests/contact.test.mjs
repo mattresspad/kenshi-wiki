@@ -82,7 +82,7 @@ test('Siteverify requires success, exact hostname and action',async()=>{
 test('packaging rejects simulation and test keys; recipient restriction is fixed',()=>{
  assert.equal(contactConfiguration({}).CONTACT_MAIL.destinationAddress,'admin@kenshi.wiki');
  assert.equal(contactConfiguration({}).CONTACT_ENABLED.value,'false');
- for(const settings of [{WIKI_CONTACT_SIMULATION:'1'},{WIKI_CONTACT_MODE:'simulation'},{PUBLIC_CONTACT_SIMULATION:'true'},{PUBLIC_TURNSTILE_SITE_KEY:'1x00000000000000000000AA'},{WIKI_CONTACT_ENABLED:'true'},{PUBLIC_TURNSTILE_SITE_KEY:'local-preview'}])assert.throws(()=>contactConfiguration(settings));
+ for(const settings of [{WIKI_CONTACT_SIMULATION:'1'},{WIKI_CONTACT_MODE:'simulation'},{PUBLIC_CONTACT_SIMULATION:'true'},{PUBLIC_TURNSTILE_SITE_KEY:'1x00000000000000000000AA'},{WIKI_CONTACT_ENABLED:'true',PUBLIC_TURNSTILE_SITE_KEY:''},{PUBLIC_TURNSTILE_SITE_KEY:'local-preview'}])assert.throws(()=>contactConfiguration(settings));
 });
 test('contact utilities are registered without article or random identities',()=>{
  const atlas=buildCatalog();

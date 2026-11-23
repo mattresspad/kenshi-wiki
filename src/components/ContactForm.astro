@@ -1,12 +1,13 @@
 ---
 import {forms,fields} from '../contact/policy.mjs';
+import {contactSettings} from '../contact/config.mjs';
 import '../styles/contact.css';
 const {kind='general'}=Astro.props;
-const sitekey=import.meta.env.PUBLIC_TURNSTILE_SITE_KEY?.trim()||'';
+const {sitekey,origin}=contactSettings(process.env);
 ---
 <section class="contact-intake" data-pagefind-ignore>
   <div class="contact-preview-note" hidden></div>
-  <form id="contact-form" data-kind={kind} data-action={forms[kind].action} data-sitekey={sitekey} action="/api/contact" method="post" novalidate>
+  <form id="contact-form" data-kind={kind} data-action={forms[kind].action} data-sitekey={sitekey} data-origin={origin} action="/api/contact" method="post" novalidate>
     <div class="contact-result" id="contact-result" role="status" aria-live="polite" tabindex="-1" hidden></div>
     <p>Fields marked “required” are needed to send your message. Please include only the personal information necessary to handle it.</p>
     <label for="contact-topic">Topic (required)</label>
