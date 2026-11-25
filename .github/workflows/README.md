@@ -20,6 +20,7 @@ Merging a PR and approving production are separate decisions. Agents do not appr
 
 | Workflow | When to use it | Production effect |
 | --- | --- | --- |
+| [Maintenance mode](maintenance.yml) | Explicit On/Off control for a short maintenance window. [Operator guide](../../docs/maintenance.md). | Previews first; Prd approves either switch. Off restores the recorded live version without rebuilding. |
 | [Exhaustive audits](audits.yml) | Deliberate full conversion audits, or comprehensive release rehearsals with reproducibility checks. Select the mode and exact main commit. | No upload or publication. |
 | [Recheck live deployment](recheck-live.yml) | Inspect an already deployed version after diagnosing a failed live check. Supply its version ID and recorded source commit. | No build, upload or deployment. |
 

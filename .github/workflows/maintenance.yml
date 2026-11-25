@@ -1,0 +1,110 @@
+name: Maintenance mode
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: On shows the maintenance page; Off restores the saved live wiki
+        type: choice
+        required: true
+        options: ['on', 'off']
+permissions:
+  contents: read
+env:
+  ASTRO_TELEMETRY_DISABLED: '1'
+  WIKI_MAINTENANCE_ACTION: ${{ inputs.mode }}
+jobs:
+  prepare:
+    name: Prepare and check maintenance choice
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    concurrency:
+      group: wiki-maintenance-preview
+      cancel-in-progress: false
+    outputs:
+      noop: ${{ steps.plan.outputs.noop }}
+      url: ${{ steps.plan.outputs.url }}
+      plan_hash: ${{ steps.plan.outputs.plan_hash }}
+      artifact_name: ${{ steps.artifact.outputs.name }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: Install browser for maintenance preview
+        if: inputs.mode == 'on'
+        run: npm exec -- playwright install --with-deps chromium
+      - name: Record prepared artifact name
+        id: artifact
+        run: echo "name=maintenance-plan-${{ github.run_id }}-${{ github.run_attempt }}" >> "$GITHUB_OUTPUT"
+      - name: Prepare the exact version and verify it
+        id: plan
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: node scripts/maintenance/prepare.mjs
+      - name: Retain plan, crawl files, package and checks
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: ${{ steps.artifact.outputs.name }}
+          retention-days: 90
+          include-hidden-files: true
+          path: reports/maintenance
+      - name: Retain browser captures and diagnostics
+        if: always() && inputs.mode == 'on'
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: maintenance-browser-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 90
+          path: |
+            test-results
+            reports/release/browser.json
+  apply:
+    name: Approve and switch maintenance ${{ inputs.mode }}
+    needs: prepare
+    if: github.ref == 'refs/heads/main' && needs.prepare.outputs.noop == 'false'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    environment:
+      name: production
+      url: ${{ needs.prepare.outputs.url }}
+    concurrency:
+      group: wiki-production
+      cancel-in-progress: false
+    env:
+      WIKI_MAINTENANCE_PLAN_SHA256: ${{ needs.prepare.outputs.plan_hash }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131
+        with:
+          name: ${{ needs.prepare.outputs.artifact_name }}
+          path: reports/maintenance
+      - name: Apply the approved choice and check live responses
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: node scripts/maintenance/apply.mjs
+      - name: Retain switch and recovery receipt
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: maintenance-receipt-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 90
+          path: |
+            reports/maintenance/plan.json
+            reports/maintenance/receipt.json
+            reports/maintenance/recovery.json

@@ -1,3 +1,4 @@
+import {assertWikiVersion} from '../maintenance/policy.mjs';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
@@ -8,6 +9,7 @@ const call=(...args)=>JSON.parse(execFileSync(process.execPath,[cf,...args],{enc
 const response=await fetch('https://api.github.com/repos/mattresspad/kenshi-wiki/git/ref/heads/main',{headers:{Authorization:'Bearer '+env.GITHUB_TOKEN}});
 assert.ok(response.ok);const head=(await response.json()).object.sha;
 const current=call('workers','deployments','list','--worker','kenshi-wiki').deployments[0];
+assertWikiVersion(call('workers','versions','get',current.versions[0]?.version_id,'--worker-id','kenshi-wiki'));
 const version=call('workers','versions','get',env.WIKI_VERSION,'--worker-id','kenshi-wiki');
 assertPromotion(env,{sourceSha,head,current,version});
 assert.equal(call('workers','versions','get',env.WIKI_ROLLBACK_VERSION,'--worker-id','kenshi-wiki').id,env.WIKI_ROLLBACK_VERSION,'Rollback version unavailable');
