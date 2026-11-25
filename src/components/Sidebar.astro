@@ -19,7 +19,7 @@ const { kind, outline, href } = Astro.props;
     </nav>
     <nav class="maintenance-nav" aria-label="Contribute"><a href="/pages-needing-work">Pages needing work</a></nav>
   </div>
-  <div class="rail-base"><button class="settings-button" type="button" id="settings-button" aria-expanded="false" aria-controls="settings-panel">Sidebar settings <span aria-hidden="true">⌃</span></button>
+  <div class="rail-base"><button class="settings-button" type="button" id="settings-button" aria-expanded="false" aria-controls="settings-panel">Sidebar settings <svg class="settings-indicator" width="8" height="8" viewBox="0 0 8 8" fill="currentColor" aria-hidden="true" focusable="false"><path d="M1 0L7 4L1 8Z"/></svg></button>
     <div id="settings-panel" class="settings-panel" hidden><fieldset><legend>Open article contents</legend>
       {[['folded','Folded'],['headings','Headings'],['subsections','Headings and subsections']].map(([val,label])=><label><input type="radio" name="outline" value={val} checked={val==='headings'}/>{label}</label>)}
     </fieldset></div>

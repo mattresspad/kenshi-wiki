@@ -52,7 +52,7 @@ const correction=correctionLink(origin+article.path);
     {importedGeography && <ImportedHistory {article}/>}
     <WorkNote {wiki} articleId={article.id}/>
     <div lang="en" class="source-links"><a href={source.markdown}>Recorded Markdown</a><a href={history}>Article revision history</a><a href={correction}>Suggest a correction to this article</a></div>
-    <nav lang="en" id="catlinks" class="end-categories" aria-label="Page categories"><span id="mw-normal-catlinks">{categories.length ? (categories.length===1?'Category':'Categories') : ''}</span>
+    <nav lang="en" class="end-categories" aria-label="Page categories"><span>{categories.length ? (categories.length===1?'Category':'Categories') : ''}</span>
       {categories.map(name=><a href={href(categoryPath(name))}>{name}</a>)}</nav>
   </article></div>
   <script>import '../scripts/sort-table.js'; import '../scripts/bookmarks.js';</script>
