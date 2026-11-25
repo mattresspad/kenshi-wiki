@@ -82,9 +82,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 }
 .rail-scroll { grid-row: 1 / 3; min-height: 0; min-width: 0; overflow: auto; overscroll-behavior: contain; padding: 0 13px 14px 17px }
 .masthead { margin: 0 0 9px; min-height: 163px; color: var(--text); text-decoration: none; display: flex; flex-direction: column; align-items: center; justify-content: center }
-.masthead span:first-child { font: 600 38px/1 "STIX Two Text", Cambria, Georgia, serif; letter-spacing: -.05em }
-.masthead span:last-child { display: flex; align-items: center; gap: 7px; color: var(--heading-link); margin-top: 5px; font-size: 13px; font-weight: 650; letter-spacing: .17em; text-transform: uppercase }
-.masthead span:last-child::before, .masthead span:last-child::after { content: ""; height: 1px; width: 20px; background: var(--brass) }
+.masthead img { display: block; width: 135px; max-width: 100%; height: auto; object-fit: contain }
 .rail h2 { margin: 0 0 6px; padding: 0 0 5px; border-bottom: 1px solid var(--edge); color: var(--quiet); font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase }
 .rail-navigation a, .topic-tree summary { border: 1px solid var(--edge); border-radius: 2px; background: var(--cell); text-decoration: none }
 .shortcuts { display: grid; grid-template-columns: 1fr 1fr; gap: 4px }
@@ -118,6 +116,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .reading:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px }
 .intro { display: grid; grid-template-columns: minmax(148px,16%) minmax(0,1fr); gap: 16px; align-items: center; min-height: 76px }
 .intro h1 { margin: 0; color: var(--text); font: 600 clamp(28px,2.4vw,36px)/1.1 "STIX Two Text", Cambria, Georgia, serif; letter-spacing: -.04em }
+.home-wordmark { display: block; width: 100%; max-width: 180px; height: auto; margin-inline: auto }
 .intro-copy { text-align: center }
 .intro-copy p { margin: 0; padding: 2px 0 6px; font-size: 16px; font-weight: 550; line-height: 1.4; text-wrap: pretty }
 .intro-copy nav { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); border-top: 1px solid var(--strong) }
@@ -130,8 +129,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .topic:last-child { border-bottom: 0 }
 .thumbnail {
   display: block; width: 64px; height: 64px; border: 1px solid var(--strong); border-radius: 1px;
-  background: repeating-linear-gradient(140deg,transparent 0 7px,var(--hatch) 7px 8px),var(--tile);
+  background: var(--tile); object-fit: cover;
 }
+.thumbnail.cutout { object-fit: contain; padding: 3px; background: transparent }
 .topic-body { min-width: 0 }
 .topic h3 { margin: 0 0 2px; font-size: 16px; font-weight: 650; line-height: 23px }
 .topic h3 a { color: var(--heading-link) }
@@ -173,7 +173,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
   body.drawer-open { overflow: hidden }
   .reading { overflow: visible; padding: 16px 16px 22px }
   .intro { display: block; min-height: 0 }
-  .intro h1 { display: grid; place-items: center; height: 59px; margin-bottom: 11px; font-size: 31px; text-align: center }
+  .intro h1 { display: grid; place-items: center; min-height: 59px; margin-bottom: 11px; font-size: 31px; text-align: center }
   .intro-copy p { padding: 3px 0 8px; font-size: 17px; line-height: 1.4 }
   .intro-copy nav { grid-template-columns: repeat(2,minmax(0,1fr)) }
   .intro-copy nav a { min-height: 32px }

@@ -6,7 +6,7 @@ const { kind, outline, href } = Astro.props;
 ---
 <aside class="rail" id="left-navigation" aria-label="Wiki sidebar">
   <div class="rail-scroll" id="rail-scroll">
-    <a href="/" class="masthead" aria-label="Kenshi Wiki main page"><span>Kenshi</span><span>Wiki</span></a>
+    <a href="/" class="masthead" aria-label="Kenshi Wiki main page"><img src="/kenshi-logo.png" width="135" height="135" alt="Kenshi Wiki"/></a>
     <nav class="rail-navigation" aria-labelledby="primary-title"><h2 id="primary-title">Navigation</h2>
       <div class="shortcuts"><a href="/" aria-label="Main page" title="Main page" aria-current={kind==='home'?'page':undefined}><Icon name="home"/></a><a href={href('/random')} aria-label="Random page" title="Random page"><Icon name="dice"/></a></div>
       <div class="primary-links">{['Gameplay','Guides','Modding'].map(t=><a href={href('/'+t.toLowerCase())}>{t}</a>)}</div>
