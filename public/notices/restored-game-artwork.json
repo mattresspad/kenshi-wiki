@@ -1,0 +1,143 @@
+{
+  "sourceRepository": "https://github.com/mattresspad/kenshi-wiki",
+  "sourceRevision": "83abc179fafa63b826d7f2662c4a18a134a9e6c1",
+  "sourceNotice": "public/notices/artwork.txt",
+  "assets": [
+    {
+      "path": "public/images/kenshi/main-page/basics.webp",
+      "sourceFile": "public/images/kenshi/main-page/basics.webp",
+      "gitBlob": "31842e26a9af0ee21076e5fdbb54c9b5ed9b5189",
+      "sha256": "cf583b5dc0a1220d55fcf317b23efac43991c0b068c1c66ea1163c6b7c5e81ae",
+      "bytes": 10504,
+      "placement": "Home topic: Basics"
+    },
+    {
+      "path": "public/images/kenshi/main-page/gameplay.webp",
+      "sourceFile": "public/images/kenshi/main-page/gameplay.webp",
+      "gitBlob": "70d5c1efcef71891868dc67ee0b5dd739610ce57",
+      "sha256": "70c0e296de6bdb82c0ac342ffe6cedf2ee9fd6d7ddefd09711b801a02edf2137",
+      "bytes": 14748,
+      "placement": "Home topic: Gameplay"
+    },
+    {
+      "path": "public/images/kenshi/main-page/extras.webp",
+      "sourceFile": "public/images/kenshi/main-page/extras.webp",
+      "gitBlob": "93f539307e9b89e4c8081e962d8b6dc4214f0bb0",
+      "sha256": "994e17d4934fe3e00ed3a784d00732681e426381c94462b58a2e805246fb6377",
+      "bytes": 8536,
+      "placement": "Home topic: Extras"
+    },
+    {
+      "path": "public/images/kenshi/main-page/skills.webp",
+      "sourceFile": "public/images/kenshi/main-page/skills.webp",
+      "gitBlob": "dd01c5b658490e3d932e9748dcbd6e565f37b715",
+      "sha256": "e023078a5e41b9b69f6fe5dbc68a9e0cbf56e5e12f6629362994592d35781f42",
+      "bytes": 12022,
+      "placement": "Home topic: Skills"
+    },
+    {
+      "path": "public/images/kenshi/main-page/world.webp",
+      "sourceFile": "public/images/kenshi/main-page/world.webp",
+      "gitBlob": "ca540eeab066dcda8f60c7ea4d74b318953aeca6",
+      "sha256": "67394dfd94904abb9925db6fcb419685b1ac97bc0e8521dca169b2abeb918d58",
+      "bytes": 8598,
+      "placement": "Home topic: World"
+    },
+    {
+      "path": "public/images/kenshi/main-page/gear.png",
+      "sourceFile": "public/images/kenshi/main-page/gear.png",
+      "gitBlob": "60218517d9b51588c11fb729e0a27abd6f30b0be",
+      "sha256": "0ae5c646bb42f78d155f70f7b1f2b1df04926bd978adb570ab66759ae88d1947",
+      "bytes": 10374,
+      "placement": "Home topic: Gear"
+    },
+    {
+      "path": "public/images/kenshi/main-page/armour.png",
+      "sourceFile": "public/images/kenshi/main-page/armour.png",
+      "gitBlob": "32bcecf7bd8f407789027ef0725ac370e558d36a",
+      "sha256": "297c045d6b9d550db992df3ae8d796652d3aba3f7f201797ff1a7be0b3b0ba09",
+      "bytes": 55565,
+      "placement": "Home topic: Armour"
+    },
+    {
+      "path": "public/images/kenshi/main-page/resources.webp",
+      "sourceFile": "public/images/kenshi/main-page/resources.webp",
+      "gitBlob": "0fcd4957e21bf9bd29b69ab6cf2d83c0ca7fb671",
+      "sha256": "81c929ac3095a8ae86b5c28ff7d03cb7961aadf796982b33834fffd83b5aec60",
+      "bytes": 11590,
+      "placement": "Home topic: Resources"
+    },
+    {
+      "path": "public/images/kenshi/main-page/technology.webp",
+      "sourceFile": "public/images/kenshi/main-page/technology.webp",
+      "gitBlob": "a2325afa993c768b74cca124eb5394d9c147fdd2",
+      "sha256": "84278e483c71e1bfe6c0da73a6bdbfb3b4726c6e340acda736bce8d23ab5c438",
+      "bytes": 13132,
+      "placement": "Home topic: Technology"
+    },
+    {
+      "path": "public/images/kenshi/main-page/building.webp",
+      "sourceFile": "public/images/kenshi/main-page/building.webp",
+      "gitBlob": "2f2f91a16f0d8f8d54b3acead699ab85743eb362",
+      "sha256": "9c6dd6ee327309312cef368f6d8520a2cfa47f55ce9b10dfbbb0ae1c782df001",
+      "bytes": 15876,
+      "placement": "Home topic: Building"
+    },
+    {
+      "path": "public/images/kenshi/main-page/characters.webp",
+      "sourceFile": "public/images/kenshi/main-page/characters.webp",
+      "gitBlob": "aa9c0cb04de61ceb38faaa36615a40bfa506ffb1",
+      "sha256": "fd8d0f6f974203b92215a3275fe63dc8f004aa846f706e13f5977fd2826b0767",
+      "bytes": 12816,
+      "placement": "Home topic: Characters"
+    },
+    {
+      "path": "public/images/kenshi/main-page/races.webp",
+      "sourceFile": "public/images/kenshi/main-page/races.webp",
+      "gitBlob": "3c84f1cb46522457555f8f885c868941f933227d",
+      "sha256": "6b3a6f00669d7b39610117526b47b4593d46541dabd3d469ab889c8a26a2c2af",
+      "bytes": 14058,
+      "placement": "Home topic: Races"
+    },
+    {
+      "path": "public/images/kenshi/main-page/factions.webp",
+      "sourceFile": "public/images/kenshi/main-page/factions.webp",
+      "gitBlob": "6bd99f58579bbc90d3a6c7aa8f5d7efae14cab5e",
+      "sha256": "146a6ba571523ab21e0716c924621d118db72fc1222d704b627a35b7f0bb0e7b",
+      "bytes": 13892,
+      "placement": "Home topic: Factions"
+    },
+    {
+      "path": "public/images/kenshi/main-page/fauna.webp",
+      "sourceFile": "public/images/kenshi/main-page/fauna.webp",
+      "gitBlob": "7effc6a7c2b871ced226b2cb20ed44c6fc15626e",
+      "sha256": "c35926a2bee895849a6b7b3cd0ccc97ae9d59f884a6373ac6b7a032952dfe029",
+      "bytes": 13728,
+      "placement": "Home topic: Fauna"
+    },
+    {
+      "path": "public/kenshi-logo.png",
+      "sourceFile": "public/kenshi-logo.png",
+      "gitBlob": "6ad7290cd9593dd7d1ba179ab45dd76d26b6e6b8",
+      "sha256": "d4a74a1ecfebe0df113e94ca53515fcb56f886a4efd0604879ef1d02acf43bc1",
+      "bytes": 25483,
+      "placement": "Sidebar masthead"
+    },
+    {
+      "path": "public/kenshi-wordmark.png",
+      "sourceFile": "public/kenshi-wordmark.png",
+      "gitBlob": "619797fe64896f9587eb63f354f19cd8b52c6d70",
+      "sha256": "1ad41918ab02fbf12fb365645e151f0ccf5360d74489972d6fa53d821189cff8",
+      "bytes": 194563,
+      "placement": "Home heading"
+    },
+    {
+      "path": "public/favicon.ico",
+      "sourceFile": "public/favicon.ico",
+      "gitBlob": "378a310be76566346e0f1284d209f0c1c433d797",
+      "sha256": "cff2ecd79fe83027f03d89a964152ae257ec15c6f60d53972e91761425d710f7",
+      "bytes": 15406,
+      "placement": "Shared frame favicon"
+    }
+  ]
+}

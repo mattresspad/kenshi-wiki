@@ -32,7 +32,8 @@
               "label": "Events",
               "href": "/category/events"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/basics.webp"
         },
         {
           "id": "group-gameplay",
@@ -63,7 +64,8 @@
               "label": "Money",
               "href": "/cats"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/gameplay.webp"
         },
         {
           "id": "group-extras",
@@ -90,7 +92,8 @@
               "label": "Removed content",
               "href": "/category/removed-content"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/extras.webp"
         },
         {
           "id": "group-skills",
@@ -121,7 +124,8 @@
               "label": "Swimming",
               "href": "/swimming"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/skills.webp"
         },
         {
           "id": "group-world",
@@ -152,7 +156,8 @@
               "label": "World States",
               "href": "/world-states"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/world.webp"
         }
       ]
     },
@@ -188,7 +193,9 @@
               "label": "Crossbows",
               "href": "/category/crossbows"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/gear.png",
+          "cutout": true
         },
         {
           "id": "group-armour",
@@ -227,7 +234,9 @@
               "label": "Footwear",
               "href": "/footwear"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/armour.png",
+          "cutout": true
         },
         {
           "id": "group-resources",
@@ -258,7 +267,8 @@
               "label": "AI Core",
               "href": "/ai-core"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/resources.webp"
         },
         {
           "id": "group-technology",
@@ -285,7 +295,8 @@
               "label": "Cooking",
               "href": "/cooking"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/technology.webp"
         },
         {
           "id": "group-building",
@@ -324,7 +335,8 @@
               "label": "Copper",
               "href": "/copper"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/building.webp"
         }
       ]
     },
@@ -360,7 +372,8 @@
               "label": "Nobles",
               "href": "/category/nobles"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/characters.webp"
         },
         {
           "id": "group-races",
@@ -387,7 +400,8 @@
               "label": "Skeleton",
               "href": "/skeleton"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/races.webp"
         },
         {
           "id": "group-factions",
@@ -418,7 +432,8 @@
               "label": "Slave Traders",
               "href": "/slave-traders"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/factions.webp"
         },
         {
           "id": "group-fauna",
@@ -437,7 +452,8 @@
               "label": "Wildlife",
               "href": "/wildlife"
             }
-          ]
+          ],
+          "image": "/images/kenshi/main-page/fauna.webp"
         }
       ]
     }
