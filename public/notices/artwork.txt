@@ -77,3 +77,47 @@ Repository acknowledgement artwork
 Source: https://pindrop.gg/apple-touch-icon.png
 Recorded permission: https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/notices/artwork.txt
 SHA-256: d5ef4e2c0c33d79716880d2af4f81ec237405904e4b67ee1cc26936d120053ac
+
+Home artwork and wiki branding restoration — 25 November 2026
+
+The fourteen Home topic images, sidebar logo, Home wordmark and favicon are
+restored unchanged from prototype revision 83abc179fafa63b826d7f2662c4a18a134a9e6c1.
+Original filenames, Git blob IDs, SHA-256 checksums and placements are recorded
+in /notices/restored-game-artwork.json. This restores the recorded uses in the
+independently written frame; it does not reinstate the prototype's styling.
+
+public/images/kenshi/main-page/*.webp are 200-pixel square crops of screenshots
+from Lo-Fi Games' Kenshi press gallery, under:
+https://lofigames.com/wp-content/uploads/photo-gallery/
+  basics       Gameplay/1.jpg           resources    Gameplay/14.jpg
+  gameplay     Gameplay/captured.jpg    technology   Gameplay/3.jpg
+  extras       Gameplay/4.jpg           building     Gameplay/13.jpg
+  skills       Gameplay/2.jpg           characters   Gameplay/Capture5.png
+  world        Gameplay/capture6.jpg    races        Gameplay/screenshot_2896.jpg
+  factions     Gameplay/8.jpg           fauna        Gameplay/gorillos (1).jpg
+Source: https://lofigames.com/press/
+
+gear.png and armour.png in the same folder depict the game's Katana
+(476-gamedata.base) and Samurai Helmet (2145-gamedata.base), fitted to 200-pixel
+squares. The archived katana is diagonal; the helmet edges are clipped and
+faded. These preparations are retained unchanged.
+
+public/kenshi-wordmark.png was added by VlcekM in prototype commit 5a5eed9.
+public/kenshi-logo.png and public/favicon.ico arrived with the prototype in
+56200ac. The composite logo and favicon's exact origins remain unconfirmed;
+restoring their files does not settle those provenance questions.
+
+Kenshi and its game artwork belong to Lo-Fi Games. Other creators retain their
+respective rights. These images are separate from the website's MIT software
+license and the article text's Creative Commons licenses. This independent fan
+wiki does not claim endorsement by Lo-Fi Games.
+
+Prd reports contacting Lo-Fi Games about these uses. No response or additional
+permission is recorded at this restoration. Attribution, availability on another
+wiki and an unanswered request are not recorded as permission. Existing reuse
+questions remain open. Permission information or concerns can be sent privately
+through /contact/copyright or admin@kenshi.wiki; the maintainer can review a
+request to change credits, alter a use or remove material.
+
+Pinned source inventory:
+https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/notices/artwork.txt

@@ -24,6 +24,8 @@ See [Contributors](/contributors#licensing) and the repository’s [licensing bo
 
 A source record explains where material came from. A license or permission record explains the scope of an authorization. They are different: credit alone does not establish permission, and a missing permission record does not by itself establish infringement.
 
+For the restored Home images and wiki branding, Prd has contacted Lo-Fi Games; no response or additional permission is recorded. The [artwork inventory](/notices/artwork.txt) retains the sources, preparation details and open provenance questions.
+
 Some artwork records explicitly leave reuse terms unconfirmed. Those questions remain open; this guidance does not clear them or promise that every use has been resolved. Permission information is welcome at the contact address above. A grant for one file or purpose must not be extended to unrelated material or uses.
 
 Noncommercial operation, online availability and AI-assisted redrawing do not automatically establish permission. Applicable legal exceptions may matter for a particular use; there is no site-wide assertion that all wiki material is fair use. The [U.S. Copyright Office’s fair-use guidance](https://www.copyright.gov/fair-use/more-info.html) explains the case-specific assessment.

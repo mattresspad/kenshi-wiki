@@ -241036,13 +241036,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/armour.png"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "297c045d6b9d550db992df3ae8d796652d3aba3f7f201797ff1a7be0b3b0ba09",
+        "sourceSha256": "297c045d6b9d550db992df3ae8d796652d3aba3f7f201797ff1a7be0b3b0ba09"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/basics.webp",
@@ -241051,13 +241060,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/basics.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "cf583b5dc0a1220d55fcf317b23efac43991c0b068c1c66ea1163c6b7c5e81ae",
+        "sourceSha256": "cf583b5dc0a1220d55fcf317b23efac43991c0b068c1c66ea1163c6b7c5e81ae"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/building.webp",
@@ -241066,13 +241084,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/building.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "9c6dd6ee327309312cef368f6d8520a2cfa47f55ce9b10dfbbb0ae1c782df001",
+        "sourceSha256": "9c6dd6ee327309312cef368f6d8520a2cfa47f55ce9b10dfbbb0ae1c782df001"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/characters.webp",
@@ -241081,13 +241108,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/characters.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "fd8d0f6f974203b92215a3275fe63dc8f004aa846f706e13f5977fd2826b0767",
+        "sourceSha256": "fd8d0f6f974203b92215a3275fe63dc8f004aa846f706e13f5977fd2826b0767"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/extras.webp",
@@ -241096,13 +241132,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/extras.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "994e17d4934fe3e00ed3a784d00732681e426381c94462b58a2e805246fb6377",
+        "sourceSha256": "994e17d4934fe3e00ed3a784d00732681e426381c94462b58a2e805246fb6377"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/factions.webp",
@@ -241111,13 +241156,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/factions.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "146a6ba571523ab21e0716c924621d118db72fc1222d704b627a35b7f0bb0e7b",
+        "sourceSha256": "146a6ba571523ab21e0716c924621d118db72fc1222d704b627a35b7f0bb0e7b"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/fauna.webp",
@@ -241126,13 +241180,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/fauna.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "c35926a2bee895849a6b7b3cd0ccc97ae9d59f884a6373ac6b7a032952dfe029",
+        "sourceSha256": "c35926a2bee895849a6b7b3cd0ccc97ae9d59f884a6373ac6b7a032952dfe029"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/gameplay.webp",
@@ -241141,13 +241204,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/gameplay.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "70c0e296de6bdb82c0ac342ffe6cedf2ee9fd6d7ddefd09711b801a02edf2137",
+        "sourceSha256": "70c0e296de6bdb82c0ac342ffe6cedf2ee9fd6d7ddefd09711b801a02edf2137"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/gear.png",
@@ -241156,13 +241228,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/gear.png"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "0ae5c646bb42f78d155f70f7b1f2b1df04926bd978adb570ab66759ae88d1947",
+        "sourceSha256": "0ae5c646bb42f78d155f70f7b1f2b1df04926bd978adb570ab66759ae88d1947"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/races.webp",
@@ -241171,13 +241252,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/races.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "6b3a6f00669d7b39610117526b47b4593d46541dabd3d469ab889c8a26a2c2af",
+        "sourceSha256": "6b3a6f00669d7b39610117526b47b4593d46541dabd3d469ab889c8a26a2c2af"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/resources.webp",
@@ -241186,13 +241276,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/resources.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "81c929ac3095a8ae86b5c28ff7d03cb7961aadf796982b33834fffd83b5aec60",
+        "sourceSha256": "81c929ac3095a8ae86b5c28ff7d03cb7961aadf796982b33834fffd83b5aec60"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/skills.webp",
@@ -241201,13 +241300,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/skills.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "e023078a5e41b9b69f6fe5dbc68a9e0cbf56e5e12f6629362994592d35781f42",
+        "sourceSha256": "e023078a5e41b9b69f6fe5dbc68a9e0cbf56e5e12f6629362994592d35781f42"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/technology.webp",
@@ -241216,13 +241324,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/technology.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "84278e483c71e1bfe6c0da73a6bdbfb3b4726c6e340acda736bce8d23ab5c438",
+        "sourceSha256": "84278e483c71e1bfe6c0da73a6bdbfb3b4726c6e340acda736bce8d23ab5c438"
+      }
     },
     {
       "id": "media:/images/kenshi/main-page/world.webp",
@@ -241231,13 +241348,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/images/kenshi/main-page/world.webp"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "67394dfd94904abb9925db6fcb419685b1ac97bc0e8521dca169b2abeb918d58",
+        "sourceSha256": "67394dfd94904abb9925db6fcb419685b1ac97bc0e8521dca169b2abeb918d58"
+      }
     },
     {
       "id": "media:/images/kenshi/screenshot-1.jpg",
@@ -241336,13 +241462,22 @@
       "classification": "pending conversion",
       "origin": "inherited",
       "priority": "P2",
-      "verification": "source recorded",
-      "status": "open",
+      "verification": "Pinned file checksum verified; rendered placement covered by tests/game-artwork.spec.mjs.",
+      "status": "resolved",
       "finding": "Referenced media require source and local availability checks.",
       "proposedResolution": "Compare the pinned Markdown, original revision, aliases and related articles; retain unresolved classification where evidence is insufficient.",
-      "uncertainty": "Source presence alone does not establish correctness or completeness.",
-      "evidence": [],
-      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed."
+      "uncertainty": "Source presence alone does not establish correctness or completeness. Restoration establishes asset availability only. Permission, provenance and broader media-coverage questions remain open in the artwork notices.",
+      "evidence": [
+        "public/notices/restored-game-artwork.json",
+        "docs/game-artwork-restoration.md",
+        "https://github.com/mattresspad/kenshi-wiki/blob/83abc179fafa63b826d7f2662c4a18a134a9e6c1/public/kenshi-wordmark.png"
+      ],
+      "postCutover": "Restore credited media where verified. Preserve useful alternative text; original media coverage remains unassessed.",
+      "resolution": {
+        "method": "local media matches pinned file SHA-256",
+        "sha256": "1ad41918ab02fbf12fb365645e151f0ccf5360d74489972d6fa53d821189cff8",
+        "sourceSha256": "1ad41918ab02fbf12fb365645e151f0ccf5360d74489972d6fa53d821189cff8"
+      }
     },
     {
       "id": "media:/notices/artwork.txt",
