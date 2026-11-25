@@ -41,6 +41,8 @@
     "release:prepare": "node scripts/release/prepare.mjs",
     "release:publish": "node scripts/release/promote.mjs",
     "release:recheck": "node scripts/release/recheck-live.mjs",
+    "maintenance:prepare": "node scripts/maintenance/prepare.mjs",
+    "maintenance:apply": "node scripts/maintenance/apply.mjs",
     "preview:contact": "node scripts/preview.mjs --contact"
   },
   "dependencies": {

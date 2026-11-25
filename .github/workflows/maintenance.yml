@@ -47,7 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-        run: node scripts/maintenance/prepare.mjs
+        run: npm run maintenance:prepare
       - name: Retain plan, crawl files, package and checks
         if: always()
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
@@ -97,7 +97,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-        run: node scripts/maintenance/apply.mjs
+        run: npm run maintenance:apply
       - name: Retain switch and recovery receipt
         if: always()
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
