@@ -42,3 +42,7 @@ FreshWiki is already default main and is live. The protected archive/initial-pro
 At this workflow-change baseline, production serves `46e70484-2705-4aea-8a5f-8f1c165ccae9`. Its preserved package ZIP checksum is `b87b1a7adc72fdda32230579916266b0f6c543735da226c1eef5865543fa0a5c`. This historical reference does not replace the deployment snapshot taken for each new preview.
 
 MIT covers independently written software. Article prose, evidence, artwork and dependencies retain their separate terms. Inherited gaps and pending editorial reviews remain honest post-launch work; introduced regressions and unsupported resolution claims remain blockers. Publication of this workflow does not close any editorial finding.
+
+## Maintenance guard
+
+The manual [Maintenance mode workflow](../../.github/workflows/maintenance.yml) uses the same production approval environment and deployment concurrency group. Ordinary publication refuses to replace an active maintenance version. Use **Off** to restore its recorded wiki, then prepare any newer release. See the [operator and recovery guide](../../docs/maintenance.md).

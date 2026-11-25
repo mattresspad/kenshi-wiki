@@ -52,3 +52,7 @@ Documented inherited gaps may remain for later work. Introduced conversion error
 **PR checks → staging preview → Prd’s approval → publish the tested version**, all in GitHub Actions. After merge, **Preview and publish** builds once, uploads an inactive version, tests its immutable preview and waits for the protected production-environment approval. Publication uses that exact version without rebuilding; live smoke checks follow.
 
 Routine checks select appropriate coverage from the PR diff. Exhaustive conversion audits and full reproducibility rehearsals remain available in the separate **Exhaustive audits** workflow; they are not an offscreen step after every preview. Start with the [short workflow guide](.github/workflows/README.md). See [CI policy](docs/ci-policy.md) and [release and recovery](conversion/release/README.md) for detail. Production approval always remains with Prd.
+
+## Temporary maintenance
+
+[Maintenance mode](docs/maintenance.md) provides an explicit GitHub On/Off control with production approval. It preserves the live sitemap and records the exact wiki version to restore. Adding this workflow does not place the site into maintenance.
