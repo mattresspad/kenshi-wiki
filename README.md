@@ -4,13 +4,16 @@ A community wiki for [Kenshi](https://lofigames.com/), built with static Astro a
 
 ## Contributors and licenses
 
-| Contributor | Work |
-| --- | --- |
-| [Prd (mattresspad)](https://github.com/mattresspad) | Founder, project lead and maintainer; design, navigation, deployment and editorial direction. |
-| [teppuM](https://github.com/teppuM) | Editing, repeatable game testing, Blender guidance and Meitou code-mod documentation. |
-| [VlcekM](https://github.com/VlcekM) | Original Astro prototype and editing; proposed RimWorld Wiki as that prototype's presentation model. |
+<!-- Add up to four contributors per table row, then start another row. -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/mattresspad"><img src="https://avatars.githubusercontent.com/u/138346001?s=72" width="36" height="36" alt=""><br><strong>Prd</strong></a><br><sub>Project lead · Design · Deployment</sub></td>
+    <td align="center"><a href="https://github.com/teppuM"><img src="https://avatars.githubusercontent.com/u/74569890?s=72" width="36" height="36" alt=""><br><strong>teppuM</strong></a><br><sub>Editing · Game testing · Guides</sub></td>
+    <td align="center"><a href="https://github.com/VlcekM"><img src="https://avatars.githubusercontent.com/u/84700611?s=72" width="36" height="36" alt=""><br><strong>VlcekM</strong></a><br><sub>Prototype architecture · Editing</sub></td>
+  </tr>
+</table>
 
-The Fandom contributors and other authors retain the credit recorded on each article. See [Contributors](https://kenshi.wiki/contributors), [FreshWiki history](https://github.com/mattresspad/kenshi-wiki/commits/main/) and [the prototype history](https://github.com/mattresspad/kenshi-wiki/commits/archive/initial-prototype/). teppuM's [Skeleton Repair Bed/Robotics observations](https://github.com/mattresspad/kenshi-wiki/pull/8) and [code-mod hooks contribution](https://github.com/mattresspad/kenshi-wiki/pull/44) retain their original evidence and adaptation history.
+Fandom contributors and other authors retain the credit recorded on each article. [Contributors](https://kenshi.wiki/contributors) · [FreshWiki history](https://github.com/mattresspad/kenshi-wiki/commits/main/) · [Prototype history](https://github.com/mattresspad/kenshi-wiki/commits/archive/initial-prototype/) · [teppuM’s testing evidence](https://github.com/mattresspad/kenshi-wiki/pull/8) · [Code-mod hooks contribution](https://github.com/mattresspad/kenshi-wiki/pull/44).
 
 Independent application code, styling, scripts, tests and configuration use [MIT](LICENSE). Original article text uses [CC BY-SA 4.0](public/notices/CC-BY-SA-4.0.txt); Fandom adaptations retain [CC BY-SA 3.0](public/notices/CC-BY-SA-3.0.txt). Read [licensing boundaries](LICENSING.md), [artwork notices](public/notices/artwork.txt) and [Copyright and permissions](https://kenshi.wiki/copyright-and-permissions). Permission information and private copyright concerns can be sent to [admin@kenshi.wiki](mailto:admin@kenshi.wiki). Fonts and dependencies keep their own terms. The archived prototype's Vector, MediaWiki and RimWorld credits remain historical and are not relicensed as MIT.
 
