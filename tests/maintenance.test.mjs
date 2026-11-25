@@ -89,3 +89,21 @@ test('GitHub requires explicit main dispatch, protected approval, shared deploym
   }));
   await assert.rejects(()=>verifyMode('https://kenshi.wiki',plan,fixtureSnapshot,async()=>new Response('Challenge',{status:403,headers:{'cf-mitigated':'challenge'}})));
  });
+
+
+test('both maintenance workflow entrypoints load through npm before enforcing the GitHub guard',async()=>{
+ const {spawnSync}=await import('node:child_process');
+ const {npm}=await import('../scripts/release/common.mjs');
+ const workflow=parse(fs.readFileSync('.github/workflows/maintenance.yml','utf8'));
+ const scripts=JSON.parse(fs.readFileSync('package.json','utf8')).scripts;
+ for(const phase of ['prepare','apply']){
+  const command='maintenance:'+phase;
+  assert.equal(scripts[command],'node scripts/maintenance/'+phase+'.mjs');
+  assert.ok(workflow.jobs[phase].steps.some(step=>step.run==='npm run '+command));
+  const env={...process.env,GITHUB_ACTIONS:'false'};delete env.npm_execpath;
+  const run=spawnSync(process.execPath,[npm,'run',command],{env,encoding:'utf8',timeout:30000});
+  assert.equal(run.status,1);
+  assert.match(run.stderr,/Remote maintenance actions run only in GitHub/);
+  assert.doesNotMatch(run.stderr,/MODULE_NOT_FOUND|Cannot find module/);
+ }
+});
