@@ -93,7 +93,7 @@ test('Modding portal, category and accepted Blender contribution can be followed
     expect(await main.locator('a[href="'+href+'"]').count()).toBeGreaterThan(0);
   }
   await expect(main.getByRole('link',{name:'original contribution'})).toHaveAttribute('href',new RegExp(accepted.contribution));
-  await page.locator('.end-categories').getByRole('link',{name:'Modding',exact:true}).click();
+  await page.locator('.context-cats').getByRole('link',{name:'Modding',exact:true}).click();
   await expect(page.locator('[data-member]')).toHaveCount(effectiveSnapshot.articles.filter(a=>a.categories.includes('Modding')).length);
   for (const {article} of accepted.edits) {
     await expect(page.locator('[data-member="'+article+'"]')).toHaveAttribute('href',(acceptedArticleIds.has(article.slice(1))?'':origin)+article);

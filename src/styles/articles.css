@@ -3,6 +3,8 @@
 .ui-glyph { margin-inline-end: .32em }
 .meitou-icon { margin-inline-end: 5px; object-fit: contain }
 :root[data-theme=light] .glyph-moon, :root[data-theme=dark] .glyph-sun { display: none }
+.context-row { position: relative }
+.category-bookmark { position: absolute; inset-block-start: 0; inset-inline-start: 0; width: 1px; height: 1px; pointer-events: none }
 .context-cats { display: flex; align-self: stretch; align-items: center; gap: 2px; padding: 0 5px; border-right: 1px solid var(--edge) }
 .context-cats a { padding: 5px 6px; text-decoration: none }
 .context-more { display: none }
@@ -34,7 +36,7 @@
 .factbox dl { display: grid; grid-template-columns: auto minmax(0,1fr); gap: 3px 14px; margin: 0; font-size: 14px }
 .article-sheet dt { color: var(--quiet); font-weight: 600 }
 .article-sheet dd { margin: 0 }
-.article-actions, .end-categories { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 14px; font-size: 14px }
+.article-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 14px; font-size: 14px }
 .article-actions { margin: 9px 0 12px }
 .facility-list { display: grid; gap: 3px 24px; grid-template-columns: repeat(3,minmax(0,1fr)); max-width: 78ch; margin: 8px 0 15px; padding-left: 21px }
 .facility-list li::marker, .article-sheet ol li::marker { color: var(--heading-link) }
@@ -63,7 +65,7 @@
 .article-sheet figure a { display: block; width: fit-content; max-width: 100% }
 .article-sheet figure img { display: block; max-width: 100%; height: auto; border: 1px solid var(--edge) }
 .article-sheet figcaption { font-size: 14px; margin-top: 5px; color: var(--quiet) }
-.end-categories { margin: 18px 0 0; padding-block: 9px; border-block: 1px solid var(--edge) }
+.end-categories { display: none }
 .end-categories > span { font-weight: 650; color: var(--quiet) }
 @media (max-width:1150px) { .context-cats { display: none } }
 @media (max-width:760px) {
@@ -92,6 +94,7 @@
   .top,.rail,.scrim,.skip-to,.article-actions { display: none }
   .frame,.reading,.article-sheet { display: block; height: auto; overflow: visible; padding: 0 }
   .foot { margin-top: 14px }
+  .end-categories { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 14px; font-size: 14px; margin: 18px 0 0; padding-block: 9px; border-block: 1px solid var(--edge) }
   .article-sheet :is(figure,pre,tr) { break-inside: avoid }
 }
 

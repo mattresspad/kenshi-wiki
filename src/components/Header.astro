@@ -25,7 +25,8 @@ const current = kind === 'home' ? '/' : '#firstHeading';
     <nav class="wide-tools" aria-label="Wiki tools"><Tools {edit} {history} {recent} {href}/></nav>
     <details class="pop small-tools" id="tools"><summary>Wiki tools</summary><div class="menu-list"><Tools {edit} {history} {recent} {href} compact/></div></details>
   </div>
-  <div class="context-row">
+  <div class="context-row" id={kind==='article'?'catlinks':undefined}>
+    {kind==='article' && <span id="mw-normal-catlinks" class="category-bookmark" aria-hidden="true"></span>}
     <button type="button" class="tab drawer-button" id="toggle-navigation" aria-controls="left-navigation" aria-expanded="false">
       <span class="split-icon" aria-hidden="true"></span>Navigation</button>
     <a class:list={['tab','page-tab',{'article-context':kind!=='home'}]} href={current} aria-current="page">

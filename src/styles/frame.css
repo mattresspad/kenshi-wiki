@@ -105,6 +105,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .rail a:hover, .rail summary:hover, .rail button:hover { background-color: var(--hover) }
 .rail-base { grid-row: 3; min-width: 0; position: relative; border-top: 1px solid var(--edge); background: var(--chrome) }
 .settings-button { min-height: 34px; height: 100%; width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 4px 11px 4px 17px; border: 0; font-size: 13px; color: var(--link); background: transparent; text-align: left }
+.settings-indicator { flex: none; transform: rotate(0deg) }
+.settings-button[aria-expanded="true"] .settings-indicator { transform: rotate(90deg) }
 .settings-panel { position: absolute; bottom: 100%; left: 0; right: 0; padding: 10px; border: 1px solid var(--strong); background: var(--pop); box-shadow: 0 -3px 9px var(--shade); font-size: 13px }
 .settings-panel fieldset { margin: 0; padding: 0; border: 0 }
 .settings-panel legend { font-weight: 650; margin-bottom: 5px }
@@ -142,6 +144,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 }
 .link-pair a:hover, .link-pair a:focus-visible { background-color: var(--hover); text-decoration: underline; transition-duration: 0ms }
 .foot { grid-area: foot; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 18px; min-height: 35px; border-top: 1px solid var(--edge); background: var(--chrome); color: var(--quiet); padding: 5px 15px; font-size: 12px; line-height: 1.45 }
+.foot a { text-decoration: none }
+.foot a:hover, .foot a:focus-visible { color: var(--heading-link) }
 .licenses, .foot nav { display: flex; align-items: center; flex-wrap: wrap; gap: 3px 14px }
 .foot nav { margin-left: auto }
 @media (min-width:761px) and (max-width:1120px) {
