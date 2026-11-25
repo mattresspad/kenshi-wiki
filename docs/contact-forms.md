@@ -2,6 +2,16 @@
 
 The forms use the existing static wiki frame and a small same-origin Worker handler. Public enablement follows the normal **PR checks → staging preview → Prd approval → publish tested version** workflow. Merging the enablement change does not promote production traffic.
 
+## Operational status — 25 November 2026
+
+Public intake was enabled through [PR #61](https://github.com/mattresspad/kenshi-wiki/pull/61). The normal wiki package contains both forms and the production delivery configuration. The dated verification records below preserve the earlier pre-launch state; they are not a statement that enablement is still pending.
+
+**Prd has placed the wiki in maintenance mode.** While that version serves traffic, form pages and `/api/contact` are unavailable with HTTP 503, and no form submission is processed. Direct email to `admin@kenshi.wiki` remains available. Merging this follow-up does not turn maintenance off or change live traffic.
+
+The latest approved **Maintenance mode** workflow receipt and the active maintenance version's saved return annotation identify the actual recovery version. Follow the [maintenance guide](maintenance.md) to restore it with Prd's approval. Off restores the wiki that was live when maintenance began, rather than the newest commit on main. Publish subsequent fixes through the ordinary preview/approval workflow after restoring the wiki; that workflow rejects publication over an active maintenance version.
+
+The existing evidence confirms actual general-form inbox receipt and real verification with simulated copyright-form delivery. This client-loading follow-up does not send another test email, change mail bindings or add acknowledgment emails. New package checks use simulated services; repeat real delivery testing only when needed and explicitly authorized.
+
 ## Reader routes
 
 - `/contact`: questions, corrections and proposed contributions.
@@ -23,6 +33,8 @@ npm run preview:contact -- --host 127.0.0.1 --port 4396
 Open the two reader routes. The banner says **No email is sent.** The scenario control exercises acceptance, failed verification, unavailable verification and uncertain delivery. All ordinary validation goes through the actual Worker handler. Only external verification and mail delivery are substituted.
 
 The harness runs on loopback only, removes remote mail/secret bindings and is never copied into the deployable bundle. It does not save or print submitted text. Use fictional values for review. A normal `npm run preview` leaves intake disabled.
+
+If verification has not loaded after ten seconds, the page shows the email alternative and keeps Send disabled. It continues listening for the script's load event: a late arrival initializes verification without reloading or losing the entered text. Initialization is guarded so polling and script loading cannot render a second widget.
 
 ## Runtime and privacy
 
@@ -59,7 +71,7 @@ On 22 November 2026, the existing handler and policy at `a06fbc49658e7fce97cf3b6
 - Deployed invalid-token and wrong-origin checks returned 403. The public endpoint remained disabled with 503, and production remained on `708027c3-6ed9-4a60-885f-61f8bb32a0f5` at 100%.
 - The private test version is **not a release candidate and must never be promoted**. No private gate, access key, test hostname or simulation code enters the production package. Ignored local evidence is under `reports/contact-live/`.
 
-These checks establish the verified setup; they do not claim that the new public package is already deployed. The approved release still requires its normal package and HTTPS checks. Timed real-token expiry was not manually waited out; replay rejection and simulated browser expiry recovery are separate evidence.
+At that checkpoint, these checks established the verified setup without claiming that the new public package was deployed. Later enablement followed PR #61; the current maintenance status is described above. Every release still requires its normal package and HTTPS checks. Timed real-token expiry was not manually waited out; replay rejection and simulated browser expiry recovery are separate evidence.
 
 After promotion, check both public forms, the email alternative and failure behavior. Send further real verification messages only with explicit authorization. For recovery, use the version recorded by the release workflow; before the first public enablement this is the disabled version above. An explicit disabled package can also be prepared through the same approval workflow.
 
@@ -90,4 +102,4 @@ PR #59 merged at `e1751790cf950a7e3bace27ef839f955b45b8c18`. Its [preview run](h
 
 Packaging now emits an `index.mjs` wrapper at the bundle root, preserving the live source modules and their relative imports. The regression test reconstructs the uploader's entry name in the Workers runtime; it reproduced the original error before the fix and checks startup, disabled intake, asset serving, redirects and GET/HEAD 404 responses afterward. It has no mail or verification binding. Source articles, form content and enable settings are unchanged.
 
-This historical startup failure was subsequently resolved and deployed through PR #60. The controlled verification above records the later real-service checks. Public intake remains disabled until the enablement release receives Prd’s production approval.
+This historical startup failure was subsequently resolved and deployed through PR #60. The controlled verification above records the later real-service checks. Public intake was still disabled at that checkpoint; enablement followed through PR #61 and remains separate from the current maintenance control.

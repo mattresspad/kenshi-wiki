@@ -36,5 +36,5 @@ const {sitekey,origin}=contactSettings(process.env);
   </form>
   <p class="contact-privacy">The form creates no public issue or application archive. Delivered correspondence remains in the maintainer’s mailbox under its normal retention. Sending does not publish a contribution, decide a claim or trigger removal.</p>
 </section>
-<script is:inline async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"></script>
+<script id="contact-turnstile-api" is:inline async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"></script>
 <script>import '../scripts/contact.js';</script>
