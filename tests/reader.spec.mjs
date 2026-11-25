@@ -57,7 +57,7 @@ for(const width of [1440,390]) test('article outline, source credits and evidenc
   const mobile=width<761;await page.setViewportSize({width,height:mobile?844:900});
   for(const route of ['/catun',saddle]){
     await page.goto(route);
-    const ids=await page.locator('main[id],main [id]').evaluateAll(xs=>xs.map(x=>x.id));
+    const ids=await page.locator('main[id],main [id],.context-row#catlinks,.context-row #mw-normal-catlinks').evaluateAll(xs=>xs.map(x=>x.id));
     expect(new Set(ids).size).toBe(ids.length);
     for(const id of baseline.bookmarks[route])expect(ids).toContain(id);
     const href=await page.getByRole('link',{name:'Suggest a correction',exact:true}).getAttribute('href');

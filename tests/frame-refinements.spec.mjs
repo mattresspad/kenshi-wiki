@@ -23,7 +23,7 @@ for(const phone of [false,true])for(const theme of ['light','dark'])test.describ
   await page.screenshot({path:info.outputPath('settings-open.png'),fullPage:false});
   await page.keyboard.press('Escape');await expect(button).toBeFocused();await expect(triangle).toHaveCSS('transform',identity);
   await button.press('Space');await expect(triangle).toHaveCSS('transform',rotated);
-  if(phone){await page.locator('#scrim').click({position:{x:350,y:100}});await expect(navigation).toBeFocused();await expect(button).toHaveAttribute('aria-expanded','false');await navigation.click();}
+  if(phone){await page.locator('#scrim').click({position:{x:350,y:100}});await expect(navigation).toBeFocused();await expect(page.locator('#settings-button')).toHaveAttribute('aria-expanded','false');await navigation.click();}
   await button.click();await expect(button).toHaveAttribute('aria-expanded',phone?'true':'false');
   if(phone){await page.keyboard.press('Escape');await page.keyboard.press('Escape');await expect(navigation).toBeFocused();}
   await expect(page.getByRole('navigation',{name:'Page categories',exact:true})).toHaveCount(0);
