@@ -87,3 +87,25 @@ test('an ordinary preview cannot submit even when the public sitekey is present'
  await expect(page.locator('#contact-availability')).toContainText('This preview does not send messages');
  await expect(page.locator('#contact-send')).toBeDisabled();
 });
+
+test('verification arriving after the timeout recovers once without losing the draft',async({page})=>{
+ let release;
+ const delayed=new Promise(resolve=>{release=resolve;});
+ await page.route('**/__contact-preview/verification.js',async route=>{await delayed;await route.continue();});
+ try{
+  await page.goto(base+'/contact',{waitUntil:'domcontentloaded'});
+  await page.locator('#contact-email').fill('editor@example.invalid');
+  await page.locator('#contact-message').fill('Keep this proposal while verification loads.');
+  await expect(page.locator('#contact-availability')).toContainText('could not load',{timeout:15000});
+  await expect(page.locator('#contact-send')).toBeDisabled();
+  release();
+  await expect(page.locator('#contact-send')).toBeEnabled();
+  await expect(page.locator('#contact-availability')).toHaveText('Verification ready.');
+  await expect(page.locator('#contact-email')).toHaveValue('editor@example.invalid');
+  await expect(page.locator('#contact-message')).toHaveValue('Keep this proposal while verification loads.');
+  await page.locator('#contact-turnstile-api').dispatchEvent('load');
+  await expect(page.locator('#preview-scenario')).toHaveCount(1);
+  await page.locator('#contact-send').click();
+  await expect(page.locator('#contact-result')).toContainText('Accepted for forwarding');
+ }finally{release();}
+});

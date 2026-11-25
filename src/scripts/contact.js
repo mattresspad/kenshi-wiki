@@ -19,6 +19,7 @@ if(form){
   }
   function resetVerification(){token='';send.disabled=true;if(widget!==null)window.turnstile?.reset(widget);}
   function initialize(){
+    if(widget!==null)return true;
     if(!form.dataset.sitekey){availability.textContent='The form is not accepting messages yet. Please email admin@kenshi.wiki using the link below.';return true;}
     if(form.dataset.origin&&location.origin!==form.dataset.origin){availability.textContent='This preview does not send messages. Use the contact form on kenshi.wiki or email admin@kenshi.wiki.';return true;}
     if(!window.turnstile)return false;
@@ -29,7 +30,17 @@ if(form){
       'error-callback':()=>{if(form.dataset.accepted==='true')return;token='';send.disabled=true;availability.textContent='Verification could not load. Please use the email alternative.';}
     });return true;
   }
-  let attempts=0;const timer=setInterval(()=>{if(initialize()||++attempts>=100){clearInterval(timer);if(attempts>=100)availability.textContent='Verification could not load. Please use the email alternative.';}},100);
+  let attempts=0,timer=null;
+  function initializeAvailable(){
+    if(!initialize())return false;
+    clearInterval(timer);timer=null;return true;
+  }
+  // Keep listening after the bounded polling window so a slow script can recover.
+  document.querySelector('#contact-turnstile-api')?.addEventListener('load',initializeAvailable,{once:true});
+  if(!initializeAvailable())timer=setInterval(()=>{
+    if(initializeAvailable())return;
+    if(++attempts>=100){clearInterval(timer);timer=null;availability.textContent='Verification could not load. Please use the email alternative.';}
+  },100);
   form.addEventListener('input',event=>{
     const field=event.target;
     if(!field.name||!field.checkValidity?.())return;
